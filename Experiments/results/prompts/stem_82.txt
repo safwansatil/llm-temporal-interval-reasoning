@@ -1,0 +1,62 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Maester Pycelle clutched the raven's scroll, his arthritic fingers trembling as he read the news from Winterfell—news that had been sent three days prior, though the raven had been waylaid by autumn storms over the Neck, meaning Lord Stark had already marched south with his bannermen two fortnights ago, a march Pycelle had explicitly advised against during the small council meeting last Tuesday, the same meeting where Littlefinger had casually mentioned that he'd seen Ser Jaime Lannister departing King's Landing for Casterly Rock exactly a week before that, which made no sense because Pycelle had personally dined with Jaime in the Red Keep's east tower just last night, or rather, the night before last, because the King's nameday feast had run so late that Pycelle had confused the date entirely, a confusion that was only compounded by the raven he'd received from Oldtown this very morning, informing him that the Citadel had confirmed the white raven's message about winter's arrival—a message they'd dispatched six moons ago, which meant the maesters had either been dreadfully slow or the seasons themselves were playing cruel tricks on the realm, though Pycelle suspected the truth was far simpler: Grand Maester Ebrose, who had visited King's Landing exactly one moon turn before Robert's Rebellion began, had always warned him that ravens carrying conflicting timestamps were the first sign of the Long Night's creeping influence, an influence Pycelle had dismissed as maester's folly until Lord Varys appeared in his chambers at the hour of the wolf, three hours past midnight, whispering that he'd received an identical scroll from a Qarthine trader who claimed he'd seen Daenerys Targaryen's dragons flying over the Dothraki Sea, a sighting that had supposedly occurred five weeks ago but the trader's ship had only just docked in Braavos yesterday afternoon, forcing Varys to send a replacement raven to Dragonstone, a raven that would take another four days to arrive, by which time Pycelle knew—with a sinking certainty that curdled his stomach—that the Lannister army, which had marched from the Golden Tooth at dawn this very day, would have already crossed the Trident and engaged the Stark forces in a battle that, according to the celestial calculations he'd completed last fortnight, wasn't supposed to happen until the next full moon.
+"""
+
+EVENTS (16 events):
+E1: Grand Maester Ebrose, who had visited King's Landing
+E2: the Citadel had confirmed the white raven's message about winter's arrival
+E3: Ser Jaime Lannister departing King's Landing for Casterly Rock
+E4: Lord Stark had already marched south with his bannermen
+E5: Pycelle had explicitly advised against
+E6: celestial calculations he'd completed
+E7: Pycelle had personally dined with Jaime
+E8: the King's nameday feast had run so late
+E9: Daenerys Targaryen's dragons flying over the Dothraki Sea
+E10: the trader's ship had only just docked in Braavos
+E11: Lord Varys appeared in his chambers
+E12: the raven he'd received from Oldtown
+E13: Maester Pycelle clutched the raven's scroll
+E14: the Lannister army, which had marched from the Golden Tooth
+E15: Varys to send a replacement raven to Dragonstone
+E16: news that had been sent three days prior,
+
+OUTPUT FORMAT
+Write the complete 16 x 16 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 16 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,92 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Dr. Alam had been running the village clinic single-handedly since its founding six years earlier. The clinic was a modest two-room facility constructed from a government grant he had secured during the last year of his medical training. It served roughly three thousand people spread across five villages, and Dr. Alam was the only qualified physician within a twenty-kilometer radius. He had been managing the workload with the help of a single nurse and a rotating group of volunteers since the beginning.
+
+The crisis began on a Monday in the middle of June. A fever outbreak spread through the southernmost village, affecting nearly forty people within the first three days. By Thursday, the number of patients had doubled. By the following Monday, the clinic was overwhelmed — the waiting area was full, the medicine cabinet was emptying, and Dr. Alam had not slept more than four hours a night for an entire week.
+
+He called the district health office on a Tuesday. The officer promised to send an additional doctor and medical supplies, but warned that the earliest availability would be the following week. Dr. Alam accepted this and continued working. He trained three volunteers from the affected village to perform basic triage, separating serious cases from mild ones. The volunteers began work on Wednesday and immediately eased some of the pressure.
+
+The supplies arrived on a Thursday, three days earlier than the officer had predicted. The additional doctor arrived the following Monday. Together, they worked through the remaining cases, and by the end of that week, the outbreak was contained. The final count showed one hundred and twelve patients treated, with zero fatalities.
+
+Dr. Alam slept for twelve hours on the first Saturday after the crisis ended. When he woke, he wrote a detailed report for the district office, including a request for a permanent second doctor. The request was approved three months later, during the second week of October. The new doctor started the following month, and Dr. Alam now has time to eat lunch. The outbreak had nearly broken him, but it had also given him the argument he needed to secure the resources his patients deserved.
+"""
+
+EVENTS (38 events):
+E1: Dr. Alam had been running the village clinic single-handedly since its founding six years earlier
+E2: The clinic was a modest two-room facility constructed from a government grant he had secured during the last year of his medical training
+E3: It served roughly three thousand people spread across five villages
+E4: Dr. Alam was the only qualified physician within a twenty-kilometer radius
+E5: He had been managing the workload with the help of a single nurse and a rotating group of volunteers since the beginning
+E6: The crisis began on a Monday in the middle of June
+E7: A fever outbreak spread through the southernmost village
+E8: affecting nearly forty people within the first three days
+E9: the number of patients had doubled
+E10: the clinic was overwhelmed
+E11: the waiting area was full
+E12: the medicine cabinet was emptying
+E13: Dr. Alam had not slept more than four hours a night for an entire week
+E14: He called the district health office on a Tuesday
+E15: The officer promised to send an additional doctor and medical supplies
+E16: warned that the earliest availability would be the following week
+E17: Dr. Alam accepted this
+E18: continued working
+E19: He trained three volunteers from the affected village to perform basic triage
+E20: separating serious cases from mild ones
+E21: The volunteers began work on Wednesday
+E22: immediately eased some of the pressure
+E23: The supplies arrived on a Thursday
+E24: three days earlier than the officer had predicted
+E25: The additional doctor arrived the following Monday
+E26: Together, they worked through the remaining cases
+E27: the outbreak was contained
+E28: The final count showed one hundred and twelve patients treated
+E29: with zero fatalities
+E30: Dr. Alam slept for twelve hours on the first Saturday after the crisis ended
+E31: When he woke
+E32: he wrote a detailed report for the district office
+E33: including a request for a permanent second doctor
+E34: The request was approved three months later
+E35: The new doctor started the following month
+E36: Dr. Alam now has time to eat lunch
+E37: The outbreak had nearly broken him
+E38: it had also given him the argument he needed to secure the resources his patients deserved
+
+OUTPUT FORMAT
+Write the complete 38 x 38 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 38 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

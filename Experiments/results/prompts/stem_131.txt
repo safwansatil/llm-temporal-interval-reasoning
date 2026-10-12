@@ -1,0 +1,63 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Priya watches the containment door seal in the Bhopal-adjacent lab, a sound identical to the one she heard the night the sample was first flagged, though the flagging, according to the log she's cross-referencing now, happened four hours after this exact seal, a seal that shouldn't have engaged until the WHO liaison in Geneva confirmed receipt of the genomic report, a report that was drafted the morning after the outbreak was contained, not before, despite the containment protocol explicitly requiring the report as a precondition. She recalls drafting that report at a desk in Delhi, interrupted by a call from the field team in Indore who'd just isolated a second cluster, a cluster whose existence wasn't confirmed until the courier carrying their samples reached the Delhi lab three days later, samples that, oddly, the Geneva liaison references in her acknowledgment of a report that hadn't yet incorporated Indore's findings, an acknowledgment timestamped the previous week. Priya remembers arguing with the field lead about this exact inconsistency, standing in a hallway that would be repurposed as a second containment zone once the original one, the one sealing shut in front of her right now, was deemed insufficient after an incident that occurred, per the incident log, the day before this expansion was approved, an approval that was itself contingent on data from the sample now sitting behind this door, sealed shut by a system that logged its own activation forty minutes before Priya submitted the flag that, according to every protocol she's ever trained on, should have triggered it in the first place. Somewhere down the hall, the courier from Indore is either just arriving or has already left, and Priya, watching the door, can no longer be certain which delivery this containment was built to receive.
+"""
+
+EVENTS (17 events):
+E1: Priya watches the containment door seal
+E2: she's cross-referencing now
+E3: the outbreak was contained
+E4: drafted the morning after
+E5: She recalls drafting that report
+E6: interrupted by a call from the field team in Indore
+E7: who'd just isolated a second cluster
+E8: the courier carrying their samples reached the Delhi lab three days later
+E9: an acknowledgment timestamped the previous week
+E10: Priya remembers
+E11: arguing with the field lead
+E12: would be repurposed as a second containment zone
+E13: was deemed insufficient
+E14: an incident that occurred
+E15: this expansion was approved
+E16: logged its own activation
+E17: Priya submitted the flag
+
+OUTPUT FORMAT
+Write the complete 17 x 17 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 17 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

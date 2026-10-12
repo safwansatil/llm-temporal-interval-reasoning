@@ -1,0 +1,70 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Courtroom — a trial's slow clock against the stenographer's instant one
+
+The stenographer wrote at the speed of speech and the court moved at the speed of adjournment. The case had been filed before her posting to this courtroom and would, everyone privately agreed, outlast it. Hearings came months apart and lasted minutes; her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase. The key witness had been deposed during that early phase, and died during the long middle; at the final arguments, both sides quoted her transcript of his words — the man existing now only at the speed of speech, preserved, while the proceeding that consumed him crawled on. The judge who heard the verdict was the fourth to preside; the first had been elevated, the second transferred, the third had retired during an adjournment, so that his entire tenure on the case fell between two hearings and he never heard a word of it. When the verdict came, the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years. The appeal was filed within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet.
+"""
+
+EVENTS (22 events):
+E1: The stenographer wrote at the speed of speech
+E2: the court moved at the speed of adjournment
+E3: The case had been filed
+E4: would, everyone privately agreed, outlast it
+E5: Hearings came months apart
+E6: lasted minutes
+E7: her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E8: The key witness had been deposed
+E9: died during the long middle
+E10: at the final arguments, both sides quoted her transcript of his words
+E11: the man existing now only at the speed of speech, preserved
+E12: the proceeding that consumed him crawled on
+E13: The judge who heard the verdict
+E14: the first had been elevated
+E15: the second transferred
+E16: the third had retired during an adjournment
+E17: his entire tenure on the case fell between two hearings
+E18: he never heard a word of it
+E19: the verdict came
+E20: the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years
+E21: The appeal was filed
+E22: within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet
+
+OUTPUT FORMAT
+Write the complete 22 x 22 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 22 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,65 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Rahul found his father's old guitar in the storage room during a house cleaning in the first week of April. The guitar had been untouched since his father's death four years earlier, and it was covered in dust, its strings rusted and its wooden body dulled by age. Rahul had never learned to play — his father had tried to teach him during his teenage years, but Rahul had been more interested in cricket and had refused the lessons.
+
+He took the guitar to a repair shop on a Saturday. The luthier, a man named Mr. Sen who had been repairing instruments for thirty-five years, examined it and said it could be restored. The work would take three weeks and cost more than Rahul had expected, but he agreed without hesitation.
+
+The guitar was ready during the last week of April. Mr. Sen had replaced the strings, polished the wood, and adjusted the bridge. The instrument looked almost new, and when Rahul strummed the strings, the sound was warm and resonant — the same sound he remembered from his childhood, drifting through the house while his father played in the evenings.
+
+Rahul enrolled in guitar lessons the following Monday. He practices for an hour each evening, and his teacher says he is progressing quickly. His mother sometimes sits in the room while he plays, and Rahul has noticed that she closes her eyes and smiles, as if listening to someone else. He is not as good as his father was, but he is improving. The guitar that sat silent for four years now fills the house with music again, and that feels like a form of resurrection.
+"""
+
+EVENTS (13 events):
+E1: his father's death
+E2: his father had tried to teach him
+E3: Rahul had been more interested in cricket
+E4: had refused the lessons
+E5: found his father's old guitar
+E6: took the guitar to a repair shop
+E7: agreed
+E8: replaced the strings
+E9: polished the wood
+E10: adjusted the bridge
+E11: strummed the strings
+E12: enrolled in guitar lessons
+E13: practices for an hour each evening
+
+OUTPUT FORMAT
+Write the complete 13 x 13 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 13 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

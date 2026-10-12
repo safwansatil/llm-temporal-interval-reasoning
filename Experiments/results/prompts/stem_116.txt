@@ -1,0 +1,67 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Naib barricaded the pharmacy's back door with the same shelving unit he remembered dragging into place three days from now, a memory that unsettled him less than the radio chatter looping the evacuation order twice — once as a warning issued last Tuesday before the first confirmed case, and once as a recording replayed tonight from a transmitter tower that had, according to the survivors from the northern checkpoint, already gone dark the previous week. He'd met Rima at the overpass the morning after the quarantine line moved south, though she insisted their first meeting happened at the stadium during the outbreak's second week, a claim that made sense only if the stadium shelter, since collapsed in the fire two nights ago, was somehow still standing when she said it — a fire that had, in the official log kept by the checkpoint captain, started the night before it was reported. The captain himself was currently sweeping the west wing for stragglers, unaware that his own death, witnessed by three separate survivors at three separate times, had been logged inconsistently enough that the relief convoy still listed him as commanding the very post he'd abandoned the previous dawn, after hearing gunfire from a direction that wouldn't see fighting until the following afternoon. Naib's brother had called from the coastal safehouse before the lines went down permanently last month, describing a scene — bodies stacked along the pier — that matched exactly what Naib was now walking past, except this pier was inland, in a city his brother had never visited, and the call, he now realized, checking the timestamp scratched into his notebook, hadn't been received yet.
+"""
+
+EVENTS (21 events):
+E1: Naib barricaded the pharmacy's back door
+E2: dragging into place three days from now
+E3: a warning issued last Tuesday
+E4: the first confirmed case
+E5: a recording replayed tonight
+E6: already gone dark the previous week
+E7: He'd met Rima at the overpass
+E8: the quarantine line moved south
+E9: their first meeting happened at the stadium
+E10: collapsed in the fire two nights ago
+E11: started the night before
+E12: it was reported
+E13: was currently sweeping the west wing
+E14: he'd abandoned the previous dawn
+E15: hearing gunfire
+E16: wouldn't see fighting until the following afternoon
+E17: Naib's brother had called from the coastal safehouse
+E18: the lines went down permanently last month
+E19: Naib was now walking past
+E20: he now realized
+E21: hadn't been received yet
+
+OUTPUT FORMAT
+Write the complete 21 x 21 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 21 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

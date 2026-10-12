@@ -1,0 +1,75 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+By the time Rafi pushed the final commit from the mezzanine floor, the demo judges were already two tables over, though technically the judging round wouldn't begin until after the lunch break that had been pushed earlier because the sponsor's flight landed ahead of schedule the previous night, a night Rafi had spent debugging the auth module in the stairwell since the main hall's wifi kept dropping — a problem traced back to the router misconfiguration from the setup crew's dry run three days prior, the same dry run where his teammate Nusrat first sketched the matching algorithm on a napkin, an idea she'd actually had months earlier during finals week, shelved until the hackathon's theme reveal made it relevant again. He remembered her calling from the cafe across town, voice cutting out, right as he was still in the venue basement chasing a database migration error that wouldn't surface until the following morning's stress test, a test that, in hindsight, explained the crash their prototype suffered during last year's competition, the one held in the building now being renovated a floor below them. Their third teammate, Tanvir, had missed the opening ceremony entirely, stuck at the airport after a delay caused by weather that wouldn't actually hit the city until that evening, arriving instead just as the mentors were doing rounds — rounds that included a pointed question about the fallback logic Rafi had written hastily after Nusrat's napkin idea got vetoed once, then reinstated an hour later when the vetoing mentor left early for a flight connecting through the same layover city Tanvir had been stranded in.
+"""
+
+EVENTS (29 events):
+E1: Rafi pushed the final commit
+E2: the demo judges were already two tables over
+E3: the judging round
+E4: the lunch break
+E5: had been pushed earlier
+E6: the sponsor's flight landed ahead of schedule
+E7: debugging the auth module in the stairwell
+E8: the main hall's wifi kept dropping
+E9: the router misconfiguration
+E10: the setup crew's dry run three days prior
+E11: Nusrat first sketched the matching algorithm
+E12: an idea she'd actually had months earlier during finals week
+E13: shelved
+E14: the hackathon's theme reveal
+E15: her calling from the cafe across town
+E16: chasing a database migration error
+E17: the following morning's stress test
+E18: the crash their prototype suffered
+E19: now being renovated
+E20: had missed the opening ceremony
+E21: stuck at the airport
+E22: a delay caused by weather
+E23: wouldn't actually hit the city
+E24: arriving instead just as the mentors were doing rounds
+E25: a pointed question about the fallback logic
+E26: Rafi had written hastily
+E27: Nusrat's napkin idea got vetoed once
+E28: reinstated an hour later
+E29: the vetoing mentor left early for a flight
+
+OUTPUT FORMAT
+Write the complete 29 x 29 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 29 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,95 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Rafiq had saved for eight months to buy his bicycle. He had set aside a portion of his rickshaw earnings each week since the beginning of January, and by the middle of August he had accumulated enough to purchase a second-hand model from a shop in the old town. The bicycle was not new, but it was his — the first vehicle he had ever owned.
+
+He rode it everywhere for the first three weeks. To the market, to the mosque, to his cousin's house in the next village. He cleaned it every Sunday morning and oiled the chain twice a week. His wife teased him about his obsession, but she understood what the bicycle represented: freedom.
+
+The bicycle was stolen on a Thursday evening in the first week of September. Rafiq had parked it outside the tea stall where he stopped for a cup of cha every evening on his way home. He was inside for less than fifteen minutes. When he came out, the bicycle was gone.
+
+He searched the surrounding streets for two hours. He asked every shopkeeper and every passerby, but no one had seen anything. He walked home that evening with a hollow feeling in his chest.
+
+The following morning, he filed a report at the local police station. The officer was not optimistic — stolen bicycles were rarely recovered — but he took down the details. Rafiq spent the next three days visiting second-hand bicycle markets, hoping to find his bike being resold. The search was futile. By Sunday, he had accepted the loss.
+
+His neighbors heard about the theft and organized a collection during the following week. By Friday, they had gathered enough money to buy Rafiq a replacement bicycle. He was overwhelmed by the gesture and initially refused, but his wife insisted he accept. The new bicycle is heavier and less elegant than the original, but Rafiq treasures it more. It reminds him that he lives among people who will not let one of their own fall without offering a hand.
+"""
+
+EVENTS (39 events):
+E1: Rafiq had saved for eight months
+E2: to buy his bicycle
+E3: He had set aside a portion of his rickshaw earnings each week since the beginning of January
+E4: by the middle of August he had accumulated enough to purchase a second-hand model from a shop in the old town
+E5: The bicycle was not new
+E6: it was his
+E7: the first vehicle he had ever owned
+E8: He rode it everywhere for the first three weeks
+E9: He cleaned it every Sunday morning
+E10: oiled the chain twice a week
+E11: His wife teased him about his obsession
+E12: she understood what the bicycle represented
+E13: The bicycle was stolen on a Thursday evening in the first week of September
+E14: Rafiq had parked it outside the tea stall
+E15: where he stopped for a cup of cha every evening on his way home
+E16: He was inside for less than fifteen minutes
+E17: When he came out
+E18: the bicycle was gone
+E19: He searched the surrounding streets for two hours
+E20: He asked every shopkeeper and every passerby
+E21: no one had seen anything
+E22: He walked home that evening with a hollow feeling in his chest
+E23: he filed a report at the local police station
+E24: The officer was not optimistic
+E25: stolen bicycles were rarely recovered
+E26: he took down the details
+E27: Rafiq spent the next three days visiting second-hand bicycle markets
+E28: hoping to find his bike being resold
+E29: The search was futile
+E30: By Sunday, he had accepted the loss
+E31: His neighbors heard about the theft
+E32: organized a collection during the following week
+E33: By Friday, they had gathered enough money to buy Rafiq a replacement bicycle
+E34: He was overwhelmed by the gesture
+E35: initially refused
+E36: his wife insisted he accept
+E37: The new bicycle is heavier and less elegant than the original
+E38: Rafiq treasures it more
+E39: It reminds him that he lives among people who will not let one of their own fall without offering a hand
+
+OUTPUT FORMAT
+Write the complete 39 x 39 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 39 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

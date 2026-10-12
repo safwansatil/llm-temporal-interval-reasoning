@@ -1,0 +1,124 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Detective Elena Vasquez flipped through the case file for the third time, the ink smudging under the precinct's flickering fluorescent lights, the autopsy report dated last Thursday clashing violently with the 911 call that had come in at 2:17 AM the previous Wednesday, a discrepancy of exactly twenty-two hours that her partner had dismissed as a clerical error when they'd reviewed the initial statements at the diner on Monday afternoon, a diner where the suspect—a pale accountant named Markus Finch—had claimed he'd been eating a Reuben sandwich while the murder occurred, a claim supported by a receipt timestamped for 9:47 PM Tuesday, which would have been airtight if Elena hadn't discovered, during her lunch break yesterday, that the diner's clock had been running forty-three minutes slow since the power outage last Saturday, a power outage that had knocked out the security cameras at the victim's apartment building for exactly three hours, hours that corresponded to the window between 11 PM Sunday and 2 AM Monday when the neighbor had heard screaming—screaming that she'd reported to the front desk at 6 AM the following morning, a delay of four hours that she'd explained away as anxiety-induced paralysis, an explanation that fell apart when Elena's forensics team found the victim's cell phone, which showed a text message to Markus sent at 12:03 PM Saturday, three days before the neighbor's report, asking him to meet her at the Harbor View Pier, a meeting that Markus had confirmed during his initial interview, insisting he'd arrived at 3 PM Saturday, waited forty-five minutes, and left when she didn't show, a timeline that matched the ferry's manifest, which placed Markus on the 4:30 PM boat back to the mainland, a boat that Elena's own brother had been piloting that exact afternoon, a brother who had called her at 8 PM Saturday to confirm he'd seen Markus alone on the upper deck, a call that Elena had taken while driving to the airport to pick up her mother, who was flying in from Chicago on the 9:15 PM red-eye, a flight that had been delayed two hours due to mechanical issues, forcing Elena to wait in the arrivals terminal until 11:30 PM Saturday, during which time she'd reviewed the case on her tablet, noticing for the first time that Markus's alibi for the pier placed him exactly three miles from the victim's apartment at 5 PM Saturday, a time when the doorman's log showed a visitor signing in under the name "M. Fernandez," an alias that Markus's neighbor had admitted he'd used during their weekly poker game on Thursday nights, a game that had been cancelled last Thursday because Markus had called in sick from his office phone at 9 AM, a call that was recorded and timestamped in the company's database, proving he'd been at work until 6 PM Thursday, which meant the 5 PM Saturday visitor couldn't have been Markus, but the doorman, who'd been working a double shift since Tuesday, swore on his mother's grave that he'd recognized Markus's face from the previous Tuesday's game, a game that Elena herself had attended because she was dating Markus's roommate, a roommate who had disappeared exactly two weeks ago and whose last known location was the same Harbor View Pier where the victim had planned her doomed meeting, and Elena realized, with a jolt that sent coffee sloshing over her case file, that the roommate's disappearance—reported last Friday at 4 PM—hadn't been investigated because Markus had convinced her it was a routine business trip to Toronto, a trip that would have taken exactly three hours by flight if the roommate had left at noon Wednesday, which he had, according to the airline's passenger manifest, a manifest that showed him boarding a plane that was, according to the control tower's log, still sitting on the tarmac in Detroit, delayed by a snowstorm that had shut down the airport from Tuesday night until Thursday morning, meaning the roommate had never left the city, meaning Markus had lied about the trip during his first interview on Monday, the same interview where he'd claimed he'd never met the victim, a claim that was contradicted by the victim's diary, which she'd updated religiously every night at 10 PM, an entry from Saturday the 14th describing a lunch date with "M."—a date that would have occurred four days after Elena's mother's delayed flight and two days before Markus's poker alibi, a tangled chronology that Elena could only untangle by closing her eyes and mapping every event onto a grid where the x-axis was time and the y-axis was location, only to discover that the victim's death had occurred at precisely the same hour that Markus was supposed to be in two places at once, a conundrum that would take her partner, who was currently four hours away in a different precinct's evidence room, at least another day to verify, assuming the traffic on the I-95—which had been at a standstill since this morning's multi-car pileup—cleared before sunset, which Elena knew for a fact wouldn't happen because she'd passed that very pileup on her way to the station at 7 AM today, a pileup that had been reported at 6:15 AM, a full forty-five minutes before she'd even left her apartment, which meant someone had lied about the timestamp on the accident report too, and that someone was standing exactly two cubicles away, pretending to sort evidence for a case that had been closed last October.
+"""
+
+EVENTS (78 events):
+E1: flipped through the case file for the third time
+E2: the ink smudging under the precinct's flickering fluorescent lights
+E3: the autopsy report dated last Thursday
+E4: the 911 call that had come in at 2:17 AM the previous Wednesday
+E5: her partner had dismissed as a clerical error
+E6: when they'd reviewed the initial statements at the diner on Monday afternoon
+E7: had claimed he'd been eating a Reuben sandwich
+E8: while the murder occurred
+E9: a claim supported by a receipt timestamped for 9:47 PM Tuesday
+E10: Elena hadn't discovered
+E11: during her lunch break yesterday
+E12: the diner's clock had been running forty-three minutes slow
+E13: since the power outage last Saturday
+E14: a power outage that had knocked out the security cameras at the victim's apartment building for exactly three hours
+E15: hours that corresponded to the window between 11 PM Sunday and 2 AM Monday
+E16: when the neighbor had heard screaming
+E17: screaming that she'd reported to the front desk at 6 AM the following morning
+E18: a delay of four hours that she'd explained away as anxiety-induced paralysis
+E19: an explanation that fell apart
+E20: when Elena's forensics team found the victim's cell phone
+E21: which showed a text message to Markus sent at 12:03 PM Saturday
+E22: asking him to meet her at the Harbor View Pier
+E23: a meeting that Markus had confirmed during his initial interview
+E24: insisting he'd arrived at 3 PM Saturday
+E25: waited forty-five minutes
+E26: left when she didn't show
+E27: a timeline that matched the ferry's manifest
+E28: which placed Markus on the 4:30 PM boat back to the mainland
+E29: a boat that Elena's own brother had been piloting that exact afternoon
+E30: a brother who had called her at 8 PM Saturday
+E31: to confirm he'd seen Markus alone on the upper deck
+E32: a call that Elena had taken while driving to the airport
+E33: to pick up her mother
+E34: who was flying in from Chicago on the 9:15 PM red-eye
+E35: a flight that had been delayed two hours
+E36: due to mechanical issues
+E37: forcing Elena to wait in the arrivals terminal until 11:30 PM Saturday
+E38: during which time she'd reviewed the case on her tablet
+E39: noticing for the first time that Markus's alibi for the pier placed him exactly three miles from the victim's apartment at 5 PM Saturday
+E40: an alias that Markus's neighbor had admitted he'd used during their weekly poker game on Thursday nights
+E41: a game that had been cancelled last Thursday
+E42: because Markus had called in sick from his office phone at 9 AM
+E43: a call that was recorded and timestamped in the company's database
+E44: proving he'd been at work until 6 PM Thursday
+E45: which meant the 5 PM Saturday visitor couldn't have been Markus
+E46: but the doorman, who'd been working a double shift since Tuesday, swore on his mother's grave that he'd recognized Markus's face
+E47: from the previous Tuesday's game
+E48: a game that Elena herself had attended
+E49: because she was dating Markus's roommate
+E50: a roommate who had disappeared exactly two weeks ago
+E51: whose last known location was the same Harbor View Pier
+E52: where the victim had planned her doomed meeting
+E53: Elena realized, with a jolt that sent coffee sloshing over her case file
+E54: that the roommate's disappearance—reported last Friday at 4 PM—hadn't been investigated
+E55: because Markus had convinced her it was a routine business trip to Toronto
+E56: a trip that would have taken exactly three hours by flight
+E57: if the roommate had left at noon Wednesday
+E58: which he had, according to the airline's passenger manifest
+E59: a manifest that showed him boarding a plane
+E60: that was, according to the control tower's log, still sitting on the tarmac in Detroit
+E61: delayed by a snowstorm that had shut down the airport from Tuesday night until Thursday morning
+E62: meaning the roommate had never left the city
+E63: meaning Markus had lied about the trip during his first interview on Monday
+E64: the same interview where he'd claimed he'd never met the victim
+E65: a claim that was contradicted by the victim's diary
+E66: which she'd updated religiously every night at 10 PM
+E67: an entry from Saturday the 14th describing a lunch date with "M."
+E68: a date that would have occurred four days after Elena's mother's delayed flight and two days before Markus's poker alibi
+E69: a tangled chronology that Elena could only untangle by closing her eyes and mapping every event onto a grid
+E70: only to discover that the victim's death had occurred at precisely the same hour that Markus was supposed to be in two places at once
+E71: a conundrum that would take her partner, who was currently four hours away in a different precinct's evidence room, at least another day to verify
+E72: assuming the traffic on the I-95—which had been at a standstill since this morning's multi-car pileup—cleared before sunset
+E73: which Elena knew for a fact wouldn't happen
+E74: because she'd passed that very pileup on her way to the station at 7 AM today
+E75: a pileup that had been reported at 6:15 AM
+E76: a full forty-five minutes before she'd even left her apartment
+E77: which meant someone had lied about the timestamp on the accident report too
+E78: and that someone was standing exactly two cubicles away, pretending to sort evidence for a case that had been closed last October
+
+OUTPUT FORMAT
+Write the complete 78 x 78 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 78 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46 E47 E48 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61 E62 E63 E64 E65 E66 E67 E68 E69 E70 E71 E72 E73 E74 E75 E76 E77 E78
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,61 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Khalid had grown up in a seafront town in Cox's Bazar and left for Dhaka at eighteen to study. He was now thirty-four and worked in marketing for a garments export firm in Tejgaon. He visited Cox's Bazar once a year, usually around the time of Eid. This particular year, he arrived a few days after Eid ul Fitr and found his parents' house noisier than usual. His younger sister had given birth seven weeks ago, and the baby was being passed from relative to relative at every hour. His father, now seventy, moved more slowly than Khalid remembered from his visit two years ago. On the second afternoon, Khalid walked the beach alone. The hotel zone had expanded again. Three new structures had gone up in the past year at the northern end that had been empty lots the last time he came. He sat at a tea stall near Laboni beach where an old man was frying fish over a small coal stove, a snack Khalid had been eating at this exact spot since childhood. The tea stall owner recognized him, which surprised him. He had no memory of the man's face. The owner said Khalid's father used to bring him here every year when he was a boy, right up until he left for Dhaka. The owner had been running the stall since 1989. Khalid called his father and asked him to come down to the beach.
+"""
+
+EVENTS (15 events):
+E1: The owner had been running the stall since 1989
+E2: Khalid had grown up in a seafront town in Cox's Bazar
+E3: left for Dhaka at eighteen to study
+E4: Three new structures had gone up in the past year
+E5: His younger sister had given birth seven weeks ago
+E6: he arrived a few days after Eid ul Fitr
+E7: Khalid walked the beach alone
+E8: He sat at a tea stall near Laboni beach
+E9: The tea stall owner recognized him
+E10: Khalid called his father and asked him to come down to the beach
+E11: He visited Cox's Bazar once a year
+E12: his visit two years ago
+E13: an old man was frying fish over a small coal stove
+E14: a snack Khalid had been eating at this exact spot since childhood
+E15: Khalid's father used to bring him here every year when he was a boy
+
+OUTPUT FORMAT
+Write the complete 15 x 15 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 15 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

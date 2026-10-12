@@ -1,0 +1,68 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The community pond in the village of Shantipur was harvested every three years during the last week of November. The pond was collectively owned by sixty-three families, each of whom contributed to its maintenance and shared in its yield. The harvest was always a community event, drawing participants from across the village and spectators from neighboring areas.
+
+The preparation began during the first week of November. The water level in the pond had to be lowered gradually over three weeks to concentrate the fish. Two men were assigned to operate the sluice gate, a task they performed each morning before dawn. By the third week of the month, the pond was shallow enough for the harvest to proceed.
+
+The date was set for the last Saturday of November. Families gathered at the pond before sunrise, carrying nets, baskets, and buckets. The oldest villager, a woman named Rahima who had participated in every harvest since the pond was first stocked, was given the honor of casting the first net. She did so with practiced efficiency, and the catch was immediate — a large silver carp that flopped dramatically in the shallows.
+
+The harvest continued for the entire morning. Men and women waded into the muddy water, dragging nets and shouting instructions to each other. Children stood at the edge with small baskets, collecting the smaller fish that slipped through the nets. By midday, the pond was empty and the sorting had begun.
+
+The fish were divided into sixty-three equal piles on a large tarpaulin spread near the bank. Each family sent a representative to draw a numbered token that corresponded to one of the piles. The allocation was random and transparent, a system that had been established decades earlier and had never been disputed.
+
+The harvest was followed by a communal meal. Several of the larger fish were set aside and cooked in massive pots over open fires. The entire village ate together, sitting on mats spread under the banyan tree near the pond. The harvest was a reminder of something that the village had known for generations: a community that shared its resources also shared its strength.
+"""
+
+EVENTS (12 events):
+E1: The preparation began
+E2: water level in the pond had to be lowered gradually
+E3: operate the sluice gate
+E4: the pond was shallow enough for the harvest to proceed
+E5: Families gathered at the pond
+E6: casting the first net
+E7: the catch was immediate
+E8: The harvest continued
+E9: the pond was empty
+E10: the sorting had begun
+E11: The fish were divided into sixty-three equal piles
+E12: draw a numbered token
+
+OUTPUT FORMAT
+Write the complete 12 x 12 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 12 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

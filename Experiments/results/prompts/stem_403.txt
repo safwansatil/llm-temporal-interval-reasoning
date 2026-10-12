@@ -1,0 +1,106 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The clock tower in the center of the old city had been silent for seventeen years when the municipality finally approved its restoration. The tower had been built during the colonial era, and its clock mechanism had been imported from a workshop in England that had ceased to exist before anyone currently alive was born. The clock had kept time for the city for eighty-nine years, its chimes marking the hours with a reliability that residents used to set their watches. Then the mechanism had broken during a storm, and the clock had stopped, and the city had gradually forgotten what it sounded like.
+
+The restoration was assigned to a young engineer named Farhan who had never worked on a mechanical clock before. He was chosen because no one else applied for the job, and because his grandfather had been one of the clock's last keepers before the mechanism failed. The grandfather had died twelve years before Farhan was born, but his tools had been preserved in a wooden chest that Farhan's father had kept in a storage room, waiting for a purpose that had never arrived.
+
+Farhan opened the chest for the first time during the second week of the restoration project. The tools were rusted but recognizable — wrenches and screwdrivers and specialized instruments that Farhan had to research to identify. Among them was a notebook written in his grandfather's handwriting, a maintenance log that covered the final seven years of the clock's operation. The final entry had been made three days before the storm that stopped the mechanism.
+
+The restoration took eight months. Farhan worked alone in the tower, dismantling the mechanism and cleaning each component and replacing the parts that could not be repaired. He consulted his grandfather's notebook constantly, using the old man's notes as a guide through the labyrinth of gears and springs. The work was difficult and often frustrating, and there were moments when Farhan believed the clock would never run again.
+
+The mechanism was restarted on a Friday morning, seventeen years and three months after it had stopped. The first chime sounded at noon, and the sound carried across the old city, reaching streets that had been silent for a generation. Farhan stood in the tower and listened to the clock mark the hour, and he thought about his grandfather, who had maintained this same mechanism for seven years and whose notebook had guided his grandson's hands. The clock was running again, and time, which had been frozen for seventeen years, was moving forward once more.
+"""
+
+EVENTS (52 events):
+E1: had been silent for seventeen years
+E2: the municipality finally approved its restoration
+E3: The tower had been built during the colonial era
+E4: its clock mechanism had been imported from a workshop in England
+E5: that had ceased to exist
+E6: before anyone currently alive was born
+E7: The clock had kept time for the city for eighty-nine years
+E8: its chimes marking the hours
+E9: with a reliability that residents used to set their watches
+E10: the mechanism had broken during a storm
+E11: the clock had stopped
+E12: the city had gradually forgotten what it sounded like
+E13: The restoration was assigned to a young engineer named Farhan
+E14: who had never worked on a mechanical clock before
+E15: He was chosen
+E16: because no one else applied for the job
+E17: his grandfather had been one of the clock's last keepers
+E18: before the mechanism failed
+E19: The grandfather had died
+E20: twelve years before Farhan was born
+E21: his tools had been preserved in a wooden chest
+E22: that Farhan's father had kept in a storage room
+E23: waiting for a purpose that had never arrived
+E24: Farhan opened the chest for the first time
+E25: during the second week of the restoration project
+E26: The tools were rusted but recognizable
+E27: Farhan had to research to identify
+E28: Among them was a notebook written in his grandfather's handwriting
+E29: a maintenance log that covered the final seven years of the clock's operation
+E30: The final entry had been made
+E31: three days before the storm that stopped the mechanism
+E32: The restoration took eight months
+E33: Farhan worked alone in the tower
+E34: dismantling the mechanism
+E35: cleaning each component
+E36: replacing the parts that could not be repaired
+E37: He consulted his grandfather's notebook constantly
+E38: using the old man's notes as a guide
+E39: The work was difficult and often frustrating
+E40: there were moments when Farhan believed the clock would never run again
+E41: The mechanism was restarted on a Friday morning
+E42: seventeen years and three months after it had stopped
+E43: The first chime sounded at noon
+E44: the sound carried across the old city
+E45: reaching streets that had been silent for a generation
+E46: Farhan stood in the tower
+E47: listened to the clock mark the hour
+E48: he thought about his grandfather
+E49: who had maintained this same mechanism for seven years
+E50: whose notebook had guided his grandson's hands
+E51: The clock was running again
+E52: time, which had been frozen for seventeen years, was moving forward once more
+
+OUTPUT FORMAT
+Write the complete 52 x 52 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 52 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46 E47 E48 E49 E50 E51 E52
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,88 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Arif received the photograph in the mail on a Tuesday, sent by a stranger who had found it tucked inside a second-hand book purchased from a street vendor. The photograph showed a young couple on their wedding day, and the woman was Arif's mother, who had died nineteen years earlier. The man was not Arif's father.
+
+He recognized his mother immediately, though she was younger in the photograph than he had ever seen her. She was perhaps twenty, her face unlined and her eyes bright with a happiness that Arif had rarely witnessed during his childhood. The man beside her was tall and unfamiliar, his arm around her waist in a gesture of easy intimacy. On the back of the photograph, in his mother's handwriting, was a date and a name. The date was three years before her marriage to Arif's father. The name was not one Arif had ever heard spoken.
+
+He asked his aunt about the photograph during a visit the following week. His mother's younger sister, now in her late sixties, examined the image with an expression that shifted from surprise to recognition to something that looked like sadness. She told Arif that the man had been his mother's first love, a relationship that had ended when the man's family moved to a different country. Arif's mother had been devastated, and she had married Arif's father a year after the man's departure, and she had never spoken of the relationship again.
+
+The aunt did not know what had become of the man in the photograph. She had not heard his name mentioned in nearly four decades. Arif thanked her for the information and returned home with the photograph, which he placed in a drawer among other family documents.
+
+He found himself returning to the photograph repeatedly over the following months. He wondered about the life his mother might have led if the man had stayed, and he wondered whether the sadness he had sensed in her during his childhood had originated in the loss captured by the image. He would never know the answers. But the photograph had given him a glimpse of his mother as a person with a history that existed before and beyond motherhood, and that glimpse felt like a gift.
+"""
+
+EVENTS (34 events):
+E1: Arif received the photograph in the mail on a Tuesday
+E2: sent by a stranger who had found it tucked inside a second-hand book purchased from a street vendor
+E3: The photograph showed a young couple on their wedding day
+E4: the woman was Arif's mother
+E5: who had died nineteen years earlier
+E6: The man was not Arif's father
+E7: He recognized his mother immediately
+E8: though she was younger in the photograph than he had ever seen her
+E9: She was perhaps twenty
+E10: her face unlined
+E11: her eyes bright with a happiness that Arif had rarely witnessed during his childhood
+E12: The man beside her was tall and unfamiliar
+E13: his arm around her waist in a gesture of easy intimacy
+E14: On the back of the photograph, in his mother's handwriting, was a date and a name
+E15: The date was three years before her marriage to Arif's father
+E16: The name was not one Arif had ever heard spoken
+E17: He asked his aunt about the photograph during a visit the following week
+E18: His mother's younger sister, now in her late sixties, examined the image with an expression that shifted from surprise to recognition to something that looked like sadness
+E19: She told Arif that the man had been his mother's first love
+E20: a relationship that had ended when the man's family moved to a different country
+E21: Arif's mother had been devastated
+E22: she had married Arif's father a year after the man's departure
+E23: she had never spoken of the relationship again
+E24: The aunt did not know what had become of the man in the photograph
+E25: She had not heard his name mentioned in nearly four decades
+E26: Arif thanked her for the information
+E27: returned home with the photograph
+E28: which he placed in a drawer among other family documents
+E29: He found himself returning to the photograph repeatedly over the following months
+E30: He wondered about the life his mother might have led if the man had stayed
+E31: he wondered whether the sadness he had sensed in her during his childhood had originated in the loss captured by the image
+E32: He would never know the answers
+E33: the photograph had given him a glimpse of his mother as a person with a history that existed before and beyond motherhood
+E34: that glimpse felt like a gift
+
+OUTPUT FORMAT
+Write the complete 34 x 34 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 34 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

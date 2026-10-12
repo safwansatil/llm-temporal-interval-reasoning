@@ -1,0 +1,99 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Luis steadies a dented serving tray in the crowded kitchen of a neighborhood shelter in Buenos Aires while waiting for the soup to finish simmering, although the laughter drifting from the dining hall reminds him of the evening after last winter's blackout when strangers applauded a meal he barely tasted because he had already skipped dinner to cover the cost of extra vegetables, something he had first learned to do years earlier after leaving his mother's roadside food stall outside Córdoba before dawn on the morning following the festival where they sold out for the first time since his father had lost his construction job several months before. That celebration itself had happened only because the previous weekend a local farmer, whom Luis had helped unload crates during an unexpected storm, quietly handed them vegetables that otherwise would have spoiled, though Luis did not know why until he returned to thank the farmer long after his mother had already repaid the favor by feeding volunteers repairing flood damage in a nearby village. Before any of those afternoons convinced him that food could mean more than survival, he had declined a warehouse promotion in Rosario because the rotating shifts overlapped with the evening classes at a culinary institute whose entrance exam he nearly missed after the intercity bus broke down outside Santa Fe, forcing him to hitchhike with musicians traveling to a concert that had itself been postponed from the week before. By the time he completed the course, the restaurant where he expected to apprentice had permanently closed after its owner retired unexpectedly, so he accepted work washing dishes in another kitchen where the head chef rarely noticed him until the morning after Luis improvised a replacement sauce when a delivery truck carrying fresh herbs was delayed by a bridge closure that had begun the afternoon before. Months earlier, however, his younger sister had secretly abandoned nursing school to support their mother at the stall, a sacrifice Luis discovered only while serving meals at a charity event in Mendoza where guests praised the desserts without realizing the recipe came from his grandmother's notebook, which had resurfaced inside an old cupboard after everyone believed it was lost during the house move that followed their eviction years before.
+
+Around the same season, Luis entered a televised cooking competition only because another contestant withdrew the day before filming, although his application had originally been discarded after arriving late at the studio, and he lost in the semifinals despite receiving the loudest applause whenever families sampled his dishes rather than the judges. The disappointment mattered less once he noticed children returning for second servings at the shelter where he now volunteers every Thursday, a place he first visited after delivering surplus bread from a luxury hotel whose executive chef remembered Luis from a banquet months earlier, when he quietly prepared an entire dessert station after a pastry cook fainted shortly before the guests arrived. Sometime before that banquet, his mother had finally closed the roadside stall because the highway bypass redirected travelers elsewhere, yet she smiled more on the afternoon they packed away the old stove than she had when business was thriving, knowing Luis had already received an offer to help design community kitchens instead of expensive restaurant menus. Yesterday an elderly man recognized the flavor of a lentil stew that resembled one Luis's father used to cook before unemployment hollowed out the family home, while tomorrow a food critic will visit the shelter without announcing it, unaware that Luis almost declined preparing the meal after another prestigious restaurant invited him back with a salary larger than anything he had imagined. As he watches bowls disappear from tables faster than the volunteers can refill them, he realizes the dream that carried him across bus stations, flooded villages, roadside stalls, television studios, luxury hotels, classrooms, shelters, borrowed kitchens, and countless meals he never had time to eat was never about becoming the greatest chef, but about creating the brief silence that always arrives when hungry people take their first satisfied bite.
+"""
+
+EVENTS (51 events):
+E1: Luis steadies a dented serving tray
+E2: waiting for the soup to finish simmering
+E3: last winter's blackout
+E4: strangers applauded a meal
+E5: he had already skipped dinner
+E6: leaving his mother's roadside food stall
+E7: the festival where they sold out
+E8: his father had lost his construction job
+E9: whom Luis had helped unload crates
+E10: an unexpected storm
+E11: quietly handed them vegetables
+E12: he returned to thank the farmer
+E13: his mother had already repaid the favor
+E14: he had declined a warehouse promotion in Rosario
+E15: whose entrance exam he nearly missed
+E16: the intercity bus broke down outside Santa Fe
+E17: forcing him to hitchhike with musicians
+E18: a concert that had itself been postponed
+E19: he completed the course
+E20: had permanently closed
+E21: its owner retired unexpectedly
+E22: he accepted work washing dishes
+E23: rarely noticed him until the morning after
+E24: Luis improvised a replacement sauce
+E25: fresh herbs was delayed
+E26: a bridge closure that had begun the afternoon before
+E27: his younger sister had secretly abandoned nursing school
+E28: a sacrifice Luis discovered
+E29: serving meals at a charity event in Mendoza
+E30: had resurfaced inside an old cupboard
+E31: the house move
+E32: their eviction years before
+E33: Luis entered a televised cooking competition
+E34: another contestant withdrew the day before filming
+E35: his application had originally been discarded
+E36: he lost in the semifinals
+E37: the shelter where he now volunteers every Thursday
+E38: he first visited after delivering surplus bread
+E39: a banquet months earlier
+E40: he quietly prepared an entire dessert station
+E41: a pastry cook fainted
+E42: his mother had finally closed the roadside stall
+E43: the highway bypass redirected travelers
+E44: they packed away the old stove
+E45: Luis had already received an offer to help design community kitchens
+E46: Yesterday an elderly man recognized the flavor
+E47: Luis's father used to cook
+E48: a food critic will visit the shelter
+E49: Luis almost declined preparing the meal
+E50: another prestigious restaurant invited him back
+E51: he watches bowls disappear
+
+OUTPUT FORMAT
+Write the complete 51 x 51 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 51 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46 E47 E48 E49 E50 E51
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

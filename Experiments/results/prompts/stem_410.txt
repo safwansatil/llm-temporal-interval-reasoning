@@ -1,0 +1,97 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The village of Shibpur had been waiting for rain for nine months when the clouds finally gathered. The previous monsoon had failed, the winter crops had withered, and the summer had been a long exercise in survival. The village elders had met every week for the past three months to discuss contingency plans, and the younger men had migrated to the cities in numbers not seen since the great drought of three decades earlier. The old people who remained had begun to speak of the drought as a living thing, a presence that had settled over the village and refused to leave.
+
+Akbar, who was seventy-eight and had lived through the great drought of his childhood, remembered the day the rains had returned that time. He had been eight years old, and he had stood in the courtyard of his family's house and watched the sky darken and felt the first drops on his face. His mother had wept, and his father had knelt in the dust and pressed his forehead to the wet earth. The memory had stayed with him for seventy years, and he had described it to his grandchildren so often that they could recite the details from memory.
+
+The clouds gathered on a Tuesday afternoon. Akbar was sitting on his veranda, as he did every afternoon now that there was no work to be done in the fields, and he saw the dark mass forming on the horizon. He watched it for an hour, not daring to believe, and then he called to his grandson to bring him his walking stick. He would go to the fields, he said. He would be there when the rain arrived.
+
+The first drops fell as he reached the edge of the village. He stood in the open field, surrounded by the cracked earth that had once been fertile, and he felt the water on his face. His grandson stood beside him, and Akbar told him to remember this moment. The boy was ten years old, two years older than Akbar had been during the great drought, and he would carry this memory for the rest of his life. The rain continued, and the earth drank, and the village that had been dying began to live again.
+"""
+
+EVENTS (45 events):
+E1: The village of Shibpur had been waiting for rain for nine months
+E2: the clouds finally gathered
+E3: The previous monsoon had failed
+E4: the winter crops had withered
+E5: the summer had been a long exercise in survival
+E6: The village elders had met every week for the past three months
+E7: to discuss contingency plans
+E8: the younger men had migrated to the cities
+E9: not seen since the great drought of three decades earlier
+E10: The old people who remained had begun to speak of the drought as a living thing
+E11: a presence that had settled over the village
+E12: refused to leave
+E13: Akbar, who was seventy-eight and had lived through the great drought of his childhood, remembered the day the rains had returned that time
+E14: He had been eight years old
+E15: he had stood in the courtyard of his family's house
+E16: watched the sky darken
+E17: felt the first drops on his face
+E18: His mother had wept
+E19: his father had knelt in the dust
+E20: pressed his forehead to the wet earth
+E21: The memory had stayed with him for seventy years
+E22: he had described it to his grandchildren so often
+E23: they could recite the details from memory
+E24: The clouds gathered on a Tuesday afternoon
+E25: Akbar was sitting on his veranda
+E26: as he did every afternoon now that there was no work to be done in the fields
+E27: he saw the dark mass forming on the horizon
+E28: He watched it for an hour
+E29: not daring to believe
+E30: he called to his grandson to bring him his walking stick
+E31: He would go to the fields
+E32: he said
+E33: He would be there when the rain arrived
+E34: The first drops fell as he reached the edge of the village
+E35: He stood in the open field
+E36: surrounded by the cracked earth that had once been fertile
+E37: he felt the water on his face
+E38: His grandson stood beside him
+E39: Akbar told him to remember this moment
+E40: The boy was ten years old
+E41: two years older than Akbar had been during the great drought
+E42: he would carry this memory for the rest of his life
+E43: The rain continued
+E44: the earth drank
+E45: the village that had been dying began to live again
+
+OUTPUT FORMAT
+Write the complete 45 x 45 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 45 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,84 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November. She was traveling for a conference that would begin the following Monday, and she had planned to spend the weekend exploring the city before the sessions began. She arrived at the airport three hours before departure, as she always did, and checked in without incident.
+
+The delay was announced an hour before boarding. A mechanical issue had been discovered during the pre-flight inspection, and the engineers were working on it. The airline representative said the delay would be approximately two hours. Sharmin settled into a chair at the gate and opened her book.
+
+Two hours became four. Four became six. The airline provided meal vouchers and periodic updates, none of which contained good news. The mechanical issue was more complex than initially thought, and the part needed for the repair was not available at the airport. A replacement part had been ordered from a warehouse and would arrive the following morning.
+
+Sharmin was rebooked on a flight departing on Saturday afternoon. She spent the night at an airport hotel and returned to the terminal the next morning. The replacement flight departed on time, and she arrived in Singapore late Saturday evening, nearly twenty-four hours after her original schedule. She had lost her weekend of exploration, but she made it to the conference on Monday morning as planned. The delay had been frustrating, but she had learned long ago that travel required flexibility. Anger, she told herself, did not make planes arrive faster.
+"""
+
+EVENTS (32 events):
+E1: Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E2: She was traveling for a conference
+E3: that would begin the following Monday
+E4: she had planned to spend the weekend exploring the city before the sessions began
+E5: She arrived at the airport three hours before departure
+E6: as she always did
+E7: checked in without incident
+E8: The delay was announced an hour before boarding
+E9: A mechanical issue had been discovered during the pre-flight inspection
+E10: the engineers were working on it
+E11: The airline representative said the delay would be approximately two hours
+E12: Sharmin settled into a chair at the gate
+E13: opened her book
+E14: Two hours became four
+E15: Four became six
+E16: The airline provided meal vouchers and periodic updates
+E17: none of which contained good news
+E18: The mechanical issue was more complex than initially thought
+E19: the part needed for the repair was not available at the airport
+E20: A replacement part had been ordered from a warehouse
+E21: would arrive the following morning
+E22: Sharmin was rebooked on a flight departing on Saturday afternoon
+E23: She spent the night at an airport hotel
+E24: returned to the terminal the next morning
+E25: The replacement flight departed on time
+E26: she arrived in Singapore late Saturday evening
+E27: nearly twenty-four hours after her original schedule
+E28: She had lost her weekend of exploration
+E29: she made it to the conference on Monday morning as planned
+E30: The delay had been frustrating
+E31: she had learned long ago that travel required flexibility
+E32: Anger, she told herself, did not make planes arrive faster
+
+OUTPUT FORMAT
+Write the complete 32 x 32 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 32 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,98 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Nadia had been preparing for her English proficiency exam since the beginning of January. The exam was a requirement for a scholarship to study abroad, and it was scheduled for a Saturday in the middle of April. She had studied every evening for three months, working through practice tests and vocabulary lists, and by the first week of April she felt cautiously confident.
+
+Her confidence was shaken on a Tuesday, ten days before the exam. She attempted a full-length practice test under timed conditions and scored poorly — far below the threshold required for the scholarship. The result sent her into a spiral of anxiety. She spent the next two days barely sleeping and obsessively reviewing the sections where she had performed worst.
+
+Her father noticed her distress on Thursday evening and sat with her for an hour. He told her about his own experience with examinations, about the times he had failed and the times he had succeeded, and about his belief that she was capable of more than she knew. The conversation did not erase her anxiety, but it made it manageable.
+
+She took another practice test on the Friday before the exam and scored significantly better. The improvement restored some of her confidence, and she spent the weekend reviewing only the most difficult concepts rather than trying to cram everything.
+
+The exam took place on a Saturday in the middle of April. The testing center was crowded, and Nadia felt her heart racing as she took her seat. The first section was listening comprehension, and she found it easier than she had expected. The second section was reading, and she moved through it steadily. The third section was writing, and she finished with ten minutes to spare.
+
+The results were released three weeks later, during the second week of May. Nadia opened the email with trembling hands. She had scored above the scholarship threshold — not by much, but enough. The scholarship committee confirmed her eligibility the following Monday. She spent that evening calling her father, who listened to her scream with joy and then wept quietly on the other end of the line.
+"""
+
+EVENTS (42 events):
+E1: had been preparing for her English proficiency exam since the beginning of January
+E2: was a requirement for a scholarship to study abroad
+E3: was scheduled for a Saturday in the middle of April
+E4: had studied every evening for three months
+E5: working through practice tests and vocabulary lists
+E6: felt cautiously confident
+E7: was shaken
+E8: attempted a full-length practice test under timed conditions
+E9: scored poorly
+E10: sent her into a spiral of anxiety
+E11: spent the next two days barely sleeping
+E12: obsessively reviewing the sections where she had performed worst
+E13: noticed her distress
+E14: sat with her for an hour
+E15: told her about his own experience with examinations
+E16: about the times he had failed
+E17: and the times he had succeeded
+E18: about his belief that she was capable of more than she knew
+E19: did not erase her anxiety
+E20: made it manageable
+E21: took another practice test on the Friday before the exam
+E22: scored significantly better
+E23: restored some of her confidence
+E24: spent the weekend reviewing only the most difficult concepts
+E25: rather than trying to cram everything
+E26: took place on a Saturday in the middle of April
+E27: was crowded
+E28: felt her heart racing
+E29: took her seat
+E30: was listening comprehension
+E31: found it easier than she had expected
+E32: was reading
+E33: moved through it steadily
+E34: was writing
+E35: finished with ten minutes to spare
+E36: were released three weeks later
+E37: opened the email with trembling hands
+E38: had scored above the scholarship threshold
+E39: confirmed her eligibility
+E40: spent that evening calling her father
+E41: who listened to her scream with joy
+E42: wept quietly on the other end of the line
+
+OUTPUT FORMAT
+Write the complete 42 x 42 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 42 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

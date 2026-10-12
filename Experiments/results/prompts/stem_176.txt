@@ -1,0 +1,59 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Submarine — overlapping shifts, hours, sleep debt
+
+On the submarine, the day was not a day. The watches ran six hours on, twelve off, so that Karpov's waking life slid steadily around the clock, completing a full circuit every three days. His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end, which meant there was a two-hour window in every cycle when all three were awake together — and it was during one of these windows that the sonar contact appeared. The contact had been tracked by the previous watch for forty minutes before Karpov relieved them, and it persisted for another hour into his shift before fading, so its total life was shorter than a single watch but spanned two. The captain, woken twenty minutes into the contact's second appearance — which came one full rotation after the first — had been asleep for less time than the first contact had lasted. Later, reconstructing the log, they realized the two contacts could not have been the same vessel: the gap between them was shorter than the time such a vessel would need to leave and re-enter detection range. Whatever it was, it had either never left, or there were two. Karpov went off watch with the question unresolved, and was asleep before the next overlap began.
+"""
+
+EVENTS (11 events):
+E1: Karpov relieved them
+E2: it persisted for another hour into his shift
+E3: fading
+E4: Karpov went off watch
+E5: was asleep before the next overlap began
+E6: and it was during one of these windows that the sonar contact appeared.
+E7: he contact had been tracked by the previous watch for forty minutes
+E8: His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,
+E9: meant there was a two-hour window in every cycle when all three were awake together —
+E10: reconstructing the log
+E11: they realized the two contacts could not have been the same vessel:
+
+OUTPUT FORMAT
+Write the complete 11 x 11 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 11 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,70 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Mia pushes the empty envelope across the Parisian café table, wondering why Ben is even bothering with the courier run tomorrow when he knows she's flying out to London tonight, though Leo had already blown up her phone yesterday from New York, panicking about the keys he mislaid three days ago in that grimy cab near the UN building, even though Sarah had casually mentioned last week that she'd fished them out of the recycling bin before she cleared out of their Berlin flat two weeks ago—not that Mia cares, especially since she'd spotted them herself under the couch cushions a week ago and decided to let Leo sweat it out for once. Out on the TGV tracks somewhere near Lyon, Ben is currently re-reading Sarah's final text from exactly fourteen days back, the one that ended with a curt period instead of their usual exclamation, and it's making him so restless that he completely forgets the 5 PM board meeting in London he's supposed to chair tonight, the same one Leo is frantically trying to reschedule from his JFK layover right now. Mia rubs her temples, calculating that Leo has about four hours until his touchdown at Heathrow, which gives her just enough time to swing by her Left Bank flat, grab that spare key from her desk drawer—the one she's had since their disastrous coffee meetup in Central Park two months ago—and toss it into an overnight pouch before Ben's delayed train even pulls into St. Pancras, ensuring Leo gets it before sunrise, which would be a satisfying middle finger to the very specific warning she'd given him last Tuesday about trusting Ben with anything valuable during transatlantic handoffs.
+"""
+
+EVENTS (24 events):
+E1: disastrous coffee meetup in Central Park
+E2: fished them out of the recycling bin
+E3: cleared out of their Berlin flat
+E4: warning she'd given him
+E5: spotted them herself under the couch cushions
+E6: blown up her phone
+E7: Mia pushes the empty envelope across the Parisian café table
+E8: Leo is frantically trying to reschedule
+E9: Mia rubs her temples
+E10: forgets the 5 PM board meeting in London
+E11: swing by her Left Bank flat
+E12: grab that spare key from her desk drawer
+E13: toss it into an overnight pouch
+E14: Ben's delayed train even pulls into St. Pancras
+E15: Leo gets it
+E16: Ben is even bothering
+E17: the courier run tomorrow
+E18: flying out to London tonight
+E19: even though Sarah had casually mentioned last week
+E20: decided to let Leo sweat it out for once
+E21: Ben is currently re-reading Sarah's final text from exactly fourteen days back,
+E22: he's supposed to chair tonight
+E23: panicking about the keys
+E24: he mislaid three days ago in that grimy cab near the UN building,
+
+OUTPUT FORMAT
+Write the complete 24 x 24 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 24 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

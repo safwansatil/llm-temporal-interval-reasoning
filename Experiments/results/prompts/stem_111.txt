@@ -1,0 +1,92 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The blacksmith's apprentice stands at the forge in the castle's outer bailey, pumping the bellows for the morning's first fire, though the sword he's heating was commissioned three winters ago by the baron who died the previous autumn, a death that occurred the same week the old king's messenger arrived with news of the northern rebellion that had already been crushed by the time the raven reached the capital—a fact the apprentice knew because his father had fought in that campaign and had sent a letter that arrived two days after the baron's funeral, explaining how the siege at Ironhold had broken on the same morning the apprentice's sister gave birth to twins in the village at the mountain's foot, which was also the day the miller's son had ridden south to warn of the plague spreading from the coast, though that plague had actually started during the harvest festival the previous year, when the apprentice had still been tending sheep on the high pastures before his mother traded his service to the castle smith for a sack of grain that had been stored in the granary that burned down last Tuesday, the fire that forced the castellan to move the winter stores to the tower chapel, where the priest now conducts services beside barrels of salted pork while the apprentice's twin nieces are learning to walk in a cottage that will be flooded when the spring thaw comes in two months, the same thaw that the old miller predicted would be worse than the great flood of his youth, a flood that had washed away the wooden bridge the apprentice now crosses each morning to fetch water from the well that sits where the old oak tree stood until lightning struck it during the storm that happened the night after the baron's youngest son returned from his pilgrimage to the southern shrines, a journey that took three years and concluded just last week, though the pilgrimage had been prompted by a vision the young lord had experienced while hunting the boar that had gored his father's favorite hound, the very hound whose litter the apprentice had helped deliver in the kennels the spring before last, which was the season the king's tax collector had been found dead in the moat under circumstances that still unsettle the castle guard, who now refuse to patrol the eastern ramparts after sunset because of the strange lights they've seen there since the previous full moon, lights that the apprentice glimpsed himself the night he proposed to the baker's daughter using a ring he'd forged from the melted remains of his grandfather's plowshare, a plow that had been buried in the field where the baron plans to build his new stables after the harvest, unless the king's upcoming visit forces the baron to host a tournament instead, which would mean the apprentice must finish fifteen sword blades by midsummer, though he's only completed nine since the snow melted three weeks ago, and those nine were finished before the baron's steward ordered the forge to prioritize horseshoes for the cavalry that arrived from the eastern garrison yesterday afternoon, the same afternoon the apprentice's mother sent word that the twins had taken their first steps in the cottage that stands exactly where the old mill used to be before the great flood of his youth, the miller claims, which was the year the castle's great hall caught fire during the wedding feast of the baron's grandfather, a fire the apprentice's great-grandmother had survived by jumping from the north window into the hay cart that had been delivered that morning from the very farm where the apprentice now milks goats each dawn before his work at the forge begins.
+"""
+
+EVENTS (46 events):
+E1: pumping the bellows for the morning's first fire
+E2: commissioned three winters ago
+E3: the baron who died the previous autumn
+E4: the old king's messenger arrived
+E5: had already been crushed
+E6: the raven reached the capital
+E7: a letter that arrived two days after
+E8: the baron's funeral
+E9: the siege at Ironhold had broken
+E10: gave birth to twins
+E11: the miller's son had ridden south
+E12: that plague had actually started during the harvest festival
+E13: still been tending sheep
+E14: his mother traded his service
+E15: the granary that burned down last Tuesday
+E16: forced the castellan to move the winter stores
+E17: the priest now conducts services
+E18: are learning to walk
+E19: will be flooded when the spring thaw comes in two months
+E20: washed away the wooden bridge
+E21: lightning struck it
+E22: the storm that happened the night after
+E23: the baron's youngest son returned
+E24: a journey that took three years
+E25: concluded just last week
+E26: a vision the young lord had experienced
+E27: had gored his father's favorite hound
+E28: the apprentice had helped deliver in the kennels
+E29: found dead in the moat
+E30: the strange lights they've seen there since the previous full moon
+E31: the night he proposed to the baker's daughter
+E32: a ring he'd forged
+E33: build his new stables after the harvest
+E34: the king's upcoming visit
+E35: host a tournament
+E36: fifteen sword blades by midsummer
+E37: he's only completed nine
+E38: the snow melted three weeks ago
+E39: ordered the forge to prioritize horseshoes
+E40: the cavalry that arrived from the eastern garrison yesterday afternoon
+E41: the apprentice's mother sent word
+E42: the twins had taken their first steps
+E43: the castle's great hall caught fire
+E44: the wedding feast of the baron's grandfather
+E45: great-grandmother had survived by jumping
+E46: hay cart that had been delivered that morning
+
+OUTPUT FORMAT
+Write the complete 46 x 46 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 46 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

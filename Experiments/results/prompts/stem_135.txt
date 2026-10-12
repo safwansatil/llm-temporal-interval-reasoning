@@ -1,0 +1,62 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Femi grips the guardrail as the drilling platform lists in the Gulf of Guinea, a shudder he last felt during the blowout drill, though the drill, the crew roster insists, was cancelled the week before due to weather that, according to the meteorological log, arrived three days after the cancellation was logged. He remembers the safety officer's warning, delivered over the platform intercom the morning after this shudder, cautioning that pressure readings from Well 4 hadn't been transmitted since a sensor fault reported in a maintenance ticket dated to tonight, a ticket he's certain he hasn't filed yet, though it's already logged as resolved by a technician who, per the crew manifest, transferred off the platform the previous month. Femi recalls the emergency call from the support vessel, radioing that they'd begun evacuation procedures a full hour before the platform's own alarm sounded, procedures they claimed were triggered by a distress signal that the platform's transmitter log shows was never sent, a signal the vessel's captain insists he heard clearly, in a voice he recognized as Femi's own, reading coordinates that match this exact platform, at this exact list, though Femi has said nothing into any radio tonight. Below him, in a control room he can just make out through the spray, a light blinks on that, per the wiring diagram, isn't connected to any circuit installed until after tonight's incident is resolved.
+"""
+
+EVENTS (16 events):
+E1: Femi grips the guardrail
+E2: the drilling platform lists
+E3: was cancelled the week before
+E4: arrived three days after
+E5: He remembers
+E6: the safety officer's warning
+E7: a sensor fault reported
+E8: transferred off the platform the previous month
+E9: Femi recalls
+E10: the emergency call from the support vessel
+E11: they'd begun evacuation procedures
+E12: the platform's own alarm sounded
+E13: triggered by a distress signal
+E14: a light blinks on
+E15: any circuit installed
+E16: tonight's incident is resolved
+
+OUTPUT FORMAT
+Write the complete 16 x 16 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 16 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,95 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Giorno Giovanna watched Gold Experience Requiem rewind the bullet's trajectory for the eighteenth time, though he'd stopped counting the loops three iterations ago because the Stand's ability was actively corrupting his memory of the fight's chronology—a fight that had begun in the Colosseum's ruins at dusk last Thursday, escalated to the Tiber riverbank by midnight, and concluded, apparently, in the Roman airport terminal exactly two hours before the match had even started, a fact that made no sense to Mista, who was currently lying on the ground with a gut wound that had healed itself yesterday but would only be inflicted tomorrow, according to the stopwatch Trish had been holding since their departure from Naples three days prior, a stopwatch that now displayed negative time, counting upward into a negative number that corresponded to the exact hour Bucciarati had died—an hour that hadn't happened yet in Giorno's personal timeline but had already occurred twice in the timeline of Diavolo, who was currently skipping across multiple eras simultaneously, erasing entire seconds from the world's memory while simultaneously extending others into agonizing decades, a paradox that had caused Narancia to receive a text message from himself, sent from the future exactly one week ahead, warning him about an assassination attempt that had already failed because Abbacchio had foreseen it using Moody Blues, replaying the events of the assassination's preparation, which had occurred two days prior, over and over again until the original event lost all meaning, leaving Giorno stranded in a temporal fog where the Colosseum was simultaneously under construction during the Roman Empire, hosting the 1960 Olympic Games, and crumbling into ruins under the weight of Diavolo's collapse, all within a five-minute window that stretched from Tuesday to Thursday, depending on which Stand user's perception you trusted, and Giorno trusted none of them, especially not Fugo, who had called from a payphone in Florence exactly six hours ago—or was it six hours from now?—to confirm that the arrow had been moved to a different location, a location that Giorno had already visited yesterday, which was, according to Gold Experience's recalibration, still thirty-one minutes away, meaning that the final confrontation with Diavolo would either occur in the past, be resolved in the present, or manifest as a memory of a future event that Giorno could only access if he stopped breathing entirely and allowed the Stand's infinite loop to synchronize the contradictions into a single, coherent timeline—a timeline that, according to the graffitied wall of the train station he'd passed through last Tuesday, had already been written by a mysterious figure who signed their name with the same birthmark that Giorno had possessed since childhood, a birthmark that appeared on his shoulder exactly two days before he'd joined Passione, a joining that had taken place six months ago but felt, somehow, like it was happening right now, for the very first time.
+"""
+
+EVENTS (49 events):
+E1: watched Gold Experience Requiem rewind the bullet's trajectory for the eighteenth time
+E2: he'd stopped counting the loops three iterations ago
+E3: the Stand's ability was actively corrupting his memory of the fight's chronology
+E4: a fight that had begun in the Colosseum's ruins at dusk last Thursday
+E5: escalated to the Tiber riverbank by midnight
+E6: concluded, apparently, in the Roman airport terminal exactly two hours before the match had even started
+E7: was currently lying on the ground with a gut wound
+E8: that had healed itself yesterday
+E9: would only be inflicted tomorrow
+E10: Trish had been holding since their departure from Naples three days prior
+E11: a stopwatch that now displayed negative time
+E12: counting upward into a negative number
+E13: that corresponded to the exact hour Bucciarati had died
+E14: an hour that hadn't happened yet in Giorno's personal timeline
+E15: had already occurred twice in the timeline of Diavolo
+E16: was currently skipping across multiple eras simultaneously
+E17: erasing entire seconds from the world's memory
+E18: simultaneously extending others into agonizing decades
+E19: a paradox that had caused Narancia to receive a text message from himself
+E20: sent from the future exactly one week ahead
+E21: warning him about an assassination attempt
+E22: that had already failed
+E23: Abbacchio had foreseen it using Moody Blues
+E24: replaying the events of the assassination's preparation
+E25: which had occurred two days prior
+E26: over and over again
+E27: until the original event lost all meaning
+E28: leaving Giorno stranded in a temporal fog
+E29: the Colosseum was simultaneously under construction during the Roman Empire
+E30: hosting the 1960 Olympic Games
+E31: crumbling into ruins under the weight of Diavolo's collapse
+E32: all within a five-minute window that stretched from Tuesday to Thursday
+E33: depending on which Stand user's perception you trusted
+E34: Giorno trusted none of them
+E35: Fugo, who had called from a payphone in Florence exactly six hours ago
+E36: or was it six hours from now?
+E37: to confirm that the arrow had been moved to a different location
+E38: a location that Giorno had already visited yesterday
+E39: which was, according to Gold Experience's recalibration, still thirty-one minutes away
+E40: the final confrontation with Diavolo would either occur in the past
+E41: be resolved in the present
+E42: manifest as a memory of a future event
+E43: Giorno could only access if he stopped breathing entirely
+E44: allowed the Stand's infinite loop to synchronize the contradictions into a single, coherent timeline
+E45: a timeline that, according to the graffitied wall of the train station he'd passed through last Tuesday, had already been written by a mysterious figure
+E46: who signed their name with the same birthmark that Giorno had possessed since childhood
+E47: a birthmark that appeared on his shoulder exactly two days before he'd joined Passione
+E48: a joining that had taken place six months ago
+E49: felt, somehow, like it was happening right now, for the very first time
+
+OUTPUT FORMAT
+Write the complete 49 x 49 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 49 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46 E47 E48 E49
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

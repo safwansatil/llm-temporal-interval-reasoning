@@ -1,0 +1,59 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The drilling rig arrived in the drought-affected village on a Tuesday morning. Setting up the derrick and digging the mud settling pits took the crew six hours. Drilling through the top clay layer commenced immediately after setup and lasted eight hours, reaching the first sand layer at dusk. Boring through dense clay and silt continued throughout the next two days, advancing twenty meters every twelve hours. At eighty meters, the drill hit hard rock, slowing progress to one meter every three hours for eighteen hours. Once past the rock layer, drilling entered the deep freshwater aquifer twelve hours later. Lowering the PVC casing pipes and gravel pack took seven hours, starting immediately after the drill string was retrieved. Pumping out murky water to clear the aquifer began two hours after casing placement and ran continuously for sixteen hours until crystal-clear water flowed from the discharge pipe.
+"""
+
+EVENTS (13 events):
+E1: The drilling rig arrived in the drought-affected village
+E2: Setting up the derrick and digging the mud settling pits
+E3: Drilling through the top clay layer commenced
+E4: reaching the first sand layer
+E5: Boring through dense clay and silt
+E6: the drill hit hard rock
+E7: slowing progress
+E8: drilling entered the deep freshwater aquifer
+E9: the drill string was retrieved
+E10: Lowering the PVC casing pipes and gravel pack
+E11: Pumping out murky water to clear the aquifer
+E12: crystal-clear water flowed from the discharge pipe
+E13: advancing twenty meters every twelve hours
+
+OUTPUT FORMAT
+Write the complete 13 x 13 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 13 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

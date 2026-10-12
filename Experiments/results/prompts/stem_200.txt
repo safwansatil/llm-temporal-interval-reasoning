@@ -1,0 +1,78 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Eid moon sighting — one festival landing on different days across borders
+
+The month would be twenty-nine days or thirty, and which one it was could not be known in advance: it depended on a sliver of moon at dusk, and the dusk came to different countries at different hours under different clouds. Rashida's family was split across that line — her parents in the homeland, her brother three time zones west, herself five east — and the phone calls on the sighting evening were the year's strangest ritual: the homeland committee declared no sighting, fixing Eid for the day after tomorrow, while her brother's country, with clearer skies and a later dusk, declared the moon seen, fixing Eid for tomorrow. So her brother would celebrate while her parents were still fasting, and call them with festival greetings on a day that, in their reckoning, had not yet earned them. Rashida's own country followed the homeland's announcement by tradition rather than its own sky — the local mosque had voted on this policy years ago, after a dispute that split the congregation for two festivals running — so she fasted the thirtieth day under a sky in which, had anyone looked with the right instruments, the moon was already old enough to see. Her daughter asked which Eid was the real one. Both, Rashida said, and neither alone; the festival was not the day, it was the agreement to share it — and the family's three Eids, staggered across thirty-six hours, overlapped in only one evening, during which everyone called everyone, and that evening was the festival.
+"""
+
+EVENTS (30 events):
+E1: Eid moon sighting
+E2: one festival landing on different days across borders
+E3: The month would be twenty-nine days or thirty
+E4: which one it was could not be known in advance
+E5: it depended on a sliver of moon at dusk
+E6: the dusk came to different countries at different hours under different clouds
+E7: Rashida's family was split across that line
+E8: her parents in the homeland
+E9: her brother three time zones west
+E10: herself five east
+E11: the phone calls on the sighting evening were the year's strangest ritual
+E12: the homeland committee declared no sighting
+E13: fixing Eid for the day after tomorrow
+E14: her brother's country, with clearer skies and a later dusk, declared the moon seen
+E15: fixing Eid for tomorrow
+E16: her brother would celebrate
+E17: her parents were still fasting
+E18: call them with festival greetings on a day that, in their reckoning, had not yet earned them
+E19: Rashida's own country followed the homeland's announcement by tradition rather than its own sky
+E20: the local mosque had voted on this policy years ago
+E21: after a dispute that split the congregation for two festivals running
+E22: she fasted the thirtieth day under a sky in which, had anyone looked with the right instruments, the moon was already old enough to see
+E23: Her daughter asked which Eid was the real one
+E24: Both, Rashida said
+E25: and neither alone
+E26: the festival was not the day
+E27: it was the agreement to share it
+E28: the family's three Eids, staggered across thirty-six hours, overlapped in only one evening
+E29: during which everyone called everyone
+E30: that evening was the festival
+
+OUTPUT FORMAT
+Write the complete 30 x 30 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 30 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

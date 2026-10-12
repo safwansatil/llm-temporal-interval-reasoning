@@ -1,0 +1,94 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Shahana was the last weaver in her village who still used the traditional loom. There had been forty-seven weavers when she was a child, and she had learned the craft from her aunt, who had been one of the most skilled among them. The aunt had died nineteen years ago, and the other weavers had gradually abandoned the craft or died or moved away, and now Shahana was the only one left.
+
+The decline had been caused by the power looms that had arrived during her twenty-third year. The machines could produce fabric faster and cheaper than any human weaver, and the market for handwoven textiles had collapsed within a decade. Shahana had survived by specializing in custom work — wedding sarees and ceremonial garments that customers were willing to pay a premium for — but the orders had become less frequent over the years. She had completed only three projects in the past twelve months.
+
+Her daughter had shown interest in the craft as a child, sitting beside the loom during the afternoons and watching the shuttle fly back and forth. But she had grown up and moved to the city, and she had married a man who worked in a bank, and she now had children of her own who had never seen a handloom in operation. The chain of transmission that had extended through generations of women was about to break.
+
+The museum director visited during the winter of Shahana's sixty-third year. He was a young man who spoke with enthusiasm about cultural preservation, and he proposed that Shahana's loom be donated to the national museum when she could no longer use it. The loom would be displayed in a gallery dedicated to traditional crafts, and visitors would learn about the techniques that had been practiced in the village for centuries.
+
+Shahana agreed, but she insisted on conditions. The loom would not be a static display. It would be operated by a weaver, someone trained in the traditional methods, and demonstrations would be given regularly. The director agreed, and the loom was collected three months after Shahana's final project was completed. It now stands in the museum gallery, and a young woman trained by Shahana operates it four days each week, and the shuttle still flies back and forth, and the craft continues.
+"""
+
+EVENTS (40 events):
+E1: Shahana was the last weaver in her village who still used the traditional loom
+E2: There had been forty-seven weavers when she was a child
+E3: she had learned the craft from her aunt
+E4: who had been one of the most skilled among them
+E5: The aunt had died nineteen years ago
+E6: the other weavers had gradually abandoned the craft
+E7: or died
+E8: or moved away
+E9: now Shahana was the only one left
+E10: The decline had been caused by the power looms that had arrived during her twenty-third year
+E11: The machines could produce fabric faster and cheaper than any human weaver
+E12: the market for handwoven textiles had collapsed within a decade
+E13: Shahana had survived by specializing in custom work
+E14: wedding sarees and ceremonial garments that customers were willing to pay a premium for
+E15: the orders had become less frequent over the years
+E16: She had completed only three projects in the past twelve months
+E17: Her daughter had shown interest in the craft as a child
+E18: sitting beside the loom during the afternoons
+E19: watching the shuttle fly back and forth
+E20: she had grown up
+E21: moved to the city
+E22: she had married a man who worked in a bank
+E23: she now had children of her own who had never seen a handloom in operation
+E24: The chain of transmission that had extended through generations of women was about to break
+E25: The museum director visited during the winter of Shahana's sixty-third year
+E26: He was a young man who spoke with enthusiasm about cultural preservation
+E27: he proposed that Shahana's loom be donated to the national museum when she could no longer use it
+E28: The loom would be displayed in a gallery dedicated to traditional crafts
+E29: visitors would learn about the techniques that had been practiced in the village for centuries
+E30: Shahana agreed
+E31: she insisted on conditions
+E32: The loom would not be a static display
+E33: It would be operated by a weaver, someone trained in the traditional methods
+E34: demonstrations would be given regularly
+E35: The director agreed
+E36: the loom was collected three months after Shahana's final project was completed
+E37: It now stands in the museum gallery
+E38: a young woman trained by Shahana operates it four days each week
+E39: the shuttle still flies back and forth
+E40: the craft continues
+
+OUTPUT FORMAT
+Write the complete 40 x 40 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 40 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

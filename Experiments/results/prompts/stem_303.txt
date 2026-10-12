@@ -1,0 +1,73 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Tamanna had applied for the university scholarship during the first week of January. The scholarship would cover four years of tuition at a prestigious institution in the capital, and the competition was fierce — over two thousand applicants for only fifty places. She had submitted her application, her transcripts, and a personal essay that she had revised eleven times over the previous month.
+
+The first round results were announced during the third week of February. Tamanna was among the three hundred shortlisted candidates. The second round required an in-person interview at the university campus, scheduled for the second week of March. She traveled to the capital with her father, a journey of five hours by bus, and spent the night before the interview in a cheap hotel near the campus.
+
+The interview took place on a Thursday morning. Tamanna sat before a panel of four professors and answered their questions with a composure that surprised her. She spoke about her desire to become a doctor, about the patients in her village who had no access to healthcare, about the younger students she tutored in her spare time. The panel listened without expression.
+
+She returned home the following day and entered the waiting period. March passed slowly. April arrived with no news. By the middle of April, Tamanna had convinced herself that she had been rejected. She began researching alternative options and applied to two other institutions as backup.
+
+The acceptance letter arrived on a Tuesday during the last week of April. Her mother found it in the mailbox and brought it to her, hands trembling. Tamanna opened the envelope slowly, read the first line, and screamed. She had been awarded the scholarship. Her father, who had been working in the fields, came running at the sound. The family stood in the courtyard, passing the letter between them, while the neighbors gathered to see what had happened.
+
+Tamanna leaves for the capital in the first week of September. She has already started packing, and the letter is framed on the wall of her room — a reminder of the Tuesday in April when everything changed.
+"""
+
+EVENTS (17 events):
+E1: revised eleven times
+E2: applied for the university scholarship
+E3: submitted her application, her transcripts, and a personal essay
+E4: first round results were announced
+E5: traveled to the capital
+E6: spent the night before the interview in a cheap hotel
+E7: The interview took place
+E8: returned home
+E9: applied to two other institutions
+E10: The acceptance letter arrived
+E11: Tamanna opened the envelope
+E12: screamed
+E13: been awarded the scholarship
+E14: started packing
+E15: Tamanna leaves for the capital
+E16: Tamanna sat before a panel of four professors and answered their questions with a composure that surprised her
+E17: She spoke about her desire to become a doctor,
+
+OUTPUT FORMAT
+Write the complete 17 x 17 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 17 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

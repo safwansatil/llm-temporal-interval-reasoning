@@ -1,0 +1,60 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The total solar eclipse lasted two minutes and thirty three seconds at the point of greatest duration. A photographer travelled from New York to Wyoming to capture it, hauling fifty kilograms of equipment by train for six days and by wagon for two more. He set up his camera in a field, aligned it over three hours, and exposed a single plate during totality. An exposure of forty five seconds. The plate was developed that night in ninety minutes and showed, to his delight, the solar corona. The print was exhibited in New York the following month, viewed by perhaps a thousand people. The glass plate was stored in a box, forgotten, and rediscovered in 1978, a hundred years later, during the next eclipse that crossed the same continent. The plate was digitised in 2017. The digital image was viewed online by three million people in the first week. The eclipse itself, the real one, had been seen by perhaps ten thousand. The photographer's exposure of forty five seconds was shorter than the time it takes to download the image on a slow connection. His train ride was six days. The image's life on the internet, so far, is fifty years and counting. The corona has not changed.
+"""
+
+EVENTS (14 events):
+E1: The total solar eclipse lasted two minutes and thirty three seconds
+E2: A photographer travelled from New York to Wyoming
+E3: by train for six days
+E4: by wagon for two more
+E5: He set up his camera in a field
+E6: aligned it over three hours
+E7: exposed a single plate during totality
+E8: The plate was developed that night
+E9: The print was exhibited in New York the following month
+E10: The glass plate was stored in a box
+E11: rediscovered in 1978
+E12: the next eclipse that crossed the same continent
+E13: The plate was digitised in 2017
+E14: The digital image was viewed online by three million people in the first week
+
+OUTPUT FORMAT
+Write the complete 14 x 14 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 14 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

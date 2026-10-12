@@ -1,0 +1,91 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Dipa discovered the photograph album during the spring cleaning of her grandmother's house in the first week of March. The album was bound in faded red velvet, and the pages were brittle with age. It contained photographs spanning seven decades — weddings, births, funerals, and ordinary moments that had somehow been deemed worthy of preservation.
+
+She sat with the album for the entire afternoon, turning the pages slowly. She found a photograph of her grandmother as a young bride, her face half-hidden behind a floral veil. Another showed her grandfather, who had passed away the previous November, standing beside a bicycle that Dipa had never seen. The photographs were a window into a world that existed before she was born, populated by younger versions of people she thought she knew.
+
+She asked her grandmother about the album that evening. The old woman, who had been quiet and withdrawn since her husband's death, came alive as she narrated the stories behind each image. The bicycle had been a wedding gift. The woman in the floral veil had been terrified of marriage and had cried through the entire ceremony. The serious-looking man in the group photograph had been the village postman, who had secretly written poetry that he published under a false name.
+
+Dipa recorded the stories on her phone over the next three evenings. By the end of the week, she had documented more than sixty photographs and their accompanying narratives. She typed the stories during the following month, pairing each one with a digital scan of the original image.
+
+The album project was completed by the middle of April. Dipa printed a small book containing the photographs and stories, and she presented it to her grandmother on a Sunday afternoon. The old woman held the book in her hands and did not speak for several minutes. Then she looked up at Dipa with eyes that were wet and said, "Now I will not be forgotten." She passed away two months later, in the middle of June. The book was displayed at her funeral, and each of her children and grandchildren received a copy. Dipa's recording of her grandmother's voice, narrating her own life, has been played more times than she can count.
+"""
+
+EVENTS (37 events):
+E1: Dipa discovered the photograph album during the spring cleaning of her grandmother's house in the first week of March
+E2: The album was bound in faded red velvet
+E3: the pages were brittle with age
+E4: It contained photographs spanning seven decades
+E5: weddings, births, funerals, and ordinary moments that had somehow been deemed worthy of preservation
+E6: She sat with the album for the entire afternoon
+E7: turning the pages slowly
+E8: She found a photograph of her grandmother as a young bride
+E9: her face half-hidden behind a floral veil
+E10: Another showed her grandfather
+E11: who had passed away the previous November
+E12: standing beside a bicycle that Dipa had never seen
+E13: The photographs were a window into a world that existed before she was born
+E14: populated by younger versions of people she thought she knew
+E15: She asked her grandmother about the album that evening
+E16: who had been quiet and withdrawn since her husband's death
+E17: came alive as she narrated the stories behind each image
+E18: The bicycle had been a wedding gift
+E19: The woman in the floral veil had been terrified of marriage
+E20: had cried through the entire ceremony
+E21: The serious-looking man in the group photograph had been the village postman
+E22: who had secretly written poetry that he published under a false name
+E23: Dipa recorded the stories on her phone over the next three evenings
+E24: she had documented more than sixty photographs and their accompanying narratives
+E25: She typed the stories during the following month
+E26: pairing each one with a digital scan of the original image
+E27: The album project was completed by the middle of April
+E28: Dipa printed a small book containing the photographs and stories
+E29: she presented it to her grandmother on a Sunday afternoon
+E30: The old woman held the book in her hands
+E31: did not speak for several minutes
+E32: Then she looked up at Dipa with eyes that were wet
+E33: said, "Now I will not be forgotten."
+E34: She passed away two months later, in the middle of June
+E35: The book was displayed at her funeral
+E36: each of her children and grandchildren received a copy
+E37: Dipa's recording of her grandmother's voice, narrating her own life, has been played more times than she can count
+
+OUTPUT FORMAT
+Write the complete 37 x 37 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 37 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

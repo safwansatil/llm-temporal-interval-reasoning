@@ -1,0 +1,96 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Pablo Escobar adjusted his gold-rimmed sunglasses, watching the afternoon sun bake the Medellín hillside where his men had buried the rival sicario just last week, though the body had already been found by the police during the raid that had occurred the morning after the Supreme Court's decision to extradite him, a decision that had been announced during the televised address he'd watched from his hacienda's private theater the previous Tuesday, the same theater where he'd hosted the notorious party that had ended with the bombing of the newspaper headquarters, a bombing that had taken place three days after the assassination of the justice minister, an assassination he'd ordered from his prison cell in La Catedral exactly two months prior to his escape, an escape that had involved bribing over a dozen guards and had been executed flawlessly on the night of the full moon, the same night his wife had called him from Miami to warn him about the extradition papers that had been signed by the new president just that afternoon, a president who had been elected during the campaign that Pablo had tried to derail by bombing the commercial flight that was supposed to carry the candidate's running mate—a bombing that had occurred the day after the Cali Cartel had attempted to assassinate him in the nightclub, an assassination that had failed because his cousin had tipped him off during the weekly family dinner at his mother's house, a dinner that had taken place the previous Sunday, exactly one week before the government's special forces had raided the jungle compound where he'd been hiding since his escape, a raid that had missed him by less than an hour because he'd already relocated to the safe house in Bogotá that Gustavo had arranged during the ceasefire negotiations, negotiations that had collapsed the afternoon after the DEA agent had delivered the ultimatum, an ultimatum that Pablo had rejected during the meeting at the golf course, a meeting that had occurred the same day his daughter had called from school to ask if he'd be home for her birthday party, a party that he'd promised to attend the previous weekend but had missed because the plane he'd chartered from Panama had been delayed by the storm that had flooded the coastal cities, a storm that had struck the day after he'd ordered the hit on the journalist who'd published the photo of his son, a photo that had been taken during the soccer match at the local stadium, a match that had occurred last month during the week of the Copa Libertadores final, a final that Pablo had watched from the VIP box alongside the cartel's top financiers, financiers who had since been arrested, extradited, or killed in the wave of violence that had swept through the city following the bounty he'd placed on the heads of the police officers who'd participated in the raid on his mother's house, a raid that had occurred the morning after he'd flown to Panama to launder the proceeds from the previous year's cocaine shipments, shipments that had departed from the airstrip in the jungle exactly three days after the United States had signed the extradition treaty, a treaty that Pablo had tried to nullify by assassinating the American ambassador during the state dinner, an assassination that had been foiled because the ambassador had changed his plans at the last minute, a change that had saved his life but cost Pablo his most trusted lieutenant, who'd been captured during the ensuing shootout and had been providing intelligence to the authorities ever since, intelligence that had led them to the safe house where Pablo was currently hiding, a safe house he'd bought three years ago during the height of his power, back when he'd delivered the first shipment of cocaine to Miami and realized that the true wealth wasn't in the product itself but in the timing—the ability to control when the product arrived, when the money flowed, when the enemies died, and when he himself would finally escape the web of chronology that had trapped him since the day he'd first stepped into the smuggling business, a business that had begun in the back alleys of Medellín during his teenage years, years that now felt like a lifetime ago, though the cartel's shadow still stretched across the afternoon, darkening every timeline he'd ever tried to rewrite.
+"""
+
+EVENTS (50 events):
+E1: Pablo Escobar adjusted his gold-rimmed sunglasses
+E2: his men had buried the rival sicario
+E3: the body had already been found by the police
+E4: the raid that had occurred the morning after
+E5: the Supreme Court's decision to extradite him
+E6: the televised address he'd watched
+E7: hosted the notorious party
+E8: the bombing of the newspaper headquarters
+E9: the assassination of the justice minister
+E10: he'd ordered from his prison cell
+E11: bribing over a dozen guards
+E12: executed flawlessly on the night of the full moon
+E13: his wife had called him from Miami
+E14: signed by the new president just that afternoon
+E15: had been elected during the campaign
+E16: bombing the commercial flight
+E17: the Cali Cartel had attempted to assassinate him
+E18: his cousin had tipped him off
+E19: weekly family dinner
+E20: special forces had raided the jungle compound
+E21: he'd been hiding since his escape
+E22: relocated to the safe house in Bogotá
+E23: Gustavo had arranged
+E24: negotiations that had collapsed
+E25: the DEA agent had delivered the ultimatum
+E26: Pablo had rejected during the meeting at the golf course
+E27: his daughter had called from school
+E28: had missed because
+E29: had been delayed by the storm
+E30: flooded the coastal cities
+E31: ordered the hit on the journalist
+E32: published the photo of his son
+E33: a photo that had been taken
+E34: the soccer match at the local stadium
+E35: watched from the VIP box
+E36: had since been arrested
+E37: the bounty he'd placed
+E38: the raid on his mother's house
+E39: he'd flown to Panama to launder
+E40: shipments that had departed from the airstrip
+E41: the United States had signed the extradition treaty
+E42: assassinating the American ambassador
+E43: the ambassador had changed his plans
+E44: captured during the ensuing shootout
+E45: providing intelligence to the authorities ever since
+E46: intelligence that had led them to the safe house
+E47: Pablo was currently hiding
+E48: a safe house he'd bought three years ago
+E49: delivered the first shipment of cocaine to Miami
+E50: first stepped into the smuggling business
+
+OUTPUT FORMAT
+Write the complete 50 x 50 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 50 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46 E47 E48 E49 E50
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

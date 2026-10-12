@@ -1,0 +1,92 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Nasreen had been drawing maps since she was old enough to hold a pencil. Her father had been the chief cartographer for the district survey office, a man who spent his days measuring distances and calculating elevations and rendering the contours of the land onto paper. He had taught her to read maps before she could read words, and he had given her a compass for her seventh birthday that she still kept in a drawer beside her bed.
+
+She had accompanied her father on surveying expeditions during the summers of her childhood. They had walked through forests and across rivers and up hillsides, and her father had pointed out features of the landscape that would later appear on his maps. She had learned to see the world as a cartographer sees it — as a set of relationships, distances, elevations, boundaries — and she had carried this way of seeing into her adult life.
+
+Her father died during her twenty-ninth year, leaving behind a library of maps that covered every corner of the district. Nasreen inherited the collection, and she spent the next five years cataloging it. The maps ranged from rough field sketches to polished final versions, and they documented changes in the landscape that had occurred over her father's forty-one-year career.
+
+During the cataloging, she discovered a map that was different from the others. It was a hand-drawn map of their neighborhood, rendered in her father's precise style, but it was labeled with names that did not correspond to streets or landmarks. Instead, the labels identified moments: "where you took your first steps," "where you learned to ride your bicycle," "where we watched the eclipse." The map was a cartography not of space but of memory, and it was dated three weeks before her father's death.
+
+Nasreen framed the map and hung it on the wall of her study. She has added her own annotations over the years, marking new moments as they occur. Her children have asked about the map, and she has explained it to them the way her father would have explained a topographical survey — with precision and care and an awareness that every map tells a story about the person who made it.
+"""
+
+EVENTS (38 events):
+E1: Nasreen had been drawing maps since she was old enough to hold a pencil
+E2: Her father had been the chief cartographer for the district survey office
+E3: a man who spent his days measuring distances
+E4: calculating elevations
+E5: rendering the contours of the land onto paper
+E6: He had taught her to read maps before she could read words
+E7: he had given her a compass for her seventh birthday
+E8: she still kept in a drawer beside her bed
+E9: She had accompanied her father on surveying expeditions during the summers of her childhood
+E10: They had walked through forests
+E11: across rivers
+E12: up hillsides
+E13: her father had pointed out features of the landscape that would later appear on his maps
+E14: She had learned to see the world as a cartographer sees it
+E15: she had carried this way of seeing into her adult life
+E16: Her father died during her twenty-ninth year
+E17: leaving behind a library of maps that covered every corner of the district
+E18: Nasreen inherited the collection
+E19: she spent the next five years cataloging it
+E20: The maps ranged from rough field sketches to polished final versions
+E21: they documented changes in the landscape that had occurred over her father's forty-one-year career
+E22: she discovered a map that was different from the others
+E23: It was a hand-drawn map of their neighborhood
+E24: rendered in her father's precise style
+E25: it was labeled with names that did not correspond to streets or landmarks
+E26: the labels identified moments
+E27: where you took your first steps
+E28: where you learned to ride your bicycle
+E29: where we watched the eclipse
+E30: The map was a cartography not of space but of memory
+E31: it was dated three weeks before her father's death
+E32: Nasreen framed the map
+E33: hung it on the wall of her study
+E34: She has added her own annotations over the years
+E35: marking new moments as they occur
+E36: Her children have asked about the map
+E37: she has explained it to them the way her father would have explained a topographical survey
+E38: with precision and care and an awareness that every map tells a story about the person who made it
+
+OUTPUT FORMAT
+Write the complete 38 x 38 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 38 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

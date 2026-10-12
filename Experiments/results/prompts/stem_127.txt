@@ -1,0 +1,66 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The reactor hums beneath Site Nine at 3 a.m., a sound the night engineer Devrim has heard before, though never in this control room, since the last time was in the decommissioned twin facility outside Almaty, the week before it was decommissioned, when he'd been sent to observe a shutdown procedure that, he'd later learn, was actually the rehearsal for the very incident he's now three hours into containing, an incident the morning shift won't be briefed on until after the press conference that, depending on whose clock you trust, either already happened in Brussels or is happening right now, since the spokesperson recorded her statement the previous evening for release at a time zone that puts it simultaneously before and after the alarm Devrim is currently silencing. He remembers the alarm from Almaty too, or thinks he does, though the engineer who trained him insists that alarm was disabled a full year before Devrim ever transferred, during the same season the twin facility's coolant system failed in a way officially attributed to the storm that, oddly, also delayed the shipment of parts now sitting unopened in Site Nine's loading bay, parts requisitioned after tonight's failure but stamped with a manufacture date that predates the failure by six months. His supervisor, reached by radio from what she says is the surface, but which the signal delay suggests is somewhere lower, tells him the evacuation was completed twenty minutes ago, though he can still hear boots on the stairwell above him, boots that might belong to the team sent down after the first alarm, or the second, or possibly the team from Almaty, who were never told their facility's fate and may, in Devrim's exhausted accounting, still believe they're rehearsing.
+"""
+
+EVENTS (20 events):
+E1: The reactor hums beneath Site Nine
+E2: he'd been sent to observe a shutdown procedure
+E3: it was decommissioned
+E4: three hours into containing
+E5: the morning shift won't be briefed
+E6: the press conference
+E7: the spokesperson recorded her statement the previous evening
+E8: the alarm Devrim is currently silencing
+E9: He remembers the alarm from Almaty
+E10: that alarm was disabled a full year before
+E11: Devrim ever transferred
+E12: the twin facility's coolant system failed
+E13: the storm
+E14: delayed the shipment of parts
+E15: parts requisitioned
+E16: tonight's failure
+E17: a manufacture date that predates the failure by six months
+E18: reached by radio
+E19: the evacuation was completed twenty minutes ago
+E20: he can still hear boots on the stairwell
+
+OUTPUT FORMAT
+Write the complete 20 x 20 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 20 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,78 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Sharmin's cat, a ginger tabby named Mithu, went missing on a Sunday afternoon. Mithu had been an indoor cat for all four years of her life, and Sharmin could not understand how she had escaped. The window in the kitchen had been left open by the maid, who had come to clean three hours earlier.
+
+Sharmin spent the first evening searching the neighborhood. She walked up and down every lane within a half-kilometer radius, calling Mithu's name and shaking a box of treats. By midnight, she had found nothing and returned home exhausted.
+
+The next morning, she printed fifty posters with Mithu's photograph and her phone number. She distributed them to every shop, lamp post, and community notice board in the area. She also posted on three local social media groups, and within two hours, several neighbors had shared her post.
+
+Two days passed without any news. Sharmin continued searching each evening after work, expanding her radius to a full kilometer. On the third day, she received a call from a woman who lived in an apartment complex near the railway station. The woman had seen a ginger cat matching Mithu's description in the parking area.
+
+Sharmin rushed to the location and found Mithu hiding under a parked car, thin and frightened but unharmed. The cat had traveled nearly two kilometers from home, crossing several major roads. Sharmin carried her back in a borrowed basket, and Mithu purred for the entire journey.
+
+The vet checked her the following day and pronounced her healthy. Sharmin installed mesh screens on all the windows within a week. Mithu showed no further interest in escaping, apparently having concluded that the outside world was vastly overrated.
+"""
+
+EVENTS (22 events):
+E1: the maid, who had come to clean
+E2: The window in the kitchen had been left open
+E3: Mithu, went missing
+E4: Sharmin spent the first evening searching the neighborhood
+E5: she had found nothing and returned home exhausted
+E6: she printed fifty posters
+E7: She distributed them
+E8: posted on three local social media groups
+E9: several neighbors had shared her post
+E10: Sharmin continued searching each evening after work
+E11: she received a call from a woman
+E12: Sharmin rushed to the location
+E13: found Mithu hiding under a parked car
+E14: Sharmin carried her back in a borrowed basket
+E15: The vet checked her
+E16: Sharmin installed mesh screens on all the windows
+E17: Mithu had been an indoor cat for all four years
+E18: walked up and down every lane within a half-kilometer radius
+E19: Two days passed without any news
+E20: had seen a ginger cat matching Mithu's description
+E21: cat had traveled nearly two kilometers
+E22: Mithu showed no further interest in escaping
+
+OUTPUT FORMAT
+Write the complete 22 x 22 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 22 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

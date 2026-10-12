@@ -1,0 +1,71 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+I am tracing a coastline on a navigation chart in Lisbon this afternoon, though the coastline was drawn before the expedition that supposedly discovered it and corrected after the captain who made the correction had already returned to Seville. The captain left Cádiz during the autumn when a royal commission was still debating whether the voyage should sail west, while his navigator had spent the previous summer in Madeira copying a chart that showed an island he would later claim to have found himself. A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores, and by the time that letter reached the harbor, the ships had already been reported missing in the Caribbean. In a monastery near Porto, a monk recorded hearing news of the expedition before the fleet had left Iberia, although his account was written years later by a scribe who had never met him; meanwhile, in Seville, merchants insured cargo against a route that had not yet been officially recognized. The captain’s brother said the map was redrawn after the first landing, but the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed, and a later copy places the landing on an island that had disappeared from charts by the time the captain returned. I found the disputed map last spring in a basement in Lisbon, after a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born. Yesterday, I compared the ink with a logbook written aboard the ship, yet the logbook says the captain saw the coastline tomorrow, a phrase that meant “the next day” to the sailor who wrote it but “the future voyage” to the clerk who copied it decades later. The chart will be presented to the museum tomorrow, unless the coordinates prove that the ship reached the coast before departing, which would be impossible except that the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived.
+"""
+
+EVENTS (25 events):
+E1: I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E2: the coastline was drawn before the expedition that supposedly discovered it
+E3: corrected after the captain who made the correction had already returned to Seville
+E4: The captain left Cádiz during the autumn
+E5: a royal commission was still debating whether the voyage should sail west
+E6: his navigator had spent the previous summer in Madeira copying a chart
+E7: that showed an island he would later claim to have found himself
+E8: A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E9: by the time that letter reached the harbor
+E10: the ships had already been reported missing in the Caribbean
+E11: a monk recorded hearing news of the expedition before the fleet had left Iberia
+E12: his account was written years later by a scribe who had never met him
+E13: merchants insured cargo against a route that had not yet been officially recognized
+E14: The captain’s brother said the map was redrawn after the first landing
+E15: the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E16: a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E17: I found the disputed map last spring in a basement in Lisbon
+E18: a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E19: Yesterday, I compared the ink with a logbook written aboard the ship
+E20: the logbook says the captain saw the coastline tomorrow
+E21: a phrase that meant “the next day” to the sailor who wrote it
+E22: but “the future voyage” to the clerk who copied it decades later
+E23: The chart will be presented to the museum tomorrow
+E24: unless the coordinates prove that the ship reached the coast before departing
+E25: the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+
+OUTPUT FORMAT
+Write the complete 25 x 25 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 25 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

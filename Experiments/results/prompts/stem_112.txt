@@ -1,0 +1,92 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The therapist watches the rain streak down the office window, though she's been lost in the same memory loop since the session ended—the patient who'd mentioned the red umbrella three sessions ago, which had triggered the therapist's own recollection of the day her brother vanished from the carnival the summer she turned fourteen, a disappearance that had been ruled a runaway case by the police who'd arrived two hours after the Ferris wheel had stopped spinning, but the therapist had always suspected the man in the gray coat who'd bought her cotton candy the same afternoon, a suspicion she'd buried so deep that when the new patient described his recurring nightmare about the carnival's funhouse mirrors, she'd felt the floor tilt beneath her, though she'd kept her composure until the hour ended, the hour that had started with her checking her phone for news about her daughter's flight from London which had been delayed by the storm that had flooded the subway she used to ride to her first job at the psychiatric hospital ten years ago, where she'd treated a veteran who'd insisted he could see the future, a claim she'd dismissed until the veteran had described her brother's face three days before the missing persons report was updated with a new photograph, an update that had come on the same Tuesday her husband had left for his business trip to Singapore, the trip he'd postponed twice already because of the merger talks that were supposed to have concluded last spring but had dragged into summer, the summer that reminded her of the summer she'd spent in group therapy herself after the divorce, when she'd sat in a circle of strangers and listened to a woman describe how she'd found her mother's suicide note hidden in the umbrella stand—the very umbrella stand that now sits in the corner of the therapist's office holding the red umbrella she'd bought on a whim in the airport gift shop three years ago, the same airport she'd flown into the night before her father's funeral, which had occurred during the same week her patient had first mentioned the dream about the funhouse, though at the time she'd attributed it to the medication change she'd recommended the previous Thursday, a recommendation she'd made after the patient had confessed he'd stopped taking his antidepressants two months before, the two months that had coincided with the period the therapist had been avoiding her own sister's voicemails, voicemails that had started arriving the morning after her mother's birthday dinner, the dinner where her sister had mentioned the old photo album that contained pictures from the summer of the carnival, pictures the therapist had purposefully left in the attic of the house she'd sold in March, the same March the patient had first walked into her office with his rain-soaked coat and his story about the mirrors, a story he'd repeated in variations over seven sessions, each version shifting the chronology of the carnival visit until the therapist could no longer trust her own memory of what had actually happened that day, because the day her brother disappeared might have been the day after the Ferris wheel malfunctioned, or perhaps the day before, since the newspaper clipping she'd saved from her mother's effects had been dated the same week the therapist had graduated from university twenty years ago, the graduation that her father had attended despite his illness, an illness that had been diagnosed during the month she'd spent in Paris studying psychopathology, a month that had overlapped with her brother's last postcard from California, the postcard she still keeps in her desk drawer between the patient's file and the journal she started keeping the previous New Year's Eve, the journal that now contains more memories she's tried to rewrite than actual accounts of her present life, her present life which currently consists of watching rain streak down the window while she waits for the next patient who will arrive at four o'clock, though the previous patient's session ran long because he'd discovered something in his own childhood photographs that reminded her of something she'd forgotten about the man in the gray coat, a forgetting that had lasted fifteen years until this afternoon, this afternoon that now feels as uncertain as the future the veteran had described, a future that might have already happened in a timeline the therapist can no longer separate from the timelines she constructs for her patients each day.
+"""
+
+EVENTS (46 events):
+E1: The therapist watches the rain streak down the office window
+E2: lost in the same memory loop
+E3: the session ended
+E4: the patient who'd mentioned the red umbrella three sessions ago
+E5: the day her brother vanished from the carnival
+E6: ruled a runaway case
+E7: the police who'd arrived two hours after
+E8: the Ferris wheel had stopped spinning
+E9: bought her cotton candy
+E10: the new patient described his recurring nightmare
+E11: her checking her phone
+E12: her daughter's flight from London
+E13: flooded the subway
+E14: her first job at the psychiatric hospital ten years ago
+E15: she'd treated a veteran
+E16: the veteran had described her brother's face
+E17: the missing persons report was updated
+E18: her husband had left for his business trip to Singapore
+E19: the trip he'd postponed twice already
+E20: the merger talks that were supposed to have concluded last spring
+E21: the summer she'd spent in group therapy herself
+E22: the divorce
+E23: she'd bought on a whim in the airport gift shop three years ago
+E24: she'd flown into the night before
+E25: her father's funeral
+E26: her patient had first mentioned the dream about the funhouse
+E27: the medication change she'd recommended the previous Thursday
+E28: the patient had confessed
+E29: he'd stopped taking his antidepressants two months before
+E30: avoiding her own sister's voicemails
+E31: voicemails that had started arriving
+E32: her mother's birthday dinner
+E33: her sister had mentioned the old photo album
+E34: the house she'd sold in March
+E35: the patient had first walked into her office
+E36: had been dated the same week
+E37: graduated from university twenty years ago
+E38: her father had attended despite his illness
+E39: an illness that had been diagnosed
+E40: the month she'd spent in Paris studying psychopathology
+E41: her brother's last postcard from California
+E42: the journal she started keeping the previous New Year's Eve
+E43: the next patient who will arrive at four o'clock
+E44: the previous patient's session ran long
+E45: he'd discovered something in his own childhood photographs
+E46: a forgetting that had lasted fifteen years
+
+OUTPUT FORMAT
+Write the complete 46 x 46 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 46 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,76 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The mango tree in their courtyard had been planted by Tania's great-grandfather, ninety years before she was born. It had survived wars, cyclones, and the rapid urbanization that had transformed their neighborhood from farmland into a dense residential area. Every summer of Tania's life, the tree had produced hundreds of mangoes, which her family shared with neighbors, relatives, and anyone who visited.
+
+The year the tree began to die, Tania was twenty-two years old. The first sign was a thinning of the leaves during the spring. By early summer, several major branches had turned brown and brittle. An arborist who visited in the middle of the season confirmed the diagnosis: the tree had reached the end of its natural life and would not survive another year.
+
+That summer, the tree produced only a single mango. Tania's grandmother, who was ninety-three herself and had grown up in the shade of that tree, asked that the last mango be brought to her. Tania climbed the ladder and picked it carefully, cradling it in both hands as if it were made of glass.
+
+Her grandmother ate the mango slowly, slice by slice, with her eyes closed. When she finished, she told Tania that it was the sweetest mango she had ever tasted. She passed away three months later, and the tree was cut down the following spring. But Tania saved the seed from that last mango. She planted it in a pot on her balcony, where it has been growing for two years now — a small green shoot that carries the memory of a tree that fed four generations.
+"""
+
+EVENTS (24 events):
+E1: The mango tree in their courtyard had been planted by Tania's great-grandfather
+E2: It had survived wars, cyclones, and the rapid urbanization that had transformed their neighborhood from farmland into a dense residential area
+E3: the tree had produced hundreds of mangoes
+E4: her family shared with neighbors, relatives, and anyone who visited
+E5: the tree began to die
+E6: The first sign was a thinning of the leaves during the spring
+E7: several major branches had turned brown and brittle
+E8: An arborist who visited in the middle of the season confirmed the diagnosis
+E9: the tree had reached the end of its natural life
+E10: would not survive another year
+E11: the tree produced only a single mango
+E12: had grown up in the shade of that tree
+E13: asked that the last mango be brought to her
+E14: Tania climbed the ladder
+E15: picked it carefully
+E16: cradling it in both hands
+E17: Her grandmother ate the mango slowly, slice by slice, with her eyes closed
+E18: she finished
+E19: she told Tania that it was the sweetest mango she had ever tasted
+E20: She passed away three months later
+E21: the tree was cut down the following spring
+E22: Tania saved the seed from that last mango
+E23: She planted it in a pot on her balcony
+E24: it has been growing for two years now
+
+OUTPUT FORMAT
+Write the complete 24 x 24 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 24 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

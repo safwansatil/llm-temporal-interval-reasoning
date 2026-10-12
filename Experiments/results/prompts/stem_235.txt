@@ -1,0 +1,67 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Rashed had been a schoolteacher in the village for twenty years before he conceived the idea of a community library. The village had no library and no bookshop. The nearest place to buy books was the district town, a journey of nearly three hours. Rashed had been collecting books himself since his college days, and over two decades he had accumulated more than four hundred volumes.
+
+He announced the library project during a village meeting in the middle of winter. The response was lukewarm at first. Some elders questioned the need. Others worried about costs. But the younger residents were excited, and within two weeks, a group of fifteen volunteers had formed.
+
+Rashed donated his personal collection as the foundation. He cleared out the unused storage room attached to the village school and spent three days cleaning and painting it. The volunteers built shelves from donated bamboo, and a local carpenter contributed a wooden reading table.
+
+The library opened on a Saturday morning, exactly two months after Rashed's initial announcement. For the first three days, no one came except the volunteers. Rashed sat alone in the room, surrounded by his books, and wondered if he had made a mistake.
+
+On the fourth day, a young girl entered. She was eight years old, the daughter of a farmer who had never learned to read. She picked up a picture book and sat at the reading table for an hour. The next day, she returned with her older brother. Within a week, the library had twenty regular readers. Within a month, Rashed had to expand the operating hours to accommodate the demand.
+
+A year after the opening, the district education officer visited the library and was so impressed that she arranged for a government grant to expand the collection. The library now held over a thousand books and served readers from three neighboring villages. Rashed, now retired from teaching, spent his days managing the library and watching his idea grow into something far larger than he had ever imagined.
+"""
+
+EVENTS (11 events):
+E1: Rashed had been collecting books
+E2: Rashed had been a schoolteacher
+E3: He cleared out the unused storage room
+E4: The library opened
+E5: no one came
+E6: She picked up a picture book and sat
+E7: the library had twenty regular readers
+E8: Rashed had to expand the operating hours
+E9: district education officer visited
+E10: spent his days managing the library
+E11: a group of fifteen volunteers had formed.
+
+OUTPUT FORMAT
+Write the complete 11 x 11 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 11 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

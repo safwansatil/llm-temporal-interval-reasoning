@@ -1,0 +1,78 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Farhan had been shortlisted for the prestigious national scholarship during the first week of March. The scholarship would fund his entire undergraduate education at any university in the country, and the competition had been intense — over five thousand applicants for only twenty awards. The interview was scheduled for a Thursday in the last week of March, and Farhan had exactly three weeks to prepare.
+
+He spent the first week researching the scholarship committee. He learned the names and backgrounds of all five panel members, read their published work, and prepared answers to questions they were likely to ask. His father, who had been a debater in his youth, conducted mock interviews with him each evening. By the end of that week, Farhan could answer questions about his academic interests, his career goals, and his community service without hesitation.
+
+The second week was devoted to subject knowledge. Farhan reviewed his coursework from the previous two years, focusing on the subjects most relevant to his intended field of study. He read three additional books during that week and filled an entire notebook with notes. His sleep suffered, but he considered the sacrifice necessary.
+
+During the third week, disaster struck. Farhan developed a severe sore throat on Monday, and by Tuesday he could barely speak above a whisper. The interview was on Thursday. His mother panicked. His father remained calm and took him to a doctor that same Tuesday. The doctor prescribed medication and complete voice rest for forty-eight hours. Farhan communicated through written notes for two full days.
+
+His voice returned on Thursday morning, weak but functional. He gargled with warm salt water before leaving for the interview and carried a bottle of honey tea. The interview was held at a government building in the capital, and Farhan arrived an hour early, sitting in the waiting room and reviewing his notes one final time.
+
+The interview lasted twenty-five minutes. Farhan's voice held up, though it cracked once during a particularly long answer. The panel asked challenging questions, and he answered each one thoughtfully. When he walked out of the room, he had no idea whether he had succeeded or failed.
+
+The results were announced during the second week of April. Farhan had been selected — one of the twenty scholarship recipients. His father wept. His mother called every relative she knew. Farhan accepted the award at a ceremony in the third week of April, and he will begin his studies in September. The sore throat had almost cost him everything, but his preparation had carried him through.
+"""
+
+EVENTS (20 events):
+E1: Farhan had been shortlisted for the prestigious national scholarship
+E2: He spent the first week researching the scholarship committee
+E3: conducted mock interviews with him each evening
+E4: The second week was devoted to subject knowledge
+E5: Farhan developed a severe sore throat
+E6: he could barely speak above a whisper
+E7: took him to a doctor
+E8: The doctor prescribed medication and complete voice rest
+E9: Farhan communicated through written notes
+E10: His voice returned
+E11: He gargled with warm salt water
+E12: Farhan arrived an hour early
+E13: The interview lasted twenty-five minutes
+E14: he walked out of the room
+E15: The results were announced
+E16: Farhan had been selected
+E17: His father wept
+E18: His mother called every relative she knew
+E19: Farhan accepted the award
+E20: he will begin his studies
+
+OUTPUT FORMAT
+Write the complete 20 x 20 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 20 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,77 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Rafi had been waiting for the job interview since he submitted his application during the first week of September. The position was at a multinational company with offices in the capital, and the salary would have been life-changing. The interview was scheduled for a Wednesday in the middle of October, and Rafi had prepared obsessively for two weeks.
+
+On the morning of the interview, everything went wrong. His alarm failed to go off because of a power cut during the night. He woke up forty minutes late and discovered that his formal shirt had a stain he had not noticed. His backup shirt was still damp from being washed the previous evening. He ironed the damp shirt as best he could, dressed hurriedly, and ran to the bus stop.
+
+The bus was late. Rafi waited for twenty minutes, his anxiety mounting with each passing moment. When the bus finally arrived, the traffic was heavier than usual, and the journey that should have taken forty-five minutes stretched to over an hour. He arrived at the company's office nearly thirty minutes after his scheduled interview time.
+
+The receptionist informed him that the interview panel had already moved on to the next candidate. She was sympathetic but firm — the company's policy did not allow rescheduling for late arrivals. Rafi stood in the lobby for several minutes, staring at the elevator doors, then turned and walked out.
+
+He spent the next two days in a state of bitter disappointment. His father, who had worked for the same company for twenty-five years before retiring the previous June, told him that opportunities were rarely singular. Another would come. Rafi did not believe him at the time.
+
+The next opportunity arrived during the first week of December. A different company, smaller but with a better reputation for employee development, called him for an interview. This time, Rafi set three alarms, prepared his clothes the night before, and arrived thirty minutes early. He got the job. The missed interview in October had felt like a catastrophe at the time, but it had also taught him the value of preparation and the importance of backup plans.
+"""
+
+EVENTS (21 events):
+E1: submitted his application
+E2: prepared obsessively
+E3: power cut
+E4: woke up
+E5: ironed the damp shirt
+E6: dressed hurriedly
+E7: ran to the bus stop
+E8: waited for twenty minutes
+E9: bus finally arrived
+E10: arrived at the company's office
+E11: receptionist informed him
+E12: stood in the lobby
+E13: walked out
+E14: spent the next two days in a state of bitter disappointment
+E15: retiring
+E16: called him for an interview
+E17: set three alarms
+E18: prepared his clothes
+E19: arrived thirty minutes early
+E20: got the job
+E21: His father, who had worked for the same company
+
+OUTPUT FORMAT
+Write the complete 21 x 21 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 21 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

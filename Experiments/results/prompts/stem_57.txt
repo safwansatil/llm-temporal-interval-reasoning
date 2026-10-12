@@ -1,0 +1,63 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Farhad had been ferrying passengers on a small wooden boat across the Jamuna between Sirajganj and a village on the eastern bank for most of his adult life. He had learned the route from his father and took it over completely when his father's eyesight began to fail, about twelve years ago. Last September, a wide concrete bridge opened three kilometers upstream and connected the same two sides. Within a week, his passenger numbers had dropped by half. By November, on some crossings, he carried nobody at all. A development organization officer who passed through the area in December, a young man from Dhaka who had been working in the region for the past two years, sat in his boat one morning and asked several questions about his income and future plans. Farhad answered honestly. He was fifty-one years old, could not read, and had no other trade. His two sons worked in garment factories in Dhaka and had been sending money home for the past three and five years respectively. His daughter had been married to a man in a village eight kilometers away four years ago. In January, the same development officer returned and told him about a skills training program starting in Sirajganj town in February. Farhad attended, though the bus to the town center each morning cost him more than he earned on most quiet river days. He completed the full program.
+"""
+
+EVENTS (17 events):
+E1: his father's eyesight began to fail
+E2: took it over completely
+E3: a wide concrete bridge opened
+E4: his passenger numbers had dropped by half
+E5: he carried nobody at all
+E6: sat in his boat
+E7: asked several questions about his income and future plans
+E8: Farhad answered honestly
+E9: the same development officer returned
+E10: told him about a skills training program
+E11: Farhad attended
+E12: He completed the full program
+E13: Farhad had been ferrying passengers on a small wooden boat
+E14: A development organization officer who passed through the area in December,
+E15: a young man from Dhaka who had been working in the region for the past two years
+E16: had been sending money home for the past three and five years respectively.
+E17: His daughter had been married to a man in a village eight kilometers away four years ago
+
+OUTPUT FORMAT
+Write the complete 17 x 17 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 17 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,93 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Kamal had been apprenticed to the baker Mr. Fernandes for seven years when the old man finally taught him the secret of the bread. The apprenticeship had begun when Kamal was sixteen, a restless boy who had dropped out of school and whose father had marched him to the bakery with the instruction to learn a trade or find somewhere else to live. Mr. Fernandes had accepted him without comment, putting him to work sweeping floors and cleaning pans for the first six months before allowing him to touch the dough.
+
+The bakery had been operating for forty-three years when Kamal arrived, and Mr. Fernandes had been its sole proprietor for all of them. He had learned to bake from his own father, who had learned from his mother, who had been a baker in a village in Goa before the family moved to Bangladesh. The bread was famous in the neighborhood — a simple white loaf with a crisp crust and a soft interior — and Mr. Fernandes had guarded its recipe with the vigilance of someone protecting a sacred object.
+
+The secret was not an ingredient or a technique. It was a philosophy. Mr. Fernandes explained it to Kamal during a quiet hour before dawn on the morning after the seventh anniversary of the apprenticeship began. The bread was alive, he said, and the baker's job was not to control it but to understand it. The dough responded to the temperature of the room and the humidity of the air and the mood of the hands that kneaded it. A good baker learned to read these signals and to adjust accordingly. A great baker learned to anticipate them before they appeared.
+
+Kamal had been learning the secret for seven years without realizing it. The sweeping and the cleaning and the hours of observation had not been hazing or busywork — they had been training his senses to perceive the conditions that affected the bread. Mr. Fernandes had been teaching him the philosophy from the first day, and he had only now judged Kamal ready to understand it.
+
+Mr. Fernandes died three years later, and Kamal took over the bakery. He has been running it for eleven years now, and the bread tastes exactly as it did when the old man was alive. The recipe is not written down anywhere, and Kamal has not taught it to anyone. But he has an apprentice, a young woman who has been sweeping floors for eight months, and he watches her sometimes and wonders if she is beginning to perceive what he once perceived.
+"""
+
+EVENTS (39 events):
+E1: Kamal had been apprenticed to the baker Mr. Fernandes for seven years
+E2: the old man finally taught him the secret of the bread
+E3: The apprenticeship had begun
+E4: Kamal was sixteen
+E5: a restless boy who had dropped out of school
+E6: whose father had marched him to the bakery
+E7: with the instruction to learn a trade or find somewhere else to live
+E8: Mr. Fernandes had accepted him without comment
+E9: putting him to work sweeping floors and cleaning pans for the first six months
+E10: before allowing him to touch the dough
+E11: The bakery had been operating for forty-three years
+E12: Kamal arrived
+E13: Mr. Fernandes had been its sole proprietor for all of them
+E14: He had learned to bake from his own father
+E15: who had learned from his mother
+E16: who had been a baker in a village in Goa before the family moved to Bangladesh
+E17: Mr. Fernandes had guarded its recipe with the vigilance of someone protecting a sacred object
+E18: Mr. Fernandes explained it to Kamal during a quiet hour before dawn on the morning after the seventh anniversary of the apprenticeship began
+E19: The bread was alive
+E20: he said
+E21: the baker's job was not to control it but to understand it
+E22: The dough responded to the temperature of the room and the humidity of the air and the mood of the hands that kneaded it
+E23: A good baker learned to read these signals and to adjust accordingly
+E24: A great baker learned to anticipate them before they appeared
+E25: Kamal had been learning the secret for seven years without realizing it
+E26: The sweeping and the cleaning and the hours of observation had not been hazing or busywork
+E27: they had been training his senses to perceive the conditions that affected the bread
+E28: Mr. Fernandes had been teaching him the philosophy from the first day
+E29: he had only now judged Kamal ready to understand it
+E30: Mr. Fernandes died three years later
+E31: Kamal took over the bakery
+E32: He has been running it for eleven years now
+E33: the bread tastes exactly as it did when the old man was alive
+E34: The recipe is not written down anywhere
+E35: Kamal has not taught it to anyone
+E36: he has an apprentice
+E37: a young woman who has been sweeping floors for eight months
+E38: he watches her sometimes
+E39: wonders if she is beginning to perceive what he once perceived
+
+OUTPUT FORMAT
+Write the complete 39 x 39 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 39 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

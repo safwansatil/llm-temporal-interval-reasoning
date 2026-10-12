@@ -1,0 +1,105 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The night guard walked the bank floor before the robbery crew removed its gloves. The crew entered through the delivery door while the guard was checking the west corridor. A manager was counting reserve notes in the central office. The crew opened the safe-room door with a copied key. The manager triggered the alarm while the crew was still packing bundles. A police patrol left the nearby junction after receiving the alarm. The crew carried the first bundle toward the delivery bay. The guard returned to the lobby before the patrol entered the compound. The patrol officers found the delivery door open and entered the lobby. The manager and guard met the officers beside the central counter. A customer who had been waiting outside left when the officers signaled the entrance clear. The crew escaped through the delivery lane as the manager described their route. The officers searched the lane after the manager’s description was recorded. The branch inventory was started once the lane had been checked. The neighboring pharmacy stayed open while the officers searched the bank. The pharmacy’s cashier left after the bank officers returned. The guard’s inspection of the compound ended when the evidence officer arrived. The evidence officer recorded the door marks before the branch was reopened. The guard escorted the officers’ van away from the entrance. The manager kept the lobby closed while the report was signed.
+"""
+
+EVENTS (59 events):
+E1: walked the bank floor
+E2: removed its gloves
+E3: checking the west corridor
+E4: counting reserve notes
+E5: entered through the delivery door
+E6: opened the safe-room door
+E7: packing bundles
+E8: triggered the alarm
+E9: left the nearby junction
+E10: carried the first bundle
+E11: returned to the lobby
+E12: entered the lobby
+E13: met the officers
+E14: escaped through the delivery lane
+E15: described their route
+E16: searched the lane
+E17: branch inventory was started
+E18: stayed open
+E19: left
+E20: arrived
+E21: guard’s inspection of the compound ended
+E22: recorded the door marks
+E23: reopened
+E24: escorted the officers’ van away
+E25: signed
+E26: walked the bank floor
+E27: removed its gloves
+E28: checking the west corridor
+E29: officers signaled the entrance clear.
+E30: counting reserve notes
+E31: entered through the delivery door
+E32: patrol officers found the delivery door open
+E33: opened the safe-room door
+E34: packing bundles
+E35: manager’s description was recorded
+E36: triggered the alarm
+E37: bank officers returned.
+E38: left the nearby junction
+E39: carried the first bundle
+E40: returned to the lobby
+E41: trance. The manager kept the lobby closed
+E42: entered the lobby
+E43: met the officers
+E44: officers searched the bank
+E45: escaped through the delivery lane
+E46: described their route
+E47: pharmacy’s cashier left
+E48: searched the lane
+E49: branch inventory was started
+E50: stayed open
+E51: left
+E52: arrived
+E53: guard’s inspection of the compound ended
+E54: recorded the door marks
+E55: reopened
+E56: escorted the officers’ van away
+E57: signed
+E58: the patrol entered the compound.
+E59: A customer who had been waiting outside
+
+OUTPUT FORMAT
+Write the complete 59 x 59 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 59 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46 E47 E48 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

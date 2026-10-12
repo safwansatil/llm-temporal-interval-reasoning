@@ -1,0 +1,60 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+As soon as I entered the room, I saw Multazam studying. I started talking to my mother on the phone, and in the meantime, Abu came in and asked how I was doing. I replied that I was doing well. Before I even finished talking to my mother, I noticed Multazam had finished studying and started browsing on his laptop. Right after finishing my call, Multazam and I went to play table tennis. While setting up the table tennis equipment, I received a text notification. In the middle of our game, I noticed Abu started playing carrom. Shortly after Multazam and I finished our match, we sat down on a bench to catch our breath. Just as we were heading to get some water, Abu finished his game too. After drinking water, we paused to chat near the hallway before we all returned to the room together.
+"""
+
+EVENTS (14 events):
+E1: entered the room
+E2: Multazam studying
+E3: started talking to my mother
+E4: Abu came in
+E5: asked how I was doing
+E6: I replied that I was doing well
+E8: started browsing on his laptop
+E10: Multazam and I went to play table tennis
+E12: I received a text notification
+E13: Abu started playing carrom
+E15: sat down on a bench to catch our breath
+E18: drinking water
+E19: paused to chat near the hallway
+E20: returned to the room together
+
+OUTPUT FORMAT
+Write the complete 14 x 14 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 14 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E8 E10 E12 E13 E15 E18 E19 E20
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

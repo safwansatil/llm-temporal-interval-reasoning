@@ -1,0 +1,64 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Jahangir had been commuting on the 7:15 bus for eight years. The bus was reliable — always within five minutes of schedule, always the same driver, always the same conductor who knew every regular passenger by name. The routine was as fixed as anything in Jahangir's life.
+
+The bus was late on a Wednesday morning in the middle of October. Five minutes became ten. Ten became twenty. The small crowd at the stop grew restless, checking watches and making phone calls. Jahangir considered calling a rickshaw but decided to wait.
+
+The bus arrived thirty-seven minutes late. The driver apologized over the speaker — a freight truck had broken down across the main road, blocking all traffic. The delay had been unavoidable. Jahangir arrived at his office nearly an hour late and had to explain himself to his supervisor.
+
+That evening, he made a small adjustment to his routine. He began taking the 7:00 bus instead, arriving at work thirty minutes early. The extra time became his most productive period — a quiet half-hour before the office filled with noise. The October morning when the bus was late had been frustrating, but it had led him to a better schedule. He has been taking the 7:00 bus for two years now and has never been late again.
+"""
+
+EVENTS (12 events):
+E1: commuting on the 7:15 bus
+E2: The bus was late
+E3: The bus arrived thirty-seven minutes late
+E4: Jahangir arrived at his office nearly an hour late
+E5: had to explain himself to his supervisor
+E6: made a small adjustment to his routine
+E7: began taking the 7:00 bus
+E8: arriving at work thirty minutes early
+E9: has been taking the 7:00 bus
+E10: considered calling a rickshaw
+E11: a quiet half-hour before the office filled with noise.
+E12: it had led him to a better schedule
+
+OUTPUT FORMAT
+Write the complete 12 x 12 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 12 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

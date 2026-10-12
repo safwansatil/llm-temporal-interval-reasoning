@@ -1,0 +1,70 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Mr. Anwar had lived in the same neighborhood for twenty-three years when the burglaries began. Three houses were broken into during the month of February, all within a two-block radius, all occurring in the late evening when families were at dinner. The police were notified but made no arrests, and by the first week of March, the residents were frightened.
+
+Mr. Anwar called a meeting on a Friday evening in the second week of March. Nearly forty residents gathered in the community center, and the discussion was heated. Some wanted to hire private security. Others wanted to petition for more police patrols. Mr. Anwar proposed a simpler solution: a neighborhood watch program, staffed by volunteers from the community.
+
+The program began the following Monday. Volunteers worked in pairs, walking the neighborhood in two-hour shifts from dusk until midnight. Mr. Anwar created a schedule and assigned shifts, ensuring that no one had to serve more than twice a week. By the end of March, more than sixty residents had volunteered.
+
+The burglaries stopped during the first week of April. Whether the watch program was responsible or the thieves had simply moved elsewhere, no one could say with certainty. But the program had an unexpected side effect: neighbors who had lived beside each other for years without speaking were now walking together, talking together, and looking out for each other.
+
+The watch program continued through April, May, and into June. By July, it had become a permanent institution, complete with a rotating leadership committee and an annual meeting. The burglaries never returned, but the real legacy of those frightening weeks in February was not security. It was community.
+"""
+
+EVENTS (16 events):
+E1: the burglaries began
+E2: Three houses were broken into
+E3: The police were notified
+E4: the residents were frightened
+E5: Mr. Anwar called a meeting
+E6: Nearly forty residents gathered in the community center
+E7: Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E8: The program began
+E9: Volunteers worked in pairs
+E10: Mr. Anwar created a schedule and assigned shifts
+E11: more than sixty residents had volunteered
+E12: The burglaries stopped
+E13: The watch program continued
+E14: it had become a permanent institution
+E15: The burglaries never returned
+E16: Anwar had lived in the same neighborhood
+
+OUTPUT FORMAT
+Write the complete 16 x 16 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 16 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

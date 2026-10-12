@@ -1,0 +1,61 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The coral spawns once per year, on a single night, for a window of about ninety minutes. The marine biologist had waited eleven months for this night, timing it by the lunar cycle and water temperature. She anchored her boat at dusk, turned on the underwater lights, and waited. The spawn began at 9:42 p.m., lasted seventy three minutes, and filled the water with a blizzard of eggs and sperm. The density was so high that visibility dropped to near zero within minutes. She collected samples every five minutes, working by feel. Her camera, set to record continuously, captured the entire event on a single memory card. The recording lasted seventy three minutes. She watched it the next morning, speeding through it at thirty two times normal speed. The whole spawn compressed to just over two minutes. At that speed the eggs looked like snow falling upward. She watched it again at normal speed, taking two hours including rewinds. The coral itself had been growing for perhaps a hundred years. The spawn it released would settle, if lucky, into new polyps that would take a decade to reach reproductive age. Her own career in that lagoon had lasted eight years so far. She had seen three spawns. She would see at most a dozen more before she retired. The next spawn was 364 days away. She started the timer.
+"""
+
+EVENTS (15 events):
+E1: The marine biologist had waited eleven months for this night
+E2: She anchored her boat at dusk
+E3: turned on the underwater lights
+E4: visibility dropped to near zero within minutes
+E5: The spawn began at 9:42 p.m.
+E6: She collected samples every five minutes
+E7: captured the entire event on a single memory card
+E8: She watched it the next morning
+E9: She watched it again at normal speed
+E10: The coral itself had been growing for perhaps a hundred years
+E11: The spawn it released would settle
+E12: Her own career in that lagoon had lasted eight years so far
+E13: The next spawn was 364 days away
+E14: She started the timer
+E15: she retired
+
+OUTPUT FORMAT
+Write the complete 15 x 15 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 15 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

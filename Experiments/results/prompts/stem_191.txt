@@ -1,0 +1,76 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Pickle jars — slow food chemistry against family milestones
+
+Nani's mango achar needed a full summer in the sun before it could be opened, and the best jars were older than that — she kept a shelf where each jar's age could be read by the depth of its color. The jar promised for Mitu's wedding had been laid down when the engagement was announced, which gave it eleven months; but the wedding was moved up — the groom's posting abroad came through earlier than the family had been told to expect — and suddenly the jar would be only seven months old on the day. Nani held a private debate: open the young jar, or open the dark jar at the shelf's end, laid down the year of her own husband's death, which she had been keeping for an occasion she had never named. The oil in that jar had separated and resettled through a dozen winters. The wedding cooking began three days out; the achar would be wanted on the second day's lunch. She opened the old jar the night before, alone, tasted it, and found that somewhere in the waiting it had passed its peak — excellent still, but past — and the discovery, that the perfect moment had come and gone unmarked sometime in the silent years, was somehow not bitter. She served the young jar at the wedding, and put one new jar down in the sun that same week, beginning the clock she would not see finish.
+"""
+
+EVENTS (28 events):
+E1: Nani's mango achar needed a full summer in the sun before it could be opened
+E2: the best jars were older than that
+E3: she kept a shelf
+E4: each jar's age could be read by the depth of its color
+E5: The jar promised for Mitu's wedding had been laid down
+E6: the engagement was announced
+E7: the wedding was moved up
+E8: the groom's posting abroad came through earlier
+E9: the family had been told to expect
+E10: the jar would be only seven months old on the day
+E11: Nani held a private debate
+E12: open the young jar
+E13: open the dark jar at the shelf's end
+E14: laid down the year of her own husband's death
+E15: she had been keeping for an occasion she had never named
+E16: The oil in that jar had separated and resettled through a dozen winters
+E17: The wedding cooking began three days out
+E18: the achar would be wanted on the second day's lunch
+E19: She opened the old jar the night before
+E20: alone
+E21: tasted it
+E22: found that somewhere in the waiting it had passed its peak
+E23: the perfect moment had come and gone unmarked sometime in the silent years
+E24: was somehow not bitter
+E25: She served the young jar at the wedding
+E26: put one new jar down in the sun that same week
+E27: beginning the clock
+E28: she would not see finish
+
+OUTPUT FORMAT
+Write the complete 28 x 28 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 28 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

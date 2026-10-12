@@ -1,0 +1,64 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Nazia lost one of her gold earrings on a Wednesday evening in the last week of March. The earrings had been a wedding gift from her mother-in-law seven years earlier, and she wore them almost every day. She noticed the loss when she looked in the mirror before bed and saw that her right ear was bare.
+
+She searched the house for two hours that night. She checked the bedroom, the bathroom, the kitchen, and the living room. She retraced her steps from the entire day — the market, the school where she had picked up her children, the neighbor's house where she had stopped for tea. By midnight, she had found nothing.
+
+The next morning, she returned to each location and asked if anyone had found a gold earring. The shopkeeper at the market shook his head. The school guard had not seen anything. Her neighbor helped her search the living room, moving furniture and checking under cushions. The earring was nowhere.
+
+She found it on Friday afternoon, two days after it had been lost. It was in the pocket of the jacket she had worn to the market, tangled in a fold of fabric where it had slipped during the walk home. She had checked the jacket twice before, but the earring had been hidden deeper than she had thought possible.
+
+Nazia now checks her jewelry every evening before bed. The two days of searching had been stressful, but they had also reminded her how much those small gold circles meant to her — not for their value, but for the person who had given them.
+"""
+
+EVENTS (10 events):
+E1: a wedding gift from her mother-in-law
+E2: lost one of her gold earrings
+E3: noticed the loss
+E4: searched the house for two hours
+E5: retraced her steps
+E6: had found nothing
+E7: returned to each location
+E8: asked if anyone had found a gold earring
+E9: found it
+E10: checks her jewelry every evening before bed
+
+OUTPUT FORMAT
+Write the complete 10 x 10 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 10 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

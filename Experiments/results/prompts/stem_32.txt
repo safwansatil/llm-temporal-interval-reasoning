@@ -1,0 +1,66 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Riya's cousin Priya was getting married in the last week of November. On the 14th of November, Riya took a bus from Sylhet to Dhaka to help with the wedding preparations. She had bought the silk fabric for Priya's saree two months earlier from a boutique in Sylhet's Zindabazar. When she arrived at her aunt's apartment in Mirpur that evening, she found the entire living room buried under fabric rolls and stacks of invitation cards. Three days before Riya's arrival, the caterer had cancelled, sending the whole family into a panic. Riya spent the next morning calling every contact she had, and by afternoon she had found a replacement caterer in Mohammadpur who agreed to take over on short notice. On the 18th, her uncle flew in from Riyadh, where he had been working for the past two and a half years, and the apartment suddenly felt much livelier. That night at dinner, he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago but had kept it secret to surprise everyone. On the morning of the 20th, Riya and Priya went to a parlour in Dhanmondi to finalize the bridal makeup look. On the way back, they stopped at the New Market to pick up bangles that had been ordered three weeks prior. The wedding ceremony was to be held at a community hall in Uttara on the 22nd. The night before the wedding, while everyone was decorating the hall, Riya realized she had left her own outfit back at the apartment in Mirpur. She had to take a CNG at midnight to retrieve it and returned just before one in the morning, exhausted but ready.
+"""
+
+EVENTS (20 events):
+E1: bought the silk fabric
+E2: caterer had cancelled
+E3: took a bus from Sylhet to Dhaka
+E4: arrived at her aunt's apartment
+E5: calling every contact she had
+E6: found a replacement caterer
+E7: uncle flew in from Riyadh
+E8: went to a parlour in Dhanmondi
+E9: stopped at the New Market
+E10: decorating the hall
+E11: left her own outfit
+E12: take a CNG at midnight
+E13: returned just before one in the morning
+E14: Riya's cousin Priya was getting married in the last week of Novembe
+E15: she found the entire living room buried under fabric rolls and stacks of invitation cards
+E16: sending the whole family into a panic
+E17: he had been working for the past two and a half years
+E18: he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E19: pick up bangles that had been ordered three weeks prior
+E20: he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+
+OUTPUT FORMAT
+Write the complete 20 x 20 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 20 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

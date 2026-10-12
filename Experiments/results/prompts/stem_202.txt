@@ -1,0 +1,73 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Beekeeping — nested lifespans, the hive outliving its members
+
+A summer worker bee lived six weeks: three inside the hive, three in the field, and then the wings simply wore out. The queen lived years. The hive — the entity Joseph actually kept — lived indefinitely, replacing its whole population several times a season, a city whose census turned over completely while the city remained. The swarm, at the height of spring, was the hive deciding to become two: the old queen left with half the workers during a single hour of a single afternoon, and Joseph, who had kept bees for thirty years, missed it by the length of a lunch. The new queen's succession ran on a brutal schedule — sixteen days from egg to emergence, then a week to mature, then the mating flights, weather permitting, and the weather did not permit for five days — so the hive spent nearly a month as a city with no future, running on stored brood, the last of the old queen's eggs hatching while her successor was still unproven. The honey Joseph took at summer's end was made by bees that did not exist at midsummer from nectar of flowers that bloomed for two weeks, stored against a winter the makers would never see. He left the hive twenty kilos for that winter. The colony that emerged in spring shared not a single bee with the colony of the previous spring — and was, Joseph would insist, the same hive, the way he was the same man.
+"""
+
+EVENTS (25 events):
+E1: A summer worker bee lived six weeks
+E2: three inside the hive
+E3: three in the field
+E4: the wings simply wore out
+E5: The queen lived years
+E6: replacing its whole population several times a season
+E7: a city whose census turned over completely while the city remained
+E8: The swarm, at the height of spring, was the hive deciding to become two
+E9: the old queen left with half the workers during a single hour of a single afternoon
+E10: Joseph, who had kept bees for thirty years, missed it by the length of a lunch
+E11: The new queen's succession ran on a brutal schedule
+E12: sixteen days from egg to emergence
+E13: then a week to mature
+E14: the mating flights
+E15: the weather did not permit for five days
+E16: the hive spent nearly a month as a city with no future
+E17: running on stored brood
+E18: the last of the old queen's eggs hatching while her successor was still unproven
+E19: The honey Joseph took at summer's end was made by bees that did not exist at midsummer
+E20: from nectar of flowers that bloomed for two weeks
+E21: stored against a winter the makers would never see
+E22: He left the hive twenty kilos for that winter
+E23: The colony that emerged in spring shared not a single bee with the colony of the previous spring
+E24: was, Joseph would insist, the same hive
+E25: the way he was the same man
+
+OUTPUT FORMAT
+Write the complete 25 x 25 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 25 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

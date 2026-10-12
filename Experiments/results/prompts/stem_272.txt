@@ -1,0 +1,74 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The stray dog appeared in the neighborhood on a rainy evening, thin and skittish, with matted fur and a limp in its right hind leg. It scavenged for food near the market during the day and slept in a drainage pipe at night. The residents largely ignored it, except for the children who sometimes threw stones.
+
+Nasima, a widow who lived alone in a small house at the end of the lane, noticed the dog during her morning walks. She began leaving a bowl of rice and water outside her gate each day. For the first week, the dog would not approach until she had gone back inside. By the second week, it would eat while she watched from her doorstep. By the third week, it allowed her to sit nearby.
+
+On the fourth week, the dog followed her home. It sat outside her gate, waiting, and when she opened the door, it wagged its tail for the first time. She named it Laal, for the reddish patch of fur on its forehead.
+
+Laal has lived with Nasima for two years now. His limp has improved, his fur is clean, and he accompanies her on every walk. The neighborhood children no longer throw stones. They call Laal by name and sometimes bring him treats. The stray dog that no one wanted has become the guardian of the lane, and Nasima, who had been lonely for years, has found a companion who asks for nothing but her presence.
+"""
+
+EVENTS (22 events):
+E1: The stray dog appeared in the neighborhood
+E2: scavenged for food near the market
+E3: slept in a drainage pipe
+E4: children who sometimes threw stones
+E5: noticed the dog
+E6: began leaving a bowl of rice and water outside her gate
+E7: the dog would not approach until she had gone back inside
+E8: it would eat while she watched from her doorstep
+E9: it allowed her to sit nearby
+E10: the dog followed her home
+E11: It sat outside her gate, waiting
+E12: it wagged its tail for the first time
+E13: She named it Laal
+E14: Laal has lived with Nasima for two years now
+E15: His limp has improved
+E16: his fur is clean
+E17: he accompanies her on every walk
+E18: The neighborhood children no longer throw stones
+E19: They call Laal by name
+E20: sometimes bring him treats
+E21: The stray dog that no one wanted has become the guardian of the lane
+E22: Nasima, who had been lonely for years, has found a companion
+
+OUTPUT FORMAT
+Write the complete 22 x 22 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 22 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

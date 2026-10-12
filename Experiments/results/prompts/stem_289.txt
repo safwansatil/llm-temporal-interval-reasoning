@@ -1,0 +1,64 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Zakir bought his son's Eid shoes during the first week of Ramadan. They were black leather with a small buckle, and his son, who was six years old, had picked them out himself. Zakir had wanted to buy a cheaper pair, but his wife had insisted that good shoes were important for a child's feet. He had agreed reluctantly and paid more than he had planned.
+
+The shoes were stored in a cupboard, wrapped in tissue paper, waiting for Eid morning. His son asked about them every other day, and each time Zakir told him to be patient. The waiting, he said, was part of the joy.
+
+On the night before Eid, Zakir took out the shoes to inspect them one last time. He noticed a small scratch on the left shoe's toe, probably from being jostled against something in the cupboard. His wife said it was barely visible. His son, when shown the shoes the next morning, did not even see the scratch. He put them on immediately and refused to take them off for the rest of the day.
+
+The shoes lasted nearly eight months before the soles began to wear thin. By then, his son's feet had grown, and the shoes no longer fit. Zakir cleaned them one last time and placed them in a box with other outgrown clothes. He could not bring himself to throw them away. They were just shoes, but they were also a memory — of a child's excitement, a father's worry, and an Eid morning when a small scratch had not mattered at all.
+"""
+
+EVENTS (12 events):
+E1: bought his son's Eid shoes
+E2: paid more than he had planned
+E3: stored in a cupboard
+E4: took out the shoes
+E5: noticed a small scratch
+E6: put them on
+E7: refused to take them off
+E8: soles began to wear thin
+E9: shoes no longer fit
+E10: cleaned them
+E11: placed them in a box
+E12: did not even see the scratch
+
+OUTPUT FORMAT
+Write the complete 12 x 12 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 12 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

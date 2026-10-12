@@ -1,0 +1,89 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Harun had been apprenticed to the glassblower Ustad Qadir for eleven months when he was finally allowed to work on his first solo piece. For the previous eight months, he had done nothing but observe, clean the workshop, and prepare materials. The Ustad was a perfectionist who believed that true skill could not be rushed.
+
+The solo project was a set of twelve drinking glasses, commissioned by a wealthy merchant for his daughter's wedding. Harun began the work on a Monday morning, his hands trembling slightly as he gathered the molten glass on the end of the blowpipe. The first three attempts were failures — one glass collapsed, another was lopsided, and a third cracked during cooling. The Ustad watched each failure without comment, then told Harun to try again.
+
+On the fourth attempt, something clicked. The glass responded to Harun's breath and touch in a way it had not before. The first successful glass was completed by midday. He finished two more that same evening. The Ustad examined each one and gave a single nod of approval.
+
+Harun worked steadily for the next six days. The remaining nine glasses took shape one by one, each slightly better than the last. By the end of the week, all twelve were complete. The Ustad inspected them for nearly an hour, turning each glass in the light, checking for imperfections. When he finished, he told Harun that the work was acceptable — high praise from a man who rarely praised anything.
+
+The merchant collected the glasses two days later and paid the full price without negotiation. Harun received a small share of the payment as his first earnings as a glassblower. He placed the money in a tin box under his bed, the same box where his father had once saved coins for his education. The box had been empty for over a year. It felt good to fill it again.
+"""
+
+EVENTS (35 events):
+E1: Harun had been apprenticed to the glassblower Ustad Qadir for eleven months
+E2: he was finally allowed to work on his first solo piece
+E3: he had done nothing but observe, clean the workshop, and prepare materials
+E4: The Ustad was a perfectionist who believed that true skill could not be rushed
+E5: commissioned by a wealthy merchant for his daughter's wedding
+E6: Harun began the work on a Monday morning
+E7: his hands trembling slightly as he gathered the molten glass on the end of the blowpipe
+E8: The first three attempts were failures
+E9: one glass collapsed
+E10: another was lopsided
+E11: a third cracked during cooling
+E12: The Ustad watched each failure without comment
+E13: then told Harun to try again
+E14: something clicked
+E15: The glass responded to Harun's breath and touch in a way it had not before
+E16: The first successful glass was completed by midday
+E17: He finished two more that same evening
+E18: The Ustad examined each one and gave a single nod of approval
+E19: Harun worked steadily for the next six days
+E20: The remaining nine glasses took shape one by one
+E21: each slightly better than the last
+E22: all twelve were complete
+E23: The Ustad inspected them for nearly an hour
+E24: turning each glass in the light
+E25: checking for imperfections
+E26: When he finished
+E27: he told Harun that the work was acceptable
+E28: high praise from a man who rarely praised anything
+E29: The merchant collected the glasses two days later
+E30: paid the full price without negotiation
+E31: Harun received a small share of the payment as his first earnings as a glassblower
+E32: He placed the money in a tin box under his bed
+E33: the same box where his father had once saved coins for his education
+E34: The box had been empty for over a year
+E35: It felt good to fill it again
+
+OUTPUT FORMAT
+Write the complete 35 x 35 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 35 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

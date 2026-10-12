@@ -1,0 +1,104 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+He folds a faded electricity bill on the dining table of his small apartment in Dhaka while waiting for a call that still has not arrived, though the silence reminds him of the afternoon after last year's festival when he accepted overtime at the garment warehouse instead of attending his daughter's school play, which itself had been rescheduled because the classroom roof leaked during the monsoon, a week after he had promised his wife in their village home that he would never again choose work over family, despite having already broken the same promise the winter before when he missed his father's hospital discharge in Khulna because the promotion interview in the city was moved forward by a day. The tea beside him has already gone cold, just as it had on the evening before the interview when he stayed awake rewriting his résumé after learning that a colleague, who had encouraged him only a few days earlier inside the factory cafeteria, had quietly recommended someone else. Before that disappointment reached him, his younger son had mailed a drawing from the school library that arrived only after the boy had already won a local art prize, which the father learned about while riding a crowded bus toward Gazipur, where he was delivering spare machine parts on the same morning his wife was borrowing money from a neighbor back in the village. Long before either of them admitted how strained things had become, they had celebrated a modest anniversary on the apartment rooftop after postponing dinner because their landlord unexpectedly demanded overdue rent downstairs, although the rent itself had accumulated only because several weeks earlier the warehouse had delayed salaries following a power outage that interrupted production, an outage he had predicted after noticing failing generators during a night shift that came immediately after he returned from attending his cousin's wedding in Barisal, where he had privately declined an offer to join a small family business because he still believed the city would eventually reward persistence. Even earlier, he had sold the bicycle his mother had bought him after his first examination success, using the money to enroll in a technical training course in Chattogram, only to abandon it halfway when his father injured his leg at the rice mill and the family suddenly needed another income. Although that unfinished certificate continued to trouble him, it later convinced him to spend evenings studying online in an internet café near the bus terminal after exhausting shifts, where he met a retired engineer who reviewed his notes before disappearing without explanation several days later. The notebook from those meetings remained inside a backpack that was stolen at a railway station shortly before another interview, forcing him to answer technical questions from memory, yet he unexpectedly passed the written exam and then failed the final panel after arriving late because a bridge protest had diverted traffic across the river. His wife still recalls receiving that rejection while visiting her sister's apartment, whereas he first heard that their daughter had secretly skipped private tutoring on the same evening to rehearse for a debate competition she eventually won months before he finally watched her speak publicly at another school's auditorium. The applause from that later event echoes now because tomorrow he intends to decline another overtime shift, unless the call he is still waiting for confirms the office job whose application he submitted shortly after repairing an elderly neighbor's broken fan, a favor inspired by remembering the retired engineer's advice, even though he had almost abandoned the application after meeting an old coworker at a roadside tea stall who proudly announced the very promotion that he himself had once expected to earn. Whether the phone rings before sunset matters less than it did yesterday, because somewhere between the dreams he postponed, the chances he nearly caught, and the family that quietly kept waiting across different homes, stations, buses, classrooms, hospitals, rooftops, and factory floors, he has finally begun measuring success by the promises he still has time to keep.
+"""
+
+EVENTS (58 events):
+E1: He folds a faded electricity bill
+E2: waiting for a call that still has not arrived
+E3: last year's festival
+E4: he accepted overtime at the garment warehouse
+E5: his daughter's school play
+E6: had been rescheduled
+E7: the classroom roof leaked during the monsoon
+E8: he had promised his wife in their village home
+E9: missed his father's hospital discharge in Khulna
+E10: the promotion interview in the city
+E11: was moved forward by a day
+E12: The tea beside him has already gone cold
+E13: he stayed awake rewriting his
+E14: encouraged him only a few days earlier
+E15: had quietly recommended someone else
+E16: that disappointment reached him
+E17: his younger son had mailed a drawing
+E18: that arrived only after
+E19: had already won a local art prize
+E20: while riding a crowded bus toward Gazipur
+E21: delivering spare machine parts
+E22: his wife was borrowing money from a neighbor
+E23: they had celebrated a modest anniversary
+E24: postponing dinner
+E25: their landlord unexpectedly demanded overdue rent
+E26: the warehouse had delayed salaries
+E27: a power outage that interrupted production
+E28: an outage he had predicted
+E29: noticing failing generators
+E30: a night shift that came immediately after
+E31: he returned from
+E32: attending his cousin's wedding in Barisal
+E33: privately declined an offer to join a small family business
+E34: he had sold the bicycle
+E35: his mother had bought him
+E36: his first examination success
+E37: to enroll in a technical training course in Chattogram
+E38: only to abandon it halfway
+E39: his father injured his leg at the rice mill
+E40: spend evenings studying online
+E41: he met a retired engineer
+E42: reviewed his notes
+E43: disappearing without explanation several days later
+E44: a backpack that was stolen at a railway station
+E45: he unexpectedly passed the written exam
+E46: failed the final panel
+E47: arriving late
+E48: a bridge protest had diverted traffic
+E49: receiving that rejection while visiting her sister's apartment
+E50: secretly skipped private tutoring
+E51: to rehearse for a debate competition
+E52: she eventually won
+E53: he finally watched her speak publicly
+E54: tomorrow he intends to decline another overtime shift
+E55: whose application he submitted
+E56: repairing an elderly neighbor's broken fan
+E57: meeting an old coworker at a roadside tea stall
+E58: proudly announced the very promotion
+
+OUTPUT FORMAT
+Write the complete 58 x 58 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 58 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46 E47 E48 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

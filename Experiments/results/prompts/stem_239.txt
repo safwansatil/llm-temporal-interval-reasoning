@@ -1,0 +1,94 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The lake at the edge of Sultanpur village had been shrinking for as long as anyone could remember. The elders said it had once covered an area five times larger, but over the previous forty years, it had gradually receded until it was little more than a large pond. The village depended on the lake for irrigation, fishing, and washing. Its disappearance was an existential threat that no one knew how to address.
+
+Zahid, a young environmental science graduate who had returned to the village six months earlier after completing his studies, decided to investigate. He began by measuring the lake's current dimensions and comparing them with old photographs and land records from the district office. The comparison confirmed what everyone suspected: the lake had lost nearly eighty percent of its surface area in four decades.
+
+He spent the next two months studying the surrounding watershed. He walked the full perimeter of the lake's original boundary, mapped the streams that fed into it, and interviewed the oldest residents about changes they had witnessed. His research revealed that three of the five streams that had originally fed the lake had been blocked by construction projects over the previous two decades.
+
+Zahid presented his findings at a village meeting. The solution he proposed was ambitious: the blocked streams needed to be cleared and redirected, a project that would require cooperation from the neighboring villages and funding from the district government. The village council was skeptical but agreed to support him.
+
+He spent the following three weeks traveling between government offices and neighboring villages, building coalitions and securing commitments. The district commissioner approved partial funding after reviewing his report. The clearance work began a month later, with volunteers from three villages participating. The first stream was reopened within two weeks. The second stream took another month. The third stream, the most heavily blocked, required three additional months of labor.
+
+The lake began to expand during the following monsoon. By the end of the rainy season, it had recovered nearly a third of its lost area. The full restoration would take years, perhaps decades, but the lake was no longer dying. Zahid's research had given the village something it had lacked for a generation: hope.
+"""
+
+EVENTS (38 events):
+E1: had been shrinking
+E2: could remember
+E3: had once covered an area five times larger
+E4: had gradually receded
+E5: depended on the lake for irrigation, fishing, and washing
+E6: Its disappearance was an existential threat
+E7: no one knew how to address
+E8: had returned to the village six months earlier
+E9: after completing his studies
+E10: decided to investigate
+E11: began by measuring the lake's current dimensions
+E12: comparing them with old photographs and land records from the district office
+E13: The comparison confirmed what everyone suspected
+E14: had lost nearly eighty percent of its surface area in four decades
+E15: spent the next two months studying the surrounding watershed
+E16: walked the full perimeter of the lake's original boundary
+E17: mapped the streams that fed into it
+E18: interviewed the oldest residents about changes they had witnessed
+E19: His research revealed that three of the five streams that had originally fed the lake had been blocked by construction projects over the previous two decades
+E20: presented his findings at a village meeting
+E21: The solution he proposed was ambitious
+E22: the blocked streams needed to be cleared and redirected
+E23: a project that would require cooperation from the neighboring villages and funding from the district government
+E24: was skeptical
+E25: agreed to support him
+E26: spent the following three weeks traveling between government offices and neighboring villages
+E27: building coalitions and securing commitments
+E28: approved partial funding after reviewing his report
+E29: The clearance work began a month later
+E30: with volunteers from three villages participating
+E31: The first stream was reopened within two weeks
+E32: The second stream took another month
+E33: required three additional months of labor
+E34: began to expand during the following monsoon
+E35: it had recovered nearly a third of its lost area
+E36: The full restoration would take years, perhaps decades
+E37: the lake was no longer dying
+E38: had given the village something it had lacked for a generation
+
+OUTPUT FORMAT
+Write the complete 38 x 38 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 38 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

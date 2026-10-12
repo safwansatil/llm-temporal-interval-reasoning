@@ -1,0 +1,69 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Glaciology — centuries read in an afternoon, a record melting faster than it's read
+
+Each meter of ice held roughly a decade, and the core they drilled that season ran two hundred meters: two millennia of compressed snowfall, winters and summers banded like tree rings, extracted in three weeks of drilling and read over the following three years. The depth they could reach was shrinking — the glacier was thinning faster than the team's funding cycles could track, so each expedition drilled into a smaller archive than the last; the record was being unwritten at one end while they read it from the other. In the lab, a single afternoon's mass spectrometry traversed four centuries of layers; Lena could pass the fall of an empire between coffee breaks. The volcanic ash band they found matched an eruption known from chronicles written an ocean away — the ash had crossed that ocean in two weeks, settled in a snowfall, and waited twelve hundred years for the chronicle and the glacier to be introduced to each other. The deepest ice in the core had fallen as snow before the language of the chronicles existed. Lena's own measurements would be archived with a hundred-year retention guarantee, which struck her as either modest or arrogant, she could not decide. Outside the lab it was raining at an altitude where, in the expedition's first year — eleven seasons ago — it had only ever snowed.
+"""
+
+EVENTS (21 events):
+E1: Each meter of ice held roughly a decade
+E2: the core they drilled that season ran two hundred meters
+E3: two millennia of compressed snowfall
+E4: winters and summers banded like tree rings
+E5: extracted in three weeks of drilling
+E6: read over the following three years
+E7: The depth they could reach was shrinking
+E8: the glacier was thinning faster than the team's funding cycles could track
+E9: each expedition drilled into a smaller archive than the last
+E10: the record was being unwritten at one end while they read it from the other
+E11: a single afternoon's mass spectrometry traversed four centuries of layers
+E12: Lena could pass the fall of an empire between coffee breaks
+E13: The volcanic ash band they found matched an eruption known from chronicles written an ocean away
+E14: the ash had crossed that ocean in two weeks
+E15: settled in a snowfall
+E16: waited twelve hundred years for the chronicle and the glacier to be introduced to each other
+E17: The deepest ice in the core had fallen as snow before the language of the chronicles existed
+E18: Lena's own measurements would be archived with a hundred-year retention guarantee
+E19: which struck her as either modest or arrogant
+E20: she could not decide
+E21: it was raining at an altitude where, in the expedition's first year — eleven seasons ago — it had only ever snowed
+
+OUTPUT FORMAT
+Write the complete 21 x 21 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 21 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

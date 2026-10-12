@@ -1,0 +1,61 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The countdown had begun seventy two hours earlier, but the launch window lasted only five minutes. A narrow door in the sky that opened once every two weeks. The fuel loading started at T minus six hours and finished at T minus two, with a two hour hold at T minus four for a lightning risk that passed as quickly as it had formed. The engineer who designed the guidance system had been dead for four years. Her code had flown three times without her. The launch itself took nine minutes to reach orbit. The rocket passed through two time zones, and the booster separation happened at an altitude where the sound would reach the launch site twenty seven seconds after the event. The satellite deployed at T plus eleven minutes. The ground station received the confirmation signal thirteen seconds later. That was the last anyone heard from it for the next six hours because the next pass was on the other side of the planet. The engineer's daughter, now a flight controller, said Nominal into the loop. The word had been in the family for twenty years. The rocket that carried it was brand new.
+"""
+
+EVENTS (15 events):
+E1: The engineer who designed the guidance system had been dead for four years.
+E2: The word had been in the family for twenty years.
+E3: The countdown had begun
+E4: The fuel loading started
+E5: a two hour hold
+E6: lightning risk that passed
+E7: finished
+E8: The launch itself took nine minutes to reach orbit.
+E9: The rocket passed through two time zones
+E10: booster separation happened
+E11: The satellite deployed
+E12: The ground station received the confirmation signal
+E13: the last anyone heard from it for the next six hours
+E14: said Nominal into the loop.
+E15: the launch window lasted
+
+OUTPUT FORMAT
+Write the complete 15 x 15 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 15 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

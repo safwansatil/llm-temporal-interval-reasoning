@@ -1,0 +1,64 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Elias rubbed his tired eyes, reviewing the logs from last week's disaster. The instant the initial software diagnostic wrapped up, the automated system reboot kicked off. Halfway through that restart process, a massive power surge hit the grid. The system eventually finished its reboot, but the electrical anomaly kept wreaking havoc on the building. Deep within the timeframe of that prolonged power surge, the main capacitor violently exploded.
+
+He shifted his focus to the chaotic events of this morning's facility lockdown. According to the timeline, the evacuation siren blared the very second the doors sealed, though it cut out while the building remained secured. Much later in the ordeal, the emergency backup generators roared to life, running steadily until the lockdown was lifted and both shut down in perfect unison.
+
+Now, listening to the overhead servers, Elias noticed a chilling detail on his monitor: the grid's final warning beep synchronized flawlessly from beginning to end with a terrifying radio silence on his team's comms. He could only pray the makeshift wire patch he'd soldered yesterday would hold together well past the safety inspectors' final review arriving tomorrow.
+"""
+
+EVENTS (14 events):
+E1: rubbed his tired eyes
+E2: eviewing the logs from last week's disaster
+E3: initial software diagnostic
+E4: p, the automated system reboot
+E5: massive power surge
+E6: he main capacitor violently exploded
+E7: s facility lockdown.
+E8: e evacuation siren bl
+E9: the emergency backup generato
+E10: listening to the overhead servers, Elias noticed a chilling detail on his monitor:
+E11: e grid's final warning
+E12: terrifying radio silence
+E13: akeshift wire patch
+E14: the safety inspectors' final review
+
+OUTPUT FORMAT
+Write the complete 14 x 14 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 14 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

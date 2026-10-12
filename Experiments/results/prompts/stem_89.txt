@@ -1,0 +1,99 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Bong wiped the sweat from his brow, sorting through the morning's haul at the Payatas dumpsite, the same mountain of refuse where his father had worked every afternoon for three decades until the landslide that had buried half the neighborhood the day before the mayor's election, an election that had been postponed twice due to the typhoon that had flooded the sorting floor last Tuesday, forcing Bong and his crew to relocate to the temporary site near the river, a river that had overflowed during the monsoon season that had arrived three weeks earlier than the forecasters had predicted, a forecast that Bong had ignored because his wife had been in labor at the city hospital that same afternoon, a labor that had lasted through the night and into the following morning, the morning after he'd found the gold necklace in the trash bag from the upscale subdivision, a necklace he'd hidden in his locker until he could pawn it at the shop his cousin ran near the market, a shop that had been robbed the previous Saturday by the gang that had been terrorizing the neighborhood since the police station closed its doors last month due to budget cuts, budget cuts that had been announced the day after the governor had visited the dumpsite to pose for photographs, photographs that had appeared in the newspaper Bong had used to wrap his lunch just yesterday afternoon, a lunch that he'd eaten while listening to the radio broadcast about the landfill expansion that had been approved the previous week, an expansion that would displace the families living on the eastern slope, including his sister's family, who'd been living there since her husband lost his job at the factory two summers ago, a factory that had shut down the day after the earthquake that had damaged the sorting facility, a facility that Bong had helped rebuild during the weekends following the disaster, weekends that had stretched into months because the contractor had disappeared with the government's relief funds, funds that had been allocated during the emergency session that had taken place the afternoon of the landslide, a landslide that Bong had survived because he'd called in sick that morning, a morning he'd spent at the wake of his neighbor's child, a child who'd died from the fever that had swept through the settlement the week after the floods, floods that had contaminated the water supply that the residents had been using since the pipeline burst during the construction of the new highway, a highway that had been inaugurated by the president himself during his visit last year, a visit that had occurred the same week Bong had first noticed the strange chemical smell emanating from the truck that dumped its load every afternoon at precisely the hour when the other workers took their break, a break that Bong had skipped that day because he'd been counting his earnings from the scrap metal he'd sold to the recycling depot the previous Tuesday, a depot that had raised its prices the day after the international commodity report had been released, a report that had predicted the surge in copper demand that Bong had exploited by hoarding the wires he'd collected during the demolition of the old market last spring, a demolition that had forced the vendors to relocate to the temporary stalls near the church, a church where Bong had prayed every Sunday since his mother passed away three winters ago, a winter that had been unusually cold and had killed the mango trees that had shaded the sorting floor, a floor that Bong was standing on now, watching the afternoon sun cast long shadows over the mountains of garbage, realizing that every bag he opened contained fragments of someone else's timeline—a broken clock from last Tuesday, a photograph from a birthday party two years ago, a letter dated the day his father had died—and that his own life was scattered across this dump just as chaotically, buried under layers of temporal debris that only he could sort, if only he could remember which event came first, which happened after the flood, and which had occurred in the brief window between the typhoon's arrival and his daughter's first cry.
+"""
+
+EVENTS (53 events):
+E1: Bong wiped the sweat from his brow
+E2: his father had worked every afternoon for three decades
+E3: the landslide that had buried half the neighborhood
+E4: the mayor's election
+E5: postponed twice
+E6: the typhoon that had flooded the sorting floor last Tuesday
+E7: forcing Bong and his crew to relocate
+E8: a river that had overflowed
+E9: the monsoon season that had arrived three weeks earlier
+E10: a forecast that Bong had ignored
+E11: his wife had been in labor
+E12: he'd found the gold necklace
+E13: a necklace he'd hidden in his locker
+E14: robbed the previous Saturday
+E15: terrorizing the neighborhood since
+E16: the police station closed its doors last month
+E17: budget cuts that had been announced
+E18: the governor had visited the dumpsite
+E19: photographs that had appeared in the newspaper
+E20: wrap his lunch just yesterday afternoon
+E21: a lunch that he'd eaten
+E22: listening to the radio broadcast
+E23: approved the previous week
+E24: would displace the families living on the eastern slope
+E25: who'd been living there since
+E26: her husband lost his job at the factory two summers ago
+E27: a factory that had shut down
+E28: the earthquake that had damaged the sorting facility
+E29: helped rebuild during the weekends following the disaster
+E30: the contractor had disappeared
+E31: the emergency session
+E32: he'd called in sick that morning
+E33: the wake of his neighbor's child
+E34: a child who'd died
+E35: the fever that had swept through the settlement
+E36: contaminated the water supply
+E37: the residents had been using
+E38: the pipeline burst
+E39: had been inaugurated by the president himself
+E40: first noticed the strange chemical smell
+E41: dumped its load every afternoon
+E42: a break that Bong had skipped that day
+E43: sold to the recycling depot the previous Tuesday
+E44: a depot that had raised its prices
+E45: the international commodity report had been released
+E46: hoarding the wires he'd collected
+E47: the demolition of the old market last spring
+E48: forced the vendors to relocate
+E49: prayed every Sunday
+E50: his mother passed away three winters ago
+E51: had killed the mango trees
+E52: a floor that Bong was standing on now
+E53: his daughter's first cry
+
+OUTPUT FORMAT
+Write the complete 53 x 53 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 53 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46 E47 E48 E49 E50 E51 E52 E53
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

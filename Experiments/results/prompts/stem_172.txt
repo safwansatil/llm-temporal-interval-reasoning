@@ -1,0 +1,82 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Tanvir discovered his identity had been stolen on a Tuesday morning, exactly one week after he had applied for a new credit card. The bank called to verify a transaction he had never made — a large purchase at an electronics store that had occurred two days earlier. Tanvir immediately checked his bank statements and found three unauthorized transactions spanning the previous four days.
+
+He called the bank's fraud department within the hour. They froze his accounts and promised to investigate, but they warned him that resolving such cases typically took three to four weeks. Tanvir felt his stomach drop. His savings represented five years of careful accumulation.
+
+The next morning, he filed a police report. The officer who took his statement said they would begin investigating within two days. Tanvir left the station feeling unsettled.
+
+Three days later, he received another call from the bank. They had traced the transactions to a person who had been using Tanvir's information for the previous two weeks. The fraudster had opened two additional accounts in Tanvir's name during that period. The bank promised to reverse all charges within ten business days.
+
+Tanvir spent the next week securing every aspect of his financial life. He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts. By the end of that week, he felt a cautious sense of control returning.
+
+The reimbursement arrived nine business days after the bank's promise. The police arrested the fraudster two weeks later. It took Tanvir another month before he stopped checking his accounts multiple times each day.
+
+---
+"""
+
+EVENTS (24 events):
+E1: Tanvir discovered
+E2: his identity had been stolen
+E3: he had applied for a new credit card.
+E4: The bank called to verify a transaction he had never made
+E5: a large purchase at an electronics store that had occurred two days earlier
+E6: Tanvir immediately checked his bank statements and found
+E7: three unauthorized transactions spanning the previous four days
+E8: He called the bank's fraud department within the hour
+E9: They froze his accounts and promised to investigate, b
+E10: they warned him that resolving such cases typically took three to four weeks
+E11: anvir felt his stomach drop
+E12: The next morning, he filed a police report
+E13: The officer who took his statement said they would begin investigating within two days.
+E14: hree days later, he received another call from the ban
+E15: They had traced the transactions
+E16: ho had been using Tanvir's information for the previous two week
+E17: The fraudster had opened two additional accounts in Tanvir's name during that period
+E18: The bank promised to reverse all charges within ten business days.
+E19: anvir spent the next week securing every aspect of his financial life.
+E20: He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts
+E21: By the end of that week, he felt a cautious sense of control returning
+E22: The reimbursement arrived nine business days after the bank's promise.
+E23: The police arrested the fraudster two weeks later
+E24: It took Tanvir another month before he stopped checking his accounts multiple times each day.
+
+OUTPUT FORMAT
+Write the complete 24 x 24 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 24 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

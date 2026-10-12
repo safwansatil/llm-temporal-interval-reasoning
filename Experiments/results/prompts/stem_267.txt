@@ -1,0 +1,69 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Habibur had been the village postman for twenty-eight years. He walked the same twelve-kilometer route six days a week, delivering letters, money orders, and the occasional parcel. He knew every family in the three villages on his route, and he carried not just mail but news — who had received good news, who had received bad, who was expecting a letter that had not yet arrived.
+
+The decline of his job began five years ago, when the first mobile phone tower was installed in the area. Within two years, most families had phones, and the volume of personal letters dropped sharply. By the third year, Habibur's delivery bag was noticeably lighter. He continued his rounds, but the interactions grew shorter. People no longer invited him in for tea while they read their letters. There were fewer letters to read.
+
+During the fourth year, the post office announced that rural delivery routes would be consolidated. Habibur's three villages would now share a postman with two other routes, and his services would no longer be needed. He received the notice three months before his retirement date.
+
+His final delivery was on a Friday. Word had spread through the villages, and as he walked his route for the last time, families came out to greet him. They gave him garlands, small gifts, and handwritten letters — letters addressed to him, thanking him for nearly three decades of service. His bag was heavier on that final day than it had been in years.
+
+Habibur retired with a modest pension and a collection of letters that he keeps in a wooden box. He reads them sometimes in the evenings, sitting on his veranda, remembering the weight of a full delivery bag and the faces of people who had once waited eagerly for his arrival.
+"""
+
+EVENTS (15 events):
+E1: the first mobile phone tower was installed in the area
+E2: most families had phones
+E3: the volume of personal letters dropped sharply
+E4: Habibur's delivery bag was noticeably lighter
+E5: the post office announced that rural delivery routes would be consolidated
+E6: He received the notice
+E7: His final delivery was on a Friday
+E8: he walked his route for the last time
+E9: families came out to greet him
+E10: They gave him garlands, small gifts, and handwritten letters
+E11: Habibur retired
+E12: Habibur had been the village postman for twenty-eight years
+E13: People no longer invited him in for tea while they read their letters.
+E14: He reads them sometimes in the evenings
+E15: remembering the weight of a full delivery bag and the faces of people who had once waited eagerly for his arrival.
+
+OUTPUT FORMAT
+Write the complete 15 x 15 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 15 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

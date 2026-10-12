@@ -1,0 +1,78 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Orin had been studying medicine in Rajshahi but had to take a medical leave of absence in her third year due to her own health issues. She spent eight months at her family home in Dhaka, mostly in Dhanmondi, recovering and attending follow-up appointments at a private hospital in Lalmatia. During that period, her batchmates at the medical college continued their coursework and clinical rotations. She returned to Rajshahi in January, nine months after leaving, and rejoined with a new batch a year below her own. The adjustment had its difficult moments. Her old professors remembered her, but most of her original friends had moved ahead in their studies. By April, she had settled into a study group with three students from the new batch, one of whom was from Sylhet and had done a gap year working at a community health clinic in a village outside Sylhet town before starting medical school. In June, the group traveled together to a rural health camp organized by the university near a village in Chapai Nawabganj, about ninety kilometers from Rajshahi city. They spent two days providing basic health services to a community that had no local doctor within fifteen kilometers. Orin examined forty-three patients over those two days. It was the first time, she told her batchmate from Sylhet, that her studies had felt completely real.
+"""
+
+EVENTS (32 events):
+E1: Orin had been studying medicine in Rajshahi
+E2: had to take a medical leave of absence in her third year
+E3: her own health issues.
+E4: She spent eight months at her family home in Dhaka
+E5: recovering
+E6: attending follow-up appointments at a private hospital in Lalmatia
+E7: her batchmates at the medical college continued their coursework and clinical rotations
+E8: She returned to Rajshahi in January
+E9: leaving
+E10: rejoined with a new batch a year below her own
+E11: The adjustment had its difficult moments
+E12: most of her original friends had moved ahead in their studies
+E13: she had settled into a study group with three students from the new batch
+E14: had done a gap year
+E15: working at a community health clinic in a village outside Sylhet town
+E16: starting medical school
+E17: the group traveled together to a rural health camp
+E18: organized by the university
+E19: They spent two days providing basic health services
+E20: Orin examined forty-three patients over those two days
+E21: she told her batchmate from Sylhet
+E22: studying medicine
+E23: take a medical leave of absence
+E24: spent eight months at her family home in Dhaka
+E25: recovering and attending follow-up appointments
+E26: done a gap year working at a community health clinic
+E27: returned to Rajshahi
+E28: rejoined with a new batch
+E29: settled into a study group
+E30: traveled together to a rural health camp
+E31: providing basic health services
+E32: examined forty-three patients
+
+OUTPUT FORMAT
+Write the complete 32 x 32 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 32 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

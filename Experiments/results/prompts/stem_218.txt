@@ -1,0 +1,59 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The mathematician had worked on the proof for seven years, filling three hundred pages. The decisive step came during a sleepless night. A single insight that took perhaps ten seconds to write down, but that unblocked everything. The remaining derivation took two weeks. He submitted to a journal. The peer review took eighteen months, longer than the entire final derivation. The referee's report was two pages, one of which was a typo correction. The proof was accepted, published, and read by perhaps thirty people. One of them, a graduate student in another country, found a gap on page 247. The gap had existed since the sleepless night. The insight was correct, but the justification was missing. The mathematician fixed it in four hours. An addendum was published one year later. The original paper's citation count was seventeen. The addendum's was zero. The mathematician, asked if the gap bothered him, said the real gap was the seven years before the sleepless night. Those years contained everything that mattered. The ten seconds contained only the answer.
+"""
+
+EVENTS (13 events):
+E1: had worked on the proof for seven years
+E2: The decisive step came during a sleepless night
+E3: The remaining derivation took two weeks
+E4: He submitted to a journal
+E5: The peer review took eighteen months
+E6: The proof was accepted
+E7: published
+E8: read by perhaps thirty people
+E9: found a gap on page 247
+E10: The gap had existed since the sleepless night
+E11: The mathematician fixed it in four hours
+E12: An addendum was published one year later
+E13: asked if the gap bothered him
+
+OUTPUT FORMAT
+Write the complete 13 x 13 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 13 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

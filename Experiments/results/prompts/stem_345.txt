@@ -1,0 +1,69 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Rony had opened the village's first internet cafe during the first week of March. It was a modest establishment — four computers, a printer, and a slow but functional broadband connection — housed in a rented room near the bazaar. The concept was unfamiliar to most villagers, and for the first two weeks, Rony's only customers were curious children who came to play games and a few students who needed to type assignments.
+
+The turning point came during the third week of March. A farmer named Mr. Haque visited the cafe and asked if Rony could help him check market prices for rice in the district town. Rony showed him how to navigate the agricultural department's website, and within ten minutes, Mr. Haque had information that would have required a two-hour bus journey to obtain. He paid Rony's small fee and left with a satisfied expression.
+
+Word spread through the farming community. By the end of March, Rony was helping farmers check prices, submit government forms, and communicate with buyers via email. He had to learn about agricultural regulations during the first two weeks of April to keep up with the demand. The cafe's income, which had been barely enough to cover rent in March, became profitable by the middle of April.
+
+May brought a new category of customers: families with relatives abroad. Rony set up video calls through a messaging application, and the cafe became a place where mothers spoke to sons in Dubai and wives saw the faces of husbands working in Malaysia. The first video call was made on a Thursday, and by the end of the month, Rony was scheduling calls back-to-back each evening.
+
+The cafe has now been operating for nearly a year. Rony has added two more computers and hired his younger brother to help during the busy hours. He offers computer literacy classes on Saturday mornings, teaching basic skills to villagers who had never touched a keyboard. The internet cafe has become something more than a business. It is a bridge — between the village and the world, between generations, between those who left and those who stayed.
+"""
+
+EVENTS (15 events):
+E1: opened the village's first internet cafe
+E2: curious children who came to play games
+E3: a few students who needed to type assignments
+E4: Mr. Haque visited the cafe
+E5: Rony showed him how to navigate the agricultural department's website
+E6: Mr. Haque had information
+E7: He paid Rony's small fee
+E8: Rony was helping farmers check prices, submit government forms, and communicate with buyers via email
+E9: He had to learn about agricultural regulations
+E10: Rony set up video calls through a messaging application
+E11: The first video call was made
+E12: Rony was scheduling calls back-to-back each evening
+E13: Rony has added two more computers
+E14: hired his younger brother to help
+E15: He offers computer literacy classes
+
+OUTPUT FORMAT
+Write the complete 15 x 15 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 15 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

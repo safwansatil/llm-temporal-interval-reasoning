@@ -1,0 +1,57 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Arif and Bashir collaborated on a cross-country agricultural survey that required them to document crop yields across three distinct climatic zones. They estimated the entire expedition would take exactly ten weeks. Arif took the lead in the first zone, spending twenty-one continuous days conducting soil sampling while Bashir handled the logistical supply chains from a central base. On the twenty-second day, they relocated to the second zone, a transit process that consumed forty-eight hours of driving. In the second zone, they worked side-by-side for fourteen days, interviewing local farmers in tandem to speed up the data collection. Following this joint effort, Bashir fell ill and was forced to rest for a full week. During Bashir’s recovery, Arif processed the accumulated data, spending seven days coding responses into their database. Once Bashir recovered, they moved to the third zone, dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping, flying surveys for six hours every morning until the project concluded.
+"""
+
+EVENTS (11 events):
+E1: Arif took the lead in the first zone
+E2: spending twenty-one continuous days conducting soil sampling
+E3: they relocated to the second zone
+E4: they worked side-by-side for fourteen days
+E5: Bashir fell ill
+E6: forced to rest for a full week
+E7: Arif processed the accumulated data
+E8: they moved to the third zone
+E9: dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E10: the project concluded
+E11: expedition would take exactly ten weeks
+
+OUTPUT FORMAT
+Write the complete 11 x 11 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 11 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

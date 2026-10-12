@@ -1,0 +1,62 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Dr. Chen saved the file at 23:47, though the patient whose data she'd just locked had already been discharged three days prior, a discharge that had been authorized by the resident who'd taken over the shift after Chen's pager had gone off during the code blue in the adjacent ward, a code that had been called forty minutes into the infusion that was supposed to have started at 14:00 but had been delayed when the pharmacy sent the wrong batch—lot 7749 instead of lot 7751—a mix-up that occurred because the labeling machine had jammed during the overnight run, a jam that had been cleared by the technician who'd been covering for his colleague, who'd called in sick the morning after the site visit, a visit that had been moved from the afternoon before because the monitor's flight from Brussels had been diverted to Frankfurt due to the strike at the destination airport, a strike that had been called the previous week in response to the layoffs announced the day the trial's third patient was randomized, a randomization that had been delayed six hours because the stratification algorithm had failed to account for the new inclusion criterion added during the protocol amendment, an amendment that had been drafted during the investigators' meeting in Zurich, a meeting that Chen had attended virtually from the hospital cafeteria because she'd been covering for the principal investigator, who'd been stuck in customs at JFK after the conference in Boston, a conference where the amendment's sponsor representative had presented the interim results that triggered the FDA's request for the additional endpoint, an endpoint that required the blood draw scheduled for the morning of the code blue, a draw that had been missed because the phlebotomist had been reassigned to the emergency department, a reassignment caused by the multi-car accident on the interstate that had also delayed the courier carrying the lot 7751 vials from the depot, a depot that had been opened the month before to replace the facility destroyed in the fire, a fire that had started in the loading dock the same evening the protocol was finalized, a finalization that had been rushed because the grant deadline had been moved up two weeks when the funding agency's director resigned, a resignation that had been announced during the conference in Boston, a conference that the sponsor representative had almost missed because her original flight had been canceled when the crew timed out, a timeout that had been triggered by the delay in de-icing at the gate, a delay that had added ninety minutes to the turnaround, a turnaround that had been compressed because the aircraft was needed for the charter bringing the Brussels monitor to the site visit, a visit that was moved to the morning, that required the technician to cover, that caused the labeling jam, that sent lot 7749, that was caught by the pharmacist, that delayed the infusion, that overlapped with the code blue, that pulled Chen from the ward, that left the resident to authorize the discharge, that occurred three days before the data lock, though the patient—who'd received lot 7749, not 7751, without anyone noting the substitution—had developed the arrhythmia that would be attributed, in the locked data, to the study drug, an attribution that would trigger the DSMB review scheduled for the week after the interim analysis, an analysis that was already underway in Brussels when Chen saved the file, though the analyst there had been working from the wrong randomization list, a list that had been uploaded before the amendment, an amendment that added the criterion, that delayed the randomization, that pushed the third patient into the same week as the layoffs, that caused the strike, that diverted the monitor, that moved the visit, that caused the sick call, that caused the cover, that caused the jam, that caused the mix-up, that was caught too late, that was infused during the code blue, that was missed in the documentation, that was locked into the file, that would be reviewed by the DSMB, that would recommend halting the trial, a halt that would be communicated to Chen in an email sent at 23:52, five minutes after she saved, while the patient—already discharged, already home, already feeling the palpitations that wouldn't be reported for another week—was making tea in a kitchen three time zones away from the ward where the code blue had been called for someone else entirely.
+"""
+
+EVENTS (16 events):
+E1: the protocol was finalized
+E2: a fire that had started in the loading dock
+E3: the trial's third patient was randomized
+E4: layoffs announced
+E5: a strike that had been called
+E6: the monitor's flight from Brussels had been diverted to Frankfurt
+E7: the site visit
+E8: his colleague, who'd called in sick
+E9: the labeling machine had jammed
+E10: the infusion that was supposed to have started at 14:00
+E11: the code blue
+E12: Chen's pager had gone off
+E13: the resident who'd taken over the shift
+E14: discharged
+E15: Dr. Chen saved the file
+E16: an email sent at 23:52
+
+OUTPUT FORMAT
+Write the complete 16 x 16 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 16 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

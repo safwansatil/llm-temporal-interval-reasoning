@@ -1,0 +1,66 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Tanim had borrowed three books from the university library during the second week of January. The due date was three weeks later, and he had noted it in his planner. But January was a busy month — exams, assignments, a family wedding — and the due date passed without his notice.
+
+He discovered the overdue books on a Thursday in the third week of February, nearly a month after they should have been returned. The library's late fee was five taka per book per day, which meant the fine had accumulated to a significant amount. Tanim was a scholarship student with a tight budget, and the fine represented nearly a week's worth of meals.
+
+He returned the books that same afternoon and approached the librarian's desk with dread. The librarian, an elderly woman named Mrs. Haq who had worked at the university for thirty-two years, scanned each book and looked at her screen. Then she looked at Tanim, at his worn-out bag and his anxious expression, and did something unexpected. She reduced the fine by half, citing a discretionary policy for first-time offenders.
+
+Tanim thanked her profusely and paid the reduced amount. He now sets a reminder on his phone for every library book, and he returns them early whenever possible. The librarian's kindness had saved him from a difficult week, and he has never forgotten it.
+"""
+
+EVENTS (14 events):
+E1: borrowed three books from the university library
+E2: noted it in his planner
+E3: the due date passed without his notice
+E4: discovered the overdue books
+E5: returned the books
+E6: approached the librarian's desk
+E7: scanned each book
+E8: reduced the fine by half
+E9: thanked her profusely
+E10: paid the reduced amount
+E11: sets a reminder on his phone for every library book
+E12: returns them early whenever possible
+E13: Mrs. Haq who had worked at the university
+E14: had saved him from a difficult week
+
+OUTPUT FORMAT
+Write the complete 14 x 14 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 14 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

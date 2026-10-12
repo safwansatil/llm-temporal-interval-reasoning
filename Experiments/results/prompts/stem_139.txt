@@ -1,0 +1,71 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Pacing the rusted catwalk above the silent assembly lines of the shuttered Detroit manufacturing plant, Arthur cross-referenced the dismal regional unemployment statistics on his tablet, feeling the heavy burden of the hyperinflationary spiral that had hollowed out the middle class since the controversial trade embargo was signed in a lavish Geneva chateau last spring, an embargo that completely halted the semiconductor shipments he had desperately pre-ordered from the Taipei foundry the week of the festival. He kicked a discarded titanium bolt, vividly recalling the raw panic in his employees' eyes during the mass layoffs the morning after the federal reserve abruptly announced quantitative tightening, a sudden contraction of the money supply that immediately dried up the venture capital funding his hardware startup had enthusiastically secured while pitching in a sunlit Silicon Valley atrium three days prior to the sudden market crash. As he watched a lone, underpaid security guard patrol the empty loading docks below, Arthur realized the impending foreclosure auction scheduled to occur on the courthouse steps tomorrow afternoon would officially liquidate the physical assets he had mortgaged his childhood home to acquire a lifetime ago, a desperate financial gamble he had made entirely unaware that foreign subsidies were actively undercutting domestic steel prices precisely when he was signing the loan documents in a cramped bank manager's office yesterday morning. The tablet screen abruptly refreshed, pulling a live news feed of the sprawling labor protests currently paralyzing the financial district in London, a civil unrest sparked by the very same supply chain bottlenecks that had forced Arthur to halt production the previous weekend, meaning that even if the emergency government stimulus package managed to pass the senate vote later tonight, the relief funds would arrive far too late to resurrect the local industrial ecosystem that was already collapsing the afternoon before the leading economists officially recognized the global depression.
+"""
+
+EVENTS (25 events):
+E1: Arthur cross-referenced the dismal regional unemployment statistics
+E2: the hyperinflationary spiral
+E3: the controversial trade embargo was signed
+E4: completely halted the semiconductor shipments
+E5: he had desperately pre-ordered from the Taipei foundry
+E6: He kicked a discarded titanium bolt
+E7: vividly recalling
+E8: the mass layoffs
+E9: the federal reserve abruptly announced quantitative tightening
+E10: immediately dried up the venture capital funding
+E11: his hardware startup had enthusiastically secured
+E12: the sudden market crash
+E13: watched a lone, underpaid security guard patrol the empty loading docks
+E14: Arthur realized
+E15: the impending foreclosure auction
+E16: he had mortgaged his childhood home
+E17: foreign subsidies were actively undercutting domestic steel prices
+E18: signing the loan documents
+E19: The tablet screen abruptly refreshed
+E20: the sprawling labor protests currently paralyzing the financial district
+E21: forced Arthur to halt production the previous weekend
+E22: managed to pass the senate vote
+E23: the relief funds would arrive
+E24: was already collapsing
+E25: the leading economists officially recognized the global depression
+
+OUTPUT FORMAT
+Write the complete 25 x 25 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 25 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,63 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Aleem had been driving a rickshaw in Sylhet city for four years. On a rainy afternoon in June, he picked up a passenger outside a private hospital near Amberkhana who asked to go to the Sylhet railway station. The man was elderly, traveling with a large bag, and sat quietly for most of the ride. Near the station, he asked Aleem how long he had been pulling a rickshaw. They talked for a few minutes after the man paid. The man told him he was a retired school headmaster from Moulvibazar who had taught for thirty-eight years and was now traveling to Dhaka to visit his daughter. He had been at the hospital not as a patient but to accompany a former student who was in for surgery. He asked Aleem if he had children. Aleem said he had a daughter in class five and a son who was three. The man took out a visiting card from his shirt pocket and told Aleem to contact him when his daughter was ready for secondary school, because he still knew people in the Moulvibazar education board. He said this without drama, as though it were a simple practical arrangement, and then picked up his bag and walked toward the station entrance. Aleem kept the card in the small tin box where he stored his daily earnings. He did not contact the man for three years, and when he finally did, the man remembered who he was immediately.
+"""
+
+EVENTS (17 events):
+E1: had been driving a rickshaw in Sylhet city
+E2: picked up a passenger
+E3: paid
+E4: talked for a few minutes
+E5: picked up his bag
+E6: walked toward the station entrance
+E7: kept the card in the small tin box
+E8: did not contact the man
+E9: finally did
+E10: who asked to go to the Sylhet railway station
+E11: sat quietly for most of the ride
+E12: he asked Aleem how long he had been pulling a rickshaw.
+E13: had taught for thirty-eight years
+E14: now traveling to Dhaka to visit his daughter
+E15: had been at the hospital not as a patient
+E16: told Aleem to contact him when his daughter was ready for secondary school
+E17: he still knew people in the Moulvibazar education board
+
+OUTPUT FORMAT
+Write the complete 17 x 17 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 17 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

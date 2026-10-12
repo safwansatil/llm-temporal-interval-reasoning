@@ -1,0 +1,84 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Dr. Mira Hassan watches the final countdown appear on the control screens of the Horizon Observatory, the same countdown that should precede the decommissioning burn scheduled for midnight, except every clock in Mission Control still reads 9:17 PM, three hours before the procedure is authorized to begin. The operations software insists the burn command has already been acknowledged by the satellite, though the authorization key required to transmit it remains locked inside the sealed envelope resting unopened on the flight director's desk, an envelope delivered this morning by courier after the previous authorization had been revoked during yesterday's anomaly review, a review convened because telemetry from the observatory briefly contained images timestamped seventeen days in the future.
+
+Mira remembers analyzing those images with the navigation team, identifying a microscopic fracture in the telescope's primary mirror that inspection reports declared nonexistent until the maintenance drone discovered it during an EVA planned for tomorrow afternoon. The drone's mission itself had been added to the schedule only after engineers noticed an unexplained vibration recorded during the calibration sequence, a sequence that mission logs show was interrupted by a communication blackout lasting exactly eleven minutes, even though the blackout's incident report places its beginning five minutes after calibration had already resumed.
+
+As the countdown reaches thirty seconds, the observatory transmits one final packet. Instead of engineering data, every monitor fills with a live image of Mission Control itself. The angle is impossible—looking inward through the observation window from orbit—and every person in the room is visible exactly where they are now, except Mira's future self stands beside the flight director holding the authorization envelope already opened, while the present envelope remains sealed on the desk in front of her.
+
+The future Mira looks directly into the camera, shakes her head once, and silently writes four words onto the glass before the transmission ends.
+
+"Wait until after midnight."
+
+The countdown immediately freezes at 00:01.
+
+One second later, every system logs the decommissioning burn as successfully completed.
+
+The satellite, visible through the observatory window above the horizon, continues orbiting exactly where it has always been.
+"""
+
+EVENTS (24 events):
+E1: Dr. Mira Hassan watches the final countdown appear
+E2: the burn command has already been acknowledged
+E3: the decommissioning burn scheduled for midnight
+E4: the previous authorization had been revoked
+E5: an envelope delivered this morning by courier
+E6: telemetry from the observatory briefly contained images
+E7: a review convened
+E8: analyzing those images
+E9: identifying a microscopic fracture
+E10: the maintenance drone discovered it
+E11: The drone's mission itself had been added to the schedule
+E12: the calibration sequence
+E13: engineers noticed an unexplained vibration
+E14: a communication blackout lasting exactly eleven minutes
+E15: calibration had already resumed
+E16: the countdown reaches thirty seconds
+E17: the observatory transmits one final packet
+E18: every monitor fills with a live image of Mission Control
+E19: The future Mira looks directly into the camera
+E20: silently writes four words onto the glass
+E21: the transmission ends
+E22: The countdown immediately freezes at 00:01
+E23: every system logs the decommissioning burn as successfully completed
+E24: continues orbiting exactly where it has always been
+
+OUTPUT FORMAT
+Write the complete 24 x 24 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 24 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

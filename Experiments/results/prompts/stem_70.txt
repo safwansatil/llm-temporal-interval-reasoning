@@ -1,0 +1,70 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Asad had been trying to locate his childhood home in Rangpur for the better part of a morning. He had moved away at the age of eight when his father was transferred by the government railway service to Dhaka, and he had not been back to the city in twenty-six years. He had come now for a work assignment, a three-day infrastructure survey, and had arrived the evening before on the overnight train from Dhaka. He remembered the street name but not the house number and found that the street had been renamed at some point in the intervening years. An elderly man sitting outside a tea shop near what used to be the main road recognized the old name and pointed him roughly in the right direction. After twenty minutes of walking through a residential area, Asad found a house that matched his clearest memory: a white wall with a low iron gate and a neem tree in the front yard. The tree was enormous now. The current residents, a couple in their early sixties, had bought the house fifteen years ago from a family who had owned it for the previous decade. They had no information about the family before that. They invited Asad inside and gave him tea. He stood in the front room for a while and told them he had been born in this room. The woman said she had not known that. Before leaving, he stood under the neem tree for a moment and looked up through the branches.
+"""
+
+EVENTS (24 events):
+E1: had been trying to locate his childhood home in Rangpur for the better part of a morning
+E2: He had moved away at the age of eight
+E3: when his father was transferred by the government railway service to Dhaka
+E4: he had not been back to the city in twenty-six years
+E5: He had come now for a work assignment
+E6: a three-day infrastructure survey
+E7: had arrived the evening before on the overnight train from Dhaka
+E8: He remembered the street name but not the house number
+E9: found that the street had been renamed at some point in the intervening years
+E10: recognized the old name
+E11: pointed him roughly in the right direction
+E12: After twenty minutes of walking through a residential area
+E13: Asad found a house that matched his clearest memory
+E14: The tree was enormous now
+E15: had bought the house fifteen years ago
+E16: who had owned it for the previous decade
+E17: They invited Asad inside
+E18: gave him tea
+E19: He stood in the front room for a while
+E20: told them he had been born in this room
+E21: The woman said she had not known that
+E22: Before leaving
+E23: he stood under the neem tree for a moment
+E24: looked up through the branches
+
+OUTPUT FORMAT
+Write the complete 24 x 24 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 24 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

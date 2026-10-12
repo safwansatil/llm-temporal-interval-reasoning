@@ -1,0 +1,60 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Mr. Rubel contracted Mrs. Talukdar to supply custom floral arrangements for his tea stall’s grand reopening, an event planned precisely five weeks away. Mrs. Talukdar began cultivating the specific marigolds required, a fast-growing variety that needed exactly twenty-one days from germination to first bloom. During those first three weeks, she watered the seedlings twice daily while Mr. Rubel renovated his stall, a dusty process that kept his doors closed to the public for eighteen continuous days. On the twenty-second day, as the first flowers opened, Mrs. Talukdar spent forty-eight hours weaving the initial test garlands. She presented the prototypes to Mr. Rubel, who requested minor color adjustments that took another three days to implement into the weaving process. Over the final week leading up to the event, Mrs. Talukdar and her assistants worked in alternating six-hour shifts to harvest and weave the final arrangements, delivering the massive floral displays just hours before Mr. Rubel opened his newly renovated stall to the public.
+"""
+
+EVENTS (14 events):
+E1: contracted Mrs. Talukdar
+E2: began cultivating the specific marigolds
+E3: renovated his stall
+E4: watered the seedlings
+E5: kept his doors closed
+E6: first flowers opened
+E7: weaving the initial test garlands
+E8: presented the prototypes
+E9: requested minor color adjustments
+E10: implement into the weaving process
+E11: harvest and weave the final arrangements
+E12: delivering the massive floral displays
+E13: opened his newly renovated stall
+E14: an event planned precisely
+
+OUTPUT FORMAT
+Write the complete 14 x 14 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 14 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

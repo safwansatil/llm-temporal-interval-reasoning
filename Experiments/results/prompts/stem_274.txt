@@ -1,0 +1,70 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Rokeya and Shireen had shared a bedroom for the first eighteen years of their lives. They were born two years apart, and their mother used to dress them in matching outfits, as if the age difference could be erased by identical fabric. They fought constantly as children and grew closer as teenagers, the way sisters often do, their bond forged in shared secrets and borrowed clothes.
+
+When Rokeya married and moved to the city, the sisters promised to call each other every week. For the first six months, they kept the promise. Then the calls became every two weeks, then once a month, then only on holidays. The distance was not just geographical. Rokeya's life in the city was fast and demanding. Shireen's life in the village followed older rhythms. They still loved each other, but they no longer knew the details of each other's days.
+
+The silence lasted for nearly two years. Then Shireen fell ill. It was nothing dramatic — a persistent cough, a loss of weight, symptoms that the village doctor dismissed as seasonal. By the time the correct diagnosis was made, the illness had advanced significantly.
+
+Rokeya received the news on a Thursday afternoon. She was on a bus to the village within three hours, sitting by the window and watching the city give way to fields, her mind filled with every conversation she had postponed and every visit she had canceled. She arrived at the family home that evening and found Shireen in the bedroom they had once shared, looking smaller than she remembered.
+
+Rokeya stayed for five weeks. She took Shireen to specialist appointments in the district town, managed her medications, and slept on a cot beside her sister's bed. They talked more in those weeks than they had in the previous five years. Shireen recovered slowly, her strength returning in small increments.
+
+When Rokeya finally returned to the city, she carried a new habit with her. She calls Shireen every Sunday evening without fail. The calls are not long, but they are consistent. She has not missed a single Sunday in the three years since her sister's illness. The distance between the city and the village has not changed, but the distance between the sisters has closed entirely.
+"""
+
+EVENTS (14 events):
+E1: They were born two years apart
+E2: shared a bedroom
+E3: Rokeya married and moved to the city
+E4: kept the promise
+E5: The silence lasted for nearly two years
+E6: Shireen fell ill
+E7: the correct diagnosis was made
+E8: Rokeya received the news
+E9: She was on a bus to the village
+E10: She arrived at the family home
+E11: Rokeya stayed for five weeks
+E12: Shireen recovered slowly
+E13: Rokeya finally returned to the city
+E14: She calls Shireen every Sunday evening
+
+OUTPUT FORMAT
+Write the complete 14 x 14 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 14 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

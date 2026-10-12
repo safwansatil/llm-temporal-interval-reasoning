@@ -1,0 +1,68 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Mrs. Yasmin's refrigerator stopped working on a Sunday morning in the first week of August. The motor had been making strange noises since the previous Friday, and on Sunday it simply went silent. The interior was still cool, but the temperature was rising, and the food she had purchased for the entire week was at risk.
+
+She called a repair service that same morning. The company promised to send a technician the following day, but Monday passed without a visit. She called again on Tuesday and was told the technician had been delayed by an emergency job. He would arrive on Wednesday. Mrs. Yasmin spent Monday and Tuesday transferring food to her neighbor's refrigerator, making trips across the hallway every few hours.
+
+The technician arrived on Wednesday afternoon. He examined the fridge for thirty minutes and diagnosed a faulty compressor. The part would need to be ordered, and delivery would take five to seven business days. Mrs. Yasmin calculated the timeline in her head and felt her stomach drop. The repair would not be completed until the middle of the following week.
+
+Her neighbor, Mr. Rahman from the apartment across the hall, offered a solution. He had a small refrigerator in his storage room that he had been planning to sell. He offered it to Mrs. Yasmin as a temporary replacement until her main fridge was repaired. She accepted gratefully.
+
+The part arrived on a Thursday, eight days after it had been ordered. The technician installed it that afternoon, and the refrigerator hummed back to life within an hour. Mrs. Yasmin returned the borrowed fridge to Mr. Rahman with a home-cooked meal as thanks. The breakdown had been inconvenient, but it had also reminded her that she had good neighbors. Some things, she reflected, were more valuable than a functioning appliance.
+"""
+
+EVENTS (14 events):
+E1: The motor had been making strange noises
+E2: refrigerator stopped working
+E3: it simply went silent
+E4: She called a repair service
+E5: transferring food to her neighbor's refrigerator
+E6: She called again
+E7: The technician arrived
+E8: He examined the fridge
+E9: He offered it to Mrs. Yasmin
+E10: She accepted gratefully
+E11: The part arrived
+E12: The technician installed it
+E13: the refrigerator hummed back to life
+E14: Mrs. Yasmin returned the borrowed fridge
+
+OUTPUT FORMAT
+Write the complete 14 x 14 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 14 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,60 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+The mobile clinic arrived in the remote border village three days after a district health bulletin warned of a measles outbreak. The team spent the first twenty-four hours retrofitting the primary school auditorium into an inoculation center. The vaccination drive was scheduled to run for five consecutive days. On the morning of the second day, the solar-powered vaccine refrigerator failed, necessitating an urgent ice delivery from a town two hours away by boat. The ice arrived three hours after the distress call was logged, preserving the stock with thirty minutes of margin. Vaccinations resumed immediately and continued through the remaining three days. Concurrently, community volunteers conducted door-to-door educational outreach throughout all five days of the drive, starting two hours before the clinic opened each morning and ending at sunset. A total of four hundred children were inoculated before the medical team packed their supplies on the morning of the sixth day.
+"""
+
+EVENTS (14 events):
+E1: a district health bulletin warned of a measles outbreak
+E2: The mobile clinic arrived in the remote border village
+E3: retrofitting the primary school auditorium into an inoculation center
+E4: community volunteers conducted door-to-door educational outreach
+E5: the solar-powered vaccine refrigerator failed
+E6: necessitating an urgent ice delivery
+E7: The ice arrived
+E8: Vaccinations resumed
+E9: four hundred children were inoculated
+E10: packed their supplies
+E11: vaccination drive was scheduled to run
+E12: preserving the stock
+E13: continued through the remaining
+E14: starting two hours before the clinic opened each morning
+
+OUTPUT FORMAT
+Write the complete 14 x 14 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 14 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

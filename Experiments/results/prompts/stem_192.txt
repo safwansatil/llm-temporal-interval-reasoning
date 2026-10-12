@@ -1,0 +1,73 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Bird migration — a watcher's fixed point against a moving species
+
+The godwits arrived at the estuary within the same ten-day window every year, and Hassan had recorded the first-arrival date for thirty-one years, long enough to see the window itself drift earlier by nearly a week. Each bird's journey was a marvel he could not witness: nine days of continuous flight, no landing, an ocean crossed while he checked the mudflats each dawn. The bird ringed in his estuary as a juvenile had since made the round trip eleven times — cumulatively, more than two hundred days of its life spent in the air over open water — its life still far shorter than Hassan's involvement in the survey, and a fraction of the survey itself, which his late teacher had begun. This year the first bird came before Hassan's records said it should and before the tide tables said the feeding would be good: early to a banquet not yet laid. The marsh restoration, started when the ringed bird was a chick, had taken six years to show results and would need sixty to finish; the council's funding ran in cycles of three. Hassan wrote the arrival date in the ledger — his thirty-second entry, the survey's fifty-first — beneath hands that had recorded nineteen of these springs and above whoever's hands would record the rest.
+"""
+
+EVENTS (25 events):
+E1: The godwits arrived at the estuary within the same ten-day window every year
+E2: Hassan had recorded the first-arrival date for thirty-one years
+E3: to see the window itself drift earlier by nearly a week
+E4: Each bird's journey was a marvel he could not witness
+E5: nine days of continuous flight
+E6: no landing
+E7: an ocean crossed
+E8: he checked the mudflats each dawn
+E9: The bird ringed in his estuary as a juvenile had since made the round trip eleven times
+E10: more than two hundred days of its life spent in the air over open water
+E11: its life still far shorter than Hassan's involvement in the survey
+E12: a fraction of the survey itself
+E13: which his late teacher had begun
+E14: This year the first bird came before Hassan's records said it should
+E15: before the tide tables said the feeding would be good
+E16: early to a banquet not yet laid
+E17: The marsh restoration, started when the ringed bird was a chick
+E18: had taken six years to show results
+E19: would need sixty to finish
+E20: the council's funding ran in cycles of three
+E21: Hassan wrote the arrival date in the ledger
+E22: his thirty-second entry
+E23: the survey's fifty-first
+E24: beneath hands that had recorded nineteen of these springs
+E25: above whoever's hands would record the rest
+
+OUTPUT FORMAT
+Write the complete 25 x 25 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 25 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+

@@ -1,0 +1,68 @@
+===== SYSTEM =====
+You are an expert annotator of temporal relations between events described in text.
+
+===== USER =====
+Read the passage and the list of events taken from it. Each event is identified by an ID and by the words that describe it in the passage.
+
+Your task: for every ordered pair of different events (X, Y), decide which ONE of Allen's 13 interval relations holds between the time interval of event X and the time interval of event Y, according to the passage. Every pair must receive exactly one relation; if the passage does not state it explicitly, choose the most plausible one.
+
+The 13 relations (read as "X relation Y"):
+<   X before Y: X ends before Y starts (there is a gap between them).
+>   X after Y: X starts after Y ends (there is a gap between them).
+m   X meets Y: X ends exactly when Y starts.
+mi  X met by Y: X starts exactly when Y ends.
+o   X overlaps Y: X starts before Y starts, and X ends after Y starts but before Y ends.
+oi  X overlapped by Y: Y starts before X starts, and Y ends after X starts but before X ends.
+s   X starts Y: X and Y start together, and X ends before Y ends.
+si  X started by Y: X and Y start together, and X ends after Y ends.
+d   X during Y: X starts after Y starts and ends before Y ends.
+di  X contains Y: Y starts after X starts and ends before X ends.
+f   X finishes Y: X and Y end together, and X starts after Y starts.
+fi  X finished by Y: X and Y end together, and X starts before Y starts.
+=   X equals Y: X and Y start together and end together.
+
+PASSAGE:
+"""
+Meherun adjusted the telescope's focus on the rooftop, tracking a comet whose light, she reminded herself, had left its source centuries before the observatory below had even been founded, the same observatory that, decades from now in a future she wouldn't see, was slated for decommissioning — a fact she'd learned last spring from an alumnus who'd once observed this very comet's previous pass, back when the rooftop was still an open field, before the annex was built the year of the club's founding. Her notes referenced a photograph taken the morning after tonight's session, showing cloud cover that hadn't rolled in yet, a photograph she was certain she'd already filed, though the log book on the table beside her remained blank for tonight's date. She thought of Farhan, who was, at this exact moment, calibrating the club's other telescope on a hillside three hours south, having left the city the previous evening after the argument about scope time allocation — an argument that had, strangely, already been resolved in an email sent the following week, one she'd read before it arrived because the club's server synced timestamps incorrectly ever since the migration during last year's eclipse event, an event that itself had been rescheduled from a date now impossible to place, since the original booking conflicted with a meteor shower still three years off. Somewhere below, the club president was locking the gate for the night that had, according to the sign-in sheet, already ended an hour ago, even as Meherun's exposure continued, the shutter still open on a frame that would develop into the very image she'd filed that morning which hadn't happened yet
+"""
+
+EVENTS (22 events):
+E1: the club's founding
+E2: the annex was built
+E3: the observatory below had even been founded
+E4: observed this very comet's previous pass
+E5: last year's eclipse event
+E6: the argument about scope time allocation
+E7: left the city
+E8: calibrating the club's other telescope
+E9: adjusted the telescope's focus
+E10: locking the gate
+E11: an email sent the following week
+E12: a photograph taken
+E13: slated for decommissioning
+E14: a meteor shower still three years off
+E15: tracking a comet whose light,
+E16: cloud cover that hadn't rolled in yet
+E17: she'd read before it arrived
+E18: she'd learned last spring from an alumnus
+E19: log book on the table beside her remained blank for tonight's date
+E20: event that itself had been rescheduled from a date now impossible to place
+E21: Meherun's exposure continued
+E22: frame that would develop into the very image she'd filed that morning
+
+OUTPUT FORMAT
+Write the complete 22 x 22 relation matrix between the tags <matrix> and </matrix>.
+- Write exactly one line per event, in the order of the event list above.
+- Each line starts with the row event's ID followed by a colon, then 22 symbols separated by single spaces.
+- The k-th symbol in the row of event X is the relation of X to the k-th event of the list (X relation that event). Column order: E1 E2 E3 E4 E5 E6 E7 E8 E9 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22
+- Use "-" on the diagonal (the cell of an event with itself).
+- Use only these symbols: < > m mi o oi s si d di f fi = -
+- Write nothing else inside the tags.
+
+Format illustration for a different, 3-event case (the symbols here are only an illustration):
+<matrix>
+E1: - < m
+E2: > - d
+E3: mi di -
+</matrix>
+
