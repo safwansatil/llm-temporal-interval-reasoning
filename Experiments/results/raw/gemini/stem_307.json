@@ -1,0 +1,112 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_307",
+  "stem_id": 307,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "E20",
+    "E21",
+    "E22",
+    "E23",
+    "E24",
+    "E25",
+    "E26",
+    "E27",
+    "E28",
+    "E29",
+    "E30",
+    "E31",
+    "E32",
+    "E33",
+    "E34",
+    "E35",
+    "E36",
+    "E37",
+    "E38",
+    "E39",
+    "E40",
+    "E41",
+    "E42"
+  ],
+  "prompt_sha256": "2a884145a498222fe0f02000f83b60283f806d85a0244e8abbbfb244d3444a79",
+  "prompt_file": "prompts/stem_307.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:19:56Z",
+  "finished_at": "2026-10-06T18:20:06Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 1577,
+      "completion_tokens": 2690,
+      "total_tokens": 4267,
+      "cost": 0.007126119,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0071981,
+        "upstream_inference_prompt_cost": 0.0004731,
+        "upstream_inference_completions_cost": 0.006725
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 758,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310797-nSPBys3EL9yFXzHZgsO3",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - o o = d o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o\nE2: oi - o oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE3: oi o - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE4: = o o - d o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o\nE5: di oi oi di - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE6: oi oi oi oi oi - o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o\nE7: oi oi oi oi oi oi - s s di di di oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE8: oi oi oi oi oi oi si - m o oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE9: oi oi oi oi oi oi si mi - o oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE10: oi oi oi oi oi oi di oi oi - d d oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE11: oi oi oi oi oi oi di oi oi si - o oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE12: oi oi oi oi oi oi di oi oi si mi - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE13: oi oi oi oi oi oi oi oi oi oi oi oi - s s s s s s s oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE14: oi oi oi oi oi oi oi oi oi oi oi oi fi - o o o o o o oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE15: oi oi oi oi oi oi oi oi oi oi oi oi fi oi - = = = = = oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE16: oi oi oi oi oi oi oi oi oi oi oi oi fi oi = - = = = oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE17: oi oi oi oi oi oi oi oi oi oi oi oi fi oi = = - = = oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE18: oi oi oi oi oi oi oi oi oi oi oi oi fi oi = = = - = oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE19: oi oi oi oi oi oi oi oi oi oi oi oi fi oi = = = = - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE20: oi oi oi oi oi oi oi oi oi oi oi oi fi oi oi oi oi oi oi - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE21: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - o o o o o o o o o o o o o o o o o o o o o\nE22: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi si - o o o o o o o o o o o o o o o o o o o o\nE23: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi si mi - o o o o o o o o o o o o o o o o o o o\nE24: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi di di di - o o o o o o o o o o o o o o o o o o\nE25: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi di di di oi - o o o o o o o o o o o o o o o o o o\nE26: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - d d s s o s o s s o o o o o o o\nE27: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi di - s s o s o s s o o o o o o o\nE28: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi di si - s o s o s s o o o o o o o\nE29: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi di si mi - o s o s s o o o o o o o\nE30: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - d o d f oi oi oi oi oi oi\nE31: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi si - o d f oi oi oi oi oi oi\nE32: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - d f oi oi oi oi oi oi\nE33: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi d oi si - f oi oi oi oi oi oi\nE34: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - oi oi oi oi oi oi\nE35: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - oi oi oi oi oi oi\nE36: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - o o o o o o\nE37: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - d oi oi oi oi\nE38: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - di oi oi oi\nE39: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - < o o\nE40: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - = =\nE41: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi = - =\nE42: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi = = -\n</matrix>",
+    "reasoning": "**Generating Allen Relations**\n\nI am currently focused on systematically evaluating event intervals to construct the Allen relation matrix. The sheer scale of the 42x42 matrix necessitates a structured approach to ensure accuracy and adherence to output constraints. I'm planning to use Python to manage this process efficiently.\n\n**Mapping Temporal Anchors**\n\nI'm refining my approach by focusing on generating direct outputs for each row, informed by the temporal anchors of the events. This mental mapping is crucial for accurately building the Allen relation matrix.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Generating Allen Relations**\n\nI am currently focused on systematically evaluating event intervals to construct the Allen relation matrix. The sheer scale of the 42x42 matrix necessitates a structured approach to ensure accuracy and adherence to output constraints. I'm planning to use Python to manage this process efficiently.\n\n**Mapping Temporal Anchors**\n\nI'm refining my approach by focusing on generating direct outputs for each row, informed by the temporal anchors of the events. This mental mapping is crucial for accurately building the Allen relation matrix.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 10.296
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_300",
+  "stem_id": 300,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "E20",
+    "E21",
+    "E22",
+    "E23",
+    "E24",
+    "E25",
+    "E26",
+    "E27",
+    "E28",
+    "E29",
+    "E30",
+    "E31",
+    "E32"
+  ],
+  "prompt_sha256": "6e7abf891d0e08f3933885075e60b7494b47026ac277da45b488efd0544293da",
+  "prompt_file": "prompts/stem_300.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:21:42Z",
+  "finished_at": "2026-10-06T18:21:50Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 1527,
+      "completion_tokens": 2299,
+      "total_tokens": 3826,
+      "cost": 0.006143544,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0062056,
+        "upstream_inference_prompt_cost": 0.0004581,
+        "upstream_inference_completions_cost": 0.0057475
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1101,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310903-0CwD30NUxo1rvueWQzig",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o\nE2: < - < < < < < < < < < < < < < < < < < < < < di di di > > > > > > >\nE3: < o - < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE4: < o > - < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE5: < o > > - o o o o o o o o o o o o o o o o o o o o o o o o o o o\nE6: < o > > > - = = di di di < < < < < < < < < < < < < < < < < < < < <\nE7: < o > > > = - = di di di < < < < < < < < < < < < < < < < < < < < <\nE8: < o > > > = = - di di di < < < < < < < < < < < < < < < < < < < < <\nE9: < o > > > di di di - di di < < < < < < < < < < < < < < < < < < < < <\nE10: < o > > > di di di di - = < < < < < < < < < < < < < < < < < < < < <\nE11: < o > > > di di di di = - < < < < < < < < < < < < < < < < < < < < <\nE12: < o > > > > > > > > > - o o o di < < < < < < < < < < < < < < < <\nE13: < o > > > > > > > > > o - = o di < < < < < < < < < < < < < < < <\nE14: < o > > > > > > > > > o = - o di < < < < < < < < < < < < < < < <\nE15: < o > > > di di di di di di o o o - di di di di di di di di di di di > > > > > >\nE16: < o > > > > > > > > > di di di di - < < < < < < < < < < < < < < < <\nE17: < o > > > > > > > > > > > > > > - = = < < < < < < < < < < < < < <\nE18: < o > > > > > > > > > > > > > > = - = < < < < < < < < < < < < < <\nE19: < o > > > > > > > > > > > > > > = = - < < < < < < < < < < < < < <\nE20: < o > > > > > > > > > > > > > > > > > - = < < < < < < < < < < < <\nE21: < o > > > > > > > > > > > > > > > > > = - < < < < < < < < < < < <\nE22: > di > > > > > > > > > > > > > > > > > > > - = = = = = < = = = =\nE23: > di > > > > > > > > > > > > > > > > > > > = - = = = = = < = = = =\nE24: > di > > > > > > > > > > > > > > > > > > > = = - o = = = < = = = =\nE25: > di > > > > > > > > > > > > > > > > > > > = = o - = = = < = = = =\nE26: > di > > > > > > > > > > > > > > > > > > > = = = = - = = < = = = =\nE27: > di > > > > > > > > > > > > > > > > > > > = = = = = - = < = = = =\nE28: > di > > > > > > > > > > > > > > > > > > > = = = = = = - < = = = =\nE29: > di > > > > > > > > > > > > > > > > > > > > > > > > > > > - = = =\nE30: > di > > > > > > > > > > > > > > > > > > > = = = = = = = < = - = =\nE31: > di > > > > > > > > > > > > > > > > > > > = = = = = = = < = = - =\nE32: > di > > > > > > > > > > > > > > > > > > > = = = = = = = < = = = -\n</matrix>",
+    "reasoning": "**Analyzing Event Intervals**\n\nI'm currently mapping out the temporal relationships between the thirty-two events. My focus is on establishing the boundaries and overlaps, specifically for Allen's interval logic. The first few events, concerning project work and a fair, have been analyzed to initiate this matrix.\n\n**Defining Event Durations**\n\nI'm now refining the specific durations and precise chronological order of these events. My current focus is on accurately placing E3 and E4 relative to the project's start, and clarifying the timeline of the prototyping and testing phases.\n\n**Mapping Event Sequence**\n\nI'm now integrating the latest event details, specifically focusing on the science fair period. I'm defining the relationships for creating the display board, the fair itself, judge interactions, and the immediate aftermath, including awards and my walk home.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Analyzing Event Intervals**\n\nI'm currently mapping out the temporal relationships between the thirty-two events. My focus is on establishing the boundaries and overlaps, specifically for Allen's interval logic. The first few events, concerning project work and a fair, have been analyzed to initiate this matrix.\n\n**Defining Event Durations**\n\nI'm now refining the specific durations and precise chronological order of these events. My current focus is on accurately placing E3 and E4 relative to the project's start, and clarifying the timeline of the prototyping and testing phases.\n\n**Mapping Event Sequence**\n\nI'm now integrating the latest event details, specifically focusing on the science fair period. I'm defining the relationships for creating the display board, the fair itself, judge interactions, and the immediate aftermath, including awards and my walk home.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 8.657
+  }
+}

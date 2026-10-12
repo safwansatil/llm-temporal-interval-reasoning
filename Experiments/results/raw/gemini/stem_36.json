@@ -1,0 +1,86 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_36",
+  "stem_id": 36,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16"
+  ],
+  "prompt_sha256": "d1e9d671beb0f59d0b48849408dd33760eb19b14c8d3c8e476d6683464e5500f",
+  "prompt_file": "prompts/stem_36.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:23:10Z",
+  "finished_at": "2026-10-06T18:23:18Z",
+  "attempt_in_session": 2,
+  "attempts_total": 2,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 1087,
+      "completion_tokens": 1741,
+      "total_tokens": 2828,
+      "cost": 0.004631814,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0046786,
+        "upstream_inference_prompt_cost": 0.0003261,
+        "upstream_inference_completions_cost": 0.0043525
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1407,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310991-rLb8KweOKOK7NtPtvgxA",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - di di di di di di di di di di di di di di di\nE2: oi - o > m < > o o > oi m m < < <\nE3: oi o - > o < > o o > oi o o < < <\nE4: oi < < - < < < < < < < < < < < <\nE5: oi mi mi > - < > m m > oi mi mi < < <\nE6: oi > > > > - > > > > > > > o o o\nE7: oi < < < < < - < < < < < < < < <\nE8: oi o o > o < > - o > oi o o < < <\nE9: oi o o > o < > o - > oi o o < < <\nE10: oi < < < < < < < < - < < < < < <\nE11: oi s s > s < > s s > - s s < < <\nE12: oi mi mi > mi < > mi mi > oi - mi < < <\nE13: oi mi mi > mi < > mi mi > oi mi - < < <\nE14: oi > > > > o > > > > > > > - o o\nE15: oi > > > > o > > > > > > > o - o\nE16: oi > > > > o > > > > > > > o o -\n</matrix>",
+    "reasoning": "**Generating Interval Matrix**\n\nI'm currently focused on defining the Allen interval relations for the provided events. The initial step involves clearly delineating each event and establishing their approximate temporal positions relative to each other, considering durations and specific points in time.\n\n**Defining Temporal Relationships**\n\nI'm now mapping the specific temporal relationships between the events. I'm particularly refining how to represent simultaneous versus sequential occurrences, and exploring how to best capture the \"during\" or \"after\" aspects of events like E10 and E11 in relation to the trip itself.\n\n**Estimating Event Order**\n\nI'm now estimating the relative durations and temporal positions of the events to build the matrix. I'm considering intuitive ordering and standard temporal defaults where explicit information is lacking.\n\n**Refining Temporal Order**\n\nI'm now carefully assigning pairwise temporal relations, prioritizing chronological start times for simplification. I'm considering how events like E1 might contain others and using '<' or 'o' as defaults when unsure.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Generating Interval Matrix**\n\nI'm currently focused on defining the Allen interval relations for the provided events. The initial step involves clearly delineating each event and establishing their approximate temporal positions relative to each other, considering durations and specific points in time.\n\n**Defining Temporal Relationships**\n\nI'm now mapping the specific temporal relationships between the events. I'm particularly refining how to represent simultaneous versus sequential occurrences, and exploring how to best capture the \"during\" or \"after\" aspects of events like E10 and E11 in relation to the trip itself.\n\n**Estimating Event Order**\n\nI'm now estimating the relative durations and temporal positions of the events to build the matrix. I'm considering intuitive ordering and standard temporal defaults where explicit information is lacking.\n\n**Refining Temporal Order**\n\nI'm now carefully assigning pairwise temporal relations, prioritizing chronological start times for simplification. I'm considering how events like E1 might contain others and using '<' or 'o' as defaults when unsure.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 8.375
+  }
+}

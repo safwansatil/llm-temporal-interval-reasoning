@@ -1,0 +1,111 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_268",
+  "stem_id": 268,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "E20",
+    "E21",
+    "E22",
+    "E23",
+    "E24",
+    "E25",
+    "E26",
+    "E27",
+    "E28",
+    "E29",
+    "E30",
+    "E31",
+    "E32",
+    "E33",
+    "E34",
+    "E35",
+    "E36",
+    "E37",
+    "E38",
+    "E39",
+    "E40",
+    "E41"
+  ],
+  "prompt_sha256": "bb68151aa7966977a0c4418db97d7cbf71c96b65509622099b37d89cee37718c",
+  "prompt_file": "prompts/stem_268.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:21:34Z",
+  "finished_at": "2026-10-06T18:21:42Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 1671,
+      "completion_tokens": 2416,
+      "total_tokens": 4087,
+      "cost": 0.006475887,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0065413,
+        "upstream_inference_prompt_cost": 0.0005013,
+        "upstream_inference_completions_cost": 0.00604
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 514,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310895-EFaIedIoz7hU6uOFFqjF",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE2: io - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE3: io io - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE4: io io io - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE5: io io io io - o oi < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE6: io io io io oi - di < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE7: io io io io oi di - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE8: io io io io > > oi - s s s < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE9: io io io io > > oi s - s s < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE10: io io io io > > oi s s - s < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE11: io io io io > > oi s s s - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE12: io io io io > > oi > > > > - di di di di di di di di < < < < < < < < < < < < < < < < < < < <\nE13: io io io io > > oi > > > > si - o o o o o o < < < < < < < < < < < < < < < < < < < < < < <\nE14: io io io io > > oi > > > > si o - o o o o o < < < < < < < < < < < < < < < < < < < < < < <\nE15: io io io io > > oi > > > > si o o - o o o o < < < < < < < < < < < < < < < < < < < < < < <\nE16: io io io io oi oi oi oi oi oi oi di si si si - oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi\nE17: io io io io > > oi > > > > si o o o oi - o o o o < < < < < < < < < < < < < < < < < < < < <\nE18: io io io io > > oi > > > > si o o o oi o - o o o < < < < < < < < < < < < < < < < < < < < <\nE19: io io io io > > oi > > > > si o o o oi o o - o o < < < < < < < < < < < < < < < < < < < < <\nE20: io io io io > > oi > > > > si o o o oi o o o - o < < < < < < < < < < < < < < < < < < < < <\nE21: io io io io > > oi > > > > > > > > > oi > > > > - s s s s s < < < < < < < < < < < < < < <\nE22: io io io io > > oi > > > > > > > > > oi > > > > s - s s s < < < < < < < < < < < < < < <\nE23: io io io io > > oi > > > > > > > > > oi > > > > s s - s s < < < < < < < < < < < < < < <\nE24: io io io io > > oi > > > > > > > > > oi > > > > s s s - s < < < < < < < < < < < < < < <\nE25: io io io io > > oi > > > > > > > > > oi > > > > s s s s - < < < < < < < < < < < < < < <\nE26: io io io io > > oi > > > > > > > > > oi > > > > si si si si si - < < < < < < < < < < < < <\nE27: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > - s s < < < < < < < < < < <\nE28: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > s - s < < < < < < < < < < <\nE29: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > s s - < < < < < < < < < < <\nE30: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > si si si - s s s s s < < < <\nE31: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > si si si s - s s s s < < < <\nE32: oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi - oi oi oi oi oi oi oi oi oi\nE33: io io io io oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi oi io - oi oi oi oi oi oi oi oi\nE34: io io io io > > oi > > > > di o o o oi o o o o di di di di di di di di di di di di oi oi oi - oi oi oi oi oi oi oi\nE35: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > > > > oi oi oi oi oi - s s < < < <\nE36: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > > > > oi oi oi oi oi s - < < < <\nE37: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > > > > oi oi oi oi oi s s - s < < <\nE38: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > > > > oi oi oi oi oi s s s - < < <\nE39: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > > > > oi oi oi oi oi s s s s - < <\nE40: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > > > > oi oi oi oi oi > > > > > - s\nE41: io io io io > > oi > > > > > > > > > oi > > > > > > > > > > > > > oi oi oi oi oi > > > > > s -\n</matrix>",
+    "reasoning": "**Calculating Interval Relations**\n\nI'm currently focused on generating the 41x41 relation matrix for Allen's interval relations. This involves determining approximately 1640 individual relationships between events, and I'm carefully structuring the output for clarity.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Calculating Interval Relations**\n\nI'm currently focused on generating the 41x41 relation matrix for Allen's interval relations. This involves determining approximately 1640 individual relationships between events, and I'm carefully structuring the output for clarity.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 8.671
+  }
+}

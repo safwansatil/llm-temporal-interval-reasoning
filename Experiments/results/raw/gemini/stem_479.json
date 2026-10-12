@@ -1,0 +1,79 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_479",
+  "stem_id": 479,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9"
+  ],
+  "prompt_sha256": "bcc44e0b97b2f1991073e2eac234920da7a8d3a56ff6876b292a51d3423e2033",
+  "prompt_file": "prompts/stem_479.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001443",
+  "started_at": "2026-10-06T18:15:54Z",
+  "finished_at": "2026-10-06T18:16:04Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 884,
+      "completion_tokens": 2536,
+      "total_tokens": 3420,
+      "cost": 0.006539148,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0066052,
+        "upstream_inference_prompt_cost": 0.0002652,
+        "upstream_inference_completions_cost": 0.00634
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2412,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310556-QPbCHwDcvnYPTkVVZQkw",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - o m m < < < < <\nE2: oi - o o < < < < <\nE3: mi f - s < < < < <\nE4: mi oi si - d < < < <\nE5: > > > di - < < < <\nE6: > > > > > - < < <\nE7: > > > > > > - m <\nE8: > > > > > > mi - <\nE9: > > > > > > > > -\n</matrix>",
+    "reasoning": "**Collecting and testing yields**\n\nMy current focus is on integrating the morning's data. I've just finished collecting the yields and initiated the fat content and density testing. Next, I'll be pumping the tested milk into the insulated chilling vat.\n\n**Analyzing chilling operations**\n\nI'm currently analyzing the chilling unit's timeline. The unit ran for two hours, likely starting around 7:30 AM and completing by 9:30 AM. The road tanker arrived an hour into this process, and the transfer pump connected ten minutes after the milk reached its target temperature.\n\n**Finalizing transport logs**\n\nI've refined the timeline for the milk's departure. The pumping concluded at 10:15 AM, followed by the driver's verification and receipt signing until 10:25 AM. The tanker then departed precisely at 10:30 AM.\n\n**Comparing event timelines**\n\nI'm currently cross-referencing the start and end times of various events against E4's timeframe. It seems E2 ends within E4, and E5 is fully contained within E4. E3 starts at the same time as E4 but finishes significantly earlier.\n\n**Comparing event start times**\n\nI'm now comparing the start times of E1 through E9. E1, E2, E3, and E4 all begin before or at 7:30 AM. E5 starts at 8:30 AM. E6, a point event, occurs at 9:40 AM, initiating E7 which spans from 9:40 AM to 10:15 AM. E8 and E9 are still being investigated.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Collecting and testing yields**\n\nMy current focus is on integrating the morning's data. I've just finished collecting the yields and initiated the fat content and density testing. Next, I'll be pumping the tested milk into the insulated chilling vat.\n\n**Analyzing chilling operations**\n\nI'm currently analyzing the chilling unit's timeline. The unit ran for two hours, likely starting around 7:30 AM and completing by 9:30 AM. The road tanker arrived an hour into this process, and the transfer pump connected ten minutes after the milk reached its target temperature.\n\n**Finalizing transport logs**\n\nI've refined the timeline for the milk's departure. The pumping concluded at 10:15 AM, followed by the driver's verification and receipt signing until 10:25 AM. The tanker then departed precisely at 10:30 AM.\n\n**Comparing event timelines**\n\nI'm currently cross-referencing the start and end times of various events against E4's timeframe. It seems E2 ends within E4, and E5 is fully contained within E4. E3 starts at the same time as E4 but finishes significantly earlier.\n\n**Comparing event start times**\n\nI'm now comparing the start times of E1 through E9. E1, E2, E3, and E4 all begin before or at 7:30 AM. E5 starts at 8:30 AM. E6, a point event, occurs at 9:40 AM, initiating E7 which spans from 9:40 AM to 10:15 AM. E8 and E9 are still being investigated.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 9.672
+  }
+}

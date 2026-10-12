@@ -1,0 +1,82 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_444",
+  "stem_id": 444,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12"
+  ],
+  "prompt_sha256": "103fb3d940889240785dc1f7b4cd92e46b6a4d72e509c1964ffa0b6306444acb",
+  "prompt_file": "prompts/stem_444.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001443",
+  "started_at": "2026-10-06T18:14:55Z",
+  "finished_at": "2026-10-06T18:15:04Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 927,
+      "completion_tokens": 2688,
+      "total_tokens": 3615,
+      "cost": 0.006928119,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0069981,
+        "upstream_inference_prompt_cost": 0.0002781,
+        "upstream_inference_completions_cost": 0.00672
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2486,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310496-YxqZzHj1LKajuyg44xxm",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - = < < < < < < < < s <\nE2: = - < < < < < < < < s <\nE3: > > - s s < < < < < d <\nE4: > > di - = < < < < < d <\nE5: > > di = - < < < < < d <\nE6: > > > > > - < < < < d =\nE7: > > > > > > - = < < d >\nE8: > > > > > > = - < < d >\nE9: > > > > > > > > - = f >\nE10: > > > > > > > > = - f >\nE11: si si di di di di di di fi fi - di\nE12: > > > > > = < < < < d -\n</matrix>",
+    "reasoning": "**Germinating Seeds Progress**\n\nI'm currently focused on the germination phase. This involves maintaining optimal temperature and humidity for a ten-day period.\n\n**Preparing for Growth**\n\nI've successfully moved past germination and am now focused on transplanting the seedlings, which began on the fourteenth day. Simultaneously, I'm coordinating the preparation of soil beds, including the logistical challenge of hauling fertilizer and compost. This sets the stage for the next phase.\n\n**Analyzing Timeframes**\n\nI'm currently examining the overlapping timeframes within the narrative. Specifically, I'm mapping out the concurrent activities of seed germination and soil bed preparation, noting that E1 and E2 appear co-extensive.\n\n**Mapping Concurrent Events**\n\nI'm now focusing on mapping the temporal relationships between events, specifically noting overlaps. I've identified that the construction of the trellis (E9) and the start of the pre-monsoon showers (E10) coincide on the twenty-eighth day, with both starting at that precise point.\n\n**Refining Dependencies**\n\nI'm now meticulously analyzing the remaining event dependencies. My focus is on E6's relationship to E12 and E7's preceding events, ensuring all temporal logic is sound before advancing to E11.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Germinating Seeds Progress**\n\nI'm currently focused on the germination phase. This involves maintaining optimal temperature and humidity for a ten-day period.\n\n**Preparing for Growth**\n\nI've successfully moved past germination and am now focused on transplanting the seedlings, which began on the fourteenth day. Simultaneously, I'm coordinating the preparation of soil beds, including the logistical challenge of hauling fertilizer and compost. This sets the stage for the next phase.\n\n**Analyzing Timeframes**\n\nI'm currently examining the overlapping timeframes within the narrative. Specifically, I'm mapping out the concurrent activities of seed germination and soil bed preparation, noting that E1 and E2 appear co-extensive.\n\n**Mapping Concurrent Events**\n\nI'm now focusing on mapping the temporal relationships between events, specifically noting overlaps. I've identified that the construction of the trellis (E9) and the start of the pre-monsoon showers (E10) coincide on the twenty-eighth day, with both starting at that precise point.\n\n**Refining Dependencies**\n\nI'm now meticulously analyzing the remaining event dependencies. My focus is on E6's relationship to E12 and E7's preceding events, ensuring all temporal logic is sound before advancing to E11.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 9.062
+  }
+}

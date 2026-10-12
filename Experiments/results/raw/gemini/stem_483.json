@@ -1,0 +1,86 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_483",
+  "stem_id": 483,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16"
+  ],
+  "prompt_sha256": "6f7755843c4fbb4e7ecd7ff3ad237a97096d0e2e17b1cc988d19c3099c6544c1",
+  "prompt_file": "prompts/stem_483.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:22:13Z",
+  "finished_at": "2026-10-06T18:22:18Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 1047,
+      "completion_tokens": 1070,
+      "total_tokens": 2117,
+      "cost": 0.002959209,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0029891,
+        "upstream_inference_prompt_cost": 0.0003141,
+        "upstream_inference_completions_cost": 0.002675
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 734,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310934-xAje9NfSSeF8bWrwJ1ah",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - o o o o < < < < < < < < < < <\nE2: oi - o o o < < < < < < < < < < <\nE3: oi oi - o o < < < < < < < < < < <\nE4: oi oi oi - o < < < < < < < < < < <\nE5: oi oi oi oi - < < < < < < < < < < <\nE6: > > > > > - d < < < < < < < < < <\nE7: > > > > > di - < < < < < < < < < <\nE8: > > > > > > > - o o < < > < < o\nE9: > > > > > > > oi - o < < > < < o\nE10: > > > > > > > oi oi - < < > < < o\nE11: > > > > > > > > > > - < > < < >\nE12: > > > > > > > > > > > - > < < >\nE13: > > > > > > > < < < < < - < < <\nE14: > > > > > > > < < < < < > - o <\nE15: > > > > > > > < < < < < > oi - <\nE16: > > > > > > > oi oi oi < < > < > -\n</matrix>",
+    "reasoning": "**Defining Temporal Events**\n\nI am meticulously cataloging the distinct events mentioned within the provided text. My current focus is on establishing a clear, chronological order for these occurrences to build the foundation of our 16x16 temporal relation matrix.\n\n**Ordering Temporal Events**\n\nI'm actively sequencing the identified temporal events. My current efforts involve pinpointing their chronological placement, which is crucial for constructing the 16x16 temporal relation matrix.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Defining Temporal Events**\n\nI am meticulously cataloging the distinct events mentioned within the provided text. My current focus is on establishing a clear, chronological order for these occurrences to build the foundation of our 16x16 temporal relation matrix.\n\n**Ordering Temporal Events**\n\nI'm actively sequencing the identified temporal events. My current efforts involve pinpointing their chronological placement, which is crucial for constructing the 16x16 temporal relation matrix.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 5.078
+  }
+}

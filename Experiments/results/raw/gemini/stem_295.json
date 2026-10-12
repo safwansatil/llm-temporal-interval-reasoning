@@ -1,0 +1,81 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_295",
+  "stem_id": 295,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11"
+  ],
+  "prompt_sha256": "c6a50a92548781cf0d447ca2acf4431f32a8d8db5c42a87a9403f5866c1ee562",
+  "prompt_file": "prompts/stem_295.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:20:34Z",
+  "finished_at": "2026-10-06T18:20:47Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 972,
+      "completion_tokens": 2844,
+      "total_tokens": 3816,
+      "cost": 0.007327584,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0074016,
+        "upstream_inference_prompt_cost": 0.0002916,
+        "upstream_inference_completions_cost": 0.00711
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2670,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310836-qeehYuE30ZHcpWVWuUIt",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < < < <\nE2: > - < < < < < < < < <\nE3: > > - d d d fi < < < <\nE4: > > d - < < < < < < <\nE5: > > d > - m < < < < <\nE6: > > d > mi - < < < < <\nE7: > > fi > > > - < < < <\nE8: > > > > > > > - di di di\nE9: > > > > > > > d - di <\nE10: > > > > > > > d d - <\nE11: > > > > > > > d > > -\n</matrix>",
+    "reasoning": "**Observing Temporal Sequence**\n\nI'm currently piecing together the timeline of events. The paddy fields turning golden in early November is the initial marker, followed closely by an inspection on the second Monday of November. The harvest commences the very next day, with work starting at dawn each morning thereafter.\n\n**Refining Chronological Details**\n\nMy focus has shifted to mapping the latter stages of the harvest. I'm integrating the daily mid-day work stoppages due to heat and the subsequent afternoon village rest. The completion date of the harvest on the last Friday of November is a key anchor point, leading into the communal meal and speech events.\n\n**Confirming Harvest Timing**\n\nI'm solidifying the harvest timeframe. The inspection on Monday, November 14th, directly precedes the start of work the following morning, Tuesday, November 15th. The harvest concludes on Friday, November 25th.\n\n**Clarifying Event Sequences**\n\nI'm working to definitively establish the order of specific events. My current focus is on resolving the precise relationship between the Monday inspection (E2) and the Tuesday morning harvest commencement (E3), considering the implication of \"following morning\" as a temporal gap rather than an immediate overlap.\n\n**Determining Daily Harvest Schedule**\n\nI'm now concentrating on the daily rhythm of the harvest. It appears the commencement of the harvest (E3) and the daily dawn work (E4) likely begin concurrently or with E3 encompassing E4. I'm also noting that the entire harvest period (E3) concludes at the point of completion (E7).\n\n**Resolving Temporal Endings**\n\nI'm reconciling how the harvest period (E3) concludes with the completion event (E7). My current hypothesis is that E3 finishes when E7 occurs, indicating E3 ends at the point of E7's completion, rather than E3 encompassing E7.\n\n**Finalizing Harvest Completion**\n\nI'm now focusing on the very end of the harvest process. I've determined that the completion event (E7) signifies the termination of the harvest period (E3), rather than being contained within it. This confirms my understanding of E7's role as the concluding marker.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Observing Temporal Sequence**\n\nI'm currently piecing together the timeline of events. The paddy fields turning golden in early November is the initial marker, followed closely by an inspection on the second Monday of November. The harvest commences the very next day, with work starting at dawn each morning thereafter.\n\n**Refining Chronological Details**\n\nMy focus has shifted to mapping the latter stages of the harvest. I'm integrating the daily mid-day work stoppages due to heat and the subsequent afternoon village rest. The completion date of the harvest on the last Friday of November is a key anchor point, leading into the communal meal and speech events.\n\n**Confirming Harvest Timing**\n\nI'm solidifying the harvest timeframe. The inspection on Monday, November 14th, directly precedes the start of work the following morning, Tuesday, November 15th. The harvest concludes on Friday, November 25th.\n\n**Clarifying Event Sequences**\n\nI'm working to definitively establish the order of specific events. My current focus is on resolving the precise relationship between the Monday inspection (E2) and the Tuesday morning harvest commencement (E3), considering the implication of \"following morning\" as a temporal gap rather than an immediate overlap.\n\n**Determining Daily Harvest Schedule**\n\nI'm now concentrating on the daily rhythm of the harvest. It appears the commencement of the harvest (E3) and the daily dawn work (E4) likely begin concurrently or with E3 encompassing E4. I'm also noting that the entire harvest period (E3) concludes at the point of completion (E7).\n\n**Resolving Temporal Endings**\n\nI'm reconciling how the harvest period (E3) concludes with the completion event (E7). My current hypothesis is that E3 finishes when E7 occurs, indicating E3 ends at the point of E7's completion, rather than E3 encompassing E7.\n\n**Finalizing Harvest Completion**\n\nI'm now focusing on the very end of the harvest process. I've determined that the completion event (E7) signifies the termination of the harvest period (E3), rather than being contained within it. This confirms my understanding of E7's role as the concluding marker.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 12.796
+  }
+}

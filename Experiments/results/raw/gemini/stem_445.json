@@ -1,0 +1,80 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_445",
+  "stem_id": 445,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10"
+  ],
+  "prompt_sha256": "6b7a7559e48f03fb178ddb9e61c64656e1a6ed5bfa1cf230416926cf6fa32dbc",
+  "prompt_file": "prompts/stem_445.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001443",
+  "started_at": "2026-10-06T18:16:06Z",
+  "finished_at": "2026-10-06T18:16:08Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 935,
+      "completion_tokens": 148,
+      "total_tokens": 1083,
+      "cost": 0.000643995,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0006505,
+        "upstream_inference_prompt_cost": 0.0002805,
+        "upstream_inference_completions_cost": 0.00037
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310568-3qXscE0017vIz0gjNs4U",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < < <\nE2: > - = o < < < < < <\nE3: > = - o < < < < < <\nE4: > oi oi - < < < < < <\nE5: > s s > - o < < < s\nE6: > d d > o - < < < d\nE7: > f f > > > - < < o\nE8: > fi fi > > > > - < fi\nE9: > fi fi > > > > > - fi\nE10: > f f > s s oi o o -\n</matrix>",
+    "reasoning": "",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "signature": "AY89a19UGF1cgpMIesFQVJ+z2XCtghDtz3Gpyy8yHfcbNzPINcuxKNpKG73NeURVeBOuyDh3AQfl2IystB6w6wfzIEW3TyA2Od0Bol9yntioevGv76ihV0h1qPY=",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 1.969
+  }
+}

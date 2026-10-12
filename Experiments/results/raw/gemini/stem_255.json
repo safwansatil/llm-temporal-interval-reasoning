@@ -1,0 +1,87 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_255",
+  "stem_id": 255,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17"
+  ],
+  "prompt_sha256": "b7b24c170d0a0d71a0931449049522d58c39ffd9ae8ead80e639d21d8a6594e1",
+  "prompt_file": "prompts/stem_255.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:21:19Z",
+  "finished_at": "2026-10-06T18:21:26Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 1099,
+      "completion_tokens": 1641,
+      "total_tokens": 2740,
+      "cost": 0.004387878,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0044322,
+        "upstream_inference_prompt_cost": 0.0003297,
+        "upstream_inference_completions_cost": 0.0041025
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1272,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310880-ELVuHFSoIYxb6uF3wYrF",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - o o o o o o o o o o < o o o o >\nE2: oi - o o o o o o o o o < o o o o >\nE3: o oi - < < < < < < < < < < < < < >\nE4: o oi > - < < < < < < < < = < < < >\nE5: o oi > > - < < < < < < < < < < < >\nE6: o oi > > > - o o < < < < o o o o >\nE7: o oi > > > o - o < < < < o o o o >\nE8: o oi > > > o o - < < < < o o o o >\nE9: o oi > > > > > > - < < < < < < >\nE10: o oi > > > > > > > - < < < < < >\nE11: o oi > > > > > > > > - < < < < >\nE12: > > > > > > > > > > > - > > > > >\nE13: o oi > = > < < < < < < < - < < < >\nE14: o oi > > > o o o < < < < o - o o >\nE15: o oi > > > o o o o o o < o o - o >\nE16: o oi > > > o o o < < < < o o o - >\nE17: < < < < < < < < < < < < < < < < -\n</matrix>",
+    "reasoning": "**Developing Relation Matrix**\n\nI am currently constructing a 17x17 relation matrix, meticulously charting all possible Allen interval relations between the identified events. My focus is on accurately mapping the temporal sequencing of E1 through E5, ensuring a comprehensive representation of their interactions.\n\n**Mapping New Events**\n\nI've begun integrating newly identified events into my temporal framework. My immediate task is to define E6 through E17 and then systematically establish their Allen interval relations with existing events, particularly focusing on the sequence of E3, E4, and the subsequent narrative unfolding.\n\n**Defining Temporal Boundaries**\n\nI am now incorporating E6 through E17 into the timeline. My current work involves pinpointing the temporal relationships of E13, E14, and the subsequent events of E5 and E6, all while considering E4's position relative to E3.\n\n**Refining Temporal Sequences**\n\nI am now refining the temporal order of events, specifically E1 through E17. My current focus is on defining standard relative orders and constructing a plausible Allen interval matrix, prioritizing consistency and default relations where exact definitions are complex.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Developing Relation Matrix**\n\nI am currently constructing a 17x17 relation matrix, meticulously charting all possible Allen interval relations between the identified events. My focus is on accurately mapping the temporal sequencing of E1 through E5, ensuring a comprehensive representation of their interactions.\n\n**Mapping New Events**\n\nI've begun integrating newly identified events into my temporal framework. My immediate task is to define E6 through E17 and then systematically establish their Allen interval relations with existing events, particularly focusing on the sequence of E3, E4, and the subsequent narrative unfolding.\n\n**Defining Temporal Boundaries**\n\nI am now incorporating E6 through E17 into the timeline. My current work involves pinpointing the temporal relationships of E13, E14, and the subsequent events of E5 and E6, all while considering E4's position relative to E3.\n\n**Refining Temporal Sequences**\n\nI am now refining the temporal order of events, specifically E1 through E17. My current focus is on defining standard relative orders and constructing a plausible Allen interval matrix, prioritizing consistency and default relations where exact definitions are complex.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 7.234
+  }
+}

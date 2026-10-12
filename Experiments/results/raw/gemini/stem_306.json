@@ -1,0 +1,120 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_306",
+  "stem_id": 306,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "E20",
+    "E21",
+    "E22",
+    "E23",
+    "E24",
+    "E25",
+    "E26",
+    "E27",
+    "E28",
+    "E29",
+    "E30",
+    "E31",
+    "E32",
+    "E33",
+    "E34",
+    "E35",
+    "E36",
+    "E37",
+    "E38",
+    "E39",
+    "E40",
+    "E41",
+    "E42",
+    "E43",
+    "E44",
+    "E45",
+    "E46",
+    "E47",
+    "E48",
+    "E49",
+    "E50"
+  ],
+  "prompt_sha256": "4a1af0d91cacba94c96a36fccc2593a96ef464871f8dc0aac0d98313ebb3659a",
+  "prompt_file": "prompts/stem_306.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:19:56Z",
+  "finished_at": "2026-10-06T18:20:11Z",
+  "attempt_in_session": 1,
+  "attempts_total": 2,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 2089,
+      "completion_tokens": 4592,
+      "total_tokens": 6681,
+      "cost": 0.011985633,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0121067,
+        "upstream_inference_prompt_cost": 0.0006267,
+        "upstream_inference_completions_cost": 0.01148
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1700,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310797-BC02Qa9oJHn5878aBPgk",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE2: > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE3: > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE4: > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE5: > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE6: > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE7: > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE8: > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE9: > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE10: > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE11: > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE12: > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE13: > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE14: > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE15: > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE16: > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE17: > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE18: > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE19: > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE20: > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE21: > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE22: > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE23: > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE24: > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE25: > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE26: > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE27: > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < <\nE28: > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < <\nE29: > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < <\nE30: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < <\nE31: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < <\nE32: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < <\nE33: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < <\nE34: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < <\nE35: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < <\nE36: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < <\nE37: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < <\nE38: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < <\nE39: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < <\nE40: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < <\nE41: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < <\nE42: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < <\nE43: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < <\nE44: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < <\nE45: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < <\nE46: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < <\nE47: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < <\nE48: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < <\nE49: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < <\nE50: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < <\n</matrix>",
+    "reasoning": "**Estimating Temporal Relations**\n\nI'm focusing on building a reasonable, consistent relative timeline for the 50 events described, acknowledging the significant effort manual construction would require. My aim is to approximate the temporal relationships accurately while keeping the process manageable.\n\n**Constructing Temporal Matrices**\n\nI'm now shifting my focus to representing these temporal relationships in a structured matrix format. My current thought is to utilize standard symbolic approximations to clearly denote the chronological order, making the overall timeline readily understandable and verifiable.\n\n**Generating Chronological Matrices**\n\nMy current focus is on systematically constructing the 50x50 chronological matrix. I'm meticulously populating each cell using relational symbols like `<`, `>`, and `d` to accurately represent the temporal ordering between events, ensuring the diagonal is correctly filled with '-'.\n\n**Refining Relational Logic**\n\nI'm now refining the logic for populating the chronological matrix. Instead of a strict before/after, I'm focusing on how to best represent events that span long periods or are ongoing, using symbols that reflect containment or overlap for greater accuracy in my timeline.\n\n**Processing Temporal Intervals**\n\nI'm now grappling with events that have uncertain or overlapping durations. My current thinking involves developing a more nuanced notation system beyond simple precedence to accurately capture these complex temporal relationships.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Estimating Temporal Relations**\n\nI'm focusing on building a reasonable, consistent relative timeline for the 50 events described, acknowledging the significant effort manual construction would require. My aim is to approximate the temporal relationships accurately while keeping the process manageable.\n\n**Constructing Temporal Matrices**\n\nI'm now shifting my focus to representing these temporal relationships in a structured matrix format. My current thought is to utilize standard symbolic approximations to clearly denote the chronological order, making the overall timeline readily understandable and verifiable.\n\n**Generating Chronological Matrices**\n\nMy current focus is on systematically constructing the 50x50 chronological matrix. I'm meticulously populating each cell using relational symbols like `<`, `>`, and `d` to accurately represent the temporal ordering between events, ensuring the diagonal is correctly filled with '-'.\n\n**Refining Relational Logic**\n\nI'm now refining the logic for populating the chronological matrix. Instead of a strict before/after, I'm focusing on how to best represent events that span long periods or are ongoing, using symbols that reflect containment or overlap for greater accuracy in my timeline.\n\n**Processing Temporal Intervals**\n\nI'm now grappling with events that have uncertain or overlapping durations. My current thinking involves developing a more nuanced notation system beyond simple precedence to accurately capture these complex temporal relationships.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 15.469
+  }
+}

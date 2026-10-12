@@ -1,0 +1,84 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_228",
+  "stem_id": 228,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14"
+  ],
+  "prompt_sha256": "89bf078924074f8fa31328f3cd7f9c70fb596ff3484b427b541c3d62fd420661",
+  "prompt_file": "prompts/stem_228.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001443",
+  "started_at": "2026-10-06T18:15:04Z",
+  "finished_at": "2026-10-06T18:15:11Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 1057,
+      "completion_tokens": 1587,
+      "total_tokens": 2644,
+      "cost": 0.004241754,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0042846,
+        "upstream_inference_prompt_cost": 0.0003171,
+        "upstream_inference_completions_cost": 0.0039675
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1323,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310505-VArro2gBXpqAhaKtYbWX",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - > > > > > di < < < < < < <\nE2: < - di di < < < < < < < < < <\nE3: < d - < < < < < < < < < < <\nE4: < d > - < < < < < < < < < <\nE5: < di di di - < < < < < < < < <\nE6: < di di di > - < < < < < < < <\nE7: d di di di di di - < < < < < < <\nE8: > di di di di di > - < < < < < <\nE9: > di di di di di > > - < < < < <\nE10: > di di di di di > > > - < < < <\nE11: > di di di di di > > > > - = < <\nE12: > di di di di di > > > > = - < <\nE13: > di di di di di > > > > > > - <\nE14: > di di di di di > > > > > > < -\n</matrix>",
+    "reasoning": "**Generating Temporal Matrix**\n\nI'm currently focused on constructing the 14x14 temporal relation matrix. My immediate steps involve systematically analyzing each of the 14 events, starting with E1's duration and E2's travel, to define their precise temporal boundaries.\n\n**Defining Temporal Intervals**\n\nI am refining the temporal intervals for the later stages. Specifically, I am considering the sequence of E5, E6, and E7, post-travel, to establish precise start and end points for camera setup, alignment, and exposure, noting totality as a distinct phase within E1.\n\n**Mapping Sequential Events**\n\nI am mapping the sequential relationships, focusing on how events like E8 (developed) follow E7 (exposed) and E9 (exhibited) follows E8. My next step is to incorporate the rediscovery of E10 (stored box) and E11 (rediscovered in 1978).\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Generating Temporal Matrix**\n\nI'm currently focused on constructing the 14x14 temporal relation matrix. My immediate steps involve systematically analyzing each of the 14 events, starting with E1's duration and E2's travel, to define their precise temporal boundaries.\n\n**Defining Temporal Intervals**\n\nI am refining the temporal intervals for the later stages. Specifically, I am considering the sequence of E5, E6, and E7, post-travel, to establish precise start and end points for camera setup, alignment, and exposure, noting totality as a distinct phase within E1.\n\n**Mapping Sequential Events**\n\nI am mapping the sequential relationships, focusing on how events like E8 (developed) follow E7 (exposed) and E9 (exhibited) follows E8. My next step is to incorporate the rediscovery of E10 (stored box) and E11 (rediscovered in 1978).\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 7.016
+  }
+}

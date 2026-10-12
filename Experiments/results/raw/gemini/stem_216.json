@@ -1,0 +1,88 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_216",
+  "stem_id": 216,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18"
+  ],
+  "prompt_sha256": "40bdfd373de6fdcbf1de1858865c53bf4c3b424a8142fa18314c1a500931e3e1",
+  "prompt_file": "prompts/stem_216.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:20:19Z",
+  "finished_at": "2026-10-06T18:20:25Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 1056,
+      "completion_tokens": 1306,
+      "total_tokens": 2362,
+      "cost": 0.003545982,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0035818,
+        "upstream_inference_prompt_cost": 0.0003168,
+        "upstream_inference_completions_cost": 0.003265
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 897,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310820-xHl7V8QSan3o3cUFwUl7",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < = < < o o o < < < < < <\nE2: > - < < < < mi < < < < < < < < < < <\nE3: > > - < < < > < < < < < < < < < < <\nE4: > > > - < < > < < < < < < < < < < <\nE5: > > > > - < < < < < < < < < < < < <\nE6: > > > > > - < < < < < < < < < < < <\nE7: mi > > > > > - < < o o o < < < < < <\nE8: > > > > > > > - o < < < < < < < < <\nE9: > > > > > > > oi - < < < < < < < < <\nE10: oi < < < < < oi > > - o oi < < < < <\nE11: oi < < < < < oi > > oi - oi < < < < <\nE12: oi < < < < < oi > > oi oi - < < < < <\nE13: > > > > > > > < < < < < - < < < < <\nE14: > > > > > > > < < < < < > - < < < <\nE15: > > > > > > > < < < < < > > - < < <\nE16: > > > > > > > < < < < < > > > - < <\nE17: > > > > > > > < < < < < > > > > - o\nE18: > > > > > > > < < < < < > > > > oi -\n</matrix>",
+    "reasoning": "**Listing Events**\n\nI'm identifying the events and their temporal attributes from the passage. My focus is on accurately extracting each event and its duration, which is crucial for building the temporal relation matrix.\n\n**Extracting Temporal Data**\n\nI'm currently processing the passage, specifically focusing on pinpointing and defining temporal expressions. My recent efforts have been on distinguishing distinct events and their associated timeframes, from the twenty-two year wait to the eighteen months of subsequent analysis.\n\n**Sequencing Events**\n\nI'm now meticulously ordering the events extracted from the text, establishing their precise temporal dependencies. My latest focus is on determining the relative order of writing on her hand and packing the telescope, and how the seven-hour drive home and two sunsets fit into this sequence.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Listing Events**\n\nI'm identifying the events and their temporal attributes from the passage. My focus is on accurately extracting each event and its duration, which is crucial for building the temporal relation matrix.\n\n**Extracting Temporal Data**\n\nI'm currently processing the passage, specifically focusing on pinpointing and defining temporal expressions. My recent efforts have been on distinguishing distinct events and their associated timeframes, from the twenty-two year wait to the eighteen months of subsequent analysis.\n\n**Sequencing Events**\n\nI'm now meticulously ordering the events extracted from the text, establishing their precise temporal dependencies. My latest focus is on determining the relative order of writing on her hand and packing the telescope, and how the seven-hour drive home and two sunsets fit into this sequence.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 5.391
+  }
+}

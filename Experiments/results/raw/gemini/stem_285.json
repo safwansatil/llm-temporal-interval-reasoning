@@ -1,0 +1,84 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_285",
+  "stem_id": 285,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14"
+  ],
+  "prompt_sha256": "22e57bc8eee56e32b87dec90186a98a30209a10be644eb6c3627cd52e1b295f7",
+  "prompt_file": "prompts/stem_285.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:20:25Z",
+  "finished_at": "2026-10-06T18:20:37Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 1139,
+      "completion_tokens": 2911,
+      "total_tokens": 4050,
+      "cost": 0.007543008,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0076192,
+        "upstream_inference_prompt_cost": 0.0003417,
+        "upstream_inference_completions_cost": 0.0072775
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2647,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310826-fcFhuNKONiMEtd7GXGtX",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < < < < d < d\nE2: > - < < < < < < < < < d < d\nE3: > > - d d d di d d < < d = d\nE4: > > di - < < d < < < < d di di\nE5: > > di > - o d < < < < d di di\nE6: > > di > mi - d < < < < d di di\nE7: > > s d d d - d d < < d s d\nE8: > > di > > > d - d < < d di di\nE9: > > di > > > d > - < < d di di\nE10: > > > > > > > > > - < d > >\nE11: > > > > > > > > > > - d > >\nE12: di di di di di di di di di di di - di di\nE13: > > = d d d di d d < < d = d\nE14: di di di di di di di di di di di di di -\n</matrix>",
+    "reasoning": "**Processing Temporal Relations**\n\nI am currently building the 14x14 Allen's temporal relation matrix. My focus is on accurately mapping the temporal connections between the 14 identified events, with E1, E2, and E3 already partially defined.\n\n**Defining Event Sequences**\n\nI'm refining the temporal sequencing of events. Specifically, I've established approximate timelines for E1, E2, and the core wedding events (E3, E5, E6, E8, E9). My next steps involve integrating the photographic events (E7, E10, E11) and the contextual details of E12, E13, and E14 into this timeline.\n\n**Mapping Temporal Dependencies**\n\nI am meticulously detailing the temporal relationships between the remaining events, focusing on precise overlaps and sequences. I've now established that E4 precedes E3, E5 occurs during E3, and E6 is concurrent with E5, with E7 and E8 also occurring within E3. E9 is situated within E8.\n\n**Refining Temporal Intervals**\n\nI'm now specifying the precise intervals for E1, detailing its placement within the ongoing E12 timeframe and before other key wedding events. I'm also confirming the concurrent nature of E13 with E3, and considering the ongoing state of E14.\n\n**Defining Event Spans**\n\nI am now defining the temporal spans of key events. E1, mid-October, occurs before E2 through E11 and E13. E12 is a long state spanning 15 years, within which E1 occurs. E3, the wedding, contains E4, E5, E6, E8, and E9. E13 is the same event as E3.\n\n**Refining Temporal Interrelations**\n\nI'm now solidifying the core temporal interrelations by setting E3 and E13 as equivalent, both representing the wedding and December week. I'm also working through the exact relationships for E1 and E2 against the extended E12, E13, and E14 timelines.\n\n**Clarifying Micro-Relations**\n\nI'm now refining the granular temporal relations, especially focusing on how sub-events E4, E5, and E6 interact with the main wedding event E3. I've settled on 'd' for duration-based inclusion and '<'/'<>' for sequential ordering to build out the 14x14 matrix, incorporating E12's broad containment.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Processing Temporal Relations**\n\nI am currently building the 14x14 Allen's temporal relation matrix. My focus is on accurately mapping the temporal connections between the 14 identified events, with E1, E2, and E3 already partially defined.\n\n**Defining Event Sequences**\n\nI'm refining the temporal sequencing of events. Specifically, I've established approximate timelines for E1, E2, and the core wedding events (E3, E5, E6, E8, E9). My next steps involve integrating the photographic events (E7, E10, E11) and the contextual details of E12, E13, and E14 into this timeline.\n\n**Mapping Temporal Dependencies**\n\nI am meticulously detailing the temporal relationships between the remaining events, focusing on precise overlaps and sequences. I've now established that E4 precedes E3, E5 occurs during E3, and E6 is concurrent with E5, with E7 and E8 also occurring within E3. E9 is situated within E8.\n\n**Refining Temporal Intervals**\n\nI'm now specifying the precise intervals for E1, detailing its placement within the ongoing E12 timeframe and before other key wedding events. I'm also confirming the concurrent nature of E13 with E3, and considering the ongoing state of E14.\n\n**Defining Event Spans**\n\nI am now defining the temporal spans of key events. E1, mid-October, occurs before E2 through E11 and E13. E12 is a long state spanning 15 years, within which E1 occurs. E3, the wedding, contains E4, E5, E6, E8, and E9. E13 is the same event as E3.\n\n**Refining Temporal Interrelations**\n\nI'm now solidifying the core temporal interrelations by setting E3 and E13 as equivalent, both representing the wedding and December week. I'm also working through the exact relationships for E1 and E2 against the extended E12, E13, and E14 timelines.\n\n**Clarifying Micro-Relations**\n\nI'm now refining the granular temporal relations, especially focusing on how sub-events E4, E5, and E6 interact with the main wedding event E3. I've settled on 'd' for duration-based inclusion and '<'/'<>' for sequential ordering to build out the 14x14 matrix, incorporating E12's broad containment.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 12.125
+  }
+}

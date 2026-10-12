@@ -1,0 +1,80 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_278",
+  "stem_id": 278,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10"
+  ],
+  "prompt_sha256": "ed89b02e612f6d94199f65eebe473de7b19bce82dd8f56966340ded2994bd546",
+  "prompt_file": "prompts/stem_278.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:20:21Z",
+  "finished_at": "2026-10-06T18:20:28Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 985,
+      "completion_tokens": 1620,
+      "total_tokens": 2605,
+      "cost": 0.004302045,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0043455,
+        "upstream_inference_prompt_cost": 0.0002955,
+        "upstream_inference_completions_cost": 0.00405
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1472,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310822-QTQvyn4ubZcm7ngzIukF",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < < <\nE2: > - < < < < < < < <\nE3: > > - < < < < < < <\nE4: > > > - < < < < < <\nE5: > > > > - < < < < <\nE6: > > > > > - < < < <\nE7: > > > > > > - o o <\nE8: > > > > > > o - o <\nE9: > > > > > > o o - <\nE10: > > > > > > > > > -\n</matrix>",
+    "reasoning": "**Weaving together memories**\n\nI'm piecing together the timeline. The idea of the quilt originated sixty years ago, with my grandmother. The actual collecting of materials started this year, leading to the actual construction in late November, which I've been diligently working on each afternoon since.\n\n**Constructing a timeline**\n\nI'm refining the sequence of events. The gifting of the quilt and the recipient's emotional reaction are the most recent focal points, immediately following its completion and wrapping. It now resides on display in her new home.\n\n**Ordering the events**\n\nI'm now focusing on the precise chronological flow. The collection of materials preceded the actual crafting, which commenced in late November and continued daily through early December. The final stitches were placed in mid-January, with the wrapping and presentation happening shortly thereafter on the wedding day itself.\n\n**Refining the sequence**\n\nI'm now meticulously ordering the later stages. The wrapping followed construction, then presentation on the wedding morning. The unfolding and emotional reaction, crying, occurred during or immediately after that presentation, before the quilt was hung.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Weaving together memories**\n\nI'm piecing together the timeline. The idea of the quilt originated sixty years ago, with my grandmother. The actual collecting of materials started this year, leading to the actual construction in late November, which I've been diligently working on each afternoon since.\n\n**Constructing a timeline**\n\nI'm refining the sequence of events. The gifting of the quilt and the recipient's emotional reaction are the most recent focal points, immediately following its completion and wrapping. It now resides on display in her new home.\n\n**Ordering the events**\n\nI'm now focusing on the precise chronological flow. The collection of materials preceded the actual crafting, which commenced in late November and continued daily through early December. The final stitches were placed in mid-January, with the wrapping and presentation happening shortly thereafter on the wedding day itself.\n\n**Refining the sequence**\n\nI'm now meticulously ordering the later stages. The wrapping followed construction, then presentation on the wedding morning. The unfolding and emotional reaction, crying, occurred during or immediately after that presentation, before the quilt was hung.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 7.281
+  }
+}

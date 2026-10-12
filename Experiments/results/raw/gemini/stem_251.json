@@ -1,0 +1,92 @@
+{
+  "final": true,
+  "model_id": "gemini",
+  "model_key": "google/gemini-3.5-flash-lite",
+  "item_id": "stem_251",
+  "stem_id": 251,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "E20",
+    "E21",
+    "E22"
+  ],
+  "prompt_sha256": "c83a81f855d48d1e313da1f5f48b998027fdc7d2bcfff7ad5349779f6134f9af",
+  "prompt_file": "prompts/stem_251.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:21:06Z",
+  "finished_at": "2026-10-06T18:21:12Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 1272,
+      "completion_tokens": 1437,
+      "total_tokens": 2709,
+      "cost": 0.003934359,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0039741,
+        "upstream_inference_prompt_cost": 0.0003816,
+        "upstream_inference_completions_cost": 0.0035925
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 845,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791310867-30Nf6pcNHkbZKMAC6BBi",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < < < < < < < < < < < < < < <\nE2: > - < < < < < < < < < < < < < < < < < < < <\nE3: > > - < < < < < < < < < < < < oi < < < < < <\nE4: > > > - o < < < < < < < < < < < d < < < < <\nE5: > > > oi - < < < < < < < < < < < < < < < < <\nE6: > > > > > - o o o o < < < < < < < < < < < <\nE7: > > > > > oi - o o o < < < < < < < < < < < <\nE8: > > > > > oi oi - o o < < < < < < < < < < < <\nE9: > > > > > oi oi oi - o < < < < < < < < < < < <\nE10: > > > oi < oi oi oi oi - < < < < < < < < < < < <\nE11: > > > > > > > > > > - < < < < < < < < < < <\nE12: > > > > > > > > > > > - < < < < < < < < < <\nE13: > > > > > > > > > > > > - < < < < < < < < <\nE14: > > > > > > > > > > > > > - < < < < < < < <\nE15: > > > > > > > > > > > > > > - < < < < < < <\nE16: > > > > > > > > > > > > > > > - < < < < < <\nE17: di di di di di di di di di di di di di di di di - di di di di di\nE18: > > > si di < < < < < < < < < < < < - < < < <\nE19: > > > > > > > > > > > > > > > > < > - < < <\nE20: > > > > > > > > > > < < < < < < < < > - < <\nE21: > > > > > > > > > > > > > > > > < < < < - <\nE22: > > > > > > > > > > > > > > > > < < < < > -\n</matrix>",
+    "reasoning": "**Processing Temporal Relations**\n\nI am currently constructing a 22x22 matrix to map Allen's temporal relations between the provided events. The initial focus has been on establishing the foundational event descriptions and initiating the pairwise comparison process.\n\n**Estimating Temporal Logic**\n\nI'm now populating a 22x22 matrix with Allen's temporal relations. My focus has shifted to inferring these relationships by analyzing event descriptions and considering plausible chronological sequencing.\n\n**Populating Temporal Intervals**\n\nI'm now populating the 22x22 matrix by mapping out the timeline based on the provided event descriptions. My approach involves carefully ordering events chronologically and establishing the relationships, approximating standard temporal logic where direct calculation is impractical.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Processing Temporal Relations**\n\nI am currently constructing a 22x22 matrix to map Allen's temporal relations between the provided events. The initial focus has been on establishing the foundational event descriptions and initiating the pairwise comparison process.\n\n**Estimating Temporal Logic**\n\nI'm now populating a 22x22 matrix with Allen's temporal relations. My focus has shifted to inferring these relationships by analyzing event descriptions and considering plausible chronological sequencing.\n\n**Populating Temporal Intervals**\n\nI'm now populating the 22x22 matrix by mapping out the timeline based on the provided event descriptions. My approach involves carefully ordering events chronologically and establishing the relationships, approximating standard temporal logic where direct calculation is impractical.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 6.406
+  }
+}
