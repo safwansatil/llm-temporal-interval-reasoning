@@ -1,0 +1,991 @@
+{
+  "at": "2026-10-06T17:18:34Z",
+  "request_params": {
+    "params": {
+      "stream": true,
+      "max_tokens": 65536,
+      "temperature": 0.0,
+      "reasoning": {
+        "effort": "medium"
+      },
+      "seed": 20261006
+    },
+    "notes": []
+  },
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 655,
+      "completion_tokens": 569,
+      "total_tokens": 1224,
+      "cost": 0.0002143845,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00021655,
+        "upstream_inference_prompt_cost": 4.585e-05,
+        "upstream_inference_completions_cost": 0.0001707
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 542,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "InferenceNet",
+    "generation_id": "gen-1791307087-3iTLPn19aDp2L8gSiLXM",
+    "model_served": "deepseek/deepseek-v4.1-flash",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - di <\nE2: d - <\nE3: > > -\n</matrix>",
+    "reasoning": "We need answer only matrix. Need reason temporal relations.\n\nPassage: Maria boiled water for tea. While water was boiling, she read a short letter. After kettle switched off, she poured tea.\n\nEvents:\nE1 boiled water: interval of boiling water? likely from start boiling to kettle switched off. E2 read letter while water boiling: occurs during boiling, starts after E1 starts? \"While the water was boiling, she read...\" implies E2 during E1, likely E2 starts after E1 starts and ends before E1 ends. So E2 during E1: E2 d E1. E1 contains E2: E1 di E2.\n\nE3 poured tea after kettle switched off. Kettle switched off marks end of boiling E1. \"After\" means E3 starts after E1 ends, gap? After kettle switched off, she poured. So E1 before E3: E1 < E3. E3 after E1: E3 > E1.\n\nRelation E2 vs E3: E2 while boiling, ends before E1 ends, E1 ends before E3 starts. Thus E2 before E3. E2 < E3. E3 > E2.\n\nNeed matrix rows E1,E2,E3 columns E1,E2,E3.\n\nRow E1:\nE1-E1 -\nE1 relation E2: E1 contains E2 = di (since E2 during E1). Check definitions: X contains Y: Y starts after X starts and ends before X ends. E1 di E2.\nE1 relation E3: E1 before E3 = <.\n\nRow E2:\nE2 relation E1: E2 during E1 = d.\nE2-E2 -\nE2 relation E3: E2 before E3 = <.\n\nRow E3:\nE3 relation E1: E3 after E1 = >.\nE3 relation E2: E3 after E2 = >.\nE3-E3 -.\n\nNeed ensure \"After kettle switched off\" maybe E3 starts exactly when E1 ends? Kettle switched off is end of boiling. \"After\" could be after, not meets. If \"after\" means after, gap. If no explicit gap? It says after kettle switched off, she poured. likely E1 < E3. If \"after\" could be immediately after? Allen relation \"meets\" if E1 ends exactly when E3 starts. But \"After\" usually before with gap? The instruction if not explicit choose plausible. Kettle switched off then poured tea, there may be small gap. Use <.\n\nNeed output only matrix tags.",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "We",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " need answer only",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " matrix. Need reason",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " temporal",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " relations.\n\nPass",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "age: Maria",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " boiled water for",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " tea. While water was",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " boiling, she read a",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " short letter. After",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " kettle switched",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " off, she poured tea",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ".\n\nEvents:\nE",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "1 boiled water:",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " interval of boiling water? likely",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " from start",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " boiling to kettle switched",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " off. E2 read",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " letter",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " while water boiling:",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " occurs",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " during boiling,",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " starts after",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1 starts",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "? \"While",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " the water was boiling,",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " she read...\" implies E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "2 during",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1, likely",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "2 starts after",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1 starts and ends before",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1 ends.",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " So E2 during E1",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ":",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E2 d",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1. E1 contains",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E2: E1 di",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E2.\n\nE3 poured",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " tea after kettle switched off.",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " Kettle switched off marks",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " end of boiling E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "1. \"",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "After\"",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " means E3 starts",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " after E1 ends,",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " gap?",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " After",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " kettle switched off, she",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " poured. So",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " before",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E3:",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1 < E3.",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E3 after",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1: E3 >",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1.\n\nRelation",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E2 vs E3:",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E2 while boiling,",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " ends",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " before E1 ends",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ",",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "1",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " ends before E3 starts",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ". Thus",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E2 before E3.",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E2 < E3.",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E3 > E2.\n\n",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "Need matrix rows E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "1,E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "2,E3 columns E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "1,E2,E3.\n\n",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "Row",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1:\n",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "E1-E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "1 -\n",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "E1 relation",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E2: E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "1 contains E2 =",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " di (",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "since E2 during",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1). Check",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " definitions",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ": X",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " contains",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " Y:",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " Y starts after",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " X starts and ends",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " before X ends. E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "1 di E2.\n",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "E1 relation E3:",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1 before E3 =",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " <.\n\nRow E2:\n",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "E2 relation",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1: E2 during",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1 = d.\nE",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "2-E2 -\nE2",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " relation E3: E2",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " before E3 = ",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "<.\n\nRow E3:\nE",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "3 relation E1: E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "3 after E1 = >",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ".\nE3 relation",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E2: E3 after",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E2 = >.\nE",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "3-E3 -",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ".\n\nNeed ensure \"",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "After",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " kettle",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " switched off\" maybe",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E3",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " starts exactly",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " when E1 ends? K",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "ettle switched off is",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " end of boiling.",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " \"After\" could",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " be after, not",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " meets",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ". If \"",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "after\" means",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " after, gap. If no",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " explicit gap",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "?",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " It",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " says after kettle switched off,",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " she poured. likely",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E1",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " < E3. If",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " \"after\" could be immediately",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " after",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "? Allen",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " relation \"",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "meets\" if E",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "1 ends exactly when",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " E3 starts. But \"",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "After\"",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " usually",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " before",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " with",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " gap?",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " The instruction",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " if",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " not",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " explicit choose plausible",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ". K",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "ettle switched off then",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " poured tea",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ", there",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " may be small gap.",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " Use <.\n\n",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "Need output",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": " only matrix tags",
+        "format": "unknown",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": ".",
+        "format": "unknown",
+        "index": 0
+      }
+    ],
+    "latency_s": 4.188
+  },
+  "parse": {
+    "block": "tags",
+    "rows_found": 3,
+    "rows_used": 3,
+    "rows_bad_length": 0,
+    "rows_unknown_id": 0,
+    "rows_duplicate": 0,
+    "rows_diag_omitted": 0,
+    "unknown_tokens": 0,
+    "diag_not_dash": 0,
+    "cells_valid": 6,
+    "cells_total": 6,
+    "status": "complete"
+  }
+}

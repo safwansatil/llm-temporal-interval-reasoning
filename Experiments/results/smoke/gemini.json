@@ -1,0 +1,79 @@
+{
+  "at": "2026-10-06T17:18:34Z",
+  "request_params": {
+    "params": {
+      "stream": true,
+      "max_tokens": 65536,
+      "temperature": 0.0,
+      "reasoning": {
+        "effort": "medium"
+      },
+      "seed": 20261006
+    },
+    "notes": []
+  },
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "STOP",
+    "usage": {
+      "prompt_tokens": 654,
+      "completion_tokens": 884,
+      "total_tokens": 1538,
+      "cost": 0.002382138,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0024062,
+        "upstream_inference_prompt_cost": 0.0001962,
+        "upstream_inference_completions_cost": 0.00221
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 856,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Google",
+    "generation_id": "gen-1791307087-fzhLFDUOlZKl9cuATyVO",
+    "model_served": "google/gemini-3.5-flash-lite",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - di <\nE2: d - <\nE3: > > -\n</matrix>",
+    "reasoning": "**Boiling Water Progress**\n\nI'm currently processing the sequence of events. My focus is on clarifying the temporal relationships between boiling water, reading the letter, and pouring the tea. I'm aiming to precisely define the start and end points of each action for a clearer causal chain.\n\n**Refining Temporal Intervals**\n\nI'm now focusing on the precise temporal ordering. The key insight is that reading the letter occurred *during* the water boiling. Pouring the tea, however, happened *after* the water finished boiling. This establishes a clear sequence: boiling, then pouring.\n\n",
+    "reasoning_details": [
+      {
+        "type": "reasoning.text",
+        "text": "**Boiling Water Progress**\n\nI'm currently processing the sequence of events. My focus is on clarifying the temporal relationships between boiling water, reading the letter, and pouring the tea. I'm aiming to precisely define the start and end points of each action for a clearer causal chain.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      },
+      {
+        "type": "reasoning.text",
+        "text": "**Refining Temporal Intervals**\n\nI'm now focusing on the precise temporal ordering. The key insight is that reading the letter occurred *during* the water boiling. Pouring the tea, however, happened *after* the water finished boiling. This establishes a clear sequence: boiling, then pouring.\n\n",
+        "format": "google-gemini-v1",
+        "index": 0
+      }
+    ],
+    "latency_s": 4.459
+  },
+  "parse": {
+    "block": "tags",
+    "rows_found": 3,
+    "rows_used": 3,
+    "rows_bad_length": 0,
+    "rows_unknown_id": 0,
+    "rows_duplicate": 0,
+    "rows_diag_omitted": 0,
+    "unknown_tokens": 0,
+    "diag_not_dash": 0,
+    "cells_valid": 6,
+    "cells_total": 6,
+    "status": "complete"
+  }
+}

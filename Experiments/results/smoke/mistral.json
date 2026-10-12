@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-06T17:18:34Z",
+  "request_params": {
+    "params": {
+      "stream": true,
+      "max_tokens": 16384,
+      "temperature": 0.0,
+      "seed": 20261006
+    },
+    "notes": [
+      "no reasoning parameter (model does not support it)"
+    ]
+  },
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 627,
+      "completion_tokens": 31,
+      "total_tokens": 658,
+      "cost": 1.519749e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 1.5351e-05,
+        "upstream_inference_prompt_cost": 1.4421e-05,
+        "upstream_inference_completions_cost": 9.3e-07
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Io Net",
+    "generation_id": "gen-1791307087-ToFzOsNrg7rNte03Proc",
+    "model_served": "mistralai/mistral-nemo",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - m o s\nE2: > - oi d\nE3: mi di f -\n</matrix>",
+    "reasoning": "",
+    "reasoning_details": [],
+    "latency_s": 1.333
+  },
+  "parse": {
+    "block": "tags",
+    "rows_found": 3,
+    "rows_used": 0,
+    "rows_bad_length": 3,
+    "rows_unknown_id": 0,
+    "rows_duplicate": 0,
+    "rows_diag_omitted": 0,
+    "unknown_tokens": 0,
+    "diag_not_dash": 0,
+    "cells_valid": 0,
+    "cells_total": 6,
+    "status": "failed"
+  }
+}
