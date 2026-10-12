@@ -47,20 +47,20 @@
 \title{Evaluating Temporal Reasoning in Large Language Models:\\ Event Temporal Relation Extraction with Allen's Interval Algebra,\\ Logical Consistency, and Relative Time in Narratives}
 
 \author{
-Adib Sakhawat\textsuperscript{$*$} \quad
-Fardeen Sadab\textsuperscript{$*$} \quad
-Tamjid Hasan Fahim\textsuperscript{$*$} \quad
-Multazam Mahmud\textsuperscript{$\dagger$} \\
-Tahsan Ferdous Lihan\textsuperscript{$\dagger$} \quad
-Md Isfak Iqbal Chowdhury\textsuperscript{$\dagger$} \quad
-Nafis Ahnaf Jamil\textsuperscript{$\ddagger$} \quad
-Md. Atik Shahriar\textsuperscript{$\ddagger$} \\
-Sieam Shahriare\textsuperscript{$\ddagger$} \quad
-Wasi Omar Syed\textsuperscript{$\ddagger$} \quad
-M Safwan Hasan Khan\textsuperscript{$\ddagger$} \quad
-Tabib Hassan\textsuperscript{$\ddagger$} \\[3pt]
-Islamic University of Technology, Gazipur, Bangladesh \\[2pt]
-{\footnotesize\tt Correspondence: adibsakhawat@iut-dhaka.edu}
+Adib Sakhawat\textsuperscript{1$*$} \quad
+Fardeen Sadab\textsuperscript{1$*$} \quad
+Tamjid Hasan Fahim\textsuperscript{2$*$} \quad
+Multazam Mahmud\textsuperscript{1$\dagger$} \\
+Tahsan Ferdous Lihan\textsuperscript{1$\dagger$} \quad
+Md Isfak Iqbal Chowdhury\textsuperscript{1$\dagger$} \quad
+Nafis Ahnaf Jamil\textsuperscript{1$\ddagger$} \quad
+Md. Atik Shahriar\textsuperscript{1$\ddagger$} \\
+Sieam Shahriare\textsuperscript{1$\ddagger$} \quad
+Wasi Omar Syed\textsuperscript{1$\ddagger$} \quad
+M Safwan Hasan Khan\textsuperscript{1$\ddagger$} \quad
+Tabib Hassan\textsuperscript{1$\ddagger$} \\[2pt]
+\textsuperscript{1}Islamic University of Technology, Gazipur, Bangladesh \\
+\textsuperscript{2}Rajshahi University of Engineering \& Technology, Rajshahi, Bangladesh
 }
 
 \newcommand\blfootnote[1]{%
@@ -81,7 +81,7 @@ Within each group, contributions are equal and the order is arbitrary.}
 \texttt{tahsanlihan}, \texttt{isfakiqbal}, \texttt{nafisahnaf}, \texttt{atikshahriar16},
 \texttt{sieamshahriare}, \texttt{wasiomar}, \texttt{safwanhasan} and
 \texttt{tabibhassan}, each \texttt{@iut-dhaka.edu}; Tamjid Hasan Fahim:
-\texttt{tamjidhf@gmail.com}.}
+\texttt{tamjidhf@gmail.com}. Correspondence to Adib Sakhawat.}
 
 \begin{abstract}
 Understanding a narrative means knowing how every event relates in time to every other, yet large language models (LLMs) are mostly tested on isolated event pairs or coarse labels. We ask five LLMs to reconstruct the complete network of Allen's 13 interval relations for 360 English narratives whose events are placed relative to one another rather than by dates, and evaluate the outputs under a pre-registered protocol for agreement with our gold annotations, converse consistency and logical satisfiability. End to end, the best model clearly beats trivial baselines on macro-F1, our primary metric, yet under our pre-registered parser no model matches the accuracy of always answering \emph{before}, which the skewed labels inflate. Most of that accuracy gap is a parsing artifact: formatting errors in large matrices cost whole rows, and a post hoc parser that recovers the determined cells of malformed rows raises coverage from 0.60 to 0.84 and closes the gap to the baseline for the best model. On the cells they do answer, models recover precedence and containment but rarely overlap, and they fail most on flashbacks, where both the narration and the event list present the later event first. Logical consistency varies widely yet says little about agreement with gold: enforcing it raises accuracy mainly by filling empty cells, and is beaten there by the trivial control of guessing the majority label. Reliable structured output and robust handling of relative time are prerequisites for temporal reasoning over whole narratives.
