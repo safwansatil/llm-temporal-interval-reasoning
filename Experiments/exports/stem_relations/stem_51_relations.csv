@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,opened the restaurant,buying his stock
+E1,E3,1,< (Precedes),False,opened the restaurant,working in the Dhaka fish trade
+E1,E4,1,< (Precedes),False,opened the restaurant,Rahim told him that he was retiring
+E1,E5,1,< (Precedes),False,opened the restaurant,Yusuf walked back to his small restaurant
+E1,E6,1,< (Precedes),False,opened the restaurant,"Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E1,E7,1,< (Precedes),False,opened the restaurant,Yusuf told him about Rahim
+E1,E8,1,< (Precedes),False,opened the restaurant,Yusuf called the Magura supplier
+E1,E9,1,< (Precedes),False,opened the restaurant,"Yusuf eventually opened a second, larger restaurant"
+E1,E10,1,< (Precedes),False,opened the restaurant,would be taking over the stall from the first of next month
+E1,E11,1,< (Precedes),False,opened the restaurant,his landlord had now threatened to reclaim by February
+E1,E12,1,< (Precedes),False,opened the restaurant,asked what was wrong
+E2,E1,-1,> (Preceded By),False,buying his stock,opened the restaurant
+E2,E3,-6,fi (Finished By),False,buying his stock,working in the Dhaka fish trade
+E2,E4,2,m (Meets),False,buying his stock,Rahim told him that he was retiring
+E2,E5,1,< (Precedes),False,buying his stock,Yusuf walked back to his small restaurant
+E2,E6,1,< (Precedes),False,buying his stock,"Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E2,E7,1,< (Precedes),False,buying his stock,Yusuf told him about Rahim
+E2,E8,1,< (Precedes),False,buying his stock,Yusuf called the Magura supplier
+E2,E9,1,< (Precedes),False,buying his stock,"Yusuf eventually opened a second, larger restaurant"
+E2,E10,1,< (Precedes),False,buying his stock,would be taking over the stall from the first of next month
+E2,E11,1,< (Precedes),False,buying his stock,his landlord had now threatened to reclaim by February
+E2,E12,1,< (Precedes),False,buying his stock,asked what was wrong
+E3,E1,-1,> (Preceded By),False,working in the Dhaka fish trade,opened the restaurant
+E3,E2,6,f (Finishes),False,working in the Dhaka fish trade,buying his stock
+E3,E4,2,m (Meets),False,working in the Dhaka fish trade,Rahim told him that he was retiring
+E3,E5,1,< (Precedes),False,working in the Dhaka fish trade,Yusuf walked back to his small restaurant
+E3,E6,1,< (Precedes),False,working in the Dhaka fish trade,"Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E3,E7,1,< (Precedes),False,working in the Dhaka fish trade,Yusuf told him about Rahim
+E3,E8,1,< (Precedes),False,working in the Dhaka fish trade,Yusuf called the Magura supplier
+E3,E9,1,< (Precedes),False,working in the Dhaka fish trade,"Yusuf eventually opened a second, larger restaurant"
+E3,E10,1,< (Precedes),False,working in the Dhaka fish trade,would be taking over the stall from the first of next month
+E3,E11,1,< (Precedes),False,working in the Dhaka fish trade,his landlord had now threatened to reclaim by February
+E3,E12,1,< (Precedes),False,working in the Dhaka fish trade,asked what was wrong
+E4,E1,-1,> (Preceded By),False,Rahim told him that he was retiring,opened the restaurant
+E4,E2,-2,mi (Met By),False,Rahim told him that he was retiring,buying his stock
+E4,E3,-2,mi (Met By),False,Rahim told him that he was retiring,working in the Dhaka fish trade
+E4,E5,2,m (Meets),False,Rahim told him that he was retiring,Yusuf walked back to his small restaurant
+E4,E6,1,< (Precedes),False,Rahim told him that he was retiring,"Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E4,E7,1,< (Precedes),False,Rahim told him that he was retiring,Yusuf told him about Rahim
+E4,E8,1,< (Precedes),False,Rahim told him that he was retiring,Yusuf called the Magura supplier
+E4,E9,1,< (Precedes),False,Rahim told him that he was retiring,"Yusuf eventually opened a second, larger restaurant"
+E4,E10,1,< (Precedes),False,Rahim told him that he was retiring,would be taking over the stall from the first of next month
+E4,E11,1,< (Precedes),False,Rahim told him that he was retiring,his landlord had now threatened to reclaim by February
+E4,E12,1,< (Precedes),False,Rahim told him that he was retiring,asked what was wrong
+E5,E1,-1,> (Preceded By),False,Yusuf walked back to his small restaurant,opened the restaurant
+E5,E2,-1,> (Preceded By),False,Yusuf walked back to his small restaurant,buying his stock
+E5,E3,-1,> (Preceded By),False,Yusuf walked back to his small restaurant,working in the Dhaka fish trade
+E5,E4,-2,mi (Met By),False,Yusuf walked back to his small restaurant,Rahim told him that he was retiring
+E5,E6,1,< (Precedes),False,Yusuf walked back to his small restaurant,"Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E5,E7,1,< (Precedes),False,Yusuf walked back to his small restaurant,Yusuf told him about Rahim
+E5,E8,1,< (Precedes),False,Yusuf walked back to his small restaurant,Yusuf called the Magura supplier
+E5,E9,1,< (Precedes),False,Yusuf walked back to his small restaurant,"Yusuf eventually opened a second, larger restaurant"
+E5,E10,1,< (Precedes),False,Yusuf walked back to his small restaurant,would be taking over the stall from the first of next month
+E5,E11,2,m (Meets),False,Yusuf walked back to his small restaurant,his landlord had now threatened to reclaim by February
+E5,E12,1,< (Precedes),False,Yusuf walked back to his small restaurant,asked what was wrong
+E6,E1,-1,> (Preceded By),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood",opened the restaurant
+E6,E2,-1,> (Preceded By),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood",buying his stock
+E6,E3,-1,> (Preceded By),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood",working in the Dhaka fish trade
+E6,E4,-1,> (Preceded By),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood",Rahim told him that he was retiring
+E6,E5,-1,> (Preceded By),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood",Yusuf walked back to his small restaurant
+E6,E7,1,< (Precedes),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood",Yusuf told him about Rahim
+E6,E8,1,< (Precedes),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood",Yusuf called the Magura supplier
+E6,E9,1,< (Precedes),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood","Yusuf eventually opened a second, larger restaurant"
+E6,E10,1,< (Precedes),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood",would be taking over the stall from the first of next month
+E6,E11,5,d (During),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood",his landlord had now threatened to reclaim by February
+E6,E12,2,m (Meets),False,"Jalal, who had been with him since the restaurant's second year, noticed the mood",asked what was wrong
+E7,E1,-1,> (Preceded By),False,Yusuf told him about Rahim,opened the restaurant
+E7,E2,-1,> (Preceded By),False,Yusuf told him about Rahim,buying his stock
+E7,E3,-1,> (Preceded By),False,Yusuf told him about Rahim,working in the Dhaka fish trade
+E7,E4,-1,> (Preceded By),False,Yusuf told him about Rahim,Rahim told him that he was retiring
+E7,E5,-1,> (Preceded By),False,Yusuf told him about Rahim,Yusuf walked back to his small restaurant
+E7,E6,-1,> (Preceded By),False,Yusuf told him about Rahim,"Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E7,E8,0,= (Equal),False,Yusuf told him about Rahim,Yusuf called the Magura supplier
+E7,E9,1,< (Precedes),False,Yusuf told him about Rahim,"Yusuf eventually opened a second, larger restaurant"
+E7,E10,1,< (Precedes),False,Yusuf told him about Rahim,would be taking over the stall from the first of next month
+E7,E11,5,d (During),False,Yusuf told him about Rahim,his landlord had now threatened to reclaim by February
+E7,E12,-2,mi (Met By),False,Yusuf told him about Rahim,asked what was wrong
+E8,E1,-1,> (Preceded By),False,Yusuf called the Magura supplier,opened the restaurant
+E8,E2,-1,> (Preceded By),False,Yusuf called the Magura supplier,buying his stock
+E8,E3,-1,> (Preceded By),False,Yusuf called the Magura supplier,working in the Dhaka fish trade
+E8,E4,-1,> (Preceded By),False,Yusuf called the Magura supplier,Rahim told him that he was retiring
+E8,E5,-1,> (Preceded By),False,Yusuf called the Magura supplier,Yusuf walked back to his small restaurant
+E8,E6,-1,> (Preceded By),False,Yusuf called the Magura supplier,"Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E8,E7,0,= (Equal),False,Yusuf called the Magura supplier,Yusuf told him about Rahim
+E8,E9,1,< (Precedes),False,Yusuf called the Magura supplier,"Yusuf eventually opened a second, larger restaurant"
+E8,E10,1,< (Precedes),False,Yusuf called the Magura supplier,would be taking over the stall from the first of next month
+E8,E11,5,d (During),False,Yusuf called the Magura supplier,his landlord had now threatened to reclaim by February
+E8,E12,-2,mi (Met By),False,Yusuf called the Magura supplier,asked what was wrong
+E9,E1,-1,> (Preceded By),False,"Yusuf eventually opened a second, larger restaurant",opened the restaurant
+E9,E2,-1,> (Preceded By),False,"Yusuf eventually opened a second, larger restaurant",buying his stock
+E9,E3,-1,> (Preceded By),False,"Yusuf eventually opened a second, larger restaurant",working in the Dhaka fish trade
+E9,E4,-1,> (Preceded By),False,"Yusuf eventually opened a second, larger restaurant",Rahim told him that he was retiring
+E9,E5,-1,> (Preceded By),False,"Yusuf eventually opened a second, larger restaurant",Yusuf walked back to his small restaurant
+E9,E6,-1,> (Preceded By),False,"Yusuf eventually opened a second, larger restaurant","Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E9,E7,-1,> (Preceded By),False,"Yusuf eventually opened a second, larger restaurant",Yusuf told him about Rahim
+E9,E8,-1,> (Preceded By),False,"Yusuf eventually opened a second, larger restaurant",Yusuf called the Magura supplier
+E9,E10,5,d (During),False,"Yusuf eventually opened a second, larger restaurant",would be taking over the stall from the first of next month
+E9,E11,-1,> (Preceded By),False,"Yusuf eventually opened a second, larger restaurant",his landlord had now threatened to reclaim by February
+E9,E12,-1,> (Preceded By),False,"Yusuf eventually opened a second, larger restaurant",asked what was wrong
+E10,E1,-1,> (Preceded By),False,would be taking over the stall from the first of next month,opened the restaurant
+E10,E2,-1,> (Preceded By),False,would be taking over the stall from the first of next month,buying his stock
+E10,E3,-1,> (Preceded By),False,would be taking over the stall from the first of next month,working in the Dhaka fish trade
+E10,E4,-1,> (Preceded By),False,would be taking over the stall from the first of next month,Rahim told him that he was retiring
+E10,E5,-1,> (Preceded By),False,would be taking over the stall from the first of next month,Yusuf walked back to his small restaurant
+E10,E6,-1,> (Preceded By),False,would be taking over the stall from the first of next month,"Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E10,E7,-1,> (Preceded By),False,would be taking over the stall from the first of next month,Yusuf told him about Rahim
+E10,E8,-1,> (Preceded By),False,would be taking over the stall from the first of next month,Yusuf called the Magura supplier
+E10,E9,-5,di (Contains),False,would be taking over the stall from the first of next month,"Yusuf eventually opened a second, larger restaurant"
+E10,E11,-1,> (Preceded By),False,would be taking over the stall from the first of next month,his landlord had now threatened to reclaim by February
+E10,E12,-1,> (Preceded By),False,would be taking over the stall from the first of next month,asked what was wrong
+E11,E1,-1,> (Preceded By),False,his landlord had now threatened to reclaim by February,opened the restaurant
+E11,E2,-1,> (Preceded By),False,his landlord had now threatened to reclaim by February,buying his stock
+E11,E3,-1,> (Preceded By),False,his landlord had now threatened to reclaim by February,working in the Dhaka fish trade
+E11,E4,-1,> (Preceded By),False,his landlord had now threatened to reclaim by February,Rahim told him that he was retiring
+E11,E5,-2,mi (Met By),False,his landlord had now threatened to reclaim by February,Yusuf walked back to his small restaurant
+E11,E6,-5,di (Contains),False,his landlord had now threatened to reclaim by February,"Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E11,E7,-5,di (Contains),False,his landlord had now threatened to reclaim by February,Yusuf told him about Rahim
+E11,E8,-5,di (Contains),False,his landlord had now threatened to reclaim by February,Yusuf called the Magura supplier
+E11,E9,1,< (Precedes),False,his landlord had now threatened to reclaim by February,"Yusuf eventually opened a second, larger restaurant"
+E11,E10,1,< (Precedes),False,his landlord had now threatened to reclaim by February,would be taking over the stall from the first of next month
+E11,E12,-5,di (Contains),False,his landlord had now threatened to reclaim by February,asked what was wrong
+E12,E1,-1,> (Preceded By),False,asked what was wrong,opened the restaurant
+E12,E2,-1,> (Preceded By),False,asked what was wrong,buying his stock
+E12,E3,-1,> (Preceded By),False,asked what was wrong,working in the Dhaka fish trade
+E12,E4,-1,> (Preceded By),False,asked what was wrong,Rahim told him that he was retiring
+E12,E5,-1,> (Preceded By),False,asked what was wrong,Yusuf walked back to his small restaurant
+E12,E6,-2,mi (Met By),False,asked what was wrong,"Jalal, who had been with him since the restaurant's second year, noticed the mood"
+E12,E7,2,m (Meets),False,asked what was wrong,Yusuf told him about Rahim
+E12,E8,2,m (Meets),False,asked what was wrong,Yusuf called the Magura supplier
+E12,E9,1,< (Precedes),False,asked what was wrong,"Yusuf eventually opened a second, larger restaurant"
+E12,E10,1,< (Precedes),False,asked what was wrong,would be taking over the stall from the first of next month
+E12,E11,5,d (During),False,asked what was wrong,his landlord had now threatened to reclaim by February

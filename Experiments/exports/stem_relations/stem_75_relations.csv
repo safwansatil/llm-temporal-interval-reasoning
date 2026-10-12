@@ -1,0 +1,343 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,World Cup host cities were first announced,scouted during a layover last spring
+E1,E3,1,< (Precedes),False,World Cup host cities were first announced,qualifiers in Buenos Aires
+E1,E4,1,< (Precedes),False,World Cup host cities were first announced,practiced religiously every morning
+E1,E5,1,< (Precedes),False,World Cup host cities were first announced,tweaked that same hamstring during a midnight sprint drill
+E1,E6,1,< (Precedes),False,World Cup host cities were first announced,watched the French squad demolish Portugal
+E1,E7,1,< (Precedes),False,World Cup host cities were first announced,cooked up with the team psychologist over breakfast
+E1,E8,1,< (Precedes),False,World Cup host cities were first announced,limping toward the team bus
+E1,E9,1,< (Precedes),False,World Cup host cities were first announced,call an emergency strategy meeting
+E1,E10,1,< (Precedes),False,World Cup host cities were first announced,submitted to FIFA
+E1,E11,1,< (Precedes),False,World Cup host cities were first announced,tracked the winger's commercial flight
+E1,E12,1,< (Precedes),False,World Cup host cities were first announced,pulled a similar bluff
+E1,E13,1,< (Precedes),False,World Cup host cities were first announced,eating dinner at a steakhouse
+E1,E14,1,< (Precedes),False,World Cup host cities were first announced,yelling at the medical staff
+E1,E15,1,< (Precedes),False,World Cup host cities were first announced,jet engines hummed on the tarmac
+E1,E16,1,< (Precedes),False,World Cup host cities were first announced,paced the Vancouver locker room
+E1,E17,1,< (Precedes),False,World Cup host cities were first announced,Alvarez had watched on a 5 AM replay
+E1,E18,1,< (Precedes),False,World Cup host cities were first announced,"Alvarez received a frantic text from his assistant,"
+E1,E19,1,< (Precedes),False,World Cup host cities were first announced,informing hi
+E2,E1,-4,si (Started By),False,scouted during a layover last spring,World Cup host cities were first announced
+E2,E3,1,< (Precedes),False,scouted during a layover last spring,qualifiers in Buenos Aires
+E2,E4,1,< (Precedes),False,scouted during a layover last spring,practiced religiously every morning
+E2,E5,1,< (Precedes),False,scouted during a layover last spring,tweaked that same hamstring during a midnight sprint drill
+E2,E6,1,< (Precedes),False,scouted during a layover last spring,watched the French squad demolish Portugal
+E2,E7,1,< (Precedes),False,scouted during a layover last spring,cooked up with the team psychologist over breakfast
+E2,E8,1,< (Precedes),False,scouted during a layover last spring,limping toward the team bus
+E2,E9,1,< (Precedes),False,scouted during a layover last spring,call an emergency strategy meeting
+E2,E10,1,< (Precedes),False,scouted during a layover last spring,submitted to FIFA
+E2,E11,1,< (Precedes),False,scouted during a layover last spring,tracked the winger's commercial flight
+E2,E12,1,< (Precedes),False,scouted during a layover last spring,pulled a similar bluff
+E2,E13,1,< (Precedes),False,scouted during a layover last spring,eating dinner at a steakhouse
+E2,E14,1,< (Precedes),False,scouted during a layover last spring,yelling at the medical staff
+E2,E15,1,< (Precedes),False,scouted during a layover last spring,jet engines hummed on the tarmac
+E2,E16,1,< (Precedes),False,scouted during a layover last spring,paced the Vancouver locker room
+E2,E17,1,< (Precedes),False,scouted during a layover last spring,Alvarez had watched on a 5 AM replay
+E2,E18,1,< (Precedes),False,scouted during a layover last spring,"Alvarez received a frantic text from his assistant,"
+E2,E19,1,< (Precedes),False,scouted during a layover last spring,informing hi
+E3,E1,-1,> (Preceded By),False,qualifiers in Buenos Aires,World Cup host cities were first announced
+E3,E2,-1,> (Preceded By),False,qualifiers in Buenos Aires,scouted during a layover last spring
+E3,E4,5,d (During),False,qualifiers in Buenos Aires,practiced religiously every morning
+E3,E5,1,< (Precedes),False,qualifiers in Buenos Aires,tweaked that same hamstring during a midnight sprint drill
+E3,E6,1,< (Precedes),False,qualifiers in Buenos Aires,watched the French squad demolish Portugal
+E3,E7,1,< (Precedes),False,qualifiers in Buenos Aires,cooked up with the team psychologist over breakfast
+E3,E8,1,< (Precedes),False,qualifiers in Buenos Aires,limping toward the team bus
+E3,E9,1,< (Precedes),False,qualifiers in Buenos Aires,call an emergency strategy meeting
+E3,E10,1,< (Precedes),False,qualifiers in Buenos Aires,submitted to FIFA
+E3,E11,1,< (Precedes),False,qualifiers in Buenos Aires,tracked the winger's commercial flight
+E3,E12,1,< (Precedes),False,qualifiers in Buenos Aires,pulled a similar bluff
+E3,E13,1,< (Precedes),False,qualifiers in Buenos Aires,eating dinner at a steakhouse
+E3,E14,1,< (Precedes),False,qualifiers in Buenos Aires,yelling at the medical staff
+E3,E15,1,< (Precedes),False,qualifiers in Buenos Aires,jet engines hummed on the tarmac
+E3,E16,1,< (Precedes),False,qualifiers in Buenos Aires,paced the Vancouver locker room
+E3,E17,1,< (Precedes),False,qualifiers in Buenos Aires,Alvarez had watched on a 5 AM replay
+E3,E18,1,< (Precedes),False,qualifiers in Buenos Aires,"Alvarez received a frantic text from his assistant,"
+E3,E19,1,< (Precedes),False,qualifiers in Buenos Aires,informing hi
+E4,E1,-1,> (Preceded By),False,practiced religiously every morning,World Cup host cities were first announced
+E4,E2,-1,> (Preceded By),False,practiced religiously every morning,scouted during a layover last spring
+E4,E3,-5,di (Contains),False,practiced religiously every morning,qualifiers in Buenos Aires
+E4,E5,-5,di (Contains),False,practiced religiously every morning,tweaked that same hamstring during a midnight sprint drill
+E4,E6,1,< (Precedes),False,practiced religiously every morning,watched the French squad demolish Portugal
+E4,E7,1,< (Precedes),False,practiced religiously every morning,cooked up with the team psychologist over breakfast
+E4,E8,-5,di (Contains),False,practiced religiously every morning,limping toward the team bus
+E4,E9,-5,di (Contains),False,practiced religiously every morning,call an emergency strategy meeting
+E4,E10,1,< (Precedes),False,practiced religiously every morning,submitted to FIFA
+E4,E11,1,< (Precedes),False,practiced religiously every morning,tracked the winger's commercial flight
+E4,E12,1,< (Precedes),False,practiced religiously every morning,pulled a similar bluff
+E4,E13,1,< (Precedes),False,practiced religiously every morning,eating dinner at a steakhouse
+E4,E14,1,< (Precedes),False,practiced religiously every morning,yelling at the medical staff
+E4,E15,1,< (Precedes),False,practiced religiously every morning,jet engines hummed on the tarmac
+E4,E16,1,< (Precedes),False,practiced religiously every morning,paced the Vancouver locker room
+E4,E17,1,< (Precedes),False,practiced religiously every morning,Alvarez had watched on a 5 AM replay
+E4,E18,1,< (Precedes),False,practiced religiously every morning,"Alvarez received a frantic text from his assistant,"
+E4,E19,1,< (Precedes),False,practiced religiously every morning,informing hi
+E5,E1,-1,> (Preceded By),False,tweaked that same hamstring during a midnight sprint drill,World Cup host cities were first announced
+E5,E2,-1,> (Preceded By),False,tweaked that same hamstring during a midnight sprint drill,scouted during a layover last spring
+E5,E3,-1,> (Preceded By),False,tweaked that same hamstring during a midnight sprint drill,qualifiers in Buenos Aires
+E5,E4,5,d (During),False,tweaked that same hamstring during a midnight sprint drill,practiced religiously every morning
+E5,E6,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,watched the French squad demolish Portugal
+E5,E7,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,cooked up with the team psychologist over breakfast
+E5,E8,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,limping toward the team bus
+E5,E9,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,call an emergency strategy meeting
+E5,E10,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,submitted to FIFA
+E5,E11,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,tracked the winger's commercial flight
+E5,E12,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,pulled a similar bluff
+E5,E13,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,eating dinner at a steakhouse
+E5,E14,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,yelling at the medical staff
+E5,E15,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,jet engines hummed on the tarmac
+E5,E16,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,paced the Vancouver locker room
+E5,E17,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,Alvarez had watched on a 5 AM replay
+E5,E18,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,"Alvarez received a frantic text from his assistant,"
+E5,E19,1,< (Precedes),False,tweaked that same hamstring during a midnight sprint drill,informing hi
+E6,E1,-1,> (Preceded By),False,watched the French squad demolish Portugal,World Cup host cities were first announced
+E6,E2,-1,> (Preceded By),False,watched the French squad demolish Portugal,scouted during a layover last spring
+E6,E3,-1,> (Preceded By),False,watched the French squad demolish Portugal,qualifiers in Buenos Aires
+E6,E4,-1,> (Preceded By),False,watched the French squad demolish Portugal,practiced religiously every morning
+E6,E5,-1,> (Preceded By),False,watched the French squad demolish Portugal,tweaked that same hamstring during a midnight sprint drill
+E6,E7,1,< (Precedes),False,watched the French squad demolish Portugal,cooked up with the team psychologist over breakfast
+E6,E8,-1,> (Preceded By),False,watched the French squad demolish Portugal,limping toward the team bus
+E6,E9,-1,> (Preceded By),False,watched the French squad demolish Portugal,call an emergency strategy meeting
+E6,E10,1,< (Precedes),False,watched the French squad demolish Portugal,submitted to FIFA
+E6,E11,1,< (Precedes),False,watched the French squad demolish Portugal,tracked the winger's commercial flight
+E6,E12,1,< (Precedes),False,watched the French squad demolish Portugal,pulled a similar bluff
+E6,E13,1,< (Precedes),False,watched the French squad demolish Portugal,eating dinner at a steakhouse
+E6,E14,1,< (Precedes),False,watched the French squad demolish Portugal,yelling at the medical staff
+E6,E15,1,< (Precedes),False,watched the French squad demolish Portugal,jet engines hummed on the tarmac
+E6,E16,1,< (Precedes),False,watched the French squad demolish Portugal,paced the Vancouver locker room
+E6,E17,1,< (Precedes),False,watched the French squad demolish Portugal,Alvarez had watched on a 5 AM replay
+E6,E18,1,< (Precedes),False,watched the French squad demolish Portugal,"Alvarez received a frantic text from his assistant,"
+E6,E19,1,< (Precedes),False,watched the French squad demolish Portugal,informing hi
+E7,E1,-1,> (Preceded By),False,cooked up with the team psychologist over breakfast,World Cup host cities were first announced
+E7,E2,-1,> (Preceded By),False,cooked up with the team psychologist over breakfast,scouted during a layover last spring
+E7,E3,-1,> (Preceded By),False,cooked up with the team psychologist over breakfast,qualifiers in Buenos Aires
+E7,E4,-1,> (Preceded By),False,cooked up with the team psychologist over breakfast,practiced religiously every morning
+E7,E5,-1,> (Preceded By),False,cooked up with the team psychologist over breakfast,tweaked that same hamstring during a midnight sprint drill
+E7,E6,-1,> (Preceded By),False,cooked up with the team psychologist over breakfast,watched the French squad demolish Portugal
+E7,E8,-1,> (Preceded By),False,cooked up with the team psychologist over breakfast,limping toward the team bus
+E7,E9,-1,> (Preceded By),False,cooked up with the team psychologist over breakfast,call an emergency strategy meeting
+E7,E10,1,< (Precedes),False,cooked up with the team psychologist over breakfast,submitted to FIFA
+E7,E11,1,< (Precedes),False,cooked up with the team psychologist over breakfast,tracked the winger's commercial flight
+E7,E12,1,< (Precedes),False,cooked up with the team psychologist over breakfast,pulled a similar bluff
+E7,E13,1,< (Precedes),False,cooked up with the team psychologist over breakfast,eating dinner at a steakhouse
+E7,E14,1,< (Precedes),False,cooked up with the team psychologist over breakfast,yelling at the medical staff
+E7,E15,1,< (Precedes),False,cooked up with the team psychologist over breakfast,jet engines hummed on the tarmac
+E7,E16,1,< (Precedes),False,cooked up with the team psychologist over breakfast,paced the Vancouver locker room
+E7,E17,1,< (Precedes),False,cooked up with the team psychologist over breakfast,Alvarez had watched on a 5 AM replay
+E7,E18,1,< (Precedes),False,cooked up with the team psychologist over breakfast,"Alvarez received a frantic text from his assistant,"
+E7,E19,1,< (Precedes),False,cooked up with the team psychologist over breakfast,informing hi
+E8,E1,-1,> (Preceded By),False,limping toward the team bus,World Cup host cities were first announced
+E8,E2,-1,> (Preceded By),False,limping toward the team bus,scouted during a layover last spring
+E8,E3,-1,> (Preceded By),False,limping toward the team bus,qualifiers in Buenos Aires
+E8,E4,5,d (During),False,limping toward the team bus,practiced religiously every morning
+E8,E5,-1,> (Preceded By),False,limping toward the team bus,tweaked that same hamstring during a midnight sprint drill
+E8,E6,1,< (Precedes),False,limping toward the team bus,watched the French squad demolish Portugal
+E8,E7,1,< (Precedes),False,limping toward the team bus,cooked up with the team psychologist over breakfast
+E8,E9,1,< (Precedes),False,limping toward the team bus,call an emergency strategy meeting
+E8,E10,1,< (Precedes),False,limping toward the team bus,submitted to FIFA
+E8,E11,1,< (Precedes),False,limping toward the team bus,tracked the winger's commercial flight
+E8,E12,1,< (Precedes),False,limping toward the team bus,pulled a similar bluff
+E8,E13,1,< (Precedes),False,limping toward the team bus,eating dinner at a steakhouse
+E8,E14,1,< (Precedes),False,limping toward the team bus,yelling at the medical staff
+E8,E15,1,< (Precedes),False,limping toward the team bus,jet engines hummed on the tarmac
+E8,E16,1,< (Precedes),False,limping toward the team bus,paced the Vancouver locker room
+E8,E17,1,< (Precedes),False,limping toward the team bus,Alvarez had watched on a 5 AM replay
+E8,E18,1,< (Precedes),False,limping toward the team bus,"Alvarez received a frantic text from his assistant,"
+E8,E19,1,< (Precedes),False,limping toward the team bus,informing hi
+E9,E1,-1,> (Preceded By),False,call an emergency strategy meeting,World Cup host cities were first announced
+E9,E2,-1,> (Preceded By),False,call an emergency strategy meeting,scouted during a layover last spring
+E9,E3,-1,> (Preceded By),False,call an emergency strategy meeting,qualifiers in Buenos Aires
+E9,E4,5,d (During),False,call an emergency strategy meeting,practiced religiously every morning
+E9,E5,-1,> (Preceded By),False,call an emergency strategy meeting,tweaked that same hamstring during a midnight sprint drill
+E9,E6,1,< (Precedes),False,call an emergency strategy meeting,watched the French squad demolish Portugal
+E9,E7,1,< (Precedes),False,call an emergency strategy meeting,cooked up with the team psychologist over breakfast
+E9,E8,-1,> (Preceded By),False,call an emergency strategy meeting,limping toward the team bus
+E9,E10,1,< (Precedes),False,call an emergency strategy meeting,submitted to FIFA
+E9,E11,1,< (Precedes),False,call an emergency strategy meeting,tracked the winger's commercial flight
+E9,E12,1,< (Precedes),False,call an emergency strategy meeting,pulled a similar bluff
+E9,E13,1,< (Precedes),False,call an emergency strategy meeting,eating dinner at a steakhouse
+E9,E14,1,< (Precedes),False,call an emergency strategy meeting,yelling at the medical staff
+E9,E15,1,< (Precedes),False,call an emergency strategy meeting,jet engines hummed on the tarmac
+E9,E16,1,< (Precedes),False,call an emergency strategy meeting,paced the Vancouver locker room
+E9,E17,1,< (Precedes),False,call an emergency strategy meeting,Alvarez had watched on a 5 AM replay
+E9,E18,1,< (Precedes),False,call an emergency strategy meeting,"Alvarez received a frantic text from his assistant,"
+E9,E19,1,< (Precedes),False,call an emergency strategy meeting,informing hi
+E10,E1,-1,> (Preceded By),False,submitted to FIFA,World Cup host cities were first announced
+E10,E2,-1,> (Preceded By),False,submitted to FIFA,scouted during a layover last spring
+E10,E3,-1,> (Preceded By),False,submitted to FIFA,qualifiers in Buenos Aires
+E10,E4,-1,> (Preceded By),False,submitted to FIFA,practiced religiously every morning
+E10,E5,-1,> (Preceded By),False,submitted to FIFA,tweaked that same hamstring during a midnight sprint drill
+E10,E6,-1,> (Preceded By),False,submitted to FIFA,watched the French squad demolish Portugal
+E10,E7,-1,> (Preceded By),False,submitted to FIFA,cooked up with the team psychologist over breakfast
+E10,E8,-1,> (Preceded By),False,submitted to FIFA,limping toward the team bus
+E10,E9,-1,> (Preceded By),False,submitted to FIFA,call an emergency strategy meeting
+E10,E11,-1,> (Preceded By),False,submitted to FIFA,tracked the winger's commercial flight
+E10,E12,2,m (Meets),False,submitted to FIFA,pulled a similar bluff
+E10,E13,-1,> (Preceded By),False,submitted to FIFA,eating dinner at a steakhouse
+E10,E14,1,< (Precedes),False,submitted to FIFA,yelling at the medical staff
+E10,E15,1,< (Precedes),False,submitted to FIFA,jet engines hummed on the tarmac
+E10,E16,1,< (Precedes),False,submitted to FIFA,paced the Vancouver locker room
+E10,E17,-1,> (Preceded By),False,submitted to FIFA,Alvarez had watched on a 5 AM replay
+E10,E18,1,< (Precedes),False,submitted to FIFA,"Alvarez received a frantic text from his assistant,"
+E10,E19,1,< (Precedes),False,submitted to FIFA,informing hi
+E11,E1,-1,> (Preceded By),False,tracked the winger's commercial flight,World Cup host cities were first announced
+E11,E2,-1,> (Preceded By),False,tracked the winger's commercial flight,scouted during a layover last spring
+E11,E3,-1,> (Preceded By),False,tracked the winger's commercial flight,qualifiers in Buenos Aires
+E11,E4,-1,> (Preceded By),False,tracked the winger's commercial flight,practiced religiously every morning
+E11,E5,-1,> (Preceded By),False,tracked the winger's commercial flight,tweaked that same hamstring during a midnight sprint drill
+E11,E6,-1,> (Preceded By),False,tracked the winger's commercial flight,watched the French squad demolish Portugal
+E11,E7,-1,> (Preceded By),False,tracked the winger's commercial flight,cooked up with the team psychologist over breakfast
+E11,E8,-1,> (Preceded By),False,tracked the winger's commercial flight,limping toward the team bus
+E11,E9,-1,> (Preceded By),False,tracked the winger's commercial flight,call an emergency strategy meeting
+E11,E10,1,< (Precedes),False,tracked the winger's commercial flight,submitted to FIFA
+E11,E12,1,< (Precedes),False,tracked the winger's commercial flight,pulled a similar bluff
+E11,E13,4,s (Starts),False,tracked the winger's commercial flight,eating dinner at a steakhouse
+E11,E14,1,< (Precedes),False,tracked the winger's commercial flight,yelling at the medical staff
+E11,E15,1,< (Precedes),False,tracked the winger's commercial flight,jet engines hummed on the tarmac
+E11,E16,1,< (Precedes),False,tracked the winger's commercial flight,paced the Vancouver locker room
+E11,E17,-1,> (Preceded By),False,tracked the winger's commercial flight,Alvarez had watched on a 5 AM replay
+E11,E18,1,< (Precedes),False,tracked the winger's commercial flight,"Alvarez received a frantic text from his assistant,"
+E11,E19,1,< (Precedes),False,tracked the winger's commercial flight,informing hi
+E12,E1,-1,> (Preceded By),False,pulled a similar bluff,World Cup host cities were first announced
+E12,E2,-1,> (Preceded By),False,pulled a similar bluff,scouted during a layover last spring
+E12,E3,-1,> (Preceded By),False,pulled a similar bluff,qualifiers in Buenos Aires
+E12,E4,-1,> (Preceded By),False,pulled a similar bluff,practiced religiously every morning
+E12,E5,-1,> (Preceded By),False,pulled a similar bluff,tweaked that same hamstring during a midnight sprint drill
+E12,E6,-1,> (Preceded By),False,pulled a similar bluff,watched the French squad demolish Portugal
+E12,E7,-1,> (Preceded By),False,pulled a similar bluff,cooked up with the team psychologist over breakfast
+E12,E8,-1,> (Preceded By),False,pulled a similar bluff,limping toward the team bus
+E12,E9,-1,> (Preceded By),False,pulled a similar bluff,call an emergency strategy meeting
+E12,E10,-2,mi (Met By),False,pulled a similar bluff,submitted to FIFA
+E12,E11,-1,> (Preceded By),False,pulled a similar bluff,tracked the winger's commercial flight
+E12,E13,-1,> (Preceded By),False,pulled a similar bluff,eating dinner at a steakhouse
+E12,E14,1,< (Precedes),False,pulled a similar bluff,yelling at the medical staff
+E12,E15,1,< (Precedes),False,pulled a similar bluff,jet engines hummed on the tarmac
+E12,E16,1,< (Precedes),False,pulled a similar bluff,paced the Vancouver locker room
+E12,E17,-1,> (Preceded By),False,pulled a similar bluff,Alvarez had watched on a 5 AM replay
+E12,E18,1,< (Precedes),False,pulled a similar bluff,"Alvarez received a frantic text from his assistant,"
+E12,E19,1,< (Precedes),False,pulled a similar bluff,informing hi
+E13,E1,-1,> (Preceded By),False,eating dinner at a steakhouse,World Cup host cities were first announced
+E13,E2,-1,> (Preceded By),False,eating dinner at a steakhouse,scouted during a layover last spring
+E13,E3,-1,> (Preceded By),False,eating dinner at a steakhouse,qualifiers in Buenos Aires
+E13,E4,-1,> (Preceded By),False,eating dinner at a steakhouse,practiced religiously every morning
+E13,E5,-1,> (Preceded By),False,eating dinner at a steakhouse,tweaked that same hamstring during a midnight sprint drill
+E13,E6,-1,> (Preceded By),False,eating dinner at a steakhouse,watched the French squad demolish Portugal
+E13,E7,-1,> (Preceded By),False,eating dinner at a steakhouse,cooked up with the team psychologist over breakfast
+E13,E8,-1,> (Preceded By),False,eating dinner at a steakhouse,limping toward the team bus
+E13,E9,-1,> (Preceded By),False,eating dinner at a steakhouse,call an emergency strategy meeting
+E13,E10,1,< (Precedes),False,eating dinner at a steakhouse,submitted to FIFA
+E13,E11,-4,si (Started By),False,eating dinner at a steakhouse,tracked the winger's commercial flight
+E13,E12,1,< (Precedes),False,eating dinner at a steakhouse,pulled a similar bluff
+E13,E14,1,< (Precedes),False,eating dinner at a steakhouse,yelling at the medical staff
+E13,E15,1,< (Precedes),False,eating dinner at a steakhouse,jet engines hummed on the tarmac
+E13,E16,1,< (Precedes),False,eating dinner at a steakhouse,paced the Vancouver locker room
+E13,E17,-1,> (Preceded By),False,eating dinner at a steakhouse,Alvarez had watched on a 5 AM replay
+E13,E18,1,< (Precedes),False,eating dinner at a steakhouse,"Alvarez received a frantic text from his assistant,"
+E13,E19,1,< (Precedes),False,eating dinner at a steakhouse,informing hi
+E14,E1,-1,> (Preceded By),False,yelling at the medical staff,World Cup host cities were first announced
+E14,E2,-1,> (Preceded By),False,yelling at the medical staff,scouted during a layover last spring
+E14,E3,-1,> (Preceded By),False,yelling at the medical staff,qualifiers in Buenos Aires
+E14,E4,-1,> (Preceded By),False,yelling at the medical staff,practiced religiously every morning
+E14,E5,-1,> (Preceded By),False,yelling at the medical staff,tweaked that same hamstring during a midnight sprint drill
+E14,E6,-1,> (Preceded By),False,yelling at the medical staff,watched the French squad demolish Portugal
+E14,E7,-1,> (Preceded By),False,yelling at the medical staff,cooked up with the team psychologist over breakfast
+E14,E8,-1,> (Preceded By),False,yelling at the medical staff,limping toward the team bus
+E14,E9,-1,> (Preceded By),False,yelling at the medical staff,call an emergency strategy meeting
+E14,E10,-1,> (Preceded By),False,yelling at the medical staff,submitted to FIFA
+E14,E11,-1,> (Preceded By),False,yelling at the medical staff,tracked the winger's commercial flight
+E14,E12,-1,> (Preceded By),False,yelling at the medical staff,pulled a similar bluff
+E14,E13,-1,> (Preceded By),False,yelling at the medical staff,eating dinner at a steakhouse
+E14,E15,1,< (Precedes),False,yelling at the medical staff,jet engines hummed on the tarmac
+E14,E16,4,s (Starts),False,yelling at the medical staff,paced the Vancouver locker room
+E14,E17,-1,> (Preceded By),False,yelling at the medical staff,Alvarez had watched on a 5 AM replay
+E14,E18,1,< (Precedes),False,yelling at the medical staff,"Alvarez received a frantic text from his assistant,"
+E14,E19,1,< (Precedes),False,yelling at the medical staff,informing hi
+E15,E1,-1,> (Preceded By),False,jet engines hummed on the tarmac,World Cup host cities were first announced
+E15,E2,-1,> (Preceded By),False,jet engines hummed on the tarmac,scouted during a layover last spring
+E15,E3,-1,> (Preceded By),False,jet engines hummed on the tarmac,qualifiers in Buenos Aires
+E15,E4,-1,> (Preceded By),False,jet engines hummed on the tarmac,practiced religiously every morning
+E15,E5,-1,> (Preceded By),False,jet engines hummed on the tarmac,tweaked that same hamstring during a midnight sprint drill
+E15,E6,-1,> (Preceded By),False,jet engines hummed on the tarmac,watched the French squad demolish Portugal
+E15,E7,-1,> (Preceded By),False,jet engines hummed on the tarmac,cooked up with the team psychologist over breakfast
+E15,E8,-1,> (Preceded By),False,jet engines hummed on the tarmac,limping toward the team bus
+E15,E9,-1,> (Preceded By),False,jet engines hummed on the tarmac,call an emergency strategy meeting
+E15,E10,-1,> (Preceded By),False,jet engines hummed on the tarmac,submitted to FIFA
+E15,E11,-1,> (Preceded By),False,jet engines hummed on the tarmac,tracked the winger's commercial flight
+E15,E12,-1,> (Preceded By),False,jet engines hummed on the tarmac,pulled a similar bluff
+E15,E13,-1,> (Preceded By),False,jet engines hummed on the tarmac,eating dinner at a steakhouse
+E15,E14,-1,> (Preceded By),False,jet engines hummed on the tarmac,yelling at the medical staff
+E15,E16,-2,mi (Met By),False,jet engines hummed on the tarmac,paced the Vancouver locker room
+E15,E17,-1,> (Preceded By),False,jet engines hummed on the tarmac,Alvarez had watched on a 5 AM replay
+E15,E18,-4,si (Started By),False,jet engines hummed on the tarmac,"Alvarez received a frantic text from his assistant,"
+E15,E19,-4,si (Started By),False,jet engines hummed on the tarmac,informing hi
+E16,E1,-1,> (Preceded By),False,paced the Vancouver locker room,World Cup host cities were first announced
+E16,E2,-1,> (Preceded By),False,paced the Vancouver locker room,scouted during a layover last spring
+E16,E3,-1,> (Preceded By),False,paced the Vancouver locker room,qualifiers in Buenos Aires
+E16,E4,-1,> (Preceded By),False,paced the Vancouver locker room,practiced religiously every morning
+E16,E5,-1,> (Preceded By),False,paced the Vancouver locker room,tweaked that same hamstring during a midnight sprint drill
+E16,E6,-1,> (Preceded By),False,paced the Vancouver locker room,watched the French squad demolish Portugal
+E16,E7,-1,> (Preceded By),False,paced the Vancouver locker room,cooked up with the team psychologist over breakfast
+E16,E8,-1,> (Preceded By),False,paced the Vancouver locker room,limping toward the team bus
+E16,E9,-1,> (Preceded By),False,paced the Vancouver locker room,call an emergency strategy meeting
+E16,E10,-1,> (Preceded By),False,paced the Vancouver locker room,submitted to FIFA
+E16,E11,-1,> (Preceded By),False,paced the Vancouver locker room,tracked the winger's commercial flight
+E16,E12,-1,> (Preceded By),False,paced the Vancouver locker room,pulled a similar bluff
+E16,E13,-1,> (Preceded By),False,paced the Vancouver locker room,eating dinner at a steakhouse
+E16,E14,-4,si (Started By),False,paced the Vancouver locker room,yelling at the medical staff
+E16,E15,2,m (Meets),False,paced the Vancouver locker room,jet engines hummed on the tarmac
+E16,E17,-1,> (Preceded By),False,paced the Vancouver locker room,Alvarez had watched on a 5 AM replay
+E16,E18,2,m (Meets),False,paced the Vancouver locker room,"Alvarez received a frantic text from his assistant,"
+E16,E19,2,m (Meets),False,paced the Vancouver locker room,informing hi
+E17,E1,-1,> (Preceded By),False,Alvarez had watched on a 5 AM replay,World Cup host cities were first announced
+E17,E2,-1,> (Preceded By),False,Alvarez had watched on a 5 AM replay,scouted during a layover last spring
+E17,E3,-1,> (Preceded By),False,Alvarez had watched on a 5 AM replay,qualifiers in Buenos Aires
+E17,E4,-1,> (Preceded By),False,Alvarez had watched on a 5 AM replay,practiced religiously every morning
+E17,E5,-1,> (Preceded By),False,Alvarez had watched on a 5 AM replay,tweaked that same hamstring during a midnight sprint drill
+E17,E6,-1,> (Preceded By),False,Alvarez had watched on a 5 AM replay,watched the French squad demolish Portugal
+E17,E7,-1,> (Preceded By),False,Alvarez had watched on a 5 AM replay,cooked up with the team psychologist over breakfast
+E17,E8,-1,> (Preceded By),False,Alvarez had watched on a 5 AM replay,limping toward the team bus
+E17,E9,-1,> (Preceded By),False,Alvarez had watched on a 5 AM replay,call an emergency strategy meeting
+E17,E10,1,< (Precedes),False,Alvarez had watched on a 5 AM replay,submitted to FIFA
+E17,E11,1,< (Precedes),False,Alvarez had watched on a 5 AM replay,tracked the winger's commercial flight
+E17,E12,1,< (Precedes),False,Alvarez had watched on a 5 AM replay,pulled a similar bluff
+E17,E13,1,< (Precedes),False,Alvarez had watched on a 5 AM replay,eating dinner at a steakhouse
+E17,E14,1,< (Precedes),False,Alvarez had watched on a 5 AM replay,yelling at the medical staff
+E17,E15,1,< (Precedes),False,Alvarez had watched on a 5 AM replay,jet engines hummed on the tarmac
+E17,E16,1,< (Precedes),False,Alvarez had watched on a 5 AM replay,paced the Vancouver locker room
+E17,E18,1,< (Precedes),False,Alvarez had watched on a 5 AM replay,"Alvarez received a frantic text from his assistant,"
+E17,E19,1,< (Precedes),False,Alvarez had watched on a 5 AM replay,informing hi
+E18,E1,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",World Cup host cities were first announced
+E18,E2,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",scouted during a layover last spring
+E18,E3,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",qualifiers in Buenos Aires
+E18,E4,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",practiced religiously every morning
+E18,E5,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",tweaked that same hamstring during a midnight sprint drill
+E18,E6,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",watched the French squad demolish Portugal
+E18,E7,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",cooked up with the team psychologist over breakfast
+E18,E8,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",limping toward the team bus
+E18,E9,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",call an emergency strategy meeting
+E18,E10,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",submitted to FIFA
+E18,E11,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",tracked the winger's commercial flight
+E18,E12,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",pulled a similar bluff
+E18,E13,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",eating dinner at a steakhouse
+E18,E14,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",yelling at the medical staff
+E18,E15,4,s (Starts),False,"Alvarez received a frantic text from his assistant,",jet engines hummed on the tarmac
+E18,E16,-2,mi (Met By),False,"Alvarez received a frantic text from his assistant,",paced the Vancouver locker room
+E18,E17,-1,> (Preceded By),False,"Alvarez received a frantic text from his assistant,",Alvarez had watched on a 5 AM replay
+E18,E19,0,= (Equal),False,"Alvarez received a frantic text from his assistant,",informing hi
+E19,E1,-1,> (Preceded By),False,informing hi,World Cup host cities were first announced
+E19,E2,-1,> (Preceded By),False,informing hi,scouted during a layover last spring
+E19,E3,-1,> (Preceded By),False,informing hi,qualifiers in Buenos Aires
+E19,E4,-1,> (Preceded By),False,informing hi,practiced religiously every morning
+E19,E5,-1,> (Preceded By),False,informing hi,tweaked that same hamstring during a midnight sprint drill
+E19,E6,-1,> (Preceded By),False,informing hi,watched the French squad demolish Portugal
+E19,E7,-1,> (Preceded By),False,informing hi,cooked up with the team psychologist over breakfast
+E19,E8,-1,> (Preceded By),False,informing hi,limping toward the team bus
+E19,E9,-1,> (Preceded By),False,informing hi,call an emergency strategy meeting
+E19,E10,-1,> (Preceded By),False,informing hi,submitted to FIFA
+E19,E11,-1,> (Preceded By),False,informing hi,tracked the winger's commercial flight
+E19,E12,-1,> (Preceded By),False,informing hi,pulled a similar bluff
+E19,E13,-1,> (Preceded By),False,informing hi,eating dinner at a steakhouse
+E19,E14,-1,> (Preceded By),False,informing hi,yelling at the medical staff
+E19,E15,4,s (Starts),False,informing hi,jet engines hummed on the tarmac
+E19,E16,-2,mi (Met By),False,informing hi,paced the Vancouver locker room
+E19,E17,-1,> (Preceded By),False,informing hi,Alvarez had watched on a 5 AM replay
+E19,E18,0,= (Equal),False,informing hi,"Alvarez received a frantic text from his assistant,"

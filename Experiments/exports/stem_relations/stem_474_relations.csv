@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,harvested his three-acre jute crop,cutting the stalks close to the soil using hand sickles
+E1,E3,2,m (Meets),False,harvested his three-acre jute crop,The cut jute was left lying in the fields
+E1,E4,1,< (Precedes),False,harvested his three-acre jute crop,Robi and his sons bundled the stalks into bundles
+E1,E5,1,< (Precedes),False,harvested his three-acre jute crop,transported them to the nearby canal
+E1,E6,1,< (Precedes),False,harvested his three-acre jute crop,Submerging the bundles under water using banana stems and mud clods for retting
+E1,E7,1,< (Precedes),False,harvested his three-acre jute crop,The retting process lasted fourteen days
+E1,E8,1,< (Precedes),False,harvested his three-acre jute crop,Robi checked the bark separation daily
+E1,E9,1,< (Precedes),False,harvested his three-acre jute crop,Fiber extraction began
+E1,E10,1,< (Precedes),False,harvested his three-acre jute crop,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E1,E11,1,< (Precedes),False,harvested his three-acre jute crop,The washed jute was hung on bamboo poles to dry in the sun
+E1,E12,1,< (Precedes),False,harvested his three-acre jute crop,being baled
+E2,E1,0,= (Equal),False,cutting the stalks close to the soil using hand sickles,harvested his three-acre jute crop
+E2,E3,2,m (Meets),False,cutting the stalks close to the soil using hand sickles,The cut jute was left lying in the fields
+E2,E4,1,< (Precedes),False,cutting the stalks close to the soil using hand sickles,Robi and his sons bundled the stalks into bundles
+E2,E5,1,< (Precedes),False,cutting the stalks close to the soil using hand sickles,transported them to the nearby canal
+E2,E6,1,< (Precedes),False,cutting the stalks close to the soil using hand sickles,Submerging the bundles under water using banana stems and mud clods for retting
+E2,E7,1,< (Precedes),False,cutting the stalks close to the soil using hand sickles,The retting process lasted fourteen days
+E2,E8,1,< (Precedes),False,cutting the stalks close to the soil using hand sickles,Robi checked the bark separation daily
+E2,E9,1,< (Precedes),False,cutting the stalks close to the soil using hand sickles,Fiber extraction began
+E2,E10,1,< (Precedes),False,cutting the stalks close to the soil using hand sickles,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E2,E11,1,< (Precedes),False,cutting the stalks close to the soil using hand sickles,The washed jute was hung on bamboo poles to dry in the sun
+E2,E12,1,< (Precedes),False,cutting the stalks close to the soil using hand sickles,being baled
+E3,E1,-2,mi (Met By),False,The cut jute was left lying in the fields,harvested his three-acre jute crop
+E3,E2,-2,mi (Met By),False,The cut jute was left lying in the fields,cutting the stalks close to the soil using hand sickles
+E3,E4,2,m (Meets),False,The cut jute was left lying in the fields,Robi and his sons bundled the stalks into bundles
+E3,E5,2,m (Meets),False,The cut jute was left lying in the fields,transported them to the nearby canal
+E3,E6,1,< (Precedes),False,The cut jute was left lying in the fields,Submerging the bundles under water using banana stems and mud clods for retting
+E3,E7,1,< (Precedes),False,The cut jute was left lying in the fields,The retting process lasted fourteen days
+E3,E8,1,< (Precedes),False,The cut jute was left lying in the fields,Robi checked the bark separation daily
+E3,E9,1,< (Precedes),False,The cut jute was left lying in the fields,Fiber extraction began
+E3,E10,1,< (Precedes),False,The cut jute was left lying in the fields,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E3,E11,1,< (Precedes),False,The cut jute was left lying in the fields,The washed jute was hung on bamboo poles to dry in the sun
+E3,E12,1,< (Precedes),False,The cut jute was left lying in the fields,being baled
+E4,E1,-1,> (Preceded By),False,Robi and his sons bundled the stalks into bundles,harvested his three-acre jute crop
+E4,E2,-1,> (Preceded By),False,Robi and his sons bundled the stalks into bundles,cutting the stalks close to the soil using hand sickles
+E4,E3,-2,mi (Met By),False,Robi and his sons bundled the stalks into bundles,The cut jute was left lying in the fields
+E4,E5,0,= (Equal),False,Robi and his sons bundled the stalks into bundles,transported them to the nearby canal
+E4,E6,2,m (Meets),False,Robi and his sons bundled the stalks into bundles,Submerging the bundles under water using banana stems and mud clods for retting
+E4,E7,1,< (Precedes),False,Robi and his sons bundled the stalks into bundles,The retting process lasted fourteen days
+E4,E8,1,< (Precedes),False,Robi and his sons bundled the stalks into bundles,Robi checked the bark separation daily
+E4,E9,1,< (Precedes),False,Robi and his sons bundled the stalks into bundles,Fiber extraction began
+E4,E10,1,< (Precedes),False,Robi and his sons bundled the stalks into bundles,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E4,E11,1,< (Precedes),False,Robi and his sons bundled the stalks into bundles,The washed jute was hung on bamboo poles to dry in the sun
+E4,E12,1,< (Precedes),False,Robi and his sons bundled the stalks into bundles,being baled
+E5,E1,-1,> (Preceded By),False,transported them to the nearby canal,harvested his three-acre jute crop
+E5,E2,-1,> (Preceded By),False,transported them to the nearby canal,cutting the stalks close to the soil using hand sickles
+E5,E3,-2,mi (Met By),False,transported them to the nearby canal,The cut jute was left lying in the fields
+E5,E4,0,= (Equal),False,transported them to the nearby canal,Robi and his sons bundled the stalks into bundles
+E5,E6,2,m (Meets),False,transported them to the nearby canal,Submerging the bundles under water using banana stems and mud clods for retting
+E5,E7,1,< (Precedes),False,transported them to the nearby canal,The retting process lasted fourteen days
+E5,E8,1,< (Precedes),False,transported them to the nearby canal,Robi checked the bark separation daily
+E5,E9,1,< (Precedes),False,transported them to the nearby canal,Fiber extraction began
+E5,E10,1,< (Precedes),False,transported them to the nearby canal,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E5,E11,1,< (Precedes),False,transported them to the nearby canal,The washed jute was hung on bamboo poles to dry in the sun
+E5,E12,1,< (Precedes),False,transported them to the nearby canal,being baled
+E6,E1,-1,> (Preceded By),False,Submerging the bundles under water using banana stems and mud clods for retting,harvested his three-acre jute crop
+E6,E2,-1,> (Preceded By),False,Submerging the bundles under water using banana stems and mud clods for retting,cutting the stalks close to the soil using hand sickles
+E6,E3,-1,> (Preceded By),False,Submerging the bundles under water using banana stems and mud clods for retting,The cut jute was left lying in the fields
+E6,E4,-2,mi (Met By),False,Submerging the bundles under water using banana stems and mud clods for retting,Robi and his sons bundled the stalks into bundles
+E6,E5,-2,mi (Met By),False,Submerging the bundles under water using banana stems and mud clods for retting,transported them to the nearby canal
+E6,E7,2,m (Meets),False,Submerging the bundles under water using banana stems and mud clods for retting,The retting process lasted fourteen days
+E6,E8,1,< (Precedes),False,Submerging the bundles under water using banana stems and mud clods for retting,Robi checked the bark separation daily
+E6,E9,1,< (Precedes),False,Submerging the bundles under water using banana stems and mud clods for retting,Fiber extraction began
+E6,E10,1,< (Precedes),False,Submerging the bundles under water using banana stems and mud clods for retting,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E6,E11,1,< (Precedes),False,Submerging the bundles under water using banana stems and mud clods for retting,The washed jute was hung on bamboo poles to dry in the sun
+E6,E12,1,< (Precedes),False,Submerging the bundles under water using banana stems and mud clods for retting,being baled
+E7,E1,-1,> (Preceded By),False,The retting process lasted fourteen days,harvested his three-acre jute crop
+E7,E2,-1,> (Preceded By),False,The retting process lasted fourteen days,cutting the stalks close to the soil using hand sickles
+E7,E3,-1,> (Preceded By),False,The retting process lasted fourteen days,The cut jute was left lying in the fields
+E7,E4,-1,> (Preceded By),False,The retting process lasted fourteen days,Robi and his sons bundled the stalks into bundles
+E7,E5,-1,> (Preceded By),False,The retting process lasted fourteen days,transported them to the nearby canal
+E7,E6,-2,mi (Met By),False,The retting process lasted fourteen days,Submerging the bundles under water using banana stems and mud clods for retting
+E7,E8,-5,di (Contains),False,The retting process lasted fourteen days,Robi checked the bark separation daily
+E7,E9,2,m (Meets),False,The retting process lasted fourteen days,Fiber extraction began
+E7,E10,2,m (Meets),False,The retting process lasted fourteen days,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E7,E11,1,< (Precedes),False,The retting process lasted fourteen days,The washed jute was hung on bamboo poles to dry in the sun
+E7,E12,1,< (Precedes),False,The retting process lasted fourteen days,being baled
+E8,E1,-1,> (Preceded By),False,Robi checked the bark separation daily,harvested his three-acre jute crop
+E8,E2,-1,> (Preceded By),False,Robi checked the bark separation daily,cutting the stalks close to the soil using hand sickles
+E8,E3,-1,> (Preceded By),False,Robi checked the bark separation daily,The cut jute was left lying in the fields
+E8,E4,-1,> (Preceded By),False,Robi checked the bark separation daily,Robi and his sons bundled the stalks into bundles
+E8,E5,-1,> (Preceded By),False,Robi checked the bark separation daily,transported them to the nearby canal
+E8,E6,-1,> (Preceded By),False,Robi checked the bark separation daily,Submerging the bundles under water using banana stems and mud clods for retting
+E8,E7,5,d (During),False,Robi checked the bark separation daily,The retting process lasted fourteen days
+E8,E9,1,< (Precedes),False,Robi checked the bark separation daily,Fiber extraction began
+E8,E10,1,< (Precedes),False,Robi checked the bark separation daily,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E8,E11,1,< (Precedes),False,Robi checked the bark separation daily,The washed jute was hung on bamboo poles to dry in the sun
+E8,E12,1,< (Precedes),False,Robi checked the bark separation daily,being baled
+E9,E1,-1,> (Preceded By),False,Fiber extraction began,harvested his three-acre jute crop
+E9,E2,-1,> (Preceded By),False,Fiber extraction began,cutting the stalks close to the soil using hand sickles
+E9,E3,-1,> (Preceded By),False,Fiber extraction began,The cut jute was left lying in the fields
+E9,E4,-1,> (Preceded By),False,Fiber extraction began,Robi and his sons bundled the stalks into bundles
+E9,E5,-1,> (Preceded By),False,Fiber extraction began,transported them to the nearby canal
+E9,E6,-1,> (Preceded By),False,Fiber extraction began,Submerging the bundles under water using banana stems and mud clods for retting
+E9,E7,-2,mi (Met By),False,Fiber extraction began,The retting process lasted fourteen days
+E9,E8,-1,> (Preceded By),False,Fiber extraction began,Robi checked the bark separation daily
+E9,E10,4,s (Starts),False,Fiber extraction began,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E9,E11,1,< (Precedes),False,Fiber extraction began,The washed jute was hung on bamboo poles to dry in the sun
+E9,E12,1,< (Precedes),False,Fiber extraction began,being baled
+E10,E1,-1,> (Preceded By),False,"four laborers working for five days to strip, wash, and wring the golden fiber",harvested his three-acre jute crop
+E10,E2,-1,> (Preceded By),False,"four laborers working for five days to strip, wash, and wring the golden fiber",cutting the stalks close to the soil using hand sickles
+E10,E3,-1,> (Preceded By),False,"four laborers working for five days to strip, wash, and wring the golden fiber",The cut jute was left lying in the fields
+E10,E4,-1,> (Preceded By),False,"four laborers working for five days to strip, wash, and wring the golden fiber",Robi and his sons bundled the stalks into bundles
+E10,E5,-1,> (Preceded By),False,"four laborers working for five days to strip, wash, and wring the golden fiber",transported them to the nearby canal
+E10,E6,-1,> (Preceded By),False,"four laborers working for five days to strip, wash, and wring the golden fiber",Submerging the bundles under water using banana stems and mud clods for retting
+E10,E7,-2,mi (Met By),False,"four laborers working for five days to strip, wash, and wring the golden fiber",The retting process lasted fourteen days
+E10,E8,-1,> (Preceded By),False,"four laborers working for five days to strip, wash, and wring the golden fiber",Robi checked the bark separation daily
+E10,E9,-4,si (Started By),False,"four laborers working for five days to strip, wash, and wring the golden fiber",Fiber extraction began
+E10,E11,2,m (Meets),False,"four laborers working for five days to strip, wash, and wring the golden fiber",The washed jute was hung on bamboo poles to dry in the sun
+E10,E12,1,< (Precedes),False,"four laborers working for five days to strip, wash, and wring the golden fiber",being baled
+E11,E1,-1,> (Preceded By),False,The washed jute was hung on bamboo poles to dry in the sun,harvested his three-acre jute crop
+E11,E2,-1,> (Preceded By),False,The washed jute was hung on bamboo poles to dry in the sun,cutting the stalks close to the soil using hand sickles
+E11,E3,-1,> (Preceded By),False,The washed jute was hung on bamboo poles to dry in the sun,The cut jute was left lying in the fields
+E11,E4,-1,> (Preceded By),False,The washed jute was hung on bamboo poles to dry in the sun,Robi and his sons bundled the stalks into bundles
+E11,E5,-1,> (Preceded By),False,The washed jute was hung on bamboo poles to dry in the sun,transported them to the nearby canal
+E11,E6,-1,> (Preceded By),False,The washed jute was hung on bamboo poles to dry in the sun,Submerging the bundles under water using banana stems and mud clods for retting
+E11,E7,-1,> (Preceded By),False,The washed jute was hung on bamboo poles to dry in the sun,The retting process lasted fourteen days
+E11,E8,-1,> (Preceded By),False,The washed jute was hung on bamboo poles to dry in the sun,Robi checked the bark separation daily
+E11,E9,-1,> (Preceded By),False,The washed jute was hung on bamboo poles to dry in the sun,Fiber extraction began
+E11,E10,-2,mi (Met By),False,The washed jute was hung on bamboo poles to dry in the sun,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E11,E12,2,m (Meets),False,The washed jute was hung on bamboo poles to dry in the sun,being baled
+E12,E1,-1,> (Preceded By),False,being baled,harvested his three-acre jute crop
+E12,E2,-1,> (Preceded By),False,being baled,cutting the stalks close to the soil using hand sickles
+E12,E3,-1,> (Preceded By),False,being baled,The cut jute was left lying in the fields
+E12,E4,-1,> (Preceded By),False,being baled,Robi and his sons bundled the stalks into bundles
+E12,E5,-1,> (Preceded By),False,being baled,transported them to the nearby canal
+E12,E6,-1,> (Preceded By),False,being baled,Submerging the bundles under water using banana stems and mud clods for retting
+E12,E7,-1,> (Preceded By),False,being baled,The retting process lasted fourteen days
+E12,E8,-1,> (Preceded By),False,being baled,Robi checked the bark separation daily
+E12,E9,-1,> (Preceded By),False,being baled,Fiber extraction began
+E12,E10,-1,> (Preceded By),False,being baled,"four laborers working for five days to strip, wash, and wring the golden fiber"
+E12,E11,-2,mi (Met By),False,being baled,The washed jute was hung on bamboo poles to dry in the sun

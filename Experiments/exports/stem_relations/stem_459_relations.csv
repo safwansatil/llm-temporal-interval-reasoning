@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,gearbox began slipping,pulled Bus 42 from service
+E1,E3,1,< (Precedes),False,gearbox began slipping,Complete engine and transmission dismantling
+E1,E4,1,< (Precedes),False,gearbox began slipping,old unit was removed
+E1,E5,1,< (Precedes),False,gearbox began slipping,replacement transmission arrived by freight
+E1,E6,1,< (Precedes),False,gearbox began slipping,Installing the new transmission
+E1,E7,1,< (Precedes),False,gearbox began slipping,shampooed the passenger upholstery and replaced cracked window panes
+E1,E8,1,< (Precedes),False,gearbox began slipping,mechanical work concluded
+E1,E9,1,< (Precedes),False,gearbox began slipping,bus sat for twelve hours while fluid seals cured
+E1,E10,1,< (Precedes),False,gearbox began slipping,chief inspector took the vehicle for a seventy-minute road test
+E1,E11,1,< (Precedes),False,gearbox began slipping,certified passenger-ready
+E1,E12,1,< (Precedes),False,gearbox began slipping,returning to scheduled passenger service
+E2,E1,-1,> (Preceded By),False,pulled Bus 42 from service,gearbox began slipping
+E2,E3,4,s (Starts),False,pulled Bus 42 from service,Complete engine and transmission dismantling
+E2,E4,1,< (Precedes),False,pulled Bus 42 from service,old unit was removed
+E2,E5,1,< (Precedes),False,pulled Bus 42 from service,replacement transmission arrived by freight
+E2,E6,1,< (Precedes),False,pulled Bus 42 from service,Installing the new transmission
+E2,E7,1,< (Precedes),False,pulled Bus 42 from service,shampooed the passenger upholstery and replaced cracked window panes
+E2,E8,1,< (Precedes),False,pulled Bus 42 from service,mechanical work concluded
+E2,E9,1,< (Precedes),False,pulled Bus 42 from service,bus sat for twelve hours while fluid seals cured
+E2,E10,1,< (Precedes),False,pulled Bus 42 from service,chief inspector took the vehicle for a seventy-minute road test
+E2,E11,1,< (Precedes),False,pulled Bus 42 from service,certified passenger-ready
+E2,E12,1,< (Precedes),False,pulled Bus 42 from service,returning to scheduled passenger service
+E3,E1,-1,> (Preceded By),False,Complete engine and transmission dismantling,gearbox began slipping
+E3,E2,-4,si (Started By),False,Complete engine and transmission dismantling,pulled Bus 42 from service
+E3,E4,2,m (Meets),False,Complete engine and transmission dismantling,old unit was removed
+E3,E5,1,< (Precedes),False,Complete engine and transmission dismantling,replacement transmission arrived by freight
+E3,E6,1,< (Precedes),False,Complete engine and transmission dismantling,Installing the new transmission
+E3,E7,1,< (Precedes),False,Complete engine and transmission dismantling,shampooed the passenger upholstery and replaced cracked window panes
+E3,E8,1,< (Precedes),False,Complete engine and transmission dismantling,mechanical work concluded
+E3,E9,1,< (Precedes),False,Complete engine and transmission dismantling,bus sat for twelve hours while fluid seals cured
+E3,E10,1,< (Precedes),False,Complete engine and transmission dismantling,chief inspector took the vehicle for a seventy-minute road test
+E3,E11,1,< (Precedes),False,Complete engine and transmission dismantling,certified passenger-ready
+E3,E12,1,< (Precedes),False,Complete engine and transmission dismantling,returning to scheduled passenger service
+E4,E1,-1,> (Preceded By),False,old unit was removed,gearbox began slipping
+E4,E2,-1,> (Preceded By),False,old unit was removed,pulled Bus 42 from service
+E4,E3,-2,mi (Met By),False,old unit was removed,Complete engine and transmission dismantling
+E4,E5,1,< (Precedes),False,old unit was removed,replacement transmission arrived by freight
+E4,E6,1,< (Precedes),False,old unit was removed,Installing the new transmission
+E4,E7,1,< (Precedes),False,old unit was removed,shampooed the passenger upholstery and replaced cracked window panes
+E4,E8,1,< (Precedes),False,old unit was removed,mechanical work concluded
+E4,E9,1,< (Precedes),False,old unit was removed,bus sat for twelve hours while fluid seals cured
+E4,E10,1,< (Precedes),False,old unit was removed,chief inspector took the vehicle for a seventy-minute road test
+E4,E11,1,< (Precedes),False,old unit was removed,certified passenger-ready
+E4,E12,1,< (Precedes),False,old unit was removed,returning to scheduled passenger service
+E5,E1,-1,> (Preceded By),False,replacement transmission arrived by freight,gearbox began slipping
+E5,E2,-1,> (Preceded By),False,replacement transmission arrived by freight,pulled Bus 42 from service
+E5,E3,-1,> (Preceded By),False,replacement transmission arrived by freight,Complete engine and transmission dismantling
+E5,E4,-1,> (Preceded By),False,replacement transmission arrived by freight,old unit was removed
+E5,E6,4,s (Starts),False,replacement transmission arrived by freight,Installing the new transmission
+E5,E7,1,< (Precedes),False,replacement transmission arrived by freight,shampooed the passenger upholstery and replaced cracked window panes
+E5,E8,1,< (Precedes),False,replacement transmission arrived by freight,mechanical work concluded
+E5,E9,1,< (Precedes),False,replacement transmission arrived by freight,bus sat for twelve hours while fluid seals cured
+E5,E10,1,< (Precedes),False,replacement transmission arrived by freight,chief inspector took the vehicle for a seventy-minute road test
+E5,E11,1,< (Precedes),False,replacement transmission arrived by freight,certified passenger-ready
+E5,E12,1,< (Precedes),False,replacement transmission arrived by freight,returning to scheduled passenger service
+E6,E1,-1,> (Preceded By),False,Installing the new transmission,gearbox began slipping
+E6,E2,-1,> (Preceded By),False,Installing the new transmission,pulled Bus 42 from service
+E6,E3,-1,> (Preceded By),False,Installing the new transmission,Complete engine and transmission dismantling
+E6,E4,-1,> (Preceded By),False,Installing the new transmission,old unit was removed
+E6,E5,-4,si (Started By),False,Installing the new transmission,replacement transmission arrived by freight
+E6,E7,-6,fi (Finished By),False,Installing the new transmission,shampooed the passenger upholstery and replaced cracked window panes
+E6,E8,2,m (Meets),False,Installing the new transmission,mechanical work concluded
+E6,E9,2,m (Meets),False,Installing the new transmission,bus sat for twelve hours while fluid seals cured
+E6,E10,1,< (Precedes),False,Installing the new transmission,chief inspector took the vehicle for a seventy-minute road test
+E6,E11,1,< (Precedes),False,Installing the new transmission,certified passenger-ready
+E6,E12,1,< (Precedes),False,Installing the new transmission,returning to scheduled passenger service
+E7,E1,-1,> (Preceded By),False,shampooed the passenger upholstery and replaced cracked window panes,gearbox began slipping
+E7,E2,-1,> (Preceded By),False,shampooed the passenger upholstery and replaced cracked window panes,pulled Bus 42 from service
+E7,E3,-1,> (Preceded By),False,shampooed the passenger upholstery and replaced cracked window panes,Complete engine and transmission dismantling
+E7,E4,-1,> (Preceded By),False,shampooed the passenger upholstery and replaced cracked window panes,old unit was removed
+E7,E5,-1,> (Preceded By),False,shampooed the passenger upholstery and replaced cracked window panes,replacement transmission arrived by freight
+E7,E6,6,f (Finishes),False,shampooed the passenger upholstery and replaced cracked window panes,Installing the new transmission
+E7,E8,2,m (Meets),False,shampooed the passenger upholstery and replaced cracked window panes,mechanical work concluded
+E7,E9,2,m (Meets),False,shampooed the passenger upholstery and replaced cracked window panes,bus sat for twelve hours while fluid seals cured
+E7,E10,1,< (Precedes),False,shampooed the passenger upholstery and replaced cracked window panes,chief inspector took the vehicle for a seventy-minute road test
+E7,E11,1,< (Precedes),False,shampooed the passenger upholstery and replaced cracked window panes,certified passenger-ready
+E7,E12,1,< (Precedes),False,shampooed the passenger upholstery and replaced cracked window panes,returning to scheduled passenger service
+E8,E1,-1,> (Preceded By),False,mechanical work concluded,gearbox began slipping
+E8,E2,-1,> (Preceded By),False,mechanical work concluded,pulled Bus 42 from service
+E8,E3,-1,> (Preceded By),False,mechanical work concluded,Complete engine and transmission dismantling
+E8,E4,-1,> (Preceded By),False,mechanical work concluded,old unit was removed
+E8,E5,-1,> (Preceded By),False,mechanical work concluded,replacement transmission arrived by freight
+E8,E6,-2,mi (Met By),False,mechanical work concluded,Installing the new transmission
+E8,E7,-2,mi (Met By),False,mechanical work concluded,shampooed the passenger upholstery and replaced cracked window panes
+E8,E9,4,s (Starts),False,mechanical work concluded,bus sat for twelve hours while fluid seals cured
+E8,E10,1,< (Precedes),False,mechanical work concluded,chief inspector took the vehicle for a seventy-minute road test
+E8,E11,1,< (Precedes),False,mechanical work concluded,certified passenger-ready
+E8,E12,1,< (Precedes),False,mechanical work concluded,returning to scheduled passenger service
+E9,E1,-1,> (Preceded By),False,bus sat for twelve hours while fluid seals cured,gearbox began slipping
+E9,E2,-1,> (Preceded By),False,bus sat for twelve hours while fluid seals cured,pulled Bus 42 from service
+E9,E3,-1,> (Preceded By),False,bus sat for twelve hours while fluid seals cured,Complete engine and transmission dismantling
+E9,E4,-1,> (Preceded By),False,bus sat for twelve hours while fluid seals cured,old unit was removed
+E9,E5,-1,> (Preceded By),False,bus sat for twelve hours while fluid seals cured,replacement transmission arrived by freight
+E9,E6,-2,mi (Met By),False,bus sat for twelve hours while fluid seals cured,Installing the new transmission
+E9,E7,-2,mi (Met By),False,bus sat for twelve hours while fluid seals cured,shampooed the passenger upholstery and replaced cracked window panes
+E9,E8,-4,si (Started By),False,bus sat for twelve hours while fluid seals cured,mechanical work concluded
+E9,E10,2,m (Meets),False,bus sat for twelve hours while fluid seals cured,chief inspector took the vehicle for a seventy-minute road test
+E9,E11,1,< (Precedes),False,bus sat for twelve hours while fluid seals cured,certified passenger-ready
+E9,E12,1,< (Precedes),False,bus sat for twelve hours while fluid seals cured,returning to scheduled passenger service
+E10,E1,-1,> (Preceded By),False,chief inspector took the vehicle for a seventy-minute road test,gearbox began slipping
+E10,E2,-1,> (Preceded By),False,chief inspector took the vehicle for a seventy-minute road test,pulled Bus 42 from service
+E10,E3,-1,> (Preceded By),False,chief inspector took the vehicle for a seventy-minute road test,Complete engine and transmission dismantling
+E10,E4,-1,> (Preceded By),False,chief inspector took the vehicle for a seventy-minute road test,old unit was removed
+E10,E5,-1,> (Preceded By),False,chief inspector took the vehicle for a seventy-minute road test,replacement transmission arrived by freight
+E10,E6,-1,> (Preceded By),False,chief inspector took the vehicle for a seventy-minute road test,Installing the new transmission
+E10,E7,-1,> (Preceded By),False,chief inspector took the vehicle for a seventy-minute road test,shampooed the passenger upholstery and replaced cracked window panes
+E10,E8,-1,> (Preceded By),False,chief inspector took the vehicle for a seventy-minute road test,mechanical work concluded
+E10,E9,-2,mi (Met By),False,chief inspector took the vehicle for a seventy-minute road test,bus sat for twelve hours while fluid seals cured
+E10,E11,1,< (Precedes),False,chief inspector took the vehicle for a seventy-minute road test,certified passenger-ready
+E10,E12,1,< (Precedes),False,chief inspector took the vehicle for a seventy-minute road test,returning to scheduled passenger service
+E11,E1,-1,> (Preceded By),False,certified passenger-ready,gearbox began slipping
+E11,E2,-1,> (Preceded By),False,certified passenger-ready,pulled Bus 42 from service
+E11,E3,-1,> (Preceded By),False,certified passenger-ready,Complete engine and transmission dismantling
+E11,E4,-1,> (Preceded By),False,certified passenger-ready,old unit was removed
+E11,E5,-1,> (Preceded By),False,certified passenger-ready,replacement transmission arrived by freight
+E11,E6,-1,> (Preceded By),False,certified passenger-ready,Installing the new transmission
+E11,E7,-1,> (Preceded By),False,certified passenger-ready,shampooed the passenger upholstery and replaced cracked window panes
+E11,E8,-1,> (Preceded By),False,certified passenger-ready,mechanical work concluded
+E11,E9,-1,> (Preceded By),False,certified passenger-ready,bus sat for twelve hours while fluid seals cured
+E11,E10,-1,> (Preceded By),False,certified passenger-ready,chief inspector took the vehicle for a seventy-minute road test
+E11,E12,1,< (Precedes),False,certified passenger-ready,returning to scheduled passenger service
+E12,E1,-1,> (Preceded By),False,returning to scheduled passenger service,gearbox began slipping
+E12,E2,-1,> (Preceded By),False,returning to scheduled passenger service,pulled Bus 42 from service
+E12,E3,-1,> (Preceded By),False,returning to scheduled passenger service,Complete engine and transmission dismantling
+E12,E4,-1,> (Preceded By),False,returning to scheduled passenger service,old unit was removed
+E12,E5,-1,> (Preceded By),False,returning to scheduled passenger service,replacement transmission arrived by freight
+E12,E6,-1,> (Preceded By),False,returning to scheduled passenger service,Installing the new transmission
+E12,E7,-1,> (Preceded By),False,returning to scheduled passenger service,shampooed the passenger upholstery and replaced cracked window panes
+E12,E8,-1,> (Preceded By),False,returning to scheduled passenger service,mechanical work concluded
+E12,E9,-1,> (Preceded By),False,returning to scheduled passenger service,bus sat for twelve hours while fluid seals cured
+E12,E10,-1,> (Preceded By),False,returning to scheduled passenger service,chief inspector took the vehicle for a seventy-minute road test
+E12,E11,-1,> (Preceded By),False,returning to scheduled passenger service,certified passenger-ready

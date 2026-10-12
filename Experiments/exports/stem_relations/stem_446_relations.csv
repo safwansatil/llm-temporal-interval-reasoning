@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,securing the necessary municipal permits,finalized a purchase
+E1,E3,2,m (Meets),False,securing the necessary municipal permits,finalizing their menu
+E1,E4,2,m (Meets),False,securing the necessary municipal permits,testing recipes
+E1,E5,1,< (Precedes),False,securing the necessary municipal permits,the modified cart was delivered
+E1,E6,1,< (Precedes),False,securing the necessary municipal permits,painting the exterior and installing the cooking equipment
+E1,E7,1,< (Precedes),False,securing the necessary municipal permits,securing a reliable supply chain for fresh ingredients
+E1,E8,1,< (Precedes),False,securing the necessary municipal permits,open for their first lunch service
+E1,E9,-4,si (Started By),False,securing the necessary municipal permits,visiting government offices
+E1,E10,2,m (Meets),False,securing the necessary municipal permits,custom modifications to the cart
+E1,E11,4,s (Starts),False,securing the necessary municipal permits,to become operationa
+E2,E1,-2,mi (Met By),False,finalized a purchase,securing the necessary municipal permits
+E2,E3,4,s (Starts),False,finalized a purchase,finalizing their menu
+E2,E4,4,s (Starts),False,finalized a purchase,testing recipes
+E2,E5,1,< (Precedes),False,finalized a purchase,the modified cart was delivered
+E2,E6,1,< (Precedes),False,finalized a purchase,painting the exterior and installing the cooking equipment
+E2,E7,1,< (Precedes),False,finalized a purchase,securing a reliable supply chain for fresh ingredients
+E2,E8,1,< (Precedes),False,finalized a purchase,open for their first lunch service
+E2,E9,-1,> (Preceded By),False,finalized a purchase,visiting government offices
+E2,E10,4,s (Starts),False,finalized a purchase,custom modifications to the cart
+E2,E11,5,d (During),False,finalized a purchase,to become operationa
+E3,E1,-2,mi (Met By),False,finalizing their menu,securing the necessary municipal permits
+E3,E2,-4,si (Started By),False,finalizing their menu,finalized a purchase
+E3,E4,0,= (Equal),False,finalizing their menu,testing recipes
+E3,E5,1,< (Precedes),False,finalizing their menu,the modified cart was delivered
+E3,E6,1,< (Precedes),False,finalizing their menu,painting the exterior and installing the cooking equipment
+E3,E7,1,< (Precedes),False,finalizing their menu,securing a reliable supply chain for fresh ingredients
+E3,E8,1,< (Precedes),False,finalizing their menu,open for their first lunch service
+E3,E9,-1,> (Preceded By),False,finalizing their menu,visiting government offices
+E3,E10,0,= (Equal),False,finalizing their menu,custom modifications to the cart
+E3,E11,5,d (During),False,finalizing their menu,to become operationa
+E4,E1,-2,mi (Met By),False,testing recipes,securing the necessary municipal permits
+E4,E2,-4,si (Started By),False,testing recipes,finalized a purchase
+E4,E3,0,= (Equal),False,testing recipes,finalizing their menu
+E4,E5,1,< (Precedes),False,testing recipes,the modified cart was delivered
+E4,E6,1,< (Precedes),False,testing recipes,painting the exterior and installing the cooking equipment
+E4,E7,1,< (Precedes),False,testing recipes,securing a reliable supply chain for fresh ingredients
+E4,E8,1,< (Precedes),False,testing recipes,open for their first lunch service
+E4,E9,-1,> (Preceded By),False,testing recipes,visiting government offices
+E4,E10,0,= (Equal),False,testing recipes,custom modifications to the cart
+E4,E11,5,d (During),False,testing recipes,to become operationa
+E5,E1,-1,> (Preceded By),False,the modified cart was delivered,securing the necessary municipal permits
+E5,E2,-1,> (Preceded By),False,the modified cart was delivered,finalized a purchase
+E5,E3,-1,> (Preceded By),False,the modified cart was delivered,finalizing their menu
+E5,E4,-1,> (Preceded By),False,the modified cart was delivered,testing recipes
+E5,E6,4,s (Starts),False,the modified cart was delivered,painting the exterior and installing the cooking equipment
+E5,E7,1,< (Precedes),False,the modified cart was delivered,securing a reliable supply chain for fresh ingredients
+E5,E8,1,< (Precedes),False,the modified cart was delivered,open for their first lunch service
+E5,E9,-1,> (Preceded By),False,the modified cart was delivered,visiting government offices
+E5,E10,-1,> (Preceded By),False,the modified cart was delivered,custom modifications to the cart
+E5,E11,5,d (During),False,the modified cart was delivered,to become operationa
+E6,E1,-1,> (Preceded By),False,painting the exterior and installing the cooking equipment,securing the necessary municipal permits
+E6,E2,-1,> (Preceded By),False,painting the exterior and installing the cooking equipment,finalized a purchase
+E6,E3,-1,> (Preceded By),False,painting the exterior and installing the cooking equipment,finalizing their menu
+E6,E4,-1,> (Preceded By),False,painting the exterior and installing the cooking equipment,testing recipes
+E6,E5,-4,si (Started By),False,painting the exterior and installing the cooking equipment,the modified cart was delivered
+E6,E7,2,m (Meets),False,painting the exterior and installing the cooking equipment,securing a reliable supply chain for fresh ingredients
+E6,E8,1,< (Precedes),False,painting the exterior and installing the cooking equipment,open for their first lunch service
+E6,E9,-1,> (Preceded By),False,painting the exterior and installing the cooking equipment,visiting government offices
+E6,E10,-1,> (Preceded By),False,painting the exterior and installing the cooking equipment,custom modifications to the cart
+E6,E11,5,d (During),False,painting the exterior and installing the cooking equipment,to become operationa
+E7,E1,-1,> (Preceded By),False,securing a reliable supply chain for fresh ingredients,securing the necessary municipal permits
+E7,E2,-1,> (Preceded By),False,securing a reliable supply chain for fresh ingredients,finalized a purchase
+E7,E3,-1,> (Preceded By),False,securing a reliable supply chain for fresh ingredients,finalizing their menu
+E7,E4,-1,> (Preceded By),False,securing a reliable supply chain for fresh ingredients,testing recipes
+E7,E5,-1,> (Preceded By),False,securing a reliable supply chain for fresh ingredients,the modified cart was delivered
+E7,E6,-2,mi (Met By),False,securing a reliable supply chain for fresh ingredients,painting the exterior and installing the cooking equipment
+E7,E8,2,m (Meets),False,securing a reliable supply chain for fresh ingredients,open for their first lunch service
+E7,E9,-1,> (Preceded By),False,securing a reliable supply chain for fresh ingredients,visiting government offices
+E7,E10,-1,> (Preceded By),False,securing a reliable supply chain for fresh ingredients,custom modifications to the cart
+E7,E11,6,f (Finishes),False,securing a reliable supply chain for fresh ingredients,to become operationa
+E8,E1,-1,> (Preceded By),False,open for their first lunch service,securing the necessary municipal permits
+E8,E2,-1,> (Preceded By),False,open for their first lunch service,finalized a purchase
+E8,E3,-1,> (Preceded By),False,open for their first lunch service,finalizing their menu
+E8,E4,-1,> (Preceded By),False,open for their first lunch service,testing recipes
+E8,E5,-1,> (Preceded By),False,open for their first lunch service,the modified cart was delivered
+E8,E6,-1,> (Preceded By),False,open for their first lunch service,painting the exterior and installing the cooking equipment
+E8,E7,-2,mi (Met By),False,open for their first lunch service,securing a reliable supply chain for fresh ingredients
+E8,E9,-1,> (Preceded By),False,open for their first lunch service,visiting government offices
+E8,E10,-1,> (Preceded By),False,open for their first lunch service,custom modifications to the cart
+E8,E11,-2,mi (Met By),False,open for their first lunch service,to become operationa
+E9,E1,4,s (Starts),False,visiting government offices,securing the necessary municipal permits
+E9,E2,1,< (Precedes),False,visiting government offices,finalized a purchase
+E9,E3,1,< (Precedes),False,visiting government offices,finalizing their menu
+E9,E4,1,< (Precedes),False,visiting government offices,testing recipes
+E9,E5,1,< (Precedes),False,visiting government offices,the modified cart was delivered
+E9,E6,1,< (Precedes),False,visiting government offices,painting the exterior and installing the cooking equipment
+E9,E7,1,< (Precedes),False,visiting government offices,securing a reliable supply chain for fresh ingredients
+E9,E8,1,< (Precedes),False,visiting government offices,open for their first lunch service
+E9,E10,1,< (Precedes),False,visiting government offices,custom modifications to the cart
+E9,E11,4,s (Starts),False,visiting government offices,to become operationa
+E10,E1,-2,mi (Met By),False,custom modifications to the cart,securing the necessary municipal permits
+E10,E2,-4,si (Started By),False,custom modifications to the cart,finalized a purchase
+E10,E3,0,= (Equal),False,custom modifications to the cart,finalizing their menu
+E10,E4,0,= (Equal),False,custom modifications to the cart,testing recipes
+E10,E5,1,< (Precedes),False,custom modifications to the cart,the modified cart was delivered
+E10,E6,1,< (Precedes),False,custom modifications to the cart,painting the exterior and installing the cooking equipment
+E10,E7,1,< (Precedes),False,custom modifications to the cart,securing a reliable supply chain for fresh ingredients
+E10,E8,1,< (Precedes),False,custom modifications to the cart,open for their first lunch service
+E10,E9,-1,> (Preceded By),False,custom modifications to the cart,visiting government offices
+E10,E11,5,d (During),False,custom modifications to the cart,to become operationa
+E11,E1,-4,si (Started By),False,to become operationa,securing the necessary municipal permits
+E11,E2,-5,di (Contains),False,to become operationa,finalized a purchase
+E11,E3,-5,di (Contains),False,to become operationa,finalizing their menu
+E11,E4,-5,di (Contains),False,to become operationa,testing recipes
+E11,E5,-5,di (Contains),False,to become operationa,the modified cart was delivered
+E11,E6,-5,di (Contains),False,to become operationa,painting the exterior and installing the cooking equipment
+E11,E7,-6,fi (Finished By),False,to become operationa,securing a reliable supply chain for fresh ingredients
+E11,E8,2,m (Meets),False,to become operationa,open for their first lunch service
+E11,E9,-4,si (Started By),False,to become operationa,visiting government offices
+E11,E10,-5,di (Contains),False,to become operationa,custom modifications to the cart

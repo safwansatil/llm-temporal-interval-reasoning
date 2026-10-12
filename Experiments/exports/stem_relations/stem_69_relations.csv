@@ -1,0 +1,157 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-2,mi (Met By),False,studied in her second year at university,short story published in 1950
+E1,E3,1,< (Precedes),False,studied in her second year at university,joined in Dhaka
+E1,E4,1,< (Precedes),False,studied in her second year at university,corresponding with a pen pal in Japan for two years
+E1,E5,1,< (Precedes),False,studied in her second year at university,monsoon damage
+E1,E6,1,< (Precedes),False,studied in her second year at university,road diversion set up
+E1,E7,1,< (Precedes),False,studied in her second year at university,visiting Bangladesh for two weeks in December
+E1,E8,1,< (Precedes),False,studied in her second year at university,Hana volunteered to show her parts of Dhaka
+E1,E9,1,< (Precedes),False,studied in her second year at university,her pen pal arrived
+E1,E10,1,< (Precedes),False,studied in her second year at university,Hana took leave from her teaching job
+E1,E11,1,< (Precedes),False,studied in her second year at university,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E1,E12,1,< (Precedes),False,studied in her second year at university,took a bus to Sonargaon
+E1,E13,1,< (Precedes),False,studied in her second year at university,stood for a long time in front of an exhibit on nakshikantha quilting
+E2,E1,2,m (Meets),False,short story published in 1950,studied in her second year at university
+E2,E3,1,< (Precedes),False,short story published in 1950,joined in Dhaka
+E2,E4,1,< (Precedes),False,short story published in 1950,corresponding with a pen pal in Japan for two years
+E2,E5,1,< (Precedes),False,short story published in 1950,monsoon damage
+E2,E6,1,< (Precedes),False,short story published in 1950,road diversion set up
+E2,E7,1,< (Precedes),False,short story published in 1950,visiting Bangladesh for two weeks in December
+E2,E8,1,< (Precedes),False,short story published in 1950,Hana volunteered to show her parts of Dhaka
+E2,E9,1,< (Precedes),False,short story published in 1950,her pen pal arrived
+E2,E10,1,< (Precedes),False,short story published in 1950,Hana took leave from her teaching job
+E2,E11,1,< (Precedes),False,short story published in 1950,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E2,E12,1,< (Precedes),False,short story published in 1950,took a bus to Sonargaon
+E2,E13,1,< (Precedes),False,short story published in 1950,stood for a long time in front of an exhibit on nakshikantha quilting
+E3,E1,-1,> (Preceded By),False,joined in Dhaka,studied in her second year at university
+E3,E2,-1,> (Preceded By),False,joined in Dhaka,short story published in 1950
+E3,E4,4,s (Starts),False,joined in Dhaka,corresponding with a pen pal in Japan for two years
+E3,E5,1,< (Precedes),False,joined in Dhaka,monsoon damage
+E3,E6,1,< (Precedes),False,joined in Dhaka,road diversion set up
+E3,E7,1,< (Precedes),False,joined in Dhaka,visiting Bangladesh for two weeks in December
+E3,E8,1,< (Precedes),False,joined in Dhaka,Hana volunteered to show her parts of Dhaka
+E3,E9,1,< (Precedes),False,joined in Dhaka,her pen pal arrived
+E3,E10,1,< (Precedes),False,joined in Dhaka,Hana took leave from her teaching job
+E3,E11,1,< (Precedes),False,joined in Dhaka,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E3,E12,1,< (Precedes),False,joined in Dhaka,took a bus to Sonargaon
+E3,E13,1,< (Precedes),False,joined in Dhaka,stood for a long time in front of an exhibit on nakshikantha quilting
+E4,E1,-1,> (Preceded By),False,corresponding with a pen pal in Japan for two years,studied in her second year at university
+E4,E2,-1,> (Preceded By),False,corresponding with a pen pal in Japan for two years,short story published in 1950
+E4,E3,-4,si (Started By),False,corresponding with a pen pal in Japan for two years,joined in Dhaka
+E4,E5,-5,di (Contains),False,corresponding with a pen pal in Japan for two years,monsoon damage
+E4,E6,3,o (Overlaps),False,corresponding with a pen pal in Japan for two years,road diversion set up
+E4,E7,2,m (Meets),False,corresponding with a pen pal in Japan for two years,visiting Bangladesh for two weeks in December
+E4,E8,-5,di (Contains),False,corresponding with a pen pal in Japan for two years,Hana volunteered to show her parts of Dhaka
+E4,E9,2,m (Meets),False,corresponding with a pen pal in Japan for two years,her pen pal arrived
+E4,E10,1,< (Precedes),False,corresponding with a pen pal in Japan for two years,Hana took leave from her teaching job
+E4,E11,1,< (Precedes),False,corresponding with a pen pal in Japan for two years,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E4,E12,1,< (Precedes),False,corresponding with a pen pal in Japan for two years,took a bus to Sonargaon
+E4,E13,1,< (Precedes),False,corresponding with a pen pal in Japan for two years,stood for a long time in front of an exhibit on nakshikantha quilting
+E5,E1,-1,> (Preceded By),False,monsoon damage,studied in her second year at university
+E5,E2,-1,> (Preceded By),False,monsoon damage,short story published in 1950
+E5,E3,-1,> (Preceded By),False,monsoon damage,joined in Dhaka
+E5,E4,5,d (During),False,monsoon damage,corresponding with a pen pal in Japan for two years
+E5,E6,1,< (Precedes),False,monsoon damage,road diversion set up
+E5,E7,1,< (Precedes),False,monsoon damage,visiting Bangladesh for two weeks in December
+E5,E8,-2,mi (Met By),False,monsoon damage,Hana volunteered to show her parts of Dhaka
+E5,E9,1,< (Precedes),False,monsoon damage,her pen pal arrived
+E5,E10,1,< (Precedes),False,monsoon damage,Hana took leave from her teaching job
+E5,E11,1,< (Precedes),False,monsoon damage,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E5,E12,1,< (Precedes),False,monsoon damage,took a bus to Sonargaon
+E5,E13,1,< (Precedes),False,monsoon damage,stood for a long time in front of an exhibit on nakshikantha quilting
+E6,E1,-1,> (Preceded By),False,road diversion set up,studied in her second year at university
+E6,E2,-1,> (Preceded By),False,road diversion set up,short story published in 1950
+E6,E3,-1,> (Preceded By),False,road diversion set up,joined in Dhaka
+E6,E4,-3,oi (Overlapped By),False,road diversion set up,corresponding with a pen pal in Japan for two years
+E6,E5,-1,> (Preceded By),False,road diversion set up,monsoon damage
+E6,E7,3,o (Overlaps),False,road diversion set up,visiting Bangladesh for two weeks in December
+E6,E8,-1,> (Preceded By),False,road diversion set up,Hana volunteered to show her parts of Dhaka
+E6,E9,3,o (Overlaps),False,road diversion set up,her pen pal arrived
+E6,E10,3,o (Overlaps),False,road diversion set up,Hana took leave from her teaching job
+E6,E11,-6,fi (Finished By),False,road diversion set up,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E6,E12,2,m (Meets),False,road diversion set up,took a bus to Sonargaon
+E6,E13,1,< (Precedes),False,road diversion set up,stood for a long time in front of an exhibit on nakshikantha quilting
+E7,E1,-1,> (Preceded By),False,visiting Bangladesh for two weeks in December,studied in her second year at university
+E7,E2,-1,> (Preceded By),False,visiting Bangladesh for two weeks in December,short story published in 1950
+E7,E3,-1,> (Preceded By),False,visiting Bangladesh for two weeks in December,joined in Dhaka
+E7,E4,-2,mi (Met By),False,visiting Bangladesh for two weeks in December,corresponding with a pen pal in Japan for two years
+E7,E5,-1,> (Preceded By),False,visiting Bangladesh for two weeks in December,monsoon damage
+E7,E6,-3,oi (Overlapped By),False,visiting Bangladesh for two weeks in December,road diversion set up
+E7,E8,-1,> (Preceded By),False,visiting Bangladesh for two weeks in December,Hana volunteered to show her parts of Dhaka
+E7,E9,-4,si (Started By),False,visiting Bangladesh for two weeks in December,her pen pal arrived
+E7,E10,-5,di (Contains),False,visiting Bangladesh for two weeks in December,Hana took leave from her teaching job
+E7,E11,-5,di (Contains),False,visiting Bangladesh for two weeks in December,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E7,E12,-5,di (Contains),False,visiting Bangladesh for two weeks in December,took a bus to Sonargaon
+E7,E13,-5,di (Contains),False,visiting Bangladesh for two weeks in December,stood for a long time in front of an exhibit on nakshikantha quilting
+E8,E1,-1,> (Preceded By),False,Hana volunteered to show her parts of Dhaka,studied in her second year at university
+E8,E2,-1,> (Preceded By),False,Hana volunteered to show her parts of Dhaka,short story published in 1950
+E8,E3,-1,> (Preceded By),False,Hana volunteered to show her parts of Dhaka,joined in Dhaka
+E8,E4,5,d (During),False,Hana volunteered to show her parts of Dhaka,corresponding with a pen pal in Japan for two years
+E8,E5,2,m (Meets),False,Hana volunteered to show her parts of Dhaka,monsoon damage
+E8,E6,1,< (Precedes),False,Hana volunteered to show her parts of Dhaka,road diversion set up
+E8,E7,1,< (Precedes),False,Hana volunteered to show her parts of Dhaka,visiting Bangladesh for two weeks in December
+E8,E9,1,< (Precedes),False,Hana volunteered to show her parts of Dhaka,her pen pal arrived
+E8,E10,1,< (Precedes),False,Hana volunteered to show her parts of Dhaka,Hana took leave from her teaching job
+E8,E11,1,< (Precedes),False,Hana volunteered to show her parts of Dhaka,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E8,E12,1,< (Precedes),False,Hana volunteered to show her parts of Dhaka,took a bus to Sonargaon
+E8,E13,1,< (Precedes),False,Hana volunteered to show her parts of Dhaka,stood for a long time in front of an exhibit on nakshikantha quilting
+E9,E1,-1,> (Preceded By),False,her pen pal arrived,studied in her second year at university
+E9,E2,-1,> (Preceded By),False,her pen pal arrived,short story published in 1950
+E9,E3,-1,> (Preceded By),False,her pen pal arrived,joined in Dhaka
+E9,E4,-2,mi (Met By),False,her pen pal arrived,corresponding with a pen pal in Japan for two years
+E9,E5,-1,> (Preceded By),False,her pen pal arrived,monsoon damage
+E9,E6,-3,oi (Overlapped By),False,her pen pal arrived,road diversion set up
+E9,E7,4,s (Starts),False,her pen pal arrived,visiting Bangladesh for two weeks in December
+E9,E8,-1,> (Preceded By),False,her pen pal arrived,Hana volunteered to show her parts of Dhaka
+E9,E10,-5,di (Contains),False,her pen pal arrived,Hana took leave from her teaching job
+E9,E11,-5,di (Contains),False,her pen pal arrived,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E9,E12,-5,di (Contains),False,her pen pal arrived,took a bus to Sonargaon
+E9,E13,3,o (Overlaps),False,her pen pal arrived,stood for a long time in front of an exhibit on nakshikantha quilting
+E10,E1,-1,> (Preceded By),False,Hana took leave from her teaching job,studied in her second year at university
+E10,E2,-1,> (Preceded By),False,Hana took leave from her teaching job,short story published in 1950
+E10,E3,-1,> (Preceded By),False,Hana took leave from her teaching job,joined in Dhaka
+E10,E4,-1,> (Preceded By),False,Hana took leave from her teaching job,corresponding with a pen pal in Japan for two years
+E10,E5,-1,> (Preceded By),False,Hana took leave from her teaching job,monsoon damage
+E10,E6,-3,oi (Overlapped By),False,Hana took leave from her teaching job,road diversion set up
+E10,E7,5,d (During),False,Hana took leave from her teaching job,visiting Bangladesh for two weeks in December
+E10,E8,-1,> (Preceded By),False,Hana took leave from her teaching job,Hana volunteered to show her parts of Dhaka
+E10,E9,5,d (During),False,Hana took leave from her teaching job,her pen pal arrived
+E10,E11,-4,si (Started By),False,Hana took leave from her teaching job,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E10,E12,-5,di (Contains),False,Hana took leave from her teaching job,took a bus to Sonargaon
+E10,E13,3,o (Overlaps),False,Hana took leave from her teaching job,stood for a long time in front of an exhibit on nakshikantha quilting
+E11,E1,-1,> (Preceded By),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,studied in her second year at university
+E11,E2,-1,> (Preceded By),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,short story published in 1950
+E11,E3,-1,> (Preceded By),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,joined in Dhaka
+E11,E4,-1,> (Preceded By),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,corresponding with a pen pal in Japan for two years
+E11,E5,-1,> (Preceded By),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,monsoon damage
+E11,E6,6,f (Finishes),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,road diversion set up
+E11,E7,5,d (During),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,visiting Bangladesh for two weeks in December
+E11,E8,-1,> (Preceded By),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,Hana volunteered to show her parts of Dhaka
+E11,E9,5,d (During),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,her pen pal arrived
+E11,E10,4,s (Starts),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,Hana took leave from her teaching job
+E11,E12,2,m (Meets),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,took a bus to Sonargaon
+E11,E13,1,< (Precedes),False,visited the Sadarghat riverfront and the Armenian Church in Armanitola,stood for a long time in front of an exhibit on nakshikantha quilting
+E12,E1,-1,> (Preceded By),False,took a bus to Sonargaon,studied in her second year at university
+E12,E2,-1,> (Preceded By),False,took a bus to Sonargaon,short story published in 1950
+E12,E3,-1,> (Preceded By),False,took a bus to Sonargaon,joined in Dhaka
+E12,E4,-1,> (Preceded By),False,took a bus to Sonargaon,corresponding with a pen pal in Japan for two years
+E12,E5,-1,> (Preceded By),False,took a bus to Sonargaon,monsoon damage
+E12,E6,-2,mi (Met By),False,took a bus to Sonargaon,road diversion set up
+E12,E7,5,d (During),False,took a bus to Sonargaon,visiting Bangladesh for two weeks in December
+E12,E8,-1,> (Preceded By),False,took a bus to Sonargaon,Hana volunteered to show her parts of Dhaka
+E12,E9,5,d (During),False,took a bus to Sonargaon,her pen pal arrived
+E12,E10,5,d (During),False,took a bus to Sonargaon,Hana took leave from her teaching job
+E12,E11,-2,mi (Met By),False,took a bus to Sonargaon,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E12,E13,2,m (Meets),False,took a bus to Sonargaon,stood for a long time in front of an exhibit on nakshikantha quilting
+E13,E1,-1,> (Preceded By),False,stood for a long time in front of an exhibit on nakshikantha quilting,studied in her second year at university
+E13,E2,-1,> (Preceded By),False,stood for a long time in front of an exhibit on nakshikantha quilting,short story published in 1950
+E13,E3,-1,> (Preceded By),False,stood for a long time in front of an exhibit on nakshikantha quilting,joined in Dhaka
+E13,E4,-1,> (Preceded By),False,stood for a long time in front of an exhibit on nakshikantha quilting,corresponding with a pen pal in Japan for two years
+E13,E5,-1,> (Preceded By),False,stood for a long time in front of an exhibit on nakshikantha quilting,monsoon damage
+E13,E6,-1,> (Preceded By),False,stood for a long time in front of an exhibit on nakshikantha quilting,road diversion set up
+E13,E7,5,d (During),False,stood for a long time in front of an exhibit on nakshikantha quilting,visiting Bangladesh for two weeks in December
+E13,E8,-1,> (Preceded By),False,stood for a long time in front of an exhibit on nakshikantha quilting,Hana volunteered to show her parts of Dhaka
+E13,E9,-3,oi (Overlapped By),False,stood for a long time in front of an exhibit on nakshikantha quilting,her pen pal arrived
+E13,E10,-3,oi (Overlapped By),False,stood for a long time in front of an exhibit on nakshikantha quilting,Hana took leave from her teaching job
+E13,E11,-1,> (Preceded By),False,stood for a long time in front of an exhibit on nakshikantha quilting,visited the Sadarghat riverfront and the Armenian Church in Armanitola
+E13,E12,-2,mi (Met By),False,stood for a long time in front of an exhibit on nakshikantha quilting,took a bus to Sonargaon

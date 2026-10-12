@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,lived through as a child in Demra,sharing a studio in Eskaton
+E1,E3,1,< (Precedes),False,lived through as a child in Demra,trying to sell work through a Dhaka gallery
+E1,E4,1,< (Precedes),False,lived through as a child in Demra,applied for the residency
+E1,E5,1,< (Precedes),False,lived through as a child in Demra,visiting his aunt
+E1,E6,1,< (Precedes),False,lived through as a child in Demra,The acceptance letter had come
+E1,E7,1,< (Precedes),False,lived through as a child in Demra,started three months ago
+E1,E8,1,< (Precedes),False,lived through as a child in Demra,eaten at the same Turkish restaurant
+E1,E9,1,< (Precedes),False,lived through as a child in Demra,working in Berlin on a large-scale mixed media series
+E1,E10,1,< (Precedes),False,lived through as a child in Demra,ran a short profile on him and the residency program
+E1,E11,1,< (Precedes),False,lived through as a child in Demra,heard about the article
+E1,E12,1,< (Precedes),False,lived through as a child in Demra,due to return to Dhaka
+E2,E1,-1,> (Preceded By),False,sharing a studio in Eskaton,lived through as a child in Demra
+E2,E3,0,= (Equal),False,sharing a studio in Eskaton,trying to sell work through a Dhaka gallery
+E2,E4,2,m (Meets),False,sharing a studio in Eskaton,applied for the residency
+E2,E5,1,< (Precedes),False,sharing a studio in Eskaton,visiting his aunt
+E2,E6,1,< (Precedes),False,sharing a studio in Eskaton,The acceptance letter had come
+E2,E7,1,< (Precedes),False,sharing a studio in Eskaton,started three months ago
+E2,E8,1,< (Precedes),False,sharing a studio in Eskaton,eaten at the same Turkish restaurant
+E2,E9,1,< (Precedes),False,sharing a studio in Eskaton,working in Berlin on a large-scale mixed media series
+E2,E10,1,< (Precedes),False,sharing a studio in Eskaton,ran a short profile on him and the residency program
+E2,E11,1,< (Precedes),False,sharing a studio in Eskaton,heard about the article
+E2,E12,1,< (Precedes),False,sharing a studio in Eskaton,due to return to Dhaka
+E3,E1,-1,> (Preceded By),False,trying to sell work through a Dhaka gallery,lived through as a child in Demra
+E3,E2,0,= (Equal),False,trying to sell work through a Dhaka gallery,sharing a studio in Eskaton
+E3,E4,2,m (Meets),False,trying to sell work through a Dhaka gallery,applied for the residency
+E3,E5,1,< (Precedes),False,trying to sell work through a Dhaka gallery,visiting his aunt
+E3,E6,1,< (Precedes),False,trying to sell work through a Dhaka gallery,The acceptance letter had come
+E3,E7,1,< (Precedes),False,trying to sell work through a Dhaka gallery,started three months ago
+E3,E8,1,< (Precedes),False,trying to sell work through a Dhaka gallery,eaten at the same Turkish restaurant
+E3,E9,1,< (Precedes),False,trying to sell work through a Dhaka gallery,working in Berlin on a large-scale mixed media series
+E3,E10,1,< (Precedes),False,trying to sell work through a Dhaka gallery,ran a short profile on him and the residency program
+E3,E11,1,< (Precedes),False,trying to sell work through a Dhaka gallery,heard about the article
+E3,E12,1,< (Precedes),False,trying to sell work through a Dhaka gallery,due to return to Dhaka
+E4,E1,-1,> (Preceded By),False,applied for the residency,lived through as a child in Demra
+E4,E2,-2,mi (Met By),False,applied for the residency,sharing a studio in Eskaton
+E4,E3,-2,mi (Met By),False,applied for the residency,trying to sell work through a Dhaka gallery
+E4,E5,1,< (Precedes),False,applied for the residency,visiting his aunt
+E4,E6,1,< (Precedes),False,applied for the residency,The acceptance letter had come
+E4,E7,1,< (Precedes),False,applied for the residency,started three months ago
+E4,E8,1,< (Precedes),False,applied for the residency,eaten at the same Turkish restaurant
+E4,E9,1,< (Precedes),False,applied for the residency,working in Berlin on a large-scale mixed media series
+E4,E10,1,< (Precedes),False,applied for the residency,ran a short profile on him and the residency program
+E4,E11,1,< (Precedes),False,applied for the residency,heard about the article
+E4,E12,1,< (Precedes),False,applied for the residency,due to return to Dhaka
+E5,E1,-1,> (Preceded By),False,visiting his aunt,lived through as a child in Demra
+E5,E2,-1,> (Preceded By),False,visiting his aunt,sharing a studio in Eskaton
+E5,E3,-1,> (Preceded By),False,visiting his aunt,trying to sell work through a Dhaka gallery
+E5,E4,-1,> (Preceded By),False,visiting his aunt,applied for the residency
+E5,E6,0,= (Equal),False,visiting his aunt,The acceptance letter had come
+E5,E7,1,< (Precedes),False,visiting his aunt,started three months ago
+E5,E8,1,< (Precedes),False,visiting his aunt,eaten at the same Turkish restaurant
+E5,E9,1,< (Precedes),False,visiting his aunt,working in Berlin on a large-scale mixed media series
+E5,E10,1,< (Precedes),False,visiting his aunt,ran a short profile on him and the residency program
+E5,E11,1,< (Precedes),False,visiting his aunt,heard about the article
+E5,E12,1,< (Precedes),False,visiting his aunt,due to return to Dhaka
+E6,E1,-1,> (Preceded By),False,The acceptance letter had come,lived through as a child in Demra
+E6,E2,-1,> (Preceded By),False,The acceptance letter had come,sharing a studio in Eskaton
+E6,E3,-1,> (Preceded By),False,The acceptance letter had come,trying to sell work through a Dhaka gallery
+E6,E4,-1,> (Preceded By),False,The acceptance letter had come,applied for the residency
+E6,E5,0,= (Equal),False,The acceptance letter had come,visiting his aunt
+E6,E7,1,< (Precedes),False,The acceptance letter had come,started three months ago
+E6,E8,1,< (Precedes),False,The acceptance letter had come,eaten at the same Turkish restaurant
+E6,E9,1,< (Precedes),False,The acceptance letter had come,working in Berlin on a large-scale mixed media series
+E6,E10,1,< (Precedes),False,The acceptance letter had come,ran a short profile on him and the residency program
+E6,E11,1,< (Precedes),False,The acceptance letter had come,heard about the article
+E6,E12,1,< (Precedes),False,The acceptance letter had come,due to return to Dhaka
+E7,E1,-1,> (Preceded By),False,started three months ago,lived through as a child in Demra
+E7,E2,-1,> (Preceded By),False,started three months ago,sharing a studio in Eskaton
+E7,E3,-1,> (Preceded By),False,started three months ago,trying to sell work through a Dhaka gallery
+E7,E4,-1,> (Preceded By),False,started three months ago,applied for the residency
+E7,E5,-1,> (Preceded By),False,started three months ago,visiting his aunt
+E7,E6,-1,> (Preceded By),False,started three months ago,The acceptance letter had come
+E7,E8,4,s (Starts),False,started three months ago,eaten at the same Turkish restaurant
+E7,E9,4,s (Starts),False,started three months ago,working in Berlin on a large-scale mixed media series
+E7,E10,1,< (Precedes),False,started three months ago,ran a short profile on him and the residency program
+E7,E11,1,< (Precedes),False,started three months ago,heard about the article
+E7,E12,1,< (Precedes),False,started three months ago,due to return to Dhaka
+E8,E1,-1,> (Preceded By),False,eaten at the same Turkish restaurant,lived through as a child in Demra
+E8,E2,-1,> (Preceded By),False,eaten at the same Turkish restaurant,sharing a studio in Eskaton
+E8,E3,-1,> (Preceded By),False,eaten at the same Turkish restaurant,trying to sell work through a Dhaka gallery
+E8,E4,-1,> (Preceded By),False,eaten at the same Turkish restaurant,applied for the residency
+E8,E5,-1,> (Preceded By),False,eaten at the same Turkish restaurant,visiting his aunt
+E8,E6,-1,> (Preceded By),False,eaten at the same Turkish restaurant,The acceptance letter had come
+E8,E7,-4,si (Started By),False,eaten at the same Turkish restaurant,started three months ago
+E8,E9,0,= (Equal),False,eaten at the same Turkish restaurant,working in Berlin on a large-scale mixed media series
+E8,E10,-5,di (Contains),False,eaten at the same Turkish restaurant,ran a short profile on him and the residency program
+E8,E11,-5,di (Contains),False,eaten at the same Turkish restaurant,heard about the article
+E8,E12,1,< (Precedes),False,eaten at the same Turkish restaurant,due to return to Dhaka
+E9,E1,-1,> (Preceded By),False,working in Berlin on a large-scale mixed media series,lived through as a child in Demra
+E9,E2,-1,> (Preceded By),False,working in Berlin on a large-scale mixed media series,sharing a studio in Eskaton
+E9,E3,-1,> (Preceded By),False,working in Berlin on a large-scale mixed media series,trying to sell work through a Dhaka gallery
+E9,E4,-1,> (Preceded By),False,working in Berlin on a large-scale mixed media series,applied for the residency
+E9,E5,-1,> (Preceded By),False,working in Berlin on a large-scale mixed media series,visiting his aunt
+E9,E6,-1,> (Preceded By),False,working in Berlin on a large-scale mixed media series,The acceptance letter had come
+E9,E7,-4,si (Started By),False,working in Berlin on a large-scale mixed media series,started three months ago
+E9,E8,0,= (Equal),False,working in Berlin on a large-scale mixed media series,eaten at the same Turkish restaurant
+E9,E10,-5,di (Contains),False,working in Berlin on a large-scale mixed media series,ran a short profile on him and the residency program
+E9,E11,-5,di (Contains),False,working in Berlin on a large-scale mixed media series,heard about the article
+E9,E12,1,< (Precedes),False,working in Berlin on a large-scale mixed media series,due to return to Dhaka
+E10,E1,-1,> (Preceded By),False,ran a short profile on him and the residency program,lived through as a child in Demra
+E10,E2,-1,> (Preceded By),False,ran a short profile on him and the residency program,sharing a studio in Eskaton
+E10,E3,-1,> (Preceded By),False,ran a short profile on him and the residency program,trying to sell work through a Dhaka gallery
+E10,E4,-1,> (Preceded By),False,ran a short profile on him and the residency program,applied for the residency
+E10,E5,-1,> (Preceded By),False,ran a short profile on him and the residency program,visiting his aunt
+E10,E6,-1,> (Preceded By),False,ran a short profile on him and the residency program,The acceptance letter had come
+E10,E7,-1,> (Preceded By),False,ran a short profile on him and the residency program,started three months ago
+E10,E8,5,d (During),False,ran a short profile on him and the residency program,eaten at the same Turkish restaurant
+E10,E9,5,d (During),False,ran a short profile on him and the residency program,working in Berlin on a large-scale mixed media series
+E10,E11,1,< (Precedes),False,ran a short profile on him and the residency program,heard about the article
+E10,E12,1,< (Precedes),False,ran a short profile on him and the residency program,due to return to Dhaka
+E11,E1,-1,> (Preceded By),False,heard about the article,lived through as a child in Demra
+E11,E2,-1,> (Preceded By),False,heard about the article,sharing a studio in Eskaton
+E11,E3,-1,> (Preceded By),False,heard about the article,trying to sell work through a Dhaka gallery
+E11,E4,-1,> (Preceded By),False,heard about the article,applied for the residency
+E11,E5,-1,> (Preceded By),False,heard about the article,visiting his aunt
+E11,E6,-1,> (Preceded By),False,heard about the article,The acceptance letter had come
+E11,E7,-1,> (Preceded By),False,heard about the article,started three months ago
+E11,E8,5,d (During),False,heard about the article,eaten at the same Turkish restaurant
+E11,E9,5,d (During),False,heard about the article,working in Berlin on a large-scale mixed media series
+E11,E10,-1,> (Preceded By),False,heard about the article,ran a short profile on him and the residency program
+E11,E12,1,< (Precedes),False,heard about the article,due to return to Dhaka
+E12,E1,-1,> (Preceded By),False,due to return to Dhaka,lived through as a child in Demra
+E12,E2,-1,> (Preceded By),False,due to return to Dhaka,sharing a studio in Eskaton
+E12,E3,-1,> (Preceded By),False,due to return to Dhaka,trying to sell work through a Dhaka gallery
+E12,E4,-1,> (Preceded By),False,due to return to Dhaka,applied for the residency
+E12,E5,-1,> (Preceded By),False,due to return to Dhaka,visiting his aunt
+E12,E6,-1,> (Preceded By),False,due to return to Dhaka,The acceptance letter had come
+E12,E7,-1,> (Preceded By),False,due to return to Dhaka,started three months ago
+E12,E8,-1,> (Preceded By),False,due to return to Dhaka,eaten at the same Turkish restaurant
+E12,E9,-1,> (Preceded By),False,due to return to Dhaka,working in Berlin on a large-scale mixed media series
+E12,E10,-1,> (Preceded By),False,due to return to Dhaka,ran a short profile on him and the residency program
+E12,E11,-1,> (Preceded By),False,due to return to Dhaka,heard about the article

@@ -1,0 +1,157 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,The colony had lived under the same flagstone,The queen was in her seventh year
+E1,E3,-5,di (Contains),False,The colony had lived under the same flagstone,A myrmecologist marked a hundred workers with paint and followed them for a season
+E1,E4,-5,di (Contains),False,The colony had lived under the same flagstone,A dog dug into the nest
+E1,E5,-5,di (Contains),False,The colony had lived under the same flagstone,the first defenders emerged
+E1,E6,-5,di (Contains),False,The colony had lived under the same flagstone,the nursery was evacuated to a lower chamber
+E1,E7,-5,di (Contains),False,The colony had lived under the same flagstone,the entrance was resealed
+E1,E8,-5,di (Contains),False,The colony had lived under the same flagstone,The destruction lasted less than two hours
+E1,E9,-5,di (Contains),False,The colony had lived under the same flagstone,The colony rebuilt over the next eleven days
+E1,E10,-5,di (Contains),False,The colony had lived under the same flagstone,The myrmecologist published a paper on their resilience
+E1,E11,-5,di (Contains),False,The colony had lived under the same flagstone,the original queen had died and been replaced
+E1,E12,-5,di (Contains),False,The colony had lived under the same flagstone,The flagstone was lifted during a home renovation
+E1,E13,2,m (Meets),False,The colony had lived under the same flagstone,The ants were gone
+E2,E1,5,d (During),False,The queen was in her seventh year,The colony had lived under the same flagstone
+E2,E3,-4,si (Started By),False,The queen was in her seventh year,A myrmecologist marked a hundred workers with paint and followed them for a season
+E2,E4,-5,di (Contains),False,The queen was in her seventh year,A dog dug into the nest
+E2,E5,-5,di (Contains),False,The queen was in her seventh year,the first defenders emerged
+E2,E6,-5,di (Contains),False,The queen was in her seventh year,the nursery was evacuated to a lower chamber
+E2,E7,-5,di (Contains),False,The queen was in her seventh year,the entrance was resealed
+E2,E8,-5,di (Contains),False,The queen was in her seventh year,The destruction lasted less than two hours
+E2,E9,-5,di (Contains),False,The queen was in her seventh year,The colony rebuilt over the next eleven days
+E2,E10,-5,di (Contains),False,The queen was in her seventh year,The myrmecologist published a paper on their resilience
+E2,E11,2,m (Meets),False,The queen was in her seventh year,the original queen had died and been replaced
+E2,E12,1,< (Precedes),False,The queen was in her seventh year,The flagstone was lifted during a home renovation
+E2,E13,1,< (Precedes),False,The queen was in her seventh year,The ants were gone
+E3,E1,5,d (During),False,A myrmecologist marked a hundred workers with paint and followed them for a season,The colony had lived under the same flagstone
+E3,E2,4,s (Starts),False,A myrmecologist marked a hundred workers with paint and followed them for a season,The queen was in her seventh year
+E3,E4,1,< (Precedes),False,A myrmecologist marked a hundred workers with paint and followed them for a season,A dog dug into the nest
+E3,E5,1,< (Precedes),False,A myrmecologist marked a hundred workers with paint and followed them for a season,the first defenders emerged
+E3,E6,1,< (Precedes),False,A myrmecologist marked a hundred workers with paint and followed them for a season,the nursery was evacuated to a lower chamber
+E3,E7,1,< (Precedes),False,A myrmecologist marked a hundred workers with paint and followed them for a season,the entrance was resealed
+E3,E8,1,< (Precedes),False,A myrmecologist marked a hundred workers with paint and followed them for a season,The destruction lasted less than two hours
+E3,E9,1,< (Precedes),False,A myrmecologist marked a hundred workers with paint and followed them for a season,The colony rebuilt over the next eleven days
+E3,E10,1,< (Precedes),False,A myrmecologist marked a hundred workers with paint and followed them for a season,The myrmecologist published a paper on their resilience
+E3,E11,1,< (Precedes),False,A myrmecologist marked a hundred workers with paint and followed them for a season,the original queen had died and been replaced
+E3,E12,1,< (Precedes),False,A myrmecologist marked a hundred workers with paint and followed them for a season,The flagstone was lifted during a home renovation
+E3,E13,1,< (Precedes),False,A myrmecologist marked a hundred workers with paint and followed them for a season,The ants were gone
+E4,E1,5,d (During),False,A dog dug into the nest,The colony had lived under the same flagstone
+E4,E2,5,d (During),False,A dog dug into the nest,The queen was in her seventh year
+E4,E3,-1,> (Preceded By),False,A dog dug into the nest,A myrmecologist marked a hundred workers with paint and followed them for a season
+E4,E5,2,m (Meets),False,A dog dug into the nest,the first defenders emerged
+E4,E6,1,< (Precedes),False,A dog dug into the nest,the nursery was evacuated to a lower chamber
+E4,E7,1,< (Precedes),False,A dog dug into the nest,the entrance was resealed
+E4,E8,4,s (Starts),False,A dog dug into the nest,The destruction lasted less than two hours
+E4,E9,1,< (Precedes),False,A dog dug into the nest,The colony rebuilt over the next eleven days
+E4,E10,1,< (Precedes),False,A dog dug into the nest,The myrmecologist published a paper on their resilience
+E4,E11,1,< (Precedes),False,A dog dug into the nest,the original queen had died and been replaced
+E4,E12,1,< (Precedes),False,A dog dug into the nest,The flagstone was lifted during a home renovation
+E4,E13,1,< (Precedes),False,A dog dug into the nest,The ants were gone
+E5,E1,5,d (During),False,the first defenders emerged,The colony had lived under the same flagstone
+E5,E2,5,d (During),False,the first defenders emerged,The queen was in her seventh year
+E5,E3,-1,> (Preceded By),False,the first defenders emerged,A myrmecologist marked a hundred workers with paint and followed them for a season
+E5,E4,-2,mi (Met By),False,the first defenders emerged,A dog dug into the nest
+E5,E6,2,m (Meets),False,the first defenders emerged,the nursery was evacuated to a lower chamber
+E5,E7,1,< (Precedes),False,the first defenders emerged,the entrance was resealed
+E5,E8,5,d (During),False,the first defenders emerged,The destruction lasted less than two hours
+E5,E9,1,< (Precedes),False,the first defenders emerged,The colony rebuilt over the next eleven days
+E5,E10,1,< (Precedes),False,the first defenders emerged,The myrmecologist published a paper on their resilience
+E5,E11,1,< (Precedes),False,the first defenders emerged,the original queen had died and been replaced
+E5,E12,1,< (Precedes),False,the first defenders emerged,The flagstone was lifted during a home renovation
+E5,E13,1,< (Precedes),False,the first defenders emerged,The ants were gone
+E6,E1,5,d (During),False,the nursery was evacuated to a lower chamber,The colony had lived under the same flagstone
+E6,E2,5,d (During),False,the nursery was evacuated to a lower chamber,The queen was in her seventh year
+E6,E3,-1,> (Preceded By),False,the nursery was evacuated to a lower chamber,A myrmecologist marked a hundred workers with paint and followed them for a season
+E6,E4,-1,> (Preceded By),False,the nursery was evacuated to a lower chamber,A dog dug into the nest
+E6,E5,-2,mi (Met By),False,the nursery was evacuated to a lower chamber,the first defenders emerged
+E6,E7,2,m (Meets),False,the nursery was evacuated to a lower chamber,the entrance was resealed
+E6,E8,5,d (During),False,the nursery was evacuated to a lower chamber,The destruction lasted less than two hours
+E6,E9,1,< (Precedes),False,the nursery was evacuated to a lower chamber,The colony rebuilt over the next eleven days
+E6,E10,1,< (Precedes),False,the nursery was evacuated to a lower chamber,The myrmecologist published a paper on their resilience
+E6,E11,1,< (Precedes),False,the nursery was evacuated to a lower chamber,the original queen had died and been replaced
+E6,E12,1,< (Precedes),False,the nursery was evacuated to a lower chamber,The flagstone was lifted during a home renovation
+E6,E13,1,< (Precedes),False,the nursery was evacuated to a lower chamber,The ants were gone
+E7,E1,5,d (During),False,the entrance was resealed,The colony had lived under the same flagstone
+E7,E2,5,d (During),False,the entrance was resealed,The queen was in her seventh year
+E7,E3,-1,> (Preceded By),False,the entrance was resealed,A myrmecologist marked a hundred workers with paint and followed them for a season
+E7,E4,-1,> (Preceded By),False,the entrance was resealed,A dog dug into the nest
+E7,E5,-1,> (Preceded By),False,the entrance was resealed,the first defenders emerged
+E7,E6,-2,mi (Met By),False,the entrance was resealed,the nursery was evacuated to a lower chamber
+E7,E8,5,d (During),False,the entrance was resealed,The destruction lasted less than two hours
+E7,E9,1,< (Precedes),False,the entrance was resealed,The colony rebuilt over the next eleven days
+E7,E10,1,< (Precedes),False,the entrance was resealed,The myrmecologist published a paper on their resilience
+E7,E11,1,< (Precedes),False,the entrance was resealed,the original queen had died and been replaced
+E7,E12,1,< (Precedes),False,the entrance was resealed,The flagstone was lifted during a home renovation
+E7,E13,1,< (Precedes),False,the entrance was resealed,The ants were gone
+E8,E1,5,d (During),False,The destruction lasted less than two hours,The colony had lived under the same flagstone
+E8,E2,5,d (During),False,The destruction lasted less than two hours,The queen was in her seventh year
+E8,E3,-1,> (Preceded By),False,The destruction lasted less than two hours,A myrmecologist marked a hundred workers with paint and followed them for a season
+E8,E4,-4,si (Started By),False,The destruction lasted less than two hours,A dog dug into the nest
+E8,E5,-5,di (Contains),False,The destruction lasted less than two hours,the first defenders emerged
+E8,E6,-5,di (Contains),False,The destruction lasted less than two hours,the nursery was evacuated to a lower chamber
+E8,E7,-5,di (Contains),False,The destruction lasted less than two hours,the entrance was resealed
+E8,E9,2,m (Meets),False,The destruction lasted less than two hours,The colony rebuilt over the next eleven days
+E8,E10,1,< (Precedes),False,The destruction lasted less than two hours,The myrmecologist published a paper on their resilience
+E8,E11,1,< (Precedes),False,The destruction lasted less than two hours,the original queen had died and been replaced
+E8,E12,1,< (Precedes),False,The destruction lasted less than two hours,The flagstone was lifted during a home renovation
+E8,E13,1,< (Precedes),False,The destruction lasted less than two hours,The ants were gone
+E9,E1,5,d (During),False,The colony rebuilt over the next eleven days,The colony had lived under the same flagstone
+E9,E2,5,d (During),False,The colony rebuilt over the next eleven days,The queen was in her seventh year
+E9,E3,-1,> (Preceded By),False,The colony rebuilt over the next eleven days,A myrmecologist marked a hundred workers with paint and followed them for a season
+E9,E4,-1,> (Preceded By),False,The colony rebuilt over the next eleven days,A dog dug into the nest
+E9,E5,-1,> (Preceded By),False,The colony rebuilt over the next eleven days,the first defenders emerged
+E9,E6,-1,> (Preceded By),False,The colony rebuilt over the next eleven days,the nursery was evacuated to a lower chamber
+E9,E7,-1,> (Preceded By),False,The colony rebuilt over the next eleven days,the entrance was resealed
+E9,E8,-2,mi (Met By),False,The colony rebuilt over the next eleven days,The destruction lasted less than two hours
+E9,E10,1,< (Precedes),False,The colony rebuilt over the next eleven days,The myrmecologist published a paper on their resilience
+E9,E11,1,< (Precedes),False,The colony rebuilt over the next eleven days,the original queen had died and been replaced
+E9,E12,1,< (Precedes),False,The colony rebuilt over the next eleven days,The flagstone was lifted during a home renovation
+E9,E13,1,< (Precedes),False,The colony rebuilt over the next eleven days,The ants were gone
+E10,E1,5,d (During),False,The myrmecologist published a paper on their resilience,The colony had lived under the same flagstone
+E10,E2,5,d (During),False,The myrmecologist published a paper on their resilience,The queen was in her seventh year
+E10,E3,-1,> (Preceded By),False,The myrmecologist published a paper on their resilience,A myrmecologist marked a hundred workers with paint and followed them for a season
+E10,E4,-1,> (Preceded By),False,The myrmecologist published a paper on their resilience,A dog dug into the nest
+E10,E5,-1,> (Preceded By),False,The myrmecologist published a paper on their resilience,the first defenders emerged
+E10,E6,-1,> (Preceded By),False,The myrmecologist published a paper on their resilience,the nursery was evacuated to a lower chamber
+E10,E7,-1,> (Preceded By),False,The myrmecologist published a paper on their resilience,the entrance was resealed
+E10,E8,-1,> (Preceded By),False,The myrmecologist published a paper on their resilience,The destruction lasted less than two hours
+E10,E9,-1,> (Preceded By),False,The myrmecologist published a paper on their resilience,The colony rebuilt over the next eleven days
+E10,E11,1,< (Precedes),False,The myrmecologist published a paper on their resilience,the original queen had died and been replaced
+E10,E12,1,< (Precedes),False,The myrmecologist published a paper on their resilience,The flagstone was lifted during a home renovation
+E10,E13,1,< (Precedes),False,The myrmecologist published a paper on their resilience,The ants were gone
+E11,E1,5,d (During),False,the original queen had died and been replaced,The colony had lived under the same flagstone
+E11,E2,-2,mi (Met By),False,the original queen had died and been replaced,The queen was in her seventh year
+E11,E3,-1,> (Preceded By),False,the original queen had died and been replaced,A myrmecologist marked a hundred workers with paint and followed them for a season
+E11,E4,-1,> (Preceded By),False,the original queen had died and been replaced,A dog dug into the nest
+E11,E5,-1,> (Preceded By),False,the original queen had died and been replaced,the first defenders emerged
+E11,E6,-1,> (Preceded By),False,the original queen had died and been replaced,the nursery was evacuated to a lower chamber
+E11,E7,-1,> (Preceded By),False,the original queen had died and been replaced,the entrance was resealed
+E11,E8,-1,> (Preceded By),False,the original queen had died and been replaced,The destruction lasted less than two hours
+E11,E9,-1,> (Preceded By),False,the original queen had died and been replaced,The colony rebuilt over the next eleven days
+E11,E10,-1,> (Preceded By),False,the original queen had died and been replaced,The myrmecologist published a paper on their resilience
+E11,E12,1,< (Precedes),False,the original queen had died and been replaced,The flagstone was lifted during a home renovation
+E11,E13,1,< (Precedes),False,the original queen had died and been replaced,The ants were gone
+E12,E1,5,d (During),False,The flagstone was lifted during a home renovation,The colony had lived under the same flagstone
+E12,E2,-1,> (Preceded By),False,The flagstone was lifted during a home renovation,The queen was in her seventh year
+E12,E3,-1,> (Preceded By),False,The flagstone was lifted during a home renovation,A myrmecologist marked a hundred workers with paint and followed them for a season
+E12,E4,-1,> (Preceded By),False,The flagstone was lifted during a home renovation,A dog dug into the nest
+E12,E5,-1,> (Preceded By),False,The flagstone was lifted during a home renovation,the first defenders emerged
+E12,E6,-1,> (Preceded By),False,The flagstone was lifted during a home renovation,the nursery was evacuated to a lower chamber
+E12,E7,-1,> (Preceded By),False,The flagstone was lifted during a home renovation,the entrance was resealed
+E12,E8,-1,> (Preceded By),False,The flagstone was lifted during a home renovation,The destruction lasted less than two hours
+E12,E9,-1,> (Preceded By),False,The flagstone was lifted during a home renovation,The colony rebuilt over the next eleven days
+E12,E10,-1,> (Preceded By),False,The flagstone was lifted during a home renovation,The myrmecologist published a paper on their resilience
+E12,E11,-1,> (Preceded By),False,The flagstone was lifted during a home renovation,the original queen had died and been replaced
+E12,E13,1,< (Precedes),False,The flagstone was lifted during a home renovation,The ants were gone
+E13,E1,-2,mi (Met By),False,The ants were gone,The colony had lived under the same flagstone
+E13,E2,-1,> (Preceded By),False,The ants were gone,The queen was in her seventh year
+E13,E3,-1,> (Preceded By),False,The ants were gone,A myrmecologist marked a hundred workers with paint and followed them for a season
+E13,E4,-1,> (Preceded By),False,The ants were gone,A dog dug into the nest
+E13,E5,-1,> (Preceded By),False,The ants were gone,the first defenders emerged
+E13,E6,-1,> (Preceded By),False,The ants were gone,the nursery was evacuated to a lower chamber
+E13,E7,-1,> (Preceded By),False,The ants were gone,the entrance was resealed
+E13,E8,-1,> (Preceded By),False,The ants were gone,The destruction lasted less than two hours
+E13,E9,-1,> (Preceded By),False,The ants were gone,The colony rebuilt over the next eleven days
+E13,E10,-1,> (Preceded By),False,The ants were gone,The myrmecologist published a paper on their resilience
+E13,E11,-1,> (Preceded By),False,The ants were gone,the original queen had died and been replaced
+E13,E12,-1,> (Preceded By),False,The ants were gone,The flagstone was lifted during a home renovation

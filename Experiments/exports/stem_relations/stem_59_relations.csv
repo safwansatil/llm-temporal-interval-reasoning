@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,had been driving a rickshaw in Sylhet city,picked up a passenger
+E1,E3,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,paid
+E1,E4,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,talked for a few minutes
+E1,E5,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,picked up his bag
+E1,E6,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,walked toward the station entrance
+E1,E7,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,kept the card in the small tin box
+E1,E8,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,did not contact the man
+E1,E9,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,finally did
+E1,E10,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,who asked to go to the Sylhet railway station
+E1,E11,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,sat quietly for most of the ride
+E1,E12,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,he asked Aleem how long he had been pulling a rickshaw.
+E1,E13,0,= (Equal),False,had been driving a rickshaw in Sylhet city,had taught for thirty-eight years
+E1,E14,2,m (Meets),False,had been driving a rickshaw in Sylhet city,now traveling to Dhaka to visit his daughter
+E1,E15,-6,fi (Finished By),False,had been driving a rickshaw in Sylhet city,had been at the hospital not as a patient
+E1,E16,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,told Aleem to contact him when his daughter was ready for secondary school
+E1,E17,1,< (Precedes),False,had been driving a rickshaw in Sylhet city,he still knew people in the Moulvibazar education board
+E2,E1,-2,mi (Met By),False,picked up a passenger,had been driving a rickshaw in Sylhet city
+E2,E3,1,< (Precedes),False,picked up a passenger,paid
+E2,E4,1,< (Precedes),False,picked up a passenger,talked for a few minutes
+E2,E5,1,< (Precedes),False,picked up a passenger,picked up his bag
+E2,E6,1,< (Precedes),False,picked up a passenger,walked toward the station entrance
+E2,E7,1,< (Precedes),False,picked up a passenger,kept the card in the small tin box
+E2,E8,1,< (Precedes),False,picked up a passenger,did not contact the man
+E2,E9,1,< (Precedes),False,picked up a passenger,finally did
+E2,E10,2,m (Meets),False,picked up a passenger,who asked to go to the Sylhet railway station
+E2,E11,1,< (Precedes),False,picked up a passenger,sat quietly for most of the ride
+E2,E12,1,< (Precedes),False,picked up a passenger,he asked Aleem how long he had been pulling a rickshaw.
+E2,E13,-2,mi (Met By),False,picked up a passenger,had taught for thirty-eight years
+E2,E14,4,s (Starts),False,picked up a passenger,now traveling to Dhaka to visit his daughter
+E2,E15,-2,mi (Met By),False,picked up a passenger,had been at the hospital not as a patient
+E2,E16,1,< (Precedes),False,picked up a passenger,told Aleem to contact him when his daughter was ready for secondary school
+E2,E17,1,< (Precedes),False,picked up a passenger,he still knew people in the Moulvibazar education board
+E3,E1,-1,> (Preceded By),False,paid,had been driving a rickshaw in Sylhet city
+E3,E2,-1,> (Preceded By),False,paid,picked up a passenger
+E3,E4,2,m (Meets),False,paid,talked for a few minutes
+E3,E5,1,< (Precedes),False,paid,picked up his bag
+E3,E6,1,< (Precedes),False,paid,walked toward the station entrance
+E3,E7,1,< (Precedes),False,paid,kept the card in the small tin box
+E3,E8,1,< (Precedes),False,paid,did not contact the man
+E3,E9,1,< (Precedes),False,paid,finally did
+E3,E10,-1,> (Preceded By),False,paid,who asked to go to the Sylhet railway station
+E3,E11,-1,> (Preceded By),False,paid,sat quietly for most of the ride
+E3,E12,-1,> (Preceded By),False,paid,he asked Aleem how long he had been pulling a rickshaw.
+E3,E13,-1,> (Preceded By),False,paid,had taught for thirty-eight years
+E3,E14,5,d (During),False,paid,now traveling to Dhaka to visit his daughter
+E3,E15,-1,> (Preceded By),False,paid,had been at the hospital not as a patient
+E3,E16,1,< (Precedes),False,paid,told Aleem to contact him when his daughter was ready for secondary school
+E3,E17,2,m (Meets),False,paid,he still knew people in the Moulvibazar education board
+E4,E1,-1,> (Preceded By),False,talked for a few minutes,had been driving a rickshaw in Sylhet city
+E4,E2,-1,> (Preceded By),False,talked for a few minutes,picked up a passenger
+E4,E3,-2,mi (Met By),False,talked for a few minutes,paid
+E4,E5,2,m (Meets),False,talked for a few minutes,picked up his bag
+E4,E6,1,< (Precedes),False,talked for a few minutes,walked toward the station entrance
+E4,E7,1,< (Precedes),False,talked for a few minutes,kept the card in the small tin box
+E4,E8,1,< (Precedes),False,talked for a few minutes,did not contact the man
+E4,E9,1,< (Precedes),False,talked for a few minutes,finally did
+E4,E10,-1,> (Preceded By),False,talked for a few minutes,who asked to go to the Sylhet railway station
+E4,E11,-1,> (Preceded By),False,talked for a few minutes,sat quietly for most of the ride
+E4,E12,-1,> (Preceded By),False,talked for a few minutes,he asked Aleem how long he had been pulling a rickshaw.
+E4,E13,-1,> (Preceded By),False,talked for a few minutes,had taught for thirty-eight years
+E4,E14,5,d (During),False,talked for a few minutes,now traveling to Dhaka to visit his daughter
+E4,E15,-1,> (Preceded By),False,talked for a few minutes,had been at the hospital not as a patient
+E4,E16,-5,di (Contains),False,talked for a few minutes,told Aleem to contact him when his daughter was ready for secondary school
+E4,E17,0,= (Equal),False,talked for a few minutes,he still knew people in the Moulvibazar education board
+E5,E1,-1,> (Preceded By),False,picked up his bag,had been driving a rickshaw in Sylhet city
+E5,E2,-1,> (Preceded By),False,picked up his bag,picked up a passenger
+E5,E3,-1,> (Preceded By),False,picked up his bag,paid
+E5,E4,-2,mi (Met By),False,picked up his bag,talked for a few minutes
+E5,E6,2,m (Meets),False,picked up his bag,walked toward the station entrance
+E5,E7,1,< (Precedes),False,picked up his bag,kept the card in the small tin box
+E5,E8,1,< (Precedes),False,picked up his bag,did not contact the man
+E5,E9,1,< (Precedes),False,picked up his bag,finally did
+E5,E10,-1,> (Preceded By),False,picked up his bag,who asked to go to the Sylhet railway station
+E5,E11,-1,> (Preceded By),False,picked up his bag,sat quietly for most of the ride
+E5,E12,-1,> (Preceded By),False,picked up his bag,he asked Aleem how long he had been pulling a rickshaw.
+E5,E13,-1,> (Preceded By),False,picked up his bag,had taught for thirty-eight years
+E5,E14,5,d (During),False,picked up his bag,now traveling to Dhaka to visit his daughter
+E5,E15,-1,> (Preceded By),False,picked up his bag,had been at the hospital not as a patient
+E5,E16,-1,> (Preceded By),False,picked up his bag,told Aleem to contact him when his daughter was ready for secondary school
+E5,E17,-2,mi (Met By),False,picked up his bag,he still knew people in the Moulvibazar education board
+E6,E1,-1,> (Preceded By),False,walked toward the station entrance,had been driving a rickshaw in Sylhet city
+E6,E2,-1,> (Preceded By),False,walked toward the station entrance,picked up a passenger
+E6,E3,-1,> (Preceded By),False,walked toward the station entrance,paid
+E6,E4,-1,> (Preceded By),False,walked toward the station entrance,talked for a few minutes
+E6,E5,-2,mi (Met By),False,walked toward the station entrance,picked up his bag
+E6,E7,2,m (Meets),False,walked toward the station entrance,kept the card in the small tin box
+E6,E8,1,< (Precedes),False,walked toward the station entrance,did not contact the man
+E6,E9,1,< (Precedes),False,walked toward the station entrance,finally did
+E6,E10,-1,> (Preceded By),False,walked toward the station entrance,who asked to go to the Sylhet railway station
+E6,E11,-1,> (Preceded By),False,walked toward the station entrance,sat quietly for most of the ride
+E6,E12,-1,> (Preceded By),False,walked toward the station entrance,he asked Aleem how long he had been pulling a rickshaw.
+E6,E13,-1,> (Preceded By),False,walked toward the station entrance,had taught for thirty-eight years
+E6,E14,6,f (Finishes),False,walked toward the station entrance,now traveling to Dhaka to visit his daughter
+E6,E15,-1,> (Preceded By),False,walked toward the station entrance,had been at the hospital not as a patient
+E6,E16,-1,> (Preceded By),False,walked toward the station entrance,told Aleem to contact him when his daughter was ready for secondary school
+E6,E17,-1,> (Preceded By),False,walked toward the station entrance,he still knew people in the Moulvibazar education board
+E7,E1,-1,> (Preceded By),False,kept the card in the small tin box,had been driving a rickshaw in Sylhet city
+E7,E2,-1,> (Preceded By),False,kept the card in the small tin box,picked up a passenger
+E7,E3,-1,> (Preceded By),False,kept the card in the small tin box,paid
+E7,E4,-1,> (Preceded By),False,kept the card in the small tin box,talked for a few minutes
+E7,E5,-1,> (Preceded By),False,kept the card in the small tin box,picked up his bag
+E7,E6,-2,mi (Met By),False,kept the card in the small tin box,walked toward the station entrance
+E7,E8,2,m (Meets),False,kept the card in the small tin box,did not contact the man
+E7,E9,1,< (Precedes),False,kept the card in the small tin box,finally did
+E7,E10,-1,> (Preceded By),False,kept the card in the small tin box,who asked to go to the Sylhet railway station
+E7,E11,-1,> (Preceded By),False,kept the card in the small tin box,sat quietly for most of the ride
+E7,E12,-1,> (Preceded By),False,kept the card in the small tin box,he asked Aleem how long he had been pulling a rickshaw.
+E7,E13,-1,> (Preceded By),False,kept the card in the small tin box,had taught for thirty-eight years
+E7,E14,-2,mi (Met By),False,kept the card in the small tin box,now traveling to Dhaka to visit his daughter
+E7,E15,-1,> (Preceded By),False,kept the card in the small tin box,had been at the hospital not as a patient
+E7,E16,-1,> (Preceded By),False,kept the card in the small tin box,told Aleem to contact him when his daughter was ready for secondary school
+E7,E17,-1,> (Preceded By),False,kept the card in the small tin box,he still knew people in the Moulvibazar education board
+E8,E1,-1,> (Preceded By),False,did not contact the man,had been driving a rickshaw in Sylhet city
+E8,E2,-1,> (Preceded By),False,did not contact the man,picked up a passenger
+E8,E3,-1,> (Preceded By),False,did not contact the man,paid
+E8,E4,-1,> (Preceded By),False,did not contact the man,talked for a few minutes
+E8,E5,-1,> (Preceded By),False,did not contact the man,picked up his bag
+E8,E6,-1,> (Preceded By),False,did not contact the man,walked toward the station entrance
+E8,E7,-2,mi (Met By),False,did not contact the man,kept the card in the small tin box
+E8,E9,2,m (Meets),False,did not contact the man,finally did
+E8,E10,-1,> (Preceded By),False,did not contact the man,who asked to go to the Sylhet railway station
+E8,E11,-1,> (Preceded By),False,did not contact the man,sat quietly for most of the ride
+E8,E12,-1,> (Preceded By),False,did not contact the man,he asked Aleem how long he had been pulling a rickshaw.
+E8,E13,-1,> (Preceded By),False,did not contact the man,had taught for thirty-eight years
+E8,E14,-1,> (Preceded By),False,did not contact the man,now traveling to Dhaka to visit his daughter
+E8,E15,-1,> (Preceded By),False,did not contact the man,had been at the hospital not as a patient
+E8,E16,-1,> (Preceded By),False,did not contact the man,told Aleem to contact him when his daughter was ready for secondary school
+E8,E17,-1,> (Preceded By),False,did not contact the man,he still knew people in the Moulvibazar education board
+E9,E1,-1,> (Preceded By),False,finally did,had been driving a rickshaw in Sylhet city
+E9,E2,-1,> (Preceded By),False,finally did,picked up a passenger
+E9,E3,-1,> (Preceded By),False,finally did,paid
+E9,E4,-1,> (Preceded By),False,finally did,talked for a few minutes
+E9,E5,-1,> (Preceded By),False,finally did,picked up his bag
+E9,E6,-1,> (Preceded By),False,finally did,walked toward the station entrance
+E9,E7,-1,> (Preceded By),False,finally did,kept the card in the small tin box
+E9,E8,-2,mi (Met By),False,finally did,did not contact the man
+E9,E10,-1,> (Preceded By),False,finally did,who asked to go to the Sylhet railway station
+E9,E11,-1,> (Preceded By),False,finally did,sat quietly for most of the ride
+E9,E12,-1,> (Preceded By),False,finally did,he asked Aleem how long he had been pulling a rickshaw.
+E9,E13,-1,> (Preceded By),False,finally did,had taught for thirty-eight years
+E9,E14,-1,> (Preceded By),False,finally did,now traveling to Dhaka to visit his daughter
+E9,E15,-1,> (Preceded By),False,finally did,had been at the hospital not as a patient
+E9,E16,-1,> (Preceded By),False,finally did,told Aleem to contact him when his daughter was ready for secondary school
+E9,E17,-1,> (Preceded By),False,finally did,he still knew people in the Moulvibazar education board
+E10,E1,-1,> (Preceded By),False,who asked to go to the Sylhet railway station,had been driving a rickshaw in Sylhet city
+E10,E2,-2,mi (Met By),False,who asked to go to the Sylhet railway station,picked up a passenger
+E10,E3,1,< (Precedes),False,who asked to go to the Sylhet railway station,paid
+E10,E4,1,< (Precedes),False,who asked to go to the Sylhet railway station,talked for a few minutes
+E10,E5,1,< (Precedes),False,who asked to go to the Sylhet railway station,picked up his bag
+E10,E6,1,< (Precedes),False,who asked to go to the Sylhet railway station,walked toward the station entrance
+E10,E7,1,< (Precedes),False,who asked to go to the Sylhet railway station,kept the card in the small tin box
+E10,E8,1,< (Precedes),False,who asked to go to the Sylhet railway station,did not contact the man
+E10,E9,1,< (Precedes),False,who asked to go to the Sylhet railway station,finally did
+E10,E11,2,m (Meets),False,who asked to go to the Sylhet railway station,sat quietly for most of the ride
+E10,E12,1,< (Precedes),False,who asked to go to the Sylhet railway station,he asked Aleem how long he had been pulling a rickshaw.
+E10,E13,-1,> (Preceded By),False,who asked to go to the Sylhet railway station,had taught for thirty-eight years
+E10,E14,5,d (During),False,who asked to go to the Sylhet railway station,now traveling to Dhaka to visit his daughter
+E10,E15,-1,> (Preceded By),False,who asked to go to the Sylhet railway station,had been at the hospital not as a patient
+E10,E16,1,< (Precedes),False,who asked to go to the Sylhet railway station,told Aleem to contact him when his daughter was ready for secondary school
+E10,E17,1,< (Precedes),False,who asked to go to the Sylhet railway station,he still knew people in the Moulvibazar education board
+E11,E1,-1,> (Preceded By),False,sat quietly for most of the ride,had been driving a rickshaw in Sylhet city
+E11,E2,-1,> (Preceded By),False,sat quietly for most of the ride,picked up a passenger
+E11,E3,1,< (Precedes),False,sat quietly for most of the ride,paid
+E11,E4,1,< (Precedes),False,sat quietly for most of the ride,talked for a few minutes
+E11,E5,1,< (Precedes),False,sat quietly for most of the ride,picked up his bag
+E11,E6,1,< (Precedes),False,sat quietly for most of the ride,walked toward the station entrance
+E11,E7,1,< (Precedes),False,sat quietly for most of the ride,kept the card in the small tin box
+E11,E8,1,< (Precedes),False,sat quietly for most of the ride,did not contact the man
+E11,E9,1,< (Precedes),False,sat quietly for most of the ride,finally did
+E11,E10,-2,mi (Met By),False,sat quietly for most of the ride,who asked to go to the Sylhet railway station
+E11,E12,2,m (Meets),False,sat quietly for most of the ride,he asked Aleem how long he had been pulling a rickshaw.
+E11,E13,-1,> (Preceded By),False,sat quietly for most of the ride,had taught for thirty-eight years
+E11,E14,5,d (During),False,sat quietly for most of the ride,now traveling to Dhaka to visit his daughter
+E11,E15,-1,> (Preceded By),False,sat quietly for most of the ride,had been at the hospital not as a patient
+E11,E16,1,< (Precedes),False,sat quietly for most of the ride,told Aleem to contact him when his daughter was ready for secondary school
+E11,E17,1,< (Precedes),False,sat quietly for most of the ride,he still knew people in the Moulvibazar education board
+E12,E1,-1,> (Preceded By),False,he asked Aleem how long he had been pulling a rickshaw.,had been driving a rickshaw in Sylhet city
+E12,E2,-1,> (Preceded By),False,he asked Aleem how long he had been pulling a rickshaw.,picked up a passenger
+E12,E3,1,< (Precedes),False,he asked Aleem how long he had been pulling a rickshaw.,paid
+E12,E4,1,< (Precedes),False,he asked Aleem how long he had been pulling a rickshaw.,talked for a few minutes
+E12,E5,1,< (Precedes),False,he asked Aleem how long he had been pulling a rickshaw.,picked up his bag
+E12,E6,1,< (Precedes),False,he asked Aleem how long he had been pulling a rickshaw.,walked toward the station entrance
+E12,E7,1,< (Precedes),False,he asked Aleem how long he had been pulling a rickshaw.,kept the card in the small tin box
+E12,E8,1,< (Precedes),False,he asked Aleem how long he had been pulling a rickshaw.,did not contact the man
+E12,E9,1,< (Precedes),False,he asked Aleem how long he had been pulling a rickshaw.,finally did
+E12,E10,-1,> (Preceded By),False,he asked Aleem how long he had been pulling a rickshaw.,who asked to go to the Sylhet railway station
+E12,E11,-2,mi (Met By),False,he asked Aleem how long he had been pulling a rickshaw.,sat quietly for most of the ride
+E12,E13,-1,> (Preceded By),False,he asked Aleem how long he had been pulling a rickshaw.,had taught for thirty-eight years
+E12,E14,5,d (During),False,he asked Aleem how long he had been pulling a rickshaw.,now traveling to Dhaka to visit his daughter
+E12,E15,-1,> (Preceded By),False,he asked Aleem how long he had been pulling a rickshaw.,had been at the hospital not as a patient
+E12,E16,1,< (Precedes),False,he asked Aleem how long he had been pulling a rickshaw.,told Aleem to contact him when his daughter was ready for secondary school
+E12,E17,1,< (Precedes),False,he asked Aleem how long he had been pulling a rickshaw.,he still knew people in the Moulvibazar education board
+E13,E1,0,= (Equal),False,had taught for thirty-eight years,had been driving a rickshaw in Sylhet city
+E13,E2,2,m (Meets),False,had taught for thirty-eight years,picked up a passenger
+E13,E3,1,< (Precedes),False,had taught for thirty-eight years,paid
+E13,E4,1,< (Precedes),False,had taught for thirty-eight years,talked for a few minutes
+E13,E5,1,< (Precedes),False,had taught for thirty-eight years,picked up his bag
+E13,E6,1,< (Precedes),False,had taught for thirty-eight years,walked toward the station entrance
+E13,E7,1,< (Precedes),False,had taught for thirty-eight years,kept the card in the small tin box
+E13,E8,1,< (Precedes),False,had taught for thirty-eight years,did not contact the man
+E13,E9,1,< (Precedes),False,had taught for thirty-eight years,finally did
+E13,E10,1,< (Precedes),False,had taught for thirty-eight years,who asked to go to the Sylhet railway station
+E13,E11,1,< (Precedes),False,had taught for thirty-eight years,sat quietly for most of the ride
+E13,E12,1,< (Precedes),False,had taught for thirty-eight years,he asked Aleem how long he had been pulling a rickshaw.
+E13,E14,2,m (Meets),False,had taught for thirty-eight years,now traveling to Dhaka to visit his daughter
+E13,E15,-6,fi (Finished By),False,had taught for thirty-eight years,had been at the hospital not as a patient
+E13,E16,1,< (Precedes),False,had taught for thirty-eight years,told Aleem to contact him when his daughter was ready for secondary school
+E13,E17,1,< (Precedes),False,had taught for thirty-eight years,he still knew people in the Moulvibazar education board
+E14,E1,-2,mi (Met By),False,now traveling to Dhaka to visit his daughter,had been driving a rickshaw in Sylhet city
+E14,E2,-4,si (Started By),False,now traveling to Dhaka to visit his daughter,picked up a passenger
+E14,E3,-5,di (Contains),False,now traveling to Dhaka to visit his daughter,paid
+E14,E4,-5,di (Contains),False,now traveling to Dhaka to visit his daughter,talked for a few minutes
+E14,E5,-5,di (Contains),False,now traveling to Dhaka to visit his daughter,picked up his bag
+E14,E6,-6,fi (Finished By),False,now traveling to Dhaka to visit his daughter,walked toward the station entrance
+E14,E7,2,m (Meets),False,now traveling to Dhaka to visit his daughter,kept the card in the small tin box
+E14,E8,1,< (Precedes),False,now traveling to Dhaka to visit his daughter,did not contact the man
+E14,E9,1,< (Precedes),False,now traveling to Dhaka to visit his daughter,finally did
+E14,E10,-5,di (Contains),False,now traveling to Dhaka to visit his daughter,who asked to go to the Sylhet railway station
+E14,E11,-5,di (Contains),False,now traveling to Dhaka to visit his daughter,sat quietly for most of the ride
+E14,E12,-5,di (Contains),False,now traveling to Dhaka to visit his daughter,he asked Aleem how long he had been pulling a rickshaw.
+E14,E13,-2,mi (Met By),False,now traveling to Dhaka to visit his daughter,had taught for thirty-eight years
+E14,E15,-2,mi (Met By),False,now traveling to Dhaka to visit his daughter,had been at the hospital not as a patient
+E14,E16,-5,di (Contains),False,now traveling to Dhaka to visit his daughter,told Aleem to contact him when his daughter was ready for secondary school
+E14,E17,-5,di (Contains),False,now traveling to Dhaka to visit his daughter,he still knew people in the Moulvibazar education board
+E15,E1,6,f (Finishes),False,had been at the hospital not as a patient,had been driving a rickshaw in Sylhet city
+E15,E2,2,m (Meets),False,had been at the hospital not as a patient,picked up a passenger
+E15,E3,1,< (Precedes),False,had been at the hospital not as a patient,paid
+E15,E4,1,< (Precedes),False,had been at the hospital not as a patient,talked for a few minutes
+E15,E5,1,< (Precedes),False,had been at the hospital not as a patient,picked up his bag
+E15,E6,1,< (Precedes),False,had been at the hospital not as a patient,walked toward the station entrance
+E15,E7,1,< (Precedes),False,had been at the hospital not as a patient,kept the card in the small tin box
+E15,E8,1,< (Precedes),False,had been at the hospital not as a patient,did not contact the man
+E15,E9,1,< (Precedes),False,had been at the hospital not as a patient,finally did
+E15,E10,1,< (Precedes),False,had been at the hospital not as a patient,who asked to go to the Sylhet railway station
+E15,E11,1,< (Precedes),False,had been at the hospital not as a patient,sat quietly for most of the ride
+E15,E12,1,< (Precedes),False,had been at the hospital not as a patient,he asked Aleem how long he had been pulling a rickshaw.
+E15,E13,6,f (Finishes),False,had been at the hospital not as a patient,had taught for thirty-eight years
+E15,E14,2,m (Meets),False,had been at the hospital not as a patient,now traveling to Dhaka to visit his daughter
+E15,E16,1,< (Precedes),False,had been at the hospital not as a patient,told Aleem to contact him when his daughter was ready for secondary school
+E15,E17,1,< (Precedes),False,had been at the hospital not as a patient,he still knew people in the Moulvibazar education board
+E16,E1,-1,> (Preceded By),False,told Aleem to contact him when his daughter was ready for secondary school,had been driving a rickshaw in Sylhet city
+E16,E2,-1,> (Preceded By),False,told Aleem to contact him when his daughter was ready for secondary school,picked up a passenger
+E16,E3,-1,> (Preceded By),False,told Aleem to contact him when his daughter was ready for secondary school,paid
+E16,E4,5,d (During),False,told Aleem to contact him when his daughter was ready for secondary school,talked for a few minutes
+E16,E5,1,< (Precedes),False,told Aleem to contact him when his daughter was ready for secondary school,picked up his bag
+E16,E6,1,< (Precedes),False,told Aleem to contact him when his daughter was ready for secondary school,walked toward the station entrance
+E16,E7,1,< (Precedes),False,told Aleem to contact him when his daughter was ready for secondary school,kept the card in the small tin box
+E16,E8,1,< (Precedes),False,told Aleem to contact him when his daughter was ready for secondary school,did not contact the man
+E16,E9,1,< (Precedes),False,told Aleem to contact him when his daughter was ready for secondary school,finally did
+E16,E10,-1,> (Preceded By),False,told Aleem to contact him when his daughter was ready for secondary school,who asked to go to the Sylhet railway station
+E16,E11,-1,> (Preceded By),False,told Aleem to contact him when his daughter was ready for secondary school,sat quietly for most of the ride
+E16,E12,-1,> (Preceded By),False,told Aleem to contact him when his daughter was ready for secondary school,he asked Aleem how long he had been pulling a rickshaw.
+E16,E13,-1,> (Preceded By),False,told Aleem to contact him when his daughter was ready for secondary school,had taught for thirty-eight years
+E16,E14,5,d (During),False,told Aleem to contact him when his daughter was ready for secondary school,now traveling to Dhaka to visit his daughter
+E16,E15,-1,> (Preceded By),False,told Aleem to contact him when his daughter was ready for secondary school,had been at the hospital not as a patient
+E16,E17,5,d (During),False,told Aleem to contact him when his daughter was ready for secondary school,he still knew people in the Moulvibazar education board
+E17,E1,-1,> (Preceded By),False,he still knew people in the Moulvibazar education board,had been driving a rickshaw in Sylhet city
+E17,E2,-1,> (Preceded By),False,he still knew people in the Moulvibazar education board,picked up a passenger
+E17,E3,-2,mi (Met By),False,he still knew people in the Moulvibazar education board,paid
+E17,E4,0,= (Equal),False,he still knew people in the Moulvibazar education board,talked for a few minutes
+E17,E5,2,m (Meets),False,he still knew people in the Moulvibazar education board,picked up his bag
+E17,E6,1,< (Precedes),False,he still knew people in the Moulvibazar education board,walked toward the station entrance
+E17,E7,1,< (Precedes),False,he still knew people in the Moulvibazar education board,kept the card in the small tin box
+E17,E8,1,< (Precedes),False,he still knew people in the Moulvibazar education board,did not contact the man
+E17,E9,1,< (Precedes),False,he still knew people in the Moulvibazar education board,finally did
+E17,E10,-1,> (Preceded By),False,he still knew people in the Moulvibazar education board,who asked to go to the Sylhet railway station
+E17,E11,-1,> (Preceded By),False,he still knew people in the Moulvibazar education board,sat quietly for most of the ride
+E17,E12,-1,> (Preceded By),False,he still knew people in the Moulvibazar education board,he asked Aleem how long he had been pulling a rickshaw.
+E17,E13,-1,> (Preceded By),False,he still knew people in the Moulvibazar education board,had taught for thirty-eight years
+E17,E14,5,d (During),False,he still knew people in the Moulvibazar education board,now traveling to Dhaka to visit his daughter
+E17,E15,-1,> (Preceded By),False,he still knew people in the Moulvibazar education board,had been at the hospital not as a patient
+E17,E16,-5,di (Contains),False,he still knew people in the Moulvibazar education board,told Aleem to contact him when his daughter was ready for secondary school

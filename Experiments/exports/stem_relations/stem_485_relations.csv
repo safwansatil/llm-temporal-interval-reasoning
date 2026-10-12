@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,The engineer who designed the guidance system had been dead for four years.,The word had been in the family for twenty years.
+E1,E3,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,The countdown had begun
+E1,E4,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,The fuel loading started
+E1,E5,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,a two hour hold
+E1,E6,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,lightning risk that passed
+E1,E7,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,finished
+E1,E8,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,The launch itself took nine minutes to reach orbit.
+E1,E9,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,The rocket passed through two time zones
+E1,E10,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,booster separation happened
+E1,E11,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,The satellite deployed
+E1,E12,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,The ground station received the confirmation signal
+E1,E13,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,the last anyone heard from it for the next six hours
+E1,E14,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,said Nominal into the loop.
+E1,E15,1,< (Precedes),False,The engineer who designed the guidance system had been dead for four years.,the launch window lasted
+E2,E1,0,= (Equal),False,The word had been in the family for twenty years.,The engineer who designed the guidance system had been dead for four years.
+E2,E3,1,< (Precedes),False,The word had been in the family for twenty years.,The countdown had begun
+E2,E4,1,< (Precedes),False,The word had been in the family for twenty years.,The fuel loading started
+E2,E5,1,< (Precedes),False,The word had been in the family for twenty years.,a two hour hold
+E2,E6,1,< (Precedes),False,The word had been in the family for twenty years.,lightning risk that passed
+E2,E7,1,< (Precedes),False,The word had been in the family for twenty years.,finished
+E2,E8,1,< (Precedes),False,The word had been in the family for twenty years.,The launch itself took nine minutes to reach orbit.
+E2,E9,1,< (Precedes),False,The word had been in the family for twenty years.,The rocket passed through two time zones
+E2,E10,1,< (Precedes),False,The word had been in the family for twenty years.,booster separation happened
+E2,E11,1,< (Precedes),False,The word had been in the family for twenty years.,The satellite deployed
+E2,E12,1,< (Precedes),False,The word had been in the family for twenty years.,The ground station received the confirmation signal
+E2,E13,1,< (Precedes),False,The word had been in the family for twenty years.,the last anyone heard from it for the next six hours
+E2,E14,1,< (Precedes),False,The word had been in the family for twenty years.,said Nominal into the loop.
+E2,E15,1,< (Precedes),False,The word had been in the family for twenty years.,the launch window lasted
+E3,E1,-1,> (Preceded By),False,The countdown had begun,The engineer who designed the guidance system had been dead for four years.
+E3,E2,-1,> (Preceded By),False,The countdown had begun,The word had been in the family for twenty years.
+E3,E4,1,< (Precedes),False,The countdown had begun,The fuel loading started
+E3,E5,1,< (Precedes),False,The countdown had begun,a two hour hold
+E3,E6,1,< (Precedes),False,The countdown had begun,lightning risk that passed
+E3,E7,1,< (Precedes),False,The countdown had begun,finished
+E3,E8,1,< (Precedes),False,The countdown had begun,The launch itself took nine minutes to reach orbit.
+E3,E9,1,< (Precedes),False,The countdown had begun,The rocket passed through two time zones
+E3,E10,1,< (Precedes),False,The countdown had begun,booster separation happened
+E3,E11,1,< (Precedes),False,The countdown had begun,The satellite deployed
+E3,E12,1,< (Precedes),False,The countdown had begun,The ground station received the confirmation signal
+E3,E13,1,< (Precedes),False,The countdown had begun,the last anyone heard from it for the next six hours
+E3,E14,1,< (Precedes),False,The countdown had begun,said Nominal into the loop.
+E3,E15,1,< (Precedes),False,The countdown had begun,the launch window lasted
+E4,E1,-1,> (Preceded By),False,The fuel loading started,The engineer who designed the guidance system had been dead for four years.
+E4,E2,-1,> (Preceded By),False,The fuel loading started,The word had been in the family for twenty years.
+E4,E3,-1,> (Preceded By),False,The fuel loading started,The countdown had begun
+E4,E5,5,d (During),False,The fuel loading started,a two hour hold
+E4,E6,1,< (Precedes),False,The fuel loading started,lightning risk that passed
+E4,E7,1,< (Precedes),False,The fuel loading started,finished
+E4,E8,1,< (Precedes),False,The fuel loading started,The launch itself took nine minutes to reach orbit.
+E4,E9,1,< (Precedes),False,The fuel loading started,The rocket passed through two time zones
+E4,E10,1,< (Precedes),False,The fuel loading started,booster separation happened
+E4,E11,1,< (Precedes),False,The fuel loading started,The satellite deployed
+E4,E12,1,< (Precedes),False,The fuel loading started,The ground station received the confirmation signal
+E4,E13,1,< (Precedes),False,The fuel loading started,the last anyone heard from it for the next six hours
+E4,E14,1,< (Precedes),False,The fuel loading started,said Nominal into the loop.
+E4,E15,1,< (Precedes),False,The fuel loading started,the launch window lasted
+E5,E1,-1,> (Preceded By),False,a two hour hold,The engineer who designed the guidance system had been dead for four years.
+E5,E2,-1,> (Preceded By),False,a two hour hold,The word had been in the family for twenty years.
+E5,E3,-1,> (Preceded By),False,a two hour hold,The countdown had begun
+E5,E4,-5,di (Contains),False,a two hour hold,The fuel loading started
+E5,E6,1,< (Precedes),False,a two hour hold,lightning risk that passed
+E5,E7,1,< (Precedes),False,a two hour hold,finished
+E5,E8,1,< (Precedes),False,a two hour hold,The launch itself took nine minutes to reach orbit.
+E5,E9,1,< (Precedes),False,a two hour hold,The rocket passed through two time zones
+E5,E10,1,< (Precedes),False,a two hour hold,booster separation happened
+E5,E11,1,< (Precedes),False,a two hour hold,The satellite deployed
+E5,E12,1,< (Precedes),False,a two hour hold,The ground station received the confirmation signal
+E5,E13,1,< (Precedes),False,a two hour hold,the last anyone heard from it for the next six hours
+E5,E14,1,< (Precedes),False,a two hour hold,said Nominal into the loop.
+E5,E15,1,< (Precedes),False,a two hour hold,the launch window lasted
+E6,E1,-1,> (Preceded By),False,lightning risk that passed,The engineer who designed the guidance system had been dead for four years.
+E6,E2,-1,> (Preceded By),False,lightning risk that passed,The word had been in the family for twenty years.
+E6,E3,-1,> (Preceded By),False,lightning risk that passed,The countdown had begun
+E6,E4,-1,> (Preceded By),False,lightning risk that passed,The fuel loading started
+E6,E5,-1,> (Preceded By),False,lightning risk that passed,a two hour hold
+E6,E7,2,m (Meets),False,lightning risk that passed,finished
+E6,E8,1,< (Precedes),False,lightning risk that passed,The launch itself took nine minutes to reach orbit.
+E6,E9,1,< (Precedes),False,lightning risk that passed,The rocket passed through two time zones
+E6,E10,1,< (Precedes),False,lightning risk that passed,booster separation happened
+E6,E11,1,< (Precedes),False,lightning risk that passed,The satellite deployed
+E6,E12,1,< (Precedes),False,lightning risk that passed,The ground station received the confirmation signal
+E6,E13,1,< (Precedes),False,lightning risk that passed,the last anyone heard from it for the next six hours
+E6,E14,1,< (Precedes),False,lightning risk that passed,said Nominal into the loop.
+E6,E15,1,< (Precedes),False,lightning risk that passed,the launch window lasted
+E7,E1,-1,> (Preceded By),False,finished,The engineer who designed the guidance system had been dead for four years.
+E7,E2,-1,> (Preceded By),False,finished,The word had been in the family for twenty years.
+E7,E3,-1,> (Preceded By),False,finished,The countdown had begun
+E7,E4,-1,> (Preceded By),False,finished,The fuel loading started
+E7,E5,-1,> (Preceded By),False,finished,a two hour hold
+E7,E6,-2,mi (Met By),False,finished,lightning risk that passed
+E7,E8,1,< (Precedes),False,finished,The launch itself took nine minutes to reach orbit.
+E7,E9,1,< (Precedes),False,finished,The rocket passed through two time zones
+E7,E10,1,< (Precedes),False,finished,booster separation happened
+E7,E11,1,< (Precedes),False,finished,The satellite deployed
+E7,E12,1,< (Precedes),False,finished,The ground station received the confirmation signal
+E7,E13,1,< (Precedes),False,finished,the last anyone heard from it for the next six hours
+E7,E14,1,< (Precedes),False,finished,said Nominal into the loop.
+E7,E15,1,< (Precedes),False,finished,the launch window lasted
+E8,E1,-1,> (Preceded By),False,The launch itself took nine minutes to reach orbit.,The engineer who designed the guidance system had been dead for four years.
+E8,E2,-1,> (Preceded By),False,The launch itself took nine minutes to reach orbit.,The word had been in the family for twenty years.
+E8,E3,-1,> (Preceded By),False,The launch itself took nine minutes to reach orbit.,The countdown had begun
+E8,E4,-1,> (Preceded By),False,The launch itself took nine minutes to reach orbit.,The fuel loading started
+E8,E5,-1,> (Preceded By),False,The launch itself took nine minutes to reach orbit.,a two hour hold
+E8,E6,-1,> (Preceded By),False,The launch itself took nine minutes to reach orbit.,lightning risk that passed
+E8,E7,-1,> (Preceded By),False,The launch itself took nine minutes to reach orbit.,finished
+E8,E9,1,< (Precedes),False,The launch itself took nine minutes to reach orbit.,The rocket passed through two time zones
+E8,E10,1,< (Precedes),False,The launch itself took nine minutes to reach orbit.,booster separation happened
+E8,E11,1,< (Precedes),False,The launch itself took nine minutes to reach orbit.,The satellite deployed
+E8,E12,1,< (Precedes),False,The launch itself took nine minutes to reach orbit.,The ground station received the confirmation signal
+E8,E13,1,< (Precedes),False,The launch itself took nine minutes to reach orbit.,the last anyone heard from it for the next six hours
+E8,E14,1,< (Precedes),False,The launch itself took nine minutes to reach orbit.,said Nominal into the loop.
+E8,E15,1,< (Precedes),False,The launch itself took nine minutes to reach orbit.,the launch window lasted
+E9,E1,-1,> (Preceded By),False,The rocket passed through two time zones,The engineer who designed the guidance system had been dead for four years.
+E9,E2,-1,> (Preceded By),False,The rocket passed through two time zones,The word had been in the family for twenty years.
+E9,E3,-1,> (Preceded By),False,The rocket passed through two time zones,The countdown had begun
+E9,E4,-1,> (Preceded By),False,The rocket passed through two time zones,The fuel loading started
+E9,E5,-1,> (Preceded By),False,The rocket passed through two time zones,a two hour hold
+E9,E6,-1,> (Preceded By),False,The rocket passed through two time zones,lightning risk that passed
+E9,E7,-1,> (Preceded By),False,The rocket passed through two time zones,finished
+E9,E8,-1,> (Preceded By),False,The rocket passed through two time zones,The launch itself took nine minutes to reach orbit.
+E9,E10,1,< (Precedes),False,The rocket passed through two time zones,booster separation happened
+E9,E11,1,< (Precedes),False,The rocket passed through two time zones,The satellite deployed
+E9,E12,1,< (Precedes),False,The rocket passed through two time zones,The ground station received the confirmation signal
+E9,E13,1,< (Precedes),False,The rocket passed through two time zones,the last anyone heard from it for the next six hours
+E9,E14,1,< (Precedes),False,The rocket passed through two time zones,said Nominal into the loop.
+E9,E15,1,< (Precedes),False,The rocket passed through two time zones,the launch window lasted
+E10,E1,-1,> (Preceded By),False,booster separation happened,The engineer who designed the guidance system had been dead for four years.
+E10,E2,-1,> (Preceded By),False,booster separation happened,The word had been in the family for twenty years.
+E10,E3,-1,> (Preceded By),False,booster separation happened,The countdown had begun
+E10,E4,-1,> (Preceded By),False,booster separation happened,The fuel loading started
+E10,E5,-1,> (Preceded By),False,booster separation happened,a two hour hold
+E10,E6,-1,> (Preceded By),False,booster separation happened,lightning risk that passed
+E10,E7,-1,> (Preceded By),False,booster separation happened,finished
+E10,E8,-1,> (Preceded By),False,booster separation happened,The launch itself took nine minutes to reach orbit.
+E10,E9,-1,> (Preceded By),False,booster separation happened,The rocket passed through two time zones
+E10,E11,1,< (Precedes),False,booster separation happened,The satellite deployed
+E10,E12,1,< (Precedes),False,booster separation happened,The ground station received the confirmation signal
+E10,E13,5,d (During),False,booster separation happened,the last anyone heard from it for the next six hours
+E10,E14,1,< (Precedes),False,booster separation happened,said Nominal into the loop.
+E10,E15,1,< (Precedes),False,booster separation happened,the launch window lasted
+E11,E1,-1,> (Preceded By),False,The satellite deployed,The engineer who designed the guidance system had been dead for four years.
+E11,E2,-1,> (Preceded By),False,The satellite deployed,The word had been in the family for twenty years.
+E11,E3,-1,> (Preceded By),False,The satellite deployed,The countdown had begun
+E11,E4,-1,> (Preceded By),False,The satellite deployed,The fuel loading started
+E11,E5,-1,> (Preceded By),False,The satellite deployed,a two hour hold
+E11,E6,-1,> (Preceded By),False,The satellite deployed,lightning risk that passed
+E11,E7,-1,> (Preceded By),False,The satellite deployed,finished
+E11,E8,-1,> (Preceded By),False,The satellite deployed,The launch itself took nine minutes to reach orbit.
+E11,E9,-1,> (Preceded By),False,The satellite deployed,The rocket passed through two time zones
+E11,E10,-1,> (Preceded By),False,The satellite deployed,booster separation happened
+E11,E12,2,m (Meets),False,The satellite deployed,The ground station received the confirmation signal
+E11,E13,5,d (During),False,The satellite deployed,the last anyone heard from it for the next six hours
+E11,E14,1,< (Precedes),False,The satellite deployed,said Nominal into the loop.
+E11,E15,4,s (Starts),False,The satellite deployed,the launch window lasted
+E12,E1,-1,> (Preceded By),False,The ground station received the confirmation signal,The engineer who designed the guidance system had been dead for four years.
+E12,E2,-1,> (Preceded By),False,The ground station received the confirmation signal,The word had been in the family for twenty years.
+E12,E3,-1,> (Preceded By),False,The ground station received the confirmation signal,The countdown had begun
+E12,E4,-1,> (Preceded By),False,The ground station received the confirmation signal,The fuel loading started
+E12,E5,-1,> (Preceded By),False,The ground station received the confirmation signal,a two hour hold
+E12,E6,-1,> (Preceded By),False,The ground station received the confirmation signal,lightning risk that passed
+E12,E7,-1,> (Preceded By),False,The ground station received the confirmation signal,finished
+E12,E8,-1,> (Preceded By),False,The ground station received the confirmation signal,The launch itself took nine minutes to reach orbit.
+E12,E9,-1,> (Preceded By),False,The ground station received the confirmation signal,The rocket passed through two time zones
+E12,E10,-1,> (Preceded By),False,The ground station received the confirmation signal,booster separation happened
+E12,E11,-2,mi (Met By),False,The ground station received the confirmation signal,The satellite deployed
+E12,E13,6,f (Finishes),False,The ground station received the confirmation signal,the last anyone heard from it for the next six hours
+E12,E14,2,m (Meets),False,The ground station received the confirmation signal,said Nominal into the loop.
+E12,E15,6,f (Finishes),False,The ground station received the confirmation signal,the launch window lasted
+E13,E1,-1,> (Preceded By),False,the last anyone heard from it for the next six hours,The engineer who designed the guidance system had been dead for four years.
+E13,E2,-1,> (Preceded By),False,the last anyone heard from it for the next six hours,The word had been in the family for twenty years.
+E13,E3,-1,> (Preceded By),False,the last anyone heard from it for the next six hours,The countdown had begun
+E13,E4,-1,> (Preceded By),False,the last anyone heard from it for the next six hours,The fuel loading started
+E13,E5,-1,> (Preceded By),False,the last anyone heard from it for the next six hours,a two hour hold
+E13,E6,-1,> (Preceded By),False,the last anyone heard from it for the next six hours,lightning risk that passed
+E13,E7,-1,> (Preceded By),False,the last anyone heard from it for the next six hours,finished
+E13,E8,-1,> (Preceded By),False,the last anyone heard from it for the next six hours,The launch itself took nine minutes to reach orbit.
+E13,E9,-1,> (Preceded By),False,the last anyone heard from it for the next six hours,The rocket passed through two time zones
+E13,E10,-5,di (Contains),False,the last anyone heard from it for the next six hours,booster separation happened
+E13,E11,-5,di (Contains),False,the last anyone heard from it for the next six hours,The satellite deployed
+E13,E12,-6,fi (Finished By),False,the last anyone heard from it for the next six hours,The ground station received the confirmation signal
+E13,E14,2,m (Meets),False,the last anyone heard from it for the next six hours,said Nominal into the loop.
+E13,E15,-6,fi (Finished By),False,the last anyone heard from it for the next six hours,the launch window lasted
+E14,E1,-1,> (Preceded By),False,said Nominal into the loop.,The engineer who designed the guidance system had been dead for four years.
+E14,E2,-1,> (Preceded By),False,said Nominal into the loop.,The word had been in the family for twenty years.
+E14,E3,-1,> (Preceded By),False,said Nominal into the loop.,The countdown had begun
+E14,E4,-1,> (Preceded By),False,said Nominal into the loop.,The fuel loading started
+E14,E5,-1,> (Preceded By),False,said Nominal into the loop.,a two hour hold
+E14,E6,-1,> (Preceded By),False,said Nominal into the loop.,lightning risk that passed
+E14,E7,-1,> (Preceded By),False,said Nominal into the loop.,finished
+E14,E8,-1,> (Preceded By),False,said Nominal into the loop.,The launch itself took nine minutes to reach orbit.
+E14,E9,-1,> (Preceded By),False,said Nominal into the loop.,The rocket passed through two time zones
+E14,E10,-1,> (Preceded By),False,said Nominal into the loop.,booster separation happened
+E14,E11,-1,> (Preceded By),False,said Nominal into the loop.,The satellite deployed
+E14,E12,-2,mi (Met By),False,said Nominal into the loop.,The ground station received the confirmation signal
+E14,E13,-2,mi (Met By),False,said Nominal into the loop.,the last anyone heard from it for the next six hours
+E14,E15,-2,mi (Met By),False,said Nominal into the loop.,the launch window lasted
+E15,E1,-1,> (Preceded By),False,the launch window lasted,The engineer who designed the guidance system had been dead for four years.
+E15,E2,-1,> (Preceded By),False,the launch window lasted,The word had been in the family for twenty years.
+E15,E3,-1,> (Preceded By),False,the launch window lasted,The countdown had begun
+E15,E4,-1,> (Preceded By),False,the launch window lasted,The fuel loading started
+E15,E5,-1,> (Preceded By),False,the launch window lasted,a two hour hold
+E15,E6,-1,> (Preceded By),False,the launch window lasted,lightning risk that passed
+E15,E7,-1,> (Preceded By),False,the launch window lasted,finished
+E15,E8,-1,> (Preceded By),False,the launch window lasted,The launch itself took nine minutes to reach orbit.
+E15,E9,-1,> (Preceded By),False,the launch window lasted,The rocket passed through two time zones
+E15,E10,-1,> (Preceded By),False,the launch window lasted,booster separation happened
+E15,E11,-4,si (Started By),False,the launch window lasted,The satellite deployed
+E15,E12,-6,fi (Finished By),False,the launch window lasted,The ground station received the confirmation signal
+E15,E13,6,f (Finishes),False,the launch window lasted,the last anyone heard from it for the next six hours
+E15,E14,2,m (Meets),False,the launch window lasted,said Nominal into the loop.

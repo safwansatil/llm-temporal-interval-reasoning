@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,securing campus permissions,negotiated catering contracts with Mr. Jaman
+E1,E3,2,m (Meets),False,securing campus permissions,Mr. Rubel agreed to sponsor the event’s beverage stalls
+E1,E4,2,m (Meets),False,securing campus permissions,draft
+E1,E5,2,m (Meets),False,securing campus permissions,organizing the volunteer roster
+E1,E6,1,< (Precedes),False,securing campus permissions,finalizing all agreements
+E1,E7,1,< (Precedes),False,securing campus permissions,The festival itself ran for forty-eight uninterrupted hours
+E1,E8,1,< (Precedes),False,securing campus permissions,concluding
+E1,E9,4,s (Starts),False,securing campus permissions,The planning phase was scheduled
+E1,E10,2,m (Meets),False,securing campus permissions,Jisan paused his meetings with Mr. Jaman
+E1,E11,0,= (Equal),False,securing campus permissions,meeting him twice a week
+E2,E1,-4,si (Started By),False,negotiated catering contracts with Mr. Jaman,securing campus permissions
+E2,E3,-5,di (Contains),False,negotiated catering contracts with Mr. Jaman,Mr. Rubel agreed to sponsor the event’s beverage stalls
+E2,E4,-5,di (Contains),False,negotiated catering contracts with Mr. Jaman,draft
+E2,E5,-5,di (Contains),False,negotiated catering contracts with Mr. Jaman,organizing the volunteer roster
+E2,E6,2,m (Meets),False,negotiated catering contracts with Mr. Jaman,finalizing all agreements
+E2,E7,1,< (Precedes),False,negotiated catering contracts with Mr. Jaman,The festival itself ran for forty-eight uninterrupted hours
+E2,E8,1,< (Precedes),False,negotiated catering contracts with Mr. Jaman,concluding
+E2,E9,4,s (Starts),False,negotiated catering contracts with Mr. Jaman,The planning phase was scheduled
+E2,E10,-5,di (Contains),False,negotiated catering contracts with Mr. Jaman,Jisan paused his meetings with Mr. Jaman
+E2,E11,-4,si (Started By),False,negotiated catering contracts with Mr. Jaman,meeting him twice a week
+E3,E1,-2,mi (Met By),False,Mr. Rubel agreed to sponsor the event’s beverage stalls,securing campus permissions
+E3,E2,5,d (During),False,Mr. Rubel agreed to sponsor the event’s beverage stalls,negotiated catering contracts with Mr. Jaman
+E3,E4,4,s (Starts),False,Mr. Rubel agreed to sponsor the event’s beverage stalls,draft
+E3,E5,4,s (Starts),False,Mr. Rubel agreed to sponsor the event’s beverage stalls,organizing the volunteer roster
+E3,E6,1,< (Precedes),False,Mr. Rubel agreed to sponsor the event’s beverage stalls,finalizing all agreements
+E3,E7,1,< (Precedes),False,Mr. Rubel agreed to sponsor the event’s beverage stalls,The festival itself ran for forty-eight uninterrupted hours
+E3,E8,1,< (Precedes),False,Mr. Rubel agreed to sponsor the event’s beverage stalls,concluding
+E3,E9,5,d (During),False,Mr. Rubel agreed to sponsor the event’s beverage stalls,The planning phase was scheduled
+E3,E10,4,s (Starts),False,Mr. Rubel agreed to sponsor the event’s beverage stalls,Jisan paused his meetings with Mr. Jaman
+E3,E11,-2,mi (Met By),False,Mr. Rubel agreed to sponsor the event’s beverage stalls,meeting him twice a week
+E4,E1,-2,mi (Met By),False,draft,securing campus permissions
+E4,E2,5,d (During),False,draft,negotiated catering contracts with Mr. Jaman
+E4,E3,-4,si (Started By),False,draft,Mr. Rubel agreed to sponsor the event’s beverage stalls
+E4,E5,0,= (Equal),False,draft,organizing the volunteer roster
+E4,E6,1,< (Precedes),False,draft,finalizing all agreements
+E4,E7,1,< (Precedes),False,draft,The festival itself ran for forty-eight uninterrupted hours
+E4,E8,1,< (Precedes),False,draft,concluding
+E4,E9,5,d (During),False,draft,The planning phase was scheduled
+E4,E10,0,= (Equal),False,draft,Jisan paused his meetings with Mr. Jaman
+E4,E11,-2,mi (Met By),False,draft,meeting him twice a week
+E5,E1,-2,mi (Met By),False,organizing the volunteer roster,securing campus permissions
+E5,E2,5,d (During),False,organizing the volunteer roster,negotiated catering contracts with Mr. Jaman
+E5,E3,-4,si (Started By),False,organizing the volunteer roster,Mr. Rubel agreed to sponsor the event’s beverage stalls
+E5,E4,0,= (Equal),False,organizing the volunteer roster,draft
+E5,E6,1,< (Precedes),False,organizing the volunteer roster,finalizing all agreements
+E5,E7,1,< (Precedes),False,organizing the volunteer roster,The festival itself ran for forty-eight uninterrupted hours
+E5,E8,1,< (Precedes),False,organizing the volunteer roster,concluding
+E5,E9,5,d (During),False,organizing the volunteer roster,The planning phase was scheduled
+E5,E10,0,= (Equal),False,organizing the volunteer roster,Jisan paused his meetings with Mr. Jaman
+E5,E11,-2,mi (Met By),False,organizing the volunteer roster,meeting him twice a week
+E6,E1,-1,> (Preceded By),False,finalizing all agreements,securing campus permissions
+E6,E2,-2,mi (Met By),False,finalizing all agreements,negotiated catering contracts with Mr. Jaman
+E6,E3,-1,> (Preceded By),False,finalizing all agreements,Mr. Rubel agreed to sponsor the event’s beverage stalls
+E6,E4,-1,> (Preceded By),False,finalizing all agreements,draft
+E6,E5,-1,> (Preceded By),False,finalizing all agreements,organizing the volunteer roster
+E6,E7,1,< (Precedes),False,finalizing all agreements,The festival itself ran for forty-eight uninterrupted hours
+E6,E8,1,< (Precedes),False,finalizing all agreements,concluding
+E6,E9,5,d (During),False,finalizing all agreements,The planning phase was scheduled
+E6,E10,-1,> (Preceded By),False,finalizing all agreements,Jisan paused his meetings with Mr. Jaman
+E6,E11,-1,> (Preceded By),False,finalizing all agreements,meeting him twice a week
+E7,E1,-1,> (Preceded By),False,The festival itself ran for forty-eight uninterrupted hours,securing campus permissions
+E7,E2,-1,> (Preceded By),False,The festival itself ran for forty-eight uninterrupted hours,negotiated catering contracts with Mr. Jaman
+E7,E3,-1,> (Preceded By),False,The festival itself ran for forty-eight uninterrupted hours,Mr. Rubel agreed to sponsor the event’s beverage stalls
+E7,E4,-1,> (Preceded By),False,The festival itself ran for forty-eight uninterrupted hours,draft
+E7,E5,-1,> (Preceded By),False,The festival itself ran for forty-eight uninterrupted hours,organizing the volunteer roster
+E7,E6,-1,> (Preceded By),False,The festival itself ran for forty-eight uninterrupted hours,finalizing all agreements
+E7,E8,-6,fi (Finished By),False,The festival itself ran for forty-eight uninterrupted hours,concluding
+E7,E9,-2,mi (Met By),False,The festival itself ran for forty-eight uninterrupted hours,The planning phase was scheduled
+E7,E10,-1,> (Preceded By),False,The festival itself ran for forty-eight uninterrupted hours,Jisan paused his meetings with Mr. Jaman
+E7,E11,-1,> (Preceded By),False,The festival itself ran for forty-eight uninterrupted hours,meeting him twice a week
+E8,E1,-1,> (Preceded By),False,concluding,securing campus permissions
+E8,E2,-1,> (Preceded By),False,concluding,negotiated catering contracts with Mr. Jaman
+E8,E3,-1,> (Preceded By),False,concluding,Mr. Rubel agreed to sponsor the event’s beverage stalls
+E8,E4,-1,> (Preceded By),False,concluding,draft
+E8,E5,-1,> (Preceded By),False,concluding,organizing the volunteer roster
+E8,E6,-1,> (Preceded By),False,concluding,finalizing all agreements
+E8,E7,6,f (Finishes),False,concluding,The festival itself ran for forty-eight uninterrupted hours
+E8,E9,-1,> (Preceded By),False,concluding,The planning phase was scheduled
+E8,E10,-1,> (Preceded By),False,concluding,Jisan paused his meetings with Mr. Jaman
+E8,E11,-1,> (Preceded By),False,concluding,meeting him twice a week
+E9,E1,-4,si (Started By),False,The planning phase was scheduled,securing campus permissions
+E9,E2,-4,si (Started By),False,The planning phase was scheduled,negotiated catering contracts with Mr. Jaman
+E9,E3,-5,di (Contains),False,The planning phase was scheduled,Mr. Rubel agreed to sponsor the event’s beverage stalls
+E9,E4,-5,di (Contains),False,The planning phase was scheduled,draft
+E9,E5,-5,di (Contains),False,The planning phase was scheduled,organizing the volunteer roster
+E9,E6,-5,di (Contains),False,The planning phase was scheduled,finalizing all agreements
+E9,E7,2,m (Meets),False,The planning phase was scheduled,The festival itself ran for forty-eight uninterrupted hours
+E9,E8,1,< (Precedes),False,The planning phase was scheduled,concluding
+E9,E10,-5,di (Contains),False,The planning phase was scheduled,Jisan paused his meetings with Mr. Jaman
+E9,E11,-4,si (Started By),False,The planning phase was scheduled,meeting him twice a week
+E10,E1,-2,mi (Met By),False,Jisan paused his meetings with Mr. Jaman,securing campus permissions
+E10,E2,5,d (During),False,Jisan paused his meetings with Mr. Jaman,negotiated catering contracts with Mr. Jaman
+E10,E3,-4,si (Started By),False,Jisan paused his meetings with Mr. Jaman,Mr. Rubel agreed to sponsor the event’s beverage stalls
+E10,E4,0,= (Equal),False,Jisan paused his meetings with Mr. Jaman,draft
+E10,E5,0,= (Equal),False,Jisan paused his meetings with Mr. Jaman,organizing the volunteer roster
+E10,E6,1,< (Precedes),False,Jisan paused his meetings with Mr. Jaman,finalizing all agreements
+E10,E7,1,< (Precedes),False,Jisan paused his meetings with Mr. Jaman,The festival itself ran for forty-eight uninterrupted hours
+E10,E8,1,< (Precedes),False,Jisan paused his meetings with Mr. Jaman,concluding
+E10,E9,5,d (During),False,Jisan paused his meetings with Mr. Jaman,The planning phase was scheduled
+E10,E11,-2,mi (Met By),False,Jisan paused his meetings with Mr. Jaman,meeting him twice a week
+E11,E1,0,= (Equal),False,meeting him twice a week,securing campus permissions
+E11,E2,4,s (Starts),False,meeting him twice a week,negotiated catering contracts with Mr. Jaman
+E11,E3,2,m (Meets),False,meeting him twice a week,Mr. Rubel agreed to sponsor the event’s beverage stalls
+E11,E4,2,m (Meets),False,meeting him twice a week,draft
+E11,E5,2,m (Meets),False,meeting him twice a week,organizing the volunteer roster
+E11,E6,1,< (Precedes),False,meeting him twice a week,finalizing all agreements
+E11,E7,1,< (Precedes),False,meeting him twice a week,The festival itself ran for forty-eight uninterrupted hours
+E11,E8,1,< (Precedes),False,meeting him twice a week,concluding
+E11,E9,4,s (Starts),False,meeting him twice a week,The planning phase was scheduled
+E11,E10,2,m (Meets),False,meeting him twice a week,Jisan paused his meetings with Mr. Jaman

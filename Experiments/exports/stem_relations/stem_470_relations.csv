@@ -1,0 +1,157 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,The drilling rig arrived in the drought-affected village,Setting up the derrick and digging the mud settling pits
+E1,E3,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,Drilling through the top clay layer commenced
+E1,E4,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,reaching the first sand layer
+E1,E5,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,Boring through dense clay and silt
+E1,E6,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,the drill hit hard rock
+E1,E7,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,slowing progress
+E1,E8,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,drilling entered the deep freshwater aquifer
+E1,E9,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,the drill string was retrieved
+E1,E10,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,Lowering the PVC casing pipes and gravel pack
+E1,E11,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,Pumping out murky water to clear the aquifer
+E1,E12,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,crystal-clear water flowed from the discharge pipe
+E1,E13,1,< (Precedes),False,The drilling rig arrived in the drought-affected village,advancing twenty meters every twelve hours
+E2,E1,0,= (Equal),False,Setting up the derrick and digging the mud settling pits,The drilling rig arrived in the drought-affected village
+E2,E3,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,Drilling through the top clay layer commenced
+E2,E4,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,reaching the first sand layer
+E2,E5,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,Boring through dense clay and silt
+E2,E6,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,the drill hit hard rock
+E2,E7,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,slowing progress
+E2,E8,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,drilling entered the deep freshwater aquifer
+E2,E9,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,the drill string was retrieved
+E2,E10,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,Lowering the PVC casing pipes and gravel pack
+E2,E11,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,Pumping out murky water to clear the aquifer
+E2,E12,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,crystal-clear water flowed from the discharge pipe
+E2,E13,1,< (Precedes),False,Setting up the derrick and digging the mud settling pits,advancing twenty meters every twelve hours
+E3,E1,-1,> (Preceded By),False,Drilling through the top clay layer commenced,The drilling rig arrived in the drought-affected village
+E3,E2,-1,> (Preceded By),False,Drilling through the top clay layer commenced,Setting up the derrick and digging the mud settling pits
+E3,E4,2,m (Meets),False,Drilling through the top clay layer commenced,reaching the first sand layer
+E3,E5,2,m (Meets),False,Drilling through the top clay layer commenced,Boring through dense clay and silt
+E3,E6,1,< (Precedes),False,Drilling through the top clay layer commenced,the drill hit hard rock
+E3,E7,1,< (Precedes),False,Drilling through the top clay layer commenced,slowing progress
+E3,E8,1,< (Precedes),False,Drilling through the top clay layer commenced,drilling entered the deep freshwater aquifer
+E3,E9,1,< (Precedes),False,Drilling through the top clay layer commenced,the drill string was retrieved
+E3,E10,1,< (Precedes),False,Drilling through the top clay layer commenced,Lowering the PVC casing pipes and gravel pack
+E3,E11,1,< (Precedes),False,Drilling through the top clay layer commenced,Pumping out murky water to clear the aquifer
+E3,E12,1,< (Precedes),False,Drilling through the top clay layer commenced,crystal-clear water flowed from the discharge pipe
+E3,E13,2,m (Meets),False,Drilling through the top clay layer commenced,advancing twenty meters every twelve hours
+E4,E1,-1,> (Preceded By),False,reaching the first sand layer,The drilling rig arrived in the drought-affected village
+E4,E2,-1,> (Preceded By),False,reaching the first sand layer,Setting up the derrick and digging the mud settling pits
+E4,E3,-2,mi (Met By),False,reaching the first sand layer,Drilling through the top clay layer commenced
+E4,E5,4,s (Starts),False,reaching the first sand layer,Boring through dense clay and silt
+E4,E6,1,< (Precedes),False,reaching the first sand layer,the drill hit hard rock
+E4,E7,1,< (Precedes),False,reaching the first sand layer,slowing progress
+E4,E8,1,< (Precedes),False,reaching the first sand layer,drilling entered the deep freshwater aquifer
+E4,E9,1,< (Precedes),False,reaching the first sand layer,the drill string was retrieved
+E4,E10,1,< (Precedes),False,reaching the first sand layer,Lowering the PVC casing pipes and gravel pack
+E4,E11,1,< (Precedes),False,reaching the first sand layer,Pumping out murky water to clear the aquifer
+E4,E12,1,< (Precedes),False,reaching the first sand layer,crystal-clear water flowed from the discharge pipe
+E4,E13,4,s (Starts),False,reaching the first sand layer,advancing twenty meters every twelve hours
+E5,E1,-1,> (Preceded By),False,Boring through dense clay and silt,The drilling rig arrived in the drought-affected village
+E5,E2,-1,> (Preceded By),False,Boring through dense clay and silt,Setting up the derrick and digging the mud settling pits
+E5,E3,-2,mi (Met By),False,Boring through dense clay and silt,Drilling through the top clay layer commenced
+E5,E4,-4,si (Started By),False,Boring through dense clay and silt,reaching the first sand layer
+E5,E6,2,m (Meets),False,Boring through dense clay and silt,the drill hit hard rock
+E5,E7,2,m (Meets),False,Boring through dense clay and silt,slowing progress
+E5,E8,1,< (Precedes),False,Boring through dense clay and silt,drilling entered the deep freshwater aquifer
+E5,E9,1,< (Precedes),False,Boring through dense clay and silt,the drill string was retrieved
+E5,E10,1,< (Precedes),False,Boring through dense clay and silt,Lowering the PVC casing pipes and gravel pack
+E5,E11,1,< (Precedes),False,Boring through dense clay and silt,Pumping out murky water to clear the aquifer
+E5,E12,1,< (Precedes),False,Boring through dense clay and silt,crystal-clear water flowed from the discharge pipe
+E5,E13,0,= (Equal),False,Boring through dense clay and silt,advancing twenty meters every twelve hours
+E6,E1,-1,> (Preceded By),False,the drill hit hard rock,The drilling rig arrived in the drought-affected village
+E6,E2,-1,> (Preceded By),False,the drill hit hard rock,Setting up the derrick and digging the mud settling pits
+E6,E3,-1,> (Preceded By),False,the drill hit hard rock,Drilling through the top clay layer commenced
+E6,E4,-1,> (Preceded By),False,the drill hit hard rock,reaching the first sand layer
+E6,E5,-2,mi (Met By),False,the drill hit hard rock,Boring through dense clay and silt
+E6,E7,4,s (Starts),False,the drill hit hard rock,slowing progress
+E6,E8,1,< (Precedes),False,the drill hit hard rock,drilling entered the deep freshwater aquifer
+E6,E9,1,< (Precedes),False,the drill hit hard rock,the drill string was retrieved
+E6,E10,1,< (Precedes),False,the drill hit hard rock,Lowering the PVC casing pipes and gravel pack
+E6,E11,1,< (Precedes),False,the drill hit hard rock,Pumping out murky water to clear the aquifer
+E6,E12,1,< (Precedes),False,the drill hit hard rock,crystal-clear water flowed from the discharge pipe
+E6,E13,-2,mi (Met By),False,the drill hit hard rock,advancing twenty meters every twelve hours
+E7,E1,-1,> (Preceded By),False,slowing progress,The drilling rig arrived in the drought-affected village
+E7,E2,-1,> (Preceded By),False,slowing progress,Setting up the derrick and digging the mud settling pits
+E7,E3,-1,> (Preceded By),False,slowing progress,Drilling through the top clay layer commenced
+E7,E4,-1,> (Preceded By),False,slowing progress,reaching the first sand layer
+E7,E5,-2,mi (Met By),False,slowing progress,Boring through dense clay and silt
+E7,E6,-4,si (Started By),False,slowing progress,the drill hit hard rock
+E7,E8,1,< (Precedes),False,slowing progress,drilling entered the deep freshwater aquifer
+E7,E9,1,< (Precedes),False,slowing progress,the drill string was retrieved
+E7,E10,1,< (Precedes),False,slowing progress,Lowering the PVC casing pipes and gravel pack
+E7,E11,1,< (Precedes),False,slowing progress,Pumping out murky water to clear the aquifer
+E7,E12,1,< (Precedes),False,slowing progress,crystal-clear water flowed from the discharge pipe
+E7,E13,-2,mi (Met By),False,slowing progress,advancing twenty meters every twelve hours
+E8,E1,-1,> (Preceded By),False,drilling entered the deep freshwater aquifer,The drilling rig arrived in the drought-affected village
+E8,E2,-1,> (Preceded By),False,drilling entered the deep freshwater aquifer,Setting up the derrick and digging the mud settling pits
+E8,E3,-1,> (Preceded By),False,drilling entered the deep freshwater aquifer,Drilling through the top clay layer commenced
+E8,E4,-1,> (Preceded By),False,drilling entered the deep freshwater aquifer,reaching the first sand layer
+E8,E5,-1,> (Preceded By),False,drilling entered the deep freshwater aquifer,Boring through dense clay and silt
+E8,E6,-1,> (Preceded By),False,drilling entered the deep freshwater aquifer,the drill hit hard rock
+E8,E7,-1,> (Preceded By),False,drilling entered the deep freshwater aquifer,slowing progress
+E8,E9,0,= (Equal),False,drilling entered the deep freshwater aquifer,the drill string was retrieved
+E8,E10,4,s (Starts),False,drilling entered the deep freshwater aquifer,Lowering the PVC casing pipes and gravel pack
+E8,E11,1,< (Precedes),False,drilling entered the deep freshwater aquifer,Pumping out murky water to clear the aquifer
+E8,E12,1,< (Precedes),False,drilling entered the deep freshwater aquifer,crystal-clear water flowed from the discharge pipe
+E8,E13,-1,> (Preceded By),False,drilling entered the deep freshwater aquifer,advancing twenty meters every twelve hours
+E9,E1,-1,> (Preceded By),False,the drill string was retrieved,The drilling rig arrived in the drought-affected village
+E9,E2,-1,> (Preceded By),False,the drill string was retrieved,Setting up the derrick and digging the mud settling pits
+E9,E3,-1,> (Preceded By),False,the drill string was retrieved,Drilling through the top clay layer commenced
+E9,E4,-1,> (Preceded By),False,the drill string was retrieved,reaching the first sand layer
+E9,E5,-1,> (Preceded By),False,the drill string was retrieved,Boring through dense clay and silt
+E9,E6,-1,> (Preceded By),False,the drill string was retrieved,the drill hit hard rock
+E9,E7,-1,> (Preceded By),False,the drill string was retrieved,slowing progress
+E9,E8,0,= (Equal),False,the drill string was retrieved,drilling entered the deep freshwater aquifer
+E9,E10,4,s (Starts),False,the drill string was retrieved,Lowering the PVC casing pipes and gravel pack
+E9,E11,1,< (Precedes),False,the drill string was retrieved,Pumping out murky water to clear the aquifer
+E9,E12,1,< (Precedes),False,the drill string was retrieved,crystal-clear water flowed from the discharge pipe
+E9,E13,-1,> (Preceded By),False,the drill string was retrieved,advancing twenty meters every twelve hours
+E10,E1,-1,> (Preceded By),False,Lowering the PVC casing pipes and gravel pack,The drilling rig arrived in the drought-affected village
+E10,E2,-1,> (Preceded By),False,Lowering the PVC casing pipes and gravel pack,Setting up the derrick and digging the mud settling pits
+E10,E3,-1,> (Preceded By),False,Lowering the PVC casing pipes and gravel pack,Drilling through the top clay layer commenced
+E10,E4,-1,> (Preceded By),False,Lowering the PVC casing pipes and gravel pack,reaching the first sand layer
+E10,E5,-1,> (Preceded By),False,Lowering the PVC casing pipes and gravel pack,Boring through dense clay and silt
+E10,E6,-1,> (Preceded By),False,Lowering the PVC casing pipes and gravel pack,the drill hit hard rock
+E10,E7,-1,> (Preceded By),False,Lowering the PVC casing pipes and gravel pack,slowing progress
+E10,E8,-4,si (Started By),False,Lowering the PVC casing pipes and gravel pack,drilling entered the deep freshwater aquifer
+E10,E9,-4,si (Started By),False,Lowering the PVC casing pipes and gravel pack,the drill string was retrieved
+E10,E11,1,< (Precedes),False,Lowering the PVC casing pipes and gravel pack,Pumping out murky water to clear the aquifer
+E10,E12,1,< (Precedes),False,Lowering the PVC casing pipes and gravel pack,crystal-clear water flowed from the discharge pipe
+E10,E13,-1,> (Preceded By),False,Lowering the PVC casing pipes and gravel pack,advancing twenty meters every twelve hours
+E11,E1,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,The drilling rig arrived in the drought-affected village
+E11,E2,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,Setting up the derrick and digging the mud settling pits
+E11,E3,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,Drilling through the top clay layer commenced
+E11,E4,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,reaching the first sand layer
+E11,E5,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,Boring through dense clay and silt
+E11,E6,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,the drill hit hard rock
+E11,E7,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,slowing progress
+E11,E8,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,drilling entered the deep freshwater aquifer
+E11,E9,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,the drill string was retrieved
+E11,E10,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,Lowering the PVC casing pipes and gravel pack
+E11,E12,-6,fi (Finished By),False,Pumping out murky water to clear the aquifer,crystal-clear water flowed from the discharge pipe
+E11,E13,-1,> (Preceded By),False,Pumping out murky water to clear the aquifer,advancing twenty meters every twelve hours
+E12,E1,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,The drilling rig arrived in the drought-affected village
+E12,E2,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,Setting up the derrick and digging the mud settling pits
+E12,E3,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,Drilling through the top clay layer commenced
+E12,E4,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,reaching the first sand layer
+E12,E5,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,Boring through dense clay and silt
+E12,E6,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,the drill hit hard rock
+E12,E7,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,slowing progress
+E12,E8,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,drilling entered the deep freshwater aquifer
+E12,E9,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,the drill string was retrieved
+E12,E10,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,Lowering the PVC casing pipes and gravel pack
+E12,E11,6,f (Finishes),False,crystal-clear water flowed from the discharge pipe,Pumping out murky water to clear the aquifer
+E12,E13,-1,> (Preceded By),False,crystal-clear water flowed from the discharge pipe,advancing twenty meters every twelve hours
+E13,E1,-1,> (Preceded By),False,advancing twenty meters every twelve hours,The drilling rig arrived in the drought-affected village
+E13,E2,-1,> (Preceded By),False,advancing twenty meters every twelve hours,Setting up the derrick and digging the mud settling pits
+E13,E3,-2,mi (Met By),False,advancing twenty meters every twelve hours,Drilling through the top clay layer commenced
+E13,E4,-4,si (Started By),False,advancing twenty meters every twelve hours,reaching the first sand layer
+E13,E5,0,= (Equal),False,advancing twenty meters every twelve hours,Boring through dense clay and silt
+E13,E6,2,m (Meets),False,advancing twenty meters every twelve hours,the drill hit hard rock
+E13,E7,2,m (Meets),False,advancing twenty meters every twelve hours,slowing progress
+E13,E8,1,< (Precedes),False,advancing twenty meters every twelve hours,drilling entered the deep freshwater aquifer
+E13,E9,1,< (Precedes),False,advancing twenty meters every twelve hours,the drill string was retrieved
+E13,E10,1,< (Precedes),False,advancing twenty meters every twelve hours,Lowering the PVC casing pipes and gravel pack
+E13,E11,1,< (Precedes),False,advancing twenty meters every twelve hours,Pumping out murky water to clear the aquifer
+E13,E12,1,< (Precedes),False,advancing twenty meters every twelve hours,crystal-clear water flowed from the discharge pipe

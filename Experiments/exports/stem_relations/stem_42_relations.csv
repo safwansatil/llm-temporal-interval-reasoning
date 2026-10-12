@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,met at a seminar in Chittagong,started in Dhaka
+E1,E3,1,< (Precedes),False,met at a seminar in Chittagong,stayed with a family friend in Narinda
+E1,E4,1,< (Precedes),False,met at a seminar in Chittagong,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E1,E5,1,< (Precedes),False,met at a seminar in Chittagong,visited a crumbling zamindar estate
+E1,E6,1,< (Precedes),False,met at a seminar in Chittagong,selected for a photography exhibition in Dhaka
+E1,E7,1,< (Precedes),False,met at a seminar in Chittagong,attending a studio review
+E1,E8,1,< (Precedes),False,met at a seminar in Chittagong,received the email
+E1,E9,1,< (Precedes),False,met at a seminar in Chittagong,ask her friend in Dhaka to represent her at the exhibition opening
+E1,E10,5,d (During),False,met at a seminar in Chittagong,had been studying architecture at a university in Chittagong
+E1,E11,1,< (Precedes),False,met at a seminar in Chittagong,had taken a semester off the previous year to travel and document colonial-era buildings
+E1,E12,1,< (Precedes),False,met at a seminar in Chittagong,spending two weeks photographing structures in Purana Dhaka
+E1,E13,1,< (Precedes),False,met at a seminar in Chittagong,she took a train to Rajshahi in the third week of her trip
+E1,E14,1,< (Precedes),False,met at a seminar in Chittagong,had given her a list of lesser-known sites in Rajshahi distric
+E1,E15,1,< (Precedes),False,met at a seminar in Chittagong,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E1,E16,1,< (Precedes),False,met at a seminar in Chittagong,The image she took of the main stupa at golden hour
+E2,E1,-1,> (Preceded By),False,started in Dhaka,met at a seminar in Chittagong
+E2,E3,4,s (Starts),False,started in Dhaka,stayed with a family friend in Narinda
+E2,E4,1,< (Precedes),False,started in Dhaka,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E2,E5,1,< (Precedes),False,started in Dhaka,visited a crumbling zamindar estate
+E2,E6,1,< (Precedes),False,started in Dhaka,selected for a photography exhibition in Dhaka
+E2,E7,1,< (Precedes),False,started in Dhaka,attending a studio review
+E2,E8,1,< (Precedes),False,started in Dhaka,received the email
+E2,E9,1,< (Precedes),False,started in Dhaka,ask her friend in Dhaka to represent her at the exhibition opening
+E2,E10,5,d (During),False,started in Dhaka,had been studying architecture at a university in Chittagong
+E2,E11,5,d (During),False,started in Dhaka,had taken a semester off the previous year to travel and document colonial-era buildings
+E2,E12,4,s (Starts),False,started in Dhaka,spending two weeks photographing structures in Purana Dhaka
+E2,E13,1,< (Precedes),False,started in Dhaka,she took a train to Rajshahi in the third week of her trip
+E2,E14,-1,> (Preceded By),False,started in Dhaka,had given her a list of lesser-known sites in Rajshahi distric
+E2,E15,1,< (Precedes),False,started in Dhaka,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E2,E16,1,< (Precedes),False,started in Dhaka,The image she took of the main stupa at golden hour
+E3,E1,-1,> (Preceded By),False,stayed with a family friend in Narinda,met at a seminar in Chittagong
+E3,E2,-4,si (Started By),False,stayed with a family friend in Narinda,started in Dhaka
+E3,E4,1,< (Precedes),False,stayed with a family friend in Narinda,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E3,E5,1,< (Precedes),False,stayed with a family friend in Narinda,visited a crumbling zamindar estate
+E3,E6,1,< (Precedes),False,stayed with a family friend in Narinda,selected for a photography exhibition in Dhaka
+E3,E7,1,< (Precedes),False,stayed with a family friend in Narinda,attending a studio review
+E3,E8,1,< (Precedes),False,stayed with a family friend in Narinda,received the email
+E3,E9,1,< (Precedes),False,stayed with a family friend in Narinda,ask her friend in Dhaka to represent her at the exhibition opening
+E3,E10,5,d (During),False,stayed with a family friend in Narinda,had been studying architecture at a university in Chittagong
+E3,E11,5,d (During),False,stayed with a family friend in Narinda,had taken a semester off the previous year to travel and document colonial-era buildings
+E3,E12,0,= (Equal),False,stayed with a family friend in Narinda,spending two weeks photographing structures in Purana Dhaka
+E3,E13,1,< (Precedes),False,stayed with a family friend in Narinda,she took a train to Rajshahi in the third week of her trip
+E3,E14,-1,> (Preceded By),False,stayed with a family friend in Narinda,had given her a list of lesser-known sites in Rajshahi distric
+E3,E15,1,< (Precedes),False,stayed with a family friend in Narinda,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E3,E16,1,< (Precedes),False,stayed with a family friend in Narinda,The image she took of the main stupa at golden hour
+E4,E1,-1,> (Preceded By),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,met at a seminar in Chittagong
+E4,E2,-1,> (Preceded By),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,started in Dhaka
+E4,E3,-1,> (Preceded By),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,stayed with a family friend in Narinda
+E4,E5,-5,di (Contains),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,visited a crumbling zamindar estate
+E4,E6,1,< (Precedes),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,selected for a photography exhibition in Dhaka
+E4,E7,1,< (Precedes),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,attending a studio review
+E4,E8,1,< (Precedes),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,received the email
+E4,E9,1,< (Precedes),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,ask her friend in Dhaka to represent her at the exhibition opening
+E4,E10,5,d (During),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,had been studying architecture at a university in Chittagong
+E4,E11,5,d (During),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,had taken a semester off the previous year to travel and document colonial-era buildings
+E4,E12,-1,> (Preceded By),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,spending two weeks photographing structures in Purana Dhaka
+E4,E13,-1,> (Preceded By),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,she took a train to Rajshahi in the third week of her trip
+E4,E14,-1,> (Preceded By),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,had given her a list of lesser-known sites in Rajshahi distric
+E4,E15,1,< (Precedes),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E4,E16,1,< (Precedes),False,Varendra Research Museum and several structures near the Padma riverfront kept her busy,The image she took of the main stupa at golden hour
+E5,E1,-1,> (Preceded By),False,visited a crumbling zamindar estate,met at a seminar in Chittagong
+E5,E2,-1,> (Preceded By),False,visited a crumbling zamindar estate,started in Dhaka
+E5,E3,-1,> (Preceded By),False,visited a crumbling zamindar estate,stayed with a family friend in Narinda
+E5,E4,5,d (During),False,visited a crumbling zamindar estate,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E5,E6,1,< (Precedes),False,visited a crumbling zamindar estate,selected for a photography exhibition in Dhaka
+E5,E7,1,< (Precedes),False,visited a crumbling zamindar estate,attending a studio review
+E5,E8,1,< (Precedes),False,visited a crumbling zamindar estate,received the email
+E5,E9,1,< (Precedes),False,visited a crumbling zamindar estate,ask her friend in Dhaka to represent her at the exhibition opening
+E5,E10,5,d (During),False,visited a crumbling zamindar estate,had been studying architecture at a university in Chittagong
+E5,E11,5,d (During),False,visited a crumbling zamindar estate,had taken a semester off the previous year to travel and document colonial-era buildings
+E5,E12,-1,> (Preceded By),False,visited a crumbling zamindar estate,spending two weeks photographing structures in Purana Dhaka
+E5,E13,-1,> (Preceded By),False,visited a crumbling zamindar estate,she took a train to Rajshahi in the third week of her trip
+E5,E14,-1,> (Preceded By),False,visited a crumbling zamindar estate,had given her a list of lesser-known sites in Rajshahi distric
+E5,E15,1,< (Precedes),False,visited a crumbling zamindar estate,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E5,E16,1,< (Precedes),False,visited a crumbling zamindar estate,The image she took of the main stupa at golden hour
+E6,E1,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,met at a seminar in Chittagong
+E6,E2,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,started in Dhaka
+E6,E3,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,stayed with a family friend in Narinda
+E6,E4,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E6,E5,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,visited a crumbling zamindar estate
+E6,E7,4,s (Starts),False,selected for a photography exhibition in Dhaka,attending a studio review
+E6,E8,1,< (Precedes),False,selected for a photography exhibition in Dhaka,received the email
+E6,E9,1,< (Precedes),False,selected for a photography exhibition in Dhaka,ask her friend in Dhaka to represent her at the exhibition opening
+E6,E10,5,d (During),False,selected for a photography exhibition in Dhaka,had been studying architecture at a university in Chittagong
+E6,E11,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,had taken a semester off the previous year to travel and document colonial-era buildings
+E6,E12,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,spending two weeks photographing structures in Purana Dhaka
+E6,E13,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,she took a train to Rajshahi in the third week of her trip
+E6,E14,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,had given her a list of lesser-known sites in Rajshahi distric
+E6,E15,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E6,E16,-1,> (Preceded By),False,selected for a photography exhibition in Dhaka,The image she took of the main stupa at golden hour
+E7,E1,-1,> (Preceded By),False,attending a studio review,met at a seminar in Chittagong
+E7,E2,-1,> (Preceded By),False,attending a studio review,started in Dhaka
+E7,E3,-1,> (Preceded By),False,attending a studio review,stayed with a family friend in Narinda
+E7,E4,-1,> (Preceded By),False,attending a studio review,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E7,E5,-1,> (Preceded By),False,attending a studio review,visited a crumbling zamindar estate
+E7,E6,-4,si (Started By),False,attending a studio review,selected for a photography exhibition in Dhaka
+E7,E8,-5,di (Contains),False,attending a studio review,received the email
+E7,E9,-5,di (Contains),False,attending a studio review,ask her friend in Dhaka to represent her at the exhibition opening
+E7,E10,5,d (During),False,attending a studio review,had been studying architecture at a university in Chittagong
+E7,E11,-1,> (Preceded By),False,attending a studio review,had taken a semester off the previous year to travel and document colonial-era buildings
+E7,E12,-1,> (Preceded By),False,attending a studio review,spending two weeks photographing structures in Purana Dhaka
+E7,E13,-1,> (Preceded By),False,attending a studio review,she took a train to Rajshahi in the third week of her trip
+E7,E14,-1,> (Preceded By),False,attending a studio review,had given her a list of lesser-known sites in Rajshahi distric
+E7,E15,-1,> (Preceded By),False,attending a studio review,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E7,E16,-1,> (Preceded By),False,attending a studio review,The image she took of the main stupa at golden hour
+E8,E1,-1,> (Preceded By),False,received the email,met at a seminar in Chittagong
+E8,E2,-1,> (Preceded By),False,received the email,started in Dhaka
+E8,E3,-1,> (Preceded By),False,received the email,stayed with a family friend in Narinda
+E8,E4,-1,> (Preceded By),False,received the email,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E8,E5,-1,> (Preceded By),False,received the email,visited a crumbling zamindar estate
+E8,E6,-1,> (Preceded By),False,received the email,selected for a photography exhibition in Dhaka
+E8,E7,5,d (During),False,received the email,attending a studio review
+E8,E9,1,< (Precedes),False,received the email,ask her friend in Dhaka to represent her at the exhibition opening
+E8,E10,5,d (During),False,received the email,had been studying architecture at a university in Chittagong
+E8,E11,-1,> (Preceded By),False,received the email,had taken a semester off the previous year to travel and document colonial-era buildings
+E8,E12,-1,> (Preceded By),False,received the email,spending two weeks photographing structures in Purana Dhaka
+E8,E13,-1,> (Preceded By),False,received the email,she took a train to Rajshahi in the third week of her trip
+E8,E14,-1,> (Preceded By),False,received the email,had given her a list of lesser-known sites in Rajshahi distric
+E8,E15,-1,> (Preceded By),False,received the email,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E8,E16,-1,> (Preceded By),False,received the email,The image she took of the main stupa at golden hour
+E9,E1,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,met at a seminar in Chittagong
+E9,E2,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,started in Dhaka
+E9,E3,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,stayed with a family friend in Narinda
+E9,E4,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E9,E5,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,visited a crumbling zamindar estate
+E9,E6,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,selected for a photography exhibition in Dhaka
+E9,E7,5,d (During),False,ask her friend in Dhaka to represent her at the exhibition opening,attending a studio review
+E9,E8,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,received the email
+E9,E10,5,d (During),False,ask her friend in Dhaka to represent her at the exhibition opening,had been studying architecture at a university in Chittagong
+E9,E11,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,had taken a semester off the previous year to travel and document colonial-era buildings
+E9,E12,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,spending two weeks photographing structures in Purana Dhaka
+E9,E13,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,she took a train to Rajshahi in the third week of her trip
+E9,E14,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,had given her a list of lesser-known sites in Rajshahi distric
+E9,E15,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E9,E16,-1,> (Preceded By),False,ask her friend in Dhaka to represent her at the exhibition opening,The image she took of the main stupa at golden hour
+E10,E1,-5,di (Contains),False,had been studying architecture at a university in Chittagong,met at a seminar in Chittagong
+E10,E2,-5,di (Contains),False,had been studying architecture at a university in Chittagong,started in Dhaka
+E10,E3,-5,di (Contains),False,had been studying architecture at a university in Chittagong,stayed with a family friend in Narinda
+E10,E4,-5,di (Contains),False,had been studying architecture at a university in Chittagong,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E10,E5,-5,di (Contains),False,had been studying architecture at a university in Chittagong,visited a crumbling zamindar estate
+E10,E6,-5,di (Contains),False,had been studying architecture at a university in Chittagong,selected for a photography exhibition in Dhaka
+E10,E7,-5,di (Contains),False,had been studying architecture at a university in Chittagong,attending a studio review
+E10,E8,-5,di (Contains),False,had been studying architecture at a university in Chittagong,received the email
+E10,E9,-5,di (Contains),False,had been studying architecture at a university in Chittagong,ask her friend in Dhaka to represent her at the exhibition opening
+E10,E11,-5,di (Contains),False,had been studying architecture at a university in Chittagong,had taken a semester off the previous year to travel and document colonial-era buildings
+E10,E12,-5,di (Contains),False,had been studying architecture at a university in Chittagong,spending two weeks photographing structures in Purana Dhaka
+E10,E13,-5,di (Contains),False,had been studying architecture at a university in Chittagong,she took a train to Rajshahi in the third week of her trip
+E10,E14,-5,di (Contains),False,had been studying architecture at a university in Chittagong,had given her a list of lesser-known sites in Rajshahi distric
+E10,E15,-5,di (Contains),False,had been studying architecture at a university in Chittagong,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E10,E16,-5,di (Contains),False,had been studying architecture at a university in Chittagong,The image she took of the main stupa at golden hour
+E11,E1,-1,> (Preceded By),False,had taken a semester off the previous year to travel and document colonial-era buildings,met at a seminar in Chittagong
+E11,E2,-5,di (Contains),False,had taken a semester off the previous year to travel and document colonial-era buildings,started in Dhaka
+E11,E3,-5,di (Contains),False,had taken a semester off the previous year to travel and document colonial-era buildings,stayed with a family friend in Narinda
+E11,E4,-5,di (Contains),False,had taken a semester off the previous year to travel and document colonial-era buildings,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E11,E5,-5,di (Contains),False,had taken a semester off the previous year to travel and document colonial-era buildings,visited a crumbling zamindar estate
+E11,E6,1,< (Precedes),False,had taken a semester off the previous year to travel and document colonial-era buildings,selected for a photography exhibition in Dhaka
+E11,E7,1,< (Precedes),False,had taken a semester off the previous year to travel and document colonial-era buildings,attending a studio review
+E11,E8,1,< (Precedes),False,had taken a semester off the previous year to travel and document colonial-era buildings,received the email
+E11,E9,1,< (Precedes),False,had taken a semester off the previous year to travel and document colonial-era buildings,ask her friend in Dhaka to represent her at the exhibition opening
+E11,E10,5,d (During),False,had taken a semester off the previous year to travel and document colonial-era buildings,had been studying architecture at a university in Chittagong
+E11,E12,-5,di (Contains),False,had taken a semester off the previous year to travel and document colonial-era buildings,spending two weeks photographing structures in Purana Dhaka
+E11,E13,-5,di (Contains),False,had taken a semester off the previous year to travel and document colonial-era buildings,she took a train to Rajshahi in the third week of her trip
+E11,E14,-1,> (Preceded By),False,had taken a semester off the previous year to travel and document colonial-era buildings,had given her a list of lesser-known sites in Rajshahi distric
+E11,E15,-5,di (Contains),False,had taken a semester off the previous year to travel and document colonial-era buildings,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E11,E16,-5,di (Contains),False,had taken a semester off the previous year to travel and document colonial-era buildings,The image she took of the main stupa at golden hour
+E12,E1,-1,> (Preceded By),False,spending two weeks photographing structures in Purana Dhaka,met at a seminar in Chittagong
+E12,E2,-4,si (Started By),False,spending two weeks photographing structures in Purana Dhaka,started in Dhaka
+E12,E3,0,= (Equal),False,spending two weeks photographing structures in Purana Dhaka,stayed with a family friend in Narinda
+E12,E4,1,< (Precedes),False,spending two weeks photographing structures in Purana Dhaka,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E12,E5,1,< (Precedes),False,spending two weeks photographing structures in Purana Dhaka,visited a crumbling zamindar estate
+E12,E6,1,< (Precedes),False,spending two weeks photographing structures in Purana Dhaka,selected for a photography exhibition in Dhaka
+E12,E7,1,< (Precedes),False,spending two weeks photographing structures in Purana Dhaka,attending a studio review
+E12,E8,1,< (Precedes),False,spending two weeks photographing structures in Purana Dhaka,received the email
+E12,E9,1,< (Precedes),False,spending two weeks photographing structures in Purana Dhaka,ask her friend in Dhaka to represent her at the exhibition opening
+E12,E10,5,d (During),False,spending two weeks photographing structures in Purana Dhaka,had been studying architecture at a university in Chittagong
+E12,E11,5,d (During),False,spending two weeks photographing structures in Purana Dhaka,had taken a semester off the previous year to travel and document colonial-era buildings
+E12,E13,1,< (Precedes),False,spending two weeks photographing structures in Purana Dhaka,she took a train to Rajshahi in the third week of her trip
+E12,E14,-1,> (Preceded By),False,spending two weeks photographing structures in Purana Dhaka,had given her a list of lesser-known sites in Rajshahi distric
+E12,E15,1,< (Precedes),False,spending two weeks photographing structures in Purana Dhaka,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E12,E16,1,< (Precedes),False,spending two weeks photographing structures in Purana Dhaka,The image she took of the main stupa at golden hour
+E13,E1,-1,> (Preceded By),False,she took a train to Rajshahi in the third week of her trip,met at a seminar in Chittagong
+E13,E2,-1,> (Preceded By),False,she took a train to Rajshahi in the third week of her trip,started in Dhaka
+E13,E3,-1,> (Preceded By),False,she took a train to Rajshahi in the third week of her trip,stayed with a family friend in Narinda
+E13,E4,1,< (Precedes),False,she took a train to Rajshahi in the third week of her trip,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E13,E5,1,< (Precedes),False,she took a train to Rajshahi in the third week of her trip,visited a crumbling zamindar estate
+E13,E6,1,< (Precedes),False,she took a train to Rajshahi in the third week of her trip,selected for a photography exhibition in Dhaka
+E13,E7,1,< (Precedes),False,she took a train to Rajshahi in the third week of her trip,attending a studio review
+E13,E8,1,< (Precedes),False,she took a train to Rajshahi in the third week of her trip,received the email
+E13,E9,1,< (Precedes),False,she took a train to Rajshahi in the third week of her trip,ask her friend in Dhaka to represent her at the exhibition opening
+E13,E10,5,d (During),False,she took a train to Rajshahi in the third week of her trip,had been studying architecture at a university in Chittagong
+E13,E11,5,d (During),False,she took a train to Rajshahi in the third week of her trip,had taken a semester off the previous year to travel and document colonial-era buildings
+E13,E12,-1,> (Preceded By),False,she took a train to Rajshahi in the third week of her trip,spending two weeks photographing structures in Purana Dhaka
+E13,E14,-1,> (Preceded By),False,she took a train to Rajshahi in the third week of her trip,had given her a list of lesser-known sites in Rajshahi distric
+E13,E15,1,< (Precedes),False,she took a train to Rajshahi in the third week of her trip,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E13,E16,1,< (Precedes),False,she took a train to Rajshahi in the third week of her trip,The image she took of the main stupa at golden hour
+E14,E1,-1,> (Preceded By),False,had given her a list of lesser-known sites in Rajshahi distric,met at a seminar in Chittagong
+E14,E2,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,started in Dhaka
+E14,E3,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,stayed with a family friend in Narinda
+E14,E4,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E14,E5,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,visited a crumbling zamindar estate
+E14,E6,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,selected for a photography exhibition in Dhaka
+E14,E7,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,attending a studio review
+E14,E8,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,received the email
+E14,E9,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,ask her friend in Dhaka to represent her at the exhibition opening
+E14,E10,5,d (During),False,had given her a list of lesser-known sites in Rajshahi distric,had been studying architecture at a university in Chittagong
+E14,E11,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,had taken a semester off the previous year to travel and document colonial-era buildings
+E14,E12,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,spending two weeks photographing structures in Purana Dhaka
+E14,E13,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,she took a train to Rajshahi in the third week of her trip
+E14,E15,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,stopped in Comilla for two days to photograph the Shalban Vihara complex
+E14,E16,1,< (Precedes),False,had given her a list of lesser-known sites in Rajshahi distric,The image she took of the main stupa at golden hour
+E15,E1,-1,> (Preceded By),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,met at a seminar in Chittagong
+E15,E2,-1,> (Preceded By),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,started in Dhaka
+E15,E3,-1,> (Preceded By),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,stayed with a family friend in Narinda
+E15,E4,-1,> (Preceded By),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E15,E5,-1,> (Preceded By),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,visited a crumbling zamindar estate
+E15,E6,1,< (Precedes),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,selected for a photography exhibition in Dhaka
+E15,E7,1,< (Precedes),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,attending a studio review
+E15,E8,1,< (Precedes),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,received the email
+E15,E9,1,< (Precedes),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,ask her friend in Dhaka to represent her at the exhibition opening
+E15,E10,5,d (During),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,had been studying architecture at a university in Chittagong
+E15,E11,5,d (During),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,had taken a semester off the previous year to travel and document colonial-era buildings
+E15,E12,-1,> (Preceded By),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,spending two weeks photographing structures in Purana Dhaka
+E15,E13,-1,> (Preceded By),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,she took a train to Rajshahi in the third week of her trip
+E15,E14,-1,> (Preceded By),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,had given her a list of lesser-known sites in Rajshahi distric
+E15,E16,-5,di (Contains),False,stopped in Comilla for two days to photograph the Shalban Vihara complex,The image she took of the main stupa at golden hour
+E16,E1,-1,> (Preceded By),False,The image she took of the main stupa at golden hour,met at a seminar in Chittagong
+E16,E2,-1,> (Preceded By),False,The image she took of the main stupa at golden hour,started in Dhaka
+E16,E3,-1,> (Preceded By),False,The image she took of the main stupa at golden hour,stayed with a family friend in Narinda
+E16,E4,-1,> (Preceded By),False,The image she took of the main stupa at golden hour,Varendra Research Museum and several structures near the Padma riverfront kept her busy
+E16,E5,-1,> (Preceded By),False,The image she took of the main stupa at golden hour,visited a crumbling zamindar estate
+E16,E6,1,< (Precedes),False,The image she took of the main stupa at golden hour,selected for a photography exhibition in Dhaka
+E16,E7,1,< (Precedes),False,The image she took of the main stupa at golden hour,attending a studio review
+E16,E8,1,< (Precedes),False,The image she took of the main stupa at golden hour,received the email
+E16,E9,1,< (Precedes),False,The image she took of the main stupa at golden hour,ask her friend in Dhaka to represent her at the exhibition opening
+E16,E10,5,d (During),False,The image she took of the main stupa at golden hour,had been studying architecture at a university in Chittagong
+E16,E11,5,d (During),False,The image she took of the main stupa at golden hour,had taken a semester off the previous year to travel and document colonial-era buildings
+E16,E12,-1,> (Preceded By),False,The image she took of the main stupa at golden hour,spending two weeks photographing structures in Purana Dhaka
+E16,E13,-1,> (Preceded By),False,The image she took of the main stupa at golden hour,she took a train to Rajshahi in the third week of her trip
+E16,E14,-1,> (Preceded By),False,The image she took of the main stupa at golden hour,had given her a list of lesser-known sites in Rajshahi distric
+E16,E15,5,d (During),False,The image she took of the main stupa at golden hour,stopped in Comilla for two days to photograph the Shalban Vihara complex

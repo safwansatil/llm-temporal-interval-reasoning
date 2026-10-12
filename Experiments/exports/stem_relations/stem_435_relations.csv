@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,enrolled in a specialized software bootcamp,submitting his initial project
+E1,E3,1,< (Precedes),False,enrolled in a specialized software bootcamp,submitted her first two projects
+E1,E4,1,< (Precedes),False,enrolled in a specialized software bootcamp,spent the next ten days studying an extra three hours each night
+E1,E5,1,< (Precedes),False,enrolled in a specialized software bootcamp,completing his second project
+E1,E6,1,< (Precedes),False,enrolled in a specialized software bootcamp,a group assignment was issued
+E1,E7,1,< (Precedes),False,enrolled in a specialized software bootcamp,Imran and Sadia partnered up
+E1,E8,1,< (Precedes),False,enrolled in a specialized software bootcamp,dedicating five hours a day to collaborative coding
+E1,E9,1,< (Precedes),False,enrolled in a specialized software bootcamp,successful submission
+E1,E10,1,< (Precedes),False,enrolled in a specialized software bootcamp,Sadia took a three-day weekend to recover
+E1,E11,1,< (Precedes),False,enrolled in a specialized software bootcamp,Imran used those same three days to review advance materials
+E2,E1,-1,> (Preceded By),False,submitting his initial project,enrolled in a specialized software bootcamp
+E2,E3,5,d (During),False,submitting his initial project,submitted her first two projects
+E2,E4,4,s (Starts),False,submitting his initial project,spent the next ten days studying an extra three hours each night
+E2,E5,1,< (Precedes),False,submitting his initial project,completing his second project
+E2,E6,1,< (Precedes),False,submitting his initial project,a group assignment was issued
+E2,E7,1,< (Precedes),False,submitting his initial project,Imran and Sadia partnered up
+E2,E8,1,< (Precedes),False,submitting his initial project,dedicating five hours a day to collaborative coding
+E2,E9,1,< (Precedes),False,submitting his initial project,successful submission
+E2,E10,1,< (Precedes),False,submitting his initial project,Sadia took a three-day weekend to recover
+E2,E11,1,< (Precedes),False,submitting his initial project,Imran used those same three days to review advance materials
+E3,E1,-1,> (Preceded By),False,submitted her first two projects,enrolled in a specialized software bootcamp
+E3,E2,-5,di (Contains),False,submitted her first two projects,submitting his initial project
+E3,E4,-6,fi (Finished By),False,submitted her first two projects,spent the next ten days studying an extra three hours each night
+E3,E5,1,< (Precedes),False,submitted her first two projects,completing his second project
+E3,E6,1,< (Precedes),False,submitted her first two projects,a group assignment was issued
+E3,E7,1,< (Precedes),False,submitted her first two projects,Imran and Sadia partnered up
+E3,E8,1,< (Precedes),False,submitted her first two projects,dedicating five hours a day to collaborative coding
+E3,E9,1,< (Precedes),False,submitted her first two projects,successful submission
+E3,E10,1,< (Precedes),False,submitted her first two projects,Sadia took a three-day weekend to recover
+E3,E11,1,< (Precedes),False,submitted her first two projects,Imran used those same three days to review advance materials
+E4,E1,-1,> (Preceded By),False,spent the next ten days studying an extra three hours each night,enrolled in a specialized software bootcamp
+E4,E2,-4,si (Started By),False,spent the next ten days studying an extra three hours each night,submitting his initial project
+E4,E3,6,f (Finishes),False,spent the next ten days studying an extra three hours each night,submitted her first two projects
+E4,E5,1,< (Precedes),False,spent the next ten days studying an extra three hours each night,completing his second project
+E4,E6,1,< (Precedes),False,spent the next ten days studying an extra three hours each night,a group assignment was issued
+E4,E7,1,< (Precedes),False,spent the next ten days studying an extra three hours each night,Imran and Sadia partnered up
+E4,E8,1,< (Precedes),False,spent the next ten days studying an extra three hours each night,dedicating five hours a day to collaborative coding
+E4,E9,1,< (Precedes),False,spent the next ten days studying an extra three hours each night,successful submission
+E4,E10,1,< (Precedes),False,spent the next ten days studying an extra three hours each night,Sadia took a three-day weekend to recover
+E4,E11,1,< (Precedes),False,spent the next ten days studying an extra three hours each night,Imran used those same three days to review advance materials
+E5,E1,-1,> (Preceded By),False,completing his second project,enrolled in a specialized software bootcamp
+E5,E2,-1,> (Preceded By),False,completing his second project,submitting his initial project
+E5,E3,-1,> (Preceded By),False,completing his second project,submitted her first two projects
+E5,E4,-1,> (Preceded By),False,completing his second project,spent the next ten days studying an extra three hours each night
+E5,E6,1,< (Precedes),False,completing his second project,a group assignment was issued
+E5,E7,1,< (Precedes),False,completing his second project,Imran and Sadia partnered up
+E5,E8,1,< (Precedes),False,completing his second project,dedicating five hours a day to collaborative coding
+E5,E9,1,< (Precedes),False,completing his second project,successful submission
+E5,E10,1,< (Precedes),False,completing his second project,Sadia took a three-day weekend to recover
+E5,E11,1,< (Precedes),False,completing his second project,Imran used those same three days to review advance materials
+E6,E1,-1,> (Preceded By),False,a group assignment was issued,enrolled in a specialized software bootcamp
+E6,E2,-1,> (Preceded By),False,a group assignment was issued,submitting his initial project
+E6,E3,-1,> (Preceded By),False,a group assignment was issued,submitted her first two projects
+E6,E4,-1,> (Preceded By),False,a group assignment was issued,spent the next ten days studying an extra three hours each night
+E6,E5,-1,> (Preceded By),False,a group assignment was issued,completing his second project
+E6,E7,0,= (Equal),False,a group assignment was issued,Imran and Sadia partnered up
+E6,E8,4,s (Starts),False,a group assignment was issued,dedicating five hours a day to collaborative coding
+E6,E9,1,< (Precedes),False,a group assignment was issued,successful submission
+E6,E10,1,< (Precedes),False,a group assignment was issued,Sadia took a three-day weekend to recover
+E6,E11,1,< (Precedes),False,a group assignment was issued,Imran used those same three days to review advance materials
+E7,E1,-1,> (Preceded By),False,Imran and Sadia partnered up,enrolled in a specialized software bootcamp
+E7,E2,-1,> (Preceded By),False,Imran and Sadia partnered up,submitting his initial project
+E7,E3,-1,> (Preceded By),False,Imran and Sadia partnered up,submitted her first two projects
+E7,E4,-1,> (Preceded By),False,Imran and Sadia partnered up,spent the next ten days studying an extra three hours each night
+E7,E5,-1,> (Preceded By),False,Imran and Sadia partnered up,completing his second project
+E7,E6,0,= (Equal),False,Imran and Sadia partnered up,a group assignment was issued
+E7,E8,4,s (Starts),False,Imran and Sadia partnered up,dedicating five hours a day to collaborative coding
+E7,E9,1,< (Precedes),False,Imran and Sadia partnered up,successful submission
+E7,E10,1,< (Precedes),False,Imran and Sadia partnered up,Sadia took a three-day weekend to recover
+E7,E11,1,< (Precedes),False,Imran and Sadia partnered up,Imran used those same three days to review advance materials
+E8,E1,-1,> (Preceded By),False,dedicating five hours a day to collaborative coding,enrolled in a specialized software bootcamp
+E8,E2,-1,> (Preceded By),False,dedicating five hours a day to collaborative coding,submitting his initial project
+E8,E3,-1,> (Preceded By),False,dedicating five hours a day to collaborative coding,submitted her first two projects
+E8,E4,-1,> (Preceded By),False,dedicating five hours a day to collaborative coding,spent the next ten days studying an extra three hours each night
+E8,E5,-1,> (Preceded By),False,dedicating five hours a day to collaborative coding,completing his second project
+E8,E6,-4,si (Started By),False,dedicating five hours a day to collaborative coding,a group assignment was issued
+E8,E7,-4,si (Started By),False,dedicating five hours a day to collaborative coding,Imran and Sadia partnered up
+E8,E9,2,m (Meets),False,dedicating five hours a day to collaborative coding,successful submission
+E8,E10,2,m (Meets),False,dedicating five hours a day to collaborative coding,Sadia took a three-day weekend to recover
+E8,E11,2,m (Meets),False,dedicating five hours a day to collaborative coding,Imran used those same three days to review advance materials
+E9,E1,-1,> (Preceded By),False,successful submission,enrolled in a specialized software bootcamp
+E9,E2,-1,> (Preceded By),False,successful submission,submitting his initial project
+E9,E3,-1,> (Preceded By),False,successful submission,submitted her first two projects
+E9,E4,-1,> (Preceded By),False,successful submission,spent the next ten days studying an extra three hours each night
+E9,E5,-1,> (Preceded By),False,successful submission,completing his second project
+E9,E6,-1,> (Preceded By),False,successful submission,a group assignment was issued
+E9,E7,-1,> (Preceded By),False,successful submission,Imran and Sadia partnered up
+E9,E8,-2,mi (Met By),False,successful submission,dedicating five hours a day to collaborative coding
+E9,E10,4,s (Starts),False,successful submission,Sadia took a three-day weekend to recover
+E9,E11,4,s (Starts),False,successful submission,Imran used those same three days to review advance materials
+E10,E1,-1,> (Preceded By),False,Sadia took a three-day weekend to recover,enrolled in a specialized software bootcamp
+E10,E2,-1,> (Preceded By),False,Sadia took a three-day weekend to recover,submitting his initial project
+E10,E3,-1,> (Preceded By),False,Sadia took a three-day weekend to recover,submitted her first two projects
+E10,E4,-1,> (Preceded By),False,Sadia took a three-day weekend to recover,spent the next ten days studying an extra three hours each night
+E10,E5,-1,> (Preceded By),False,Sadia took a three-day weekend to recover,completing his second project
+E10,E6,-1,> (Preceded By),False,Sadia took a three-day weekend to recover,a group assignment was issued
+E10,E7,-1,> (Preceded By),False,Sadia took a three-day weekend to recover,Imran and Sadia partnered up
+E10,E8,-2,mi (Met By),False,Sadia took a three-day weekend to recover,dedicating five hours a day to collaborative coding
+E10,E9,-4,si (Started By),False,Sadia took a three-day weekend to recover,successful submission
+E10,E11,0,= (Equal),False,Sadia took a three-day weekend to recover,Imran used those same three days to review advance materials
+E11,E1,-1,> (Preceded By),False,Imran used those same three days to review advance materials,enrolled in a specialized software bootcamp
+E11,E2,-1,> (Preceded By),False,Imran used those same three days to review advance materials,submitting his initial project
+E11,E3,-1,> (Preceded By),False,Imran used those same three days to review advance materials,submitted her first two projects
+E11,E4,-1,> (Preceded By),False,Imran used those same three days to review advance materials,spent the next ten days studying an extra three hours each night
+E11,E5,-1,> (Preceded By),False,Imran used those same three days to review advance materials,completing his second project
+E11,E6,-1,> (Preceded By),False,Imran used those same three days to review advance materials,a group assignment was issued
+E11,E7,-1,> (Preceded By),False,Imran used those same three days to review advance materials,Imran and Sadia partnered up
+E11,E8,-2,mi (Met By),False,Imran used those same three days to review advance materials,dedicating five hours a day to collaborative coding
+E11,E9,-4,si (Started By),False,Imran used those same three days to review advance materials,successful submission
+E11,E10,0,= (Equal),False,Imran used those same three days to review advance materials,Sadia took a three-day weekend to recover

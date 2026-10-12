@@ -1,0 +1,91 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,Non-critical systems were shut down,The main transfer switch was opened
+E1,E3,1,< (Precedes),False,Non-critical systems were shut down,shifting essential intensive care loads to the secondary emergency generator
+E1,E4,1,< (Precedes),False,Non-critical systems were shut down,Electrical contractors took three hours to physically bolt and torque the primary busbars
+E1,E5,1,< (Precedes),False,Non-critical systems were shut down,facility engineers ran load-bank tests on the hospital's third backup generator
+E1,E6,1,< (Precedes),False,Non-critical systems were shut down,Testing insulation resistance on the new connections took forty-five minutes
+E1,E7,1,< (Precedes),False,Non-critical systems were shut down,Re-energizing the main transformer was completed
+E1,E8,1,< (Precedes),False,Non-critical systems were shut down,Individual hospital wards were brought back onto the main power grid
+E1,E9,1,< (Precedes),False,Non-critical systems were shut down,all systems operational
+E1,E10,5,d (During),False,Non-critical systems were shut down,planned an eight-hour transition window
+E2,E1,-1,> (Preceded By),False,The main transfer switch was opened,Non-critical systems were shut down
+E2,E3,2,m (Meets),False,The main transfer switch was opened,shifting essential intensive care loads to the secondary emergency generator
+E2,E4,4,s (Starts),False,The main transfer switch was opened,Electrical contractors took three hours to physically bolt and torque the primary busbars
+E2,E5,1,< (Precedes),False,The main transfer switch was opened,facility engineers ran load-bank tests on the hospital's third backup generator
+E2,E6,1,< (Precedes),False,The main transfer switch was opened,Testing insulation resistance on the new connections took forty-five minutes
+E2,E7,1,< (Precedes),False,The main transfer switch was opened,Re-energizing the main transformer was completed
+E2,E8,1,< (Precedes),False,The main transfer switch was opened,Individual hospital wards were brought back onto the main power grid
+E2,E9,1,< (Precedes),False,The main transfer switch was opened,all systems operational
+E2,E10,5,d (During),False,The main transfer switch was opened,planned an eight-hour transition window
+E3,E1,-1,> (Preceded By),False,shifting essential intensive care loads to the secondary emergency generator,Non-critical systems were shut down
+E3,E2,-2,mi (Met By),False,shifting essential intensive care loads to the secondary emergency generator,The main transfer switch was opened
+E3,E4,5,d (During),False,shifting essential intensive care loads to the secondary emergency generator,Electrical contractors took three hours to physically bolt and torque the primary busbars
+E3,E5,1,< (Precedes),False,shifting essential intensive care loads to the secondary emergency generator,facility engineers ran load-bank tests on the hospital's third backup generator
+E3,E6,1,< (Precedes),False,shifting essential intensive care loads to the secondary emergency generator,Testing insulation resistance on the new connections took forty-five minutes
+E3,E7,1,< (Precedes),False,shifting essential intensive care loads to the secondary emergency generator,Re-energizing the main transformer was completed
+E3,E8,1,< (Precedes),False,shifting essential intensive care loads to the secondary emergency generator,Individual hospital wards were brought back onto the main power grid
+E3,E9,1,< (Precedes),False,shifting essential intensive care loads to the secondary emergency generator,all systems operational
+E3,E10,5,d (During),False,shifting essential intensive care loads to the secondary emergency generator,planned an eight-hour transition window
+E4,E1,-1,> (Preceded By),False,Electrical contractors took three hours to physically bolt and torque the primary busbars,Non-critical systems were shut down
+E4,E2,-4,si (Started By),False,Electrical contractors took three hours to physically bolt and torque the primary busbars,The main transfer switch was opened
+E4,E3,-5,di (Contains),False,Electrical contractors took three hours to physically bolt and torque the primary busbars,shifting essential intensive care loads to the secondary emergency generator
+E4,E5,3,o (Overlaps),False,Electrical contractors took three hours to physically bolt and torque the primary busbars,facility engineers ran load-bank tests on the hospital's third backup generator
+E4,E6,2,m (Meets),False,Electrical contractors took three hours to physically bolt and torque the primary busbars,Testing insulation resistance on the new connections took forty-five minutes
+E4,E7,1,< (Precedes),False,Electrical contractors took three hours to physically bolt and torque the primary busbars,Re-energizing the main transformer was completed
+E4,E8,1,< (Precedes),False,Electrical contractors took three hours to physically bolt and torque the primary busbars,Individual hospital wards were brought back onto the main power grid
+E4,E9,1,< (Precedes),False,Electrical contractors took three hours to physically bolt and torque the primary busbars,all systems operational
+E4,E10,5,d (During),False,Electrical contractors took three hours to physically bolt and torque the primary busbars,planned an eight-hour transition window
+E5,E1,-1,> (Preceded By),False,facility engineers ran load-bank tests on the hospital's third backup generator,Non-critical systems were shut down
+E5,E2,-1,> (Preceded By),False,facility engineers ran load-bank tests on the hospital's third backup generator,The main transfer switch was opened
+E5,E3,-1,> (Preceded By),False,facility engineers ran load-bank tests on the hospital's third backup generator,shifting essential intensive care loads to the secondary emergency generator
+E5,E4,-3,oi (Overlapped By),False,facility engineers ran load-bank tests on the hospital's third backup generator,Electrical contractors took three hours to physically bolt and torque the primary busbars
+E5,E6,-6,fi (Finished By),False,facility engineers ran load-bank tests on the hospital's third backup generator,Testing insulation resistance on the new connections took forty-five minutes
+E5,E7,1,< (Precedes),False,facility engineers ran load-bank tests on the hospital's third backup generator,Re-energizing the main transformer was completed
+E5,E8,1,< (Precedes),False,facility engineers ran load-bank tests on the hospital's third backup generator,Individual hospital wards were brought back onto the main power grid
+E5,E9,1,< (Precedes),False,facility engineers ran load-bank tests on the hospital's third backup generator,all systems operational
+E5,E10,5,d (During),False,facility engineers ran load-bank tests on the hospital's third backup generator,planned an eight-hour transition window
+E6,E1,-1,> (Preceded By),False,Testing insulation resistance on the new connections took forty-five minutes,Non-critical systems were shut down
+E6,E2,-1,> (Preceded By),False,Testing insulation resistance on the new connections took forty-five minutes,The main transfer switch was opened
+E6,E3,-1,> (Preceded By),False,Testing insulation resistance on the new connections took forty-five minutes,shifting essential intensive care loads to the secondary emergency generator
+E6,E4,-2,mi (Met By),False,Testing insulation resistance on the new connections took forty-five minutes,Electrical contractors took three hours to physically bolt and torque the primary busbars
+E6,E5,6,f (Finishes),False,Testing insulation resistance on the new connections took forty-five minutes,facility engineers ran load-bank tests on the hospital's third backup generator
+E6,E7,1,< (Precedes),False,Testing insulation resistance on the new connections took forty-five minutes,Re-energizing the main transformer was completed
+E6,E8,1,< (Precedes),False,Testing insulation resistance on the new connections took forty-five minutes,Individual hospital wards were brought back onto the main power grid
+E6,E9,1,< (Precedes),False,Testing insulation resistance on the new connections took forty-five minutes,all systems operational
+E6,E10,5,d (During),False,Testing insulation resistance on the new connections took forty-five minutes,planned an eight-hour transition window
+E7,E1,-1,> (Preceded By),False,Re-energizing the main transformer was completed,Non-critical systems were shut down
+E7,E2,-1,> (Preceded By),False,Re-energizing the main transformer was completed,The main transfer switch was opened
+E7,E3,-1,> (Preceded By),False,Re-energizing the main transformer was completed,shifting essential intensive care loads to the secondary emergency generator
+E7,E4,-1,> (Preceded By),False,Re-energizing the main transformer was completed,Electrical contractors took three hours to physically bolt and torque the primary busbars
+E7,E5,-1,> (Preceded By),False,Re-energizing the main transformer was completed,facility engineers ran load-bank tests on the hospital's third backup generator
+E7,E6,-1,> (Preceded By),False,Re-energizing the main transformer was completed,Testing insulation resistance on the new connections took forty-five minutes
+E7,E8,2,m (Meets),False,Re-energizing the main transformer was completed,Individual hospital wards were brought back onto the main power grid
+E7,E9,1,< (Precedes),False,Re-energizing the main transformer was completed,all systems operational
+E7,E10,5,d (During),False,Re-energizing the main transformer was completed,planned an eight-hour transition window
+E8,E1,-1,> (Preceded By),False,Individual hospital wards were brought back onto the main power grid,Non-critical systems were shut down
+E8,E2,-1,> (Preceded By),False,Individual hospital wards were brought back onto the main power grid,The main transfer switch was opened
+E8,E3,-1,> (Preceded By),False,Individual hospital wards were brought back onto the main power grid,shifting essential intensive care loads to the secondary emergency generator
+E8,E4,-1,> (Preceded By),False,Individual hospital wards were brought back onto the main power grid,Electrical contractors took three hours to physically bolt and torque the primary busbars
+E8,E5,-1,> (Preceded By),False,Individual hospital wards were brought back onto the main power grid,facility engineers ran load-bank tests on the hospital's third backup generator
+E8,E6,-1,> (Preceded By),False,Individual hospital wards were brought back onto the main power grid,Testing insulation resistance on the new connections took forty-five minutes
+E8,E7,-2,mi (Met By),False,Individual hospital wards were brought back onto the main power grid,Re-energizing the main transformer was completed
+E8,E9,2,m (Meets),False,Individual hospital wards were brought back onto the main power grid,all systems operational
+E8,E10,6,f (Finishes),False,Individual hospital wards were brought back onto the main power grid,planned an eight-hour transition window
+E9,E1,-1,> (Preceded By),False,all systems operational,Non-critical systems were shut down
+E9,E2,-1,> (Preceded By),False,all systems operational,The main transfer switch was opened
+E9,E3,-1,> (Preceded By),False,all systems operational,shifting essential intensive care loads to the secondary emergency generator
+E9,E4,-1,> (Preceded By),False,all systems operational,Electrical contractors took three hours to physically bolt and torque the primary busbars
+E9,E5,-1,> (Preceded By),False,all systems operational,facility engineers ran load-bank tests on the hospital's third backup generator
+E9,E6,-1,> (Preceded By),False,all systems operational,Testing insulation resistance on the new connections took forty-five minutes
+E9,E7,-1,> (Preceded By),False,all systems operational,Re-energizing the main transformer was completed
+E9,E8,-2,mi (Met By),False,all systems operational,Individual hospital wards were brought back onto the main power grid
+E9,E10,-2,mi (Met By),False,all systems operational,planned an eight-hour transition window
+E10,E1,-5,di (Contains),False,planned an eight-hour transition window,Non-critical systems were shut down
+E10,E2,-5,di (Contains),False,planned an eight-hour transition window,The main transfer switch was opened
+E10,E3,-5,di (Contains),False,planned an eight-hour transition window,shifting essential intensive care loads to the secondary emergency generator
+E10,E4,-5,di (Contains),False,planned an eight-hour transition window,Electrical contractors took three hours to physically bolt and torque the primary busbars
+E10,E5,-5,di (Contains),False,planned an eight-hour transition window,facility engineers ran load-bank tests on the hospital's third backup generator
+E10,E6,-5,di (Contains),False,planned an eight-hour transition window,Testing insulation resistance on the new connections took forty-five minutes
+E10,E7,-5,di (Contains),False,planned an eight-hour transition window,Re-energizing the main transformer was completed
+E10,E8,-6,fi (Finished By),False,planned an eight-hour transition window,Individual hospital wards were brought back onto the main power grid
+E10,E9,2,m (Meets),False,planned an eight-hour transition window,all systems operational

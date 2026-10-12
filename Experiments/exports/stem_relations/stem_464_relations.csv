@@ -1,0 +1,91 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,Publishers were granted access to the fairground,built the timber frame of the display stall
+E1,E3,1,< (Precedes),False,Publishers were granted access to the fairground,Painting the walls and ceiling
+E1,E4,1,< (Precedes),False,Publishers were granted access to the fairground,The paint was given twenty-four hours to dry
+E1,E5,1,< (Precedes),False,Publishers were granted access to the fairground,electricians installed spotlight tracks and display counters
+E1,E6,1,< (Precedes),False,Publishers were granted access to the fairground,Five hundred boxes of books arrived from the printing press
+E1,E7,1,< (Precedes),False,Publishers were granted access to the fairground,graphic designers worked outside the stall erecting a illuminated entrance facade
+E1,E8,1,< (Precedes),False,Publishers were granted access to the fairground,Stall staff unpacked and arranged inventory on shelves
+E1,E9,1,< (Precedes),False,Publishers were granted access to the fairground,The final fire safety inspection occurred
+E1,E10,1,< (Precedes),False,Publishers were granted access to the fairground,the gates opened to the public
+E2,E1,-4,si (Started By),False,built the timber frame of the display stall,Publishers were granted access to the fairground
+E2,E3,2,m (Meets),False,built the timber frame of the display stall,Painting the walls and ceiling
+E2,E4,1,< (Precedes),False,built the timber frame of the display stall,The paint was given twenty-four hours to dry
+E2,E5,1,< (Precedes),False,built the timber frame of the display stall,electricians installed spotlight tracks and display counters
+E2,E6,1,< (Precedes),False,built the timber frame of the display stall,Five hundred boxes of books arrived from the printing press
+E2,E7,1,< (Precedes),False,built the timber frame of the display stall,graphic designers worked outside the stall erecting a illuminated entrance facade
+E2,E8,1,< (Precedes),False,built the timber frame of the display stall,Stall staff unpacked and arranged inventory on shelves
+E2,E9,1,< (Precedes),False,built the timber frame of the display stall,The final fire safety inspection occurred
+E2,E10,1,< (Precedes),False,built the timber frame of the display stall,the gates opened to the public
+E3,E1,-1,> (Preceded By),False,Painting the walls and ceiling,Publishers were granted access to the fairground
+E3,E2,-2,mi (Met By),False,Painting the walls and ceiling,built the timber frame of the display stall
+E3,E4,2,m (Meets),False,Painting the walls and ceiling,The paint was given twenty-four hours to dry
+E3,E5,1,< (Precedes),False,Painting the walls and ceiling,electricians installed spotlight tracks and display counters
+E3,E6,1,< (Precedes),False,Painting the walls and ceiling,Five hundred boxes of books arrived from the printing press
+E3,E7,1,< (Precedes),False,Painting the walls and ceiling,graphic designers worked outside the stall erecting a illuminated entrance facade
+E3,E8,1,< (Precedes),False,Painting the walls and ceiling,Stall staff unpacked and arranged inventory on shelves
+E3,E9,1,< (Precedes),False,Painting the walls and ceiling,The final fire safety inspection occurred
+E3,E10,1,< (Precedes),False,Painting the walls and ceiling,the gates opened to the public
+E4,E1,-1,> (Preceded By),False,The paint was given twenty-four hours to dry,Publishers were granted access to the fairground
+E4,E2,-1,> (Preceded By),False,The paint was given twenty-four hours to dry,built the timber frame of the display stall
+E4,E3,-2,mi (Met By),False,The paint was given twenty-four hours to dry,Painting the walls and ceiling
+E4,E5,2,m (Meets),False,The paint was given twenty-four hours to dry,electricians installed spotlight tracks and display counters
+E4,E6,1,< (Precedes),False,The paint was given twenty-four hours to dry,Five hundred boxes of books arrived from the printing press
+E4,E7,1,< (Precedes),False,The paint was given twenty-four hours to dry,graphic designers worked outside the stall erecting a illuminated entrance facade
+E4,E8,1,< (Precedes),False,The paint was given twenty-four hours to dry,Stall staff unpacked and arranged inventory on shelves
+E4,E9,1,< (Precedes),False,The paint was given twenty-four hours to dry,The final fire safety inspection occurred
+E4,E10,1,< (Precedes),False,The paint was given twenty-four hours to dry,the gates opened to the public
+E5,E1,-1,> (Preceded By),False,electricians installed spotlight tracks and display counters,Publishers were granted access to the fairground
+E5,E2,-1,> (Preceded By),False,electricians installed spotlight tracks and display counters,built the timber frame of the display stall
+E5,E3,-1,> (Preceded By),False,electricians installed spotlight tracks and display counters,Painting the walls and ceiling
+E5,E4,-2,mi (Met By),False,electricians installed spotlight tracks and display counters,The paint was given twenty-four hours to dry
+E5,E6,1,< (Precedes),False,electricians installed spotlight tracks and display counters,Five hundred boxes of books arrived from the printing press
+E5,E7,1,< (Precedes),False,electricians installed spotlight tracks and display counters,graphic designers worked outside the stall erecting a illuminated entrance facade
+E5,E8,1,< (Precedes),False,electricians installed spotlight tracks and display counters,Stall staff unpacked and arranged inventory on shelves
+E5,E9,1,< (Precedes),False,electricians installed spotlight tracks and display counters,The final fire safety inspection occurred
+E5,E10,1,< (Precedes),False,electricians installed spotlight tracks and display counters,the gates opened to the public
+E6,E1,-1,> (Preceded By),False,Five hundred boxes of books arrived from the printing press,Publishers were granted access to the fairground
+E6,E2,-1,> (Preceded By),False,Five hundred boxes of books arrived from the printing press,built the timber frame of the display stall
+E6,E3,-1,> (Preceded By),False,Five hundred boxes of books arrived from the printing press,Painting the walls and ceiling
+E6,E4,-1,> (Preceded By),False,Five hundred boxes of books arrived from the printing press,The paint was given twenty-four hours to dry
+E6,E5,-1,> (Preceded By),False,Five hundred boxes of books arrived from the printing press,electricians installed spotlight tracks and display counters
+E6,E7,5,d (During),False,Five hundred boxes of books arrived from the printing press,graphic designers worked outside the stall erecting a illuminated entrance facade
+E6,E8,4,s (Starts),False,Five hundred boxes of books arrived from the printing press,Stall staff unpacked and arranged inventory on shelves
+E6,E9,1,< (Precedes),False,Five hundred boxes of books arrived from the printing press,The final fire safety inspection occurred
+E6,E10,1,< (Precedes),False,Five hundred boxes of books arrived from the printing press,the gates opened to the public
+E7,E1,-1,> (Preceded By),False,graphic designers worked outside the stall erecting a illuminated entrance facade,Publishers were granted access to the fairground
+E7,E2,-1,> (Preceded By),False,graphic designers worked outside the stall erecting a illuminated entrance facade,built the timber frame of the display stall
+E7,E3,-1,> (Preceded By),False,graphic designers worked outside the stall erecting a illuminated entrance facade,Painting the walls and ceiling
+E7,E4,-1,> (Preceded By),False,graphic designers worked outside the stall erecting a illuminated entrance facade,The paint was given twenty-four hours to dry
+E7,E5,-1,> (Preceded By),False,graphic designers worked outside the stall erecting a illuminated entrance facade,electricians installed spotlight tracks and display counters
+E7,E6,-5,di (Contains),False,graphic designers worked outside the stall erecting a illuminated entrance facade,Five hundred boxes of books arrived from the printing press
+E7,E8,-5,di (Contains),False,graphic designers worked outside the stall erecting a illuminated entrance facade,Stall staff unpacked and arranged inventory on shelves
+E7,E9,-5,di (Contains),False,graphic designers worked outside the stall erecting a illuminated entrance facade,The final fire safety inspection occurred
+E7,E10,-5,di (Contains),False,graphic designers worked outside the stall erecting a illuminated entrance facade,the gates opened to the public
+E8,E1,-1,> (Preceded By),False,Stall staff unpacked and arranged inventory on shelves,Publishers were granted access to the fairground
+E8,E2,-1,> (Preceded By),False,Stall staff unpacked and arranged inventory on shelves,built the timber frame of the display stall
+E8,E3,-1,> (Preceded By),False,Stall staff unpacked and arranged inventory on shelves,Painting the walls and ceiling
+E8,E4,-1,> (Preceded By),False,Stall staff unpacked and arranged inventory on shelves,The paint was given twenty-four hours to dry
+E8,E5,-1,> (Preceded By),False,Stall staff unpacked and arranged inventory on shelves,electricians installed spotlight tracks and display counters
+E8,E6,-4,si (Started By),False,Stall staff unpacked and arranged inventory on shelves,Five hundred boxes of books arrived from the printing press
+E8,E7,5,d (During),False,Stall staff unpacked and arranged inventory on shelves,graphic designers worked outside the stall erecting a illuminated entrance facade
+E8,E9,1,< (Precedes),False,Stall staff unpacked and arranged inventory on shelves,The final fire safety inspection occurred
+E8,E10,1,< (Precedes),False,Stall staff unpacked and arranged inventory on shelves,the gates opened to the public
+E9,E1,-1,> (Preceded By),False,The final fire safety inspection occurred,Publishers were granted access to the fairground
+E9,E2,-1,> (Preceded By),False,The final fire safety inspection occurred,built the timber frame of the display stall
+E9,E3,-1,> (Preceded By),False,The final fire safety inspection occurred,Painting the walls and ceiling
+E9,E4,-1,> (Preceded By),False,The final fire safety inspection occurred,The paint was given twenty-four hours to dry
+E9,E5,-1,> (Preceded By),False,The final fire safety inspection occurred,electricians installed spotlight tracks and display counters
+E9,E6,-1,> (Preceded By),False,The final fire safety inspection occurred,Five hundred boxes of books arrived from the printing press
+E9,E7,5,d (During),False,The final fire safety inspection occurred,graphic designers worked outside the stall erecting a illuminated entrance facade
+E9,E8,-1,> (Preceded By),False,The final fire safety inspection occurred,Stall staff unpacked and arranged inventory on shelves
+E9,E10,1,< (Precedes),False,The final fire safety inspection occurred,the gates opened to the public
+E10,E1,-1,> (Preceded By),False,the gates opened to the public,Publishers were granted access to the fairground
+E10,E2,-1,> (Preceded By),False,the gates opened to the public,built the timber frame of the display stall
+E10,E3,-1,> (Preceded By),False,the gates opened to the public,Painting the walls and ceiling
+E10,E4,-1,> (Preceded By),False,the gates opened to the public,The paint was given twenty-four hours to dry
+E10,E5,-1,> (Preceded By),False,the gates opened to the public,electricians installed spotlight tracks and display counters
+E10,E6,-1,> (Preceded By),False,the gates opened to the public,Five hundred boxes of books arrived from the printing press
+E10,E7,5,d (During),False,the gates opened to the public,graphic designers worked outside the stall erecting a illuminated entrance facade
+E10,E8,-1,> (Preceded By),False,the gates opened to the public,Stall staff unpacked and arranged inventory on shelves
+E10,E9,-1,> (Preceded By),False,the gates opened to the public,The final fire safety inspection occurred

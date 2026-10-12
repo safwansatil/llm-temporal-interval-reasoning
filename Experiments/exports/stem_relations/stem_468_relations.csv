@@ -1,0 +1,91 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,Excavation of the stormwater drainage canal began,Brick masonry lining of the canal walls started
+E1,E3,4,s (Starts),False,Excavation of the stormwater drainage canal began,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation
+E1,E4,1,< (Precedes),False,Excavation of the stormwater drainage canal began,Mortar plastering and waterproofing commenced
+E1,E5,1,< (Precedes),False,Excavation of the stormwater drainage canal began,bricklayers laid their final brick
+E1,E6,1,< (Precedes),False,Excavation of the stormwater drainage canal began,Silt traps and metal debris grates were installed
+E1,E7,1,< (Precedes),False,Excavation of the stormwater drainage canal began,The first heavy rainfall arrived
+E1,E8,1,< (Precedes),False,Excavation of the stormwater drainage canal began,taking a total of sixteen days
+E1,E9,1,< (Precedes),False,Excavation of the stormwater drainage canal began,running concurrently
+E1,E10,1,< (Precedes),False,Excavation of the stormwater drainage canal began,finishing two days
+E2,E1,-1,> (Preceded By),False,Brick masonry lining of the canal walls started,Excavation of the stormwater drainage canal began
+E2,E3,5,d (During),False,Brick masonry lining of the canal walls started,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation
+E2,E4,1,< (Precedes),False,Brick masonry lining of the canal walls started,Mortar plastering and waterproofing commenced
+E2,E5,1,< (Precedes),False,Brick masonry lining of the canal walls started,bricklayers laid their final brick
+E2,E6,1,< (Precedes),False,Brick masonry lining of the canal walls started,Silt traps and metal debris grates were installed
+E2,E7,1,< (Precedes),False,Brick masonry lining of the canal walls started,The first heavy rainfall arrived
+E2,E8,4,s (Starts),False,Brick masonry lining of the canal walls started,taking a total of sixteen days
+E2,E9,1,< (Precedes),False,Brick masonry lining of the canal walls started,running concurrently
+E2,E10,1,< (Precedes),False,Brick masonry lining of the canal walls started,finishing two days
+E3,E1,-4,si (Started By),False,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation,Excavation of the stormwater drainage canal began
+E3,E2,-5,di (Contains),False,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation,Brick masonry lining of the canal walls started
+E3,E4,-5,di (Contains),False,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation,Mortar plastering and waterproofing commenced
+E3,E5,1,< (Precedes),False,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation,bricklayers laid their final brick
+E3,E6,1,< (Precedes),False,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation,Silt traps and metal debris grates were installed
+E3,E7,1,< (Precedes),False,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation,The first heavy rainfall arrived
+E3,E8,3,o (Overlaps),False,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation,taking a total of sixteen days
+E3,E9,3,o (Overlaps),False,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation,running concurrently
+E3,E10,1,< (Precedes),False,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation,finishing two days
+E4,E1,-1,> (Preceded By),False,Mortar plastering and waterproofing commenced,Excavation of the stormwater drainage canal began
+E4,E2,-1,> (Preceded By),False,Mortar plastering and waterproofing commenced,Brick masonry lining of the canal walls started
+E4,E3,5,d (During),False,Mortar plastering and waterproofing commenced,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation
+E4,E5,1,< (Precedes),False,Mortar plastering and waterproofing commenced,bricklayers laid their final brick
+E4,E6,1,< (Precedes),False,Mortar plastering and waterproofing commenced,Silt traps and metal debris grates were installed
+E4,E7,1,< (Precedes),False,Mortar plastering and waterproofing commenced,The first heavy rainfall arrived
+E4,E8,5,d (During),False,Mortar plastering and waterproofing commenced,taking a total of sixteen days
+E4,E9,4,s (Starts),False,Mortar plastering and waterproofing commenced,running concurrently
+E4,E10,1,< (Precedes),False,Mortar plastering and waterproofing commenced,finishing two days
+E5,E1,-1,> (Preceded By),False,bricklayers laid their final brick,Excavation of the stormwater drainage canal began
+E5,E2,-1,> (Preceded By),False,bricklayers laid their final brick,Brick masonry lining of the canal walls started
+E5,E3,-1,> (Preceded By),False,bricklayers laid their final brick,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation
+E5,E4,-1,> (Preceded By),False,bricklayers laid their final brick,Mortar plastering and waterproofing commenced
+E5,E6,1,< (Precedes),False,bricklayers laid their final brick,Silt traps and metal debris grates were installed
+E5,E7,1,< (Precedes),False,bricklayers laid their final brick,The first heavy rainfall arrived
+E5,E8,-2,mi (Met By),False,bricklayers laid their final brick,taking a total of sixteen days
+E5,E9,5,d (During),False,bricklayers laid their final brick,running concurrently
+E5,E10,1,< (Precedes),False,bricklayers laid their final brick,finishing two days
+E6,E1,-1,> (Preceded By),False,Silt traps and metal debris grates were installed,Excavation of the stormwater drainage canal began
+E6,E2,-1,> (Preceded By),False,Silt traps and metal debris grates were installed,Brick masonry lining of the canal walls started
+E6,E3,-1,> (Preceded By),False,Silt traps and metal debris grates were installed,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation
+E6,E4,-1,> (Preceded By),False,Silt traps and metal debris grates were installed,Mortar plastering and waterproofing commenced
+E6,E5,-1,> (Preceded By),False,Silt traps and metal debris grates were installed,bricklayers laid their final brick
+E6,E7,1,< (Precedes),False,Silt traps and metal debris grates were installed,The first heavy rainfall arrived
+E6,E8,-1,> (Preceded By),False,Silt traps and metal debris grates were installed,taking a total of sixteen days
+E6,E9,-2,mi (Met By),False,Silt traps and metal debris grates were installed,running concurrently
+E6,E10,-4,si (Started By),False,Silt traps and metal debris grates were installed,finishing two days
+E7,E1,-1,> (Preceded By),False,The first heavy rainfall arrived,Excavation of the stormwater drainage canal began
+E7,E2,-1,> (Preceded By),False,The first heavy rainfall arrived,Brick masonry lining of the canal walls started
+E7,E3,-1,> (Preceded By),False,The first heavy rainfall arrived,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation
+E7,E4,-1,> (Preceded By),False,The first heavy rainfall arrived,Mortar plastering and waterproofing commenced
+E7,E5,-1,> (Preceded By),False,The first heavy rainfall arrived,bricklayers laid their final brick
+E7,E6,-1,> (Preceded By),False,The first heavy rainfall arrived,Silt traps and metal debris grates were installed
+E7,E8,-1,> (Preceded By),False,The first heavy rainfall arrived,taking a total of sixteen days
+E7,E9,-1,> (Preceded By),False,The first heavy rainfall arrived,running concurrently
+E7,E10,-1,> (Preceded By),False,The first heavy rainfall arrived,finishing two days
+E8,E1,-1,> (Preceded By),False,taking a total of sixteen days,Excavation of the stormwater drainage canal began
+E8,E2,-4,si (Started By),False,taking a total of sixteen days,Brick masonry lining of the canal walls started
+E8,E3,-3,oi (Overlapped By),False,taking a total of sixteen days,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation
+E8,E4,-5,di (Contains),False,taking a total of sixteen days,Mortar plastering and waterproofing commenced
+E8,E5,2,m (Meets),False,taking a total of sixteen days,bricklayers laid their final brick
+E8,E6,1,< (Precedes),False,taking a total of sixteen days,Silt traps and metal debris grates were installed
+E8,E7,1,< (Precedes),False,taking a total of sixteen days,The first heavy rainfall arrived
+E8,E9,3,o (Overlaps),False,taking a total of sixteen days,running concurrently
+E8,E10,1,< (Precedes),False,taking a total of sixteen days,finishing two days
+E9,E1,-1,> (Preceded By),False,running concurrently,Excavation of the stormwater drainage canal began
+E9,E2,-1,> (Preceded By),False,running concurrently,Brick masonry lining of the canal walls started
+E9,E3,-3,oi (Overlapped By),False,running concurrently,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation
+E9,E4,-4,si (Started By),False,running concurrently,Mortar plastering and waterproofing commenced
+E9,E5,-5,di (Contains),False,running concurrently,bricklayers laid their final brick
+E9,E6,2,m (Meets),False,running concurrently,Silt traps and metal debris grates were installed
+E9,E7,1,< (Precedes),False,running concurrently,The first heavy rainfall arrived
+E9,E8,-3,oi (Overlapped By),False,running concurrently,taking a total of sixteen days
+E9,E10,2,m (Meets),False,running concurrently,finishing two days
+E10,E1,-1,> (Preceded By),False,finishing two days,Excavation of the stormwater drainage canal began
+E10,E2,-1,> (Preceded By),False,finishing two days,Brick masonry lining of the canal walls started
+E10,E3,-1,> (Preceded By),False,finishing two days,Digging the main two-kilometer earthen trench took excavators fourteen days of continuous operation
+E10,E4,-1,> (Preceded By),False,finishing two days,Mortar plastering and waterproofing commenced
+E10,E5,-1,> (Preceded By),False,finishing two days,bricklayers laid their final brick
+E10,E6,4,s (Starts),False,finishing two days,Silt traps and metal debris grates were installed
+E10,E7,1,< (Precedes),False,finishing two days,The first heavy rainfall arrived
+E10,E8,-1,> (Preceded By),False,finishing two days,taking a total of sixteen days
+E10,E9,-2,mi (Met By),False,finishing two days,running concurrently

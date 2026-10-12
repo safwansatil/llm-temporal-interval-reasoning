@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,induced spawning,moved to breeding tanks
+E1,E3,1,< (Precedes),False,induced spawning,Spawning behavior began
+E1,E4,1,< (Precedes),False,induced spawning,lasted for three hours
+E1,E5,1,< (Precedes),False,induced spawning,Transferring fertilized eggs to incubation funnels commenced
+E1,E6,1,< (Precedes),False,induced spawning,a delicate process requiring two hours
+E1,E7,1,< (Precedes),False,induced spawning,Water flow through the incubation jars was regulated continuously
+E1,E8,1,< (Precedes),False,induced spawning,hatchery technicians monitored dissolved oxygen levels
+E1,E9,1,< (Precedes),False,induced spawning,The first fry hatched
+E1,E10,1,< (Precedes),False,induced spawning,full hatching across the batch taking fourteen hours
+E1,E11,1,< (Precedes),False,induced spawning,The larval fish were transferred to nursery ponds
+E2,E1,-4,si (Started By),False,moved to breeding tanks,induced spawning
+E2,E3,-5,di (Contains),False,moved to breeding tanks,Spawning behavior began
+E2,E4,3,o (Overlaps),False,moved to breeding tanks,lasted for three hours
+E2,E5,1,< (Precedes),False,moved to breeding tanks,Transferring fertilized eggs to incubation funnels commenced
+E2,E6,1,< (Precedes),False,moved to breeding tanks,a delicate process requiring two hours
+E2,E7,1,< (Precedes),False,moved to breeding tanks,Water flow through the incubation jars was regulated continuously
+E2,E8,1,< (Precedes),False,moved to breeding tanks,hatchery technicians monitored dissolved oxygen levels
+E2,E9,1,< (Precedes),False,moved to breeding tanks,The first fry hatched
+E2,E10,1,< (Precedes),False,moved to breeding tanks,full hatching across the batch taking fourteen hours
+E2,E11,1,< (Precedes),False,moved to breeding tanks,The larval fish were transferred to nursery ponds
+E3,E1,-1,> (Preceded By),False,Spawning behavior began,induced spawning
+E3,E2,5,d (During),False,Spawning behavior began,moved to breeding tanks
+E3,E4,4,s (Starts),False,Spawning behavior began,lasted for three hours
+E3,E5,1,< (Precedes),False,Spawning behavior began,Transferring fertilized eggs to incubation funnels commenced
+E3,E6,1,< (Precedes),False,Spawning behavior began,a delicate process requiring two hours
+E3,E7,1,< (Precedes),False,Spawning behavior began,Water flow through the incubation jars was regulated continuously
+E3,E8,1,< (Precedes),False,Spawning behavior began,hatchery technicians monitored dissolved oxygen levels
+E3,E9,1,< (Precedes),False,Spawning behavior began,The first fry hatched
+E3,E10,1,< (Precedes),False,Spawning behavior began,full hatching across the batch taking fourteen hours
+E3,E11,1,< (Precedes),False,Spawning behavior began,The larval fish were transferred to nursery ponds
+E4,E1,-1,> (Preceded By),False,lasted for three hours,induced spawning
+E4,E2,-3,oi (Overlapped By),False,lasted for three hours,moved to breeding tanks
+E4,E3,-4,si (Started By),False,lasted for three hours,Spawning behavior began
+E4,E5,1,< (Precedes),False,lasted for three hours,Transferring fertilized eggs to incubation funnels commenced
+E4,E6,1,< (Precedes),False,lasted for three hours,a delicate process requiring two hours
+E4,E7,1,< (Precedes),False,lasted for three hours,Water flow through the incubation jars was regulated continuously
+E4,E8,1,< (Precedes),False,lasted for three hours,hatchery technicians monitored dissolved oxygen levels
+E4,E9,1,< (Precedes),False,lasted for three hours,The first fry hatched
+E4,E10,1,< (Precedes),False,lasted for three hours,full hatching across the batch taking fourteen hours
+E4,E11,1,< (Precedes),False,lasted for three hours,The larval fish were transferred to nursery ponds
+E5,E1,-1,> (Preceded By),False,Transferring fertilized eggs to incubation funnels commenced,induced spawning
+E5,E2,-1,> (Preceded By),False,Transferring fertilized eggs to incubation funnels commenced,moved to breeding tanks
+E5,E3,-1,> (Preceded By),False,Transferring fertilized eggs to incubation funnels commenced,Spawning behavior began
+E5,E4,-1,> (Preceded By),False,Transferring fertilized eggs to incubation funnels commenced,lasted for three hours
+E5,E6,4,s (Starts),False,Transferring fertilized eggs to incubation funnels commenced,a delicate process requiring two hours
+E5,E7,1,< (Precedes),False,Transferring fertilized eggs to incubation funnels commenced,Water flow through the incubation jars was regulated continuously
+E5,E8,1,< (Precedes),False,Transferring fertilized eggs to incubation funnels commenced,hatchery technicians monitored dissolved oxygen levels
+E5,E9,1,< (Precedes),False,Transferring fertilized eggs to incubation funnels commenced,The first fry hatched
+E5,E10,1,< (Precedes),False,Transferring fertilized eggs to incubation funnels commenced,full hatching across the batch taking fourteen hours
+E5,E11,1,< (Precedes),False,Transferring fertilized eggs to incubation funnels commenced,The larval fish were transferred to nursery ponds
+E6,E1,-1,> (Preceded By),False,a delicate process requiring two hours,induced spawning
+E6,E2,-1,> (Preceded By),False,a delicate process requiring two hours,moved to breeding tanks
+E6,E3,-1,> (Preceded By),False,a delicate process requiring two hours,Spawning behavior began
+E6,E4,-1,> (Preceded By),False,a delicate process requiring two hours,lasted for three hours
+E6,E5,-4,si (Started By),False,a delicate process requiring two hours,Transferring fertilized eggs to incubation funnels commenced
+E6,E7,2,m (Meets),False,a delicate process requiring two hours,Water flow through the incubation jars was regulated continuously
+E6,E8,1,< (Precedes),False,a delicate process requiring two hours,hatchery technicians monitored dissolved oxygen levels
+E6,E9,1,< (Precedes),False,a delicate process requiring two hours,The first fry hatched
+E6,E10,1,< (Precedes),False,a delicate process requiring two hours,full hatching across the batch taking fourteen hours
+E6,E11,1,< (Precedes),False,a delicate process requiring two hours,The larval fish were transferred to nursery ponds
+E7,E1,-1,> (Preceded By),False,Water flow through the incubation jars was regulated continuously,induced spawning
+E7,E2,-1,> (Preceded By),False,Water flow through the incubation jars was regulated continuously,moved to breeding tanks
+E7,E3,-1,> (Preceded By),False,Water flow through the incubation jars was regulated continuously,Spawning behavior began
+E7,E4,-1,> (Preceded By),False,Water flow through the incubation jars was regulated continuously,lasted for three hours
+E7,E5,-1,> (Preceded By),False,Water flow through the incubation jars was regulated continuously,Transferring fertilized eggs to incubation funnels commenced
+E7,E6,-2,mi (Met By),False,Water flow through the incubation jars was regulated continuously,a delicate process requiring two hours
+E7,E8,-5,di (Contains),False,Water flow through the incubation jars was regulated continuously,hatchery technicians monitored dissolved oxygen levels
+E7,E9,-5,di (Contains),False,Water flow through the incubation jars was regulated continuously,The first fry hatched
+E7,E10,3,o (Overlaps),False,Water flow through the incubation jars was regulated continuously,full hatching across the batch taking fourteen hours
+E7,E11,1,< (Precedes),False,Water flow through the incubation jars was regulated continuously,The larval fish were transferred to nursery ponds
+E8,E1,-1,> (Preceded By),False,hatchery technicians monitored dissolved oxygen levels,induced spawning
+E8,E2,-1,> (Preceded By),False,hatchery technicians monitored dissolved oxygen levels,moved to breeding tanks
+E8,E3,-1,> (Preceded By),False,hatchery technicians monitored dissolved oxygen levels,Spawning behavior began
+E8,E4,-1,> (Preceded By),False,hatchery technicians monitored dissolved oxygen levels,lasted for three hours
+E8,E5,-1,> (Preceded By),False,hatchery technicians monitored dissolved oxygen levels,Transferring fertilized eggs to incubation funnels commenced
+E8,E6,-1,> (Preceded By),False,hatchery technicians monitored dissolved oxygen levels,a delicate process requiring two hours
+E8,E7,5,d (During),False,hatchery technicians monitored dissolved oxygen levels,Water flow through the incubation jars was regulated continuously
+E8,E9,1,< (Precedes),False,hatchery technicians monitored dissolved oxygen levels,The first fry hatched
+E8,E10,1,< (Precedes),False,hatchery technicians monitored dissolved oxygen levels,full hatching across the batch taking fourteen hours
+E8,E11,1,< (Precedes),False,hatchery technicians monitored dissolved oxygen levels,The larval fish were transferred to nursery ponds
+E9,E1,-1,> (Preceded By),False,The first fry hatched,induced spawning
+E9,E2,-1,> (Preceded By),False,The first fry hatched,moved to breeding tanks
+E9,E3,-1,> (Preceded By),False,The first fry hatched,Spawning behavior began
+E9,E4,-1,> (Preceded By),False,The first fry hatched,lasted for three hours
+E9,E5,-1,> (Preceded By),False,The first fry hatched,Transferring fertilized eggs to incubation funnels commenced
+E9,E6,-1,> (Preceded By),False,The first fry hatched,a delicate process requiring two hours
+E9,E7,5,d (During),False,The first fry hatched,Water flow through the incubation jars was regulated continuously
+E9,E8,-1,> (Preceded By),False,The first fry hatched,hatchery technicians monitored dissolved oxygen levels
+E9,E10,4,s (Starts),False,The first fry hatched,full hatching across the batch taking fourteen hours
+E9,E11,1,< (Precedes),False,The first fry hatched,The larval fish were transferred to nursery ponds
+E10,E1,-1,> (Preceded By),False,full hatching across the batch taking fourteen hours,induced spawning
+E10,E2,-1,> (Preceded By),False,full hatching across the batch taking fourteen hours,moved to breeding tanks
+E10,E3,-1,> (Preceded By),False,full hatching across the batch taking fourteen hours,Spawning behavior began
+E10,E4,-1,> (Preceded By),False,full hatching across the batch taking fourteen hours,lasted for three hours
+E10,E5,-1,> (Preceded By),False,full hatching across the batch taking fourteen hours,Transferring fertilized eggs to incubation funnels commenced
+E10,E6,-1,> (Preceded By),False,full hatching across the batch taking fourteen hours,a delicate process requiring two hours
+E10,E7,-3,oi (Overlapped By),False,full hatching across the batch taking fourteen hours,Water flow through the incubation jars was regulated continuously
+E10,E8,-1,> (Preceded By),False,full hatching across the batch taking fourteen hours,hatchery technicians monitored dissolved oxygen levels
+E10,E9,-4,si (Started By),False,full hatching across the batch taking fourteen hours,The first fry hatched
+E10,E11,1,< (Precedes),False,full hatching across the batch taking fourteen hours,The larval fish were transferred to nursery ponds
+E11,E1,-1,> (Preceded By),False,The larval fish were transferred to nursery ponds,induced spawning
+E11,E2,-1,> (Preceded By),False,The larval fish were transferred to nursery ponds,moved to breeding tanks
+E11,E3,-1,> (Preceded By),False,The larval fish were transferred to nursery ponds,Spawning behavior began
+E11,E4,-1,> (Preceded By),False,The larval fish were transferred to nursery ponds,lasted for three hours
+E11,E5,-1,> (Preceded By),False,The larval fish were transferred to nursery ponds,Transferring fertilized eggs to incubation funnels commenced
+E11,E6,-1,> (Preceded By),False,The larval fish were transferred to nursery ponds,a delicate process requiring two hours
+E11,E7,-1,> (Preceded By),False,The larval fish were transferred to nursery ponds,Water flow through the incubation jars was regulated continuously
+E11,E8,-1,> (Preceded By),False,The larval fish were transferred to nursery ponds,hatchery technicians monitored dissolved oxygen levels
+E11,E9,-1,> (Preceded By),False,The larval fish were transferred to nursery ponds,The first fry hatched
+E11,E10,-1,> (Preceded By),False,The larval fish were transferred to nursery ponds,full hatching across the batch taking fourteen hours

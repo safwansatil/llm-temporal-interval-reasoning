@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,Sadia began the physical labor,Riya joined the effort
+E1,E3,1,< (Precedes),False,Sadia began the physical labor,encountered a massive collection of unmarked film reels
+E1,E4,1,< (Precedes),False,Sadia began the physical labor,documenting the contents of the reels
+E1,E5,1,< (Precedes),False,Sadia began the physical labor,Riya focused entirely on digitizing the paper records
+E1,E6,1,< (Precedes),False,Sadia began the physical labor,"Sadia built new, weather-resistant shelving in the basement"
+E1,E7,1,< (Precedes),False,Sadia began the physical labor,transferring the newly cataloged items onto the new shelves
+E1,E8,1,< (Precedes),False,Sadia began the physical labor,completing the archive overhaul
+E1,E9,-2,mi (Met By),False,Sadia began the physical labor,decided to completely reorganize the university's drama club
+E1,E10,5,d (During),False,Sadia began the physical labor,spending five hours a day
+E1,E11,1,< (Precedes),False,Sadia began the physical labor,workflow continued uninterrupted
+E1,E12,1,< (Precedes),False,Sadia began the physical labor,spent the entire fourth week sitting together in a darkened viewing room
+E2,E1,-1,> (Preceded By),False,Riya joined the effort,Sadia began the physical labor
+E2,E3,1,< (Precedes),False,Riya joined the effort,encountered a massive collection of unmarked film reels
+E2,E4,1,< (Precedes),False,Riya joined the effort,documenting the contents of the reels
+E2,E5,1,< (Precedes),False,Riya joined the effort,Riya focused entirely on digitizing the paper records
+E2,E6,1,< (Precedes),False,Riya joined the effort,"Sadia built new, weather-resistant shelving in the basement"
+E2,E7,1,< (Precedes),False,Riya joined the effort,transferring the newly cataloged items onto the new shelves
+E2,E8,1,< (Precedes),False,Riya joined the effort,completing the archive overhaul
+E2,E9,-1,> (Preceded By),False,Riya joined the effort,decided to completely reorganize the university's drama club
+E2,E10,-2,mi (Met By),False,Riya joined the effort,spending five hours a day
+E2,E11,4,s (Starts),False,Riya joined the effort,workflow continued uninterrupted
+E2,E12,1,< (Precedes),False,Riya joined the effort,spent the entire fourth week sitting together in a darkened viewing room
+E3,E1,-1,> (Preceded By),False,encountered a massive collection of unmarked film reels,Sadia began the physical labor
+E3,E2,-1,> (Preceded By),False,encountered a massive collection of unmarked film reels,Riya joined the effort
+E3,E4,4,s (Starts),False,encountered a massive collection of unmarked film reels,documenting the contents of the reels
+E3,E5,1,< (Precedes),False,encountered a massive collection of unmarked film reels,Riya focused entirely on digitizing the paper records
+E3,E6,1,< (Precedes),False,encountered a massive collection of unmarked film reels,"Sadia built new, weather-resistant shelving in the basement"
+E3,E7,1,< (Precedes),False,encountered a massive collection of unmarked film reels,transferring the newly cataloged items onto the new shelves
+E3,E8,1,< (Precedes),False,encountered a massive collection of unmarked film reels,completing the archive overhaul
+E3,E9,-1,> (Preceded By),False,encountered a massive collection of unmarked film reels,decided to completely reorganize the university's drama club
+E3,E10,-1,> (Preceded By),False,encountered a massive collection of unmarked film reels,spending five hours a day
+E3,E11,-2,mi (Met By),False,encountered a massive collection of unmarked film reels,workflow continued uninterrupted
+E3,E12,4,s (Starts),False,encountered a massive collection of unmarked film reels,spent the entire fourth week sitting together in a darkened viewing room
+E4,E1,-1,> (Preceded By),False,documenting the contents of the reels,Sadia began the physical labor
+E4,E2,-1,> (Preceded By),False,documenting the contents of the reels,Riya joined the effort
+E4,E3,-4,si (Started By),False,documenting the contents of the reels,encountered a massive collection of unmarked film reels
+E4,E5,2,m (Meets),False,documenting the contents of the reels,Riya focused entirely on digitizing the paper records
+E4,E6,2,m (Meets),False,documenting the contents of the reels,"Sadia built new, weather-resistant shelving in the basement"
+E4,E7,1,< (Precedes),False,documenting the contents of the reels,transferring the newly cataloged items onto the new shelves
+E4,E8,1,< (Precedes),False,documenting the contents of the reels,completing the archive overhaul
+E4,E9,-1,> (Preceded By),False,documenting the contents of the reels,decided to completely reorganize the university's drama club
+E4,E10,-1,> (Preceded By),False,documenting the contents of the reels,spending five hours a day
+E4,E11,-2,mi (Met By),False,documenting the contents of the reels,workflow continued uninterrupted
+E4,E12,0,= (Equal),False,documenting the contents of the reels,spent the entire fourth week sitting together in a darkened viewing room
+E5,E1,-1,> (Preceded By),False,Riya focused entirely on digitizing the paper records,Sadia began the physical labor
+E5,E2,-1,> (Preceded By),False,Riya focused entirely on digitizing the paper records,Riya joined the effort
+E5,E3,-1,> (Preceded By),False,Riya focused entirely on digitizing the paper records,encountered a massive collection of unmarked film reels
+E5,E4,-2,mi (Met By),False,Riya focused entirely on digitizing the paper records,documenting the contents of the reels
+E5,E6,0,= (Equal),False,Riya focused entirely on digitizing the paper records,"Sadia built new, weather-resistant shelving in the basement"
+E5,E7,2,m (Meets),False,Riya focused entirely on digitizing the paper records,transferring the newly cataloged items onto the new shelves
+E5,E8,1,< (Precedes),False,Riya focused entirely on digitizing the paper records,completing the archive overhaul
+E5,E9,-1,> (Preceded By),False,Riya focused entirely on digitizing the paper records,decided to completely reorganize the university's drama club
+E5,E10,-1,> (Preceded By),False,Riya focused entirely on digitizing the paper records,spending five hours a day
+E5,E11,-1,> (Preceded By),False,Riya focused entirely on digitizing the paper records,workflow continued uninterrupted
+E5,E12,-2,mi (Met By),False,Riya focused entirely on digitizing the paper records,spent the entire fourth week sitting together in a darkened viewing room
+E6,E1,-1,> (Preceded By),False,"Sadia built new, weather-resistant shelving in the basement",Sadia began the physical labor
+E6,E2,-1,> (Preceded By),False,"Sadia built new, weather-resistant shelving in the basement",Riya joined the effort
+E6,E3,-1,> (Preceded By),False,"Sadia built new, weather-resistant shelving in the basement",encountered a massive collection of unmarked film reels
+E6,E4,-2,mi (Met By),False,"Sadia built new, weather-resistant shelving in the basement",documenting the contents of the reels
+E6,E5,0,= (Equal),False,"Sadia built new, weather-resistant shelving in the basement",Riya focused entirely on digitizing the paper records
+E6,E7,2,m (Meets),False,"Sadia built new, weather-resistant shelving in the basement",transferring the newly cataloged items onto the new shelves
+E6,E8,1,< (Precedes),False,"Sadia built new, weather-resistant shelving in the basement",completing the archive overhaul
+E6,E9,-1,> (Preceded By),False,"Sadia built new, weather-resistant shelving in the basement",decided to completely reorganize the university's drama club
+E6,E10,-1,> (Preceded By),False,"Sadia built new, weather-resistant shelving in the basement",spending five hours a day
+E6,E11,-1,> (Preceded By),False,"Sadia built new, weather-resistant shelving in the basement",workflow continued uninterrupted
+E6,E12,-2,mi (Met By),False,"Sadia built new, weather-resistant shelving in the basement",spent the entire fourth week sitting together in a darkened viewing room
+E7,E1,-1,> (Preceded By),False,transferring the newly cataloged items onto the new shelves,Sadia began the physical labor
+E7,E2,-1,> (Preceded By),False,transferring the newly cataloged items onto the new shelves,Riya joined the effort
+E7,E3,-1,> (Preceded By),False,transferring the newly cataloged items onto the new shelves,encountered a massive collection of unmarked film reels
+E7,E4,-1,> (Preceded By),False,transferring the newly cataloged items onto the new shelves,documenting the contents of the reels
+E7,E5,-2,mi (Met By),False,transferring the newly cataloged items onto the new shelves,Riya focused entirely on digitizing the paper records
+E7,E6,-2,mi (Met By),False,transferring the newly cataloged items onto the new shelves,"Sadia built new, weather-resistant shelving in the basement"
+E7,E8,2,m (Meets),False,transferring the newly cataloged items onto the new shelves,completing the archive overhaul
+E7,E9,-1,> (Preceded By),False,transferring the newly cataloged items onto the new shelves,decided to completely reorganize the university's drama club
+E7,E10,-1,> (Preceded By),False,transferring the newly cataloged items onto the new shelves,spending five hours a day
+E7,E11,-1,> (Preceded By),False,transferring the newly cataloged items onto the new shelves,workflow continued uninterrupted
+E7,E12,-1,> (Preceded By),False,transferring the newly cataloged items onto the new shelves,spent the entire fourth week sitting together in a darkened viewing room
+E8,E1,-1,> (Preceded By),False,completing the archive overhaul,Sadia began the physical labor
+E8,E2,-1,> (Preceded By),False,completing the archive overhaul,Riya joined the effort
+E8,E3,-1,> (Preceded By),False,completing the archive overhaul,encountered a massive collection of unmarked film reels
+E8,E4,-1,> (Preceded By),False,completing the archive overhaul,documenting the contents of the reels
+E8,E5,-1,> (Preceded By),False,completing the archive overhaul,Riya focused entirely on digitizing the paper records
+E8,E6,-1,> (Preceded By),False,completing the archive overhaul,"Sadia built new, weather-resistant shelving in the basement"
+E8,E7,-2,mi (Met By),False,completing the archive overhaul,transferring the newly cataloged items onto the new shelves
+E8,E9,-1,> (Preceded By),False,completing the archive overhaul,decided to completely reorganize the university's drama club
+E8,E10,-1,> (Preceded By),False,completing the archive overhaul,spending five hours a day
+E8,E11,-1,> (Preceded By),False,completing the archive overhaul,workflow continued uninterrupted
+E8,E12,-1,> (Preceded By),False,completing the archive overhaul,spent the entire fourth week sitting together in a darkened viewing room
+E9,E1,2,m (Meets),False,decided to completely reorganize the university's drama club,Sadia began the physical labor
+E9,E2,1,< (Precedes),False,decided to completely reorganize the university's drama club,Riya joined the effort
+E9,E3,1,< (Precedes),False,decided to completely reorganize the university's drama club,encountered a massive collection of unmarked film reels
+E9,E4,1,< (Precedes),False,decided to completely reorganize the university's drama club,documenting the contents of the reels
+E9,E5,1,< (Precedes),False,decided to completely reorganize the university's drama club,Riya focused entirely on digitizing the paper records
+E9,E6,1,< (Precedes),False,decided to completely reorganize the university's drama club,"Sadia built new, weather-resistant shelving in the basement"
+E9,E7,1,< (Precedes),False,decided to completely reorganize the university's drama club,transferring the newly cataloged items onto the new shelves
+E9,E8,1,< (Precedes),False,decided to completely reorganize the university's drama club,completing the archive overhaul
+E9,E10,4,s (Starts),False,decided to completely reorganize the university's drama club,spending five hours a day
+E9,E11,1,< (Precedes),False,decided to completely reorganize the university's drama club,workflow continued uninterrupted
+E9,E12,1,< (Precedes),False,decided to completely reorganize the university's drama club,spent the entire fourth week sitting together in a darkened viewing room
+E10,E1,-5,di (Contains),False,spending five hours a day,Sadia began the physical labor
+E10,E2,2,m (Meets),False,spending five hours a day,Riya joined the effort
+E10,E3,1,< (Precedes),False,spending five hours a day,encountered a massive collection of unmarked film reels
+E10,E4,1,< (Precedes),False,spending five hours a day,documenting the contents of the reels
+E10,E5,1,< (Precedes),False,spending five hours a day,Riya focused entirely on digitizing the paper records
+E10,E6,1,< (Precedes),False,spending five hours a day,"Sadia built new, weather-resistant shelving in the basement"
+E10,E7,1,< (Precedes),False,spending five hours a day,transferring the newly cataloged items onto the new shelves
+E10,E8,1,< (Precedes),False,spending five hours a day,completing the archive overhaul
+E10,E9,-4,si (Started By),False,spending five hours a day,decided to completely reorganize the university's drama club
+E10,E11,2,m (Meets),False,spending five hours a day,workflow continued uninterrupted
+E10,E12,1,< (Precedes),False,spending five hours a day,spent the entire fourth week sitting together in a darkened viewing room
+E11,E1,-1,> (Preceded By),False,workflow continued uninterrupted,Sadia began the physical labor
+E11,E2,-4,si (Started By),False,workflow continued uninterrupted,Riya joined the effort
+E11,E3,2,m (Meets),False,workflow continued uninterrupted,encountered a massive collection of unmarked film reels
+E11,E4,2,m (Meets),False,workflow continued uninterrupted,documenting the contents of the reels
+E11,E5,1,< (Precedes),False,workflow continued uninterrupted,Riya focused entirely on digitizing the paper records
+E11,E6,1,< (Precedes),False,workflow continued uninterrupted,"Sadia built new, weather-resistant shelving in the basement"
+E11,E7,1,< (Precedes),False,workflow continued uninterrupted,transferring the newly cataloged items onto the new shelves
+E11,E8,1,< (Precedes),False,workflow continued uninterrupted,completing the archive overhaul
+E11,E9,-1,> (Preceded By),False,workflow continued uninterrupted,decided to completely reorganize the university's drama club
+E11,E10,-2,mi (Met By),False,workflow continued uninterrupted,spending five hours a day
+E11,E12,2,m (Meets),False,workflow continued uninterrupted,spent the entire fourth week sitting together in a darkened viewing room
+E12,E1,-1,> (Preceded By),False,spent the entire fourth week sitting together in a darkened viewing room,Sadia began the physical labor
+E12,E2,-1,> (Preceded By),False,spent the entire fourth week sitting together in a darkened viewing room,Riya joined the effort
+E12,E3,-4,si (Started By),False,spent the entire fourth week sitting together in a darkened viewing room,encountered a massive collection of unmarked film reels
+E12,E4,0,= (Equal),False,spent the entire fourth week sitting together in a darkened viewing room,documenting the contents of the reels
+E12,E5,2,m (Meets),False,spent the entire fourth week sitting together in a darkened viewing room,Riya focused entirely on digitizing the paper records
+E12,E6,2,m (Meets),False,spent the entire fourth week sitting together in a darkened viewing room,"Sadia built new, weather-resistant shelving in the basement"
+E12,E7,1,< (Precedes),False,spent the entire fourth week sitting together in a darkened viewing room,transferring the newly cataloged items onto the new shelves
+E12,E8,1,< (Precedes),False,spent the entire fourth week sitting together in a darkened viewing room,completing the archive overhaul
+E12,E9,-1,> (Preceded By),False,spent the entire fourth week sitting together in a darkened viewing room,decided to completely reorganize the university's drama club
+E12,E10,-1,> (Preceded By),False,spent the entire fourth week sitting together in a darkened viewing room,spending five hours a day
+E12,E11,-2,mi (Met By),False,spent the entire fourth week sitting together in a darkened viewing room,workflow continued uninterrupted

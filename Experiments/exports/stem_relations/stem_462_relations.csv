@@ -1,0 +1,91 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,Engineers surveyed the off-grid village,installation equipment arrived
+E1,E3,1,< (Precedes),False,Engineers surveyed the off-grid village,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat
+E1,E4,1,< (Precedes),False,Engineers surveyed the off-grid village,Mounting brackets were anchored to the community center roof
+E1,E5,1,< (Precedes),False,Engineers surveyed the off-grid village,Installing the photovoltaic panels
+E1,E6,1,< (Precedes),False,Engineers surveyed the off-grid village,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households
+E1,E7,1,< (Precedes),False,Engineers surveyed the off-grid village,Connecting the battery banks and the central inverter
+E1,E8,1,< (Precedes),False,Engineers surveyed the off-grid village,A forty-eight-hour testing phase
+E1,E9,1,< (Precedes),False,Engineers surveyed the off-grid village,technicians conducted household safety briefings
+E1,E10,1,< (Precedes),False,Engineers surveyed the off-grid village,handing over complete microgrid operation to the village cooperative
+E2,E1,-1,> (Preceded By),False,installation equipment arrived,Engineers surveyed the off-grid village
+E2,E3,4,s (Starts),False,installation equipment arrived,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat
+E2,E4,1,< (Precedes),False,installation equipment arrived,Mounting brackets were anchored to the community center roof
+E2,E5,1,< (Precedes),False,installation equipment arrived,Installing the photovoltaic panels
+E2,E6,1,< (Precedes),False,installation equipment arrived,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households
+E2,E7,1,< (Precedes),False,installation equipment arrived,Connecting the battery banks and the central inverter
+E2,E8,1,< (Precedes),False,installation equipment arrived,A forty-eight-hour testing phase
+E2,E9,1,< (Precedes),False,installation equipment arrived,technicians conducted household safety briefings
+E2,E10,1,< (Precedes),False,installation equipment arrived,handing over complete microgrid operation to the village cooperative
+E3,E1,-1,> (Preceded By),False,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat,Engineers surveyed the off-grid village
+E3,E2,-4,si (Started By),False,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat,installation equipment arrived
+E3,E4,2,m (Meets),False,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat,Mounting brackets were anchored to the community center roof
+E3,E5,1,< (Precedes),False,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat,Installing the photovoltaic panels
+E3,E6,1,< (Precedes),False,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households
+E3,E7,1,< (Precedes),False,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat,Connecting the battery banks and the central inverter
+E3,E8,1,< (Precedes),False,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat,A forty-eight-hour testing phase
+E3,E9,1,< (Precedes),False,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat,technicians conducted household safety briefings
+E3,E10,1,< (Precedes),False,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat,handing over complete microgrid operation to the village cooperative
+E4,E1,-1,> (Preceded By),False,Mounting brackets were anchored to the community center roof,Engineers surveyed the off-grid village
+E4,E2,-1,> (Preceded By),False,Mounting brackets were anchored to the community center roof,installation equipment arrived
+E4,E3,-2,mi (Met By),False,Mounting brackets were anchored to the community center roof,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat
+E4,E5,2,m (Meets),False,Mounting brackets were anchored to the community center roof,Installing the photovoltaic panels
+E4,E6,1,< (Precedes),False,Mounting brackets were anchored to the community center roof,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households
+E4,E7,1,< (Precedes),False,Mounting brackets were anchored to the community center roof,Connecting the battery banks and the central inverter
+E4,E8,1,< (Precedes),False,Mounting brackets were anchored to the community center roof,A forty-eight-hour testing phase
+E4,E9,1,< (Precedes),False,Mounting brackets were anchored to the community center roof,technicians conducted household safety briefings
+E4,E10,1,< (Precedes),False,Mounting brackets were anchored to the community center roof,handing over complete microgrid operation to the village cooperative
+E5,E1,-1,> (Preceded By),False,Installing the photovoltaic panels,Engineers surveyed the off-grid village
+E5,E2,-1,> (Preceded By),False,Installing the photovoltaic panels,installation equipment arrived
+E5,E3,-1,> (Preceded By),False,Installing the photovoltaic panels,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat
+E5,E4,-2,mi (Met By),False,Installing the photovoltaic panels,Mounting brackets were anchored to the community center roof
+E5,E6,3,o (Overlaps),False,Installing the photovoltaic panels,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households
+E5,E7,1,< (Precedes),False,Installing the photovoltaic panels,Connecting the battery banks and the central inverter
+E5,E8,1,< (Precedes),False,Installing the photovoltaic panels,A forty-eight-hour testing phase
+E5,E9,1,< (Precedes),False,Installing the photovoltaic panels,technicians conducted household safety briefings
+E5,E10,1,< (Precedes),False,Installing the photovoltaic panels,handing over complete microgrid operation to the village cooperative
+E6,E1,-1,> (Preceded By),False,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households,Engineers surveyed the off-grid village
+E6,E2,-1,> (Preceded By),False,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households,installation equipment arrived
+E6,E3,-1,> (Preceded By),False,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat
+E6,E4,-1,> (Preceded By),False,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households,Mounting brackets were anchored to the community center roof
+E6,E5,-3,oi (Overlapped By),False,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households,Installing the photovoltaic panels
+E6,E7,1,< (Precedes),False,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households,Connecting the battery banks and the central inverter
+E6,E8,1,< (Precedes),False,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households,A forty-eight-hour testing phase
+E6,E9,1,< (Precedes),False,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households,technicians conducted household safety briefings
+E6,E10,1,< (Precedes),False,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households,handing over complete microgrid operation to the village cooperative
+E7,E1,-1,> (Preceded By),False,Connecting the battery banks and the central inverter,Engineers surveyed the off-grid village
+E7,E2,-1,> (Preceded By),False,Connecting the battery banks and the central inverter,installation equipment arrived
+E7,E3,-1,> (Preceded By),False,Connecting the battery banks and the central inverter,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat
+E7,E4,-1,> (Preceded By),False,Connecting the battery banks and the central inverter,Mounting brackets were anchored to the community center roof
+E7,E5,-1,> (Preceded By),False,Connecting the battery banks and the central inverter,Installing the photovoltaic panels
+E7,E6,-1,> (Preceded By),False,Connecting the battery banks and the central inverter,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households
+E7,E8,2,m (Meets),False,Connecting the battery banks and the central inverter,A forty-eight-hour testing phase
+E7,E9,1,< (Precedes),False,Connecting the battery banks and the central inverter,technicians conducted household safety briefings
+E7,E10,1,< (Precedes),False,Connecting the battery banks and the central inverter,handing over complete microgrid operation to the village cooperative
+E8,E1,-1,> (Preceded By),False,A forty-eight-hour testing phase,Engineers surveyed the off-grid village
+E8,E2,-1,> (Preceded By),False,A forty-eight-hour testing phase,installation equipment arrived
+E8,E3,-1,> (Preceded By),False,A forty-eight-hour testing phase,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat
+E8,E4,-1,> (Preceded By),False,A forty-eight-hour testing phase,Mounting brackets were anchored to the community center roof
+E8,E5,-1,> (Preceded By),False,A forty-eight-hour testing phase,Installing the photovoltaic panels
+E8,E6,-1,> (Preceded By),False,A forty-eight-hour testing phase,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households
+E8,E7,-2,mi (Met By),False,A forty-eight-hour testing phase,Connecting the battery banks and the central inverter
+E8,E9,-6,fi (Finished By),False,A forty-eight-hour testing phase,technicians conducted household safety briefings
+E8,E10,1,< (Precedes),False,A forty-eight-hour testing phase,handing over complete microgrid operation to the village cooperative
+E9,E1,-1,> (Preceded By),False,technicians conducted household safety briefings,Engineers surveyed the off-grid village
+E9,E2,-1,> (Preceded By),False,technicians conducted household safety briefings,installation equipment arrived
+E9,E3,-1,> (Preceded By),False,technicians conducted household safety briefings,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat
+E9,E4,-1,> (Preceded By),False,technicians conducted household safety briefings,Mounting brackets were anchored to the community center roof
+E9,E5,-1,> (Preceded By),False,technicians conducted household safety briefings,Installing the photovoltaic panels
+E9,E6,-1,> (Preceded By),False,technicians conducted household safety briefings,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households
+E9,E7,-1,> (Preceded By),False,technicians conducted household safety briefings,Connecting the battery banks and the central inverter
+E9,E8,6,f (Finishes),False,technicians conducted household safety briefings,A forty-eight-hour testing phase
+E9,E10,1,< (Precedes),False,technicians conducted household safety briefings,handing over complete microgrid operation to the village cooperative
+E10,E1,-1,> (Preceded By),False,handing over complete microgrid operation to the village cooperative,Engineers surveyed the off-grid village
+E10,E2,-1,> (Preceded By),False,handing over complete microgrid operation to the village cooperative,installation equipment arrived
+E10,E3,-1,> (Preceded By),False,handing over complete microgrid operation to the village cooperative,Transporting forty solar panels and twenty lithium-ion batteries across the river by country boat
+E10,E4,-1,> (Preceded By),False,handing over complete microgrid operation to the village cooperative,Mounting brackets were anchored to the community center roof
+E10,E5,-1,> (Preceded By),False,handing over complete microgrid operation to the village cooperative,Installing the photovoltaic panels
+E10,E6,-1,> (Preceded By),False,handing over complete microgrid operation to the village cooperative,electricians spent four consecutive days digging trenches and laying underground distribution cables to sixty households
+E10,E7,-1,> (Preceded By),False,handing over complete microgrid operation to the village cooperative,Connecting the battery banks and the central inverter
+E10,E8,-1,> (Preceded By),False,handing over complete microgrid operation to the village cooperative,A forty-eight-hour testing phase
+E10,E9,-1,> (Preceded By),False,handing over complete microgrid operation to the village cooperative,technicians conducted household safety briefings

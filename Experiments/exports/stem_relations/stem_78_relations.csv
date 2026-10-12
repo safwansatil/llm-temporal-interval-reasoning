@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,rubbed his tired eyes,eviewing the logs from last week's disaster
+E1,E3,-1,> (Preceded By),False,rubbed his tired eyes,initial software diagnostic
+E1,E4,-1,> (Preceded By),False,rubbed his tired eyes,"p, the automated system reboot"
+E1,E5,-1,> (Preceded By),False,rubbed his tired eyes,massive power surge
+E1,E6,-1,> (Preceded By),False,rubbed his tired eyes,he main capacitor violently exploded
+E1,E7,-1,> (Preceded By),False,rubbed his tired eyes,s facility lockdown.
+E1,E8,-1,> (Preceded By),False,rubbed his tired eyes,e evacuation siren bl
+E1,E9,-1,> (Preceded By),False,rubbed his tired eyes,the emergency backup generato
+E1,E10,0,= (Equal),False,rubbed his tired eyes,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E1,E11,1,< (Precedes),False,rubbed his tired eyes,e grid's final warning
+E1,E12,1,< (Precedes),False,rubbed his tired eyes,terrifying radio silence
+E1,E13,-1,> (Preceded By),False,rubbed his tired eyes,akeshift wire patch
+E1,E14,1,< (Precedes),False,rubbed his tired eyes,the safety inspectors' final review
+E2,E1,0,= (Equal),False,eviewing the logs from last week's disaster,rubbed his tired eyes
+E2,E3,-1,> (Preceded By),False,eviewing the logs from last week's disaster,initial software diagnostic
+E2,E4,-1,> (Preceded By),False,eviewing the logs from last week's disaster,"p, the automated system reboot"
+E2,E5,-1,> (Preceded By),False,eviewing the logs from last week's disaster,massive power surge
+E2,E6,-1,> (Preceded By),False,eviewing the logs from last week's disaster,he main capacitor violently exploded
+E2,E7,-1,> (Preceded By),False,eviewing the logs from last week's disaster,s facility lockdown.
+E2,E8,-1,> (Preceded By),False,eviewing the logs from last week's disaster,e evacuation siren bl
+E2,E9,-1,> (Preceded By),False,eviewing the logs from last week's disaster,the emergency backup generato
+E2,E10,0,= (Equal),False,eviewing the logs from last week's disaster,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E2,E11,1,< (Precedes),False,eviewing the logs from last week's disaster,e grid's final warning
+E2,E12,1,< (Precedes),False,eviewing the logs from last week's disaster,terrifying radio silence
+E2,E13,-1,> (Preceded By),False,eviewing the logs from last week's disaster,akeshift wire patch
+E2,E14,1,< (Precedes),False,eviewing the logs from last week's disaster,the safety inspectors' final review
+E3,E1,1,< (Precedes),False,initial software diagnostic,rubbed his tired eyes
+E3,E2,1,< (Precedes),False,initial software diagnostic,eviewing the logs from last week's disaster
+E3,E4,2,m (Meets),False,initial software diagnostic,"p, the automated system reboot"
+E3,E5,1,< (Precedes),False,initial software diagnostic,massive power surge
+E3,E6,1,< (Precedes),False,initial software diagnostic,he main capacitor violently exploded
+E3,E7,1,< (Precedes),False,initial software diagnostic,s facility lockdown.
+E3,E8,1,< (Precedes),False,initial software diagnostic,e evacuation siren bl
+E3,E9,1,< (Precedes),False,initial software diagnostic,the emergency backup generato
+E3,E10,1,< (Precedes),False,initial software diagnostic,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E3,E11,1,< (Precedes),False,initial software diagnostic,e grid's final warning
+E3,E12,1,< (Precedes),False,initial software diagnostic,terrifying radio silence
+E3,E13,1,< (Precedes),False,initial software diagnostic,akeshift wire patch
+E3,E14,1,< (Precedes),False,initial software diagnostic,the safety inspectors' final review
+E4,E1,1,< (Precedes),False,"p, the automated system reboot",rubbed his tired eyes
+E4,E2,1,< (Precedes),False,"p, the automated system reboot",eviewing the logs from last week's disaster
+E4,E3,-2,mi (Met By),False,"p, the automated system reboot",initial software diagnostic
+E4,E5,3,o (Overlaps),False,"p, the automated system reboot",massive power surge
+E4,E6,-5,di (Contains),False,"p, the automated system reboot",he main capacitor violently exploded
+E4,E7,1,< (Precedes),False,"p, the automated system reboot",s facility lockdown.
+E4,E8,1,< (Precedes),False,"p, the automated system reboot",e evacuation siren bl
+E4,E9,1,< (Precedes),False,"p, the automated system reboot",the emergency backup generato
+E4,E10,1,< (Precedes),False,"p, the automated system reboot","listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E4,E11,1,< (Precedes),False,"p, the automated system reboot",e grid's final warning
+E4,E12,1,< (Precedes),False,"p, the automated system reboot",terrifying radio silence
+E4,E13,1,< (Precedes),False,"p, the automated system reboot",akeshift wire patch
+E4,E14,1,< (Precedes),False,"p, the automated system reboot",the safety inspectors' final review
+E5,E1,1,< (Precedes),False,massive power surge,rubbed his tired eyes
+E5,E2,1,< (Precedes),False,massive power surge,eviewing the logs from last week's disaster
+E5,E3,-1,> (Preceded By),False,massive power surge,initial software diagnostic
+E5,E4,-3,oi (Overlapped By),False,massive power surge,"p, the automated system reboot"
+E5,E6,-5,di (Contains),False,massive power surge,he main capacitor violently exploded
+E5,E7,1,< (Precedes),False,massive power surge,s facility lockdown.
+E5,E8,1,< (Precedes),False,massive power surge,e evacuation siren bl
+E5,E9,1,< (Precedes),False,massive power surge,the emergency backup generato
+E5,E10,1,< (Precedes),False,massive power surge,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E5,E11,1,< (Precedes),False,massive power surge,e grid's final warning
+E5,E12,1,< (Precedes),False,massive power surge,terrifying radio silence
+E5,E13,1,< (Precedes),False,massive power surge,akeshift wire patch
+E5,E14,1,< (Precedes),False,massive power surge,the safety inspectors' final review
+E6,E1,1,< (Precedes),False,he main capacitor violently exploded,rubbed his tired eyes
+E6,E2,1,< (Precedes),False,he main capacitor violently exploded,eviewing the logs from last week's disaster
+E6,E3,-1,> (Preceded By),False,he main capacitor violently exploded,initial software diagnostic
+E6,E4,5,d (During),False,he main capacitor violently exploded,"p, the automated system reboot"
+E6,E5,5,d (During),False,he main capacitor violently exploded,massive power surge
+E6,E7,1,< (Precedes),False,he main capacitor violently exploded,s facility lockdown.
+E6,E8,1,< (Precedes),False,he main capacitor violently exploded,e evacuation siren bl
+E6,E9,1,< (Precedes),False,he main capacitor violently exploded,the emergency backup generato
+E6,E10,1,< (Precedes),False,he main capacitor violently exploded,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E6,E11,1,< (Precedes),False,he main capacitor violently exploded,e grid's final warning
+E6,E12,1,< (Precedes),False,he main capacitor violently exploded,terrifying radio silence
+E6,E13,1,< (Precedes),False,he main capacitor violently exploded,akeshift wire patch
+E6,E14,1,< (Precedes),False,he main capacitor violently exploded,the safety inspectors' final review
+E7,E1,1,< (Precedes),False,s facility lockdown.,rubbed his tired eyes
+E7,E2,1,< (Precedes),False,s facility lockdown.,eviewing the logs from last week's disaster
+E7,E3,-1,> (Preceded By),False,s facility lockdown.,initial software diagnostic
+E7,E4,-1,> (Preceded By),False,s facility lockdown.,"p, the automated system reboot"
+E7,E5,-1,> (Preceded By),False,s facility lockdown.,massive power surge
+E7,E6,-1,> (Preceded By),False,s facility lockdown.,he main capacitor violently exploded
+E7,E8,-4,si (Started By),False,s facility lockdown.,e evacuation siren bl
+E7,E9,-6,fi (Finished By),False,s facility lockdown.,the emergency backup generato
+E7,E10,1,< (Precedes),False,s facility lockdown.,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E7,E11,1,< (Precedes),False,s facility lockdown.,e grid's final warning
+E7,E12,1,< (Precedes),False,s facility lockdown.,terrifying radio silence
+E7,E13,-1,> (Preceded By),False,s facility lockdown.,akeshift wire patch
+E7,E14,1,< (Precedes),False,s facility lockdown.,the safety inspectors' final review
+E8,E1,1,< (Precedes),False,e evacuation siren bl,rubbed his tired eyes
+E8,E2,1,< (Precedes),False,e evacuation siren bl,eviewing the logs from last week's disaster
+E8,E3,-1,> (Preceded By),False,e evacuation siren bl,initial software diagnostic
+E8,E4,-1,> (Preceded By),False,e evacuation siren bl,"p, the automated system reboot"
+E8,E5,-1,> (Preceded By),False,e evacuation siren bl,massive power surge
+E8,E6,-1,> (Preceded By),False,e evacuation siren bl,he main capacitor violently exploded
+E8,E7,4,s (Starts),False,e evacuation siren bl,s facility lockdown.
+E8,E9,1,< (Precedes),False,e evacuation siren bl,the emergency backup generato
+E8,E10,1,< (Precedes),False,e evacuation siren bl,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E8,E11,1,< (Precedes),False,e evacuation siren bl,e grid's final warning
+E8,E12,1,< (Precedes),False,e evacuation siren bl,terrifying radio silence
+E8,E13,-1,> (Preceded By),False,e evacuation siren bl,akeshift wire patch
+E8,E14,1,< (Precedes),False,e evacuation siren bl,the safety inspectors' final review
+E9,E1,1,< (Precedes),False,the emergency backup generato,rubbed his tired eyes
+E9,E2,1,< (Precedes),False,the emergency backup generato,eviewing the logs from last week's disaster
+E9,E3,-1,> (Preceded By),False,the emergency backup generato,initial software diagnostic
+E9,E4,-1,> (Preceded By),False,the emergency backup generato,"p, the automated system reboot"
+E9,E5,-1,> (Preceded By),False,the emergency backup generato,massive power surge
+E9,E6,-1,> (Preceded By),False,the emergency backup generato,he main capacitor violently exploded
+E9,E7,6,f (Finishes),False,the emergency backup generato,s facility lockdown.
+E9,E8,-1,> (Preceded By),False,the emergency backup generato,e evacuation siren bl
+E9,E10,1,< (Precedes),False,the emergency backup generato,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E9,E11,1,< (Precedes),False,the emergency backup generato,e grid's final warning
+E9,E12,1,< (Precedes),False,the emergency backup generato,terrifying radio silence
+E9,E13,-1,> (Preceded By),False,the emergency backup generato,akeshift wire patch
+E9,E14,1,< (Precedes),False,the emergency backup generato,the safety inspectors' final review
+E10,E1,0,= (Equal),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",rubbed his tired eyes
+E10,E2,0,= (Equal),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",eviewing the logs from last week's disaster
+E10,E3,-1,> (Preceded By),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",initial software diagnostic
+E10,E4,-1,> (Preceded By),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:","p, the automated system reboot"
+E10,E5,-1,> (Preceded By),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",massive power surge
+E10,E6,-1,> (Preceded By),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",he main capacitor violently exploded
+E10,E7,-1,> (Preceded By),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",s facility lockdown.
+E10,E8,-1,> (Preceded By),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",e evacuation siren bl
+E10,E9,-1,> (Preceded By),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",the emergency backup generato
+E10,E11,1,< (Precedes),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",e grid's final warning
+E10,E12,1,< (Precedes),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",terrifying radio silence
+E10,E13,-1,> (Preceded By),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",akeshift wire patch
+E10,E14,1,< (Precedes),False,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:",the safety inspectors' final review
+E11,E1,-1,> (Preceded By),False,e grid's final warning,rubbed his tired eyes
+E11,E2,-1,> (Preceded By),False,e grid's final warning,eviewing the logs from last week's disaster
+E11,E3,-1,> (Preceded By),False,e grid's final warning,initial software diagnostic
+E11,E4,-1,> (Preceded By),False,e grid's final warning,"p, the automated system reboot"
+E11,E5,-1,> (Preceded By),False,e grid's final warning,massive power surge
+E11,E6,-1,> (Preceded By),False,e grid's final warning,he main capacitor violently exploded
+E11,E7,-1,> (Preceded By),False,e grid's final warning,s facility lockdown.
+E11,E8,-1,> (Preceded By),False,e grid's final warning,e evacuation siren bl
+E11,E9,-1,> (Preceded By),False,e grid's final warning,the emergency backup generato
+E11,E10,-1,> (Preceded By),False,e grid's final warning,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E11,E12,0,= (Equal),False,e grid's final warning,terrifying radio silence
+E11,E13,-1,> (Preceded By),False,e grid's final warning,akeshift wire patch
+E11,E14,1,< (Precedes),False,e grid's final warning,the safety inspectors' final review
+E12,E1,-1,> (Preceded By),False,terrifying radio silence,rubbed his tired eyes
+E12,E2,-1,> (Preceded By),False,terrifying radio silence,eviewing the logs from last week's disaster
+E12,E3,-1,> (Preceded By),False,terrifying radio silence,initial software diagnostic
+E12,E4,-1,> (Preceded By),False,terrifying radio silence,"p, the automated system reboot"
+E12,E5,-1,> (Preceded By),False,terrifying radio silence,massive power surge
+E12,E6,-1,> (Preceded By),False,terrifying radio silence,he main capacitor violently exploded
+E12,E7,-1,> (Preceded By),False,terrifying radio silence,s facility lockdown.
+E12,E8,-1,> (Preceded By),False,terrifying radio silence,e evacuation siren bl
+E12,E9,-1,> (Preceded By),False,terrifying radio silence,the emergency backup generato
+E12,E10,-1,> (Preceded By),False,terrifying radio silence,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E12,E11,0,= (Equal),False,terrifying radio silence,e grid's final warning
+E12,E13,-1,> (Preceded By),False,terrifying radio silence,akeshift wire patch
+E12,E14,1,< (Precedes),False,terrifying radio silence,the safety inspectors' final review
+E13,E1,1,< (Precedes),False,akeshift wire patch,rubbed his tired eyes
+E13,E2,1,< (Precedes),False,akeshift wire patch,eviewing the logs from last week's disaster
+E13,E3,-1,> (Preceded By),False,akeshift wire patch,initial software diagnostic
+E13,E4,-1,> (Preceded By),False,akeshift wire patch,"p, the automated system reboot"
+E13,E5,-1,> (Preceded By),False,akeshift wire patch,massive power surge
+E13,E6,-1,> (Preceded By),False,akeshift wire patch,he main capacitor violently exploded
+E13,E7,1,< (Precedes),False,akeshift wire patch,s facility lockdown.
+E13,E8,1,< (Precedes),False,akeshift wire patch,e evacuation siren bl
+E13,E9,1,< (Precedes),False,akeshift wire patch,the emergency backup generato
+E13,E10,1,< (Precedes),False,akeshift wire patch,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E13,E11,1,< (Precedes),False,akeshift wire patch,e grid's final warning
+E13,E12,1,< (Precedes),False,akeshift wire patch,terrifying radio silence
+E13,E14,1,< (Precedes),False,akeshift wire patch,the safety inspectors' final review
+E14,E1,-1,> (Preceded By),False,the safety inspectors' final review,rubbed his tired eyes
+E14,E2,-1,> (Preceded By),False,the safety inspectors' final review,eviewing the logs from last week's disaster
+E14,E3,-1,> (Preceded By),False,the safety inspectors' final review,initial software diagnostic
+E14,E4,-1,> (Preceded By),False,the safety inspectors' final review,"p, the automated system reboot"
+E14,E5,-1,> (Preceded By),False,the safety inspectors' final review,massive power surge
+E14,E6,-1,> (Preceded By),False,the safety inspectors' final review,he main capacitor violently exploded
+E14,E7,-1,> (Preceded By),False,the safety inspectors' final review,s facility lockdown.
+E14,E8,-1,> (Preceded By),False,the safety inspectors' final review,e evacuation siren bl
+E14,E9,-1,> (Preceded By),False,the safety inspectors' final review,the emergency backup generato
+E14,E10,-1,> (Preceded By),False,the safety inspectors' final review,"listening to the overhead servers, Elias noticed a chilling detail on his monitor:"
+E14,E11,-1,> (Preceded By),False,the safety inspectors' final review,e grid's final warning
+E14,E12,-1,> (Preceded By),False,the safety inspectors' final review,terrifying radio silence
+E14,E13,-1,> (Preceded By),False,the safety inspectors' final review,akeshift wire patch

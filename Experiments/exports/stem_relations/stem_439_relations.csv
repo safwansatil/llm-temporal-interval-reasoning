@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,decided to overhaul the baking schedule,continued using the old oven
+E1,E3,4,s (Starts),False,decided to overhaul the baking schedule,spending three hours each afternoon calibrating the new machinery
+E1,E4,4,s (Starts),False,decided to overhaul the baking schedule,worked twelve-hour days
+E1,E5,1,< (Precedes),False,decided to overhaul the baking schedule,the old oven was decommissioned
+E1,E6,1,< (Precedes),False,decided to overhaul the baking schedule,all bread was baked exclusively in the new oven
+E1,E7,1,< (Precedes),False,decided to overhaul the baking schedule,the new oven's digital thermostat malfunctioned
+E1,E8,1,< (Precedes),False,decided to overhaul the baking schedule,requiring a forty-eight-hour maintenance shutdown
+E1,E9,1,< (Precedes),False,decided to overhaul the baking schedule,Mr. Samad had to outsource his baking to a neighboring facility
+E1,E10,1,< (Precedes),False,decided to overhaul the baking schedule,the thermostat was replaced
+E1,E11,1,< (Precedes),False,decided to overhaul the baking schedule,the bakery resumed full operations
+E1,E12,1,< (Precedes),False,decided to overhaul the baking schedule,hitting a new production record
+E2,E1,-4,si (Started By),False,continued using the old oven,decided to overhaul the baking schedule
+E2,E3,0,= (Equal),False,continued using the old oven,spending three hours each afternoon calibrating the new machinery
+E2,E4,0,= (Equal),False,continued using the old oven,worked twelve-hour days
+E2,E5,2,m (Meets),False,continued using the old oven,the old oven was decommissioned
+E2,E6,2,m (Meets),False,continued using the old oven,all bread was baked exclusively in the new oven
+E2,E7,1,< (Precedes),False,continued using the old oven,the new oven's digital thermostat malfunctioned
+E2,E8,1,< (Precedes),False,continued using the old oven,requiring a forty-eight-hour maintenance shutdown
+E2,E9,1,< (Precedes),False,continued using the old oven,Mr. Samad had to outsource his baking to a neighboring facility
+E2,E10,1,< (Precedes),False,continued using the old oven,the thermostat was replaced
+E2,E11,1,< (Precedes),False,continued using the old oven,the bakery resumed full operations
+E2,E12,1,< (Precedes),False,continued using the old oven,hitting a new production record
+E3,E1,-4,si (Started By),False,spending three hours each afternoon calibrating the new machinery,decided to overhaul the baking schedule
+E3,E2,0,= (Equal),False,spending three hours each afternoon calibrating the new machinery,continued using the old oven
+E3,E4,0,= (Equal),False,spending three hours each afternoon calibrating the new machinery,worked twelve-hour days
+E3,E5,2,m (Meets),False,spending three hours each afternoon calibrating the new machinery,the old oven was decommissioned
+E3,E6,2,m (Meets),False,spending three hours each afternoon calibrating the new machinery,all bread was baked exclusively in the new oven
+E3,E7,1,< (Precedes),False,spending three hours each afternoon calibrating the new machinery,the new oven's digital thermostat malfunctioned
+E3,E8,1,< (Precedes),False,spending three hours each afternoon calibrating the new machinery,requiring a forty-eight-hour maintenance shutdown
+E3,E9,1,< (Precedes),False,spending three hours each afternoon calibrating the new machinery,Mr. Samad had to outsource his baking to a neighboring facility
+E3,E10,1,< (Precedes),False,spending three hours each afternoon calibrating the new machinery,the thermostat was replaced
+E3,E11,1,< (Precedes),False,spending three hours each afternoon calibrating the new machinery,the bakery resumed full operations
+E3,E12,1,< (Precedes),False,spending three hours each afternoon calibrating the new machinery,hitting a new production record
+E4,E1,-4,si (Started By),False,worked twelve-hour days,decided to overhaul the baking schedule
+E4,E2,0,= (Equal),False,worked twelve-hour days,continued using the old oven
+E4,E3,0,= (Equal),False,worked twelve-hour days,spending three hours each afternoon calibrating the new machinery
+E4,E5,2,m (Meets),False,worked twelve-hour days,the old oven was decommissioned
+E4,E6,2,m (Meets),False,worked twelve-hour days,all bread was baked exclusively in the new oven
+E4,E7,1,< (Precedes),False,worked twelve-hour days,the new oven's digital thermostat malfunctioned
+E4,E8,1,< (Precedes),False,worked twelve-hour days,requiring a forty-eight-hour maintenance shutdown
+E4,E9,1,< (Precedes),False,worked twelve-hour days,Mr. Samad had to outsource his baking to a neighboring facility
+E4,E10,1,< (Precedes),False,worked twelve-hour days,the thermostat was replaced
+E4,E11,1,< (Precedes),False,worked twelve-hour days,the bakery resumed full operations
+E4,E12,1,< (Precedes),False,worked twelve-hour days,hitting a new production record
+E5,E1,-1,> (Preceded By),False,the old oven was decommissioned,decided to overhaul the baking schedule
+E5,E2,-2,mi (Met By),False,the old oven was decommissioned,continued using the old oven
+E5,E3,-2,mi (Met By),False,the old oven was decommissioned,spending three hours each afternoon calibrating the new machinery
+E5,E4,-2,mi (Met By),False,the old oven was decommissioned,worked twelve-hour days
+E5,E6,4,s (Starts),False,the old oven was decommissioned,all bread was baked exclusively in the new oven
+E5,E7,1,< (Precedes),False,the old oven was decommissioned,the new oven's digital thermostat malfunctioned
+E5,E8,1,< (Precedes),False,the old oven was decommissioned,requiring a forty-eight-hour maintenance shutdown
+E5,E9,1,< (Precedes),False,the old oven was decommissioned,Mr. Samad had to outsource his baking to a neighboring facility
+E5,E10,1,< (Precedes),False,the old oven was decommissioned,the thermostat was replaced
+E5,E11,1,< (Precedes),False,the old oven was decommissioned,the bakery resumed full operations
+E5,E12,1,< (Precedes),False,the old oven was decommissioned,hitting a new production record
+E6,E1,-1,> (Preceded By),False,all bread was baked exclusively in the new oven,decided to overhaul the baking schedule
+E6,E2,-2,mi (Met By),False,all bread was baked exclusively in the new oven,continued using the old oven
+E6,E3,-2,mi (Met By),False,all bread was baked exclusively in the new oven,spending three hours each afternoon calibrating the new machinery
+E6,E4,-2,mi (Met By),False,all bread was baked exclusively in the new oven,worked twelve-hour days
+E6,E5,-4,si (Started By),False,all bread was baked exclusively in the new oven,the old oven was decommissioned
+E6,E7,2,m (Meets),False,all bread was baked exclusively in the new oven,the new oven's digital thermostat malfunctioned
+E6,E8,2,m (Meets),False,all bread was baked exclusively in the new oven,requiring a forty-eight-hour maintenance shutdown
+E6,E9,2,m (Meets),False,all bread was baked exclusively in the new oven,Mr. Samad had to outsource his baking to a neighboring facility
+E6,E10,1,< (Precedes),False,all bread was baked exclusively in the new oven,the thermostat was replaced
+E6,E11,1,< (Precedes),False,all bread was baked exclusively in the new oven,the bakery resumed full operations
+E6,E12,1,< (Precedes),False,all bread was baked exclusively in the new oven,hitting a new production record
+E7,E1,-1,> (Preceded By),False,the new oven's digital thermostat malfunctioned,decided to overhaul the baking schedule
+E7,E2,-1,> (Preceded By),False,the new oven's digital thermostat malfunctioned,continued using the old oven
+E7,E3,-1,> (Preceded By),False,the new oven's digital thermostat malfunctioned,spending three hours each afternoon calibrating the new machinery
+E7,E4,-1,> (Preceded By),False,the new oven's digital thermostat malfunctioned,worked twelve-hour days
+E7,E5,-1,> (Preceded By),False,the new oven's digital thermostat malfunctioned,the old oven was decommissioned
+E7,E6,-2,mi (Met By),False,the new oven's digital thermostat malfunctioned,all bread was baked exclusively in the new oven
+E7,E8,4,s (Starts),False,the new oven's digital thermostat malfunctioned,requiring a forty-eight-hour maintenance shutdown
+E7,E9,4,s (Starts),False,the new oven's digital thermostat malfunctioned,Mr. Samad had to outsource his baking to a neighboring facility
+E7,E10,1,< (Precedes),False,the new oven's digital thermostat malfunctioned,the thermostat was replaced
+E7,E11,1,< (Precedes),False,the new oven's digital thermostat malfunctioned,the bakery resumed full operations
+E7,E12,1,< (Precedes),False,the new oven's digital thermostat malfunctioned,hitting a new production record
+E8,E1,-1,> (Preceded By),False,requiring a forty-eight-hour maintenance shutdown,decided to overhaul the baking schedule
+E8,E2,-1,> (Preceded By),False,requiring a forty-eight-hour maintenance shutdown,continued using the old oven
+E8,E3,-1,> (Preceded By),False,requiring a forty-eight-hour maintenance shutdown,spending three hours each afternoon calibrating the new machinery
+E8,E4,-1,> (Preceded By),False,requiring a forty-eight-hour maintenance shutdown,worked twelve-hour days
+E8,E5,-1,> (Preceded By),False,requiring a forty-eight-hour maintenance shutdown,the old oven was decommissioned
+E8,E6,-2,mi (Met By),False,requiring a forty-eight-hour maintenance shutdown,all bread was baked exclusively in the new oven
+E8,E7,-4,si (Started By),False,requiring a forty-eight-hour maintenance shutdown,the new oven's digital thermostat malfunctioned
+E8,E9,0,= (Equal),False,requiring a forty-eight-hour maintenance shutdown,Mr. Samad had to outsource his baking to a neighboring facility
+E8,E10,2,m (Meets),False,requiring a forty-eight-hour maintenance shutdown,the thermostat was replaced
+E8,E11,2,m (Meets),False,requiring a forty-eight-hour maintenance shutdown,the bakery resumed full operations
+E8,E12,2,m (Meets),False,requiring a forty-eight-hour maintenance shutdown,hitting a new production record
+E9,E1,-1,> (Preceded By),False,Mr. Samad had to outsource his baking to a neighboring facility,decided to overhaul the baking schedule
+E9,E2,-1,> (Preceded By),False,Mr. Samad had to outsource his baking to a neighboring facility,continued using the old oven
+E9,E3,-1,> (Preceded By),False,Mr. Samad had to outsource his baking to a neighboring facility,spending three hours each afternoon calibrating the new machinery
+E9,E4,-1,> (Preceded By),False,Mr. Samad had to outsource his baking to a neighboring facility,worked twelve-hour days
+E9,E5,-1,> (Preceded By),False,Mr. Samad had to outsource his baking to a neighboring facility,the old oven was decommissioned
+E9,E6,-2,mi (Met By),False,Mr. Samad had to outsource his baking to a neighboring facility,all bread was baked exclusively in the new oven
+E9,E7,-4,si (Started By),False,Mr. Samad had to outsource his baking to a neighboring facility,the new oven's digital thermostat malfunctioned
+E9,E8,0,= (Equal),False,Mr. Samad had to outsource his baking to a neighboring facility,requiring a forty-eight-hour maintenance shutdown
+E9,E10,2,m (Meets),False,Mr. Samad had to outsource his baking to a neighboring facility,the thermostat was replaced
+E9,E11,2,m (Meets),False,Mr. Samad had to outsource his baking to a neighboring facility,the bakery resumed full operations
+E9,E12,2,m (Meets),False,Mr. Samad had to outsource his baking to a neighboring facility,hitting a new production record
+E10,E1,-1,> (Preceded By),False,the thermostat was replaced,decided to overhaul the baking schedule
+E10,E2,-1,> (Preceded By),False,the thermostat was replaced,continued using the old oven
+E10,E3,-1,> (Preceded By),False,the thermostat was replaced,spending three hours each afternoon calibrating the new machinery
+E10,E4,-1,> (Preceded By),False,the thermostat was replaced,worked twelve-hour days
+E10,E5,-1,> (Preceded By),False,the thermostat was replaced,the old oven was decommissioned
+E10,E6,-1,> (Preceded By),False,the thermostat was replaced,all bread was baked exclusively in the new oven
+E10,E7,-1,> (Preceded By),False,the thermostat was replaced,the new oven's digital thermostat malfunctioned
+E10,E8,-2,mi (Met By),False,the thermostat was replaced,requiring a forty-eight-hour maintenance shutdown
+E10,E9,-2,mi (Met By),False,the thermostat was replaced,Mr. Samad had to outsource his baking to a neighboring facility
+E10,E11,0,= (Equal),False,the thermostat was replaced,the bakery resumed full operations
+E10,E12,4,s (Starts),False,the thermostat was replaced,hitting a new production record
+E11,E1,-1,> (Preceded By),False,the bakery resumed full operations,decided to overhaul the baking schedule
+E11,E2,-1,> (Preceded By),False,the bakery resumed full operations,continued using the old oven
+E11,E3,-1,> (Preceded By),False,the bakery resumed full operations,spending three hours each afternoon calibrating the new machinery
+E11,E4,-1,> (Preceded By),False,the bakery resumed full operations,worked twelve-hour days
+E11,E5,-1,> (Preceded By),False,the bakery resumed full operations,the old oven was decommissioned
+E11,E6,-1,> (Preceded By),False,the bakery resumed full operations,all bread was baked exclusively in the new oven
+E11,E7,-1,> (Preceded By),False,the bakery resumed full operations,the new oven's digital thermostat malfunctioned
+E11,E8,-2,mi (Met By),False,the bakery resumed full operations,requiring a forty-eight-hour maintenance shutdown
+E11,E9,-2,mi (Met By),False,the bakery resumed full operations,Mr. Samad had to outsource his baking to a neighboring facility
+E11,E10,0,= (Equal),False,the bakery resumed full operations,the thermostat was replaced
+E11,E12,4,s (Starts),False,the bakery resumed full operations,hitting a new production record
+E12,E1,-1,> (Preceded By),False,hitting a new production record,decided to overhaul the baking schedule
+E12,E2,-1,> (Preceded By),False,hitting a new production record,continued using the old oven
+E12,E3,-1,> (Preceded By),False,hitting a new production record,spending three hours each afternoon calibrating the new machinery
+E12,E4,-1,> (Preceded By),False,hitting a new production record,worked twelve-hour days
+E12,E5,-1,> (Preceded By),False,hitting a new production record,the old oven was decommissioned
+E12,E6,-1,> (Preceded By),False,hitting a new production record,all bread was baked exclusively in the new oven
+E12,E7,-1,> (Preceded By),False,hitting a new production record,the new oven's digital thermostat malfunctioned
+E12,E8,-2,mi (Met By),False,hitting a new production record,requiring a forty-eight-hour maintenance shutdown
+E12,E9,-2,mi (Met By),False,hitting a new production record,Mr. Samad had to outsource his baking to a neighboring facility
+E12,E10,-4,si (Started By),False,hitting a new production record,the thermostat was replaced
+E12,E11,-4,si (Started By),False,hitting a new production record,the bakery resumed full operations

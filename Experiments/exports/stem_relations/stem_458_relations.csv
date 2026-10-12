@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,traveled to the sundarbans honey-hunting camps,securing permits from forest range offices
+E1,E3,1,< (Precedes),False,traveled to the sundarbans honey-hunting camps,departure into the reserve
+E1,E4,1,< (Precedes),False,traveled to the sundarbans honey-hunting camps,filmed traditional preparation rituals
+E1,E5,1,< (Precedes),False,traveled to the sundarbans honey-hunting camps,honey harvesters set out into the jungle
+E1,E6,1,< (Precedes),False,traveled to the sundarbans honey-hunting camps,trailing them for eight days of field production
+E1,E7,1,< (Precedes),False,traveled to the sundarbans honey-hunting camps,monsoon squalls hit the delta
+E1,E8,1,< (Precedes),False,traveled to the sundarbans honey-hunting camps,the expedition concluded
+E1,E9,1,< (Precedes),False,traveled to the sundarbans honey-hunting camps,traveled back to Khulna
+E1,E10,1,< (Precedes),False,traveled to the sundarbans honey-hunting camps,digitizing footage
+E1,E11,1,< (Precedes),False,traveled to the sundarbans honey-hunting camps,post-production editing commenced
+E2,E1,-4,si (Started By),False,securing permits from forest range offices,traveled to the sundarbans honey-hunting camps
+E2,E3,2,m (Meets),False,securing permits from forest range offices,departure into the reserve
+E2,E4,2,m (Meets),False,securing permits from forest range offices,filmed traditional preparation rituals
+E2,E5,1,< (Precedes),False,securing permits from forest range offices,honey harvesters set out into the jungle
+E2,E6,1,< (Precedes),False,securing permits from forest range offices,trailing them for eight days of field production
+E2,E7,1,< (Precedes),False,securing permits from forest range offices,monsoon squalls hit the delta
+E2,E8,1,< (Precedes),False,securing permits from forest range offices,the expedition concluded
+E2,E9,1,< (Precedes),False,securing permits from forest range offices,traveled back to Khulna
+E2,E10,1,< (Precedes),False,securing permits from forest range offices,digitizing footage
+E2,E11,1,< (Precedes),False,securing permits from forest range offices,post-production editing commenced
+E3,E1,-1,> (Preceded By),False,departure into the reserve,traveled to the sundarbans honey-hunting camps
+E3,E2,-2,mi (Met By),False,departure into the reserve,securing permits from forest range offices
+E3,E4,4,s (Starts),False,departure into the reserve,filmed traditional preparation rituals
+E3,E5,1,< (Precedes),False,departure into the reserve,honey harvesters set out into the jungle
+E3,E6,1,< (Precedes),False,departure into the reserve,trailing them for eight days of field production
+E3,E7,1,< (Precedes),False,departure into the reserve,monsoon squalls hit the delta
+E3,E8,1,< (Precedes),False,departure into the reserve,the expedition concluded
+E3,E9,1,< (Precedes),False,departure into the reserve,traveled back to Khulna
+E3,E10,1,< (Precedes),False,departure into the reserve,digitizing footage
+E3,E11,1,< (Precedes),False,departure into the reserve,post-production editing commenced
+E4,E1,-1,> (Preceded By),False,filmed traditional preparation rituals,traveled to the sundarbans honey-hunting camps
+E4,E2,-2,mi (Met By),False,filmed traditional preparation rituals,securing permits from forest range offices
+E4,E3,-4,si (Started By),False,filmed traditional preparation rituals,departure into the reserve
+E4,E5,2,m (Meets),False,filmed traditional preparation rituals,honey harvesters set out into the jungle
+E4,E6,2,m (Meets),False,filmed traditional preparation rituals,trailing them for eight days of field production
+E4,E7,1,< (Precedes),False,filmed traditional preparation rituals,monsoon squalls hit the delta
+E4,E8,1,< (Precedes),False,filmed traditional preparation rituals,the expedition concluded
+E4,E9,1,< (Precedes),False,filmed traditional preparation rituals,traveled back to Khulna
+E4,E10,1,< (Precedes),False,filmed traditional preparation rituals,digitizing footage
+E4,E11,1,< (Precedes),False,filmed traditional preparation rituals,post-production editing commenced
+E5,E1,-1,> (Preceded By),False,honey harvesters set out into the jungle,traveled to the sundarbans honey-hunting camps
+E5,E2,-1,> (Preceded By),False,honey harvesters set out into the jungle,securing permits from forest range offices
+E5,E3,-1,> (Preceded By),False,honey harvesters set out into the jungle,departure into the reserve
+E5,E4,-2,mi (Met By),False,honey harvesters set out into the jungle,filmed traditional preparation rituals
+E5,E6,4,s (Starts),False,honey harvesters set out into the jungle,trailing them for eight days of field production
+E5,E7,1,< (Precedes),False,honey harvesters set out into the jungle,monsoon squalls hit the delta
+E5,E8,1,< (Precedes),False,honey harvesters set out into the jungle,the expedition concluded
+E5,E9,1,< (Precedes),False,honey harvesters set out into the jungle,traveled back to Khulna
+E5,E10,1,< (Precedes),False,honey harvesters set out into the jungle,digitizing footage
+E5,E11,1,< (Precedes),False,honey harvesters set out into the jungle,post-production editing commenced
+E6,E1,-1,> (Preceded By),False,trailing them for eight days of field production,traveled to the sundarbans honey-hunting camps
+E6,E2,-1,> (Preceded By),False,trailing them for eight days of field production,securing permits from forest range offices
+E6,E3,-1,> (Preceded By),False,trailing them for eight days of field production,departure into the reserve
+E6,E4,-2,mi (Met By),False,trailing them for eight days of field production,filmed traditional preparation rituals
+E6,E5,-4,si (Started By),False,trailing them for eight days of field production,honey harvesters set out into the jungle
+E6,E7,-5,di (Contains),False,trailing them for eight days of field production,monsoon squalls hit the delta
+E6,E8,2,m (Meets),False,trailing them for eight days of field production,the expedition concluded
+E6,E9,1,< (Precedes),False,trailing them for eight days of field production,traveled back to Khulna
+E6,E10,1,< (Precedes),False,trailing them for eight days of field production,digitizing footage
+E6,E11,1,< (Precedes),False,trailing them for eight days of field production,post-production editing commenced
+E7,E1,-1,> (Preceded By),False,monsoon squalls hit the delta,traveled to the sundarbans honey-hunting camps
+E7,E2,-1,> (Preceded By),False,monsoon squalls hit the delta,securing permits from forest range offices
+E7,E3,-1,> (Preceded By),False,monsoon squalls hit the delta,departure into the reserve
+E7,E4,-1,> (Preceded By),False,monsoon squalls hit the delta,filmed traditional preparation rituals
+E7,E5,-1,> (Preceded By),False,monsoon squalls hit the delta,honey harvesters set out into the jungle
+E7,E6,5,d (During),False,monsoon squalls hit the delta,trailing them for eight days of field production
+E7,E8,1,< (Precedes),False,monsoon squalls hit the delta,the expedition concluded
+E7,E9,1,< (Precedes),False,monsoon squalls hit the delta,traveled back to Khulna
+E7,E10,1,< (Precedes),False,monsoon squalls hit the delta,digitizing footage
+E7,E11,1,< (Precedes),False,monsoon squalls hit the delta,post-production editing commenced
+E8,E1,-1,> (Preceded By),False,the expedition concluded,traveled to the sundarbans honey-hunting camps
+E8,E2,-1,> (Preceded By),False,the expedition concluded,securing permits from forest range offices
+E8,E3,-1,> (Preceded By),False,the expedition concluded,departure into the reserve
+E8,E4,-1,> (Preceded By),False,the expedition concluded,filmed traditional preparation rituals
+E8,E5,-1,> (Preceded By),False,the expedition concluded,honey harvesters set out into the jungle
+E8,E6,-2,mi (Met By),False,the expedition concluded,trailing them for eight days of field production
+E8,E7,-1,> (Preceded By),False,the expedition concluded,monsoon squalls hit the delta
+E8,E9,2,m (Meets),False,the expedition concluded,traveled back to Khulna
+E8,E10,1,< (Precedes),False,the expedition concluded,digitizing footage
+E8,E11,1,< (Precedes),False,the expedition concluded,post-production editing commenced
+E9,E1,-1,> (Preceded By),False,traveled back to Khulna,traveled to the sundarbans honey-hunting camps
+E9,E2,-1,> (Preceded By),False,traveled back to Khulna,securing permits from forest range offices
+E9,E3,-1,> (Preceded By),False,traveled back to Khulna,departure into the reserve
+E9,E4,-1,> (Preceded By),False,traveled back to Khulna,filmed traditional preparation rituals
+E9,E5,-1,> (Preceded By),False,traveled back to Khulna,honey harvesters set out into the jungle
+E9,E6,-1,> (Preceded By),False,traveled back to Khulna,trailing them for eight days of field production
+E9,E7,-1,> (Preceded By),False,traveled back to Khulna,monsoon squalls hit the delta
+E9,E8,-2,mi (Met By),False,traveled back to Khulna,the expedition concluded
+E9,E10,1,< (Precedes),False,traveled back to Khulna,digitizing footage
+E9,E11,1,< (Precedes),False,traveled back to Khulna,post-production editing commenced
+E10,E1,-1,> (Preceded By),False,digitizing footage,traveled to the sundarbans honey-hunting camps
+E10,E2,-1,> (Preceded By),False,digitizing footage,securing permits from forest range offices
+E10,E3,-1,> (Preceded By),False,digitizing footage,departure into the reserve
+E10,E4,-1,> (Preceded By),False,digitizing footage,filmed traditional preparation rituals
+E10,E5,-1,> (Preceded By),False,digitizing footage,honey harvesters set out into the jungle
+E10,E6,-1,> (Preceded By),False,digitizing footage,trailing them for eight days of field production
+E10,E7,-1,> (Preceded By),False,digitizing footage,monsoon squalls hit the delta
+E10,E8,-1,> (Preceded By),False,digitizing footage,the expedition concluded
+E10,E9,-1,> (Preceded By),False,digitizing footage,traveled back to Khulna
+E10,E11,-6,fi (Finished By),False,digitizing footage,post-production editing commenced
+E11,E1,-1,> (Preceded By),False,post-production editing commenced,traveled to the sundarbans honey-hunting camps
+E11,E2,-1,> (Preceded By),False,post-production editing commenced,securing permits from forest range offices
+E11,E3,-1,> (Preceded By),False,post-production editing commenced,departure into the reserve
+E11,E4,-1,> (Preceded By),False,post-production editing commenced,filmed traditional preparation rituals
+E11,E5,-1,> (Preceded By),False,post-production editing commenced,honey harvesters set out into the jungle
+E11,E6,-1,> (Preceded By),False,post-production editing commenced,trailing them for eight days of field production
+E11,E7,-1,> (Preceded By),False,post-production editing commenced,monsoon squalls hit the delta
+E11,E8,-1,> (Preceded By),False,post-production editing commenced,the expedition concluded
+E11,E9,-1,> (Preceded By),False,post-production editing commenced,traveled back to Khulna
+E11,E10,6,f (Finishes),False,post-production editing commenced,digitizing footage

@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,traveling to the northern stations,spending three days at each of his first four stops
+E1,E3,2,m (Meets),False,traveling to the northern stations,took a planned four-day administrative break
+E1,E4,2,m (Meets),False,traveling to the northern stations,Priya started her southern route
+E1,E5,2,m (Meets),False,traveling to the northern stations,spending two days at each of her first six stops
+E1,E6,1,< (Precedes),False,traveling to the northern stations,Jamal resumed his fieldwork
+E1,E7,1,< (Precedes),False,traveling to the northern stations,traveled west
+E1,E8,1,< (Precedes),False,traveling to the northern stations,dedicating a full week to a massive transit hub
+E1,E9,1,< (Precedes),False,traveling to the northern stations,Priya finished her southern route
+E1,E10,1,< (Precedes),False,traveling to the northern stations,spent the next seven days compiling her preliminary data
+E1,E11,1,< (Precedes),False,traveling to the northern stations,met at Kamalapur Station to consolidate their findings
+E1,E12,1,< (Precedes),False,traveling to the northern stations,joint consolidation took five continuous days of ten-hour shifts
+E1,E13,1,< (Precedes),False,traveling to the northern stations,drafting the official submission
+E1,E14,1,< (Precedes),False,traveling to the northern stations,delivered to the transport ministry
+E2,E1,0,= (Equal),False,spending three days at each of his first four stops,traveling to the northern stations
+E2,E3,2,m (Meets),False,spending three days at each of his first four stops,took a planned four-day administrative break
+E2,E4,2,m (Meets),False,spending three days at each of his first four stops,Priya started her southern route
+E2,E5,2,m (Meets),False,spending three days at each of his first four stops,spending two days at each of her first six stops
+E2,E6,1,< (Precedes),False,spending three days at each of his first four stops,Jamal resumed his fieldwork
+E2,E7,1,< (Precedes),False,spending three days at each of his first four stops,traveled west
+E2,E8,1,< (Precedes),False,spending three days at each of his first four stops,dedicating a full week to a massive transit hub
+E2,E9,1,< (Precedes),False,spending three days at each of his first four stops,Priya finished her southern route
+E2,E10,1,< (Precedes),False,spending three days at each of his first four stops,spent the next seven days compiling her preliminary data
+E2,E11,1,< (Precedes),False,spending three days at each of his first four stops,met at Kamalapur Station to consolidate their findings
+E2,E12,1,< (Precedes),False,spending three days at each of his first four stops,joint consolidation took five continuous days of ten-hour shifts
+E2,E13,1,< (Precedes),False,spending three days at each of his first four stops,drafting the official submission
+E2,E14,1,< (Precedes),False,spending three days at each of his first four stops,delivered to the transport ministry
+E3,E1,-2,mi (Met By),False,took a planned four-day administrative break,traveling to the northern stations
+E3,E2,-2,mi (Met By),False,took a planned four-day administrative break,spending three days at each of his first four stops
+E3,E4,-4,si (Started By),False,took a planned four-day administrative break,Priya started her southern route
+E3,E5,4,s (Starts),False,took a planned four-day administrative break,spending two days at each of her first six stops
+E3,E6,2,m (Meets),False,took a planned four-day administrative break,Jamal resumed his fieldwork
+E3,E7,2,m (Meets),False,took a planned four-day administrative break,traveled west
+E3,E8,2,m (Meets),False,took a planned four-day administrative break,dedicating a full week to a massive transit hub
+E3,E9,1,< (Precedes),False,took a planned four-day administrative break,Priya finished her southern route
+E3,E10,1,< (Precedes),False,took a planned four-day administrative break,spent the next seven days compiling her preliminary data
+E3,E11,1,< (Precedes),False,took a planned four-day administrative break,met at Kamalapur Station to consolidate their findings
+E3,E12,1,< (Precedes),False,took a planned four-day administrative break,joint consolidation took five continuous days of ten-hour shifts
+E3,E13,1,< (Precedes),False,took a planned four-day administrative break,drafting the official submission
+E3,E14,1,< (Precedes),False,took a planned four-day administrative break,delivered to the transport ministry
+E4,E1,-2,mi (Met By),False,Priya started her southern route,traveling to the northern stations
+E4,E2,-2,mi (Met By),False,Priya started her southern route,spending three days at each of his first four stops
+E4,E3,4,s (Starts),False,Priya started her southern route,took a planned four-day administrative break
+E4,E5,4,s (Starts),False,Priya started her southern route,spending two days at each of her first six stops
+E4,E6,1,< (Precedes),False,Priya started her southern route,Jamal resumed his fieldwork
+E4,E7,1,< (Precedes),False,Priya started her southern route,traveled west
+E4,E8,1,< (Precedes),False,Priya started her southern route,dedicating a full week to a massive transit hub
+E4,E9,1,< (Precedes),False,Priya started her southern route,Priya finished her southern route
+E4,E10,1,< (Precedes),False,Priya started her southern route,spent the next seven days compiling her preliminary data
+E4,E11,1,< (Precedes),False,Priya started her southern route,met at Kamalapur Station to consolidate their findings
+E4,E12,1,< (Precedes),False,Priya started her southern route,joint consolidation took five continuous days of ten-hour shifts
+E4,E13,1,< (Precedes),False,Priya started her southern route,drafting the official submission
+E4,E14,1,< (Precedes),False,Priya started her southern route,delivered to the transport ministry
+E5,E1,-2,mi (Met By),False,spending two days at each of her first six stops,traveling to the northern stations
+E5,E2,-2,mi (Met By),False,spending two days at each of her first six stops,spending three days at each of his first four stops
+E5,E3,-4,si (Started By),False,spending two days at each of her first six stops,took a planned four-day administrative break
+E5,E4,-4,si (Started By),False,spending two days at each of her first six stops,Priya started her southern route
+E5,E6,-5,di (Contains),False,spending two days at each of her first six stops,Jamal resumed his fieldwork
+E5,E7,-5,di (Contains),False,spending two days at each of her first six stops,traveled west
+E5,E8,-5,di (Contains),False,spending two days at each of her first six stops,dedicating a full week to a massive transit hub
+E5,E9,2,m (Meets),False,spending two days at each of her first six stops,Priya finished her southern route
+E5,E10,2,m (Meets),False,spending two days at each of her first six stops,spent the next seven days compiling her preliminary data
+E5,E11,1,< (Precedes),False,spending two days at each of her first six stops,met at Kamalapur Station to consolidate their findings
+E5,E12,1,< (Precedes),False,spending two days at each of her first six stops,joint consolidation took five continuous days of ten-hour shifts
+E5,E13,1,< (Precedes),False,spending two days at each of her first six stops,drafting the official submission
+E5,E14,1,< (Precedes),False,spending two days at each of her first six stops,delivered to the transport ministry
+E6,E1,-1,> (Preceded By),False,Jamal resumed his fieldwork,traveling to the northern stations
+E6,E2,-1,> (Preceded By),False,Jamal resumed his fieldwork,spending three days at each of his first four stops
+E6,E3,-2,mi (Met By),False,Jamal resumed his fieldwork,took a planned four-day administrative break
+E6,E4,-1,> (Preceded By),False,Jamal resumed his fieldwork,Priya started her southern route
+E6,E5,5,d (During),False,Jamal resumed his fieldwork,spending two days at each of her first six stops
+E6,E7,0,= (Equal),False,Jamal resumed his fieldwork,traveled west
+E6,E8,4,s (Starts),False,Jamal resumed his fieldwork,dedicating a full week to a massive transit hub
+E6,E9,1,< (Precedes),False,Jamal resumed his fieldwork,Priya finished her southern route
+E6,E10,1,< (Precedes),False,Jamal resumed his fieldwork,spent the next seven days compiling her preliminary data
+E6,E11,1,< (Precedes),False,Jamal resumed his fieldwork,met at Kamalapur Station to consolidate their findings
+E6,E12,1,< (Precedes),False,Jamal resumed his fieldwork,joint consolidation took five continuous days of ten-hour shifts
+E6,E13,1,< (Precedes),False,Jamal resumed his fieldwork,drafting the official submission
+E6,E14,1,< (Precedes),False,Jamal resumed his fieldwork,delivered to the transport ministry
+E7,E1,-1,> (Preceded By),False,traveled west,traveling to the northern stations
+E7,E2,-1,> (Preceded By),False,traveled west,spending three days at each of his first four stops
+E7,E3,-2,mi (Met By),False,traveled west,took a planned four-day administrative break
+E7,E4,-1,> (Preceded By),False,traveled west,Priya started her southern route
+E7,E5,5,d (During),False,traveled west,spending two days at each of her first six stops
+E7,E6,0,= (Equal),False,traveled west,Jamal resumed his fieldwork
+E7,E8,4,s (Starts),False,traveled west,dedicating a full week to a massive transit hub
+E7,E9,1,< (Precedes),False,traveled west,Priya finished her southern route
+E7,E10,1,< (Precedes),False,traveled west,spent the next seven days compiling her preliminary data
+E7,E11,1,< (Precedes),False,traveled west,met at Kamalapur Station to consolidate their findings
+E7,E12,1,< (Precedes),False,traveled west,joint consolidation took five continuous days of ten-hour shifts
+E7,E13,1,< (Precedes),False,traveled west,drafting the official submission
+E7,E14,1,< (Precedes),False,traveled west,delivered to the transport ministry
+E8,E1,-1,> (Preceded By),False,dedicating a full week to a massive transit hub,traveling to the northern stations
+E8,E2,-1,> (Preceded By),False,dedicating a full week to a massive transit hub,spending three days at each of his first four stops
+E8,E3,-2,mi (Met By),False,dedicating a full week to a massive transit hub,took a planned four-day administrative break
+E8,E4,-1,> (Preceded By),False,dedicating a full week to a massive transit hub,Priya started her southern route
+E8,E5,5,d (During),False,dedicating a full week to a massive transit hub,spending two days at each of her first six stops
+E8,E6,-4,si (Started By),False,dedicating a full week to a massive transit hub,Jamal resumed his fieldwork
+E8,E7,-4,si (Started By),False,dedicating a full week to a massive transit hub,traveled west
+E8,E9,1,< (Precedes),False,dedicating a full week to a massive transit hub,Priya finished her southern route
+E8,E10,1,< (Precedes),False,dedicating a full week to a massive transit hub,spent the next seven days compiling her preliminary data
+E8,E11,1,< (Precedes),False,dedicating a full week to a massive transit hub,met at Kamalapur Station to consolidate their findings
+E8,E12,1,< (Precedes),False,dedicating a full week to a massive transit hub,joint consolidation took five continuous days of ten-hour shifts
+E8,E13,1,< (Precedes),False,dedicating a full week to a massive transit hub,drafting the official submission
+E8,E14,1,< (Precedes),False,dedicating a full week to a massive transit hub,delivered to the transport ministry
+E9,E1,-1,> (Preceded By),False,Priya finished her southern route,traveling to the northern stations
+E9,E2,-1,> (Preceded By),False,Priya finished her southern route,spending three days at each of his first four stops
+E9,E3,-1,> (Preceded By),False,Priya finished her southern route,took a planned four-day administrative break
+E9,E4,-1,> (Preceded By),False,Priya finished her southern route,Priya started her southern route
+E9,E5,-2,mi (Met By),False,Priya finished her southern route,spending two days at each of her first six stops
+E9,E6,-1,> (Preceded By),False,Priya finished her southern route,Jamal resumed his fieldwork
+E9,E7,-1,> (Preceded By),False,Priya finished her southern route,traveled west
+E9,E8,-1,> (Preceded By),False,Priya finished her southern route,dedicating a full week to a massive transit hub
+E9,E10,4,s (Starts),False,Priya finished her southern route,spent the next seven days compiling her preliminary data
+E9,E11,1,< (Precedes),False,Priya finished her southern route,met at Kamalapur Station to consolidate their findings
+E9,E12,1,< (Precedes),False,Priya finished her southern route,joint consolidation took five continuous days of ten-hour shifts
+E9,E13,1,< (Precedes),False,Priya finished her southern route,drafting the official submission
+E9,E14,1,< (Precedes),False,Priya finished her southern route,delivered to the transport ministry
+E10,E1,-1,> (Preceded By),False,spent the next seven days compiling her preliminary data,traveling to the northern stations
+E10,E2,-1,> (Preceded By),False,spent the next seven days compiling her preliminary data,spending three days at each of his first four stops
+E10,E3,-1,> (Preceded By),False,spent the next seven days compiling her preliminary data,took a planned four-day administrative break
+E10,E4,-1,> (Preceded By),False,spent the next seven days compiling her preliminary data,Priya started her southern route
+E10,E5,-2,mi (Met By),False,spent the next seven days compiling her preliminary data,spending two days at each of her first six stops
+E10,E6,-1,> (Preceded By),False,spent the next seven days compiling her preliminary data,Jamal resumed his fieldwork
+E10,E7,-1,> (Preceded By),False,spent the next seven days compiling her preliminary data,traveled west
+E10,E8,-1,> (Preceded By),False,spent the next seven days compiling her preliminary data,dedicating a full week to a massive transit hub
+E10,E9,-4,si (Started By),False,spent the next seven days compiling her preliminary data,Priya finished her southern route
+E10,E11,-5,di (Contains),False,spent the next seven days compiling her preliminary data,met at Kamalapur Station to consolidate their findings
+E10,E12,3,o (Overlaps),False,spent the next seven days compiling her preliminary data,joint consolidation took five continuous days of ten-hour shifts
+E10,E13,1,< (Precedes),False,spent the next seven days compiling her preliminary data,drafting the official submission
+E10,E14,1,< (Precedes),False,spent the next seven days compiling her preliminary data,delivered to the transport ministry
+E11,E1,-1,> (Preceded By),False,met at Kamalapur Station to consolidate their findings,traveling to the northern stations
+E11,E2,-1,> (Preceded By),False,met at Kamalapur Station to consolidate their findings,spending three days at each of his first four stops
+E11,E3,-1,> (Preceded By),False,met at Kamalapur Station to consolidate their findings,took a planned four-day administrative break
+E11,E4,-1,> (Preceded By),False,met at Kamalapur Station to consolidate their findings,Priya started her southern route
+E11,E5,-1,> (Preceded By),False,met at Kamalapur Station to consolidate their findings,spending two days at each of her first six stops
+E11,E6,-1,> (Preceded By),False,met at Kamalapur Station to consolidate their findings,Jamal resumed his fieldwork
+E11,E7,-1,> (Preceded By),False,met at Kamalapur Station to consolidate their findings,traveled west
+E11,E8,-1,> (Preceded By),False,met at Kamalapur Station to consolidate their findings,dedicating a full week to a massive transit hub
+E11,E9,-1,> (Preceded By),False,met at Kamalapur Station to consolidate their findings,Priya finished her southern route
+E11,E10,5,d (During),False,met at Kamalapur Station to consolidate their findings,spent the next seven days compiling her preliminary data
+E11,E12,4,s (Starts),False,met at Kamalapur Station to consolidate their findings,joint consolidation took five continuous days of ten-hour shifts
+E11,E13,1,< (Precedes),False,met at Kamalapur Station to consolidate their findings,drafting the official submission
+E11,E14,1,< (Precedes),False,met at Kamalapur Station to consolidate their findings,delivered to the transport ministry
+E12,E1,-1,> (Preceded By),False,joint consolidation took five continuous days of ten-hour shifts,traveling to the northern stations
+E12,E2,-1,> (Preceded By),False,joint consolidation took five continuous days of ten-hour shifts,spending three days at each of his first four stops
+E12,E3,-1,> (Preceded By),False,joint consolidation took five continuous days of ten-hour shifts,took a planned four-day administrative break
+E12,E4,-1,> (Preceded By),False,joint consolidation took five continuous days of ten-hour shifts,Priya started her southern route
+E12,E5,-1,> (Preceded By),False,joint consolidation took five continuous days of ten-hour shifts,spending two days at each of her first six stops
+E12,E6,-1,> (Preceded By),False,joint consolidation took five continuous days of ten-hour shifts,Jamal resumed his fieldwork
+E12,E7,-1,> (Preceded By),False,joint consolidation took five continuous days of ten-hour shifts,traveled west
+E12,E8,-1,> (Preceded By),False,joint consolidation took five continuous days of ten-hour shifts,dedicating a full week to a massive transit hub
+E12,E9,-1,> (Preceded By),False,joint consolidation took five continuous days of ten-hour shifts,Priya finished her southern route
+E12,E10,-3,oi (Overlapped By),False,joint consolidation took five continuous days of ten-hour shifts,spent the next seven days compiling her preliminary data
+E12,E11,-4,si (Started By),False,joint consolidation took five continuous days of ten-hour shifts,met at Kamalapur Station to consolidate their findings
+E12,E13,2,m (Meets),False,joint consolidation took five continuous days of ten-hour shifts,drafting the official submission
+E12,E14,1,< (Precedes),False,joint consolidation took five continuous days of ten-hour shifts,delivered to the transport ministry
+E13,E1,-1,> (Preceded By),False,drafting the official submission,traveling to the northern stations
+E13,E2,-1,> (Preceded By),False,drafting the official submission,spending three days at each of his first four stops
+E13,E3,-1,> (Preceded By),False,drafting the official submission,took a planned four-day administrative break
+E13,E4,-1,> (Preceded By),False,drafting the official submission,Priya started her southern route
+E13,E5,-1,> (Preceded By),False,drafting the official submission,spending two days at each of her first six stops
+E13,E6,-1,> (Preceded By),False,drafting the official submission,Jamal resumed his fieldwork
+E13,E7,-1,> (Preceded By),False,drafting the official submission,traveled west
+E13,E8,-1,> (Preceded By),False,drafting the official submission,dedicating a full week to a massive transit hub
+E13,E9,-1,> (Preceded By),False,drafting the official submission,Priya finished her southern route
+E13,E10,-1,> (Preceded By),False,drafting the official submission,spent the next seven days compiling her preliminary data
+E13,E11,-1,> (Preceded By),False,drafting the official submission,met at Kamalapur Station to consolidate their findings
+E13,E12,-2,mi (Met By),False,drafting the official submission,joint consolidation took five continuous days of ten-hour shifts
+E13,E14,2,m (Meets),False,drafting the official submission,delivered to the transport ministry
+E14,E1,-1,> (Preceded By),False,delivered to the transport ministry,traveling to the northern stations
+E14,E2,-1,> (Preceded By),False,delivered to the transport ministry,spending three days at each of his first four stops
+E14,E3,-1,> (Preceded By),False,delivered to the transport ministry,took a planned four-day administrative break
+E14,E4,-1,> (Preceded By),False,delivered to the transport ministry,Priya started her southern route
+E14,E5,-1,> (Preceded By),False,delivered to the transport ministry,spending two days at each of her first six stops
+E14,E6,-1,> (Preceded By),False,delivered to the transport ministry,Jamal resumed his fieldwork
+E14,E7,-1,> (Preceded By),False,delivered to the transport ministry,traveled west
+E14,E8,-1,> (Preceded By),False,delivered to the transport ministry,dedicating a full week to a massive transit hub
+E14,E9,-1,> (Preceded By),False,delivered to the transport ministry,Priya finished her southern route
+E14,E10,-1,> (Preceded By),False,delivered to the transport ministry,spent the next seven days compiling her preliminary data
+E14,E11,-1,> (Preceded By),False,delivered to the transport ministry,met at Kamalapur Station to consolidate their findings
+E14,E12,-1,> (Preceded By),False,delivered to the transport ministry,joint consolidation took five continuous days of ten-hour shifts
+E14,E13,-2,mi (Met By),False,delivered to the transport ministry,drafting the official submission

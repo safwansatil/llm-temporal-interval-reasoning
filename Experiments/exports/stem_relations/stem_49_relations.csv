@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,his own graduation ceremony
+E1,E3,1,< (Precedes),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,left Comilla for university
+E1,E4,1,< (Precedes),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,"Mr. Alam, who had died"
+E1,E5,1,< (Precedes),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,He flew from Dhaka
+E1,E6,1,< (Precedes),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,took a CNG from the airport to the school
+E1,E7,1,< (Precedes),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,Nahid walked around the school grounds
+E1,E8,1,< (Precedes),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,found the tree behind the science block
+E1,E9,1,< (Precedes),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,about a hundred people came
+E1,E10,1,< (Precedes),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E1,E11,1,< (Precedes),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,He returned to Dhaka
+E1,E12,1,< (Precedes),False,Mr. Alam had taught Nahid mathematics at a government school in Comilla,was back at his desk
+E2,E1,-2,mi (Met By),False,his own graduation ceremony,Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E2,E3,2,m (Meets),False,his own graduation ceremony,left Comilla for university
+E2,E4,1,< (Precedes),False,his own graduation ceremony,"Mr. Alam, who had died"
+E2,E5,1,< (Precedes),False,his own graduation ceremony,He flew from Dhaka
+E2,E6,1,< (Precedes),False,his own graduation ceremony,took a CNG from the airport to the school
+E2,E7,1,< (Precedes),False,his own graduation ceremony,Nahid walked around the school grounds
+E2,E8,1,< (Precedes),False,his own graduation ceremony,found the tree behind the science block
+E2,E9,1,< (Precedes),False,his own graduation ceremony,about a hundred people came
+E2,E10,1,< (Precedes),False,his own graduation ceremony,Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E2,E11,1,< (Precedes),False,his own graduation ceremony,He returned to Dhaka
+E2,E12,1,< (Precedes),False,his own graduation ceremony,was back at his desk
+E3,E1,-1,> (Preceded By),False,left Comilla for university,Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E3,E2,-2,mi (Met By),False,left Comilla for university,his own graduation ceremony
+E3,E4,1,< (Precedes),False,left Comilla for university,"Mr. Alam, who had died"
+E3,E5,1,< (Precedes),False,left Comilla for university,He flew from Dhaka
+E3,E6,1,< (Precedes),False,left Comilla for university,took a CNG from the airport to the school
+E3,E7,1,< (Precedes),False,left Comilla for university,Nahid walked around the school grounds
+E3,E8,1,< (Precedes),False,left Comilla for university,found the tree behind the science block
+E3,E9,1,< (Precedes),False,left Comilla for university,about a hundred people came
+E3,E10,1,< (Precedes),False,left Comilla for university,Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E3,E11,1,< (Precedes),False,left Comilla for university,He returned to Dhaka
+E3,E12,1,< (Precedes),False,left Comilla for university,was back at his desk
+E4,E1,-1,> (Preceded By),False,"Mr. Alam, who had died",Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E4,E2,-1,> (Preceded By),False,"Mr. Alam, who had died",his own graduation ceremony
+E4,E3,-1,> (Preceded By),False,"Mr. Alam, who had died",left Comilla for university
+E4,E5,1,< (Precedes),False,"Mr. Alam, who had died",He flew from Dhaka
+E4,E6,1,< (Precedes),False,"Mr. Alam, who had died",took a CNG from the airport to the school
+E4,E7,1,< (Precedes),False,"Mr. Alam, who had died",Nahid walked around the school grounds
+E4,E8,1,< (Precedes),False,"Mr. Alam, who had died",found the tree behind the science block
+E4,E9,1,< (Precedes),False,"Mr. Alam, who had died",about a hundred people came
+E4,E10,1,< (Precedes),False,"Mr. Alam, who had died",Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E4,E11,1,< (Precedes),False,"Mr. Alam, who had died",He returned to Dhaka
+E4,E12,1,< (Precedes),False,"Mr. Alam, who had died",was back at his desk
+E5,E1,-1,> (Preceded By),False,He flew from Dhaka,Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E5,E2,-1,> (Preceded By),False,He flew from Dhaka,his own graduation ceremony
+E5,E3,-1,> (Preceded By),False,He flew from Dhaka,left Comilla for university
+E5,E4,-1,> (Preceded By),False,He flew from Dhaka,"Mr. Alam, who had died"
+E5,E6,2,m (Meets),False,He flew from Dhaka,took a CNG from the airport to the school
+E5,E7,1,< (Precedes),False,He flew from Dhaka,Nahid walked around the school grounds
+E5,E8,1,< (Precedes),False,He flew from Dhaka,found the tree behind the science block
+E5,E9,1,< (Precedes),False,He flew from Dhaka,about a hundred people came
+E5,E10,1,< (Precedes),False,He flew from Dhaka,Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E5,E11,1,< (Precedes),False,He flew from Dhaka,He returned to Dhaka
+E5,E12,1,< (Precedes),False,He flew from Dhaka,was back at his desk
+E6,E1,-1,> (Preceded By),False,took a CNG from the airport to the school,Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E6,E2,-1,> (Preceded By),False,took a CNG from the airport to the school,his own graduation ceremony
+E6,E3,-1,> (Preceded By),False,took a CNG from the airport to the school,left Comilla for university
+E6,E4,-1,> (Preceded By),False,took a CNG from the airport to the school,"Mr. Alam, who had died"
+E6,E5,-2,mi (Met By),False,took a CNG from the airport to the school,He flew from Dhaka
+E6,E7,1,< (Precedes),False,took a CNG from the airport to the school,Nahid walked around the school grounds
+E6,E8,1,< (Precedes),False,took a CNG from the airport to the school,found the tree behind the science block
+E6,E9,1,< (Precedes),False,took a CNG from the airport to the school,about a hundred people came
+E6,E10,1,< (Precedes),False,took a CNG from the airport to the school,Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E6,E11,1,< (Precedes),False,took a CNG from the airport to the school,He returned to Dhaka
+E6,E12,1,< (Precedes),False,took a CNG from the airport to the school,was back at his desk
+E7,E1,-1,> (Preceded By),False,Nahid walked around the school grounds,Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E7,E2,-1,> (Preceded By),False,Nahid walked around the school grounds,his own graduation ceremony
+E7,E3,-1,> (Preceded By),False,Nahid walked around the school grounds,left Comilla for university
+E7,E4,-1,> (Preceded By),False,Nahid walked around the school grounds,"Mr. Alam, who had died"
+E7,E5,-1,> (Preceded By),False,Nahid walked around the school grounds,He flew from Dhaka
+E7,E6,-1,> (Preceded By),False,Nahid walked around the school grounds,took a CNG from the airport to the school
+E7,E8,2,m (Meets),False,Nahid walked around the school grounds,found the tree behind the science block
+E7,E9,1,< (Precedes),False,Nahid walked around the school grounds,about a hundred people came
+E7,E10,1,< (Precedes),False,Nahid walked around the school grounds,Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E7,E11,1,< (Precedes),False,Nahid walked around the school grounds,He returned to Dhaka
+E7,E12,1,< (Precedes),False,Nahid walked around the school grounds,was back at his desk
+E8,E1,-1,> (Preceded By),False,found the tree behind the science block,Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E8,E2,-1,> (Preceded By),False,found the tree behind the science block,his own graduation ceremony
+E8,E3,-1,> (Preceded By),False,found the tree behind the science block,left Comilla for university
+E8,E4,-1,> (Preceded By),False,found the tree behind the science block,"Mr. Alam, who had died"
+E8,E5,-1,> (Preceded By),False,found the tree behind the science block,He flew from Dhaka
+E8,E6,-1,> (Preceded By),False,found the tree behind the science block,took a CNG from the airport to the school
+E8,E7,-2,mi (Met By),False,found the tree behind the science block,Nahid walked around the school grounds
+E8,E9,1,< (Precedes),False,found the tree behind the science block,about a hundred people came
+E8,E10,1,< (Precedes),False,found the tree behind the science block,Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E8,E11,1,< (Precedes),False,found the tree behind the science block,He returned to Dhaka
+E8,E12,1,< (Precedes),False,found the tree behind the science block,was back at his desk
+E9,E1,-1,> (Preceded By),False,about a hundred people came,Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E9,E2,-1,> (Preceded By),False,about a hundred people came,his own graduation ceremony
+E9,E3,-1,> (Preceded By),False,about a hundred people came,left Comilla for university
+E9,E4,-1,> (Preceded By),False,about a hundred people came,"Mr. Alam, who had died"
+E9,E5,-1,> (Preceded By),False,about a hundred people came,He flew from Dhaka
+E9,E6,-1,> (Preceded By),False,about a hundred people came,took a CNG from the airport to the school
+E9,E7,-1,> (Preceded By),False,about a hundred people came,Nahid walked around the school grounds
+E9,E8,-1,> (Preceded By),False,about a hundred people came,found the tree behind the science block
+E9,E10,2,m (Meets),False,about a hundred people came,Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E9,E11,1,< (Precedes),False,about a hundred people came,He returned to Dhaka
+E9,E12,1,< (Precedes),False,about a hundred people came,was back at his desk
+E10,E1,-1,> (Preceded By),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E10,E2,-1,> (Preceded By),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,his own graduation ceremony
+E10,E3,-1,> (Preceded By),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,left Comilla for university
+E10,E4,-1,> (Preceded By),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,"Mr. Alam, who had died"
+E10,E5,-1,> (Preceded By),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,He flew from Dhaka
+E10,E6,-1,> (Preceded By),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,took a CNG from the airport to the school
+E10,E7,-1,> (Preceded By),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,Nahid walked around the school grounds
+E10,E8,-1,> (Preceded By),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,found the tree behind the science block
+E10,E9,-2,mi (Met By),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,about a hundred people came
+E10,E11,1,< (Precedes),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,He returned to Dhaka
+E10,E12,1,< (Precedes),False,Nahid's eulogy ran seven minutes longer than the five minutes he had been given,was back at his desk
+E11,E1,-1,> (Preceded By),False,He returned to Dhaka,Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E11,E2,-1,> (Preceded By),False,He returned to Dhaka,his own graduation ceremony
+E11,E3,-1,> (Preceded By),False,He returned to Dhaka,left Comilla for university
+E11,E4,-1,> (Preceded By),False,He returned to Dhaka,"Mr. Alam, who had died"
+E11,E5,-1,> (Preceded By),False,He returned to Dhaka,He flew from Dhaka
+E11,E6,-1,> (Preceded By),False,He returned to Dhaka,took a CNG from the airport to the school
+E11,E7,-1,> (Preceded By),False,He returned to Dhaka,Nahid walked around the school grounds
+E11,E8,-1,> (Preceded By),False,He returned to Dhaka,found the tree behind the science block
+E11,E9,-1,> (Preceded By),False,He returned to Dhaka,about a hundred people came
+E11,E10,-1,> (Preceded By),False,He returned to Dhaka,Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E11,E12,1,< (Precedes),False,He returned to Dhaka,was back at his desk
+E12,E1,-1,> (Preceded By),False,was back at his desk,Mr. Alam had taught Nahid mathematics at a government school in Comilla
+E12,E2,-1,> (Preceded By),False,was back at his desk,his own graduation ceremony
+E12,E3,-1,> (Preceded By),False,was back at his desk,left Comilla for university
+E12,E4,-1,> (Preceded By),False,was back at his desk,"Mr. Alam, who had died"
+E12,E5,-1,> (Preceded By),False,was back at his desk,He flew from Dhaka
+E12,E6,-1,> (Preceded By),False,was back at his desk,took a CNG from the airport to the school
+E12,E7,-1,> (Preceded By),False,was back at his desk,Nahid walked around the school grounds
+E12,E8,-1,> (Preceded By),False,was back at his desk,found the tree behind the science block
+E12,E9,-1,> (Preceded By),False,was back at his desk,about a hundred people came
+E12,E10,-1,> (Preceded By),False,was back at his desk,Nahid's eulogy ran seven minutes longer than the five minutes he had been given
+E12,E11,-1,> (Preceded By),False,was back at his desk,He returned to Dhaka

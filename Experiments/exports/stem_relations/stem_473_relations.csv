@@ -1,0 +1,91 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,closed the northern bypass,stripped the cracked top layer of bitumen
+E1,E3,1,< (Precedes),False,closed the northern bypass,cleaned the milled concrete substrate
+E1,E4,1,< (Precedes),False,closed the northern bypass,Applying the hot tack-coat adhesive
+E1,E5,1,< (Precedes),False,closed the northern bypass,the surface cured untouched
+E1,E6,1,< (Precedes),False,closed the northern bypass,began laying the new blacktop
+E1,E7,1,< (Precedes),False,closed the northern bypass,painters applied temporary reflective road lane markers
+E1,E8,1,< (Precedes),False,closed the northern bypass,completing the paving
+E1,E9,1,< (Precedes),False,closed the northern bypass,A safety inspection vehicle drove the entire length
+E1,E10,1,< (Precedes),False,closed the northern bypass,the highway reopened
+E2,E1,-4,si (Started By),False,stripped the cracked top layer of bitumen,closed the northern bypass
+E2,E3,2,m (Meets),False,stripped the cracked top layer of bitumen,cleaned the milled concrete substrate
+E2,E4,1,< (Precedes),False,stripped the cracked top layer of bitumen,Applying the hot tack-coat adhesive
+E2,E5,1,< (Precedes),False,stripped the cracked top layer of bitumen,the surface cured untouched
+E2,E6,1,< (Precedes),False,stripped the cracked top layer of bitumen,began laying the new blacktop
+E2,E7,1,< (Precedes),False,stripped the cracked top layer of bitumen,painters applied temporary reflective road lane markers
+E2,E8,1,< (Precedes),False,stripped the cracked top layer of bitumen,completing the paving
+E2,E9,1,< (Precedes),False,stripped the cracked top layer of bitumen,A safety inspection vehicle drove the entire length
+E2,E10,1,< (Precedes),False,stripped the cracked top layer of bitumen,the highway reopened
+E3,E1,-1,> (Preceded By),False,cleaned the milled concrete substrate,closed the northern bypass
+E3,E2,-2,mi (Met By),False,cleaned the milled concrete substrate,stripped the cracked top layer of bitumen
+E3,E4,2,m (Meets),False,cleaned the milled concrete substrate,Applying the hot tack-coat adhesive
+E3,E5,1,< (Precedes),False,cleaned the milled concrete substrate,the surface cured untouched
+E3,E6,1,< (Precedes),False,cleaned the milled concrete substrate,began laying the new blacktop
+E3,E7,1,< (Precedes),False,cleaned the milled concrete substrate,painters applied temporary reflective road lane markers
+E3,E8,1,< (Precedes),False,cleaned the milled concrete substrate,completing the paving
+E3,E9,1,< (Precedes),False,cleaned the milled concrete substrate,A safety inspection vehicle drove the entire length
+E3,E10,1,< (Precedes),False,cleaned the milled concrete substrate,the highway reopened
+E4,E1,-1,> (Preceded By),False,Applying the hot tack-coat adhesive,closed the northern bypass
+E4,E2,-1,> (Preceded By),False,Applying the hot tack-coat adhesive,stripped the cracked top layer of bitumen
+E4,E3,-2,mi (Met By),False,Applying the hot tack-coat adhesive,cleaned the milled concrete substrate
+E4,E5,2,m (Meets),False,Applying the hot tack-coat adhesive,the surface cured untouched
+E4,E6,1,< (Precedes),False,Applying the hot tack-coat adhesive,began laying the new blacktop
+E4,E7,1,< (Precedes),False,Applying the hot tack-coat adhesive,painters applied temporary reflective road lane markers
+E4,E8,1,< (Precedes),False,Applying the hot tack-coat adhesive,completing the paving
+E4,E9,1,< (Precedes),False,Applying the hot tack-coat adhesive,A safety inspection vehicle drove the entire length
+E4,E10,1,< (Precedes),False,Applying the hot tack-coat adhesive,the highway reopened
+E5,E1,-1,> (Preceded By),False,the surface cured untouched,closed the northern bypass
+E5,E2,-1,> (Preceded By),False,the surface cured untouched,stripped the cracked top layer of bitumen
+E5,E3,-1,> (Preceded By),False,the surface cured untouched,cleaned the milled concrete substrate
+E5,E4,-2,mi (Met By),False,the surface cured untouched,Applying the hot tack-coat adhesive
+E5,E6,2,m (Meets),False,the surface cured untouched,began laying the new blacktop
+E5,E7,1,< (Precedes),False,the surface cured untouched,painters applied temporary reflective road lane markers
+E5,E8,1,< (Precedes),False,the surface cured untouched,completing the paving
+E5,E9,1,< (Precedes),False,the surface cured untouched,A safety inspection vehicle drove the entire length
+E5,E10,1,< (Precedes),False,the surface cured untouched,the highway reopened
+E6,E1,-1,> (Preceded By),False,began laying the new blacktop,closed the northern bypass
+E6,E2,-1,> (Preceded By),False,began laying the new blacktop,stripped the cracked top layer of bitumen
+E6,E3,-1,> (Preceded By),False,began laying the new blacktop,cleaned the milled concrete substrate
+E6,E4,-1,> (Preceded By),False,began laying the new blacktop,Applying the hot tack-coat adhesive
+E6,E5,-2,mi (Met By),False,began laying the new blacktop,the surface cured untouched
+E6,E7,1,< (Precedes),False,began laying the new blacktop,painters applied temporary reflective road lane markers
+E6,E8,1,< (Precedes),False,began laying the new blacktop,completing the paving
+E6,E9,1,< (Precedes),False,began laying the new blacktop,A safety inspection vehicle drove the entire length
+E6,E10,1,< (Precedes),False,began laying the new blacktop,the highway reopened
+E7,E1,-1,> (Preceded By),False,painters applied temporary reflective road lane markers,closed the northern bypass
+E7,E2,-1,> (Preceded By),False,painters applied temporary reflective road lane markers,stripped the cracked top layer of bitumen
+E7,E3,-1,> (Preceded By),False,painters applied temporary reflective road lane markers,cleaned the milled concrete substrate
+E7,E4,-1,> (Preceded By),False,painters applied temporary reflective road lane markers,Applying the hot tack-coat adhesive
+E7,E5,-1,> (Preceded By),False,painters applied temporary reflective road lane markers,the surface cured untouched
+E7,E6,-1,> (Preceded By),False,painters applied temporary reflective road lane markers,began laying the new blacktop
+E7,E8,2,m (Meets),False,painters applied temporary reflective road lane markers,completing the paving
+E7,E9,1,< (Precedes),False,painters applied temporary reflective road lane markers,A safety inspection vehicle drove the entire length
+E7,E10,1,< (Precedes),False,painters applied temporary reflective road lane markers,the highway reopened
+E8,E1,-1,> (Preceded By),False,completing the paving,closed the northern bypass
+E8,E2,-1,> (Preceded By),False,completing the paving,stripped the cracked top layer of bitumen
+E8,E3,-1,> (Preceded By),False,completing the paving,cleaned the milled concrete substrate
+E8,E4,-1,> (Preceded By),False,completing the paving,Applying the hot tack-coat adhesive
+E8,E5,-1,> (Preceded By),False,completing the paving,the surface cured untouched
+E8,E6,-1,> (Preceded By),False,completing the paving,began laying the new blacktop
+E8,E7,-2,mi (Met By),False,completing the paving,painters applied temporary reflective road lane markers
+E8,E9,1,< (Precedes),False,completing the paving,A safety inspection vehicle drove the entire length
+E8,E10,1,< (Precedes),False,completing the paving,the highway reopened
+E9,E1,-1,> (Preceded By),False,A safety inspection vehicle drove the entire length,closed the northern bypass
+E9,E2,-1,> (Preceded By),False,A safety inspection vehicle drove the entire length,stripped the cracked top layer of bitumen
+E9,E3,-1,> (Preceded By),False,A safety inspection vehicle drove the entire length,cleaned the milled concrete substrate
+E9,E4,-1,> (Preceded By),False,A safety inspection vehicle drove the entire length,Applying the hot tack-coat adhesive
+E9,E5,-1,> (Preceded By),False,A safety inspection vehicle drove the entire length,the surface cured untouched
+E9,E6,-1,> (Preceded By),False,A safety inspection vehicle drove the entire length,began laying the new blacktop
+E9,E7,-1,> (Preceded By),False,A safety inspection vehicle drove the entire length,painters applied temporary reflective road lane markers
+E9,E8,-1,> (Preceded By),False,A safety inspection vehicle drove the entire length,completing the paving
+E9,E10,1,< (Precedes),False,A safety inspection vehicle drove the entire length,the highway reopened
+E10,E1,-1,> (Preceded By),False,the highway reopened,closed the northern bypass
+E10,E2,-1,> (Preceded By),False,the highway reopened,stripped the cracked top layer of bitumen
+E10,E3,-1,> (Preceded By),False,the highway reopened,cleaned the milled concrete substrate
+E10,E4,-1,> (Preceded By),False,the highway reopened,Applying the hot tack-coat adhesive
+E10,E5,-1,> (Preceded By),False,the highway reopened,the surface cured untouched
+E10,E6,-1,> (Preceded By),False,the highway reopened,began laying the new blacktop
+E10,E7,-1,> (Preceded By),False,the highway reopened,painters applied temporary reflective road lane markers
+E10,E8,-1,> (Preceded By),False,the highway reopened,completing the paving
+E10,E9,-1,> (Preceded By),False,the highway reopened,A safety inspection vehicle drove the entire length

@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,submitted the first draft of her chemistry thesis,took nine days to return annotations
+E1,E3,1,< (Precedes),False,submitted the first draft of her chemistry thesis,revising chapters three and four
+E1,E4,1,< (Precedes),False,submitted the first draft of her chemistry thesis,finishing her revisions
+E1,E5,1,< (Precedes),False,submitted the first draft of her chemistry thesis,conducted mock presentations
+E1,E6,1,< (Precedes),False,submitted the first draft of her chemistry thesis,took two days of complete rest
+E1,E7,1,< (Precedes),False,submitted the first draft of her chemistry thesis,printing and binding four formal copies
+E1,E8,1,< (Precedes),False,submitted the first draft of her chemistry thesis,The committee scheduled her oral defense
+E1,E9,1,< (Precedes),False,submitted the first draft of her chemistry thesis,"her lab partner, who had arrived thirty minutes into her presentation"
+E1,E10,1,< (Precedes),False,submitted the first draft of her chemistry thesis,oral examination lasted ninety minutes
+E1,E11,1,< (Precedes),False,submitted the first draft of her chemistry thesis,closed-door committee deliberations
+E1,E12,1,< (Precedes),False,submitted the first draft of her chemistry thesis,Farzana waited in the corridor
+E1,E13,1,< (Precedes),False,submitted the first draft of her chemistry thesis,The formal verdict was delivered
+E1,E14,1,< (Precedes),False,submitted the first draft of her chemistry thesis,receiving her revised draft
+E2,E1,-1,> (Preceded By),False,took nine days to return annotations,submitted the first draft of her chemistry thesis
+E2,E3,2,m (Meets),False,took nine days to return annotations,revising chapters three and four
+E2,E4,1,< (Precedes),False,took nine days to return annotations,finishing her revisions
+E2,E5,1,< (Precedes),False,took nine days to return annotations,conducted mock presentations
+E2,E6,1,< (Precedes),False,took nine days to return annotations,took two days of complete rest
+E2,E7,1,< (Precedes),False,took nine days to return annotations,printing and binding four formal copies
+E2,E8,1,< (Precedes),False,took nine days to return annotations,The committee scheduled her oral defense
+E2,E9,1,< (Precedes),False,took nine days to return annotations,"her lab partner, who had arrived thirty minutes into her presentation"
+E2,E10,1,< (Precedes),False,took nine days to return annotations,oral examination lasted ninety minutes
+E2,E11,1,< (Precedes),False,took nine days to return annotations,closed-door committee deliberations
+E2,E12,1,< (Precedes),False,took nine days to return annotations,Farzana waited in the corridor
+E2,E13,1,< (Precedes),False,took nine days to return annotations,The formal verdict was delivered
+E2,E14,1,< (Precedes),False,took nine days to return annotations,receiving her revised draft
+E3,E1,-1,> (Preceded By),False,revising chapters three and four,submitted the first draft of her chemistry thesis
+E3,E2,-2,mi (Met By),False,revising chapters three and four,took nine days to return annotations
+E3,E4,2,m (Meets),False,revising chapters three and four,finishing her revisions
+E3,E5,2,m (Meets),False,revising chapters three and four,conducted mock presentations
+E3,E6,1,< (Precedes),False,revising chapters three and four,took two days of complete rest
+E3,E7,1,< (Precedes),False,revising chapters three and four,printing and binding four formal copies
+E3,E8,2,m (Meets),False,revising chapters three and four,The committee scheduled her oral defense
+E3,E9,1,< (Precedes),False,revising chapters three and four,"her lab partner, who had arrived thirty minutes into her presentation"
+E3,E10,1,< (Precedes),False,revising chapters three and four,oral examination lasted ninety minutes
+E3,E11,1,< (Precedes),False,revising chapters three and four,closed-door committee deliberations
+E3,E12,1,< (Precedes),False,revising chapters three and four,Farzana waited in the corridor
+E3,E13,1,< (Precedes),False,revising chapters three and four,The formal verdict was delivered
+E3,E14,2,m (Meets),False,revising chapters three and four,receiving her revised draft
+E4,E1,-1,> (Preceded By),False,finishing her revisions,submitted the first draft of her chemistry thesis
+E4,E2,-1,> (Preceded By),False,finishing her revisions,took nine days to return annotations
+E4,E3,-2,mi (Met By),False,finishing her revisions,revising chapters three and four
+E4,E5,4,s (Starts),False,finishing her revisions,conducted mock presentations
+E4,E6,1,< (Precedes),False,finishing her revisions,took two days of complete rest
+E4,E7,1,< (Precedes),False,finishing her revisions,printing and binding four formal copies
+E4,E8,0,= (Equal),False,finishing her revisions,The committee scheduled her oral defense
+E4,E9,1,< (Precedes),False,finishing her revisions,"her lab partner, who had arrived thirty minutes into her presentation"
+E4,E10,1,< (Precedes),False,finishing her revisions,oral examination lasted ninety minutes
+E4,E11,1,< (Precedes),False,finishing her revisions,closed-door committee deliberations
+E4,E12,1,< (Precedes),False,finishing her revisions,Farzana waited in the corridor
+E4,E13,1,< (Precedes),False,finishing her revisions,The formal verdict was delivered
+E4,E14,0,= (Equal),False,finishing her revisions,receiving her revised draft
+E5,E1,-1,> (Preceded By),False,conducted mock presentations,submitted the first draft of her chemistry thesis
+E5,E2,-1,> (Preceded By),False,conducted mock presentations,took nine days to return annotations
+E5,E3,-2,mi (Met By),False,conducted mock presentations,revising chapters three and four
+E5,E4,-4,si (Started By),False,conducted mock presentations,finishing her revisions
+E5,E6,2,m (Meets),False,conducted mock presentations,took two days of complete rest
+E5,E7,1,< (Precedes),False,conducted mock presentations,printing and binding four formal copies
+E5,E8,-4,si (Started By),False,conducted mock presentations,The committee scheduled her oral defense
+E5,E9,1,< (Precedes),False,conducted mock presentations,"her lab partner, who had arrived thirty minutes into her presentation"
+E5,E10,1,< (Precedes),False,conducted mock presentations,oral examination lasted ninety minutes
+E5,E11,1,< (Precedes),False,conducted mock presentations,closed-door committee deliberations
+E5,E12,1,< (Precedes),False,conducted mock presentations,Farzana waited in the corridor
+E5,E13,1,< (Precedes),False,conducted mock presentations,The formal verdict was delivered
+E5,E14,-4,si (Started By),False,conducted mock presentations,receiving her revised draft
+E6,E1,-1,> (Preceded By),False,took two days of complete rest,submitted the first draft of her chemistry thesis
+E6,E2,-1,> (Preceded By),False,took two days of complete rest,took nine days to return annotations
+E6,E3,-1,> (Preceded By),False,took two days of complete rest,revising chapters three and four
+E6,E4,-1,> (Preceded By),False,took two days of complete rest,finishing her revisions
+E6,E5,-2,mi (Met By),False,took two days of complete rest,conducted mock presentations
+E6,E7,2,m (Meets),False,took two days of complete rest,printing and binding four formal copies
+E6,E8,-1,> (Preceded By),False,took two days of complete rest,The committee scheduled her oral defense
+E6,E9,1,< (Precedes),False,took two days of complete rest,"her lab partner, who had arrived thirty minutes into her presentation"
+E6,E10,1,< (Precedes),False,took two days of complete rest,oral examination lasted ninety minutes
+E6,E11,1,< (Precedes),False,took two days of complete rest,closed-door committee deliberations
+E6,E12,1,< (Precedes),False,took two days of complete rest,Farzana waited in the corridor
+E6,E13,1,< (Precedes),False,took two days of complete rest,The formal verdict was delivered
+E6,E14,-1,> (Preceded By),False,took two days of complete rest,receiving her revised draft
+E7,E1,-1,> (Preceded By),False,printing and binding four formal copies,submitted the first draft of her chemistry thesis
+E7,E2,-1,> (Preceded By),False,printing and binding four formal copies,took nine days to return annotations
+E7,E3,-1,> (Preceded By),False,printing and binding four formal copies,revising chapters three and four
+E7,E4,-1,> (Preceded By),False,printing and binding four formal copies,finishing her revisions
+E7,E5,-1,> (Preceded By),False,printing and binding four formal copies,conducted mock presentations
+E7,E6,-2,mi (Met By),False,printing and binding four formal copies,took two days of complete rest
+E7,E8,-1,> (Preceded By),False,printing and binding four formal copies,The committee scheduled her oral defense
+E7,E9,1,< (Precedes),False,printing and binding four formal copies,"her lab partner, who had arrived thirty minutes into her presentation"
+E7,E10,2,m (Meets),False,printing and binding four formal copies,oral examination lasted ninety minutes
+E7,E11,1,< (Precedes),False,printing and binding four formal copies,closed-door committee deliberations
+E7,E12,1,< (Precedes),False,printing and binding four formal copies,Farzana waited in the corridor
+E7,E13,1,< (Precedes),False,printing and binding four formal copies,The formal verdict was delivered
+E7,E14,-1,> (Preceded By),False,printing and binding four formal copies,receiving her revised draft
+E8,E1,-1,> (Preceded By),False,The committee scheduled her oral defense,submitted the first draft of her chemistry thesis
+E8,E2,-1,> (Preceded By),False,The committee scheduled her oral defense,took nine days to return annotations
+E8,E3,-2,mi (Met By),False,The committee scheduled her oral defense,revising chapters three and four
+E8,E4,0,= (Equal),False,The committee scheduled her oral defense,finishing her revisions
+E8,E5,4,s (Starts),False,The committee scheduled her oral defense,conducted mock presentations
+E8,E6,1,< (Precedes),False,The committee scheduled her oral defense,took two days of complete rest
+E8,E7,1,< (Precedes),False,The committee scheduled her oral defense,printing and binding four formal copies
+E8,E9,1,< (Precedes),False,The committee scheduled her oral defense,"her lab partner, who had arrived thirty minutes into her presentation"
+E8,E10,1,< (Precedes),False,The committee scheduled her oral defense,oral examination lasted ninety minutes
+E8,E11,1,< (Precedes),False,The committee scheduled her oral defense,closed-door committee deliberations
+E8,E12,1,< (Precedes),False,The committee scheduled her oral defense,Farzana waited in the corridor
+E8,E13,1,< (Precedes),False,The committee scheduled her oral defense,The formal verdict was delivered
+E8,E14,0,= (Equal),False,The committee scheduled her oral defense,receiving her revised draft
+E9,E1,-1,> (Preceded By),False,"her lab partner, who had arrived thirty minutes into her presentation",submitted the first draft of her chemistry thesis
+E9,E2,-1,> (Preceded By),False,"her lab partner, who had arrived thirty minutes into her presentation",took nine days to return annotations
+E9,E3,-1,> (Preceded By),False,"her lab partner, who had arrived thirty minutes into her presentation",revising chapters three and four
+E9,E4,-1,> (Preceded By),False,"her lab partner, who had arrived thirty minutes into her presentation",finishing her revisions
+E9,E5,-1,> (Preceded By),False,"her lab partner, who had arrived thirty minutes into her presentation",conducted mock presentations
+E9,E6,-1,> (Preceded By),False,"her lab partner, who had arrived thirty minutes into her presentation",took two days of complete rest
+E9,E7,-1,> (Preceded By),False,"her lab partner, who had arrived thirty minutes into her presentation",printing and binding four formal copies
+E9,E8,-1,> (Preceded By),False,"her lab partner, who had arrived thirty minutes into her presentation",The committee scheduled her oral defense
+E9,E10,5,d (During),False,"her lab partner, who had arrived thirty minutes into her presentation",oral examination lasted ninety minutes
+E9,E11,1,< (Precedes),False,"her lab partner, who had arrived thirty minutes into her presentation",closed-door committee deliberations
+E9,E12,1,< (Precedes),False,"her lab partner, who had arrived thirty minutes into her presentation",Farzana waited in the corridor
+E9,E13,1,< (Precedes),False,"her lab partner, who had arrived thirty minutes into her presentation",The formal verdict was delivered
+E9,E14,-1,> (Preceded By),False,"her lab partner, who had arrived thirty minutes into her presentation",receiving her revised draft
+E10,E1,-1,> (Preceded By),False,oral examination lasted ninety minutes,submitted the first draft of her chemistry thesis
+E10,E2,-1,> (Preceded By),False,oral examination lasted ninety minutes,took nine days to return annotations
+E10,E3,-1,> (Preceded By),False,oral examination lasted ninety minutes,revising chapters three and four
+E10,E4,-1,> (Preceded By),False,oral examination lasted ninety minutes,finishing her revisions
+E10,E5,-1,> (Preceded By),False,oral examination lasted ninety minutes,conducted mock presentations
+E10,E6,-1,> (Preceded By),False,oral examination lasted ninety minutes,took two days of complete rest
+E10,E7,-2,mi (Met By),False,oral examination lasted ninety minutes,printing and binding four formal copies
+E10,E8,-1,> (Preceded By),False,oral examination lasted ninety minutes,The committee scheduled her oral defense
+E10,E9,-5,di (Contains),False,oral examination lasted ninety minutes,"her lab partner, who had arrived thirty minutes into her presentation"
+E10,E11,2,m (Meets),False,oral examination lasted ninety minutes,closed-door committee deliberations
+E10,E12,2,m (Meets),False,oral examination lasted ninety minutes,Farzana waited in the corridor
+E10,E13,1,< (Precedes),False,oral examination lasted ninety minutes,The formal verdict was delivered
+E10,E14,-1,> (Preceded By),False,oral examination lasted ninety minutes,receiving her revised draft
+E11,E1,-1,> (Preceded By),False,closed-door committee deliberations,submitted the first draft of her chemistry thesis
+E11,E2,-1,> (Preceded By),False,closed-door committee deliberations,took nine days to return annotations
+E11,E3,-1,> (Preceded By),False,closed-door committee deliberations,revising chapters three and four
+E11,E4,-1,> (Preceded By),False,closed-door committee deliberations,finishing her revisions
+E11,E5,-1,> (Preceded By),False,closed-door committee deliberations,conducted mock presentations
+E11,E6,-1,> (Preceded By),False,closed-door committee deliberations,took two days of complete rest
+E11,E7,-1,> (Preceded By),False,closed-door committee deliberations,printing and binding four formal copies
+E11,E8,-1,> (Preceded By),False,closed-door committee deliberations,The committee scheduled her oral defense
+E11,E9,-1,> (Preceded By),False,closed-door committee deliberations,"her lab partner, who had arrived thirty minutes into her presentation"
+E11,E10,-2,mi (Met By),False,closed-door committee deliberations,oral examination lasted ninety minutes
+E11,E12,0,= (Equal),False,closed-door committee deliberations,Farzana waited in the corridor
+E11,E13,2,m (Meets),False,closed-door committee deliberations,The formal verdict was delivered
+E11,E14,-1,> (Preceded By),False,closed-door committee deliberations,receiving her revised draft
+E12,E1,-1,> (Preceded By),False,Farzana waited in the corridor,submitted the first draft of her chemistry thesis
+E12,E2,-1,> (Preceded By),False,Farzana waited in the corridor,took nine days to return annotations
+E12,E3,-1,> (Preceded By),False,Farzana waited in the corridor,revising chapters three and four
+E12,E4,-1,> (Preceded By),False,Farzana waited in the corridor,finishing her revisions
+E12,E5,-1,> (Preceded By),False,Farzana waited in the corridor,conducted mock presentations
+E12,E6,-1,> (Preceded By),False,Farzana waited in the corridor,took two days of complete rest
+E12,E7,-1,> (Preceded By),False,Farzana waited in the corridor,printing and binding four formal copies
+E12,E8,-1,> (Preceded By),False,Farzana waited in the corridor,The committee scheduled her oral defense
+E12,E9,-1,> (Preceded By),False,Farzana waited in the corridor,"her lab partner, who had arrived thirty minutes into her presentation"
+E12,E10,-2,mi (Met By),False,Farzana waited in the corridor,oral examination lasted ninety minutes
+E12,E11,0,= (Equal),False,Farzana waited in the corridor,closed-door committee deliberations
+E12,E13,2,m (Meets),False,Farzana waited in the corridor,The formal verdict was delivered
+E12,E14,-1,> (Preceded By),False,Farzana waited in the corridor,receiving her revised draft
+E13,E1,-1,> (Preceded By),False,The formal verdict was delivered,submitted the first draft of her chemistry thesis
+E13,E2,-1,> (Preceded By),False,The formal verdict was delivered,took nine days to return annotations
+E13,E3,-1,> (Preceded By),False,The formal verdict was delivered,revising chapters three and four
+E13,E4,-1,> (Preceded By),False,The formal verdict was delivered,finishing her revisions
+E13,E5,-1,> (Preceded By),False,The formal verdict was delivered,conducted mock presentations
+E13,E6,-1,> (Preceded By),False,The formal verdict was delivered,took two days of complete rest
+E13,E7,-1,> (Preceded By),False,The formal verdict was delivered,printing and binding four formal copies
+E13,E8,-1,> (Preceded By),False,The formal verdict was delivered,The committee scheduled her oral defense
+E13,E9,-1,> (Preceded By),False,The formal verdict was delivered,"her lab partner, who had arrived thirty minutes into her presentation"
+E13,E10,-1,> (Preceded By),False,The formal verdict was delivered,oral examination lasted ninety minutes
+E13,E11,-2,mi (Met By),False,The formal verdict was delivered,closed-door committee deliberations
+E13,E12,-2,mi (Met By),False,The formal verdict was delivered,Farzana waited in the corridor
+E13,E14,-1,> (Preceded By),False,The formal verdict was delivered,receiving her revised draft
+E14,E1,-1,> (Preceded By),False,receiving her revised draft,submitted the first draft of her chemistry thesis
+E14,E2,-1,> (Preceded By),False,receiving her revised draft,took nine days to return annotations
+E14,E3,-2,mi (Met By),False,receiving her revised draft,revising chapters three and four
+E14,E4,0,= (Equal),False,receiving her revised draft,finishing her revisions
+E14,E5,4,s (Starts),False,receiving her revised draft,conducted mock presentations
+E14,E6,1,< (Precedes),False,receiving her revised draft,took two days of complete rest
+E14,E7,1,< (Precedes),False,receiving her revised draft,printing and binding four formal copies
+E14,E8,0,= (Equal),False,receiving her revised draft,The committee scheduled her oral defense
+E14,E9,1,< (Precedes),False,receiving her revised draft,"her lab partner, who had arrived thirty minutes into her presentation"
+E14,E10,1,< (Precedes),False,receiving her revised draft,oral examination lasted ninety minutes
+E14,E11,1,< (Precedes),False,receiving her revised draft,closed-door committee deliberations
+E14,E12,1,< (Precedes),False,receiving her revised draft,Farzana waited in the corridor
+E14,E13,1,< (Precedes),False,receiving her revised draft,The formal verdict was delivered

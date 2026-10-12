@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,her husband lost his job at a tannery,started the business
+E1,E3,1,< (Precedes),False,her husband lost his job at a tannery,made at a trade fair in Dhaka
+E1,E4,1,< (Precedes),False,her husband lost his job at a tannery,received the largest order she had ever taken
+E1,E5,1,< (Precedes),False,her husband lost his job at a tannery,hire four temporary workers
+E1,E6,1,< (Precedes),False,her husband lost his job at a tannery,found an alternative supplier in Keraniganj
+E1,E7,1,< (Precedes),False,her husband lost his job at a tannery,one of her temporary workers did not show up
+E1,E8,1,< (Precedes),False,her husband lost his job at a tannery,found part-time work at a print shop in Narayanganj
+E1,E9,1,< (Precedes),False,her husband lost his job at a tannery,left work early to help with the transport
+E1,E10,1,< (Precedes),False,her husband lost his job at a tannery,The event went smoothly
+E1,E11,1,< (Precedes),False,her husband lost his job at a tannery,The client booked her for a second event
+E2,E1,-1,> (Preceded By),False,started the business,her husband lost his job at a tannery
+E2,E3,1,< (Precedes),False,started the business,made at a trade fair in Dhaka
+E2,E4,1,< (Precedes),False,started the business,received the largest order she had ever taken
+E2,E5,1,< (Precedes),False,started the business,hire four temporary workers
+E2,E6,1,< (Precedes),False,started the business,found an alternative supplier in Keraniganj
+E2,E7,1,< (Precedes),False,started the business,one of her temporary workers did not show up
+E2,E8,1,< (Precedes),False,started the business,found part-time work at a print shop in Narayanganj
+E2,E9,1,< (Precedes),False,started the business,left work early to help with the transport
+E2,E10,1,< (Precedes),False,started the business,The event went smoothly
+E2,E11,1,< (Precedes),False,started the business,The client booked her for a second event
+E3,E1,-1,> (Preceded By),False,made at a trade fair in Dhaka,her husband lost his job at a tannery
+E3,E2,-1,> (Preceded By),False,made at a trade fair in Dhaka,started the business
+E3,E4,1,< (Precedes),False,made at a trade fair in Dhaka,received the largest order she had ever taken
+E3,E5,1,< (Precedes),False,made at a trade fair in Dhaka,hire four temporary workers
+E3,E6,1,< (Precedes),False,made at a trade fair in Dhaka,found an alternative supplier in Keraniganj
+E3,E7,1,< (Precedes),False,made at a trade fair in Dhaka,one of her temporary workers did not show up
+E3,E8,1,< (Precedes),False,made at a trade fair in Dhaka,found part-time work at a print shop in Narayanganj
+E3,E9,1,< (Precedes),False,made at a trade fair in Dhaka,left work early to help with the transport
+E3,E10,1,< (Precedes),False,made at a trade fair in Dhaka,The event went smoothly
+E3,E11,1,< (Precedes),False,made at a trade fair in Dhaka,The client booked her for a second event
+E4,E1,-1,> (Preceded By),False,received the largest order she had ever taken,her husband lost his job at a tannery
+E4,E2,-1,> (Preceded By),False,received the largest order she had ever taken,started the business
+E4,E3,-1,> (Preceded By),False,received the largest order she had ever taken,made at a trade fair in Dhaka
+E4,E5,3,o (Overlaps),False,received the largest order she had ever taken,hire four temporary workers
+E4,E6,3,o (Overlaps),False,received the largest order she had ever taken,found an alternative supplier in Keraniganj
+E4,E7,1,< (Precedes),False,received the largest order she had ever taken,one of her temporary workers did not show up
+E4,E8,2,m (Meets),False,received the largest order she had ever taken,found part-time work at a print shop in Narayanganj
+E4,E9,1,< (Precedes),False,received the largest order she had ever taken,left work early to help with the transport
+E4,E10,1,< (Precedes),False,received the largest order she had ever taken,The event went smoothly
+E4,E11,1,< (Precedes),False,received the largest order she had ever taken,The client booked her for a second event
+E5,E1,-1,> (Preceded By),False,hire four temporary workers,her husband lost his job at a tannery
+E5,E2,-1,> (Preceded By),False,hire four temporary workers,started the business
+E5,E3,-1,> (Preceded By),False,hire four temporary workers,made at a trade fair in Dhaka
+E5,E4,-3,oi (Overlapped By),False,hire four temporary workers,received the largest order she had ever taken
+E5,E6,-5,di (Contains),False,hire four temporary workers,found an alternative supplier in Keraniganj
+E5,E7,2,m (Meets),False,hire four temporary workers,one of her temporary workers did not show up
+E5,E8,-6,fi (Finished By),False,hire four temporary workers,found part-time work at a print shop in Narayanganj
+E5,E9,2,m (Meets),False,hire four temporary workers,left work early to help with the transport
+E5,E10,2,m (Meets),False,hire four temporary workers,The event went smoothly
+E5,E11,1,< (Precedes),False,hire four temporary workers,The client booked her for a second event
+E6,E1,-1,> (Preceded By),False,found an alternative supplier in Keraniganj,her husband lost his job at a tannery
+E6,E2,-1,> (Preceded By),False,found an alternative supplier in Keraniganj,started the business
+E6,E3,-1,> (Preceded By),False,found an alternative supplier in Keraniganj,made at a trade fair in Dhaka
+E6,E4,-3,oi (Overlapped By),False,found an alternative supplier in Keraniganj,received the largest order she had ever taken
+E6,E5,5,d (During),False,found an alternative supplier in Keraniganj,hire four temporary workers
+E6,E7,1,< (Precedes),False,found an alternative supplier in Keraniganj,one of her temporary workers did not show up
+E6,E8,3,o (Overlaps),False,found an alternative supplier in Keraniganj,found part-time work at a print shop in Narayanganj
+E6,E9,1,< (Precedes),False,found an alternative supplier in Keraniganj,left work early to help with the transport
+E6,E10,1,< (Precedes),False,found an alternative supplier in Keraniganj,The event went smoothly
+E6,E11,1,< (Precedes),False,found an alternative supplier in Keraniganj,The client booked her for a second event
+E7,E1,-1,> (Preceded By),False,one of her temporary workers did not show up,her husband lost his job at a tannery
+E7,E2,-1,> (Preceded By),False,one of her temporary workers did not show up,started the business
+E7,E3,-1,> (Preceded By),False,one of her temporary workers did not show up,made at a trade fair in Dhaka
+E7,E4,-1,> (Preceded By),False,one of her temporary workers did not show up,received the largest order she had ever taken
+E7,E5,-2,mi (Met By),False,one of her temporary workers did not show up,hire four temporary workers
+E7,E6,-1,> (Preceded By),False,one of her temporary workers did not show up,found an alternative supplier in Keraniganj
+E7,E8,-2,mi (Met By),False,one of her temporary workers did not show up,found part-time work at a print shop in Narayanganj
+E7,E9,0,= (Equal),False,one of her temporary workers did not show up,left work early to help with the transport
+E7,E10,0,= (Equal),False,one of her temporary workers did not show up,The event went smoothly
+E7,E11,2,m (Meets),False,one of her temporary workers did not show up,The client booked her for a second event
+E8,E1,-1,> (Preceded By),False,found part-time work at a print shop in Narayanganj,her husband lost his job at a tannery
+E8,E2,-1,> (Preceded By),False,found part-time work at a print shop in Narayanganj,started the business
+E8,E3,-1,> (Preceded By),False,found part-time work at a print shop in Narayanganj,made at a trade fair in Dhaka
+E8,E4,-2,mi (Met By),False,found part-time work at a print shop in Narayanganj,received the largest order she had ever taken
+E8,E5,6,f (Finishes),False,found part-time work at a print shop in Narayanganj,hire four temporary workers
+E8,E6,-3,oi (Overlapped By),False,found part-time work at a print shop in Narayanganj,found an alternative supplier in Keraniganj
+E8,E7,2,m (Meets),False,found part-time work at a print shop in Narayanganj,one of her temporary workers did not show up
+E8,E9,2,m (Meets),False,found part-time work at a print shop in Narayanganj,left work early to help with the transport
+E8,E10,2,m (Meets),False,found part-time work at a print shop in Narayanganj,The event went smoothly
+E8,E11,1,< (Precedes),False,found part-time work at a print shop in Narayanganj,The client booked her for a second event
+E9,E1,-1,> (Preceded By),False,left work early to help with the transport,her husband lost his job at a tannery
+E9,E2,-1,> (Preceded By),False,left work early to help with the transport,started the business
+E9,E3,-1,> (Preceded By),False,left work early to help with the transport,made at a trade fair in Dhaka
+E9,E4,-1,> (Preceded By),False,left work early to help with the transport,received the largest order she had ever taken
+E9,E5,-2,mi (Met By),False,left work early to help with the transport,hire four temporary workers
+E9,E6,-1,> (Preceded By),False,left work early to help with the transport,found an alternative supplier in Keraniganj
+E9,E7,0,= (Equal),False,left work early to help with the transport,one of her temporary workers did not show up
+E9,E8,-2,mi (Met By),False,left work early to help with the transport,found part-time work at a print shop in Narayanganj
+E9,E10,0,= (Equal),False,left work early to help with the transport,The event went smoothly
+E9,E11,2,m (Meets),False,left work early to help with the transport,The client booked her for a second event
+E10,E1,-1,> (Preceded By),False,The event went smoothly,her husband lost his job at a tannery
+E10,E2,-1,> (Preceded By),False,The event went smoothly,started the business
+E10,E3,-1,> (Preceded By),False,The event went smoothly,made at a trade fair in Dhaka
+E10,E4,-1,> (Preceded By),False,The event went smoothly,received the largest order she had ever taken
+E10,E5,-2,mi (Met By),False,The event went smoothly,hire four temporary workers
+E10,E6,-1,> (Preceded By),False,The event went smoothly,found an alternative supplier in Keraniganj
+E10,E7,0,= (Equal),False,The event went smoothly,one of her temporary workers did not show up
+E10,E8,-2,mi (Met By),False,The event went smoothly,found part-time work at a print shop in Narayanganj
+E10,E9,0,= (Equal),False,The event went smoothly,left work early to help with the transport
+E10,E11,2,m (Meets),False,The event went smoothly,The client booked her for a second event
+E11,E1,-1,> (Preceded By),False,The client booked her for a second event,her husband lost his job at a tannery
+E11,E2,-1,> (Preceded By),False,The client booked her for a second event,started the business
+E11,E3,-1,> (Preceded By),False,The client booked her for a second event,made at a trade fair in Dhaka
+E11,E4,-1,> (Preceded By),False,The client booked her for a second event,received the largest order she had ever taken
+E11,E5,-1,> (Preceded By),False,The client booked her for a second event,hire four temporary workers
+E11,E6,-1,> (Preceded By),False,The client booked her for a second event,found an alternative supplier in Keraniganj
+E11,E7,-2,mi (Met By),False,The client booked her for a second event,one of her temporary workers did not show up
+E11,E8,-1,> (Preceded By),False,The client booked her for a second event,found part-time work at a print shop in Narayanganj
+E11,E9,-2,mi (Met By),False,The client booked her for a second event,left work early to help with the transport
+E11,E10,-2,mi (Met By),False,The client booked her for a second event,The event went smoothly

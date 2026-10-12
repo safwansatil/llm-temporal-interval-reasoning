@@ -1,0 +1,601 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,the coastline was drawn before the expedition that supposedly discovered it
+E1,E3,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,corrected after the captain who made the correction had already returned to Seville
+E1,E4,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,The captain left Cádiz during the autumn
+E1,E5,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,a royal commission was still debating whether the voyage should sail west
+E1,E6,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,his navigator had spent the previous summer in Madeira copying a chart
+E1,E7,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,that showed an island he would later claim to have found himself
+E1,E8,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E1,E9,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,by the time that letter reached the harbor
+E1,E10,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,the ships had already been reported missing in the Caribbean
+E1,E11,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E1,E12,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,his account was written years later by a scribe who had never met him
+E1,E13,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,merchants insured cargo against a route that had not yet been officially recognized
+E1,E14,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,The captain’s brother said the map was redrawn after the first landing
+E1,E15,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E1,E16,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E1,E17,-2,mi (Met By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,I found the disputed map last spring in a basement in Lisbon
+E1,E18,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E1,E19,-3,oi (Overlapped By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E1,E20,0,= (Equal),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,the logbook says the captain saw the coastline tomorrow
+E1,E21,0,= (Equal),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,a phrase that meant “the next day” to the sailor who wrote it
+E1,E22,1,< (Precedes),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,but “the future voyage” to the clerk who copied it decades later
+E1,E23,3,o (Overlaps),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,The chart will be presented to the museum tomorrow
+E1,E24,3,o (Overlaps),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,unless the coordinates prove that the ship reached the coast before departing
+E1,E25,-1,> (Preceded By),False,I am tracing a coastline on a navigation chart in Lisbon this afternoon,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E2,E1,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E2,E3,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,corrected after the captain who made the correction had already returned to Seville
+E2,E4,2,m (Meets),False,the coastline was drawn before the expedition that supposedly discovered it,The captain left Cádiz during the autumn
+E2,E5,3,o (Overlaps),False,the coastline was drawn before the expedition that supposedly discovered it,a royal commission was still debating whether the voyage should sail west
+E2,E6,-3,oi (Overlapped By),False,the coastline was drawn before the expedition that supposedly discovered it,his navigator had spent the previous summer in Madeira copying a chart
+E2,E7,0,= (Equal),False,the coastline was drawn before the expedition that supposedly discovered it,that showed an island he would later claim to have found himself
+E2,E8,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E2,E9,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,by the time that letter reached the harbor
+E2,E10,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,the ships had already been reported missing in the Caribbean
+E2,E11,3,o (Overlaps),False,the coastline was drawn before the expedition that supposedly discovered it,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E2,E12,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,his account was written years later by a scribe who had never met him
+E2,E13,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,merchants insured cargo against a route that had not yet been officially recognized
+E2,E14,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,The captain’s brother said the map was redrawn after the first landing
+E2,E15,3,o (Overlaps),False,the coastline was drawn before the expedition that supposedly discovered it,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E2,E16,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E2,E17,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,I found the disputed map last spring in a basement in Lisbon
+E2,E18,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E2,E19,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E2,E20,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,the logbook says the captain saw the coastline tomorrow
+E2,E21,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,a phrase that meant “the next day” to the sailor who wrote it
+E2,E22,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,but “the future voyage” to the clerk who copied it decades later
+E2,E23,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,The chart will be presented to the museum tomorrow
+E2,E24,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,unless the coordinates prove that the ship reached the coast before departing
+E2,E25,1,< (Precedes),False,the coastline was drawn before the expedition that supposedly discovered it,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E3,E1,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E3,E2,-1,> (Preceded By),False,corrected after the captain who made the correction had already returned to Seville,the coastline was drawn before the expedition that supposedly discovered it
+E3,E4,-2,mi (Met By),False,corrected after the captain who made the correction had already returned to Seville,The captain left Cádiz during the autumn
+E3,E5,-1,> (Preceded By),False,corrected after the captain who made the correction had already returned to Seville,a royal commission was still debating whether the voyage should sail west
+E3,E6,-1,> (Preceded By),False,corrected after the captain who made the correction had already returned to Seville,his navigator had spent the previous summer in Madeira copying a chart
+E3,E7,-1,> (Preceded By),False,corrected after the captain who made the correction had already returned to Seville,that showed an island he would later claim to have found himself
+E3,E8,-3,oi (Overlapped By),False,corrected after the captain who made the correction had already returned to Seville,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E3,E9,-3,oi (Overlapped By),False,corrected after the captain who made the correction had already returned to Seville,by the time that letter reached the harbor
+E3,E10,0,= (Equal),False,corrected after the captain who made the correction had already returned to Seville,the ships had already been reported missing in the Caribbean
+E3,E11,-1,> (Preceded By),False,corrected after the captain who made the correction had already returned to Seville,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E3,E12,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,his account was written years later by a scribe who had never met him
+E3,E13,-3,oi (Overlapped By),False,corrected after the captain who made the correction had already returned to Seville,merchants insured cargo against a route that had not yet been officially recognized
+E3,E14,3,o (Overlaps),False,corrected after the captain who made the correction had already returned to Seville,The captain’s brother said the map was redrawn after the first landing
+E3,E15,-1,> (Preceded By),False,corrected after the captain who made the correction had already returned to Seville,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E3,E16,2,m (Meets),False,corrected after the captain who made the correction had already returned to Seville,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E3,E17,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,I found the disputed map last spring in a basement in Lisbon
+E3,E18,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E3,E19,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E3,E20,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,the logbook says the captain saw the coastline tomorrow
+E3,E21,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,a phrase that meant “the next day” to the sailor who wrote it
+E3,E22,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,but “the future voyage” to the clerk who copied it decades later
+E3,E23,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,The chart will be presented to the museum tomorrow
+E3,E24,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,unless the coordinates prove that the ship reached the coast before departing
+E3,E25,1,< (Precedes),False,corrected after the captain who made the correction had already returned to Seville,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E4,E1,1,< (Precedes),False,The captain left Cádiz during the autumn,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E4,E2,-2,mi (Met By),False,The captain left Cádiz during the autumn,the coastline was drawn before the expedition that supposedly discovered it
+E4,E3,2,m (Meets),False,The captain left Cádiz during the autumn,corrected after the captain who made the correction had already returned to Seville
+E4,E5,-3,oi (Overlapped By),False,The captain left Cádiz during the autumn,a royal commission was still debating whether the voyage should sail west
+E4,E6,-1,> (Preceded By),False,The captain left Cádiz during the autumn,his navigator had spent the previous summer in Madeira copying a chart
+E4,E7,-2,mi (Met By),False,The captain left Cádiz during the autumn,that showed an island he would later claim to have found himself
+E4,E8,3,o (Overlaps),False,The captain left Cádiz during the autumn,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E4,E9,3,o (Overlaps),False,The captain left Cádiz during the autumn,by the time that letter reached the harbor
+E4,E10,2,m (Meets),False,The captain left Cádiz during the autumn,the ships had already been reported missing in the Caribbean
+E4,E11,-3,oi (Overlapped By),False,The captain left Cádiz during the autumn,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E4,E12,1,< (Precedes),False,The captain left Cádiz during the autumn,his account was written years later by a scribe who had never met him
+E4,E13,3,o (Overlaps),False,The captain left Cádiz during the autumn,merchants insured cargo against a route that had not yet been officially recognized
+E4,E14,1,< (Precedes),False,The captain left Cádiz during the autumn,The captain’s brother said the map was redrawn after the first landing
+E4,E15,-3,oi (Overlapped By),False,The captain left Cádiz during the autumn,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E4,E16,1,< (Precedes),False,The captain left Cádiz during the autumn,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E4,E17,1,< (Precedes),False,The captain left Cádiz during the autumn,I found the disputed map last spring in a basement in Lisbon
+E4,E18,1,< (Precedes),False,The captain left Cádiz during the autumn,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E4,E19,1,< (Precedes),False,The captain left Cádiz during the autumn,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E4,E20,1,< (Precedes),False,The captain left Cádiz during the autumn,the logbook says the captain saw the coastline tomorrow
+E4,E21,1,< (Precedes),False,The captain left Cádiz during the autumn,a phrase that meant “the next day” to the sailor who wrote it
+E4,E22,1,< (Precedes),False,The captain left Cádiz during the autumn,but “the future voyage” to the clerk who copied it decades later
+E4,E23,1,< (Precedes),False,The captain left Cádiz during the autumn,The chart will be presented to the museum tomorrow
+E4,E24,1,< (Precedes),False,The captain left Cádiz during the autumn,unless the coordinates prove that the ship reached the coast before departing
+E4,E25,1,< (Precedes),False,The captain left Cádiz during the autumn,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E5,E1,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E5,E2,-3,oi (Overlapped By),False,a royal commission was still debating whether the voyage should sail west,the coastline was drawn before the expedition that supposedly discovered it
+E5,E3,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,corrected after the captain who made the correction had already returned to Seville
+E5,E4,3,o (Overlaps),False,a royal commission was still debating whether the voyage should sail west,The captain left Cádiz during the autumn
+E5,E6,-2,mi (Met By),False,a royal commission was still debating whether the voyage should sail west,his navigator had spent the previous summer in Madeira copying a chart
+E5,E7,-3,oi (Overlapped By),False,a royal commission was still debating whether the voyage should sail west,that showed an island he would later claim to have found himself
+E5,E8,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E5,E9,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,by the time that letter reached the harbor
+E5,E10,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,the ships had already been reported missing in the Caribbean
+E5,E11,3,o (Overlaps),False,a royal commission was still debating whether the voyage should sail west,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E5,E12,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,his account was written years later by a scribe who had never met him
+E5,E13,2,m (Meets),False,a royal commission was still debating whether the voyage should sail west,merchants insured cargo against a route that had not yet been officially recognized
+E5,E14,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,The captain’s brother said the map was redrawn after the first landing
+E5,E15,3,o (Overlaps),False,a royal commission was still debating whether the voyage should sail west,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E5,E16,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E5,E17,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,I found the disputed map last spring in a basement in Lisbon
+E5,E18,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E5,E19,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E5,E20,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,the logbook says the captain saw the coastline tomorrow
+E5,E21,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,a phrase that meant “the next day” to the sailor who wrote it
+E5,E22,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,but “the future voyage” to the clerk who copied it decades later
+E5,E23,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,The chart will be presented to the museum tomorrow
+E5,E24,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,unless the coordinates prove that the ship reached the coast before departing
+E5,E25,1,< (Precedes),False,a royal commission was still debating whether the voyage should sail west,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E6,E1,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E6,E2,3,o (Overlaps),False,his navigator had spent the previous summer in Madeira copying a chart,the coastline was drawn before the expedition that supposedly discovered it
+E6,E3,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,corrected after the captain who made the correction had already returned to Seville
+E6,E4,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,The captain left Cádiz during the autumn
+E6,E5,2,m (Meets),False,his navigator had spent the previous summer in Madeira copying a chart,a royal commission was still debating whether the voyage should sail west
+E6,E7,3,o (Overlaps),False,his navigator had spent the previous summer in Madeira copying a chart,that showed an island he would later claim to have found himself
+E6,E8,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E6,E9,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,by the time that letter reached the harbor
+E6,E10,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,the ships had already been reported missing in the Caribbean
+E6,E11,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E6,E12,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,his account was written years later by a scribe who had never met him
+E6,E13,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,merchants insured cargo against a route that had not yet been officially recognized
+E6,E14,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,The captain’s brother said the map was redrawn after the first landing
+E6,E15,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E6,E16,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E6,E17,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,I found the disputed map last spring in a basement in Lisbon
+E6,E18,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E6,E19,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E6,E20,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,the logbook says the captain saw the coastline tomorrow
+E6,E21,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,a phrase that meant “the next day” to the sailor who wrote it
+E6,E22,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,but “the future voyage” to the clerk who copied it decades later
+E6,E23,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,The chart will be presented to the museum tomorrow
+E6,E24,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,unless the coordinates prove that the ship reached the coast before departing
+E6,E25,1,< (Precedes),False,his navigator had spent the previous summer in Madeira copying a chart,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E7,E1,1,< (Precedes),False,that showed an island he would later claim to have found himself,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E7,E2,0,= (Equal),False,that showed an island he would later claim to have found himself,the coastline was drawn before the expedition that supposedly discovered it
+E7,E3,1,< (Precedes),False,that showed an island he would later claim to have found himself,corrected after the captain who made the correction had already returned to Seville
+E7,E4,2,m (Meets),False,that showed an island he would later claim to have found himself,The captain left Cádiz during the autumn
+E7,E5,3,o (Overlaps),False,that showed an island he would later claim to have found himself,a royal commission was still debating whether the voyage should sail west
+E7,E6,-3,oi (Overlapped By),False,that showed an island he would later claim to have found himself,his navigator had spent the previous summer in Madeira copying a chart
+E7,E8,1,< (Precedes),False,that showed an island he would later claim to have found himself,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E7,E9,1,< (Precedes),False,that showed an island he would later claim to have found himself,by the time that letter reached the harbor
+E7,E10,1,< (Precedes),False,that showed an island he would later claim to have found himself,the ships had already been reported missing in the Caribbean
+E7,E11,3,o (Overlaps),False,that showed an island he would later claim to have found himself,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E7,E12,1,< (Precedes),False,that showed an island he would later claim to have found himself,his account was written years later by a scribe who had never met him
+E7,E13,1,< (Precedes),False,that showed an island he would later claim to have found himself,merchants insured cargo against a route that had not yet been officially recognized
+E7,E14,1,< (Precedes),False,that showed an island he would later claim to have found himself,The captain’s brother said the map was redrawn after the first landing
+E7,E15,3,o (Overlaps),False,that showed an island he would later claim to have found himself,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E7,E16,1,< (Precedes),False,that showed an island he would later claim to have found himself,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E7,E17,1,< (Precedes),False,that showed an island he would later claim to have found himself,I found the disputed map last spring in a basement in Lisbon
+E7,E18,1,< (Precedes),False,that showed an island he would later claim to have found himself,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E7,E19,1,< (Precedes),False,that showed an island he would later claim to have found himself,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E7,E20,1,< (Precedes),False,that showed an island he would later claim to have found himself,the logbook says the captain saw the coastline tomorrow
+E7,E21,1,< (Precedes),False,that showed an island he would later claim to have found himself,a phrase that meant “the next day” to the sailor who wrote it
+E7,E22,1,< (Precedes),False,that showed an island he would later claim to have found himself,but “the future voyage” to the clerk who copied it decades later
+E7,E23,1,< (Precedes),False,that showed an island he would later claim to have found himself,The chart will be presented to the museum tomorrow
+E7,E24,1,< (Precedes),False,that showed an island he would later claim to have found himself,unless the coordinates prove that the ship reached the coast before departing
+E7,E25,1,< (Precedes),False,that showed an island he would later claim to have found himself,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E8,E1,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E8,E2,-1,> (Preceded By),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,the coastline was drawn before the expedition that supposedly discovered it
+E8,E3,3,o (Overlaps),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,corrected after the captain who made the correction had already returned to Seville
+E8,E4,-3,oi (Overlapped By),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,The captain left Cádiz during the autumn
+E8,E5,-1,> (Preceded By),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,a royal commission was still debating whether the voyage should sail west
+E8,E6,-1,> (Preceded By),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,his navigator had spent the previous summer in Madeira copying a chart
+E8,E7,-1,> (Preceded By),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,that showed an island he would later claim to have found himself
+E8,E9,3,o (Overlaps),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,by the time that letter reached the harbor
+E8,E10,3,o (Overlaps),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,the ships had already been reported missing in the Caribbean
+E8,E11,-3,oi (Overlapped By),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E8,E12,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,his account was written years later by a scribe who had never met him
+E8,E13,-3,oi (Overlapped By),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,merchants insured cargo against a route that had not yet been officially recognized
+E8,E14,3,o (Overlaps),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,The captain’s brother said the map was redrawn after the first landing
+E8,E15,-3,oi (Overlapped By),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E8,E16,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E8,E17,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,I found the disputed map last spring in a basement in Lisbon
+E8,E18,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E8,E19,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E8,E20,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,the logbook says the captain saw the coastline tomorrow
+E8,E21,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,a phrase that meant “the next day” to the sailor who wrote it
+E8,E22,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,but “the future voyage” to the clerk who copied it decades later
+E8,E23,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,The chart will be presented to the museum tomorrow
+E8,E24,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,unless the coordinates prove that the ship reached the coast before departing
+E8,E25,1,< (Precedes),False,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E9,E1,1,< (Precedes),False,by the time that letter reached the harbor,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E9,E2,-1,> (Preceded By),False,by the time that letter reached the harbor,the coastline was drawn before the expedition that supposedly discovered it
+E9,E3,3,o (Overlaps),False,by the time that letter reached the harbor,corrected after the captain who made the correction had already returned to Seville
+E9,E4,-3,oi (Overlapped By),False,by the time that letter reached the harbor,The captain left Cádiz during the autumn
+E9,E5,-1,> (Preceded By),False,by the time that letter reached the harbor,a royal commission was still debating whether the voyage should sail west
+E9,E6,-1,> (Preceded By),False,by the time that letter reached the harbor,his navigator had spent the previous summer in Madeira copying a chart
+E9,E7,-1,> (Preceded By),False,by the time that letter reached the harbor,that showed an island he would later claim to have found himself
+E9,E8,-3,oi (Overlapped By),False,by the time that letter reached the harbor,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E9,E10,3,o (Overlaps),False,by the time that letter reached the harbor,the ships had already been reported missing in the Caribbean
+E9,E11,-2,mi (Met By),False,by the time that letter reached the harbor,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E9,E12,1,< (Precedes),False,by the time that letter reached the harbor,his account was written years later by a scribe who had never met him
+E9,E13,-3,oi (Overlapped By),False,by the time that letter reached the harbor,merchants insured cargo against a route that had not yet been officially recognized
+E9,E14,3,o (Overlaps),False,by the time that letter reached the harbor,The captain’s brother said the map was redrawn after the first landing
+E9,E15,-2,mi (Met By),False,by the time that letter reached the harbor,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E9,E16,1,< (Precedes),False,by the time that letter reached the harbor,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E9,E17,1,< (Precedes),False,by the time that letter reached the harbor,I found the disputed map last spring in a basement in Lisbon
+E9,E18,1,< (Precedes),False,by the time that letter reached the harbor,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E9,E19,1,< (Precedes),False,by the time that letter reached the harbor,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E9,E20,1,< (Precedes),False,by the time that letter reached the harbor,the logbook says the captain saw the coastline tomorrow
+E9,E21,1,< (Precedes),False,by the time that letter reached the harbor,a phrase that meant “the next day” to the sailor who wrote it
+E9,E22,1,< (Precedes),False,by the time that letter reached the harbor,but “the future voyage” to the clerk who copied it decades later
+E9,E23,1,< (Precedes),False,by the time that letter reached the harbor,The chart will be presented to the museum tomorrow
+E9,E24,1,< (Precedes),False,by the time that letter reached the harbor,unless the coordinates prove that the ship reached the coast before departing
+E9,E25,1,< (Precedes),False,by the time that letter reached the harbor,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E10,E1,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E10,E2,-1,> (Preceded By),False,the ships had already been reported missing in the Caribbean,the coastline was drawn before the expedition that supposedly discovered it
+E10,E3,0,= (Equal),False,the ships had already been reported missing in the Caribbean,corrected after the captain who made the correction had already returned to Seville
+E10,E4,-2,mi (Met By),False,the ships had already been reported missing in the Caribbean,The captain left Cádiz during the autumn
+E10,E5,-1,> (Preceded By),False,the ships had already been reported missing in the Caribbean,a royal commission was still debating whether the voyage should sail west
+E10,E6,-1,> (Preceded By),False,the ships had already been reported missing in the Caribbean,his navigator had spent the previous summer in Madeira copying a chart
+E10,E7,-1,> (Preceded By),False,the ships had already been reported missing in the Caribbean,that showed an island he would later claim to have found himself
+E10,E8,-3,oi (Overlapped By),False,the ships had already been reported missing in the Caribbean,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E10,E9,-3,oi (Overlapped By),False,the ships had already been reported missing in the Caribbean,by the time that letter reached the harbor
+E10,E11,-1,> (Preceded By),False,the ships had already been reported missing in the Caribbean,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E10,E12,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,his account was written years later by a scribe who had never met him
+E10,E13,-3,oi (Overlapped By),False,the ships had already been reported missing in the Caribbean,merchants insured cargo against a route that had not yet been officially recognized
+E10,E14,3,o (Overlaps),False,the ships had already been reported missing in the Caribbean,The captain’s brother said the map was redrawn after the first landing
+E10,E15,-1,> (Preceded By),False,the ships had already been reported missing in the Caribbean,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E10,E16,2,m (Meets),False,the ships had already been reported missing in the Caribbean,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E10,E17,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,I found the disputed map last spring in a basement in Lisbon
+E10,E18,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E10,E19,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E10,E20,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,the logbook says the captain saw the coastline tomorrow
+E10,E21,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,a phrase that meant “the next day” to the sailor who wrote it
+E10,E22,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,but “the future voyage” to the clerk who copied it decades later
+E10,E23,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,The chart will be presented to the museum tomorrow
+E10,E24,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,unless the coordinates prove that the ship reached the coast before departing
+E10,E25,1,< (Precedes),False,the ships had already been reported missing in the Caribbean,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E11,E1,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E11,E2,-3,oi (Overlapped By),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,the coastline was drawn before the expedition that supposedly discovered it
+E11,E3,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,corrected after the captain who made the correction had already returned to Seville
+E11,E4,3,o (Overlaps),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,The captain left Cádiz during the autumn
+E11,E5,-3,oi (Overlapped By),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,a royal commission was still debating whether the voyage should sail west
+E11,E6,-1,> (Preceded By),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,his navigator had spent the previous summer in Madeira copying a chart
+E11,E7,-3,oi (Overlapped By),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,that showed an island he would later claim to have found himself
+E11,E8,3,o (Overlaps),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E11,E9,2,m (Meets),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,by the time that letter reached the harbor
+E11,E10,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,the ships had already been reported missing in the Caribbean
+E11,E12,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,his account was written years later by a scribe who had never met him
+E11,E13,3,o (Overlaps),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,merchants insured cargo against a route that had not yet been officially recognized
+E11,E14,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,The captain’s brother said the map was redrawn after the first landing
+E11,E15,0,= (Equal),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E11,E16,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E11,E17,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,I found the disputed map last spring in a basement in Lisbon
+E11,E18,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E11,E19,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E11,E20,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,the logbook says the captain saw the coastline tomorrow
+E11,E21,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,a phrase that meant “the next day” to the sailor who wrote it
+E11,E22,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,but “the future voyage” to the clerk who copied it decades later
+E11,E23,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,The chart will be presented to the museum tomorrow
+E11,E24,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,unless the coordinates prove that the ship reached the coast before departing
+E11,E25,1,< (Precedes),False,a monk recorded hearing news of the expedition before the fleet had left Iberia,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E12,E1,1,< (Precedes),False,his account was written years later by a scribe who had never met him,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E12,E2,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,the coastline was drawn before the expedition that supposedly discovered it
+E12,E3,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,corrected after the captain who made the correction had already returned to Seville
+E12,E4,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,The captain left Cádiz during the autumn
+E12,E5,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,a royal commission was still debating whether the voyage should sail west
+E12,E6,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,his navigator had spent the previous summer in Madeira copying a chart
+E12,E7,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,that showed an island he would later claim to have found himself
+E12,E8,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E12,E9,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,by the time that letter reached the harbor
+E12,E10,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,the ships had already been reported missing in the Caribbean
+E12,E11,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E12,E13,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,merchants insured cargo against a route that had not yet been officially recognized
+E12,E14,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,The captain’s brother said the map was redrawn after the first landing
+E12,E15,-1,> (Preceded By),False,his account was written years later by a scribe who had never met him,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E12,E16,-2,mi (Met By),False,his account was written years later by a scribe who had never met him,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E12,E17,1,< (Precedes),False,his account was written years later by a scribe who had never met him,I found the disputed map last spring in a basement in Lisbon
+E12,E18,1,< (Precedes),False,his account was written years later by a scribe who had never met him,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E12,E19,1,< (Precedes),False,his account was written years later by a scribe who had never met him,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E12,E20,1,< (Precedes),False,his account was written years later by a scribe who had never met him,the logbook says the captain saw the coastline tomorrow
+E12,E21,1,< (Precedes),False,his account was written years later by a scribe who had never met him,a phrase that meant “the next day” to the sailor who wrote it
+E12,E22,1,< (Precedes),False,his account was written years later by a scribe who had never met him,but “the future voyage” to the clerk who copied it decades later
+E12,E23,1,< (Precedes),False,his account was written years later by a scribe who had never met him,The chart will be presented to the museum tomorrow
+E12,E24,1,< (Precedes),False,his account was written years later by a scribe who had never met him,unless the coordinates prove that the ship reached the coast before departing
+E12,E25,0,= (Equal),False,his account was written years later by a scribe who had never met him,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E13,E1,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E13,E2,-1,> (Preceded By),False,merchants insured cargo against a route that had not yet been officially recognized,the coastline was drawn before the expedition that supposedly discovered it
+E13,E3,3,o (Overlaps),False,merchants insured cargo against a route that had not yet been officially recognized,corrected after the captain who made the correction had already returned to Seville
+E13,E4,-3,oi (Overlapped By),False,merchants insured cargo against a route that had not yet been officially recognized,The captain left Cádiz during the autumn
+E13,E5,-2,mi (Met By),False,merchants insured cargo against a route that had not yet been officially recognized,a royal commission was still debating whether the voyage should sail west
+E13,E6,-1,> (Preceded By),False,merchants insured cargo against a route that had not yet been officially recognized,his navigator had spent the previous summer in Madeira copying a chart
+E13,E7,-1,> (Preceded By),False,merchants insured cargo against a route that had not yet been officially recognized,that showed an island he would later claim to have found himself
+E13,E8,3,o (Overlaps),False,merchants insured cargo against a route that had not yet been officially recognized,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E13,E9,3,o (Overlaps),False,merchants insured cargo against a route that had not yet been officially recognized,by the time that letter reached the harbor
+E13,E10,3,o (Overlaps),False,merchants insured cargo against a route that had not yet been officially recognized,the ships had already been reported missing in the Caribbean
+E13,E11,-3,oi (Overlapped By),False,merchants insured cargo against a route that had not yet been officially recognized,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E13,E12,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,his account was written years later by a scribe who had never met him
+E13,E14,3,o (Overlaps),False,merchants insured cargo against a route that had not yet been officially recognized,The captain’s brother said the map was redrawn after the first landing
+E13,E15,-3,oi (Overlapped By),False,merchants insured cargo against a route that had not yet been officially recognized,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E13,E16,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E13,E17,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,I found the disputed map last spring in a basement in Lisbon
+E13,E18,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E13,E19,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E13,E20,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,the logbook says the captain saw the coastline tomorrow
+E13,E21,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,a phrase that meant “the next day” to the sailor who wrote it
+E13,E22,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,but “the future voyage” to the clerk who copied it decades later
+E13,E23,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,The chart will be presented to the museum tomorrow
+E13,E24,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,unless the coordinates prove that the ship reached the coast before departing
+E13,E25,1,< (Precedes),False,merchants insured cargo against a route that had not yet been officially recognized,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E14,E1,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E14,E2,-1,> (Preceded By),False,The captain’s brother said the map was redrawn after the first landing,the coastline was drawn before the expedition that supposedly discovered it
+E14,E3,-3,oi (Overlapped By),False,The captain’s brother said the map was redrawn after the first landing,corrected after the captain who made the correction had already returned to Seville
+E14,E4,-1,> (Preceded By),False,The captain’s brother said the map was redrawn after the first landing,The captain left Cádiz during the autumn
+E14,E5,-1,> (Preceded By),False,The captain’s brother said the map was redrawn after the first landing,a royal commission was still debating whether the voyage should sail west
+E14,E6,-1,> (Preceded By),False,The captain’s brother said the map was redrawn after the first landing,his navigator had spent the previous summer in Madeira copying a chart
+E14,E7,-1,> (Preceded By),False,The captain’s brother said the map was redrawn after the first landing,that showed an island he would later claim to have found himself
+E14,E8,-3,oi (Overlapped By),False,The captain’s brother said the map was redrawn after the first landing,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E14,E9,-3,oi (Overlapped By),False,The captain’s brother said the map was redrawn after the first landing,by the time that letter reached the harbor
+E14,E10,-3,oi (Overlapped By),False,The captain’s brother said the map was redrawn after the first landing,the ships had already been reported missing in the Caribbean
+E14,E11,-1,> (Preceded By),False,The captain’s brother said the map was redrawn after the first landing,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E14,E12,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,his account was written years later by a scribe who had never met him
+E14,E13,-3,oi (Overlapped By),False,The captain’s brother said the map was redrawn after the first landing,merchants insured cargo against a route that had not yet been officially recognized
+E14,E15,-1,> (Preceded By),False,The captain’s brother said the map was redrawn after the first landing,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E14,E16,3,o (Overlaps),False,The captain’s brother said the map was redrawn after the first landing,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E14,E17,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,I found the disputed map last spring in a basement in Lisbon
+E14,E18,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E14,E19,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E14,E20,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,the logbook says the captain saw the coastline tomorrow
+E14,E21,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,a phrase that meant “the next day” to the sailor who wrote it
+E14,E22,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,but “the future voyage” to the clerk who copied it decades later
+E14,E23,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,The chart will be presented to the museum tomorrow
+E14,E24,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,unless the coordinates prove that the ship reached the coast before departing
+E14,E25,1,< (Precedes),False,The captain’s brother said the map was redrawn after the first landing,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E15,E1,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E15,E2,-3,oi (Overlapped By),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,the coastline was drawn before the expedition that supposedly discovered it
+E15,E3,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,corrected after the captain who made the correction had already returned to Seville
+E15,E4,3,o (Overlaps),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,The captain left Cádiz during the autumn
+E15,E5,-3,oi (Overlapped By),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,a royal commission was still debating whether the voyage should sail west
+E15,E6,-1,> (Preceded By),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,his navigator had spent the previous summer in Madeira copying a chart
+E15,E7,-3,oi (Overlapped By),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,that showed an island he would later claim to have found himself
+E15,E8,3,o (Overlaps),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E15,E9,2,m (Meets),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,by the time that letter reached the harbor
+E15,E10,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,the ships had already been reported missing in the Caribbean
+E15,E11,0,= (Equal),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E15,E12,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,his account was written years later by a scribe who had never met him
+E15,E13,3,o (Overlaps),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,merchants insured cargo against a route that had not yet been officially recognized
+E15,E14,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,The captain’s brother said the map was redrawn after the first landing
+E15,E16,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E15,E17,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,I found the disputed map last spring in a basement in Lisbon
+E15,E18,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E15,E19,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E15,E20,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,the logbook says the captain saw the coastline tomorrow
+E15,E21,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,a phrase that meant “the next day” to the sailor who wrote it
+E15,E22,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,but “the future voyage” to the clerk who copied it decades later
+E15,E23,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,The chart will be presented to the museum tomorrow
+E15,E24,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,unless the coordinates prove that the ship reached the coast before departing
+E15,E25,1,< (Precedes),False,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E16,E1,1,< (Precedes),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E16,E2,-1,> (Preceded By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,the coastline was drawn before the expedition that supposedly discovered it
+E16,E3,-2,mi (Met By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,corrected after the captain who made the correction had already returned to Seville
+E16,E4,-1,> (Preceded By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,The captain left Cádiz during the autumn
+E16,E5,-1,> (Preceded By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,a royal commission was still debating whether the voyage should sail west
+E16,E6,-1,> (Preceded By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,his navigator had spent the previous summer in Madeira copying a chart
+E16,E7,-1,> (Preceded By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,that showed an island he would later claim to have found himself
+E16,E8,-1,> (Preceded By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E16,E9,-1,> (Preceded By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,by the time that letter reached the harbor
+E16,E10,-2,mi (Met By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,the ships had already been reported missing in the Caribbean
+E16,E11,-1,> (Preceded By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E16,E12,2,m (Meets),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,his account was written years later by a scribe who had never met him
+E16,E13,-1,> (Preceded By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,merchants insured cargo against a route that had not yet been officially recognized
+E16,E14,-3,oi (Overlapped By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,The captain’s brother said the map was redrawn after the first landing
+E16,E15,-1,> (Preceded By),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E16,E17,1,< (Precedes),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,I found the disputed map last spring in a basement in Lisbon
+E16,E18,1,< (Precedes),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E16,E19,1,< (Precedes),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E16,E20,1,< (Precedes),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,the logbook says the captain saw the coastline tomorrow
+E16,E21,1,< (Precedes),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,a phrase that meant “the next day” to the sailor who wrote it
+E16,E22,1,< (Precedes),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,but “the future voyage” to the clerk who copied it decades later
+E16,E23,1,< (Precedes),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,The chart will be presented to the museum tomorrow
+E16,E24,1,< (Precedes),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,unless the coordinates prove that the ship reached the coast before departing
+E16,E25,2,m (Meets),False,a later copy places the landing on an island that had disappeared from charts by the time the captain returned,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E17,E1,2,m (Meets),False,I found the disputed map last spring in a basement in Lisbon,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E17,E2,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,the coastline was drawn before the expedition that supposedly discovered it
+E17,E3,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,corrected after the captain who made the correction had already returned to Seville
+E17,E4,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,The captain left Cádiz during the autumn
+E17,E5,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,a royal commission was still debating whether the voyage should sail west
+E17,E6,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,his navigator had spent the previous summer in Madeira copying a chart
+E17,E7,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,that showed an island he would later claim to have found himself
+E17,E8,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E17,E9,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,by the time that letter reached the harbor
+E17,E10,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,the ships had already been reported missing in the Caribbean
+E17,E11,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E17,E12,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,his account was written years later by a scribe who had never met him
+E17,E13,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,merchants insured cargo against a route that had not yet been officially recognized
+E17,E14,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,The captain’s brother said the map was redrawn after the first landing
+E17,E15,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E17,E16,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E17,E18,-2,mi (Met By),False,I found the disputed map last spring in a basement in Lisbon,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E17,E19,3,o (Overlaps),False,I found the disputed map last spring in a basement in Lisbon,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E17,E20,2,m (Meets),False,I found the disputed map last spring in a basement in Lisbon,the logbook says the captain saw the coastline tomorrow
+E17,E21,2,m (Meets),False,I found the disputed map last spring in a basement in Lisbon,a phrase that meant “the next day” to the sailor who wrote it
+E17,E22,1,< (Precedes),False,I found the disputed map last spring in a basement in Lisbon,but “the future voyage” to the clerk who copied it decades later
+E17,E23,1,< (Precedes),False,I found the disputed map last spring in a basement in Lisbon,The chart will be presented to the museum tomorrow
+E17,E24,1,< (Precedes),False,I found the disputed map last spring in a basement in Lisbon,unless the coordinates prove that the ship reached the coast before departing
+E17,E25,-1,> (Preceded By),False,I found the disputed map last spring in a basement in Lisbon,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E18,E1,1,< (Precedes),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E18,E2,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,the coastline was drawn before the expedition that supposedly discovered it
+E18,E3,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,corrected after the captain who made the correction had already returned to Seville
+E18,E4,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,The captain left Cádiz during the autumn
+E18,E5,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,a royal commission was still debating whether the voyage should sail west
+E18,E6,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,his navigator had spent the previous summer in Madeira copying a chart
+E18,E7,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,that showed an island he would later claim to have found himself
+E18,E8,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E18,E9,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,by the time that letter reached the harbor
+E18,E10,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,the ships had already been reported missing in the Caribbean
+E18,E11,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E18,E12,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,his account was written years later by a scribe who had never met him
+E18,E13,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,merchants insured cargo against a route that had not yet been officially recognized
+E18,E14,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,The captain’s brother said the map was redrawn after the first landing
+E18,E15,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E18,E16,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E18,E17,2,m (Meets),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,I found the disputed map last spring in a basement in Lisbon
+E18,E19,1,< (Precedes),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E18,E20,1,< (Precedes),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,the logbook says the captain saw the coastline tomorrow
+E18,E21,1,< (Precedes),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,a phrase that meant “the next day” to the sailor who wrote it
+E18,E22,1,< (Precedes),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,but “the future voyage” to the clerk who copied it decades later
+E18,E23,1,< (Precedes),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,The chart will be presented to the museum tomorrow
+E18,E24,1,< (Precedes),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,unless the coordinates prove that the ship reached the coast before departing
+E18,E25,-1,> (Preceded By),False,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E19,E1,3,o (Overlaps),False,"Yesterday, I compared the ink with a logbook written aboard the ship",I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E19,E2,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",the coastline was drawn before the expedition that supposedly discovered it
+E19,E3,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",corrected after the captain who made the correction had already returned to Seville
+E19,E4,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",The captain left Cádiz during the autumn
+E19,E5,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",a royal commission was still debating whether the voyage should sail west
+E19,E6,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",his navigator had spent the previous summer in Madeira copying a chart
+E19,E7,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",that showed an island he would later claim to have found himself
+E19,E8,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E19,E9,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",by the time that letter reached the harbor
+E19,E10,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",the ships had already been reported missing in the Caribbean
+E19,E11,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",a monk recorded hearing news of the expedition before the fleet had left Iberia
+E19,E12,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",his account was written years later by a scribe who had never met him
+E19,E13,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",merchants insured cargo against a route that had not yet been officially recognized
+E19,E14,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",The captain’s brother said the map was redrawn after the first landing
+E19,E15,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E19,E16,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E19,E17,-3,oi (Overlapped By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",I found the disputed map last spring in a basement in Lisbon
+E19,E18,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E19,E20,3,o (Overlaps),False,"Yesterday, I compared the ink with a logbook written aboard the ship",the logbook says the captain saw the coastline tomorrow
+E19,E21,3,o (Overlaps),False,"Yesterday, I compared the ink with a logbook written aboard the ship",a phrase that meant “the next day” to the sailor who wrote it
+E19,E22,1,< (Precedes),False,"Yesterday, I compared the ink with a logbook written aboard the ship",but “the future voyage” to the clerk who copied it decades later
+E19,E23,3,o (Overlaps),False,"Yesterday, I compared the ink with a logbook written aboard the ship",The chart will be presented to the museum tomorrow
+E19,E24,3,o (Overlaps),False,"Yesterday, I compared the ink with a logbook written aboard the ship",unless the coordinates prove that the ship reached the coast before departing
+E19,E25,-1,> (Preceded By),False,"Yesterday, I compared the ink with a logbook written aboard the ship",the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E20,E1,0,= (Equal),False,the logbook says the captain saw the coastline tomorrow,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E20,E2,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,the coastline was drawn before the expedition that supposedly discovered it
+E20,E3,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,corrected after the captain who made the correction had already returned to Seville
+E20,E4,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,The captain left Cádiz during the autumn
+E20,E5,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,a royal commission was still debating whether the voyage should sail west
+E20,E6,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,his navigator had spent the previous summer in Madeira copying a chart
+E20,E7,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,that showed an island he would later claim to have found himself
+E20,E8,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E20,E9,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,by the time that letter reached the harbor
+E20,E10,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,the ships had already been reported missing in the Caribbean
+E20,E11,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E20,E12,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,his account was written years later by a scribe who had never met him
+E20,E13,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,merchants insured cargo against a route that had not yet been officially recognized
+E20,E14,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,The captain’s brother said the map was redrawn after the first landing
+E20,E15,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E20,E16,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E20,E17,-2,mi (Met By),False,the logbook says the captain saw the coastline tomorrow,I found the disputed map last spring in a basement in Lisbon
+E20,E18,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E20,E19,-3,oi (Overlapped By),False,the logbook says the captain saw the coastline tomorrow,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E20,E21,0,= (Equal),False,the logbook says the captain saw the coastline tomorrow,a phrase that meant “the next day” to the sailor who wrote it
+E20,E22,1,< (Precedes),False,the logbook says the captain saw the coastline tomorrow,but “the future voyage” to the clerk who copied it decades later
+E20,E23,3,o (Overlaps),False,the logbook says the captain saw the coastline tomorrow,The chart will be presented to the museum tomorrow
+E20,E24,3,o (Overlaps),False,the logbook says the captain saw the coastline tomorrow,unless the coordinates prove that the ship reached the coast before departing
+E20,E25,-1,> (Preceded By),False,the logbook says the captain saw the coastline tomorrow,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E21,E1,0,= (Equal),False,a phrase that meant “the next day” to the sailor who wrote it,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E21,E2,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,the coastline was drawn before the expedition that supposedly discovered it
+E21,E3,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,corrected after the captain who made the correction had already returned to Seville
+E21,E4,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,The captain left Cádiz during the autumn
+E21,E5,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,a royal commission was still debating whether the voyage should sail west
+E21,E6,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,his navigator had spent the previous summer in Madeira copying a chart
+E21,E7,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,that showed an island he would later claim to have found himself
+E21,E8,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E21,E9,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,by the time that letter reached the harbor
+E21,E10,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,the ships had already been reported missing in the Caribbean
+E21,E11,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E21,E12,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,his account was written years later by a scribe who had never met him
+E21,E13,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,merchants insured cargo against a route that had not yet been officially recognized
+E21,E14,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,The captain’s brother said the map was redrawn after the first landing
+E21,E15,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E21,E16,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E21,E17,-2,mi (Met By),False,a phrase that meant “the next day” to the sailor who wrote it,I found the disputed map last spring in a basement in Lisbon
+E21,E18,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E21,E19,-3,oi (Overlapped By),False,a phrase that meant “the next day” to the sailor who wrote it,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E21,E20,0,= (Equal),False,a phrase that meant “the next day” to the sailor who wrote it,the logbook says the captain saw the coastline tomorrow
+E21,E22,1,< (Precedes),False,a phrase that meant “the next day” to the sailor who wrote it,but “the future voyage” to the clerk who copied it decades later
+E21,E23,3,o (Overlaps),False,a phrase that meant “the next day” to the sailor who wrote it,The chart will be presented to the museum tomorrow
+E21,E24,3,o (Overlaps),False,a phrase that meant “the next day” to the sailor who wrote it,unless the coordinates prove that the ship reached the coast before departing
+E21,E25,-1,> (Preceded By),False,a phrase that meant “the next day” to the sailor who wrote it,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E22,E1,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E22,E2,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,the coastline was drawn before the expedition that supposedly discovered it
+E22,E3,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,corrected after the captain who made the correction had already returned to Seville
+E22,E4,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,The captain left Cádiz during the autumn
+E22,E5,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,a royal commission was still debating whether the voyage should sail west
+E22,E6,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,his navigator had spent the previous summer in Madeira copying a chart
+E22,E7,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,that showed an island he would later claim to have found himself
+E22,E8,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E22,E9,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,by the time that letter reached the harbor
+E22,E10,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,the ships had already been reported missing in the Caribbean
+E22,E11,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E22,E12,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,his account was written years later by a scribe who had never met him
+E22,E13,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,merchants insured cargo against a route that had not yet been officially recognized
+E22,E14,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,The captain’s brother said the map was redrawn after the first landing
+E22,E15,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E22,E16,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E22,E17,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,I found the disputed map last spring in a basement in Lisbon
+E22,E18,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E22,E19,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E22,E20,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,the logbook says the captain saw the coastline tomorrow
+E22,E21,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,a phrase that meant “the next day” to the sailor who wrote it
+E22,E23,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,The chart will be presented to the museum tomorrow
+E22,E24,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,unless the coordinates prove that the ship reached the coast before departing
+E22,E25,-1,> (Preceded By),False,but “the future voyage” to the clerk who copied it decades later,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E23,E1,-3,oi (Overlapped By),False,The chart will be presented to the museum tomorrow,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E23,E2,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,the coastline was drawn before the expedition that supposedly discovered it
+E23,E3,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,corrected after the captain who made the correction had already returned to Seville
+E23,E4,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,The captain left Cádiz during the autumn
+E23,E5,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,a royal commission was still debating whether the voyage should sail west
+E23,E6,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,his navigator had spent the previous summer in Madeira copying a chart
+E23,E7,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,that showed an island he would later claim to have found himself
+E23,E8,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E23,E9,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,by the time that letter reached the harbor
+E23,E10,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,the ships had already been reported missing in the Caribbean
+E23,E11,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E23,E12,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,his account was written years later by a scribe who had never met him
+E23,E13,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,merchants insured cargo against a route that had not yet been officially recognized
+E23,E14,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,The captain’s brother said the map was redrawn after the first landing
+E23,E15,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E23,E16,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E23,E17,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,I found the disputed map last spring in a basement in Lisbon
+E23,E18,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E23,E19,-3,oi (Overlapped By),False,The chart will be presented to the museum tomorrow,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E23,E20,-3,oi (Overlapped By),False,The chart will be presented to the museum tomorrow,the logbook says the captain saw the coastline tomorrow
+E23,E21,-3,oi (Overlapped By),False,The chart will be presented to the museum tomorrow,a phrase that meant “the next day” to the sailor who wrote it
+E23,E22,1,< (Precedes),False,The chart will be presented to the museum tomorrow,but “the future voyage” to the clerk who copied it decades later
+E23,E24,3,o (Overlaps),False,The chart will be presented to the museum tomorrow,unless the coordinates prove that the ship reached the coast before departing
+E23,E25,-1,> (Preceded By),False,The chart will be presented to the museum tomorrow,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E24,E1,-3,oi (Overlapped By),False,unless the coordinates prove that the ship reached the coast before departing,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E24,E2,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,the coastline was drawn before the expedition that supposedly discovered it
+E24,E3,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,corrected after the captain who made the correction had already returned to Seville
+E24,E4,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,The captain left Cádiz during the autumn
+E24,E5,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,a royal commission was still debating whether the voyage should sail west
+E24,E6,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,his navigator had spent the previous summer in Madeira copying a chart
+E24,E7,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,that showed an island he would later claim to have found himself
+E24,E8,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E24,E9,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,by the time that letter reached the harbor
+E24,E10,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,the ships had already been reported missing in the Caribbean
+E24,E11,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E24,E12,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,his account was written years later by a scribe who had never met him
+E24,E13,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,merchants insured cargo against a route that had not yet been officially recognized
+E24,E14,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,The captain’s brother said the map was redrawn after the first landing
+E24,E15,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E24,E16,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E24,E17,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,I found the disputed map last spring in a basement in Lisbon
+E24,E18,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E24,E19,-3,oi (Overlapped By),False,unless the coordinates prove that the ship reached the coast before departing,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E24,E20,-3,oi (Overlapped By),False,unless the coordinates prove that the ship reached the coast before departing,the logbook says the captain saw the coastline tomorrow
+E24,E21,-3,oi (Overlapped By),False,unless the coordinates prove that the ship reached the coast before departing,a phrase that meant “the next day” to the sailor who wrote it
+E24,E22,1,< (Precedes),False,unless the coordinates prove that the ship reached the coast before departing,but “the future voyage” to the clerk who copied it decades later
+E24,E23,-3,oi (Overlapped By),False,unless the coordinates prove that the ship reached the coast before departing,The chart will be presented to the museum tomorrow
+E24,E25,-1,> (Preceded By),False,unless the coordinates prove that the ship reached the coast before departing,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived
+E25,E1,1,< (Precedes),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,I am tracing a coastline on a navigation chart in Lisbon this afternoon
+E25,E2,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,the coastline was drawn before the expedition that supposedly discovered it
+E25,E3,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,corrected after the captain who made the correction had already returned to Seville
+E25,E4,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,The captain left Cádiz during the autumn
+E25,E5,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,a royal commission was still debating whether the voyage should sail west
+E25,E6,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,his navigator had spent the previous summer in Madeira copying a chart
+E25,E7,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,that showed an island he would later claim to have found himself
+E25,E8,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,A storm drove the fleet toward the Azores three days before a letter from the court ordered the fleet to avoid the Azores
+E25,E9,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,by the time that letter reached the harbor
+E25,E10,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,the ships had already been reported missing in the Caribbean
+E25,E11,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,a monk recorded hearing news of the expedition before the fleet had left Iberia
+E25,E12,0,= (Equal),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,his account was written years later by a scribe who had never met him
+E25,E13,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,merchants insured cargo against a route that had not yet been officially recognized
+E25,E14,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,The captain’s brother said the map was redrawn after the first landing
+E25,E15,-1,> (Preceded By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,the mapmaker’s apprentice remembered receiving the coordinates before the ship sailed
+E25,E16,-2,mi (Met By),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,a later copy places the landing on an island that had disappeared from charts by the time the captain returned
+E25,E17,1,< (Precedes),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,I found the disputed map last spring in a basement in Lisbon
+E25,E18,1,< (Precedes),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,a historian in Havana told me that the original had been burned in Madrid during a fire that occurred before the historian’s source was born
+E25,E19,1,< (Precedes),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,"Yesterday, I compared the ink with a logbook written aboard the ship"
+E25,E20,1,< (Precedes),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,the logbook says the captain saw the coastline tomorrow
+E25,E21,1,< (Precedes),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,a phrase that meant “the next day” to the sailor who wrote it
+E25,E22,1,< (Precedes),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,but “the future voyage” to the clerk who copied it decades later
+E25,E23,1,< (Precedes),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,The chart will be presented to the museum tomorrow
+E25,E24,1,< (Precedes),False,the captain’s final note—written after his return to Seville and before his death in Lisbon—describes watching his own fleet disappear beyond the horizon from a harbor where the fleet had not yet arrived,unless the coordinates prove that the ship reached the coast before departing

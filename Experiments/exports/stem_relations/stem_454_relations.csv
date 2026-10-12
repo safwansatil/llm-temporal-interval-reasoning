@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,A power failure struck the fruit cold storage facility,the night supervisor completed his rounds
+E1,E3,0,= (Equal),False,A power failure struck the fruit cold storage facility,The facility's backup generator started automatically
+E1,E4,1,< (Precedes),False,A power failure struck the fruit cold storage facility,sputtered out
+E1,E5,1,< (Precedes),False,A power failure struck the fruit cold storage facility,The maintenance technician arrived on-site
+E1,E6,1,< (Precedes),False,A power failure struck the fruit cold storage facility,replace the filter and bleed the fuel lines
+E1,E7,1,< (Precedes),False,A power failure struck the fruit cold storage facility,the internal chamber temperature rose by one degree every thirty minutes
+E1,E8,1,< (Precedes),False,A power failure struck the fruit cold storage facility,the generator restarted
+E1,E9,1,< (Precedes),False,A power failure struck the fruit cold storage facility,the quality assurance inspector arrived
+E1,E10,1,< (Precedes),False,A power failure struck the fruit cold storage facility,spent two hours inspecting the mango crates
+E1,E11,1,< (Precedes),False,A power failure struck the fruit cold storage facility,the facility returned to its base temperature
+E1,E12,1,< (Precedes),False,A power failure struck the fruit cold storage facility,concluded without spoiling any produce.
+E2,E1,-1,> (Preceded By),False,the night supervisor completed his rounds,A power failure struck the fruit cold storage facility
+E2,E3,-1,> (Preceded By),False,the night supervisor completed his rounds,The facility's backup generator started automatically
+E2,E4,1,< (Precedes),False,the night supervisor completed his rounds,sputtered out
+E2,E5,1,< (Precedes),False,the night supervisor completed his rounds,The maintenance technician arrived on-site
+E2,E6,1,< (Precedes),False,the night supervisor completed his rounds,replace the filter and bleed the fuel lines
+E2,E7,1,< (Precedes),False,the night supervisor completed his rounds,the internal chamber temperature rose by one degree every thirty minutes
+E2,E8,1,< (Precedes),False,the night supervisor completed his rounds,the generator restarted
+E2,E9,1,< (Precedes),False,the night supervisor completed his rounds,the quality assurance inspector arrived
+E2,E10,1,< (Precedes),False,the night supervisor completed his rounds,spent two hours inspecting the mango crates
+E2,E11,1,< (Precedes),False,the night supervisor completed his rounds,the facility returned to its base temperature
+E2,E12,1,< (Precedes),False,the night supervisor completed his rounds,concluded without spoiling any produce.
+E3,E1,0,= (Equal),False,The facility's backup generator started automatically,A power failure struck the fruit cold storage facility
+E3,E2,1,< (Precedes),False,The facility's backup generator started automatically,the night supervisor completed his rounds
+E3,E4,1,< (Precedes),False,The facility's backup generator started automatically,sputtered out
+E3,E5,1,< (Precedes),False,The facility's backup generator started automatically,The maintenance technician arrived on-site
+E3,E6,1,< (Precedes),False,The facility's backup generator started automatically,replace the filter and bleed the fuel lines
+E3,E7,1,< (Precedes),False,The facility's backup generator started automatically,the internal chamber temperature rose by one degree every thirty minutes
+E3,E8,1,< (Precedes),False,The facility's backup generator started automatically,the generator restarted
+E3,E9,1,< (Precedes),False,The facility's backup generator started automatically,the quality assurance inspector arrived
+E3,E10,1,< (Precedes),False,The facility's backup generator started automatically,spent two hours inspecting the mango crates
+E3,E11,1,< (Precedes),False,The facility's backup generator started automatically,the facility returned to its base temperature
+E3,E12,1,< (Precedes),False,The facility's backup generator started automatically,concluded without spoiling any produce.
+E4,E1,-1,> (Preceded By),False,sputtered out,A power failure struck the fruit cold storage facility
+E4,E2,-1,> (Preceded By),False,sputtered out,the night supervisor completed his rounds
+E4,E3,-1,> (Preceded By),False,sputtered out,The facility's backup generator started automatically
+E4,E5,1,< (Precedes),False,sputtered out,The maintenance technician arrived on-site
+E4,E6,1,< (Precedes),False,sputtered out,replace the filter and bleed the fuel lines
+E4,E7,1,< (Precedes),False,sputtered out,the internal chamber temperature rose by one degree every thirty minutes
+E4,E8,1,< (Precedes),False,sputtered out,the generator restarted
+E4,E9,1,< (Precedes),False,sputtered out,the quality assurance inspector arrived
+E4,E10,1,< (Precedes),False,sputtered out,spent two hours inspecting the mango crates
+E4,E11,1,< (Precedes),False,sputtered out,the facility returned to its base temperature
+E4,E12,1,< (Precedes),False,sputtered out,concluded without spoiling any produce.
+E5,E1,-1,> (Preceded By),False,The maintenance technician arrived on-site,A power failure struck the fruit cold storage facility
+E5,E2,-1,> (Preceded By),False,The maintenance technician arrived on-site,the night supervisor completed his rounds
+E5,E3,-1,> (Preceded By),False,The maintenance technician arrived on-site,The facility's backup generator started automatically
+E5,E4,-1,> (Preceded By),False,The maintenance technician arrived on-site,sputtered out
+E5,E6,4,s (Starts),False,The maintenance technician arrived on-site,replace the filter and bleed the fuel lines
+E5,E7,4,s (Starts),False,The maintenance technician arrived on-site,the internal chamber temperature rose by one degree every thirty minutes
+E5,E8,1,< (Precedes),False,The maintenance technician arrived on-site,the generator restarted
+E5,E9,1,< (Precedes),False,The maintenance technician arrived on-site,the quality assurance inspector arrived
+E5,E10,1,< (Precedes),False,The maintenance technician arrived on-site,spent two hours inspecting the mango crates
+E5,E11,1,< (Precedes),False,The maintenance technician arrived on-site,the facility returned to its base temperature
+E5,E12,1,< (Precedes),False,The maintenance technician arrived on-site,concluded without spoiling any produce.
+E6,E1,-1,> (Preceded By),False,replace the filter and bleed the fuel lines,A power failure struck the fruit cold storage facility
+E6,E2,-1,> (Preceded By),False,replace the filter and bleed the fuel lines,the night supervisor completed his rounds
+E6,E3,-1,> (Preceded By),False,replace the filter and bleed the fuel lines,The facility's backup generator started automatically
+E6,E4,-1,> (Preceded By),False,replace the filter and bleed the fuel lines,sputtered out
+E6,E5,-4,si (Started By),False,replace the filter and bleed the fuel lines,The maintenance technician arrived on-site
+E6,E7,0,= (Equal),False,replace the filter and bleed the fuel lines,the internal chamber temperature rose by one degree every thirty minutes
+E6,E8,2,m (Meets),False,replace the filter and bleed the fuel lines,the generator restarted
+E6,E9,1,< (Precedes),False,replace the filter and bleed the fuel lines,the quality assurance inspector arrived
+E6,E10,1,< (Precedes),False,replace the filter and bleed the fuel lines,spent two hours inspecting the mango crates
+E6,E11,1,< (Precedes),False,replace the filter and bleed the fuel lines,the facility returned to its base temperature
+E6,E12,1,< (Precedes),False,replace the filter and bleed the fuel lines,concluded without spoiling any produce.
+E7,E1,-1,> (Preceded By),False,the internal chamber temperature rose by one degree every thirty minutes,A power failure struck the fruit cold storage facility
+E7,E2,-1,> (Preceded By),False,the internal chamber temperature rose by one degree every thirty minutes,the night supervisor completed his rounds
+E7,E3,-1,> (Preceded By),False,the internal chamber temperature rose by one degree every thirty minutes,The facility's backup generator started automatically
+E7,E4,-1,> (Preceded By),False,the internal chamber temperature rose by one degree every thirty minutes,sputtered out
+E7,E5,-4,si (Started By),False,the internal chamber temperature rose by one degree every thirty minutes,The maintenance technician arrived on-site
+E7,E6,0,= (Equal),False,the internal chamber temperature rose by one degree every thirty minutes,replace the filter and bleed the fuel lines
+E7,E8,2,m (Meets),False,the internal chamber temperature rose by one degree every thirty minutes,the generator restarted
+E7,E9,1,< (Precedes),False,the internal chamber temperature rose by one degree every thirty minutes,the quality assurance inspector arrived
+E7,E10,1,< (Precedes),False,the internal chamber temperature rose by one degree every thirty minutes,spent two hours inspecting the mango crates
+E7,E11,1,< (Precedes),False,the internal chamber temperature rose by one degree every thirty minutes,the facility returned to its base temperature
+E7,E12,1,< (Precedes),False,the internal chamber temperature rose by one degree every thirty minutes,concluded without spoiling any produce.
+E8,E1,-1,> (Preceded By),False,the generator restarted,A power failure struck the fruit cold storage facility
+E8,E2,-1,> (Preceded By),False,the generator restarted,the night supervisor completed his rounds
+E8,E3,-1,> (Preceded By),False,the generator restarted,The facility's backup generator started automatically
+E8,E4,-1,> (Preceded By),False,the generator restarted,sputtered out
+E8,E5,-1,> (Preceded By),False,the generator restarted,The maintenance technician arrived on-site
+E8,E6,-2,mi (Met By),False,the generator restarted,replace the filter and bleed the fuel lines
+E8,E7,-2,mi (Met By),False,the generator restarted,the internal chamber temperature rose by one degree every thirty minutes
+E8,E9,1,< (Precedes),False,the generator restarted,the quality assurance inspector arrived
+E8,E10,1,< (Precedes),False,the generator restarted,spent two hours inspecting the mango crates
+E8,E11,1,< (Precedes),False,the generator restarted,the facility returned to its base temperature
+E8,E12,1,< (Precedes),False,the generator restarted,concluded without spoiling any produce.
+E9,E1,-1,> (Preceded By),False,the quality assurance inspector arrived,A power failure struck the fruit cold storage facility
+E9,E2,-1,> (Preceded By),False,the quality assurance inspector arrived,the night supervisor completed his rounds
+E9,E3,-1,> (Preceded By),False,the quality assurance inspector arrived,The facility's backup generator started automatically
+E9,E4,-1,> (Preceded By),False,the quality assurance inspector arrived,sputtered out
+E9,E5,-1,> (Preceded By),False,the quality assurance inspector arrived,The maintenance technician arrived on-site
+E9,E6,-1,> (Preceded By),False,the quality assurance inspector arrived,replace the filter and bleed the fuel lines
+E9,E7,-1,> (Preceded By),False,the quality assurance inspector arrived,the internal chamber temperature rose by one degree every thirty minutes
+E9,E8,-1,> (Preceded By),False,the quality assurance inspector arrived,the generator restarted
+E9,E10,4,s (Starts),False,the quality assurance inspector arrived,spent two hours inspecting the mango crates
+E9,E11,1,< (Precedes),False,the quality assurance inspector arrived,the facility returned to its base temperature
+E9,E12,1,< (Precedes),False,the quality assurance inspector arrived,concluded without spoiling any produce.
+E10,E1,-1,> (Preceded By),False,spent two hours inspecting the mango crates,A power failure struck the fruit cold storage facility
+E10,E2,-1,> (Preceded By),False,spent two hours inspecting the mango crates,the night supervisor completed his rounds
+E10,E3,-1,> (Preceded By),False,spent two hours inspecting the mango crates,The facility's backup generator started automatically
+E10,E4,-1,> (Preceded By),False,spent two hours inspecting the mango crates,sputtered out
+E10,E5,-1,> (Preceded By),False,spent two hours inspecting the mango crates,The maintenance technician arrived on-site
+E10,E6,-1,> (Preceded By),False,spent two hours inspecting the mango crates,replace the filter and bleed the fuel lines
+E10,E7,-1,> (Preceded By),False,spent two hours inspecting the mango crates,the internal chamber temperature rose by one degree every thirty minutes
+E10,E8,-1,> (Preceded By),False,spent two hours inspecting the mango crates,the generator restarted
+E10,E9,-4,si (Started By),False,spent two hours inspecting the mango crates,the quality assurance inspector arrived
+E10,E11,-5,di (Contains),False,spent two hours inspecting the mango crates,the facility returned to its base temperature
+E10,E12,-6,fi (Finished By),False,spent two hours inspecting the mango crates,concluded without spoiling any produce.
+E11,E1,-1,> (Preceded By),False,the facility returned to its base temperature,A power failure struck the fruit cold storage facility
+E11,E2,-1,> (Preceded By),False,the facility returned to its base temperature,the night supervisor completed his rounds
+E11,E3,-1,> (Preceded By),False,the facility returned to its base temperature,The facility's backup generator started automatically
+E11,E4,-1,> (Preceded By),False,the facility returned to its base temperature,sputtered out
+E11,E5,-1,> (Preceded By),False,the facility returned to its base temperature,The maintenance technician arrived on-site
+E11,E6,-1,> (Preceded By),False,the facility returned to its base temperature,replace the filter and bleed the fuel lines
+E11,E7,-1,> (Preceded By),False,the facility returned to its base temperature,the internal chamber temperature rose by one degree every thirty minutes
+E11,E8,-1,> (Preceded By),False,the facility returned to its base temperature,the generator restarted
+E11,E9,-1,> (Preceded By),False,the facility returned to its base temperature,the quality assurance inspector arrived
+E11,E10,5,d (During),False,the facility returned to its base temperature,spent two hours inspecting the mango crates
+E11,E12,1,< (Precedes),False,the facility returned to its base temperature,concluded without spoiling any produce.
+E12,E1,-1,> (Preceded By),False,concluded without spoiling any produce.,A power failure struck the fruit cold storage facility
+E12,E2,-1,> (Preceded By),False,concluded without spoiling any produce.,the night supervisor completed his rounds
+E12,E3,-1,> (Preceded By),False,concluded without spoiling any produce.,The facility's backup generator started automatically
+E12,E4,-1,> (Preceded By),False,concluded without spoiling any produce.,sputtered out
+E12,E5,-1,> (Preceded By),False,concluded without spoiling any produce.,The maintenance technician arrived on-site
+E12,E6,-1,> (Preceded By),False,concluded without spoiling any produce.,replace the filter and bleed the fuel lines
+E12,E7,-1,> (Preceded By),False,concluded without spoiling any produce.,the internal chamber temperature rose by one degree every thirty minutes
+E12,E8,-1,> (Preceded By),False,concluded without spoiling any produce.,the generator restarted
+E12,E9,-1,> (Preceded By),False,concluded without spoiling any produce.,the quality assurance inspector arrived
+E12,E10,6,f (Finishes),False,concluded without spoiling any produce.,spent two hours inspecting the mango crates
+E12,E11,-1,> (Preceded By),False,concluded without spoiling any produce.,the facility returned to its base temperature

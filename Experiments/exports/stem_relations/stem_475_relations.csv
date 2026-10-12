@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-4,si (Started By),False,Dismantling the tower crane,rig its extension jib to roof height
+E1,E3,-5,di (Contains),False,Dismantling the tower crane,counterweights of the tower crane were unbolted and lowered
+E1,E4,-5,di (Contains),False,Dismantling the tower crane,detaching the rear boom
+E1,E5,-5,di (Contains),False,Dismantling the tower crane,Lowering the long front jib
+E1,E6,-5,di (Contains),False,Dismantling the tower crane,uncoupled the operator cabin
+E1,E7,-5,di (Contains),False,Dismantling the tower crane,lowering it
+E1,E8,-5,di (Contains),False,Dismantling the tower crane,Dismantling the central vertical mast sections
+E1,E9,-5,di (Contains),False,Dismantling the tower crane,final mast section was loaded onto a flatbed trailer
+E1,E10,-6,fi (Finished By),False,Dismantling the tower crane,mobile crane packed its outriggers and departed
+E1,E11,-5,di (Contains),False,Dismantling the tower crane,the jib removal
+E2,E1,4,s (Starts),False,rig its extension jib to roof height,Dismantling the tower crane
+E2,E3,2,m (Meets),False,rig its extension jib to roof height,counterweights of the tower crane were unbolted and lowered
+E2,E4,1,< (Precedes),False,rig its extension jib to roof height,detaching the rear boom
+E2,E5,1,< (Precedes),False,rig its extension jib to roof height,Lowering the long front jib
+E2,E6,1,< (Precedes),False,rig its extension jib to roof height,uncoupled the operator cabin
+E2,E7,1,< (Precedes),False,rig its extension jib to roof height,lowering it
+E2,E8,1,< (Precedes),False,rig its extension jib to roof height,Dismantling the central vertical mast sections
+E2,E9,1,< (Precedes),False,rig its extension jib to roof height,final mast section was loaded onto a flatbed trailer
+E2,E10,1,< (Precedes),False,rig its extension jib to roof height,mobile crane packed its outriggers and departed
+E2,E11,1,< (Precedes),False,rig its extension jib to roof height,the jib removal
+E3,E1,5,d (During),False,counterweights of the tower crane were unbolted and lowered,Dismantling the tower crane
+E3,E2,-2,mi (Met By),False,counterweights of the tower crane were unbolted and lowered,rig its extension jib to roof height
+E3,E4,2,m (Meets),False,counterweights of the tower crane were unbolted and lowered,detaching the rear boom
+E3,E5,1,< (Precedes),False,counterweights of the tower crane were unbolted and lowered,Lowering the long front jib
+E3,E6,1,< (Precedes),False,counterweights of the tower crane were unbolted and lowered,uncoupled the operator cabin
+E3,E7,1,< (Precedes),False,counterweights of the tower crane were unbolted and lowered,lowering it
+E3,E8,1,< (Precedes),False,counterweights of the tower crane were unbolted and lowered,Dismantling the central vertical mast sections
+E3,E9,1,< (Precedes),False,counterweights of the tower crane were unbolted and lowered,final mast section was loaded onto a flatbed trailer
+E3,E10,1,< (Precedes),False,counterweights of the tower crane were unbolted and lowered,mobile crane packed its outriggers and departed
+E3,E11,1,< (Precedes),False,counterweights of the tower crane were unbolted and lowered,the jib removal
+E4,E1,5,d (During),False,detaching the rear boom,Dismantling the tower crane
+E4,E2,-1,> (Preceded By),False,detaching the rear boom,rig its extension jib to roof height
+E4,E3,-2,mi (Met By),False,detaching the rear boom,counterweights of the tower crane were unbolted and lowered
+E4,E5,2,m (Meets),False,detaching the rear boom,Lowering the long front jib
+E4,E6,1,< (Precedes),False,detaching the rear boom,uncoupled the operator cabin
+E4,E7,1,< (Precedes),False,detaching the rear boom,lowering it
+E4,E8,3,o (Overlaps),False,detaching the rear boom,Dismantling the central vertical mast sections
+E4,E9,1,< (Precedes),False,detaching the rear boom,final mast section was loaded onto a flatbed trailer
+E4,E10,1,< (Precedes),False,detaching the rear boom,mobile crane packed its outriggers and departed
+E4,E11,2,m (Meets),False,detaching the rear boom,the jib removal
+E5,E1,5,d (During),False,Lowering the long front jib,Dismantling the tower crane
+E5,E2,-1,> (Preceded By),False,Lowering the long front jib,rig its extension jib to roof height
+E5,E3,-1,> (Preceded By),False,Lowering the long front jib,counterweights of the tower crane were unbolted and lowered
+E5,E4,-2,mi (Met By),False,Lowering the long front jib,detaching the rear boom
+E5,E6,-5,di (Contains),False,Lowering the long front jib,uncoupled the operator cabin
+E5,E7,1,< (Precedes),False,Lowering the long front jib,lowering it
+E5,E8,5,d (During),False,Lowering the long front jib,Dismantling the central vertical mast sections
+E5,E9,1,< (Precedes),False,Lowering the long front jib,final mast section was loaded onto a flatbed trailer
+E5,E10,1,< (Precedes),False,Lowering the long front jib,mobile crane packed its outriggers and departed
+E5,E11,0,= (Equal),False,Lowering the long front jib,the jib removal
+E6,E1,5,d (During),False,uncoupled the operator cabin,Dismantling the tower crane
+E6,E2,-1,> (Preceded By),False,uncoupled the operator cabin,rig its extension jib to roof height
+E6,E3,-1,> (Preceded By),False,uncoupled the operator cabin,counterweights of the tower crane were unbolted and lowered
+E6,E4,-1,> (Preceded By),False,uncoupled the operator cabin,detaching the rear boom
+E6,E5,5,d (During),False,uncoupled the operator cabin,Lowering the long front jib
+E6,E7,1,< (Precedes),False,uncoupled the operator cabin,lowering it
+E6,E8,5,d (During),False,uncoupled the operator cabin,Dismantling the central vertical mast sections
+E6,E9,1,< (Precedes),False,uncoupled the operator cabin,final mast section was loaded onto a flatbed trailer
+E6,E10,1,< (Precedes),False,uncoupled the operator cabin,mobile crane packed its outriggers and departed
+E6,E11,5,d (During),False,uncoupled the operator cabin,the jib removal
+E7,E1,5,d (During),False,lowering it,Dismantling the tower crane
+E7,E2,-1,> (Preceded By),False,lowering it,rig its extension jib to roof height
+E7,E3,-1,> (Preceded By),False,lowering it,counterweights of the tower crane were unbolted and lowered
+E7,E4,-1,> (Preceded By),False,lowering it,detaching the rear boom
+E7,E5,-1,> (Preceded By),False,lowering it,Lowering the long front jib
+E7,E6,-1,> (Preceded By),False,lowering it,uncoupled the operator cabin
+E7,E8,5,d (During),False,lowering it,Dismantling the central vertical mast sections
+E7,E9,1,< (Precedes),False,lowering it,final mast section was loaded onto a flatbed trailer
+E7,E10,1,< (Precedes),False,lowering it,mobile crane packed its outriggers and departed
+E7,E11,-1,> (Preceded By),False,lowering it,the jib removal
+E8,E1,5,d (During),False,Dismantling the central vertical mast sections,Dismantling the tower crane
+E8,E2,-1,> (Preceded By),False,Dismantling the central vertical mast sections,rig its extension jib to roof height
+E8,E3,-1,> (Preceded By),False,Dismantling the central vertical mast sections,counterweights of the tower crane were unbolted and lowered
+E8,E4,-3,oi (Overlapped By),False,Dismantling the central vertical mast sections,detaching the rear boom
+E8,E5,-5,di (Contains),False,Dismantling the central vertical mast sections,Lowering the long front jib
+E8,E6,-5,di (Contains),False,Dismantling the central vertical mast sections,uncoupled the operator cabin
+E8,E7,-5,di (Contains),False,Dismantling the central vertical mast sections,lowering it
+E8,E9,2,m (Meets),False,Dismantling the central vertical mast sections,final mast section was loaded onto a flatbed trailer
+E8,E10,1,< (Precedes),False,Dismantling the central vertical mast sections,mobile crane packed its outriggers and departed
+E8,E11,-5,di (Contains),False,Dismantling the central vertical mast sections,the jib removal
+E9,E1,5,d (During),False,final mast section was loaded onto a flatbed trailer,Dismantling the tower crane
+E9,E2,-1,> (Preceded By),False,final mast section was loaded onto a flatbed trailer,rig its extension jib to roof height
+E9,E3,-1,> (Preceded By),False,final mast section was loaded onto a flatbed trailer,counterweights of the tower crane were unbolted and lowered
+E9,E4,-1,> (Preceded By),False,final mast section was loaded onto a flatbed trailer,detaching the rear boom
+E9,E5,-1,> (Preceded By),False,final mast section was loaded onto a flatbed trailer,Lowering the long front jib
+E9,E6,-1,> (Preceded By),False,final mast section was loaded onto a flatbed trailer,uncoupled the operator cabin
+E9,E7,-1,> (Preceded By),False,final mast section was loaded onto a flatbed trailer,lowering it
+E9,E8,-2,mi (Met By),False,final mast section was loaded onto a flatbed trailer,Dismantling the central vertical mast sections
+E9,E10,1,< (Precedes),False,final mast section was loaded onto a flatbed trailer,mobile crane packed its outriggers and departed
+E9,E11,-1,> (Preceded By),False,final mast section was loaded onto a flatbed trailer,the jib removal
+E10,E1,6,f (Finishes),False,mobile crane packed its outriggers and departed,Dismantling the tower crane
+E10,E2,-1,> (Preceded By),False,mobile crane packed its outriggers and departed,rig its extension jib to roof height
+E10,E3,-1,> (Preceded By),False,mobile crane packed its outriggers and departed,counterweights of the tower crane were unbolted and lowered
+E10,E4,-1,> (Preceded By),False,mobile crane packed its outriggers and departed,detaching the rear boom
+E10,E5,-1,> (Preceded By),False,mobile crane packed its outriggers and departed,Lowering the long front jib
+E10,E6,-1,> (Preceded By),False,mobile crane packed its outriggers and departed,uncoupled the operator cabin
+E10,E7,-1,> (Preceded By),False,mobile crane packed its outriggers and departed,lowering it
+E10,E8,-1,> (Preceded By),False,mobile crane packed its outriggers and departed,Dismantling the central vertical mast sections
+E10,E9,-1,> (Preceded By),False,mobile crane packed its outriggers and departed,final mast section was loaded onto a flatbed trailer
+E10,E11,-1,> (Preceded By),False,mobile crane packed its outriggers and departed,the jib removal
+E11,E1,5,d (During),False,the jib removal,Dismantling the tower crane
+E11,E2,-1,> (Preceded By),False,the jib removal,rig its extension jib to roof height
+E11,E3,-1,> (Preceded By),False,the jib removal,counterweights of the tower crane were unbolted and lowered
+E11,E4,-2,mi (Met By),False,the jib removal,detaching the rear boom
+E11,E5,0,= (Equal),False,the jib removal,Lowering the long front jib
+E11,E6,-5,di (Contains),False,the jib removal,uncoupled the operator cabin
+E11,E7,1,< (Precedes),False,the jib removal,lowering it
+E11,E8,5,d (During),False,the jib removal,Dismantling the central vertical mast sections
+E11,E9,1,< (Precedes),False,the jib removal,final mast section was loaded onto a flatbed trailer
+E11,E10,1,< (Precedes),False,the jib removal,mobile crane packed its outriggers and departed

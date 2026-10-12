@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,Steel plate fitting,continuous tack-welding
+E1,E3,1,< (Precedes),False,Steel plate fitting,Ultrasonic weld testing
+E1,E4,1,< (Precedes),False,Steel plate fitting,full automatic submerged-arc seam welding
+E1,E5,1,< (Precedes),False,Steel plate fitting,gouging and re-welding
+E1,E6,1,< (Precedes),False,Steel plate fitting,Pressure testing of the watertight bulkheads
+E1,E7,1,< (Precedes),False,Steel plate fitting,hull received its exterior anti-corrosive primer coat
+E1,E8,4,s (Starts),False,Steel plate fitting,took twenty-four working shifts across
+E1,E9,1,< (Precedes),False,Steel plate fitting,"seam welding, checking completed joints"
+E1,E10,1,< (Precedes),False,Steel plate fitting,defect indications were identified
+E1,E11,-4,si (Started By),False,Steel plate fitting,plate fitting first began.
+E2,E1,-2,mi (Met By),False,continuous tack-welding,Steel plate fitting
+E2,E3,1,< (Precedes),False,continuous tack-welding,Ultrasonic weld testing
+E2,E4,2,m (Meets),False,continuous tack-welding,full automatic submerged-arc seam welding
+E2,E5,1,< (Precedes),False,continuous tack-welding,gouging and re-welding
+E2,E6,1,< (Precedes),False,continuous tack-welding,Pressure testing of the watertight bulkheads
+E2,E7,1,< (Precedes),False,continuous tack-welding,hull received its exterior anti-corrosive primer coat
+E2,E8,5,d (During),False,continuous tack-welding,took twenty-four working shifts across
+E2,E9,1,< (Precedes),False,continuous tack-welding,"seam welding, checking completed joints"
+E2,E10,1,< (Precedes),False,continuous tack-welding,defect indications were identified
+E2,E11,-1,> (Preceded By),False,continuous tack-welding,plate fitting first began.
+E3,E1,-1,> (Preceded By),False,Ultrasonic weld testing,Steel plate fitting
+E3,E2,-1,> (Preceded By),False,Ultrasonic weld testing,continuous tack-welding
+E3,E4,-3,oi (Overlapped By),False,Ultrasonic weld testing,full automatic submerged-arc seam welding
+E3,E5,2,m (Meets),False,Ultrasonic weld testing,gouging and re-welding
+E3,E6,1,< (Precedes),False,Ultrasonic weld testing,Pressure testing of the watertight bulkheads
+E3,E7,1,< (Precedes),False,Ultrasonic weld testing,hull received its exterior anti-corrosive primer coat
+E3,E8,5,d (During),False,Ultrasonic weld testing,took twenty-four working shifts across
+E3,E9,0,= (Equal),False,Ultrasonic weld testing,"seam welding, checking completed joints"
+E3,E10,2,m (Meets),False,Ultrasonic weld testing,defect indications were identified
+E3,E11,-1,> (Preceded By),False,Ultrasonic weld testing,plate fitting first began.
+E4,E1,-1,> (Preceded By),False,full automatic submerged-arc seam welding,Steel plate fitting
+E4,E2,-2,mi (Met By),False,full automatic submerged-arc seam welding,continuous tack-welding
+E4,E3,3,o (Overlaps),False,full automatic submerged-arc seam welding,Ultrasonic weld testing
+E4,E5,1,< (Precedes),False,full automatic submerged-arc seam welding,gouging and re-welding
+E4,E6,1,< (Precedes),False,full automatic submerged-arc seam welding,Pressure testing of the watertight bulkheads
+E4,E7,1,< (Precedes),False,full automatic submerged-arc seam welding,hull received its exterior anti-corrosive primer coat
+E4,E8,5,d (During),False,full automatic submerged-arc seam welding,took twenty-four working shifts across
+E4,E9,3,o (Overlaps),False,full automatic submerged-arc seam welding,"seam welding, checking completed joints"
+E4,E10,1,< (Precedes),False,full automatic submerged-arc seam welding,defect indications were identified
+E4,E11,-1,> (Preceded By),False,full automatic submerged-arc seam welding,plate fitting first began.
+E5,E1,-1,> (Preceded By),False,gouging and re-welding,Steel plate fitting
+E5,E2,-1,> (Preceded By),False,gouging and re-welding,continuous tack-welding
+E5,E3,-2,mi (Met By),False,gouging and re-welding,Ultrasonic weld testing
+E5,E4,-1,> (Preceded By),False,gouging and re-welding,full automatic submerged-arc seam welding
+E5,E6,1,< (Precedes),False,gouging and re-welding,Pressure testing of the watertight bulkheads
+E5,E7,1,< (Precedes),False,gouging and re-welding,hull received its exterior anti-corrosive primer coat
+E5,E8,5,d (During),False,gouging and re-welding,took twenty-four working shifts across
+E5,E9,-2,mi (Met By),False,gouging and re-welding,"seam welding, checking completed joints"
+E5,E10,-4,si (Started By),False,gouging and re-welding,defect indications were identified
+E5,E11,-1,> (Preceded By),False,gouging and re-welding,plate fitting first began.
+E6,E1,-1,> (Preceded By),False,Pressure testing of the watertight bulkheads,Steel plate fitting
+E6,E2,-1,> (Preceded By),False,Pressure testing of the watertight bulkheads,continuous tack-welding
+E6,E3,-1,> (Preceded By),False,Pressure testing of the watertight bulkheads,Ultrasonic weld testing
+E6,E4,-1,> (Preceded By),False,Pressure testing of the watertight bulkheads,full automatic submerged-arc seam welding
+E6,E5,-1,> (Preceded By),False,Pressure testing of the watertight bulkheads,gouging and re-welding
+E6,E7,1,< (Precedes),False,Pressure testing of the watertight bulkheads,hull received its exterior anti-corrosive primer coat
+E6,E8,5,d (During),False,Pressure testing of the watertight bulkheads,took twenty-four working shifts across
+E6,E9,-1,> (Preceded By),False,Pressure testing of the watertight bulkheads,"seam welding, checking completed joints"
+E6,E10,-1,> (Preceded By),False,Pressure testing of the watertight bulkheads,defect indications were identified
+E6,E11,-1,> (Preceded By),False,Pressure testing of the watertight bulkheads,plate fitting first began.
+E7,E1,-1,> (Preceded By),False,hull received its exterior anti-corrosive primer coat,Steel plate fitting
+E7,E2,-1,> (Preceded By),False,hull received its exterior anti-corrosive primer coat,continuous tack-welding
+E7,E3,-1,> (Preceded By),False,hull received its exterior anti-corrosive primer coat,Ultrasonic weld testing
+E7,E4,-1,> (Preceded By),False,hull received its exterior anti-corrosive primer coat,full automatic submerged-arc seam welding
+E7,E5,-1,> (Preceded By),False,hull received its exterior anti-corrosive primer coat,gouging and re-welding
+E7,E6,-1,> (Preceded By),False,hull received its exterior anti-corrosive primer coat,Pressure testing of the watertight bulkheads
+E7,E8,-1,> (Preceded By),False,hull received its exterior anti-corrosive primer coat,took twenty-four working shifts across
+E7,E9,-1,> (Preceded By),False,hull received its exterior anti-corrosive primer coat,"seam welding, checking completed joints"
+E7,E10,-1,> (Preceded By),False,hull received its exterior anti-corrosive primer coat,defect indications were identified
+E7,E11,-1,> (Preceded By),False,hull received its exterior anti-corrosive primer coat,plate fitting first began.
+E8,E1,-4,si (Started By),False,took twenty-four working shifts across,Steel plate fitting
+E8,E2,-5,di (Contains),False,took twenty-four working shifts across,continuous tack-welding
+E8,E3,-5,di (Contains),False,took twenty-four working shifts across,Ultrasonic weld testing
+E8,E4,-5,di (Contains),False,took twenty-four working shifts across,full automatic submerged-arc seam welding
+E8,E5,-5,di (Contains),False,took twenty-four working shifts across,gouging and re-welding
+E8,E6,-5,di (Contains),False,took twenty-four working shifts across,Pressure testing of the watertight bulkheads
+E8,E7,1,< (Precedes),False,took twenty-four working shifts across,hull received its exterior anti-corrosive primer coat
+E8,E9,-5,di (Contains),False,took twenty-four working shifts across,"seam welding, checking completed joints"
+E8,E10,-5,di (Contains),False,took twenty-four working shifts across,defect indications were identified
+E8,E11,-4,si (Started By),False,took twenty-four working shifts across,plate fitting first began.
+E9,E1,-1,> (Preceded By),False,"seam welding, checking completed joints",Steel plate fitting
+E9,E2,-1,> (Preceded By),False,"seam welding, checking completed joints",continuous tack-welding
+E9,E3,0,= (Equal),False,"seam welding, checking completed joints",Ultrasonic weld testing
+E9,E4,-3,oi (Overlapped By),False,"seam welding, checking completed joints",full automatic submerged-arc seam welding
+E9,E5,2,m (Meets),False,"seam welding, checking completed joints",gouging and re-welding
+E9,E6,1,< (Precedes),False,"seam welding, checking completed joints",Pressure testing of the watertight bulkheads
+E9,E7,1,< (Precedes),False,"seam welding, checking completed joints",hull received its exterior anti-corrosive primer coat
+E9,E8,5,d (During),False,"seam welding, checking completed joints",took twenty-four working shifts across
+E9,E10,2,m (Meets),False,"seam welding, checking completed joints",defect indications were identified
+E9,E11,-1,> (Preceded By),False,"seam welding, checking completed joints",plate fitting first began.
+E10,E1,-1,> (Preceded By),False,defect indications were identified,Steel plate fitting
+E10,E2,-1,> (Preceded By),False,defect indications were identified,continuous tack-welding
+E10,E3,-2,mi (Met By),False,defect indications were identified,Ultrasonic weld testing
+E10,E4,-1,> (Preceded By),False,defect indications were identified,full automatic submerged-arc seam welding
+E10,E5,4,s (Starts),False,defect indications were identified,gouging and re-welding
+E10,E6,1,< (Precedes),False,defect indications were identified,Pressure testing of the watertight bulkheads
+E10,E7,1,< (Precedes),False,defect indications were identified,hull received its exterior anti-corrosive primer coat
+E10,E8,5,d (During),False,defect indications were identified,took twenty-four working shifts across
+E10,E9,-2,mi (Met By),False,defect indications were identified,"seam welding, checking completed joints"
+E10,E11,-1,> (Preceded By),False,defect indications were identified,plate fitting first began.
+E11,E1,4,s (Starts),False,plate fitting first began.,Steel plate fitting
+E11,E2,1,< (Precedes),False,plate fitting first began.,continuous tack-welding
+E11,E3,1,< (Precedes),False,plate fitting first began.,Ultrasonic weld testing
+E11,E4,1,< (Precedes),False,plate fitting first began.,full automatic submerged-arc seam welding
+E11,E5,1,< (Precedes),False,plate fitting first began.,gouging and re-welding
+E11,E6,1,< (Precedes),False,plate fitting first began.,Pressure testing of the watertight bulkheads
+E11,E7,1,< (Precedes),False,plate fitting first began.,hull received its exterior anti-corrosive primer coat
+E11,E8,4,s (Starts),False,plate fitting first began.,took twenty-four working shifts across
+E11,E9,1,< (Precedes),False,plate fitting first began.,"seam welding, checking completed joints"
+E11,E10,1,< (Precedes),False,plate fitting first began.,defect indications were identified

@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,grew wild on a mountainside,being dug up
+E1,E3,1,< (Precedes),False,grew wild on a mountainside,wired into its shape
+E1,E4,1,< (Precedes),False,grew wild on a mountainside,inherited it as a cutting
+E1,E5,1,< (Precedes),False,grew wild on a mountainside,the tree went unwatered for six days
+E1,E6,1,< (Precedes),False,grew wild on a mountainside,dropped half its needles
+E1,E7,1,< (Precedes),False,grew wild on a mountainside,A guest asked how old it was
+E1,E8,1,< (Precedes),False,grew wild on a mountainside,The guest touched a branch
+E1,E9,1,< (Precedes),False,grew wild on a mountainside,broke it
+E1,E10,1,< (Precedes),False,grew wild on a mountainside,He turned the scar toward the wall
+E1,E11,1,< (Precedes),False,grew wild on a mountainside,The watering schedule
+E1,E12,1,< (Precedes),False,grew wild on a mountainside,It had been broken only once
+E1,E13,1,< (Precedes),False,grew wild on a mountainside,repotting happened
+E1,E14,1,< (Precedes),False,grew wild on a mountainside,The root pruning
+E1,E15,1,< (Precedes),False,grew wild on a mountainside,A second's mistake erased
+E2,E1,-2,mi (Met By),False,being dug up,grew wild on a mountainside
+E2,E3,1,< (Precedes),False,being dug up,wired into its shape
+E2,E4,1,< (Precedes),False,being dug up,inherited it as a cutting
+E2,E5,1,< (Precedes),False,being dug up,the tree went unwatered for six days
+E2,E6,1,< (Precedes),False,being dug up,dropped half its needles
+E2,E7,1,< (Precedes),False,being dug up,A guest asked how old it was
+E2,E8,1,< (Precedes),False,being dug up,The guest touched a branch
+E2,E9,1,< (Precedes),False,being dug up,broke it
+E2,E10,1,< (Precedes),False,being dug up,He turned the scar toward the wall
+E2,E11,1,< (Precedes),False,being dug up,The watering schedule
+E2,E12,1,< (Precedes),False,being dug up,It had been broken only once
+E2,E13,1,< (Precedes),False,being dug up,repotting happened
+E2,E14,1,< (Precedes),False,being dug up,The root pruning
+E2,E15,1,< (Precedes),False,being dug up,A second's mistake erased
+E3,E1,-1,> (Preceded By),False,wired into its shape,grew wild on a mountainside
+E3,E2,-1,> (Preceded By),False,wired into its shape,being dug up
+E3,E4,-4,si (Started By),False,wired into its shape,inherited it as a cutting
+E3,E5,-5,di (Contains),False,wired into its shape,the tree went unwatered for six days
+E3,E6,-5,di (Contains),False,wired into its shape,dropped half its needles
+E3,E7,-5,di (Contains),False,wired into its shape,A guest asked how old it was
+E3,E8,-5,di (Contains),False,wired into its shape,The guest touched a branch
+E3,E9,-5,di (Contains),False,wired into its shape,broke it
+E3,E10,-5,di (Contains),False,wired into its shape,He turned the scar toward the wall
+E3,E11,0,= (Equal),False,wired into its shape,The watering schedule
+E3,E12,-4,si (Started By),False,wired into its shape,It had been broken only once
+E3,E13,0,= (Equal),False,wired into its shape,repotting happened
+E3,E14,-5,di (Contains),False,wired into its shape,The root pruning
+E3,E15,-5,di (Contains),False,wired into its shape,A second's mistake erased
+E4,E1,-1,> (Preceded By),False,inherited it as a cutting,grew wild on a mountainside
+E4,E2,-1,> (Preceded By),False,inherited it as a cutting,being dug up
+E4,E3,4,s (Starts),False,inherited it as a cutting,wired into its shape
+E4,E5,1,< (Precedes),False,inherited it as a cutting,the tree went unwatered for six days
+E4,E6,1,< (Precedes),False,inherited it as a cutting,dropped half its needles
+E4,E7,1,< (Precedes),False,inherited it as a cutting,A guest asked how old it was
+E4,E8,1,< (Precedes),False,inherited it as a cutting,The guest touched a branch
+E4,E9,1,< (Precedes),False,inherited it as a cutting,broke it
+E4,E10,1,< (Precedes),False,inherited it as a cutting,He turned the scar toward the wall
+E4,E11,4,s (Starts),False,inherited it as a cutting,The watering schedule
+E4,E12,4,s (Starts),False,inherited it as a cutting,It had been broken only once
+E4,E13,4,s (Starts),False,inherited it as a cutting,repotting happened
+E4,E14,1,< (Precedes),False,inherited it as a cutting,The root pruning
+E4,E15,1,< (Precedes),False,inherited it as a cutting,A second's mistake erased
+E5,E1,-1,> (Preceded By),False,the tree went unwatered for six days,grew wild on a mountainside
+E5,E2,-1,> (Preceded By),False,the tree went unwatered for six days,being dug up
+E5,E3,5,d (During),False,the tree went unwatered for six days,wired into its shape
+E5,E4,-1,> (Preceded By),False,the tree went unwatered for six days,inherited it as a cutting
+E5,E6,2,m (Meets),False,the tree went unwatered for six days,dropped half its needles
+E5,E7,1,< (Precedes),False,the tree went unwatered for six days,A guest asked how old it was
+E5,E8,1,< (Precedes),False,the tree went unwatered for six days,The guest touched a branch
+E5,E9,1,< (Precedes),False,the tree went unwatered for six days,broke it
+E5,E10,1,< (Precedes),False,the tree went unwatered for six days,He turned the scar toward the wall
+E5,E11,5,d (During),False,the tree went unwatered for six days,The watering schedule
+E5,E12,-2,mi (Met By),False,the tree went unwatered for six days,It had been broken only once
+E5,E13,5,d (During),False,the tree went unwatered for six days,repotting happened
+E5,E14,1,< (Precedes),False,the tree went unwatered for six days,The root pruning
+E5,E15,1,< (Precedes),False,the tree went unwatered for six days,A second's mistake erased
+E6,E1,-1,> (Preceded By),False,dropped half its needles,grew wild on a mountainside
+E6,E2,-1,> (Preceded By),False,dropped half its needles,being dug up
+E6,E3,5,d (During),False,dropped half its needles,wired into its shape
+E6,E4,-1,> (Preceded By),False,dropped half its needles,inherited it as a cutting
+E6,E5,-2,mi (Met By),False,dropped half its needles,the tree went unwatered for six days
+E6,E7,1,< (Precedes),False,dropped half its needles,A guest asked how old it was
+E6,E8,1,< (Precedes),False,dropped half its needles,The guest touched a branch
+E6,E9,1,< (Precedes),False,dropped half its needles,broke it
+E6,E10,1,< (Precedes),False,dropped half its needles,He turned the scar toward the wall
+E6,E11,5,d (During),False,dropped half its needles,The watering schedule
+E6,E12,-1,> (Preceded By),False,dropped half its needles,It had been broken only once
+E6,E13,5,d (During),False,dropped half its needles,repotting happened
+E6,E14,1,< (Precedes),False,dropped half its needles,The root pruning
+E6,E15,1,< (Precedes),False,dropped half its needles,A second's mistake erased
+E7,E1,-1,> (Preceded By),False,A guest asked how old it was,grew wild on a mountainside
+E7,E2,-1,> (Preceded By),False,A guest asked how old it was,being dug up
+E7,E3,5,d (During),False,A guest asked how old it was,wired into its shape
+E7,E4,-1,> (Preceded By),False,A guest asked how old it was,inherited it as a cutting
+E7,E5,-1,> (Preceded By),False,A guest asked how old it was,the tree went unwatered for six days
+E7,E6,-1,> (Preceded By),False,A guest asked how old it was,dropped half its needles
+E7,E8,1,< (Precedes),False,A guest asked how old it was,The guest touched a branch
+E7,E9,1,< (Precedes),False,A guest asked how old it was,broke it
+E7,E10,1,< (Precedes),False,A guest asked how old it was,He turned the scar toward the wall
+E7,E11,5,d (During),False,A guest asked how old it was,The watering schedule
+E7,E12,-1,> (Preceded By),False,A guest asked how old it was,It had been broken only once
+E7,E13,5,d (During),False,A guest asked how old it was,repotting happened
+E7,E14,-1,> (Preceded By),False,A guest asked how old it was,The root pruning
+E7,E15,1,< (Precedes),False,A guest asked how old it was,A second's mistake erased
+E8,E1,-1,> (Preceded By),False,The guest touched a branch,grew wild on a mountainside
+E8,E2,-1,> (Preceded By),False,The guest touched a branch,being dug up
+E8,E3,5,d (During),False,The guest touched a branch,wired into its shape
+E8,E4,-1,> (Preceded By),False,The guest touched a branch,inherited it as a cutting
+E8,E5,-1,> (Preceded By),False,The guest touched a branch,the tree went unwatered for six days
+E8,E6,-1,> (Preceded By),False,The guest touched a branch,dropped half its needles
+E8,E7,-1,> (Preceded By),False,The guest touched a branch,A guest asked how old it was
+E8,E9,1,< (Precedes),False,The guest touched a branch,broke it
+E8,E10,1,< (Precedes),False,The guest touched a branch,He turned the scar toward the wall
+E8,E11,5,d (During),False,The guest touched a branch,The watering schedule
+E8,E12,-1,> (Preceded By),False,The guest touched a branch,It had been broken only once
+E8,E13,5,d (During),False,The guest touched a branch,repotting happened
+E8,E14,-1,> (Preceded By),False,The guest touched a branch,The root pruning
+E8,E15,1,< (Precedes),False,The guest touched a branch,A second's mistake erased
+E9,E1,-1,> (Preceded By),False,broke it,grew wild on a mountainside
+E9,E2,-1,> (Preceded By),False,broke it,being dug up
+E9,E3,5,d (During),False,broke it,wired into its shape
+E9,E4,-1,> (Preceded By),False,broke it,inherited it as a cutting
+E9,E5,-1,> (Preceded By),False,broke it,the tree went unwatered for six days
+E9,E6,-1,> (Preceded By),False,broke it,dropped half its needles
+E9,E7,-1,> (Preceded By),False,broke it,A guest asked how old it was
+E9,E8,-1,> (Preceded By),False,broke it,The guest touched a branch
+E9,E10,1,< (Precedes),False,broke it,He turned the scar toward the wall
+E9,E11,5,d (During),False,broke it,The watering schedule
+E9,E12,-1,> (Preceded By),False,broke it,It had been broken only once
+E9,E13,5,d (During),False,broke it,repotting happened
+E9,E14,-1,> (Preceded By),False,broke it,The root pruning
+E9,E15,0,= (Equal),False,broke it,A second's mistake erased
+E10,E1,-1,> (Preceded By),False,He turned the scar toward the wall,grew wild on a mountainside
+E10,E2,-1,> (Preceded By),False,He turned the scar toward the wall,being dug up
+E10,E3,5,d (During),False,He turned the scar toward the wall,wired into its shape
+E10,E4,-1,> (Preceded By),False,He turned the scar toward the wall,inherited it as a cutting
+E10,E5,-1,> (Preceded By),False,He turned the scar toward the wall,the tree went unwatered for six days
+E10,E6,-1,> (Preceded By),False,He turned the scar toward the wall,dropped half its needles
+E10,E7,-1,> (Preceded By),False,He turned the scar toward the wall,A guest asked how old it was
+E10,E8,-1,> (Preceded By),False,He turned the scar toward the wall,The guest touched a branch
+E10,E9,-1,> (Preceded By),False,He turned the scar toward the wall,broke it
+E10,E11,5,d (During),False,He turned the scar toward the wall,The watering schedule
+E10,E12,-1,> (Preceded By),False,He turned the scar toward the wall,It had been broken only once
+E10,E13,5,d (During),False,He turned the scar toward the wall,repotting happened
+E10,E14,-1,> (Preceded By),False,He turned the scar toward the wall,The root pruning
+E10,E15,-1,> (Preceded By),False,He turned the scar toward the wall,A second's mistake erased
+E11,E1,-1,> (Preceded By),False,The watering schedule,grew wild on a mountainside
+E11,E2,-1,> (Preceded By),False,The watering schedule,being dug up
+E11,E3,0,= (Equal),False,The watering schedule,wired into its shape
+E11,E4,-4,si (Started By),False,The watering schedule,inherited it as a cutting
+E11,E5,-5,di (Contains),False,The watering schedule,the tree went unwatered for six days
+E11,E6,-5,di (Contains),False,The watering schedule,dropped half its needles
+E11,E7,-5,di (Contains),False,The watering schedule,A guest asked how old it was
+E11,E8,-5,di (Contains),False,The watering schedule,The guest touched a branch
+E11,E9,-5,di (Contains),False,The watering schedule,broke it
+E11,E10,-5,di (Contains),False,The watering schedule,He turned the scar toward the wall
+E11,E12,-4,si (Started By),False,The watering schedule,It had been broken only once
+E11,E13,0,= (Equal),False,The watering schedule,repotting happened
+E11,E14,-5,di (Contains),False,The watering schedule,The root pruning
+E11,E15,-5,di (Contains),False,The watering schedule,A second's mistake erased
+E12,E1,-1,> (Preceded By),False,It had been broken only once,grew wild on a mountainside
+E12,E2,-1,> (Preceded By),False,It had been broken only once,being dug up
+E12,E3,4,s (Starts),False,It had been broken only once,wired into its shape
+E12,E4,-4,si (Started By),False,It had been broken only once,inherited it as a cutting
+E12,E5,2,m (Meets),False,It had been broken only once,the tree went unwatered for six days
+E12,E6,1,< (Precedes),False,It had been broken only once,dropped half its needles
+E12,E7,1,< (Precedes),False,It had been broken only once,A guest asked how old it was
+E12,E8,1,< (Precedes),False,It had been broken only once,The guest touched a branch
+E12,E9,1,< (Precedes),False,It had been broken only once,broke it
+E12,E10,1,< (Precedes),False,It had been broken only once,He turned the scar toward the wall
+E12,E11,4,s (Starts),False,It had been broken only once,The watering schedule
+E12,E13,4,s (Starts),False,It had been broken only once,repotting happened
+E12,E14,1,< (Precedes),False,It had been broken only once,The root pruning
+E12,E15,1,< (Precedes),False,It had been broken only once,A second's mistake erased
+E13,E1,-1,> (Preceded By),False,repotting happened,grew wild on a mountainside
+E13,E2,-1,> (Preceded By),False,repotting happened,being dug up
+E13,E3,0,= (Equal),False,repotting happened,wired into its shape
+E13,E4,-4,si (Started By),False,repotting happened,inherited it as a cutting
+E13,E5,-5,di (Contains),False,repotting happened,the tree went unwatered for six days
+E13,E6,-5,di (Contains),False,repotting happened,dropped half its needles
+E13,E7,-5,di (Contains),False,repotting happened,A guest asked how old it was
+E13,E8,-5,di (Contains),False,repotting happened,The guest touched a branch
+E13,E9,-5,di (Contains),False,repotting happened,broke it
+E13,E10,-5,di (Contains),False,repotting happened,He turned the scar toward the wall
+E13,E11,0,= (Equal),False,repotting happened,The watering schedule
+E13,E12,-4,si (Started By),False,repotting happened,It had been broken only once
+E13,E14,-5,di (Contains),False,repotting happened,The root pruning
+E13,E15,-5,di (Contains),False,repotting happened,A second's mistake erased
+E14,E1,-1,> (Preceded By),False,The root pruning,grew wild on a mountainside
+E14,E2,-1,> (Preceded By),False,The root pruning,being dug up
+E14,E3,5,d (During),False,The root pruning,wired into its shape
+E14,E4,-1,> (Preceded By),False,The root pruning,inherited it as a cutting
+E14,E5,-1,> (Preceded By),False,The root pruning,the tree went unwatered for six days
+E14,E6,-1,> (Preceded By),False,The root pruning,dropped half its needles
+E14,E7,1,< (Precedes),False,The root pruning,A guest asked how old it was
+E14,E8,1,< (Precedes),False,The root pruning,The guest touched a branch
+E14,E9,1,< (Precedes),False,The root pruning,broke it
+E14,E10,1,< (Precedes),False,The root pruning,He turned the scar toward the wall
+E14,E11,5,d (During),False,The root pruning,The watering schedule
+E14,E12,-1,> (Preceded By),False,The root pruning,It had been broken only once
+E14,E13,5,d (During),False,The root pruning,repotting happened
+E14,E15,1,< (Precedes),False,The root pruning,A second's mistake erased
+E15,E1,-1,> (Preceded By),False,A second's mistake erased,grew wild on a mountainside
+E15,E2,-1,> (Preceded By),False,A second's mistake erased,being dug up
+E15,E3,5,d (During),False,A second's mistake erased,wired into its shape
+E15,E4,-1,> (Preceded By),False,A second's mistake erased,inherited it as a cutting
+E15,E5,-1,> (Preceded By),False,A second's mistake erased,the tree went unwatered for six days
+E15,E6,-1,> (Preceded By),False,A second's mistake erased,dropped half its needles
+E15,E7,-1,> (Preceded By),False,A second's mistake erased,A guest asked how old it was
+E15,E8,-1,> (Preceded By),False,A second's mistake erased,The guest touched a branch
+E15,E9,0,= (Equal),False,A second's mistake erased,broke it
+E15,E10,1,< (Precedes),False,A second's mistake erased,He turned the scar toward the wall
+E15,E11,5,d (During),False,A second's mistake erased,The watering schedule
+E15,E12,-1,> (Preceded By),False,A second's mistake erased,It had been broken only once
+E15,E13,5,d (During),False,A second's mistake erased,repotting happened
+E15,E14,-1,> (Preceded By),False,A second's mistake erased,The root pruning

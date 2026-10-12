@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,launched a boutique clothing brand,renting a small studio space
+E1,E3,4,s (Starts),False,launched a boutique clothing brand,designing the debut collection
+E1,E4,4,s (Starts),False,launched a boutique clothing brand,prepared the business framework
+E1,E5,1,< (Precedes),False,launched a boutique clothing brand,material sourcing
+E1,E6,1,< (Precedes),False,launched a boutique clothing brand,traveling to textile factories
+E1,E7,1,< (Precedes),False,launched a boutique clothing brand,finalizing orders
+E1,E8,1,< (Precedes),False,launched a boutique clothing brand,starting her campaign
+E1,E9,1,< (Precedes),False,launched a boutique clothing brand,running daily advertisements
+E1,E10,1,< (Precedes),False,launched a boutique clothing brand,physical production of the garments
+E1,E11,1,< (Precedes),False,launched a boutique clothing brand,quality control shifts
+E1,E12,1,< (Precedes),False,launched a boutique clothing brand,packaging and dispatching the pre-orders
+E1,E13,1,< (Precedes),False,launched a boutique clothing brand,massive shipping run
+E1,E14,1,< (Precedes),False,launched a boutique clothing brand,ran for six uninterrupted weeks
+E2,E1,-4,si (Started By),False,renting a small studio space,launched a boutique clothing brand
+E2,E3,-4,si (Started By),False,renting a small studio space,designing the debut collection
+E2,E4,-4,si (Started By),False,renting a small studio space,prepared the business framework
+E2,E5,-5,di (Contains),False,renting a small studio space,material sourcing
+E2,E6,-5,di (Contains),False,renting a small studio space,traveling to textile factories
+E2,E7,-5,di (Contains),False,renting a small studio space,finalizing orders
+E2,E8,-5,di (Contains),False,renting a small studio space,starting her campaign
+E2,E9,-5,di (Contains),False,renting a small studio space,running daily advertisements
+E2,E10,-5,di (Contains),False,renting a small studio space,physical production of the garments
+E2,E11,-5,di (Contains),False,renting a small studio space,quality control shifts
+E2,E12,-6,fi (Finished By),False,renting a small studio space,packaging and dispatching the pre-orders
+E2,E13,-6,fi (Finished By),False,renting a small studio space,massive shipping run
+E2,E14,-5,di (Contains),False,renting a small studio space,ran for six uninterrupted weeks
+E3,E1,-4,si (Started By),False,designing the debut collection,launched a boutique clothing brand
+E3,E2,4,s (Starts),False,designing the debut collection,renting a small studio space
+E3,E4,0,= (Equal),False,designing the debut collection,prepared the business framework
+E3,E5,2,m (Meets),False,designing the debut collection,material sourcing
+E3,E6,2,m (Meets),False,designing the debut collection,traveling to textile factories
+E3,E7,1,< (Precedes),False,designing the debut collection,finalizing orders
+E3,E8,1,< (Precedes),False,designing the debut collection,starting her campaign
+E3,E9,1,< (Precedes),False,designing the debut collection,running daily advertisements
+E3,E10,1,< (Precedes),False,designing the debut collection,physical production of the garments
+E3,E11,1,< (Precedes),False,designing the debut collection,quality control shifts
+E3,E12,1,< (Precedes),False,designing the debut collection,packaging and dispatching the pre-orders
+E3,E13,1,< (Precedes),False,designing the debut collection,massive shipping run
+E3,E14,1,< (Precedes),False,designing the debut collection,ran for six uninterrupted weeks
+E4,E1,-4,si (Started By),False,prepared the business framework,launched a boutique clothing brand
+E4,E2,4,s (Starts),False,prepared the business framework,renting a small studio space
+E4,E3,0,= (Equal),False,prepared the business framework,designing the debut collection
+E4,E5,2,m (Meets),False,prepared the business framework,material sourcing
+E4,E6,2,m (Meets),False,prepared the business framework,traveling to textile factories
+E4,E7,1,< (Precedes),False,prepared the business framework,finalizing orders
+E4,E8,1,< (Precedes),False,prepared the business framework,starting her campaign
+E4,E9,1,< (Precedes),False,prepared the business framework,running daily advertisements
+E4,E10,1,< (Precedes),False,prepared the business framework,physical production of the garments
+E4,E11,1,< (Precedes),False,prepared the business framework,quality control shifts
+E4,E12,1,< (Precedes),False,prepared the business framework,packaging and dispatching the pre-orders
+E4,E13,1,< (Precedes),False,prepared the business framework,massive shipping run
+E4,E14,1,< (Precedes),False,prepared the business framework,ran for six uninterrupted weeks
+E5,E1,-1,> (Preceded By),False,material sourcing,launched a boutique clothing brand
+E5,E2,5,d (During),False,material sourcing,renting a small studio space
+E5,E3,-2,mi (Met By),False,material sourcing,designing the debut collection
+E5,E4,-2,mi (Met By),False,material sourcing,prepared the business framework
+E5,E6,-4,si (Started By),False,material sourcing,traveling to textile factories
+E5,E7,-5,di (Contains),False,material sourcing,finalizing orders
+E5,E8,1,< (Precedes),False,material sourcing,starting her campaign
+E5,E9,1,< (Precedes),False,material sourcing,running daily advertisements
+E5,E10,1,< (Precedes),False,material sourcing,physical production of the garments
+E5,E11,1,< (Precedes),False,material sourcing,quality control shifts
+E5,E12,1,< (Precedes),False,material sourcing,packaging and dispatching the pre-orders
+E5,E13,1,< (Precedes),False,material sourcing,massive shipping run
+E5,E14,1,< (Precedes),False,material sourcing,ran for six uninterrupted weeks
+E6,E1,-1,> (Preceded By),False,traveling to textile factories,launched a boutique clothing brand
+E6,E2,5,d (During),False,traveling to textile factories,renting a small studio space
+E6,E3,-2,mi (Met By),False,traveling to textile factories,designing the debut collection
+E6,E4,-2,mi (Met By),False,traveling to textile factories,prepared the business framework
+E6,E5,4,s (Starts),False,traveling to textile factories,material sourcing
+E6,E7,1,< (Precedes),False,traveling to textile factories,finalizing orders
+E6,E8,1,< (Precedes),False,traveling to textile factories,starting her campaign
+E6,E9,1,< (Precedes),False,traveling to textile factories,running daily advertisements
+E6,E10,1,< (Precedes),False,traveling to textile factories,physical production of the garments
+E6,E11,1,< (Precedes),False,traveling to textile factories,quality control shifts
+E6,E12,1,< (Precedes),False,traveling to textile factories,packaging and dispatching the pre-orders
+E6,E13,1,< (Precedes),False,traveling to textile factories,massive shipping run
+E6,E14,1,< (Precedes),False,traveling to textile factories,ran for six uninterrupted weeks
+E7,E1,-1,> (Preceded By),False,finalizing orders,launched a boutique clothing brand
+E7,E2,5,d (During),False,finalizing orders,renting a small studio space
+E7,E3,-1,> (Preceded By),False,finalizing orders,designing the debut collection
+E7,E4,-1,> (Preceded By),False,finalizing orders,prepared the business framework
+E7,E5,5,d (During),False,finalizing orders,material sourcing
+E7,E6,-1,> (Preceded By),False,finalizing orders,traveling to textile factories
+E7,E8,1,< (Precedes),False,finalizing orders,starting her campaign
+E7,E9,1,< (Precedes),False,finalizing orders,running daily advertisements
+E7,E10,1,< (Precedes),False,finalizing orders,physical production of the garments
+E7,E11,1,< (Precedes),False,finalizing orders,quality control shifts
+E7,E12,1,< (Precedes),False,finalizing orders,packaging and dispatching the pre-orders
+E7,E13,1,< (Precedes),False,finalizing orders,massive shipping run
+E7,E14,1,< (Precedes),False,finalizing orders,ran for six uninterrupted weeks
+E8,E1,-1,> (Preceded By),False,starting her campaign,launched a boutique clothing brand
+E8,E2,5,d (During),False,starting her campaign,renting a small studio space
+E8,E3,-1,> (Preceded By),False,starting her campaign,designing the debut collection
+E8,E4,-1,> (Preceded By),False,starting her campaign,prepared the business framework
+E8,E5,-1,> (Preceded By),False,starting her campaign,material sourcing
+E8,E6,-1,> (Preceded By),False,starting her campaign,traveling to textile factories
+E8,E7,-1,> (Preceded By),False,starting her campaign,finalizing orders
+E8,E9,4,s (Starts),False,starting her campaign,running daily advertisements
+E8,E10,1,< (Precedes),False,starting her campaign,physical production of the garments
+E8,E11,1,< (Precedes),False,starting her campaign,quality control shifts
+E8,E12,1,< (Precedes),False,starting her campaign,packaging and dispatching the pre-orders
+E8,E13,1,< (Precedes),False,starting her campaign,massive shipping run
+E8,E14,1,< (Precedes),False,starting her campaign,ran for six uninterrupted weeks
+E9,E1,-1,> (Preceded By),False,running daily advertisements,launched a boutique clothing brand
+E9,E2,5,d (During),False,running daily advertisements,renting a small studio space
+E9,E3,-1,> (Preceded By),False,running daily advertisements,designing the debut collection
+E9,E4,-1,> (Preceded By),False,running daily advertisements,prepared the business framework
+E9,E5,-1,> (Preceded By),False,running daily advertisements,material sourcing
+E9,E6,-1,> (Preceded By),False,running daily advertisements,traveling to textile factories
+E9,E7,-1,> (Preceded By),False,running daily advertisements,finalizing orders
+E9,E8,-4,si (Started By),False,running daily advertisements,starting her campaign
+E9,E10,2,m (Meets),False,running daily advertisements,physical production of the garments
+E9,E11,2,m (Meets),False,running daily advertisements,quality control shifts
+E9,E12,1,< (Precedes),False,running daily advertisements,packaging and dispatching the pre-orders
+E9,E13,1,< (Precedes),False,running daily advertisements,massive shipping run
+E9,E14,2,m (Meets),False,running daily advertisements,ran for six uninterrupted weeks
+E10,E1,-1,> (Preceded By),False,physical production of the garments,launched a boutique clothing brand
+E10,E2,5,d (During),False,physical production of the garments,renting a small studio space
+E10,E3,-1,> (Preceded By),False,physical production of the garments,designing the debut collection
+E10,E4,-1,> (Preceded By),False,physical production of the garments,prepared the business framework
+E10,E5,-1,> (Preceded By),False,physical production of the garments,material sourcing
+E10,E6,-1,> (Preceded By),False,physical production of the garments,traveling to textile factories
+E10,E7,-1,> (Preceded By),False,physical production of the garments,finalizing orders
+E10,E8,-1,> (Preceded By),False,physical production of the garments,starting her campaign
+E10,E9,-2,mi (Met By),False,physical production of the garments,running daily advertisements
+E10,E11,0,= (Equal),False,physical production of the garments,quality control shifts
+E10,E12,1,< (Precedes),False,physical production of the garments,packaging and dispatching the pre-orders
+E10,E13,1,< (Precedes),False,physical production of the garments,massive shipping run
+E10,E14,0,= (Equal),False,physical production of the garments,ran for six uninterrupted weeks
+E11,E1,-1,> (Preceded By),False,quality control shifts,launched a boutique clothing brand
+E11,E2,5,d (During),False,quality control shifts,renting a small studio space
+E11,E3,-1,> (Preceded By),False,quality control shifts,designing the debut collection
+E11,E4,-1,> (Preceded By),False,quality control shifts,prepared the business framework
+E11,E5,-1,> (Preceded By),False,quality control shifts,material sourcing
+E11,E6,-1,> (Preceded By),False,quality control shifts,traveling to textile factories
+E11,E7,-1,> (Preceded By),False,quality control shifts,finalizing orders
+E11,E8,-1,> (Preceded By),False,quality control shifts,starting her campaign
+E11,E9,-2,mi (Met By),False,quality control shifts,running daily advertisements
+E11,E10,0,= (Equal),False,quality control shifts,physical production of the garments
+E11,E12,1,< (Precedes),False,quality control shifts,packaging and dispatching the pre-orders
+E11,E13,1,< (Precedes),False,quality control shifts,massive shipping run
+E11,E14,0,= (Equal),False,quality control shifts,ran for six uninterrupted weeks
+E12,E1,-1,> (Preceded By),False,packaging and dispatching the pre-orders,launched a boutique clothing brand
+E12,E2,6,f (Finishes),False,packaging and dispatching the pre-orders,renting a small studio space
+E12,E3,-1,> (Preceded By),False,packaging and dispatching the pre-orders,designing the debut collection
+E12,E4,-1,> (Preceded By),False,packaging and dispatching the pre-orders,prepared the business framework
+E12,E5,-1,> (Preceded By),False,packaging and dispatching the pre-orders,material sourcing
+E12,E6,-1,> (Preceded By),False,packaging and dispatching the pre-orders,traveling to textile factories
+E12,E7,-1,> (Preceded By),False,packaging and dispatching the pre-orders,finalizing orders
+E12,E8,-1,> (Preceded By),False,packaging and dispatching the pre-orders,starting her campaign
+E12,E9,-1,> (Preceded By),False,packaging and dispatching the pre-orders,running daily advertisements
+E12,E10,-1,> (Preceded By),False,packaging and dispatching the pre-orders,physical production of the garments
+E12,E11,-1,> (Preceded By),False,packaging and dispatching the pre-orders,quality control shifts
+E12,E13,-6,fi (Finished By),False,packaging and dispatching the pre-orders,massive shipping run
+E12,E14,-1,> (Preceded By),False,packaging and dispatching the pre-orders,ran for six uninterrupted weeks
+E13,E1,-1,> (Preceded By),False,massive shipping run,launched a boutique clothing brand
+E13,E2,6,f (Finishes),False,massive shipping run,renting a small studio space
+E13,E3,-1,> (Preceded By),False,massive shipping run,designing the debut collection
+E13,E4,-1,> (Preceded By),False,massive shipping run,prepared the business framework
+E13,E5,-1,> (Preceded By),False,massive shipping run,material sourcing
+E13,E6,-1,> (Preceded By),False,massive shipping run,traveling to textile factories
+E13,E7,-1,> (Preceded By),False,massive shipping run,finalizing orders
+E13,E8,-1,> (Preceded By),False,massive shipping run,starting her campaign
+E13,E9,-1,> (Preceded By),False,massive shipping run,running daily advertisements
+E13,E10,-1,> (Preceded By),False,massive shipping run,physical production of the garments
+E13,E11,-1,> (Preceded By),False,massive shipping run,quality control shifts
+E13,E12,6,f (Finishes),False,massive shipping run,packaging and dispatching the pre-orders
+E13,E14,-1,> (Preceded By),False,massive shipping run,ran for six uninterrupted weeks
+E14,E1,-1,> (Preceded By),False,ran for six uninterrupted weeks,launched a boutique clothing brand
+E14,E2,5,d (During),False,ran for six uninterrupted weeks,renting a small studio space
+E14,E3,-1,> (Preceded By),False,ran for six uninterrupted weeks,designing the debut collection
+E14,E4,-1,> (Preceded By),False,ran for six uninterrupted weeks,prepared the business framework
+E14,E5,-1,> (Preceded By),False,ran for six uninterrupted weeks,material sourcing
+E14,E6,-1,> (Preceded By),False,ran for six uninterrupted weeks,traveling to textile factories
+E14,E7,-1,> (Preceded By),False,ran for six uninterrupted weeks,finalizing orders
+E14,E8,-1,> (Preceded By),False,ran for six uninterrupted weeks,starting her campaign
+E14,E9,-2,mi (Met By),False,ran for six uninterrupted weeks,running daily advertisements
+E14,E10,0,= (Equal),False,ran for six uninterrupted weeks,physical production of the garments
+E14,E11,0,= (Equal),False,ran for six uninterrupted weeks,quality control shifts
+E14,E12,1,< (Precedes),False,ran for six uninterrupted weeks,packaging and dispatching the pre-orders
+E14,E13,1,< (Precedes),False,ran for six uninterrupted weeks,massive shipping run

@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,Maintenance crews took possession of the single-track rail line,pulling old ballast and ties
+E1,E3,1,< (Precedes),False,Maintenance crews took possession of the single-track rail line,Rail replacement crews worked
+E1,E4,1,< (Precedes),False,Maintenance crews took possession of the single-track rail line,Welded rail joints were ground smooth
+E1,E5,1,< (Precedes),False,Maintenance crews took possession of the single-track rail line,signal engineers tested track circuit sensors
+E1,E6,1,< (Precedes),False,Maintenance crews took possession of the single-track rail line,The track was re-ballasted and tamped
+E1,E7,1,< (Precedes),False,Maintenance crews took possession of the single-track rail line,A test locomotive ran over the track at half speed
+E1,E8,1,< (Precedes),False,Maintenance crews took possession of the single-track rail line,clearing the line for normal traffic
+E1,E9,1,< (Precedes),False,Maintenance crews took possession of the single-track rail line,starting twelve hours into the block
+E1,E10,1,< (Precedes),False,Maintenance crews took possession of the single-track rail line,finishing their section eight hours
+E1,E11,1,< (Precedes),False,Maintenance crews took possession of the single-track rail line,completing their checks two hours
+E2,E1,-4,si (Started By),False,pulling old ballast and ties,Maintenance crews took possession of the single-track rail line
+E2,E3,3,o (Overlaps),False,pulling old ballast and ties,Rail replacement crews worked
+E2,E4,1,< (Precedes),False,pulling old ballast and ties,Welded rail joints were ground smooth
+E2,E5,1,< (Precedes),False,pulling old ballast and ties,signal engineers tested track circuit sensors
+E2,E6,1,< (Precedes),False,pulling old ballast and ties,The track was re-ballasted and tamped
+E2,E7,1,< (Precedes),False,pulling old ballast and ties,A test locomotive ran over the track at half speed
+E2,E8,1,< (Precedes),False,pulling old ballast and ties,clearing the line for normal traffic
+E2,E9,-5,di (Contains),False,pulling old ballast and ties,starting twelve hours into the block
+E2,E10,1,< (Precedes),False,pulling old ballast and ties,finishing their section eight hours
+E2,E11,1,< (Precedes),False,pulling old ballast and ties,completing their checks two hours
+E3,E1,-1,> (Preceded By),False,Rail replacement crews worked,Maintenance crews took possession of the single-track rail line
+E3,E2,-3,oi (Overlapped By),False,Rail replacement crews worked,pulling old ballast and ties
+E3,E4,2,m (Meets),False,Rail replacement crews worked,Welded rail joints were ground smooth
+E3,E5,2,m (Meets),False,Rail replacement crews worked,signal engineers tested track circuit sensors
+E3,E6,1,< (Precedes),False,Rail replacement crews worked,The track was re-ballasted and tamped
+E3,E7,1,< (Precedes),False,Rail replacement crews worked,A test locomotive ran over the track at half speed
+E3,E8,1,< (Precedes),False,Rail replacement crews worked,clearing the line for normal traffic
+E3,E9,-4,si (Started By),False,Rail replacement crews worked,starting twelve hours into the block
+E3,E10,2,m (Meets),False,Rail replacement crews worked,finishing their section eight hours
+E3,E11,1,< (Precedes),False,Rail replacement crews worked,completing their checks two hours
+E4,E1,-1,> (Preceded By),False,Welded rail joints were ground smooth,Maintenance crews took possession of the single-track rail line
+E4,E2,-1,> (Preceded By),False,Welded rail joints were ground smooth,pulling old ballast and ties
+E4,E3,-2,mi (Met By),False,Welded rail joints were ground smooth,Rail replacement crews worked
+E4,E5,4,s (Starts),False,Welded rail joints were ground smooth,signal engineers tested track circuit sensors
+E4,E6,1,< (Precedes),False,Welded rail joints were ground smooth,The track was re-ballasted and tamped
+E4,E7,1,< (Precedes),False,Welded rail joints were ground smooth,A test locomotive ran over the track at half speed
+E4,E8,1,< (Precedes),False,Welded rail joints were ground smooth,clearing the line for normal traffic
+E4,E9,-1,> (Preceded By),False,Welded rail joints were ground smooth,starting twelve hours into the block
+E4,E10,-4,si (Started By),False,Welded rail joints were ground smooth,finishing their section eight hours
+E4,E11,1,< (Precedes),False,Welded rail joints were ground smooth,completing their checks two hours
+E5,E1,-1,> (Preceded By),False,signal engineers tested track circuit sensors,Maintenance crews took possession of the single-track rail line
+E5,E2,-1,> (Preceded By),False,signal engineers tested track circuit sensors,pulling old ballast and ties
+E5,E3,-2,mi (Met By),False,signal engineers tested track circuit sensors,Rail replacement crews worked
+E5,E4,-4,si (Started By),False,signal engineers tested track circuit sensors,Welded rail joints were ground smooth
+E5,E6,1,< (Precedes),False,signal engineers tested track circuit sensors,The track was re-ballasted and tamped
+E5,E7,1,< (Precedes),False,signal engineers tested track circuit sensors,A test locomotive ran over the track at half speed
+E5,E8,1,< (Precedes),False,signal engineers tested track circuit sensors,clearing the line for normal traffic
+E5,E9,-1,> (Preceded By),False,signal engineers tested track circuit sensors,starting twelve hours into the block
+E5,E10,-4,si (Started By),False,signal engineers tested track circuit sensors,finishing their section eight hours
+E5,E11,2,m (Meets),False,signal engineers tested track circuit sensors,completing their checks two hours
+E6,E1,-1,> (Preceded By),False,The track was re-ballasted and tamped,Maintenance crews took possession of the single-track rail line
+E6,E2,-1,> (Preceded By),False,The track was re-ballasted and tamped,pulling old ballast and ties
+E6,E3,-1,> (Preceded By),False,The track was re-ballasted and tamped,Rail replacement crews worked
+E6,E4,-1,> (Preceded By),False,The track was re-ballasted and tamped,Welded rail joints were ground smooth
+E6,E5,-1,> (Preceded By),False,The track was re-ballasted and tamped,signal engineers tested track circuit sensors
+E6,E7,1,< (Precedes),False,The track was re-ballasted and tamped,A test locomotive ran over the track at half speed
+E6,E8,1,< (Precedes),False,The track was re-ballasted and tamped,clearing the line for normal traffic
+E6,E9,-1,> (Preceded By),False,The track was re-ballasted and tamped,starting twelve hours into the block
+E6,E10,-1,> (Preceded By),False,The track was re-ballasted and tamped,finishing their section eight hours
+E6,E11,-1,> (Preceded By),False,The track was re-ballasted and tamped,completing their checks two hours
+E7,E1,-1,> (Preceded By),False,A test locomotive ran over the track at half speed,Maintenance crews took possession of the single-track rail line
+E7,E2,-1,> (Preceded By),False,A test locomotive ran over the track at half speed,pulling old ballast and ties
+E7,E3,-1,> (Preceded By),False,A test locomotive ran over the track at half speed,Rail replacement crews worked
+E7,E4,-1,> (Preceded By),False,A test locomotive ran over the track at half speed,Welded rail joints were ground smooth
+E7,E5,-1,> (Preceded By),False,A test locomotive ran over the track at half speed,signal engineers tested track circuit sensors
+E7,E6,-1,> (Preceded By),False,A test locomotive ran over the track at half speed,The track was re-ballasted and tamped
+E7,E8,0,= (Equal),False,A test locomotive ran over the track at half speed,clearing the line for normal traffic
+E7,E9,-1,> (Preceded By),False,A test locomotive ran over the track at half speed,starting twelve hours into the block
+E7,E10,-1,> (Preceded By),False,A test locomotive ran over the track at half speed,finishing their section eight hours
+E7,E11,-1,> (Preceded By),False,A test locomotive ran over the track at half speed,completing their checks two hours
+E8,E1,-1,> (Preceded By),False,clearing the line for normal traffic,Maintenance crews took possession of the single-track rail line
+E8,E2,-1,> (Preceded By),False,clearing the line for normal traffic,pulling old ballast and ties
+E8,E3,-1,> (Preceded By),False,clearing the line for normal traffic,Rail replacement crews worked
+E8,E4,-1,> (Preceded By),False,clearing the line for normal traffic,Welded rail joints were ground smooth
+E8,E5,-1,> (Preceded By),False,clearing the line for normal traffic,signal engineers tested track circuit sensors
+E8,E6,-1,> (Preceded By),False,clearing the line for normal traffic,The track was re-ballasted and tamped
+E8,E7,0,= (Equal),False,clearing the line for normal traffic,A test locomotive ran over the track at half speed
+E8,E9,-1,> (Preceded By),False,clearing the line for normal traffic,starting twelve hours into the block
+E8,E10,-1,> (Preceded By),False,clearing the line for normal traffic,finishing their section eight hours
+E8,E11,-1,> (Preceded By),False,clearing the line for normal traffic,completing their checks two hours
+E9,E1,-1,> (Preceded By),False,starting twelve hours into the block,Maintenance crews took possession of the single-track rail line
+E9,E2,5,d (During),False,starting twelve hours into the block,pulling old ballast and ties
+E9,E3,4,s (Starts),False,starting twelve hours into the block,Rail replacement crews worked
+E9,E4,1,< (Precedes),False,starting twelve hours into the block,Welded rail joints were ground smooth
+E9,E5,1,< (Precedes),False,starting twelve hours into the block,signal engineers tested track circuit sensors
+E9,E6,1,< (Precedes),False,starting twelve hours into the block,The track was re-ballasted and tamped
+E9,E7,1,< (Precedes),False,starting twelve hours into the block,A test locomotive ran over the track at half speed
+E9,E8,1,< (Precedes),False,starting twelve hours into the block,clearing the line for normal traffic
+E9,E10,1,< (Precedes),False,starting twelve hours into the block,finishing their section eight hours
+E9,E11,1,< (Precedes),False,starting twelve hours into the block,completing their checks two hours
+E10,E1,-1,> (Preceded By),False,finishing their section eight hours,Maintenance crews took possession of the single-track rail line
+E10,E2,-1,> (Preceded By),False,finishing their section eight hours,pulling old ballast and ties
+E10,E3,-2,mi (Met By),False,finishing their section eight hours,Rail replacement crews worked
+E10,E4,4,s (Starts),False,finishing their section eight hours,Welded rail joints were ground smooth
+E10,E5,4,s (Starts),False,finishing their section eight hours,signal engineers tested track circuit sensors
+E10,E6,1,< (Precedes),False,finishing their section eight hours,The track was re-ballasted and tamped
+E10,E7,1,< (Precedes),False,finishing their section eight hours,A test locomotive ran over the track at half speed
+E10,E8,1,< (Precedes),False,finishing their section eight hours,clearing the line for normal traffic
+E10,E9,-1,> (Preceded By),False,finishing their section eight hours,starting twelve hours into the block
+E10,E11,1,< (Precedes),False,finishing their section eight hours,completing their checks two hours
+E11,E1,-1,> (Preceded By),False,completing their checks two hours,Maintenance crews took possession of the single-track rail line
+E11,E2,-1,> (Preceded By),False,completing their checks two hours,pulling old ballast and ties
+E11,E3,-1,> (Preceded By),False,completing their checks two hours,Rail replacement crews worked
+E11,E4,-1,> (Preceded By),False,completing their checks two hours,Welded rail joints were ground smooth
+E11,E5,-2,mi (Met By),False,completing their checks two hours,signal engineers tested track circuit sensors
+E11,E6,1,< (Precedes),False,completing their checks two hours,The track was re-ballasted and tamped
+E11,E7,1,< (Precedes),False,completing their checks two hours,A test locomotive ran over the track at half speed
+E11,E8,1,< (Precedes),False,completing their checks two hours,clearing the line for normal traffic
+E11,E9,-1,> (Preceded By),False,completing their checks two hours,starting twelve hours into the block
+E11,E10,-1,> (Preceded By),False,completing their checks two hours,finishing their section eight hours

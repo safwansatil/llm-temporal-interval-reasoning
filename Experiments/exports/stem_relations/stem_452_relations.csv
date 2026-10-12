@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,receiving the silk yarn from Rajshahi,Bashir began weaving a commemorative jamdani saree
+E1,E3,1,< (Precedes),False,receiving the silk yarn from Rajshahi,The warping process on the handloom took four consecutive days
+E1,E4,1,< (Precedes),False,receiving the silk yarn from Rajshahi,he began weaving the main body
+E1,E5,1,< (Precedes),False,receiving the silk yarn from Rajshahi,the primary treadle snapped
+E1,E6,1,< (Precedes),False,receiving the silk yarn from Rajshahi,halting production for three days
+E1,E7,1,< (Precedes),False,receiving the silk yarn from Rajshahi,a local carpenter carved a replacement part
+E1,E8,1,< (Precedes),False,receiving the silk yarn from Rajshahi,Bashir resumed weaving
+E1,E9,1,< (Precedes),False,receiving the silk yarn from Rajshahi,his apprentice prepared the gold zari threads for the borders
+E1,E10,1,< (Precedes),False,receiving the silk yarn from Rajshahi,The border was stitched onto the saree
+E1,E11,4,s (Starts),False,receiving the silk yarn from Rajshahi,the master buyer checked in via telephone
+E1,E12,1,< (Precedes),False,receiving the silk yarn from Rajshahi,the completed saree was packaged for dispatch
+E2,E1,-1,> (Preceded By),False,Bashir began weaving a commemorative jamdani saree,receiving the silk yarn from Rajshahi
+E2,E3,4,s (Starts),False,Bashir began weaving a commemorative jamdani saree,The warping process on the handloom took four consecutive days
+E2,E4,1,< (Precedes),False,Bashir began weaving a commemorative jamdani saree,he began weaving the main body
+E2,E5,1,< (Precedes),False,Bashir began weaving a commemorative jamdani saree,the primary treadle snapped
+E2,E6,1,< (Precedes),False,Bashir began weaving a commemorative jamdani saree,halting production for three days
+E2,E7,1,< (Precedes),False,Bashir began weaving a commemorative jamdani saree,a local carpenter carved a replacement part
+E2,E8,1,< (Precedes),False,Bashir began weaving a commemorative jamdani saree,Bashir resumed weaving
+E2,E9,1,< (Precedes),False,Bashir began weaving a commemorative jamdani saree,his apprentice prepared the gold zari threads for the borders
+E2,E10,1,< (Precedes),False,Bashir began weaving a commemorative jamdani saree,The border was stitched onto the saree
+E2,E11,5,d (During),False,Bashir began weaving a commemorative jamdani saree,the master buyer checked in via telephone
+E2,E12,1,< (Precedes),False,Bashir began weaving a commemorative jamdani saree,the completed saree was packaged for dispatch
+E3,E1,-1,> (Preceded By),False,The warping process on the handloom took four consecutive days,receiving the silk yarn from Rajshahi
+E3,E2,-4,si (Started By),False,The warping process on the handloom took four consecutive days,Bashir began weaving a commemorative jamdani saree
+E3,E4,2,m (Meets),False,The warping process on the handloom took four consecutive days,he began weaving the main body
+E3,E5,1,< (Precedes),False,The warping process on the handloom took four consecutive days,the primary treadle snapped
+E3,E6,1,< (Precedes),False,The warping process on the handloom took four consecutive days,halting production for three days
+E3,E7,1,< (Precedes),False,The warping process on the handloom took four consecutive days,a local carpenter carved a replacement part
+E3,E8,1,< (Precedes),False,The warping process on the handloom took four consecutive days,Bashir resumed weaving
+E3,E9,1,< (Precedes),False,The warping process on the handloom took four consecutive days,his apprentice prepared the gold zari threads for the borders
+E3,E10,1,< (Precedes),False,The warping process on the handloom took four consecutive days,The border was stitched onto the saree
+E3,E11,5,d (During),False,The warping process on the handloom took four consecutive days,the master buyer checked in via telephone
+E3,E12,1,< (Precedes),False,The warping process on the handloom took four consecutive days,the completed saree was packaged for dispatch
+E4,E1,-1,> (Preceded By),False,he began weaving the main body,receiving the silk yarn from Rajshahi
+E4,E2,-1,> (Preceded By),False,he began weaving the main body,Bashir began weaving a commemorative jamdani saree
+E4,E3,-2,mi (Met By),False,he began weaving the main body,The warping process on the handloom took four consecutive days
+E4,E5,1,< (Precedes),False,he began weaving the main body,the primary treadle snapped
+E4,E6,1,< (Precedes),False,he began weaving the main body,halting production for three days
+E4,E7,1,< (Precedes),False,he began weaving the main body,a local carpenter carved a replacement part
+E4,E8,1,< (Precedes),False,he began weaving the main body,Bashir resumed weaving
+E4,E9,1,< (Precedes),False,he began weaving the main body,his apprentice prepared the gold zari threads for the borders
+E4,E10,1,< (Precedes),False,he began weaving the main body,The border was stitched onto the saree
+E4,E11,5,d (During),False,he began weaving the main body,the master buyer checked in via telephone
+E4,E12,1,< (Precedes),False,he began weaving the main body,the completed saree was packaged for dispatch
+E5,E1,-1,> (Preceded By),False,the primary treadle snapped,receiving the silk yarn from Rajshahi
+E5,E2,-1,> (Preceded By),False,the primary treadle snapped,Bashir began weaving a commemorative jamdani saree
+E5,E3,-1,> (Preceded By),False,the primary treadle snapped,The warping process on the handloom took four consecutive days
+E5,E4,-1,> (Preceded By),False,the primary treadle snapped,he began weaving the main body
+E5,E6,4,s (Starts),False,the primary treadle snapped,halting production for three days
+E5,E7,4,s (Starts),False,the primary treadle snapped,a local carpenter carved a replacement part
+E5,E8,1,< (Precedes),False,the primary treadle snapped,Bashir resumed weaving
+E5,E9,1,< (Precedes),False,the primary treadle snapped,his apprentice prepared the gold zari threads for the borders
+E5,E10,1,< (Precedes),False,the primary treadle snapped,The border was stitched onto the saree
+E5,E11,5,d (During),False,the primary treadle snapped,the master buyer checked in via telephone
+E5,E12,1,< (Precedes),False,the primary treadle snapped,the completed saree was packaged for dispatch
+E6,E1,-1,> (Preceded By),False,halting production for three days,receiving the silk yarn from Rajshahi
+E6,E2,-1,> (Preceded By),False,halting production for three days,Bashir began weaving a commemorative jamdani saree
+E6,E3,-1,> (Preceded By),False,halting production for three days,The warping process on the handloom took four consecutive days
+E6,E4,-1,> (Preceded By),False,halting production for three days,he began weaving the main body
+E6,E5,-4,si (Started By),False,halting production for three days,the primary treadle snapped
+E6,E7,0,= (Equal),False,halting production for three days,a local carpenter carved a replacement part
+E6,E8,2,m (Meets),False,halting production for three days,Bashir resumed weaving
+E6,E9,1,< (Precedes),False,halting production for three days,his apprentice prepared the gold zari threads for the borders
+E6,E10,1,< (Precedes),False,halting production for three days,The border was stitched onto the saree
+E6,E11,5,d (During),False,halting production for three days,the master buyer checked in via telephone
+E6,E12,1,< (Precedes),False,halting production for three days,the completed saree was packaged for dispatch
+E7,E1,-1,> (Preceded By),False,a local carpenter carved a replacement part,receiving the silk yarn from Rajshahi
+E7,E2,-1,> (Preceded By),False,a local carpenter carved a replacement part,Bashir began weaving a commemorative jamdani saree
+E7,E3,-1,> (Preceded By),False,a local carpenter carved a replacement part,The warping process on the handloom took four consecutive days
+E7,E4,-1,> (Preceded By),False,a local carpenter carved a replacement part,he began weaving the main body
+E7,E5,-4,si (Started By),False,a local carpenter carved a replacement part,the primary treadle snapped
+E7,E6,0,= (Equal),False,a local carpenter carved a replacement part,halting production for three days
+E7,E8,2,m (Meets),False,a local carpenter carved a replacement part,Bashir resumed weaving
+E7,E9,1,< (Precedes),False,a local carpenter carved a replacement part,his apprentice prepared the gold zari threads for the borders
+E7,E10,1,< (Precedes),False,a local carpenter carved a replacement part,The border was stitched onto the saree
+E7,E11,5,d (During),False,a local carpenter carved a replacement part,the master buyer checked in via telephone
+E7,E12,1,< (Precedes),False,a local carpenter carved a replacement part,the completed saree was packaged for dispatch
+E8,E1,-1,> (Preceded By),False,Bashir resumed weaving,receiving the silk yarn from Rajshahi
+E8,E2,-1,> (Preceded By),False,Bashir resumed weaving,Bashir began weaving a commemorative jamdani saree
+E8,E3,-1,> (Preceded By),False,Bashir resumed weaving,The warping process on the handloom took four consecutive days
+E8,E4,-1,> (Preceded By),False,Bashir resumed weaving,he began weaving the main body
+E8,E5,-1,> (Preceded By),False,Bashir resumed weaving,the primary treadle snapped
+E8,E6,-2,mi (Met By),False,Bashir resumed weaving,halting production for three days
+E8,E7,-2,mi (Met By),False,Bashir resumed weaving,a local carpenter carved a replacement part
+E8,E9,1,< (Precedes),False,Bashir resumed weaving,his apprentice prepared the gold zari threads for the borders
+E8,E10,1,< (Precedes),False,Bashir resumed weaving,The border was stitched onto the saree
+E8,E11,5,d (During),False,Bashir resumed weaving,the master buyer checked in via telephone
+E8,E12,1,< (Precedes),False,Bashir resumed weaving,the completed saree was packaged for dispatch
+E9,E1,-1,> (Preceded By),False,his apprentice prepared the gold zari threads for the borders,receiving the silk yarn from Rajshahi
+E9,E2,-1,> (Preceded By),False,his apprentice prepared the gold zari threads for the borders,Bashir began weaving a commemorative jamdani saree
+E9,E3,-1,> (Preceded By),False,his apprentice prepared the gold zari threads for the borders,The warping process on the handloom took four consecutive days
+E9,E4,-1,> (Preceded By),False,his apprentice prepared the gold zari threads for the borders,he began weaving the main body
+E9,E5,-1,> (Preceded By),False,his apprentice prepared the gold zari threads for the borders,the primary treadle snapped
+E9,E6,-1,> (Preceded By),False,his apprentice prepared the gold zari threads for the borders,halting production for three days
+E9,E7,-1,> (Preceded By),False,his apprentice prepared the gold zari threads for the borders,a local carpenter carved a replacement part
+E9,E8,-1,> (Preceded By),False,his apprentice prepared the gold zari threads for the borders,Bashir resumed weaving
+E9,E10,2,m (Meets),False,his apprentice prepared the gold zari threads for the borders,The border was stitched onto the saree
+E9,E11,5,d (During),False,his apprentice prepared the gold zari threads for the borders,the master buyer checked in via telephone
+E9,E12,1,< (Precedes),False,his apprentice prepared the gold zari threads for the borders,the completed saree was packaged for dispatch
+E10,E1,-1,> (Preceded By),False,The border was stitched onto the saree,receiving the silk yarn from Rajshahi
+E10,E2,-1,> (Preceded By),False,The border was stitched onto the saree,Bashir began weaving a commemorative jamdani saree
+E10,E3,-1,> (Preceded By),False,The border was stitched onto the saree,The warping process on the handloom took four consecutive days
+E10,E4,-1,> (Preceded By),False,The border was stitched onto the saree,he began weaving the main body
+E10,E5,-1,> (Preceded By),False,The border was stitched onto the saree,the primary treadle snapped
+E10,E6,-1,> (Preceded By),False,The border was stitched onto the saree,halting production for three days
+E10,E7,-1,> (Preceded By),False,The border was stitched onto the saree,a local carpenter carved a replacement part
+E10,E8,-1,> (Preceded By),False,The border was stitched onto the saree,Bashir resumed weaving
+E10,E9,-2,mi (Met By),False,The border was stitched onto the saree,his apprentice prepared the gold zari threads for the borders
+E10,E11,6,f (Finishes),False,The border was stitched onto the saree,the master buyer checked in via telephone
+E10,E12,2,m (Meets),False,The border was stitched onto the saree,the completed saree was packaged for dispatch
+E11,E1,-4,si (Started By),False,the master buyer checked in via telephone,receiving the silk yarn from Rajshahi
+E11,E2,-5,di (Contains),False,the master buyer checked in via telephone,Bashir began weaving a commemorative jamdani saree
+E11,E3,-5,di (Contains),False,the master buyer checked in via telephone,The warping process on the handloom took four consecutive days
+E11,E4,-5,di (Contains),False,the master buyer checked in via telephone,he began weaving the main body
+E11,E5,-5,di (Contains),False,the master buyer checked in via telephone,the primary treadle snapped
+E11,E6,-5,di (Contains),False,the master buyer checked in via telephone,halting production for three days
+E11,E7,-5,di (Contains),False,the master buyer checked in via telephone,a local carpenter carved a replacement part
+E11,E8,-5,di (Contains),False,the master buyer checked in via telephone,Bashir resumed weaving
+E11,E9,-5,di (Contains),False,the master buyer checked in via telephone,his apprentice prepared the gold zari threads for the borders
+E11,E10,-6,fi (Finished By),False,the master buyer checked in via telephone,The border was stitched onto the saree
+E11,E12,2,m (Meets),False,the master buyer checked in via telephone,the completed saree was packaged for dispatch
+E12,E1,-1,> (Preceded By),False,the completed saree was packaged for dispatch,receiving the silk yarn from Rajshahi
+E12,E2,-1,> (Preceded By),False,the completed saree was packaged for dispatch,Bashir began weaving a commemorative jamdani saree
+E12,E3,-1,> (Preceded By),False,the completed saree was packaged for dispatch,The warping process on the handloom took four consecutive days
+E12,E4,-1,> (Preceded By),False,the completed saree was packaged for dispatch,he began weaving the main body
+E12,E5,-1,> (Preceded By),False,the completed saree was packaged for dispatch,the primary treadle snapped
+E12,E6,-1,> (Preceded By),False,the completed saree was packaged for dispatch,halting production for three days
+E12,E7,-1,> (Preceded By),False,the completed saree was packaged for dispatch,a local carpenter carved a replacement part
+E12,E8,-1,> (Preceded By),False,the completed saree was packaged for dispatch,Bashir resumed weaving
+E12,E9,-1,> (Preceded By),False,the completed saree was packaged for dispatch,his apprentice prepared the gold zari threads for the borders
+E12,E10,-2,mi (Met By),False,the completed saree was packaged for dispatch,The border was stitched onto the saree
+E12,E11,-2,mi (Met By),False,the completed saree was packaged for dispatch,the master buyer checked in via telephone

@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,germinating seeds indoors,monitor temperature and humidity
+E1,E3,2,m (Meets),False,germinating seeds indoors,the seedlings were ready for transplantation
+E1,E4,2,m (Meets),False,germinating seeds indoors,prepare the rooftop soil beds
+E1,E5,2,m (Meets),False,germinating seeds indoors,hauling fertilizer and compost up the stairs
+E1,E6,1,< (Precedes),False,germinating seeds indoors,transplanting
+E1,E7,1,< (Precedes),False,germinating seeds indoors,watered the beds
+E1,E8,1,< (Precedes),False,germinating seeds indoors,handled the evening watering
+E1,E9,1,< (Precedes),False,germinating seeds indoors,constructed a bamboo trellis
+E1,E10,1,< (Precedes),False,germinating seeds indoors,the first heavy pre-monsoon showers began to fall
+E1,E11,4,s (Starts),False,germinating seeds indoors,managing its seasonal planting
+E1,E12,1,< (Precedes),False,germinating seeds indoors,both women working in tandem
+E2,E1,0,= (Equal),False,monitor temperature and humidity,germinating seeds indoors
+E2,E3,2,m (Meets),False,monitor temperature and humidity,the seedlings were ready for transplantation
+E2,E4,2,m (Meets),False,monitor temperature and humidity,prepare the rooftop soil beds
+E2,E5,2,m (Meets),False,monitor temperature and humidity,hauling fertilizer and compost up the stairs
+E2,E6,1,< (Precedes),False,monitor temperature and humidity,transplanting
+E2,E7,1,< (Precedes),False,monitor temperature and humidity,watered the beds
+E2,E8,1,< (Precedes),False,monitor temperature and humidity,handled the evening watering
+E2,E9,1,< (Precedes),False,monitor temperature and humidity,constructed a bamboo trellis
+E2,E10,1,< (Precedes),False,monitor temperature and humidity,the first heavy pre-monsoon showers began to fall
+E2,E11,4,s (Starts),False,monitor temperature and humidity,managing its seasonal planting
+E2,E12,1,< (Precedes),False,monitor temperature and humidity,both women working in tandem
+E3,E1,-2,mi (Met By),False,the seedlings were ready for transplantation,germinating seeds indoors
+E3,E2,-2,mi (Met By),False,the seedlings were ready for transplantation,monitor temperature and humidity
+E3,E4,4,s (Starts),False,the seedlings were ready for transplantation,prepare the rooftop soil beds
+E3,E5,4,s (Starts),False,the seedlings were ready for transplantation,hauling fertilizer and compost up the stairs
+E3,E6,1,< (Precedes),False,the seedlings were ready for transplantation,transplanting
+E3,E7,1,< (Precedes),False,the seedlings were ready for transplantation,watered the beds
+E3,E8,1,< (Precedes),False,the seedlings were ready for transplantation,handled the evening watering
+E3,E9,1,< (Precedes),False,the seedlings were ready for transplantation,constructed a bamboo trellis
+E3,E10,1,< (Precedes),False,the seedlings were ready for transplantation,the first heavy pre-monsoon showers began to fall
+E3,E11,5,d (During),False,the seedlings were ready for transplantation,managing its seasonal planting
+E3,E12,1,< (Precedes),False,the seedlings were ready for transplantation,both women working in tandem
+E4,E1,-2,mi (Met By),False,prepare the rooftop soil beds,germinating seeds indoors
+E4,E2,-2,mi (Met By),False,prepare the rooftop soil beds,monitor temperature and humidity
+E4,E3,-4,si (Started By),False,prepare the rooftop soil beds,the seedlings were ready for transplantation
+E4,E5,0,= (Equal),False,prepare the rooftop soil beds,hauling fertilizer and compost up the stairs
+E4,E6,2,m (Meets),False,prepare the rooftop soil beds,transplanting
+E4,E7,1,< (Precedes),False,prepare the rooftop soil beds,watered the beds
+E4,E8,1,< (Precedes),False,prepare the rooftop soil beds,handled the evening watering
+E4,E9,1,< (Precedes),False,prepare the rooftop soil beds,constructed a bamboo trellis
+E4,E10,1,< (Precedes),False,prepare the rooftop soil beds,the first heavy pre-monsoon showers began to fall
+E4,E11,5,d (During),False,prepare the rooftop soil beds,managing its seasonal planting
+E4,E12,2,m (Meets),False,prepare the rooftop soil beds,both women working in tandem
+E5,E1,-2,mi (Met By),False,hauling fertilizer and compost up the stairs,germinating seeds indoors
+E5,E2,-2,mi (Met By),False,hauling fertilizer and compost up the stairs,monitor temperature and humidity
+E5,E3,-4,si (Started By),False,hauling fertilizer and compost up the stairs,the seedlings were ready for transplantation
+E5,E4,0,= (Equal),False,hauling fertilizer and compost up the stairs,prepare the rooftop soil beds
+E5,E6,2,m (Meets),False,hauling fertilizer and compost up the stairs,transplanting
+E5,E7,1,< (Precedes),False,hauling fertilizer and compost up the stairs,watered the beds
+E5,E8,1,< (Precedes),False,hauling fertilizer and compost up the stairs,handled the evening watering
+E5,E9,1,< (Precedes),False,hauling fertilizer and compost up the stairs,constructed a bamboo trellis
+E5,E10,1,< (Precedes),False,hauling fertilizer and compost up the stairs,the first heavy pre-monsoon showers began to fall
+E5,E11,5,d (During),False,hauling fertilizer and compost up the stairs,managing its seasonal planting
+E5,E12,2,m (Meets),False,hauling fertilizer and compost up the stairs,both women working in tandem
+E6,E1,-1,> (Preceded By),False,transplanting,germinating seeds indoors
+E6,E2,-1,> (Preceded By),False,transplanting,monitor temperature and humidity
+E6,E3,-1,> (Preceded By),False,transplanting,the seedlings were ready for transplantation
+E6,E4,-2,mi (Met By),False,transplanting,prepare the rooftop soil beds
+E6,E5,-2,mi (Met By),False,transplanting,hauling fertilizer and compost up the stairs
+E6,E7,2,m (Meets),False,transplanting,watered the beds
+E6,E8,2,m (Meets),False,transplanting,handled the evening watering
+E6,E9,1,< (Precedes),False,transplanting,constructed a bamboo trellis
+E6,E10,1,< (Precedes),False,transplanting,the first heavy pre-monsoon showers began to fall
+E6,E11,5,d (During),False,transplanting,managing its seasonal planting
+E6,E12,0,= (Equal),False,transplanting,both women working in tandem
+E7,E1,-1,> (Preceded By),False,watered the beds,germinating seeds indoors
+E7,E2,-1,> (Preceded By),False,watered the beds,monitor temperature and humidity
+E7,E3,-1,> (Preceded By),False,watered the beds,the seedlings were ready for transplantation
+E7,E4,-1,> (Preceded By),False,watered the beds,prepare the rooftop soil beds
+E7,E5,-1,> (Preceded By),False,watered the beds,hauling fertilizer and compost up the stairs
+E7,E6,-2,mi (Met By),False,watered the beds,transplanting
+E7,E8,0,= (Equal),False,watered the beds,handled the evening watering
+E7,E9,1,< (Precedes),False,watered the beds,constructed a bamboo trellis
+E7,E10,1,< (Precedes),False,watered the beds,the first heavy pre-monsoon showers began to fall
+E7,E11,5,d (During),False,watered the beds,managing its seasonal planting
+E7,E12,-2,mi (Met By),False,watered the beds,both women working in tandem
+E8,E1,-1,> (Preceded By),False,handled the evening watering,germinating seeds indoors
+E8,E2,-1,> (Preceded By),False,handled the evening watering,monitor temperature and humidity
+E8,E3,-1,> (Preceded By),False,handled the evening watering,the seedlings were ready for transplantation
+E8,E4,-1,> (Preceded By),False,handled the evening watering,prepare the rooftop soil beds
+E8,E5,-1,> (Preceded By),False,handled the evening watering,hauling fertilizer and compost up the stairs
+E8,E6,-2,mi (Met By),False,handled the evening watering,transplanting
+E8,E7,0,= (Equal),False,handled the evening watering,watered the beds
+E8,E9,1,< (Precedes),False,handled the evening watering,constructed a bamboo trellis
+E8,E10,1,< (Precedes),False,handled the evening watering,the first heavy pre-monsoon showers began to fall
+E8,E11,5,d (During),False,handled the evening watering,managing its seasonal planting
+E8,E12,-2,mi (Met By),False,handled the evening watering,both women working in tandem
+E9,E1,-1,> (Preceded By),False,constructed a bamboo trellis,germinating seeds indoors
+E9,E2,-1,> (Preceded By),False,constructed a bamboo trellis,monitor temperature and humidity
+E9,E3,-1,> (Preceded By),False,constructed a bamboo trellis,the seedlings were ready for transplantation
+E9,E4,-1,> (Preceded By),False,constructed a bamboo trellis,prepare the rooftop soil beds
+E9,E5,-1,> (Preceded By),False,constructed a bamboo trellis,hauling fertilizer and compost up the stairs
+E9,E6,-1,> (Preceded By),False,constructed a bamboo trellis,transplanting
+E9,E7,-1,> (Preceded By),False,constructed a bamboo trellis,watered the beds
+E9,E8,-1,> (Preceded By),False,constructed a bamboo trellis,handled the evening watering
+E9,E10,2,m (Meets),False,constructed a bamboo trellis,the first heavy pre-monsoon showers began to fall
+E9,E11,6,f (Finishes),False,constructed a bamboo trellis,managing its seasonal planting
+E9,E12,-1,> (Preceded By),False,constructed a bamboo trellis,both women working in tandem
+E10,E1,-1,> (Preceded By),False,the first heavy pre-monsoon showers began to fall,germinating seeds indoors
+E10,E2,-1,> (Preceded By),False,the first heavy pre-monsoon showers began to fall,monitor temperature and humidity
+E10,E3,-1,> (Preceded By),False,the first heavy pre-monsoon showers began to fall,the seedlings were ready for transplantation
+E10,E4,-1,> (Preceded By),False,the first heavy pre-monsoon showers began to fall,prepare the rooftop soil beds
+E10,E5,-1,> (Preceded By),False,the first heavy pre-monsoon showers began to fall,hauling fertilizer and compost up the stairs
+E10,E6,-1,> (Preceded By),False,the first heavy pre-monsoon showers began to fall,transplanting
+E10,E7,-1,> (Preceded By),False,the first heavy pre-monsoon showers began to fall,watered the beds
+E10,E8,-1,> (Preceded By),False,the first heavy pre-monsoon showers began to fall,handled the evening watering
+E10,E9,-2,mi (Met By),False,the first heavy pre-monsoon showers began to fall,constructed a bamboo trellis
+E10,E11,-2,mi (Met By),False,the first heavy pre-monsoon showers began to fall,managing its seasonal planting
+E10,E12,-1,> (Preceded By),False,the first heavy pre-monsoon showers began to fall,both women working in tandem
+E11,E1,-4,si (Started By),False,managing its seasonal planting,germinating seeds indoors
+E11,E2,-4,si (Started By),False,managing its seasonal planting,monitor temperature and humidity
+E11,E3,-5,di (Contains),False,managing its seasonal planting,the seedlings were ready for transplantation
+E11,E4,-5,di (Contains),False,managing its seasonal planting,prepare the rooftop soil beds
+E11,E5,-5,di (Contains),False,managing its seasonal planting,hauling fertilizer and compost up the stairs
+E11,E6,-5,di (Contains),False,managing its seasonal planting,transplanting
+E11,E7,-5,di (Contains),False,managing its seasonal planting,watered the beds
+E11,E8,-5,di (Contains),False,managing its seasonal planting,handled the evening watering
+E11,E9,-6,fi (Finished By),False,managing its seasonal planting,constructed a bamboo trellis
+E11,E10,2,m (Meets),False,managing its seasonal planting,the first heavy pre-monsoon showers began to fall
+E11,E12,-5,di (Contains),False,managing its seasonal planting,both women working in tandem
+E12,E1,-1,> (Preceded By),False,both women working in tandem,germinating seeds indoors
+E12,E2,-1,> (Preceded By),False,both women working in tandem,monitor temperature and humidity
+E12,E3,-1,> (Preceded By),False,both women working in tandem,the seedlings were ready for transplantation
+E12,E4,-2,mi (Met By),False,both women working in tandem,prepare the rooftop soil beds
+E12,E5,-2,mi (Met By),False,both women working in tandem,hauling fertilizer and compost up the stairs
+E12,E6,0,= (Equal),False,both women working in tandem,transplanting
+E12,E7,2,m (Meets),False,both women working in tandem,watered the beds
+E12,E8,2,m (Meets),False,both women working in tandem,handled the evening watering
+E12,E9,1,< (Precedes),False,both women working in tandem,constructed a bamboo trellis
+E12,E10,1,< (Precedes),False,both women working in tandem,the first heavy pre-monsoon showers began to fall
+E12,E11,5,d (During),False,both women working in tandem,managing its seasonal planting

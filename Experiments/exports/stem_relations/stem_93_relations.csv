@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-1,> (Preceded By),False,the controversial letter I mailed,the conference opened
+E1,E3,-1,> (Preceded By),False,the controversial letter I mailed,Sen's opening keynote commenced
+E1,E4,-1,> (Preceded By),False,the controversial letter I mailed,her speech finished
+E1,E5,-1,> (Preceded By),False,the controversial letter I mailed,the closing banquet started
+E1,E6,-1,> (Preceded By),False,the controversial letter I mailed,the conference's conclusion
+E1,E7,1,< (Precedes),False,the controversial letter I mailed,phone argument with Dr. Sen abruptly cut off
+E1,E8,1,< (Precedes),False,the controversial letter I mailed,Prague express train's arrival
+E1,E9,1,< (Precedes),False,the controversial letter I mailed,security announcement started playing
+E1,E10,1,< (Precedes),False,the controversial letter I mailed,the train had come to a complete halt
+E1,E11,1,< (Precedes),False,the controversial letter I mailed,a stranger's dropped suitcase hit the platform floor
+E1,E12,1,< (Precedes),False,the controversial letter I mailed,my final showdown in Seoul
+E1,E13,1,< (Precedes),False,the controversial letter I mailed,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E1,E14,1,< (Precedes),False,the controversial letter I mailed,e infamous Dhaka blackout
+E1,E15,1,< (Precedes),False,the controversial letter I mailed,untraceable Kyoto phone cal
+E2,E1,1,< (Precedes),False,the conference opened,the controversial letter I mailed
+E2,E3,-4,si (Started By),False,the conference opened,Sen's opening keynote commenced
+E2,E4,-5,di (Contains),False,the conference opened,her speech finished
+E2,E5,-6,fi (Finished By),False,the conference opened,the closing banquet started
+E2,E6,2,m (Meets),False,the conference opened,the conference's conclusion
+E2,E7,1,< (Precedes),False,the conference opened,phone argument with Dr. Sen abruptly cut off
+E2,E8,1,< (Precedes),False,the conference opened,Prague express train's arrival
+E2,E9,1,< (Precedes),False,the conference opened,security announcement started playing
+E2,E10,1,< (Precedes),False,the conference opened,the train had come to a complete halt
+E2,E11,1,< (Precedes),False,the conference opened,a stranger's dropped suitcase hit the platform floor
+E2,E12,1,< (Precedes),False,the conference opened,my final showdown in Seoul
+E2,E13,1,< (Precedes),False,the conference opened,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E2,E14,1,< (Precedes),False,the conference opened,e infamous Dhaka blackout
+E2,E15,1,< (Precedes),False,the conference opened,untraceable Kyoto phone cal
+E3,E1,1,< (Precedes),False,Sen's opening keynote commenced,the controversial letter I mailed
+E3,E2,4,s (Starts),False,Sen's opening keynote commenced,the conference opened
+E3,E4,1,< (Precedes),False,Sen's opening keynote commenced,her speech finished
+E3,E5,1,< (Precedes),False,Sen's opening keynote commenced,the closing banquet started
+E3,E6,1,< (Precedes),False,Sen's opening keynote commenced,the conference's conclusion
+E3,E7,1,< (Precedes),False,Sen's opening keynote commenced,phone argument with Dr. Sen abruptly cut off
+E3,E8,1,< (Precedes),False,Sen's opening keynote commenced,Prague express train's arrival
+E3,E9,1,< (Precedes),False,Sen's opening keynote commenced,security announcement started playing
+E3,E10,1,< (Precedes),False,Sen's opening keynote commenced,the train had come to a complete halt
+E3,E11,1,< (Precedes),False,Sen's opening keynote commenced,a stranger's dropped suitcase hit the platform floor
+E3,E12,1,< (Precedes),False,Sen's opening keynote commenced,my final showdown in Seoul
+E3,E13,1,< (Precedes),False,Sen's opening keynote commenced,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E3,E14,1,< (Precedes),False,Sen's opening keynote commenced,e infamous Dhaka blackout
+E3,E15,1,< (Precedes),False,Sen's opening keynote commenced,untraceable Kyoto phone cal
+E4,E1,1,< (Precedes),False,her speech finished,the controversial letter I mailed
+E4,E2,5,d (During),False,her speech finished,the conference opened
+E4,E3,-1,> (Preceded By),False,her speech finished,Sen's opening keynote commenced
+E4,E5,1,< (Precedes),False,her speech finished,the closing banquet started
+E4,E6,1,< (Precedes),False,her speech finished,the conference's conclusion
+E4,E7,1,< (Precedes),False,her speech finished,phone argument with Dr. Sen abruptly cut off
+E4,E8,1,< (Precedes),False,her speech finished,Prague express train's arrival
+E4,E9,1,< (Precedes),False,her speech finished,security announcement started playing
+E4,E10,1,< (Precedes),False,her speech finished,the train had come to a complete halt
+E4,E11,1,< (Precedes),False,her speech finished,a stranger's dropped suitcase hit the platform floor
+E4,E12,1,< (Precedes),False,her speech finished,my final showdown in Seoul
+E4,E13,1,< (Precedes),False,her speech finished,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E4,E14,1,< (Precedes),False,her speech finished,e infamous Dhaka blackout
+E4,E15,1,< (Precedes),False,her speech finished,untraceable Kyoto phone cal
+E5,E1,1,< (Precedes),False,the closing banquet started,the controversial letter I mailed
+E5,E2,6,f (Finishes),False,the closing banquet started,the conference opened
+E5,E3,-1,> (Preceded By),False,the closing banquet started,Sen's opening keynote commenced
+E5,E4,-1,> (Preceded By),False,the closing banquet started,her speech finished
+E5,E6,2,m (Meets),False,the closing banquet started,the conference's conclusion
+E5,E7,1,< (Precedes),False,the closing banquet started,phone argument with Dr. Sen abruptly cut off
+E5,E8,1,< (Precedes),False,the closing banquet started,Prague express train's arrival
+E5,E9,1,< (Precedes),False,the closing banquet started,security announcement started playing
+E5,E10,1,< (Precedes),False,the closing banquet started,the train had come to a complete halt
+E5,E11,1,< (Precedes),False,the closing banquet started,a stranger's dropped suitcase hit the platform floor
+E5,E12,1,< (Precedes),False,the closing banquet started,my final showdown in Seoul
+E5,E13,1,< (Precedes),False,the closing banquet started,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E5,E14,1,< (Precedes),False,the closing banquet started,e infamous Dhaka blackout
+E5,E15,1,< (Precedes),False,the closing banquet started,untraceable Kyoto phone cal
+E6,E1,1,< (Precedes),False,the conference's conclusion,the controversial letter I mailed
+E6,E2,-2,mi (Met By),False,the conference's conclusion,the conference opened
+E6,E3,-1,> (Preceded By),False,the conference's conclusion,Sen's opening keynote commenced
+E6,E4,-1,> (Preceded By),False,the conference's conclusion,her speech finished
+E6,E5,-2,mi (Met By),False,the conference's conclusion,the closing banquet started
+E6,E7,1,< (Precedes),False,the conference's conclusion,phone argument with Dr. Sen abruptly cut off
+E6,E8,1,< (Precedes),False,the conference's conclusion,Prague express train's arrival
+E6,E9,1,< (Precedes),False,the conference's conclusion,security announcement started playing
+E6,E10,1,< (Precedes),False,the conference's conclusion,the train had come to a complete halt
+E6,E11,1,< (Precedes),False,the conference's conclusion,a stranger's dropped suitcase hit the platform floor
+E6,E12,1,< (Precedes),False,the conference's conclusion,my final showdown in Seoul
+E6,E13,1,< (Precedes),False,the conference's conclusion,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E6,E14,1,< (Precedes),False,the conference's conclusion,e infamous Dhaka blackout
+E6,E15,1,< (Precedes),False,the conference's conclusion,untraceable Kyoto phone cal
+E7,E1,-1,> (Preceded By),False,phone argument with Dr. Sen abruptly cut off,the controversial letter I mailed
+E7,E2,-1,> (Preceded By),False,phone argument with Dr. Sen abruptly cut off,the conference opened
+E7,E3,-1,> (Preceded By),False,phone argument with Dr. Sen abruptly cut off,Sen's opening keynote commenced
+E7,E4,-1,> (Preceded By),False,phone argument with Dr. Sen abruptly cut off,her speech finished
+E7,E5,-1,> (Preceded By),False,phone argument with Dr. Sen abruptly cut off,the closing banquet started
+E7,E6,-1,> (Preceded By),False,phone argument with Dr. Sen abruptly cut off,the conference's conclusion
+E7,E8,2,m (Meets),False,phone argument with Dr. Sen abruptly cut off,Prague express train's arrival
+E7,E9,1,< (Precedes),False,phone argument with Dr. Sen abruptly cut off,security announcement started playing
+E7,E10,1,< (Precedes),False,phone argument with Dr. Sen abruptly cut off,the train had come to a complete halt
+E7,E11,1,< (Precedes),False,phone argument with Dr. Sen abruptly cut off,a stranger's dropped suitcase hit the platform floor
+E7,E12,1,< (Precedes),False,phone argument with Dr. Sen abruptly cut off,my final showdown in Seoul
+E7,E13,1,< (Precedes),False,phone argument with Dr. Sen abruptly cut off,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E7,E14,-1,> (Preceded By),False,phone argument with Dr. Sen abruptly cut off,e infamous Dhaka blackout
+E7,E15,-1,> (Preceded By),False,phone argument with Dr. Sen abruptly cut off,untraceable Kyoto phone cal
+E8,E1,-1,> (Preceded By),False,Prague express train's arrival,the controversial letter I mailed
+E8,E2,-1,> (Preceded By),False,Prague express train's arrival,the conference opened
+E8,E3,-1,> (Preceded By),False,Prague express train's arrival,Sen's opening keynote commenced
+E8,E4,-1,> (Preceded By),False,Prague express train's arrival,her speech finished
+E8,E5,-1,> (Preceded By),False,Prague express train's arrival,the closing banquet started
+E8,E6,-1,> (Preceded By),False,Prague express train's arrival,the conference's conclusion
+E8,E7,-2,mi (Met By),False,Prague express train's arrival,phone argument with Dr. Sen abruptly cut off
+E8,E9,3,o (Overlaps),False,Prague express train's arrival,security announcement started playing
+E8,E10,2,m (Meets),False,Prague express train's arrival,the train had come to a complete halt
+E8,E11,1,< (Precedes),False,Prague express train's arrival,a stranger's dropped suitcase hit the platform floor
+E8,E12,1,< (Precedes),False,Prague express train's arrival,my final showdown in Seoul
+E8,E13,1,< (Precedes),False,Prague express train's arrival,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E8,E14,-1,> (Preceded By),False,Prague express train's arrival,e infamous Dhaka blackout
+E8,E15,-1,> (Preceded By),False,Prague express train's arrival,untraceable Kyoto phone cal
+E9,E1,-1,> (Preceded By),False,security announcement started playing,the controversial letter I mailed
+E9,E2,-1,> (Preceded By),False,security announcement started playing,the conference opened
+E9,E3,-1,> (Preceded By),False,security announcement started playing,Sen's opening keynote commenced
+E9,E4,-1,> (Preceded By),False,security announcement started playing,her speech finished
+E9,E5,-1,> (Preceded By),False,security announcement started playing,the closing banquet started
+E9,E6,-1,> (Preceded By),False,security announcement started playing,the conference's conclusion
+E9,E7,-1,> (Preceded By),False,security announcement started playing,phone argument with Dr. Sen abruptly cut off
+E9,E8,-3,oi (Overlapped By),False,security announcement started playing,Prague express train's arrival
+E9,E10,-5,di (Contains),False,security announcement started playing,the train had come to a complete halt
+E9,E11,-5,di (Contains),False,security announcement started playing,a stranger's dropped suitcase hit the platform floor
+E9,E12,1,< (Precedes),False,security announcement started playing,my final showdown in Seoul
+E9,E13,-5,di (Contains),False,security announcement started playing,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E9,E14,-1,> (Preceded By),False,security announcement started playing,e infamous Dhaka blackout
+E9,E15,-1,> (Preceded By),False,security announcement started playing,untraceable Kyoto phone cal
+E10,E1,-1,> (Preceded By),False,the train had come to a complete halt,the controversial letter I mailed
+E10,E2,-1,> (Preceded By),False,the train had come to a complete halt,the conference opened
+E10,E3,-1,> (Preceded By),False,the train had come to a complete halt,Sen's opening keynote commenced
+E10,E4,-1,> (Preceded By),False,the train had come to a complete halt,her speech finished
+E10,E5,-1,> (Preceded By),False,the train had come to a complete halt,the closing banquet started
+E10,E6,-1,> (Preceded By),False,the train had come to a complete halt,the conference's conclusion
+E10,E7,-1,> (Preceded By),False,the train had come to a complete halt,phone argument with Dr. Sen abruptly cut off
+E10,E8,-2,mi (Met By),False,the train had come to a complete halt,Prague express train's arrival
+E10,E9,5,d (During),False,the train had come to a complete halt,security announcement started playing
+E10,E11,1,< (Precedes),False,the train had come to a complete halt,a stranger's dropped suitcase hit the platform floor
+E10,E12,1,< (Precedes),False,the train had come to a complete halt,my final showdown in Seoul
+E10,E13,1,< (Precedes),False,the train had come to a complete halt,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E10,E14,-1,> (Preceded By),False,the train had come to a complete halt,e infamous Dhaka blackout
+E10,E15,-1,> (Preceded By),False,the train had come to a complete halt,untraceable Kyoto phone cal
+E11,E1,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,the controversial letter I mailed
+E11,E2,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,the conference opened
+E11,E3,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,Sen's opening keynote commenced
+E11,E4,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,her speech finished
+E11,E5,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,the closing banquet started
+E11,E6,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,the conference's conclusion
+E11,E7,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,phone argument with Dr. Sen abruptly cut off
+E11,E8,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,Prague express train's arrival
+E11,E9,5,d (During),False,a stranger's dropped suitcase hit the platform floor,security announcement started playing
+E11,E10,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,the train had come to a complete halt
+E11,E12,1,< (Precedes),False,a stranger's dropped suitcase hit the platform floor,my final showdown in Seoul
+E11,E13,1,< (Precedes),False,a stranger's dropped suitcase hit the platform floor,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E11,E14,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,e infamous Dhaka blackout
+E11,E15,-1,> (Preceded By),False,a stranger's dropped suitcase hit the platform floor,untraceable Kyoto phone cal
+E12,E1,-1,> (Preceded By),False,my final showdown in Seoul,the controversial letter I mailed
+E12,E2,-1,> (Preceded By),False,my final showdown in Seoul,the conference opened
+E12,E3,-1,> (Preceded By),False,my final showdown in Seoul,Sen's opening keynote commenced
+E12,E4,-1,> (Preceded By),False,my final showdown in Seoul,her speech finished
+E12,E5,-1,> (Preceded By),False,my final showdown in Seoul,the closing banquet started
+E12,E6,-1,> (Preceded By),False,my final showdown in Seoul,the conference's conclusion
+E12,E7,-1,> (Preceded By),False,my final showdown in Seoul,phone argument with Dr. Sen abruptly cut off
+E12,E8,-1,> (Preceded By),False,my final showdown in Seoul,Prague express train's arrival
+E12,E9,-1,> (Preceded By),False,my final showdown in Seoul,security announcement started playing
+E12,E10,-1,> (Preceded By),False,my final showdown in Seoul,the train had come to a complete halt
+E12,E11,-1,> (Preceded By),False,my final showdown in Seoul,a stranger's dropped suitcase hit the platform floor
+E12,E13,-1,> (Preceded By),False,my final showdown in Seoul,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E12,E14,-1,> (Preceded By),False,my final showdown in Seoul,e infamous Dhaka blackout
+E12,E15,-1,> (Preceded By),False,my final showdown in Seoul,untraceable Kyoto phone cal
+E13,E1,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,the controversial letter I mailed
+E13,E2,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,the conference opened
+E13,E3,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,Sen's opening keynote commenced
+E13,E4,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,her speech finished
+E13,E5,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,the closing banquet started
+E13,E6,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,the conference's conclusion
+E13,E7,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,phone argument with Dr. Sen abruptly cut off
+E13,E8,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,Prague express train's arrival
+E13,E9,5,d (During),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,security announcement started playing
+E13,E10,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,the train had come to a complete halt
+E13,E11,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,a stranger's dropped suitcase hit the platform floor
+E13,E12,1,< (Precedes),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,my final showdown in Seoul
+E13,E14,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,e infamous Dhaka blackout
+E13,E15,-1,> (Preceded By),False,y mind drifted back to the chaos of last month's Nairobi ethics conference,untraceable Kyoto phone cal
+E14,E1,-1,> (Preceded By),False,e infamous Dhaka blackout,the controversial letter I mailed
+E14,E2,-1,> (Preceded By),False,e infamous Dhaka blackout,the conference opened
+E14,E3,-1,> (Preceded By),False,e infamous Dhaka blackout,Sen's opening keynote commenced
+E14,E4,-1,> (Preceded By),False,e infamous Dhaka blackout,her speech finished
+E14,E5,-1,> (Preceded By),False,e infamous Dhaka blackout,the closing banquet started
+E14,E6,-1,> (Preceded By),False,e infamous Dhaka blackout,the conference's conclusion
+E14,E7,1,< (Precedes),False,e infamous Dhaka blackout,phone argument with Dr. Sen abruptly cut off
+E14,E8,1,< (Precedes),False,e infamous Dhaka blackout,Prague express train's arrival
+E14,E9,1,< (Precedes),False,e infamous Dhaka blackout,security announcement started playing
+E14,E10,1,< (Precedes),False,e infamous Dhaka blackout,the train had come to a complete halt
+E14,E11,1,< (Precedes),False,e infamous Dhaka blackout,a stranger's dropped suitcase hit the platform floor
+E14,E12,1,< (Precedes),False,e infamous Dhaka blackout,my final showdown in Seoul
+E14,E13,1,< (Precedes),False,e infamous Dhaka blackout,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E14,E15,1,< (Precedes),False,e infamous Dhaka blackout,untraceable Kyoto phone cal
+E15,E1,-1,> (Preceded By),False,untraceable Kyoto phone cal,the controversial letter I mailed
+E15,E2,-1,> (Preceded By),False,untraceable Kyoto phone cal,the conference opened
+E15,E3,-1,> (Preceded By),False,untraceable Kyoto phone cal,Sen's opening keynote commenced
+E15,E4,-1,> (Preceded By),False,untraceable Kyoto phone cal,her speech finished
+E15,E5,-1,> (Preceded By),False,untraceable Kyoto phone cal,the closing banquet started
+E15,E6,-1,> (Preceded By),False,untraceable Kyoto phone cal,the conference's conclusion
+E15,E7,1,< (Precedes),False,untraceable Kyoto phone cal,phone argument with Dr. Sen abruptly cut off
+E15,E8,1,< (Precedes),False,untraceable Kyoto phone cal,Prague express train's arrival
+E15,E9,1,< (Precedes),False,untraceable Kyoto phone cal,security announcement started playing
+E15,E10,1,< (Precedes),False,untraceable Kyoto phone cal,the train had come to a complete halt
+E15,E11,1,< (Precedes),False,untraceable Kyoto phone cal,a stranger's dropped suitcase hit the platform floor
+E15,E12,1,< (Precedes),False,untraceable Kyoto phone cal,my final showdown in Seoul
+E15,E13,1,< (Precedes),False,untraceable Kyoto phone cal,y mind drifted back to the chaos of last month's Nairobi ethics conference
+E15,E14,-1,> (Preceded By),False,untraceable Kyoto phone cal,e infamous Dhaka blackout

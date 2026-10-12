@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,5,d (During),False,Mim had been teaching herself to code for the past eight months,She lived in a two-room flat
+E1,E3,-5,di (Contains),False,Mim had been teaching herself to code for the past eight months,worked during the day
+E1,E4,-5,di (Contains),False,Mim had been teaching herself to code for the past eight months,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E1,E5,-5,di (Contains),False,Mim had been teaching herself to code for the past eight months,she accessed on her phone at night after her children went to sleep
+E1,E6,-5,di (Contains),False,Mim had been teaching herself to code for the past eight months,she had seen on a Facebook group six weeks before the course started
+E1,E7,-5,di (Contains),False,Mim had been teaching herself to code for the past eight months,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E1,E8,-1,> (Preceded By),False,Mim had been teaching herself to code for the past eight months,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E1,E9,-5,di (Contains),False,Mim had been teaching herself to code for the past eight months,She spent two weeks without a device
+E1,E10,-5,di (Contains),False,Mim had been teaching herself to code for the past eight months,her younger brother in Sylhet sent her his old laptop by courier
+E1,E11,3,o (Overlaps),False,Mim had been teaching herself to code for the past eight months,"In December, she sat in a community library near Kalyanpur for three evenings"
+E1,E12,2,m (Meets),False,Mim had been teaching herself to code for the past eight months,"Eight months into her learning, she applied for an entry-level data analyst role"
+E1,E13,3,o (Overlaps),False,Mim had been teaching herself to code for the past eight months,a portfolio she had spent four weeks building
+E1,E14,2,m (Meets),False,Mim had been teaching herself to code for the past eight months,submitted a portfolio
+E1,E15,1,< (Precedes),False,Mim had been teaching herself to code for the past eight months,The interview was held via video call
+E1,E16,3,o (Overlaps),False,Mim had been teaching herself to code for the past eight months,the office was under renovation and had temporarily shifted operations
+E2,E1,-5,di (Contains),False,She lived in a two-room flat,Mim had been teaching herself to code for the past eight months
+E2,E3,-5,di (Contains),False,She lived in a two-room flat,worked during the day
+E2,E4,-5,di (Contains),False,She lived in a two-room flat,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E2,E5,-5,di (Contains),False,She lived in a two-room flat,she accessed on her phone at night after her children went to sleep
+E2,E6,-5,di (Contains),False,She lived in a two-room flat,she had seen on a Facebook group six weeks before the course started
+E2,E7,-5,di (Contains),False,She lived in a two-room flat,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E2,E8,-5,di (Contains),False,She lived in a two-room flat,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E2,E9,-5,di (Contains),False,She lived in a two-room flat,She spent two weeks without a device
+E2,E10,-5,di (Contains),False,She lived in a two-room flat,her younger brother in Sylhet sent her his old laptop by courier
+E2,E11,-5,di (Contains),False,She lived in a two-room flat,"In December, she sat in a community library near Kalyanpur for three evenings"
+E2,E12,-5,di (Contains),False,She lived in a two-room flat,"Eight months into her learning, she applied for an entry-level data analyst role"
+E2,E13,-5,di (Contains),False,She lived in a two-room flat,a portfolio she had spent four weeks building
+E2,E14,-5,di (Contains),False,She lived in a two-room flat,submitted a portfolio
+E2,E15,-6,fi (Finished By),False,She lived in a two-room flat,The interview was held via video call
+E2,E16,-6,fi (Finished By),False,She lived in a two-room flat,the office was under renovation and had temporarily shifted operations
+E3,E1,5,d (During),False,worked during the day,Mim had been teaching herself to code for the past eight months
+E3,E2,5,d (During),False,worked during the day,She lived in a two-room flat
+E3,E4,1,< (Precedes),False,worked during the day,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E3,E5,1,< (Precedes),False,worked during the day,she accessed on her phone at night after her children went to sleep
+E3,E6,1,< (Precedes),False,worked during the day,she had seen on a Facebook group six weeks before the course started
+E3,E7,1,< (Precedes),False,worked during the day,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E3,E8,-1,> (Preceded By),False,worked during the day,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E3,E9,1,< (Precedes),False,worked during the day,She spent two weeks without a device
+E3,E10,1,< (Precedes),False,worked during the day,her younger brother in Sylhet sent her his old laptop by courier
+E3,E11,1,< (Precedes),False,worked during the day,"In December, she sat in a community library near Kalyanpur for three evenings"
+E3,E12,1,< (Precedes),False,worked during the day,"Eight months into her learning, she applied for an entry-level data analyst role"
+E3,E13,1,< (Precedes),False,worked during the day,a portfolio she had spent four weeks building
+E3,E14,1,< (Precedes),False,worked during the day,submitted a portfolio
+E3,E15,1,< (Precedes),False,worked during the day,The interview was held via video call
+E3,E16,1,< (Precedes),False,worked during the day,the office was under renovation and had temporarily shifted operations
+E4,E1,5,d (During),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,Mim had been teaching herself to code for the past eight months
+E4,E2,5,d (During),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,She lived in a two-room flat
+E4,E3,-1,> (Preceded By),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,worked during the day
+E4,E5,-1,> (Preceded By),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,she accessed on her phone at night after her children went to sleep
+E4,E6,-2,mi (Met By),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,she had seen on a Facebook group six weeks before the course started
+E4,E7,1,< (Precedes),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E4,E8,-1,> (Preceded By),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E4,E9,1,< (Precedes),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,She spent two weeks without a device
+E4,E10,1,< (Precedes),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,her younger brother in Sylhet sent her his old laptop by courier
+E4,E11,1,< (Precedes),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,"In December, she sat in a community library near Kalyanpur for three evenings"
+E4,E12,1,< (Precedes),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,"Eight months into her learning, she applied for an entry-level data analyst role"
+E4,E13,1,< (Precedes),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,a portfolio she had spent four weeks building
+E4,E14,1,< (Precedes),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,submitted a portfolio
+E4,E15,1,< (Precedes),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,The interview was held via video call
+E4,E16,1,< (Precedes),False,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight,the office was under renovation and had temporarily shifted operations
+E5,E1,5,d (During),False,she accessed on her phone at night after her children went to sleep,Mim had been teaching herself to code for the past eight months
+E5,E2,5,d (During),False,she accessed on her phone at night after her children went to sleep,She lived in a two-room flat
+E5,E3,-1,> (Preceded By),False,she accessed on her phone at night after her children went to sleep,worked during the day
+E5,E4,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E5,E6,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,she had seen on a Facebook group six weeks before the course started
+E5,E7,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E5,E8,-1,> (Preceded By),False,she accessed on her phone at night after her children went to sleep,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E5,E9,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,She spent two weeks without a device
+E5,E10,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,her younger brother in Sylhet sent her his old laptop by courier
+E5,E11,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,"In December, she sat in a community library near Kalyanpur for three evenings"
+E5,E12,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,"Eight months into her learning, she applied for an entry-level data analyst role"
+E5,E13,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,a portfolio she had spent four weeks building
+E5,E14,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,submitted a portfolio
+E5,E15,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,The interview was held via video call
+E5,E16,1,< (Precedes),False,she accessed on her phone at night after her children went to sleep,the office was under renovation and had temporarily shifted operations
+E6,E1,5,d (During),False,she had seen on a Facebook group six weeks before the course started,Mim had been teaching herself to code for the past eight months
+E6,E2,5,d (During),False,she had seen on a Facebook group six weeks before the course started,She lived in a two-room flat
+E6,E3,-1,> (Preceded By),False,she had seen on a Facebook group six weeks before the course started,worked during the day
+E6,E4,2,m (Meets),False,she had seen on a Facebook group six weeks before the course started,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E6,E5,-1,> (Preceded By),False,she had seen on a Facebook group six weeks before the course started,she accessed on her phone at night after her children went to sleep
+E6,E7,1,< (Precedes),False,she had seen on a Facebook group six weeks before the course started,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E6,E8,-1,> (Preceded By),False,she had seen on a Facebook group six weeks before the course started,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E6,E9,1,< (Precedes),False,she had seen on a Facebook group six weeks before the course started,She spent two weeks without a device
+E6,E10,1,< (Precedes),False,she had seen on a Facebook group six weeks before the course started,her younger brother in Sylhet sent her his old laptop by courier
+E6,E11,1,< (Precedes),False,she had seen on a Facebook group six weeks before the course started,"In December, she sat in a community library near Kalyanpur for three evenings"
+E6,E12,1,< (Precedes),False,she had seen on a Facebook group six weeks before the course started,"Eight months into her learning, she applied for an entry-level data analyst role"
+E6,E13,1,< (Precedes),False,she had seen on a Facebook group six weeks before the course started,a portfolio she had spent four weeks building
+E6,E14,1,< (Precedes),False,she had seen on a Facebook group six weeks before the course started,submitted a portfolio
+E6,E15,1,< (Precedes),False,she had seen on a Facebook group six weeks before the course started,The interview was held via video call
+E6,E16,1,< (Precedes),False,she had seen on a Facebook group six weeks before the course started,the office was under renovation and had temporarily shifted operations
+E7,E1,5,d (During),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",Mim had been teaching herself to code for the past eight months
+E7,E2,5,d (During),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",She lived in a two-room flat
+E7,E3,-1,> (Preceded By),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",worked during the day
+E7,E4,-1,> (Preceded By),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E7,E5,-1,> (Preceded By),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",she accessed on her phone at night after her children went to sleep
+E7,E6,-1,> (Preceded By),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",she had seen on a Facebook group six weeks before the course started
+E7,E8,-1,> (Preceded By),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E7,E9,2,m (Meets),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",She spent two weeks without a device
+E7,E10,1,< (Precedes),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",her younger brother in Sylhet sent her his old laptop by courier
+E7,E11,1,< (Precedes),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on","In December, she sat in a community library near Kalyanpur for three evenings"
+E7,E12,1,< (Precedes),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on","Eight months into her learning, she applied for an entry-level data analyst role"
+E7,E13,1,< (Precedes),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",a portfolio she had spent four weeks building
+E7,E14,1,< (Precedes),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",submitted a portfolio
+E7,E15,1,< (Precedes),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",The interview was held via video call
+E7,E16,1,< (Precedes),False,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on",the office was under renovation and had temporarily shifted operations
+E8,E1,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,Mim had been teaching herself to code for the past eight months
+E8,E2,5,d (During),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,She lived in a two-room flat
+E8,E3,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,worked during the day
+E8,E4,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E8,E5,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,she accessed on her phone at night after her children went to sleep
+E8,E6,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,she had seen on a Facebook group six weeks before the course started
+E8,E7,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E8,E9,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,She spent two weeks without a device
+E8,E10,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,her younger brother in Sylhet sent her his old laptop by courier
+E8,E11,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,"In December, she sat in a community library near Kalyanpur for three evenings"
+E8,E12,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,"Eight months into her learning, she applied for an entry-level data analyst role"
+E8,E13,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,a portfolio she had spent four weeks building
+E8,E14,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,submitted a portfolio
+E8,E15,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,The interview was held via video call
+E8,E16,1,< (Precedes),False,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago,the office was under renovation and had temporarily shifted operations
+E9,E1,5,d (During),False,She spent two weeks without a device,Mim had been teaching herself to code for the past eight months
+E9,E2,5,d (During),False,She spent two weeks without a device,She lived in a two-room flat
+E9,E3,-1,> (Preceded By),False,She spent two weeks without a device,worked during the day
+E9,E4,-1,> (Preceded By),False,She spent two weeks without a device,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E9,E5,-1,> (Preceded By),False,She spent two weeks without a device,she accessed on her phone at night after her children went to sleep
+E9,E6,-1,> (Preceded By),False,She spent two weeks without a device,she had seen on a Facebook group six weeks before the course started
+E9,E7,-2,mi (Met By),False,She spent two weeks without a device,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E9,E8,-1,> (Preceded By),False,She spent two weeks without a device,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E9,E10,2,m (Meets),False,She spent two weeks without a device,her younger brother in Sylhet sent her his old laptop by courier
+E9,E11,1,< (Precedes),False,She spent two weeks without a device,"In December, she sat in a community library near Kalyanpur for three evenings"
+E9,E12,1,< (Precedes),False,She spent two weeks without a device,"Eight months into her learning, she applied for an entry-level data analyst role"
+E9,E13,3,o (Overlaps),False,She spent two weeks without a device,a portfolio she had spent four weeks building
+E9,E14,1,< (Precedes),False,She spent two weeks without a device,submitted a portfolio
+E9,E15,1,< (Precedes),False,She spent two weeks without a device,The interview was held via video call
+E9,E16,1,< (Precedes),False,She spent two weeks without a device,the office was under renovation and had temporarily shifted operations
+E10,E1,5,d (During),False,her younger brother in Sylhet sent her his old laptop by courier,Mim had been teaching herself to code for the past eight months
+E10,E2,5,d (During),False,her younger brother in Sylhet sent her his old laptop by courier,She lived in a two-room flat
+E10,E3,-1,> (Preceded By),False,her younger brother in Sylhet sent her his old laptop by courier,worked during the day
+E10,E4,-1,> (Preceded By),False,her younger brother in Sylhet sent her his old laptop by courier,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E10,E5,-1,> (Preceded By),False,her younger brother in Sylhet sent her his old laptop by courier,she accessed on her phone at night after her children went to sleep
+E10,E6,-1,> (Preceded By),False,her younger brother in Sylhet sent her his old laptop by courier,she had seen on a Facebook group six weeks before the course started
+E10,E7,-1,> (Preceded By),False,her younger brother in Sylhet sent her his old laptop by courier,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E10,E8,-1,> (Preceded By),False,her younger brother in Sylhet sent her his old laptop by courier,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E10,E9,-2,mi (Met By),False,her younger brother in Sylhet sent her his old laptop by courier,She spent two weeks without a device
+E10,E11,1,< (Precedes),False,her younger brother in Sylhet sent her his old laptop by courier,"In December, she sat in a community library near Kalyanpur for three evenings"
+E10,E12,1,< (Precedes),False,her younger brother in Sylhet sent her his old laptop by courier,"Eight months into her learning, she applied for an entry-level data analyst role"
+E10,E13,5,d (During),False,her younger brother in Sylhet sent her his old laptop by courier,a portfolio she had spent four weeks building
+E10,E14,1,< (Precedes),False,her younger brother in Sylhet sent her his old laptop by courier,submitted a portfolio
+E10,E15,1,< (Precedes),False,her younger brother in Sylhet sent her his old laptop by courier,The interview was held via video call
+E10,E16,1,< (Precedes),False,her younger brother in Sylhet sent her his old laptop by courier,the office was under renovation and had temporarily shifted operations
+E11,E1,-3,oi (Overlapped By),False,"In December, she sat in a community library near Kalyanpur for three evenings",Mim had been teaching herself to code for the past eight months
+E11,E2,5,d (During),False,"In December, she sat in a community library near Kalyanpur for three evenings",She lived in a two-room flat
+E11,E3,-1,> (Preceded By),False,"In December, she sat in a community library near Kalyanpur for three evenings",worked during the day
+E11,E4,-1,> (Preceded By),False,"In December, she sat in a community library near Kalyanpur for three evenings",She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E11,E5,-1,> (Preceded By),False,"In December, she sat in a community library near Kalyanpur for three evenings",she accessed on her phone at night after her children went to sleep
+E11,E6,-1,> (Preceded By),False,"In December, she sat in a community library near Kalyanpur for three evenings",she had seen on a Facebook group six weeks before the course started
+E11,E7,-1,> (Preceded By),False,"In December, she sat in a community library near Kalyanpur for three evenings","In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E11,E8,-1,> (Preceded By),False,"In December, she sat in a community library near Kalyanpur for three evenings",a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E11,E9,-1,> (Preceded By),False,"In December, she sat in a community library near Kalyanpur for three evenings",She spent two weeks without a device
+E11,E10,-1,> (Preceded By),False,"In December, she sat in a community library near Kalyanpur for three evenings",her younger brother in Sylhet sent her his old laptop by courier
+E11,E12,-6,fi (Finished By),False,"In December, she sat in a community library near Kalyanpur for three evenings","Eight months into her learning, she applied for an entry-level data analyst role"
+E11,E13,6,f (Finishes),False,"In December, she sat in a community library near Kalyanpur for three evenings",a portfolio she had spent four weeks building
+E11,E14,-6,fi (Finished By),False,"In December, she sat in a community library near Kalyanpur for three evenings",submitted a portfolio
+E11,E15,2,m (Meets),False,"In December, she sat in a community library near Kalyanpur for three evenings",The interview was held via video call
+E11,E16,4,s (Starts),False,"In December, she sat in a community library near Kalyanpur for three evenings",the office was under renovation and had temporarily shifted operations
+E12,E1,-2,mi (Met By),False,"Eight months into her learning, she applied for an entry-level data analyst role",Mim had been teaching herself to code for the past eight months
+E12,E2,5,d (During),False,"Eight months into her learning, she applied for an entry-level data analyst role",She lived in a two-room flat
+E12,E3,-1,> (Preceded By),False,"Eight months into her learning, she applied for an entry-level data analyst role",worked during the day
+E12,E4,-1,> (Preceded By),False,"Eight months into her learning, she applied for an entry-level data analyst role",She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E12,E5,-1,> (Preceded By),False,"Eight months into her learning, she applied for an entry-level data analyst role",she accessed on her phone at night after her children went to sleep
+E12,E6,-1,> (Preceded By),False,"Eight months into her learning, she applied for an entry-level data analyst role",she had seen on a Facebook group six weeks before the course started
+E12,E7,-1,> (Preceded By),False,"Eight months into her learning, she applied for an entry-level data analyst role","In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E12,E8,-1,> (Preceded By),False,"Eight months into her learning, she applied for an entry-level data analyst role",a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E12,E9,-1,> (Preceded By),False,"Eight months into her learning, she applied for an entry-level data analyst role",She spent two weeks without a device
+E12,E10,-1,> (Preceded By),False,"Eight months into her learning, she applied for an entry-level data analyst role",her younger brother in Sylhet sent her his old laptop by courier
+E12,E11,6,f (Finishes),False,"Eight months into her learning, she applied for an entry-level data analyst role","In December, she sat in a community library near Kalyanpur for three evenings"
+E12,E13,6,f (Finishes),False,"Eight months into her learning, she applied for an entry-level data analyst role",a portfolio she had spent four weeks building
+E12,E14,0,= (Equal),False,"Eight months into her learning, she applied for an entry-level data analyst role",submitted a portfolio
+E12,E15,2,m (Meets),False,"Eight months into her learning, she applied for an entry-level data analyst role",The interview was held via video call
+E12,E16,5,d (During),False,"Eight months into her learning, she applied for an entry-level data analyst role",the office was under renovation and had temporarily shifted operations
+E13,E1,-3,oi (Overlapped By),False,a portfolio she had spent four weeks building,Mim had been teaching herself to code for the past eight months
+E13,E2,5,d (During),False,a portfolio she had spent four weeks building,She lived in a two-room flat
+E13,E3,-1,> (Preceded By),False,a portfolio she had spent four weeks building,worked during the day
+E13,E4,-1,> (Preceded By),False,a portfolio she had spent four weeks building,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E13,E5,-1,> (Preceded By),False,a portfolio she had spent four weeks building,she accessed on her phone at night after her children went to sleep
+E13,E6,-1,> (Preceded By),False,a portfolio she had spent four weeks building,she had seen on a Facebook group six weeks before the course started
+E13,E7,-1,> (Preceded By),False,a portfolio she had spent four weeks building,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E13,E8,-1,> (Preceded By),False,a portfolio she had spent four weeks building,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E13,E9,-3,oi (Overlapped By),False,a portfolio she had spent four weeks building,She spent two weeks without a device
+E13,E10,-5,di (Contains),False,a portfolio she had spent four weeks building,her younger brother in Sylhet sent her his old laptop by courier
+E13,E11,-6,fi (Finished By),False,a portfolio she had spent four weeks building,"In December, she sat in a community library near Kalyanpur for three evenings"
+E13,E12,-6,fi (Finished By),False,a portfolio she had spent four weeks building,"Eight months into her learning, she applied for an entry-level data analyst role"
+E13,E14,-6,fi (Finished By),False,a portfolio she had spent four weeks building,submitted a portfolio
+E13,E15,2,m (Meets),False,a portfolio she had spent four weeks building,The interview was held via video call
+E13,E16,3,o (Overlaps),False,a portfolio she had spent four weeks building,the office was under renovation and had temporarily shifted operations
+E14,E1,-2,mi (Met By),False,submitted a portfolio,Mim had been teaching herself to code for the past eight months
+E14,E2,5,d (During),False,submitted a portfolio,She lived in a two-room flat
+E14,E3,-1,> (Preceded By),False,submitted a portfolio,worked during the day
+E14,E4,-1,> (Preceded By),False,submitted a portfolio,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E14,E5,-1,> (Preceded By),False,submitted a portfolio,she accessed on her phone at night after her children went to sleep
+E14,E6,-1,> (Preceded By),False,submitted a portfolio,she had seen on a Facebook group six weeks before the course started
+E14,E7,-1,> (Preceded By),False,submitted a portfolio,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E14,E8,-1,> (Preceded By),False,submitted a portfolio,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E14,E9,-1,> (Preceded By),False,submitted a portfolio,She spent two weeks without a device
+E14,E10,-1,> (Preceded By),False,submitted a portfolio,her younger brother in Sylhet sent her his old laptop by courier
+E14,E11,6,f (Finishes),False,submitted a portfolio,"In December, she sat in a community library near Kalyanpur for three evenings"
+E14,E12,0,= (Equal),False,submitted a portfolio,"Eight months into her learning, she applied for an entry-level data analyst role"
+E14,E13,6,f (Finishes),False,submitted a portfolio,a portfolio she had spent four weeks building
+E14,E15,2,m (Meets),False,submitted a portfolio,The interview was held via video call
+E14,E16,5,d (During),False,submitted a portfolio,the office was under renovation and had temporarily shifted operations
+E15,E1,-1,> (Preceded By),False,The interview was held via video call,Mim had been teaching herself to code for the past eight months
+E15,E2,6,f (Finishes),False,The interview was held via video call,She lived in a two-room flat
+E15,E3,-1,> (Preceded By),False,The interview was held via video call,worked during the day
+E15,E4,-1,> (Preceded By),False,The interview was held via video call,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E15,E5,-1,> (Preceded By),False,The interview was held via video call,she accessed on her phone at night after her children went to sleep
+E15,E6,-1,> (Preceded By),False,The interview was held via video call,she had seen on a Facebook group six weeks before the course started
+E15,E7,-1,> (Preceded By),False,The interview was held via video call,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E15,E8,-1,> (Preceded By),False,The interview was held via video call,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E15,E9,-1,> (Preceded By),False,The interview was held via video call,She spent two weeks without a device
+E15,E10,-1,> (Preceded By),False,The interview was held via video call,her younger brother in Sylhet sent her his old laptop by courier
+E15,E11,-2,mi (Met By),False,The interview was held via video call,"In December, she sat in a community library near Kalyanpur for three evenings"
+E15,E12,-2,mi (Met By),False,The interview was held via video call,"Eight months into her learning, she applied for an entry-level data analyst role"
+E15,E13,-2,mi (Met By),False,The interview was held via video call,a portfolio she had spent four weeks building
+E15,E14,-2,mi (Met By),False,The interview was held via video call,submitted a portfolio
+E15,E16,6,f (Finishes),False,The interview was held via video call,the office was under renovation and had temporarily shifted operations
+E16,E1,-3,oi (Overlapped By),False,the office was under renovation and had temporarily shifted operations,Mim had been teaching herself to code for the past eight months
+E16,E2,6,f (Finishes),False,the office was under renovation and had temporarily shifted operations,She lived in a two-room flat
+E16,E3,-1,> (Preceded By),False,the office was under renovation and had temporarily shifted operations,worked during the day
+E16,E4,-1,> (Preceded By),False,the office was under renovation and had temporarily shifted operations,She had enrolled in a three-month bootcamp that ran online from 10 PM to midnight
+E16,E5,-1,> (Preceded By),False,the office was under renovation and had temporarily shifted operations,she accessed on her phone at night after her children went to sleep
+E16,E6,-1,> (Preceded By),False,the office was under renovation and had temporarily shifted operations,she had seen on a Facebook group six weeks before the course started
+E16,E7,-1,> (Preceded By),False,the office was under renovation and had temporarily shifted operations,"In the fourth month of her self-study, her laptop, a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago, stopped turning on"
+E16,E8,-1,> (Preceded By),False,the office was under renovation and had temporarily shifted operations,a secondhand model she had bought for eight thousand taka from a shop in Elephant Road two years ago
+E16,E9,-1,> (Preceded By),False,the office was under renovation and had temporarily shifted operations,She spent two weeks without a device
+E16,E10,-1,> (Preceded By),False,the office was under renovation and had temporarily shifted operations,her younger brother in Sylhet sent her his old laptop by courier
+E16,E11,-4,si (Started By),False,the office was under renovation and had temporarily shifted operations,"In December, she sat in a community library near Kalyanpur for three evenings"
+E16,E12,-5,di (Contains),False,the office was under renovation and had temporarily shifted operations,"Eight months into her learning, she applied for an entry-level data analyst role"
+E16,E13,-3,oi (Overlapped By),False,the office was under renovation and had temporarily shifted operations,a portfolio she had spent four weeks building
+E16,E14,-5,di (Contains),False,the office was under renovation and had temporarily shifted operations,submitted a portfolio
+E16,E15,-6,fi (Finished By),False,the office was under renovation and had temporarily shifted operations,The interview was held via video call

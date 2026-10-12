@@ -1,0 +1,91 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,Mr. Amzad hired Abid,organizing the physical receipts
+E1,E3,1,< (Precedes),False,Mr. Amzad hired Abid,sorting paper files into chronological order
+E1,E4,4,s (Starts),False,Mr. Amzad hired Abid,Mr. Amzad digitized the recent sales logs
+E1,E5,1,< (Precedes),False,Mr. Amzad hired Abid,Abid integrated the physical and digital records
+E1,E6,1,< (Precedes),False,Mr. Amzad hired Abid,Mr. Amzad deliberately suspended all new inventory purchases
+E1,E7,1,< (Precedes),False,Mr. Amzad hired Abid,identifying tax deductions
+E1,E8,1,< (Precedes),False,Mr. Amzad hired Abid,drafting the formal financial report
+E1,E9,1,< (Precedes),False,Mr. Amzad hired Abid,they mutually signed and submitted
+E1,E10,1,< (Precedes),False,Mr. Amzad hired Abid,working closely with the dealership’s external auditor
+E2,E1,-1,> (Preceded By),False,organizing the physical receipts,Mr. Amzad hired Abid
+E2,E3,0,= (Equal),False,organizing the physical receipts,sorting paper files into chronological order
+E2,E4,5,d (During),False,organizing the physical receipts,Mr. Amzad digitized the recent sales logs
+E2,E5,1,< (Precedes),False,organizing the physical receipts,Abid integrated the physical and digital records
+E2,E6,1,< (Precedes),False,organizing the physical receipts,Mr. Amzad deliberately suspended all new inventory purchases
+E2,E7,1,< (Precedes),False,organizing the physical receipts,identifying tax deductions
+E2,E8,1,< (Precedes),False,organizing the physical receipts,drafting the formal financial report
+E2,E9,1,< (Precedes),False,organizing the physical receipts,they mutually signed and submitted
+E2,E10,1,< (Precedes),False,organizing the physical receipts,working closely with the dealership’s external auditor
+E3,E1,-1,> (Preceded By),False,sorting paper files into chronological order,Mr. Amzad hired Abid
+E3,E2,0,= (Equal),False,sorting paper files into chronological order,organizing the physical receipts
+E3,E4,5,d (During),False,sorting paper files into chronological order,Mr. Amzad digitized the recent sales logs
+E3,E5,1,< (Precedes),False,sorting paper files into chronological order,Abid integrated the physical and digital records
+E3,E6,1,< (Precedes),False,sorting paper files into chronological order,Mr. Amzad deliberately suspended all new inventory purchases
+E3,E7,1,< (Precedes),False,sorting paper files into chronological order,identifying tax deductions
+E3,E8,1,< (Precedes),False,sorting paper files into chronological order,drafting the formal financial report
+E3,E9,1,< (Precedes),False,sorting paper files into chronological order,they mutually signed and submitted
+E3,E10,1,< (Precedes),False,sorting paper files into chronological order,working closely with the dealership’s external auditor
+E4,E1,-4,si (Started By),False,Mr. Amzad digitized the recent sales logs,Mr. Amzad hired Abid
+E4,E2,-5,di (Contains),False,Mr. Amzad digitized the recent sales logs,organizing the physical receipts
+E4,E3,-5,di (Contains),False,Mr. Amzad digitized the recent sales logs,sorting paper files into chronological order
+E4,E5,3,o (Overlaps),False,Mr. Amzad digitized the recent sales logs,Abid integrated the physical and digital records
+E4,E6,3,o (Overlaps),False,Mr. Amzad digitized the recent sales logs,Mr. Amzad deliberately suspended all new inventory purchases
+E4,E7,1,< (Precedes),False,Mr. Amzad digitized the recent sales logs,identifying tax deductions
+E4,E8,1,< (Precedes),False,Mr. Amzad digitized the recent sales logs,drafting the formal financial report
+E4,E9,1,< (Precedes),False,Mr. Amzad digitized the recent sales logs,they mutually signed and submitted
+E4,E10,1,< (Precedes),False,Mr. Amzad digitized the recent sales logs,working closely with the dealership’s external auditor
+E5,E1,-1,> (Preceded By),False,Abid integrated the physical and digital records,Mr. Amzad hired Abid
+E5,E2,-1,> (Preceded By),False,Abid integrated the physical and digital records,organizing the physical receipts
+E5,E3,-1,> (Preceded By),False,Abid integrated the physical and digital records,sorting paper files into chronological order
+E5,E4,-3,oi (Overlapped By),False,Abid integrated the physical and digital records,Mr. Amzad digitized the recent sales logs
+E5,E6,0,= (Equal),False,Abid integrated the physical and digital records,Mr. Amzad deliberately suspended all new inventory purchases
+E5,E7,1,< (Precedes),False,Abid integrated the physical and digital records,identifying tax deductions
+E5,E8,1,< (Precedes),False,Abid integrated the physical and digital records,drafting the formal financial report
+E5,E9,1,< (Precedes),False,Abid integrated the physical and digital records,they mutually signed and submitted
+E5,E10,1,< (Precedes),False,Abid integrated the physical and digital records,working closely with the dealership’s external auditor
+E6,E1,-1,> (Preceded By),False,Mr. Amzad deliberately suspended all new inventory purchases,Mr. Amzad hired Abid
+E6,E2,-1,> (Preceded By),False,Mr. Amzad deliberately suspended all new inventory purchases,organizing the physical receipts
+E6,E3,-1,> (Preceded By),False,Mr. Amzad deliberately suspended all new inventory purchases,sorting paper files into chronological order
+E6,E4,-3,oi (Overlapped By),False,Mr. Amzad deliberately suspended all new inventory purchases,Mr. Amzad digitized the recent sales logs
+E6,E5,0,= (Equal),False,Mr. Amzad deliberately suspended all new inventory purchases,Abid integrated the physical and digital records
+E6,E7,1,< (Precedes),False,Mr. Amzad deliberately suspended all new inventory purchases,identifying tax deductions
+E6,E8,1,< (Precedes),False,Mr. Amzad deliberately suspended all new inventory purchases,drafting the formal financial report
+E6,E9,1,< (Precedes),False,Mr. Amzad deliberately suspended all new inventory purchases,they mutually signed and submitted
+E6,E10,1,< (Precedes),False,Mr. Amzad deliberately suspended all new inventory purchases,working closely with the dealership’s external auditor
+E7,E1,-1,> (Preceded By),False,identifying tax deductions,Mr. Amzad hired Abid
+E7,E2,-1,> (Preceded By),False,identifying tax deductions,organizing the physical receipts
+E7,E3,-1,> (Preceded By),False,identifying tax deductions,sorting paper files into chronological order
+E7,E4,-1,> (Preceded By),False,identifying tax deductions,Mr. Amzad digitized the recent sales logs
+E7,E5,-1,> (Preceded By),False,identifying tax deductions,Abid integrated the physical and digital records
+E7,E6,-1,> (Preceded By),False,identifying tax deductions,Mr. Amzad deliberately suspended all new inventory purchases
+E7,E8,1,< (Precedes),False,identifying tax deductions,drafting the formal financial report
+E7,E9,1,< (Precedes),False,identifying tax deductions,they mutually signed and submitted
+E7,E10,0,= (Equal),False,identifying tax deductions,working closely with the dealership’s external auditor
+E8,E1,-1,> (Preceded By),False,drafting the formal financial report,Mr. Amzad hired Abid
+E8,E2,-1,> (Preceded By),False,drafting the formal financial report,organizing the physical receipts
+E8,E3,-1,> (Preceded By),False,drafting the formal financial report,sorting paper files into chronological order
+E8,E4,-1,> (Preceded By),False,drafting the formal financial report,Mr. Amzad digitized the recent sales logs
+E8,E5,-1,> (Preceded By),False,drafting the formal financial report,Abid integrated the physical and digital records
+E8,E6,-1,> (Preceded By),False,drafting the formal financial report,Mr. Amzad deliberately suspended all new inventory purchases
+E8,E7,-1,> (Preceded By),False,drafting the formal financial report,identifying tax deductions
+E8,E9,-6,fi (Finished By),False,drafting the formal financial report,they mutually signed and submitted
+E8,E10,-1,> (Preceded By),False,drafting the formal financial report,working closely with the dealership’s external auditor
+E9,E1,-1,> (Preceded By),False,they mutually signed and submitted,Mr. Amzad hired Abid
+E9,E2,-1,> (Preceded By),False,they mutually signed and submitted,organizing the physical receipts
+E9,E3,-1,> (Preceded By),False,they mutually signed and submitted,sorting paper files into chronological order
+E9,E4,-1,> (Preceded By),False,they mutually signed and submitted,Mr. Amzad digitized the recent sales logs
+E9,E5,-1,> (Preceded By),False,they mutually signed and submitted,Abid integrated the physical and digital records
+E9,E6,-1,> (Preceded By),False,they mutually signed and submitted,Mr. Amzad deliberately suspended all new inventory purchases
+E9,E7,-1,> (Preceded By),False,they mutually signed and submitted,identifying tax deductions
+E9,E8,6,f (Finishes),False,they mutually signed and submitted,drafting the formal financial report
+E9,E10,-1,> (Preceded By),False,they mutually signed and submitted,working closely with the dealership’s external auditor
+E10,E1,-1,> (Preceded By),False,working closely with the dealership’s external auditor,Mr. Amzad hired Abid
+E10,E2,-1,> (Preceded By),False,working closely with the dealership’s external auditor,organizing the physical receipts
+E10,E3,-1,> (Preceded By),False,working closely with the dealership’s external auditor,sorting paper files into chronological order
+E10,E4,-1,> (Preceded By),False,working closely with the dealership’s external auditor,Mr. Amzad digitized the recent sales logs
+E10,E5,-1,> (Preceded By),False,working closely with the dealership’s external auditor,Abid integrated the physical and digital records
+E10,E6,-1,> (Preceded By),False,working closely with the dealership’s external auditor,Mr. Amzad deliberately suspended all new inventory purchases
+E10,E7,0,= (Equal),False,working closely with the dealership’s external auditor,identifying tax deductions
+E10,E8,1,< (Precedes),False,working closely with the dealership’s external auditor,drafting the formal financial report
+E10,E9,1,< (Precedes),False,working closely with the dealership’s external auditor,they mutually signed and submitted

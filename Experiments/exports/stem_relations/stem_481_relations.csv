@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,seed soaking,paddy seeds soaked in aerated water
+E1,E3,1,< (Precedes),False,seed soaking,Incubation inside damp jute bags
+E1,E4,1,< (Precedes),False,seed soaking,seeds began sprouting radicles
+E1,E5,1,< (Precedes),False,seed soaking,Sowing the sprouted seeds onto nursery germination trays
+E1,E6,1,< (Precedes),False,seed soaking,trays were kept in a humidity chamber
+E1,E7,1,< (Precedes),False,seed soaking,Small green shoots emerged
+E1,E8,1,< (Precedes),False,seed soaking,trays were moved to the greenhouse benches
+E1,E9,1,< (Precedes),False,seed soaking,Agronomists took initial shoot length measurements
+E1,E10,1,< (Precedes),False,seed soaking,soil moisture sensors logged moisture depletion
+E1,E11,1,< (Precedes),False,seed soaking,biomass weighing
+E1,E12,1,< (Precedes),False,seed soaking,starting immediately
+E2,E1,-4,si (Started By),False,paddy seeds soaked in aerated water,seed soaking
+E2,E3,2,m (Meets),False,paddy seeds soaked in aerated water,Incubation inside damp jute bags
+E2,E4,1,< (Precedes),False,paddy seeds soaked in aerated water,seeds began sprouting radicles
+E2,E5,1,< (Precedes),False,paddy seeds soaked in aerated water,Sowing the sprouted seeds onto nursery germination trays
+E2,E6,1,< (Precedes),False,paddy seeds soaked in aerated water,trays were kept in a humidity chamber
+E2,E7,1,< (Precedes),False,paddy seeds soaked in aerated water,Small green shoots emerged
+E2,E8,1,< (Precedes),False,paddy seeds soaked in aerated water,trays were moved to the greenhouse benches
+E2,E9,1,< (Precedes),False,paddy seeds soaked in aerated water,Agronomists took initial shoot length measurements
+E2,E10,1,< (Precedes),False,paddy seeds soaked in aerated water,soil moisture sensors logged moisture depletion
+E2,E11,1,< (Precedes),False,paddy seeds soaked in aerated water,biomass weighing
+E2,E12,1,< (Precedes),False,paddy seeds soaked in aerated water,starting immediately
+E3,E1,-1,> (Preceded By),False,Incubation inside damp jute bags,seed soaking
+E3,E2,-2,mi (Met By),False,Incubation inside damp jute bags,paddy seeds soaked in aerated water
+E3,E4,-5,di (Contains),False,Incubation inside damp jute bags,seeds began sprouting radicles
+E3,E5,2,m (Meets),False,Incubation inside damp jute bags,Sowing the sprouted seeds onto nursery germination trays
+E3,E6,1,< (Precedes),False,Incubation inside damp jute bags,trays were kept in a humidity chamber
+E3,E7,1,< (Precedes),False,Incubation inside damp jute bags,Small green shoots emerged
+E3,E8,1,< (Precedes),False,Incubation inside damp jute bags,trays were moved to the greenhouse benches
+E3,E9,1,< (Precedes),False,Incubation inside damp jute bags,Agronomists took initial shoot length measurements
+E3,E10,1,< (Precedes),False,Incubation inside damp jute bags,soil moisture sensors logged moisture depletion
+E3,E11,1,< (Precedes),False,Incubation inside damp jute bags,biomass weighing
+E3,E12,2,m (Meets),False,Incubation inside damp jute bags,starting immediately
+E4,E1,-1,> (Preceded By),False,seeds began sprouting radicles,seed soaking
+E4,E2,-1,> (Preceded By),False,seeds began sprouting radicles,paddy seeds soaked in aerated water
+E4,E3,5,d (During),False,seeds began sprouting radicles,Incubation inside damp jute bags
+E4,E5,1,< (Precedes),False,seeds began sprouting radicles,Sowing the sprouted seeds onto nursery germination trays
+E4,E6,1,< (Precedes),False,seeds began sprouting radicles,trays were kept in a humidity chamber
+E4,E7,1,< (Precedes),False,seeds began sprouting radicles,Small green shoots emerged
+E4,E8,1,< (Precedes),False,seeds began sprouting radicles,trays were moved to the greenhouse benches
+E4,E9,1,< (Precedes),False,seeds began sprouting radicles,Agronomists took initial shoot length measurements
+E4,E10,1,< (Precedes),False,seeds began sprouting radicles,soil moisture sensors logged moisture depletion
+E4,E11,1,< (Precedes),False,seeds began sprouting radicles,biomass weighing
+E4,E12,1,< (Precedes),False,seeds began sprouting radicles,starting immediately
+E5,E1,-1,> (Preceded By),False,Sowing the sprouted seeds onto nursery germination trays,seed soaking
+E5,E2,-1,> (Preceded By),False,Sowing the sprouted seeds onto nursery germination trays,paddy seeds soaked in aerated water
+E5,E3,-2,mi (Met By),False,Sowing the sprouted seeds onto nursery germination trays,Incubation inside damp jute bags
+E5,E4,-1,> (Preceded By),False,Sowing the sprouted seeds onto nursery germination trays,seeds began sprouting radicles
+E5,E6,2,m (Meets),False,Sowing the sprouted seeds onto nursery germination trays,trays were kept in a humidity chamber
+E5,E7,1,< (Precedes),False,Sowing the sprouted seeds onto nursery germination trays,Small green shoots emerged
+E5,E8,1,< (Precedes),False,Sowing the sprouted seeds onto nursery germination trays,trays were moved to the greenhouse benches
+E5,E9,1,< (Precedes),False,Sowing the sprouted seeds onto nursery germination trays,Agronomists took initial shoot length measurements
+E5,E10,1,< (Precedes),False,Sowing the sprouted seeds onto nursery germination trays,soil moisture sensors logged moisture depletion
+E5,E11,1,< (Precedes),False,Sowing the sprouted seeds onto nursery germination trays,biomass weighing
+E5,E12,4,s (Starts),False,Sowing the sprouted seeds onto nursery germination trays,starting immediately
+E6,E1,-1,> (Preceded By),False,trays were kept in a humidity chamber,seed soaking
+E6,E2,-1,> (Preceded By),False,trays were kept in a humidity chamber,paddy seeds soaked in aerated water
+E6,E3,-1,> (Preceded By),False,trays were kept in a humidity chamber,Incubation inside damp jute bags
+E6,E4,-1,> (Preceded By),False,trays were kept in a humidity chamber,seeds began sprouting radicles
+E6,E5,-2,mi (Met By),False,trays were kept in a humidity chamber,Sowing the sprouted seeds onto nursery germination trays
+E6,E7,-5,di (Contains),False,trays were kept in a humidity chamber,Small green shoots emerged
+E6,E8,1,< (Precedes),False,trays were kept in a humidity chamber,trays were moved to the greenhouse benches
+E6,E9,1,< (Precedes),False,trays were kept in a humidity chamber,Agronomists took initial shoot length measurements
+E6,E10,1,< (Precedes),False,trays were kept in a humidity chamber,soil moisture sensors logged moisture depletion
+E6,E11,1,< (Precedes),False,trays were kept in a humidity chamber,biomass weighing
+E6,E12,-3,oi (Overlapped By),False,trays were kept in a humidity chamber,starting immediately
+E7,E1,-1,> (Preceded By),False,Small green shoots emerged,seed soaking
+E7,E2,-1,> (Preceded By),False,Small green shoots emerged,paddy seeds soaked in aerated water
+E7,E3,-1,> (Preceded By),False,Small green shoots emerged,Incubation inside damp jute bags
+E7,E4,-1,> (Preceded By),False,Small green shoots emerged,seeds began sprouting radicles
+E7,E5,-1,> (Preceded By),False,Small green shoots emerged,Sowing the sprouted seeds onto nursery germination trays
+E7,E6,5,d (During),False,Small green shoots emerged,trays were kept in a humidity chamber
+E7,E8,1,< (Precedes),False,Small green shoots emerged,trays were moved to the greenhouse benches
+E7,E9,1,< (Precedes),False,Small green shoots emerged,Agronomists took initial shoot length measurements
+E7,E10,1,< (Precedes),False,Small green shoots emerged,soil moisture sensors logged moisture depletion
+E7,E11,1,< (Precedes),False,Small green shoots emerged,biomass weighing
+E7,E12,-1,> (Preceded By),False,Small green shoots emerged,starting immediately
+E8,E1,-1,> (Preceded By),False,trays were moved to the greenhouse benches,seed soaking
+E8,E2,-1,> (Preceded By),False,trays were moved to the greenhouse benches,paddy seeds soaked in aerated water
+E8,E3,-1,> (Preceded By),False,trays were moved to the greenhouse benches,Incubation inside damp jute bags
+E8,E4,-1,> (Preceded By),False,trays were moved to the greenhouse benches,seeds began sprouting radicles
+E8,E5,-1,> (Preceded By),False,trays were moved to the greenhouse benches,Sowing the sprouted seeds onto nursery germination trays
+E8,E6,-1,> (Preceded By),False,trays were moved to the greenhouse benches,trays were kept in a humidity chamber
+E8,E7,-1,> (Preceded By),False,trays were moved to the greenhouse benches,Small green shoots emerged
+E8,E9,4,s (Starts),False,trays were moved to the greenhouse benches,Agronomists took initial shoot length measurements
+E8,E10,4,s (Starts),False,trays were moved to the greenhouse benches,soil moisture sensors logged moisture depletion
+E8,E11,1,< (Precedes),False,trays were moved to the greenhouse benches,biomass weighing
+E8,E12,-1,> (Preceded By),False,trays were moved to the greenhouse benches,starting immediately
+E9,E1,-1,> (Preceded By),False,Agronomists took initial shoot length measurements,seed soaking
+E9,E2,-1,> (Preceded By),False,Agronomists took initial shoot length measurements,paddy seeds soaked in aerated water
+E9,E3,-1,> (Preceded By),False,Agronomists took initial shoot length measurements,Incubation inside damp jute bags
+E9,E4,-1,> (Preceded By),False,Agronomists took initial shoot length measurements,seeds began sprouting radicles
+E9,E5,-1,> (Preceded By),False,Agronomists took initial shoot length measurements,Sowing the sprouted seeds onto nursery germination trays
+E9,E6,-1,> (Preceded By),False,Agronomists took initial shoot length measurements,trays were kept in a humidity chamber
+E9,E7,-1,> (Preceded By),False,Agronomists took initial shoot length measurements,Small green shoots emerged
+E9,E8,-4,si (Started By),False,Agronomists took initial shoot length measurements,trays were moved to the greenhouse benches
+E9,E10,0,= (Equal),False,Agronomists took initial shoot length measurements,soil moisture sensors logged moisture depletion
+E9,E11,1,< (Precedes),False,Agronomists took initial shoot length measurements,biomass weighing
+E9,E12,-1,> (Preceded By),False,Agronomists took initial shoot length measurements,starting immediately
+E10,E1,-1,> (Preceded By),False,soil moisture sensors logged moisture depletion,seed soaking
+E10,E2,-1,> (Preceded By),False,soil moisture sensors logged moisture depletion,paddy seeds soaked in aerated water
+E10,E3,-1,> (Preceded By),False,soil moisture sensors logged moisture depletion,Incubation inside damp jute bags
+E10,E4,-1,> (Preceded By),False,soil moisture sensors logged moisture depletion,seeds began sprouting radicles
+E10,E5,-1,> (Preceded By),False,soil moisture sensors logged moisture depletion,Sowing the sprouted seeds onto nursery germination trays
+E10,E6,-1,> (Preceded By),False,soil moisture sensors logged moisture depletion,trays were kept in a humidity chamber
+E10,E7,-1,> (Preceded By),False,soil moisture sensors logged moisture depletion,Small green shoots emerged
+E10,E8,-4,si (Started By),False,soil moisture sensors logged moisture depletion,trays were moved to the greenhouse benches
+E10,E9,0,= (Equal),False,soil moisture sensors logged moisture depletion,Agronomists took initial shoot length measurements
+E10,E11,1,< (Precedes),False,soil moisture sensors logged moisture depletion,biomass weighing
+E10,E12,-1,> (Preceded By),False,soil moisture sensors logged moisture depletion,starting immediately
+E11,E1,-1,> (Preceded By),False,biomass weighing,seed soaking
+E11,E2,-1,> (Preceded By),False,biomass weighing,paddy seeds soaked in aerated water
+E11,E3,-1,> (Preceded By),False,biomass weighing,Incubation inside damp jute bags
+E11,E4,-1,> (Preceded By),False,biomass weighing,seeds began sprouting radicles
+E11,E5,-1,> (Preceded By),False,biomass weighing,Sowing the sprouted seeds onto nursery germination trays
+E11,E6,-1,> (Preceded By),False,biomass weighing,trays were kept in a humidity chamber
+E11,E7,-1,> (Preceded By),False,biomass weighing,Small green shoots emerged
+E11,E8,-1,> (Preceded By),False,biomass weighing,trays were moved to the greenhouse benches
+E11,E9,-1,> (Preceded By),False,biomass weighing,Agronomists took initial shoot length measurements
+E11,E10,-1,> (Preceded By),False,biomass weighing,soil moisture sensors logged moisture depletion
+E11,E12,-1,> (Preceded By),False,biomass weighing,starting immediately
+E12,E1,-1,> (Preceded By),False,starting immediately,seed soaking
+E12,E2,-1,> (Preceded By),False,starting immediately,paddy seeds soaked in aerated water
+E12,E3,-2,mi (Met By),False,starting immediately,Incubation inside damp jute bags
+E12,E4,-1,> (Preceded By),False,starting immediately,seeds began sprouting radicles
+E12,E5,-4,si (Started By),False,starting immediately,Sowing the sprouted seeds onto nursery germination trays
+E12,E6,3,o (Overlaps),False,starting immediately,trays were kept in a humidity chamber
+E12,E7,1,< (Precedes),False,starting immediately,Small green shoots emerged
+E12,E8,1,< (Precedes),False,starting immediately,trays were moved to the greenhouse benches
+E12,E9,1,< (Precedes),False,starting immediately,Agronomists took initial shoot length measurements
+E12,E10,1,< (Precedes),False,starting immediately,soil moisture sensors logged moisture depletion
+E12,E11,1,< (Precedes),False,starting immediately,biomass weighing

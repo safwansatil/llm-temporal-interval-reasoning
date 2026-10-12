@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,The mobile clinic arrived in the remote border village
+E1,E3,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,retrofitting the primary school auditorium into an inoculation center
+E1,E4,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,community volunteers conducted door-to-door educational outreach
+E1,E5,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,the solar-powered vaccine refrigerator failed
+E1,E6,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,necessitating an urgent ice delivery
+E1,E7,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,The ice arrived
+E1,E8,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,Vaccinations resumed
+E1,E9,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,four hundred children were inoculated
+E1,E10,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,packed their supplies
+E1,E11,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,vaccination drive was scheduled to run
+E1,E12,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,preserving the stock
+E1,E13,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,continued through the remaining
+E1,E14,1,< (Precedes),False,a district health bulletin warned of a measles outbreak,starting two hours before the clinic opened each morning
+E2,E1,-1,> (Preceded By),False,The mobile clinic arrived in the remote border village,a district health bulletin warned of a measles outbreak
+E2,E3,2,m (Meets),False,The mobile clinic arrived in the remote border village,retrofitting the primary school auditorium into an inoculation center
+E2,E4,1,< (Precedes),False,The mobile clinic arrived in the remote border village,community volunteers conducted door-to-door educational outreach
+E2,E5,1,< (Precedes),False,The mobile clinic arrived in the remote border village,the solar-powered vaccine refrigerator failed
+E2,E6,1,< (Precedes),False,The mobile clinic arrived in the remote border village,necessitating an urgent ice delivery
+E2,E7,1,< (Precedes),False,The mobile clinic arrived in the remote border village,The ice arrived
+E2,E8,1,< (Precedes),False,The mobile clinic arrived in the remote border village,Vaccinations resumed
+E2,E9,1,< (Precedes),False,The mobile clinic arrived in the remote border village,four hundred children were inoculated
+E2,E10,1,< (Precedes),False,The mobile clinic arrived in the remote border village,packed their supplies
+E2,E11,1,< (Precedes),False,The mobile clinic arrived in the remote border village,vaccination drive was scheduled to run
+E2,E12,1,< (Precedes),False,The mobile clinic arrived in the remote border village,preserving the stock
+E2,E13,1,< (Precedes),False,The mobile clinic arrived in the remote border village,continued through the remaining
+E2,E14,1,< (Precedes),False,The mobile clinic arrived in the remote border village,starting two hours before the clinic opened each morning
+E3,E1,-1,> (Preceded By),False,retrofitting the primary school auditorium into an inoculation center,a district health bulletin warned of a measles outbreak
+E3,E2,-2,mi (Met By),False,retrofitting the primary school auditorium into an inoculation center,The mobile clinic arrived in the remote border village
+E3,E4,2,m (Meets),False,retrofitting the primary school auditorium into an inoculation center,community volunteers conducted door-to-door educational outreach
+E3,E5,1,< (Precedes),False,retrofitting the primary school auditorium into an inoculation center,the solar-powered vaccine refrigerator failed
+E3,E6,1,< (Precedes),False,retrofitting the primary school auditorium into an inoculation center,necessitating an urgent ice delivery
+E3,E7,1,< (Precedes),False,retrofitting the primary school auditorium into an inoculation center,The ice arrived
+E3,E8,1,< (Precedes),False,retrofitting the primary school auditorium into an inoculation center,Vaccinations resumed
+E3,E9,2,m (Meets),False,retrofitting the primary school auditorium into an inoculation center,four hundred children were inoculated
+E3,E10,1,< (Precedes),False,retrofitting the primary school auditorium into an inoculation center,packed their supplies
+E3,E11,2,m (Meets),False,retrofitting the primary school auditorium into an inoculation center,vaccination drive was scheduled to run
+E3,E12,1,< (Precedes),False,retrofitting the primary school auditorium into an inoculation center,preserving the stock
+E3,E13,1,< (Precedes),False,retrofitting the primary school auditorium into an inoculation center,continued through the remaining
+E3,E14,2,m (Meets),False,retrofitting the primary school auditorium into an inoculation center,starting two hours before the clinic opened each morning
+E4,E1,-1,> (Preceded By),False,community volunteers conducted door-to-door educational outreach,a district health bulletin warned of a measles outbreak
+E4,E2,-1,> (Preceded By),False,community volunteers conducted door-to-door educational outreach,The mobile clinic arrived in the remote border village
+E4,E3,-2,mi (Met By),False,community volunteers conducted door-to-door educational outreach,retrofitting the primary school auditorium into an inoculation center
+E4,E5,-5,di (Contains),False,community volunteers conducted door-to-door educational outreach,the solar-powered vaccine refrigerator failed
+E4,E6,-5,di (Contains),False,community volunteers conducted door-to-door educational outreach,necessitating an urgent ice delivery
+E4,E7,-5,di (Contains),False,community volunteers conducted door-to-door educational outreach,The ice arrived
+E4,E8,-5,di (Contains),False,community volunteers conducted door-to-door educational outreach,Vaccinations resumed
+E4,E9,0,= (Equal),False,community volunteers conducted door-to-door educational outreach,four hundred children were inoculated
+E4,E10,2,m (Meets),False,community volunteers conducted door-to-door educational outreach,packed their supplies
+E4,E11,0,= (Equal),False,community volunteers conducted door-to-door educational outreach,vaccination drive was scheduled to run
+E4,E12,-5,di (Contains),False,community volunteers conducted door-to-door educational outreach,preserving the stock
+E4,E13,-6,fi (Finished By),False,community volunteers conducted door-to-door educational outreach,continued through the remaining
+E4,E14,0,= (Equal),False,community volunteers conducted door-to-door educational outreach,starting two hours before the clinic opened each morning
+E5,E1,-1,> (Preceded By),False,the solar-powered vaccine refrigerator failed,a district health bulletin warned of a measles outbreak
+E5,E2,-1,> (Preceded By),False,the solar-powered vaccine refrigerator failed,The mobile clinic arrived in the remote border village
+E5,E3,-1,> (Preceded By),False,the solar-powered vaccine refrigerator failed,retrofitting the primary school auditorium into an inoculation center
+E5,E4,5,d (During),False,the solar-powered vaccine refrigerator failed,community volunteers conducted door-to-door educational outreach
+E5,E6,2,m (Meets),False,the solar-powered vaccine refrigerator failed,necessitating an urgent ice delivery
+E5,E7,1,< (Precedes),False,the solar-powered vaccine refrigerator failed,The ice arrived
+E5,E8,1,< (Precedes),False,the solar-powered vaccine refrigerator failed,Vaccinations resumed
+E5,E9,5,d (During),False,the solar-powered vaccine refrigerator failed,four hundred children were inoculated
+E5,E10,1,< (Precedes),False,the solar-powered vaccine refrigerator failed,packed their supplies
+E5,E11,5,d (During),False,the solar-powered vaccine refrigerator failed,vaccination drive was scheduled to run
+E5,E12,1,< (Precedes),False,the solar-powered vaccine refrigerator failed,preserving the stock
+E5,E13,1,< (Precedes),False,the solar-powered vaccine refrigerator failed,continued through the remaining
+E5,E14,5,d (During),False,the solar-powered vaccine refrigerator failed,starting two hours before the clinic opened each morning
+E6,E1,-1,> (Preceded By),False,necessitating an urgent ice delivery,a district health bulletin warned of a measles outbreak
+E6,E2,-1,> (Preceded By),False,necessitating an urgent ice delivery,The mobile clinic arrived in the remote border village
+E6,E3,-1,> (Preceded By),False,necessitating an urgent ice delivery,retrofitting the primary school auditorium into an inoculation center
+E6,E4,5,d (During),False,necessitating an urgent ice delivery,community volunteers conducted door-to-door educational outreach
+E6,E5,-2,mi (Met By),False,necessitating an urgent ice delivery,the solar-powered vaccine refrigerator failed
+E6,E7,2,m (Meets),False,necessitating an urgent ice delivery,The ice arrived
+E6,E8,1,< (Precedes),False,necessitating an urgent ice delivery,Vaccinations resumed
+E6,E9,5,d (During),False,necessitating an urgent ice delivery,four hundred children were inoculated
+E6,E10,1,< (Precedes),False,necessitating an urgent ice delivery,packed their supplies
+E6,E11,5,d (During),False,necessitating an urgent ice delivery,vaccination drive was scheduled to run
+E6,E12,2,m (Meets),False,necessitating an urgent ice delivery,preserving the stock
+E6,E13,1,< (Precedes),False,necessitating an urgent ice delivery,continued through the remaining
+E6,E14,5,d (During),False,necessitating an urgent ice delivery,starting two hours before the clinic opened each morning
+E7,E1,-1,> (Preceded By),False,The ice arrived,a district health bulletin warned of a measles outbreak
+E7,E2,-1,> (Preceded By),False,The ice arrived,The mobile clinic arrived in the remote border village
+E7,E3,-1,> (Preceded By),False,The ice arrived,retrofitting the primary school auditorium into an inoculation center
+E7,E4,5,d (During),False,The ice arrived,community volunteers conducted door-to-door educational outreach
+E7,E5,-1,> (Preceded By),False,The ice arrived,the solar-powered vaccine refrigerator failed
+E7,E6,-2,mi (Met By),False,The ice arrived,necessitating an urgent ice delivery
+E7,E8,2,m (Meets),False,The ice arrived,Vaccinations resumed
+E7,E9,5,d (During),False,The ice arrived,four hundred children were inoculated
+E7,E10,1,< (Precedes),False,The ice arrived,packed their supplies
+E7,E11,5,d (During),False,The ice arrived,vaccination drive was scheduled to run
+E7,E12,0,= (Equal),False,The ice arrived,preserving the stock
+E7,E13,2,m (Meets),False,The ice arrived,continued through the remaining
+E7,E14,5,d (During),False,The ice arrived,starting two hours before the clinic opened each morning
+E8,E1,-1,> (Preceded By),False,Vaccinations resumed,a district health bulletin warned of a measles outbreak
+E8,E2,-1,> (Preceded By),False,Vaccinations resumed,The mobile clinic arrived in the remote border village
+E8,E3,-1,> (Preceded By),False,Vaccinations resumed,retrofitting the primary school auditorium into an inoculation center
+E8,E4,5,d (During),False,Vaccinations resumed,community volunteers conducted door-to-door educational outreach
+E8,E5,-1,> (Preceded By),False,Vaccinations resumed,the solar-powered vaccine refrigerator failed
+E8,E6,-1,> (Preceded By),False,Vaccinations resumed,necessitating an urgent ice delivery
+E8,E7,-2,mi (Met By),False,Vaccinations resumed,The ice arrived
+E8,E9,5,d (During),False,Vaccinations resumed,four hundred children were inoculated
+E8,E10,1,< (Precedes),False,Vaccinations resumed,packed their supplies
+E8,E11,5,d (During),False,Vaccinations resumed,vaccination drive was scheduled to run
+E8,E12,-2,mi (Met By),False,Vaccinations resumed,preserving the stock
+E8,E13,4,s (Starts),False,Vaccinations resumed,continued through the remaining
+E8,E14,5,d (During),False,Vaccinations resumed,starting two hours before the clinic opened each morning
+E9,E1,-1,> (Preceded By),False,four hundred children were inoculated,a district health bulletin warned of a measles outbreak
+E9,E2,-1,> (Preceded By),False,four hundred children were inoculated,The mobile clinic arrived in the remote border village
+E9,E3,-2,mi (Met By),False,four hundred children were inoculated,retrofitting the primary school auditorium into an inoculation center
+E9,E4,0,= (Equal),False,four hundred children were inoculated,community volunteers conducted door-to-door educational outreach
+E9,E5,-5,di (Contains),False,four hundred children were inoculated,the solar-powered vaccine refrigerator failed
+E9,E6,-5,di (Contains),False,four hundred children were inoculated,necessitating an urgent ice delivery
+E9,E7,-5,di (Contains),False,four hundred children were inoculated,The ice arrived
+E9,E8,-5,di (Contains),False,four hundred children were inoculated,Vaccinations resumed
+E9,E10,2,m (Meets),False,four hundred children were inoculated,packed their supplies
+E9,E11,0,= (Equal),False,four hundred children were inoculated,vaccination drive was scheduled to run
+E9,E12,-5,di (Contains),False,four hundred children were inoculated,preserving the stock
+E9,E13,-6,fi (Finished By),False,four hundred children were inoculated,continued through the remaining
+E9,E14,0,= (Equal),False,four hundred children were inoculated,starting two hours before the clinic opened each morning
+E10,E1,-1,> (Preceded By),False,packed their supplies,a district health bulletin warned of a measles outbreak
+E10,E2,-1,> (Preceded By),False,packed their supplies,The mobile clinic arrived in the remote border village
+E10,E3,-1,> (Preceded By),False,packed their supplies,retrofitting the primary school auditorium into an inoculation center
+E10,E4,-2,mi (Met By),False,packed their supplies,community volunteers conducted door-to-door educational outreach
+E10,E5,-1,> (Preceded By),False,packed their supplies,the solar-powered vaccine refrigerator failed
+E10,E6,-1,> (Preceded By),False,packed their supplies,necessitating an urgent ice delivery
+E10,E7,-1,> (Preceded By),False,packed their supplies,The ice arrived
+E10,E8,-1,> (Preceded By),False,packed their supplies,Vaccinations resumed
+E10,E9,-2,mi (Met By),False,packed their supplies,four hundred children were inoculated
+E10,E11,-2,mi (Met By),False,packed their supplies,vaccination drive was scheduled to run
+E10,E12,-1,> (Preceded By),False,packed their supplies,preserving the stock
+E10,E13,-2,mi (Met By),False,packed their supplies,continued through the remaining
+E10,E14,-2,mi (Met By),False,packed their supplies,starting two hours before the clinic opened each morning
+E11,E1,-1,> (Preceded By),False,vaccination drive was scheduled to run,a district health bulletin warned of a measles outbreak
+E11,E2,-1,> (Preceded By),False,vaccination drive was scheduled to run,The mobile clinic arrived in the remote border village
+E11,E3,-2,mi (Met By),False,vaccination drive was scheduled to run,retrofitting the primary school auditorium into an inoculation center
+E11,E4,0,= (Equal),False,vaccination drive was scheduled to run,community volunteers conducted door-to-door educational outreach
+E11,E5,-5,di (Contains),False,vaccination drive was scheduled to run,the solar-powered vaccine refrigerator failed
+E11,E6,-5,di (Contains),False,vaccination drive was scheduled to run,necessitating an urgent ice delivery
+E11,E7,-5,di (Contains),False,vaccination drive was scheduled to run,The ice arrived
+E11,E8,-5,di (Contains),False,vaccination drive was scheduled to run,Vaccinations resumed
+E11,E9,0,= (Equal),False,vaccination drive was scheduled to run,four hundred children were inoculated
+E11,E10,2,m (Meets),False,vaccination drive was scheduled to run,packed their supplies
+E11,E12,-5,di (Contains),False,vaccination drive was scheduled to run,preserving the stock
+E11,E13,-6,fi (Finished By),False,vaccination drive was scheduled to run,continued through the remaining
+E11,E14,0,= (Equal),False,vaccination drive was scheduled to run,starting two hours before the clinic opened each morning
+E12,E1,-1,> (Preceded By),False,preserving the stock,a district health bulletin warned of a measles outbreak
+E12,E2,-1,> (Preceded By),False,preserving the stock,The mobile clinic arrived in the remote border village
+E12,E3,-1,> (Preceded By),False,preserving the stock,retrofitting the primary school auditorium into an inoculation center
+E12,E4,5,d (During),False,preserving the stock,community volunteers conducted door-to-door educational outreach
+E12,E5,-1,> (Preceded By),False,preserving the stock,the solar-powered vaccine refrigerator failed
+E12,E6,-2,mi (Met By),False,preserving the stock,necessitating an urgent ice delivery
+E12,E7,0,= (Equal),False,preserving the stock,The ice arrived
+E12,E8,2,m (Meets),False,preserving the stock,Vaccinations resumed
+E12,E9,5,d (During),False,preserving the stock,four hundred children were inoculated
+E12,E10,1,< (Precedes),False,preserving the stock,packed their supplies
+E12,E11,5,d (During),False,preserving the stock,vaccination drive was scheduled to run
+E12,E13,2,m (Meets),False,preserving the stock,continued through the remaining
+E12,E14,5,d (During),False,preserving the stock,starting two hours before the clinic opened each morning
+E13,E1,-1,> (Preceded By),False,continued through the remaining,a district health bulletin warned of a measles outbreak
+E13,E2,-1,> (Preceded By),False,continued through the remaining,The mobile clinic arrived in the remote border village
+E13,E3,-1,> (Preceded By),False,continued through the remaining,retrofitting the primary school auditorium into an inoculation center
+E13,E4,6,f (Finishes),False,continued through the remaining,community volunteers conducted door-to-door educational outreach
+E13,E5,-1,> (Preceded By),False,continued through the remaining,the solar-powered vaccine refrigerator failed
+E13,E6,-1,> (Preceded By),False,continued through the remaining,necessitating an urgent ice delivery
+E13,E7,-2,mi (Met By),False,continued through the remaining,The ice arrived
+E13,E8,-4,si (Started By),False,continued through the remaining,Vaccinations resumed
+E13,E9,6,f (Finishes),False,continued through the remaining,four hundred children were inoculated
+E13,E10,2,m (Meets),False,continued through the remaining,packed their supplies
+E13,E11,6,f (Finishes),False,continued through the remaining,vaccination drive was scheduled to run
+E13,E12,-2,mi (Met By),False,continued through the remaining,preserving the stock
+E13,E14,6,f (Finishes),False,continued through the remaining,starting two hours before the clinic opened each morning
+E14,E1,-1,> (Preceded By),False,starting two hours before the clinic opened each morning,a district health bulletin warned of a measles outbreak
+E14,E2,-1,> (Preceded By),False,starting two hours before the clinic opened each morning,The mobile clinic arrived in the remote border village
+E14,E3,-2,mi (Met By),False,starting two hours before the clinic opened each morning,retrofitting the primary school auditorium into an inoculation center
+E14,E4,0,= (Equal),False,starting two hours before the clinic opened each morning,community volunteers conducted door-to-door educational outreach
+E14,E5,-5,di (Contains),False,starting two hours before the clinic opened each morning,the solar-powered vaccine refrigerator failed
+E14,E6,-5,di (Contains),False,starting two hours before the clinic opened each morning,necessitating an urgent ice delivery
+E14,E7,-5,di (Contains),False,starting two hours before the clinic opened each morning,The ice arrived
+E14,E8,-5,di (Contains),False,starting two hours before the clinic opened each morning,Vaccinations resumed
+E14,E9,0,= (Equal),False,starting two hours before the clinic opened each morning,four hundred children were inoculated
+E14,E10,2,m (Meets),False,starting two hours before the clinic opened each morning,packed their supplies
+E14,E11,0,= (Equal),False,starting two hours before the clinic opened each morning,vaccination drive was scheduled to run
+E14,E12,-5,di (Contains),False,starting two hours before the clinic opened each morning,preserving the stock
+E14,E13,-6,fi (Finished By),False,starting two hours before the clinic opened each morning,continued through the remaining

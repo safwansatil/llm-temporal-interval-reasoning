@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,grew up in Bogura,moved to Dhaka at twenty-two
+E1,E3,1,< (Precedes),False,grew up in Bogura,employer shut down its Dhaka office
+E1,E4,1,< (Precedes),False,grew up in Bogura,spent four months freelancing
+E1,E5,2,m (Meets),False,grew up in Bogura,finished the cybersecurity course
+E1,E6,1,< (Precedes),False,grew up in Bogura,seen his profile
+E1,E7,1,< (Precedes),False,grew up in Bogura,received a project inquiry
+E1,E8,1,< (Precedes),False,grew up in Bogura,took six weeks
+E1,E9,1,< (Precedes),False,grew up in Bogura,met at a tech meetup
+E1,E10,1,< (Precedes),False,grew up in Bogura,offered him a part-time ongoing contract
+E1,E11,1,< (Precedes),False,grew up in Bogura,moved from the coworking space to a small office in Gulshan
+E1,E12,1,< (Precedes),False,grew up in Bogura,back in Bogura for Eid
+E1,E13,4,s (Starts),False,grew up in Bogura,told his father
+E1,E14,1,< (Precedes),False,grew up in Bogura,classes in cybersecurity at a training center
+E1,E15,2,m (Meets),False,grew up in Bogura,T job that paid less than
+E2,E1,-2,mi (Met By),False,moved to Dhaka at twenty-two,grew up in Bogura
+E2,E3,-5,di (Contains),False,moved to Dhaka at twenty-two,employer shut down its Dhaka office
+E2,E4,-5,di (Contains),False,moved to Dhaka at twenty-two,spent four months freelancing
+E2,E5,-4,si (Started By),False,moved to Dhaka at twenty-two,finished the cybersecurity course
+E2,E6,-5,di (Contains),False,moved to Dhaka at twenty-two,seen his profile
+E2,E7,-5,di (Contains),False,moved to Dhaka at twenty-two,received a project inquiry
+E2,E8,-5,di (Contains),False,moved to Dhaka at twenty-two,took six weeks
+E2,E9,-5,di (Contains),False,moved to Dhaka at twenty-two,met at a tech meetup
+E2,E10,-5,di (Contains),False,moved to Dhaka at twenty-two,offered him a part-time ongoing contract
+E2,E11,3,o (Overlaps),False,moved to Dhaka at twenty-two,moved from the coworking space to a small office in Gulshan
+E2,E12,2,m (Meets),False,moved to Dhaka at twenty-two,back in Bogura for Eid
+E2,E13,5,d (During),False,moved to Dhaka at twenty-two,told his father
+E2,E14,-5,di (Contains),False,moved to Dhaka at twenty-two,classes in cybersecurity at a training center
+E2,E15,-4,si (Started By),False,moved to Dhaka at twenty-two,T job that paid less than
+E3,E1,-1,> (Preceded By),False,employer shut down its Dhaka office,grew up in Bogura
+E3,E2,5,d (During),False,employer shut down its Dhaka office,moved to Dhaka at twenty-two
+E3,E4,1,< (Precedes),False,employer shut down its Dhaka office,spent four months freelancing
+E3,E5,5,d (During),False,employer shut down its Dhaka office,finished the cybersecurity course
+E3,E6,1,< (Precedes),False,employer shut down its Dhaka office,seen his profile
+E3,E7,1,< (Precedes),False,employer shut down its Dhaka office,received a project inquiry
+E3,E8,1,< (Precedes),False,employer shut down its Dhaka office,took six weeks
+E3,E9,1,< (Precedes),False,employer shut down its Dhaka office,met at a tech meetup
+E3,E10,1,< (Precedes),False,employer shut down its Dhaka office,offered him a part-time ongoing contract
+E3,E11,1,< (Precedes),False,employer shut down its Dhaka office,moved from the coworking space to a small office in Gulshan
+E3,E12,1,< (Precedes),False,employer shut down its Dhaka office,back in Bogura for Eid
+E3,E13,5,d (During),False,employer shut down its Dhaka office,told his father
+E3,E14,4,s (Starts),False,employer shut down its Dhaka office,classes in cybersecurity at a training center
+E3,E15,-2,mi (Met By),False,employer shut down its Dhaka office,T job that paid less than
+E4,E1,-1,> (Preceded By),False,spent four months freelancing,grew up in Bogura
+E4,E2,5,d (During),False,spent four months freelancing,moved to Dhaka at twenty-two
+E4,E3,-1,> (Preceded By),False,spent four months freelancing,employer shut down its Dhaka office
+E4,E5,6,f (Finishes),False,spent four months freelancing,finished the cybersecurity course
+E4,E6,1,< (Precedes),False,spent four months freelancing,seen his profile
+E4,E7,1,< (Precedes),False,spent four months freelancing,received a project inquiry
+E4,E8,1,< (Precedes),False,spent four months freelancing,took six weeks
+E4,E9,1,< (Precedes),False,spent four months freelancing,met at a tech meetup
+E4,E10,1,< (Precedes),False,spent four months freelancing,offered him a part-time ongoing contract
+E4,E11,1,< (Precedes),False,spent four months freelancing,moved from the coworking space to a small office in Gulshan
+E4,E12,1,< (Precedes),False,spent four months freelancing,back in Bogura for Eid
+E4,E13,5,d (During),False,spent four months freelancing,told his father
+E4,E14,-3,oi (Overlapped By),False,spent four months freelancing,classes in cybersecurity at a training center
+E4,E15,-1,> (Preceded By),False,spent four months freelancing,T job that paid less than
+E5,E1,-2,mi (Met By),False,finished the cybersecurity course,grew up in Bogura
+E5,E2,4,s (Starts),False,finished the cybersecurity course,moved to Dhaka at twenty-two
+E5,E3,-5,di (Contains),False,finished the cybersecurity course,employer shut down its Dhaka office
+E5,E4,-6,fi (Finished By),False,finished the cybersecurity course,spent four months freelancing
+E5,E6,1,< (Precedes),False,finished the cybersecurity course,seen his profile
+E5,E7,1,< (Precedes),False,finished the cybersecurity course,received a project inquiry
+E5,E8,1,< (Precedes),False,finished the cybersecurity course,took six weeks
+E5,E9,1,< (Precedes),False,finished the cybersecurity course,met at a tech meetup
+E5,E10,1,< (Precedes),False,finished the cybersecurity course,offered him a part-time ongoing contract
+E5,E11,1,< (Precedes),False,finished the cybersecurity course,moved from the coworking space to a small office in Gulshan
+E5,E12,1,< (Precedes),False,finished the cybersecurity course,back in Bogura for Eid
+E5,E13,5,d (During),False,finished the cybersecurity course,told his father
+E5,E14,-5,di (Contains),False,finished the cybersecurity course,classes in cybersecurity at a training center
+E5,E15,-4,si (Started By),False,finished the cybersecurity course,T job that paid less than
+E6,E1,-1,> (Preceded By),False,seen his profile,grew up in Bogura
+E6,E2,5,d (During),False,seen his profile,moved to Dhaka at twenty-two
+E6,E3,-1,> (Preceded By),False,seen his profile,employer shut down its Dhaka office
+E6,E4,-1,> (Preceded By),False,seen his profile,spent four months freelancing
+E6,E5,-1,> (Preceded By),False,seen his profile,finished the cybersecurity course
+E6,E7,1,< (Precedes),False,seen his profile,received a project inquiry
+E6,E8,1,< (Precedes),False,seen his profile,took six weeks
+E6,E9,1,< (Precedes),False,seen his profile,met at a tech meetup
+E6,E10,1,< (Precedes),False,seen his profile,offered him a part-time ongoing contract
+E6,E11,1,< (Precedes),False,seen his profile,moved from the coworking space to a small office in Gulshan
+E6,E12,1,< (Precedes),False,seen his profile,back in Bogura for Eid
+E6,E13,5,d (During),False,seen his profile,told his father
+E6,E14,-1,> (Preceded By),False,seen his profile,classes in cybersecurity at a training center
+E6,E15,-1,> (Preceded By),False,seen his profile,T job that paid less than
+E7,E1,-1,> (Preceded By),False,received a project inquiry,grew up in Bogura
+E7,E2,5,d (During),False,received a project inquiry,moved to Dhaka at twenty-two
+E7,E3,-1,> (Preceded By),False,received a project inquiry,employer shut down its Dhaka office
+E7,E4,-1,> (Preceded By),False,received a project inquiry,spent four months freelancing
+E7,E5,-1,> (Preceded By),False,received a project inquiry,finished the cybersecurity course
+E7,E6,-1,> (Preceded By),False,received a project inquiry,seen his profile
+E7,E8,2,m (Meets),False,received a project inquiry,took six weeks
+E7,E9,1,< (Precedes),False,received a project inquiry,met at a tech meetup
+E7,E10,1,< (Precedes),False,received a project inquiry,offered him a part-time ongoing contract
+E7,E11,1,< (Precedes),False,received a project inquiry,moved from the coworking space to a small office in Gulshan
+E7,E12,1,< (Precedes),False,received a project inquiry,back in Bogura for Eid
+E7,E13,5,d (During),False,received a project inquiry,told his father
+E7,E14,-1,> (Preceded By),False,received a project inquiry,classes in cybersecurity at a training center
+E7,E15,-1,> (Preceded By),False,received a project inquiry,T job that paid less than
+E8,E1,-1,> (Preceded By),False,took six weeks,grew up in Bogura
+E8,E2,5,d (During),False,took six weeks,moved to Dhaka at twenty-two
+E8,E3,-1,> (Preceded By),False,took six weeks,employer shut down its Dhaka office
+E8,E4,-1,> (Preceded By),False,took six weeks,spent four months freelancing
+E8,E5,-1,> (Preceded By),False,took six weeks,finished the cybersecurity course
+E8,E6,-1,> (Preceded By),False,took six weeks,seen his profile
+E8,E7,-2,mi (Met By),False,took six weeks,received a project inquiry
+E8,E9,-5,di (Contains),False,took six weeks,met at a tech meetup
+E8,E10,1,< (Precedes),False,took six weeks,offered him a part-time ongoing contract
+E8,E11,1,< (Precedes),False,took six weeks,moved from the coworking space to a small office in Gulshan
+E8,E12,1,< (Precedes),False,took six weeks,back in Bogura for Eid
+E8,E13,5,d (During),False,took six weeks,told his father
+E8,E14,-1,> (Preceded By),False,took six weeks,classes in cybersecurity at a training center
+E8,E15,-1,> (Preceded By),False,took six weeks,T job that paid less than
+E9,E1,-1,> (Preceded By),False,met at a tech meetup,grew up in Bogura
+E9,E2,5,d (During),False,met at a tech meetup,moved to Dhaka at twenty-two
+E9,E3,-1,> (Preceded By),False,met at a tech meetup,employer shut down its Dhaka office
+E9,E4,-1,> (Preceded By),False,met at a tech meetup,spent four months freelancing
+E9,E5,-1,> (Preceded By),False,met at a tech meetup,finished the cybersecurity course
+E9,E6,-1,> (Preceded By),False,met at a tech meetup,seen his profile
+E9,E7,-1,> (Preceded By),False,met at a tech meetup,received a project inquiry
+E9,E8,5,d (During),False,met at a tech meetup,took six weeks
+E9,E10,1,< (Precedes),False,met at a tech meetup,offered him a part-time ongoing contract
+E9,E11,1,< (Precedes),False,met at a tech meetup,moved from the coworking space to a small office in Gulshan
+E9,E12,1,< (Precedes),False,met at a tech meetup,back in Bogura for Eid
+E9,E13,5,d (During),False,met at a tech meetup,told his father
+E9,E14,-1,> (Preceded By),False,met at a tech meetup,classes in cybersecurity at a training center
+E9,E15,-1,> (Preceded By),False,met at a tech meetup,T job that paid less than
+E10,E1,-1,> (Preceded By),False,offered him a part-time ongoing contract,grew up in Bogura
+E10,E2,5,d (During),False,offered him a part-time ongoing contract,moved to Dhaka at twenty-two
+E10,E3,-1,> (Preceded By),False,offered him a part-time ongoing contract,employer shut down its Dhaka office
+E10,E4,-1,> (Preceded By),False,offered him a part-time ongoing contract,spent four months freelancing
+E10,E5,-1,> (Preceded By),False,offered him a part-time ongoing contract,finished the cybersecurity course
+E10,E6,-1,> (Preceded By),False,offered him a part-time ongoing contract,seen his profile
+E10,E7,-1,> (Preceded By),False,offered him a part-time ongoing contract,received a project inquiry
+E10,E8,-1,> (Preceded By),False,offered him a part-time ongoing contract,took six weeks
+E10,E9,-1,> (Preceded By),False,offered him a part-time ongoing contract,met at a tech meetup
+E10,E11,1,< (Precedes),False,offered him a part-time ongoing contract,moved from the coworking space to a small office in Gulshan
+E10,E12,1,< (Precedes),False,offered him a part-time ongoing contract,back in Bogura for Eid
+E10,E13,5,d (During),False,offered him a part-time ongoing contract,told his father
+E10,E14,-1,> (Preceded By),False,offered him a part-time ongoing contract,classes in cybersecurity at a training center
+E10,E15,-1,> (Preceded By),False,offered him a part-time ongoing contract,T job that paid less than
+E11,E1,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,grew up in Bogura
+E11,E2,-3,oi (Overlapped By),False,moved from the coworking space to a small office in Gulshan,moved to Dhaka at twenty-two
+E11,E3,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,employer shut down its Dhaka office
+E11,E4,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,spent four months freelancing
+E11,E5,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,finished the cybersecurity course
+E11,E6,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,seen his profile
+E11,E7,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,received a project inquiry
+E11,E8,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,took six weeks
+E11,E9,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,met at a tech meetup
+E11,E10,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,offered him a part-time ongoing contract
+E11,E12,-5,di (Contains),False,moved from the coworking space to a small office in Gulshan,back in Bogura for Eid
+E11,E13,-3,oi (Overlapped By),False,moved from the coworking space to a small office in Gulshan,told his father
+E11,E14,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,classes in cybersecurity at a training center
+E11,E15,-1,> (Preceded By),False,moved from the coworking space to a small office in Gulshan,T job that paid less than
+E12,E1,-1,> (Preceded By),False,back in Bogura for Eid,grew up in Bogura
+E12,E2,-2,mi (Met By),False,back in Bogura for Eid,moved to Dhaka at twenty-two
+E12,E3,-1,> (Preceded By),False,back in Bogura for Eid,employer shut down its Dhaka office
+E12,E4,-1,> (Preceded By),False,back in Bogura for Eid,spent four months freelancing
+E12,E5,-1,> (Preceded By),False,back in Bogura for Eid,finished the cybersecurity course
+E12,E6,-1,> (Preceded By),False,back in Bogura for Eid,seen his profile
+E12,E7,-1,> (Preceded By),False,back in Bogura for Eid,received a project inquiry
+E12,E8,-1,> (Preceded By),False,back in Bogura for Eid,took six weeks
+E12,E9,-1,> (Preceded By),False,back in Bogura for Eid,met at a tech meetup
+E12,E10,-1,> (Preceded By),False,back in Bogura for Eid,offered him a part-time ongoing contract
+E12,E11,5,d (During),False,back in Bogura for Eid,moved from the coworking space to a small office in Gulshan
+E12,E13,6,f (Finishes),False,back in Bogura for Eid,told his father
+E12,E14,-1,> (Preceded By),False,back in Bogura for Eid,classes in cybersecurity at a training center
+E12,E15,-1,> (Preceded By),False,back in Bogura for Eid,T job that paid less than
+E13,E1,-4,si (Started By),False,told his father,grew up in Bogura
+E13,E2,-5,di (Contains),False,told his father,moved to Dhaka at twenty-two
+E13,E3,-5,di (Contains),False,told his father,employer shut down its Dhaka office
+E13,E4,-5,di (Contains),False,told his father,spent four months freelancing
+E13,E5,-5,di (Contains),False,told his father,finished the cybersecurity course
+E13,E6,-5,di (Contains),False,told his father,seen his profile
+E13,E7,-5,di (Contains),False,told his father,received a project inquiry
+E13,E8,-5,di (Contains),False,told his father,took six weeks
+E13,E9,-5,di (Contains),False,told his father,met at a tech meetup
+E13,E10,-5,di (Contains),False,told his father,offered him a part-time ongoing contract
+E13,E11,3,o (Overlaps),False,told his father,moved from the coworking space to a small office in Gulshan
+E13,E12,-6,fi (Finished By),False,told his father,back in Bogura for Eid
+E13,E14,-5,di (Contains),False,told his father,classes in cybersecurity at a training center
+E13,E15,-5,di (Contains),False,told his father,T job that paid less than
+E14,E1,-1,> (Preceded By),False,classes in cybersecurity at a training center,grew up in Bogura
+E14,E2,5,d (During),False,classes in cybersecurity at a training center,moved to Dhaka at twenty-two
+E14,E3,-4,si (Started By),False,classes in cybersecurity at a training center,employer shut down its Dhaka office
+E14,E4,3,o (Overlaps),False,classes in cybersecurity at a training center,spent four months freelancing
+E14,E5,5,d (During),False,classes in cybersecurity at a training center,finished the cybersecurity course
+E14,E6,1,< (Precedes),False,classes in cybersecurity at a training center,seen his profile
+E14,E7,1,< (Precedes),False,classes in cybersecurity at a training center,received a project inquiry
+E14,E8,1,< (Precedes),False,classes in cybersecurity at a training center,took six weeks
+E14,E9,1,< (Precedes),False,classes in cybersecurity at a training center,met at a tech meetup
+E14,E10,1,< (Precedes),False,classes in cybersecurity at a training center,offered him a part-time ongoing contract
+E14,E11,1,< (Precedes),False,classes in cybersecurity at a training center,moved from the coworking space to a small office in Gulshan
+E14,E12,1,< (Precedes),False,classes in cybersecurity at a training center,back in Bogura for Eid
+E14,E13,5,d (During),False,classes in cybersecurity at a training center,told his father
+E14,E15,-2,mi (Met By),False,classes in cybersecurity at a training center,T job that paid less than
+E15,E1,-2,mi (Met By),False,T job that paid less than,grew up in Bogura
+E15,E2,4,s (Starts),False,T job that paid less than,moved to Dhaka at twenty-two
+E15,E3,2,m (Meets),False,T job that paid less than,employer shut down its Dhaka office
+E15,E4,1,< (Precedes),False,T job that paid less than,spent four months freelancing
+E15,E5,4,s (Starts),False,T job that paid less than,finished the cybersecurity course
+E15,E6,1,< (Precedes),False,T job that paid less than,seen his profile
+E15,E7,1,< (Precedes),False,T job that paid less than,received a project inquiry
+E15,E8,1,< (Precedes),False,T job that paid less than,took six weeks
+E15,E9,1,< (Precedes),False,T job that paid less than,met at a tech meetup
+E15,E10,1,< (Precedes),False,T job that paid less than,offered him a part-time ongoing contract
+E15,E11,1,< (Precedes),False,T job that paid less than,moved from the coworking space to a small office in Gulshan
+E15,E12,1,< (Precedes),False,T job that paid less than,back in Bogura for Eid
+E15,E13,5,d (During),False,T job that paid less than,told his father
+E15,E14,2,m (Meets),False,T job that paid less than,classes in cybersecurity at a training center

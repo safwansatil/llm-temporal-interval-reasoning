@@ -1,0 +1,993 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,Orin had been studying medicine in Rajshahi,had to take a medical leave of absence in her third year
+E1,E3,2,m (Meets),False,Orin had been studying medicine in Rajshahi,her own health issues.
+E1,E4,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,She spent eight months at her family home in Dhaka
+E1,E5,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,recovering
+E1,E6,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,attending follow-up appointments at a private hospital in Lalmatia
+E1,E7,2,m (Meets),False,Orin had been studying medicine in Rajshahi,her batchmates at the medical college continued their coursework and clinical rotations
+E1,E8,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,She returned to Rajshahi in January
+E1,E9,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,leaving
+E1,E10,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,rejoined with a new batch a year below her own
+E1,E11,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,The adjustment had its difficult moments
+E1,E12,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,most of her original friends had moved ahead in their studies
+E1,E13,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,she had settled into a study group with three students from the new batch
+E1,E14,0,= (Equal),False,Orin had been studying medicine in Rajshahi,had done a gap year
+E1,E15,0,= (Equal),False,Orin had been studying medicine in Rajshahi,working at a community health clinic in a village outside Sylhet town
+E1,E16,2,m (Meets),False,Orin had been studying medicine in Rajshahi,starting medical school
+E1,E17,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,the group traveled together to a rural health camp
+E1,E18,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,organized by the university
+E1,E19,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,They spent two days providing basic health services
+E1,E20,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,Orin examined forty-three patients over those two days
+E1,E21,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,she told her batchmate from Sylhet
+E1,E22,4,s (Starts),False,Orin had been studying medicine in Rajshahi,studying medicine
+E1,E23,2,m (Meets),False,Orin had been studying medicine in Rajshahi,take a medical leave of absence
+E1,E24,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,spent eight months at her family home in Dhaka
+E1,E25,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,recovering and attending follow-up appointments
+E1,E26,0,= (Equal),False,Orin had been studying medicine in Rajshahi,done a gap year working at a community health clinic
+E1,E27,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,returned to Rajshahi
+E1,E28,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,rejoined with a new batch
+E1,E29,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,settled into a study group
+E1,E30,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,traveled together to a rural health camp
+E1,E31,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,providing basic health services
+E1,E32,1,< (Precedes),False,Orin had been studying medicine in Rajshahi,examined forty-three patients
+E2,E1,-2,mi (Met By),False,had to take a medical leave of absence in her third year,Orin had been studying medicine in Rajshahi
+E2,E3,4,s (Starts),False,had to take a medical leave of absence in her third year,her own health issues.
+E2,E4,2,m (Meets),False,had to take a medical leave of absence in her third year,She spent eight months at her family home in Dhaka
+E2,E5,2,m (Meets),False,had to take a medical leave of absence in her third year,recovering
+E2,E6,2,m (Meets),False,had to take a medical leave of absence in her third year,attending follow-up appointments at a private hospital in Lalmatia
+E2,E7,4,s (Starts),False,had to take a medical leave of absence in her third year,her batchmates at the medical college continued their coursework and clinical rotations
+E2,E8,1,< (Precedes),False,had to take a medical leave of absence in her third year,She returned to Rajshahi in January
+E2,E9,2,m (Meets),False,had to take a medical leave of absence in her third year,leaving
+E2,E10,1,< (Precedes),False,had to take a medical leave of absence in her third year,rejoined with a new batch a year below her own
+E2,E11,1,< (Precedes),False,had to take a medical leave of absence in her third year,The adjustment had its difficult moments
+E2,E12,1,< (Precedes),False,had to take a medical leave of absence in her third year,most of her original friends had moved ahead in their studies
+E2,E13,1,< (Precedes),False,had to take a medical leave of absence in her third year,she had settled into a study group with three students from the new batch
+E2,E14,-2,mi (Met By),False,had to take a medical leave of absence in her third year,had done a gap year
+E2,E15,-2,mi (Met By),False,had to take a medical leave of absence in her third year,working at a community health clinic in a village outside Sylhet town
+E2,E16,0,= (Equal),False,had to take a medical leave of absence in her third year,starting medical school
+E2,E17,1,< (Precedes),False,had to take a medical leave of absence in her third year,the group traveled together to a rural health camp
+E2,E18,1,< (Precedes),False,had to take a medical leave of absence in her third year,organized by the university
+E2,E19,1,< (Precedes),False,had to take a medical leave of absence in her third year,They spent two days providing basic health services
+E2,E20,1,< (Precedes),False,had to take a medical leave of absence in her third year,Orin examined forty-three patients over those two days
+E2,E21,1,< (Precedes),False,had to take a medical leave of absence in her third year,she told her batchmate from Sylhet
+E2,E22,5,d (During),False,had to take a medical leave of absence in her third year,studying medicine
+E2,E23,0,= (Equal),False,had to take a medical leave of absence in her third year,take a medical leave of absence
+E2,E24,2,m (Meets),False,had to take a medical leave of absence in her third year,spent eight months at her family home in Dhaka
+E2,E25,2,m (Meets),False,had to take a medical leave of absence in her third year,recovering and attending follow-up appointments
+E2,E26,-2,mi (Met By),False,had to take a medical leave of absence in her third year,done a gap year working at a community health clinic
+E2,E27,1,< (Precedes),False,had to take a medical leave of absence in her third year,returned to Rajshahi
+E2,E28,1,< (Precedes),False,had to take a medical leave of absence in her third year,rejoined with a new batch
+E2,E29,1,< (Precedes),False,had to take a medical leave of absence in her third year,settled into a study group
+E2,E30,1,< (Precedes),False,had to take a medical leave of absence in her third year,traveled together to a rural health camp
+E2,E31,1,< (Precedes),False,had to take a medical leave of absence in her third year,providing basic health services
+E2,E32,1,< (Precedes),False,had to take a medical leave of absence in her third year,examined forty-three patients
+E3,E1,-2,mi (Met By),False,her own health issues.,Orin had been studying medicine in Rajshahi
+E3,E2,-4,si (Started By),False,her own health issues.,had to take a medical leave of absence in her third year
+E3,E4,-6,fi (Finished By),False,her own health issues.,She spent eight months at her family home in Dhaka
+E3,E5,-6,fi (Finished By),False,her own health issues.,recovering
+E3,E6,-6,fi (Finished By),False,her own health issues.,attending follow-up appointments at a private hospital in Lalmatia
+E3,E7,4,s (Starts),False,her own health issues.,her batchmates at the medical college continued their coursework and clinical rotations
+E3,E8,2,m (Meets),False,her own health issues.,She returned to Rajshahi in January
+E3,E9,-5,di (Contains),False,her own health issues.,leaving
+E3,E10,1,< (Precedes),False,her own health issues.,rejoined with a new batch a year below her own
+E3,E11,1,< (Precedes),False,her own health issues.,The adjustment had its difficult moments
+E3,E12,1,< (Precedes),False,her own health issues.,most of her original friends had moved ahead in their studies
+E3,E13,1,< (Precedes),False,her own health issues.,she had settled into a study group with three students from the new batch
+E3,E14,-2,mi (Met By),False,her own health issues.,had done a gap year
+E3,E15,-2,mi (Met By),False,her own health issues.,working at a community health clinic in a village outside Sylhet town
+E3,E16,-4,si (Started By),False,her own health issues.,starting medical school
+E3,E17,1,< (Precedes),False,her own health issues.,the group traveled together to a rural health camp
+E3,E18,1,< (Precedes),False,her own health issues.,organized by the university
+E3,E19,1,< (Precedes),False,her own health issues.,They spent two days providing basic health services
+E3,E20,1,< (Precedes),False,her own health issues.,Orin examined forty-three patients over those two days
+E3,E21,1,< (Precedes),False,her own health issues.,she told her batchmate from Sylhet
+E3,E22,5,d (During),False,her own health issues.,studying medicine
+E3,E23,-4,si (Started By),False,her own health issues.,take a medical leave of absence
+E3,E24,-6,fi (Finished By),False,her own health issues.,spent eight months at her family home in Dhaka
+E3,E25,-6,fi (Finished By),False,her own health issues.,recovering and attending follow-up appointments
+E3,E26,-2,mi (Met By),False,her own health issues.,done a gap year working at a community health clinic
+E3,E27,2,m (Meets),False,her own health issues.,returned to Rajshahi
+E3,E28,1,< (Precedes),False,her own health issues.,rejoined with a new batch
+E3,E29,1,< (Precedes),False,her own health issues.,settled into a study group
+E3,E30,1,< (Precedes),False,her own health issues.,traveled together to a rural health camp
+E3,E31,1,< (Precedes),False,her own health issues.,providing basic health services
+E3,E32,1,< (Precedes),False,her own health issues.,examined forty-three patients
+E4,E1,-1,> (Preceded By),False,She spent eight months at her family home in Dhaka,Orin had been studying medicine in Rajshahi
+E4,E2,-2,mi (Met By),False,She spent eight months at her family home in Dhaka,had to take a medical leave of absence in her third year
+E4,E3,6,f (Finishes),False,She spent eight months at her family home in Dhaka,her own health issues.
+E4,E5,0,= (Equal),False,She spent eight months at her family home in Dhaka,recovering
+E4,E6,0,= (Equal),False,She spent eight months at her family home in Dhaka,attending follow-up appointments at a private hospital in Lalmatia
+E4,E7,5,d (During),False,She spent eight months at her family home in Dhaka,her batchmates at the medical college continued their coursework and clinical rotations
+E4,E8,2,m (Meets),False,She spent eight months at her family home in Dhaka,She returned to Rajshahi in January
+E4,E9,-4,si (Started By),False,She spent eight months at her family home in Dhaka,leaving
+E4,E10,1,< (Precedes),False,She spent eight months at her family home in Dhaka,rejoined with a new batch a year below her own
+E4,E11,1,< (Precedes),False,She spent eight months at her family home in Dhaka,The adjustment had its difficult moments
+E4,E12,1,< (Precedes),False,She spent eight months at her family home in Dhaka,most of her original friends had moved ahead in their studies
+E4,E13,1,< (Precedes),False,She spent eight months at her family home in Dhaka,she had settled into a study group with three students from the new batch
+E4,E14,-1,> (Preceded By),False,She spent eight months at her family home in Dhaka,had done a gap year
+E4,E15,-1,> (Preceded By),False,She spent eight months at her family home in Dhaka,working at a community health clinic in a village outside Sylhet town
+E4,E16,-2,mi (Met By),False,She spent eight months at her family home in Dhaka,starting medical school
+E4,E17,1,< (Precedes),False,She spent eight months at her family home in Dhaka,the group traveled together to a rural health camp
+E4,E18,1,< (Precedes),False,She spent eight months at her family home in Dhaka,organized by the university
+E4,E19,1,< (Precedes),False,She spent eight months at her family home in Dhaka,They spent two days providing basic health services
+E4,E20,1,< (Precedes),False,She spent eight months at her family home in Dhaka,Orin examined forty-three patients over those two days
+E4,E21,1,< (Precedes),False,She spent eight months at her family home in Dhaka,she told her batchmate from Sylhet
+E4,E22,5,d (During),False,She spent eight months at her family home in Dhaka,studying medicine
+E4,E23,-2,mi (Met By),False,She spent eight months at her family home in Dhaka,take a medical leave of absence
+E4,E24,0,= (Equal),False,She spent eight months at her family home in Dhaka,spent eight months at her family home in Dhaka
+E4,E25,0,= (Equal),False,She spent eight months at her family home in Dhaka,recovering and attending follow-up appointments
+E4,E26,-1,> (Preceded By),False,She spent eight months at her family home in Dhaka,done a gap year working at a community health clinic
+E4,E27,2,m (Meets),False,She spent eight months at her family home in Dhaka,returned to Rajshahi
+E4,E28,1,< (Precedes),False,She spent eight months at her family home in Dhaka,rejoined with a new batch
+E4,E29,1,< (Precedes),False,She spent eight months at her family home in Dhaka,settled into a study group
+E4,E30,1,< (Precedes),False,She spent eight months at her family home in Dhaka,traveled together to a rural health camp
+E4,E31,1,< (Precedes),False,She spent eight months at her family home in Dhaka,providing basic health services
+E4,E32,1,< (Precedes),False,She spent eight months at her family home in Dhaka,examined forty-three patients
+E5,E1,-1,> (Preceded By),False,recovering,Orin had been studying medicine in Rajshahi
+E5,E2,-2,mi (Met By),False,recovering,had to take a medical leave of absence in her third year
+E5,E3,6,f (Finishes),False,recovering,her own health issues.
+E5,E4,0,= (Equal),False,recovering,She spent eight months at her family home in Dhaka
+E5,E6,0,= (Equal),False,recovering,attending follow-up appointments at a private hospital in Lalmatia
+E5,E7,5,d (During),False,recovering,her batchmates at the medical college continued their coursework and clinical rotations
+E5,E8,2,m (Meets),False,recovering,She returned to Rajshahi in January
+E5,E9,-4,si (Started By),False,recovering,leaving
+E5,E10,1,< (Precedes),False,recovering,rejoined with a new batch a year below her own
+E5,E11,1,< (Precedes),False,recovering,The adjustment had its difficult moments
+E5,E12,1,< (Precedes),False,recovering,most of her original friends had moved ahead in their studies
+E5,E13,1,< (Precedes),False,recovering,she had settled into a study group with three students from the new batch
+E5,E14,-1,> (Preceded By),False,recovering,had done a gap year
+E5,E15,-1,> (Preceded By),False,recovering,working at a community health clinic in a village outside Sylhet town
+E5,E16,-2,mi (Met By),False,recovering,starting medical school
+E5,E17,1,< (Precedes),False,recovering,the group traveled together to a rural health camp
+E5,E18,1,< (Precedes),False,recovering,organized by the university
+E5,E19,1,< (Precedes),False,recovering,They spent two days providing basic health services
+E5,E20,1,< (Precedes),False,recovering,Orin examined forty-three patients over those two days
+E5,E21,1,< (Precedes),False,recovering,she told her batchmate from Sylhet
+E5,E22,5,d (During),False,recovering,studying medicine
+E5,E23,-2,mi (Met By),False,recovering,take a medical leave of absence
+E5,E24,0,= (Equal),False,recovering,spent eight months at her family home in Dhaka
+E5,E25,0,= (Equal),False,recovering,recovering and attending follow-up appointments
+E5,E26,-1,> (Preceded By),False,recovering,done a gap year working at a community health clinic
+E5,E27,2,m (Meets),False,recovering,returned to Rajshahi
+E5,E28,1,< (Precedes),False,recovering,rejoined with a new batch
+E5,E29,1,< (Precedes),False,recovering,settled into a study group
+E5,E30,1,< (Precedes),False,recovering,traveled together to a rural health camp
+E5,E31,1,< (Precedes),False,recovering,providing basic health services
+E5,E32,1,< (Precedes),False,recovering,examined forty-three patients
+E6,E1,-1,> (Preceded By),False,attending follow-up appointments at a private hospital in Lalmatia,Orin had been studying medicine in Rajshahi
+E6,E2,-2,mi (Met By),False,attending follow-up appointments at a private hospital in Lalmatia,had to take a medical leave of absence in her third year
+E6,E3,6,f (Finishes),False,attending follow-up appointments at a private hospital in Lalmatia,her own health issues.
+E6,E4,0,= (Equal),False,attending follow-up appointments at a private hospital in Lalmatia,She spent eight months at her family home in Dhaka
+E6,E5,0,= (Equal),False,attending follow-up appointments at a private hospital in Lalmatia,recovering
+E6,E7,5,d (During),False,attending follow-up appointments at a private hospital in Lalmatia,her batchmates at the medical college continued their coursework and clinical rotations
+E6,E8,2,m (Meets),False,attending follow-up appointments at a private hospital in Lalmatia,She returned to Rajshahi in January
+E6,E9,-4,si (Started By),False,attending follow-up appointments at a private hospital in Lalmatia,leaving
+E6,E10,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,rejoined with a new batch a year below her own
+E6,E11,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,The adjustment had its difficult moments
+E6,E12,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,most of her original friends had moved ahead in their studies
+E6,E13,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,she had settled into a study group with three students from the new batch
+E6,E14,-1,> (Preceded By),False,attending follow-up appointments at a private hospital in Lalmatia,had done a gap year
+E6,E15,-1,> (Preceded By),False,attending follow-up appointments at a private hospital in Lalmatia,working at a community health clinic in a village outside Sylhet town
+E6,E16,-2,mi (Met By),False,attending follow-up appointments at a private hospital in Lalmatia,starting medical school
+E6,E17,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,the group traveled together to a rural health camp
+E6,E18,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,organized by the university
+E6,E19,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,They spent two days providing basic health services
+E6,E20,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,Orin examined forty-three patients over those two days
+E6,E21,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,she told her batchmate from Sylhet
+E6,E22,5,d (During),False,attending follow-up appointments at a private hospital in Lalmatia,studying medicine
+E6,E23,-2,mi (Met By),False,attending follow-up appointments at a private hospital in Lalmatia,take a medical leave of absence
+E6,E24,0,= (Equal),False,attending follow-up appointments at a private hospital in Lalmatia,spent eight months at her family home in Dhaka
+E6,E25,0,= (Equal),False,attending follow-up appointments at a private hospital in Lalmatia,recovering and attending follow-up appointments
+E6,E26,-1,> (Preceded By),False,attending follow-up appointments at a private hospital in Lalmatia,done a gap year working at a community health clinic
+E6,E27,2,m (Meets),False,attending follow-up appointments at a private hospital in Lalmatia,returned to Rajshahi
+E6,E28,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,rejoined with a new batch
+E6,E29,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,settled into a study group
+E6,E30,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,traveled together to a rural health camp
+E6,E31,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,providing basic health services
+E6,E32,1,< (Precedes),False,attending follow-up appointments at a private hospital in Lalmatia,examined forty-three patients
+E7,E1,-2,mi (Met By),False,her batchmates at the medical college continued their coursework and clinical rotations,Orin had been studying medicine in Rajshahi
+E7,E2,-4,si (Started By),False,her batchmates at the medical college continued their coursework and clinical rotations,had to take a medical leave of absence in her third year
+E7,E3,-4,si (Started By),False,her batchmates at the medical college continued their coursework and clinical rotations,her own health issues.
+E7,E4,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,She spent eight months at her family home in Dhaka
+E7,E5,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,recovering
+E7,E6,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,attending follow-up appointments at a private hospital in Lalmatia
+E7,E8,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,She returned to Rajshahi in January
+E7,E9,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,leaving
+E7,E10,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,rejoined with a new batch a year below her own
+E7,E11,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,The adjustment had its difficult moments
+E7,E12,3,o (Overlaps),False,her batchmates at the medical college continued their coursework and clinical rotations,most of her original friends had moved ahead in their studies
+E7,E13,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,she had settled into a study group with three students from the new batch
+E7,E14,-2,mi (Met By),False,her batchmates at the medical college continued their coursework and clinical rotations,had done a gap year
+E7,E15,-2,mi (Met By),False,her batchmates at the medical college continued their coursework and clinical rotations,working at a community health clinic in a village outside Sylhet town
+E7,E16,-4,si (Started By),False,her batchmates at the medical college continued their coursework and clinical rotations,starting medical school
+E7,E17,1,< (Precedes),False,her batchmates at the medical college continued their coursework and clinical rotations,the group traveled together to a rural health camp
+E7,E18,1,< (Precedes),False,her batchmates at the medical college continued their coursework and clinical rotations,organized by the university
+E7,E19,1,< (Precedes),False,her batchmates at the medical college continued their coursework and clinical rotations,They spent two days providing basic health services
+E7,E20,1,< (Precedes),False,her batchmates at the medical college continued their coursework and clinical rotations,Orin examined forty-three patients over those two days
+E7,E21,1,< (Precedes),False,her batchmates at the medical college continued their coursework and clinical rotations,she told her batchmate from Sylhet
+E7,E22,5,d (During),False,her batchmates at the medical college continued their coursework and clinical rotations,studying medicine
+E7,E23,-4,si (Started By),False,her batchmates at the medical college continued their coursework and clinical rotations,take a medical leave of absence
+E7,E24,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,spent eight months at her family home in Dhaka
+E7,E25,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,recovering and attending follow-up appointments
+E7,E26,-2,mi (Met By),False,her batchmates at the medical college continued their coursework and clinical rotations,done a gap year working at a community health clinic
+E7,E27,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,returned to Rajshahi
+E7,E28,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,rejoined with a new batch
+E7,E29,-5,di (Contains),False,her batchmates at the medical college continued their coursework and clinical rotations,settled into a study group
+E7,E30,1,< (Precedes),False,her batchmates at the medical college continued their coursework and clinical rotations,traveled together to a rural health camp
+E7,E31,1,< (Precedes),False,her batchmates at the medical college continued their coursework and clinical rotations,providing basic health services
+E7,E32,1,< (Precedes),False,her batchmates at the medical college continued their coursework and clinical rotations,examined forty-three patients
+E8,E1,-1,> (Preceded By),False,She returned to Rajshahi in January,Orin had been studying medicine in Rajshahi
+E8,E2,-1,> (Preceded By),False,She returned to Rajshahi in January,had to take a medical leave of absence in her third year
+E8,E3,-2,mi (Met By),False,She returned to Rajshahi in January,her own health issues.
+E8,E4,-2,mi (Met By),False,She returned to Rajshahi in January,She spent eight months at her family home in Dhaka
+E8,E5,-2,mi (Met By),False,She returned to Rajshahi in January,recovering
+E8,E6,-2,mi (Met By),False,She returned to Rajshahi in January,attending follow-up appointments at a private hospital in Lalmatia
+E8,E7,5,d (During),False,She returned to Rajshahi in January,her batchmates at the medical college continued their coursework and clinical rotations
+E8,E9,-1,> (Preceded By),False,She returned to Rajshahi in January,leaving
+E8,E10,2,m (Meets),False,She returned to Rajshahi in January,rejoined with a new batch a year below her own
+E8,E11,2,m (Meets),False,She returned to Rajshahi in January,The adjustment had its difficult moments
+E8,E12,2,m (Meets),False,She returned to Rajshahi in January,most of her original friends had moved ahead in their studies
+E8,E13,1,< (Precedes),False,She returned to Rajshahi in January,she had settled into a study group with three students from the new batch
+E8,E14,-1,> (Preceded By),False,She returned to Rajshahi in January,had done a gap year
+E8,E15,-1,> (Preceded By),False,She returned to Rajshahi in January,working at a community health clinic in a village outside Sylhet town
+E8,E16,-1,> (Preceded By),False,She returned to Rajshahi in January,starting medical school
+E8,E17,1,< (Precedes),False,She returned to Rajshahi in January,the group traveled together to a rural health camp
+E8,E18,1,< (Precedes),False,She returned to Rajshahi in January,organized by the university
+E8,E19,1,< (Precedes),False,She returned to Rajshahi in January,They spent two days providing basic health services
+E8,E20,1,< (Precedes),False,She returned to Rajshahi in January,Orin examined forty-three patients over those two days
+E8,E21,1,< (Precedes),False,She returned to Rajshahi in January,she told her batchmate from Sylhet
+E8,E22,5,d (During),False,She returned to Rajshahi in January,studying medicine
+E8,E23,-1,> (Preceded By),False,She returned to Rajshahi in January,take a medical leave of absence
+E8,E24,-2,mi (Met By),False,She returned to Rajshahi in January,spent eight months at her family home in Dhaka
+E8,E25,-2,mi (Met By),False,She returned to Rajshahi in January,recovering and attending follow-up appointments
+E8,E26,-1,> (Preceded By),False,She returned to Rajshahi in January,done a gap year working at a community health clinic
+E8,E27,0,= (Equal),False,She returned to Rajshahi in January,returned to Rajshahi
+E8,E28,2,m (Meets),False,She returned to Rajshahi in January,rejoined with a new batch
+E8,E29,1,< (Precedes),False,She returned to Rajshahi in January,settled into a study group
+E8,E30,1,< (Precedes),False,She returned to Rajshahi in January,traveled together to a rural health camp
+E8,E31,1,< (Precedes),False,She returned to Rajshahi in January,providing basic health services
+E8,E32,1,< (Precedes),False,She returned to Rajshahi in January,examined forty-three patients
+E9,E1,-1,> (Preceded By),False,leaving,Orin had been studying medicine in Rajshahi
+E9,E2,-2,mi (Met By),False,leaving,had to take a medical leave of absence in her third year
+E9,E3,5,d (During),False,leaving,her own health issues.
+E9,E4,4,s (Starts),False,leaving,She spent eight months at her family home in Dhaka
+E9,E5,4,s (Starts),False,leaving,recovering
+E9,E6,4,s (Starts),False,leaving,attending follow-up appointments at a private hospital in Lalmatia
+E9,E7,5,d (During),False,leaving,her batchmates at the medical college continued their coursework and clinical rotations
+E9,E8,1,< (Precedes),False,leaving,She returned to Rajshahi in January
+E9,E10,1,< (Precedes),False,leaving,rejoined with a new batch a year below her own
+E9,E11,1,< (Precedes),False,leaving,The adjustment had its difficult moments
+E9,E12,1,< (Precedes),False,leaving,most of her original friends had moved ahead in their studies
+E9,E13,1,< (Precedes),False,leaving,she had settled into a study group with three students from the new batch
+E9,E14,-1,> (Preceded By),False,leaving,had done a gap year
+E9,E15,-1,> (Preceded By),False,leaving,working at a community health clinic in a village outside Sylhet town
+E9,E16,-2,mi (Met By),False,leaving,starting medical school
+E9,E17,1,< (Precedes),False,leaving,the group traveled together to a rural health camp
+E9,E18,1,< (Precedes),False,leaving,organized by the university
+E9,E19,1,< (Precedes),False,leaving,They spent two days providing basic health services
+E9,E20,1,< (Precedes),False,leaving,Orin examined forty-three patients over those two days
+E9,E21,1,< (Precedes),False,leaving,she told her batchmate from Sylhet
+E9,E22,5,d (During),False,leaving,studying medicine
+E9,E23,-2,mi (Met By),False,leaving,take a medical leave of absence
+E9,E24,4,s (Starts),False,leaving,spent eight months at her family home in Dhaka
+E9,E25,4,s (Starts),False,leaving,recovering and attending follow-up appointments
+E9,E26,-1,> (Preceded By),False,leaving,done a gap year working at a community health clinic
+E9,E27,1,< (Precedes),False,leaving,returned to Rajshahi
+E9,E28,1,< (Precedes),False,leaving,rejoined with a new batch
+E9,E29,1,< (Precedes),False,leaving,settled into a study group
+E9,E30,1,< (Precedes),False,leaving,traveled together to a rural health camp
+E9,E31,1,< (Precedes),False,leaving,providing basic health services
+E9,E32,1,< (Precedes),False,leaving,examined forty-three patients
+E10,E1,-1,> (Preceded By),False,rejoined with a new batch a year below her own,Orin had been studying medicine in Rajshahi
+E10,E2,-1,> (Preceded By),False,rejoined with a new batch a year below her own,had to take a medical leave of absence in her third year
+E10,E3,-1,> (Preceded By),False,rejoined with a new batch a year below her own,her own health issues.
+E10,E4,-1,> (Preceded By),False,rejoined with a new batch a year below her own,She spent eight months at her family home in Dhaka
+E10,E5,-1,> (Preceded By),False,rejoined with a new batch a year below her own,recovering
+E10,E6,-1,> (Preceded By),False,rejoined with a new batch a year below her own,attending follow-up appointments at a private hospital in Lalmatia
+E10,E7,5,d (During),False,rejoined with a new batch a year below her own,her batchmates at the medical college continued their coursework and clinical rotations
+E10,E8,-2,mi (Met By),False,rejoined with a new batch a year below her own,She returned to Rajshahi in January
+E10,E9,-1,> (Preceded By),False,rejoined with a new batch a year below her own,leaving
+E10,E11,4,s (Starts),False,rejoined with a new batch a year below her own,The adjustment had its difficult moments
+E10,E12,4,s (Starts),False,rejoined with a new batch a year below her own,most of her original friends had moved ahead in their studies
+E10,E13,1,< (Precedes),False,rejoined with a new batch a year below her own,she had settled into a study group with three students from the new batch
+E10,E14,-1,> (Preceded By),False,rejoined with a new batch a year below her own,had done a gap year
+E10,E15,-1,> (Preceded By),False,rejoined with a new batch a year below her own,working at a community health clinic in a village outside Sylhet town
+E10,E16,-1,> (Preceded By),False,rejoined with a new batch a year below her own,starting medical school
+E10,E17,1,< (Precedes),False,rejoined with a new batch a year below her own,the group traveled together to a rural health camp
+E10,E18,1,< (Precedes),False,rejoined with a new batch a year below her own,organized by the university
+E10,E19,1,< (Precedes),False,rejoined with a new batch a year below her own,They spent two days providing basic health services
+E10,E20,1,< (Precedes),False,rejoined with a new batch a year below her own,Orin examined forty-three patients over those two days
+E10,E21,1,< (Precedes),False,rejoined with a new batch a year below her own,she told her batchmate from Sylhet
+E10,E22,5,d (During),False,rejoined with a new batch a year below her own,studying medicine
+E10,E23,-1,> (Preceded By),False,rejoined with a new batch a year below her own,take a medical leave of absence
+E10,E24,-1,> (Preceded By),False,rejoined with a new batch a year below her own,spent eight months at her family home in Dhaka
+E10,E25,-1,> (Preceded By),False,rejoined with a new batch a year below her own,recovering and attending follow-up appointments
+E10,E26,-1,> (Preceded By),False,rejoined with a new batch a year below her own,done a gap year working at a community health clinic
+E10,E27,-2,mi (Met By),False,rejoined with a new batch a year below her own,returned to Rajshahi
+E10,E28,0,= (Equal),False,rejoined with a new batch a year below her own,rejoined with a new batch
+E10,E29,1,< (Precedes),False,rejoined with a new batch a year below her own,settled into a study group
+E10,E30,1,< (Precedes),False,rejoined with a new batch a year below her own,traveled together to a rural health camp
+E10,E31,1,< (Precedes),False,rejoined with a new batch a year below her own,providing basic health services
+E10,E32,1,< (Precedes),False,rejoined with a new batch a year below her own,examined forty-three patients
+E11,E1,-1,> (Preceded By),False,The adjustment had its difficult moments,Orin had been studying medicine in Rajshahi
+E11,E2,-1,> (Preceded By),False,The adjustment had its difficult moments,had to take a medical leave of absence in her third year
+E11,E3,-1,> (Preceded By),False,The adjustment had its difficult moments,her own health issues.
+E11,E4,-1,> (Preceded By),False,The adjustment had its difficult moments,She spent eight months at her family home in Dhaka
+E11,E5,-1,> (Preceded By),False,The adjustment had its difficult moments,recovering
+E11,E6,-1,> (Preceded By),False,The adjustment had its difficult moments,attending follow-up appointments at a private hospital in Lalmatia
+E11,E7,5,d (During),False,The adjustment had its difficult moments,her batchmates at the medical college continued their coursework and clinical rotations
+E11,E8,-2,mi (Met By),False,The adjustment had its difficult moments,She returned to Rajshahi in January
+E11,E9,-1,> (Preceded By),False,The adjustment had its difficult moments,leaving
+E11,E10,-4,si (Started By),False,The adjustment had its difficult moments,rejoined with a new batch a year below her own
+E11,E12,4,s (Starts),False,The adjustment had its difficult moments,most of her original friends had moved ahead in their studies
+E11,E13,2,m (Meets),False,The adjustment had its difficult moments,she had settled into a study group with three students from the new batch
+E11,E14,-1,> (Preceded By),False,The adjustment had its difficult moments,had done a gap year
+E11,E15,-1,> (Preceded By),False,The adjustment had its difficult moments,working at a community health clinic in a village outside Sylhet town
+E11,E16,-1,> (Preceded By),False,The adjustment had its difficult moments,starting medical school
+E11,E17,1,< (Precedes),False,The adjustment had its difficult moments,the group traveled together to a rural health camp
+E11,E18,1,< (Precedes),False,The adjustment had its difficult moments,organized by the university
+E11,E19,1,< (Precedes),False,The adjustment had its difficult moments,They spent two days providing basic health services
+E11,E20,1,< (Precedes),False,The adjustment had its difficult moments,Orin examined forty-three patients over those two days
+E11,E21,1,< (Precedes),False,The adjustment had its difficult moments,she told her batchmate from Sylhet
+E11,E22,5,d (During),False,The adjustment had its difficult moments,studying medicine
+E11,E23,-1,> (Preceded By),False,The adjustment had its difficult moments,take a medical leave of absence
+E11,E24,-1,> (Preceded By),False,The adjustment had its difficult moments,spent eight months at her family home in Dhaka
+E11,E25,-1,> (Preceded By),False,The adjustment had its difficult moments,recovering and attending follow-up appointments
+E11,E26,-1,> (Preceded By),False,The adjustment had its difficult moments,done a gap year working at a community health clinic
+E11,E27,-2,mi (Met By),False,The adjustment had its difficult moments,returned to Rajshahi
+E11,E28,-4,si (Started By),False,The adjustment had its difficult moments,rejoined with a new batch
+E11,E29,2,m (Meets),False,The adjustment had its difficult moments,settled into a study group
+E11,E30,1,< (Precedes),False,The adjustment had its difficult moments,traveled together to a rural health camp
+E11,E31,1,< (Precedes),False,The adjustment had its difficult moments,providing basic health services
+E11,E32,1,< (Precedes),False,The adjustment had its difficult moments,examined forty-three patients
+E12,E1,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,Orin had been studying medicine in Rajshahi
+E12,E2,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,had to take a medical leave of absence in her third year
+E12,E3,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,her own health issues.
+E12,E4,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,She spent eight months at her family home in Dhaka
+E12,E5,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,recovering
+E12,E6,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,attending follow-up appointments at a private hospital in Lalmatia
+E12,E7,-3,oi (Overlapped By),False,most of her original friends had moved ahead in their studies,her batchmates at the medical college continued their coursework and clinical rotations
+E12,E8,-2,mi (Met By),False,most of her original friends had moved ahead in their studies,She returned to Rajshahi in January
+E12,E9,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,leaving
+E12,E10,-4,si (Started By),False,most of her original friends had moved ahead in their studies,rejoined with a new batch a year below her own
+E12,E11,-4,si (Started By),False,most of her original friends had moved ahead in their studies,The adjustment had its difficult moments
+E12,E13,-5,di (Contains),False,most of her original friends had moved ahead in their studies,she had settled into a study group with three students from the new batch
+E12,E14,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,had done a gap year
+E12,E15,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,working at a community health clinic in a village outside Sylhet town
+E12,E16,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,starting medical school
+E12,E17,-5,di (Contains),False,most of her original friends had moved ahead in their studies,the group traveled together to a rural health camp
+E12,E18,-5,di (Contains),False,most of her original friends had moved ahead in their studies,organized by the university
+E12,E19,-5,di (Contains),False,most of her original friends had moved ahead in their studies,They spent two days providing basic health services
+E12,E20,-5,di (Contains),False,most of her original friends had moved ahead in their studies,Orin examined forty-three patients over those two days
+E12,E21,-5,di (Contains),False,most of her original friends had moved ahead in their studies,she told her batchmate from Sylhet
+E12,E22,6,f (Finishes),False,most of her original friends had moved ahead in their studies,studying medicine
+E12,E23,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,take a medical leave of absence
+E12,E24,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,spent eight months at her family home in Dhaka
+E12,E25,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,recovering and attending follow-up appointments
+E12,E26,-1,> (Preceded By),False,most of her original friends had moved ahead in their studies,done a gap year working at a community health clinic
+E12,E27,-2,mi (Met By),False,most of her original friends had moved ahead in their studies,returned to Rajshahi
+E12,E28,-4,si (Started By),False,most of her original friends had moved ahead in their studies,rejoined with a new batch
+E12,E29,-5,di (Contains),False,most of her original friends had moved ahead in their studies,settled into a study group
+E12,E30,-5,di (Contains),False,most of her original friends had moved ahead in their studies,traveled together to a rural health camp
+E12,E31,-5,di (Contains),False,most of her original friends had moved ahead in their studies,providing basic health services
+E12,E32,-5,di (Contains),False,most of her original friends had moved ahead in their studies,examined forty-three patients
+E13,E1,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,Orin had been studying medicine in Rajshahi
+E13,E2,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,had to take a medical leave of absence in her third year
+E13,E3,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,her own health issues.
+E13,E4,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,She spent eight months at her family home in Dhaka
+E13,E5,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,recovering
+E13,E6,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,attending follow-up appointments at a private hospital in Lalmatia
+E13,E7,5,d (During),False,she had settled into a study group with three students from the new batch,her batchmates at the medical college continued their coursework and clinical rotations
+E13,E8,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,She returned to Rajshahi in January
+E13,E9,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,leaving
+E13,E10,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,rejoined with a new batch a year below her own
+E13,E11,-2,mi (Met By),False,she had settled into a study group with three students from the new batch,The adjustment had its difficult moments
+E13,E12,5,d (During),False,she had settled into a study group with three students from the new batch,most of her original friends had moved ahead in their studies
+E13,E14,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,had done a gap year
+E13,E15,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,working at a community health clinic in a village outside Sylhet town
+E13,E16,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,starting medical school
+E13,E17,1,< (Precedes),False,she had settled into a study group with three students from the new batch,the group traveled together to a rural health camp
+E13,E18,1,< (Precedes),False,she had settled into a study group with three students from the new batch,organized by the university
+E13,E19,1,< (Precedes),False,she had settled into a study group with three students from the new batch,They spent two days providing basic health services
+E13,E20,1,< (Precedes),False,she had settled into a study group with three students from the new batch,Orin examined forty-three patients over those two days
+E13,E21,1,< (Precedes),False,she had settled into a study group with three students from the new batch,she told her batchmate from Sylhet
+E13,E22,5,d (During),False,she had settled into a study group with three students from the new batch,studying medicine
+E13,E23,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,take a medical leave of absence
+E13,E24,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,spent eight months at her family home in Dhaka
+E13,E25,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,recovering and attending follow-up appointments
+E13,E26,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,done a gap year working at a community health clinic
+E13,E27,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,returned to Rajshahi
+E13,E28,-1,> (Preceded By),False,she had settled into a study group with three students from the new batch,rejoined with a new batch
+E13,E29,0,= (Equal),False,she had settled into a study group with three students from the new batch,settled into a study group
+E13,E30,1,< (Precedes),False,she had settled into a study group with three students from the new batch,traveled together to a rural health camp
+E13,E31,1,< (Precedes),False,she had settled into a study group with three students from the new batch,providing basic health services
+E13,E32,1,< (Precedes),False,she had settled into a study group with three students from the new batch,examined forty-three patients
+E14,E1,0,= (Equal),False,had done a gap year,Orin had been studying medicine in Rajshahi
+E14,E2,2,m (Meets),False,had done a gap year,had to take a medical leave of absence in her third year
+E14,E3,2,m (Meets),False,had done a gap year,her own health issues.
+E14,E4,1,< (Precedes),False,had done a gap year,She spent eight months at her family home in Dhaka
+E14,E5,1,< (Precedes),False,had done a gap year,recovering
+E14,E6,1,< (Precedes),False,had done a gap year,attending follow-up appointments at a private hospital in Lalmatia
+E14,E7,2,m (Meets),False,had done a gap year,her batchmates at the medical college continued their coursework and clinical rotations
+E14,E8,1,< (Precedes),False,had done a gap year,She returned to Rajshahi in January
+E14,E9,1,< (Precedes),False,had done a gap year,leaving
+E14,E10,1,< (Precedes),False,had done a gap year,rejoined with a new batch a year below her own
+E14,E11,1,< (Precedes),False,had done a gap year,The adjustment had its difficult moments
+E14,E12,1,< (Precedes),False,had done a gap year,most of her original friends had moved ahead in their studies
+E14,E13,1,< (Precedes),False,had done a gap year,she had settled into a study group with three students from the new batch
+E14,E15,0,= (Equal),False,had done a gap year,working at a community health clinic in a village outside Sylhet town
+E14,E16,2,m (Meets),False,had done a gap year,starting medical school
+E14,E17,1,< (Precedes),False,had done a gap year,the group traveled together to a rural health camp
+E14,E18,1,< (Precedes),False,had done a gap year,organized by the university
+E14,E19,1,< (Precedes),False,had done a gap year,They spent two days providing basic health services
+E14,E20,1,< (Precedes),False,had done a gap year,Orin examined forty-three patients over those two days
+E14,E21,1,< (Precedes),False,had done a gap year,she told her batchmate from Sylhet
+E14,E22,4,s (Starts),False,had done a gap year,studying medicine
+E14,E23,2,m (Meets),False,had done a gap year,take a medical leave of absence
+E14,E24,1,< (Precedes),False,had done a gap year,spent eight months at her family home in Dhaka
+E14,E25,1,< (Precedes),False,had done a gap year,recovering and attending follow-up appointments
+E14,E26,0,= (Equal),False,had done a gap year,done a gap year working at a community health clinic
+E14,E27,1,< (Precedes),False,had done a gap year,returned to Rajshahi
+E14,E28,1,< (Precedes),False,had done a gap year,rejoined with a new batch
+E14,E29,1,< (Precedes),False,had done a gap year,settled into a study group
+E14,E30,1,< (Precedes),False,had done a gap year,traveled together to a rural health camp
+E14,E31,1,< (Precedes),False,had done a gap year,providing basic health services
+E14,E32,1,< (Precedes),False,had done a gap year,examined forty-three patients
+E15,E1,0,= (Equal),False,working at a community health clinic in a village outside Sylhet town,Orin had been studying medicine in Rajshahi
+E15,E2,2,m (Meets),False,working at a community health clinic in a village outside Sylhet town,had to take a medical leave of absence in her third year
+E15,E3,2,m (Meets),False,working at a community health clinic in a village outside Sylhet town,her own health issues.
+E15,E4,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,She spent eight months at her family home in Dhaka
+E15,E5,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,recovering
+E15,E6,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,attending follow-up appointments at a private hospital in Lalmatia
+E15,E7,2,m (Meets),False,working at a community health clinic in a village outside Sylhet town,her batchmates at the medical college continued their coursework and clinical rotations
+E15,E8,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,She returned to Rajshahi in January
+E15,E9,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,leaving
+E15,E10,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,rejoined with a new batch a year below her own
+E15,E11,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,The adjustment had its difficult moments
+E15,E12,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,most of her original friends had moved ahead in their studies
+E15,E13,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,she had settled into a study group with three students from the new batch
+E15,E14,0,= (Equal),False,working at a community health clinic in a village outside Sylhet town,had done a gap year
+E15,E16,2,m (Meets),False,working at a community health clinic in a village outside Sylhet town,starting medical school
+E15,E17,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,the group traveled together to a rural health camp
+E15,E18,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,organized by the university
+E15,E19,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,They spent two days providing basic health services
+E15,E20,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,Orin examined forty-three patients over those two days
+E15,E21,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,she told her batchmate from Sylhet
+E15,E22,4,s (Starts),False,working at a community health clinic in a village outside Sylhet town,studying medicine
+E15,E23,2,m (Meets),False,working at a community health clinic in a village outside Sylhet town,take a medical leave of absence
+E15,E24,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,spent eight months at her family home in Dhaka
+E15,E25,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,recovering and attending follow-up appointments
+E15,E26,0,= (Equal),False,working at a community health clinic in a village outside Sylhet town,done a gap year working at a community health clinic
+E15,E27,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,returned to Rajshahi
+E15,E28,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,rejoined with a new batch
+E15,E29,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,settled into a study group
+E15,E30,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,traveled together to a rural health camp
+E15,E31,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,providing basic health services
+E15,E32,1,< (Precedes),False,working at a community health clinic in a village outside Sylhet town,examined forty-three patients
+E16,E1,-2,mi (Met By),False,starting medical school,Orin had been studying medicine in Rajshahi
+E16,E2,0,= (Equal),False,starting medical school,had to take a medical leave of absence in her third year
+E16,E3,4,s (Starts),False,starting medical school,her own health issues.
+E16,E4,2,m (Meets),False,starting medical school,She spent eight months at her family home in Dhaka
+E16,E5,2,m (Meets),False,starting medical school,recovering
+E16,E6,2,m (Meets),False,starting medical school,attending follow-up appointments at a private hospital in Lalmatia
+E16,E7,4,s (Starts),False,starting medical school,her batchmates at the medical college continued their coursework and clinical rotations
+E16,E8,1,< (Precedes),False,starting medical school,She returned to Rajshahi in January
+E16,E9,2,m (Meets),False,starting medical school,leaving
+E16,E10,1,< (Precedes),False,starting medical school,rejoined with a new batch a year below her own
+E16,E11,1,< (Precedes),False,starting medical school,The adjustment had its difficult moments
+E16,E12,1,< (Precedes),False,starting medical school,most of her original friends had moved ahead in their studies
+E16,E13,1,< (Precedes),False,starting medical school,she had settled into a study group with three students from the new batch
+E16,E14,-2,mi (Met By),False,starting medical school,had done a gap year
+E16,E15,-2,mi (Met By),False,starting medical school,working at a community health clinic in a village outside Sylhet town
+E16,E17,1,< (Precedes),False,starting medical school,the group traveled together to a rural health camp
+E16,E18,1,< (Precedes),False,starting medical school,organized by the university
+E16,E19,1,< (Precedes),False,starting medical school,They spent two days providing basic health services
+E16,E20,1,< (Precedes),False,starting medical school,Orin examined forty-three patients over those two days
+E16,E21,1,< (Precedes),False,starting medical school,she told her batchmate from Sylhet
+E16,E22,5,d (During),False,starting medical school,studying medicine
+E16,E23,0,= (Equal),False,starting medical school,take a medical leave of absence
+E16,E24,2,m (Meets),False,starting medical school,spent eight months at her family home in Dhaka
+E16,E25,2,m (Meets),False,starting medical school,recovering and attending follow-up appointments
+E16,E26,-2,mi (Met By),False,starting medical school,done a gap year working at a community health clinic
+E16,E27,1,< (Precedes),False,starting medical school,returned to Rajshahi
+E16,E28,1,< (Precedes),False,starting medical school,rejoined with a new batch
+E16,E29,1,< (Precedes),False,starting medical school,settled into a study group
+E16,E30,1,< (Precedes),False,starting medical school,traveled together to a rural health camp
+E16,E31,1,< (Precedes),False,starting medical school,providing basic health services
+E16,E32,1,< (Precedes),False,starting medical school,examined forty-three patients
+E17,E1,-1,> (Preceded By),False,the group traveled together to a rural health camp,Orin had been studying medicine in Rajshahi
+E17,E2,-1,> (Preceded By),False,the group traveled together to a rural health camp,had to take a medical leave of absence in her third year
+E17,E3,-1,> (Preceded By),False,the group traveled together to a rural health camp,her own health issues.
+E17,E4,-1,> (Preceded By),False,the group traveled together to a rural health camp,She spent eight months at her family home in Dhaka
+E17,E5,-1,> (Preceded By),False,the group traveled together to a rural health camp,recovering
+E17,E6,-1,> (Preceded By),False,the group traveled together to a rural health camp,attending follow-up appointments at a private hospital in Lalmatia
+E17,E7,-1,> (Preceded By),False,the group traveled together to a rural health camp,her batchmates at the medical college continued their coursework and clinical rotations
+E17,E8,-1,> (Preceded By),False,the group traveled together to a rural health camp,She returned to Rajshahi in January
+E17,E9,-1,> (Preceded By),False,the group traveled together to a rural health camp,leaving
+E17,E10,-1,> (Preceded By),False,the group traveled together to a rural health camp,rejoined with a new batch a year below her own
+E17,E11,-1,> (Preceded By),False,the group traveled together to a rural health camp,The adjustment had its difficult moments
+E17,E12,5,d (During),False,the group traveled together to a rural health camp,most of her original friends had moved ahead in their studies
+E17,E13,-1,> (Preceded By),False,the group traveled together to a rural health camp,she had settled into a study group with three students from the new batch
+E17,E14,-1,> (Preceded By),False,the group traveled together to a rural health camp,had done a gap year
+E17,E15,-1,> (Preceded By),False,the group traveled together to a rural health camp,working at a community health clinic in a village outside Sylhet town
+E17,E16,-1,> (Preceded By),False,the group traveled together to a rural health camp,starting medical school
+E17,E18,0,= (Equal),False,the group traveled together to a rural health camp,organized by the university
+E17,E19,2,m (Meets),False,the group traveled together to a rural health camp,They spent two days providing basic health services
+E17,E20,2,m (Meets),False,the group traveled together to a rural health camp,Orin examined forty-three patients over those two days
+E17,E21,1,< (Precedes),False,the group traveled together to a rural health camp,she told her batchmate from Sylhet
+E17,E22,5,d (During),False,the group traveled together to a rural health camp,studying medicine
+E17,E23,-1,> (Preceded By),False,the group traveled together to a rural health camp,take a medical leave of absence
+E17,E24,-1,> (Preceded By),False,the group traveled together to a rural health camp,spent eight months at her family home in Dhaka
+E17,E25,-1,> (Preceded By),False,the group traveled together to a rural health camp,recovering and attending follow-up appointments
+E17,E26,-1,> (Preceded By),False,the group traveled together to a rural health camp,done a gap year working at a community health clinic
+E17,E27,-1,> (Preceded By),False,the group traveled together to a rural health camp,returned to Rajshahi
+E17,E28,-1,> (Preceded By),False,the group traveled together to a rural health camp,rejoined with a new batch
+E17,E29,-1,> (Preceded By),False,the group traveled together to a rural health camp,settled into a study group
+E17,E30,0,= (Equal),False,the group traveled together to a rural health camp,traveled together to a rural health camp
+E17,E31,2,m (Meets),False,the group traveled together to a rural health camp,providing basic health services
+E17,E32,2,m (Meets),False,the group traveled together to a rural health camp,examined forty-three patients
+E18,E1,-1,> (Preceded By),False,organized by the university,Orin had been studying medicine in Rajshahi
+E18,E2,-1,> (Preceded By),False,organized by the university,had to take a medical leave of absence in her third year
+E18,E3,-1,> (Preceded By),False,organized by the university,her own health issues.
+E18,E4,-1,> (Preceded By),False,organized by the university,She spent eight months at her family home in Dhaka
+E18,E5,-1,> (Preceded By),False,organized by the university,recovering
+E18,E6,-1,> (Preceded By),False,organized by the university,attending follow-up appointments at a private hospital in Lalmatia
+E18,E7,-1,> (Preceded By),False,organized by the university,her batchmates at the medical college continued their coursework and clinical rotations
+E18,E8,-1,> (Preceded By),False,organized by the university,She returned to Rajshahi in January
+E18,E9,-1,> (Preceded By),False,organized by the university,leaving
+E18,E10,-1,> (Preceded By),False,organized by the university,rejoined with a new batch a year below her own
+E18,E11,-1,> (Preceded By),False,organized by the university,The adjustment had its difficult moments
+E18,E12,5,d (During),False,organized by the university,most of her original friends had moved ahead in their studies
+E18,E13,-1,> (Preceded By),False,organized by the university,she had settled into a study group with three students from the new batch
+E18,E14,-1,> (Preceded By),False,organized by the university,had done a gap year
+E18,E15,-1,> (Preceded By),False,organized by the university,working at a community health clinic in a village outside Sylhet town
+E18,E16,-1,> (Preceded By),False,organized by the university,starting medical school
+E18,E17,0,= (Equal),False,organized by the university,the group traveled together to a rural health camp
+E18,E19,2,m (Meets),False,organized by the university,They spent two days providing basic health services
+E18,E20,2,m (Meets),False,organized by the university,Orin examined forty-three patients over those two days
+E18,E21,1,< (Precedes),False,organized by the university,she told her batchmate from Sylhet
+E18,E22,5,d (During),False,organized by the university,studying medicine
+E18,E23,-1,> (Preceded By),False,organized by the university,take a medical leave of absence
+E18,E24,-1,> (Preceded By),False,organized by the university,spent eight months at her family home in Dhaka
+E18,E25,-1,> (Preceded By),False,organized by the university,recovering and attending follow-up appointments
+E18,E26,-1,> (Preceded By),False,organized by the university,done a gap year working at a community health clinic
+E18,E27,-1,> (Preceded By),False,organized by the university,returned to Rajshahi
+E18,E28,-1,> (Preceded By),False,organized by the university,rejoined with a new batch
+E18,E29,-1,> (Preceded By),False,organized by the university,settled into a study group
+E18,E30,0,= (Equal),False,organized by the university,traveled together to a rural health camp
+E18,E31,2,m (Meets),False,organized by the university,providing basic health services
+E18,E32,2,m (Meets),False,organized by the university,examined forty-three patients
+E19,E1,-1,> (Preceded By),False,They spent two days providing basic health services,Orin had been studying medicine in Rajshahi
+E19,E2,-1,> (Preceded By),False,They spent two days providing basic health services,had to take a medical leave of absence in her third year
+E19,E3,-1,> (Preceded By),False,They spent two days providing basic health services,her own health issues.
+E19,E4,-1,> (Preceded By),False,They spent two days providing basic health services,She spent eight months at her family home in Dhaka
+E19,E5,-1,> (Preceded By),False,They spent two days providing basic health services,recovering
+E19,E6,-1,> (Preceded By),False,They spent two days providing basic health services,attending follow-up appointments at a private hospital in Lalmatia
+E19,E7,-1,> (Preceded By),False,They spent two days providing basic health services,her batchmates at the medical college continued their coursework and clinical rotations
+E19,E8,-1,> (Preceded By),False,They spent two days providing basic health services,She returned to Rajshahi in January
+E19,E9,-1,> (Preceded By),False,They spent two days providing basic health services,leaving
+E19,E10,-1,> (Preceded By),False,They spent two days providing basic health services,rejoined with a new batch a year below her own
+E19,E11,-1,> (Preceded By),False,They spent two days providing basic health services,The adjustment had its difficult moments
+E19,E12,5,d (During),False,They spent two days providing basic health services,most of her original friends had moved ahead in their studies
+E19,E13,-1,> (Preceded By),False,They spent two days providing basic health services,she had settled into a study group with three students from the new batch
+E19,E14,-1,> (Preceded By),False,They spent two days providing basic health services,had done a gap year
+E19,E15,-1,> (Preceded By),False,They spent two days providing basic health services,working at a community health clinic in a village outside Sylhet town
+E19,E16,-1,> (Preceded By),False,They spent two days providing basic health services,starting medical school
+E19,E17,-2,mi (Met By),False,They spent two days providing basic health services,the group traveled together to a rural health camp
+E19,E18,-2,mi (Met By),False,They spent two days providing basic health services,organized by the university
+E19,E20,0,= (Equal),False,They spent two days providing basic health services,Orin examined forty-three patients over those two days
+E19,E21,2,m (Meets),False,They spent two days providing basic health services,she told her batchmate from Sylhet
+E19,E22,5,d (During),False,They spent two days providing basic health services,studying medicine
+E19,E23,-1,> (Preceded By),False,They spent two days providing basic health services,take a medical leave of absence
+E19,E24,-1,> (Preceded By),False,They spent two days providing basic health services,spent eight months at her family home in Dhaka
+E19,E25,-1,> (Preceded By),False,They spent two days providing basic health services,recovering and attending follow-up appointments
+E19,E26,-1,> (Preceded By),False,They spent two days providing basic health services,done a gap year working at a community health clinic
+E19,E27,-1,> (Preceded By),False,They spent two days providing basic health services,returned to Rajshahi
+E19,E28,-1,> (Preceded By),False,They spent two days providing basic health services,rejoined with a new batch
+E19,E29,-1,> (Preceded By),False,They spent two days providing basic health services,settled into a study group
+E19,E30,-2,mi (Met By),False,They spent two days providing basic health services,traveled together to a rural health camp
+E19,E31,0,= (Equal),False,They spent two days providing basic health services,providing basic health services
+E19,E32,0,= (Equal),False,They spent two days providing basic health services,examined forty-three patients
+E20,E1,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,Orin had been studying medicine in Rajshahi
+E20,E2,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,had to take a medical leave of absence in her third year
+E20,E3,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,her own health issues.
+E20,E4,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,She spent eight months at her family home in Dhaka
+E20,E5,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,recovering
+E20,E6,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,attending follow-up appointments at a private hospital in Lalmatia
+E20,E7,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,her batchmates at the medical college continued their coursework and clinical rotations
+E20,E8,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,She returned to Rajshahi in January
+E20,E9,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,leaving
+E20,E10,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,rejoined with a new batch a year below her own
+E20,E11,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,The adjustment had its difficult moments
+E20,E12,5,d (During),False,Orin examined forty-three patients over those two days,most of her original friends had moved ahead in their studies
+E20,E13,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,she had settled into a study group with three students from the new batch
+E20,E14,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,had done a gap year
+E20,E15,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,working at a community health clinic in a village outside Sylhet town
+E20,E16,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,starting medical school
+E20,E17,-2,mi (Met By),False,Orin examined forty-three patients over those two days,the group traveled together to a rural health camp
+E20,E18,-2,mi (Met By),False,Orin examined forty-three patients over those two days,organized by the university
+E20,E19,0,= (Equal),False,Orin examined forty-three patients over those two days,They spent two days providing basic health services
+E20,E21,2,m (Meets),False,Orin examined forty-three patients over those two days,she told her batchmate from Sylhet
+E20,E22,5,d (During),False,Orin examined forty-three patients over those two days,studying medicine
+E20,E23,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,take a medical leave of absence
+E20,E24,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,spent eight months at her family home in Dhaka
+E20,E25,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,recovering and attending follow-up appointments
+E20,E26,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,done a gap year working at a community health clinic
+E20,E27,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,returned to Rajshahi
+E20,E28,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,rejoined with a new batch
+E20,E29,-1,> (Preceded By),False,Orin examined forty-three patients over those two days,settled into a study group
+E20,E30,-2,mi (Met By),False,Orin examined forty-three patients over those two days,traveled together to a rural health camp
+E20,E31,0,= (Equal),False,Orin examined forty-three patients over those two days,providing basic health services
+E20,E32,0,= (Equal),False,Orin examined forty-three patients over those two days,examined forty-three patients
+E21,E1,-1,> (Preceded By),False,she told her batchmate from Sylhet,Orin had been studying medicine in Rajshahi
+E21,E2,-1,> (Preceded By),False,she told her batchmate from Sylhet,had to take a medical leave of absence in her third year
+E21,E3,-1,> (Preceded By),False,she told her batchmate from Sylhet,her own health issues.
+E21,E4,-1,> (Preceded By),False,she told her batchmate from Sylhet,She spent eight months at her family home in Dhaka
+E21,E5,-1,> (Preceded By),False,she told her batchmate from Sylhet,recovering
+E21,E6,-1,> (Preceded By),False,she told her batchmate from Sylhet,attending follow-up appointments at a private hospital in Lalmatia
+E21,E7,-1,> (Preceded By),False,she told her batchmate from Sylhet,her batchmates at the medical college continued their coursework and clinical rotations
+E21,E8,-1,> (Preceded By),False,she told her batchmate from Sylhet,She returned to Rajshahi in January
+E21,E9,-1,> (Preceded By),False,she told her batchmate from Sylhet,leaving
+E21,E10,-1,> (Preceded By),False,she told her batchmate from Sylhet,rejoined with a new batch a year below her own
+E21,E11,-1,> (Preceded By),False,she told her batchmate from Sylhet,The adjustment had its difficult moments
+E21,E12,5,d (During),False,she told her batchmate from Sylhet,most of her original friends had moved ahead in their studies
+E21,E13,-1,> (Preceded By),False,she told her batchmate from Sylhet,she had settled into a study group with three students from the new batch
+E21,E14,-1,> (Preceded By),False,she told her batchmate from Sylhet,had done a gap year
+E21,E15,-1,> (Preceded By),False,she told her batchmate from Sylhet,working at a community health clinic in a village outside Sylhet town
+E21,E16,-1,> (Preceded By),False,she told her batchmate from Sylhet,starting medical school
+E21,E17,-1,> (Preceded By),False,she told her batchmate from Sylhet,the group traveled together to a rural health camp
+E21,E18,-1,> (Preceded By),False,she told her batchmate from Sylhet,organized by the university
+E21,E19,-2,mi (Met By),False,she told her batchmate from Sylhet,They spent two days providing basic health services
+E21,E20,-2,mi (Met By),False,she told her batchmate from Sylhet,Orin examined forty-three patients over those two days
+E21,E22,5,d (During),False,she told her batchmate from Sylhet,studying medicine
+E21,E23,-1,> (Preceded By),False,she told her batchmate from Sylhet,take a medical leave of absence
+E21,E24,-1,> (Preceded By),False,she told her batchmate from Sylhet,spent eight months at her family home in Dhaka
+E21,E25,-1,> (Preceded By),False,she told her batchmate from Sylhet,recovering and attending follow-up appointments
+E21,E26,-1,> (Preceded By),False,she told her batchmate from Sylhet,done a gap year working at a community health clinic
+E21,E27,-1,> (Preceded By),False,she told her batchmate from Sylhet,returned to Rajshahi
+E21,E28,-1,> (Preceded By),False,she told her batchmate from Sylhet,rejoined with a new batch
+E21,E29,-1,> (Preceded By),False,she told her batchmate from Sylhet,settled into a study group
+E21,E30,-1,> (Preceded By),False,she told her batchmate from Sylhet,traveled together to a rural health camp
+E21,E31,-2,mi (Met By),False,she told her batchmate from Sylhet,providing basic health services
+E21,E32,-2,mi (Met By),False,she told her batchmate from Sylhet,examined forty-three patients
+E22,E1,-4,si (Started By),False,studying medicine,Orin had been studying medicine in Rajshahi
+E22,E2,-5,di (Contains),False,studying medicine,had to take a medical leave of absence in her third year
+E22,E3,-5,di (Contains),False,studying medicine,her own health issues.
+E22,E4,-5,di (Contains),False,studying medicine,She spent eight months at her family home in Dhaka
+E22,E5,-5,di (Contains),False,studying medicine,recovering
+E22,E6,-5,di (Contains),False,studying medicine,attending follow-up appointments at a private hospital in Lalmatia
+E22,E7,-5,di (Contains),False,studying medicine,her batchmates at the medical college continued their coursework and clinical rotations
+E22,E8,-5,di (Contains),False,studying medicine,She returned to Rajshahi in January
+E22,E9,-5,di (Contains),False,studying medicine,leaving
+E22,E10,-5,di (Contains),False,studying medicine,rejoined with a new batch a year below her own
+E22,E11,-5,di (Contains),False,studying medicine,The adjustment had its difficult moments
+E22,E12,-6,fi (Finished By),False,studying medicine,most of her original friends had moved ahead in their studies
+E22,E13,-5,di (Contains),False,studying medicine,she had settled into a study group with three students from the new batch
+E22,E14,-4,si (Started By),False,studying medicine,had done a gap year
+E22,E15,-4,si (Started By),False,studying medicine,working at a community health clinic in a village outside Sylhet town
+E22,E16,-5,di (Contains),False,studying medicine,starting medical school
+E22,E17,-5,di (Contains),False,studying medicine,the group traveled together to a rural health camp
+E22,E18,-5,di (Contains),False,studying medicine,organized by the university
+E22,E19,-5,di (Contains),False,studying medicine,They spent two days providing basic health services
+E22,E20,-5,di (Contains),False,studying medicine,Orin examined forty-three patients over those two days
+E22,E21,-5,di (Contains),False,studying medicine,she told her batchmate from Sylhet
+E22,E23,-5,di (Contains),False,studying medicine,take a medical leave of absence
+E22,E24,-5,di (Contains),False,studying medicine,spent eight months at her family home in Dhaka
+E22,E25,-5,di (Contains),False,studying medicine,recovering and attending follow-up appointments
+E22,E26,-4,si (Started By),False,studying medicine,done a gap year working at a community health clinic
+E22,E27,-5,di (Contains),False,studying medicine,returned to Rajshahi
+E22,E28,-5,di (Contains),False,studying medicine,rejoined with a new batch
+E22,E29,-5,di (Contains),False,studying medicine,settled into a study group
+E22,E30,-5,di (Contains),False,studying medicine,traveled together to a rural health camp
+E22,E31,-5,di (Contains),False,studying medicine,providing basic health services
+E22,E32,-5,di (Contains),False,studying medicine,examined forty-three patients
+E23,E1,-2,mi (Met By),False,take a medical leave of absence,Orin had been studying medicine in Rajshahi
+E23,E2,0,= (Equal),False,take a medical leave of absence,had to take a medical leave of absence in her third year
+E23,E3,4,s (Starts),False,take a medical leave of absence,her own health issues.
+E23,E4,2,m (Meets),False,take a medical leave of absence,She spent eight months at her family home in Dhaka
+E23,E5,2,m (Meets),False,take a medical leave of absence,recovering
+E23,E6,2,m (Meets),False,take a medical leave of absence,attending follow-up appointments at a private hospital in Lalmatia
+E23,E7,4,s (Starts),False,take a medical leave of absence,her batchmates at the medical college continued their coursework and clinical rotations
+E23,E8,1,< (Precedes),False,take a medical leave of absence,She returned to Rajshahi in January
+E23,E9,2,m (Meets),False,take a medical leave of absence,leaving
+E23,E10,1,< (Precedes),False,take a medical leave of absence,rejoined with a new batch a year below her own
+E23,E11,1,< (Precedes),False,take a medical leave of absence,The adjustment had its difficult moments
+E23,E12,1,< (Precedes),False,take a medical leave of absence,most of her original friends had moved ahead in their studies
+E23,E13,1,< (Precedes),False,take a medical leave of absence,she had settled into a study group with three students from the new batch
+E23,E14,-2,mi (Met By),False,take a medical leave of absence,had done a gap year
+E23,E15,-2,mi (Met By),False,take a medical leave of absence,working at a community health clinic in a village outside Sylhet town
+E23,E16,0,= (Equal),False,take a medical leave of absence,starting medical school
+E23,E17,1,< (Precedes),False,take a medical leave of absence,the group traveled together to a rural health camp
+E23,E18,1,< (Precedes),False,take a medical leave of absence,organized by the university
+E23,E19,1,< (Precedes),False,take a medical leave of absence,They spent two days providing basic health services
+E23,E20,1,< (Precedes),False,take a medical leave of absence,Orin examined forty-three patients over those two days
+E23,E21,1,< (Precedes),False,take a medical leave of absence,she told her batchmate from Sylhet
+E23,E22,5,d (During),False,take a medical leave of absence,studying medicine
+E23,E24,2,m (Meets),False,take a medical leave of absence,spent eight months at her family home in Dhaka
+E23,E25,2,m (Meets),False,take a medical leave of absence,recovering and attending follow-up appointments
+E23,E26,-2,mi (Met By),False,take a medical leave of absence,done a gap year working at a community health clinic
+E23,E27,1,< (Precedes),False,take a medical leave of absence,returned to Rajshahi
+E23,E28,1,< (Precedes),False,take a medical leave of absence,rejoined with a new batch
+E23,E29,1,< (Precedes),False,take a medical leave of absence,settled into a study group
+E23,E30,1,< (Precedes),False,take a medical leave of absence,traveled together to a rural health camp
+E23,E31,1,< (Precedes),False,take a medical leave of absence,providing basic health services
+E23,E32,1,< (Precedes),False,take a medical leave of absence,examined forty-three patients
+E24,E1,-1,> (Preceded By),False,spent eight months at her family home in Dhaka,Orin had been studying medicine in Rajshahi
+E24,E2,-2,mi (Met By),False,spent eight months at her family home in Dhaka,had to take a medical leave of absence in her third year
+E24,E3,6,f (Finishes),False,spent eight months at her family home in Dhaka,her own health issues.
+E24,E4,0,= (Equal),False,spent eight months at her family home in Dhaka,She spent eight months at her family home in Dhaka
+E24,E5,0,= (Equal),False,spent eight months at her family home in Dhaka,recovering
+E24,E6,0,= (Equal),False,spent eight months at her family home in Dhaka,attending follow-up appointments at a private hospital in Lalmatia
+E24,E7,5,d (During),False,spent eight months at her family home in Dhaka,her batchmates at the medical college continued their coursework and clinical rotations
+E24,E8,2,m (Meets),False,spent eight months at her family home in Dhaka,She returned to Rajshahi in January
+E24,E9,-4,si (Started By),False,spent eight months at her family home in Dhaka,leaving
+E24,E10,1,< (Precedes),False,spent eight months at her family home in Dhaka,rejoined with a new batch a year below her own
+E24,E11,1,< (Precedes),False,spent eight months at her family home in Dhaka,The adjustment had its difficult moments
+E24,E12,1,< (Precedes),False,spent eight months at her family home in Dhaka,most of her original friends had moved ahead in their studies
+E24,E13,1,< (Precedes),False,spent eight months at her family home in Dhaka,she had settled into a study group with three students from the new batch
+E24,E14,-1,> (Preceded By),False,spent eight months at her family home in Dhaka,had done a gap year
+E24,E15,-1,> (Preceded By),False,spent eight months at her family home in Dhaka,working at a community health clinic in a village outside Sylhet town
+E24,E16,-2,mi (Met By),False,spent eight months at her family home in Dhaka,starting medical school
+E24,E17,1,< (Precedes),False,spent eight months at her family home in Dhaka,the group traveled together to a rural health camp
+E24,E18,1,< (Precedes),False,spent eight months at her family home in Dhaka,organized by the university
+E24,E19,1,< (Precedes),False,spent eight months at her family home in Dhaka,They spent two days providing basic health services
+E24,E20,1,< (Precedes),False,spent eight months at her family home in Dhaka,Orin examined forty-three patients over those two days
+E24,E21,1,< (Precedes),False,spent eight months at her family home in Dhaka,she told her batchmate from Sylhet
+E24,E22,5,d (During),False,spent eight months at her family home in Dhaka,studying medicine
+E24,E23,-2,mi (Met By),False,spent eight months at her family home in Dhaka,take a medical leave of absence
+E24,E25,0,= (Equal),False,spent eight months at her family home in Dhaka,recovering and attending follow-up appointments
+E24,E26,-1,> (Preceded By),False,spent eight months at her family home in Dhaka,done a gap year working at a community health clinic
+E24,E27,2,m (Meets),False,spent eight months at her family home in Dhaka,returned to Rajshahi
+E24,E28,1,< (Precedes),False,spent eight months at her family home in Dhaka,rejoined with a new batch
+E24,E29,1,< (Precedes),False,spent eight months at her family home in Dhaka,settled into a study group
+E24,E30,1,< (Precedes),False,spent eight months at her family home in Dhaka,traveled together to a rural health camp
+E24,E31,1,< (Precedes),False,spent eight months at her family home in Dhaka,providing basic health services
+E24,E32,1,< (Precedes),False,spent eight months at her family home in Dhaka,examined forty-three patients
+E25,E1,-1,> (Preceded By),False,recovering and attending follow-up appointments,Orin had been studying medicine in Rajshahi
+E25,E2,-2,mi (Met By),False,recovering and attending follow-up appointments,had to take a medical leave of absence in her third year
+E25,E3,6,f (Finishes),False,recovering and attending follow-up appointments,her own health issues.
+E25,E4,0,= (Equal),False,recovering and attending follow-up appointments,She spent eight months at her family home in Dhaka
+E25,E5,0,= (Equal),False,recovering and attending follow-up appointments,recovering
+E25,E6,0,= (Equal),False,recovering and attending follow-up appointments,attending follow-up appointments at a private hospital in Lalmatia
+E25,E7,5,d (During),False,recovering and attending follow-up appointments,her batchmates at the medical college continued their coursework and clinical rotations
+E25,E8,2,m (Meets),False,recovering and attending follow-up appointments,She returned to Rajshahi in January
+E25,E9,-4,si (Started By),False,recovering and attending follow-up appointments,leaving
+E25,E10,1,< (Precedes),False,recovering and attending follow-up appointments,rejoined with a new batch a year below her own
+E25,E11,1,< (Precedes),False,recovering and attending follow-up appointments,The adjustment had its difficult moments
+E25,E12,1,< (Precedes),False,recovering and attending follow-up appointments,most of her original friends had moved ahead in their studies
+E25,E13,1,< (Precedes),False,recovering and attending follow-up appointments,she had settled into a study group with three students from the new batch
+E25,E14,-1,> (Preceded By),False,recovering and attending follow-up appointments,had done a gap year
+E25,E15,-1,> (Preceded By),False,recovering and attending follow-up appointments,working at a community health clinic in a village outside Sylhet town
+E25,E16,-2,mi (Met By),False,recovering and attending follow-up appointments,starting medical school
+E25,E17,1,< (Precedes),False,recovering and attending follow-up appointments,the group traveled together to a rural health camp
+E25,E18,1,< (Precedes),False,recovering and attending follow-up appointments,organized by the university
+E25,E19,1,< (Precedes),False,recovering and attending follow-up appointments,They spent two days providing basic health services
+E25,E20,1,< (Precedes),False,recovering and attending follow-up appointments,Orin examined forty-three patients over those two days
+E25,E21,1,< (Precedes),False,recovering and attending follow-up appointments,she told her batchmate from Sylhet
+E25,E22,5,d (During),False,recovering and attending follow-up appointments,studying medicine
+E25,E23,-2,mi (Met By),False,recovering and attending follow-up appointments,take a medical leave of absence
+E25,E24,0,= (Equal),False,recovering and attending follow-up appointments,spent eight months at her family home in Dhaka
+E25,E26,-1,> (Preceded By),False,recovering and attending follow-up appointments,done a gap year working at a community health clinic
+E25,E27,2,m (Meets),False,recovering and attending follow-up appointments,returned to Rajshahi
+E25,E28,1,< (Precedes),False,recovering and attending follow-up appointments,rejoined with a new batch
+E25,E29,1,< (Precedes),False,recovering and attending follow-up appointments,settled into a study group
+E25,E30,1,< (Precedes),False,recovering and attending follow-up appointments,traveled together to a rural health camp
+E25,E31,1,< (Precedes),False,recovering and attending follow-up appointments,providing basic health services
+E25,E32,1,< (Precedes),False,recovering and attending follow-up appointments,examined forty-three patients
+E26,E1,0,= (Equal),False,done a gap year working at a community health clinic,Orin had been studying medicine in Rajshahi
+E26,E2,2,m (Meets),False,done a gap year working at a community health clinic,had to take a medical leave of absence in her third year
+E26,E3,2,m (Meets),False,done a gap year working at a community health clinic,her own health issues.
+E26,E4,1,< (Precedes),False,done a gap year working at a community health clinic,She spent eight months at her family home in Dhaka
+E26,E5,1,< (Precedes),False,done a gap year working at a community health clinic,recovering
+E26,E6,1,< (Precedes),False,done a gap year working at a community health clinic,attending follow-up appointments at a private hospital in Lalmatia
+E26,E7,2,m (Meets),False,done a gap year working at a community health clinic,her batchmates at the medical college continued their coursework and clinical rotations
+E26,E8,1,< (Precedes),False,done a gap year working at a community health clinic,She returned to Rajshahi in January
+E26,E9,1,< (Precedes),False,done a gap year working at a community health clinic,leaving
+E26,E10,1,< (Precedes),False,done a gap year working at a community health clinic,rejoined with a new batch a year below her own
+E26,E11,1,< (Precedes),False,done a gap year working at a community health clinic,The adjustment had its difficult moments
+E26,E12,1,< (Precedes),False,done a gap year working at a community health clinic,most of her original friends had moved ahead in their studies
+E26,E13,1,< (Precedes),False,done a gap year working at a community health clinic,she had settled into a study group with three students from the new batch
+E26,E14,0,= (Equal),False,done a gap year working at a community health clinic,had done a gap year
+E26,E15,0,= (Equal),False,done a gap year working at a community health clinic,working at a community health clinic in a village outside Sylhet town
+E26,E16,2,m (Meets),False,done a gap year working at a community health clinic,starting medical school
+E26,E17,1,< (Precedes),False,done a gap year working at a community health clinic,the group traveled together to a rural health camp
+E26,E18,1,< (Precedes),False,done a gap year working at a community health clinic,organized by the university
+E26,E19,1,< (Precedes),False,done a gap year working at a community health clinic,They spent two days providing basic health services
+E26,E20,1,< (Precedes),False,done a gap year working at a community health clinic,Orin examined forty-three patients over those two days
+E26,E21,1,< (Precedes),False,done a gap year working at a community health clinic,she told her batchmate from Sylhet
+E26,E22,4,s (Starts),False,done a gap year working at a community health clinic,studying medicine
+E26,E23,2,m (Meets),False,done a gap year working at a community health clinic,take a medical leave of absence
+E26,E24,1,< (Precedes),False,done a gap year working at a community health clinic,spent eight months at her family home in Dhaka
+E26,E25,1,< (Precedes),False,done a gap year working at a community health clinic,recovering and attending follow-up appointments
+E26,E27,1,< (Precedes),False,done a gap year working at a community health clinic,returned to Rajshahi
+E26,E28,1,< (Precedes),False,done a gap year working at a community health clinic,rejoined with a new batch
+E26,E29,1,< (Precedes),False,done a gap year working at a community health clinic,settled into a study group
+E26,E30,1,< (Precedes),False,done a gap year working at a community health clinic,traveled together to a rural health camp
+E26,E31,1,< (Precedes),False,done a gap year working at a community health clinic,providing basic health services
+E26,E32,1,< (Precedes),False,done a gap year working at a community health clinic,examined forty-three patients
+E27,E1,-1,> (Preceded By),False,returned to Rajshahi,Orin had been studying medicine in Rajshahi
+E27,E2,-1,> (Preceded By),False,returned to Rajshahi,had to take a medical leave of absence in her third year
+E27,E3,-2,mi (Met By),False,returned to Rajshahi,her own health issues.
+E27,E4,-2,mi (Met By),False,returned to Rajshahi,She spent eight months at her family home in Dhaka
+E27,E5,-2,mi (Met By),False,returned to Rajshahi,recovering
+E27,E6,-2,mi (Met By),False,returned to Rajshahi,attending follow-up appointments at a private hospital in Lalmatia
+E27,E7,5,d (During),False,returned to Rajshahi,her batchmates at the medical college continued their coursework and clinical rotations
+E27,E8,0,= (Equal),False,returned to Rajshahi,She returned to Rajshahi in January
+E27,E9,-1,> (Preceded By),False,returned to Rajshahi,leaving
+E27,E10,2,m (Meets),False,returned to Rajshahi,rejoined with a new batch a year below her own
+E27,E11,2,m (Meets),False,returned to Rajshahi,The adjustment had its difficult moments
+E27,E12,2,m (Meets),False,returned to Rajshahi,most of her original friends had moved ahead in their studies
+E27,E13,1,< (Precedes),False,returned to Rajshahi,she had settled into a study group with three students from the new batch
+E27,E14,-1,> (Preceded By),False,returned to Rajshahi,had done a gap year
+E27,E15,-1,> (Preceded By),False,returned to Rajshahi,working at a community health clinic in a village outside Sylhet town
+E27,E16,-1,> (Preceded By),False,returned to Rajshahi,starting medical school
+E27,E17,1,< (Precedes),False,returned to Rajshahi,the group traveled together to a rural health camp
+E27,E18,1,< (Precedes),False,returned to Rajshahi,organized by the university
+E27,E19,1,< (Precedes),False,returned to Rajshahi,They spent two days providing basic health services
+E27,E20,1,< (Precedes),False,returned to Rajshahi,Orin examined forty-three patients over those two days
+E27,E21,1,< (Precedes),False,returned to Rajshahi,she told her batchmate from Sylhet
+E27,E22,5,d (During),False,returned to Rajshahi,studying medicine
+E27,E23,-1,> (Preceded By),False,returned to Rajshahi,take a medical leave of absence
+E27,E24,-2,mi (Met By),False,returned to Rajshahi,spent eight months at her family home in Dhaka
+E27,E25,-2,mi (Met By),False,returned to Rajshahi,recovering and attending follow-up appointments
+E27,E26,-1,> (Preceded By),False,returned to Rajshahi,done a gap year working at a community health clinic
+E27,E28,2,m (Meets),False,returned to Rajshahi,rejoined with a new batch
+E27,E29,1,< (Precedes),False,returned to Rajshahi,settled into a study group
+E27,E30,1,< (Precedes),False,returned to Rajshahi,traveled together to a rural health camp
+E27,E31,1,< (Precedes),False,returned to Rajshahi,providing basic health services
+E27,E32,1,< (Precedes),False,returned to Rajshahi,examined forty-three patients
+E28,E1,-1,> (Preceded By),False,rejoined with a new batch,Orin had been studying medicine in Rajshahi
+E28,E2,-1,> (Preceded By),False,rejoined with a new batch,had to take a medical leave of absence in her third year
+E28,E3,-1,> (Preceded By),False,rejoined with a new batch,her own health issues.
+E28,E4,-1,> (Preceded By),False,rejoined with a new batch,She spent eight months at her family home in Dhaka
+E28,E5,-1,> (Preceded By),False,rejoined with a new batch,recovering
+E28,E6,-1,> (Preceded By),False,rejoined with a new batch,attending follow-up appointments at a private hospital in Lalmatia
+E28,E7,5,d (During),False,rejoined with a new batch,her batchmates at the medical college continued their coursework and clinical rotations
+E28,E8,-2,mi (Met By),False,rejoined with a new batch,She returned to Rajshahi in January
+E28,E9,-1,> (Preceded By),False,rejoined with a new batch,leaving
+E28,E10,0,= (Equal),False,rejoined with a new batch,rejoined with a new batch a year below her own
+E28,E11,4,s (Starts),False,rejoined with a new batch,The adjustment had its difficult moments
+E28,E12,4,s (Starts),False,rejoined with a new batch,most of her original friends had moved ahead in their studies
+E28,E13,1,< (Precedes),False,rejoined with a new batch,she had settled into a study group with three students from the new batch
+E28,E14,-1,> (Preceded By),False,rejoined with a new batch,had done a gap year
+E28,E15,-1,> (Preceded By),False,rejoined with a new batch,working at a community health clinic in a village outside Sylhet town
+E28,E16,-1,> (Preceded By),False,rejoined with a new batch,starting medical school
+E28,E17,1,< (Precedes),False,rejoined with a new batch,the group traveled together to a rural health camp
+E28,E18,1,< (Precedes),False,rejoined with a new batch,organized by the university
+E28,E19,1,< (Precedes),False,rejoined with a new batch,They spent two days providing basic health services
+E28,E20,1,< (Precedes),False,rejoined with a new batch,Orin examined forty-three patients over those two days
+E28,E21,1,< (Precedes),False,rejoined with a new batch,she told her batchmate from Sylhet
+E28,E22,5,d (During),False,rejoined with a new batch,studying medicine
+E28,E23,-1,> (Preceded By),False,rejoined with a new batch,take a medical leave of absence
+E28,E24,-1,> (Preceded By),False,rejoined with a new batch,spent eight months at her family home in Dhaka
+E28,E25,-1,> (Preceded By),False,rejoined with a new batch,recovering and attending follow-up appointments
+E28,E26,-1,> (Preceded By),False,rejoined with a new batch,done a gap year working at a community health clinic
+E28,E27,-2,mi (Met By),False,rejoined with a new batch,returned to Rajshahi
+E28,E29,1,< (Precedes),False,rejoined with a new batch,settled into a study group
+E28,E30,1,< (Precedes),False,rejoined with a new batch,traveled together to a rural health camp
+E28,E31,1,< (Precedes),False,rejoined with a new batch,providing basic health services
+E28,E32,1,< (Precedes),False,rejoined with a new batch,examined forty-three patients
+E29,E1,-1,> (Preceded By),False,settled into a study group,Orin had been studying medicine in Rajshahi
+E29,E2,-1,> (Preceded By),False,settled into a study group,had to take a medical leave of absence in her third year
+E29,E3,-1,> (Preceded By),False,settled into a study group,her own health issues.
+E29,E4,-1,> (Preceded By),False,settled into a study group,She spent eight months at her family home in Dhaka
+E29,E5,-1,> (Preceded By),False,settled into a study group,recovering
+E29,E6,-1,> (Preceded By),False,settled into a study group,attending follow-up appointments at a private hospital in Lalmatia
+E29,E7,5,d (During),False,settled into a study group,her batchmates at the medical college continued their coursework and clinical rotations
+E29,E8,-1,> (Preceded By),False,settled into a study group,She returned to Rajshahi in January
+E29,E9,-1,> (Preceded By),False,settled into a study group,leaving
+E29,E10,-1,> (Preceded By),False,settled into a study group,rejoined with a new batch a year below her own
+E29,E11,-2,mi (Met By),False,settled into a study group,The adjustment had its difficult moments
+E29,E12,5,d (During),False,settled into a study group,most of her original friends had moved ahead in their studies
+E29,E13,0,= (Equal),False,settled into a study group,she had settled into a study group with three students from the new batch
+E29,E14,-1,> (Preceded By),False,settled into a study group,had done a gap year
+E29,E15,-1,> (Preceded By),False,settled into a study group,working at a community health clinic in a village outside Sylhet town
+E29,E16,-1,> (Preceded By),False,settled into a study group,starting medical school
+E29,E17,1,< (Precedes),False,settled into a study group,the group traveled together to a rural health camp
+E29,E18,1,< (Precedes),False,settled into a study group,organized by the university
+E29,E19,1,< (Precedes),False,settled into a study group,They spent two days providing basic health services
+E29,E20,1,< (Precedes),False,settled into a study group,Orin examined forty-three patients over those two days
+E29,E21,1,< (Precedes),False,settled into a study group,she told her batchmate from Sylhet
+E29,E22,5,d (During),False,settled into a study group,studying medicine
+E29,E23,-1,> (Preceded By),False,settled into a study group,take a medical leave of absence
+E29,E24,-1,> (Preceded By),False,settled into a study group,spent eight months at her family home in Dhaka
+E29,E25,-1,> (Preceded By),False,settled into a study group,recovering and attending follow-up appointments
+E29,E26,-1,> (Preceded By),False,settled into a study group,done a gap year working at a community health clinic
+E29,E27,-1,> (Preceded By),False,settled into a study group,returned to Rajshahi
+E29,E28,-1,> (Preceded By),False,settled into a study group,rejoined with a new batch
+E29,E30,1,< (Precedes),False,settled into a study group,traveled together to a rural health camp
+E29,E31,1,< (Precedes),False,settled into a study group,providing basic health services
+E29,E32,1,< (Precedes),False,settled into a study group,examined forty-three patients
+E30,E1,-1,> (Preceded By),False,traveled together to a rural health camp,Orin had been studying medicine in Rajshahi
+E30,E2,-1,> (Preceded By),False,traveled together to a rural health camp,had to take a medical leave of absence in her third year
+E30,E3,-1,> (Preceded By),False,traveled together to a rural health camp,her own health issues.
+E30,E4,-1,> (Preceded By),False,traveled together to a rural health camp,She spent eight months at her family home in Dhaka
+E30,E5,-1,> (Preceded By),False,traveled together to a rural health camp,recovering
+E30,E6,-1,> (Preceded By),False,traveled together to a rural health camp,attending follow-up appointments at a private hospital in Lalmatia
+E30,E7,-1,> (Preceded By),False,traveled together to a rural health camp,her batchmates at the medical college continued their coursework and clinical rotations
+E30,E8,-1,> (Preceded By),False,traveled together to a rural health camp,She returned to Rajshahi in January
+E30,E9,-1,> (Preceded By),False,traveled together to a rural health camp,leaving
+E30,E10,-1,> (Preceded By),False,traveled together to a rural health camp,rejoined with a new batch a year below her own
+E30,E11,-1,> (Preceded By),False,traveled together to a rural health camp,The adjustment had its difficult moments
+E30,E12,5,d (During),False,traveled together to a rural health camp,most of her original friends had moved ahead in their studies
+E30,E13,-1,> (Preceded By),False,traveled together to a rural health camp,she had settled into a study group with three students from the new batch
+E30,E14,-1,> (Preceded By),False,traveled together to a rural health camp,had done a gap year
+E30,E15,-1,> (Preceded By),False,traveled together to a rural health camp,working at a community health clinic in a village outside Sylhet town
+E30,E16,-1,> (Preceded By),False,traveled together to a rural health camp,starting medical school
+E30,E17,0,= (Equal),False,traveled together to a rural health camp,the group traveled together to a rural health camp
+E30,E18,0,= (Equal),False,traveled together to a rural health camp,organized by the university
+E30,E19,2,m (Meets),False,traveled together to a rural health camp,They spent two days providing basic health services
+E30,E20,2,m (Meets),False,traveled together to a rural health camp,Orin examined forty-three patients over those two days
+E30,E21,1,< (Precedes),False,traveled together to a rural health camp,she told her batchmate from Sylhet
+E30,E22,5,d (During),False,traveled together to a rural health camp,studying medicine
+E30,E23,-1,> (Preceded By),False,traveled together to a rural health camp,take a medical leave of absence
+E30,E24,-1,> (Preceded By),False,traveled together to a rural health camp,spent eight months at her family home in Dhaka
+E30,E25,-1,> (Preceded By),False,traveled together to a rural health camp,recovering and attending follow-up appointments
+E30,E26,-1,> (Preceded By),False,traveled together to a rural health camp,done a gap year working at a community health clinic
+E30,E27,-1,> (Preceded By),False,traveled together to a rural health camp,returned to Rajshahi
+E30,E28,-1,> (Preceded By),False,traveled together to a rural health camp,rejoined with a new batch
+E30,E29,-1,> (Preceded By),False,traveled together to a rural health camp,settled into a study group
+E30,E31,2,m (Meets),False,traveled together to a rural health camp,providing basic health services
+E30,E32,2,m (Meets),False,traveled together to a rural health camp,examined forty-three patients
+E31,E1,-1,> (Preceded By),False,providing basic health services,Orin had been studying medicine in Rajshahi
+E31,E2,-1,> (Preceded By),False,providing basic health services,had to take a medical leave of absence in her third year
+E31,E3,-1,> (Preceded By),False,providing basic health services,her own health issues.
+E31,E4,-1,> (Preceded By),False,providing basic health services,She spent eight months at her family home in Dhaka
+E31,E5,-1,> (Preceded By),False,providing basic health services,recovering
+E31,E6,-1,> (Preceded By),False,providing basic health services,attending follow-up appointments at a private hospital in Lalmatia
+E31,E7,-1,> (Preceded By),False,providing basic health services,her batchmates at the medical college continued their coursework and clinical rotations
+E31,E8,-1,> (Preceded By),False,providing basic health services,She returned to Rajshahi in January
+E31,E9,-1,> (Preceded By),False,providing basic health services,leaving
+E31,E10,-1,> (Preceded By),False,providing basic health services,rejoined with a new batch a year below her own
+E31,E11,-1,> (Preceded By),False,providing basic health services,The adjustment had its difficult moments
+E31,E12,5,d (During),False,providing basic health services,most of her original friends had moved ahead in their studies
+E31,E13,-1,> (Preceded By),False,providing basic health services,she had settled into a study group with three students from the new batch
+E31,E14,-1,> (Preceded By),False,providing basic health services,had done a gap year
+E31,E15,-1,> (Preceded By),False,providing basic health services,working at a community health clinic in a village outside Sylhet town
+E31,E16,-1,> (Preceded By),False,providing basic health services,starting medical school
+E31,E17,-2,mi (Met By),False,providing basic health services,the group traveled together to a rural health camp
+E31,E18,-2,mi (Met By),False,providing basic health services,organized by the university
+E31,E19,0,= (Equal),False,providing basic health services,They spent two days providing basic health services
+E31,E20,0,= (Equal),False,providing basic health services,Orin examined forty-three patients over those two days
+E31,E21,2,m (Meets),False,providing basic health services,she told her batchmate from Sylhet
+E31,E22,5,d (During),False,providing basic health services,studying medicine
+E31,E23,-1,> (Preceded By),False,providing basic health services,take a medical leave of absence
+E31,E24,-1,> (Preceded By),False,providing basic health services,spent eight months at her family home in Dhaka
+E31,E25,-1,> (Preceded By),False,providing basic health services,recovering and attending follow-up appointments
+E31,E26,-1,> (Preceded By),False,providing basic health services,done a gap year working at a community health clinic
+E31,E27,-1,> (Preceded By),False,providing basic health services,returned to Rajshahi
+E31,E28,-1,> (Preceded By),False,providing basic health services,rejoined with a new batch
+E31,E29,-1,> (Preceded By),False,providing basic health services,settled into a study group
+E31,E30,-2,mi (Met By),False,providing basic health services,traveled together to a rural health camp
+E31,E32,0,= (Equal),False,providing basic health services,examined forty-three patients
+E32,E1,-1,> (Preceded By),False,examined forty-three patients,Orin had been studying medicine in Rajshahi
+E32,E2,-1,> (Preceded By),False,examined forty-three patients,had to take a medical leave of absence in her third year
+E32,E3,-1,> (Preceded By),False,examined forty-three patients,her own health issues.
+E32,E4,-1,> (Preceded By),False,examined forty-three patients,She spent eight months at her family home in Dhaka
+E32,E5,-1,> (Preceded By),False,examined forty-three patients,recovering
+E32,E6,-1,> (Preceded By),False,examined forty-three patients,attending follow-up appointments at a private hospital in Lalmatia
+E32,E7,-1,> (Preceded By),False,examined forty-three patients,her batchmates at the medical college continued their coursework and clinical rotations
+E32,E8,-1,> (Preceded By),False,examined forty-three patients,She returned to Rajshahi in January
+E32,E9,-1,> (Preceded By),False,examined forty-three patients,leaving
+E32,E10,-1,> (Preceded By),False,examined forty-three patients,rejoined with a new batch a year below her own
+E32,E11,-1,> (Preceded By),False,examined forty-three patients,The adjustment had its difficult moments
+E32,E12,5,d (During),False,examined forty-three patients,most of her original friends had moved ahead in their studies
+E32,E13,-1,> (Preceded By),False,examined forty-three patients,she had settled into a study group with three students from the new batch
+E32,E14,-1,> (Preceded By),False,examined forty-three patients,had done a gap year
+E32,E15,-1,> (Preceded By),False,examined forty-three patients,working at a community health clinic in a village outside Sylhet town
+E32,E16,-1,> (Preceded By),False,examined forty-three patients,starting medical school
+E32,E17,-2,mi (Met By),False,examined forty-three patients,the group traveled together to a rural health camp
+E32,E18,-2,mi (Met By),False,examined forty-three patients,organized by the university
+E32,E19,0,= (Equal),False,examined forty-three patients,They spent two days providing basic health services
+E32,E20,0,= (Equal),False,examined forty-three patients,Orin examined forty-three patients over those two days
+E32,E21,2,m (Meets),False,examined forty-three patients,she told her batchmate from Sylhet
+E32,E22,5,d (During),False,examined forty-three patients,studying medicine
+E32,E23,-1,> (Preceded By),False,examined forty-three patients,take a medical leave of absence
+E32,E24,-1,> (Preceded By),False,examined forty-three patients,spent eight months at her family home in Dhaka
+E32,E25,-1,> (Preceded By),False,examined forty-three patients,recovering and attending follow-up appointments
+E32,E26,-1,> (Preceded By),False,examined forty-three patients,done a gap year working at a community health clinic
+E32,E27,-1,> (Preceded By),False,examined forty-three patients,returned to Rajshahi
+E32,E28,-1,> (Preceded By),False,examined forty-three patients,rejoined with a new batch
+E32,E29,-1,> (Preceded By),False,examined forty-three patients,settled into a study group
+E32,E30,-2,mi (Met By),False,examined forty-three patients,traveled together to a rural health camp
+E32,E31,0,= (Equal),False,examined forty-three patients,providing basic health services

@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,graduated,living in Kuala Lumpur
+E1,E3,1,< (Precedes),False,graduated,started the application process
+E1,E4,1,< (Precedes),False,graduated,track him down
+E1,E5,1,< (Precedes),False,graduated,send the forms by courier
+E1,E6,1,< (Precedes),False,graduated,decided to apply for a graduate program
+E1,E7,1,< (Precedes),False,graduated,received the acceptance email
+E1,E8,1,< (Precedes),False,graduated,took a long walk to the nearest park
+E1,E9,1,< (Precedes),False,graduated,visa for Australia was approved
+E1,E10,1,< (Precedes),False,graduated,flew to Melbourne
+E1,E11,1,< (Precedes),False,graduated,found a shared apartment
+E1,E12,1,< (Precedes),False,graduated,called her parents
+E1,E13,1,< (Precedes),False,graduated,collecting documents from her undergraduate university
+E1,E14,1,< (Precedes),False,graduated,he had retired
+E1,E15,1,< (Precedes),False,graduated,moved to a small town in Rajshahi.
+E1,E16,1,< (Precedes),False,graduated,which took ten days each way
+E1,E17,4,s (Starts),False,graduated,who had never left Bangladesh
+E2,E1,-1,> (Preceded By),False,living in Kuala Lumpur,graduated
+E2,E3,2,m (Meets),False,living in Kuala Lumpur,started the application process
+E2,E4,1,< (Precedes),False,living in Kuala Lumpur,track him down
+E2,E5,1,< (Precedes),False,living in Kuala Lumpur,send the forms by courier
+E2,E6,2,m (Meets),False,living in Kuala Lumpur,decided to apply for a graduate program
+E2,E7,1,< (Precedes),False,living in Kuala Lumpur,received the acceptance email
+E2,E8,1,< (Precedes),False,living in Kuala Lumpur,took a long walk to the nearest park
+E2,E9,1,< (Precedes),False,living in Kuala Lumpur,visa for Australia was approved
+E2,E10,1,< (Precedes),False,living in Kuala Lumpur,flew to Melbourne
+E2,E11,1,< (Precedes),False,living in Kuala Lumpur,found a shared apartment
+E2,E12,1,< (Precedes),False,living in Kuala Lumpur,called her parents
+E2,E13,1,< (Precedes),False,living in Kuala Lumpur,collecting documents from her undergraduate university
+E2,E14,-1,> (Preceded By),False,living in Kuala Lumpur,he had retired
+E2,E15,-1,> (Preceded By),False,living in Kuala Lumpur,moved to a small town in Rajshahi.
+E2,E16,1,< (Precedes),False,living in Kuala Lumpur,which took ten days each way
+E2,E17,5,d (During),False,living in Kuala Lumpur,who had never left Bangladesh
+E3,E1,-1,> (Preceded By),False,started the application process,graduated
+E3,E2,-2,mi (Met By),False,started the application process,living in Kuala Lumpur
+E3,E4,1,< (Precedes),False,started the application process,track him down
+E3,E5,1,< (Precedes),False,started the application process,send the forms by courier
+E3,E6,0,= (Equal),False,started the application process,decided to apply for a graduate program
+E3,E7,1,< (Precedes),False,started the application process,received the acceptance email
+E3,E8,1,< (Precedes),False,started the application process,took a long walk to the nearest park
+E3,E9,1,< (Precedes),False,started the application process,visa for Australia was approved
+E3,E10,1,< (Precedes),False,started the application process,flew to Melbourne
+E3,E11,1,< (Precedes),False,started the application process,found a shared apartment
+E3,E12,1,< (Precedes),False,started the application process,called her parents
+E3,E13,1,< (Precedes),False,started the application process,collecting documents from her undergraduate university
+E3,E14,-1,> (Preceded By),False,started the application process,he had retired
+E3,E15,-1,> (Preceded By),False,started the application process,moved to a small town in Rajshahi.
+E3,E16,1,< (Precedes),False,started the application process,which took ten days each way
+E3,E17,5,d (During),False,started the application process,who had never left Bangladesh
+E4,E1,-1,> (Preceded By),False,track him down,graduated
+E4,E2,-1,> (Preceded By),False,track him down,living in Kuala Lumpur
+E4,E3,-1,> (Preceded By),False,track him down,started the application process
+E4,E5,1,< (Precedes),False,track him down,send the forms by courier
+E4,E6,-1,> (Preceded By),False,track him down,decided to apply for a graduate program
+E4,E7,1,< (Precedes),False,track him down,received the acceptance email
+E4,E8,1,< (Precedes),False,track him down,took a long walk to the nearest park
+E4,E9,1,< (Precedes),False,track him down,visa for Australia was approved
+E4,E10,1,< (Precedes),False,track him down,flew to Melbourne
+E4,E11,1,< (Precedes),False,track him down,found a shared apartment
+E4,E12,1,< (Precedes),False,track him down,called her parents
+E4,E13,5,d (During),False,track him down,collecting documents from her undergraduate university
+E4,E14,-1,> (Preceded By),False,track him down,he had retired
+E4,E15,-1,> (Preceded By),False,track him down,moved to a small town in Rajshahi.
+E4,E16,1,< (Precedes),False,track him down,which took ten days each way
+E4,E17,5,d (During),False,track him down,who had never left Bangladesh
+E5,E1,-1,> (Preceded By),False,send the forms by courier,graduated
+E5,E2,-1,> (Preceded By),False,send the forms by courier,living in Kuala Lumpur
+E5,E3,-1,> (Preceded By),False,send the forms by courier,started the application process
+E5,E4,-1,> (Preceded By),False,send the forms by courier,track him down
+E5,E6,-1,> (Preceded By),False,send the forms by courier,decided to apply for a graduate program
+E5,E7,1,< (Precedes),False,send the forms by courier,received the acceptance email
+E5,E8,1,< (Precedes),False,send the forms by courier,took a long walk to the nearest park
+E5,E9,1,< (Precedes),False,send the forms by courier,visa for Australia was approved
+E5,E10,1,< (Precedes),False,send the forms by courier,flew to Melbourne
+E5,E11,1,< (Precedes),False,send the forms by courier,found a shared apartment
+E5,E12,1,< (Precedes),False,send the forms by courier,called her parents
+E5,E13,5,d (During),False,send the forms by courier,collecting documents from her undergraduate university
+E5,E14,-1,> (Preceded By),False,send the forms by courier,he had retired
+E5,E15,-1,> (Preceded By),False,send the forms by courier,moved to a small town in Rajshahi.
+E5,E16,1,< (Precedes),False,send the forms by courier,which took ten days each way
+E5,E17,5,d (During),False,send the forms by courier,who had never left Bangladesh
+E6,E1,-1,> (Preceded By),False,decided to apply for a graduate program,graduated
+E6,E2,-2,mi (Met By),False,decided to apply for a graduate program,living in Kuala Lumpur
+E6,E3,0,= (Equal),False,decided to apply for a graduate program,started the application process
+E6,E4,1,< (Precedes),False,decided to apply for a graduate program,track him down
+E6,E5,1,< (Precedes),False,decided to apply for a graduate program,send the forms by courier
+E6,E7,1,< (Precedes),False,decided to apply for a graduate program,received the acceptance email
+E6,E8,1,< (Precedes),False,decided to apply for a graduate program,took a long walk to the nearest park
+E6,E9,1,< (Precedes),False,decided to apply for a graduate program,visa for Australia was approved
+E6,E10,1,< (Precedes),False,decided to apply for a graduate program,flew to Melbourne
+E6,E11,1,< (Precedes),False,decided to apply for a graduate program,found a shared apartment
+E6,E12,1,< (Precedes),False,decided to apply for a graduate program,called her parents
+E6,E13,1,< (Precedes),False,decided to apply for a graduate program,collecting documents from her undergraduate university
+E6,E14,-1,> (Preceded By),False,decided to apply for a graduate program,he had retired
+E6,E15,-1,> (Preceded By),False,decided to apply for a graduate program,moved to a small town in Rajshahi.
+E6,E16,1,< (Precedes),False,decided to apply for a graduate program,which took ten days each way
+E6,E17,5,d (During),False,decided to apply for a graduate program,who had never left Bangladesh
+E7,E1,-1,> (Preceded By),False,received the acceptance email,graduated
+E7,E2,-1,> (Preceded By),False,received the acceptance email,living in Kuala Lumpur
+E7,E3,-1,> (Preceded By),False,received the acceptance email,started the application process
+E7,E4,-1,> (Preceded By),False,received the acceptance email,track him down
+E7,E5,-1,> (Preceded By),False,received the acceptance email,send the forms by courier
+E7,E6,-1,> (Preceded By),False,received the acceptance email,decided to apply for a graduate program
+E7,E8,1,< (Precedes),False,received the acceptance email,took a long walk to the nearest park
+E7,E9,1,< (Precedes),False,received the acceptance email,visa for Australia was approved
+E7,E10,1,< (Precedes),False,received the acceptance email,flew to Melbourne
+E7,E11,1,< (Precedes),False,received the acceptance email,found a shared apartment
+E7,E12,1,< (Precedes),False,received the acceptance email,called her parents
+E7,E13,-1,> (Preceded By),False,received the acceptance email,collecting documents from her undergraduate university
+E7,E14,-1,> (Preceded By),False,received the acceptance email,he had retired
+E7,E15,-1,> (Preceded By),False,received the acceptance email,moved to a small town in Rajshahi.
+E7,E16,-1,> (Preceded By),False,received the acceptance email,which took ten days each way
+E7,E17,5,d (During),False,received the acceptance email,who had never left Bangladesh
+E8,E1,-1,> (Preceded By),False,took a long walk to the nearest park,graduated
+E8,E2,-1,> (Preceded By),False,took a long walk to the nearest park,living in Kuala Lumpur
+E8,E3,-1,> (Preceded By),False,took a long walk to the nearest park,started the application process
+E8,E4,-1,> (Preceded By),False,took a long walk to the nearest park,track him down
+E8,E5,-1,> (Preceded By),False,took a long walk to the nearest park,send the forms by courier
+E8,E6,-1,> (Preceded By),False,took a long walk to the nearest park,decided to apply for a graduate program
+E8,E7,-1,> (Preceded By),False,took a long walk to the nearest park,received the acceptance email
+E8,E9,1,< (Precedes),False,took a long walk to the nearest park,visa for Australia was approved
+E8,E10,1,< (Precedes),False,took a long walk to the nearest park,flew to Melbourne
+E8,E11,1,< (Precedes),False,took a long walk to the nearest park,found a shared apartment
+E8,E12,1,< (Precedes),False,took a long walk to the nearest park,called her parents
+E8,E13,-1,> (Preceded By),False,took a long walk to the nearest park,collecting documents from her undergraduate university
+E8,E14,-1,> (Preceded By),False,took a long walk to the nearest park,he had retired
+E8,E15,-1,> (Preceded By),False,took a long walk to the nearest park,moved to a small town in Rajshahi.
+E8,E16,-1,> (Preceded By),False,took a long walk to the nearest park,which took ten days each way
+E8,E17,5,d (During),False,took a long walk to the nearest park,who had never left Bangladesh
+E9,E1,-1,> (Preceded By),False,visa for Australia was approved,graduated
+E9,E2,-1,> (Preceded By),False,visa for Australia was approved,living in Kuala Lumpur
+E9,E3,-1,> (Preceded By),False,visa for Australia was approved,started the application process
+E9,E4,-1,> (Preceded By),False,visa for Australia was approved,track him down
+E9,E5,-1,> (Preceded By),False,visa for Australia was approved,send the forms by courier
+E9,E6,-1,> (Preceded By),False,visa for Australia was approved,decided to apply for a graduate program
+E9,E7,-1,> (Preceded By),False,visa for Australia was approved,received the acceptance email
+E9,E8,-1,> (Preceded By),False,visa for Australia was approved,took a long walk to the nearest park
+E9,E10,1,< (Precedes),False,visa for Australia was approved,flew to Melbourne
+E9,E11,1,< (Precedes),False,visa for Australia was approved,found a shared apartment
+E9,E12,1,< (Precedes),False,visa for Australia was approved,called her parents
+E9,E13,-1,> (Preceded By),False,visa for Australia was approved,collecting documents from her undergraduate university
+E9,E14,-1,> (Preceded By),False,visa for Australia was approved,he had retired
+E9,E15,-1,> (Preceded By),False,visa for Australia was approved,moved to a small town in Rajshahi.
+E9,E16,-1,> (Preceded By),False,visa for Australia was approved,which took ten days each way
+E9,E17,5,d (During),False,visa for Australia was approved,who had never left Bangladesh
+E10,E1,-1,> (Preceded By),False,flew to Melbourne,graduated
+E10,E2,-1,> (Preceded By),False,flew to Melbourne,living in Kuala Lumpur
+E10,E3,-1,> (Preceded By),False,flew to Melbourne,started the application process
+E10,E4,-1,> (Preceded By),False,flew to Melbourne,track him down
+E10,E5,-1,> (Preceded By),False,flew to Melbourne,send the forms by courier
+E10,E6,-1,> (Preceded By),False,flew to Melbourne,decided to apply for a graduate program
+E10,E7,-1,> (Preceded By),False,flew to Melbourne,received the acceptance email
+E10,E8,-1,> (Preceded By),False,flew to Melbourne,took a long walk to the nearest park
+E10,E9,-1,> (Preceded By),False,flew to Melbourne,visa for Australia was approved
+E10,E11,1,< (Precedes),False,flew to Melbourne,found a shared apartment
+E10,E12,1,< (Precedes),False,flew to Melbourne,called her parents
+E10,E13,-1,> (Preceded By),False,flew to Melbourne,collecting documents from her undergraduate university
+E10,E14,-1,> (Preceded By),False,flew to Melbourne,he had retired
+E10,E15,-1,> (Preceded By),False,flew to Melbourne,moved to a small town in Rajshahi.
+E10,E16,-1,> (Preceded By),False,flew to Melbourne,which took ten days each way
+E10,E17,5,d (During),False,flew to Melbourne,who had never left Bangladesh
+E11,E1,-1,> (Preceded By),False,found a shared apartment,graduated
+E11,E2,-1,> (Preceded By),False,found a shared apartment,living in Kuala Lumpur
+E11,E3,-1,> (Preceded By),False,found a shared apartment,started the application process
+E11,E4,-1,> (Preceded By),False,found a shared apartment,track him down
+E11,E5,-1,> (Preceded By),False,found a shared apartment,send the forms by courier
+E11,E6,-1,> (Preceded By),False,found a shared apartment,decided to apply for a graduate program
+E11,E7,-1,> (Preceded By),False,found a shared apartment,received the acceptance email
+E11,E8,-1,> (Preceded By),False,found a shared apartment,took a long walk to the nearest park
+E11,E9,-1,> (Preceded By),False,found a shared apartment,visa for Australia was approved
+E11,E10,-1,> (Preceded By),False,found a shared apartment,flew to Melbourne
+E11,E12,1,< (Precedes),False,found a shared apartment,called her parents
+E11,E13,-1,> (Preceded By),False,found a shared apartment,collecting documents from her undergraduate university
+E11,E14,-1,> (Preceded By),False,found a shared apartment,he had retired
+E11,E15,-1,> (Preceded By),False,found a shared apartment,moved to a small town in Rajshahi.
+E11,E16,-1,> (Preceded By),False,found a shared apartment,which took ten days each way
+E11,E17,5,d (During),False,found a shared apartment,who had never left Bangladesh
+E12,E1,-1,> (Preceded By),False,called her parents,graduated
+E12,E2,-1,> (Preceded By),False,called her parents,living in Kuala Lumpur
+E12,E3,-1,> (Preceded By),False,called her parents,started the application process
+E12,E4,-1,> (Preceded By),False,called her parents,track him down
+E12,E5,-1,> (Preceded By),False,called her parents,send the forms by courier
+E12,E6,-1,> (Preceded By),False,called her parents,decided to apply for a graduate program
+E12,E7,-1,> (Preceded By),False,called her parents,received the acceptance email
+E12,E8,-1,> (Preceded By),False,called her parents,took a long walk to the nearest park
+E12,E9,-1,> (Preceded By),False,called her parents,visa for Australia was approved
+E12,E10,-1,> (Preceded By),False,called her parents,flew to Melbourne
+E12,E11,-1,> (Preceded By),False,called her parents,found a shared apartment
+E12,E13,-1,> (Preceded By),False,called her parents,collecting documents from her undergraduate university
+E12,E14,-1,> (Preceded By),False,called her parents,he had retired
+E12,E15,-1,> (Preceded By),False,called her parents,moved to a small town in Rajshahi.
+E12,E16,-1,> (Preceded By),False,called her parents,which took ten days each way
+E12,E17,5,d (During),False,called her parents,who had never left Bangladesh
+E13,E1,-1,> (Preceded By),False,collecting documents from her undergraduate university,graduated
+E13,E2,-1,> (Preceded By),False,collecting documents from her undergraduate university,living in Kuala Lumpur
+E13,E3,-1,> (Preceded By),False,collecting documents from her undergraduate university,started the application process
+E13,E4,-5,di (Contains),False,collecting documents from her undergraduate university,track him down
+E13,E5,-5,di (Contains),False,collecting documents from her undergraduate university,send the forms by courier
+E13,E6,-1,> (Preceded By),False,collecting documents from her undergraduate university,decided to apply for a graduate program
+E13,E7,1,< (Precedes),False,collecting documents from her undergraduate university,received the acceptance email
+E13,E8,1,< (Precedes),False,collecting documents from her undergraduate university,took a long walk to the nearest park
+E13,E9,1,< (Precedes),False,collecting documents from her undergraduate university,visa for Australia was approved
+E13,E10,1,< (Precedes),False,collecting documents from her undergraduate university,flew to Melbourne
+E13,E11,1,< (Precedes),False,collecting documents from her undergraduate university,found a shared apartment
+E13,E12,1,< (Precedes),False,collecting documents from her undergraduate university,called her parents
+E13,E14,-1,> (Preceded By),False,collecting documents from her undergraduate university,he had retired
+E13,E15,-1,> (Preceded By),False,collecting documents from her undergraduate university,moved to a small town in Rajshahi.
+E13,E16,-5,di (Contains),False,collecting documents from her undergraduate university,which took ten days each way
+E13,E17,5,d (During),False,collecting documents from her undergraduate university,who had never left Bangladesh
+E14,E1,-1,> (Preceded By),False,he had retired,graduated
+E14,E2,1,< (Precedes),False,he had retired,living in Kuala Lumpur
+E14,E3,1,< (Precedes),False,he had retired,started the application process
+E14,E4,1,< (Precedes),False,he had retired,track him down
+E14,E5,1,< (Precedes),False,he had retired,send the forms by courier
+E14,E6,1,< (Precedes),False,he had retired,decided to apply for a graduate program
+E14,E7,1,< (Precedes),False,he had retired,received the acceptance email
+E14,E8,1,< (Precedes),False,he had retired,took a long walk to the nearest park
+E14,E9,1,< (Precedes),False,he had retired,visa for Australia was approved
+E14,E10,1,< (Precedes),False,he had retired,flew to Melbourne
+E14,E11,1,< (Precedes),False,he had retired,found a shared apartment
+E14,E12,1,< (Precedes),False,he had retired,called her parents
+E14,E13,1,< (Precedes),False,he had retired,collecting documents from her undergraduate university
+E14,E15,1,< (Precedes),False,he had retired,moved to a small town in Rajshahi.
+E14,E16,1,< (Precedes),False,he had retired,which took ten days each way
+E14,E17,5,d (During),False,he had retired,who had never left Bangladesh
+E15,E1,-1,> (Preceded By),False,moved to a small town in Rajshahi.,graduated
+E15,E2,1,< (Precedes),False,moved to a small town in Rajshahi.,living in Kuala Lumpur
+E15,E3,1,< (Precedes),False,moved to a small town in Rajshahi.,started the application process
+E15,E4,1,< (Precedes),False,moved to a small town in Rajshahi.,track him down
+E15,E5,1,< (Precedes),False,moved to a small town in Rajshahi.,send the forms by courier
+E15,E6,1,< (Precedes),False,moved to a small town in Rajshahi.,decided to apply for a graduate program
+E15,E7,1,< (Precedes),False,moved to a small town in Rajshahi.,received the acceptance email
+E15,E8,1,< (Precedes),False,moved to a small town in Rajshahi.,took a long walk to the nearest park
+E15,E9,1,< (Precedes),False,moved to a small town in Rajshahi.,visa for Australia was approved
+E15,E10,1,< (Precedes),False,moved to a small town in Rajshahi.,flew to Melbourne
+E15,E11,1,< (Precedes),False,moved to a small town in Rajshahi.,found a shared apartment
+E15,E12,1,< (Precedes),False,moved to a small town in Rajshahi.,called her parents
+E15,E13,1,< (Precedes),False,moved to a small town in Rajshahi.,collecting documents from her undergraduate university
+E15,E14,-1,> (Preceded By),False,moved to a small town in Rajshahi.,he had retired
+E15,E16,1,< (Precedes),False,moved to a small town in Rajshahi.,which took ten days each way
+E15,E17,5,d (During),False,moved to a small town in Rajshahi.,who had never left Bangladesh
+E16,E1,-1,> (Preceded By),False,which took ten days each way,graduated
+E16,E2,-1,> (Preceded By),False,which took ten days each way,living in Kuala Lumpur
+E16,E3,-1,> (Preceded By),False,which took ten days each way,started the application process
+E16,E4,-1,> (Preceded By),False,which took ten days each way,track him down
+E16,E5,-1,> (Preceded By),False,which took ten days each way,send the forms by courier
+E16,E6,-1,> (Preceded By),False,which took ten days each way,decided to apply for a graduate program
+E16,E7,1,< (Precedes),False,which took ten days each way,received the acceptance email
+E16,E8,1,< (Precedes),False,which took ten days each way,took a long walk to the nearest park
+E16,E9,1,< (Precedes),False,which took ten days each way,visa for Australia was approved
+E16,E10,1,< (Precedes),False,which took ten days each way,flew to Melbourne
+E16,E11,1,< (Precedes),False,which took ten days each way,found a shared apartment
+E16,E12,1,< (Precedes),False,which took ten days each way,called her parents
+E16,E13,5,d (During),False,which took ten days each way,collecting documents from her undergraduate university
+E16,E14,-1,> (Preceded By),False,which took ten days each way,he had retired
+E16,E15,-1,> (Preceded By),False,which took ten days each way,moved to a small town in Rajshahi.
+E16,E17,5,d (During),False,which took ten days each way,who had never left Bangladesh
+E17,E1,-4,si (Started By),False,who had never left Bangladesh,graduated
+E17,E2,-5,di (Contains),False,who had never left Bangladesh,living in Kuala Lumpur
+E17,E3,-5,di (Contains),False,who had never left Bangladesh,started the application process
+E17,E4,-5,di (Contains),False,who had never left Bangladesh,track him down
+E17,E5,-5,di (Contains),False,who had never left Bangladesh,send the forms by courier
+E17,E6,-5,di (Contains),False,who had never left Bangladesh,decided to apply for a graduate program
+E17,E7,-5,di (Contains),False,who had never left Bangladesh,received the acceptance email
+E17,E8,-5,di (Contains),False,who had never left Bangladesh,took a long walk to the nearest park
+E17,E9,-5,di (Contains),False,who had never left Bangladesh,visa for Australia was approved
+E17,E10,-5,di (Contains),False,who had never left Bangladesh,flew to Melbourne
+E17,E11,-5,di (Contains),False,who had never left Bangladesh,found a shared apartment
+E17,E12,-5,di (Contains),False,who had never left Bangladesh,called her parents
+E17,E13,-5,di (Contains),False,who had never left Bangladesh,collecting documents from her undergraduate university
+E17,E14,-5,di (Contains),False,who had never left Bangladesh,he had retired
+E17,E15,-5,di (Contains),False,who had never left Bangladesh,moved to a small town in Rajshahi.
+E17,E16,-5,di (Contains),False,who had never left Bangladesh,which took ten days each way

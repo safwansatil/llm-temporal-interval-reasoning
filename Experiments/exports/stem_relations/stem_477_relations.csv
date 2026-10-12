@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,installing climate-controlled scanners,launched the digitization of its rare nineteenth-century manuscripts
+E1,E3,1,< (Precedes),False,installing climate-controlled scanners,inspecting paper stability and unbinding brittle bindings
+E1,E4,1,< (Precedes),False,installing climate-controlled scanners,Scanning began
+E1,E5,1,< (Precedes),False,installing climate-controlled scanners,an optical sensor fell out of alignment
+E1,E6,1,< (Precedes),False,installing climate-controlled scanners,halting scanning for four hours
+E1,E7,1,< (Precedes),False,installing climate-controlled scanners,recalibrated the lens array
+E1,E8,1,< (Precedes),False,installing climate-controlled scanners,cataloging digital files and generating search indices
+E1,E9,1,< (Precedes),False,installing climate-controlled scanners,"Digital post-processing, including contrast correction and cropping, began"
+E1,E10,1,< (Precedes),False,installing climate-controlled scanners,The digital collection was uploaded to the university repository
+E1,E11,1,< (Precedes),False,installing climate-controlled scanners,imaging fifty pages per hour
+E2,E1,-1,> (Preceded By),False,launched the digitization of its rare nineteenth-century manuscripts,installing climate-controlled scanners
+E2,E3,4,s (Starts),False,launched the digitization of its rare nineteenth-century manuscripts,inspecting paper stability and unbinding brittle bindings
+E2,E4,1,< (Precedes),False,launched the digitization of its rare nineteenth-century manuscripts,Scanning began
+E2,E5,1,< (Precedes),False,launched the digitization of its rare nineteenth-century manuscripts,an optical sensor fell out of alignment
+E2,E6,1,< (Precedes),False,launched the digitization of its rare nineteenth-century manuscripts,halting scanning for four hours
+E2,E7,1,< (Precedes),False,launched the digitization of its rare nineteenth-century manuscripts,recalibrated the lens array
+E2,E8,1,< (Precedes),False,launched the digitization of its rare nineteenth-century manuscripts,cataloging digital files and generating search indices
+E2,E9,1,< (Precedes),False,launched the digitization of its rare nineteenth-century manuscripts,"Digital post-processing, including contrast correction and cropping, began"
+E2,E10,1,< (Precedes),False,launched the digitization of its rare nineteenth-century manuscripts,The digital collection was uploaded to the university repository
+E2,E11,1,< (Precedes),False,launched the digitization of its rare nineteenth-century manuscripts,imaging fifty pages per hour
+E3,E1,-1,> (Preceded By),False,inspecting paper stability and unbinding brittle bindings,installing climate-controlled scanners
+E3,E2,-4,si (Started By),False,inspecting paper stability and unbinding brittle bindings,launched the digitization of its rare nineteenth-century manuscripts
+E3,E4,2,m (Meets),False,inspecting paper stability and unbinding brittle bindings,Scanning began
+E3,E5,1,< (Precedes),False,inspecting paper stability and unbinding brittle bindings,an optical sensor fell out of alignment
+E3,E6,1,< (Precedes),False,inspecting paper stability and unbinding brittle bindings,halting scanning for four hours
+E3,E7,1,< (Precedes),False,inspecting paper stability and unbinding brittle bindings,recalibrated the lens array
+E3,E8,1,< (Precedes),False,inspecting paper stability and unbinding brittle bindings,cataloging digital files and generating search indices
+E3,E9,1,< (Precedes),False,inspecting paper stability and unbinding brittle bindings,"Digital post-processing, including contrast correction and cropping, began"
+E3,E10,1,< (Precedes),False,inspecting paper stability and unbinding brittle bindings,The digital collection was uploaded to the university repository
+E3,E11,2,m (Meets),False,inspecting paper stability and unbinding brittle bindings,imaging fifty pages per hour
+E4,E1,-1,> (Preceded By),False,Scanning began,installing climate-controlled scanners
+E4,E2,-1,> (Preceded By),False,Scanning began,launched the digitization of its rare nineteenth-century manuscripts
+E4,E3,-2,mi (Met By),False,Scanning began,inspecting paper stability and unbinding brittle bindings
+E4,E5,1,< (Precedes),False,Scanning began,an optical sensor fell out of alignment
+E4,E6,1,< (Precedes),False,Scanning began,halting scanning for four hours
+E4,E7,1,< (Precedes),False,Scanning began,recalibrated the lens array
+E4,E8,1,< (Precedes),False,Scanning began,cataloging digital files and generating search indices
+E4,E9,1,< (Precedes),False,Scanning began,"Digital post-processing, including contrast correction and cropping, began"
+E4,E10,1,< (Precedes),False,Scanning began,The digital collection was uploaded to the university repository
+E4,E11,4,s (Starts),False,Scanning began,imaging fifty pages per hour
+E5,E1,-1,> (Preceded By),False,an optical sensor fell out of alignment,installing climate-controlled scanners
+E5,E2,-1,> (Preceded By),False,an optical sensor fell out of alignment,launched the digitization of its rare nineteenth-century manuscripts
+E5,E3,-1,> (Preceded By),False,an optical sensor fell out of alignment,inspecting paper stability and unbinding brittle bindings
+E5,E4,-1,> (Preceded By),False,an optical sensor fell out of alignment,Scanning began
+E5,E6,3,o (Overlaps),False,an optical sensor fell out of alignment,halting scanning for four hours
+E5,E7,-6,fi (Finished By),False,an optical sensor fell out of alignment,recalibrated the lens array
+E5,E8,1,< (Precedes),False,an optical sensor fell out of alignment,cataloging digital files and generating search indices
+E5,E9,1,< (Precedes),False,an optical sensor fell out of alignment,"Digital post-processing, including contrast correction and cropping, began"
+E5,E10,1,< (Precedes),False,an optical sensor fell out of alignment,The digital collection was uploaded to the university repository
+E5,E11,5,d (During),False,an optical sensor fell out of alignment,imaging fifty pages per hour
+E6,E1,-1,> (Preceded By),False,halting scanning for four hours,installing climate-controlled scanners
+E6,E2,-1,> (Preceded By),False,halting scanning for four hours,launched the digitization of its rare nineteenth-century manuscripts
+E6,E3,-1,> (Preceded By),False,halting scanning for four hours,inspecting paper stability and unbinding brittle bindings
+E6,E4,-1,> (Preceded By),False,halting scanning for four hours,Scanning began
+E6,E5,-3,oi (Overlapped By),False,halting scanning for four hours,an optical sensor fell out of alignment
+E6,E7,-4,si (Started By),False,halting scanning for four hours,recalibrated the lens array
+E6,E8,3,o (Overlaps),False,halting scanning for four hours,cataloging digital files and generating search indices
+E6,E9,1,< (Precedes),False,halting scanning for four hours,"Digital post-processing, including contrast correction and cropping, began"
+E6,E10,1,< (Precedes),False,halting scanning for four hours,The digital collection was uploaded to the university repository
+E6,E11,5,d (During),False,halting scanning for four hours,imaging fifty pages per hour
+E7,E1,-1,> (Preceded By),False,recalibrated the lens array,installing climate-controlled scanners
+E7,E2,-1,> (Preceded By),False,recalibrated the lens array,launched the digitization of its rare nineteenth-century manuscripts
+E7,E3,-1,> (Preceded By),False,recalibrated the lens array,inspecting paper stability and unbinding brittle bindings
+E7,E4,-1,> (Preceded By),False,recalibrated the lens array,Scanning began
+E7,E5,6,f (Finishes),False,recalibrated the lens array,an optical sensor fell out of alignment
+E7,E6,4,s (Starts),False,recalibrated the lens array,halting scanning for four hours
+E7,E8,1,< (Precedes),False,recalibrated the lens array,cataloging digital files and generating search indices
+E7,E9,1,< (Precedes),False,recalibrated the lens array,"Digital post-processing, including contrast correction and cropping, began"
+E7,E10,1,< (Precedes),False,recalibrated the lens array,The digital collection was uploaded to the university repository
+E7,E11,5,d (During),False,recalibrated the lens array,imaging fifty pages per hour
+E8,E1,-1,> (Preceded By),False,cataloging digital files and generating search indices,installing climate-controlled scanners
+E8,E2,-1,> (Preceded By),False,cataloging digital files and generating search indices,launched the digitization of its rare nineteenth-century manuscripts
+E8,E3,-1,> (Preceded By),False,cataloging digital files and generating search indices,inspecting paper stability and unbinding brittle bindings
+E8,E4,-1,> (Preceded By),False,cataloging digital files and generating search indices,Scanning began
+E8,E5,-1,> (Preceded By),False,cataloging digital files and generating search indices,an optical sensor fell out of alignment
+E8,E6,-3,oi (Overlapped By),False,cataloging digital files and generating search indices,halting scanning for four hours
+E8,E7,-1,> (Preceded By),False,cataloging digital files and generating search indices,recalibrated the lens array
+E8,E9,1,< (Precedes),False,cataloging digital files and generating search indices,"Digital post-processing, including contrast correction and cropping, began"
+E8,E10,1,< (Precedes),False,cataloging digital files and generating search indices,The digital collection was uploaded to the university repository
+E8,E11,-3,oi (Overlapped By),False,cataloging digital files and generating search indices,imaging fifty pages per hour
+E9,E1,-1,> (Preceded By),False,"Digital post-processing, including contrast correction and cropping, began",installing climate-controlled scanners
+E9,E2,-1,> (Preceded By),False,"Digital post-processing, including contrast correction and cropping, began",launched the digitization of its rare nineteenth-century manuscripts
+E9,E3,-1,> (Preceded By),False,"Digital post-processing, including contrast correction and cropping, began",inspecting paper stability and unbinding brittle bindings
+E9,E4,-1,> (Preceded By),False,"Digital post-processing, including contrast correction and cropping, began",Scanning began
+E9,E5,-1,> (Preceded By),False,"Digital post-processing, including contrast correction and cropping, began",an optical sensor fell out of alignment
+E9,E6,-1,> (Preceded By),False,"Digital post-processing, including contrast correction and cropping, began",halting scanning for four hours
+E9,E7,-1,> (Preceded By),False,"Digital post-processing, including contrast correction and cropping, began",recalibrated the lens array
+E9,E8,-1,> (Preceded By),False,"Digital post-processing, including contrast correction and cropping, began",cataloging digital files and generating search indices
+E9,E10,1,< (Precedes),False,"Digital post-processing, including contrast correction and cropping, began",The digital collection was uploaded to the university repository
+E9,E11,-1,> (Preceded By),False,"Digital post-processing, including contrast correction and cropping, began",imaging fifty pages per hour
+E10,E1,-1,> (Preceded By),False,The digital collection was uploaded to the university repository,installing climate-controlled scanners
+E10,E2,-1,> (Preceded By),False,The digital collection was uploaded to the university repository,launched the digitization of its rare nineteenth-century manuscripts
+E10,E3,-1,> (Preceded By),False,The digital collection was uploaded to the university repository,inspecting paper stability and unbinding brittle bindings
+E10,E4,-1,> (Preceded By),False,The digital collection was uploaded to the university repository,Scanning began
+E10,E5,-1,> (Preceded By),False,The digital collection was uploaded to the university repository,an optical sensor fell out of alignment
+E10,E6,-1,> (Preceded By),False,The digital collection was uploaded to the university repository,halting scanning for four hours
+E10,E7,-1,> (Preceded By),False,The digital collection was uploaded to the university repository,recalibrated the lens array
+E10,E8,-1,> (Preceded By),False,The digital collection was uploaded to the university repository,cataloging digital files and generating search indices
+E10,E9,-1,> (Preceded By),False,The digital collection was uploaded to the university repository,"Digital post-processing, including contrast correction and cropping, began"
+E10,E11,-1,> (Preceded By),False,The digital collection was uploaded to the university repository,imaging fifty pages per hour
+E11,E1,-1,> (Preceded By),False,imaging fifty pages per hour,installing climate-controlled scanners
+E11,E2,-1,> (Preceded By),False,imaging fifty pages per hour,launched the digitization of its rare nineteenth-century manuscripts
+E11,E3,-2,mi (Met By),False,imaging fifty pages per hour,inspecting paper stability and unbinding brittle bindings
+E11,E4,-4,si (Started By),False,imaging fifty pages per hour,Scanning began
+E11,E5,-5,di (Contains),False,imaging fifty pages per hour,an optical sensor fell out of alignment
+E11,E6,-5,di (Contains),False,imaging fifty pages per hour,halting scanning for four hours
+E11,E7,-5,di (Contains),False,imaging fifty pages per hour,recalibrated the lens array
+E11,E8,3,o (Overlaps),False,imaging fifty pages per hour,cataloging digital files and generating search indices
+E11,E9,1,< (Precedes),False,imaging fifty pages per hour,"Digital post-processing, including contrast correction and cropping, began"
+E11,E10,1,< (Precedes),False,imaging fifty pages per hour,The digital collection was uploaded to the university repository

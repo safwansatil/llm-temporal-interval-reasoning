@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,her father had walked to school every morning,had died there
+E1,E3,2,m (Meets),False,her father had walked to school every morning,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E1,E4,1,< (Precedes),False,her father had walked to school every morning,She had made the arrangements quickly and quietly
+E1,E5,1,< (Precedes),False,her father had walked to school every morning,the ferry docked at dawn
+E1,E6,1,< (Precedes),False,her father had walked to school every morning,Soma had organized a small boat
+E1,E7,1,< (Precedes),False,her father had walked to school every morning,Meera scattered the ashes
+E1,E8,1,< (Precedes),False,her father had walked to school every morning,sat quietly for a long while
+E1,E9,1,< (Precedes),False,her father had walked to school every morning,They returned to the ghat
+E1,E10,1,< (Precedes),False,her father had walked to school every morning,had tea at a stall that opened early
+E1,E11,1,< (Precedes),False,her father had walked to school every morning,Meera caught the afternoon ferry back to Dhaka
+E1,E12,1,< (Precedes),False,her father had walked to school every morning,She was at her desk at work
+E1,E13,1,< (Precedes),False,her father had walked to school every morning,Her father had lived in a flat in Mohammadpur for thirty-two years
+E1,E14,1,< (Precedes),False,her father had walked to school every morning,"who still lived in Barisal town, was waiting at the ghat"
+E2,E1,-1,> (Preceded By),False,had died there,her father had walked to school every morning
+E2,E3,5,d (During),False,had died there,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E2,E4,2,m (Meets),False,had died there,She had made the arrangements quickly and quietly
+E2,E5,1,< (Precedes),False,had died there,the ferry docked at dawn
+E2,E6,1,< (Precedes),False,had died there,Soma had organized a small boat
+E2,E7,1,< (Precedes),False,had died there,Meera scattered the ashes
+E2,E8,1,< (Precedes),False,had died there,sat quietly for a long while
+E2,E9,1,< (Precedes),False,had died there,They returned to the ghat
+E2,E10,1,< (Precedes),False,had died there,had tea at a stall that opened early
+E2,E11,1,< (Precedes),False,had died there,Meera caught the afternoon ferry back to Dhaka
+E2,E12,1,< (Precedes),False,had died there,She was at her desk at work
+E2,E13,-2,mi (Met By),False,had died there,Her father had lived in a flat in Mohammadpur for thirty-two years
+E2,E14,1,< (Precedes),False,had died there,"who still lived in Barisal town, was waiting at the ghat"
+E3,E1,-2,mi (Met By),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,her father had walked to school every morning
+E3,E2,-5,di (Contains),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,had died there
+E3,E4,-5,di (Contains),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,She had made the arrangements quickly and quietly
+E3,E5,1,< (Precedes),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,the ferry docked at dawn
+E3,E6,2,m (Meets),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,Soma had organized a small boat
+E3,E7,1,< (Precedes),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,Meera scattered the ashes
+E3,E8,1,< (Precedes),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,sat quietly for a long while
+E3,E9,1,< (Precedes),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,They returned to the ghat
+E3,E10,1,< (Precedes),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,had tea at a stall that opened early
+E3,E11,1,< (Precedes),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,Meera caught the afternoon ferry back to Dhaka
+E3,E12,1,< (Precedes),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,She was at her desk at work
+E3,E13,-5,di (Contains),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,Her father had lived in a flat in Mohammadpur for thirty-two years
+E3,E14,1,< (Precedes),False,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal,"who still lived in Barisal town, was waiting at the ghat"
+E4,E1,-1,> (Preceded By),False,She had made the arrangements quickly and quietly,her father had walked to school every morning
+E4,E2,-2,mi (Met By),False,She had made the arrangements quickly and quietly,had died there
+E4,E3,5,d (During),False,She had made the arrangements quickly and quietly,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E4,E5,1,< (Precedes),False,She had made the arrangements quickly and quietly,the ferry docked at dawn
+E4,E6,1,< (Precedes),False,She had made the arrangements quickly and quietly,Soma had organized a small boat
+E4,E7,1,< (Precedes),False,She had made the arrangements quickly and quietly,Meera scattered the ashes
+E4,E8,1,< (Precedes),False,She had made the arrangements quickly and quietly,sat quietly for a long while
+E4,E9,1,< (Precedes),False,She had made the arrangements quickly and quietly,They returned to the ghat
+E4,E10,1,< (Precedes),False,She had made the arrangements quickly and quietly,had tea at a stall that opened early
+E4,E11,1,< (Precedes),False,She had made the arrangements quickly and quietly,Meera caught the afternoon ferry back to Dhaka
+E4,E12,1,< (Precedes),False,She had made the arrangements quickly and quietly,She was at her desk at work
+E4,E13,-1,> (Preceded By),False,She had made the arrangements quickly and quietly,Her father had lived in a flat in Mohammadpur for thirty-two years
+E4,E14,1,< (Precedes),False,She had made the arrangements quickly and quietly,"who still lived in Barisal town, was waiting at the ghat"
+E5,E1,-1,> (Preceded By),False,the ferry docked at dawn,her father had walked to school every morning
+E5,E2,-1,> (Preceded By),False,the ferry docked at dawn,had died there
+E5,E3,-1,> (Preceded By),False,the ferry docked at dawn,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E5,E4,-1,> (Preceded By),False,the ferry docked at dawn,She had made the arrangements quickly and quietly
+E5,E6,-1,> (Preceded By),False,the ferry docked at dawn,Soma had organized a small boat
+E5,E7,1,< (Precedes),False,the ferry docked at dawn,Meera scattered the ashes
+E5,E8,1,< (Precedes),False,the ferry docked at dawn,sat quietly for a long while
+E5,E9,1,< (Precedes),False,the ferry docked at dawn,They returned to the ghat
+E5,E10,1,< (Precedes),False,the ferry docked at dawn,had tea at a stall that opened early
+E5,E11,1,< (Precedes),False,the ferry docked at dawn,Meera caught the afternoon ferry back to Dhaka
+E5,E12,1,< (Precedes),False,the ferry docked at dawn,She was at her desk at work
+E5,E13,-1,> (Preceded By),False,the ferry docked at dawn,Her father had lived in a flat in Mohammadpur for thirty-two years
+E5,E14,-2,mi (Met By),False,the ferry docked at dawn,"who still lived in Barisal town, was waiting at the ghat"
+E6,E1,-1,> (Preceded By),False,Soma had organized a small boat,her father had walked to school every morning
+E6,E2,-1,> (Preceded By),False,Soma had organized a small boat,had died there
+E6,E3,-2,mi (Met By),False,Soma had organized a small boat,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E6,E4,-1,> (Preceded By),False,Soma had organized a small boat,She had made the arrangements quickly and quietly
+E6,E5,1,< (Precedes),False,Soma had organized a small boat,the ferry docked at dawn
+E6,E7,1,< (Precedes),False,Soma had organized a small boat,Meera scattered the ashes
+E6,E8,1,< (Precedes),False,Soma had organized a small boat,sat quietly for a long while
+E6,E9,1,< (Precedes),False,Soma had organized a small boat,They returned to the ghat
+E6,E10,1,< (Precedes),False,Soma had organized a small boat,had tea at a stall that opened early
+E6,E11,1,< (Precedes),False,Soma had organized a small boat,Meera caught the afternoon ferry back to Dhaka
+E6,E12,1,< (Precedes),False,Soma had organized a small boat,She was at her desk at work
+E6,E13,-1,> (Preceded By),False,Soma had organized a small boat,Her father had lived in a flat in Mohammadpur for thirty-two years
+E6,E14,1,< (Precedes),False,Soma had organized a small boat,"who still lived in Barisal town, was waiting at the ghat"
+E7,E1,-1,> (Preceded By),False,Meera scattered the ashes,her father had walked to school every morning
+E7,E2,-1,> (Preceded By),False,Meera scattered the ashes,had died there
+E7,E3,-1,> (Preceded By),False,Meera scattered the ashes,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E7,E4,-1,> (Preceded By),False,Meera scattered the ashes,She had made the arrangements quickly and quietly
+E7,E5,-1,> (Preceded By),False,Meera scattered the ashes,the ferry docked at dawn
+E7,E6,-1,> (Preceded By),False,Meera scattered the ashes,Soma had organized a small boat
+E7,E8,2,m (Meets),False,Meera scattered the ashes,sat quietly for a long while
+E7,E9,1,< (Precedes),False,Meera scattered the ashes,They returned to the ghat
+E7,E10,1,< (Precedes),False,Meera scattered the ashes,had tea at a stall that opened early
+E7,E11,1,< (Precedes),False,Meera scattered the ashes,Meera caught the afternoon ferry back to Dhaka
+E7,E12,1,< (Precedes),False,Meera scattered the ashes,She was at her desk at work
+E7,E13,-1,> (Preceded By),False,Meera scattered the ashes,Her father had lived in a flat in Mohammadpur for thirty-two years
+E7,E14,-1,> (Preceded By),False,Meera scattered the ashes,"who still lived in Barisal town, was waiting at the ghat"
+E8,E1,-1,> (Preceded By),False,sat quietly for a long while,her father had walked to school every morning
+E8,E2,-1,> (Preceded By),False,sat quietly for a long while,had died there
+E8,E3,-1,> (Preceded By),False,sat quietly for a long while,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E8,E4,-1,> (Preceded By),False,sat quietly for a long while,She had made the arrangements quickly and quietly
+E8,E5,-1,> (Preceded By),False,sat quietly for a long while,the ferry docked at dawn
+E8,E6,-1,> (Preceded By),False,sat quietly for a long while,Soma had organized a small boat
+E8,E7,-2,mi (Met By),False,sat quietly for a long while,Meera scattered the ashes
+E8,E9,2,m (Meets),False,sat quietly for a long while,They returned to the ghat
+E8,E10,1,< (Precedes),False,sat quietly for a long while,had tea at a stall that opened early
+E8,E11,1,< (Precedes),False,sat quietly for a long while,Meera caught the afternoon ferry back to Dhaka
+E8,E12,1,< (Precedes),False,sat quietly for a long while,She was at her desk at work
+E8,E13,-1,> (Preceded By),False,sat quietly for a long while,Her father had lived in a flat in Mohammadpur for thirty-two years
+E8,E14,-1,> (Preceded By),False,sat quietly for a long while,"who still lived in Barisal town, was waiting at the ghat"
+E9,E1,-1,> (Preceded By),False,They returned to the ghat,her father had walked to school every morning
+E9,E2,-1,> (Preceded By),False,They returned to the ghat,had died there
+E9,E3,-1,> (Preceded By),False,They returned to the ghat,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E9,E4,-1,> (Preceded By),False,They returned to the ghat,She had made the arrangements quickly and quietly
+E9,E5,-1,> (Preceded By),False,They returned to the ghat,the ferry docked at dawn
+E9,E6,-1,> (Preceded By),False,They returned to the ghat,Soma had organized a small boat
+E9,E7,-1,> (Preceded By),False,They returned to the ghat,Meera scattered the ashes
+E9,E8,-2,mi (Met By),False,They returned to the ghat,sat quietly for a long while
+E9,E10,1,< (Precedes),False,They returned to the ghat,had tea at a stall that opened early
+E9,E11,1,< (Precedes),False,They returned to the ghat,Meera caught the afternoon ferry back to Dhaka
+E9,E12,1,< (Precedes),False,They returned to the ghat,She was at her desk at work
+E9,E13,-1,> (Preceded By),False,They returned to the ghat,Her father had lived in a flat in Mohammadpur for thirty-two years
+E9,E14,-1,> (Preceded By),False,They returned to the ghat,"who still lived in Barisal town, was waiting at the ghat"
+E10,E1,-1,> (Preceded By),False,had tea at a stall that opened early,her father had walked to school every morning
+E10,E2,-1,> (Preceded By),False,had tea at a stall that opened early,had died there
+E10,E3,-1,> (Preceded By),False,had tea at a stall that opened early,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E10,E4,-1,> (Preceded By),False,had tea at a stall that opened early,She had made the arrangements quickly and quietly
+E10,E5,-1,> (Preceded By),False,had tea at a stall that opened early,the ferry docked at dawn
+E10,E6,-1,> (Preceded By),False,had tea at a stall that opened early,Soma had organized a small boat
+E10,E7,-1,> (Preceded By),False,had tea at a stall that opened early,Meera scattered the ashes
+E10,E8,-1,> (Preceded By),False,had tea at a stall that opened early,sat quietly for a long while
+E10,E9,-1,> (Preceded By),False,had tea at a stall that opened early,They returned to the ghat
+E10,E11,1,< (Precedes),False,had tea at a stall that opened early,Meera caught the afternoon ferry back to Dhaka
+E10,E12,1,< (Precedes),False,had tea at a stall that opened early,She was at her desk at work
+E10,E13,-1,> (Preceded By),False,had tea at a stall that opened early,Her father had lived in a flat in Mohammadpur for thirty-two years
+E10,E14,-1,> (Preceded By),False,had tea at a stall that opened early,"who still lived in Barisal town, was waiting at the ghat"
+E11,E1,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,her father had walked to school every morning
+E11,E2,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,had died there
+E11,E3,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E11,E4,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,She had made the arrangements quickly and quietly
+E11,E5,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,the ferry docked at dawn
+E11,E6,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,Soma had organized a small boat
+E11,E7,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,Meera scattered the ashes
+E11,E8,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,sat quietly for a long while
+E11,E9,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,They returned to the ghat
+E11,E10,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,had tea at a stall that opened early
+E11,E12,1,< (Precedes),False,Meera caught the afternoon ferry back to Dhaka,She was at her desk at work
+E11,E13,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,Her father had lived in a flat in Mohammadpur for thirty-two years
+E11,E14,-1,> (Preceded By),False,Meera caught the afternoon ferry back to Dhaka,"who still lived in Barisal town, was waiting at the ghat"
+E12,E1,-1,> (Preceded By),False,She was at her desk at work,her father had walked to school every morning
+E12,E2,-1,> (Preceded By),False,She was at her desk at work,had died there
+E12,E3,-1,> (Preceded By),False,She was at her desk at work,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E12,E4,-1,> (Preceded By),False,She was at her desk at work,She had made the arrangements quickly and quietly
+E12,E5,-1,> (Preceded By),False,She was at her desk at work,the ferry docked at dawn
+E12,E6,-1,> (Preceded By),False,She was at her desk at work,Soma had organized a small boat
+E12,E7,-1,> (Preceded By),False,She was at her desk at work,Meera scattered the ashes
+E12,E8,-1,> (Preceded By),False,She was at her desk at work,sat quietly for a long while
+E12,E9,-1,> (Preceded By),False,She was at her desk at work,They returned to the ghat
+E12,E10,-1,> (Preceded By),False,She was at her desk at work,had tea at a stall that opened early
+E12,E11,-1,> (Preceded By),False,She was at her desk at work,Meera caught the afternoon ferry back to Dhaka
+E12,E13,-1,> (Preceded By),False,She was at her desk at work,Her father had lived in a flat in Mohammadpur for thirty-two years
+E12,E14,-1,> (Preceded By),False,She was at her desk at work,"who still lived in Barisal town, was waiting at the ghat"
+E13,E1,-1,> (Preceded By),False,Her father had lived in a flat in Mohammadpur for thirty-two years,her father had walked to school every morning
+E13,E2,2,m (Meets),False,Her father had lived in a flat in Mohammadpur for thirty-two years,had died there
+E13,E3,5,d (During),False,Her father had lived in a flat in Mohammadpur for thirty-two years,Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E13,E4,1,< (Precedes),False,Her father had lived in a flat in Mohammadpur for thirty-two years,She had made the arrangements quickly and quietly
+E13,E5,1,< (Precedes),False,Her father had lived in a flat in Mohammadpur for thirty-two years,the ferry docked at dawn
+E13,E6,1,< (Precedes),False,Her father had lived in a flat in Mohammadpur for thirty-two years,Soma had organized a small boat
+E13,E7,1,< (Precedes),False,Her father had lived in a flat in Mohammadpur for thirty-two years,Meera scattered the ashes
+E13,E8,1,< (Precedes),False,Her father had lived in a flat in Mohammadpur for thirty-two years,sat quietly for a long while
+E13,E9,1,< (Precedes),False,Her father had lived in a flat in Mohammadpur for thirty-two years,They returned to the ghat
+E13,E10,1,< (Precedes),False,Her father had lived in a flat in Mohammadpur for thirty-two years,had tea at a stall that opened early
+E13,E11,1,< (Precedes),False,Her father had lived in a flat in Mohammadpur for thirty-two years,Meera caught the afternoon ferry back to Dhaka
+E13,E12,1,< (Precedes),False,Her father had lived in a flat in Mohammadpur for thirty-two years,She was at her desk at work
+E13,E14,1,< (Precedes),False,Her father had lived in a flat in Mohammadpur for thirty-two years,"who still lived in Barisal town, was waiting at the ghat"
+E14,E1,-1,> (Preceded By),False,"who still lived in Barisal town, was waiting at the ghat",her father had walked to school every morning
+E14,E2,-1,> (Preceded By),False,"who still lived in Barisal town, was waiting at the ghat",had died there
+E14,E3,-1,> (Preceded By),False,"who still lived in Barisal town, was waiting at the ghat",Meera had taken the ferry from Dhaka's Sadarghat terminal to Barisal
+E14,E4,-1,> (Preceded By),False,"who still lived in Barisal town, was waiting at the ghat",She had made the arrangements quickly and quietly
+E14,E5,2,m (Meets),False,"who still lived in Barisal town, was waiting at the ghat",the ferry docked at dawn
+E14,E6,-1,> (Preceded By),False,"who still lived in Barisal town, was waiting at the ghat",Soma had organized a small boat
+E14,E7,1,< (Precedes),False,"who still lived in Barisal town, was waiting at the ghat",Meera scattered the ashes
+E14,E8,1,< (Precedes),False,"who still lived in Barisal town, was waiting at the ghat",sat quietly for a long while
+E14,E9,1,< (Precedes),False,"who still lived in Barisal town, was waiting at the ghat",They returned to the ghat
+E14,E10,1,< (Precedes),False,"who still lived in Barisal town, was waiting at the ghat",had tea at a stall that opened early
+E14,E11,1,< (Precedes),False,"who still lived in Barisal town, was waiting at the ghat",Meera caught the afternoon ferry back to Dhaka
+E14,E12,1,< (Precedes),False,"who still lived in Barisal town, was waiting at the ghat",She was at her desk at work
+E14,E13,-1,> (Preceded By),False,"who still lived in Barisal town, was waiting at the ghat",Her father had lived in a flat in Mohammadpur for thirty-two years

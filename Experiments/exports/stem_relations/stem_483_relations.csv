@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,The first entry from the 1930s,the ferry had been running for eighty years
+E1,E3,1,< (Precedes),False,The first entry from the 1930s,The same family had owned it for seventy five
+E1,E4,1,< (Precedes),False,The first entry from the 1930s,The engine had been replaced twice
+E1,E5,1,< (Precedes),False,The first entry from the 1930s,the hull rebuilt once
+E1,E6,1,< (Precedes),False,The first entry from the 1930s,the islanders used a hovercraft
+E1,E7,1,< (Precedes),False,The first entry from the 1930s,broke down on the third day
+E1,E8,1,< (Precedes),False,The first entry from the 1930s,the grandson's wife went into labour
+E1,E9,1,< (Precedes),False,The first entry from the 1930s,the ferry was mid channel
+E1,E10,1,< (Precedes),False,The first entry from the 1930s,he turned back mid trip
+E1,E11,1,< (Precedes),False,The first entry from the 1930s,the baby was born on the island
+E1,E12,1,< (Precedes),False,The first entry from the 1930s,The next day's first crossing carried a midwife and a still warm placenta
+E1,E13,1,< (Precedes),False,The first entry from the 1930s,The most recent from last Tuesday
+E1,E14,4,s (Starts),False,The first entry from the 1930s,The winter ice closed the route
+E1,E15,1,< (Precedes),False,The first entry from the 1930s,The longest closure had lasted
+E1,E16,1,< (Precedes),False,The first entry from the 1930s,took forty five
+E2,E1,-4,si (Started By),False,the ferry had been running for eighty years,The first entry from the 1930s
+E2,E3,-6,fi (Finished By),False,the ferry had been running for eighty years,The same family had owned it for seventy five
+E2,E4,-5,di (Contains),False,the ferry had been running for eighty years,The engine had been replaced twice
+E2,E5,-5,di (Contains),False,the ferry had been running for eighty years,the hull rebuilt once
+E2,E6,-5,di (Contains),False,the ferry had been running for eighty years,the islanders used a hovercraft
+E2,E7,-5,di (Contains),False,the ferry had been running for eighty years,broke down on the third day
+E2,E8,-5,di (Contains),False,the ferry had been running for eighty years,the grandson's wife went into labour
+E2,E9,-5,di (Contains),False,the ferry had been running for eighty years,the ferry was mid channel
+E2,E10,-5,di (Contains),False,the ferry had been running for eighty years,he turned back mid trip
+E2,E11,-5,di (Contains),False,the ferry had been running for eighty years,the baby was born on the island
+E2,E12,-5,di (Contains),False,the ferry had been running for eighty years,The next day's first crossing carried a midwife and a still warm placenta
+E2,E13,-5,di (Contains),False,the ferry had been running for eighty years,The most recent from last Tuesday
+E2,E14,0,= (Equal),False,the ferry had been running for eighty years,The winter ice closed the route
+E2,E15,-5,di (Contains),False,the ferry had been running for eighty years,The longest closure had lasted
+E2,E16,-5,di (Contains),False,the ferry had been running for eighty years,took forty five
+E3,E1,-1,> (Preceded By),False,The same family had owned it for seventy five,The first entry from the 1930s
+E3,E2,6,f (Finishes),False,The same family had owned it for seventy five,the ferry had been running for eighty years
+E3,E4,-5,di (Contains),False,The same family had owned it for seventy five,The engine had been replaced twice
+E3,E5,-5,di (Contains),False,The same family had owned it for seventy five,the hull rebuilt once
+E3,E6,-5,di (Contains),False,The same family had owned it for seventy five,the islanders used a hovercraft
+E3,E7,-5,di (Contains),False,The same family had owned it for seventy five,broke down on the third day
+E3,E8,-5,di (Contains),False,The same family had owned it for seventy five,the grandson's wife went into labour
+E3,E9,-5,di (Contains),False,The same family had owned it for seventy five,the ferry was mid channel
+E3,E10,-5,di (Contains),False,The same family had owned it for seventy five,he turned back mid trip
+E3,E11,-5,di (Contains),False,The same family had owned it for seventy five,the baby was born on the island
+E3,E12,-5,di (Contains),False,The same family had owned it for seventy five,The next day's first crossing carried a midwife and a still warm placenta
+E3,E13,-5,di (Contains),False,The same family had owned it for seventy five,The most recent from last Tuesday
+E3,E14,6,f (Finishes),False,The same family had owned it for seventy five,The winter ice closed the route
+E3,E15,-5,di (Contains),False,The same family had owned it for seventy five,The longest closure had lasted
+E3,E16,-5,di (Contains),False,The same family had owned it for seventy five,took forty five
+E4,E1,-1,> (Preceded By),False,The engine had been replaced twice,The first entry from the 1930s
+E4,E2,5,d (During),False,The engine had been replaced twice,the ferry had been running for eighty years
+E4,E3,5,d (During),False,The engine had been replaced twice,The same family had owned it for seventy five
+E4,E5,1,< (Precedes),False,The engine had been replaced twice,the hull rebuilt once
+E4,E6,1,< (Precedes),False,The engine had been replaced twice,the islanders used a hovercraft
+E4,E7,1,< (Precedes),False,The engine had been replaced twice,broke down on the third day
+E4,E8,1,< (Precedes),False,The engine had been replaced twice,the grandson's wife went into labour
+E4,E9,1,< (Precedes),False,The engine had been replaced twice,the ferry was mid channel
+E4,E10,1,< (Precedes),False,The engine had been replaced twice,he turned back mid trip
+E4,E11,1,< (Precedes),False,The engine had been replaced twice,the baby was born on the island
+E4,E12,1,< (Precedes),False,The engine had been replaced twice,The next day's first crossing carried a midwife and a still warm placenta
+E4,E13,1,< (Precedes),False,The engine had been replaced twice,The most recent from last Tuesday
+E4,E14,5,d (During),False,The engine had been replaced twice,The winter ice closed the route
+E4,E15,1,< (Precedes),False,The engine had been replaced twice,The longest closure had lasted
+E4,E16,1,< (Precedes),False,The engine had been replaced twice,took forty five
+E5,E1,-1,> (Preceded By),False,the hull rebuilt once,The first entry from the 1930s
+E5,E2,5,d (During),False,the hull rebuilt once,the ferry had been running for eighty years
+E5,E3,5,d (During),False,the hull rebuilt once,The same family had owned it for seventy five
+E5,E4,-1,> (Preceded By),False,the hull rebuilt once,The engine had been replaced twice
+E5,E6,1,< (Precedes),False,the hull rebuilt once,the islanders used a hovercraft
+E5,E7,1,< (Precedes),False,the hull rebuilt once,broke down on the third day
+E5,E8,1,< (Precedes),False,the hull rebuilt once,the grandson's wife went into labour
+E5,E9,1,< (Precedes),False,the hull rebuilt once,the ferry was mid channel
+E5,E10,1,< (Precedes),False,the hull rebuilt once,he turned back mid trip
+E5,E11,1,< (Precedes),False,the hull rebuilt once,the baby was born on the island
+E5,E12,1,< (Precedes),False,the hull rebuilt once,The next day's first crossing carried a midwife and a still warm placenta
+E5,E13,1,< (Precedes),False,the hull rebuilt once,The most recent from last Tuesday
+E5,E14,5,d (During),False,the hull rebuilt once,The winter ice closed the route
+E5,E15,1,< (Precedes),False,the hull rebuilt once,The longest closure had lasted
+E5,E16,1,< (Precedes),False,the hull rebuilt once,took forty five
+E6,E1,-1,> (Preceded By),False,the islanders used a hovercraft,The first entry from the 1930s
+E6,E2,5,d (During),False,the islanders used a hovercraft,the ferry had been running for eighty years
+E6,E3,5,d (During),False,the islanders used a hovercraft,The same family had owned it for seventy five
+E6,E4,-1,> (Preceded By),False,the islanders used a hovercraft,The engine had been replaced twice
+E6,E5,-1,> (Preceded By),False,the islanders used a hovercraft,the hull rebuilt once
+E6,E7,-5,di (Contains),False,the islanders used a hovercraft,broke down on the third day
+E6,E8,1,< (Precedes),False,the islanders used a hovercraft,the grandson's wife went into labour
+E6,E9,1,< (Precedes),False,the islanders used a hovercraft,the ferry was mid channel
+E6,E10,1,< (Precedes),False,the islanders used a hovercraft,he turned back mid trip
+E6,E11,1,< (Precedes),False,the islanders used a hovercraft,the baby was born on the island
+E6,E12,1,< (Precedes),False,the islanders used a hovercraft,The next day's first crossing carried a midwife and a still warm placenta
+E6,E13,1,< (Precedes),False,the islanders used a hovercraft,The most recent from last Tuesday
+E6,E14,5,d (During),False,the islanders used a hovercraft,The winter ice closed the route
+E6,E15,0,= (Equal),False,the islanders used a hovercraft,The longest closure had lasted
+E6,E16,1,< (Precedes),False,the islanders used a hovercraft,took forty five
+E7,E1,-1,> (Preceded By),False,broke down on the third day,The first entry from the 1930s
+E7,E2,5,d (During),False,broke down on the third day,the ferry had been running for eighty years
+E7,E3,5,d (During),False,broke down on the third day,The same family had owned it for seventy five
+E7,E4,-1,> (Preceded By),False,broke down on the third day,The engine had been replaced twice
+E7,E5,-1,> (Preceded By),False,broke down on the third day,the hull rebuilt once
+E7,E6,5,d (During),False,broke down on the third day,the islanders used a hovercraft
+E7,E8,1,< (Precedes),False,broke down on the third day,the grandson's wife went into labour
+E7,E9,1,< (Precedes),False,broke down on the third day,the ferry was mid channel
+E7,E10,1,< (Precedes),False,broke down on the third day,he turned back mid trip
+E7,E11,1,< (Precedes),False,broke down on the third day,the baby was born on the island
+E7,E12,1,< (Precedes),False,broke down on the third day,The next day's first crossing carried a midwife and a still warm placenta
+E7,E13,1,< (Precedes),False,broke down on the third day,The most recent from last Tuesday
+E7,E14,5,d (During),False,broke down on the third day,The winter ice closed the route
+E7,E15,5,d (During),False,broke down on the third day,The longest closure had lasted
+E7,E16,1,< (Precedes),False,broke down on the third day,took forty five
+E8,E1,-1,> (Preceded By),False,the grandson's wife went into labour,The first entry from the 1930s
+E8,E2,5,d (During),False,the grandson's wife went into labour,the ferry had been running for eighty years
+E8,E3,5,d (During),False,the grandson's wife went into labour,The same family had owned it for seventy five
+E8,E4,-1,> (Preceded By),False,the grandson's wife went into labour,The engine had been replaced twice
+E8,E5,-1,> (Preceded By),False,the grandson's wife went into labour,the hull rebuilt once
+E8,E6,-1,> (Preceded By),False,the grandson's wife went into labour,the islanders used a hovercraft
+E8,E7,-1,> (Preceded By),False,the grandson's wife went into labour,broke down on the third day
+E8,E9,0,= (Equal),False,the grandson's wife went into labour,the ferry was mid channel
+E8,E10,2,m (Meets),False,the grandson's wife went into labour,he turned back mid trip
+E8,E11,1,< (Precedes),False,the grandson's wife went into labour,the baby was born on the island
+E8,E12,1,< (Precedes),False,the grandson's wife went into labour,The next day's first crossing carried a midwife and a still warm placenta
+E8,E13,1,< (Precedes),False,the grandson's wife went into labour,The most recent from last Tuesday
+E8,E14,5,d (During),False,the grandson's wife went into labour,The winter ice closed the route
+E8,E15,-1,> (Preceded By),False,the grandson's wife went into labour,The longest closure had lasted
+E8,E16,5,d (During),False,the grandson's wife went into labour,took forty five
+E9,E1,-1,> (Preceded By),False,the ferry was mid channel,The first entry from the 1930s
+E9,E2,5,d (During),False,the ferry was mid channel,the ferry had been running for eighty years
+E9,E3,5,d (During),False,the ferry was mid channel,The same family had owned it for seventy five
+E9,E4,-1,> (Preceded By),False,the ferry was mid channel,The engine had been replaced twice
+E9,E5,-1,> (Preceded By),False,the ferry was mid channel,the hull rebuilt once
+E9,E6,-1,> (Preceded By),False,the ferry was mid channel,the islanders used a hovercraft
+E9,E7,-1,> (Preceded By),False,the ferry was mid channel,broke down on the third day
+E9,E8,0,= (Equal),False,the ferry was mid channel,the grandson's wife went into labour
+E9,E10,2,m (Meets),False,the ferry was mid channel,he turned back mid trip
+E9,E11,1,< (Precedes),False,the ferry was mid channel,the baby was born on the island
+E9,E12,1,< (Precedes),False,the ferry was mid channel,The next day's first crossing carried a midwife and a still warm placenta
+E9,E13,1,< (Precedes),False,the ferry was mid channel,The most recent from last Tuesday
+E9,E14,5,d (During),False,the ferry was mid channel,The winter ice closed the route
+E9,E15,-1,> (Preceded By),False,the ferry was mid channel,The longest closure had lasted
+E9,E16,5,d (During),False,the ferry was mid channel,took forty five
+E10,E1,-1,> (Preceded By),False,he turned back mid trip,The first entry from the 1930s
+E10,E2,5,d (During),False,he turned back mid trip,the ferry had been running for eighty years
+E10,E3,5,d (During),False,he turned back mid trip,The same family had owned it for seventy five
+E10,E4,-1,> (Preceded By),False,he turned back mid trip,The engine had been replaced twice
+E10,E5,-1,> (Preceded By),False,he turned back mid trip,the hull rebuilt once
+E10,E6,-1,> (Preceded By),False,he turned back mid trip,the islanders used a hovercraft
+E10,E7,-1,> (Preceded By),False,he turned back mid trip,broke down on the third day
+E10,E8,-2,mi (Met By),False,he turned back mid trip,the grandson's wife went into labour
+E10,E9,-2,mi (Met By),False,he turned back mid trip,the ferry was mid channel
+E10,E11,1,< (Precedes),False,he turned back mid trip,the baby was born on the island
+E10,E12,1,< (Precedes),False,he turned back mid trip,The next day's first crossing carried a midwife and a still warm placenta
+E10,E13,1,< (Precedes),False,he turned back mid trip,The most recent from last Tuesday
+E10,E14,5,d (During),False,he turned back mid trip,The winter ice closed the route
+E10,E15,-1,> (Preceded By),False,he turned back mid trip,The longest closure had lasted
+E10,E16,5,d (During),False,he turned back mid trip,took forty five
+E11,E1,-1,> (Preceded By),False,the baby was born on the island,The first entry from the 1930s
+E11,E2,5,d (During),False,the baby was born on the island,the ferry had been running for eighty years
+E11,E3,5,d (During),False,the baby was born on the island,The same family had owned it for seventy five
+E11,E4,-1,> (Preceded By),False,the baby was born on the island,The engine had been replaced twice
+E11,E5,-1,> (Preceded By),False,the baby was born on the island,the hull rebuilt once
+E11,E6,-1,> (Preceded By),False,the baby was born on the island,the islanders used a hovercraft
+E11,E7,-1,> (Preceded By),False,the baby was born on the island,broke down on the third day
+E11,E8,-1,> (Preceded By),False,the baby was born on the island,the grandson's wife went into labour
+E11,E9,-1,> (Preceded By),False,the baby was born on the island,the ferry was mid channel
+E11,E10,-1,> (Preceded By),False,the baby was born on the island,he turned back mid trip
+E11,E12,1,< (Precedes),False,the baby was born on the island,The next day's first crossing carried a midwife and a still warm placenta
+E11,E13,1,< (Precedes),False,the baby was born on the island,The most recent from last Tuesday
+E11,E14,5,d (During),False,the baby was born on the island,The winter ice closed the route
+E11,E15,-1,> (Preceded By),False,the baby was born on the island,The longest closure had lasted
+E11,E16,-2,mi (Met By),False,the baby was born on the island,took forty five
+E12,E1,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,The first entry from the 1930s
+E12,E2,5,d (During),False,The next day's first crossing carried a midwife and a still warm placenta,the ferry had been running for eighty years
+E12,E3,5,d (During),False,The next day's first crossing carried a midwife and a still warm placenta,The same family had owned it for seventy five
+E12,E4,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,The engine had been replaced twice
+E12,E5,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,the hull rebuilt once
+E12,E6,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,the islanders used a hovercraft
+E12,E7,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,broke down on the third day
+E12,E8,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,the grandson's wife went into labour
+E12,E9,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,the ferry was mid channel
+E12,E10,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,he turned back mid trip
+E12,E11,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,the baby was born on the island
+E12,E13,1,< (Precedes),False,The next day's first crossing carried a midwife and a still warm placenta,The most recent from last Tuesday
+E12,E14,5,d (During),False,The next day's first crossing carried a midwife and a still warm placenta,The winter ice closed the route
+E12,E15,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,The longest closure had lasted
+E12,E16,-1,> (Preceded By),False,The next day's first crossing carried a midwife and a still warm placenta,took forty five
+E13,E1,-1,> (Preceded By),False,The most recent from last Tuesday,The first entry from the 1930s
+E13,E2,5,d (During),False,The most recent from last Tuesday,the ferry had been running for eighty years
+E13,E3,5,d (During),False,The most recent from last Tuesday,The same family had owned it for seventy five
+E13,E4,-1,> (Preceded By),False,The most recent from last Tuesday,The engine had been replaced twice
+E13,E5,-1,> (Preceded By),False,The most recent from last Tuesday,the hull rebuilt once
+E13,E6,-1,> (Preceded By),False,The most recent from last Tuesday,the islanders used a hovercraft
+E13,E7,-1,> (Preceded By),False,The most recent from last Tuesday,broke down on the third day
+E13,E8,-1,> (Preceded By),False,The most recent from last Tuesday,the grandson's wife went into labour
+E13,E9,-1,> (Preceded By),False,The most recent from last Tuesday,the ferry was mid channel
+E13,E10,-1,> (Preceded By),False,The most recent from last Tuesday,he turned back mid trip
+E13,E11,-1,> (Preceded By),False,The most recent from last Tuesday,the baby was born on the island
+E13,E12,-1,> (Preceded By),False,The most recent from last Tuesday,The next day's first crossing carried a midwife and a still warm placenta
+E13,E14,5,d (During),False,The most recent from last Tuesday,The winter ice closed the route
+E13,E15,-1,> (Preceded By),False,The most recent from last Tuesday,The longest closure had lasted
+E13,E16,-1,> (Preceded By),False,The most recent from last Tuesday,took forty five
+E14,E1,-4,si (Started By),False,The winter ice closed the route,The first entry from the 1930s
+E14,E2,0,= (Equal),False,The winter ice closed the route,the ferry had been running for eighty years
+E14,E3,-6,fi (Finished By),False,The winter ice closed the route,The same family had owned it for seventy five
+E14,E4,-5,di (Contains),False,The winter ice closed the route,The engine had been replaced twice
+E14,E5,-5,di (Contains),False,The winter ice closed the route,the hull rebuilt once
+E14,E6,-5,di (Contains),False,The winter ice closed the route,the islanders used a hovercraft
+E14,E7,-5,di (Contains),False,The winter ice closed the route,broke down on the third day
+E14,E8,-5,di (Contains),False,The winter ice closed the route,the grandson's wife went into labour
+E14,E9,-5,di (Contains),False,The winter ice closed the route,the ferry was mid channel
+E14,E10,-5,di (Contains),False,The winter ice closed the route,he turned back mid trip
+E14,E11,-5,di (Contains),False,The winter ice closed the route,the baby was born on the island
+E14,E12,-5,di (Contains),False,The winter ice closed the route,The next day's first crossing carried a midwife and a still warm placenta
+E14,E13,-5,di (Contains),False,The winter ice closed the route,The most recent from last Tuesday
+E14,E15,-5,di (Contains),False,The winter ice closed the route,The longest closure had lasted
+E14,E16,-5,di (Contains),False,The winter ice closed the route,took forty five
+E15,E1,-1,> (Preceded By),False,The longest closure had lasted,The first entry from the 1930s
+E15,E2,5,d (During),False,The longest closure had lasted,the ferry had been running for eighty years
+E15,E3,5,d (During),False,The longest closure had lasted,The same family had owned it for seventy five
+E15,E4,-1,> (Preceded By),False,The longest closure had lasted,The engine had been replaced twice
+E15,E5,-1,> (Preceded By),False,The longest closure had lasted,the hull rebuilt once
+E15,E6,0,= (Equal),False,The longest closure had lasted,the islanders used a hovercraft
+E15,E7,-5,di (Contains),False,The longest closure had lasted,broke down on the third day
+E15,E8,1,< (Precedes),False,The longest closure had lasted,the grandson's wife went into labour
+E15,E9,1,< (Precedes),False,The longest closure had lasted,the ferry was mid channel
+E15,E10,1,< (Precedes),False,The longest closure had lasted,he turned back mid trip
+E15,E11,1,< (Precedes),False,The longest closure had lasted,the baby was born on the island
+E15,E12,1,< (Precedes),False,The longest closure had lasted,The next day's first crossing carried a midwife and a still warm placenta
+E15,E13,1,< (Precedes),False,The longest closure had lasted,The most recent from last Tuesday
+E15,E14,5,d (During),False,The longest closure had lasted,The winter ice closed the route
+E15,E16,1,< (Precedes),False,The longest closure had lasted,took forty five
+E16,E1,-1,> (Preceded By),False,took forty five,The first entry from the 1930s
+E16,E2,5,d (During),False,took forty five,the ferry had been running for eighty years
+E16,E3,5,d (During),False,took forty five,The same family had owned it for seventy five
+E16,E4,-1,> (Preceded By),False,took forty five,The engine had been replaced twice
+E16,E5,-1,> (Preceded By),False,took forty five,the hull rebuilt once
+E16,E6,-1,> (Preceded By),False,took forty five,the islanders used a hovercraft
+E16,E7,-1,> (Preceded By),False,took forty five,broke down on the third day
+E16,E8,-5,di (Contains),False,took forty five,the grandson's wife went into labour
+E16,E9,-5,di (Contains),False,took forty five,the ferry was mid channel
+E16,E10,-5,di (Contains),False,took forty five,he turned back mid trip
+E16,E11,2,m (Meets),False,took forty five,the baby was born on the island
+E16,E12,1,< (Precedes),False,took forty five,The next day's first crossing carried a midwife and a still warm placenta
+E16,E13,1,< (Precedes),False,took forty five,The most recent from last Tuesday
+E16,E14,5,d (During),False,took forty five,The winter ice closed the route
+E16,E15,-1,> (Preceded By),False,took forty five,The longest closure had lasted

@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,worked in hospitality,joining the airline
+E1,E3,1,< (Precedes),False,worked in hospitality,worked as a flight attendant
+E1,E4,1,< (Precedes),False,worked in hospitality,airline suspended operations
+E1,E5,1,< (Precedes),False,worked in hospitality,heard about it
+E1,E6,1,< (Precedes),False,worked in hospitality,returned to Dhaka
+E1,E7,1,< (Precedes),False,worked in hospitality,service was officially halted
+E1,E8,1,< (Precedes),False,worked in hospitality,applied to several positions
+E1,E9,1,< (Precedes),False,worked in hospitality,took a temporary job as a customer service supervisor
+E1,E10,1,< (Precedes),False,worked in hospitality,received interview calls
+E1,E11,1,< (Precedes),False,worked in hospitality,first interview
+E1,E12,1,< (Precedes),False,worked in hospitality,"second, for a Malaysian airline, was held via video call"
+E1,E13,1,< (Precedes),False,worked in hospitality,received the Malaysia offer
+E1,E14,1,< (Precedes),False,worked in hospitality,accepted it
+E1,E15,1,< (Precedes),False,worked in hospitality,started training
+E1,E16,1,< (Precedes),False,worked in hospitality,had been on a layover in Cox's Bazar
+E1,E17,1,< (Precedes),False,worked in hospitality,a position a former colleague had connected her with
+E2,E1,-2,mi (Met By),False,joining the airline,worked in hospitality
+E2,E3,2,m (Meets),False,joining the airline,worked as a flight attendant
+E2,E4,1,< (Precedes),False,joining the airline,airline suspended operations
+E2,E5,1,< (Precedes),False,joining the airline,heard about it
+E2,E6,1,< (Precedes),False,joining the airline,returned to Dhaka
+E2,E7,1,< (Precedes),False,joining the airline,service was officially halted
+E2,E8,1,< (Precedes),False,joining the airline,applied to several positions
+E2,E9,1,< (Precedes),False,joining the airline,took a temporary job as a customer service supervisor
+E2,E10,1,< (Precedes),False,joining the airline,received interview calls
+E2,E11,1,< (Precedes),False,joining the airline,first interview
+E2,E12,1,< (Precedes),False,joining the airline,"second, for a Malaysian airline, was held via video call"
+E2,E13,1,< (Precedes),False,joining the airline,received the Malaysia offer
+E2,E14,1,< (Precedes),False,joining the airline,accepted it
+E2,E15,1,< (Precedes),False,joining the airline,started training
+E2,E16,1,< (Precedes),False,joining the airline,had been on a layover in Cox's Bazar
+E2,E17,1,< (Precedes),False,joining the airline,a position a former colleague had connected her with
+E3,E1,-1,> (Preceded By),False,worked as a flight attendant,worked in hospitality
+E3,E2,-2,mi (Met By),False,worked as a flight attendant,joining the airline
+E3,E4,2,m (Meets),False,worked as a flight attendant,airline suspended operations
+E3,E5,1,< (Precedes),False,worked as a flight attendant,heard about it
+E3,E6,1,< (Precedes),False,worked as a flight attendant,returned to Dhaka
+E3,E7,1,< (Precedes),False,worked as a flight attendant,service was officially halted
+E3,E8,1,< (Precedes),False,worked as a flight attendant,applied to several positions
+E3,E9,1,< (Precedes),False,worked as a flight attendant,took a temporary job as a customer service supervisor
+E3,E10,1,< (Precedes),False,worked as a flight attendant,received interview calls
+E3,E11,1,< (Precedes),False,worked as a flight attendant,first interview
+E3,E12,1,< (Precedes),False,worked as a flight attendant,"second, for a Malaysian airline, was held via video call"
+E3,E13,1,< (Precedes),False,worked as a flight attendant,received the Malaysia offer
+E3,E14,1,< (Precedes),False,worked as a flight attendant,accepted it
+E3,E15,1,< (Precedes),False,worked as a flight attendant,started training
+E3,E16,3,o (Overlaps),False,worked as a flight attendant,had been on a layover in Cox's Bazar
+E3,E17,1,< (Precedes),False,worked as a flight attendant,a position a former colleague had connected her with
+E4,E1,-1,> (Preceded By),False,airline suspended operations,worked in hospitality
+E4,E2,-1,> (Preceded By),False,airline suspended operations,joining the airline
+E4,E3,-2,mi (Met By),False,airline suspended operations,worked as a flight attendant
+E4,E5,2,m (Meets),False,airline suspended operations,heard about it
+E4,E6,1,< (Precedes),False,airline suspended operations,returned to Dhaka
+E4,E7,1,< (Precedes),False,airline suspended operations,service was officially halted
+E4,E8,1,< (Precedes),False,airline suspended operations,applied to several positions
+E4,E9,1,< (Precedes),False,airline suspended operations,took a temporary job as a customer service supervisor
+E4,E10,1,< (Precedes),False,airline suspended operations,received interview calls
+E4,E11,1,< (Precedes),False,airline suspended operations,first interview
+E4,E12,1,< (Precedes),False,airline suspended operations,"second, for a Malaysian airline, was held via video call"
+E4,E13,1,< (Precedes),False,airline suspended operations,received the Malaysia offer
+E4,E14,1,< (Precedes),False,airline suspended operations,accepted it
+E4,E15,1,< (Precedes),False,airline suspended operations,started training
+E4,E16,5,d (During),False,airline suspended operations,had been on a layover in Cox's Bazar
+E4,E17,1,< (Precedes),False,airline suspended operations,a position a former colleague had connected her with
+E5,E1,-1,> (Preceded By),False,heard about it,worked in hospitality
+E5,E2,-1,> (Preceded By),False,heard about it,joining the airline
+E5,E3,-1,> (Preceded By),False,heard about it,worked as a flight attendant
+E5,E4,-2,mi (Met By),False,heard about it,airline suspended operations
+E5,E6,1,< (Precedes),False,heard about it,returned to Dhaka
+E5,E7,1,< (Precedes),False,heard about it,service was officially halted
+E5,E8,1,< (Precedes),False,heard about it,applied to several positions
+E5,E9,1,< (Precedes),False,heard about it,took a temporary job as a customer service supervisor
+E5,E10,1,< (Precedes),False,heard about it,received interview calls
+E5,E11,1,< (Precedes),False,heard about it,first interview
+E5,E12,1,< (Precedes),False,heard about it,"second, for a Malaysian airline, was held via video call"
+E5,E13,1,< (Precedes),False,heard about it,received the Malaysia offer
+E5,E14,1,< (Precedes),False,heard about it,accepted it
+E5,E15,1,< (Precedes),False,heard about it,started training
+E5,E16,5,d (During),False,heard about it,had been on a layover in Cox's Bazar
+E5,E17,1,< (Precedes),False,heard about it,a position a former colleague had connected her with
+E6,E1,-1,> (Preceded By),False,returned to Dhaka,worked in hospitality
+E6,E2,-1,> (Preceded By),False,returned to Dhaka,joining the airline
+E6,E3,-1,> (Preceded By),False,returned to Dhaka,worked as a flight attendant
+E6,E4,-1,> (Preceded By),False,returned to Dhaka,airline suspended operations
+E6,E5,-1,> (Preceded By),False,returned to Dhaka,heard about it
+E6,E7,1,< (Precedes),False,returned to Dhaka,service was officially halted
+E6,E8,1,< (Precedes),False,returned to Dhaka,applied to several positions
+E6,E9,1,< (Precedes),False,returned to Dhaka,took a temporary job as a customer service supervisor
+E6,E10,1,< (Precedes),False,returned to Dhaka,received interview calls
+E6,E11,1,< (Precedes),False,returned to Dhaka,first interview
+E6,E12,1,< (Precedes),False,returned to Dhaka,"second, for a Malaysian airline, was held via video call"
+E6,E13,1,< (Precedes),False,returned to Dhaka,received the Malaysia offer
+E6,E14,1,< (Precedes),False,returned to Dhaka,accepted it
+E6,E15,1,< (Precedes),False,returned to Dhaka,started training
+E6,E16,-2,mi (Met By),False,returned to Dhaka,had been on a layover in Cox's Bazar
+E6,E17,1,< (Precedes),False,returned to Dhaka,a position a former colleague had connected her with
+E7,E1,-1,> (Preceded By),False,service was officially halted,worked in hospitality
+E7,E2,-1,> (Preceded By),False,service was officially halted,joining the airline
+E7,E3,-1,> (Preceded By),False,service was officially halted,worked as a flight attendant
+E7,E4,-1,> (Preceded By),False,service was officially halted,airline suspended operations
+E7,E5,-1,> (Preceded By),False,service was officially halted,heard about it
+E7,E6,-1,> (Preceded By),False,service was officially halted,returned to Dhaka
+E7,E8,2,m (Meets),False,service was officially halted,applied to several positions
+E7,E9,1,< (Precedes),False,service was officially halted,took a temporary job as a customer service supervisor
+E7,E10,1,< (Precedes),False,service was officially halted,received interview calls
+E7,E11,1,< (Precedes),False,service was officially halted,first interview
+E7,E12,1,< (Precedes),False,service was officially halted,"second, for a Malaysian airline, was held via video call"
+E7,E13,1,< (Precedes),False,service was officially halted,received the Malaysia offer
+E7,E14,1,< (Precedes),False,service was officially halted,accepted it
+E7,E15,1,< (Precedes),False,service was officially halted,started training
+E7,E16,-1,> (Preceded By),False,service was officially halted,had been on a layover in Cox's Bazar
+E7,E17,1,< (Precedes),False,service was officially halted,a position a former colleague had connected her with
+E8,E1,-1,> (Preceded By),False,applied to several positions,worked in hospitality
+E8,E2,-1,> (Preceded By),False,applied to several positions,joining the airline
+E8,E3,-1,> (Preceded By),False,applied to several positions,worked as a flight attendant
+E8,E4,-1,> (Preceded By),False,applied to several positions,airline suspended operations
+E8,E5,-1,> (Preceded By),False,applied to several positions,heard about it
+E8,E6,-1,> (Preceded By),False,applied to several positions,returned to Dhaka
+E8,E7,-2,mi (Met By),False,applied to several positions,service was officially halted
+E8,E9,2,m (Meets),False,applied to several positions,took a temporary job as a customer service supervisor
+E8,E10,1,< (Precedes),False,applied to several positions,received interview calls
+E8,E11,1,< (Precedes),False,applied to several positions,first interview
+E8,E12,1,< (Precedes),False,applied to several positions,"second, for a Malaysian airline, was held via video call"
+E8,E13,1,< (Precedes),False,applied to several positions,received the Malaysia offer
+E8,E14,1,< (Precedes),False,applied to several positions,accepted it
+E8,E15,1,< (Precedes),False,applied to several positions,started training
+E8,E16,-1,> (Preceded By),False,applied to several positions,had been on a layover in Cox's Bazar
+E8,E17,-5,di (Contains),False,applied to several positions,a position a former colleague had connected her with
+E9,E1,-1,> (Preceded By),False,took a temporary job as a customer service supervisor,worked in hospitality
+E9,E2,-1,> (Preceded By),False,took a temporary job as a customer service supervisor,joining the airline
+E9,E3,-1,> (Preceded By),False,took a temporary job as a customer service supervisor,worked as a flight attendant
+E9,E4,-1,> (Preceded By),False,took a temporary job as a customer service supervisor,airline suspended operations
+E9,E5,-1,> (Preceded By),False,took a temporary job as a customer service supervisor,heard about it
+E9,E6,-1,> (Preceded By),False,took a temporary job as a customer service supervisor,returned to Dhaka
+E9,E7,-1,> (Preceded By),False,took a temporary job as a customer service supervisor,service was officially halted
+E9,E8,-2,mi (Met By),False,took a temporary job as a customer service supervisor,applied to several positions
+E9,E10,1,< (Precedes),False,took a temporary job as a customer service supervisor,received interview calls
+E9,E11,1,< (Precedes),False,took a temporary job as a customer service supervisor,first interview
+E9,E12,1,< (Precedes),False,took a temporary job as a customer service supervisor,"second, for a Malaysian airline, was held via video call"
+E9,E13,1,< (Precedes),False,took a temporary job as a customer service supervisor,received the Malaysia offer
+E9,E14,1,< (Precedes),False,took a temporary job as a customer service supervisor,accepted it
+E9,E15,1,< (Precedes),False,took a temporary job as a customer service supervisor,started training
+E9,E16,-1,> (Preceded By),False,took a temporary job as a customer service supervisor,had been on a layover in Cox's Bazar
+E9,E17,-1,> (Preceded By),False,took a temporary job as a customer service supervisor,a position a former colleague had connected her with
+E10,E1,-1,> (Preceded By),False,received interview calls,worked in hospitality
+E10,E2,-1,> (Preceded By),False,received interview calls,joining the airline
+E10,E3,-1,> (Preceded By),False,received interview calls,worked as a flight attendant
+E10,E4,-1,> (Preceded By),False,received interview calls,airline suspended operations
+E10,E5,-1,> (Preceded By),False,received interview calls,heard about it
+E10,E6,-1,> (Preceded By),False,received interview calls,returned to Dhaka
+E10,E7,-1,> (Preceded By),False,received interview calls,service was officially halted
+E10,E8,-1,> (Preceded By),False,received interview calls,applied to several positions
+E10,E9,-1,> (Preceded By),False,received interview calls,took a temporary job as a customer service supervisor
+E10,E11,1,< (Precedes),False,received interview calls,first interview
+E10,E12,1,< (Precedes),False,received interview calls,"second, for a Malaysian airline, was held via video call"
+E10,E13,1,< (Precedes),False,received interview calls,received the Malaysia offer
+E10,E14,1,< (Precedes),False,received interview calls,accepted it
+E10,E15,1,< (Precedes),False,received interview calls,started training
+E10,E16,-1,> (Preceded By),False,received interview calls,had been on a layover in Cox's Bazar
+E10,E17,-1,> (Preceded By),False,received interview calls,a position a former colleague had connected her with
+E11,E1,-1,> (Preceded By),False,first interview,worked in hospitality
+E11,E2,-1,> (Preceded By),False,first interview,joining the airline
+E11,E3,-1,> (Preceded By),False,first interview,worked as a flight attendant
+E11,E4,-1,> (Preceded By),False,first interview,airline suspended operations
+E11,E5,-1,> (Preceded By),False,first interview,heard about it
+E11,E6,-1,> (Preceded By),False,first interview,returned to Dhaka
+E11,E7,-1,> (Preceded By),False,first interview,service was officially halted
+E11,E8,-1,> (Preceded By),False,first interview,applied to several positions
+E11,E9,-1,> (Preceded By),False,first interview,took a temporary job as a customer service supervisor
+E11,E10,-1,> (Preceded By),False,first interview,received interview calls
+E11,E12,1,< (Precedes),False,first interview,"second, for a Malaysian airline, was held via video call"
+E11,E13,1,< (Precedes),False,first interview,received the Malaysia offer
+E11,E14,1,< (Precedes),False,first interview,accepted it
+E11,E15,1,< (Precedes),False,first interview,started training
+E11,E16,-1,> (Preceded By),False,first interview,had been on a layover in Cox's Bazar
+E11,E17,-1,> (Preceded By),False,first interview,a position a former colleague had connected her with
+E12,E1,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",worked in hospitality
+E12,E2,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",joining the airline
+E12,E3,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",worked as a flight attendant
+E12,E4,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",airline suspended operations
+E12,E5,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",heard about it
+E12,E6,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",returned to Dhaka
+E12,E7,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",service was officially halted
+E12,E8,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",applied to several positions
+E12,E9,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",took a temporary job as a customer service supervisor
+E12,E10,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",received interview calls
+E12,E11,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",first interview
+E12,E13,1,< (Precedes),False,"second, for a Malaysian airline, was held via video call",received the Malaysia offer
+E12,E14,1,< (Precedes),False,"second, for a Malaysian airline, was held via video call",accepted it
+E12,E15,1,< (Precedes),False,"second, for a Malaysian airline, was held via video call",started training
+E12,E16,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",had been on a layover in Cox's Bazar
+E12,E17,-1,> (Preceded By),False,"second, for a Malaysian airline, was held via video call",a position a former colleague had connected her with
+E13,E1,-1,> (Preceded By),False,received the Malaysia offer,worked in hospitality
+E13,E2,-1,> (Preceded By),False,received the Malaysia offer,joining the airline
+E13,E3,-1,> (Preceded By),False,received the Malaysia offer,worked as a flight attendant
+E13,E4,-1,> (Preceded By),False,received the Malaysia offer,airline suspended operations
+E13,E5,-1,> (Preceded By),False,received the Malaysia offer,heard about it
+E13,E6,-1,> (Preceded By),False,received the Malaysia offer,returned to Dhaka
+E13,E7,-1,> (Preceded By),False,received the Malaysia offer,service was officially halted
+E13,E8,-1,> (Preceded By),False,received the Malaysia offer,applied to several positions
+E13,E9,-1,> (Preceded By),False,received the Malaysia offer,took a temporary job as a customer service supervisor
+E13,E10,-1,> (Preceded By),False,received the Malaysia offer,received interview calls
+E13,E11,-1,> (Preceded By),False,received the Malaysia offer,first interview
+E13,E12,-1,> (Preceded By),False,received the Malaysia offer,"second, for a Malaysian airline, was held via video call"
+E13,E14,1,< (Precedes),False,received the Malaysia offer,accepted it
+E13,E15,1,< (Precedes),False,received the Malaysia offer,started training
+E13,E16,-1,> (Preceded By),False,received the Malaysia offer,had been on a layover in Cox's Bazar
+E13,E17,-1,> (Preceded By),False,received the Malaysia offer,a position a former colleague had connected her with
+E14,E1,-1,> (Preceded By),False,accepted it,worked in hospitality
+E14,E2,-1,> (Preceded By),False,accepted it,joining the airline
+E14,E3,-1,> (Preceded By),False,accepted it,worked as a flight attendant
+E14,E4,-1,> (Preceded By),False,accepted it,airline suspended operations
+E14,E5,-1,> (Preceded By),False,accepted it,heard about it
+E14,E6,-1,> (Preceded By),False,accepted it,returned to Dhaka
+E14,E7,-1,> (Preceded By),False,accepted it,service was officially halted
+E14,E8,-1,> (Preceded By),False,accepted it,applied to several positions
+E14,E9,-1,> (Preceded By),False,accepted it,took a temporary job as a customer service supervisor
+E14,E10,-1,> (Preceded By),False,accepted it,received interview calls
+E14,E11,-1,> (Preceded By),False,accepted it,first interview
+E14,E12,-1,> (Preceded By),False,accepted it,"second, for a Malaysian airline, was held via video call"
+E14,E13,-1,> (Preceded By),False,accepted it,received the Malaysia offer
+E14,E15,1,< (Precedes),False,accepted it,started training
+E14,E16,-1,> (Preceded By),False,accepted it,had been on a layover in Cox's Bazar
+E14,E17,-1,> (Preceded By),False,accepted it,a position a former colleague had connected her with
+E15,E1,-1,> (Preceded By),False,started training,worked in hospitality
+E15,E2,-1,> (Preceded By),False,started training,joining the airline
+E15,E3,-1,> (Preceded By),False,started training,worked as a flight attendant
+E15,E4,-1,> (Preceded By),False,started training,airline suspended operations
+E15,E5,-1,> (Preceded By),False,started training,heard about it
+E15,E6,-1,> (Preceded By),False,started training,returned to Dhaka
+E15,E7,-1,> (Preceded By),False,started training,service was officially halted
+E15,E8,-1,> (Preceded By),False,started training,applied to several positions
+E15,E9,-1,> (Preceded By),False,started training,took a temporary job as a customer service supervisor
+E15,E10,-1,> (Preceded By),False,started training,received interview calls
+E15,E11,-1,> (Preceded By),False,started training,first interview
+E15,E12,-1,> (Preceded By),False,started training,"second, for a Malaysian airline, was held via video call"
+E15,E13,-1,> (Preceded By),False,started training,received the Malaysia offer
+E15,E14,-1,> (Preceded By),False,started training,accepted it
+E15,E16,-1,> (Preceded By),False,started training,had been on a layover in Cox's Bazar
+E15,E17,-1,> (Preceded By),False,started training,a position a former colleague had connected her with
+E16,E1,-1,> (Preceded By),False,had been on a layover in Cox's Bazar,worked in hospitality
+E16,E2,-1,> (Preceded By),False,had been on a layover in Cox's Bazar,joining the airline
+E16,E3,-3,oi (Overlapped By),False,had been on a layover in Cox's Bazar,worked as a flight attendant
+E16,E4,-5,di (Contains),False,had been on a layover in Cox's Bazar,airline suspended operations
+E16,E5,-5,di (Contains),False,had been on a layover in Cox's Bazar,heard about it
+E16,E6,2,m (Meets),False,had been on a layover in Cox's Bazar,returned to Dhaka
+E16,E7,1,< (Precedes),False,had been on a layover in Cox's Bazar,service was officially halted
+E16,E8,1,< (Precedes),False,had been on a layover in Cox's Bazar,applied to several positions
+E16,E9,1,< (Precedes),False,had been on a layover in Cox's Bazar,took a temporary job as a customer service supervisor
+E16,E10,1,< (Precedes),False,had been on a layover in Cox's Bazar,received interview calls
+E16,E11,1,< (Precedes),False,had been on a layover in Cox's Bazar,first interview
+E16,E12,1,< (Precedes),False,had been on a layover in Cox's Bazar,"second, for a Malaysian airline, was held via video call"
+E16,E13,1,< (Precedes),False,had been on a layover in Cox's Bazar,received the Malaysia offer
+E16,E14,1,< (Precedes),False,had been on a layover in Cox's Bazar,accepted it
+E16,E15,1,< (Precedes),False,had been on a layover in Cox's Bazar,started training
+E16,E17,1,< (Precedes),False,had been on a layover in Cox's Bazar,a position a former colleague had connected her with
+E17,E1,-1,> (Preceded By),False,a position a former colleague had connected her with,worked in hospitality
+E17,E2,-1,> (Preceded By),False,a position a former colleague had connected her with,joining the airline
+E17,E3,-1,> (Preceded By),False,a position a former colleague had connected her with,worked as a flight attendant
+E17,E4,-1,> (Preceded By),False,a position a former colleague had connected her with,airline suspended operations
+E17,E5,-1,> (Preceded By),False,a position a former colleague had connected her with,heard about it
+E17,E6,-1,> (Preceded By),False,a position a former colleague had connected her with,returned to Dhaka
+E17,E7,-1,> (Preceded By),False,a position a former colleague had connected her with,service was officially halted
+E17,E8,5,d (During),False,a position a former colleague had connected her with,applied to several positions
+E17,E9,1,< (Precedes),False,a position a former colleague had connected her with,took a temporary job as a customer service supervisor
+E17,E10,1,< (Precedes),False,a position a former colleague had connected her with,received interview calls
+E17,E11,1,< (Precedes),False,a position a former colleague had connected her with,first interview
+E17,E12,1,< (Precedes),False,a position a former colleague had connected her with,"second, for a Malaysian airline, was held via video call"
+E17,E13,1,< (Precedes),False,a position a former colleague had connected her with,received the Malaysia offer
+E17,E14,1,< (Precedes),False,a position a former colleague had connected her with,accepted it
+E17,E15,1,< (Precedes),False,a position a former colleague had connected her with,started training
+E17,E16,-1,> (Preceded By),False,a position a former colleague had connected her with,had been on a layover in Cox's Bazar

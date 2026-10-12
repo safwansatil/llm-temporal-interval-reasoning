@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,partnering with Sabbir
+E1,E3,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,Sabbir agreed to manage the dealership’s marketing
+E1,E4,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,Sabbir launched a digital campaign
+E1,E5,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,Mr. Amzad handled physical inventory
+E1,E6,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,Sabbir had to pause his daily monitoring
+E1,E7,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,Mr. Amzad took over the digital campaign
+E1,E8,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,Sabbir’s exams concluded
+E1,E9,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,he returned to his original two-hour marketing routine
+E1,E10,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,successfully sold their highest volume of the season
+E1,E11,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,closing five sales within a single forty-eight-hour window
+E1,E12,1,< (Precedes),False,finished his first semester at the Institute of Business Administration,took two hours daily
+E2,E1,-1,> (Preceded By),False,partnering with Sabbir,finished his first semester at the Institute of Business Administration
+E2,E3,-4,si (Started By),False,partnering with Sabbir,Sabbir agreed to manage the dealership’s marketing
+E2,E4,-5,di (Contains),False,partnering with Sabbir,Sabbir launched a digital campaign
+E2,E5,0,= (Equal),False,partnering with Sabbir,Mr. Amzad handled physical inventory
+E2,E6,-5,di (Contains),False,partnering with Sabbir,Sabbir had to pause his daily monitoring
+E2,E7,-5,di (Contains),False,partnering with Sabbir,Mr. Amzad took over the digital campaign
+E2,E8,-5,di (Contains),False,partnering with Sabbir,Sabbir’s exams concluded
+E2,E9,-6,fi (Finished By),False,partnering with Sabbir,he returned to his original two-hour marketing routine
+E2,E10,-5,di (Contains),False,partnering with Sabbir,successfully sold their highest volume of the season
+E2,E11,-5,di (Contains),False,partnering with Sabbir,closing five sales within a single forty-eight-hour window
+E2,E12,-4,si (Started By),False,partnering with Sabbir,took two hours daily
+E3,E1,-1,> (Preceded By),False,Sabbir agreed to manage the dealership’s marketing,finished his first semester at the Institute of Business Administration
+E3,E2,4,s (Starts),False,Sabbir agreed to manage the dealership’s marketing,partnering with Sabbir
+E3,E4,1,< (Precedes),False,Sabbir agreed to manage the dealership’s marketing,Sabbir launched a digital campaign
+E3,E5,4,s (Starts),False,Sabbir agreed to manage the dealership’s marketing,Mr. Amzad handled physical inventory
+E3,E6,1,< (Precedes),False,Sabbir agreed to manage the dealership’s marketing,Sabbir had to pause his daily monitoring
+E3,E7,1,< (Precedes),False,Sabbir agreed to manage the dealership’s marketing,Mr. Amzad took over the digital campaign
+E3,E8,1,< (Precedes),False,Sabbir agreed to manage the dealership’s marketing,Sabbir’s exams concluded
+E3,E9,1,< (Precedes),False,Sabbir agreed to manage the dealership’s marketing,he returned to his original two-hour marketing routine
+E3,E10,1,< (Precedes),False,Sabbir agreed to manage the dealership’s marketing,successfully sold their highest volume of the season
+E3,E11,1,< (Precedes),False,Sabbir agreed to manage the dealership’s marketing,closing five sales within a single forty-eight-hour window
+E3,E12,4,s (Starts),False,Sabbir agreed to manage the dealership’s marketing,took two hours daily
+E4,E1,-1,> (Preceded By),False,Sabbir launched a digital campaign,finished his first semester at the Institute of Business Administration
+E4,E2,5,d (During),False,Sabbir launched a digital campaign,partnering with Sabbir
+E4,E3,-1,> (Preceded By),False,Sabbir launched a digital campaign,Sabbir agreed to manage the dealership’s marketing
+E4,E5,5,d (During),False,Sabbir launched a digital campaign,Mr. Amzad handled physical inventory
+E4,E6,1,< (Precedes),False,Sabbir launched a digital campaign,Sabbir had to pause his daily monitoring
+E4,E7,1,< (Precedes),False,Sabbir launched a digital campaign,Mr. Amzad took over the digital campaign
+E4,E8,1,< (Precedes),False,Sabbir launched a digital campaign,Sabbir’s exams concluded
+E4,E9,1,< (Precedes),False,Sabbir launched a digital campaign,he returned to his original two-hour marketing routine
+E4,E10,1,< (Precedes),False,Sabbir launched a digital campaign,successfully sold their highest volume of the season
+E4,E11,1,< (Precedes),False,Sabbir launched a digital campaign,closing five sales within a single forty-eight-hour window
+E4,E12,5,d (During),False,Sabbir launched a digital campaign,took two hours daily
+E5,E1,-1,> (Preceded By),False,Mr. Amzad handled physical inventory,finished his first semester at the Institute of Business Administration
+E5,E2,0,= (Equal),False,Mr. Amzad handled physical inventory,partnering with Sabbir
+E5,E3,-4,si (Started By),False,Mr. Amzad handled physical inventory,Sabbir agreed to manage the dealership’s marketing
+E5,E4,-5,di (Contains),False,Mr. Amzad handled physical inventory,Sabbir launched a digital campaign
+E5,E6,-5,di (Contains),False,Mr. Amzad handled physical inventory,Sabbir had to pause his daily monitoring
+E5,E7,-5,di (Contains),False,Mr. Amzad handled physical inventory,Mr. Amzad took over the digital campaign
+E5,E8,-5,di (Contains),False,Mr. Amzad handled physical inventory,Sabbir’s exams concluded
+E5,E9,-6,fi (Finished By),False,Mr. Amzad handled physical inventory,he returned to his original two-hour marketing routine
+E5,E10,-5,di (Contains),False,Mr. Amzad handled physical inventory,successfully sold their highest volume of the season
+E5,E11,-5,di (Contains),False,Mr. Amzad handled physical inventory,closing five sales within a single forty-eight-hour window
+E5,E12,-4,si (Started By),False,Mr. Amzad handled physical inventory,took two hours daily
+E6,E1,-1,> (Preceded By),False,Sabbir had to pause his daily monitoring,finished his first semester at the Institute of Business Administration
+E6,E2,5,d (During),False,Sabbir had to pause his daily monitoring,partnering with Sabbir
+E6,E3,-1,> (Preceded By),False,Sabbir had to pause his daily monitoring,Sabbir agreed to manage the dealership’s marketing
+E6,E4,-1,> (Preceded By),False,Sabbir had to pause his daily monitoring,Sabbir launched a digital campaign
+E6,E5,5,d (During),False,Sabbir had to pause his daily monitoring,Mr. Amzad handled physical inventory
+E6,E7,0,= (Equal),False,Sabbir had to pause his daily monitoring,Mr. Amzad took over the digital campaign
+E6,E8,2,m (Meets),False,Sabbir had to pause his daily monitoring,Sabbir’s exams concluded
+E6,E9,2,m (Meets),False,Sabbir had to pause his daily monitoring,he returned to his original two-hour marketing routine
+E6,E10,1,< (Precedes),False,Sabbir had to pause his daily monitoring,successfully sold their highest volume of the season
+E6,E11,1,< (Precedes),False,Sabbir had to pause his daily monitoring,closing five sales within a single forty-eight-hour window
+E6,E12,-2,mi (Met By),False,Sabbir had to pause his daily monitoring,took two hours daily
+E7,E1,-1,> (Preceded By),False,Mr. Amzad took over the digital campaign,finished his first semester at the Institute of Business Administration
+E7,E2,5,d (During),False,Mr. Amzad took over the digital campaign,partnering with Sabbir
+E7,E3,-1,> (Preceded By),False,Mr. Amzad took over the digital campaign,Sabbir agreed to manage the dealership’s marketing
+E7,E4,-1,> (Preceded By),False,Mr. Amzad took over the digital campaign,Sabbir launched a digital campaign
+E7,E5,5,d (During),False,Mr. Amzad took over the digital campaign,Mr. Amzad handled physical inventory
+E7,E6,0,= (Equal),False,Mr. Amzad took over the digital campaign,Sabbir had to pause his daily monitoring
+E7,E8,2,m (Meets),False,Mr. Amzad took over the digital campaign,Sabbir’s exams concluded
+E7,E9,2,m (Meets),False,Mr. Amzad took over the digital campaign,he returned to his original two-hour marketing routine
+E7,E10,1,< (Precedes),False,Mr. Amzad took over the digital campaign,successfully sold their highest volume of the season
+E7,E11,1,< (Precedes),False,Mr. Amzad took over the digital campaign,closing five sales within a single forty-eight-hour window
+E7,E12,-2,mi (Met By),False,Mr. Amzad took over the digital campaign,took two hours daily
+E8,E1,-1,> (Preceded By),False,Sabbir’s exams concluded,finished his first semester at the Institute of Business Administration
+E8,E2,5,d (During),False,Sabbir’s exams concluded,partnering with Sabbir
+E8,E3,-1,> (Preceded By),False,Sabbir’s exams concluded,Sabbir agreed to manage the dealership’s marketing
+E8,E4,-1,> (Preceded By),False,Sabbir’s exams concluded,Sabbir launched a digital campaign
+E8,E5,5,d (During),False,Sabbir’s exams concluded,Mr. Amzad handled physical inventory
+E8,E6,-2,mi (Met By),False,Sabbir’s exams concluded,Sabbir had to pause his daily monitoring
+E8,E7,-2,mi (Met By),False,Sabbir’s exams concluded,Mr. Amzad took over the digital campaign
+E8,E9,4,s (Starts),False,Sabbir’s exams concluded,he returned to his original two-hour marketing routine
+E8,E10,1,< (Precedes),False,Sabbir’s exams concluded,successfully sold their highest volume of the season
+E8,E11,1,< (Precedes),False,Sabbir’s exams concluded,closing five sales within a single forty-eight-hour window
+E8,E12,-1,> (Preceded By),False,Sabbir’s exams concluded,took two hours daily
+E9,E1,-1,> (Preceded By),False,he returned to his original two-hour marketing routine,finished his first semester at the Institute of Business Administration
+E9,E2,6,f (Finishes),False,he returned to his original two-hour marketing routine,partnering with Sabbir
+E9,E3,-1,> (Preceded By),False,he returned to his original two-hour marketing routine,Sabbir agreed to manage the dealership’s marketing
+E9,E4,-1,> (Preceded By),False,he returned to his original two-hour marketing routine,Sabbir launched a digital campaign
+E9,E5,6,f (Finishes),False,he returned to his original two-hour marketing routine,Mr. Amzad handled physical inventory
+E9,E6,-2,mi (Met By),False,he returned to his original two-hour marketing routine,Sabbir had to pause his daily monitoring
+E9,E7,-2,mi (Met By),False,he returned to his original two-hour marketing routine,Mr. Amzad took over the digital campaign
+E9,E8,-4,si (Started By),False,he returned to his original two-hour marketing routine,Sabbir’s exams concluded
+E9,E10,-5,di (Contains),False,he returned to his original two-hour marketing routine,successfully sold their highest volume of the season
+E9,E11,-5,di (Contains),False,he returned to his original two-hour marketing routine,closing five sales within a single forty-eight-hour window
+E9,E12,-1,> (Preceded By),False,he returned to his original two-hour marketing routine,took two hours daily
+E10,E1,-1,> (Preceded By),False,successfully sold their highest volume of the season,finished his first semester at the Institute of Business Administration
+E10,E2,5,d (During),False,successfully sold their highest volume of the season,partnering with Sabbir
+E10,E3,-1,> (Preceded By),False,successfully sold their highest volume of the season,Sabbir agreed to manage the dealership’s marketing
+E10,E4,-1,> (Preceded By),False,successfully sold their highest volume of the season,Sabbir launched a digital campaign
+E10,E5,5,d (During),False,successfully sold their highest volume of the season,Mr. Amzad handled physical inventory
+E10,E6,-1,> (Preceded By),False,successfully sold their highest volume of the season,Sabbir had to pause his daily monitoring
+E10,E7,-1,> (Preceded By),False,successfully sold their highest volume of the season,Mr. Amzad took over the digital campaign
+E10,E8,-1,> (Preceded By),False,successfully sold their highest volume of the season,Sabbir’s exams concluded
+E10,E9,5,d (During),False,successfully sold their highest volume of the season,he returned to his original two-hour marketing routine
+E10,E11,0,= (Equal),False,successfully sold their highest volume of the season,closing five sales within a single forty-eight-hour window
+E10,E12,-1,> (Preceded By),False,successfully sold their highest volume of the season,took two hours daily
+E11,E1,-1,> (Preceded By),False,closing five sales within a single forty-eight-hour window,finished his first semester at the Institute of Business Administration
+E11,E2,5,d (During),False,closing five sales within a single forty-eight-hour window,partnering with Sabbir
+E11,E3,-1,> (Preceded By),False,closing five sales within a single forty-eight-hour window,Sabbir agreed to manage the dealership’s marketing
+E11,E4,-1,> (Preceded By),False,closing five sales within a single forty-eight-hour window,Sabbir launched a digital campaign
+E11,E5,5,d (During),False,closing five sales within a single forty-eight-hour window,Mr. Amzad handled physical inventory
+E11,E6,-1,> (Preceded By),False,closing five sales within a single forty-eight-hour window,Sabbir had to pause his daily monitoring
+E11,E7,-1,> (Preceded By),False,closing five sales within a single forty-eight-hour window,Mr. Amzad took over the digital campaign
+E11,E8,-1,> (Preceded By),False,closing five sales within a single forty-eight-hour window,Sabbir’s exams concluded
+E11,E9,5,d (During),False,closing five sales within a single forty-eight-hour window,he returned to his original two-hour marketing routine
+E11,E10,0,= (Equal),False,closing five sales within a single forty-eight-hour window,successfully sold their highest volume of the season
+E11,E12,-1,> (Preceded By),False,closing five sales within a single forty-eight-hour window,took two hours daily
+E12,E1,-1,> (Preceded By),False,took two hours daily,finished his first semester at the Institute of Business Administration
+E12,E2,4,s (Starts),False,took two hours daily,partnering with Sabbir
+E12,E3,-4,si (Started By),False,took two hours daily,Sabbir agreed to manage the dealership’s marketing
+E12,E4,-5,di (Contains),False,took two hours daily,Sabbir launched a digital campaign
+E12,E5,4,s (Starts),False,took two hours daily,Mr. Amzad handled physical inventory
+E12,E6,2,m (Meets),False,took two hours daily,Sabbir had to pause his daily monitoring
+E12,E7,2,m (Meets),False,took two hours daily,Mr. Amzad took over the digital campaign
+E12,E8,1,< (Precedes),False,took two hours daily,Sabbir’s exams concluded
+E12,E9,1,< (Precedes),False,took two hours daily,he returned to his original two-hour marketing routine
+E12,E10,1,< (Precedes),False,took two hours daily,successfully sold their highest volume of the season
+E12,E11,1,< (Precedes),False,took two hours daily,closing five sales within a single forty-eight-hour window

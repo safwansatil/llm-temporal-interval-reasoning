@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,cracked the earthen flood embankment,The breach widened
+E1,E3,1,< (Precedes),False,cracked the earthen flood embankment,Local volunteers mobilized
+E1,E4,1,< (Precedes),False,cracked the earthen flood embankment,arriving with sandbags
+E1,E5,1,< (Precedes),False,cracked the earthen flood embankment,The first containment ring of sandbags took three hours to place
+E1,E6,1,< (Precedes),False,cracked the earthen flood embankment,shifting currents washed away half the barrier
+E1,E7,1,< (Precedes),False,cracked the earthen flood embankment,An earth-moving backhoe arrived
+E1,E8,1,< (Precedes),False,cracked the earthen flood embankment,working concurrently with manual laborers
+E1,E9,1,< (Precedes),False,cracked the earthen flood embankment,Water completely stopped rushing into the agricultural fields
+E1,E10,1,< (Precedes),False,cracked the earthen flood embankment,Structural reinforcement using eucalyptus poles and wire mesh began
+E1,E11,1,< (Precedes),False,cracked the earthen flood embankment,continuing for twelve uninterrupted daylight hours
+E2,E1,-4,si (Started By),False,The breach widened,cracked the earthen flood embankment
+E2,E3,-5,di (Contains),False,The breach widened,Local volunteers mobilized
+E2,E4,-5,di (Contains),False,The breach widened,arriving with sandbags
+E2,E5,3,o (Overlaps),False,The breach widened,The first containment ring of sandbags took three hours to place
+E2,E6,1,< (Precedes),False,The breach widened,shifting currents washed away half the barrier
+E2,E7,1,< (Precedes),False,The breach widened,An earth-moving backhoe arrived
+E2,E8,1,< (Precedes),False,The breach widened,working concurrently with manual laborers
+E2,E9,1,< (Precedes),False,The breach widened,Water completely stopped rushing into the agricultural fields
+E2,E10,1,< (Precedes),False,The breach widened,Structural reinforcement using eucalyptus poles and wire mesh began
+E2,E11,1,< (Precedes),False,The breach widened,continuing for twelve uninterrupted daylight hours
+E3,E1,-1,> (Preceded By),False,Local volunteers mobilized,cracked the earthen flood embankment
+E3,E2,5,d (During),False,Local volunteers mobilized,The breach widened
+E3,E4,1,< (Precedes),False,Local volunteers mobilized,arriving with sandbags
+E3,E5,1,< (Precedes),False,Local volunteers mobilized,The first containment ring of sandbags took three hours to place
+E3,E6,1,< (Precedes),False,Local volunteers mobilized,shifting currents washed away half the barrier
+E3,E7,1,< (Precedes),False,Local volunteers mobilized,An earth-moving backhoe arrived
+E3,E8,1,< (Precedes),False,Local volunteers mobilized,working concurrently with manual laborers
+E3,E9,1,< (Precedes),False,Local volunteers mobilized,Water completely stopped rushing into the agricultural fields
+E3,E10,1,< (Precedes),False,Local volunteers mobilized,Structural reinforcement using eucalyptus poles and wire mesh began
+E3,E11,1,< (Precedes),False,Local volunteers mobilized,continuing for twelve uninterrupted daylight hours
+E4,E1,-1,> (Preceded By),False,arriving with sandbags,cracked the earthen flood embankment
+E4,E2,5,d (During),False,arriving with sandbags,The breach widened
+E4,E3,-1,> (Preceded By),False,arriving with sandbags,Local volunteers mobilized
+E4,E5,4,s (Starts),False,arriving with sandbags,The first containment ring of sandbags took three hours to place
+E4,E6,1,< (Precedes),False,arriving with sandbags,shifting currents washed away half the barrier
+E4,E7,1,< (Precedes),False,arriving with sandbags,An earth-moving backhoe arrived
+E4,E8,1,< (Precedes),False,arriving with sandbags,working concurrently with manual laborers
+E4,E9,1,< (Precedes),False,arriving with sandbags,Water completely stopped rushing into the agricultural fields
+E4,E10,1,< (Precedes),False,arriving with sandbags,Structural reinforcement using eucalyptus poles and wire mesh began
+E4,E11,1,< (Precedes),False,arriving with sandbags,continuing for twelve uninterrupted daylight hours
+E5,E1,-1,> (Preceded By),False,The first containment ring of sandbags took three hours to place,cracked the earthen flood embankment
+E5,E2,-3,oi (Overlapped By),False,The first containment ring of sandbags took three hours to place,The breach widened
+E5,E3,-1,> (Preceded By),False,The first containment ring of sandbags took three hours to place,Local volunteers mobilized
+E5,E4,-4,si (Started By),False,The first containment ring of sandbags took three hours to place,arriving with sandbags
+E5,E6,-5,di (Contains),False,The first containment ring of sandbags took three hours to place,shifting currents washed away half the barrier
+E5,E7,-5,di (Contains),False,The first containment ring of sandbags took three hours to place,An earth-moving backhoe arrived
+E5,E8,3,o (Overlaps),False,The first containment ring of sandbags took three hours to place,working concurrently with manual laborers
+E5,E9,1,< (Precedes),False,The first containment ring of sandbags took three hours to place,Water completely stopped rushing into the agricultural fields
+E5,E10,1,< (Precedes),False,The first containment ring of sandbags took three hours to place,Structural reinforcement using eucalyptus poles and wire mesh began
+E5,E11,1,< (Precedes),False,The first containment ring of sandbags took three hours to place,continuing for twelve uninterrupted daylight hours
+E6,E1,-1,> (Preceded By),False,shifting currents washed away half the barrier,cracked the earthen flood embankment
+E6,E2,-1,> (Preceded By),False,shifting currents washed away half the barrier,The breach widened
+E6,E3,-1,> (Preceded By),False,shifting currents washed away half the barrier,Local volunteers mobilized
+E6,E4,-1,> (Preceded By),False,shifting currents washed away half the barrier,arriving with sandbags
+E6,E5,5,d (During),False,shifting currents washed away half the barrier,The first containment ring of sandbags took three hours to place
+E6,E7,-1,> (Preceded By),False,shifting currents washed away half the barrier,An earth-moving backhoe arrived
+E6,E8,5,d (During),False,shifting currents washed away half the barrier,working concurrently with manual laborers
+E6,E9,1,< (Precedes),False,shifting currents washed away half the barrier,Water completely stopped rushing into the agricultural fields
+E6,E10,1,< (Precedes),False,shifting currents washed away half the barrier,Structural reinforcement using eucalyptus poles and wire mesh began
+E6,E11,1,< (Precedes),False,shifting currents washed away half the barrier,continuing for twelve uninterrupted daylight hours
+E7,E1,-1,> (Preceded By),False,An earth-moving backhoe arrived,cracked the earthen flood embankment
+E7,E2,-1,> (Preceded By),False,An earth-moving backhoe arrived,The breach widened
+E7,E3,-1,> (Preceded By),False,An earth-moving backhoe arrived,Local volunteers mobilized
+E7,E4,-1,> (Preceded By),False,An earth-moving backhoe arrived,arriving with sandbags
+E7,E5,5,d (During),False,An earth-moving backhoe arrived,The first containment ring of sandbags took three hours to place
+E7,E6,1,< (Precedes),False,An earth-moving backhoe arrived,shifting currents washed away half the barrier
+E7,E8,4,s (Starts),False,An earth-moving backhoe arrived,working concurrently with manual laborers
+E7,E9,1,< (Precedes),False,An earth-moving backhoe arrived,Water completely stopped rushing into the agricultural fields
+E7,E10,1,< (Precedes),False,An earth-moving backhoe arrived,Structural reinforcement using eucalyptus poles and wire mesh began
+E7,E11,1,< (Precedes),False,An earth-moving backhoe arrived,continuing for twelve uninterrupted daylight hours
+E8,E1,-1,> (Preceded By),False,working concurrently with manual laborers,cracked the earthen flood embankment
+E8,E2,-1,> (Preceded By),False,working concurrently with manual laborers,The breach widened
+E8,E3,-1,> (Preceded By),False,working concurrently with manual laborers,Local volunteers mobilized
+E8,E4,-1,> (Preceded By),False,working concurrently with manual laborers,arriving with sandbags
+E8,E5,-3,oi (Overlapped By),False,working concurrently with manual laborers,The first containment ring of sandbags took three hours to place
+E8,E6,-5,di (Contains),False,working concurrently with manual laborers,shifting currents washed away half the barrier
+E8,E7,-4,si (Started By),False,working concurrently with manual laborers,An earth-moving backhoe arrived
+E8,E9,2,m (Meets),False,working concurrently with manual laborers,Water completely stopped rushing into the agricultural fields
+E8,E10,1,< (Precedes),False,working concurrently with manual laborers,Structural reinforcement using eucalyptus poles and wire mesh began
+E8,E11,1,< (Precedes),False,working concurrently with manual laborers,continuing for twelve uninterrupted daylight hours
+E9,E1,-1,> (Preceded By),False,Water completely stopped rushing into the agricultural fields,cracked the earthen flood embankment
+E9,E2,-1,> (Preceded By),False,Water completely stopped rushing into the agricultural fields,The breach widened
+E9,E3,-1,> (Preceded By),False,Water completely stopped rushing into the agricultural fields,Local volunteers mobilized
+E9,E4,-1,> (Preceded By),False,Water completely stopped rushing into the agricultural fields,arriving with sandbags
+E9,E5,-1,> (Preceded By),False,Water completely stopped rushing into the agricultural fields,The first containment ring of sandbags took three hours to place
+E9,E6,-1,> (Preceded By),False,Water completely stopped rushing into the agricultural fields,shifting currents washed away half the barrier
+E9,E7,-1,> (Preceded By),False,Water completely stopped rushing into the agricultural fields,An earth-moving backhoe arrived
+E9,E8,-2,mi (Met By),False,Water completely stopped rushing into the agricultural fields,working concurrently with manual laborers
+E9,E10,1,< (Precedes),False,Water completely stopped rushing into the agricultural fields,Structural reinforcement using eucalyptus poles and wire mesh began
+E9,E11,1,< (Precedes),False,Water completely stopped rushing into the agricultural fields,continuing for twelve uninterrupted daylight hours
+E10,E1,-1,> (Preceded By),False,Structural reinforcement using eucalyptus poles and wire mesh began,cracked the earthen flood embankment
+E10,E2,-1,> (Preceded By),False,Structural reinforcement using eucalyptus poles and wire mesh began,The breach widened
+E10,E3,-1,> (Preceded By),False,Structural reinforcement using eucalyptus poles and wire mesh began,Local volunteers mobilized
+E10,E4,-1,> (Preceded By),False,Structural reinforcement using eucalyptus poles and wire mesh began,arriving with sandbags
+E10,E5,-1,> (Preceded By),False,Structural reinforcement using eucalyptus poles and wire mesh began,The first containment ring of sandbags took three hours to place
+E10,E6,-1,> (Preceded By),False,Structural reinforcement using eucalyptus poles and wire mesh began,shifting currents washed away half the barrier
+E10,E7,-1,> (Preceded By),False,Structural reinforcement using eucalyptus poles and wire mesh began,An earth-moving backhoe arrived
+E10,E8,-1,> (Preceded By),False,Structural reinforcement using eucalyptus poles and wire mesh began,working concurrently with manual laborers
+E10,E9,-1,> (Preceded By),False,Structural reinforcement using eucalyptus poles and wire mesh began,Water completely stopped rushing into the agricultural fields
+E10,E11,4,s (Starts),False,Structural reinforcement using eucalyptus poles and wire mesh began,continuing for twelve uninterrupted daylight hours
+E11,E1,-1,> (Preceded By),False,continuing for twelve uninterrupted daylight hours,cracked the earthen flood embankment
+E11,E2,-1,> (Preceded By),False,continuing for twelve uninterrupted daylight hours,The breach widened
+E11,E3,-1,> (Preceded By),False,continuing for twelve uninterrupted daylight hours,Local volunteers mobilized
+E11,E4,-1,> (Preceded By),False,continuing for twelve uninterrupted daylight hours,arriving with sandbags
+E11,E5,-1,> (Preceded By),False,continuing for twelve uninterrupted daylight hours,The first containment ring of sandbags took three hours to place
+E11,E6,-1,> (Preceded By),False,continuing for twelve uninterrupted daylight hours,shifting currents washed away half the barrier
+E11,E7,-1,> (Preceded By),False,continuing for twelve uninterrupted daylight hours,An earth-moving backhoe arrived
+E11,E8,-1,> (Preceded By),False,continuing for twelve uninterrupted daylight hours,working concurrently with manual laborers
+E11,E9,-1,> (Preceded By),False,continuing for twelve uninterrupted daylight hours,Water completely stopped rushing into the agricultural fields
+E11,E10,-4,si (Started By),False,continuing for twelve uninterrupted daylight hours,Structural reinforcement using eucalyptus poles and wire mesh began

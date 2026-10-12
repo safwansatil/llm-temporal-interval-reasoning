@@ -1,0 +1,73 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers,Rigging the survey boat with multibeam sonar transducers
+E1,E3,1,< (Precedes),False,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers,The boat mapped riverbed scour around the first three piers
+E1,E4,1,< (Precedes),False,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers,Data upload and preliminary bathymetric processing
+E1,E5,1,< (Precedes),False,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers,The data revealed a critical four-meter scour hole adjacent to pier two
+E1,E6,1,< (Precedes),False,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers,Stone-dumping barges were mobilized
+E1,E7,1,< (Precedes),False,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers,Placing five hundred tons of riprap boulders around the vulnerable pier
+E1,E8,1,< (Precedes),False,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers,A follow-up sonar verification sweep was conducted
+E1,E9,1,< (Precedes),False,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers,the scour hole was successfully stabilized
+E2,E1,-1,> (Preceded By),False,Rigging the survey boat with multibeam sonar transducers,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers
+E2,E3,2,m (Meets),False,Rigging the survey boat with multibeam sonar transducers,The boat mapped riverbed scour around the first three piers
+E2,E4,1,< (Precedes),False,Rigging the survey boat with multibeam sonar transducers,Data upload and preliminary bathymetric processing
+E2,E5,1,< (Precedes),False,Rigging the survey boat with multibeam sonar transducers,The data revealed a critical four-meter scour hole adjacent to pier two
+E2,E6,1,< (Precedes),False,Rigging the survey boat with multibeam sonar transducers,Stone-dumping barges were mobilized
+E2,E7,1,< (Precedes),False,Rigging the survey boat with multibeam sonar transducers,Placing five hundred tons of riprap boulders around the vulnerable pier
+E2,E8,1,< (Precedes),False,Rigging the survey boat with multibeam sonar transducers,A follow-up sonar verification sweep was conducted
+E2,E9,1,< (Precedes),False,Rigging the survey boat with multibeam sonar transducers,the scour hole was successfully stabilized
+E3,E1,-1,> (Preceded By),False,The boat mapped riverbed scour around the first three piers,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers
+E3,E2,-2,mi (Met By),False,The boat mapped riverbed scour around the first three piers,Rigging the survey boat with multibeam sonar transducers
+E3,E4,3,o (Overlaps),False,The boat mapped riverbed scour around the first three piers,Data upload and preliminary bathymetric processing
+E3,E5,1,< (Precedes),False,The boat mapped riverbed scour around the first three piers,The data revealed a critical four-meter scour hole adjacent to pier two
+E3,E6,1,< (Precedes),False,The boat mapped riverbed scour around the first three piers,Stone-dumping barges were mobilized
+E3,E7,1,< (Precedes),False,The boat mapped riverbed scour around the first three piers,Placing five hundred tons of riprap boulders around the vulnerable pier
+E3,E8,1,< (Precedes),False,The boat mapped riverbed scour around the first three piers,A follow-up sonar verification sweep was conducted
+E3,E9,1,< (Precedes),False,The boat mapped riverbed scour around the first three piers,the scour hole was successfully stabilized
+E4,E1,-1,> (Preceded By),False,Data upload and preliminary bathymetric processing,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers
+E4,E2,-1,> (Preceded By),False,Data upload and preliminary bathymetric processing,Rigging the survey boat with multibeam sonar transducers
+E4,E3,-3,oi (Overlapped By),False,Data upload and preliminary bathymetric processing,The boat mapped riverbed scour around the first three piers
+E4,E5,2,m (Meets),False,Data upload and preliminary bathymetric processing,The data revealed a critical four-meter scour hole adjacent to pier two
+E4,E6,1,< (Precedes),False,Data upload and preliminary bathymetric processing,Stone-dumping barges were mobilized
+E4,E7,1,< (Precedes),False,Data upload and preliminary bathymetric processing,Placing five hundred tons of riprap boulders around the vulnerable pier
+E4,E8,1,< (Precedes),False,Data upload and preliminary bathymetric processing,A follow-up sonar verification sweep was conducted
+E4,E9,1,< (Precedes),False,Data upload and preliminary bathymetric processing,the scour hole was successfully stabilized
+E5,E1,-1,> (Preceded By),False,The data revealed a critical four-meter scour hole adjacent to pier two,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers
+E5,E2,-1,> (Preceded By),False,The data revealed a critical four-meter scour hole adjacent to pier two,Rigging the survey boat with multibeam sonar transducers
+E5,E3,-1,> (Preceded By),False,The data revealed a critical four-meter scour hole adjacent to pier two,The boat mapped riverbed scour around the first three piers
+E5,E4,-2,mi (Met By),False,The data revealed a critical four-meter scour hole adjacent to pier two,Data upload and preliminary bathymetric processing
+E5,E6,1,< (Precedes),False,The data revealed a critical four-meter scour hole adjacent to pier two,Stone-dumping barges were mobilized
+E5,E7,1,< (Precedes),False,The data revealed a critical four-meter scour hole adjacent to pier two,Placing five hundred tons of riprap boulders around the vulnerable pier
+E5,E8,1,< (Precedes),False,The data revealed a critical four-meter scour hole adjacent to pier two,A follow-up sonar verification sweep was conducted
+E5,E9,1,< (Precedes),False,The data revealed a critical four-meter scour hole adjacent to pier two,the scour hole was successfully stabilized
+E6,E1,-1,> (Preceded By),False,Stone-dumping barges were mobilized,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers
+E6,E2,-1,> (Preceded By),False,Stone-dumping barges were mobilized,Rigging the survey boat with multibeam sonar transducers
+E6,E3,-1,> (Preceded By),False,Stone-dumping barges were mobilized,The boat mapped riverbed scour around the first three piers
+E6,E4,-1,> (Preceded By),False,Stone-dumping barges were mobilized,Data upload and preliminary bathymetric processing
+E6,E5,-1,> (Preceded By),False,Stone-dumping barges were mobilized,The data revealed a critical four-meter scour hole adjacent to pier two
+E6,E7,4,s (Starts),False,Stone-dumping barges were mobilized,Placing five hundred tons of riprap boulders around the vulnerable pier
+E6,E8,1,< (Precedes),False,Stone-dumping barges were mobilized,A follow-up sonar verification sweep was conducted
+E6,E9,1,< (Precedes),False,Stone-dumping barges were mobilized,the scour hole was successfully stabilized
+E7,E1,-1,> (Preceded By),False,Placing five hundred tons of riprap boulders around the vulnerable pier,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers
+E7,E2,-1,> (Preceded By),False,Placing five hundred tons of riprap boulders around the vulnerable pier,Rigging the survey boat with multibeam sonar transducers
+E7,E3,-1,> (Preceded By),False,Placing five hundred tons of riprap boulders around the vulnerable pier,The boat mapped riverbed scour around the first three piers
+E7,E4,-1,> (Preceded By),False,Placing five hundred tons of riprap boulders around the vulnerable pier,Data upload and preliminary bathymetric processing
+E7,E5,-1,> (Preceded By),False,Placing five hundred tons of riprap boulders around the vulnerable pier,The data revealed a critical four-meter scour hole adjacent to pier two
+E7,E6,-4,si (Started By),False,Placing five hundred tons of riprap boulders around the vulnerable pier,Stone-dumping barges were mobilized
+E7,E8,1,< (Precedes),False,Placing five hundred tons of riprap boulders around the vulnerable pier,A follow-up sonar verification sweep was conducted
+E7,E9,2,m (Meets),False,Placing five hundred tons of riprap boulders around the vulnerable pier,the scour hole was successfully stabilized
+E8,E1,-1,> (Preceded By),False,A follow-up sonar verification sweep was conducted,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers
+E8,E2,-1,> (Preceded By),False,A follow-up sonar verification sweep was conducted,Rigging the survey boat with multibeam sonar transducers
+E8,E3,-1,> (Preceded By),False,A follow-up sonar verification sweep was conducted,The boat mapped riverbed scour around the first three piers
+E8,E4,-1,> (Preceded By),False,A follow-up sonar verification sweep was conducted,Data upload and preliminary bathymetric processing
+E8,E5,-1,> (Preceded By),False,A follow-up sonar verification sweep was conducted,The data revealed a critical four-meter scour hole adjacent to pier two
+E8,E6,-1,> (Preceded By),False,A follow-up sonar verification sweep was conducted,Stone-dumping barges were mobilized
+E8,E7,-1,> (Preceded By),False,A follow-up sonar verification sweep was conducted,Placing five hundred tons of riprap boulders around the vulnerable pier
+E8,E9,-1,> (Preceded By),False,A follow-up sonar verification sweep was conducted,the scour hole was successfully stabilized
+E9,E1,-1,> (Preceded By),False,the scour hole was successfully stabilized,structural engineers initiated an underwater sonar survey of the rail bridge foundation piers
+E9,E2,-1,> (Preceded By),False,the scour hole was successfully stabilized,Rigging the survey boat with multibeam sonar transducers
+E9,E3,-1,> (Preceded By),False,the scour hole was successfully stabilized,The boat mapped riverbed scour around the first three piers
+E9,E4,-1,> (Preceded By),False,the scour hole was successfully stabilized,Data upload and preliminary bathymetric processing
+E9,E5,-1,> (Preceded By),False,the scour hole was successfully stabilized,The data revealed a critical four-meter scour hole adjacent to pier two
+E9,E6,-1,> (Preceded By),False,the scour hole was successfully stabilized,Stone-dumping barges were mobilized
+E9,E7,-2,mi (Met By),False,the scour hole was successfully stabilized,Placing five hundred tons of riprap boulders around the vulnerable pier
+E9,E8,1,< (Precedes),False,the scour hole was successfully stabilized,A follow-up sonar verification sweep was conducted

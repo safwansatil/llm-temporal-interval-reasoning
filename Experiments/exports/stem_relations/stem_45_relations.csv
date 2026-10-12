@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,started with his brother,ordering from them
+E1,E3,1,< (Precedes),False,started with his brother,shut down
+E1,E4,1,< (Precedes),False,started with his brother,cancelled a large order
+E1,E5,1,< (Precedes),False,started with his brother,drove to Narayanganj
+E1,E6,1,< (Precedes),False,started with his brother,The meeting lasted two hours
+E1,E7,1,< (Precedes),False,started with his brother,called an old contact
+E1,E8,1,< (Precedes),False,started with his brother,visited the Old Dhaka buyer
+E1,E9,1,< (Precedes),False,started with his brother,walked through the narrow lanes of Islampur
+E1,E10,1,< (Precedes),False,started with his brother,agreed on a smaller initial order
+E1,E11,1,< (Precedes),False,started with his brother,that buyer became their second largest account
+E1,E12,1,< (Precedes),False,started with his brother,learned about the new deal
+E1,E13,1,< (Precedes),False,started with his brother,The contact mentioned a buyer in Old Dhaka
+E1,E14,4,s (Starts),False,started with his brother,"Tariq's brother, who had been running the production floor in Narsingdi"
+E1,E15,1,< (Precedes),False,started with his brother,heard Tariq sounding cheerful for the first time in a month
+E2,E1,-1,> (Preceded By),False,ordering from them,started with his brother
+E2,E3,-5,di (Contains),False,ordering from them,shut down
+E2,E4,2,m (Meets),False,ordering from them,cancelled a large order
+E2,E5,1,< (Precedes),False,ordering from them,drove to Narayanganj
+E2,E6,1,< (Precedes),False,ordering from them,The meeting lasted two hours
+E2,E7,1,< (Precedes),False,ordering from them,called an old contact
+E2,E8,1,< (Precedes),False,ordering from them,visited the Old Dhaka buyer
+E2,E9,1,< (Precedes),False,ordering from them,walked through the narrow lanes of Islampur
+E2,E10,1,< (Precedes),False,ordering from them,agreed on a smaller initial order
+E2,E11,1,< (Precedes),False,ordering from them,that buyer became their second largest account
+E2,E12,1,< (Precedes),False,ordering from them,learned about the new deal
+E2,E13,1,< (Precedes),False,ordering from them,The contact mentioned a buyer in Old Dhaka
+E2,E14,5,d (During),False,ordering from them,"Tariq's brother, who had been running the production floor in Narsingdi"
+E2,E15,1,< (Precedes),False,ordering from them,heard Tariq sounding cheerful for the first time in a month
+E3,E1,-1,> (Preceded By),False,shut down,started with his brother
+E3,E2,5,d (During),False,shut down,ordering from them
+E3,E4,1,< (Precedes),False,shut down,cancelled a large order
+E3,E5,1,< (Precedes),False,shut down,drove to Narayanganj
+E3,E6,1,< (Precedes),False,shut down,The meeting lasted two hours
+E3,E7,1,< (Precedes),False,shut down,called an old contact
+E3,E8,1,< (Precedes),False,shut down,visited the Old Dhaka buyer
+E3,E9,1,< (Precedes),False,shut down,walked through the narrow lanes of Islampur
+E3,E10,1,< (Precedes),False,shut down,agreed on a smaller initial order
+E3,E11,1,< (Precedes),False,shut down,that buyer became their second largest account
+E3,E12,1,< (Precedes),False,shut down,learned about the new deal
+E3,E13,1,< (Precedes),False,shut down,The contact mentioned a buyer in Old Dhaka
+E3,E14,5,d (During),False,shut down,"Tariq's brother, who had been running the production floor in Narsingdi"
+E3,E15,1,< (Precedes),False,shut down,heard Tariq sounding cheerful for the first time in a month
+E4,E1,-1,> (Preceded By),False,cancelled a large order,started with his brother
+E4,E2,-2,mi (Met By),False,cancelled a large order,ordering from them
+E4,E3,-1,> (Preceded By),False,cancelled a large order,shut down
+E4,E5,1,< (Precedes),False,cancelled a large order,drove to Narayanganj
+E4,E6,1,< (Precedes),False,cancelled a large order,The meeting lasted two hours
+E4,E7,1,< (Precedes),False,cancelled a large order,called an old contact
+E4,E8,1,< (Precedes),False,cancelled a large order,visited the Old Dhaka buyer
+E4,E9,1,< (Precedes),False,cancelled a large order,walked through the narrow lanes of Islampur
+E4,E10,1,< (Precedes),False,cancelled a large order,agreed on a smaller initial order
+E4,E11,1,< (Precedes),False,cancelled a large order,that buyer became their second largest account
+E4,E12,1,< (Precedes),False,cancelled a large order,learned about the new deal
+E4,E13,1,< (Precedes),False,cancelled a large order,The contact mentioned a buyer in Old Dhaka
+E4,E14,5,d (During),False,cancelled a large order,"Tariq's brother, who had been running the production floor in Narsingdi"
+E4,E15,1,< (Precedes),False,cancelled a large order,heard Tariq sounding cheerful for the first time in a month
+E5,E1,-1,> (Preceded By),False,drove to Narayanganj,started with his brother
+E5,E2,-1,> (Preceded By),False,drove to Narayanganj,ordering from them
+E5,E3,-1,> (Preceded By),False,drove to Narayanganj,shut down
+E5,E4,-1,> (Preceded By),False,drove to Narayanganj,cancelled a large order
+E5,E6,1,< (Precedes),False,drove to Narayanganj,The meeting lasted two hours
+E5,E7,1,< (Precedes),False,drove to Narayanganj,called an old contact
+E5,E8,1,< (Precedes),False,drove to Narayanganj,visited the Old Dhaka buyer
+E5,E9,1,< (Precedes),False,drove to Narayanganj,walked through the narrow lanes of Islampur
+E5,E10,1,< (Precedes),False,drove to Narayanganj,agreed on a smaller initial order
+E5,E11,1,< (Precedes),False,drove to Narayanganj,that buyer became their second largest account
+E5,E12,1,< (Precedes),False,drove to Narayanganj,learned about the new deal
+E5,E13,1,< (Precedes),False,drove to Narayanganj,The contact mentioned a buyer in Old Dhaka
+E5,E14,5,d (During),False,drove to Narayanganj,"Tariq's brother, who had been running the production floor in Narsingdi"
+E5,E15,1,< (Precedes),False,drove to Narayanganj,heard Tariq sounding cheerful for the first time in a month
+E6,E1,-1,> (Preceded By),False,The meeting lasted two hours,started with his brother
+E6,E2,-1,> (Preceded By),False,The meeting lasted two hours,ordering from them
+E6,E3,-1,> (Preceded By),False,The meeting lasted two hours,shut down
+E6,E4,-1,> (Preceded By),False,The meeting lasted two hours,cancelled a large order
+E6,E5,-1,> (Preceded By),False,The meeting lasted two hours,drove to Narayanganj
+E6,E7,1,< (Precedes),False,The meeting lasted two hours,called an old contact
+E6,E8,1,< (Precedes),False,The meeting lasted two hours,visited the Old Dhaka buyer
+E6,E9,1,< (Precedes),False,The meeting lasted two hours,walked through the narrow lanes of Islampur
+E6,E10,1,< (Precedes),False,The meeting lasted two hours,agreed on a smaller initial order
+E6,E11,1,< (Precedes),False,The meeting lasted two hours,that buyer became their second largest account
+E6,E12,1,< (Precedes),False,The meeting lasted two hours,learned about the new deal
+E6,E13,1,< (Precedes),False,The meeting lasted two hours,The contact mentioned a buyer in Old Dhaka
+E6,E14,5,d (During),False,The meeting lasted two hours,"Tariq's brother, who had been running the production floor in Narsingdi"
+E6,E15,1,< (Precedes),False,The meeting lasted two hours,heard Tariq sounding cheerful for the first time in a month
+E7,E1,-1,> (Preceded By),False,called an old contact,started with his brother
+E7,E2,-1,> (Preceded By),False,called an old contact,ordering from them
+E7,E3,-1,> (Preceded By),False,called an old contact,shut down
+E7,E4,-1,> (Preceded By),False,called an old contact,cancelled a large order
+E7,E5,-1,> (Preceded By),False,called an old contact,drove to Narayanganj
+E7,E6,-1,> (Preceded By),False,called an old contact,The meeting lasted two hours
+E7,E8,1,< (Precedes),False,called an old contact,visited the Old Dhaka buyer
+E7,E9,1,< (Precedes),False,called an old contact,walked through the narrow lanes of Islampur
+E7,E10,1,< (Precedes),False,called an old contact,agreed on a smaller initial order
+E7,E11,1,< (Precedes),False,called an old contact,that buyer became their second largest account
+E7,E12,1,< (Precedes),False,called an old contact,learned about the new deal
+E7,E13,2,m (Meets),False,called an old contact,The contact mentioned a buyer in Old Dhaka
+E7,E14,5,d (During),False,called an old contact,"Tariq's brother, who had been running the production floor in Narsingdi"
+E7,E15,1,< (Precedes),False,called an old contact,heard Tariq sounding cheerful for the first time in a month
+E8,E1,-1,> (Preceded By),False,visited the Old Dhaka buyer,started with his brother
+E8,E2,-1,> (Preceded By),False,visited the Old Dhaka buyer,ordering from them
+E8,E3,-1,> (Preceded By),False,visited the Old Dhaka buyer,shut down
+E8,E4,-1,> (Preceded By),False,visited the Old Dhaka buyer,cancelled a large order
+E8,E5,-1,> (Preceded By),False,visited the Old Dhaka buyer,drove to Narayanganj
+E8,E6,-1,> (Preceded By),False,visited the Old Dhaka buyer,The meeting lasted two hours
+E8,E7,-1,> (Preceded By),False,visited the Old Dhaka buyer,called an old contact
+E8,E9,2,m (Meets),False,visited the Old Dhaka buyer,walked through the narrow lanes of Islampur
+E8,E10,1,< (Precedes),False,visited the Old Dhaka buyer,agreed on a smaller initial order
+E8,E11,1,< (Precedes),False,visited the Old Dhaka buyer,that buyer became their second largest account
+E8,E12,1,< (Precedes),False,visited the Old Dhaka buyer,learned about the new deal
+E8,E13,5,d (During),False,visited the Old Dhaka buyer,The contact mentioned a buyer in Old Dhaka
+E8,E14,5,d (During),False,visited the Old Dhaka buyer,"Tariq's brother, who had been running the production floor in Narsingdi"
+E8,E15,1,< (Precedes),False,visited the Old Dhaka buyer,heard Tariq sounding cheerful for the first time in a month
+E9,E1,-1,> (Preceded By),False,walked through the narrow lanes of Islampur,started with his brother
+E9,E2,-1,> (Preceded By),False,walked through the narrow lanes of Islampur,ordering from them
+E9,E3,-1,> (Preceded By),False,walked through the narrow lanes of Islampur,shut down
+E9,E4,-1,> (Preceded By),False,walked through the narrow lanes of Islampur,cancelled a large order
+E9,E5,-1,> (Preceded By),False,walked through the narrow lanes of Islampur,drove to Narayanganj
+E9,E6,-1,> (Preceded By),False,walked through the narrow lanes of Islampur,The meeting lasted two hours
+E9,E7,-1,> (Preceded By),False,walked through the narrow lanes of Islampur,called an old contact
+E9,E8,-2,mi (Met By),False,walked through the narrow lanes of Islampur,visited the Old Dhaka buyer
+E9,E10,1,< (Precedes),False,walked through the narrow lanes of Islampur,agreed on a smaller initial order
+E9,E11,1,< (Precedes),False,walked through the narrow lanes of Islampur,that buyer became their second largest account
+E9,E12,1,< (Precedes),False,walked through the narrow lanes of Islampur,learned about the new deal
+E9,E13,5,d (During),False,walked through the narrow lanes of Islampur,The contact mentioned a buyer in Old Dhaka
+E9,E14,5,d (During),False,walked through the narrow lanes of Islampur,"Tariq's brother, who had been running the production floor in Narsingdi"
+E9,E15,1,< (Precedes),False,walked through the narrow lanes of Islampur,heard Tariq sounding cheerful for the first time in a month
+E10,E1,-1,> (Preceded By),False,agreed on a smaller initial order,started with his brother
+E10,E2,-1,> (Preceded By),False,agreed on a smaller initial order,ordering from them
+E10,E3,-1,> (Preceded By),False,agreed on a smaller initial order,shut down
+E10,E4,-1,> (Preceded By),False,agreed on a smaller initial order,cancelled a large order
+E10,E5,-1,> (Preceded By),False,agreed on a smaller initial order,drove to Narayanganj
+E10,E6,-1,> (Preceded By),False,agreed on a smaller initial order,The meeting lasted two hours
+E10,E7,-1,> (Preceded By),False,agreed on a smaller initial order,called an old contact
+E10,E8,-1,> (Preceded By),False,agreed on a smaller initial order,visited the Old Dhaka buyer
+E10,E9,-1,> (Preceded By),False,agreed on a smaller initial order,walked through the narrow lanes of Islampur
+E10,E11,1,< (Precedes),False,agreed on a smaller initial order,that buyer became their second largest account
+E10,E12,1,< (Precedes),False,agreed on a smaller initial order,learned about the new deal
+E10,E13,5,d (During),False,agreed on a smaller initial order,The contact mentioned a buyer in Old Dhaka
+E10,E14,5,d (During),False,agreed on a smaller initial order,"Tariq's brother, who had been running the production floor in Narsingdi"
+E10,E15,1,< (Precedes),False,agreed on a smaller initial order,heard Tariq sounding cheerful for the first time in a month
+E11,E1,-1,> (Preceded By),False,that buyer became their second largest account,started with his brother
+E11,E2,-1,> (Preceded By),False,that buyer became their second largest account,ordering from them
+E11,E3,-1,> (Preceded By),False,that buyer became their second largest account,shut down
+E11,E4,-1,> (Preceded By),False,that buyer became their second largest account,cancelled a large order
+E11,E5,-1,> (Preceded By),False,that buyer became their second largest account,drove to Narayanganj
+E11,E6,-1,> (Preceded By),False,that buyer became their second largest account,The meeting lasted two hours
+E11,E7,-1,> (Preceded By),False,that buyer became their second largest account,called an old contact
+E11,E8,-1,> (Preceded By),False,that buyer became their second largest account,visited the Old Dhaka buyer
+E11,E9,-1,> (Preceded By),False,that buyer became their second largest account,walked through the narrow lanes of Islampur
+E11,E10,-1,> (Preceded By),False,that buyer became their second largest account,agreed on a smaller initial order
+E11,E12,1,< (Precedes),False,that buyer became their second largest account,learned about the new deal
+E11,E13,-1,> (Preceded By),False,that buyer became their second largest account,The contact mentioned a buyer in Old Dhaka
+E11,E14,5,d (During),False,that buyer became their second largest account,"Tariq's brother, who had been running the production floor in Narsingdi"
+E11,E15,1,< (Precedes),False,that buyer became their second largest account,heard Tariq sounding cheerful for the first time in a month
+E12,E1,-1,> (Preceded By),False,learned about the new deal,started with his brother
+E12,E2,-1,> (Preceded By),False,learned about the new deal,ordering from them
+E12,E3,-1,> (Preceded By),False,learned about the new deal,shut down
+E12,E4,-1,> (Preceded By),False,learned about the new deal,cancelled a large order
+E12,E5,-1,> (Preceded By),False,learned about the new deal,drove to Narayanganj
+E12,E6,-1,> (Preceded By),False,learned about the new deal,The meeting lasted two hours
+E12,E7,-1,> (Preceded By),False,learned about the new deal,called an old contact
+E12,E8,-1,> (Preceded By),False,learned about the new deal,visited the Old Dhaka buyer
+E12,E9,-1,> (Preceded By),False,learned about the new deal,walked through the narrow lanes of Islampur
+E12,E10,-1,> (Preceded By),False,learned about the new deal,agreed on a smaller initial order
+E12,E11,-1,> (Preceded By),False,learned about the new deal,that buyer became their second largest account
+E12,E13,-1,> (Preceded By),False,learned about the new deal,The contact mentioned a buyer in Old Dhaka
+E12,E14,5,d (During),False,learned about the new deal,"Tariq's brother, who had been running the production floor in Narsingdi"
+E12,E15,2,m (Meets),False,learned about the new deal,heard Tariq sounding cheerful for the first time in a month
+E13,E1,-1,> (Preceded By),False,The contact mentioned a buyer in Old Dhaka,started with his brother
+E13,E2,-1,> (Preceded By),False,The contact mentioned a buyer in Old Dhaka,ordering from them
+E13,E3,-1,> (Preceded By),False,The contact mentioned a buyer in Old Dhaka,shut down
+E13,E4,-1,> (Preceded By),False,The contact mentioned a buyer in Old Dhaka,cancelled a large order
+E13,E5,-1,> (Preceded By),False,The contact mentioned a buyer in Old Dhaka,drove to Narayanganj
+E13,E6,-1,> (Preceded By),False,The contact mentioned a buyer in Old Dhaka,The meeting lasted two hours
+E13,E7,-2,mi (Met By),False,The contact mentioned a buyer in Old Dhaka,called an old contact
+E13,E8,-5,di (Contains),False,The contact mentioned a buyer in Old Dhaka,visited the Old Dhaka buyer
+E13,E9,-5,di (Contains),False,The contact mentioned a buyer in Old Dhaka,walked through the narrow lanes of Islampur
+E13,E10,-5,di (Contains),False,The contact mentioned a buyer in Old Dhaka,agreed on a smaller initial order
+E13,E11,1,< (Precedes),False,The contact mentioned a buyer in Old Dhaka,that buyer became their second largest account
+E13,E12,1,< (Precedes),False,The contact mentioned a buyer in Old Dhaka,learned about the new deal
+E13,E14,5,d (During),False,The contact mentioned a buyer in Old Dhaka,"Tariq's brother, who had been running the production floor in Narsingdi"
+E13,E15,1,< (Precedes),False,The contact mentioned a buyer in Old Dhaka,heard Tariq sounding cheerful for the first time in a month
+E14,E1,-4,si (Started By),False,"Tariq's brother, who had been running the production floor in Narsingdi",started with his brother
+E14,E2,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",ordering from them
+E14,E3,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",shut down
+E14,E4,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",cancelled a large order
+E14,E5,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",drove to Narayanganj
+E14,E6,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",The meeting lasted two hours
+E14,E7,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",called an old contact
+E14,E8,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",visited the Old Dhaka buyer
+E14,E9,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",walked through the narrow lanes of Islampur
+E14,E10,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",agreed on a smaller initial order
+E14,E11,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",that buyer became their second largest account
+E14,E12,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",learned about the new deal
+E14,E13,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",The contact mentioned a buyer in Old Dhaka
+E14,E15,-5,di (Contains),False,"Tariq's brother, who had been running the production floor in Narsingdi",heard Tariq sounding cheerful for the first time in a month
+E15,E1,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,started with his brother
+E15,E2,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,ordering from them
+E15,E3,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,shut down
+E15,E4,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,cancelled a large order
+E15,E5,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,drove to Narayanganj
+E15,E6,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,The meeting lasted two hours
+E15,E7,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,called an old contact
+E15,E8,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,visited the Old Dhaka buyer
+E15,E9,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,walked through the narrow lanes of Islampur
+E15,E10,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,agreed on a smaller initial order
+E15,E11,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,that buyer became their second largest account
+E15,E12,-2,mi (Met By),False,heard Tariq sounding cheerful for the first time in a month,learned about the new deal
+E15,E13,-1,> (Preceded By),False,heard Tariq sounding cheerful for the first time in a month,The contact mentioned a buyer in Old Dhaka
+E15,E14,5,d (During),False,heard Tariq sounding cheerful for the first time in a month,"Tariq's brother, who had been running the production floor in Narsingdi"

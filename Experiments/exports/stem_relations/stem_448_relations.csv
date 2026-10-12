@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,building a localized glossary,Nadia took the first half of the book
+E1,E3,1,< (Precedes),False,building a localized glossary,Imran began translating
+E1,E4,1,< (Precedes),False,building a localized glossary,matching Nadia’s output
+E1,E5,1,< (Precedes),False,building a localized glossary,paused translation
+E1,E6,1,< (Precedes),False,building a localized glossary,begin a peer-review phase
+E1,E7,1,< (Precedes),False,building a localized glossary,swapping their completed sections
+E1,E8,1,< (Precedes),False,building a localized glossary,resolving the editor’s formatting requests
+E1,E9,1,< (Precedes),False,building a localized glossary,submit the final cohesive manuscript
+E1,E10,0,= (Equal),False,building a localized glossary,Imran delayed his start by exactly one week
+E1,E11,1,< (Precedes),False,building a localized glossary,This cross-checking process
+E2,E1,-4,si (Started By),False,Nadia took the first half of the book,building a localized glossary
+E2,E3,-5,di (Contains),False,Nadia took the first half of the book,Imran began translating
+E2,E4,1,< (Precedes),False,Nadia took the first half of the book,matching Nadia’s output
+E2,E5,1,< (Precedes),False,Nadia took the first half of the book,paused translation
+E2,E6,1,< (Precedes),False,Nadia took the first half of the book,begin a peer-review phase
+E2,E7,1,< (Precedes),False,Nadia took the first half of the book,swapping their completed sections
+E2,E8,1,< (Precedes),False,Nadia took the first half of the book,resolving the editor’s formatting requests
+E2,E9,1,< (Precedes),False,Nadia took the first half of the book,submit the final cohesive manuscript
+E2,E10,-4,si (Started By),False,Nadia took the first half of the book,Imran delayed his start by exactly one week
+E2,E11,1,< (Precedes),False,Nadia took the first half of the book,This cross-checking process
+E3,E1,-1,> (Preceded By),False,Imran began translating,building a localized glossary
+E3,E2,5,d (During),False,Imran began translating,Nadia took the first half of the book
+E3,E4,1,< (Precedes),False,Imran began translating,matching Nadia’s output
+E3,E5,1,< (Precedes),False,Imran began translating,paused translation
+E3,E6,1,< (Precedes),False,Imran began translating,begin a peer-review phase
+E3,E7,1,< (Precedes),False,Imran began translating,swapping their completed sections
+E3,E8,1,< (Precedes),False,Imran began translating,resolving the editor’s formatting requests
+E3,E9,1,< (Precedes),False,Imran began translating,submit the final cohesive manuscript
+E3,E10,-1,> (Preceded By),False,Imran began translating,Imran delayed his start by exactly one week
+E3,E11,1,< (Precedes),False,Imran began translating,This cross-checking process
+E4,E1,-1,> (Preceded By),False,matching Nadia’s output,building a localized glossary
+E4,E2,-1,> (Preceded By),False,matching Nadia’s output,Nadia took the first half of the book
+E4,E3,-1,> (Preceded By),False,matching Nadia’s output,Imran began translating
+E4,E5,1,< (Precedes),False,matching Nadia’s output,paused translation
+E4,E6,1,< (Precedes),False,matching Nadia’s output,begin a peer-review phase
+E4,E7,1,< (Precedes),False,matching Nadia’s output,swapping their completed sections
+E4,E8,1,< (Precedes),False,matching Nadia’s output,resolving the editor’s formatting requests
+E4,E9,1,< (Precedes),False,matching Nadia’s output,submit the final cohesive manuscript
+E4,E10,-1,> (Preceded By),False,matching Nadia’s output,Imran delayed his start by exactly one week
+E4,E11,1,< (Precedes),False,matching Nadia’s output,This cross-checking process
+E5,E1,-1,> (Preceded By),False,paused translation,building a localized glossary
+E5,E2,-1,> (Preceded By),False,paused translation,Nadia took the first half of the book
+E5,E3,-1,> (Preceded By),False,paused translation,Imran began translating
+E5,E4,-1,> (Preceded By),False,paused translation,matching Nadia’s output
+E5,E6,-4,si (Started By),False,paused translation,begin a peer-review phase
+E5,E7,-4,si (Started By),False,paused translation,swapping their completed sections
+E5,E8,1,< (Precedes),False,paused translation,resolving the editor’s formatting requests
+E5,E9,1,< (Precedes),False,paused translation,submit the final cohesive manuscript
+E5,E10,-1,> (Preceded By),False,paused translation,Imran delayed his start by exactly one week
+E5,E11,4,s (Starts),False,paused translation,This cross-checking process
+E6,E1,-1,> (Preceded By),False,begin a peer-review phase,building a localized glossary
+E6,E2,-1,> (Preceded By),False,begin a peer-review phase,Nadia took the first half of the book
+E6,E3,-1,> (Preceded By),False,begin a peer-review phase,Imran began translating
+E6,E4,-1,> (Preceded By),False,begin a peer-review phase,matching Nadia’s output
+E6,E5,4,s (Starts),False,begin a peer-review phase,paused translation
+E6,E7,0,= (Equal),False,begin a peer-review phase,swapping their completed sections
+E6,E8,1,< (Precedes),False,begin a peer-review phase,resolving the editor’s formatting requests
+E6,E9,1,< (Precedes),False,begin a peer-review phase,submit the final cohesive manuscript
+E6,E10,-1,> (Preceded By),False,begin a peer-review phase,Imran delayed his start by exactly one week
+E6,E11,4,s (Starts),False,begin a peer-review phase,This cross-checking process
+E7,E1,-1,> (Preceded By),False,swapping their completed sections,building a localized glossary
+E7,E2,-1,> (Preceded By),False,swapping their completed sections,Nadia took the first half of the book
+E7,E3,-1,> (Preceded By),False,swapping their completed sections,Imran began translating
+E7,E4,-1,> (Preceded By),False,swapping their completed sections,matching Nadia’s output
+E7,E5,4,s (Starts),False,swapping their completed sections,paused translation
+E7,E6,0,= (Equal),False,swapping their completed sections,begin a peer-review phase
+E7,E8,1,< (Precedes),False,swapping their completed sections,resolving the editor’s formatting requests
+E7,E9,1,< (Precedes),False,swapping their completed sections,submit the final cohesive manuscript
+E7,E10,-1,> (Preceded By),False,swapping their completed sections,Imran delayed his start by exactly one week
+E7,E11,4,s (Starts),False,swapping their completed sections,This cross-checking process
+E8,E1,-1,> (Preceded By),False,resolving the editor’s formatting requests,building a localized glossary
+E8,E2,-1,> (Preceded By),False,resolving the editor’s formatting requests,Nadia took the first half of the book
+E8,E3,-1,> (Preceded By),False,resolving the editor’s formatting requests,Imran began translating
+E8,E4,-1,> (Preceded By),False,resolving the editor’s formatting requests,matching Nadia’s output
+E8,E5,-1,> (Preceded By),False,resolving the editor’s formatting requests,paused translation
+E8,E6,-1,> (Preceded By),False,resolving the editor’s formatting requests,begin a peer-review phase
+E8,E7,-1,> (Preceded By),False,resolving the editor’s formatting requests,swapping their completed sections
+E8,E9,2,m (Meets),False,resolving the editor’s formatting requests,submit the final cohesive manuscript
+E8,E10,-1,> (Preceded By),False,resolving the editor’s formatting requests,Imran delayed his start by exactly one week
+E8,E11,-1,> (Preceded By),False,resolving the editor’s formatting requests,This cross-checking process
+E9,E1,-1,> (Preceded By),False,submit the final cohesive manuscript,building a localized glossary
+E9,E2,-1,> (Preceded By),False,submit the final cohesive manuscript,Nadia took the first half of the book
+E9,E3,-1,> (Preceded By),False,submit the final cohesive manuscript,Imran began translating
+E9,E4,-1,> (Preceded By),False,submit the final cohesive manuscript,matching Nadia’s output
+E9,E5,-1,> (Preceded By),False,submit the final cohesive manuscript,paused translation
+E9,E6,-1,> (Preceded By),False,submit the final cohesive manuscript,begin a peer-review phase
+E9,E7,-1,> (Preceded By),False,submit the final cohesive manuscript,swapping their completed sections
+E9,E8,-2,mi (Met By),False,submit the final cohesive manuscript,resolving the editor’s formatting requests
+E9,E10,-1,> (Preceded By),False,submit the final cohesive manuscript,Imran delayed his start by exactly one week
+E9,E11,-1,> (Preceded By),False,submit the final cohesive manuscript,This cross-checking process
+E10,E1,0,= (Equal),False,Imran delayed his start by exactly one week,building a localized glossary
+E10,E2,4,s (Starts),False,Imran delayed his start by exactly one week,Nadia took the first half of the book
+E10,E3,1,< (Precedes),False,Imran delayed his start by exactly one week,Imran began translating
+E10,E4,1,< (Precedes),False,Imran delayed his start by exactly one week,matching Nadia’s output
+E10,E5,1,< (Precedes),False,Imran delayed his start by exactly one week,paused translation
+E10,E6,1,< (Precedes),False,Imran delayed his start by exactly one week,begin a peer-review phase
+E10,E7,1,< (Precedes),False,Imran delayed his start by exactly one week,swapping their completed sections
+E10,E8,1,< (Precedes),False,Imran delayed his start by exactly one week,resolving the editor’s formatting requests
+E10,E9,1,< (Precedes),False,Imran delayed his start by exactly one week,submit the final cohesive manuscript
+E10,E11,1,< (Precedes),False,Imran delayed his start by exactly one week,This cross-checking process
+E11,E1,-1,> (Preceded By),False,This cross-checking process,building a localized glossary
+E11,E2,-1,> (Preceded By),False,This cross-checking process,Nadia took the first half of the book
+E11,E3,-1,> (Preceded By),False,This cross-checking process,Imran began translating
+E11,E4,-1,> (Preceded By),False,This cross-checking process,matching Nadia’s output
+E11,E5,-4,si (Started By),False,This cross-checking process,paused translation
+E11,E6,-4,si (Started By),False,This cross-checking process,begin a peer-review phase
+E11,E7,-4,si (Started By),False,This cross-checking process,swapping their completed sections
+E11,E8,1,< (Precedes),False,This cross-checking process,resolving the editor’s formatting requests
+E11,E9,1,< (Precedes),False,This cross-checking process,submit the final cohesive manuscript
+E11,E10,-1,> (Preceded By),False,This cross-checking process,Imran delayed his start by exactly one week

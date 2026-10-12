@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,tropical cyclone that buffeted the coastal tracking station,storm winds dropped below operational safety limits
+E1,E3,1,< (Precedes),False,tropical cyclone that buffeted the coastal tracking station,Technicians initiated mechanical realignment
+E1,E4,1,< (Precedes),False,tropical cyclone that buffeted the coastal tracking station,Replacing bent azimuth gears
+E1,E5,1,< (Precedes),False,tropical cyclone that buffeted the coastal tracking station,RF signal calibration began
+E1,E6,1,< (Precedes),False,tropical cyclone that buffeted the coastal tracking station,software engineers initiated telemetry handshakes with the orbital satellite
+E1,E7,1,< (Precedes),False,tropical cyclone that buffeted the coastal tracking station,An anomalous data packet delay was detected
+E1,E8,1,< (Precedes),False,tropical cyclone that buffeted the coastal tracking station,remote patch that took forty-five minutes to compile and execute
+E1,E9,1,< (Precedes),False,tropical cyclone that buffeted the coastal tracking station,the link was monitored for sixty minutes
+E1,E10,1,< (Precedes),False,tropical cyclone that buffeted the coastal tracking station,The station formally certified the uplink as operational
+E1,E11,1,< (Precedes),False,tropical cyclone that buffeted the coastal tracking station,restoring primary weather data streams
+E2,E1,-2,mi (Met By),False,storm winds dropped below operational safety limits,tropical cyclone that buffeted the coastal tracking station
+E2,E3,1,< (Precedes),False,storm winds dropped below operational safety limits,Technicians initiated mechanical realignment
+E2,E4,1,< (Precedes),False,storm winds dropped below operational safety limits,Replacing bent azimuth gears
+E2,E5,1,< (Precedes),False,storm winds dropped below operational safety limits,RF signal calibration began
+E2,E6,1,< (Precedes),False,storm winds dropped below operational safety limits,software engineers initiated telemetry handshakes with the orbital satellite
+E2,E7,1,< (Precedes),False,storm winds dropped below operational safety limits,An anomalous data packet delay was detected
+E2,E8,1,< (Precedes),False,storm winds dropped below operational safety limits,remote patch that took forty-five minutes to compile and execute
+E2,E9,1,< (Precedes),False,storm winds dropped below operational safety limits,the link was monitored for sixty minutes
+E2,E10,1,< (Precedes),False,storm winds dropped below operational safety limits,The station formally certified the uplink as operational
+E2,E11,1,< (Precedes),False,storm winds dropped below operational safety limits,restoring primary weather data streams
+E3,E1,-1,> (Preceded By),False,Technicians initiated mechanical realignment,tropical cyclone that buffeted the coastal tracking station
+E3,E2,-1,> (Preceded By),False,Technicians initiated mechanical realignment,storm winds dropped below operational safety limits
+E3,E4,4,s (Starts),False,Technicians initiated mechanical realignment,Replacing bent azimuth gears
+E3,E5,1,< (Precedes),False,Technicians initiated mechanical realignment,RF signal calibration began
+E3,E6,1,< (Precedes),False,Technicians initiated mechanical realignment,software engineers initiated telemetry handshakes with the orbital satellite
+E3,E7,1,< (Precedes),False,Technicians initiated mechanical realignment,An anomalous data packet delay was detected
+E3,E8,1,< (Precedes),False,Technicians initiated mechanical realignment,remote patch that took forty-five minutes to compile and execute
+E3,E9,1,< (Precedes),False,Technicians initiated mechanical realignment,the link was monitored for sixty minutes
+E3,E10,1,< (Precedes),False,Technicians initiated mechanical realignment,The station formally certified the uplink as operational
+E3,E11,1,< (Precedes),False,Technicians initiated mechanical realignment,restoring primary weather data streams
+E4,E1,-1,> (Preceded By),False,Replacing bent azimuth gears,tropical cyclone that buffeted the coastal tracking station
+E4,E2,-1,> (Preceded By),False,Replacing bent azimuth gears,storm winds dropped below operational safety limits
+E4,E3,-4,si (Started By),False,Replacing bent azimuth gears,Technicians initiated mechanical realignment
+E4,E5,1,< (Precedes),False,Replacing bent azimuth gears,RF signal calibration began
+E4,E6,1,< (Precedes),False,Replacing bent azimuth gears,software engineers initiated telemetry handshakes with the orbital satellite
+E4,E7,1,< (Precedes),False,Replacing bent azimuth gears,An anomalous data packet delay was detected
+E4,E8,1,< (Precedes),False,Replacing bent azimuth gears,remote patch that took forty-five minutes to compile and execute
+E4,E9,1,< (Precedes),False,Replacing bent azimuth gears,the link was monitored for sixty minutes
+E4,E10,1,< (Precedes),False,Replacing bent azimuth gears,The station formally certified the uplink as operational
+E4,E11,1,< (Precedes),False,Replacing bent azimuth gears,restoring primary weather data streams
+E5,E1,-1,> (Preceded By),False,RF signal calibration began,tropical cyclone that buffeted the coastal tracking station
+E5,E2,-1,> (Preceded By),False,RF signal calibration began,storm winds dropped below operational safety limits
+E5,E3,-1,> (Preceded By),False,RF signal calibration began,Technicians initiated mechanical realignment
+E5,E4,-1,> (Preceded By),False,RF signal calibration began,Replacing bent azimuth gears
+E5,E6,-5,di (Contains),False,RF signal calibration began,software engineers initiated telemetry handshakes with the orbital satellite
+E5,E7,-5,di (Contains),False,RF signal calibration began,An anomalous data packet delay was detected
+E5,E8,3,o (Overlaps),False,RF signal calibration began,remote patch that took forty-five minutes to compile and execute
+E5,E9,1,< (Precedes),False,RF signal calibration began,the link was monitored for sixty minutes
+E5,E10,1,< (Precedes),False,RF signal calibration began,The station formally certified the uplink as operational
+E5,E11,1,< (Precedes),False,RF signal calibration began,restoring primary weather data streams
+E6,E1,-1,> (Preceded By),False,software engineers initiated telemetry handshakes with the orbital satellite,tropical cyclone that buffeted the coastal tracking station
+E6,E2,-1,> (Preceded By),False,software engineers initiated telemetry handshakes with the orbital satellite,storm winds dropped below operational safety limits
+E6,E3,-1,> (Preceded By),False,software engineers initiated telemetry handshakes with the orbital satellite,Technicians initiated mechanical realignment
+E6,E4,-1,> (Preceded By),False,software engineers initiated telemetry handshakes with the orbital satellite,Replacing bent azimuth gears
+E6,E5,5,d (During),False,software engineers initiated telemetry handshakes with the orbital satellite,RF signal calibration began
+E6,E7,1,< (Precedes),False,software engineers initiated telemetry handshakes with the orbital satellite,An anomalous data packet delay was detected
+E6,E8,1,< (Precedes),False,software engineers initiated telemetry handshakes with the orbital satellite,remote patch that took forty-five minutes to compile and execute
+E6,E9,1,< (Precedes),False,software engineers initiated telemetry handshakes with the orbital satellite,the link was monitored for sixty minutes
+E6,E10,1,< (Precedes),False,software engineers initiated telemetry handshakes with the orbital satellite,The station formally certified the uplink as operational
+E6,E11,1,< (Precedes),False,software engineers initiated telemetry handshakes with the orbital satellite,restoring primary weather data streams
+E7,E1,-1,> (Preceded By),False,An anomalous data packet delay was detected,tropical cyclone that buffeted the coastal tracking station
+E7,E2,-1,> (Preceded By),False,An anomalous data packet delay was detected,storm winds dropped below operational safety limits
+E7,E3,-1,> (Preceded By),False,An anomalous data packet delay was detected,Technicians initiated mechanical realignment
+E7,E4,-1,> (Preceded By),False,An anomalous data packet delay was detected,Replacing bent azimuth gears
+E7,E5,5,d (During),False,An anomalous data packet delay was detected,RF signal calibration began
+E7,E6,-1,> (Preceded By),False,An anomalous data packet delay was detected,software engineers initiated telemetry handshakes with the orbital satellite
+E7,E8,4,s (Starts),False,An anomalous data packet delay was detected,remote patch that took forty-five minutes to compile and execute
+E7,E9,1,< (Precedes),False,An anomalous data packet delay was detected,the link was monitored for sixty minutes
+E7,E10,1,< (Precedes),False,An anomalous data packet delay was detected,The station formally certified the uplink as operational
+E7,E11,1,< (Precedes),False,An anomalous data packet delay was detected,restoring primary weather data streams
+E8,E1,-1,> (Preceded By),False,remote patch that took forty-five minutes to compile and execute,tropical cyclone that buffeted the coastal tracking station
+E8,E2,-1,> (Preceded By),False,remote patch that took forty-five minutes to compile and execute,storm winds dropped below operational safety limits
+E8,E3,-1,> (Preceded By),False,remote patch that took forty-five minutes to compile and execute,Technicians initiated mechanical realignment
+E8,E4,-1,> (Preceded By),False,remote patch that took forty-five minutes to compile and execute,Replacing bent azimuth gears
+E8,E5,-3,oi (Overlapped By),False,remote patch that took forty-five minutes to compile and execute,RF signal calibration began
+E8,E6,-1,> (Preceded By),False,remote patch that took forty-five minutes to compile and execute,software engineers initiated telemetry handshakes with the orbital satellite
+E8,E7,-4,si (Started By),False,remote patch that took forty-five minutes to compile and execute,An anomalous data packet delay was detected
+E8,E9,2,m (Meets),False,remote patch that took forty-five minutes to compile and execute,the link was monitored for sixty minutes
+E8,E10,1,< (Precedes),False,remote patch that took forty-five minutes to compile and execute,The station formally certified the uplink as operational
+E8,E11,1,< (Precedes),False,remote patch that took forty-five minutes to compile and execute,restoring primary weather data streams
+E9,E1,-1,> (Preceded By),False,the link was monitored for sixty minutes,tropical cyclone that buffeted the coastal tracking station
+E9,E2,-1,> (Preceded By),False,the link was monitored for sixty minutes,storm winds dropped below operational safety limits
+E9,E3,-1,> (Preceded By),False,the link was monitored for sixty minutes,Technicians initiated mechanical realignment
+E9,E4,-1,> (Preceded By),False,the link was monitored for sixty minutes,Replacing bent azimuth gears
+E9,E5,-1,> (Preceded By),False,the link was monitored for sixty minutes,RF signal calibration began
+E9,E6,-1,> (Preceded By),False,the link was monitored for sixty minutes,software engineers initiated telemetry handshakes with the orbital satellite
+E9,E7,-1,> (Preceded By),False,the link was monitored for sixty minutes,An anomalous data packet delay was detected
+E9,E8,-2,mi (Met By),False,the link was monitored for sixty minutes,remote patch that took forty-five minutes to compile and execute
+E9,E10,1,< (Precedes),False,the link was monitored for sixty minutes,The station formally certified the uplink as operational
+E9,E11,1,< (Precedes),False,the link was monitored for sixty minutes,restoring primary weather data streams
+E10,E1,-1,> (Preceded By),False,The station formally certified the uplink as operational,tropical cyclone that buffeted the coastal tracking station
+E10,E2,-1,> (Preceded By),False,The station formally certified the uplink as operational,storm winds dropped below operational safety limits
+E10,E3,-1,> (Preceded By),False,The station formally certified the uplink as operational,Technicians initiated mechanical realignment
+E10,E4,-1,> (Preceded By),False,The station formally certified the uplink as operational,Replacing bent azimuth gears
+E10,E5,-1,> (Preceded By),False,The station formally certified the uplink as operational,RF signal calibration began
+E10,E6,-1,> (Preceded By),False,The station formally certified the uplink as operational,software engineers initiated telemetry handshakes with the orbital satellite
+E10,E7,-1,> (Preceded By),False,The station formally certified the uplink as operational,An anomalous data packet delay was detected
+E10,E8,-1,> (Preceded By),False,The station formally certified the uplink as operational,remote patch that took forty-five minutes to compile and execute
+E10,E9,-1,> (Preceded By),False,The station formally certified the uplink as operational,the link was monitored for sixty minutes
+E10,E11,1,< (Precedes),False,The station formally certified the uplink as operational,restoring primary weather data streams
+E11,E1,-1,> (Preceded By),False,restoring primary weather data streams,tropical cyclone that buffeted the coastal tracking station
+E11,E2,-1,> (Preceded By),False,restoring primary weather data streams,storm winds dropped below operational safety limits
+E11,E3,-1,> (Preceded By),False,restoring primary weather data streams,Technicians initiated mechanical realignment
+E11,E4,-1,> (Preceded By),False,restoring primary weather data streams,Replacing bent azimuth gears
+E11,E5,-1,> (Preceded By),False,restoring primary weather data streams,RF signal calibration began
+E11,E6,-1,> (Preceded By),False,restoring primary weather data streams,software engineers initiated telemetry handshakes with the orbital satellite
+E11,E7,-1,> (Preceded By),False,restoring primary weather data streams,An anomalous data packet delay was detected
+E11,E8,-1,> (Preceded By),False,restoring primary weather data streams,remote patch that took forty-five minutes to compile and execute
+E11,E9,-1,> (Preceded By),False,restoring primary weather data streams,the link was monitored for sixty minutes
+E11,E10,-1,> (Preceded By),False,restoring primary weather data streams,The station formally certified the uplink as operational

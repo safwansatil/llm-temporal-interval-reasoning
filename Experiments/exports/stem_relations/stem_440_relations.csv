@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,Arif took the lead in the first zone,spending twenty-one continuous days conducting soil sampling
+E1,E3,1,< (Precedes),False,Arif took the lead in the first zone,they relocated to the second zone
+E1,E4,1,< (Precedes),False,Arif took the lead in the first zone,they worked side-by-side for fourteen days
+E1,E5,1,< (Precedes),False,Arif took the lead in the first zone,Bashir fell ill
+E1,E6,1,< (Precedes),False,Arif took the lead in the first zone,forced to rest for a full week
+E1,E7,1,< (Precedes),False,Arif took the lead in the first zone,Arif processed the accumulated data
+E1,E8,1,< (Precedes),False,Arif took the lead in the first zone,they moved to the third zone
+E1,E9,1,< (Precedes),False,Arif took the lead in the first zone,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E1,E10,1,< (Precedes),False,Arif took the lead in the first zone,the project concluded
+E1,E11,4,s (Starts),False,Arif took the lead in the first zone,expedition would take exactly ten weeks
+E2,E1,-4,si (Started By),False,spending twenty-one continuous days conducting soil sampling,Arif took the lead in the first zone
+E2,E3,2,m (Meets),False,spending twenty-one continuous days conducting soil sampling,they relocated to the second zone
+E2,E4,1,< (Precedes),False,spending twenty-one continuous days conducting soil sampling,they worked side-by-side for fourteen days
+E2,E5,1,< (Precedes),False,spending twenty-one continuous days conducting soil sampling,Bashir fell ill
+E2,E6,1,< (Precedes),False,spending twenty-one continuous days conducting soil sampling,forced to rest for a full week
+E2,E7,1,< (Precedes),False,spending twenty-one continuous days conducting soil sampling,Arif processed the accumulated data
+E2,E8,1,< (Precedes),False,spending twenty-one continuous days conducting soil sampling,they moved to the third zone
+E2,E9,1,< (Precedes),False,spending twenty-one continuous days conducting soil sampling,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E2,E10,1,< (Precedes),False,spending twenty-one continuous days conducting soil sampling,the project concluded
+E2,E11,4,s (Starts),False,spending twenty-one continuous days conducting soil sampling,expedition would take exactly ten weeks
+E3,E1,-1,> (Preceded By),False,they relocated to the second zone,Arif took the lead in the first zone
+E3,E2,-2,mi (Met By),False,they relocated to the second zone,spending twenty-one continuous days conducting soil sampling
+E3,E4,2,m (Meets),False,they relocated to the second zone,they worked side-by-side for fourteen days
+E3,E5,1,< (Precedes),False,they relocated to the second zone,Bashir fell ill
+E3,E6,1,< (Precedes),False,they relocated to the second zone,forced to rest for a full week
+E3,E7,1,< (Precedes),False,they relocated to the second zone,Arif processed the accumulated data
+E3,E8,1,< (Precedes),False,they relocated to the second zone,they moved to the third zone
+E3,E9,1,< (Precedes),False,they relocated to the second zone,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E3,E10,1,< (Precedes),False,they relocated to the second zone,the project concluded
+E3,E11,5,d (During),False,they relocated to the second zone,expedition would take exactly ten weeks
+E4,E1,-1,> (Preceded By),False,they worked side-by-side for fourteen days,Arif took the lead in the first zone
+E4,E2,-1,> (Preceded By),False,they worked side-by-side for fourteen days,spending twenty-one continuous days conducting soil sampling
+E4,E3,-2,mi (Met By),False,they worked side-by-side for fourteen days,they relocated to the second zone
+E4,E5,2,m (Meets),False,they worked side-by-side for fourteen days,Bashir fell ill
+E4,E6,2,m (Meets),False,they worked side-by-side for fourteen days,forced to rest for a full week
+E4,E7,2,m (Meets),False,they worked side-by-side for fourteen days,Arif processed the accumulated data
+E4,E8,1,< (Precedes),False,they worked side-by-side for fourteen days,they moved to the third zone
+E4,E9,1,< (Precedes),False,they worked side-by-side for fourteen days,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E4,E10,1,< (Precedes),False,they worked side-by-side for fourteen days,the project concluded
+E4,E11,5,d (During),False,they worked side-by-side for fourteen days,expedition would take exactly ten weeks
+E5,E1,-1,> (Preceded By),False,Bashir fell ill,Arif took the lead in the first zone
+E5,E2,-1,> (Preceded By),False,Bashir fell ill,spending twenty-one continuous days conducting soil sampling
+E5,E3,-1,> (Preceded By),False,Bashir fell ill,they relocated to the second zone
+E5,E4,-2,mi (Met By),False,Bashir fell ill,they worked side-by-side for fourteen days
+E5,E6,4,s (Starts),False,Bashir fell ill,forced to rest for a full week
+E5,E7,4,s (Starts),False,Bashir fell ill,Arif processed the accumulated data
+E5,E8,1,< (Precedes),False,Bashir fell ill,they moved to the third zone
+E5,E9,1,< (Precedes),False,Bashir fell ill,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E5,E10,1,< (Precedes),False,Bashir fell ill,the project concluded
+E5,E11,5,d (During),False,Bashir fell ill,expedition would take exactly ten weeks
+E6,E1,-1,> (Preceded By),False,forced to rest for a full week,Arif took the lead in the first zone
+E6,E2,-1,> (Preceded By),False,forced to rest for a full week,spending twenty-one continuous days conducting soil sampling
+E6,E3,-1,> (Preceded By),False,forced to rest for a full week,they relocated to the second zone
+E6,E4,-2,mi (Met By),False,forced to rest for a full week,they worked side-by-side for fourteen days
+E6,E5,-4,si (Started By),False,forced to rest for a full week,Bashir fell ill
+E6,E7,0,= (Equal),False,forced to rest for a full week,Arif processed the accumulated data
+E6,E8,2,m (Meets),False,forced to rest for a full week,they moved to the third zone
+E6,E9,1,< (Precedes),False,forced to rest for a full week,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E6,E10,1,< (Precedes),False,forced to rest for a full week,the project concluded
+E6,E11,5,d (During),False,forced to rest for a full week,expedition would take exactly ten weeks
+E7,E1,-1,> (Preceded By),False,Arif processed the accumulated data,Arif took the lead in the first zone
+E7,E2,-1,> (Preceded By),False,Arif processed the accumulated data,spending twenty-one continuous days conducting soil sampling
+E7,E3,-1,> (Preceded By),False,Arif processed the accumulated data,they relocated to the second zone
+E7,E4,-2,mi (Met By),False,Arif processed the accumulated data,they worked side-by-side for fourteen days
+E7,E5,-4,si (Started By),False,Arif processed the accumulated data,Bashir fell ill
+E7,E6,0,= (Equal),False,Arif processed the accumulated data,forced to rest for a full week
+E7,E8,2,m (Meets),False,Arif processed the accumulated data,they moved to the third zone
+E7,E9,1,< (Precedes),False,Arif processed the accumulated data,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E7,E10,1,< (Precedes),False,Arif processed the accumulated data,the project concluded
+E7,E11,5,d (During),False,Arif processed the accumulated data,expedition would take exactly ten weeks
+E8,E1,-1,> (Preceded By),False,they moved to the third zone,Arif took the lead in the first zone
+E8,E2,-1,> (Preceded By),False,they moved to the third zone,spending twenty-one continuous days conducting soil sampling
+E8,E3,-1,> (Preceded By),False,they moved to the third zone,they relocated to the second zone
+E8,E4,-1,> (Preceded By),False,they moved to the third zone,they worked side-by-side for fourteen days
+E8,E5,-1,> (Preceded By),False,they moved to the third zone,Bashir fell ill
+E8,E6,-2,mi (Met By),False,they moved to the third zone,forced to rest for a full week
+E8,E7,-2,mi (Met By),False,they moved to the third zone,Arif processed the accumulated data
+E8,E9,1,< (Precedes),False,they moved to the third zone,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E8,E10,1,< (Precedes),False,they moved to the third zone,the project concluded
+E8,E11,5,d (During),False,they moved to the third zone,expedition would take exactly ten weeks
+E9,E1,-1,> (Preceded By),False,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping,Arif took the lead in the first zone
+E9,E2,-1,> (Preceded By),False,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping,spending twenty-one continuous days conducting soil sampling
+E9,E3,-1,> (Preceded By),False,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping,they relocated to the second zone
+E9,E4,-1,> (Preceded By),False,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping,they worked side-by-side for fourteen days
+E9,E5,-1,> (Preceded By),False,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping,Bashir fell ill
+E9,E6,-1,> (Preceded By),False,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping,forced to rest for a full week
+E9,E7,-1,> (Preceded By),False,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping,Arif processed the accumulated data
+E9,E8,-1,> (Preceded By),False,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping,they moved to the third zone
+E9,E10,2,m (Meets),False,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping,the project concluded
+E9,E11,6,f (Finishes),False,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping,expedition would take exactly ten weeks
+E10,E1,-1,> (Preceded By),False,the project concluded,Arif took the lead in the first zone
+E10,E2,-1,> (Preceded By),False,the project concluded,spending twenty-one continuous days conducting soil sampling
+E10,E3,-1,> (Preceded By),False,the project concluded,they relocated to the second zone
+E10,E4,-1,> (Preceded By),False,the project concluded,they worked side-by-side for fourteen days
+E10,E5,-1,> (Preceded By),False,the project concluded,Bashir fell ill
+E10,E6,-1,> (Preceded By),False,the project concluded,forced to rest for a full week
+E10,E7,-1,> (Preceded By),False,the project concluded,Arif processed the accumulated data
+E10,E8,-1,> (Preceded By),False,the project concluded,they moved to the third zone
+E10,E9,-2,mi (Met By),False,the project concluded,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E10,E11,-2,mi (Met By),False,the project concluded,expedition would take exactly ten weeks
+E11,E1,-4,si (Started By),False,expedition would take exactly ten weeks,Arif took the lead in the first zone
+E11,E2,-4,si (Started By),False,expedition would take exactly ten weeks,spending twenty-one continuous days conducting soil sampling
+E11,E3,-5,di (Contains),False,expedition would take exactly ten weeks,they relocated to the second zone
+E11,E4,-5,di (Contains),False,expedition would take exactly ten weeks,they worked side-by-side for fourteen days
+E11,E5,-5,di (Contains),False,expedition would take exactly ten weeks,Bashir fell ill
+E11,E6,-5,di (Contains),False,expedition would take exactly ten weeks,forced to rest for a full week
+E11,E7,-5,di (Contains),False,expedition would take exactly ten weeks,Arif processed the accumulated data
+E11,E8,-5,di (Contains),False,expedition would take exactly ten weeks,they moved to the third zone
+E11,E9,-6,fi (Finished By),False,expedition would take exactly ten weeks,dedicating the final three weeks of their ten-week schedule to drone-based aerial mapping
+E11,E10,2,m (Meets),False,expedition would take exactly ten weeks,the project concluded

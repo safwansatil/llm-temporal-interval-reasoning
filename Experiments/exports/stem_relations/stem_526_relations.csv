@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,5,d (During),False,entered the room,Multazam studying
+E1,E3,1,< (Precedes),False,entered the room,started talking to my mother
+E1,E4,1,< (Precedes),False,entered the room,Abu came in
+E1,E5,1,< (Precedes),False,entered the room,asked how I was doing
+E1,E6,1,< (Precedes),False,entered the room,I replied that I was doing well
+E1,E8,1,< (Precedes),False,entered the room,started browsing on his laptop
+E1,E10,1,< (Precedes),False,entered the room,Multazam and I went to play table tennis
+E1,E12,1,< (Precedes),False,entered the room,I received a text notification
+E1,E13,1,< (Precedes),False,entered the room,Abu started playing carrom
+E1,E15,1,< (Precedes),False,entered the room,sat down on a bench to catch our breath
+E1,E18,1,< (Precedes),False,entered the room,drinking water
+E1,E19,1,< (Precedes),False,entered the room,paused to chat near the hallway
+E1,E20,1,< (Precedes),False,entered the room,returned to the room together
+E2,E1,-5,di (Contains),False,Multazam studying,entered the room
+E2,E3,3,o (Overlaps),False,Multazam studying,started talking to my mother
+E2,E4,-5,di (Contains),False,Multazam studying,Abu came in
+E2,E5,-5,di (Contains),False,Multazam studying,asked how I was doing
+E2,E6,-5,di (Contains),False,Multazam studying,I replied that I was doing well
+E2,E8,2,m (Meets),False,Multazam studying,started browsing on his laptop
+E2,E10,1,< (Precedes),False,Multazam studying,Multazam and I went to play table tennis
+E2,E12,1,< (Precedes),False,Multazam studying,I received a text notification
+E2,E13,1,< (Precedes),False,Multazam studying,Abu started playing carrom
+E2,E15,1,< (Precedes),False,Multazam studying,sat down on a bench to catch our breath
+E2,E18,1,< (Precedes),False,Multazam studying,drinking water
+E2,E19,1,< (Precedes),False,Multazam studying,paused to chat near the hallway
+E2,E20,1,< (Precedes),False,Multazam studying,returned to the room together
+E3,E1,-1,> (Preceded By),False,started talking to my mother,entered the room
+E3,E2,-3,oi (Overlapped By),False,started talking to my mother,Multazam studying
+E3,E4,-5,di (Contains),False,started talking to my mother,Abu came in
+E3,E5,-5,di (Contains),False,started talking to my mother,asked how I was doing
+E3,E6,-5,di (Contains),False,started talking to my mother,I replied that I was doing well
+E3,E8,-5,di (Contains),False,started talking to my mother,started browsing on his laptop
+E3,E10,2,m (Meets),False,started talking to my mother,Multazam and I went to play table tennis
+E3,E12,2,m (Meets),False,started talking to my mother,I received a text notification
+E3,E13,1,< (Precedes),False,started talking to my mother,Abu started playing carrom
+E3,E15,1,< (Precedes),False,started talking to my mother,sat down on a bench to catch our breath
+E3,E18,1,< (Precedes),False,started talking to my mother,drinking water
+E3,E19,1,< (Precedes),False,started talking to my mother,paused to chat near the hallway
+E3,E20,1,< (Precedes),False,started talking to my mother,returned to the room together
+E4,E1,-1,> (Preceded By),False,Abu came in,entered the room
+E4,E2,5,d (During),False,Abu came in,Multazam studying
+E4,E3,5,d (During),False,Abu came in,started talking to my mother
+E4,E5,2,m (Meets),False,Abu came in,asked how I was doing
+E4,E6,1,< (Precedes),False,Abu came in,I replied that I was doing well
+E4,E8,1,< (Precedes),False,Abu came in,started browsing on his laptop
+E4,E10,1,< (Precedes),False,Abu came in,Multazam and I went to play table tennis
+E4,E12,1,< (Precedes),False,Abu came in,I received a text notification
+E4,E13,1,< (Precedes),False,Abu came in,Abu started playing carrom
+E4,E15,1,< (Precedes),False,Abu came in,sat down on a bench to catch our breath
+E4,E18,1,< (Precedes),False,Abu came in,drinking water
+E4,E19,1,< (Precedes),False,Abu came in,paused to chat near the hallway
+E4,E20,1,< (Precedes),False,Abu came in,returned to the room together
+E5,E1,-1,> (Preceded By),False,asked how I was doing,entered the room
+E5,E2,5,d (During),False,asked how I was doing,Multazam studying
+E5,E3,5,d (During),False,asked how I was doing,started talking to my mother
+E5,E4,-2,mi (Met By),False,asked how I was doing,Abu came in
+E5,E6,2,m (Meets),False,asked how I was doing,I replied that I was doing well
+E5,E8,1,< (Precedes),False,asked how I was doing,started browsing on his laptop
+E5,E10,1,< (Precedes),False,asked how I was doing,Multazam and I went to play table tennis
+E5,E12,1,< (Precedes),False,asked how I was doing,I received a text notification
+E5,E13,1,< (Precedes),False,asked how I was doing,Abu started playing carrom
+E5,E15,1,< (Precedes),False,asked how I was doing,sat down on a bench to catch our breath
+E5,E18,1,< (Precedes),False,asked how I was doing,drinking water
+E5,E19,1,< (Precedes),False,asked how I was doing,paused to chat near the hallway
+E5,E20,1,< (Precedes),False,asked how I was doing,returned to the room together
+E6,E1,-1,> (Preceded By),False,I replied that I was doing well,entered the room
+E6,E2,5,d (During),False,I replied that I was doing well,Multazam studying
+E6,E3,5,d (During),False,I replied that I was doing well,started talking to my mother
+E6,E4,-1,> (Preceded By),False,I replied that I was doing well,Abu came in
+E6,E5,-2,mi (Met By),False,I replied that I was doing well,asked how I was doing
+E6,E8,1,< (Precedes),False,I replied that I was doing well,started browsing on his laptop
+E6,E10,1,< (Precedes),False,I replied that I was doing well,Multazam and I went to play table tennis
+E6,E12,1,< (Precedes),False,I replied that I was doing well,I received a text notification
+E6,E13,1,< (Precedes),False,I replied that I was doing well,Abu started playing carrom
+E6,E15,1,< (Precedes),False,I replied that I was doing well,sat down on a bench to catch our breath
+E6,E18,1,< (Precedes),False,I replied that I was doing well,drinking water
+E6,E19,1,< (Precedes),False,I replied that I was doing well,paused to chat near the hallway
+E6,E20,1,< (Precedes),False,I replied that I was doing well,returned to the room together
+E8,E1,-1,> (Preceded By),False,started browsing on his laptop,entered the room
+E8,E2,-2,mi (Met By),False,started browsing on his laptop,Multazam studying
+E8,E3,5,d (During),False,started browsing on his laptop,started talking to my mother
+E8,E4,-1,> (Preceded By),False,started browsing on his laptop,Abu came in
+E8,E5,-1,> (Preceded By),False,started browsing on his laptop,asked how I was doing
+E8,E6,-1,> (Preceded By),False,started browsing on his laptop,I replied that I was doing well
+E8,E10,1,< (Precedes),False,started browsing on his laptop,Multazam and I went to play table tennis
+E8,E12,1,< (Precedes),False,started browsing on his laptop,I received a text notification
+E8,E13,1,< (Precedes),False,started browsing on his laptop,Abu started playing carrom
+E8,E15,1,< (Precedes),False,started browsing on his laptop,sat down on a bench to catch our breath
+E8,E18,1,< (Precedes),False,started browsing on his laptop,drinking water
+E8,E19,1,< (Precedes),False,started browsing on his laptop,paused to chat near the hallway
+E8,E20,1,< (Precedes),False,started browsing on his laptop,returned to the room together
+E10,E1,-1,> (Preceded By),False,Multazam and I went to play table tennis,entered the room
+E10,E2,-1,> (Preceded By),False,Multazam and I went to play table tennis,Multazam studying
+E10,E3,-2,mi (Met By),False,Multazam and I went to play table tennis,started talking to my mother
+E10,E4,-1,> (Preceded By),False,Multazam and I went to play table tennis,Abu came in
+E10,E5,-1,> (Preceded By),False,Multazam and I went to play table tennis,asked how I was doing
+E10,E6,-1,> (Preceded By),False,Multazam and I went to play table tennis,I replied that I was doing well
+E10,E8,-1,> (Preceded By),False,Multazam and I went to play table tennis,started browsing on his laptop
+E10,E12,-4,si (Started By),False,Multazam and I went to play table tennis,I received a text notification
+E10,E13,3,o (Overlaps),False,Multazam and I went to play table tennis,Abu started playing carrom
+E10,E15,2,m (Meets),False,Multazam and I went to play table tennis,sat down on a bench to catch our breath
+E10,E18,1,< (Precedes),False,Multazam and I went to play table tennis,drinking water
+E10,E19,1,< (Precedes),False,Multazam and I went to play table tennis,paused to chat near the hallway
+E10,E20,1,< (Precedes),False,Multazam and I went to play table tennis,returned to the room together
+E12,E1,-1,> (Preceded By),False,I received a text notification,entered the room
+E12,E2,-1,> (Preceded By),False,I received a text notification,Multazam studying
+E12,E3,-2,mi (Met By),False,I received a text notification,started talking to my mother
+E12,E4,-1,> (Preceded By),False,I received a text notification,Abu came in
+E12,E5,-1,> (Preceded By),False,I received a text notification,asked how I was doing
+E12,E6,-1,> (Preceded By),False,I received a text notification,I replied that I was doing well
+E12,E8,-1,> (Preceded By),False,I received a text notification,started browsing on his laptop
+E12,E10,4,s (Starts),False,I received a text notification,Multazam and I went to play table tennis
+E12,E13,1,< (Precedes),False,I received a text notification,Abu started playing carrom
+E12,E15,1,< (Precedes),False,I received a text notification,sat down on a bench to catch our breath
+E12,E18,1,< (Precedes),False,I received a text notification,drinking water
+E12,E19,1,< (Precedes),False,I received a text notification,paused to chat near the hallway
+E12,E20,1,< (Precedes),False,I received a text notification,returned to the room together
+E13,E1,-1,> (Preceded By),False,Abu started playing carrom,entered the room
+E13,E2,-1,> (Preceded By),False,Abu started playing carrom,Multazam studying
+E13,E3,-1,> (Preceded By),False,Abu started playing carrom,started talking to my mother
+E13,E4,-1,> (Preceded By),False,Abu started playing carrom,Abu came in
+E13,E5,-1,> (Preceded By),False,Abu started playing carrom,asked how I was doing
+E13,E6,-1,> (Preceded By),False,Abu started playing carrom,I replied that I was doing well
+E13,E8,-1,> (Preceded By),False,Abu started playing carrom,started browsing on his laptop
+E13,E10,-3,oi (Overlapped By),False,Abu started playing carrom,Multazam and I went to play table tennis
+E13,E12,-1,> (Preceded By),False,Abu started playing carrom,I received a text notification
+E13,E15,-6,fi (Finished By),False,Abu started playing carrom,sat down on a bench to catch our breath
+E13,E18,2,m (Meets),False,Abu started playing carrom,drinking water
+E13,E19,1,< (Precedes),False,Abu started playing carrom,paused to chat near the hallway
+E13,E20,1,< (Precedes),False,Abu started playing carrom,returned to the room together
+E15,E1,-1,> (Preceded By),False,sat down on a bench to catch our breath,entered the room
+E15,E2,-1,> (Preceded By),False,sat down on a bench to catch our breath,Multazam studying
+E15,E3,-1,> (Preceded By),False,sat down on a bench to catch our breath,started talking to my mother
+E15,E4,-1,> (Preceded By),False,sat down on a bench to catch our breath,Abu came in
+E15,E5,-1,> (Preceded By),False,sat down on a bench to catch our breath,asked how I was doing
+E15,E6,-1,> (Preceded By),False,sat down on a bench to catch our breath,I replied that I was doing well
+E15,E8,-1,> (Preceded By),False,sat down on a bench to catch our breath,started browsing on his laptop
+E15,E10,-2,mi (Met By),False,sat down on a bench to catch our breath,Multazam and I went to play table tennis
+E15,E12,-1,> (Preceded By),False,sat down on a bench to catch our breath,I received a text notification
+E15,E13,6,f (Finishes),False,sat down on a bench to catch our breath,Abu started playing carrom
+E15,E18,2,m (Meets),False,sat down on a bench to catch our breath,drinking water
+E15,E19,1,< (Precedes),False,sat down on a bench to catch our breath,paused to chat near the hallway
+E15,E20,1,< (Precedes),False,sat down on a bench to catch our breath,returned to the room together
+E18,E1,-1,> (Preceded By),False,drinking water,entered the room
+E18,E2,-1,> (Preceded By),False,drinking water,Multazam studying
+E18,E3,-1,> (Preceded By),False,drinking water,started talking to my mother
+E18,E4,-1,> (Preceded By),False,drinking water,Abu came in
+E18,E5,-1,> (Preceded By),False,drinking water,asked how I was doing
+E18,E6,-1,> (Preceded By),False,drinking water,I replied that I was doing well
+E18,E8,-1,> (Preceded By),False,drinking water,started browsing on his laptop
+E18,E10,-1,> (Preceded By),False,drinking water,Multazam and I went to play table tennis
+E18,E12,-1,> (Preceded By),False,drinking water,I received a text notification
+E18,E13,-2,mi (Met By),False,drinking water,Abu started playing carrom
+E18,E15,-2,mi (Met By),False,drinking water,sat down on a bench to catch our breath
+E18,E19,1,< (Precedes),False,drinking water,paused to chat near the hallway
+E18,E20,1,< (Precedes),False,drinking water,returned to the room together
+E19,E1,-1,> (Preceded By),False,paused to chat near the hallway,entered the room
+E19,E2,-1,> (Preceded By),False,paused to chat near the hallway,Multazam studying
+E19,E3,-1,> (Preceded By),False,paused to chat near the hallway,started talking to my mother
+E19,E4,-1,> (Preceded By),False,paused to chat near the hallway,Abu came in
+E19,E5,-1,> (Preceded By),False,paused to chat near the hallway,asked how I was doing
+E19,E6,-1,> (Preceded By),False,paused to chat near the hallway,I replied that I was doing well
+E19,E8,-1,> (Preceded By),False,paused to chat near the hallway,started browsing on his laptop
+E19,E10,-1,> (Preceded By),False,paused to chat near the hallway,Multazam and I went to play table tennis
+E19,E12,-1,> (Preceded By),False,paused to chat near the hallway,I received a text notification
+E19,E13,-1,> (Preceded By),False,paused to chat near the hallway,Abu started playing carrom
+E19,E15,-1,> (Preceded By),False,paused to chat near the hallway,sat down on a bench to catch our breath
+E19,E18,-1,> (Preceded By),False,paused to chat near the hallway,drinking water
+E19,E20,1,< (Precedes),False,paused to chat near the hallway,returned to the room together
+E20,E1,-1,> (Preceded By),False,returned to the room together,entered the room
+E20,E2,-1,> (Preceded By),False,returned to the room together,Multazam studying
+E20,E3,-1,> (Preceded By),False,returned to the room together,started talking to my mother
+E20,E4,-1,> (Preceded By),False,returned to the room together,Abu came in
+E20,E5,-1,> (Preceded By),False,returned to the room together,asked how I was doing
+E20,E6,-1,> (Preceded By),False,returned to the room together,I replied that I was doing well
+E20,E8,-1,> (Preceded By),False,returned to the room together,started browsing on his laptop
+E20,E10,-1,> (Preceded By),False,returned to the room together,Multazam and I went to play table tennis
+E20,E12,-1,> (Preceded By),False,returned to the room together,I received a text notification
+E20,E13,-1,> (Preceded By),False,returned to the room together,Abu started playing carrom
+E20,E15,-1,> (Preceded By),False,returned to the room together,sat down on a bench to catch our breath
+E20,E18,-1,> (Preceded By),False,returned to the room together,drinking water
+E20,E19,-1,> (Preceded By),False,returned to the room together,paused to chat near the hallway

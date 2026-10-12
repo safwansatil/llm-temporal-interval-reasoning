@@ -1,0 +1,307 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,the hotel was sold to a new owner
+E1,E3,2,m (Meets),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,Lutfur was let go
+E1,E4,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,He spent April visiting his brother in Gaibandha
+E1,E5,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,helped a local restaurant owner with their kitchen setup for two weeks
+E1,E6,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,he returned to Dinajpur
+E1,E7,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,heard from a neighbor that a new resort was opening
+E1,E8,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,He went out there one morning on his bicycle
+E1,E9,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,asked to speak with the manager
+E1,E10,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,He returned four days later
+E1,E11,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,He was hired as head cook
+E1,E12,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,The resort's soft opening was in July
+E1,E13,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,The first guests arrived from Dhaka
+E1,E14,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E1,E15,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,the resort had its first fully booked weekend
+E1,E16,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,She interviewed Lutfur
+E1,E17,2,m (Meets),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,savings enough f
+E1,E18,1,< (Precedes),False,Lutfur had been a professional cook at a hotel in Dinajpur for nine years,leeping four hours each nigh
+E2,E1,-4,si (Started By),False,the hotel was sold to a new owner,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E2,E3,-5,di (Contains),False,the hotel was sold to a new owner,Lutfur was let go
+E2,E4,-5,di (Contains),False,the hotel was sold to a new owner,He spent April visiting his brother in Gaibandha
+E2,E5,-5,di (Contains),False,the hotel was sold to a new owner,helped a local restaurant owner with their kitchen setup for two weeks
+E2,E6,-5,di (Contains),False,the hotel was sold to a new owner,he returned to Dinajpur
+E2,E7,-5,di (Contains),False,the hotel was sold to a new owner,heard from a neighbor that a new resort was opening
+E2,E8,-5,di (Contains),False,the hotel was sold to a new owner,He went out there one morning on his bicycle
+E2,E9,-5,di (Contains),False,the hotel was sold to a new owner,asked to speak with the manager
+E2,E10,-5,di (Contains),False,the hotel was sold to a new owner,He returned four days later
+E2,E11,-5,di (Contains),False,the hotel was sold to a new owner,He was hired as head cook
+E2,E12,-5,di (Contains),False,the hotel was sold to a new owner,The resort's soft opening was in July
+E2,E13,-5,di (Contains),False,the hotel was sold to a new owner,The first guests arrived from Dhaka
+E2,E14,-5,di (Contains),False,the hotel was sold to a new owner,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E2,E15,-5,di (Contains),False,the hotel was sold to a new owner,the resort had its first fully booked weekend
+E2,E16,-5,di (Contains),False,the hotel was sold to a new owner,She interviewed Lutfur
+E2,E17,-5,di (Contains),False,the hotel was sold to a new owner,savings enough f
+E2,E18,-5,di (Contains),False,the hotel was sold to a new owner,leeping four hours each nigh
+E3,E1,-2,mi (Met By),False,Lutfur was let go,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E3,E2,5,d (During),False,Lutfur was let go,the hotel was sold to a new owner
+E3,E4,-5,di (Contains),False,Lutfur was let go,He spent April visiting his brother in Gaibandha
+E3,E5,-5,di (Contains),False,Lutfur was let go,helped a local restaurant owner with their kitchen setup for two weeks
+E3,E6,-5,di (Contains),False,Lutfur was let go,he returned to Dinajpur
+E3,E7,3,o (Overlaps),False,Lutfur was let go,heard from a neighbor that a new resort was opening
+E3,E8,1,< (Precedes),False,Lutfur was let go,He went out there one morning on his bicycle
+E3,E9,1,< (Precedes),False,Lutfur was let go,asked to speak with the manager
+E3,E10,1,< (Precedes),False,Lutfur was let go,He returned four days later
+E3,E11,1,< (Precedes),False,Lutfur was let go,He was hired as head cook
+E3,E12,1,< (Precedes),False,Lutfur was let go,The resort's soft opening was in July
+E3,E13,2,m (Meets),False,Lutfur was let go,The first guests arrived from Dhaka
+E3,E14,1,< (Precedes),False,Lutfur was let go,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E3,E15,1,< (Precedes),False,Lutfur was let go,the resort had its first fully booked weekend
+E3,E16,1,< (Precedes),False,Lutfur was let go,She interviewed Lutfur
+E3,E17,-4,si (Started By),False,Lutfur was let go,savings enough f
+E3,E18,1,< (Precedes),False,Lutfur was let go,leeping four hours each nigh
+E4,E1,-1,> (Preceded By),False,He spent April visiting his brother in Gaibandha,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E4,E2,5,d (During),False,He spent April visiting his brother in Gaibandha,the hotel was sold to a new owner
+E4,E3,5,d (During),False,He spent April visiting his brother in Gaibandha,Lutfur was let go
+E4,E5,-5,di (Contains),False,He spent April visiting his brother in Gaibandha,helped a local restaurant owner with their kitchen setup for two weeks
+E4,E6,2,m (Meets),False,He spent April visiting his brother in Gaibandha,he returned to Dinajpur
+E4,E7,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,heard from a neighbor that a new resort was opening
+E4,E8,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,He went out there one morning on his bicycle
+E4,E9,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,asked to speak with the manager
+E4,E10,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,He returned four days later
+E4,E11,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,He was hired as head cook
+E4,E12,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,The resort's soft opening was in July
+E4,E13,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,The first guests arrived from Dhaka
+E4,E14,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E4,E15,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,the resort had its first fully booked weekend
+E4,E16,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,She interviewed Lutfur
+E4,E17,-3,oi (Overlapped By),False,He spent April visiting his brother in Gaibandha,savings enough f
+E4,E18,1,< (Precedes),False,He spent April visiting his brother in Gaibandha,leeping four hours each nigh
+E5,E1,-1,> (Preceded By),False,helped a local restaurant owner with their kitchen setup for two weeks,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E5,E2,5,d (During),False,helped a local restaurant owner with their kitchen setup for two weeks,the hotel was sold to a new owner
+E5,E3,5,d (During),False,helped a local restaurant owner with their kitchen setup for two weeks,Lutfur was let go
+E5,E4,5,d (During),False,helped a local restaurant owner with their kitchen setup for two weeks,He spent April visiting his brother in Gaibandha
+E5,E6,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,he returned to Dinajpur
+E5,E7,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,heard from a neighbor that a new resort was opening
+E5,E8,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,He went out there one morning on his bicycle
+E5,E9,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,asked to speak with the manager
+E5,E10,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,He returned four days later
+E5,E11,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,He was hired as head cook
+E5,E12,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,The resort's soft opening was in July
+E5,E13,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,The first guests arrived from Dhaka
+E5,E14,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E5,E15,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,the resort had its first fully booked weekend
+E5,E16,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,She interviewed Lutfur
+E5,E17,6,f (Finishes),False,helped a local restaurant owner with their kitchen setup for two weeks,savings enough f
+E5,E18,1,< (Precedes),False,helped a local restaurant owner with their kitchen setup for two weeks,leeping four hours each nigh
+E6,E1,-1,> (Preceded By),False,he returned to Dinajpur,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E6,E2,5,d (During),False,he returned to Dinajpur,the hotel was sold to a new owner
+E6,E3,5,d (During),False,he returned to Dinajpur,Lutfur was let go
+E6,E4,-2,mi (Met By),False,he returned to Dinajpur,He spent April visiting his brother in Gaibandha
+E6,E5,-1,> (Preceded By),False,he returned to Dinajpur,helped a local restaurant owner with their kitchen setup for two weeks
+E6,E7,2,m (Meets),False,he returned to Dinajpur,heard from a neighbor that a new resort was opening
+E6,E8,1,< (Precedes),False,he returned to Dinajpur,He went out there one morning on his bicycle
+E6,E9,1,< (Precedes),False,he returned to Dinajpur,asked to speak with the manager
+E6,E10,1,< (Precedes),False,he returned to Dinajpur,He returned four days later
+E6,E11,1,< (Precedes),False,he returned to Dinajpur,He was hired as head cook
+E6,E12,1,< (Precedes),False,he returned to Dinajpur,The resort's soft opening was in July
+E6,E13,1,< (Precedes),False,he returned to Dinajpur,The first guests arrived from Dhaka
+E6,E14,1,< (Precedes),False,he returned to Dinajpur,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E6,E15,1,< (Precedes),False,he returned to Dinajpur,the resort had its first fully booked weekend
+E6,E16,1,< (Precedes),False,he returned to Dinajpur,She interviewed Lutfur
+E6,E17,-1,> (Preceded By),False,he returned to Dinajpur,savings enough f
+E6,E18,1,< (Precedes),False,he returned to Dinajpur,leeping four hours each nigh
+E7,E1,-1,> (Preceded By),False,heard from a neighbor that a new resort was opening,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E7,E2,5,d (During),False,heard from a neighbor that a new resort was opening,the hotel was sold to a new owner
+E7,E3,-3,oi (Overlapped By),False,heard from a neighbor that a new resort was opening,Lutfur was let go
+E7,E4,-1,> (Preceded By),False,heard from a neighbor that a new resort was opening,He spent April visiting his brother in Gaibandha
+E7,E5,-1,> (Preceded By),False,heard from a neighbor that a new resort was opening,helped a local restaurant owner with their kitchen setup for two weeks
+E7,E6,-2,mi (Met By),False,heard from a neighbor that a new resort was opening,he returned to Dinajpur
+E7,E8,2,m (Meets),False,heard from a neighbor that a new resort was opening,He went out there one morning on his bicycle
+E7,E9,1,< (Precedes),False,heard from a neighbor that a new resort was opening,asked to speak with the manager
+E7,E10,1,< (Precedes),False,heard from a neighbor that a new resort was opening,He returned four days later
+E7,E11,1,< (Precedes),False,heard from a neighbor that a new resort was opening,He was hired as head cook
+E7,E12,1,< (Precedes),False,heard from a neighbor that a new resort was opening,The resort's soft opening was in July
+E7,E13,3,o (Overlaps),False,heard from a neighbor that a new resort was opening,The first guests arrived from Dhaka
+E7,E14,1,< (Precedes),False,heard from a neighbor that a new resort was opening,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E7,E15,1,< (Precedes),False,heard from a neighbor that a new resort was opening,the resort had its first fully booked weekend
+E7,E16,1,< (Precedes),False,heard from a neighbor that a new resort was opening,She interviewed Lutfur
+E7,E17,-1,> (Preceded By),False,heard from a neighbor that a new resort was opening,savings enough f
+E7,E18,1,< (Precedes),False,heard from a neighbor that a new resort was opening,leeping four hours each nigh
+E8,E1,-1,> (Preceded By),False,He went out there one morning on his bicycle,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E8,E2,5,d (During),False,He went out there one morning on his bicycle,the hotel was sold to a new owner
+E8,E3,-1,> (Preceded By),False,He went out there one morning on his bicycle,Lutfur was let go
+E8,E4,-1,> (Preceded By),False,He went out there one morning on his bicycle,He spent April visiting his brother in Gaibandha
+E8,E5,-1,> (Preceded By),False,He went out there one morning on his bicycle,helped a local restaurant owner with their kitchen setup for two weeks
+E8,E6,-1,> (Preceded By),False,He went out there one morning on his bicycle,he returned to Dinajpur
+E8,E7,-2,mi (Met By),False,He went out there one morning on his bicycle,heard from a neighbor that a new resort was opening
+E8,E9,3,o (Overlaps),False,He went out there one morning on his bicycle,asked to speak with the manager
+E8,E10,1,< (Precedes),False,He went out there one morning on his bicycle,He returned four days later
+E8,E11,1,< (Precedes),False,He went out there one morning on his bicycle,He was hired as head cook
+E8,E12,1,< (Precedes),False,He went out there one morning on his bicycle,The resort's soft opening was in July
+E8,E13,5,d (During),False,He went out there one morning on his bicycle,The first guests arrived from Dhaka
+E8,E14,1,< (Precedes),False,He went out there one morning on his bicycle,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E8,E15,1,< (Precedes),False,He went out there one morning on his bicycle,the resort had its first fully booked weekend
+E8,E16,1,< (Precedes),False,He went out there one morning on his bicycle,She interviewed Lutfur
+E8,E17,-1,> (Preceded By),False,He went out there one morning on his bicycle,savings enough f
+E8,E18,1,< (Precedes),False,He went out there one morning on his bicycle,leeping four hours each nigh
+E9,E1,-1,> (Preceded By),False,asked to speak with the manager,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E9,E2,5,d (During),False,asked to speak with the manager,the hotel was sold to a new owner
+E9,E3,-1,> (Preceded By),False,asked to speak with the manager,Lutfur was let go
+E9,E4,-1,> (Preceded By),False,asked to speak with the manager,He spent April visiting his brother in Gaibandha
+E9,E5,-1,> (Preceded By),False,asked to speak with the manager,helped a local restaurant owner with their kitchen setup for two weeks
+E9,E6,-1,> (Preceded By),False,asked to speak with the manager,he returned to Dinajpur
+E9,E7,-1,> (Preceded By),False,asked to speak with the manager,heard from a neighbor that a new resort was opening
+E9,E8,-3,oi (Overlapped By),False,asked to speak with the manager,He went out there one morning on his bicycle
+E9,E10,1,< (Precedes),False,asked to speak with the manager,He returned four days later
+E9,E11,1,< (Precedes),False,asked to speak with the manager,He was hired as head cook
+E9,E12,1,< (Precedes),False,asked to speak with the manager,The resort's soft opening was in July
+E9,E13,5,d (During),False,asked to speak with the manager,The first guests arrived from Dhaka
+E9,E14,1,< (Precedes),False,asked to speak with the manager,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E9,E15,1,< (Precedes),False,asked to speak with the manager,the resort had its first fully booked weekend
+E9,E16,1,< (Precedes),False,asked to speak with the manager,She interviewed Lutfur
+E9,E17,-1,> (Preceded By),False,asked to speak with the manager,savings enough f
+E9,E18,1,< (Precedes),False,asked to speak with the manager,leeping four hours each nigh
+E10,E1,-1,> (Preceded By),False,He returned four days later,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E10,E2,5,d (During),False,He returned four days later,the hotel was sold to a new owner
+E10,E3,-1,> (Preceded By),False,He returned four days later,Lutfur was let go
+E10,E4,-1,> (Preceded By),False,He returned four days later,He spent April visiting his brother in Gaibandha
+E10,E5,-1,> (Preceded By),False,He returned four days later,helped a local restaurant owner with their kitchen setup for two weeks
+E10,E6,-1,> (Preceded By),False,He returned four days later,he returned to Dinajpur
+E10,E7,-1,> (Preceded By),False,He returned four days later,heard from a neighbor that a new resort was opening
+E10,E8,-1,> (Preceded By),False,He returned four days later,He went out there one morning on his bicycle
+E10,E9,-1,> (Preceded By),False,He returned four days later,asked to speak with the manager
+E10,E11,1,< (Precedes),False,He returned four days later,He was hired as head cook
+E10,E12,1,< (Precedes),False,He returned four days later,The resort's soft opening was in July
+E10,E13,5,d (During),False,He returned four days later,The first guests arrived from Dhaka
+E10,E14,1,< (Precedes),False,He returned four days later,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E10,E15,1,< (Precedes),False,He returned four days later,the resort had its first fully booked weekend
+E10,E16,2,m (Meets),False,He returned four days later,She interviewed Lutfur
+E10,E17,-1,> (Preceded By),False,He returned four days later,savings enough f
+E10,E18,1,< (Precedes),False,He returned four days later,leeping four hours each nigh
+E11,E1,-1,> (Preceded By),False,He was hired as head cook,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E11,E2,5,d (During),False,He was hired as head cook,the hotel was sold to a new owner
+E11,E3,-1,> (Preceded By),False,He was hired as head cook,Lutfur was let go
+E11,E4,-1,> (Preceded By),False,He was hired as head cook,He spent April visiting his brother in Gaibandha
+E11,E5,-1,> (Preceded By),False,He was hired as head cook,helped a local restaurant owner with their kitchen setup for two weeks
+E11,E6,-1,> (Preceded By),False,He was hired as head cook,he returned to Dinajpur
+E11,E7,-1,> (Preceded By),False,He was hired as head cook,heard from a neighbor that a new resort was opening
+E11,E8,-1,> (Preceded By),False,He was hired as head cook,He went out there one morning on his bicycle
+E11,E9,-1,> (Preceded By),False,He was hired as head cook,asked to speak with the manager
+E11,E10,-1,> (Preceded By),False,He was hired as head cook,He returned four days later
+E11,E12,1,< (Precedes),False,He was hired as head cook,The resort's soft opening was in July
+E11,E13,5,d (During),False,He was hired as head cook,The first guests arrived from Dhaka
+E11,E14,1,< (Precedes),False,He was hired as head cook,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E11,E15,1,< (Precedes),False,He was hired as head cook,the resort had its first fully booked weekend
+E11,E16,-2,mi (Met By),False,He was hired as head cook,She interviewed Lutfur
+E11,E17,-1,> (Preceded By),False,He was hired as head cook,savings enough f
+E11,E18,1,< (Precedes),False,He was hired as head cook,leeping four hours each nigh
+E12,E1,-1,> (Preceded By),False,The resort's soft opening was in July,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E12,E2,5,d (During),False,The resort's soft opening was in July,the hotel was sold to a new owner
+E12,E3,-1,> (Preceded By),False,The resort's soft opening was in July,Lutfur was let go
+E12,E4,-1,> (Preceded By),False,The resort's soft opening was in July,He spent April visiting his brother in Gaibandha
+E12,E5,-1,> (Preceded By),False,The resort's soft opening was in July,helped a local restaurant owner with their kitchen setup for two weeks
+E12,E6,-1,> (Preceded By),False,The resort's soft opening was in July,he returned to Dinajpur
+E12,E7,-1,> (Preceded By),False,The resort's soft opening was in July,heard from a neighbor that a new resort was opening
+E12,E8,-1,> (Preceded By),False,The resort's soft opening was in July,He went out there one morning on his bicycle
+E12,E9,-1,> (Preceded By),False,The resort's soft opening was in July,asked to speak with the manager
+E12,E10,-1,> (Preceded By),False,The resort's soft opening was in July,He returned four days later
+E12,E11,-1,> (Preceded By),False,The resort's soft opening was in July,He was hired as head cook
+E12,E13,6,f (Finishes),False,The resort's soft opening was in July,The first guests arrived from Dhaka
+E12,E14,2,m (Meets),False,The resort's soft opening was in July,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E12,E15,1,< (Precedes),False,The resort's soft opening was in July,the resort had its first fully booked weekend
+E12,E16,-1,> (Preceded By),False,The resort's soft opening was in July,She interviewed Lutfur
+E12,E17,-1,> (Preceded By),False,The resort's soft opening was in July,savings enough f
+E12,E18,1,< (Precedes),False,The resort's soft opening was in July,leeping four hours each nigh
+E13,E1,-1,> (Preceded By),False,The first guests arrived from Dhaka,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E13,E2,5,d (During),False,The first guests arrived from Dhaka,the hotel was sold to a new owner
+E13,E3,-2,mi (Met By),False,The first guests arrived from Dhaka,Lutfur was let go
+E13,E4,-1,> (Preceded By),False,The first guests arrived from Dhaka,He spent April visiting his brother in Gaibandha
+E13,E5,-1,> (Preceded By),False,The first guests arrived from Dhaka,helped a local restaurant owner with their kitchen setup for two weeks
+E13,E6,-1,> (Preceded By),False,The first guests arrived from Dhaka,he returned to Dinajpur
+E13,E7,-3,oi (Overlapped By),False,The first guests arrived from Dhaka,heard from a neighbor that a new resort was opening
+E13,E8,-5,di (Contains),False,The first guests arrived from Dhaka,He went out there one morning on his bicycle
+E13,E9,-5,di (Contains),False,The first guests arrived from Dhaka,asked to speak with the manager
+E13,E10,-5,di (Contains),False,The first guests arrived from Dhaka,He returned four days later
+E13,E11,-5,di (Contains),False,The first guests arrived from Dhaka,He was hired as head cook
+E13,E12,-6,fi (Finished By),False,The first guests arrived from Dhaka,The resort's soft opening was in July
+E13,E14,2,m (Meets),False,The first guests arrived from Dhaka,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E13,E15,1,< (Precedes),False,The first guests arrived from Dhaka,the resort had its first fully booked weekend
+E13,E16,-5,di (Contains),False,The first guests arrived from Dhaka,She interviewed Lutfur
+E13,E17,-1,> (Preceded By),False,The first guests arrived from Dhaka,savings enough f
+E13,E18,1,< (Precedes),False,The first guests arrived from Dhaka,leeping four hours each nigh
+E14,E1,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E14,E2,5,d (During),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,the hotel was sold to a new owner
+E14,E3,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,Lutfur was let go
+E14,E4,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,He spent April visiting his brother in Gaibandha
+E14,E5,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,helped a local restaurant owner with their kitchen setup for two weeks
+E14,E6,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,he returned to Dinajpur
+E14,E7,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,heard from a neighbor that a new resort was opening
+E14,E8,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,He went out there one morning on his bicycle
+E14,E9,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,asked to speak with the manager
+E14,E10,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,He returned four days later
+E14,E11,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,He was hired as head cook
+E14,E12,-2,mi (Met By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,The resort's soft opening was in July
+E14,E13,-2,mi (Met By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,The first guests arrived from Dhaka
+E14,E15,1,< (Precedes),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,the resort had its first fully booked weekend
+E14,E16,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,She interviewed Lutfur
+E14,E17,-1,> (Preceded By),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,savings enough f
+E14,E18,-5,di (Contains),False,Lutfur spent that opening weekend cooking for guests and staff simultaneously,leeping four hours each nigh
+E15,E1,-1,> (Preceded By),False,the resort had its first fully booked weekend,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E15,E2,5,d (During),False,the resort had its first fully booked weekend,the hotel was sold to a new owner
+E15,E3,-1,> (Preceded By),False,the resort had its first fully booked weekend,Lutfur was let go
+E15,E4,-1,> (Preceded By),False,the resort had its first fully booked weekend,He spent April visiting his brother in Gaibandha
+E15,E5,-1,> (Preceded By),False,the resort had its first fully booked weekend,helped a local restaurant owner with their kitchen setup for two weeks
+E15,E6,-1,> (Preceded By),False,the resort had its first fully booked weekend,he returned to Dinajpur
+E15,E7,-1,> (Preceded By),False,the resort had its first fully booked weekend,heard from a neighbor that a new resort was opening
+E15,E8,-1,> (Preceded By),False,the resort had its first fully booked weekend,He went out there one morning on his bicycle
+E15,E9,-1,> (Preceded By),False,the resort had its first fully booked weekend,asked to speak with the manager
+E15,E10,-1,> (Preceded By),False,the resort had its first fully booked weekend,He returned four days later
+E15,E11,-1,> (Preceded By),False,the resort had its first fully booked weekend,He was hired as head cook
+E15,E12,-1,> (Preceded By),False,the resort had its first fully booked weekend,The resort's soft opening was in July
+E15,E13,-1,> (Preceded By),False,the resort had its first fully booked weekend,The first guests arrived from Dhaka
+E15,E14,-1,> (Preceded By),False,the resort had its first fully booked weekend,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E15,E16,-1,> (Preceded By),False,the resort had its first fully booked weekend,She interviewed Lutfur
+E15,E17,-1,> (Preceded By),False,the resort had its first fully booked weekend,savings enough f
+E15,E18,-1,> (Preceded By),False,the resort had its first fully booked weekend,leeping four hours each nigh
+E16,E1,-1,> (Preceded By),False,She interviewed Lutfur,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E16,E2,5,d (During),False,She interviewed Lutfur,the hotel was sold to a new owner
+E16,E3,-1,> (Preceded By),False,She interviewed Lutfur,Lutfur was let go
+E16,E4,-1,> (Preceded By),False,She interviewed Lutfur,He spent April visiting his brother in Gaibandha
+E16,E5,-1,> (Preceded By),False,She interviewed Lutfur,helped a local restaurant owner with their kitchen setup for two weeks
+E16,E6,-1,> (Preceded By),False,She interviewed Lutfur,he returned to Dinajpur
+E16,E7,-1,> (Preceded By),False,She interviewed Lutfur,heard from a neighbor that a new resort was opening
+E16,E8,-1,> (Preceded By),False,She interviewed Lutfur,He went out there one morning on his bicycle
+E16,E9,-1,> (Preceded By),False,She interviewed Lutfur,asked to speak with the manager
+E16,E10,-2,mi (Met By),False,She interviewed Lutfur,He returned four days later
+E16,E11,2,m (Meets),False,She interviewed Lutfur,He was hired as head cook
+E16,E12,1,< (Precedes),False,She interviewed Lutfur,The resort's soft opening was in July
+E16,E13,5,d (During),False,She interviewed Lutfur,The first guests arrived from Dhaka
+E16,E14,1,< (Precedes),False,She interviewed Lutfur,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E16,E15,1,< (Precedes),False,She interviewed Lutfur,the resort had its first fully booked weekend
+E16,E17,-1,> (Preceded By),False,She interviewed Lutfur,savings enough f
+E16,E18,1,< (Precedes),False,She interviewed Lutfur,leeping four hours each nigh
+E17,E1,-2,mi (Met By),False,savings enough f,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E17,E2,5,d (During),False,savings enough f,the hotel was sold to a new owner
+E17,E3,4,s (Starts),False,savings enough f,Lutfur was let go
+E17,E4,3,o (Overlaps),False,savings enough f,He spent April visiting his brother in Gaibandha
+E17,E5,-6,fi (Finished By),False,savings enough f,helped a local restaurant owner with their kitchen setup for two weeks
+E17,E6,1,< (Precedes),False,savings enough f,he returned to Dinajpur
+E17,E7,1,< (Precedes),False,savings enough f,heard from a neighbor that a new resort was opening
+E17,E8,1,< (Precedes),False,savings enough f,He went out there one morning on his bicycle
+E17,E9,1,< (Precedes),False,savings enough f,asked to speak with the manager
+E17,E10,1,< (Precedes),False,savings enough f,He returned four days later
+E17,E11,1,< (Precedes),False,savings enough f,He was hired as head cook
+E17,E12,1,< (Precedes),False,savings enough f,The resort's soft opening was in July
+E17,E13,1,< (Precedes),False,savings enough f,The first guests arrived from Dhaka
+E17,E14,1,< (Precedes),False,savings enough f,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E17,E15,1,< (Precedes),False,savings enough f,the resort had its first fully booked weekend
+E17,E16,1,< (Precedes),False,savings enough f,She interviewed Lutfur
+E17,E18,1,< (Precedes),False,savings enough f,leeping four hours each nigh
+E18,E1,-1,> (Preceded By),False,leeping four hours each nigh,Lutfur had been a professional cook at a hotel in Dinajpur for nine years
+E18,E2,5,d (During),False,leeping four hours each nigh,the hotel was sold to a new owner
+E18,E3,-1,> (Preceded By),False,leeping four hours each nigh,Lutfur was let go
+E18,E4,-1,> (Preceded By),False,leeping four hours each nigh,He spent April visiting his brother in Gaibandha
+E18,E5,-1,> (Preceded By),False,leeping four hours each nigh,helped a local restaurant owner with their kitchen setup for two weeks
+E18,E6,-1,> (Preceded By),False,leeping four hours each nigh,he returned to Dinajpur
+E18,E7,-1,> (Preceded By),False,leeping four hours each nigh,heard from a neighbor that a new resort was opening
+E18,E8,-1,> (Preceded By),False,leeping four hours each nigh,He went out there one morning on his bicycle
+E18,E9,-1,> (Preceded By),False,leeping four hours each nigh,asked to speak with the manager
+E18,E10,-1,> (Preceded By),False,leeping four hours each nigh,He returned four days later
+E18,E11,-1,> (Preceded By),False,leeping four hours each nigh,He was hired as head cook
+E18,E12,-1,> (Preceded By),False,leeping four hours each nigh,The resort's soft opening was in July
+E18,E13,-1,> (Preceded By),False,leeping four hours each nigh,The first guests arrived from Dhaka
+E18,E14,5,d (During),False,leeping four hours each nigh,Lutfur spent that opening weekend cooking for guests and staff simultaneously
+E18,E15,1,< (Precedes),False,leeping four hours each nigh,the resort had its first fully booked weekend
+E18,E16,-1,> (Preceded By),False,leeping four hours each nigh,She interviewed Lutfur
+E18,E17,-1,> (Preceded By),False,leeping four hours each nigh,savings enough f

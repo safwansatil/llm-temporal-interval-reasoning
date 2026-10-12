@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,studying medicine,take a medical leave of absence
+E1,E3,1,< (Precedes),False,studying medicine,spent eight months at her family home in Dhaka
+E1,E4,1,< (Precedes),False,studying medicine,recovering and attending follow-up appointments
+E1,E5,3,o (Overlaps),False,studying medicine,done a gap year working at a community health clinic
+E1,E6,1,< (Precedes),False,studying medicine,returned to Rajshahi
+E1,E7,1,< (Precedes),False,studying medicine,rejoined with a new batch
+E1,E8,1,< (Precedes),False,studying medicine,settled into a study group
+E1,E9,1,< (Precedes),False,studying medicine,traveled together to a rural health camp
+E1,E10,1,< (Precedes),False,studying medicine,providing basic health services
+E1,E11,1,< (Precedes),False,studying medicine,examined forty-three patients
+E1,E12,1,< (Precedes),False,studying medicine,her batchmates at the medical college continued their coursework
+E1,E13,1,< (Precedes),False,studying medicine,she told her batchmate from Sylhet
+E1,E14,1,< (Precedes),False,studying medicine,Her old professors remembered her
+E2,E1,-2,mi (Met By),False,take a medical leave of absence,studying medicine
+E2,E3,2,m (Meets),False,take a medical leave of absence,spent eight months at her family home in Dhaka
+E2,E4,2,m (Meets),False,take a medical leave of absence,recovering and attending follow-up appointments
+E2,E5,5,d (During),False,take a medical leave of absence,done a gap year working at a community health clinic
+E2,E6,1,< (Precedes),False,take a medical leave of absence,returned to Rajshahi
+E2,E7,1,< (Precedes),False,take a medical leave of absence,rejoined with a new batch
+E2,E8,1,< (Precedes),False,take a medical leave of absence,settled into a study group
+E2,E9,1,< (Precedes),False,take a medical leave of absence,traveled together to a rural health camp
+E2,E10,1,< (Precedes),False,take a medical leave of absence,providing basic health services
+E2,E11,1,< (Precedes),False,take a medical leave of absence,examined forty-three patients
+E2,E12,2,m (Meets),False,take a medical leave of absence,her batchmates at the medical college continued their coursework
+E2,E13,1,< (Precedes),False,take a medical leave of absence,she told her batchmate from Sylhet
+E2,E14,1,< (Precedes),False,take a medical leave of absence,Her old professors remembered her
+E3,E1,-1,> (Preceded By),False,spent eight months at her family home in Dhaka,studying medicine
+E3,E2,-2,mi (Met By),False,spent eight months at her family home in Dhaka,take a medical leave of absence
+E3,E4,0,= (Equal),False,spent eight months at her family home in Dhaka,recovering and attending follow-up appointments
+E3,E5,-3,oi (Overlapped By),False,spent eight months at her family home in Dhaka,done a gap year working at a community health clinic
+E3,E6,2,m (Meets),False,spent eight months at her family home in Dhaka,returned to Rajshahi
+E3,E7,1,< (Precedes),False,spent eight months at her family home in Dhaka,rejoined with a new batch
+E3,E8,1,< (Precedes),False,spent eight months at her family home in Dhaka,settled into a study group
+E3,E9,1,< (Precedes),False,spent eight months at her family home in Dhaka,traveled together to a rural health camp
+E3,E10,1,< (Precedes),False,spent eight months at her family home in Dhaka,providing basic health services
+E3,E11,1,< (Precedes),False,spent eight months at her family home in Dhaka,examined forty-three patients
+E3,E12,0,= (Equal),False,spent eight months at her family home in Dhaka,her batchmates at the medical college continued their coursework
+E3,E13,1,< (Precedes),False,spent eight months at her family home in Dhaka,she told her batchmate from Sylhet
+E3,E14,1,< (Precedes),False,spent eight months at her family home in Dhaka,Her old professors remembered her
+E4,E1,-1,> (Preceded By),False,recovering and attending follow-up appointments,studying medicine
+E4,E2,-2,mi (Met By),False,recovering and attending follow-up appointments,take a medical leave of absence
+E4,E3,0,= (Equal),False,recovering and attending follow-up appointments,spent eight months at her family home in Dhaka
+E4,E5,-3,oi (Overlapped By),False,recovering and attending follow-up appointments,done a gap year working at a community health clinic
+E4,E6,2,m (Meets),False,recovering and attending follow-up appointments,returned to Rajshahi
+E4,E7,1,< (Precedes),False,recovering and attending follow-up appointments,rejoined with a new batch
+E4,E8,1,< (Precedes),False,recovering and attending follow-up appointments,settled into a study group
+E4,E9,1,< (Precedes),False,recovering and attending follow-up appointments,traveled together to a rural health camp
+E4,E10,1,< (Precedes),False,recovering and attending follow-up appointments,providing basic health services
+E4,E11,1,< (Precedes),False,recovering and attending follow-up appointments,examined forty-three patients
+E4,E12,0,= (Equal),False,recovering and attending follow-up appointments,her batchmates at the medical college continued their coursework
+E4,E13,1,< (Precedes),False,recovering and attending follow-up appointments,she told her batchmate from Sylhet
+E4,E14,1,< (Precedes),False,recovering and attending follow-up appointments,Her old professors remembered her
+E5,E1,-3,oi (Overlapped By),False,done a gap year working at a community health clinic,studying medicine
+E5,E2,-5,di (Contains),False,done a gap year working at a community health clinic,take a medical leave of absence
+E5,E3,3,o (Overlaps),False,done a gap year working at a community health clinic,spent eight months at her family home in Dhaka
+E5,E4,3,o (Overlaps),False,done a gap year working at a community health clinic,recovering and attending follow-up appointments
+E5,E6,1,< (Precedes),False,done a gap year working at a community health clinic,returned to Rajshahi
+E5,E7,1,< (Precedes),False,done a gap year working at a community health clinic,rejoined with a new batch
+E5,E8,1,< (Precedes),False,done a gap year working at a community health clinic,settled into a study group
+E5,E9,1,< (Precedes),False,done a gap year working at a community health clinic,traveled together to a rural health camp
+E5,E10,1,< (Precedes),False,done a gap year working at a community health clinic,providing basic health services
+E5,E11,1,< (Precedes),False,done a gap year working at a community health clinic,examined forty-three patients
+E5,E12,3,o (Overlaps),False,done a gap year working at a community health clinic,her batchmates at the medical college continued their coursework
+E5,E13,1,< (Precedes),False,done a gap year working at a community health clinic,she told her batchmate from Sylhet
+E5,E14,1,< (Precedes),False,done a gap year working at a community health clinic,Her old professors remembered her
+E6,E1,-1,> (Preceded By),False,returned to Rajshahi,studying medicine
+E6,E2,-1,> (Preceded By),False,returned to Rajshahi,take a medical leave of absence
+E6,E3,-2,mi (Met By),False,returned to Rajshahi,spent eight months at her family home in Dhaka
+E6,E4,-2,mi (Met By),False,returned to Rajshahi,recovering and attending follow-up appointments
+E6,E5,-1,> (Preceded By),False,returned to Rajshahi,done a gap year working at a community health clinic
+E6,E7,2,m (Meets),False,returned to Rajshahi,rejoined with a new batch
+E6,E8,1,< (Precedes),False,returned to Rajshahi,settled into a study group
+E6,E9,1,< (Precedes),False,returned to Rajshahi,traveled together to a rural health camp
+E6,E10,1,< (Precedes),False,returned to Rajshahi,providing basic health services
+E6,E11,1,< (Precedes),False,returned to Rajshahi,examined forty-three patients
+E6,E12,-2,mi (Met By),False,returned to Rajshahi,her batchmates at the medical college continued their coursework
+E6,E13,1,< (Precedes),False,returned to Rajshahi,she told her batchmate from Sylhet
+E6,E14,1,< (Precedes),False,returned to Rajshahi,Her old professors remembered her
+E7,E1,-1,> (Preceded By),False,rejoined with a new batch,studying medicine
+E7,E2,-1,> (Preceded By),False,rejoined with a new batch,take a medical leave of absence
+E7,E3,-1,> (Preceded By),False,rejoined with a new batch,spent eight months at her family home in Dhaka
+E7,E4,-1,> (Preceded By),False,rejoined with a new batch,recovering and attending follow-up appointments
+E7,E5,-1,> (Preceded By),False,rejoined with a new batch,done a gap year working at a community health clinic
+E7,E6,-2,mi (Met By),False,rejoined with a new batch,returned to Rajshahi
+E7,E8,1,< (Precedes),False,rejoined with a new batch,settled into a study group
+E7,E9,1,< (Precedes),False,rejoined with a new batch,traveled together to a rural health camp
+E7,E10,1,< (Precedes),False,rejoined with a new batch,providing basic health services
+E7,E11,1,< (Precedes),False,rejoined with a new batch,examined forty-three patients
+E7,E12,-1,> (Preceded By),False,rejoined with a new batch,her batchmates at the medical college continued their coursework
+E7,E13,1,< (Precedes),False,rejoined with a new batch,she told her batchmate from Sylhet
+E7,E14,2,m (Meets),False,rejoined with a new batch,Her old professors remembered her
+E8,E1,-1,> (Preceded By),False,settled into a study group,studying medicine
+E8,E2,-1,> (Preceded By),False,settled into a study group,take a medical leave of absence
+E8,E3,-1,> (Preceded By),False,settled into a study group,spent eight months at her family home in Dhaka
+E8,E4,-1,> (Preceded By),False,settled into a study group,recovering and attending follow-up appointments
+E8,E5,-1,> (Preceded By),False,settled into a study group,done a gap year working at a community health clinic
+E8,E6,-1,> (Preceded By),False,settled into a study group,returned to Rajshahi
+E8,E7,-1,> (Preceded By),False,settled into a study group,rejoined with a new batch
+E8,E9,1,< (Precedes),False,settled into a study group,traveled together to a rural health camp
+E8,E10,1,< (Precedes),False,settled into a study group,providing basic health services
+E8,E11,1,< (Precedes),False,settled into a study group,examined forty-three patients
+E8,E12,-1,> (Preceded By),False,settled into a study group,her batchmates at the medical college continued their coursework
+E8,E13,1,< (Precedes),False,settled into a study group,she told her batchmate from Sylhet
+E8,E14,-1,> (Preceded By),False,settled into a study group,Her old professors remembered her
+E9,E1,-1,> (Preceded By),False,traveled together to a rural health camp,studying medicine
+E9,E2,-1,> (Preceded By),False,traveled together to a rural health camp,take a medical leave of absence
+E9,E3,-1,> (Preceded By),False,traveled together to a rural health camp,spent eight months at her family home in Dhaka
+E9,E4,-1,> (Preceded By),False,traveled together to a rural health camp,recovering and attending follow-up appointments
+E9,E5,-1,> (Preceded By),False,traveled together to a rural health camp,done a gap year working at a community health clinic
+E9,E6,-1,> (Preceded By),False,traveled together to a rural health camp,returned to Rajshahi
+E9,E7,-1,> (Preceded By),False,traveled together to a rural health camp,rejoined with a new batch
+E9,E8,-1,> (Preceded By),False,traveled together to a rural health camp,settled into a study group
+E9,E10,2,m (Meets),False,traveled together to a rural health camp,providing basic health services
+E9,E11,2,m (Meets),False,traveled together to a rural health camp,examined forty-three patients
+E9,E12,-1,> (Preceded By),False,traveled together to a rural health camp,her batchmates at the medical college continued their coursework
+E9,E13,1,< (Precedes),False,traveled together to a rural health camp,she told her batchmate from Sylhet
+E9,E14,-1,> (Preceded By),False,traveled together to a rural health camp,Her old professors remembered her
+E10,E1,-1,> (Preceded By),False,providing basic health services,studying medicine
+E10,E2,-1,> (Preceded By),False,providing basic health services,take a medical leave of absence
+E10,E3,-1,> (Preceded By),False,providing basic health services,spent eight months at her family home in Dhaka
+E10,E4,-1,> (Preceded By),False,providing basic health services,recovering and attending follow-up appointments
+E10,E5,-1,> (Preceded By),False,providing basic health services,done a gap year working at a community health clinic
+E10,E6,-1,> (Preceded By),False,providing basic health services,returned to Rajshahi
+E10,E7,-1,> (Preceded By),False,providing basic health services,rejoined with a new batch
+E10,E8,-1,> (Preceded By),False,providing basic health services,settled into a study group
+E10,E9,-2,mi (Met By),False,providing basic health services,traveled together to a rural health camp
+E10,E11,0,= (Equal),False,providing basic health services,examined forty-three patients
+E10,E12,-1,> (Preceded By),False,providing basic health services,her batchmates at the medical college continued their coursework
+E10,E13,2,m (Meets),False,providing basic health services,she told her batchmate from Sylhet
+E10,E14,-1,> (Preceded By),False,providing basic health services,Her old professors remembered her
+E11,E1,-1,> (Preceded By),False,examined forty-three patients,studying medicine
+E11,E2,-1,> (Preceded By),False,examined forty-three patients,take a medical leave of absence
+E11,E3,-1,> (Preceded By),False,examined forty-three patients,spent eight months at her family home in Dhaka
+E11,E4,-1,> (Preceded By),False,examined forty-three patients,recovering and attending follow-up appointments
+E11,E5,-1,> (Preceded By),False,examined forty-three patients,done a gap year working at a community health clinic
+E11,E6,-1,> (Preceded By),False,examined forty-three patients,returned to Rajshahi
+E11,E7,-1,> (Preceded By),False,examined forty-three patients,rejoined with a new batch
+E11,E8,-1,> (Preceded By),False,examined forty-three patients,settled into a study group
+E11,E9,-2,mi (Met By),False,examined forty-three patients,traveled together to a rural health camp
+E11,E10,0,= (Equal),False,examined forty-three patients,providing basic health services
+E11,E12,-1,> (Preceded By),False,examined forty-three patients,her batchmates at the medical college continued their coursework
+E11,E13,2,m (Meets),False,examined forty-three patients,she told her batchmate from Sylhet
+E11,E14,-1,> (Preceded By),False,examined forty-three patients,Her old professors remembered her
+E12,E1,-1,> (Preceded By),False,her batchmates at the medical college continued their coursework,studying medicine
+E12,E2,-2,mi (Met By),False,her batchmates at the medical college continued their coursework,take a medical leave of absence
+E12,E3,0,= (Equal),False,her batchmates at the medical college continued their coursework,spent eight months at her family home in Dhaka
+E12,E4,0,= (Equal),False,her batchmates at the medical college continued their coursework,recovering and attending follow-up appointments
+E12,E5,-3,oi (Overlapped By),False,her batchmates at the medical college continued their coursework,done a gap year working at a community health clinic
+E12,E6,2,m (Meets),False,her batchmates at the medical college continued their coursework,returned to Rajshahi
+E12,E7,1,< (Precedes),False,her batchmates at the medical college continued their coursework,rejoined with a new batch
+E12,E8,1,< (Precedes),False,her batchmates at the medical college continued their coursework,settled into a study group
+E12,E9,1,< (Precedes),False,her batchmates at the medical college continued their coursework,traveled together to a rural health camp
+E12,E10,1,< (Precedes),False,her batchmates at the medical college continued their coursework,providing basic health services
+E12,E11,1,< (Precedes),False,her batchmates at the medical college continued their coursework,examined forty-three patients
+E12,E13,1,< (Precedes),False,her batchmates at the medical college continued their coursework,she told her batchmate from Sylhet
+E12,E14,1,< (Precedes),False,her batchmates at the medical college continued their coursework,Her old professors remembered her
+E13,E1,-1,> (Preceded By),False,she told her batchmate from Sylhet,studying medicine
+E13,E2,-1,> (Preceded By),False,she told her batchmate from Sylhet,take a medical leave of absence
+E13,E3,-1,> (Preceded By),False,she told her batchmate from Sylhet,spent eight months at her family home in Dhaka
+E13,E4,-1,> (Preceded By),False,she told her batchmate from Sylhet,recovering and attending follow-up appointments
+E13,E5,-1,> (Preceded By),False,she told her batchmate from Sylhet,done a gap year working at a community health clinic
+E13,E6,-1,> (Preceded By),False,she told her batchmate from Sylhet,returned to Rajshahi
+E13,E7,-1,> (Preceded By),False,she told her batchmate from Sylhet,rejoined with a new batch
+E13,E8,-1,> (Preceded By),False,she told her batchmate from Sylhet,settled into a study group
+E13,E9,-1,> (Preceded By),False,she told her batchmate from Sylhet,traveled together to a rural health camp
+E13,E10,-2,mi (Met By),False,she told her batchmate from Sylhet,providing basic health services
+E13,E11,-2,mi (Met By),False,she told her batchmate from Sylhet,examined forty-three patients
+E13,E12,-1,> (Preceded By),False,she told her batchmate from Sylhet,her batchmates at the medical college continued their coursework
+E13,E14,-1,> (Preceded By),False,she told her batchmate from Sylhet,Her old professors remembered her
+E14,E1,-1,> (Preceded By),False,Her old professors remembered her,studying medicine
+E14,E2,-1,> (Preceded By),False,Her old professors remembered her,take a medical leave of absence
+E14,E3,-1,> (Preceded By),False,Her old professors remembered her,spent eight months at her family home in Dhaka
+E14,E4,-1,> (Preceded By),False,Her old professors remembered her,recovering and attending follow-up appointments
+E14,E5,-1,> (Preceded By),False,Her old professors remembered her,done a gap year working at a community health clinic
+E14,E6,-1,> (Preceded By),False,Her old professors remembered her,returned to Rajshahi
+E14,E7,-2,mi (Met By),False,Her old professors remembered her,rejoined with a new batch
+E14,E8,1,< (Precedes),False,Her old professors remembered her,settled into a study group
+E14,E9,1,< (Precedes),False,Her old professors remembered her,traveled together to a rural health camp
+E14,E10,1,< (Precedes),False,Her old professors remembered her,providing basic health services
+E14,E11,1,< (Precedes),False,Her old professors remembered her,examined forty-three patients
+E14,E12,-1,> (Preceded By),False,Her old professors remembered her,her batchmates at the medical college continued their coursework
+E14,E13,1,< (Precedes),False,Her old professors remembered her,she told her batchmate from Sylhet

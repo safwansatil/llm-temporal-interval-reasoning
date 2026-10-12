@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,annual plant safety audit began,safety auditor triggered a manual pull station
+E1,E3,1,< (Precedes),False,annual plant safety audit began,fire alarms sounded
+E1,E4,1,< (Precedes),False,annual plant safety audit began,Floor wardens evacuated six hundred workers
+E1,E5,1,< (Precedes),False,annual plant safety audit began,Headcounts across twelve departments took eight minutes to complete
+E1,E6,1,< (Precedes),False,annual plant safety audit began,two search-and-rescue teams entered the building
+E1,E7,1,< (Precedes),False,annual plant safety audit began,search teams located the dummy
+E1,E8,1,< (Precedes),False,annual plant safety audit began,Industrial fire brigade tenders arrived at the front gate
+E1,E9,1,< (Precedes),False,annual plant safety audit began,carried it outside
+E1,E10,1,< (Precedes),False,annual plant safety audit began,external fire hose deployment and pressure test
+E1,E11,1,< (Precedes),False,annual plant safety audit began,auditor gave the all-clear signal
+E1,E12,1,< (Precedes),False,annual plant safety audit began,production machinery was powered back up
+E2,E1,-1,> (Preceded By),False,safety auditor triggered a manual pull station,annual plant safety audit began
+E2,E3,1,< (Precedes),False,safety auditor triggered a manual pull station,fire alarms sounded
+E2,E4,1,< (Precedes),False,safety auditor triggered a manual pull station,Floor wardens evacuated six hundred workers
+E2,E5,1,< (Precedes),False,safety auditor triggered a manual pull station,Headcounts across twelve departments took eight minutes to complete
+E2,E6,1,< (Precedes),False,safety auditor triggered a manual pull station,two search-and-rescue teams entered the building
+E2,E7,1,< (Precedes),False,safety auditor triggered a manual pull station,search teams located the dummy
+E2,E8,1,< (Precedes),False,safety auditor triggered a manual pull station,Industrial fire brigade tenders arrived at the front gate
+E2,E9,1,< (Precedes),False,safety auditor triggered a manual pull station,carried it outside
+E2,E10,1,< (Precedes),False,safety auditor triggered a manual pull station,external fire hose deployment and pressure test
+E2,E11,1,< (Precedes),False,safety auditor triggered a manual pull station,auditor gave the all-clear signal
+E2,E12,1,< (Precedes),False,safety auditor triggered a manual pull station,production machinery was powered back up
+E3,E1,-1,> (Preceded By),False,fire alarms sounded,annual plant safety audit began
+E3,E2,-1,> (Preceded By),False,fire alarms sounded,safety auditor triggered a manual pull station
+E3,E4,4,s (Starts),False,fire alarms sounded,Floor wardens evacuated six hundred workers
+E3,E5,1,< (Precedes),False,fire alarms sounded,Headcounts across twelve departments took eight minutes to complete
+E3,E6,1,< (Precedes),False,fire alarms sounded,two search-and-rescue teams entered the building
+E3,E7,1,< (Precedes),False,fire alarms sounded,search teams located the dummy
+E3,E8,1,< (Precedes),False,fire alarms sounded,Industrial fire brigade tenders arrived at the front gate
+E3,E9,1,< (Precedes),False,fire alarms sounded,carried it outside
+E3,E10,1,< (Precedes),False,fire alarms sounded,external fire hose deployment and pressure test
+E3,E11,1,< (Precedes),False,fire alarms sounded,auditor gave the all-clear signal
+E3,E12,1,< (Precedes),False,fire alarms sounded,production machinery was powered back up
+E4,E1,-1,> (Preceded By),False,Floor wardens evacuated six hundred workers,annual plant safety audit began
+E4,E2,-1,> (Preceded By),False,Floor wardens evacuated six hundred workers,safety auditor triggered a manual pull station
+E4,E3,-4,si (Started By),False,Floor wardens evacuated six hundred workers,fire alarms sounded
+E4,E5,2,m (Meets),False,Floor wardens evacuated six hundred workers,Headcounts across twelve departments took eight minutes to complete
+E4,E6,2,m (Meets),False,Floor wardens evacuated six hundred workers,two search-and-rescue teams entered the building
+E4,E7,1,< (Precedes),False,Floor wardens evacuated six hundred workers,search teams located the dummy
+E4,E8,1,< (Precedes),False,Floor wardens evacuated six hundred workers,Industrial fire brigade tenders arrived at the front gate
+E4,E9,1,< (Precedes),False,Floor wardens evacuated six hundred workers,carried it outside
+E4,E10,1,< (Precedes),False,Floor wardens evacuated six hundred workers,external fire hose deployment and pressure test
+E4,E11,1,< (Precedes),False,Floor wardens evacuated six hundred workers,auditor gave the all-clear signal
+E4,E12,1,< (Precedes),False,Floor wardens evacuated six hundred workers,production machinery was powered back up
+E5,E1,-1,> (Preceded By),False,Headcounts across twelve departments took eight minutes to complete,annual plant safety audit began
+E5,E2,-1,> (Preceded By),False,Headcounts across twelve departments took eight minutes to complete,safety auditor triggered a manual pull station
+E5,E3,-1,> (Preceded By),False,Headcounts across twelve departments took eight minutes to complete,fire alarms sounded
+E5,E4,-2,mi (Met By),False,Headcounts across twelve departments took eight minutes to complete,Floor wardens evacuated six hundred workers
+E5,E6,-4,si (Started By),False,Headcounts across twelve departments took eight minutes to complete,two search-and-rescue teams entered the building
+E5,E7,-5,di (Contains),False,Headcounts across twelve departments took eight minutes to complete,search teams located the dummy
+E5,E8,-5,di (Contains),False,Headcounts across twelve departments took eight minutes to complete,Industrial fire brigade tenders arrived at the front gate
+E5,E9,-5,di (Contains),False,Headcounts across twelve departments took eight minutes to complete,carried it outside
+E5,E10,3,o (Overlaps),False,Headcounts across twelve departments took eight minutes to complete,external fire hose deployment and pressure test
+E5,E11,1,< (Precedes),False,Headcounts across twelve departments took eight minutes to complete,auditor gave the all-clear signal
+E5,E12,1,< (Precedes),False,Headcounts across twelve departments took eight minutes to complete,production machinery was powered back up
+E6,E1,-1,> (Preceded By),False,two search-and-rescue teams entered the building,annual plant safety audit began
+E6,E2,-1,> (Preceded By),False,two search-and-rescue teams entered the building,safety auditor triggered a manual pull station
+E6,E3,-1,> (Preceded By),False,two search-and-rescue teams entered the building,fire alarms sounded
+E6,E4,-2,mi (Met By),False,two search-and-rescue teams entered the building,Floor wardens evacuated six hundred workers
+E6,E5,4,s (Starts),False,two search-and-rescue teams entered the building,Headcounts across twelve departments took eight minutes to complete
+E6,E7,1,< (Precedes),False,two search-and-rescue teams entered the building,search teams located the dummy
+E6,E8,1,< (Precedes),False,two search-and-rescue teams entered the building,Industrial fire brigade tenders arrived at the front gate
+E6,E9,1,< (Precedes),False,two search-and-rescue teams entered the building,carried it outside
+E6,E10,1,< (Precedes),False,two search-and-rescue teams entered the building,external fire hose deployment and pressure test
+E6,E11,1,< (Precedes),False,two search-and-rescue teams entered the building,auditor gave the all-clear signal
+E6,E12,1,< (Precedes),False,two search-and-rescue teams entered the building,production machinery was powered back up
+E7,E1,-1,> (Preceded By),False,search teams located the dummy,annual plant safety audit began
+E7,E2,-1,> (Preceded By),False,search teams located the dummy,safety auditor triggered a manual pull station
+E7,E3,-1,> (Preceded By),False,search teams located the dummy,fire alarms sounded
+E7,E4,-1,> (Preceded By),False,search teams located the dummy,Floor wardens evacuated six hundred workers
+E7,E5,5,d (During),False,search teams located the dummy,Headcounts across twelve departments took eight minutes to complete
+E7,E6,-1,> (Preceded By),False,search teams located the dummy,two search-and-rescue teams entered the building
+E7,E8,-1,> (Preceded By),False,search teams located the dummy,Industrial fire brigade tenders arrived at the front gate
+E7,E9,4,s (Starts),False,search teams located the dummy,carried it outside
+E7,E10,5,d (During),False,search teams located the dummy,external fire hose deployment and pressure test
+E7,E11,1,< (Precedes),False,search teams located the dummy,auditor gave the all-clear signal
+E7,E12,1,< (Precedes),False,search teams located the dummy,production machinery was powered back up
+E8,E1,-1,> (Preceded By),False,Industrial fire brigade tenders arrived at the front gate,annual plant safety audit began
+E8,E2,-1,> (Preceded By),False,Industrial fire brigade tenders arrived at the front gate,safety auditor triggered a manual pull station
+E8,E3,-1,> (Preceded By),False,Industrial fire brigade tenders arrived at the front gate,fire alarms sounded
+E8,E4,-1,> (Preceded By),False,Industrial fire brigade tenders arrived at the front gate,Floor wardens evacuated six hundred workers
+E8,E5,5,d (During),False,Industrial fire brigade tenders arrived at the front gate,Headcounts across twelve departments took eight minutes to complete
+E8,E6,-1,> (Preceded By),False,Industrial fire brigade tenders arrived at the front gate,two search-and-rescue teams entered the building
+E8,E7,1,< (Precedes),False,Industrial fire brigade tenders arrived at the front gate,search teams located the dummy
+E8,E9,1,< (Precedes),False,Industrial fire brigade tenders arrived at the front gate,carried it outside
+E8,E10,4,s (Starts),False,Industrial fire brigade tenders arrived at the front gate,external fire hose deployment and pressure test
+E8,E11,1,< (Precedes),False,Industrial fire brigade tenders arrived at the front gate,auditor gave the all-clear signal
+E8,E12,1,< (Precedes),False,Industrial fire brigade tenders arrived at the front gate,production machinery was powered back up
+E9,E1,-1,> (Preceded By),False,carried it outside,annual plant safety audit began
+E9,E2,-1,> (Preceded By),False,carried it outside,safety auditor triggered a manual pull station
+E9,E3,-1,> (Preceded By),False,carried it outside,fire alarms sounded
+E9,E4,-1,> (Preceded By),False,carried it outside,Floor wardens evacuated six hundred workers
+E9,E5,5,d (During),False,carried it outside,Headcounts across twelve departments took eight minutes to complete
+E9,E6,-1,> (Preceded By),False,carried it outside,two search-and-rescue teams entered the building
+E9,E7,-4,si (Started By),False,carried it outside,search teams located the dummy
+E9,E8,-1,> (Preceded By),False,carried it outside,Industrial fire brigade tenders arrived at the front gate
+E9,E10,5,d (During),False,carried it outside,external fire hose deployment and pressure test
+E9,E11,1,< (Precedes),False,carried it outside,auditor gave the all-clear signal
+E9,E12,1,< (Precedes),False,carried it outside,production machinery was powered back up
+E10,E1,-1,> (Preceded By),False,external fire hose deployment and pressure test,annual plant safety audit began
+E10,E2,-1,> (Preceded By),False,external fire hose deployment and pressure test,safety auditor triggered a manual pull station
+E10,E3,-1,> (Preceded By),False,external fire hose deployment and pressure test,fire alarms sounded
+E10,E4,-1,> (Preceded By),False,external fire hose deployment and pressure test,Floor wardens evacuated six hundred workers
+E10,E5,-3,oi (Overlapped By),False,external fire hose deployment and pressure test,Headcounts across twelve departments took eight minutes to complete
+E10,E6,-1,> (Preceded By),False,external fire hose deployment and pressure test,two search-and-rescue teams entered the building
+E10,E7,-5,di (Contains),False,external fire hose deployment and pressure test,search teams located the dummy
+E10,E8,-4,si (Started By),False,external fire hose deployment and pressure test,Industrial fire brigade tenders arrived at the front gate
+E10,E9,-5,di (Contains),False,external fire hose deployment and pressure test,carried it outside
+E10,E11,1,< (Precedes),False,external fire hose deployment and pressure test,auditor gave the all-clear signal
+E10,E12,1,< (Precedes),False,external fire hose deployment and pressure test,production machinery was powered back up
+E11,E1,-1,> (Preceded By),False,auditor gave the all-clear signal,annual plant safety audit began
+E11,E2,-1,> (Preceded By),False,auditor gave the all-clear signal,safety auditor triggered a manual pull station
+E11,E3,-1,> (Preceded By),False,auditor gave the all-clear signal,fire alarms sounded
+E11,E4,-1,> (Preceded By),False,auditor gave the all-clear signal,Floor wardens evacuated six hundred workers
+E11,E5,-1,> (Preceded By),False,auditor gave the all-clear signal,Headcounts across twelve departments took eight minutes to complete
+E11,E6,-1,> (Preceded By),False,auditor gave the all-clear signal,two search-and-rescue teams entered the building
+E11,E7,-1,> (Preceded By),False,auditor gave the all-clear signal,search teams located the dummy
+E11,E8,-1,> (Preceded By),False,auditor gave the all-clear signal,Industrial fire brigade tenders arrived at the front gate
+E11,E9,-1,> (Preceded By),False,auditor gave the all-clear signal,carried it outside
+E11,E10,-1,> (Preceded By),False,auditor gave the all-clear signal,external fire hose deployment and pressure test
+E11,E12,4,s (Starts),False,auditor gave the all-clear signal,production machinery was powered back up
+E12,E1,-1,> (Preceded By),False,production machinery was powered back up,annual plant safety audit began
+E12,E2,-1,> (Preceded By),False,production machinery was powered back up,safety auditor triggered a manual pull station
+E12,E3,-1,> (Preceded By),False,production machinery was powered back up,fire alarms sounded
+E12,E4,-1,> (Preceded By),False,production machinery was powered back up,Floor wardens evacuated six hundred workers
+E12,E5,-1,> (Preceded By),False,production machinery was powered back up,Headcounts across twelve departments took eight minutes to complete
+E12,E6,-1,> (Preceded By),False,production machinery was powered back up,two search-and-rescue teams entered the building
+E12,E7,-1,> (Preceded By),False,production machinery was powered back up,search teams located the dummy
+E12,E8,-1,> (Preceded By),False,production machinery was powered back up,Industrial fire brigade tenders arrived at the front gate
+E12,E9,-1,> (Preceded By),False,production machinery was powered back up,carried it outside
+E12,E10,-1,> (Preceded By),False,production machinery was powered back up,external fire hose deployment and pressure test
+E12,E11,-4,si (Started By),False,production machinery was powered back up,auditor gave the all-clear signal

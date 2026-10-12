@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,organized a community food drive,initiated the collection phase
+E1,E3,0,= (Equal),False,organized a community food drive,setting up donation bins at local markets
+E1,E4,4,s (Starts),False,organized a community food drive,emptying them every third evening for the first fifteen days
+E1,E5,1,< (Precedes),False,organized a community food drive,spent eight hours each Saturday and Sunday cataloging the accumulated goods
+E1,E6,1,< (Precedes),False,organized a community food drive,shifted her focus to publicizing the distribution event
+E1,E7,1,< (Precedes),False,organized a community food drive,spending four hours a day distributing flyers over a contiguous five-day period
+E1,E8,1,< (Precedes),False,organized a community food drive,took a week of leave from her regular job
+E1,E9,1,< (Precedes),False,organized a community food drive,working six consecutive days in the storage facility
+E1,E10,1,< (Precedes),False,organized a community food drive,distribution of the collected food
+E1,E11,1,< (Precedes),False,organized a community food drive,clearing the entire inventory
+E2,E1,0,= (Equal),False,initiated the collection phase,organized a community food drive
+E2,E3,0,= (Equal),False,initiated the collection phase,setting up donation bins at local markets
+E2,E4,4,s (Starts),False,initiated the collection phase,emptying them every third evening for the first fifteen days
+E2,E5,1,< (Precedes),False,initiated the collection phase,spent eight hours each Saturday and Sunday cataloging the accumulated goods
+E2,E6,1,< (Precedes),False,initiated the collection phase,shifted her focus to publicizing the distribution event
+E2,E7,1,< (Precedes),False,initiated the collection phase,spending four hours a day distributing flyers over a contiguous five-day period
+E2,E8,1,< (Precedes),False,initiated the collection phase,took a week of leave from her regular job
+E2,E9,1,< (Precedes),False,initiated the collection phase,working six consecutive days in the storage facility
+E2,E10,1,< (Precedes),False,initiated the collection phase,distribution of the collected food
+E2,E11,1,< (Precedes),False,initiated the collection phase,clearing the entire inventory
+E3,E1,0,= (Equal),False,setting up donation bins at local markets,organized a community food drive
+E3,E2,0,= (Equal),False,setting up donation bins at local markets,initiated the collection phase
+E3,E4,4,s (Starts),False,setting up donation bins at local markets,emptying them every third evening for the first fifteen days
+E3,E5,1,< (Precedes),False,setting up donation bins at local markets,spent eight hours each Saturday and Sunday cataloging the accumulated goods
+E3,E6,1,< (Precedes),False,setting up donation bins at local markets,shifted her focus to publicizing the distribution event
+E3,E7,1,< (Precedes),False,setting up donation bins at local markets,spending four hours a day distributing flyers over a contiguous five-day period
+E3,E8,1,< (Precedes),False,setting up donation bins at local markets,took a week of leave from her regular job
+E3,E9,1,< (Precedes),False,setting up donation bins at local markets,working six consecutive days in the storage facility
+E3,E10,1,< (Precedes),False,setting up donation bins at local markets,distribution of the collected food
+E3,E11,1,< (Precedes),False,setting up donation bins at local markets,clearing the entire inventory
+E4,E1,-4,si (Started By),False,emptying them every third evening for the first fifteen days,organized a community food drive
+E4,E2,-4,si (Started By),False,emptying them every third evening for the first fifteen days,initiated the collection phase
+E4,E3,-4,si (Started By),False,emptying them every third evening for the first fifteen days,setting up donation bins at local markets
+E4,E5,-5,di (Contains),False,emptying them every third evening for the first fifteen days,spent eight hours each Saturday and Sunday cataloging the accumulated goods
+E4,E6,2,m (Meets),False,emptying them every third evening for the first fifteen days,shifted her focus to publicizing the distribution event
+E4,E7,2,m (Meets),False,emptying them every third evening for the first fifteen days,spending four hours a day distributing flyers over a contiguous five-day period
+E4,E8,2,m (Meets),False,emptying them every third evening for the first fifteen days,took a week of leave from her regular job
+E4,E9,2,m (Meets),False,emptying them every third evening for the first fifteen days,working six consecutive days in the storage facility
+E4,E10,1,< (Precedes),False,emptying them every third evening for the first fifteen days,distribution of the collected food
+E4,E11,1,< (Precedes),False,emptying them every third evening for the first fifteen days,clearing the entire inventory
+E5,E1,-1,> (Preceded By),False,spent eight hours each Saturday and Sunday cataloging the accumulated goods,organized a community food drive
+E5,E2,-1,> (Preceded By),False,spent eight hours each Saturday and Sunday cataloging the accumulated goods,initiated the collection phase
+E5,E3,-1,> (Preceded By),False,spent eight hours each Saturday and Sunday cataloging the accumulated goods,setting up donation bins at local markets
+E5,E4,5,d (During),False,spent eight hours each Saturday and Sunday cataloging the accumulated goods,emptying them every third evening for the first fifteen days
+E5,E6,1,< (Precedes),False,spent eight hours each Saturday and Sunday cataloging the accumulated goods,shifted her focus to publicizing the distribution event
+E5,E7,1,< (Precedes),False,spent eight hours each Saturday and Sunday cataloging the accumulated goods,spending four hours a day distributing flyers over a contiguous five-day period
+E5,E8,1,< (Precedes),False,spent eight hours each Saturday and Sunday cataloging the accumulated goods,took a week of leave from her regular job
+E5,E9,1,< (Precedes),False,spent eight hours each Saturday and Sunday cataloging the accumulated goods,working six consecutive days in the storage facility
+E5,E10,1,< (Precedes),False,spent eight hours each Saturday and Sunday cataloging the accumulated goods,distribution of the collected food
+E5,E11,1,< (Precedes),False,spent eight hours each Saturday and Sunday cataloging the accumulated goods,clearing the entire inventory
+E6,E1,-1,> (Preceded By),False,shifted her focus to publicizing the distribution event,organized a community food drive
+E6,E2,-1,> (Preceded By),False,shifted her focus to publicizing the distribution event,initiated the collection phase
+E6,E3,-1,> (Preceded By),False,shifted her focus to publicizing the distribution event,setting up donation bins at local markets
+E6,E4,-2,mi (Met By),False,shifted her focus to publicizing the distribution event,emptying them every third evening for the first fifteen days
+E6,E5,-1,> (Preceded By),False,shifted her focus to publicizing the distribution event,spent eight hours each Saturday and Sunday cataloging the accumulated goods
+E6,E7,4,s (Starts),False,shifted her focus to publicizing the distribution event,spending four hours a day distributing flyers over a contiguous five-day period
+E6,E8,0,= (Equal),False,shifted her focus to publicizing the distribution event,took a week of leave from her regular job
+E6,E9,4,s (Starts),False,shifted her focus to publicizing the distribution event,working six consecutive days in the storage facility
+E6,E10,1,< (Precedes),False,shifted her focus to publicizing the distribution event,distribution of the collected food
+E6,E11,1,< (Precedes),False,shifted her focus to publicizing the distribution event,clearing the entire inventory
+E7,E1,-1,> (Preceded By),False,spending four hours a day distributing flyers over a contiguous five-day period,organized a community food drive
+E7,E2,-1,> (Preceded By),False,spending four hours a day distributing flyers over a contiguous five-day period,initiated the collection phase
+E7,E3,-1,> (Preceded By),False,spending four hours a day distributing flyers over a contiguous five-day period,setting up donation bins at local markets
+E7,E4,-2,mi (Met By),False,spending four hours a day distributing flyers over a contiguous five-day period,emptying them every third evening for the first fifteen days
+E7,E5,-1,> (Preceded By),False,spending four hours a day distributing flyers over a contiguous five-day period,spent eight hours each Saturday and Sunday cataloging the accumulated goods
+E7,E6,-4,si (Started By),False,spending four hours a day distributing flyers over a contiguous five-day period,shifted her focus to publicizing the distribution event
+E7,E8,-4,si (Started By),False,spending four hours a day distributing flyers over a contiguous five-day period,took a week of leave from her regular job
+E7,E9,4,s (Starts),False,spending four hours a day distributing flyers over a contiguous five-day period,working six consecutive days in the storage facility
+E7,E10,1,< (Precedes),False,spending four hours a day distributing flyers over a contiguous five-day period,distribution of the collected food
+E7,E11,1,< (Precedes),False,spending four hours a day distributing flyers over a contiguous five-day period,clearing the entire inventory
+E8,E1,-1,> (Preceded By),False,took a week of leave from her regular job,organized a community food drive
+E8,E2,-1,> (Preceded By),False,took a week of leave from her regular job,initiated the collection phase
+E8,E3,-1,> (Preceded By),False,took a week of leave from her regular job,setting up donation bins at local markets
+E8,E4,-2,mi (Met By),False,took a week of leave from her regular job,emptying them every third evening for the first fifteen days
+E8,E5,-1,> (Preceded By),False,took a week of leave from her regular job,spent eight hours each Saturday and Sunday cataloging the accumulated goods
+E8,E6,0,= (Equal),False,took a week of leave from her regular job,shifted her focus to publicizing the distribution event
+E8,E7,4,s (Starts),False,took a week of leave from her regular job,spending four hours a day distributing flyers over a contiguous five-day period
+E8,E9,4,s (Starts),False,took a week of leave from her regular job,working six consecutive days in the storage facility
+E8,E10,1,< (Precedes),False,took a week of leave from her regular job,distribution of the collected food
+E8,E11,1,< (Precedes),False,took a week of leave from her regular job,clearing the entire inventory
+E9,E1,-1,> (Preceded By),False,working six consecutive days in the storage facility,organized a community food drive
+E9,E2,-1,> (Preceded By),False,working six consecutive days in the storage facility,initiated the collection phase
+E9,E3,-1,> (Preceded By),False,working six consecutive days in the storage facility,setting up donation bins at local markets
+E9,E4,-2,mi (Met By),False,working six consecutive days in the storage facility,emptying them every third evening for the first fifteen days
+E9,E5,-1,> (Preceded By),False,working six consecutive days in the storage facility,spent eight hours each Saturday and Sunday cataloging the accumulated goods
+E9,E6,-4,si (Started By),False,working six consecutive days in the storage facility,shifted her focus to publicizing the distribution event
+E9,E7,-4,si (Started By),False,working six consecutive days in the storage facility,spending four hours a day distributing flyers over a contiguous five-day period
+E9,E8,-4,si (Started By),False,working six consecutive days in the storage facility,took a week of leave from her regular job
+E9,E10,1,< (Precedes),False,working six consecutive days in the storage facility,distribution of the collected food
+E9,E11,1,< (Precedes),False,working six consecutive days in the storage facility,clearing the entire inventory
+E10,E1,-1,> (Preceded By),False,distribution of the collected food,organized a community food drive
+E10,E2,-1,> (Preceded By),False,distribution of the collected food,initiated the collection phase
+E10,E3,-1,> (Preceded By),False,distribution of the collected food,setting up donation bins at local markets
+E10,E4,-1,> (Preceded By),False,distribution of the collected food,emptying them every third evening for the first fifteen days
+E10,E5,-1,> (Preceded By),False,distribution of the collected food,spent eight hours each Saturday and Sunday cataloging the accumulated goods
+E10,E6,-1,> (Preceded By),False,distribution of the collected food,shifted her focus to publicizing the distribution event
+E10,E7,-1,> (Preceded By),False,distribution of the collected food,spending four hours a day distributing flyers over a contiguous five-day period
+E10,E8,-1,> (Preceded By),False,distribution of the collected food,took a week of leave from her regular job
+E10,E9,-1,> (Preceded By),False,distribution of the collected food,working six consecutive days in the storage facility
+E10,E11,0,= (Equal),False,distribution of the collected food,clearing the entire inventory
+E11,E1,-1,> (Preceded By),False,clearing the entire inventory,organized a community food drive
+E11,E2,-1,> (Preceded By),False,clearing the entire inventory,initiated the collection phase
+E11,E3,-1,> (Preceded By),False,clearing the entire inventory,setting up donation bins at local markets
+E11,E4,-1,> (Preceded By),False,clearing the entire inventory,emptying them every third evening for the first fifteen days
+E11,E5,-1,> (Preceded By),False,clearing the entire inventory,spent eight hours each Saturday and Sunday cataloging the accumulated goods
+E11,E6,-1,> (Preceded By),False,clearing the entire inventory,shifted her focus to publicizing the distribution event
+E11,E7,-1,> (Preceded By),False,clearing the entire inventory,spending four hours a day distributing flyers over a contiguous five-day period
+E11,E8,-1,> (Preceded By),False,clearing the entire inventory,took a week of leave from her regular job
+E11,E9,-1,> (Preceded By),False,clearing the entire inventory,working six consecutive days in the storage facility
+E11,E10,0,= (Equal),False,clearing the entire inventory,distribution of the collected food

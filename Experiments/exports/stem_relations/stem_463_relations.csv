@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,monsoon mud had fully dried,began loading green bricks into the annular chamber
+E1,E3,1,< (Precedes),False,monsoon mud had fully dried,Loading five hundred thousand sun-dried bricks
+E1,E4,1,< (Precedes),False,monsoon mud had fully dried,The fire was lit
+E1,E5,1,< (Precedes),False,monsoon mud had fully dried,coal burning
+E1,E6,1,< (Precedes),False,monsoon mud had fully dried,combustion zone to reach optimal temperature
+E1,E7,1,< (Precedes),False,monsoon mud had fully dried,The fire moved through the continuous circuit of the kiln
+E1,E8,1,< (Precedes),False,monsoon mud had fully dried,workers began sealing the rear chambers with mud mortar
+E1,E9,1,< (Precedes),False,monsoon mud had fully dried,active heat front passed into the subsequent chamber
+E1,E10,1,< (Precedes),False,monsoon mud had fully dried,Cooling the fired bricks
+E1,E11,1,< (Precedes),False,monsoon mud had fully dried,Unloading the red bricks commenced
+E1,E12,1,< (Precedes),False,monsoon mud had fully dried,entire batch was cleared for construction shipment
+E2,E1,-1,> (Preceded By),False,began loading green bricks into the annular chamber,monsoon mud had fully dried
+E2,E3,4,s (Starts),False,began loading green bricks into the annular chamber,Loading five hundred thousand sun-dried bricks
+E2,E4,1,< (Precedes),False,began loading green bricks into the annular chamber,The fire was lit
+E2,E5,1,< (Precedes),False,began loading green bricks into the annular chamber,coal burning
+E2,E6,1,< (Precedes),False,began loading green bricks into the annular chamber,combustion zone to reach optimal temperature
+E2,E7,1,< (Precedes),False,began loading green bricks into the annular chamber,The fire moved through the continuous circuit of the kiln
+E2,E8,1,< (Precedes),False,began loading green bricks into the annular chamber,workers began sealing the rear chambers with mud mortar
+E2,E9,1,< (Precedes),False,began loading green bricks into the annular chamber,active heat front passed into the subsequent chamber
+E2,E10,1,< (Precedes),False,began loading green bricks into the annular chamber,Cooling the fired bricks
+E2,E11,1,< (Precedes),False,began loading green bricks into the annular chamber,Unloading the red bricks commenced
+E2,E12,1,< (Precedes),False,began loading green bricks into the annular chamber,entire batch was cleared for construction shipment
+E3,E1,-1,> (Preceded By),False,Loading five hundred thousand sun-dried bricks,monsoon mud had fully dried
+E3,E2,-4,si (Started By),False,Loading five hundred thousand sun-dried bricks,began loading green bricks into the annular chamber
+E3,E4,2,m (Meets),False,Loading five hundred thousand sun-dried bricks,The fire was lit
+E3,E5,2,m (Meets),False,Loading five hundred thousand sun-dried bricks,coal burning
+E3,E6,1,< (Precedes),False,Loading five hundred thousand sun-dried bricks,combustion zone to reach optimal temperature
+E3,E7,2,m (Meets),False,Loading five hundred thousand sun-dried bricks,The fire moved through the continuous circuit of the kiln
+E3,E8,1,< (Precedes),False,Loading five hundred thousand sun-dried bricks,workers began sealing the rear chambers with mud mortar
+E3,E9,1,< (Precedes),False,Loading five hundred thousand sun-dried bricks,active heat front passed into the subsequent chamber
+E3,E10,1,< (Precedes),False,Loading five hundred thousand sun-dried bricks,Cooling the fired bricks
+E3,E11,1,< (Precedes),False,Loading five hundred thousand sun-dried bricks,Unloading the red bricks commenced
+E3,E12,1,< (Precedes),False,Loading five hundred thousand sun-dried bricks,entire batch was cleared for construction shipment
+E4,E1,-1,> (Preceded By),False,The fire was lit,monsoon mud had fully dried
+E4,E2,-1,> (Preceded By),False,The fire was lit,began loading green bricks into the annular chamber
+E4,E3,-2,mi (Met By),False,The fire was lit,Loading five hundred thousand sun-dried bricks
+E4,E5,4,s (Starts),False,The fire was lit,coal burning
+E4,E6,1,< (Precedes),False,The fire was lit,combustion zone to reach optimal temperature
+E4,E7,4,s (Starts),False,The fire was lit,The fire moved through the continuous circuit of the kiln
+E4,E8,1,< (Precedes),False,The fire was lit,workers began sealing the rear chambers with mud mortar
+E4,E9,1,< (Precedes),False,The fire was lit,active heat front passed into the subsequent chamber
+E4,E10,1,< (Precedes),False,The fire was lit,Cooling the fired bricks
+E4,E11,1,< (Precedes),False,The fire was lit,Unloading the red bricks commenced
+E4,E12,1,< (Precedes),False,The fire was lit,entire batch was cleared for construction shipment
+E5,E1,-1,> (Preceded By),False,coal burning,monsoon mud had fully dried
+E5,E2,-1,> (Preceded By),False,coal burning,began loading green bricks into the annular chamber
+E5,E3,-2,mi (Met By),False,coal burning,Loading five hundred thousand sun-dried bricks
+E5,E4,-4,si (Started By),False,coal burning,The fire was lit
+E5,E6,2,m (Meets),False,coal burning,combustion zone to reach optimal temperature
+E5,E7,4,s (Starts),False,coal burning,The fire moved through the continuous circuit of the kiln
+E5,E8,1,< (Precedes),False,coal burning,workers began sealing the rear chambers with mud mortar
+E5,E9,1,< (Precedes),False,coal burning,active heat front passed into the subsequent chamber
+E5,E10,1,< (Precedes),False,coal burning,Cooling the fired bricks
+E5,E11,1,< (Precedes),False,coal burning,Unloading the red bricks commenced
+E5,E12,1,< (Precedes),False,coal burning,entire batch was cleared for construction shipment
+E6,E1,-1,> (Preceded By),False,combustion zone to reach optimal temperature,monsoon mud had fully dried
+E6,E2,-1,> (Preceded By),False,combustion zone to reach optimal temperature,began loading green bricks into the annular chamber
+E6,E3,-1,> (Preceded By),False,combustion zone to reach optimal temperature,Loading five hundred thousand sun-dried bricks
+E6,E4,-1,> (Preceded By),False,combustion zone to reach optimal temperature,The fire was lit
+E6,E5,-2,mi (Met By),False,combustion zone to reach optimal temperature,coal burning
+E6,E7,5,d (During),False,combustion zone to reach optimal temperature,The fire moved through the continuous circuit of the kiln
+E6,E8,1,< (Precedes),False,combustion zone to reach optimal temperature,workers began sealing the rear chambers with mud mortar
+E6,E9,1,< (Precedes),False,combustion zone to reach optimal temperature,active heat front passed into the subsequent chamber
+E6,E10,1,< (Precedes),False,combustion zone to reach optimal temperature,Cooling the fired bricks
+E6,E11,1,< (Precedes),False,combustion zone to reach optimal temperature,Unloading the red bricks commenced
+E6,E12,1,< (Precedes),False,combustion zone to reach optimal temperature,entire batch was cleared for construction shipment
+E7,E1,-1,> (Preceded By),False,The fire moved through the continuous circuit of the kiln,monsoon mud had fully dried
+E7,E2,-1,> (Preceded By),False,The fire moved through the continuous circuit of the kiln,began loading green bricks into the annular chamber
+E7,E3,-2,mi (Met By),False,The fire moved through the continuous circuit of the kiln,Loading five hundred thousand sun-dried bricks
+E7,E4,-4,si (Started By),False,The fire moved through the continuous circuit of the kiln,The fire was lit
+E7,E5,-4,si (Started By),False,The fire moved through the continuous circuit of the kiln,coal burning
+E7,E6,-5,di (Contains),False,The fire moved through the continuous circuit of the kiln,combustion zone to reach optimal temperature
+E7,E8,-5,di (Contains),False,The fire moved through the continuous circuit of the kiln,workers began sealing the rear chambers with mud mortar
+E7,E9,2,m (Meets),False,The fire moved through the continuous circuit of the kiln,active heat front passed into the subsequent chamber
+E7,E10,2,m (Meets),False,The fire moved through the continuous circuit of the kiln,Cooling the fired bricks
+E7,E11,1,< (Precedes),False,The fire moved through the continuous circuit of the kiln,Unloading the red bricks commenced
+E7,E12,1,< (Precedes),False,The fire moved through the continuous circuit of the kiln,entire batch was cleared for construction shipment
+E8,E1,-1,> (Preceded By),False,workers began sealing the rear chambers with mud mortar,monsoon mud had fully dried
+E8,E2,-1,> (Preceded By),False,workers began sealing the rear chambers with mud mortar,began loading green bricks into the annular chamber
+E8,E3,-1,> (Preceded By),False,workers began sealing the rear chambers with mud mortar,Loading five hundred thousand sun-dried bricks
+E8,E4,-1,> (Preceded By),False,workers began sealing the rear chambers with mud mortar,The fire was lit
+E8,E5,-1,> (Preceded By),False,workers began sealing the rear chambers with mud mortar,coal burning
+E8,E6,-1,> (Preceded By),False,workers began sealing the rear chambers with mud mortar,combustion zone to reach optimal temperature
+E8,E7,5,d (During),False,workers began sealing the rear chambers with mud mortar,The fire moved through the continuous circuit of the kiln
+E8,E9,1,< (Precedes),False,workers began sealing the rear chambers with mud mortar,active heat front passed into the subsequent chamber
+E8,E10,1,< (Precedes),False,workers began sealing the rear chambers with mud mortar,Cooling the fired bricks
+E8,E11,1,< (Precedes),False,workers began sealing the rear chambers with mud mortar,Unloading the red bricks commenced
+E8,E12,1,< (Precedes),False,workers began sealing the rear chambers with mud mortar,entire batch was cleared for construction shipment
+E9,E1,-1,> (Preceded By),False,active heat front passed into the subsequent chamber,monsoon mud had fully dried
+E9,E2,-1,> (Preceded By),False,active heat front passed into the subsequent chamber,began loading green bricks into the annular chamber
+E9,E3,-1,> (Preceded By),False,active heat front passed into the subsequent chamber,Loading five hundred thousand sun-dried bricks
+E9,E4,-1,> (Preceded By),False,active heat front passed into the subsequent chamber,The fire was lit
+E9,E5,-1,> (Preceded By),False,active heat front passed into the subsequent chamber,coal burning
+E9,E6,-1,> (Preceded By),False,active heat front passed into the subsequent chamber,combustion zone to reach optimal temperature
+E9,E7,-2,mi (Met By),False,active heat front passed into the subsequent chamber,The fire moved through the continuous circuit of the kiln
+E9,E8,-1,> (Preceded By),False,active heat front passed into the subsequent chamber,workers began sealing the rear chambers with mud mortar
+E9,E10,4,s (Starts),False,active heat front passed into the subsequent chamber,Cooling the fired bricks
+E9,E11,1,< (Precedes),False,active heat front passed into the subsequent chamber,Unloading the red bricks commenced
+E9,E12,1,< (Precedes),False,active heat front passed into the subsequent chamber,entire batch was cleared for construction shipment
+E10,E1,-1,> (Preceded By),False,Cooling the fired bricks,monsoon mud had fully dried
+E10,E2,-1,> (Preceded By),False,Cooling the fired bricks,began loading green bricks into the annular chamber
+E10,E3,-1,> (Preceded By),False,Cooling the fired bricks,Loading five hundred thousand sun-dried bricks
+E10,E4,-1,> (Preceded By),False,Cooling the fired bricks,The fire was lit
+E10,E5,-1,> (Preceded By),False,Cooling the fired bricks,coal burning
+E10,E6,-1,> (Preceded By),False,Cooling the fired bricks,combustion zone to reach optimal temperature
+E10,E7,-2,mi (Met By),False,Cooling the fired bricks,The fire moved through the continuous circuit of the kiln
+E10,E8,-1,> (Preceded By),False,Cooling the fired bricks,workers began sealing the rear chambers with mud mortar
+E10,E9,-4,si (Started By),False,Cooling the fired bricks,active heat front passed into the subsequent chamber
+E10,E11,-5,di (Contains),False,Cooling the fired bricks,Unloading the red bricks commenced
+E10,E12,-6,fi (Finished By),False,Cooling the fired bricks,entire batch was cleared for construction shipment
+E11,E1,-1,> (Preceded By),False,Unloading the red bricks commenced,monsoon mud had fully dried
+E11,E2,-1,> (Preceded By),False,Unloading the red bricks commenced,began loading green bricks into the annular chamber
+E11,E3,-1,> (Preceded By),False,Unloading the red bricks commenced,Loading five hundred thousand sun-dried bricks
+E11,E4,-1,> (Preceded By),False,Unloading the red bricks commenced,The fire was lit
+E11,E5,-1,> (Preceded By),False,Unloading the red bricks commenced,coal burning
+E11,E6,-1,> (Preceded By),False,Unloading the red bricks commenced,combustion zone to reach optimal temperature
+E11,E7,-1,> (Preceded By),False,Unloading the red bricks commenced,The fire moved through the continuous circuit of the kiln
+E11,E8,-1,> (Preceded By),False,Unloading the red bricks commenced,workers began sealing the rear chambers with mud mortar
+E11,E9,-1,> (Preceded By),False,Unloading the red bricks commenced,active heat front passed into the subsequent chamber
+E11,E10,5,d (During),False,Unloading the red bricks commenced,Cooling the fired bricks
+E11,E12,1,< (Precedes),False,Unloading the red bricks commenced,entire batch was cleared for construction shipment
+E12,E1,-1,> (Preceded By),False,entire batch was cleared for construction shipment,monsoon mud had fully dried
+E12,E2,-1,> (Preceded By),False,entire batch was cleared for construction shipment,began loading green bricks into the annular chamber
+E12,E3,-1,> (Preceded By),False,entire batch was cleared for construction shipment,Loading five hundred thousand sun-dried bricks
+E12,E4,-1,> (Preceded By),False,entire batch was cleared for construction shipment,The fire was lit
+E12,E5,-1,> (Preceded By),False,entire batch was cleared for construction shipment,coal burning
+E12,E6,-1,> (Preceded By),False,entire batch was cleared for construction shipment,combustion zone to reach optimal temperature
+E12,E7,-1,> (Preceded By),False,entire batch was cleared for construction shipment,The fire moved through the continuous circuit of the kiln
+E12,E8,-1,> (Preceded By),False,entire batch was cleared for construction shipment,workers began sealing the rear chambers with mud mortar
+E12,E9,-1,> (Preceded By),False,entire batch was cleared for construction shipment,active heat front passed into the subsequent chamber
+E12,E10,6,f (Finishes),False,entire batch was cleared for construction shipment,Cooling the fired bricks
+E12,E11,-1,> (Preceded By),False,entire batch was cleared for construction shipment,Unloading the red bricks commenced
