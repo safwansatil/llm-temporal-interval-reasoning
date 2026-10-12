@@ -1,0 +1,3586 @@
+{
+  "created_at": "2026-10-06T18:14:30Z",
+  "prompt_version": "v1",
+  "prompt_template_sha256": "c4d2caddb6033ba9efdfcabe8304c220d2e21bc0d96aaedb98e36be51a36ea62",
+  "data_sha256": "6b5df09a459cd563cdb362e79e0d9c5e45906624373548b4b83d8636fd7304f8",
+  "frozen_settings": {
+    "temperature": 0.0,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "max_tokens_cap": 65536,
+    "seed": 20261006,
+    "stream": true,
+    "include_batch_items": true,
+    "item_order_seed": 20261006,
+    "retry_policy": "retry only transport/provider failures; never re-ask because of answer content"
+  },
+  "excluded_items": {
+    "stem_254": "two different events share the ID E18, so the event list is ambiguous"
+  },
+  "models": {
+    "gemini": {
+      "model_key": "google/gemini-3.5-flash-lite",
+      "metadata": {
+        "id": "google/gemini-3.5-flash-lite",
+        "name": "Google: Gemini 3.5 Flash Lite",
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "supported_parameters": [
+          "include_reasoning",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_p"
+        ],
+        "pricing": {
+          "prompt": "0.0000003",
+          "completion": "0.0000025",
+          "image": "0.0000003",
+          "audio": "0.0000003",
+          "input_audio_cache": "0.00000003",
+          "web_search": "0.014",
+          "internal_reasoning": "0.0000025",
+          "input_cache_read": "0.00000003",
+          "input_cache_write": "0.0000000833333333333333"
+        },
+        "is_moderated": false,
+        "fetched_at": "2026-10-06T18:14:30Z"
+      },
+      "request_params": {
+        "stream": true,
+        "max_tokens": 65536,
+        "temperature": 0.0,
+        "reasoning": {
+          "effort": "medium"
+        },
+        "seed": 20261006
+      },
+      "notes": []
+    },
+    "qwen": {
+      "model_key": "qwen/qwen3.7-flash",
+      "metadata": {
+        "id": "qwen/qwen3.7-flash",
+        "name": "Qwen: Qwen3.7 Flash",
+        "context_length": 1000000,
+        "max_completion_tokens": 65536,
+        "supported_parameters": [
+          "include_reasoning",
+          "logprobs",
+          "max_tokens",
+          "presence_penalty",
+          "reasoning",
+          "response_format",
+          "seed",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_logprobs",
+          "top_p"
+        ],
+        "pricing": {
+          "prompt": "0.00000003",
+          "completion": "0.00000013",
+          "input_cache_read": "0.000000006",
+          "input_cache_write": "0.000000038",
+          "overrides": [
+            {
+              "min_prompt_tokens": 32000,
+              "prompt": "0.0000001",
+              "completion": "0.0000004",
+              "input_cache_read": "0.00000002",
+              "input_cache_write": "0.000000125"
+            },
+            {
+              "min_prompt_tokens": 256000,
+              "prompt": "0.0000002",
+              "completion": "0.0000008",
+              "input_cache_read": "0.00000004",
+              "input_cache_write": "0.00000025"
+            }
+          ]
+        },
+        "is_moderated": false,
+        "fetched_at": "2026-10-06T18:14:30Z"
+      },
+      "request_params": {
+        "stream": true,
+        "max_tokens": 65536,
+        "temperature": 0.0,
+        "reasoning": {
+          "effort": "medium"
+        },
+        "seed": 20261006
+      },
+      "notes": []
+    },
+    "gpt-luna": {
+      "model_key": "openai/gpt-6-luna",
+      "metadata": {
+        "id": "openai/gpt-6-luna",
+        "name": "OpenAI: GPT-6 Luna",
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "supported_parameters": [
+          "include_reasoning",
+          "max_completion_tokens",
+          "max_tokens",
+          "reasoning",
+          "reasoning_effort",
+          "response_format",
+          "seed",
+          "structured_outputs",
+          "tool_choice",
+          "tools",
+          "verbosity"
+        ],
+        "pricing": {
+          "prompt": "0.0000001",
+          "completion": "0.0000005",
+          "web_search": "0.01",
+          "input_cache_read": "0.00000001",
+          "input_cache_write": "0.000000125",
+          "overrides": [
+            {
+              "min_prompt_tokens": 272000,
+              "prompt": "0.0000002",
+              "completion": "0.00000075",
+              "input_cache_read": "0.00000002",
+              "input_cache_write": "0.00000025"
+            }
+          ]
+        },
+        "is_moderated": true,
+        "fetched_at": "2026-10-06T18:14:30Z"
+      },
+      "request_params": {
+        "stream": true,
+        "max_tokens": 65536,
+        "reasoning": {
+          "effort": "medium"
+        },
+        "seed": 20261006
+      },
+      "notes": [
+        "temperature not supported by this model; provider default used"
+      ]
+    },
+    "mistral": {
+      "model_key": "mistralai/mistral-nemo",
+      "metadata": {
+        "id": "mistralai/mistral-nemo",
+        "name": "Mistral: Mistral Nemo",
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
+        "supported_parameters": [
+          "frequency_penalty",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ],
+        "pricing": {
+          "prompt": "0.000000019",
+          "completion": "0.00000003"
+        },
+        "is_moderated": false,
+        "fetched_at": "2026-10-06T18:14:30Z"
+      },
+      "request_params": {
+        "stream": true,
+        "max_tokens": 16384,
+        "temperature": 0.0,
+        "seed": 20261006
+      },
+      "notes": [
+        "no reasoning parameter (model does not support it)"
+      ]
+    },
+    "deepseek": {
+      "model_key": "deepseek/deepseek-v4.1-flash",
+      "metadata": {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek: DeepSeek V4.1 Flash",
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "reasoning_effort",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ],
+        "pricing": {
+          "prompt": "0.000000026795",
+          "completion": "0.0000012",
+          "input_cache_read": "0.000000015"
+        },
+        "is_moderated": false,
+        "fetched_at": "2026-10-06T18:14:30Z"
+      },
+      "request_params": {
+        "stream": true,
+        "max_tokens": 65536,
+        "temperature": 0.0,
+        "reasoning": {
+          "effort": "medium"
+        },
+        "seed": 20261006
+      },
+      "notes": []
+    }
+  },
+  "items": {
+    "stem_31": {
+      "stem_id": 31,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_31_relations.csv",
+      "prompt_sha256": "8209264274a3d3c9d6bc6af65ae7338fc72e0f99d329c3d1bb0346abeb91d6f5",
+      "notes": []
+    },
+    "stem_32": {
+      "stem_id": 32,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 20,
+      "file": "stem_32_relations.csv",
+      "prompt_sha256": "cd48e440553fb1b9bbe217d35e26746fed5222f13535e85bb9a07f7b70efdfba",
+      "notes": []
+    },
+    "stem_33": {
+      "stem_id": 33,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_33_relations.csv",
+      "prompt_sha256": "8531a7d45f77339efb72501204404f9cc664ffdf9e041cb8dc13a8c4449b6bfe",
+      "notes": []
+    },
+    "stem_34": {
+      "stem_id": 34,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_34_relations.csv",
+      "prompt_sha256": "8a80be379f5868d8d91e5816b0e4152919aba93724b41b00e7c47fd7a937e3cc",
+      "notes": []
+    },
+    "stem_35": {
+      "stem_id": 35,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_35_relations.csv",
+      "prompt_sha256": "235159445132f8722d6c874a2e59ef0ba99b497b649d9d59d9d68f25a1c4db83",
+      "notes": []
+    },
+    "stem_36": {
+      "stem_id": 36,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_36_relations.csv",
+      "prompt_sha256": "d1e9d671beb0f59d0b48849408dd33760eb19b14c8d3c8e476d6683464e5500f",
+      "notes": []
+    },
+    "stem_37": {
+      "stem_id": 37,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_37_relations.csv",
+      "prompt_sha256": "aee6e1fc4db9d82ea0d939cef6543ed9fcb4a73ef557434868846aee1b026cc0",
+      "notes": []
+    },
+    "stem_38": {
+      "stem_id": 38,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_38_relations.csv",
+      "prompt_sha256": "024eeaa6c8e58b35b4f7184fe38d454327c02a37ef4f57441cefc26dc9669a2f",
+      "notes": []
+    },
+    "stem_39": {
+      "stem_id": 39,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_39_relations.csv",
+      "prompt_sha256": "6c09760c5cbfdf051c626bfea9a08cfb292fd029ef87a995f3ebc1d300c2138d",
+      "notes": []
+    },
+    "stem_40": {
+      "stem_id": 40,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_40_relations.csv",
+      "prompt_sha256": "f525300ed210dc9719bd4163547759a7ef6c853c8c0f8d17424d6602af573f91",
+      "notes": []
+    },
+    "stem_41": {
+      "stem_id": 41,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_41_relations.csv",
+      "prompt_sha256": "a46c19c45b33e2607dc1f8a2572712d4dbb16e3a9ff72d8332c59fac61d5076c",
+      "notes": []
+    },
+    "stem_42": {
+      "stem_id": 42,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_42_relations.csv",
+      "prompt_sha256": "c5a89676c29eb6d70bb30dfaa2d3560b29b12903a124582828060e2898d6cde8",
+      "notes": []
+    },
+    "stem_43": {
+      "stem_id": 43,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_43_relations.csv",
+      "prompt_sha256": "e58ecb13519ae1c187acfe4e9e42ea5c5c71ed55b9899bda3acd13425fe733fc",
+      "notes": []
+    },
+    "stem_44": {
+      "stem_id": 44,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_44_relations.csv",
+      "prompt_sha256": "02a8fbcd933cc69466ac86ef5e6c21d5eb9f3dc15068dfa1be102c55a7a3a945",
+      "notes": []
+    },
+    "stem_45": {
+      "stem_id": 45,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_45_relations.csv",
+      "prompt_sha256": "9a8044da518014007208acb4c886337dce8710dad65f3c22e1cb5fabd6ad4bb8",
+      "notes": []
+    },
+    "stem_46": {
+      "stem_id": 46,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_46_relations.csv",
+      "prompt_sha256": "61f4bbe75a317147228a0d8bbd5b532ddc57480b41761b90bef20959a29636d3",
+      "notes": []
+    },
+    "stem_47": {
+      "stem_id": 47,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_47_relations.csv",
+      "prompt_sha256": "bf56d895366cc5485231fe96b680949f205841b7c1677d8862f2fa423f0df56c",
+      "notes": []
+    },
+    "stem_48": {
+      "stem_id": 48,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_48_relations.csv",
+      "prompt_sha256": "70161c34b0bc79195b71ec4d18514fff8b116864fbefb45e44aa4696d303c951",
+      "notes": []
+    },
+    "stem_49": {
+      "stem_id": 49,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_49_relations.csv",
+      "prompt_sha256": "5841546f5b151084221556f2e491d96d247eb8c1c242ae286b10f9dabd20ed05",
+      "notes": []
+    },
+    "stem_50": {
+      "stem_id": 50,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_50_relations.csv",
+      "prompt_sha256": "295113ae65b83cc37b565acee2b15c2ea4dfb4b173d4ab539515f7dafa2dc736",
+      "notes": []
+    },
+    "stem_51": {
+      "stem_id": 51,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_51_relations.csv",
+      "prompt_sha256": "2757baa39af21fee96420369ed217f8393ec77b132eae12396efb656ab61301b",
+      "notes": []
+    },
+    "stem_52": {
+      "stem_id": 52,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_52_relations.csv",
+      "prompt_sha256": "184d62492a1d8783468901dd903d1258f2f403d418c73a6bcf0c33aea10f3021",
+      "notes": []
+    },
+    "stem_53": {
+      "stem_id": 53,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_53_relations.csv",
+      "prompt_sha256": "5c0e3c75ef763bcf0e4fa384a194278d8da6a448bbb869299367655f52c98842",
+      "notes": []
+    },
+    "stem_54": {
+      "stem_id": 54,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_54_relations.csv",
+      "prompt_sha256": "aa4febecb455b5c66ad8f48515abd61ed3b3196cc154fb6f2504a70c74fcec2d",
+      "notes": []
+    },
+    "stem_55": {
+      "stem_id": 55,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_55_relations.csv",
+      "prompt_sha256": "f5c000349aba9b6e947bd3a3855316da22c6554e018ab8a7a69aa75653f667d5",
+      "notes": []
+    },
+    "stem_56": {
+      "stem_id": 56,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_56_relations.csv",
+      "prompt_sha256": "f6c1d5d868e5b2bdfa3a7c9d47166a1f4745d7dd7d18c4c094fc6c2aa042b714",
+      "notes": []
+    },
+    "stem_57": {
+      "stem_id": 57,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_57_relations.csv",
+      "prompt_sha256": "26d47b491e60aaa2059b8bb19fad69124968c162ddeb0da8d0aaeea047f9e0d7",
+      "notes": []
+    },
+    "stem_58": {
+      "stem_id": 58,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_58_relations.csv",
+      "prompt_sha256": "9361fc243555d368e4f6769bb34d5e2c310ec0fa4e27b5988632da92fd9ff095",
+      "notes": []
+    },
+    "stem_59": {
+      "stem_id": 59,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_59_relations.csv",
+      "prompt_sha256": "fb2fa368c77641505cee48956624141340bb4b17fed662a572c445eb08f4e174",
+      "notes": []
+    },
+    "stem_60": {
+      "stem_id": 60,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_60_relations.csv",
+      "prompt_sha256": "490767491c1fc9d2fa6f07263ffe7d1ff54ed5d52f69a09a534093372d3a06d7",
+      "notes": []
+    },
+    "stem_61": {
+      "stem_id": 61,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_61_relations.csv",
+      "prompt_sha256": "432a9af254eafe6dfd8fb2cb6ff977c308935b23654b3d570183d87e64d294d3",
+      "notes": []
+    },
+    "stem_62": {
+      "stem_id": 62,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 23,
+      "file": "stem_62_relations.csv",
+      "prompt_sha256": "54565a45e3607f8f7190ad576a8b22f3586e1a3c25f419cfcc056ff260bdf302",
+      "notes": []
+    },
+    "stem_63": {
+      "stem_id": 63,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 32,
+      "file": "stem_63_relations.csv",
+      "prompt_sha256": "d5c8cc6b86db698fb26574bbe1ccedc77769c8537505038c9d3615493e4ce6d0",
+      "notes": []
+    },
+    "stem_64": {
+      "stem_id": 64,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_64_relations.csv",
+      "prompt_sha256": "5d1726dabe489d2c5b609d23d4138496e9e06ff6d5cd13d8be3fb0531cc4a1c1",
+      "notes": []
+    },
+    "stem_65": {
+      "stem_id": 65,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_65_relations.csv",
+      "prompt_sha256": "726201952ffb057d42193fd6d35c0ff1db42f52bd988c8cfd2053141d043bb04",
+      "notes": []
+    },
+    "stem_66": {
+      "stem_id": 66,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_66_relations.csv",
+      "prompt_sha256": "7b30d9054174836c06fd5b8b27161a1cc3c48e3ee8a6b717cf10e5e12f821a2e",
+      "notes": []
+    },
+    "stem_67": {
+      "stem_id": 67,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_67_relations.csv",
+      "prompt_sha256": "f18b890cd0aae20db56790b39efbeab870496fce96f64799e03a4aa9ac4773da",
+      "notes": []
+    },
+    "stem_68": {
+      "stem_id": 68,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_68_relations.csv",
+      "prompt_sha256": "4bf5da13cef76c62b1f4f1c9acab8768133605ead080867b97d0fbb2777de8f0",
+      "notes": []
+    },
+    "stem_69": {
+      "stem_id": 69,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_69_relations.csv",
+      "prompt_sha256": "afbd22d81d23f5f703a7c8db46955c7bd23e83c2c7fc4834ac8447ebf72ef7b6",
+      "notes": []
+    },
+    "stem_70": {
+      "stem_id": 70,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_70_relations.csv",
+      "prompt_sha256": "4a1e5b7297525cab109d1fef408a07cd1cd8bcb8166e0110a23bb2ebb545d9bc",
+      "notes": []
+    },
+    "stem_71": {
+      "stem_id": 71,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_71_relations.csv",
+      "prompt_sha256": "bc9d2557574acce285dd9b6317711bcf0e3680003cc082513b2031f5e1106b52",
+      "notes": []
+    },
+    "stem_72": {
+      "stem_id": 72,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_72_relations.csv",
+      "prompt_sha256": "6d09c98911bed6a711d7420e5544c189ba29526625932ad01aa478da45898e53",
+      "notes": []
+    },
+    "stem_73": {
+      "stem_id": 73,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_73_relations.csv",
+      "prompt_sha256": "16fda82c79e2dfe7488cf62536dbec707a3c5994521b8c84b4ee3c4fcf29db04",
+      "notes": []
+    },
+    "stem_74": {
+      "stem_id": 74,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_74_relations.csv",
+      "prompt_sha256": "c8031bb4187b93fa152c3f7daf14696faeb981fb953fe50dca19ec7f99633263",
+      "notes": []
+    },
+    "stem_75": {
+      "stem_id": 75,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_75_relations.csv",
+      "prompt_sha256": "a8aeee002c6055dadb4d9fe87b84ce1ec42e2b3f1237091162545cbdcb1c9c8d",
+      "notes": []
+    },
+    "stem_76": {
+      "stem_id": 76,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 25,
+      "file": "stem_76_relations.csv",
+      "prompt_sha256": "230822e6dcbd71e81f3da6b37c7c02b8a792097e28189cadd3622b0e8cd5a9b1",
+      "notes": []
+    },
+    "stem_77": {
+      "stem_id": 77,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_77_relations.csv",
+      "prompt_sha256": "0b78b549492a2599feda745dd8f4b69092124c6034446e7eee7ad007c48d4a60",
+      "notes": []
+    },
+    "stem_78": {
+      "stem_id": 78,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_78_relations.csv",
+      "prompt_sha256": "94790575865b9bed1ffbbc06ca1577dccab374997bbb400752b317309a5f6fe4",
+      "notes": []
+    },
+    "stem_79": {
+      "stem_id": 79,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_79_relations.csv",
+      "prompt_sha256": "80a3cd39be8fa91c1d44e314c3ddf815c8031373e377e854d980f536900065ba",
+      "notes": []
+    },
+    "stem_80": {
+      "stem_id": 80,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_80_relations.csv",
+      "prompt_sha256": "d72354bddd758a8290a7203474156357f31dbeaa4ef61b5f336d0914dff70fa0",
+      "notes": []
+    },
+    "stem_81": {
+      "stem_id": 81,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_81_relations.csv",
+      "prompt_sha256": "5a1b9be8f98d4a44a2e65fd2a4bec2960392e5f560cd4d2f628d9fb6ddd280bf",
+      "notes": []
+    },
+    "stem_82": {
+      "stem_id": 82,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_82_relations.csv",
+      "prompt_sha256": "bc026c8dcf58a6ec411a705d936bc001245cdd6d6492af0375cd38547a5b2007",
+      "notes": []
+    },
+    "stem_83": {
+      "stem_id": 83,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 45,
+      "file": "stem_83_relations.csv",
+      "prompt_sha256": "45c73b13cbd88e95f6332d6b653e46b105b59ce834fcf1d0ade4ee690ce47614",
+      "notes": []
+    },
+    "stem_84": {
+      "stem_id": 84,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 44,
+      "file": "stem_84_relations.csv",
+      "prompt_sha256": "e456d73c4399c90439ff423fd4d9bbe9546caf011ef7028cc38c89f22921b2c9",
+      "notes": []
+    },
+    "stem_85": {
+      "stem_id": 85,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 49,
+      "file": "stem_85_relations.csv",
+      "prompt_sha256": "c73d0dd09fb482bee13a7e507309afc15c0d227b108f6703eb37b1bcfaf69d49",
+      "notes": []
+    },
+    "stem_86": {
+      "stem_id": 86,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 78,
+      "file": "stem_86_relations.csv",
+      "prompt_sha256": "d65f4e5dfe75587e284c3f341c695fdcff9f26f7975ebd079d8f052a433168e4",
+      "notes": []
+    },
+    "stem_87": {
+      "stem_id": 87,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 48,
+      "file": "stem_87_relations.csv",
+      "prompt_sha256": "d68281b8a08aff0276193146c2af9dae1f7a44213fd9a7af23c21c60c3882c9d",
+      "notes": []
+    },
+    "stem_88": {
+      "stem_id": 88,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 50,
+      "file": "stem_88_relations.csv",
+      "prompt_sha256": "1b10240972e6954312087a7486058ab3c15ed113dfe68f1910574dc8d5d4098e",
+      "notes": []
+    },
+    "stem_89": {
+      "stem_id": 89,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 53,
+      "file": "stem_89_relations.csv",
+      "prompt_sha256": "25e4dfac54245827723526f57058d3d61f1a9c918797cf05ced2faa4a79d1c79",
+      "notes": []
+    },
+    "stem_90": {
+      "stem_id": 90,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 53,
+      "file": "stem_90_relations.csv",
+      "prompt_sha256": "0fd10780d6250dd684c876e34a6c9683b445b2b2754d38827bb03de981d799d6",
+      "notes": []
+    },
+    "stem_91": {
+      "stem_id": 91,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 53,
+      "file": "stem_91_relations.csv",
+      "prompt_sha256": "5c61ad2e725fa9e0635d16d4724681c87ba46aae5943800021f4a9d486585342",
+      "notes": []
+    },
+    "stem_92": {
+      "stem_id": 92,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 30,
+      "file": "stem_92_relations.csv",
+      "prompt_sha256": "a805357f1ca2b86a4648f0076cf651ed7d6a62d7344e60de5869f5cc33f33e33",
+      "notes": []
+    },
+    "stem_93": {
+      "stem_id": 93,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_93_relations.csv",
+      "prompt_sha256": "7466fe066944dc9f8760517c376fbe16a9235f84b8718392727c5d1632dc360e",
+      "notes": []
+    },
+    "stem_94": {
+      "stem_id": 94,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 31,
+      "file": "stem_94_relations.csv",
+      "prompt_sha256": "1bcde04dc5d080270c78e3e5eaed0c643354c63051caad43394a764a4c6d4035",
+      "notes": []
+    },
+    "stem_95": {
+      "stem_id": 95,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_95_relations.csv",
+      "prompt_sha256": "8af919fd0a19a1a39e0484c300ab24b37ccc1b95d824876dc4090340a043d889",
+      "notes": []
+    },
+    "stem_96": {
+      "stem_id": 96,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 36,
+      "file": "stem_96_relations.csv",
+      "prompt_sha256": "fbc027d6648a2676f8890336b3f4c34bb44474448be19679154d02c04b615542",
+      "notes": []
+    },
+    "stem_97": {
+      "stem_id": 97,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 25,
+      "file": "stem_97_relations.csv",
+      "prompt_sha256": "6a8f143265b5c1cd8e290e80f6ca68509f427f34dbfdc9bf81f5cbe50b885858",
+      "notes": []
+    },
+    "stem_98": {
+      "stem_id": 98,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 37,
+      "file": "stem_98_relations.csv",
+      "prompt_sha256": "07d00d87dae3e6d394fdd184c31f67de45cc2f195f695aa2ff3f630dffe7d105",
+      "notes": []
+    },
+    "stem_99": {
+      "stem_id": 99,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_99_relations.csv",
+      "prompt_sha256": "7ce9b5c87a55ff32694f8a74cac35649fd786dad987d47ff93a9b400e448b2df",
+      "notes": []
+    },
+    "stem_100": {
+      "stem_id": 100,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 35,
+      "file": "stem_100_relations.csv",
+      "prompt_sha256": "b74ad326363a9afd8e09906361e4d8015da5faa7216adb6661ce6b8071d0859d",
+      "notes": []
+    },
+    "stem_101": {
+      "stem_id": 101,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_101_relations.csv",
+      "prompt_sha256": "0056792b254af2917bc7c6f71e648d99afc080e9ca5c98551485ab088b929626",
+      "notes": []
+    },
+    "stem_102": {
+      "stem_id": 102,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_102_relations.csv",
+      "prompt_sha256": "d22d039d5f31a8b3c893647d10236ed0d4e5690d9fb835259ed02404d8039680",
+      "notes": []
+    },
+    "stem_103": {
+      "stem_id": 103,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 22,
+      "file": "stem_103_relations.csv",
+      "prompt_sha256": "b1a32530f62d9664ab6cc329890daceda501cf46a3558effbcb00e43e83f3d82",
+      "notes": []
+    },
+    "stem_104": {
+      "stem_id": 104,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 29,
+      "file": "stem_104_relations.csv",
+      "prompt_sha256": "9fe71654430b08c76722e4c4ad7346e1c29ee7196deb69049d9fcaf561171d43",
+      "notes": []
+    },
+    "stem_105": {
+      "stem_id": 105,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 27,
+      "file": "stem_105_relations.csv",
+      "prompt_sha256": "16a750650543a4a94115b49272dcb719c3bcf734e459ed1e7db10d82f767b3a2",
+      "notes": []
+    },
+    "stem_106": {
+      "stem_id": 106,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 58,
+      "file": "stem_106_relations.csv",
+      "prompt_sha256": "38faa492c1e2a1d2ae40b430b1eebb2a382fdca70302fc01a9c1f997a67c4fa7",
+      "notes": []
+    },
+    "stem_107": {
+      "stem_id": 107,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 44,
+      "file": "stem_107_relations.csv",
+      "prompt_sha256": "ff15ea565269cc7c4b6bf0006ba4842ca7cfd6ed76aeb9e873008c271dce2128",
+      "notes": []
+    },
+    "stem_108": {
+      "stem_id": 108,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 44,
+      "file": "stem_108_relations.csv",
+      "prompt_sha256": "a7a709235afc64404b29a90529b347889c2c4a06182082b1fac058f2716c35c5",
+      "notes": []
+    },
+    "stem_109": {
+      "stem_id": 109,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 51,
+      "file": "stem_109_relations.csv",
+      "prompt_sha256": "5159ab7dc290880d5904676023d7a6c996c9931716f821f07965934fdeb83f34",
+      "notes": []
+    },
+    "stem_110": {
+      "stem_id": 110,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 44,
+      "file": "stem_110_relations.csv",
+      "prompt_sha256": "79eb5c41378fe337f004595abfa0da65423d7f5b35596787eb9ea2b11ec1c78b",
+      "notes": []
+    },
+    "stem_111": {
+      "stem_id": 111,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 46,
+      "file": "stem_111_relations.csv",
+      "prompt_sha256": "ca4add927822ba82a9f59a24aa24c4f4ecd0f4d16c330d2832af211a5b8d209b",
+      "notes": []
+    },
+    "stem_112": {
+      "stem_id": 112,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 46,
+      "file": "stem_112_relations.csv",
+      "prompt_sha256": "4a743dac693beb9746a7927feb41007eafb2c3f999d888d8d8ee549de82ad4a7",
+      "notes": []
+    },
+    "stem_113": {
+      "stem_id": 113,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 52,
+      "file": "stem_113_relations.csv",
+      "prompt_sha256": "fa2f9448332948e8d789728eebf6cc09a402401d86d832b98fe0f6965be109ec",
+      "notes": []
+    },
+    "stem_116": {
+      "stem_id": 116,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 21,
+      "file": "stem_116_relations.csv",
+      "prompt_sha256": "6ff4ebb3170194211adc3362defa0bf5d37d67af42ebe672595aa5158015e9d8",
+      "notes": []
+    },
+    "stem_117": {
+      "stem_id": 117,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 23,
+      "file": "stem_117_relations.csv",
+      "prompt_sha256": "e2c3e961698ff1bcbc899e9898b5200b8ad35bbf71696b0b04e688e9272ecd3a",
+      "notes": []
+    },
+    "stem_118": {
+      "stem_id": 118,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_118_relations.csv",
+      "prompt_sha256": "84801cb0f5830db6dc16f4126ac2d7c72216dab76fe2a2227502b891a4dfa222",
+      "notes": []
+    },
+    "stem_119": {
+      "stem_id": 119,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_119_relations.csv",
+      "prompt_sha256": "0332a141ebf2bb4a51d8b0ac2e04bab0b278544816fd738b53ae0a07f70c35a3",
+      "notes": []
+    },
+    "stem_120": {
+      "stem_id": 120,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 34,
+      "file": "stem_120_relations.csv",
+      "prompt_sha256": "e45e78155df24ccf731c2994ed8192f6077e246aadc57dab58ac5b4f0f5eebcf",
+      "notes": []
+    },
+    "stem_121": {
+      "stem_id": 121,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 30,
+      "file": "stem_121_relations.csv",
+      "prompt_sha256": "a6d8a42f806b86f21eb03e2a32e3f7b968e90431add7dc1d64794dd07aa0f745",
+      "notes": []
+    },
+    "stem_126": {
+      "stem_id": 126,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_126_relations.csv",
+      "prompt_sha256": "2585d4348b615cf27ed958c4755737e91a0f3d44c1915675ccaaeaddd3ca80cb",
+      "notes": []
+    },
+    "stem_127": {
+      "stem_id": 127,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 20,
+      "file": "stem_127_relations.csv",
+      "prompt_sha256": "83614d72dad4afda9c0ebc110a10a116eb5bca142aa8760558fce6d10c447e33",
+      "notes": []
+    },
+    "stem_128": {
+      "stem_id": 128,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_128_relations.csv",
+      "prompt_sha256": "2707f3f04a7f823863b555b432567c9e48009b07a28a20e1a34efd115166a3e4",
+      "notes": []
+    },
+    "stem_129": {
+      "stem_id": 129,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 23,
+      "file": "stem_129_relations.csv",
+      "prompt_sha256": "764d86f4beb8c24561c68bc5346f5575f59dc0963c9bb3ba816f603bd053d53f",
+      "notes": []
+    },
+    "stem_130": {
+      "stem_id": 130,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_130_relations.csv",
+      "prompt_sha256": "b3cb372e1e922295e015e23cffffae64581f505abed2310d8f054e038bd7db8a",
+      "notes": []
+    },
+    "stem_131": {
+      "stem_id": 131,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_131_relations.csv",
+      "prompt_sha256": "fdbc092af78645f633291b28cf1fba72750020573262f1db9674eeaea80b8d6c",
+      "notes": []
+    },
+    "stem_132": {
+      "stem_id": 132,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_132_relations.csv",
+      "prompt_sha256": "d86959027a3a44f0dfc280ea9ba0174e1d7633fc3e8b1926dfa90792eeb90b92",
+      "notes": []
+    },
+    "stem_133": {
+      "stem_id": 133,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_133_relations.csv",
+      "prompt_sha256": "cbf3104ceab169beb332244a191e2802a8e3d98228696acfc563d2be76b85468",
+      "notes": []
+    },
+    "stem_134": {
+      "stem_id": 134,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_134_relations.csv",
+      "prompt_sha256": "aefd28276a5dbe573434745d8a177d83a801d375314849348e3633304031ad51",
+      "notes": []
+    },
+    "stem_135": {
+      "stem_id": 135,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_135_relations.csv",
+      "prompt_sha256": "7378ec7ff90ca21539bf375da2158f755e81636f899f1a400ae63fbdb3c14810",
+      "notes": []
+    },
+    "stem_136": {
+      "stem_id": 136,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_136_relations.csv",
+      "prompt_sha256": "37b4b4811c83756301342fd286c4555fda78432d7b75201d75456e373b0aee46",
+      "notes": []
+    },
+    "stem_137": {
+      "stem_id": 137,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 21,
+      "file": "stem_137_relations.csv",
+      "prompt_sha256": "9a578d23157576373cd151d5bb8090f48648548c664de32d6046e28a9e58f5c1",
+      "notes": []
+    },
+    "stem_138": {
+      "stem_id": 138,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 21,
+      "file": "stem_138_relations.csv",
+      "prompt_sha256": "a544555adc98ebcc1cb7c4dc039f70eb0112e5df4bf901ee2486ed610bf76837",
+      "notes": []
+    },
+    "stem_139": {
+      "stem_id": 139,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 25,
+      "file": "stem_139_relations.csv",
+      "prompt_sha256": "a61684962734a1c87a003b06405103861e870a3610c07cf529f141f12031dbbb",
+      "notes": []
+    },
+    "stem_140": {
+      "stem_id": 140,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_140_relations.csv",
+      "prompt_sha256": "8b2a7a378c02b132bfcbfcb729f706eb4322435c58ab8836e48494f18ccb3aac",
+      "notes": []
+    },
+    "stem_141": {
+      "stem_id": 141,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 20,
+      "file": "stem_141_relations.csv",
+      "prompt_sha256": "76174294431276ee45340ef2e83632a6c5bab1206da4b660c327843552a19b14",
+      "notes": []
+    },
+    "stem_142": {
+      "stem_id": 142,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 38,
+      "file": "stem_142_relations.csv",
+      "prompt_sha256": "f9e047d336bcbc7f248aa22b791934d59834894a5c2bed148d4afcb3abb0b29b",
+      "notes": []
+    },
+    "stem_143": {
+      "stem_id": 143,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_143_relations.csv",
+      "prompt_sha256": "1dbca64c72b2c65f280a5780471d6f940195415cb9f4e0f648bd93d70118861a",
+      "notes": []
+    },
+    "stem_144": {
+      "stem_id": 144,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_144_relations.csv",
+      "prompt_sha256": "9ff182fcdcc153c11ff475a48a158ab9458a786590e498a3e6485147b97ea830",
+      "notes": []
+    },
+    "stem_145": {
+      "stem_id": 145,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_145_relations.csv",
+      "prompt_sha256": "bfc929abdcb36e03735b0c8847379c2ad074b2a5de8ea651829545a6c8efd371",
+      "notes": []
+    },
+    "stem_146": {
+      "stem_id": 146,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_146_relations.csv",
+      "prompt_sha256": "4881af1a9c3b8e37021238b704d298e68bd4af7db7f17da44069f6a54bbf7c8a",
+      "notes": []
+    },
+    "stem_147": {
+      "stem_id": 147,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_147_relations.csv",
+      "prompt_sha256": "f1df123038d2c0e270fbd43c7e84aa67a06d3a93e51aed91e1dafdf4e7dc4ad9",
+      "notes": []
+    },
+    "stem_148": {
+      "stem_id": 148,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 29,
+      "file": "stem_148_relations.csv",
+      "prompt_sha256": "5617d7a3b4b7c4514d9f27a6475925afb15eb05450dc5ffcf3f5d4f8e5bdb03f",
+      "notes": []
+    },
+    "stem_149": {
+      "stem_id": 149,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 35,
+      "file": "stem_149_relations.csv",
+      "prompt_sha256": "261f3f0ffdde6f8874a1574829bf7ba3adf882d097bddf7c6be33e70d64b22d0",
+      "notes": []
+    },
+    "stem_150": {
+      "stem_id": 150,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_150_relations.csv",
+      "prompt_sha256": "3a74f19f69bd22e970574958d936495300740d56b20f15d2041fb18a84663a32",
+      "notes": []
+    },
+    "stem_157": {
+      "stem_id": 157,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 25,
+      "file": "stem_157_relations.csv",
+      "prompt_sha256": "cff9621f90f50150c62f20ce9e46486a52ef72edfb2014506ddd25487204f0cf",
+      "notes": []
+    },
+    "stem_158": {
+      "stem_id": 158,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_158_relations.csv",
+      "prompt_sha256": "2b46821f1cbe44af263596bf7f8c6d72db517e826e8e174e30c40f5ab54664f6",
+      "notes": []
+    },
+    "stem_160": {
+      "stem_id": 160,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 56,
+      "file": "stem_160_relations.csv",
+      "prompt_sha256": "3dbf8f764a0229f325350377e6703a4cfa87e28ee4669b2ec6d2e5bb52121f38",
+      "notes": []
+    },
+    "stem_171": {
+      "stem_id": 171,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 41,
+      "file": "stem_171_relations.csv",
+      "prompt_sha256": "78e4825858004b65b246a95d2f3092373e274ffe9fb20447cafb85801b7b26f7",
+      "notes": []
+    },
+    "stem_172": {
+      "stem_id": 172,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_172_relations.csv",
+      "prompt_sha256": "d03fc49d5bfac8917c3e8f3ac4702b249a6afb71a73a7a0b39832f3a0b97bac1",
+      "notes": []
+    },
+    "stem_173": {
+      "stem_id": 173,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_173_relations.csv",
+      "prompt_sha256": "f556941245f61b65e8c01e5cc96afb2a54f174957f8455784c049032f02ee6a6",
+      "notes": []
+    },
+    "stem_174": {
+      "stem_id": 174,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_174_relations.csv",
+      "prompt_sha256": "d8a4c973827bfb3eeb8a55467e8eb483ff7f2f19612d6b878d9b90cf34f9530a",
+      "notes": []
+    },
+    "stem_175": {
+      "stem_id": 175,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_175_relations.csv",
+      "prompt_sha256": "ae4105bee59e6fabc679357b542a0b33117584e03a2ff41f65fca9cb33d1bcc9",
+      "notes": []
+    },
+    "stem_176": {
+      "stem_id": 176,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_176_relations.csv",
+      "prompt_sha256": "ac050a048f9c121be505b0e825740008ff18294d9e59dcc6bb4cd9d9d3516328",
+      "notes": []
+    },
+    "stem_177": {
+      "stem_id": 177,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_177_relations.csv",
+      "prompt_sha256": "82e551777ced7ce243eb90453556385bd0ed13d51fb48ec58f6033fe28e7a987",
+      "notes": []
+    },
+    "stem_178": {
+      "stem_id": 178,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_178_relations.csv",
+      "prompt_sha256": "a8bd824b73d74d27884e0cd07858508f39704e60b1c493ea57caffa9c342200f",
+      "notes": []
+    },
+    "stem_179": {
+      "stem_id": 179,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 9,
+      "file": "stem_179_relations.csv",
+      "prompt_sha256": "30c3b469f6ada8e75c4efc3a59fd65c39a8c7e3b6c12f70803869606533fc5cc",
+      "notes": []
+    },
+    "stem_180": {
+      "stem_id": 180,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_180_relations.csv",
+      "prompt_sha256": "0caa652f564e0d6d22332e6617f92e0ece629039a84b2e6c53cfeb50be1f42fd",
+      "notes": []
+    },
+    "stem_181": {
+      "stem_id": 181,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_181_relations.csv",
+      "prompt_sha256": "4761f48356b6106b65e61894680505eff60b4c13aa93a400fcd145e59044a67b",
+      "notes": []
+    },
+    "stem_182": {
+      "stem_id": 182,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_182_relations.csv",
+      "prompt_sha256": "751c764b2a9ef98c7b3c6a59a77cef85dd375850d3fd78e9f10279b2394aee54",
+      "notes": []
+    },
+    "stem_183": {
+      "stem_id": 183,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_183_relations.csv",
+      "prompt_sha256": "9d7882c06427c47c0f19ea3b6f5bb1d8228ac0cee5c5c28d40fdbf49c6b52cca",
+      "notes": []
+    },
+    "stem_184": {
+      "stem_id": 184,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_184_relations.csv",
+      "prompt_sha256": "33cee9108040d0cf88e66ff4d75b306cb0ca068bad675f395757aa9f765a53d4",
+      "notes": []
+    },
+    "stem_185": {
+      "stem_id": 185,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_185_relations.csv",
+      "prompt_sha256": "75f235984e982cd603301a88ccc2c685b39fdec95e88330b3635308246bac068",
+      "notes": []
+    },
+    "stem_186": {
+      "stem_id": 186,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_186_relations.csv",
+      "prompt_sha256": "a4e1f0d15298491674423ef75861e534f65d7926ec3413730698635b8cd851f2",
+      "notes": []
+    },
+    "stem_187": {
+      "stem_id": 187,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 22,
+      "file": "stem_187_relations.csv",
+      "prompt_sha256": "ae02010526fbf9cf2f5979a0a25fef895651936dab7b3ced21d4158bad7359f2",
+      "notes": []
+    },
+    "stem_188": {
+      "stem_id": 188,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 25,
+      "file": "stem_188_relations.csv",
+      "prompt_sha256": "323dce7c4d340d6eb3b28be1bbaf901106e3b06cb2d2b749f907925f040cc93c",
+      "notes": []
+    },
+    "stem_189": {
+      "stem_id": 189,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 22,
+      "file": "stem_189_relations.csv",
+      "prompt_sha256": "908adec8245e5f4a32d3d7ae056eb8f1e83282c15551dd446ace64591c2b240c",
+      "notes": []
+    },
+    "stem_190": {
+      "stem_id": 190,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 20,
+      "file": "stem_190_relations.csv",
+      "prompt_sha256": "914d1bbb7596b4807e504cbfc018749d96345fc8c8125e0e1339e7c3e1fb4c1b",
+      "notes": []
+    },
+    "stem_191": {
+      "stem_id": 191,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 28,
+      "file": "stem_191_relations.csv",
+      "prompt_sha256": "2a25020107c87bf86e271dc6ecff67e36ecb8ecafcc392bcf02af7ef36fabdc0",
+      "notes": []
+    },
+    "stem_192": {
+      "stem_id": 192,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 25,
+      "file": "stem_192_relations.csv",
+      "prompt_sha256": "3ca7c112cb394d4830f5c3189b75cbda46316ffabf764e052035f865859592d2",
+      "notes": []
+    },
+    "stem_193": {
+      "stem_id": 193,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 25,
+      "file": "stem_193_relations.csv",
+      "prompt_sha256": "f7a4801ef22dff77bf68218e34931c2599e6deff5a117215ed616a052ddd1884",
+      "notes": []
+    },
+    "stem_194": {
+      "stem_id": 194,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 23,
+      "file": "stem_194_relations.csv",
+      "prompt_sha256": "5e426155c34e4e67e539abb1f5ded5465f1a52629737f202bd3618f34f42f479",
+      "notes": []
+    },
+    "stem_195": {
+      "stem_id": 195,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 26,
+      "file": "stem_195_relations.csv",
+      "prompt_sha256": "f3eaed4b5eaa64817668cb9053c5e4ed48fba1ea4f4f637fb04b1cc7fbaf009f",
+      "notes": []
+    },
+    "stem_196": {
+      "stem_id": 196,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 26,
+      "file": "stem_196_relations.csv",
+      "prompt_sha256": "1dca3235790a8635927addedf30ebedf78cb6b18122f39a20b0da45df1b7db3c",
+      "notes": []
+    },
+    "stem_197": {
+      "stem_id": 197,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 33,
+      "file": "stem_197_relations.csv",
+      "prompt_sha256": "5e9793d770ab41920830a6ca519105419e98555aa19f9812ec9263eaeb61c241",
+      "notes": []
+    },
+    "stem_198": {
+      "stem_id": 198,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 25,
+      "file": "stem_198_relations.csv",
+      "prompt_sha256": "a498604df2cdaf0af4e4cd5446cfcc0b209d5ec738e6df3c2f9d0cb8cdc8691a",
+      "notes": []
+    },
+    "stem_199": {
+      "stem_id": 199,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 28,
+      "file": "stem_199_relations.csv",
+      "prompt_sha256": "906056abae92db8d3cc83a085660ea714743ed5789b279a30f539ec4112c84ed",
+      "notes": []
+    },
+    "stem_200": {
+      "stem_id": 200,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 30,
+      "file": "stem_200_relations.csv",
+      "prompt_sha256": "5fc0c2bb7b53f2bd8967d9e046b50d67345d3d8dcc1fdfa03858937b2aee954e",
+      "notes": []
+    },
+    "stem_201": {
+      "stem_id": 201,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_201_relations.csv",
+      "prompt_sha256": "7730d024818958b1138d9175bf20d71fa4b0ff644c6d178d16adde59c216d2d6",
+      "notes": []
+    },
+    "stem_202": {
+      "stem_id": 202,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 25,
+      "file": "stem_202_relations.csv",
+      "prompt_sha256": "d4349babdce7708792ffd552d45c1d00dad3784c8b4be6715ef9a60aee5e6b03",
+      "notes": []
+    },
+    "stem_203": {
+      "stem_id": 203,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 35,
+      "file": "stem_203_relations.csv",
+      "prompt_sha256": "f886379e7dababbe087a07e2edefe2e2acb5e4b80b7cf8e12244fb363f0c457b",
+      "notes": []
+    },
+    "stem_204": {
+      "stem_id": 204,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 21,
+      "file": "stem_204_relations.csv",
+      "prompt_sha256": "155a995ace5001c7209419cd494656b6036f0bc7857c470f0d6444f605c085c7",
+      "notes": []
+    },
+    "stem_205": {
+      "stem_id": 205,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 27,
+      "file": "stem_205_relations.csv",
+      "prompt_sha256": "6ffc5d75e70b371a78e0a19ce769299765fc7d0140235987db30a3c1833ca423",
+      "notes": []
+    },
+    "stem_206": {
+      "stem_id": 206,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 44,
+      "file": "stem_206_relations.csv",
+      "prompt_sha256": "6d2b431039f0eb533a5a19d910ee03e68792cfba2971170a6486d0299b2a24a2",
+      "notes": []
+    },
+    "stem_207": {
+      "stem_id": 207,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_207_relations.csv",
+      "prompt_sha256": "229c7b625683b903565bc87331954534a0a5bcdaf258ceda70d1b6027ae2d7c7",
+      "notes": []
+    },
+    "stem_208": {
+      "stem_id": 208,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_208_relations.csv",
+      "prompt_sha256": "6000d79cdff93256ea022f585883159a43c2953a995cfb1ad8b1bcb2d734374d",
+      "notes": []
+    },
+    "stem_209": {
+      "stem_id": 209,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_209_relations.csv",
+      "prompt_sha256": "45f5043bf675a683073eb7f02b7833e1d2f6884ffb9b9162f3d74540a0919012",
+      "notes": []
+    },
+    "stem_210": {
+      "stem_id": 210,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 22,
+      "file": "stem_210_relations.csv",
+      "prompt_sha256": "38b84308be2599700490ee29291916579da7bac9df8d2ff8c37bc5798c2a6909",
+      "notes": []
+    },
+    "stem_211": {
+      "stem_id": 211,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 21,
+      "file": "stem_211_relations.csv",
+      "prompt_sha256": "50694c285aa3c1432c8379b78a28058e463cb418bd3e8c434ca3b35a75d808ed",
+      "notes": []
+    },
+    "stem_212": {
+      "stem_id": 212,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 22,
+      "file": "stem_212_relations.csv",
+      "prompt_sha256": "a7a770dd2955750b2befde0430b9260688f2ff2c0eafd3adc2a5b1d8cd4bb19b",
+      "notes": []
+    },
+    "stem_213": {
+      "stem_id": 213,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_213_relations.csv",
+      "prompt_sha256": "653a3f6188e160edd5c6d37b2892d5ab1b5ed709f21d85586a4cbaf2ef84a2ad",
+      "notes": []
+    },
+    "stem_214": {
+      "stem_id": 214,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_214_relations.csv",
+      "prompt_sha256": "52b68e8b9096a00c202e0bb9b792a0a6ea8cf1d94cb083a07f3575b07e226cae",
+      "notes": []
+    },
+    "stem_215": {
+      "stem_id": 215,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_215_relations.csv",
+      "prompt_sha256": "2845446266585a6f3565470fba79db2504ff63d5e7b8dcbf298f1bfbb83ac70c",
+      "notes": []
+    },
+    "stem_216": {
+      "stem_id": 216,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_216_relations.csv",
+      "prompt_sha256": "40bdfd373de6fdcbf1de1858865c53bf4c3b424a8142fa18314c1a500931e3e1",
+      "notes": []
+    },
+    "stem_217": {
+      "stem_id": 217,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_217_relations.csv",
+      "prompt_sha256": "bcd7740ee7f109db1b7cb0bc29fc50614eb1a8eeb1c39997f71339039f0410e3",
+      "notes": []
+    },
+    "stem_218": {
+      "stem_id": 218,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_218_relations.csv",
+      "prompt_sha256": "bf01481e7b348ca9cc9a592c937413cbb288470f9a83741782d68ff4e11fb458",
+      "notes": []
+    },
+    "stem_219": {
+      "stem_id": 219,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 20,
+      "file": "stem_219_relations.csv",
+      "prompt_sha256": "1b9aff2f73f7a0945344dec95480d82d508ab0996da0daf7d0fb940ce346d0c8",
+      "notes": []
+    },
+    "stem_220": {
+      "stem_id": 220,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_220_relations.csv",
+      "prompt_sha256": "6c884f04d1cadb3cbe5677066ba85730fc4eb740a8f9912a49ca52c04dc323bb",
+      "notes": []
+    },
+    "stem_221": {
+      "stem_id": 221,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_221_relations.csv",
+      "prompt_sha256": "6bf59cfa2679a8533b134772f1c6195ae75de61761c4e95c88763d89557b0e46",
+      "notes": []
+    },
+    "stem_222": {
+      "stem_id": 222,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 21,
+      "file": "stem_222_relations.csv",
+      "prompt_sha256": "97c640cfde83bd60c94e65209e6fc9a04ce18171d92514ae428edebdada41a56",
+      "notes": []
+    },
+    "stem_223": {
+      "stem_id": 223,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_223_relations.csv",
+      "prompt_sha256": "b145e707a9909abeda196da22f5efba9702d0b78df9840f64fedcfaeb62b4ea7",
+      "notes": []
+    },
+    "stem_224": {
+      "stem_id": 224,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_224_relations.csv",
+      "prompt_sha256": "7dc30643607576d7fa5f7c8c93dc5557d1396fdda67a9664e6f8230e919ff745",
+      "notes": []
+    },
+    "stem_225": {
+      "stem_id": 225,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_225_relations.csv",
+      "prompt_sha256": "9a0371d1d7436ba30d75047d883467719842b27eb7c79505a53a4e80552f6a0a",
+      "notes": []
+    },
+    "stem_226": {
+      "stem_id": 226,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_226_relations.csv",
+      "prompt_sha256": "5a0abc318ba2c058032475b873a671b6152bfdac649292c06bd8efccd9ea9ae0",
+      "notes": []
+    },
+    "stem_227": {
+      "stem_id": 227,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_227_relations.csv",
+      "prompt_sha256": "ee424d7d6455ea6adfe4d1ab248da6f61ef7e985c79161e89be3c83f784b9c70",
+      "notes": []
+    },
+    "stem_228": {
+      "stem_id": 228,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_228_relations.csv",
+      "prompt_sha256": "89bf078924074f8fa31328f3cd7f9c70fb596ff3484b427b541c3d62fd420661",
+      "notes": []
+    },
+    "stem_229": {
+      "stem_id": 229,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_229_relations.csv",
+      "prompt_sha256": "d33d289a89cc03055ad24d2f489947a0b9bc0361702720aaf21bfd5e7a27b526",
+      "notes": []
+    },
+    "stem_230": {
+      "stem_id": 230,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_230_relations.csv",
+      "prompt_sha256": "aad24efd6d8f4041de06dd6f61811f1780bf501ab7f48930c5eda349c9f3ee8a",
+      "notes": []
+    },
+    "stem_231": {
+      "stem_id": 231,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_231_relations.csv",
+      "prompt_sha256": "cd9672ab7e678c0ab62e19d549b2f1dc0fb61b745608578c8b83b1e56876203d",
+      "notes": []
+    },
+    "stem_232": {
+      "stem_id": 232,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_232_relations.csv",
+      "prompt_sha256": "bb05c5100b1d74fe32cfc95f34b8c5e0b7f92adf3b6577107c51b5d2e91efea4",
+      "notes": []
+    },
+    "stem_233": {
+      "stem_id": 233,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_233_relations.csv",
+      "prompt_sha256": "f5c36e626d7ac84895da9f40d110cc7521498d10963dc9d1b8c1f2e8e3a1412b",
+      "notes": []
+    },
+    "stem_234": {
+      "stem_id": 234,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_234_relations.csv",
+      "prompt_sha256": "01bd35a73adcec33b8d4ea6e06f158b36f6ce3923783d71a1cd3e3bde78584fe",
+      "notes": []
+    },
+    "stem_235": {
+      "stem_id": 235,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_235_relations.csv",
+      "prompt_sha256": "00c4b7c567e288e57a4f4499301bad3f3d82d3db6782edf521ef00bd44c9d202",
+      "notes": []
+    },
+    "stem_236": {
+      "stem_id": 236,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 8,
+      "file": "stem_236_relations.csv",
+      "prompt_sha256": "c287df4746296ea2cc1adef9fbeddcf5c6bcdde9c12de1b86ba07b57a964d5dd",
+      "notes": []
+    },
+    "stem_237": {
+      "stem_id": 237,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 26,
+      "file": "stem_237_relations.csv",
+      "prompt_sha256": "e7ff2828a36be09b3c884504bdefad2695bf3c80e1940a2f707a4fe12ae92bcc",
+      "notes": []
+    },
+    "stem_238": {
+      "stem_id": 238,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_238_relations.csv",
+      "prompt_sha256": "aa60c47bf4c63ee0a6ffa20a0302d47555d23ecc0fdc8b68a663242e9b2f6e3f",
+      "notes": []
+    },
+    "stem_239": {
+      "stem_id": 239,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 38,
+      "file": "stem_239_relations.csv",
+      "prompt_sha256": "d4998c3e0825a674dd9f7e2c7bcbcd8985a6dab8bd0ccb2eaf5370952841d86b",
+      "notes": []
+    },
+    "stem_240": {
+      "stem_id": 240,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 25,
+      "file": "stem_240_relations.csv",
+      "prompt_sha256": "b0c6db4bb6d4191e97647583312352033684561a9b93f16934be520f5bf7ebf1",
+      "notes": []
+    },
+    "stem_241": {
+      "stem_id": 241,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_241_relations.csv",
+      "prompt_sha256": "f29610c61b65dfc8948f17ad8e44b2500b5fa50669d50997769d97db55cab0c8",
+      "notes": []
+    },
+    "stem_242": {
+      "stem_id": 242,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 35,
+      "file": "stem_242_relations.csv",
+      "prompt_sha256": "4c52f4a563a70078a7dd5d9239f9e72a3a783c4620a7bcecf4b3a06d75e7a6b8",
+      "notes": []
+    },
+    "stem_243": {
+      "stem_id": 243,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 38,
+      "file": "stem_243_relations.csv",
+      "prompt_sha256": "e8e1faf0cfdd463dbe5937a4df1d3907e619c0fb0a2b0e8e323c5d667aa3c202",
+      "notes": []
+    },
+    "stem_244": {
+      "stem_id": 244,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 24,
+      "file": "stem_244_relations.csv",
+      "prompt_sha256": "9c8460b1285472d933f5780fa57e265c8ad87c3e16cf48f1a0ca583c4226265f",
+      "notes": []
+    },
+    "stem_245": {
+      "stem_id": 245,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 38,
+      "file": "stem_245_relations.csv",
+      "prompt_sha256": "f8b5966877faf9b49f515d76071036f424402db97ed3573290b2f094bf42ceeb",
+      "notes": []
+    },
+    "stem_246": {
+      "stem_id": 246,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_246_relations.csv",
+      "prompt_sha256": "28ab8fd0b4d04673b34384f114ae33811c34cc6bdebd32369fa4148dd29932f9",
+      "notes": []
+    },
+    "stem_247": {
+      "stem_id": 247,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 37,
+      "file": "stem_247_relations.csv",
+      "prompt_sha256": "36d076551aa35def351984ff27796cb68e076e490e1ec78a32483f7ff07931be",
+      "notes": []
+    },
+    "stem_248": {
+      "stem_id": 248,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_248_relations.csv",
+      "prompt_sha256": "89dd82662614dee8a8e23c59b3551f040023c4f17eca4ff33cdcbbb07da69db1",
+      "notes": []
+    },
+    "stem_249": {
+      "stem_id": 249,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_249_relations.csv",
+      "prompt_sha256": "93a5b468a3f25428c0bf14732b9f9d08f56d4ee12cefda7bfa6687086c49d276",
+      "notes": []
+    },
+    "stem_250": {
+      "stem_id": 250,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_250_relations.csv",
+      "prompt_sha256": "37db879ad6a71fb048e4545cb91b08e96eca2d4110e78c098855e646a3c25586",
+      "notes": []
+    },
+    "stem_251": {
+      "stem_id": 251,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 22,
+      "file": "stem_251_relations.csv",
+      "prompt_sha256": "c83a81f855d48d1e313da1f5f48b998027fdc7d2bcfff7ad5349779f6134f9af",
+      "notes": []
+    },
+    "stem_252": {
+      "stem_id": 252,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 26,
+      "file": "stem_252_relations.csv",
+      "prompt_sha256": "61e89434c9a65e52ddd5e6239f5301f8ec7a92a9b206034443649d7440b69407",
+      "notes": []
+    },
+    "stem_253": {
+      "stem_id": 253,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 22,
+      "file": "stem_253_relations.csv",
+      "prompt_sha256": "fa14c880d412b1a3c19112bcff29999bc4065163333dc60a6fcd27c515b3e6de",
+      "notes": []
+    },
+    "stem_255": {
+      "stem_id": 255,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_255_relations.csv",
+      "prompt_sha256": "b7b24c170d0a0d71a0931449049522d58c39ffd9ae8ead80e639d21d8a6594e1",
+      "notes": []
+    },
+    "stem_256": {
+      "stem_id": 256,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 21,
+      "file": "stem_256_relations.csv",
+      "prompt_sha256": "29c57dc6ac3559a28f8461ed803a770ba2aebe3062a39576bc0279af073fc3ca",
+      "notes": []
+    },
+    "stem_257": {
+      "stem_id": 257,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_257_relations.csv",
+      "prompt_sha256": "b5ecfd6d64461ab29adc8d9939ebcee9591952125b7e2c5eae774db102d53b20",
+      "notes": []
+    },
+    "stem_258": {
+      "stem_id": 258,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 8,
+      "file": "stem_258_relations.csv",
+      "prompt_sha256": "a92f9b0d75434dffecf3df67c7f8144825a016960a7f5f9207f09ffb920671d2",
+      "notes": []
+    },
+    "stem_259": {
+      "stem_id": 259,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 9,
+      "file": "stem_259_relations.csv",
+      "prompt_sha256": "ad2bbf7a0b521dce0fcff0d09a5953735f20e2798db31b28f5e860c7d81924b9",
+      "notes": []
+    },
+    "stem_260": {
+      "stem_id": 260,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_260_relations.csv",
+      "prompt_sha256": "1862fb6ea106bc1a9d4bf9e04cdc6f2af7573bfbee063978d76edecd7d540906",
+      "notes": []
+    },
+    "stem_261": {
+      "stem_id": 261,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_261_relations.csv",
+      "prompt_sha256": "a45a908c1aae6f7923ea3cb6ca051e3cf200a6bf0a5752c697cc86befc26fd27",
+      "notes": []
+    },
+    "stem_263": {
+      "stem_id": 263,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_263_relations.csv",
+      "prompt_sha256": "abeb65930a0cc8cb754780f6ab5d5c6eccd5db02fb285bd164fe8431971296e5",
+      "notes": []
+    },
+    "stem_264": {
+      "stem_id": 264,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 20,
+      "file": "stem_264_relations.csv",
+      "prompt_sha256": "b6464d0f1a691df8aebc6ef071c20ce7d62c35b9718acd8f159d6c7384bb2699",
+      "notes": []
+    },
+    "stem_265": {
+      "stem_id": 265,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_265_relations.csv",
+      "prompt_sha256": "b47022fd0f47bfa5a303ca0247735a97eef51c1121f8082b616a977bb8044b9e",
+      "notes": []
+    },
+    "stem_266": {
+      "stem_id": 266,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_266_relations.csv",
+      "prompt_sha256": "040505ebc998b8732d579209742f7629f3060460d0e42568395ba827784e68c9",
+      "notes": []
+    },
+    "stem_267": {
+      "stem_id": 267,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_267_relations.csv",
+      "prompt_sha256": "c24b13b4b9125b6bedbd10315e6c868f87aa708438c69417126caa957edce783",
+      "notes": []
+    },
+    "stem_268": {
+      "stem_id": 268,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 41,
+      "file": "stem_268_relations.csv",
+      "prompt_sha256": "bb68151aa7966977a0c4418db97d7cbf71c96b65509622099b37d89cee37718c",
+      "notes": []
+    },
+    "stem_269": {
+      "stem_id": 269,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_269_relations.csv",
+      "prompt_sha256": "0d205610c78a4ec80b9b71618ba16107396bd41b5c8478c9b85f285905f532a9",
+      "notes": []
+    },
+    "stem_270": {
+      "stem_id": 270,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 23,
+      "file": "stem_270_relations.csv",
+      "prompt_sha256": "8c23fe73f62e6d39b761c1ffc396a92f1736313004278f7a9808d31b9436c7b4",
+      "notes": []
+    },
+    "stem_271": {
+      "stem_id": 271,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_271_relations.csv",
+      "prompt_sha256": "fc7e3bff2c9fd8322556804ea95109487469d3ab923c7eafa343a93c336906ce",
+      "notes": []
+    },
+    "stem_272": {
+      "stem_id": 272,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 22,
+      "file": "stem_272_relations.csv",
+      "prompt_sha256": "0fd73c779408ff42c76d31c58cc5803b70a7eb43a10b26ed96e11a4a18a0d7a2",
+      "notes": []
+    },
+    "stem_273": {
+      "stem_id": 273,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 19,
+      "file": "stem_273_relations.csv",
+      "prompt_sha256": "c99577776305ebf0664a7d8f5f7f246711724255aa097e87883dcdb9c548d80c",
+      "notes": []
+    },
+    "stem_274": {
+      "stem_id": 274,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_274_relations.csv",
+      "prompt_sha256": "743870dd158436a467bc8c8d135bfdf338c7a86c65f89705f53fd65315fd1c9e",
+      "notes": []
+    },
+    "stem_275": {
+      "stem_id": 275,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_275_relations.csv",
+      "prompt_sha256": "399f02d6d75375b5b83061df93be770949398e77bc933d39a947d8a3bd02f6fb",
+      "notes": []
+    },
+    "stem_276": {
+      "stem_id": 276,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 20,
+      "file": "stem_276_relations.csv",
+      "prompt_sha256": "3b2970cb5c30f1fa78e6db631777fde43864533d1d09e84e5d4759cca70e0e63",
+      "notes": []
+    },
+    "stem_277": {
+      "stem_id": 277,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_277_relations.csv",
+      "prompt_sha256": "cfb275fe74479b9c4a15c3d93d156c2f76231f7f39621b3aee2ffb1ab30305e8",
+      "notes": []
+    },
+    "stem_278": {
+      "stem_id": 278,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_278_relations.csv",
+      "prompt_sha256": "ed89b02e612f6d94199f65eebe473de7b19bce82dd8f56966340ded2994bd546",
+      "notes": []
+    },
+    "stem_279": {
+      "stem_id": 279,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_279_relations.csv",
+      "prompt_sha256": "02881ddcb2fa12c54a4f641066d8c3cfb0a5fb359896c2cc41e8dc9aa6f24151",
+      "notes": []
+    },
+    "stem_280": {
+      "stem_id": 280,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 23,
+      "file": "stem_280_relations.csv",
+      "prompt_sha256": "a5f709571759ae9d3b58688c9f7549d4167ebf834abe998ccb32fe4127f50359",
+      "notes": []
+    },
+    "stem_281": {
+      "stem_id": 281,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_281_relations.csv",
+      "prompt_sha256": "5f0bbc0ad6e3096c5b719230ea39d77d67b7564055dfda71cf3dff90ad6579af",
+      "notes": []
+    },
+    "stem_282": {
+      "stem_id": 282,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_282_relations.csv",
+      "prompt_sha256": "113cf7dfec827d6b18a7e6f50070e0e099b3153439555437f63378da746c13c3",
+      "notes": []
+    },
+    "stem_283": {
+      "stem_id": 283,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_283_relations.csv",
+      "prompt_sha256": "6c19dd2f2b47a75f35802759bd93b3fba4393f14a32dc32aa6c5b66a69c7f13f",
+      "notes": []
+    },
+    "stem_284": {
+      "stem_id": 284,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_284_relations.csv",
+      "prompt_sha256": "c7d739f6da622db3e8ed447c4aa77797ed25c14fab06f96e90c383a2d000feb7",
+      "notes": []
+    },
+    "stem_285": {
+      "stem_id": 285,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_285_relations.csv",
+      "prompt_sha256": "22e57bc8eee56e32b87dec90186a98a30209a10be644eb6c3627cd52e1b295f7",
+      "notes": []
+    },
+    "stem_286": {
+      "stem_id": 286,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_286_relations.csv",
+      "prompt_sha256": "7749d417edd04a5b082519911516802b4ebc671fc9d7bca51af2b72d8723dd7a",
+      "notes": []
+    },
+    "stem_287": {
+      "stem_id": 287,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_287_relations.csv",
+      "prompt_sha256": "0eadafed4d14c46e3f0b7f80279a8da176d35eecef35619b530092b3bc4a3787",
+      "notes": []
+    },
+    "stem_289": {
+      "stem_id": 289,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_289_relations.csv",
+      "prompt_sha256": "205b25b2136bbbdc6c9e6461715c0665284a085b768ea28205626b520643c996",
+      "notes": []
+    },
+    "stem_291": {
+      "stem_id": 291,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_291_relations.csv",
+      "prompt_sha256": "8b575339797a12770a7d6429d235e333b58ab9f2f15e704bd6090c8a084fa639",
+      "notes": []
+    },
+    "stem_292": {
+      "stem_id": 292,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 9,
+      "file": "stem_292_relations.csv",
+      "prompt_sha256": "5e6e4437ccb5d269af99b4427ca1a8afb6f1dd54b3d563b562fdb3ab634cf0d4",
+      "notes": []
+    },
+    "stem_295": {
+      "stem_id": 295,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_295_relations.csv",
+      "prompt_sha256": "c6a50a92548781cf0d447ca2acf4431f32a8d8db5c42a87a9403f5866c1ee562",
+      "notes": []
+    },
+    "stem_297": {
+      "stem_id": 297,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 33,
+      "file": "stem_297_relations.csv",
+      "prompt_sha256": "b9e5f491e2c1dd1a78a6b69c650127fb1fa146c55d16876ee9cf8a1c0fe42e11",
+      "notes": []
+    },
+    "stem_298": {
+      "stem_id": 298,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_298_relations.csv",
+      "prompt_sha256": "98ae82162e22f9c07e5b3ba45fd54415b3d4f8d4eaf23495e83478b9157cb9be",
+      "notes": []
+    },
+    "stem_300": {
+      "stem_id": 300,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 32,
+      "file": "stem_300_relations.csv",
+      "prompt_sha256": "6e7abf891d0e08f3933885075e60b7494b47026ac277da45b488efd0544293da",
+      "notes": []
+    },
+    "stem_301": {
+      "stem_id": 301,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_301_relations.csv",
+      "prompt_sha256": "f89351caeffea276b63c997330f7bd17e2e876acfba653da5537429c4e6cd75d",
+      "notes": []
+    },
+    "stem_302": {
+      "stem_id": 302,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 46,
+      "file": "stem_302_relations.csv",
+      "prompt_sha256": "6071bc47ab6296cf2cb45036e7f91c0d3331c0cae5031f7eab2ed09b4b9b5e7d",
+      "notes": []
+    },
+    "stem_303": {
+      "stem_id": 303,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_303_relations.csv",
+      "prompt_sha256": "0b3118fbc9b8437f49cde9d902c4e2a95d0cc300a40ac7ab52cf127447f898d7",
+      "notes": []
+    },
+    "stem_304": {
+      "stem_id": 304,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_304_relations.csv",
+      "prompt_sha256": "cfe2b757757d7c832d43a48c2a52d9f2485d63a01ac11c3187fa1045e7e1abfe",
+      "notes": []
+    },
+    "stem_305": {
+      "stem_id": 305,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 37,
+      "file": "stem_305_relations.csv",
+      "prompt_sha256": "29b8d8d65f992a4df2569ce23dc539658c02037eeafab2a4790433d86ef0f531",
+      "notes": []
+    },
+    "stem_306": {
+      "stem_id": 306,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 50,
+      "file": "stem_306_relations.csv",
+      "prompt_sha256": "4a1af0d91cacba94c96a36fccc2593a96ef464871f8dc0aac0d98313ebb3659a",
+      "notes": []
+    },
+    "stem_307": {
+      "stem_id": 307,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 42,
+      "file": "stem_307_relations.csv",
+      "prompt_sha256": "2a884145a498222fe0f02000f83b60283f806d85a0244e8abbbfb244d3444a79",
+      "notes": []
+    },
+    "stem_308": {
+      "stem_id": 308,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 38,
+      "file": "stem_308_relations.csv",
+      "prompt_sha256": "c1a9fba5959ac87fac211f0e34bf637366291aa22c8c70df70e621b3dc901e92",
+      "notes": []
+    },
+    "stem_309": {
+      "stem_id": 309,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 57,
+      "file": "stem_309_relations.csv",
+      "prompt_sha256": "c8de857c42bbd26df15bb879518aeb704b284532342c22c0dad251e2c1f1e795",
+      "notes": []
+    },
+    "stem_310": {
+      "stem_id": 310,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 29,
+      "file": "stem_310_relations.csv",
+      "prompt_sha256": "38207d84eb21349c82b301a4af84cdbc93303af665f9167f3585051dace8bc74",
+      "notes": []
+    },
+    "stem_311": {
+      "stem_id": 311,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_311_relations.csv",
+      "prompt_sha256": "f957784b5e4b2af639400ca30d3e834b09bea58086ed4ca2730eaff442c51808",
+      "notes": []
+    },
+    "stem_312": {
+      "stem_id": 312,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 50,
+      "file": "stem_312_relations.csv",
+      "prompt_sha256": "c67345ea83a8eca2ff760c5b55f963d2bfe36c62b156dbc6a07b052636804646",
+      "notes": []
+    },
+    "stem_314": {
+      "stem_id": 314,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_314_relations.csv",
+      "prompt_sha256": "f8b4341463effd6461f5363bbff5200f07574e5bf6b0abfe06e18a3207a64efe",
+      "notes": []
+    },
+    "stem_317": {
+      "stem_id": 317,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_317_relations.csv",
+      "prompt_sha256": "c29a31946b03df7f096e030c6ac5446e52b0d29d18ed229e077918084527ae68",
+      "notes": []
+    },
+    "stem_320": {
+      "stem_id": 320,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_320_relations.csv",
+      "prompt_sha256": "4d225d919b4a1fa5e341a2004db41b5893bb8e2aad4dbc6405a60a29ab71b32f",
+      "notes": []
+    },
+    "stem_322": {
+      "stem_id": 322,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_322_relations.csv",
+      "prompt_sha256": "45e3cf32cb0b1da5074ccd909f1a3fae58b2ace35e4397ac4db895adf43cad43",
+      "notes": []
+    },
+    "stem_323": {
+      "stem_id": 323,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_323_relations.csv",
+      "prompt_sha256": "e57e8b8a2d124f4f388f04895d40044a02137c76fadf3574682bb5cdd73fcd4a",
+      "notes": []
+    },
+    "stem_324": {
+      "stem_id": 324,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 40,
+      "file": "stem_324_relations.csv",
+      "prompt_sha256": "a5f795a23751acebc60708f5f08da56505f887bbcd8fb5404ea60e18a64fcbde",
+      "notes": []
+    },
+    "stem_325": {
+      "stem_id": 325,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 51,
+      "file": "stem_325_relations.csv",
+      "prompt_sha256": "6c12d65d627202fb375ab5e5f58142bc80990609a882038f5194b22d513f5385",
+      "notes": []
+    },
+    "stem_326": {
+      "stem_id": 326,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 32,
+      "file": "stem_326_relations.csv",
+      "prompt_sha256": "06ebddfe5aa37ef322145e1ef318037c18cdba725ff221c0e240882eb5fef93d",
+      "notes": []
+    },
+    "stem_327": {
+      "stem_id": 327,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 38,
+      "file": "stem_327_relations.csv",
+      "prompt_sha256": "f85637571111af49786542c17a0734deb596936d47ee3f190e91128b05b16368",
+      "notes": []
+    },
+    "stem_328": {
+      "stem_id": 328,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 39,
+      "file": "stem_328_relations.csv",
+      "prompt_sha256": "2c802995c529c03437bd45f7b225d04037ffcc7763fdda38b28804ccf17e4591",
+      "notes": []
+    },
+    "stem_332": {
+      "stem_id": 332,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_332_relations.csv",
+      "prompt_sha256": "a84f2522867f4eba394047cde0780cca65c92f2830f8324d8a2fca57eaba7a75",
+      "notes": []
+    },
+    "stem_334": {
+      "stem_id": 334,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_334_relations.csv",
+      "prompt_sha256": "b2fefc8b438b0cee0858665bf3e69d3db71c2b7d2701c5995b5abd01e8428882",
+      "notes": []
+    },
+    "stem_335": {
+      "stem_id": 335,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_335_relations.csv",
+      "prompt_sha256": "203a3172c94c23ffcae2f5f9e449e648413bed5a4936284120ae20121b50dcbe",
+      "notes": []
+    },
+    "stem_337": {
+      "stem_id": 337,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_337_relations.csv",
+      "prompt_sha256": "5f82bfd0dbf10cd8b1aa41bb213e38d895563357cdc42b412b703031c0ea05cd",
+      "notes": []
+    },
+    "stem_338": {
+      "stem_id": 338,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_338_relations.csv",
+      "prompt_sha256": "0a41f46272b5ad4be0a16420f81a940c8a28689a6c4c5130eb921fe3349302e7",
+      "notes": []
+    },
+    "stem_339": {
+      "stem_id": 339,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 20,
+      "file": "stem_339_relations.csv",
+      "prompt_sha256": "df6f64b70f17721d446b2ee98c111843ef86aab140810b6d40bb2ba5b04c845e",
+      "notes": []
+    },
+    "stem_340": {
+      "stem_id": 340,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_340_relations.csv",
+      "prompt_sha256": "398c98c23d76c00dfd4cbe25f5f727300092859a89615ea5313a5297d1292320",
+      "notes": []
+    },
+    "stem_341": {
+      "stem_id": 341,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_341_relations.csv",
+      "prompt_sha256": "32bf0278e2c29b373b40c721b9142f914d1effc45037709545902717cf2f7091",
+      "notes": []
+    },
+    "stem_342": {
+      "stem_id": 342,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_342_relations.csv",
+      "prompt_sha256": "4b0a9de95bf4838d03b9842db463d3c2bd29c20ff18b3d1fd5864064c501b092",
+      "notes": []
+    },
+    "stem_343": {
+      "stem_id": 343,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 21,
+      "file": "stem_343_relations.csv",
+      "prompt_sha256": "21f3ad945a23e6ffa703d21c34a2765c9436a8b7ea9d6891a0ef20ffe01585bd",
+      "notes": []
+    },
+    "stem_344": {
+      "stem_id": 344,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_344_relations.csv",
+      "prompt_sha256": "e3f1fee91a31201a48c5cb6a33180eeb3da0649987c420dff9c0d3da93ce3af6",
+      "notes": []
+    },
+    "stem_345": {
+      "stem_id": 345,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_345_relations.csv",
+      "prompt_sha256": "20971d6eb86a938e50afdd87f132961ebd3d4854f8d848e7c0e49878720c90dc",
+      "notes": []
+    },
+    "stem_346": {
+      "stem_id": 346,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_346_relations.csv",
+      "prompt_sha256": "f9e9f7dbeebb696b77ce9873493f40703425ee8e83371a3217412b933b7da2f0",
+      "notes": []
+    },
+    "stem_347": {
+      "stem_id": 347,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_347_relations.csv",
+      "prompt_sha256": "5b148fa1c23b56e1dbf513332b2ab87f59ea1bf91384cb126df5e555619c5bf3",
+      "notes": []
+    },
+    "stem_348": {
+      "stem_id": 348,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 17,
+      "file": "stem_348_relations.csv",
+      "prompt_sha256": "b3d8ab84619e4f2dee70883b090c27633d15302e33c21c91fa97934e12c5935a",
+      "notes": []
+    },
+    "stem_349": {
+      "stem_id": 349,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_349_relations.csv",
+      "prompt_sha256": "5e69d7832aa3efb3868ddcf6aef2918a6d24e15134438d018a5e6ee4d2ef7e5a",
+      "notes": []
+    },
+    "stem_350": {
+      "stem_id": 350,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_350_relations.csv",
+      "prompt_sha256": "f55791baab8d5c3acb562636329b891dcaf1f7968de5f610ff37286a8d1e0931",
+      "notes": []
+    },
+    "stem_353": {
+      "stem_id": 353,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_353_relations.csv",
+      "prompt_sha256": "418fbb3528b7de194997ba1f33178892a0fdb663de2a98f192c937b56dc171db",
+      "notes": []
+    },
+    "stem_358": {
+      "stem_id": 358,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_358_relations.csv",
+      "prompt_sha256": "2bdb625982aac587d26bfde7c0c1c35cf92d3d22b37d2ae5b7bf543b5f392247",
+      "notes": []
+    },
+    "stem_361": {
+      "stem_id": 361,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_361_relations.csv",
+      "prompt_sha256": "75f5b38bc7cd90db9e5ab56cc9b536d24580f33aacb869218c699bc1ae022aac",
+      "notes": []
+    },
+    "stem_363": {
+      "stem_id": 363,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 18,
+      "file": "stem_363_relations.csv",
+      "prompt_sha256": "20b13573b4b16df22ebe7856b3ae044b2a49cae08bbdfd7afec5312a59fd92a1",
+      "notes": []
+    },
+    "stem_364": {
+      "stem_id": 364,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_364_relations.csv",
+      "prompt_sha256": "67fb3036c67c6ba1ed36207db00a974e96f06dc7b2884a9fa154d405e511c203",
+      "notes": []
+    },
+    "stem_367": {
+      "stem_id": 367,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_367_relations.csv",
+      "prompt_sha256": "c5439711b9c93b800c33ab03d99d3667a66b7b1e8dad22edd73d34464878c1ec",
+      "notes": []
+    },
+    "stem_370": {
+      "stem_id": 370,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_370_relations.csv",
+      "prompt_sha256": "a406ac6b4a28d8668f18c9f25efbd0025dda1c08c81d36e5f3cea2ddf7720209",
+      "notes": []
+    },
+    "stem_373": {
+      "stem_id": 373,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_373_relations.csv",
+      "prompt_sha256": "6d6262a6d4ca9daef72b5254e01066706156af744b664bda83c2f65b437cbc0c",
+      "notes": []
+    },
+    "stem_401": {
+      "stem_id": 401,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 38,
+      "file": "stem_401_relations.csv",
+      "prompt_sha256": "3cc0a8507d8506ee6394bc1ed1f01276f0204b0ebef8d2a97c10cd899381ec47",
+      "notes": []
+    },
+    "stem_402": {
+      "stem_id": 402,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 46,
+      "file": "stem_402_relations.csv",
+      "prompt_sha256": "b4579ff775561656b925e577b949e5731cc3825e4b440f6ea525dc2b2da7819b",
+      "notes": []
+    },
+    "stem_403": {
+      "stem_id": 403,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 52,
+      "file": "stem_403_relations.csv",
+      "prompt_sha256": "0407116c5e7f66f255e18e9d60141c65b4f540e83b6fa721e845ee41e2173dc6",
+      "notes": []
+    },
+    "stem_404": {
+      "stem_id": 404,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 34,
+      "file": "stem_404_relations.csv",
+      "prompt_sha256": "34a678e4f55ffb44a9428d03d71a4e25d0c46832847f3a4e127e7908e3af5c48",
+      "notes": []
+    },
+    "stem_405": {
+      "stem_id": 405,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 45,
+      "file": "stem_405_relations.csv",
+      "prompt_sha256": "e16bca707e3ad31abf6eb3395ee68c5cd75ea42f8b31110aaeb9fcd9985ce403",
+      "notes": []
+    },
+    "stem_406": {
+      "stem_id": 406,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 38,
+      "file": "stem_406_relations.csv",
+      "prompt_sha256": "88477238c2345747eb1343a3025b455be8b8899770caaca0673abe9414a63068",
+      "notes": []
+    },
+    "stem_409": {
+      "stem_id": 409,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 39,
+      "file": "stem_409_relations.csv",
+      "prompt_sha256": "1b7590d357bbe09e324869187c5865fd968b35f86651ae9d1e4f78d31f0f9616",
+      "notes": []
+    },
+    "stem_410": {
+      "stem_id": 410,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 45,
+      "file": "stem_410_relations.csv",
+      "prompt_sha256": "9b7736eda3851bcc903a6c477509c0aa39603fbf1ad943f06c11bd1c59117b9f",
+      "notes": []
+    },
+    "stem_411": {
+      "stem_id": 411,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 40,
+      "file": "stem_411_relations.csv",
+      "prompt_sha256": "bf21d19005735bf6079a8426c4b501daaa8ac2f6b05ac574f965110fe54e0f60",
+      "notes": []
+    },
+    "stem_412": {
+      "stem_id": 412,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 46,
+      "file": "stem_412_relations.csv",
+      "prompt_sha256": "478f4fedb3f82bb49211541212ba65de31c6c205b752e25ec6bf062a3eac8bdf",
+      "notes": []
+    },
+    "stem_413": {
+      "stem_id": 413,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 40,
+      "file": "stem_413_relations.csv",
+      "prompt_sha256": "ec580aa00786c33be72ac5c31dbc3b8f25458d6dd939f0f7af700d16e3f4e1e6",
+      "notes": []
+    },
+    "stem_414": {
+      "stem_id": 414,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 33,
+      "file": "stem_414_relations.csv",
+      "prompt_sha256": "3df5e73f3a7dd54c85caf79e6fb65ea32586359b8d016c6b0193bb224d82fcd6",
+      "notes": []
+    },
+    "stem_431": {
+      "stem_id": 431,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_431_relations.csv",
+      "prompt_sha256": "8c733608229a9e28b3169cc2124d215335cc95363245bde788003945be6b43e6",
+      "notes": []
+    },
+    "stem_432": {
+      "stem_id": 432,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_432_relations.csv",
+      "prompt_sha256": "b1e9d3ee89aadce8aca161fab826353b8ca874991367977b0a9924e1473481ff",
+      "notes": []
+    },
+    "stem_433": {
+      "stem_id": 433,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_433_relations.csv",
+      "prompt_sha256": "821bbe747f06a35e7261fa21534d6d066b76431df3089073580a4043bd809930",
+      "notes": []
+    },
+    "stem_434": {
+      "stem_id": 434,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_434_relations.csv",
+      "prompt_sha256": "17207defa831dc721da74859bdf2cd24b46bfdb503c939ac57264a0c19009ff1",
+      "notes": []
+    },
+    "stem_435": {
+      "stem_id": 435,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_435_relations.csv",
+      "prompt_sha256": "1a7e93367842067278c92a26058de62252625fe4362cade64b394b8a2b844261",
+      "notes": []
+    },
+    "stem_436": {
+      "stem_id": 436,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_436_relations.csv",
+      "prompt_sha256": "24abc90e49af02c62328f3a5dc2b80e6cdbf8771443e40ba5c0ecd7c5f410a04",
+      "notes": []
+    },
+    "stem_437": {
+      "stem_id": 437,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_437_relations.csv",
+      "prompt_sha256": "330a98832208468cd8adc02c9392b1475b57ed454dc1706009f3344d6378cf62",
+      "notes": []
+    },
+    "stem_438": {
+      "stem_id": 438,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_438_relations.csv",
+      "prompt_sha256": "da74e4780e836ff78e3ead9e0268f2267afb40f64fdad8dd0f7bd53951c23e37",
+      "notes": []
+    },
+    "stem_439": {
+      "stem_id": 439,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_439_relations.csv",
+      "prompt_sha256": "79e83efe0e1500a54d652a6c00b33f153acfdc364bebd830ea1dd338781a1ac6",
+      "notes": []
+    },
+    "stem_440": {
+      "stem_id": 440,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_440_relations.csv",
+      "prompt_sha256": "5a78cf68ffe79a5fb90cc2255c0eabc912960c49ec607ef7f96d4b943f83915f",
+      "notes": []
+    },
+    "stem_441": {
+      "stem_id": 441,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_441_relations.csv",
+      "prompt_sha256": "ae82becb91c938466b89e7c9fa1088fdae46d0d999896bd9e7ba7e59d7c6846c",
+      "notes": []
+    },
+    "stem_442": {
+      "stem_id": 442,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_442_relations.csv",
+      "prompt_sha256": "d9d04af25309a110870447a6776e2f9e8f4365ba98a106dc28051d22cfc923d8",
+      "notes": []
+    },
+    "stem_443": {
+      "stem_id": 443,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_443_relations.csv",
+      "prompt_sha256": "b78713dba753585713abe30b7132f99147371938777e80a5345db12fa63cc6bd",
+      "notes": []
+    },
+    "stem_444": {
+      "stem_id": 444,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_444_relations.csv",
+      "prompt_sha256": "103fb3d940889240785dc1f7b4cd92e46b6a4d72e509c1964ffa0b6306444acb",
+      "notes": []
+    },
+    "stem_445": {
+      "stem_id": 445,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_445_relations.csv",
+      "prompt_sha256": "6b7a7559e48f03fb178ddb9e61c64656e1a6ed5bfa1cf230416926cf6fa32dbc",
+      "notes": []
+    },
+    "stem_446": {
+      "stem_id": 446,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_446_relations.csv",
+      "prompt_sha256": "19e1389a5217c4b62d5b4432f005965403850cea866da7bfe188a4d4702d5a4b",
+      "notes": []
+    },
+    "stem_447": {
+      "stem_id": 447,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_447_relations.csv",
+      "prompt_sha256": "f2aca9de15679d0d61dcc372426f84aaf755681f5a07940e12f765766cf3ac2c",
+      "notes": []
+    },
+    "stem_448": {
+      "stem_id": 448,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_448_relations.csv",
+      "prompt_sha256": "d48b06aeca29424478e20851bc4324fdaa2e43a206a2a798e8af91d6be31d4f0",
+      "notes": []
+    },
+    "stem_449": {
+      "stem_id": 449,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_449_relations.csv",
+      "prompt_sha256": "e977979abff9adb8ff03ee156abd1791f1bf4320732c73e49896b27ce63d7eae",
+      "notes": []
+    },
+    "stem_450": {
+      "stem_id": 450,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_450_relations.csv",
+      "prompt_sha256": "a016b6b0d653462434134330d6d34b57513994ac94b36069e4f6b9274555b312",
+      "notes": []
+    },
+    "stem_451": {
+      "stem_id": 451,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 8,
+      "file": "stem_451_relations.csv",
+      "prompt_sha256": "c31860c9efb1f02bac225f29e581a44d9953a74c7d9b2253f44b29c3a8e21cfb",
+      "notes": []
+    },
+    "stem_452": {
+      "stem_id": 452,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_452_relations.csv",
+      "prompt_sha256": "198259c7102adf2aae73c70400b7608ee3e07de6e5eaf83dd424d111ca79b279",
+      "notes": []
+    },
+    "stem_453": {
+      "stem_id": 453,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_453_relations.csv",
+      "prompt_sha256": "b53b24b5319f41209f6b3a748ec212fa5e88e612ec1bd1626f0a7df9029c7225",
+      "notes": []
+    },
+    "stem_454": {
+      "stem_id": 454,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_454_relations.csv",
+      "prompt_sha256": "400f6a48f1f146c47a346cac1793c031909e524ef465f51c9d28aa31658c2943",
+      "notes": []
+    },
+    "stem_455": {
+      "stem_id": 455,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_455_relations.csv",
+      "prompt_sha256": "96634e4f6df107f91403f21af4bb8a6cec2c6bfb8901c64aa7179282ae8eda68",
+      "notes": []
+    },
+    "stem_456": {
+      "stem_id": 456,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_456_relations.csv",
+      "prompt_sha256": "be3cc7e8b36e82c8ce998e482b0e7597dd3cd3d90108613a8a4d85fa3cad61c7",
+      "notes": []
+    },
+    "stem_457": {
+      "stem_id": 457,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_457_relations.csv",
+      "prompt_sha256": "4aacb6e59f8ac3db67d0d496c160d90fc40f4eb3eb27ec7e85a42756a6a464bc",
+      "notes": []
+    },
+    "stem_458": {
+      "stem_id": 458,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_458_relations.csv",
+      "prompt_sha256": "61b9eba5f46066c317bd161f9287d7b3b0bea2f11d61aeb0455e2cbfaa8476bb",
+      "notes": []
+    },
+    "stem_459": {
+      "stem_id": 459,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_459_relations.csv",
+      "prompt_sha256": "b8d9473e608a77b720dab915e274aafb677cfed9e06cd2dc37a66527381dc8ee",
+      "notes": []
+    },
+    "stem_460": {
+      "stem_id": 460,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_460_relations.csv",
+      "prompt_sha256": "90be20fa6e4638c4ff41b01078fe8c0a5116b9011e2b2d5b871d8fbde19defa4",
+      "notes": []
+    },
+    "stem_461": {
+      "stem_id": 461,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_461_relations.csv",
+      "prompt_sha256": "058b23eb277bd1adb128a6b254130d15742bce7610c54f3ed625842223f56456",
+      "notes": []
+    },
+    "stem_462": {
+      "stem_id": 462,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_462_relations.csv",
+      "prompt_sha256": "e3b3ac6ab9e5d5092af15b944a8c83d362061452c5e45b0097469db3ac36c958",
+      "notes": []
+    },
+    "stem_463": {
+      "stem_id": 463,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_463_relations.csv",
+      "prompt_sha256": "60cc727ec9a0b115757a3c5d9ca3eefbfde07d8bd85e50e617887c751d40040c",
+      "notes": []
+    },
+    "stem_464": {
+      "stem_id": 464,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_464_relations.csv",
+      "prompt_sha256": "f25ddb3abf60e40c1eda3388a24730d07824aa033b1d85444bdccc6f04d2a2ce",
+      "notes": []
+    },
+    "stem_465": {
+      "stem_id": 465,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_465_relations.csv",
+      "prompt_sha256": "9dc61b2943e5c83c2b2076e472205f710dcfbb3c84100451a2cdb319f80b2a50",
+      "notes": []
+    },
+    "stem_466": {
+      "stem_id": 466,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_466_relations.csv",
+      "prompt_sha256": "8d26bf2b525e9c966915aec28f2b19a3acaba5c529532e1bad27e9171cbcb04a",
+      "notes": []
+    },
+    "stem_467": {
+      "stem_id": 467,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_467_relations.csv",
+      "prompt_sha256": "a14c3395299cd9ce712e58b3cb3dd4b209d3d50a3f874d66698474d5c6b4d6fa",
+      "notes": []
+    },
+    "stem_468": {
+      "stem_id": 468,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_468_relations.csv",
+      "prompt_sha256": "25008bfcf8d965bfd4ab880762533e684796c268b93c6687ce1f4b2f87369335",
+      "notes": []
+    },
+    "stem_469": {
+      "stem_id": 469,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_469_relations.csv",
+      "prompt_sha256": "f7ac3a8e53132899ff0c236200468b2c5946650e2362613ab8157b67f5f3b069",
+      "notes": []
+    },
+    "stem_470": {
+      "stem_id": 470,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_470_relations.csv",
+      "prompt_sha256": "3d843de262c988c9902edbb823025ed4e9c971191ebfd3a411342c93ae176b5e",
+      "notes": []
+    },
+    "stem_471": {
+      "stem_id": 471,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_471_relations.csv",
+      "prompt_sha256": "26330b266e7ad1e09c111ff87951c8fc00fbb3258ede1d028092de995e5704eb",
+      "notes": []
+    },
+    "stem_472": {
+      "stem_id": 472,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_472_relations.csv",
+      "prompt_sha256": "3a5c0ff88f5ffd27b6bef630723f1b4a0463f58315802acb31893e7f2b5bd705",
+      "notes": []
+    },
+    "stem_473": {
+      "stem_id": 473,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 10,
+      "file": "stem_473_relations.csv",
+      "prompt_sha256": "dd07b0a50709485acca29dd7700d6c365ec70ed8b35a7bd7bae40eded7e1d6e9",
+      "notes": []
+    },
+    "stem_474": {
+      "stem_id": 474,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_474_relations.csv",
+      "prompt_sha256": "2ca2a563504cbd3549225b26ee309cee378a163ae0b7d0592a182f9fcfd52c14",
+      "notes": []
+    },
+    "stem_475": {
+      "stem_id": 475,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_475_relations.csv",
+      "prompt_sha256": "e1970f915c08a0edb851cc596bbbd84f8aaa48a6687a477eba4ff6763a3415f2",
+      "notes": []
+    },
+    "stem_476": {
+      "stem_id": 476,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_476_relations.csv",
+      "prompt_sha256": "e109f49658ca17b9ab0e3dffe543d06b4d75f6b88cd0783a1afe0802d69e10be",
+      "notes": []
+    },
+    "stem_477": {
+      "stem_id": 477,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_477_relations.csv",
+      "prompt_sha256": "a1f1abc469ac8fdcef631b9184612add1eedad9703cc3c44fa9311a1e4b4d44c",
+      "notes": []
+    },
+    "stem_478": {
+      "stem_id": 478,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 11,
+      "file": "stem_478_relations.csv",
+      "prompt_sha256": "e4f58e4c7942ef4f8a48e84360be8b1e2bb9529f10a1e0d1ca2994d497ce6438",
+      "notes": []
+    },
+    "stem_479": {
+      "stem_id": 479,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 9,
+      "file": "stem_479_relations.csv",
+      "prompt_sha256": "bcc44e0b97b2f1991073e2eac234920da7a8d3a56ff6876b292a51d3423e2033",
+      "notes": []
+    },
+    "stem_480": {
+      "stem_id": 480,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 9,
+      "file": "stem_480_relations.csv",
+      "prompt_sha256": "fd6da74c20ed3a7801b2adf0e463236f9c0274b90571cfd8279dade547610381",
+      "notes": []
+    },
+    "stem_481": {
+      "stem_id": 481,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 12,
+      "file": "stem_481_relations.csv",
+      "prompt_sha256": "ca1cfc3415dc1d997ff6bcbbec42ffa0e69fb61a9a8324f8b31f011ff9470189",
+      "notes": []
+    },
+    "stem_482": {
+      "stem_id": 482,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_482_relations.csv",
+      "prompt_sha256": "7d053a2eface9f1525262bb2a4456f80267c1905f77d3f5dab70c128246ab5bc",
+      "notes": []
+    },
+    "stem_483": {
+      "stem_id": 483,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 16,
+      "file": "stem_483_relations.csv",
+      "prompt_sha256": "6f7755843c4fbb4e7ecd7ff3ad237a97096d0e2e17b1cc988d19c3099c6544c1",
+      "notes": []
+    },
+    "stem_484": {
+      "stem_id": 484,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 13,
+      "file": "stem_484_relations.csv",
+      "prompt_sha256": "cb749eadffb22c8b9cdabecb52261cb2bdba761abb000efa4d4c7208103f3950",
+      "notes": []
+    },
+    "stem_485": {
+      "stem_id": 485,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_485_relations.csv",
+      "prompt_sha256": "22a55808b4e615fd9b74175c4157ff9082c991ab7365e8e8849096b9e2a39f6a",
+      "notes": []
+    },
+    "stem_486": {
+      "stem_id": 486,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 15,
+      "file": "stem_486_relations.csv",
+      "prompt_sha256": "0647772f3c2d7a4ebb43d30b18e838484d224f9981c73805cb9f0fda7a13720a",
+      "notes": []
+    },
+    "stem_526": {
+      "stem_id": 526,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 14,
+      "file": "stem_526_relations.csv",
+      "prompt_sha256": "e8ad41cdfff5a73c22b555817b75349eb488bae601646f8bd96953d350c55ad6",
+      "notes": []
+    },
+    "stem_547": {
+      "stem_id": 547,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 37,
+      "file": "stem_547_relations.csv",
+      "prompt_sha256": "413e93d7ba95fd0d94033052790cd41deaa52bd1e1f093cbc9c6793de8475c38",
+      "notes": []
+    },
+    "stem_548": {
+      "stem_id": 548,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 59,
+      "file": "stem_548_relations.csv",
+      "prompt_sha256": "577953d39d9a39c2a0afc3f4838a2d13c9b9924c0e6fab29f4cf5ef25c147af1",
+      "notes": [
+        "duplicate event span texts (different IDs, same words)"
+      ]
+    },
+    "stem_549": {
+      "stem_id": 549,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 36,
+      "file": "stem_549_relations.csv",
+      "prompt_sha256": "19d85e87b1fec7dcb77c9690ce428a662bfe2dade70594953cb3a94195defe38",
+      "notes": []
+    },
+    "stem_550": {
+      "stem_id": 550,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 37,
+      "file": "stem_550_relations.csv",
+      "prompt_sha256": "dad3a507924e3ce12d4683c2cd6d4570b7b5b49306f125bd0d886c52d63b14df",
+      "notes": [
+        "duplicate event span texts (different IDs, same words)"
+      ]
+    },
+    "stem_551": {
+      "stem_id": 551,
+      "batch": null,
+      "is_primary": true,
+      "n_events": 33,
+      "file": "stem_551_relations.csv",
+      "prompt_sha256": "6e19bff76091fcc4b9b6a2b1acef338a7d2ca79bf31c96c3d2db17b031ddee3e",
+      "notes": []
+    },
+    "stem_50_batch_198": {
+      "stem_id": 50,
+      "batch": 198,
+      "is_primary": false,
+      "n_events": 9,
+      "file": "stem_50_batch_198_relations.csv",
+      "prompt_sha256": "d775a07e18f4c9287b7558114cfa0d534b60b6f6d4dfbde1d9625ccc9b3e08ea",
+      "notes": []
+    },
+    "stem_54_batch_263": {
+      "stem_id": 54,
+      "batch": 263,
+      "is_primary": false,
+      "n_events": 18,
+      "file": "stem_54_batch_263_relations.csv",
+      "prompt_sha256": "6a110b6bfb4e96cf8fd966dbda72ff6f8244745711c14e166a2fcfaec7c01441",
+      "notes": []
+    },
+    "stem_62_batch_229": {
+      "stem_id": 62,
+      "batch": 229,
+      "is_primary": false,
+      "n_events": 13,
+      "file": "stem_62_batch_229_relations.csv",
+      "prompt_sha256": "1479dfb87cf5dfc6a30b063e233b429b931752c2ec8656e5b054c1089fe5f91c",
+      "notes": []
+    },
+    "stem_63_batch_230": {
+      "stem_id": 63,
+      "batch": 230,
+      "is_primary": false,
+      "n_events": 14,
+      "file": "stem_63_batch_230_relations.csv",
+      "prompt_sha256": "97ff63fb86e487dc2b0ed546cdee1a158433bffbef524f4bb7cea2d52f2cb09d",
+      "notes": []
+    },
+    "stem_64_batch_241": {
+      "stem_id": 64,
+      "batch": 241,
+      "is_primary": false,
+      "n_events": 11,
+      "file": "stem_64_batch_241_relations.csv",
+      "prompt_sha256": "86c2f31398470b9a00135e23ee87152e41895a25dfbaed367edeb7696ee4b2bb",
+      "notes": []
+    },
+    "stem_70_batch_232": {
+      "stem_id": 70,
+      "batch": 232,
+      "is_primary": false,
+      "n_events": 18,
+      "file": "stem_70_batch_232_relations.csv",
+      "prompt_sha256": "e4d965a656b3da35f1f614aeb0375a7fb7ee0837d1f6822f1c13024c9d69acd1",
+      "notes": []
+    },
+    "stem_102_batch_270": {
+      "stem_id": 102,
+      "batch": 270,
+      "is_primary": false,
+      "n_events": 15,
+      "file": "stem_102_batch_270_relations.csv",
+      "prompt_sha256": "4bfec1b76f2fa09f38f94d796b9d4d62b0eb6b98ddd4639195f3438c3c08e7a8",
+      "notes": []
+    },
+    "stem_118_batch_271": {
+      "stem_id": 118,
+      "batch": 271,
+      "is_primary": false,
+      "n_events": 14,
+      "file": "stem_118_batch_271_relations.csv",
+      "prompt_sha256": "7d2029672bd633f9d6f17967737538431f3afc6f68c7b41de149bc7e8fe801cc",
+      "notes": []
+    }
+  }
+}
