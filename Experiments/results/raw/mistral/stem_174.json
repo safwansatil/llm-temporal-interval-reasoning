@@ -1,0 +1,78 @@
+{
+  "final": true,
+  "model_id": "mistral",
+  "model_key": "mistralai/mistral-nemo",
+  "item_id": "stem_174",
+  "stem_id": 174,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18"
+  ],
+  "prompt_sha256": "d8a4c973827bfb3eeb8a55467e8eb483ff7f2f19612d6b878d9b90cf34f9530a",
+  "prompt_file": "prompts/stem_174.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 16384,
+    "temperature": 0.0,
+    "seed": 20261006
+  },
+  "session": "20261007_004318",
+  "started_at": "2026-10-06T18:55:44Z",
+  "finished_at": "2026-10-06T18:55:54Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1275,
+      "completion_tokens": 349,
+      "total_tokens": 1624,
+      "cost": 3.648249e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 368,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 3.6851e-05,
+        "upstream_inference_prompt_cost": 2.6381e-05,
+        "upstream_inference_completions_cost": 1.047e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Io Net",
+    "generation_id": "gen-1791312945-d5axLhecoCk0qrCzfbVd",
+    "model_served": "mistralai/mistral-nemo",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < m mi o oi s si d di f fi =\nE2: > - m mi o oi s si d di f fi =\nE3: mi di - < m o oi s si d di f fi =\nE4: mi di - < m o oi s si d di f fi =\nE5: mi di - < m o oi s si d di f fi =\nE6: mi di - < m o oi s si d di f fi =\nE7: mi di - < m o oi s si d di f fi =\nE8: > mi di - < m o oi s si d di f fi =\nE9: > mi di - < m o oi s si d di f fi =\nE10: > mi di - < m o oi s si d di f fi =\nE11: > mi di - < m o oi s si d di f fi =\nE12: > mi di - < m o oi s si d di f fi =\nE13: > mi di - < m o oi s si d di f fi =\nE14: > mi di - < m o oi s si d di f fi =\nE15: > mi di - < m o oi s si d di f fi =\nE16: > mi di - < m o oi s si d di f fi =\nE17: > mi di - < m o oi s si d di f fi =\nE18: > mi di - < m o oi s si d di f fi =\n</matrix>",
+    "reasoning": "",
+    "reasoning_details": [],
+    "latency_s": 9.703
+  }
+}

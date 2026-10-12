@@ -1,0 +1,71 @@
+{
+  "final": true,
+  "model_id": "mistral",
+  "model_key": "mistralai/mistral-nemo",
+  "item_id": "stem_353",
+  "stem_id": 353,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11"
+  ],
+  "prompt_sha256": "418fbb3528b7de194997ba1f33178892a0fdb663de2a98f192c937b56dc171db",
+  "prompt_file": "prompts/stem_353.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 16384,
+    "temperature": 0.0,
+    "seed": 20261006
+  },
+  "session": "20261007_004318",
+  "started_at": "2026-10-06T18:56:07Z",
+  "finished_at": "2026-10-06T18:56:12Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 975,
+      "completion_tokens": 220,
+      "total_tokens": 1195,
+      "cost": 2.582019e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 368,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 2.6081e-05,
+        "upstream_inference_prompt_cost": 1.9481e-05,
+        "upstream_inference_completions_cost": 6.6e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Io Net",
+    "generation_id": "gen-1791312968-heiZiIpJOn3HeIRaVJ7C",
+    "model_served": "mistralai/mistral-nemo",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - o oi oi oi oi oi oi oi oi oi\nE2: - - o oi oi oi oi oi oi oi oi\nE3: - - - o oi oi oi oi oi oi oi oi\nE4: - - - - m oi oi oi oi oi oi oi\nE5: - - - - - s oi oi oi oi oi oi\nE6: - - - - - - d oi oi oi oi oi\nE7: - - - - - - - f oi oi oi\nE8: - - - - - - - - oi oi\nE9: - - - - - - - - - o\nE10: - - - - - - - - - -\nE11: - - - - - - - - - -\n</matrix>",
+    "reasoning": "",
+    "reasoning_details": [],
+    "latency_s": 5.484
+  }
+}

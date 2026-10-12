@@ -1,0 +1,73 @@
+{
+  "final": true,
+  "model_id": "mistral",
+  "model_key": "mistralai/mistral-nemo",
+  "item_id": "stem_215",
+  "stem_id": 215,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13"
+  ],
+  "prompt_sha256": "2845446266585a6f3565470fba79db2504ff63d5e7b8dcbf298f1bfbb83ac70c",
+  "prompt_file": "prompts/stem_215.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 16384,
+    "temperature": 0.0,
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:38:34Z",
+  "finished_at": "2026-10-06T18:38:42Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 994,
+      "completion_tokens": 280,
+      "total_tokens": 1274,
+      "cost": 2.803482e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 368,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 2.8318e-05,
+        "upstream_inference_prompt_cost": 1.9918e-05,
+        "upstream_inference_completions_cost": 8.4e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Io Net",
+    "generation_id": "gen-1791311916-jeLk2razJhkCviGwcXMM",
+    "model_served": "mistralai/mistral-nemo",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - o oi oi oi oi oi oi oi oi oi oi oi\nE2: < - m mi o oi oi oi oi oi oi oi oi\nE3: < - d di o oi oi oi oi oi oi oi\nE4: < < - s si o oi oi oi oi oi oi\nE5: < < < - o oi oi oi oi oi oi oi\nE6: < < < < - o oi oi oi oi oi oi\nE7: < < < < < - o oi oi oi oi oi\nE8: < < < < < < - o oi oi oi oi\nE9: < < < < < < < - o oi oi oi\nE10: < < < < < < < < - o oi oi\nE11: < < < < < < < < < - o oi\nE12: < < < < < < < < < < - o\nE13: < < < < < < < < < < < -\n</matrix>",
+    "reasoning": "",
+    "reasoning_details": [],
+    "latency_s": 8.0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "final": true,
+  "model_id": "mistral",
+  "model_key": "mistralai/mistral-nemo",
+  "item_id": "stem_445",
+  "stem_id": 445,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10"
+  ],
+  "prompt_sha256": "6b7a7559e48f03fb178ddb9e61c64656e1a6ed5bfa1cf230416926cf6fa32dbc",
+  "prompt_file": "prompts/stem_445.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 16384,
+    "temperature": 0.0,
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:26:30Z",
+  "finished_at": "2026-10-06T18:26:36Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 913,
+      "completion_tokens": 195,
+      "total_tokens": 1108,
+      "cost": 2.366595e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 368,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 2.3905e-05,
+        "upstream_inference_prompt_cost": 1.8055e-05,
+        "upstream_inference_completions_cost": 5.85e-06
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Io Net",
+    "generation_id": "gen-1791311191-4Erb7RbglnRimPUUkmwM",
+    "model_served": "mistralai/mistral-nemo",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - m mi o oi s si d di f fi =\nE2: > - o oi s si d di f fi =\nE3: > > - o oi s si d di f fi =\nE4: > > > - o oi s si d di f fi =\nE5: > > > > - o oi s si d di f fi =\nE6: > > > > > - o oi s si d di f fi =\nE7: > > > > > > - o oi s si d di f fi =\nE8: > > > > > > > - o oi s si d di f fi =\nE9: > > > > > > > > - o oi s si d di f fi =\nE10: > > > > > > > > > - o oi s si d di f fi =\n</matrix>",
+    "reasoning": "",
+    "reasoning_details": [],
+    "latency_s": 6.078
+  }
+}

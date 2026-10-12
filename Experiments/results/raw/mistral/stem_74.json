@@ -1,0 +1,78 @@
+{
+  "final": true,
+  "model_id": "mistral",
+  "model_key": "mistralai/mistral-nemo",
+  "item_id": "stem_74",
+  "stem_id": 74,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18"
+  ],
+  "prompt_sha256": "c8031bb4187b93fa152c3f7daf14696faeb981fb953fe50dca19ec7f99633263",
+  "prompt_file": "prompts/stem_74.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 16384,
+    "temperature": 0.0,
+    "seed": 20261006
+  },
+  "session": "20261007_004318",
+  "started_at": "2026-10-06T18:53:13Z",
+  "finished_at": "2026-10-06T18:53:22Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 1345,
+      "completion_tokens": 396,
+      "total_tokens": 1741,
+      "cost": 3.947229e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 368,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 3.9871e-05,
+        "upstream_inference_prompt_cost": 2.7991e-05,
+        "upstream_inference_completions_cost": 1.188e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "Io Net",
+    "generation_id": "gen-1791312794-8Sob2wwPuIX7VwD6HweO",
+    "model_served": "mistralai/mistral-nemo",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - m m - - - - - - - - - - - - - - -\nE2: < - - m - - - - - - - - - - - - - -\nE3: < - - - m - - - - - - - - - - - - -\nE4: < - - - - m - - - - - - - - - - - -\nE5: < - - - - - m - - - - - - - - - - -\nE6: < - - - - - - m - - - - - - - - - -\nE7: < - - - - - - - m - - - - - - - - -\nE8: < - - - - - - - - m - - - - - - - -\nE9: < - - - - - - - - - m - - - - - -\nE10: < - - - - - - - - - - - m - - - -\nE11: < - - - - - - - - - - - - m - - -\nE12: < - - - - - - - - - - - - - m - -\nE13: < - - - - - - - - - - - - - - m -\nE14: < - - - - - - - - - - - - - - - m\nE15: < - - - - - - - - - - - - - - - - m\nE16: < - - - - - - - - - - - - - - - - m\nE17: < - - - - - - - - - - - - - - - - - m\nE18: < - - - - - - - - - - - - - - - - - - m\n</matrix>",
+    "reasoning": "",
+    "reasoning_details": [],
+    "latency_s": 9.437
+  }
+}
