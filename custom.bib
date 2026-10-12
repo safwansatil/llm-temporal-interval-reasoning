@@ -1,0 +1,1277 @@
+@inproceedings{islakoglu-kalo-2025-chronosense,
+    title = "{C}hrono{S}ense: Exploring Temporal Understanding in Large Language Models with Time Intervals of Events",
+    author = "Islakoglu, Duygu Sezen  and
+      Kalo, Jan-Christoph",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-short.46/",
+    doi = "10.18653/v1/2025.acl-short.46",
+    pages = "590--602",
+    ISBN = "979-8-89176-252-7",
+    abstract = "Large Language Models (LLMs) still face significant challenges in reasoning and arithmetic. Although temporal reasoning has raised increasing research attention, comprehensive testing of Allen{'}s interval relations (e.g., before, after, during) {---}a fundamental framework for temporal relationships{---} remains underexplored. To fill this gap, we present ChronoSense, a new benchmark for evaluating LLMs' temporal understanding. It includes 16 tasks, identifying the Allen relation between two temporal events and temporal arithmetic. We assess the performance of seven recent LLMs. The results indicate that models handle Allen relations, even symmetrical ones, quite differently. Moreover, the findings suggest that the models may rely on memorization to answer time-related questions. Overall, the models' low performance highlights the need for improved temporal understanding in LLMs. Our dataset and the source code are available at \url{https://github.com/duyguislakoglu/chronosense}."
+}
+
+@inproceedings{qian-etal-2026-beyond,
+    title = "Beyond Timestamps: Bridging Forward and Backward Reasoning in Temporal Numerical and Relational Understanding",
+    author = "Qian, Xinying  and
+      Zhang, Ying  and
+      Sui, Xuhui  and
+      Zhao, Yu  and
+      Zhou, Baohang  and
+      Pan, Jeff Z.",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.331/",
+    doi = "10.18653/v1/2026.acl-long.331",
+    pages = "7301--7321",
+    ISBN = "979-8-89176-390-6",
+    abstract = "Temporal reasoning remains a critical challenge for large language models (LLMs), particularly when it requires encompassing relational dependencies and numerical constraints. Yet, existing benchmarks largely overlook the joint consideration of these two dimensions and primarily rely on single-task evaluation paradigms, making it difficult to assess whether correct answers reflect grounded reasoning or arise from superficial statistical recall. To address these gaps, we introduce TNR, a benchmark designed to evaluate both Temporal Numerical and Relational reasoning. We propose a bi-directional evaluation framework consisting of forward generation via Question Answering (QA) and backward verification via Fact Verification (FV). By measuring the alignment between QA and FV, we introduce a Consistency Rate to quantify the robustness of reasoning across these two directions. Experiments on a range of LLMs reveal notable discrepancies between QA and FV performance, particularly in numerical and interval-based tasks. Moreover, our bi-directional error analysis demonstrates that these inconsistencies often stem from heuristic shortcuts and statistical co-occurrences rather than grounded logical deduction, flaws that are frequently masked in standard single-task evaluations."
+}
+
+@inproceedings{kim-hwang-2025-counterfactual,
+    title = "Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models",
+    author = "Kim, Jongho  and
+      Hwang, Seung-won",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-short.97/",
+    doi = "10.18653/v1/2025.acl-short.97",
+    pages = "1210--1225",
+    ISBN = "979-8-89176-252-7",
+    abstract = "Despite the advanced capabilities of large language models (LLMs), their temporal reasoning ability remains underdeveloped. Prior works have highlighted this limitation, particularly in maintaining temporal consistency when understanding event relations. For example, models often confuse mutually exclusive temporal relations like ``before'' and ``after'' between events and make inconsistent predictions. In this work, we tackle the issue of temporal inconsistency in LLMs by proposing a novel counterfactual prompting approach. Our method generates counterfactual questions and enforces collective constraints, enhancing the model{'}s consistency. We evaluate our method on multiple datasets, demonstrating significant improvements in event ordering for explicit and implicit events and temporal commonsense understanding, by effectively addressing temporal inconsistencies."
+}
+
+@inproceedings{sun-etal-2025-time,
+    title = "Time Tells: Temporal Event Ordering in Frontier {LLM}s {---} Performance, Limitations, and Human Comparison",
+    author = "Sun, Feifei  and
+      Tong, Ziyi  and
+      Racharak, Teeradaj  and
+      Nguyen, Minh Le",
+    editor = "Huang, Chu-Ren  and
+      Harada, Yasunari  and
+      Kim, Jong-Bok  and
+      Huyen, Nguyen T.M.  and
+      Huong, Le Thanh  and
+      Hien, Pham  and
+      Chersoni, Emmanuele  and
+      Nguyen, Le Minh  and
+      Roxas, Rachel Edita O{\~n}ate  and
+      Dita, Sherly",
+    booktitle = "Proceedings of the 39th Pacific {A}sia Conference on Language, Information and Computation",
+    month = dec,
+    year = "2025",
+    address = "Hanoi, Vietnam",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.paclic-1.50/",
+    pages = "544--555"
+}
+
+@misc{zhou2026temporalreasoningbenchmarkingframework,
+      title={A Temporal Reasoning Benchmarking Framework for LRMs via Difficulty-controlled and Dynamic Test Generation}, 
+      author={Shide Zhou and Kailong Wang and Ling Shi and Haoyu Wang},
+      year={2026},
+      eprint={2607.04784},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2607.04784}, 
+}
+
+@article{allen1983maintaining,
+  title={Maintaining knowledge about temporal intervals},
+  author={Allen, James F},
+  journal={Communications of the ACM},
+  volume={26},
+  number={11},
+  pages={832--843},
+  year={1983},
+  publisher={ACM New York, NY, USA}
+}
+
+@incollection{vilain1990constraint,
+  title={Constraint propagation algorithms for temporal reasoning: A revised report},
+  author={Vilain, Marc and Kautz, Henry and Van Beek, Peter},
+  booktitle={Readings in qualitative reasoning about physical systems},
+  pages={373--381},
+  year={1990},
+  publisher={Elsevier}
+}
+
+@article{nebel1995reasoning,
+  title={Reasoning about temporal relations: A maximal tractable subclass of Allen's interval algebra},
+  author={Nebel, Bernhard and B{\"u}rckert, Hans-J{\"u}rgen},
+  journal={Journal of the ACM (JACM)},
+  volume={42},
+  number={1},
+  pages={43--66},
+  year={1995},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{drakengren1997eight,
+  title={Eight maximal tractable subclasses of Allen's algebra with metric time},
+  author={Drakengren, Thomas and Jonsson, Peter},
+  journal={Journal of Artificial Intelligence Research},
+  volume={7},
+  pages={25--45},
+  year={1997}
+}
+
+@article{schockaert2008fuzzifying,
+  title={Fuzzifying Allen's temporal interval relations},
+  author={Schockaert, Steven and De Cock, Martine and Kerre, Etienne E},
+  journal={IEEE Transactions on Fuzzy Systems},
+  volume={16},
+  number={2},
+  pages={517--533},
+  year={2008},
+  publisher={IEEE}
+}
+
+@article{leeuwenberg2019survey,
+  title={A survey on temporal reasoning for temporal information extraction from text},
+  author={Leeuwenberg, Artuur and Moens, Marie-Francine},
+  journal={Journal of Artificial Intelligence Research},
+  volume={66},
+  pages={341--380},
+  year={2019}
+}
+
+@article{pustejovsky2003timeml,
+  title={TimeML: Robust specification of event and temporal expressions in text.},
+  author={Pustejovsky, James and Castano, Jos{\'e} M and Ingria, Robert and Sauri, Roser and Gaizauskas, Robert J and Setzer, Andrea and Katz, Graham and Radev, Dragomir R},
+  journal={New directions in question answering},
+  volume={3},
+  pages={28--34},
+  year={2003},
+  publisher={Stanford, USA}
+}
+
+@article{uzzaman2012tempeval,
+  title={Tempeval-3: Evaluating events, time expressions, and temporal relations},
+  author={UzZaman, Naushad and Llorens, Hector and Allen, James and Derczynski, Leon and Verhagen, Marc and Pustejovsky, James},
+  journal={arXiv preprint arXiv:1206.5333},
+  year={2012}
+}
+
+@inproceedings{uzzaman-allen-2011-temporal,
+    title = "Temporal Evaluation",
+    author = "UzZaman, Naushad  and
+      Allen, James",
+    editor = "Lin, Dekang  and
+      Matsumoto, Yuji  and
+      Mihalcea, Rada",
+    booktitle = "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2011",
+    address = "Portland, Oregon, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P11-2061/",
+    pages = "351--356"
+}
+
+@inproceedings{cassidy-etal-2014-annotation,
+    title = "An Annotation Framework for Dense Event Ordering",
+    author = "Cassidy, Taylor  and
+      McDowell, Bill  and
+      Chambers, Nathanael  and
+      Bethard, Steven",
+    editor = "Toutanova, Kristina  and
+      Wu, Hua",
+    booktitle = "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jun,
+    year = "2014",
+    address = "Baltimore, Maryland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P14-2082/",
+    doi = "10.3115/v1/P14-2082",
+    pages = "501--506"
+}
+
+@article{chambers-etal-2014-dense,
+    title = "Dense Event Ordering with a Multi-Pass Architecture",
+    author = "Chambers, Nathanael  and
+      Cassidy, Taylor  and
+      McDowell, Bill  and
+      Bethard, Steven",
+    editor = "Lin, Dekang  and
+      Collins, Michael  and
+      Lee, Lillian",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "2",
+    year = "2014",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/Q14-1022/",
+    doi = "10.1162/tacl_a_00182",
+    pages = "273--284",
+    abstract = "The past 10 years of event ordering research has focused on learning partial orderings over document events and time expressions. The most popular corpus, the TimeBank, contains a small subset of the possible ordering graph. Many evaluations follow suit by only testing certain pairs of events (e.g., only main verbs of neighboring sentences). This has led most research to focus on specific learners for partial labelings. This paper attempts to nudge the discussion from identifying some relations to all relations. We present new experiments on strongly connected event graphs that contain {\ensuremath{\sim}}10 times more relations per document than the TimeBank. We also describe a shift away from the single learner to a sieve-based architecture that naturally blends multiple learners into a precision-ranked cascade of sieves. Each sieve adds labels to the event graph one at a time, and earlier sieves inform later ones through transitive closure. This paper thus describes innovations in both approach and task. We experiment on the densest event graphs to date and show a 14{\%} gain over state-of-the-art."
+}
+
+@inproceedings{ning2018multi,
+  title={A multi-axis annotation scheme for event temporal relations},
+  author={Ning, Qiang and Wu, Hao and Roth, Dan},
+  booktitle={Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={1318--1328},
+  year={2018}
+}
+
+@inproceedings{reimers-etal-2016-temporal,
+    title = "Temporal Anchoring of Events for the {T}ime{B}ank Corpus",
+    author = "Reimers, Nils  and
+      Dehghani, Nazanin  and
+      Gurevych, Iryna",
+    editor = "Erk, Katrin  and
+      Smith, Noah A.",
+    booktitle = "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P16-1207/",
+    doi = "10.18653/v1/P16-1207",
+    pages = "2195--2204"
+}
+
+@inproceedings{vashishtha-etal-2019-fine,
+    title = "Fine-Grained Temporal Relation Extraction",
+    author = "Vashishtha, Siddharth  and
+      Van Durme, Benjamin  and
+      White, Aaron Steven",
+    editor = "Korhonen, Anna  and
+      Traum, David  and
+      M{\`a}rquez, Llu{\'i}s",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1280/",
+    doi = "10.18653/v1/P19-1280",
+    pages = "2906--2919",
+    abstract = "We present a novel semantic framework for modeling temporal relations and event durations that maps pairs of events to real-valued scales. We use this framework to construct the largest temporal relations dataset to date, covering the entirety of the Universal Dependencies English Web Treebank. We use this dataset to train models for jointly predicting fine-grained temporal relations and event durations. We report strong results on our data and show the efficacy of a transfer-learning approach for predicting categorical relations."
+}
+
+@inproceedings{alsayyahi-batista-navarro-2023-timeline,
+    title = "{TIMELINE}: Exhaustive Annotation of Temporal Relations Supporting the Automatic Ordering of Events in News Articles",
+    author = "Alsayyahi, Sarah  and
+      Batista-Navarro, Riza",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.1016/",
+    doi = "10.18653/v1/2023.emnlp-main.1016",
+    pages = "16336--16348",
+    abstract = "Temporal relation extraction models have thus far been hindered by a number of issues in existing temporal relation-annotated news datasets, including: (1) low inter-annotator agreement due to the lack of specificity of their annotation guidelines in terms of what counts as a temporal relation; (2) the exclusion of long-distance relations within a given document (those spanning across different paragraphs); and (3) the exclusion of events that are not centred on verbs. This paper aims to alleviate these issues by presenting a new annotation scheme that clearly defines the criteria based on which temporal relations should be annotated. Additionally, the scheme includes events even if they are not expressed as verbs (e.g., nominalised events). Furthermore, we propose a method for annotating all temporal relations{---}including long-distance ones{---}which automates the process, hence reducing time and manual effort on the part of annotators. The result is a new dataset, the TIMELINE corpus, in which improved inter-annotator agreement was obtained, in comparison with previously reported temporal relation datasets. We report the results of training and evaluating two baseline temporal relation extraction models on the new corpus, and compare them with results obtained on the widely used MATRES corpus."
+}
+
+@inproceedings{caselli-vossen-2017-event,
+    title = "The Event {S}tory{L}ine Corpus: A New Benchmark for Causal and Temporal Relation Extraction",
+    author = "Caselli, Tommaso  and
+      Vossen, Piek",
+    editor = "Caselli, Tommaso  and
+      Miller, Ben  and
+      van Erp, Marieke  and
+      Vossen, Piek  and
+      Palmer, Martha  and
+      Hovy, Eduard  and
+      Mitamura, Teruko  and
+      Caswell, David",
+    booktitle = "Proceedings of the Events and Stories in the News Workshop",
+    month = aug,
+    year = "2017",
+    address = "Vancouver, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W17-2711/",
+    doi = "10.18653/v1/W17-2711",
+    pages = "77--86",
+    abstract = "This paper reports on the Event StoryLine Corpus (ESC) v1.0, a new benchmark dataset for the temporal and causal relation detection. By developing this dataset, we also introduce a new task, the StoryLine Extraction from news data, which aims at extracting and classifying events relevant for stories, from across news documents spread in time and clustered around a single seminal event or topic. In addition to describing the dataset, we also report on three baselines systems whose results show the complexity of the task and suggest directions for the development of more robust systems."
+}
+
+@inproceedings{mostafazadeh-etal-2016-caters,
+    title = "{C}a{T}e{RS}: Causal and Temporal Relation Scheme for Semantic Annotation of Event Structures",
+    author = "Mostafazadeh, Nasrin  and
+      Grealish, Alyson  and
+      Chambers, Nathanael  and
+      Allen, James  and
+      Vanderwende, Lucy",
+    editor = "Palmer, Martha  and
+      Hovy, Ed  and
+      Mitamura, Teruko  and
+      O{'}Gorman, Tim",
+    booktitle = "Proceedings of the Fourth Workshop on Events",
+    month = jun,
+    year = "2016",
+    address = "San Diego, California",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W16-1007/",
+    doi = "10.18653/v1/W16-1007",
+    pages = "51--61"
+}
+
+@inproceedings{gotsoulia-2011-abstract,
+    title = "An Abstract Schema for Representing Semantic Roles and Modelling the Syntax-Semantics Interface",
+    author = "Gotsoulia, Voula",
+    editor = "Bos, Johan  and
+      Pulman, Stephen",
+    booktitle = "Proceedings of the Ninth International Conference on Computational Semantics ({IWCS} 2011)",
+    year = "2011",
+    url = "https://aclanthology.org/W11-0113/"
+}
+
+@inproceedings{kehler-1994-temporal,
+    title = "Temporal Relations: Reference or Discourse Coherence?",
+    author = "Kehler, Andrew",
+    booktitle = "32nd Annual Meeting of the Association for Computational Linguistics",
+    month = jun,
+    year = "1994",
+    address = "Las Cruces, New Mexico, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P94-1046/",
+    doi = "10.3115/981732.981779",
+    pages = "319--321"
+}
+
+@inproceedings{mani-pustejovsky-2004-temporal,
+    title = "Temporal Discourse Models for Narrative Structure",
+    author = "Mani, Inderjeet  and
+      Pustejovsky, James",
+    booktitle = "Proceedings of the Workshop on Discourse Annotation",
+    month = jul,
+    year = "2004",
+    address = "Barcelona, Spain",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W04-0208/",
+    pages = "57--64"
+}
+
+@inproceedings{mani-etal-2006-machine,
+    title = "Machine Learning of Temporal Relations",
+    author = "Mani, Inderjeet  and
+      Verhagen, Marc  and
+      Wellner, Ben  and
+      Lee, Chong Min  and
+      Pustejovsky, James",
+    editor = "Calzolari, Nicoletta  and
+      Cardie, Claire  and
+      Isabelle, Pierre",
+    booktitle = "Proceedings of the 21st International Conference on Computational Linguistics and 44th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2006",
+    address = "Sydney, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P06-1095/",
+    doi = "10.3115/1220175.1220270",
+    pages = "753--760"
+}
+
+@misc{derczynski2012corpusbasedstudytemporalsignals,
+      title={A Corpus-based Study of Temporal Signals}, 
+      author={Leon Derczynski and Robert Gaizauskas},
+      year={2012},
+      eprint={1203.5066},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/1203.5066}, 
+}
+
+@inproceedings{mostafazadeh-etal-2016-corpus,
+    title = "A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories",
+    author = "Mostafazadeh, Nasrin  and
+      Chambers, Nathanael  and
+      He, Xiaodong  and
+      Parikh, Devi  and
+      Batra, Dhruv  and
+      Vanderwende, Lucy  and
+      Kohli, Pushmeet  and
+      Allen, James",
+    editor = "Knight, Kevin  and
+      Nenkova, Ani  and
+      Rambow, Owen",
+    booktitle = "Proceedings of the 2016 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2016",
+    address = "San Diego, California",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N16-1098/",
+    doi = "10.18653/v1/N16-1098",
+    pages = "839--849"
+}
+
+@inproceedings{yao-huang-2018-temporal,
+    title = "Temporal Event Knowledge Acquisition via Identifying Narratives",
+    author = "Yao, Wenlin  and
+      Huang, Ruihong",
+    editor = "Gurevych, Iryna  and
+      Miyao, Yusuke",
+    booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P18-1050/",
+    doi = "10.18653/v1/P18-1050",
+    pages = "537--547",
+    abstract = "Inspired by the double temporality characteristic of narrative texts, we propose a novel approach for acquiring rich temporal ``before/after'' event knowledge across sentences in narrative stories. The double temporality states that a narrative story often describes a sequence of events following the chronological order and therefore, the temporal order of events matches with their textual order. We explored narratology principles and built a weakly supervised approach that identifies 287k narrative paragraphs from three large corpora. We then extracted rich temporal event knowledge from these narrative paragraphs. Such event knowledge is shown useful to improve temporal relation classification and outperforms several recent neural network models on the narrative cloze task."
+}
+
+@inproceedings{zhou-etal-2019-going,
+    title = "``Going on a vacation'' takes longer than ``Going for a walk'': A Study of Temporal Commonsense Understanding",
+    author = "Zhou, Ben  and
+      Khashabi, Daniel  and
+      Ning, Qiang  and
+      Roth, Dan",
+    editor = "Inui, Kentaro  and
+      Jiang, Jing  and
+      Ng, Vincent  and
+      Wan, Xiaojun",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1332/",
+    doi = "10.18653/v1/D19-1332",
+    pages = "3363--3369",
+    abstract = "Understanding time is crucial for understanding events expressed in natural language. Because people rarely say the obvious, it is often necessary to have commonsense knowledge about various temporal aspects of events, such as duration, frequency, and temporal order. However, this important problem has so far received limited attention. This paper systematically studies this temporal commonsense problem. Specifically, we define five classes of temporal commonsense, and use crowdsourcing to develop a new dataset, MCTACO, that serves as a test set for this task. We find that the best current methods used on MCTACO are still far behind human performance, by about 20{\%}, and discuss several directions for improvement. We hope that the new dataset and our study here can foster more future research on this topic."
+}
+
+@inproceedings{zhou-etal-2020-temporal,
+    title = "Temporal Common Sense Acquisition with Minimal Supervision",
+    author = "Zhou, Ben  and
+      Ning, Qiang  and
+      Khashabi, Daniel  and
+      Roth, Dan",
+    editor = "Jurafsky, Dan  and
+      Chai, Joyce  and
+      Schluter, Natalie  and
+      Tetreault, Joel",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.678/",
+    doi = "10.18653/v1/2020.acl-main.678",
+    pages = "7579--7589",
+    abstract = "Temporal common sense (e.g., duration and frequency of events) is crucial for understanding natural language. However, its acquisition is challenging, partly because such information is often not expressed explicitly in text, and human annotation on such concepts is costly. This work proposes a novel sequence modeling approach that exploits explicit and implicit mentions of temporal common sense, extracted from a large corpus, to build TacoLM, a temporal common sense language model. Our method is shown to give quality predictions of various dimensions of temporal common sense (on UDST and a newly collected dataset from RealNews). It also produces representations of events for relevant tasks such as duration comparison, parent-child relations, event coreference and temporal QA (on TimeBank, HiEVE and MCTACO) that are better than using the standard BERT. Thus, it will be an important component of temporal NLP."
+}
+
+@inproceedings{ning-etal-2020-torque,
+    title = "{TORQUE}: A Reading Comprehension Dataset of Temporal Ordering Questions",
+    author = "Ning, Qiang  and
+      Wu, Hao  and
+      Han, Rujun  and
+      Peng, Nanyun  and
+      Gardner, Matt  and
+      Roth, Dan",
+    editor = "Webber, Bonnie  and
+      Cohn, Trevor  and
+      He, Yulan  and
+      Liu, Yang",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.88/",
+    doi = "10.18653/v1/2020.emnlp-main.88",
+    pages = "1158--1172",
+    abstract = "A critical part of reading is being able to understand the temporal relationships between events described in a passage of text, even when those relationships are not explicitly stated. However, current machine reading comprehension benchmarks have practically no questions that test temporal phenomena, so systems trained on these benchmarks have no capacity to answer questions such as ``what happened before/after [some event]?'' We introduce TORQUE, a new English reading comprehension benchmark built on 3.2k news snippets with 21k human-generated questions querying temporal relationships. Results show that RoBERTa-large achieves an exact-match score of 51{\%} on the test set of TORQUE, about 30{\%} behind human performance."
+}
+
+@inproceedings{zhou-etal-2021-temporal,
+    title = "Temporal Reasoning on Implicit Events from Distant Supervision",
+    author = "Zhou, Ben  and
+      Richardson, Kyle  and
+      Ning, Qiang  and
+      Khot, Tushar  and
+      Sabharwal, Ashish  and
+      Roth, Dan",
+    editor = "Toutanova, Kristina  and
+      Rumshisky, Anna  and
+      Zettlemoyer, Luke  and
+      Hakkani-Tur, Dilek  and
+      Beltagy, Iz  and
+      Bethard, Steven  and
+      Cotterell, Ryan  and
+      Chakraborty, Tanmoy  and
+      Zhou, Yichao",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.naacl-main.107/",
+    doi = "10.18653/v1/2021.naacl-main.107",
+    pages = "1361--1371",
+    abstract = "We propose TRACIE, a novel temporal reasoning dataset that evaluates the degree to which systems understand implicit events{---}events that are not mentioned explicitly in natural language text but can be inferred from it. This introduces a new challenge in temporal reasoning research, where prior work has focused on explicitly mentioned events. Human readers can infer implicit events via commonsense reasoning, resulting in a more comprehensive understanding of the situation and, consequently, better reasoning about time. We find, however, that state-of-the-art models struggle when predicting temporal relationships between implicit and explicit events. To address this, we propose a neuro-symbolic temporal reasoning model, SymTime, which exploits distant supervision signals from large-scale text and uses temporal rules to combine start times and durations to infer end times. SymTime outperforms strong baseline systems on TRACIE by 5{\%}, and by 11{\%} in a zero prior knowledge training setting. Our approach also generalizes to other temporal reasoning tasks, as evidenced by a gain of 1{\%}-9{\%} on MATRES, an explicit event benchmark."
+}
+
+@inproceedings{qin-etal-2021-timedial,
+    title = "{TIMEDIAL}: Temporal Commonsense Reasoning in Dialog",
+    author = "Qin, Lianhui  and
+      Gupta, Aditya  and
+      Upadhyay, Shyam  and
+      He, Luheng  and
+      Choi, Yejin  and
+      Faruqui, Manaal",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.549/",
+    doi = "10.18653/v1/2021.acl-long.549",
+    pages = "7066--7076",
+    abstract = "Everyday conversations require understanding everyday events, which in turn, requires understanding temporal commonsense concepts interwoven with those events. Despite recent progress with massive pre-trained language models (LMs) such as T5 and GPT-3, their capability of temporal reasoning in dialogs remains largely under-explored. In this paper, we present the first study to investigate pre-trained LMs for their temporal reasoning capabilities in dialogs by introducing a new task and a crowd-sourced English challenge set, TimeDial. We formulate TimeDial as a multiple choice cloze task with over 1.1K carefully curated dialogs. Empirical results demonstrate that even the best performing models struggle on this task compared to humans, with 23 absolute points of gap in accuracy. Furthermore, our analysis reveals that the models fail to reason about dialog context correctly; instead, they rely on shallow cues based on existing temporal patterns in context, motivating future research for modeling temporal concepts in text and robust contextual reasoning about them. The dataset is publicly available at \url{https://github.com/google-research-datasets/timedial}."
+}
+
+@inproceedings{lin-etal-2021-conditional,
+    title = "Conditional Generation of Temporally-ordered Event Sequences",
+    author = "Lin, Shih-Ting  and
+      Chambers, Nathanael  and
+      Durrett, Greg",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.555/",
+    doi = "10.18653/v1/2021.acl-long.555",
+    pages = "7142--7157"
+}
+
+@inproceedings{sakaguchi-etal-2021-proscript-partially,
+    title = "pro{S}cript: Partially Ordered Scripts Generation",
+    author = "Sakaguchi, Keisuke  and
+      Bhagavatula, Chandra  and
+      Le Bras, Ronan  and
+      Tandon, Niket  and
+      Clark, Peter  and
+      Choi, Yejin",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.184/",
+    doi = "10.18653/v1/2021.findings-emnlp.184",
+    pages = "2138--2149"
+}
+
+@inproceedings{wen-ji-2021-utilizing,
+    title = "Utilizing Relative Event Time to Enhance Event-Event Temporal Relation Extraction",
+    author = "Wen, Haoyang  and
+      Ji, Heng",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.815/",
+    doi = "10.18653/v1/2021.emnlp-main.815",
+    pages = "10431--10437"
+}
+
+@inproceedings{wang-etal-2017-integrating,
+    title = "Integrating Order Information and Event Relation for Script Event Prediction",
+    author = "Wang, Zhongqing  and
+      Zhang, Yue  and
+      Chang, Ching-Yun",
+    editor = "Palmer, Martha  and
+      Hwa, Rebecca  and
+      Riedel, Sebastian",
+    booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+    month = sep,
+    year = "2017",
+    address = "Copenhagen, Denmark",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D17-1006/",
+    doi = "10.18653/v1/D17-1006",
+    pages = "57--67"
+}
+
+@inproceedings{do-etal-2012-joint,
+    title = "Joint Inference for Event Timeline Construction",
+    author = "Do, Quang  and
+      Lu, Wei  and
+      Roth, Dan",
+    editor = "Tsujii, Jun{'}ichi  and
+      Henderson, James  and
+      Pa{\c{s}}ca, Marius",
+    booktitle = "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning",
+    month = jul,
+    year = "2012",
+    address = "Jeju Island, Korea",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D12-1062/",
+    pages = "677--687"
+}
+
+@inproceedings{ning-etal-2017-structured,
+    title = "A Structured Learning Approach to Temporal Relation Extraction",
+    author = "Ning, Qiang  and
+      Feng, Zhili  and
+      Roth, Dan",
+    editor = "Palmer, Martha  and
+      Hwa, Rebecca  and
+      Riedel, Sebastian",
+    booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+    month = sep,
+    year = "2017",
+    address = "Copenhagen, Denmark",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D17-1108/",
+    doi = "10.18653/v1/D17-1108",
+    pages = "1027--1037"
+}
+
+@inproceedings{ning-etal-2018-improving,
+    title = "Improving Temporal Relation Extraction with a Globally Acquired Statistical Resource",
+    author = "Ning, Qiang  and
+      Wu, Hao  and
+      Peng, Haoruo  and
+      Roth, Dan",
+    editor = "Walker, Marilyn  and
+      Ji, Heng  and
+      Stent, Amanda",
+    booktitle = "Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+    month = jun,
+    year = "2018",
+    address = "New Orleans, Louisiana",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N18-1077/",
+    doi = "10.18653/v1/N18-1077",
+    pages = "841--851"
+}
+
+@inproceedings{ning-etal-2018-joint,
+    title = "Joint Reasoning for Temporal and Causal Relations",
+    author = "Ning, Qiang  and
+      Feng, Zhili  and
+      Wu, Hao  and
+      Roth, Dan",
+    editor = "Gurevych, Iryna  and
+      Miyao, Yusuke",
+    booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P18-1212/",
+    doi = "10.18653/v1/P18-1212",
+    pages = "2278--2288"
+}
+
+@inproceedings{han-etal-2019-joint,
+    title = "Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction",
+    author = "Han, Rujun  and
+      Ning, Qiang  and
+      Peng, Nanyun",
+    editor = "Inui, Kentaro  and
+      Jiang, Jing  and
+      Ng, Vincent  and
+      Wan, Xiaojun",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1041/",
+    doi = "10.18653/v1/D19-1041",
+    pages = "434--444"
+}
+
+@inproceedings{han-etal-2019-deep,
+    title = "Deep Structured Neural Network for Event Temporal Relation Extraction",
+    author = "Han, Rujun  and
+      Hsu, I-Hung  and
+      Yang, Mu  and
+      Galstyan, Aram  and
+      Weischedel, Ralph  and
+      Peng, Nanyun",
+    editor = "Bansal, Mohit  and
+      Villavicencio, Aline",
+    booktitle = "Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/K19-1062/",
+    doi = "10.18653/v1/K19-1062",
+    pages = "666--676"
+}
+
+@inproceedings{ning-etal-2019-improved,
+    title = "An Improved Neural Baseline for Temporal Relation Extraction",
+    author = "Ning, Qiang  and
+      Subramanian, Sanjay  and
+      Roth, Dan",
+    editor = "Inui, Kentaro  and
+      Jiang, Jing  and
+      Ng, Vincent  and
+      Wan, Xiaojun",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-1642/",
+    doi = "10.18653/v1/D19-1642",
+    pages = "6203--6209"
+}
+
+@inproceedings{huang-etal-2023-classification,
+    title = "More than Classification: A Unified Framework for Event Temporal Relation Extraction",
+    author = "Huang, Quzhe  and
+      Hu, Yutong  and
+      Zhu, Shengqi  and
+      Feng, Yansong  and
+      Liu, Chang  and
+      Zhao, Dongyan",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.536/",
+    doi = "10.18653/v1/2023.acl-long.536",
+    pages = "9631--9646"
+}
+
+@inproceedings{tan-etal-2023-event,
+    title = "Event Temporal Relation Extraction with {B}ayesian Translational Model",
+    author = "Tan, Xingwei  and
+      Pergola, Gabriele  and
+      He, Yulan",
+    editor = "Vlachos, Andreas  and
+      Augenstein, Isabelle",
+    booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.eacl-main.80/",
+    doi = "10.18653/v1/2023.eacl-main.80",
+    pages = "1125--1138"
+}
+
+@inproceedings{niu-etal-2024-contempo,
+    title = "{C}on{T}empo: A Unified Temporally Contrastive Framework for Temporal Relation Extraction",
+    author = "Niu, Jingcheng  and
+      Liao, Saifei  and
+      Ng, Victoria  and
+      De Montigny, Simon  and
+      Penn, Gerald",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.89/",
+    doi = "10.18653/v1/2024.findings-acl.89",
+    pages = "1521--1533"
+}
+
+@inproceedings{meng-rumshisky-2018-context,
+    title = "Context-Aware Neural Model for Temporal Information Extraction",
+    author = "Meng, Yuanliang  and
+      Rumshisky, Anna",
+    editor = "Gurevych, Iryna  and
+      Miyao, Yusuke",
+    booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P18-1049/",
+    doi = "10.18653/v1/P18-1049",
+    pages = "527--536",
+    abstract = "We propose a context-aware neural network model for temporal information extraction. This model has a uniform architecture for event-event, event-timex and timex-timex pairs. A Global Context Layer (GCL), inspired by Neural Turing Machine (NTM), stores processed temporal relations in narrative order, and retrieves them for use when relevant entities come in. Relations are then classified in context. The GCL model has long-term memory and attention mechanisms to resolve irregular long-distance dependencies that regular RNNs such as LSTM cannot recognize. It does not require any new input features, while outperforming the existing models in literature. To our knowledge it is also the first model to use NTM-like architecture to process the information from global context in discourse-scale natural text processing. We are going to release the source code in the future."
+}
+
+@inproceedings{mathur-etal-2021-timers,
+    title = "{TIMERS}: Document-level Temporal Relation Extraction",
+    author = "Mathur, Puneet  and
+      Jain, Rajiv  and
+      Dernoncourt, Franck  and
+      Morariu, Vlad  and
+      Tran, Quan Hung  and
+      Manocha, Dinesh",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-short.67/",
+    doi = "10.18653/v1/2021.acl-short.67",
+    pages = "524--533",
+    abstract = "We present TIMERS - a TIME, Rhetorical and Syntactic-aware model for document-level temporal relation classification in the English language. Our proposed method leverages rhetorical discourse features and temporal arguments from semantic role labels, in addition to traditional local syntactic features, trained through a Gated Relational-GCN. Extensive experiments show that the proposed model outperforms previous methods by 5-18{\%} on the TDDiscourse, TimeBank-Dense, and MATRES datasets due to our discourse-level modeling."
+}
+
+@inproceedings{zhang-etal-2022-extracting,
+    title = "Extracting Temporal Event Relation with Syntax-guided Graph Transformer",
+    author = "Zhang, Shuaicheng  and
+      Ning, Qiang  and
+      Huang, Lifu",
+    editor = "Carpuat, Marine  and
+      de Marneffe, Marie-Catherine  and
+      Meza Ruiz, Ivan Vladimir",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-naacl.29/",
+    doi = "10.18653/v1/2022.findings-naacl.29",
+    pages = "379--390",
+    abstract = "Extracting temporal relations (e.g., before, after, and simultaneous) among events is crucial to natural language understanding. One of the key challenges of this problem is that when the events of interest are far away in text, the context in-between often becomes complicated, making it challenging to resolve the temporal relationship between them. This paper thus proposes a new Syntax-guided Graph Transformer network (SGT) to mitigate this issue, by (1) explicitly exploiting the connection between two events based on their dependency parsing trees, and (2) automatically locating temporal cues between two events via a novel syntax-guided attention mechanism. Experiments on two benchmark datasets, MATRES and TB-DENSE, show that our approach significantly outperforms previous state-of-the-art methods on both end-to-end temporal relation extraction and temporal relation classification with up to 7.9{\%} absolute F-score gain; This improvement also proves to be robust on the contrast set of MATRES. We will make all the programs publicly available once the paper is accepted."
+}
+
+@inproceedings{yuan-etal-2023-zero,
+    title = "Zero-shot Temporal Relation Extraction with {C}hat{GPT}",
+    author = "Yuan, Chenhan  and
+      Xie, Qianqian  and
+      Ananiadou, Sophia",
+    editor = "Demner-fushman, Dina  and
+      Ananiadou, Sophia  and
+      Cohen, Kevin",
+    booktitle = "Proceedings of the 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.bionlp-1.7/",
+    doi = "10.18653/v1/2023.bionlp-1.7",
+    pages = "92--102",
+    abstract = "The goal of temporal relation extraction is to infer the temporal relation between two events in the document. Supervised models are dominant in this task. In this work, we investigate ChatGPT{'}s ability on zero-shot temporal relation extraction. We designed three different prompt techniques to break down the task and evaluate ChatGPT. Our experiments show that ChatGPT{'}s performance has a large gap with that of supervised methods and can heavily rely on the design of prompts. We further demonstrate that ChatGPT can infer more small relation classes correctly than supervised methods. The current shortcomings of ChatGPT on temporal relation extraction are also discussed in this paper. We found that ChatGPT cannot keep consistency during temporal inference and it fails in actively long-dependency temporal inference."
+}
+
+@inproceedings{wang-zhao-2024-tram,
+    title = "{TRAM}: Benchmarking Temporal Reasoning for Large Language Models",
+    author = "Wang, Yuqing  and
+      Zhao, Yun",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.382/",
+    doi = "10.18653/v1/2024.findings-acl.382",
+    pages = "6389--6415",
+    abstract = "Reasoning about time is essential for understanding the nuances of events described in natural language. Previous research on this topic has been limited in scope, characterized by a lack of standardized benchmarks that would allow for consistent evaluations across different studies. In this paper, we introduce TRAM, a temporal reasoning benchmark composed of ten datasets, encompassing various temporal aspects of events such as order, arithmetic, frequency, and duration, designed to facilitate a comprehensive evaluation of the TeR capabilities of large language models (LLMs). We evaluate popular LLMs like GPT-4 and Llama2 in zero-shot and few-shot scenarios, and establish baselines with BERT-based and domain-specific models. Our findings indicate that the best-performing model lags significantly behind human performance. It is our aspiration that TRAM will spur further progress in enhancing the TeR capabilities of LLMs."
+}
+
+@inproceedings{chu-etal-2024-timebench,
+    title = "{T}ime{B}ench: A Comprehensive Evaluation of Temporal Reasoning Abilities in Large Language Models",
+    author = "Chu, Zheng  and
+      Chen, Jingchang  and
+      Chen, Qianglong  and
+      Yu, Weijiang  and
+      Wang, Haotian  and
+      Liu, Ming  and
+      Qin, Bing",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.66/",
+    doi = "10.18653/v1/2024.acl-long.66",
+    pages = "1204--1228",
+    abstract = "Grasping the concept of time is a fundamental facet of human cognition, indispensable for truly comprehending the intricacies of the world.Previous studies typically focus on specific aspects of time, lacking a comprehensive temporal reasoning benchmark.To address this, we propose TimeBench, a comprehensive hierarchical temporal reasoning benchmark that covers a broad spectrum of temporal reasoning phenomena.TimeBench provides a thorough evaluation for investigating the temporal reasoning capabilities of large language models.We conduct extensive experiments on GPT-4, LLaMA2, and other popular LLMs under various settings.Our experimental results indicate a significant performance gap between the state-of-the-art LLMs and humans, highlighting that there is still a considerable distance to cover in temporal reasoning.Besides, LLMs exhibit capability discrepancies across different reasoning categories.Furthermore, we thoroughly analyze the impact of multiple aspects on temporal reasoning and emphasize the associated challenges.We aspire for TimeBench to serve as a comprehensive benchmark, fostering research in temporal reasoning.Code and data are available at \url{https://github.com/zchuz/TimeBench}."
+}
+
+@inproceedings{qiu-etal-2024-large,
+    title = "Are Large Language Model Temporally Grounded?",
+    author = "Qiu, Yifu  and
+      Zhao, Zheng  and
+      Ziser, Yftah  and
+      Korhonen, Anna  and
+      Ponti, Edoardo  and
+      Cohen, Shay B.",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.391/",
+    doi = "10.18653/v1/2024.naacl-long.391",
+    pages = "7064--7083",
+    abstract = "Are Large Language Models (LLMs) temporally grounded? Since LLMs cannot perceive and interact with the environment, it is impossible to answer this question directly. Instead, we provide LLMs with textual narratives and probe them with respect to their common-sense knowledge of the structure and duration of events, their ability to order events along a timeline, and self-consistency within their temporal model (e.g., temporal relations such as after and before are mutually exclusive for any pair of events). We evaluate state-of-the-art LLMs (such as LLaMA 2 and GPT-4) on three tasks reflecting these abilities. Generally, we find that LLMs lag significantly behind both human performance as well as small-scale, specialised LMs. In-context learning, instruction tuning, and chain-of-thought prompting reduce this gap only to a limited degree. Crucially, LLMs struggle the most with self-consistency, displaying incoherent behaviour in at least 27.23{\%} of their predictions. Contrary to expectations, we also find that scaling the model size does not guarantee positive gains in performance. To explain these results, we study the sources from which LLMs may gather temporal information: we find that sentence ordering in unlabelled texts, available during pre-training, is only weakly correlated with event ordering. Moreover, public instruction tuning mixtures contain few temporal tasks. Hence, we conclude that current LLMs lack a consistent temporal model of textual narratives."
+}
+
+@inproceedings{zhang-etal-2024-narrative,
+    title = "Narrative-of-Thought: Improving Temporal Reasoning of Large Language Models via Recounted Narratives",
+    author = "Zhang, Xinliang Frederick  and
+      Beauchamp, Nick  and
+      Wang, Lu",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.963/",
+    doi = "10.18653/v1/2024.findings-emnlp.963",
+    pages = "16507--16530",
+    abstract = "Reasoning about time and temporal relations is an integral aspect of human cognition, essential for perceiving the world and navigating our experiences. Though large language models (LLMs) have demonstrated impressive performance in many reasoning tasks, temporal reasoning remains challenging due to its intrinsic complexity. In this work, we first study an essential task of temporal reasoning{---}temporal graph generation, to unveil LLMs' inherent, global reasoning capabilities. We show that this task presents great challenges even for the most powerful LLMs, such as GPT-3.5/4. We also notice a significant performance gap by small models ({\ensuremath{<}} 10B) that lag behind LLMs by 50{\%}. Next, we study how to close this gap with a budget constraint, e.g., not using model finetuning. We propose a new prompting technique tailored for temporal reasoning, Narrative-of-Thought (NoT), that first converts the events set to a Python class, then prompts a small model to generate a temporally grounded narrative, guiding the final generation of a temporal graph. Extensive experiments showcase the efficacy of NoT in improving various metrics. Notably, NoT attains the highest F1 on the Schema-11 evaluation set, while securing an overall F1 on par with GPT-3.5. NoT also achieves the best structural similarity across the board, even compared with GPT-3.5/4."
+}
+
+@inproceedings{kougia-etal-2024-analysing,
+    title = "Analysing zero-shot temporal relation extraction on clinical notes using temporal consistency",
+    author = "Kougia, Vasiliki  and
+      Sedova, Anastasiia  and
+      Stephan, Andreas Joseph  and
+      Zaporojets, Klim  and
+      Roth, Benjamin",
+    editor = "Demner-Fushman, Dina  and
+      Ananiadou, Sophia  and
+      Miwa, Makoto  and
+      Roberts, Kirk  and
+      Tsujii, Junichi",
+    booktitle = "Proceedings of the 23rd Workshop on Biomedical Natural Language Processing",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.bionlp-1.6/",
+    doi = "10.18653/v1/2024.bionlp-1.6",
+    pages = "72--84",
+    abstract = "This paper presents the first study for temporal relation extraction in a zero-shot setting focusing on biomedical text. We employ two types of prompts and five Large Language Models (LLMs; GPT-3.5, Mixtral, Llama 2, Gemma, and PMC-LLaMA) to obtain responses about the temporal relations between two events. Our experiments demonstrate that LLMs struggle in the zero-shot setting, performing worse than fine-tuned specialized models in terms of F1 score. This highlights the challenging nature of this task and underscores the need for further research to enhance the performance of LLMs in this context. We further contribute a novel comprehensive temporal analysis by calculating consistency scores for each LLM. Our findings reveal that LLMs face challenges in providing responses consistent with the temporal properties of uniqueness and transitivity. Moreover, we study the relation between the temporal consistency of an LLM and its accuracy, and whether the latter can be improved by solving temporal inconsistencies. Our analysis shows that even when temporal consistency is achieved, the predictions can remain inaccurate."
+}
+
+@inproceedings{
+anonymous2025temporal,
+title={Temporal Reasoning in the Era of {LLM}s: A Survey},
+author={Anonymous},
+booktitle={Submitted to ACL Rolling Review - May 2025},
+year={2025},
+url={https://openreview.net/forum?id=jWBZdlU5Xl},
+note={under review}
+}
+
+@inproceedings{eirew2025beyond,
+  title={Beyond pairwise: Global zero-shot temporal graph generation},
+  author={Eirew, Alon and Bar, Kfir and Dagan, Ido},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={31428--31446},
+  year={2025}
+}
+
+@inproceedings{homburger-bar-2025-large,
+    title = "Large Temporal Models: Unlocking Temporal Understanding in {LLM}s for Temporal Relation Classification",
+    author = "Homburger, Omri  and
+      Bar, Kfir",
+    editor = "Inui, Kentaro  and
+      Sakti, Sakriani  and
+      Wang, Haofen  and
+      Wong, Derek F.  and
+      Bhattacharyya, Pushpak  and
+      Banerjee, Biplab  and
+      Ekbal, Asif  and
+      Chakraborty, Tanmoy  and
+      Singh, Dhirendra Pratap",
+    booktitle = "Proceedings of the 14th International Joint Conference on Natural Language Processing and the 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
+    month = dec,
+    year = "2025",
+    address = "Mumbai, India",
+    publisher = "The Asian Federation of Natural Language Processing and The Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.ijcnlp-long.117/",
+    doi = "10.18653/v1/2025.ijcnlp-long.117",
+    pages = "2156--2171",
+    ISBN = "979-8-89176-298-5",
+    abstract = "We present Large Temporal Model, a Large Language Model (LLM) that excels in Temporal Relation Classification (TRC). We show how a carefully designed fine-tuning strategy, using a novel two-step fine-tuning approach, can adapt LLMs for TRC. Our approach is focused on global TRC, enabling simultaneous classification of all temporal relations within a document. Unlike traditional pairwise methods, our approach performs global inference in a single step, improving both efficiency and consistency. Evaluations on the MATRES and OmniTemp benchmarks demonstrate that, for the first time, an LLM achieves state-of-the-art performance, outperforming previous pairwise and global TRC methods. Results show that our global approach produces more consistent and accurate temporal graphs. Ablation studies further validate the effectiveness of our two-step fine-tuning strategy, while analyses reveal why our approach succeeds in increasing performance and reducing inconsistencies."
+}
+
+@inproceedings{song-etal-2025-temporal,
+    title = "Temporal reasoning for timeline summarisation in social media",
+    author = "Song, Jiayu  and
+      Akhter, Mahmud Elahi  and
+      Atzil-Slonim, Dana  and
+      Liakata, Maria",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1362/",
+    doi = "10.18653/v1/2025.acl-long.1362",
+    pages = "28085--28101",
+    ISBN = "979-8-89176-251-0",
+    abstract = "This paper explores whether enhancing temporal reasoning capabilities in Large Language Models (LLMs) can improve the quality of timeline summarisation, the task of summarising long texts containing sequences of events, such as social media threads. We first introduce NarrativeReason, a novel dataset focused on temporal relationships among sequential events within narratives, distinguishing it from existing temporal reasoning datasets that primarily address pair-wise event relationships. Our approach then combines temporal reasoning with timeline summarisation through a knowledge distillation framework, where we first fine-tune a teacher model on temporal reasoning tasks and then distill this knowledge into a student model while simultaneously training it for the task of timeline summarisation. Experimental results demonstrate that our model achieves superior performance on out-of-domain mental health-related timeline summarisation tasks, which involve long social media threads with repetitions of events and a mix of emotions, highlighting the importance and generalisability of leveraging temporal reasoning to improve timeline summarisation."
+}
+
+@inproceedings{bazaga-etal-2025-learning,
+    title = "Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models",
+    author = "Bazaga, Adri{\'a}n  and
+      Blloshmi, Rexhina  and
+      Byrne, Bill  and
+      de Gispert, Adri{\`a}",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1358/",
+    doi = "10.18653/v1/2025.acl-long.1358",
+    pages = "28014--28033",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Large Language Models (LLMs) have emerged as powerful tools for generating coherent text, understanding context, and performing reasoning tasks. However, they struggle with temporal reasoning, which requires processing time-related information such as event sequencing, durations, and inter-temporal relationships. These capabilities are critical for applications including question answering, scheduling, and historical analysis. In this paper, we introduce TISER, a novel framework that enhances the temporal reasoning abilities of LLMs through a multi-stage process that combines timeline construction with iterative self-reflection. Our approach leverages test-time scaling to extend the length of reasoning traces, enabling models to capture complex temporal dependencies more effectively. This strategy not only boosts reasoning accuracy but also improves the traceability of the inference process. Experimental results demonstrate state-of-the-art performance across multiple benchmarks, including out-of-distribution test sets, and reveal that TISER enables smaller open-source models to surpass larger closed-weight models on challenging temporal reasoning tasks."
+}
+
+@inproceedings{fang-etal-2024-getting,
+    title = "Getting Sick After Seeing a Doctor? Diagnosing and Mitigating Knowledge Conflicts in Event Temporal Reasoning",
+    author = "Fang, Tianqing  and
+      Wang, Zhaowei  and
+      Zhou, Wenxuan  and
+      Zhang, Hongming  and
+      Song, Yangqiu  and
+      Chen, Muhao",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-naacl.244/",
+    doi = "10.18653/v1/2024.findings-naacl.244",
+    pages = "3846--3868",
+    abstract = "Event temporal reasoning aims at identifying the temporal relations between two or more events from narratives. However, knowledge conflicts arise when there is a mismatch between the actual temporal relations of events in the context and the prior knowledge or biases learned by the model. In this paper, we propose to detect knowledge-conflict examples in event temporal reasoning using bias indicators, which include event relation prior bias, tense bias, narrative bias, and dependency bias. We define conflict examples as those where event relations are opposite to biased or prior relations. To mitigate event-related knowledge conflicts, we introduce a Counterfactual Data Augmentation (CDA) based method that can be applied to both Pre-trained Language Models (PLMs) and Large Language Models (LLMs) either as additional training data or demonstrations for In- Context Learning. Experiments suggest both PLMs and LLMs suffer from knowledge conflicts in event temporal reasoning, and CDA has the potential for reducing hallucination and improving model performance."
+}
+
+@inproceedings{yang-etal-2026-temporal,
+    title = "Temporal Token Matters: Investigating and Interpreting the Consistency of Temporal Ordering in Large Language Models",
+    author = "Yang, Zhen  and
+      Zhang, Xinyue  and
+      Jian, Ping  and
+      Li, Chengzhi  and
+      Guo, Zhongbin  and
+      Feng, Jiaping  and
+      Lu, Wenpeng",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.123/",
+    doi = "10.18653/v1/2026.findings-acl.123",
+    pages = "2577--2596",
+    ISBN = "979-8-89176-395-1",
+    abstract = "Despite the remarkable performance across numerous tasks, Large Language Models (LLMs) still exhibit notable deficiencies in temporal reasoning, even in simple event ordering tasks. For instance, a slight alteration in the temporal phrasing of the question (e.g., changing ``Is event A before B?'' to ``Is event A after B?'') can lead LLMs to hallucinate and produce inconsistent answers, reflecting a lack of robust temporal reasoning. Although many prior studies have focused on benchmarking and improving the temporal reasoning ability of LLMs, little is known about the intrinsic mechanisms within LLMs when performing temporal reasoning. In this work, we investigate the mechanistic interpretability of temporal ordering within event temporal reasoning through a structured ``Identify-Interpret-Verify'' pipeline. We first employ path patching to identify a sparse subset of attention heads that are causally responsible for reasoning outcomes. Detailed pattern analysis reveals that these key heads specialize in attending to either temporal keywords (semantic cues) or structural delimiters (syntactic cues). Furthermore, we rigorously validate the observed mechanism through comprehensive intervention-based experiments, ranging from head ablation to targeted attention modulation. We demonstrate that dynamically modulating the attention of these specific heads can robustly enhance model performance, which serves as strong empirical evidence that our identified mechanism faithfully captures the internal logic of temporal ordering in LLMs."
+}
+
+@misc{cohn2026qstrbenchnewbenchmarkevaluate,
+      title={QSTRBench: a New Benchmark to Evaluate the Ability of Language Models to Reason with Qualitative Spatial and Temporal Calculi}, 
+      author={Anthony G. Cohn and Robert E. Blackwell},
+      year={2026},
+      eprint={2605.18380},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2605.18380}, 
+}
+
+@inproceedings{eirew-etal-2025-eventfull,
+    title = "{E}vent{F}ull: Complete and Consistent Event Relation Annotation",
+    author = "Eirew, Alon  and
+      Nachshoni, Eviatar  and
+      Slobodkin, Aviv  and
+      Dagan, Ido",
+    editor = "Dziri, Nouha  and
+      Ren, Sean (Xiang)  and
+      Diao, Shizhe",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (System Demonstrations)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-demo.40/",
+    doi = "10.18653/v1/2025.naacl-demo.40",
+    pages = "494--508",
+    ISBN = "979-8-89176-191-9",
+    abstract = "Event relation detection is a fundamental NLP task, leveraged in many downstream applications, whose modeling requires datasets annotated with event relations of various types. However, systematic and complete annotation of these relations is costly and challenging, due to the quadratic number of event pairs that need to be considered. Consequently, many current event relation datasets lack systematicity and completeness.In response, we introduce EventFull, the first tool that supports consistent, complete and efficient annotation of temporal, causal and coreference relations via a unified and synergetic process.A pilot study demonstrates that EventFull accelerates and simplifies the annotation process while yielding high inter-annotator agreement."
+}
+
+@inproceedings{dsouza-ng-2014-annotating,
+    title = "Annotating Inter-Sentence Temporal Relations in Clinical Notes",
+    author = "D{'}Souza, Jennifer  and
+      Ng, Vincent",
+    editor = "Calzolari, Nicoletta  and
+      Choukri, Khalid  and
+      Declerck, Thierry  and
+      Loftsson, Hrafn  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Moreno, Asuncion  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Ninth International Conference on Language Resources and Evaluation ({LREC}'14)",
+    month = may,
+    year = "2014",
+    address = "Reykjavik, Iceland",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "https://aclanthology.org/L14-1129/",
+    pages = "2758--2765",
+    abstract = "Owing in part to the surge of interest in temporal relation extraction, a number of datasets manually annotated with temporal relations between event-event pairs and event-time pairs have been produced recently. However, it is not uncommon to find missing annotations in these manually annotated datasets. Many researchers attributed this problem to ``annotator fatigue''. While some of these missing relations can be recovered automatically, many of them cannot. Our goals in this paper are to (1) manually annotate certain types of missing links that cannot be automatically recovered in the i2b2 Clinical Temporal Relations Challenge Corpus, one of the recently released evaluation corpora for temporal relation extraction; and (2) empirically determine the usefulness of these additional annotations. We will make our annotations publicly available, in hopes of enabling a more accurate evaluation of temporal relation extraction systems."
+}
+
+@article{liu-etal-2024-lost,
+    title = "Lost in the Middle: How Language Models Use Long Contexts",
+    author = "Liu, Nelson F.  and
+      Lin, Kevin  and
+      Hewitt, John  and
+      Paranjape, Ashwin  and
+      Bevilacqua, Michele  and
+      Petroni, Fabio  and
+      Liang, Percy",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "12",
+    year = "2024",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2024.tacl-1.9/",
+    doi = "10.1162/tacl_a_00638",
+    pages = "157--173",
+    abstract = "While recent language models have the ability to take long contexts as input, relatively little is known about how well they use longer context. We analyze the performance of language models on two tasks that require identifying relevant information in their input contexts: multi-document question answering and key-value retrieval. We find that performance can degrade significantly when changing the position of relevant information, indicating that current language models do not robustly make use of information in long input contexts. In particular, we observe that performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts, even for explicitly long-context models. Our analysis provides a better understanding of how language models use their input context and provides new evaluation protocols for future long-context language models."
+}
+
+@inproceedings{goldman-etal-2024-really,
+    title = "Is It Really Long Context if All You Need Is Retrieval? Towards Genuinely Difficult Long Context {NLP}",
+    author = "Goldman, Omer  and
+      Jacovi, Alon  and
+      Slobodkin, Aviv  and
+      Maimon, Aviya  and
+      Dagan, Ido  and
+      Tsarfaty, Reut",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.924/",
+    doi = "10.18653/v1/2024.emnlp-main.924",
+    pages = "16576--16586",
+    abstract = "Improvements in language models' capabilities have pushed their applications towards longer contexts, making long-context evaluation and development an active research area. However, many disparate use-cases are grouped together under the umbrella term of ``long-context'', defined simply by the total length of the model{'}s input, including - for example - Needle-in-a-Haystack tasks, book summarization, and information aggregation. Given their varied difficulty, in this position paper we argue that conflating different tasks by their context length is unproductive. As a community, we require a more precise vocabulary to understand what makes long-context tasks similar or different. We propose to unpack the taxonomy of long-context based on the properties that make them more difficult with longer contexts. We propose two orthogonal axes of difficulty: (I) Diffusion: How hard is it to find the necessary information in the context? (II) Scope: How much necessary information is there to find? We survey the literature on long-context, provide justification for this taxonomy as an informative descriptor, and situate the literature with respect to it. We conclude that the most difficult and interesting settings, whose necessary information is very long and highly diffused within the input, is severely under-explored. By using a descriptive vocabulary and discussing the relevant properties of difficulty in long-context, we can implement more informed research in this area. We call for a careful design of tasks and benchmarks with distinctly long context, taking into account the characteristics that make it qualitatively different from shorter context."
+}
+
+@inproceedings{
+anonymous2024multievent,
+title={Multi-Event Temporal Ordering by Event Order Ranking},
+author={Anonymous},
+booktitle={Submitted to ACL Rolling Review - April 2024},
+year={2024},
+url={https://openreview.net/forum?id=guSIWloCNz},
+note={under review}
+}
+
+@misc{xu2023necenarrativeeventchain,
+      title={NECE: Narrative Event Chain Extraction Toolkit}, 
+      author={Guangxuan Xu and Paulina Toro Isaza and Moshi Li and Akintoye Oloko and Bingsheng Yao and Cassia Sanctos and Aminat Adebiyi and Yufang Hou and Nanyun Peng and Dakuo Wang},
+      year={2023},
+      eprint={2208.08063},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2208.08063}, 
+}
+
+@inproceedings{barale-etal-2025-lextime,
+    title = "{L}ex{T}ime: A Benchmark for Temporal Ordering of Legal Events",
+    author = "Barale, Claire  and
+      Barrett, Leslie  and
+      Bajaj, Vikram Sunil  and
+      Rovatsos, Michael",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.280/",
+    doi = "10.18653/v1/2025.findings-emnlp.280",
+    pages = "5220--5236",
+    ISBN = "979-8-89176-335-7",
+    abstract = "Understanding temporal relationships and accurately reconstructing the event timeline is important for case law analysis, compliance monitoring, and legal summarization. However, existing benchmarks lack specialized language evaluation, leaving a gap in understanding how LLMs handle event ordering in legal contexts. We introduce LexTime, a dataset designed to evaluate LLMs' event ordering capabilities in legal language, consisting of 512 instances from U.S. Federal Complaints with annotated event pairs and their temporal relations. Our findings show that (1) LLMs are more accurate on legal event ordering than on narrative texts (up to +10.5{\%}); (2) longer input contexts and implicit events boost accuracy, reaching 80.8{\%} for implicit-explicit event pairs; (3) legal linguistic complexities and nested clauses remain a challenge. While performance is promising, specific features of legal texts remain a bottleneck for legal temporal event reasoning, and we propose concrete modeling directions to better address them."
+}
