@@ -76,7 +76,7 @@ Reading a story means building a timeline. A reader who learns, late in a passag
 
 Temporal relation extraction has a long history in NLP \citep{pustejovsky2003timeml,uzzaman2012tempeval,leeuwenberg2019survey}, and LLMs are now evaluated on many temporal tasks \citep{chu-etal-2024-timebench,wang-zhao-2024-tram,qiu-etal-2024-large}. Most of these evaluations, however, ask about one event pair at a time, collapse the label space to a few coarse relations, or annotate only a sparse subset of pairs \citep{cassidy-etal-2014-annotation,ning2018multi}. Pairwise querying is quadratic in the number of events and produces globally inconsistent graphs \citep{eirew2025beyond,kougia-etal-2024-analysing}, while coarse labels hide exactly the fine relations (\emph{meets}, \emph{starts}, \emph{finishes}) on which interval reasoning depends \citep{islakoglu-kalo-2025-chronosense}. Whether an LLM can reconstruct the \emph{entire} fine-grained interval network of a narrative is, to our knowledge, untested.
 
-We study this question with a corpus of 360 English narrative passages that we annotated so that every ordered pair of events carries one of the 13 Allen relations. Five LLMs receive the passage and its event list and must return the full $n\times n$ relation matrix (Figure~\ref{fig:overview}). We fixed the prompt, the parser, the metrics and seven hypotheses in advance, and read every output in three complementary ways (Figure~\ref{fig:pipeline}): the upper triangle is scored against the gold matrix, the lower triangle provides an independent converse reading of every pair, and an endpoint encoding of each network gives an exact satisfiability test and a consistent repair.
+We study this question with a corpus of 360 English narrative passages that we annotated so that every ordered pair of events carries one of the 13 Allen relations. Five LLMs receive the passage and its event list and must return the full $n\times n$ relation matrix (Figure~\ref{fig:overview}). We fixed the prompt, the parser, the metrics and seven hypotheses in advance, and read every output in three complementary ways (Figure~\ref{fig:pipeline}, Appendix~\ref{app:setup}): the upper triangle is scored against the gold matrix, the lower triangle provides an independent converse reading of every pair, and an endpoint encoding of each network gives an exact satisfiability test and a consistent repair.
 
 
 The results show that the task is far from solved and separate several reasons why. Our contributions are as follows: (i)~a pre-registered evaluation of complete Allen network extraction from narratives, in which each output supports accuracy, consistency, repair and error analyses (\S\ref{sec:protocol}); (ii)~evidence that, under single-shot free-text prompting for the whole matrix, output fidelity rather than reasoning sets the end-to-end score, since models answer only 34.5\% to 60.0\% of cells, mostly because rows have one or two symbols too many or too few, and a recovery parser restores most of the loss without new model calls (\S\ref{sec:coverage}); (iii)~evidence that consistency and correctness are decoupled, as converse violations differ by two orders of magnitude while a best-found consistent repair leaves answered-cell accuracy nearly unchanged (\S\ref{sec:consistency}); and (iv)~a diagnosis of where models fail, namely overlap relations, flashbacks that invert both list and narration order, and passages with many events, with most errors being neither one-endpoint near misses nor failures of composition (\S\ref{sec:errors}, \S\ref{sec:order}).
@@ -119,14 +119,7 @@ Three properties of the gold data matter for interpretation. First, the label di
 \section{Evaluation Protocol}
 \label{sec:protocol}
 
-\begin{figure*}[t]
-\centering
-\includegraphics[width=\textwidth, trim=14 37 15 13, clip]{figures/fig_method_pipeline.pdf}
-\caption{Methodology pipeline. Everything in the dashed band was fixed in advance. Each model answers every passage, the parser turns each answer into an $n\times n$ matrix with missing cells, and all analyses read the stored matrices: the upper triangle is scored against gold, the lower triangle serves as a converse test, and the endpoint graph gives the satisfiability check and a best-found consistent repair. Uncertainty comes from a passage-level bootstrap with Holm correction and GEE models clustered by passage.}
-\label{fig:pipeline}
-\end{figure*}
-
-Figure~\ref{fig:pipeline} summarises the protocol.
+Figure~\ref{fig:pipeline} in Appendix~\ref{app:setup} summarises the protocol.
 
 \paragraph{Models.}
 We evaluate five LLMs accessed through OpenRouter: DeepSeek-V4.1-Flash (\Ds), GPT-6-Luna (\Gp), Gemini-3.5-Flash-Lite (\Gm), Qwen3.7-Flash (\Qw) and Mistral-Nemo (\Ms). All models except \Ms\ accept a reasoning parameter, which we set to medium effort. We use temperature 0 where supported (\Gp\ does not accept it, so the provider default under OpenRouter's provider policy applied), seed 20261006, and an output limit of 65,536 tokens (16,384 for \Ms, its maximum). Appendix~\ref{app:setup} lists identifiers and settings.
@@ -215,7 +208,7 @@ Restricted to answered cells, the picture changes (Table~\ref{tab:main}, right).
 \subsection{Which relations fail}
 \label{sec:relations}
 
-Figure~\ref{fig:relf1} breaks performance down by relation. The frequent relations \rel{<} and \rel{>} and the containment pair \rel{d}/\rel{di} are recognised best (\Ds: 0.65, 0.56, 0.39 and 0.42 F1). Relations involving partial overlap are almost never recovered: \rel{o} and \rel{oi} stay at or below 0.07 F1 for every model. With 1,645 and 866 gold pairs (2.5\% of all), these estimates rest on far less support than those for \rel{<} and \rel{>}. They also rest on few independent clusters: \rel{oi} occurs in 67 passages and \rel{f} in 110, against all 360 for \rel{<}, which widens the resampled macro-F1 interval. H1b predicted that \rel{s}, \rel{f}, \rel{o} and \rel{m} would be lowest; this holds for overlaps but not for \rel{s} or \rel{m}, which reach 0.16 to 0.22 F1 for the two strongest models. The confusion matrices (Appendix~\ref{app:figs}, Figure~\ref{fig:confusion}) show that answered errors flow mainly towards \rel{<}: for \Ds, 33\% of gold \rel{m} pairs and 24\% of gold \rel{o} pairs are labelled \rel{<}.
+Figure~\ref{fig:relf1} breaks performance down by relation. The frequent relations \rel{<} and \rel{>} and the containment pair \rel{d}/\rel{di} are recognised best (\Ds: 0.65, 0.56, 0.39 and 0.42 F1). Relations involving partial overlap are almost never recovered: \rel{o} and \rel{oi} stay at or below 0.07 F1 for every model. These estimates rest on far less support, and on few independent clusters: \rel{o} and \rel{oi} together cover 2.5\% of pairs, and \rel{oi} occurs in 67 passages against all 360 for \rel{<}, which widens the resampled macro-F1 interval. H1b predicted that \rel{s}, \rel{f}, \rel{o} and \rel{m} would be lowest; this holds for overlaps but not for \rel{s} or \rel{m}, which reach 0.16 to 0.22 F1 for the two strongest models. The confusion matrices (Appendix~\ref{app:figs}, Figure~\ref{fig:confusion}) show that answered errors flow mainly towards \rel{<}: for \Ds, 33\% of gold \rel{m} pairs and 24\% of gold \rel{o} pairs are labelled \rel{<}.
 
 \subsection{Consistency is not correctness}
 \label{sec:consistency}
@@ -242,13 +235,13 @@ Gold & -- & -- & 328/360 & 0.06 & -- \\
 
 Table~\ref{tab:consistency} summarises consistency, which is measured against the algebra rather than against gold. The models differ by two orders of magnitude. \Ds\ violates the converse in 0.3\% of doubly answered pairs and 87.6\% of its complete networks are satisfiable, close to the 91.1\% of the gold networks; \Qw\ violates the converse in 37.6\% of pairs and only 16.7\% of its complete networks are satisfiable. The second reading also helps \Ds: its lower triangle is more accurate than its upper triangle (0.482 versus 0.452). H2 predicted that converse violations concentrate in the non-symmetric fine relations; this holds for \Gm\ (0.511 on gold \rel{f} versus 0.147 on \rel{<}) and \Qw\ but not for \Gp, and \Ds\ has almost no violations.
 
-Does enforcing consistency improve agreement with gold? For the four main models, the consistent repair raises accuracy on all pairs by 5.8 to 13.9 points (Figure~\ref{fig:repair}), in line with H3, but the decomposition shows where the gain comes from. On the cells a model actually answered, repair changes accuracy by at most 2.5 points (\Qw, variant ii: 0.585 to 0.610) and by less than 0.1 points for \Ds\ in both variants. Nearly all of the gain comes from filling cells that were missing: the solver must assign them some consistent label, and with a skewed label distribution many of these labels are correct. Macro-F1 changes by at most 0.013 in either direction for these models; with the upper triangle alone (variant i) it decreases for \Ds, \Gp\ and \Gm. Two controls show this gain is a label-prior effect, not a logical one (Appendix~\ref{app:controls}): filling every missing cell with \rel{<} beats the solver for every model on both metrics (\Ds: 0.702 against 0.591 accuracy), and of the answered cells the solver changes, only 0.22 to 0.55 move from wrong to right. The repair objective maximises agreement with answered cells, so leaving them unchanged is partly a property of that objective. \Ds\ is nearly consistent yet wrong on 24.7\% of the cells it answers, so consistency is far from sufficient for agreement with gold, which matches the clinical findings of \citet{kougia-etal-2024-analysing}.
+Does enforcing consistency improve agreement with gold? For the four main models, the consistent repair raises accuracy on all pairs by 5.8 to 13.9 points (Figure~\ref{fig:repair}, Appendix~\ref{app:controls}), in line with H3, but the decomposition shows where the gain comes from. On the cells a model actually answered, repair changes accuracy by at most 2.5 points (\Qw, variant ii: 0.585 to 0.610) and by less than 0.1 points for \Ds\ in both variants. Nearly all of the gain comes from filling cells that were missing: the solver must assign them some consistent label, and with a skewed label distribution many of these labels are correct. Macro-F1 changes by at most 0.013 in either direction for these models; with the upper triangle alone (variant i) it decreases for \Ds, \Gp\ and \Gm. Two controls show this gain is a label-prior effect, not a logical one (Appendix~\ref{app:controls}): filling every missing cell with \rel{<} beats the solver for every model on both metrics (\Ds: 0.702 against 0.591 accuracy), and of the answered cells the solver changes, only 0.22 to 0.55 move from wrong to right. The repair objective maximises agreement with answered cells, so leaving them unchanged is partly a property of that objective. \Ds\ is nearly consistent yet wrong on 24.7\% of the cells it answers, so consistency is far from sufficient for agreement with gold, which matches the clinical findings of \citet{kougia-etal-2024-analysing}.
 
 \subsection{What kind of errors}
 \label{sec:errors}
 
 \paragraph{Endpoint severity.}
-Each Allen relation fixes the order ($<$, $=$, $>$) of four endpoint pairs (start-start, start-end, end-start, end-end). We define the severity of an answered error as the number of these four comparisons that differ from gold. H4 predicted that most errors would be near misses of severity 1, such as \rel{m} for \rel{<}. This is not the case: severity 1 accounts for 23.8\% (\Gp) to 33.4\% (\Gm) of errors, severity 2 is the most frequent class for \Ds\ (43.5\%) and \Gp\ (42.0\%), and severity 4, a complete reversal, accounts for 19.4\% (\Ds) to 30.0\% (\Qw). They do dominate for some gold relations, such as \rel{o} (83.6\% for \Ds) and \rel{m} (65.5\%), against 4.0\% on gold \rel{>}.
+We define the severity of an answered error as the number of the four endpoint comparisons (Table~\ref{tab:allen}) that differ from gold. H4 predicted mostly severity-1 near misses such as \rel{m} for \rel{<}; this is not the case, as severity 1 covers only 23.8\% to 33.4\% of errors and severity 2 is the most frequent class for the two strongest models. Near misses do dominate for gold \rel{o} and \rel{m} but not for \rel{>} (Appendix~\ref{app:severity}).
 
 \paragraph{Reading or composing?}
 Since 88.7\% of gold pairs follow from two other gold relations, an error on $(i,j)$ may reflect a failure to combine premises the model already had. We call an error \emph{composition-available} if some event $k$ exists for which the model labelled $(i,k)$ and $(k,j)$ correctly and their composition yields exactly the gold relation of $(i,j)$. H5 predicted that a large share of distant-pair errors are of this kind. They are rare: 4.4\% of \Ds's errors on pairs two or more sentences apart and at most 2.8\% for the other models (errors here include missing cells). The objection that correct premises are merely scarce is ruled out by a control: on cells a model gets \emph{right}, such a path is available 66.2\% to 78.1\% of the time, against 1.3\% to 4.1\% on cells it gets wrong. Premises are abundant except where the model errs, so errors come in locally corrupted neighbourhoods. Models usually lack the correct premises themselves, so the dominant problem is reading the relations out of the text, not composing them.
@@ -258,19 +251,12 @@ Since 88.7\% of gold pairs follow from two other gold relations, an error on $(i
 
 Raw accuracy on before/after pairs is lower when the pair is narrated in reverse chronological order (\Ds: 0.415 versus 0.543; \Gp: 0.282 versus 0.436; \Gm: 0.214 versus 0.450; \Qw: 0.175 versus 0.257), as predicted by H6. On reversed pairs, 73.9\% to 76.5\% of answered errors follow narration order for \Ds, \Gp\ and \Gm, but only 47.0\% for \Qw. However, a logistic GEE model clustered by passage that controls for sentence distance and gold relation finds no significant effect of reversal for any of the four models (odds ratios between 0.65 and 2.19, all $p\geq 0.058$). That specification cannot detect the effect, however, since on before/after pairs the gold label and the list cue are one variable: pairs are ordered $i<j$, so gold \rel{>} holds exactly when the list presents the later event first, and controlling for gold removes the list cue by construction. Fitting the cue interaction instead, with sentence distance as the only control, it is significant and in the predicted direction for three of four models: odds ratio 0.222 $[0.097, 0.507]$ (\Ds), 0.096 $[0.029, 0.313]$ (\Gm), 0.200 $[0.073, 0.549]$ (\Qw), and 0.473 $[0.152, 1.473]$ (\Gp, $p{=}0.197$). The drop is specific to the conjunction of cues.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\columnwidth]{figures/fig_cue.pdf}
-\caption{Accuracy on answered before/after pairs, split by whether event list order and narration order agree with chronology (95\% passage-bootstrap CIs). Cell sizes for \Ds: 34,447, 1,902, 2,068 and 8,412.}
-\label{fig:cue}
-\end{figure}
-
-To separate the two cues, we cross list order with narration order on answered cells (Figure~\ref{fig:cue}). For \Ds\ and \Gp, accuracy is stable when only one cue contradicts chronology (\Ds: 0.909, 0.923, 0.916) and drops only when both do (\Ds: 0.739 $[0.640, 0.833]$; \Gp: 0.711 $[0.635, 0.779]$). \Gm\ behaves differently: its accuracy collapses whenever the list order contradicts chronology (0.375 and 0.232), regardless of narration order, a pattern consistent with reliance on position in the event list. Flashbacks, in which the list and the narration both present the later event first, are thus the hard case for the strongest models. At the passage level macro-F1 falls from fully linear to strongly non-linear passages (\Ds: 0.393 to 0.204; Figure~\ref{fig:factors}b), but non-linearity is confounded with passage size.
+To separate the two cues, we cross list order with narration order on answered cells (Figure~\ref{fig:cue}, Appendix~\ref{app:severity}). For \Ds\ and \Gp, accuracy is stable when only one cue contradicts chronology (\Ds: 0.909, 0.923, 0.916) and drops only when both do (\Ds: 0.739 $[0.640, 0.833]$; \Gp: 0.711 $[0.635, 0.779]$). \Gm\ behaves differently: its accuracy collapses whenever the list order contradicts chronology (0.375 and 0.232), regardless of narration order, a pattern consistent with reliance on position in the event list. Flashbacks, in which the list and the narration both present the later event first, are thus the hard case for the strongest models. At the passage level macro-F1 falls from fully linear to strongly non-linear passages (\Ds: 0.393 to 0.204; Figure~\ref{fig:factors}b), but non-linearity is confounded with passage size.
 
 \subsection{Passage size and output length}
 \label{sec:length}
 
-Larger passages are harder. Passage-level macro-F1 correlates negatively with the number of events (Spearman $\rho$ between $-0.57$ and $-0.68$) and, more weakly, with word count. In a regression with both standardised predictors, the number of events is significant for all four main models ($p<0.001$) while word count is not ($p\geq 0.052$), consistent with H7: performance tracks the number of events, and hence the size of the matrix to be written, more closely than text length, although event count is also confounded with narrative complexity. Macro-F1 for \Ds\ falls from 0.494 on passages with 8 to 15 events to 0.132 above 40 events, and for \Gp\ from 0.463 to 0.033. For \Ds, 30.3\% of the calls on passages with more than 40 events were truncated. Accuracy also declines from the first to the last decile of rows within an output for \Gp\ and \Qw\ but not \Ds\ (Figure~\ref{fig:factors}c).
+Larger passages are harder, and it is the number of events rather than the length of the text that predicts this. With both standardised predictors in one regression, event count is significant for all four main models ($p<0.001$) and word count is not ($p\geq 0.052$), consistent with H7: performance tracks the size of the matrix to be written, although event count is also confounded with narrative complexity. Macro-F1 for \Ds\ falls from 0.494 on passages with 8 to 15 events to 0.132 above 40 events, where 30.3\% of its calls were also truncated. Accuracy declines within an output for \Gp\ and \Qw\ but not \Ds\ (Appendix~\ref{app:severity}).
 
 Appendix~\ref{app:extra} reports cross-model agreement, the concentration of errors on single events, and model behaviour on known gold-standard issues; notably, at least four models agree against the gold label on 665 pairs, most often reading gold \rel{m} as \rel{<}; these model--gold disagreements are candidate annotation issues, not confirmed errors.
 
@@ -321,6 +307,14 @@ The temporal annotations were produced by the authors; no crowdworkers or other 
 
 \section{Experimental Setup and Cost}
 \label{app:setup}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth, trim=14 37 15 13, clip]{figures/fig_method_pipeline.pdf}
+\caption{Methodology pipeline. Everything in the dashed band was fixed in advance. Each model answers every passage, the parser turns each answer into an $n\times n$ matrix with missing cells, and all analyses read the stored matrices: the upper triangle is scored against gold, the lower triangle serves as a converse test, and the endpoint graph gives the satisfiability check and a best-found consistent repair. Uncertainty comes from a passage-level bootstrap with Holm correction and GEE models clustered by passage.}
+\label{fig:pipeline}
+\end{figure*}
+
 
 \begin{table*}[t]
 \centering
@@ -719,6 +713,36 @@ collinearity: scored pairs are ordered $i<j$ in list order, so on before/after p
 and ``the list presents the later event first'' are the same indicator. The model fitted is
 $\textsc{correct} \sim \textsc{list} \times \textsc{narr} + \textsc{sentdist}$ with a logistic
 link, independence working correlation and clustering by passage, on answered before/after pairs.
+
+\section{Error Severity and Passage Size}
+\label{app:severity}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig_cue.pdf}
+\caption{Accuracy on answered before/after pairs, split by whether event list order and narration order agree with chronology (95\% passage-bootstrap CIs). Cell sizes for \Ds: 34,447, 1,902, 2,068 and 8,412.}
+\label{fig:cue}
+\end{figure}
+
+
+\paragraph{Severity of answered errors.}
+Each Allen relation fixes the order ($<$, $=$, $>$) of four endpoint pairs: start-start,
+start-end, end-start and end-end (Table~\ref{tab:allen}). The severity of an answered error is
+how many of those four comparisons differ between the predicted and the gold relation, so
+\rel{m} for \rel{<} has severity 1 and \rel{>} for \rel{<} has severity 4. Severity 1 accounts
+for 23.8\% (\Gp) to 33.4\% (\Gm) of answered errors, severity 2 is the most frequent class for
+\Ds\ (43.5\%) and \Gp\ (42.0\%), and severity 4 accounts for 19.4\% (\Ds) to 30.0\% (\Qw).
+Near misses dominate only for particular gold relations: 83.6\% of \Ds's errors on gold \rel{o}
+and 65.5\% on gold \rel{m} have severity 1, against 4.0\% on gold \rel{>}. Figure~\ref{fig:factors}
+and Figure~\ref{fig:confusion} give the full breakdowns.
+
+\paragraph{Passage size and output length.}
+Passage-level macro-F1 correlates negatively with the number of events (Spearman $\rho$ from
+$-0.57$ for \Ds\ to $-0.68$ for \Qw) and with word count ($-0.41$ to $-0.52$); the regression
+reported in \S\ref{sec:length} separates the two. Macro-F1 for \Gp\ falls from 0.463 on the
+smallest passages to 0.033 above 40 events. Within an output, accuracy declines from the first
+to the last decile of generated rows for \Gp\ (0.410 to 0.291) and \Qw\ (0.244 to 0.164), while
+\Ds\ shows no such decline (Figure~\ref{fig:factors}c).
 
 \section{Relative Time in the Corpus}
 \label{app:relative}
