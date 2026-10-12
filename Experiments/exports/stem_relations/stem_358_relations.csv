@@ -1,0 +1,157 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,injured in a minor accident,unable to make his rounds
+E1,E3,1,< (Precedes),False,injured in a minor accident,The paper did not arrive
+E1,E4,1,< (Precedes),False,injured in a minor accident,The paper arrived
+E1,E5,1,< (Precedes),False,injured in a minor accident,returning the following day
+E1,E6,1,< (Precedes),False,injured in a minor accident,doubled Sajib's monthly tip
+E1,E7,1,< (Precedes),False,injured in a minor accident,began leaving a cup of tea on the doorstep
+E1,E8,1,< (Precedes),False,injured in a minor accident,Sajib drinks it
+E1,E9,1,< (Precedes),False,injured in a minor accident,exchanged perhaps fifty words
+E1,E10,5,d (During),False,injured in a minor accident,had been receiving the daily newspaper at his doorstep for thirty-one years
+E1,E11,5,d (During),False,injured in a minor accident,paper was delivered by a boy on a bicycle
+E1,E12,5,d (During),False,injured in a minor accident,read it over two cups of tea before beginning his day
+E1,E13,5,d (During),False,injured in a minor accident,had been delivering the paper for two years
+E2,E1,-4,si (Started By),False,unable to make his rounds,injured in a minor accident
+E2,E3,-5,di (Contains),False,unable to make his rounds,The paper did not arrive
+E2,E4,1,< (Precedes),False,unable to make his rounds,The paper arrived
+E2,E5,2,m (Meets),False,unable to make his rounds,returning the following day
+E2,E6,1,< (Precedes),False,unable to make his rounds,doubled Sajib's monthly tip
+E2,E7,1,< (Precedes),False,unable to make his rounds,began leaving a cup of tea on the doorstep
+E2,E8,1,< (Precedes),False,unable to make his rounds,Sajib drinks it
+E2,E9,1,< (Precedes),False,unable to make his rounds,exchanged perhaps fifty words
+E2,E10,5,d (During),False,unable to make his rounds,had been receiving the daily newspaper at his doorstep for thirty-one years
+E2,E11,5,d (During),False,unable to make his rounds,paper was delivered by a boy on a bicycle
+E2,E12,5,d (During),False,unable to make his rounds,read it over two cups of tea before beginning his day
+E2,E13,5,d (During),False,unable to make his rounds,had been delivering the paper for two years
+E3,E1,-1,> (Preceded By),False,The paper did not arrive,injured in a minor accident
+E3,E2,5,d (During),False,The paper did not arrive,unable to make his rounds
+E3,E4,1,< (Precedes),False,The paper did not arrive,The paper arrived
+E3,E5,1,< (Precedes),False,The paper did not arrive,returning the following day
+E3,E6,1,< (Precedes),False,The paper did not arrive,doubled Sajib's monthly tip
+E3,E7,1,< (Precedes),False,The paper did not arrive,began leaving a cup of tea on the doorstep
+E3,E8,1,< (Precedes),False,The paper did not arrive,Sajib drinks it
+E3,E9,1,< (Precedes),False,The paper did not arrive,exchanged perhaps fifty words
+E3,E10,5,d (During),False,The paper did not arrive,had been receiving the daily newspaper at his doorstep for thirty-one years
+E3,E11,5,d (During),False,The paper did not arrive,paper was delivered by a boy on a bicycle
+E3,E12,5,d (During),False,The paper did not arrive,read it over two cups of tea before beginning his day
+E3,E13,5,d (During),False,The paper did not arrive,had been delivering the paper for two years
+E4,E1,-1,> (Preceded By),False,The paper arrived,injured in a minor accident
+E4,E2,-1,> (Preceded By),False,The paper arrived,unable to make his rounds
+E4,E3,-1,> (Preceded By),False,The paper arrived,The paper did not arrive
+E4,E5,6,f (Finishes),False,The paper arrived,returning the following day
+E4,E6,2,m (Meets),False,The paper arrived,doubled Sajib's monthly tip
+E4,E7,2,m (Meets),False,The paper arrived,began leaving a cup of tea on the doorstep
+E4,E8,2,m (Meets),False,The paper arrived,Sajib drinks it
+E4,E9,2,m (Meets),False,The paper arrived,exchanged perhaps fifty words
+E4,E10,5,d (During),False,The paper arrived,had been receiving the daily newspaper at his doorstep for thirty-one years
+E4,E11,5,d (During),False,The paper arrived,paper was delivered by a boy on a bicycle
+E4,E12,5,d (During),False,The paper arrived,read it over two cups of tea before beginning his day
+E4,E13,5,d (During),False,The paper arrived,had been delivering the paper for two years
+E5,E1,-1,> (Preceded By),False,returning the following day,injured in a minor accident
+E5,E2,-2,mi (Met By),False,returning the following day,unable to make his rounds
+E5,E3,-1,> (Preceded By),False,returning the following day,The paper did not arrive
+E5,E4,-6,fi (Finished By),False,returning the following day,The paper arrived
+E5,E6,2,m (Meets),False,returning the following day,doubled Sajib's monthly tip
+E5,E7,2,m (Meets),False,returning the following day,began leaving a cup of tea on the doorstep
+E5,E8,2,m (Meets),False,returning the following day,Sajib drinks it
+E5,E9,2,m (Meets),False,returning the following day,exchanged perhaps fifty words
+E5,E10,5,d (During),False,returning the following day,had been receiving the daily newspaper at his doorstep for thirty-one years
+E5,E11,5,d (During),False,returning the following day,paper was delivered by a boy on a bicycle
+E5,E12,5,d (During),False,returning the following day,read it over two cups of tea before beginning his day
+E5,E13,5,d (During),False,returning the following day,had been delivering the paper for two years
+E6,E1,-1,> (Preceded By),False,doubled Sajib's monthly tip,injured in a minor accident
+E6,E2,-1,> (Preceded By),False,doubled Sajib's monthly tip,unable to make his rounds
+E6,E3,-1,> (Preceded By),False,doubled Sajib's monthly tip,The paper did not arrive
+E6,E4,-2,mi (Met By),False,doubled Sajib's monthly tip,The paper arrived
+E6,E5,-2,mi (Met By),False,doubled Sajib's monthly tip,returning the following day
+E6,E7,0,= (Equal),False,doubled Sajib's monthly tip,began leaving a cup of tea on the doorstep
+E6,E8,0,= (Equal),False,doubled Sajib's monthly tip,Sajib drinks it
+E6,E9,0,= (Equal),False,doubled Sajib's monthly tip,exchanged perhaps fifty words
+E6,E10,6,f (Finishes),False,doubled Sajib's monthly tip,had been receiving the daily newspaper at his doorstep for thirty-one years
+E6,E11,6,f (Finishes),False,doubled Sajib's monthly tip,paper was delivered by a boy on a bicycle
+E6,E12,6,f (Finishes),False,doubled Sajib's monthly tip,read it over two cups of tea before beginning his day
+E6,E13,6,f (Finishes),False,doubled Sajib's monthly tip,had been delivering the paper for two years
+E7,E1,-1,> (Preceded By),False,began leaving a cup of tea on the doorstep,injured in a minor accident
+E7,E2,-1,> (Preceded By),False,began leaving a cup of tea on the doorstep,unable to make his rounds
+E7,E3,-1,> (Preceded By),False,began leaving a cup of tea on the doorstep,The paper did not arrive
+E7,E4,-2,mi (Met By),False,began leaving a cup of tea on the doorstep,The paper arrived
+E7,E5,-2,mi (Met By),False,began leaving a cup of tea on the doorstep,returning the following day
+E7,E6,0,= (Equal),False,began leaving a cup of tea on the doorstep,doubled Sajib's monthly tip
+E7,E8,0,= (Equal),False,began leaving a cup of tea on the doorstep,Sajib drinks it
+E7,E9,0,= (Equal),False,began leaving a cup of tea on the doorstep,exchanged perhaps fifty words
+E7,E10,6,f (Finishes),False,began leaving a cup of tea on the doorstep,had been receiving the daily newspaper at his doorstep for thirty-one years
+E7,E11,6,f (Finishes),False,began leaving a cup of tea on the doorstep,paper was delivered by a boy on a bicycle
+E7,E12,6,f (Finishes),False,began leaving a cup of tea on the doorstep,read it over two cups of tea before beginning his day
+E7,E13,6,f (Finishes),False,began leaving a cup of tea on the doorstep,had been delivering the paper for two years
+E8,E1,-1,> (Preceded By),False,Sajib drinks it,injured in a minor accident
+E8,E2,-1,> (Preceded By),False,Sajib drinks it,unable to make his rounds
+E8,E3,-1,> (Preceded By),False,Sajib drinks it,The paper did not arrive
+E8,E4,-2,mi (Met By),False,Sajib drinks it,The paper arrived
+E8,E5,-2,mi (Met By),False,Sajib drinks it,returning the following day
+E8,E6,0,= (Equal),False,Sajib drinks it,doubled Sajib's monthly tip
+E8,E7,0,= (Equal),False,Sajib drinks it,began leaving a cup of tea on the doorstep
+E8,E9,0,= (Equal),False,Sajib drinks it,exchanged perhaps fifty words
+E8,E10,6,f (Finishes),False,Sajib drinks it,had been receiving the daily newspaper at his doorstep for thirty-one years
+E8,E11,6,f (Finishes),False,Sajib drinks it,paper was delivered by a boy on a bicycle
+E8,E12,6,f (Finishes),False,Sajib drinks it,read it over two cups of tea before beginning his day
+E8,E13,6,f (Finishes),False,Sajib drinks it,had been delivering the paper for two years
+E9,E1,-1,> (Preceded By),False,exchanged perhaps fifty words,injured in a minor accident
+E9,E2,-1,> (Preceded By),False,exchanged perhaps fifty words,unable to make his rounds
+E9,E3,-1,> (Preceded By),False,exchanged perhaps fifty words,The paper did not arrive
+E9,E4,-2,mi (Met By),False,exchanged perhaps fifty words,The paper arrived
+E9,E5,-2,mi (Met By),False,exchanged perhaps fifty words,returning the following day
+E9,E6,0,= (Equal),False,exchanged perhaps fifty words,doubled Sajib's monthly tip
+E9,E7,0,= (Equal),False,exchanged perhaps fifty words,began leaving a cup of tea on the doorstep
+E9,E8,0,= (Equal),False,exchanged perhaps fifty words,Sajib drinks it
+E9,E10,6,f (Finishes),False,exchanged perhaps fifty words,had been receiving the daily newspaper at his doorstep for thirty-one years
+E9,E11,6,f (Finishes),False,exchanged perhaps fifty words,paper was delivered by a boy on a bicycle
+E9,E12,6,f (Finishes),False,exchanged perhaps fifty words,read it over two cups of tea before beginning his day
+E9,E13,6,f (Finishes),False,exchanged perhaps fifty words,had been delivering the paper for two years
+E10,E1,-5,di (Contains),False,had been receiving the daily newspaper at his doorstep for thirty-one years,injured in a minor accident
+E10,E2,-5,di (Contains),False,had been receiving the daily newspaper at his doorstep for thirty-one years,unable to make his rounds
+E10,E3,-5,di (Contains),False,had been receiving the daily newspaper at his doorstep for thirty-one years,The paper did not arrive
+E10,E4,-5,di (Contains),False,had been receiving the daily newspaper at his doorstep for thirty-one years,The paper arrived
+E10,E5,-5,di (Contains),False,had been receiving the daily newspaper at his doorstep for thirty-one years,returning the following day
+E10,E6,-6,fi (Finished By),False,had been receiving the daily newspaper at his doorstep for thirty-one years,doubled Sajib's monthly tip
+E10,E7,-6,fi (Finished By),False,had been receiving the daily newspaper at his doorstep for thirty-one years,began leaving a cup of tea on the doorstep
+E10,E8,-6,fi (Finished By),False,had been receiving the daily newspaper at his doorstep for thirty-one years,Sajib drinks it
+E10,E9,-6,fi (Finished By),False,had been receiving the daily newspaper at his doorstep for thirty-one years,exchanged perhaps fifty words
+E10,E11,0,= (Equal),False,had been receiving the daily newspaper at his doorstep for thirty-one years,paper was delivered by a boy on a bicycle
+E10,E12,0,= (Equal),False,had been receiving the daily newspaper at his doorstep for thirty-one years,read it over two cups of tea before beginning his day
+E10,E13,-6,fi (Finished By),False,had been receiving the daily newspaper at his doorstep for thirty-one years,had been delivering the paper for two years
+E11,E1,-5,di (Contains),False,paper was delivered by a boy on a bicycle,injured in a minor accident
+E11,E2,-5,di (Contains),False,paper was delivered by a boy on a bicycle,unable to make his rounds
+E11,E3,-5,di (Contains),False,paper was delivered by a boy on a bicycle,The paper did not arrive
+E11,E4,-5,di (Contains),False,paper was delivered by a boy on a bicycle,The paper arrived
+E11,E5,-5,di (Contains),False,paper was delivered by a boy on a bicycle,returning the following day
+E11,E6,-6,fi (Finished By),False,paper was delivered by a boy on a bicycle,doubled Sajib's monthly tip
+E11,E7,-6,fi (Finished By),False,paper was delivered by a boy on a bicycle,began leaving a cup of tea on the doorstep
+E11,E8,-6,fi (Finished By),False,paper was delivered by a boy on a bicycle,Sajib drinks it
+E11,E9,-6,fi (Finished By),False,paper was delivered by a boy on a bicycle,exchanged perhaps fifty words
+E11,E10,0,= (Equal),False,paper was delivered by a boy on a bicycle,had been receiving the daily newspaper at his doorstep for thirty-one years
+E11,E12,0,= (Equal),False,paper was delivered by a boy on a bicycle,read it over two cups of tea before beginning his day
+E11,E13,-6,fi (Finished By),False,paper was delivered by a boy on a bicycle,had been delivering the paper for two years
+E12,E1,-5,di (Contains),False,read it over two cups of tea before beginning his day,injured in a minor accident
+E12,E2,-5,di (Contains),False,read it over two cups of tea before beginning his day,unable to make his rounds
+E12,E3,-5,di (Contains),False,read it over two cups of tea before beginning his day,The paper did not arrive
+E12,E4,-5,di (Contains),False,read it over two cups of tea before beginning his day,The paper arrived
+E12,E5,-5,di (Contains),False,read it over two cups of tea before beginning his day,returning the following day
+E12,E6,-6,fi (Finished By),False,read it over two cups of tea before beginning his day,doubled Sajib's monthly tip
+E12,E7,-6,fi (Finished By),False,read it over two cups of tea before beginning his day,began leaving a cup of tea on the doorstep
+E12,E8,-6,fi (Finished By),False,read it over two cups of tea before beginning his day,Sajib drinks it
+E12,E9,-6,fi (Finished By),False,read it over two cups of tea before beginning his day,exchanged perhaps fifty words
+E12,E10,0,= (Equal),False,read it over two cups of tea before beginning his day,had been receiving the daily newspaper at his doorstep for thirty-one years
+E12,E11,0,= (Equal),False,read it over two cups of tea before beginning his day,paper was delivered by a boy on a bicycle
+E12,E13,-6,fi (Finished By),False,read it over two cups of tea before beginning his day,had been delivering the paper for two years
+E13,E1,-5,di (Contains),False,had been delivering the paper for two years,injured in a minor accident
+E13,E2,-5,di (Contains),False,had been delivering the paper for two years,unable to make his rounds
+E13,E3,-5,di (Contains),False,had been delivering the paper for two years,The paper did not arrive
+E13,E4,-5,di (Contains),False,had been delivering the paper for two years,The paper arrived
+E13,E5,-5,di (Contains),False,had been delivering the paper for two years,returning the following day
+E13,E6,-6,fi (Finished By),False,had been delivering the paper for two years,doubled Sajib's monthly tip
+E13,E7,-6,fi (Finished By),False,had been delivering the paper for two years,began leaving a cup of tea on the doorstep
+E13,E8,-6,fi (Finished By),False,had been delivering the paper for two years,Sajib drinks it
+E13,E9,-6,fi (Finished By),False,had been delivering the paper for two years,exchanged perhaps fifty words
+E13,E10,6,f (Finishes),False,had been delivering the paper for two years,had been receiving the daily newspaper at his doorstep for thirty-one years
+E13,E11,6,f (Finishes),False,had been delivering the paper for two years,paper was delivered by a boy on a bicycle
+E13,E12,6,f (Finishes),False,had been delivering the paper for two years,read it over two cups of tea before beginning his day

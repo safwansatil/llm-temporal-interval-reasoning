@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,operated his second-hand furniture shop,A new furniture chain had opened in the shopping mall
+E1,E3,-5,di (Contains),False,operated his second-hand furniture shop,Business had declined
+E1,E4,-5,di (Contains),False,operated his second-hand furniture shop,Mr. Kabir's income dropped by nearly half
+E1,E5,-5,di (Contains),False,operated his second-hand furniture shop,a customer who had asked if he could repair a damaged chair
+E1,E6,-5,di (Contains),False,operated his second-hand furniture shop,Mr. Kabir had done the work
+E1,E7,-5,di (Contains),False,operated his second-hand furniture shop,He began offering furniture restoration services
+E1,E8,-6,fi (Finished By),False,operated his second-hand furniture shop,The restoration service became the core of his business
+E1,E9,-6,fi (Finished By),False,operated his second-hand furniture shop,he had more work than he could handle alone
+E1,E10,-5,di (Contains),False,operated his second-hand furniture shop,He hired his nephew as an apprentice
+E1,E11,-6,fi (Finished By),False,operated his second-hand furniture shop,returned with pieces that the chain
+E2,E1,5,d (During),False,A new furniture chain had opened in the shopping mall,operated his second-hand furniture shop
+E2,E3,1,< (Precedes),False,A new furniture chain had opened in the shopping mall,Business had declined
+E2,E4,1,< (Precedes),False,A new furniture chain had opened in the shopping mall,Mr. Kabir's income dropped by nearly half
+E2,E5,1,< (Precedes),False,A new furniture chain had opened in the shopping mall,a customer who had asked if he could repair a damaged chair
+E2,E6,1,< (Precedes),False,A new furniture chain had opened in the shopping mall,Mr. Kabir had done the work
+E2,E7,1,< (Precedes),False,A new furniture chain had opened in the shopping mall,He began offering furniture restoration services
+E2,E8,1,< (Precedes),False,A new furniture chain had opened in the shopping mall,The restoration service became the core of his business
+E2,E9,1,< (Precedes),False,A new furniture chain had opened in the shopping mall,he had more work than he could handle alone
+E2,E10,1,< (Precedes),False,A new furniture chain had opened in the shopping mall,He hired his nephew as an apprentice
+E2,E11,1,< (Precedes),False,A new furniture chain had opened in the shopping mall,returned with pieces that the chain
+E3,E1,5,d (During),False,Business had declined,operated his second-hand furniture shop
+E3,E2,-1,> (Preceded By),False,Business had declined,A new furniture chain had opened in the shopping mall
+E3,E4,0,= (Equal),False,Business had declined,Mr. Kabir's income dropped by nearly half
+E3,E5,1,< (Precedes),False,Business had declined,a customer who had asked if he could repair a damaged chair
+E3,E6,1,< (Precedes),False,Business had declined,Mr. Kabir had done the work
+E3,E7,1,< (Precedes),False,Business had declined,He began offering furniture restoration services
+E3,E8,1,< (Precedes),False,Business had declined,The restoration service became the core of his business
+E3,E9,1,< (Precedes),False,Business had declined,he had more work than he could handle alone
+E3,E10,1,< (Precedes),False,Business had declined,He hired his nephew as an apprentice
+E3,E11,1,< (Precedes),False,Business had declined,returned with pieces that the chain
+E4,E1,5,d (During),False,Mr. Kabir's income dropped by nearly half,operated his second-hand furniture shop
+E4,E2,-1,> (Preceded By),False,Mr. Kabir's income dropped by nearly half,A new furniture chain had opened in the shopping mall
+E4,E3,0,= (Equal),False,Mr. Kabir's income dropped by nearly half,Business had declined
+E4,E5,1,< (Precedes),False,Mr. Kabir's income dropped by nearly half,a customer who had asked if he could repair a damaged chair
+E4,E6,1,< (Precedes),False,Mr. Kabir's income dropped by nearly half,Mr. Kabir had done the work
+E4,E7,1,< (Precedes),False,Mr. Kabir's income dropped by nearly half,He began offering furniture restoration services
+E4,E8,1,< (Precedes),False,Mr. Kabir's income dropped by nearly half,The restoration service became the core of his business
+E4,E9,1,< (Precedes),False,Mr. Kabir's income dropped by nearly half,he had more work than he could handle alone
+E4,E10,1,< (Precedes),False,Mr. Kabir's income dropped by nearly half,He hired his nephew as an apprentice
+E4,E11,1,< (Precedes),False,Mr. Kabir's income dropped by nearly half,returned with pieces that the chain
+E5,E1,5,d (During),False,a customer who had asked if he could repair a damaged chair,operated his second-hand furniture shop
+E5,E2,-1,> (Preceded By),False,a customer who had asked if he could repair a damaged chair,A new furniture chain had opened in the shopping mall
+E5,E3,-1,> (Preceded By),False,a customer who had asked if he could repair a damaged chair,Business had declined
+E5,E4,-1,> (Preceded By),False,a customer who had asked if he could repair a damaged chair,Mr. Kabir's income dropped by nearly half
+E5,E6,1,< (Precedes),False,a customer who had asked if he could repair a damaged chair,Mr. Kabir had done the work
+E5,E7,1,< (Precedes),False,a customer who had asked if he could repair a damaged chair,He began offering furniture restoration services
+E5,E8,1,< (Precedes),False,a customer who had asked if he could repair a damaged chair,The restoration service became the core of his business
+E5,E9,1,< (Precedes),False,a customer who had asked if he could repair a damaged chair,he had more work than he could handle alone
+E5,E10,1,< (Precedes),False,a customer who had asked if he could repair a damaged chair,He hired his nephew as an apprentice
+E5,E11,1,< (Precedes),False,a customer who had asked if he could repair a damaged chair,returned with pieces that the chain
+E6,E1,5,d (During),False,Mr. Kabir had done the work,operated his second-hand furniture shop
+E6,E2,-1,> (Preceded By),False,Mr. Kabir had done the work,A new furniture chain had opened in the shopping mall
+E6,E3,-1,> (Preceded By),False,Mr. Kabir had done the work,Business had declined
+E6,E4,-1,> (Preceded By),False,Mr. Kabir had done the work,Mr. Kabir's income dropped by nearly half
+E6,E5,-1,> (Preceded By),False,Mr. Kabir had done the work,a customer who had asked if he could repair a damaged chair
+E6,E7,1,< (Precedes),False,Mr. Kabir had done the work,He began offering furniture restoration services
+E6,E8,1,< (Precedes),False,Mr. Kabir had done the work,The restoration service became the core of his business
+E6,E9,1,< (Precedes),False,Mr. Kabir had done the work,he had more work than he could handle alone
+E6,E10,1,< (Precedes),False,Mr. Kabir had done the work,He hired his nephew as an apprentice
+E6,E11,1,< (Precedes),False,Mr. Kabir had done the work,returned with pieces that the chain
+E7,E1,5,d (During),False,He began offering furniture restoration services,operated his second-hand furniture shop
+E7,E2,-1,> (Preceded By),False,He began offering furniture restoration services,A new furniture chain had opened in the shopping mall
+E7,E3,-1,> (Preceded By),False,He began offering furniture restoration services,Business had declined
+E7,E4,-1,> (Preceded By),False,He began offering furniture restoration services,Mr. Kabir's income dropped by nearly half
+E7,E5,-1,> (Preceded By),False,He began offering furniture restoration services,a customer who had asked if he could repair a damaged chair
+E7,E6,-1,> (Preceded By),False,He began offering furniture restoration services,Mr. Kabir had done the work
+E7,E8,1,< (Precedes),False,He began offering furniture restoration services,The restoration service became the core of his business
+E7,E9,1,< (Precedes),False,He began offering furniture restoration services,he had more work than he could handle alone
+E7,E10,1,< (Precedes),False,He began offering furniture restoration services,He hired his nephew as an apprentice
+E7,E11,1,< (Precedes),False,He began offering furniture restoration services,returned with pieces that the chain
+E8,E1,6,f (Finishes),False,The restoration service became the core of his business,operated his second-hand furniture shop
+E8,E2,-1,> (Preceded By),False,The restoration service became the core of his business,A new furniture chain had opened in the shopping mall
+E8,E3,-1,> (Preceded By),False,The restoration service became the core of his business,Business had declined
+E8,E4,-1,> (Preceded By),False,The restoration service became the core of his business,Mr. Kabir's income dropped by nearly half
+E8,E5,-1,> (Preceded By),False,The restoration service became the core of his business,a customer who had asked if he could repair a damaged chair
+E8,E6,-1,> (Preceded By),False,The restoration service became the core of his business,Mr. Kabir had done the work
+E8,E7,-1,> (Preceded By),False,The restoration service became the core of his business,He began offering furniture restoration services
+E8,E9,-6,fi (Finished By),False,The restoration service became the core of his business,he had more work than he could handle alone
+E8,E10,-5,di (Contains),False,The restoration service became the core of his business,He hired his nephew as an apprentice
+E8,E11,-6,fi (Finished By),False,The restoration service became the core of his business,returned with pieces that the chain
+E9,E1,6,f (Finishes),False,he had more work than he could handle alone,operated his second-hand furniture shop
+E9,E2,-1,> (Preceded By),False,he had more work than he could handle alone,A new furniture chain had opened in the shopping mall
+E9,E3,-1,> (Preceded By),False,he had more work than he could handle alone,Business had declined
+E9,E4,-1,> (Preceded By),False,he had more work than he could handle alone,Mr. Kabir's income dropped by nearly half
+E9,E5,-1,> (Preceded By),False,he had more work than he could handle alone,a customer who had asked if he could repair a damaged chair
+E9,E6,-1,> (Preceded By),False,he had more work than he could handle alone,Mr. Kabir had done the work
+E9,E7,-1,> (Preceded By),False,he had more work than he could handle alone,He began offering furniture restoration services
+E9,E8,6,f (Finishes),False,he had more work than he could handle alone,The restoration service became the core of his business
+E9,E10,-5,di (Contains),False,he had more work than he could handle alone,He hired his nephew as an apprentice
+E9,E11,6,f (Finishes),False,he had more work than he could handle alone,returned with pieces that the chain
+E10,E1,5,d (During),False,He hired his nephew as an apprentice,operated his second-hand furniture shop
+E10,E2,-1,> (Preceded By),False,He hired his nephew as an apprentice,A new furniture chain had opened in the shopping mall
+E10,E3,-1,> (Preceded By),False,He hired his nephew as an apprentice,Business had declined
+E10,E4,-1,> (Preceded By),False,He hired his nephew as an apprentice,Mr. Kabir's income dropped by nearly half
+E10,E5,-1,> (Preceded By),False,He hired his nephew as an apprentice,a customer who had asked if he could repair a damaged chair
+E10,E6,-1,> (Preceded By),False,He hired his nephew as an apprentice,Mr. Kabir had done the work
+E10,E7,-1,> (Preceded By),False,He hired his nephew as an apprentice,He began offering furniture restoration services
+E10,E8,5,d (During),False,He hired his nephew as an apprentice,The restoration service became the core of his business
+E10,E9,5,d (During),False,He hired his nephew as an apprentice,he had more work than he could handle alone
+E10,E11,5,d (During),False,He hired his nephew as an apprentice,returned with pieces that the chain
+E11,E1,6,f (Finishes),False,returned with pieces that the chain,operated his second-hand furniture shop
+E11,E2,-1,> (Preceded By),False,returned with pieces that the chain,A new furniture chain had opened in the shopping mall
+E11,E3,-1,> (Preceded By),False,returned with pieces that the chain,Business had declined
+E11,E4,-1,> (Preceded By),False,returned with pieces that the chain,Mr. Kabir's income dropped by nearly half
+E11,E5,-1,> (Preceded By),False,returned with pieces that the chain,a customer who had asked if he could repair a damaged chair
+E11,E6,-1,> (Preceded By),False,returned with pieces that the chain,Mr. Kabir had done the work
+E11,E7,-1,> (Preceded By),False,returned with pieces that the chain,He began offering furniture restoration services
+E11,E8,6,f (Finishes),False,returned with pieces that the chain,The restoration service became the core of his business
+E11,E9,-6,fi (Finished By),False,returned with pieces that the chain,he had more work than he could handle alone
+E11,E10,-5,di (Contains),False,returned with pieces that the chain,He hired his nephew as an apprentice

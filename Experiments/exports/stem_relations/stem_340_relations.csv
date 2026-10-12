@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,The motor had been making strange noises,refrigerator stopped working
+E1,E3,2,m (Meets),False,The motor had been making strange noises,it simply went silent
+E1,E4,1,< (Precedes),False,The motor had been making strange noises,She called a repair service
+E1,E5,1,< (Precedes),False,The motor had been making strange noises,transferring food to her neighbor's refrigerator
+E1,E6,1,< (Precedes),False,The motor had been making strange noises,She called again
+E1,E7,1,< (Precedes),False,The motor had been making strange noises,The technician arrived
+E1,E8,1,< (Precedes),False,The motor had been making strange noises,He examined the fridge
+E1,E9,1,< (Precedes),False,The motor had been making strange noises,He offered it to Mrs. Yasmin
+E1,E10,1,< (Precedes),False,The motor had been making strange noises,She accepted gratefully
+E1,E11,1,< (Precedes),False,The motor had been making strange noises,The part arrived
+E1,E12,1,< (Precedes),False,The motor had been making strange noises,The technician installed it
+E1,E13,1,< (Precedes),False,The motor had been making strange noises,the refrigerator hummed back to life
+E1,E14,1,< (Precedes),False,The motor had been making strange noises,Mrs. Yasmin returned the borrowed fridge
+E2,E1,-2,mi (Met By),False,refrigerator stopped working,The motor had been making strange noises
+E2,E3,0,= (Equal),False,refrigerator stopped working,it simply went silent
+E2,E4,3,o (Overlaps),False,refrigerator stopped working,She called a repair service
+E2,E5,2,m (Meets),False,refrigerator stopped working,transferring food to her neighbor's refrigerator
+E2,E6,1,< (Precedes),False,refrigerator stopped working,She called again
+E2,E7,1,< (Precedes),False,refrigerator stopped working,The technician arrived
+E2,E8,1,< (Precedes),False,refrigerator stopped working,He examined the fridge
+E2,E9,1,< (Precedes),False,refrigerator stopped working,He offered it to Mrs. Yasmin
+E2,E10,1,< (Precedes),False,refrigerator stopped working,She accepted gratefully
+E2,E11,1,< (Precedes),False,refrigerator stopped working,The part arrived
+E2,E12,1,< (Precedes),False,refrigerator stopped working,The technician installed it
+E2,E13,1,< (Precedes),False,refrigerator stopped working,the refrigerator hummed back to life
+E2,E14,1,< (Precedes),False,refrigerator stopped working,Mrs. Yasmin returned the borrowed fridge
+E3,E1,-2,mi (Met By),False,it simply went silent,The motor had been making strange noises
+E3,E2,0,= (Equal),False,it simply went silent,refrigerator stopped working
+E3,E4,3,o (Overlaps),False,it simply went silent,She called a repair service
+E3,E5,2,m (Meets),False,it simply went silent,transferring food to her neighbor's refrigerator
+E3,E6,1,< (Precedes),False,it simply went silent,She called again
+E3,E7,1,< (Precedes),False,it simply went silent,The technician arrived
+E3,E8,1,< (Precedes),False,it simply went silent,He examined the fridge
+E3,E9,1,< (Precedes),False,it simply went silent,He offered it to Mrs. Yasmin
+E3,E10,1,< (Precedes),False,it simply went silent,She accepted gratefully
+E3,E11,1,< (Precedes),False,it simply went silent,The part arrived
+E3,E12,1,< (Precedes),False,it simply went silent,The technician installed it
+E3,E13,1,< (Precedes),False,it simply went silent,the refrigerator hummed back to life
+E3,E14,1,< (Precedes),False,it simply went silent,Mrs. Yasmin returned the borrowed fridge
+E4,E1,-1,> (Preceded By),False,She called a repair service,The motor had been making strange noises
+E4,E2,-3,oi (Overlapped By),False,She called a repair service,refrigerator stopped working
+E4,E3,-3,oi (Overlapped By),False,She called a repair service,it simply went silent
+E4,E5,3,o (Overlaps),False,She called a repair service,transferring food to her neighbor's refrigerator
+E4,E6,1,< (Precedes),False,She called a repair service,She called again
+E4,E7,1,< (Precedes),False,She called a repair service,The technician arrived
+E4,E8,1,< (Precedes),False,She called a repair service,He examined the fridge
+E4,E9,1,< (Precedes),False,She called a repair service,He offered it to Mrs. Yasmin
+E4,E10,1,< (Precedes),False,She called a repair service,She accepted gratefully
+E4,E11,1,< (Precedes),False,She called a repair service,The part arrived
+E4,E12,1,< (Precedes),False,She called a repair service,The technician installed it
+E4,E13,1,< (Precedes),False,She called a repair service,the refrigerator hummed back to life
+E4,E14,1,< (Precedes),False,She called a repair service,Mrs. Yasmin returned the borrowed fridge
+E5,E1,-1,> (Preceded By),False,transferring food to her neighbor's refrigerator,The motor had been making strange noises
+E5,E2,-2,mi (Met By),False,transferring food to her neighbor's refrigerator,refrigerator stopped working
+E5,E3,-2,mi (Met By),False,transferring food to her neighbor's refrigerator,it simply went silent
+E5,E4,-3,oi (Overlapped By),False,transferring food to her neighbor's refrigerator,She called a repair service
+E5,E6,-6,fi (Finished By),False,transferring food to her neighbor's refrigerator,She called again
+E5,E7,1,< (Precedes),False,transferring food to her neighbor's refrigerator,The technician arrived
+E5,E8,1,< (Precedes),False,transferring food to her neighbor's refrigerator,He examined the fridge
+E5,E9,1,< (Precedes),False,transferring food to her neighbor's refrigerator,He offered it to Mrs. Yasmin
+E5,E10,1,< (Precedes),False,transferring food to her neighbor's refrigerator,She accepted gratefully
+E5,E11,1,< (Precedes),False,transferring food to her neighbor's refrigerator,The part arrived
+E5,E12,1,< (Precedes),False,transferring food to her neighbor's refrigerator,The technician installed it
+E5,E13,1,< (Precedes),False,transferring food to her neighbor's refrigerator,the refrigerator hummed back to life
+E5,E14,1,< (Precedes),False,transferring food to her neighbor's refrigerator,Mrs. Yasmin returned the borrowed fridge
+E6,E1,-1,> (Preceded By),False,She called again,The motor had been making strange noises
+E6,E2,-1,> (Preceded By),False,She called again,refrigerator stopped working
+E6,E3,-1,> (Preceded By),False,She called again,it simply went silent
+E6,E4,-1,> (Preceded By),False,She called again,She called a repair service
+E6,E5,6,f (Finishes),False,She called again,transferring food to her neighbor's refrigerator
+E6,E7,1,< (Precedes),False,She called again,The technician arrived
+E6,E8,1,< (Precedes),False,She called again,He examined the fridge
+E6,E9,1,< (Precedes),False,She called again,He offered it to Mrs. Yasmin
+E6,E10,1,< (Precedes),False,She called again,She accepted gratefully
+E6,E11,1,< (Precedes),False,She called again,The part arrived
+E6,E12,1,< (Precedes),False,She called again,The technician installed it
+E6,E13,1,< (Precedes),False,She called again,the refrigerator hummed back to life
+E6,E14,1,< (Precedes),False,She called again,Mrs. Yasmin returned the borrowed fridge
+E7,E1,-1,> (Preceded By),False,The technician arrived,The motor had been making strange noises
+E7,E2,-1,> (Preceded By),False,The technician arrived,refrigerator stopped working
+E7,E3,-1,> (Preceded By),False,The technician arrived,it simply went silent
+E7,E4,-1,> (Preceded By),False,The technician arrived,She called a repair service
+E7,E5,-1,> (Preceded By),False,The technician arrived,transferring food to her neighbor's refrigerator
+E7,E6,-1,> (Preceded By),False,The technician arrived,She called again
+E7,E8,-4,si (Started By),False,The technician arrived,He examined the fridge
+E7,E9,2,m (Meets),False,The technician arrived,He offered it to Mrs. Yasmin
+E7,E10,1,< (Precedes),False,The technician arrived,She accepted gratefully
+E7,E11,1,< (Precedes),False,The technician arrived,The part arrived
+E7,E12,1,< (Precedes),False,The technician arrived,The technician installed it
+E7,E13,1,< (Precedes),False,The technician arrived,the refrigerator hummed back to life
+E7,E14,1,< (Precedes),False,The technician arrived,Mrs. Yasmin returned the borrowed fridge
+E8,E1,-1,> (Preceded By),False,He examined the fridge,The motor had been making strange noises
+E8,E2,-1,> (Preceded By),False,He examined the fridge,refrigerator stopped working
+E8,E3,-1,> (Preceded By),False,He examined the fridge,it simply went silent
+E8,E4,-1,> (Preceded By),False,He examined the fridge,She called a repair service
+E8,E5,-1,> (Preceded By),False,He examined the fridge,transferring food to her neighbor's refrigerator
+E8,E6,-1,> (Preceded By),False,He examined the fridge,She called again
+E8,E7,4,s (Starts),False,He examined the fridge,The technician arrived
+E8,E9,1,< (Precedes),False,He examined the fridge,He offered it to Mrs. Yasmin
+E8,E10,1,< (Precedes),False,He examined the fridge,She accepted gratefully
+E8,E11,1,< (Precedes),False,He examined the fridge,The part arrived
+E8,E12,1,< (Precedes),False,He examined the fridge,The technician installed it
+E8,E13,1,< (Precedes),False,He examined the fridge,the refrigerator hummed back to life
+E8,E14,1,< (Precedes),False,He examined the fridge,Mrs. Yasmin returned the borrowed fridge
+E9,E1,-1,> (Preceded By),False,He offered it to Mrs. Yasmin,The motor had been making strange noises
+E9,E2,-1,> (Preceded By),False,He offered it to Mrs. Yasmin,refrigerator stopped working
+E9,E3,-1,> (Preceded By),False,He offered it to Mrs. Yasmin,it simply went silent
+E9,E4,-1,> (Preceded By),False,He offered it to Mrs. Yasmin,She called a repair service
+E9,E5,-1,> (Preceded By),False,He offered it to Mrs. Yasmin,transferring food to her neighbor's refrigerator
+E9,E6,-1,> (Preceded By),False,He offered it to Mrs. Yasmin,She called again
+E9,E7,-2,mi (Met By),False,He offered it to Mrs. Yasmin,The technician arrived
+E9,E8,-1,> (Preceded By),False,He offered it to Mrs. Yasmin,He examined the fridge
+E9,E10,3,o (Overlaps),False,He offered it to Mrs. Yasmin,She accepted gratefully
+E9,E11,1,< (Precedes),False,He offered it to Mrs. Yasmin,The part arrived
+E9,E12,1,< (Precedes),False,He offered it to Mrs. Yasmin,The technician installed it
+E9,E13,1,< (Precedes),False,He offered it to Mrs. Yasmin,the refrigerator hummed back to life
+E9,E14,1,< (Precedes),False,He offered it to Mrs. Yasmin,Mrs. Yasmin returned the borrowed fridge
+E10,E1,-1,> (Preceded By),False,She accepted gratefully,The motor had been making strange noises
+E10,E2,-1,> (Preceded By),False,She accepted gratefully,refrigerator stopped working
+E10,E3,-1,> (Preceded By),False,She accepted gratefully,it simply went silent
+E10,E4,-1,> (Preceded By),False,She accepted gratefully,She called a repair service
+E10,E5,-1,> (Preceded By),False,She accepted gratefully,transferring food to her neighbor's refrigerator
+E10,E6,-1,> (Preceded By),False,She accepted gratefully,She called again
+E10,E7,-1,> (Preceded By),False,She accepted gratefully,The technician arrived
+E10,E8,-1,> (Preceded By),False,She accepted gratefully,He examined the fridge
+E10,E9,-3,oi (Overlapped By),False,She accepted gratefully,He offered it to Mrs. Yasmin
+E10,E11,1,< (Precedes),False,She accepted gratefully,The part arrived
+E10,E12,1,< (Precedes),False,She accepted gratefully,The technician installed it
+E10,E13,1,< (Precedes),False,She accepted gratefully,the refrigerator hummed back to life
+E10,E14,1,< (Precedes),False,She accepted gratefully,Mrs. Yasmin returned the borrowed fridge
+E11,E1,-1,> (Preceded By),False,The part arrived,The motor had been making strange noises
+E11,E2,-1,> (Preceded By),False,The part arrived,refrigerator stopped working
+E11,E3,-1,> (Preceded By),False,The part arrived,it simply went silent
+E11,E4,-1,> (Preceded By),False,The part arrived,She called a repair service
+E11,E5,-1,> (Preceded By),False,The part arrived,transferring food to her neighbor's refrigerator
+E11,E6,-1,> (Preceded By),False,The part arrived,She called again
+E11,E7,-1,> (Preceded By),False,The part arrived,The technician arrived
+E11,E8,-1,> (Preceded By),False,The part arrived,He examined the fridge
+E11,E9,-1,> (Preceded By),False,The part arrived,He offered it to Mrs. Yasmin
+E11,E10,-1,> (Preceded By),False,The part arrived,She accepted gratefully
+E11,E12,-6,fi (Finished By),False,The part arrived,The technician installed it
+E11,E13,2,m (Meets),False,The part arrived,the refrigerator hummed back to life
+E11,E14,1,< (Precedes),False,The part arrived,Mrs. Yasmin returned the borrowed fridge
+E12,E1,-1,> (Preceded By),False,The technician installed it,The motor had been making strange noises
+E12,E2,-1,> (Preceded By),False,The technician installed it,refrigerator stopped working
+E12,E3,-1,> (Preceded By),False,The technician installed it,it simply went silent
+E12,E4,-1,> (Preceded By),False,The technician installed it,She called a repair service
+E12,E5,-1,> (Preceded By),False,The technician installed it,transferring food to her neighbor's refrigerator
+E12,E6,-1,> (Preceded By),False,The technician installed it,She called again
+E12,E7,-1,> (Preceded By),False,The technician installed it,The technician arrived
+E12,E8,-1,> (Preceded By),False,The technician installed it,He examined the fridge
+E12,E9,-1,> (Preceded By),False,The technician installed it,He offered it to Mrs. Yasmin
+E12,E10,-1,> (Preceded By),False,The technician installed it,She accepted gratefully
+E12,E11,6,f (Finishes),False,The technician installed it,The part arrived
+E12,E13,2,m (Meets),False,The technician installed it,the refrigerator hummed back to life
+E12,E14,1,< (Precedes),False,The technician installed it,Mrs. Yasmin returned the borrowed fridge
+E13,E1,-1,> (Preceded By),False,the refrigerator hummed back to life,The motor had been making strange noises
+E13,E2,-1,> (Preceded By),False,the refrigerator hummed back to life,refrigerator stopped working
+E13,E3,-1,> (Preceded By),False,the refrigerator hummed back to life,it simply went silent
+E13,E4,-1,> (Preceded By),False,the refrigerator hummed back to life,She called a repair service
+E13,E5,-1,> (Preceded By),False,the refrigerator hummed back to life,transferring food to her neighbor's refrigerator
+E13,E6,-1,> (Preceded By),False,the refrigerator hummed back to life,She called again
+E13,E7,-1,> (Preceded By),False,the refrigerator hummed back to life,The technician arrived
+E13,E8,-1,> (Preceded By),False,the refrigerator hummed back to life,He examined the fridge
+E13,E9,-1,> (Preceded By),False,the refrigerator hummed back to life,He offered it to Mrs. Yasmin
+E13,E10,-1,> (Preceded By),False,the refrigerator hummed back to life,She accepted gratefully
+E13,E11,-2,mi (Met By),False,the refrigerator hummed back to life,The part arrived
+E13,E12,-2,mi (Met By),False,the refrigerator hummed back to life,The technician installed it
+E13,E14,2,m (Meets),False,the refrigerator hummed back to life,Mrs. Yasmin returned the borrowed fridge
+E14,E1,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,The motor had been making strange noises
+E14,E2,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,refrigerator stopped working
+E14,E3,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,it simply went silent
+E14,E4,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,She called a repair service
+E14,E5,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,transferring food to her neighbor's refrigerator
+E14,E6,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,She called again
+E14,E7,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,The technician arrived
+E14,E8,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,He examined the fridge
+E14,E9,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,He offered it to Mrs. Yasmin
+E14,E10,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,She accepted gratefully
+E14,E11,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,The part arrived
+E14,E12,-1,> (Preceded By),False,Mrs. Yasmin returned the borrowed fridge,The technician installed it
+E14,E13,-2,mi (Met By),False,Mrs. Yasmin returned the borrowed fridge,the refrigerator hummed back to life

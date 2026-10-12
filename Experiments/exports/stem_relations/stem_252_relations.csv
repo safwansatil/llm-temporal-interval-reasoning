@@ -1,0 +1,651 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,his wife fell ill,she came down with dengue fever
+E1,E3,4,s (Starts),False,his wife fell ill,was bedridden for three weeks
+E1,E4,1,< (Precedes),False,his wife fell ill,His first attempt was toast
+E1,E5,1,< (Precedes),False,his wife fell ill,He burned it
+E1,E6,1,< (Precedes),False,his wife fell ill,the smoke alarm went off
+E1,E7,1,< (Precedes),False,his wife fell ill,two neighbors knocked on the door
+E1,E8,1,< (Precedes),False,his wife fell ill,"His wife, feverish and weak, laughed"
+E1,E9,1,< (Precedes),False,his wife fell ill,he tried eggs
+E1,E10,1,< (Precedes),False,his wife fell ill,He served the third batch to his wife
+E1,E11,1,< (Precedes),False,his wife fell ill,Kabir progressed from toast and eggs to simple curries and rice dishes
+E1,E12,1,< (Precedes),False,his wife fell ill,He called his mother four times for recipes
+E1,E13,1,< (Precedes),False,his wife fell ill,he could prepare five different meals without consulting any instructions
+E1,E14,1,< (Precedes),False,his wife fell ill,His wife recovered
+E1,E15,1,< (Precedes),False,his wife fell ill,resumed cooking
+E1,E16,1,< (Precedes),False,his wife fell ill,Kabir continued to help
+E1,E17,1,< (Precedes),False,his wife fell ill,He now makes breakfast every Sunday
+E1,E18,1,< (Precedes),False,his wife fell ill,occasionally prepares dinner when his wife works late
+E1,E19,-2,mi (Met By),False,his wife fell ill,She had been the household's cook for all twelve years of their marriage
+E1,E20,-2,mi (Met By),False,his wife fell ill,Kabir had never cooked a meal
+E1,E21,-2,mi (Met By),False,his wife fell ill,abir had been content to remain ignorant of the kitchen's mysteries.
+E1,E22,1,< (Precedes),False,his wife fell ill,the second was rubbery
+E1,E23,1,< (Precedes),False,his wife fell ill,". The first batch was undercooked,"
+E1,E24,1,< (Precedes),False,his wife fell ill,the third was edibl
+E1,E25,1,< (Precedes),False,his wife fell ill,she guided him through each step
+E1,E26,1,< (Precedes),False,his wife fell ill,that surprised him.
+E2,E1,0,= (Equal),False,she came down with dengue fever,his wife fell ill
+E2,E3,4,s (Starts),False,she came down with dengue fever,was bedridden for three weeks
+E2,E4,1,< (Precedes),False,she came down with dengue fever,His first attempt was toast
+E2,E5,1,< (Precedes),False,she came down with dengue fever,He burned it
+E2,E6,1,< (Precedes),False,she came down with dengue fever,the smoke alarm went off
+E2,E7,1,< (Precedes),False,she came down with dengue fever,two neighbors knocked on the door
+E2,E8,1,< (Precedes),False,she came down with dengue fever,"His wife, feverish and weak, laughed"
+E2,E9,1,< (Precedes),False,she came down with dengue fever,he tried eggs
+E2,E10,1,< (Precedes),False,she came down with dengue fever,He served the third batch to his wife
+E2,E11,1,< (Precedes),False,she came down with dengue fever,Kabir progressed from toast and eggs to simple curries and rice dishes
+E2,E12,1,< (Precedes),False,she came down with dengue fever,He called his mother four times for recipes
+E2,E13,1,< (Precedes),False,she came down with dengue fever,he could prepare five different meals without consulting any instructions
+E2,E14,1,< (Precedes),False,she came down with dengue fever,His wife recovered
+E2,E15,1,< (Precedes),False,she came down with dengue fever,resumed cooking
+E2,E16,1,< (Precedes),False,she came down with dengue fever,Kabir continued to help
+E2,E17,1,< (Precedes),False,she came down with dengue fever,He now makes breakfast every Sunday
+E2,E18,1,< (Precedes),False,she came down with dengue fever,occasionally prepares dinner when his wife works late
+E2,E19,-2,mi (Met By),False,she came down with dengue fever,She had been the household's cook for all twelve years of their marriage
+E2,E20,-2,mi (Met By),False,she came down with dengue fever,Kabir had never cooked a meal
+E2,E21,-2,mi (Met By),False,she came down with dengue fever,abir had been content to remain ignorant of the kitchen's mysteries.
+E2,E22,1,< (Precedes),False,she came down with dengue fever,the second was rubbery
+E2,E23,1,< (Precedes),False,she came down with dengue fever,". The first batch was undercooked,"
+E2,E24,1,< (Precedes),False,she came down with dengue fever,the third was edibl
+E2,E25,1,< (Precedes),False,she came down with dengue fever,she guided him through each step
+E2,E26,1,< (Precedes),False,she came down with dengue fever,that surprised him.
+E3,E1,-4,si (Started By),False,was bedridden for three weeks,his wife fell ill
+E3,E2,-4,si (Started By),False,was bedridden for three weeks,she came down with dengue fever
+E3,E4,-5,di (Contains),False,was bedridden for three weeks,His first attempt was toast
+E3,E5,-5,di (Contains),False,was bedridden for three weeks,He burned it
+E3,E6,-5,di (Contains),False,was bedridden for three weeks,the smoke alarm went off
+E3,E7,-5,di (Contains),False,was bedridden for three weeks,two neighbors knocked on the door
+E3,E8,-5,di (Contains),False,was bedridden for three weeks,"His wife, feverish and weak, laughed"
+E3,E9,-5,di (Contains),False,was bedridden for three weeks,he tried eggs
+E3,E10,-5,di (Contains),False,was bedridden for three weeks,He served the third batch to his wife
+E3,E11,-5,di (Contains),False,was bedridden for three weeks,Kabir progressed from toast and eggs to simple curries and rice dishes
+E3,E12,-5,di (Contains),False,was bedridden for three weeks,He called his mother four times for recipes
+E3,E13,-6,fi (Finished By),False,was bedridden for three weeks,he could prepare five different meals without consulting any instructions
+E3,E14,2,m (Meets),False,was bedridden for three weeks,His wife recovered
+E3,E15,1,< (Precedes),False,was bedridden for three weeks,resumed cooking
+E3,E16,1,< (Precedes),False,was bedridden for three weeks,Kabir continued to help
+E3,E17,1,< (Precedes),False,was bedridden for three weeks,He now makes breakfast every Sunday
+E3,E18,1,< (Precedes),False,was bedridden for three weeks,occasionally prepares dinner when his wife works late
+E3,E19,-2,mi (Met By),False,was bedridden for three weeks,She had been the household's cook for all twelve years of their marriage
+E3,E20,-2,mi (Met By),False,was bedridden for three weeks,Kabir had never cooked a meal
+E3,E21,-2,mi (Met By),False,was bedridden for three weeks,abir had been content to remain ignorant of the kitchen's mysteries.
+E3,E22,-5,di (Contains),False,was bedridden for three weeks,the second was rubbery
+E3,E23,-5,di (Contains),False,was bedridden for three weeks,". The first batch was undercooked,"
+E3,E24,-5,di (Contains),False,was bedridden for three weeks,the third was edibl
+E3,E25,-5,di (Contains),False,was bedridden for three weeks,she guided him through each step
+E3,E26,-5,di (Contains),False,was bedridden for three weeks,that surprised him.
+E4,E1,-1,> (Preceded By),False,His first attempt was toast,his wife fell ill
+E4,E2,-1,> (Preceded By),False,His first attempt was toast,she came down with dengue fever
+E4,E3,5,d (During),False,His first attempt was toast,was bedridden for three weeks
+E4,E5,1,< (Precedes),False,His first attempt was toast,He burned it
+E4,E6,1,< (Precedes),False,His first attempt was toast,the smoke alarm went off
+E4,E7,1,< (Precedes),False,His first attempt was toast,two neighbors knocked on the door
+E4,E8,1,< (Precedes),False,His first attempt was toast,"His wife, feverish and weak, laughed"
+E4,E9,1,< (Precedes),False,His first attempt was toast,he tried eggs
+E4,E10,1,< (Precedes),False,His first attempt was toast,He served the third batch to his wife
+E4,E11,1,< (Precedes),False,His first attempt was toast,Kabir progressed from toast and eggs to simple curries and rice dishes
+E4,E12,1,< (Precedes),False,His first attempt was toast,He called his mother four times for recipes
+E4,E13,1,< (Precedes),False,His first attempt was toast,he could prepare five different meals without consulting any instructions
+E4,E14,1,< (Precedes),False,His first attempt was toast,His wife recovered
+E4,E15,1,< (Precedes),False,His first attempt was toast,resumed cooking
+E4,E16,1,< (Precedes),False,His first attempt was toast,Kabir continued to help
+E4,E17,1,< (Precedes),False,His first attempt was toast,He now makes breakfast every Sunday
+E4,E18,1,< (Precedes),False,His first attempt was toast,occasionally prepares dinner when his wife works late
+E4,E19,-1,> (Preceded By),False,His first attempt was toast,She had been the household's cook for all twelve years of their marriage
+E4,E20,-1,> (Preceded By),False,His first attempt was toast,Kabir had never cooked a meal
+E4,E21,-1,> (Preceded By),False,His first attempt was toast,abir had been content to remain ignorant of the kitchen's mysteries.
+E4,E22,1,< (Precedes),False,His first attempt was toast,the second was rubbery
+E4,E23,1,< (Precedes),False,His first attempt was toast,". The first batch was undercooked,"
+E4,E24,1,< (Precedes),False,His first attempt was toast,the third was edibl
+E4,E25,1,< (Precedes),False,His first attempt was toast,she guided him through each step
+E4,E26,1,< (Precedes),False,His first attempt was toast,that surprised him.
+E5,E1,-1,> (Preceded By),False,He burned it,his wife fell ill
+E5,E2,-1,> (Preceded By),False,He burned it,she came down with dengue fever
+E5,E3,5,d (During),False,He burned it,was bedridden for three weeks
+E5,E4,-1,> (Preceded By),False,He burned it,His first attempt was toast
+E5,E6,1,< (Precedes),False,He burned it,the smoke alarm went off
+E5,E7,1,< (Precedes),False,He burned it,two neighbors knocked on the door
+E5,E8,1,< (Precedes),False,He burned it,"His wife, feverish and weak, laughed"
+E5,E9,1,< (Precedes),False,He burned it,he tried eggs
+E5,E10,1,< (Precedes),False,He burned it,He served the third batch to his wife
+E5,E11,1,< (Precedes),False,He burned it,Kabir progressed from toast and eggs to simple curries and rice dishes
+E5,E12,1,< (Precedes),False,He burned it,He called his mother four times for recipes
+E5,E13,1,< (Precedes),False,He burned it,he could prepare five different meals without consulting any instructions
+E5,E14,1,< (Precedes),False,He burned it,His wife recovered
+E5,E15,1,< (Precedes),False,He burned it,resumed cooking
+E5,E16,1,< (Precedes),False,He burned it,Kabir continued to help
+E5,E17,1,< (Precedes),False,He burned it,He now makes breakfast every Sunday
+E5,E18,1,< (Precedes),False,He burned it,occasionally prepares dinner when his wife works late
+E5,E19,-1,> (Preceded By),False,He burned it,She had been the household's cook for all twelve years of their marriage
+E5,E20,-1,> (Preceded By),False,He burned it,Kabir had never cooked a meal
+E5,E21,-1,> (Preceded By),False,He burned it,abir had been content to remain ignorant of the kitchen's mysteries.
+E5,E22,1,< (Precedes),False,He burned it,the second was rubbery
+E5,E23,1,< (Precedes),False,He burned it,". The first batch was undercooked,"
+E5,E24,1,< (Precedes),False,He burned it,the third was edibl
+E5,E25,1,< (Precedes),False,He burned it,she guided him through each step
+E5,E26,1,< (Precedes),False,He burned it,that surprised him.
+E6,E1,-1,> (Preceded By),False,the smoke alarm went off,his wife fell ill
+E6,E2,-1,> (Preceded By),False,the smoke alarm went off,she came down with dengue fever
+E6,E3,5,d (During),False,the smoke alarm went off,was bedridden for three weeks
+E6,E4,-1,> (Preceded By),False,the smoke alarm went off,His first attempt was toast
+E6,E5,-1,> (Preceded By),False,the smoke alarm went off,He burned it
+E6,E7,1,< (Precedes),False,the smoke alarm went off,two neighbors knocked on the door
+E6,E8,1,< (Precedes),False,the smoke alarm went off,"His wife, feverish and weak, laughed"
+E6,E9,1,< (Precedes),False,the smoke alarm went off,he tried eggs
+E6,E10,1,< (Precedes),False,the smoke alarm went off,He served the third batch to his wife
+E6,E11,1,< (Precedes),False,the smoke alarm went off,Kabir progressed from toast and eggs to simple curries and rice dishes
+E6,E12,1,< (Precedes),False,the smoke alarm went off,He called his mother four times for recipes
+E6,E13,1,< (Precedes),False,the smoke alarm went off,he could prepare five different meals without consulting any instructions
+E6,E14,1,< (Precedes),False,the smoke alarm went off,His wife recovered
+E6,E15,1,< (Precedes),False,the smoke alarm went off,resumed cooking
+E6,E16,1,< (Precedes),False,the smoke alarm went off,Kabir continued to help
+E6,E17,1,< (Precedes),False,the smoke alarm went off,He now makes breakfast every Sunday
+E6,E18,1,< (Precedes),False,the smoke alarm went off,occasionally prepares dinner when his wife works late
+E6,E19,-1,> (Preceded By),False,the smoke alarm went off,She had been the household's cook for all twelve years of their marriage
+E6,E20,-1,> (Preceded By),False,the smoke alarm went off,Kabir had never cooked a meal
+E6,E21,-1,> (Preceded By),False,the smoke alarm went off,abir had been content to remain ignorant of the kitchen's mysteries.
+E6,E22,1,< (Precedes),False,the smoke alarm went off,the second was rubbery
+E6,E23,1,< (Precedes),False,the smoke alarm went off,". The first batch was undercooked,"
+E6,E24,1,< (Precedes),False,the smoke alarm went off,the third was edibl
+E6,E25,1,< (Precedes),False,the smoke alarm went off,she guided him through each step
+E6,E26,1,< (Precedes),False,the smoke alarm went off,that surprised him.
+E7,E1,-1,> (Preceded By),False,two neighbors knocked on the door,his wife fell ill
+E7,E2,-1,> (Preceded By),False,two neighbors knocked on the door,she came down with dengue fever
+E7,E3,5,d (During),False,two neighbors knocked on the door,was bedridden for three weeks
+E7,E4,-1,> (Preceded By),False,two neighbors knocked on the door,His first attempt was toast
+E7,E5,-1,> (Preceded By),False,two neighbors knocked on the door,He burned it
+E7,E6,-1,> (Preceded By),False,two neighbors knocked on the door,the smoke alarm went off
+E7,E8,1,< (Precedes),False,two neighbors knocked on the door,"His wife, feverish and weak, laughed"
+E7,E9,1,< (Precedes),False,two neighbors knocked on the door,he tried eggs
+E7,E10,1,< (Precedes),False,two neighbors knocked on the door,He served the third batch to his wife
+E7,E11,1,< (Precedes),False,two neighbors knocked on the door,Kabir progressed from toast and eggs to simple curries and rice dishes
+E7,E12,1,< (Precedes),False,two neighbors knocked on the door,He called his mother four times for recipes
+E7,E13,1,< (Precedes),False,two neighbors knocked on the door,he could prepare five different meals without consulting any instructions
+E7,E14,1,< (Precedes),False,two neighbors knocked on the door,His wife recovered
+E7,E15,1,< (Precedes),False,two neighbors knocked on the door,resumed cooking
+E7,E16,1,< (Precedes),False,two neighbors knocked on the door,Kabir continued to help
+E7,E17,1,< (Precedes),False,two neighbors knocked on the door,He now makes breakfast every Sunday
+E7,E18,1,< (Precedes),False,two neighbors knocked on the door,occasionally prepares dinner when his wife works late
+E7,E19,-1,> (Preceded By),False,two neighbors knocked on the door,She had been the household's cook for all twelve years of their marriage
+E7,E20,-1,> (Preceded By),False,two neighbors knocked on the door,Kabir had never cooked a meal
+E7,E21,-1,> (Preceded By),False,two neighbors knocked on the door,abir had been content to remain ignorant of the kitchen's mysteries.
+E7,E22,1,< (Precedes),False,two neighbors knocked on the door,the second was rubbery
+E7,E23,1,< (Precedes),False,two neighbors knocked on the door,". The first batch was undercooked,"
+E7,E24,1,< (Precedes),False,two neighbors knocked on the door,the third was edibl
+E7,E25,1,< (Precedes),False,two neighbors knocked on the door,she guided him through each step
+E7,E26,1,< (Precedes),False,two neighbors knocked on the door,that surprised him.
+E8,E1,-1,> (Preceded By),False,"His wife, feverish and weak, laughed",his wife fell ill
+E8,E2,-1,> (Preceded By),False,"His wife, feverish and weak, laughed",she came down with dengue fever
+E8,E3,5,d (During),False,"His wife, feverish and weak, laughed",was bedridden for three weeks
+E8,E4,-1,> (Preceded By),False,"His wife, feverish and weak, laughed",His first attempt was toast
+E8,E5,-1,> (Preceded By),False,"His wife, feverish and weak, laughed",He burned it
+E8,E6,-1,> (Preceded By),False,"His wife, feverish and weak, laughed",the smoke alarm went off
+E8,E7,-1,> (Preceded By),False,"His wife, feverish and weak, laughed",two neighbors knocked on the door
+E8,E9,1,< (Precedes),False,"His wife, feverish and weak, laughed",he tried eggs
+E8,E10,1,< (Precedes),False,"His wife, feverish and weak, laughed",He served the third batch to his wife
+E8,E11,1,< (Precedes),False,"His wife, feverish and weak, laughed",Kabir progressed from toast and eggs to simple curries and rice dishes
+E8,E12,1,< (Precedes),False,"His wife, feverish and weak, laughed",He called his mother four times for recipes
+E8,E13,1,< (Precedes),False,"His wife, feverish and weak, laughed",he could prepare five different meals without consulting any instructions
+E8,E14,1,< (Precedes),False,"His wife, feverish and weak, laughed",His wife recovered
+E8,E15,1,< (Precedes),False,"His wife, feverish and weak, laughed",resumed cooking
+E8,E16,1,< (Precedes),False,"His wife, feverish and weak, laughed",Kabir continued to help
+E8,E17,1,< (Precedes),False,"His wife, feverish and weak, laughed",He now makes breakfast every Sunday
+E8,E18,1,< (Precedes),False,"His wife, feverish and weak, laughed",occasionally prepares dinner when his wife works late
+E8,E19,-1,> (Preceded By),False,"His wife, feverish and weak, laughed",She had been the household's cook for all twelve years of their marriage
+E8,E20,-1,> (Preceded By),False,"His wife, feverish and weak, laughed",Kabir had never cooked a meal
+E8,E21,-1,> (Preceded By),False,"His wife, feverish and weak, laughed",abir had been content to remain ignorant of the kitchen's mysteries.
+E8,E22,1,< (Precedes),False,"His wife, feverish and weak, laughed",the second was rubbery
+E8,E23,1,< (Precedes),False,"His wife, feverish and weak, laughed",". The first batch was undercooked,"
+E8,E24,1,< (Precedes),False,"His wife, feverish and weak, laughed",the third was edibl
+E8,E25,1,< (Precedes),False,"His wife, feverish and weak, laughed",she guided him through each step
+E8,E26,1,< (Precedes),False,"His wife, feverish and weak, laughed",that surprised him.
+E9,E1,-1,> (Preceded By),False,he tried eggs,his wife fell ill
+E9,E2,-1,> (Preceded By),False,he tried eggs,she came down with dengue fever
+E9,E3,5,d (During),False,he tried eggs,was bedridden for three weeks
+E9,E4,-1,> (Preceded By),False,he tried eggs,His first attempt was toast
+E9,E5,-1,> (Preceded By),False,he tried eggs,He burned it
+E9,E6,-1,> (Preceded By),False,he tried eggs,the smoke alarm went off
+E9,E7,-1,> (Preceded By),False,he tried eggs,two neighbors knocked on the door
+E9,E8,-1,> (Preceded By),False,he tried eggs,"His wife, feverish and weak, laughed"
+E9,E10,1,< (Precedes),False,he tried eggs,He served the third batch to his wife
+E9,E11,1,< (Precedes),False,he tried eggs,Kabir progressed from toast and eggs to simple curries and rice dishes
+E9,E12,1,< (Precedes),False,he tried eggs,He called his mother four times for recipes
+E9,E13,1,< (Precedes),False,he tried eggs,he could prepare five different meals without consulting any instructions
+E9,E14,1,< (Precedes),False,he tried eggs,His wife recovered
+E9,E15,1,< (Precedes),False,he tried eggs,resumed cooking
+E9,E16,1,< (Precedes),False,he tried eggs,Kabir continued to help
+E9,E17,1,< (Precedes),False,he tried eggs,He now makes breakfast every Sunday
+E9,E18,1,< (Precedes),False,he tried eggs,occasionally prepares dinner when his wife works late
+E9,E19,-1,> (Preceded By),False,he tried eggs,She had been the household's cook for all twelve years of their marriage
+E9,E20,-1,> (Preceded By),False,he tried eggs,Kabir had never cooked a meal
+E9,E21,-1,> (Preceded By),False,he tried eggs,abir had been content to remain ignorant of the kitchen's mysteries.
+E9,E22,1,< (Precedes),False,he tried eggs,the second was rubbery
+E9,E23,2,m (Meets),False,he tried eggs,". The first batch was undercooked,"
+E9,E24,1,< (Precedes),False,he tried eggs,the third was edibl
+E9,E25,1,< (Precedes),False,he tried eggs,she guided him through each step
+E9,E26,1,< (Precedes),False,he tried eggs,that surprised him.
+E10,E1,-1,> (Preceded By),False,He served the third batch to his wife,his wife fell ill
+E10,E2,-1,> (Preceded By),False,He served the third batch to his wife,she came down with dengue fever
+E10,E3,5,d (During),False,He served the third batch to his wife,was bedridden for three weeks
+E10,E4,-1,> (Preceded By),False,He served the third batch to his wife,His first attempt was toast
+E10,E5,-1,> (Preceded By),False,He served the third batch to his wife,He burned it
+E10,E6,-1,> (Preceded By),False,He served the third batch to his wife,the smoke alarm went off
+E10,E7,-1,> (Preceded By),False,He served the third batch to his wife,two neighbors knocked on the door
+E10,E8,-1,> (Preceded By),False,He served the third batch to his wife,"His wife, feverish and weak, laughed"
+E10,E9,-1,> (Preceded By),False,He served the third batch to his wife,he tried eggs
+E10,E11,1,< (Precedes),False,He served the third batch to his wife,Kabir progressed from toast and eggs to simple curries and rice dishes
+E10,E12,1,< (Precedes),False,He served the third batch to his wife,He called his mother four times for recipes
+E10,E13,1,< (Precedes),False,He served the third batch to his wife,he could prepare five different meals without consulting any instructions
+E10,E14,1,< (Precedes),False,He served the third batch to his wife,His wife recovered
+E10,E15,1,< (Precedes),False,He served the third batch to his wife,resumed cooking
+E10,E16,1,< (Precedes),False,He served the third batch to his wife,Kabir continued to help
+E10,E17,1,< (Precedes),False,He served the third batch to his wife,He now makes breakfast every Sunday
+E10,E18,1,< (Precedes),False,He served the third batch to his wife,occasionally prepares dinner when his wife works late
+E10,E19,-1,> (Preceded By),False,He served the third batch to his wife,She had been the household's cook for all twelve years of their marriage
+E10,E20,-1,> (Preceded By),False,He served the third batch to his wife,Kabir had never cooked a meal
+E10,E21,-1,> (Preceded By),False,He served the third batch to his wife,abir had been content to remain ignorant of the kitchen's mysteries.
+E10,E22,-1,> (Preceded By),False,He served the third batch to his wife,the second was rubbery
+E10,E23,-1,> (Preceded By),False,He served the third batch to his wife,". The first batch was undercooked,"
+E10,E24,-1,> (Preceded By),False,He served the third batch to his wife,the third was edibl
+E10,E25,1,< (Precedes),False,He served the third batch to his wife,she guided him through each step
+E10,E26,1,< (Precedes),False,He served the third batch to his wife,that surprised him.
+E11,E1,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,his wife fell ill
+E11,E2,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,she came down with dengue fever
+E11,E3,5,d (During),False,Kabir progressed from toast and eggs to simple curries and rice dishes,was bedridden for three weeks
+E11,E4,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,His first attempt was toast
+E11,E5,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,He burned it
+E11,E6,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,the smoke alarm went off
+E11,E7,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,two neighbors knocked on the door
+E11,E8,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,"His wife, feverish and weak, laughed"
+E11,E9,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,he tried eggs
+E11,E10,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,He served the third batch to his wife
+E11,E12,-5,di (Contains),False,Kabir progressed from toast and eggs to simple curries and rice dishes,He called his mother four times for recipes
+E11,E13,1,< (Precedes),False,Kabir progressed from toast and eggs to simple curries and rice dishes,he could prepare five different meals without consulting any instructions
+E11,E14,1,< (Precedes),False,Kabir progressed from toast and eggs to simple curries and rice dishes,His wife recovered
+E11,E15,1,< (Precedes),False,Kabir progressed from toast and eggs to simple curries and rice dishes,resumed cooking
+E11,E16,1,< (Precedes),False,Kabir progressed from toast and eggs to simple curries and rice dishes,Kabir continued to help
+E11,E17,1,< (Precedes),False,Kabir progressed from toast and eggs to simple curries and rice dishes,He now makes breakfast every Sunday
+E11,E18,1,< (Precedes),False,Kabir progressed from toast and eggs to simple curries and rice dishes,occasionally prepares dinner when his wife works late
+E11,E19,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,She had been the household's cook for all twelve years of their marriage
+E11,E20,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,Kabir had never cooked a meal
+E11,E21,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,abir had been content to remain ignorant of the kitchen's mysteries.
+E11,E22,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,the second was rubbery
+E11,E23,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,". The first batch was undercooked,"
+E11,E24,-1,> (Preceded By),False,Kabir progressed from toast and eggs to simple curries and rice dishes,the third was edibl
+E11,E25,-5,di (Contains),False,Kabir progressed from toast and eggs to simple curries and rice dishes,she guided him through each step
+E11,E26,-5,di (Contains),False,Kabir progressed from toast and eggs to simple curries and rice dishes,that surprised him.
+E12,E1,-1,> (Preceded By),False,He called his mother four times for recipes,his wife fell ill
+E12,E2,-1,> (Preceded By),False,He called his mother four times for recipes,she came down with dengue fever
+E12,E3,5,d (During),False,He called his mother four times for recipes,was bedridden for three weeks
+E12,E4,-1,> (Preceded By),False,He called his mother four times for recipes,His first attempt was toast
+E12,E5,-1,> (Preceded By),False,He called his mother four times for recipes,He burned it
+E12,E6,-1,> (Preceded By),False,He called his mother four times for recipes,the smoke alarm went off
+E12,E7,-1,> (Preceded By),False,He called his mother four times for recipes,two neighbors knocked on the door
+E12,E8,-1,> (Preceded By),False,He called his mother four times for recipes,"His wife, feverish and weak, laughed"
+E12,E9,-1,> (Preceded By),False,He called his mother four times for recipes,he tried eggs
+E12,E10,-1,> (Preceded By),False,He called his mother four times for recipes,He served the third batch to his wife
+E12,E11,5,d (During),False,He called his mother four times for recipes,Kabir progressed from toast and eggs to simple curries and rice dishes
+E12,E13,1,< (Precedes),False,He called his mother four times for recipes,he could prepare five different meals without consulting any instructions
+E12,E14,1,< (Precedes),False,He called his mother four times for recipes,His wife recovered
+E12,E15,1,< (Precedes),False,He called his mother four times for recipes,resumed cooking
+E12,E16,1,< (Precedes),False,He called his mother four times for recipes,Kabir continued to help
+E12,E17,1,< (Precedes),False,He called his mother four times for recipes,He now makes breakfast every Sunday
+E12,E18,1,< (Precedes),False,He called his mother four times for recipes,occasionally prepares dinner when his wife works late
+E12,E19,-1,> (Preceded By),False,He called his mother four times for recipes,She had been the household's cook for all twelve years of their marriage
+E12,E20,-1,> (Preceded By),False,He called his mother four times for recipes,Kabir had never cooked a meal
+E12,E21,-1,> (Preceded By),False,He called his mother four times for recipes,abir had been content to remain ignorant of the kitchen's mysteries.
+E12,E22,-1,> (Preceded By),False,He called his mother four times for recipes,the second was rubbery
+E12,E23,-1,> (Preceded By),False,He called his mother four times for recipes,". The first batch was undercooked,"
+E12,E24,-1,> (Preceded By),False,He called his mother four times for recipes,the third was edibl
+E12,E25,0,= (Equal),False,He called his mother four times for recipes,she guided him through each step
+E12,E26,0,= (Equal),False,He called his mother four times for recipes,that surprised him.
+E13,E1,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,his wife fell ill
+E13,E2,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,she came down with dengue fever
+E13,E3,6,f (Finishes),False,he could prepare five different meals without consulting any instructions,was bedridden for three weeks
+E13,E4,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,His first attempt was toast
+E13,E5,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,He burned it
+E13,E6,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,the smoke alarm went off
+E13,E7,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,two neighbors knocked on the door
+E13,E8,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,"His wife, feverish and weak, laughed"
+E13,E9,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,he tried eggs
+E13,E10,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,He served the third batch to his wife
+E13,E11,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,Kabir progressed from toast and eggs to simple curries and rice dishes
+E13,E12,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,He called his mother four times for recipes
+E13,E14,2,m (Meets),False,he could prepare five different meals without consulting any instructions,His wife recovered
+E13,E15,1,< (Precedes),False,he could prepare five different meals without consulting any instructions,resumed cooking
+E13,E16,1,< (Precedes),False,he could prepare five different meals without consulting any instructions,Kabir continued to help
+E13,E17,1,< (Precedes),False,he could prepare five different meals without consulting any instructions,He now makes breakfast every Sunday
+E13,E18,1,< (Precedes),False,he could prepare five different meals without consulting any instructions,occasionally prepares dinner when his wife works late
+E13,E19,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,She had been the household's cook for all twelve years of their marriage
+E13,E20,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,Kabir had never cooked a meal
+E13,E21,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,abir had been content to remain ignorant of the kitchen's mysteries.
+E13,E22,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,the second was rubbery
+E13,E23,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,". The first batch was undercooked,"
+E13,E24,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,the third was edibl
+E13,E25,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,she guided him through each step
+E13,E26,-1,> (Preceded By),False,he could prepare five different meals without consulting any instructions,that surprised him.
+E14,E1,-1,> (Preceded By),False,His wife recovered,his wife fell ill
+E14,E2,-1,> (Preceded By),False,His wife recovered,she came down with dengue fever
+E14,E3,-2,mi (Met By),False,His wife recovered,was bedridden for three weeks
+E14,E4,-1,> (Preceded By),False,His wife recovered,His first attempt was toast
+E14,E5,-1,> (Preceded By),False,His wife recovered,He burned it
+E14,E6,-1,> (Preceded By),False,His wife recovered,the smoke alarm went off
+E14,E7,-1,> (Preceded By),False,His wife recovered,two neighbors knocked on the door
+E14,E8,-1,> (Preceded By),False,His wife recovered,"His wife, feverish and weak, laughed"
+E14,E9,-1,> (Preceded By),False,His wife recovered,he tried eggs
+E14,E10,-1,> (Preceded By),False,His wife recovered,He served the third batch to his wife
+E14,E11,-1,> (Preceded By),False,His wife recovered,Kabir progressed from toast and eggs to simple curries and rice dishes
+E14,E12,-1,> (Preceded By),False,His wife recovered,He called his mother four times for recipes
+E14,E13,-2,mi (Met By),False,His wife recovered,he could prepare five different meals without consulting any instructions
+E14,E15,1,< (Precedes),False,His wife recovered,resumed cooking
+E14,E16,1,< (Precedes),False,His wife recovered,Kabir continued to help
+E14,E17,1,< (Precedes),False,His wife recovered,He now makes breakfast every Sunday
+E14,E18,1,< (Precedes),False,His wife recovered,occasionally prepares dinner when his wife works late
+E14,E19,-1,> (Preceded By),False,His wife recovered,She had been the household's cook for all twelve years of their marriage
+E14,E20,-1,> (Preceded By),False,His wife recovered,Kabir had never cooked a meal
+E14,E21,-1,> (Preceded By),False,His wife recovered,abir had been content to remain ignorant of the kitchen's mysteries.
+E14,E22,-1,> (Preceded By),False,His wife recovered,the second was rubbery
+E14,E23,-1,> (Preceded By),False,His wife recovered,". The first batch was undercooked,"
+E14,E24,-1,> (Preceded By),False,His wife recovered,the third was edibl
+E14,E25,-1,> (Preceded By),False,His wife recovered,she guided him through each step
+E14,E26,-1,> (Preceded By),False,His wife recovered,that surprised him.
+E15,E1,-1,> (Preceded By),False,resumed cooking,his wife fell ill
+E15,E2,-1,> (Preceded By),False,resumed cooking,she came down with dengue fever
+E15,E3,-1,> (Preceded By),False,resumed cooking,was bedridden for three weeks
+E15,E4,-1,> (Preceded By),False,resumed cooking,His first attempt was toast
+E15,E5,-1,> (Preceded By),False,resumed cooking,He burned it
+E15,E6,-1,> (Preceded By),False,resumed cooking,the smoke alarm went off
+E15,E7,-1,> (Preceded By),False,resumed cooking,two neighbors knocked on the door
+E15,E8,-1,> (Preceded By),False,resumed cooking,"His wife, feverish and weak, laughed"
+E15,E9,-1,> (Preceded By),False,resumed cooking,he tried eggs
+E15,E10,-1,> (Preceded By),False,resumed cooking,He served the third batch to his wife
+E15,E11,-1,> (Preceded By),False,resumed cooking,Kabir progressed from toast and eggs to simple curries and rice dishes
+E15,E12,-1,> (Preceded By),False,resumed cooking,He called his mother four times for recipes
+E15,E13,-1,> (Preceded By),False,resumed cooking,he could prepare five different meals without consulting any instructions
+E15,E14,-1,> (Preceded By),False,resumed cooking,His wife recovered
+E15,E16,0,= (Equal),False,resumed cooking,Kabir continued to help
+E15,E17,0,= (Equal),False,resumed cooking,He now makes breakfast every Sunday
+E15,E18,0,= (Equal),False,resumed cooking,occasionally prepares dinner when his wife works late
+E15,E19,-1,> (Preceded By),False,resumed cooking,She had been the household's cook for all twelve years of their marriage
+E15,E20,-1,> (Preceded By),False,resumed cooking,Kabir had never cooked a meal
+E15,E21,-1,> (Preceded By),False,resumed cooking,abir had been content to remain ignorant of the kitchen's mysteries.
+E15,E22,-1,> (Preceded By),False,resumed cooking,the second was rubbery
+E15,E23,-1,> (Preceded By),False,resumed cooking,". The first batch was undercooked,"
+E15,E24,-1,> (Preceded By),False,resumed cooking,the third was edibl
+E15,E25,-1,> (Preceded By),False,resumed cooking,she guided him through each step
+E15,E26,-1,> (Preceded By),False,resumed cooking,that surprised him.
+E16,E1,-1,> (Preceded By),False,Kabir continued to help,his wife fell ill
+E16,E2,-1,> (Preceded By),False,Kabir continued to help,she came down with dengue fever
+E16,E3,-1,> (Preceded By),False,Kabir continued to help,was bedridden for three weeks
+E16,E4,-1,> (Preceded By),False,Kabir continued to help,His first attempt was toast
+E16,E5,-1,> (Preceded By),False,Kabir continued to help,He burned it
+E16,E6,-1,> (Preceded By),False,Kabir continued to help,the smoke alarm went off
+E16,E7,-1,> (Preceded By),False,Kabir continued to help,two neighbors knocked on the door
+E16,E8,-1,> (Preceded By),False,Kabir continued to help,"His wife, feverish and weak, laughed"
+E16,E9,-1,> (Preceded By),False,Kabir continued to help,he tried eggs
+E16,E10,-1,> (Preceded By),False,Kabir continued to help,He served the third batch to his wife
+E16,E11,-1,> (Preceded By),False,Kabir continued to help,Kabir progressed from toast and eggs to simple curries and rice dishes
+E16,E12,-1,> (Preceded By),False,Kabir continued to help,He called his mother four times for recipes
+E16,E13,-1,> (Preceded By),False,Kabir continued to help,he could prepare five different meals without consulting any instructions
+E16,E14,-1,> (Preceded By),False,Kabir continued to help,His wife recovered
+E16,E15,0,= (Equal),False,Kabir continued to help,resumed cooking
+E16,E17,0,= (Equal),False,Kabir continued to help,He now makes breakfast every Sunday
+E16,E18,0,= (Equal),False,Kabir continued to help,occasionally prepares dinner when his wife works late
+E16,E19,-1,> (Preceded By),False,Kabir continued to help,She had been the household's cook for all twelve years of their marriage
+E16,E20,-1,> (Preceded By),False,Kabir continued to help,Kabir had never cooked a meal
+E16,E21,-1,> (Preceded By),False,Kabir continued to help,abir had been content to remain ignorant of the kitchen's mysteries.
+E16,E22,-1,> (Preceded By),False,Kabir continued to help,the second was rubbery
+E16,E23,-1,> (Preceded By),False,Kabir continued to help,". The first batch was undercooked,"
+E16,E24,-1,> (Preceded By),False,Kabir continued to help,the third was edibl
+E16,E25,-1,> (Preceded By),False,Kabir continued to help,she guided him through each step
+E16,E26,-1,> (Preceded By),False,Kabir continued to help,that surprised him.
+E17,E1,-1,> (Preceded By),False,He now makes breakfast every Sunday,his wife fell ill
+E17,E2,-1,> (Preceded By),False,He now makes breakfast every Sunday,she came down with dengue fever
+E17,E3,-1,> (Preceded By),False,He now makes breakfast every Sunday,was bedridden for three weeks
+E17,E4,-1,> (Preceded By),False,He now makes breakfast every Sunday,His first attempt was toast
+E17,E5,-1,> (Preceded By),False,He now makes breakfast every Sunday,He burned it
+E17,E6,-1,> (Preceded By),False,He now makes breakfast every Sunday,the smoke alarm went off
+E17,E7,-1,> (Preceded By),False,He now makes breakfast every Sunday,two neighbors knocked on the door
+E17,E8,-1,> (Preceded By),False,He now makes breakfast every Sunday,"His wife, feverish and weak, laughed"
+E17,E9,-1,> (Preceded By),False,He now makes breakfast every Sunday,he tried eggs
+E17,E10,-1,> (Preceded By),False,He now makes breakfast every Sunday,He served the third batch to his wife
+E17,E11,-1,> (Preceded By),False,He now makes breakfast every Sunday,Kabir progressed from toast and eggs to simple curries and rice dishes
+E17,E12,-1,> (Preceded By),False,He now makes breakfast every Sunday,He called his mother four times for recipes
+E17,E13,-1,> (Preceded By),False,He now makes breakfast every Sunday,he could prepare five different meals without consulting any instructions
+E17,E14,-1,> (Preceded By),False,He now makes breakfast every Sunday,His wife recovered
+E17,E15,0,= (Equal),False,He now makes breakfast every Sunday,resumed cooking
+E17,E16,0,= (Equal),False,He now makes breakfast every Sunday,Kabir continued to help
+E17,E18,0,= (Equal),False,He now makes breakfast every Sunday,occasionally prepares dinner when his wife works late
+E17,E19,-1,> (Preceded By),False,He now makes breakfast every Sunday,She had been the household's cook for all twelve years of their marriage
+E17,E20,-1,> (Preceded By),False,He now makes breakfast every Sunday,Kabir had never cooked a meal
+E17,E21,-1,> (Preceded By),False,He now makes breakfast every Sunday,abir had been content to remain ignorant of the kitchen's mysteries.
+E17,E22,-1,> (Preceded By),False,He now makes breakfast every Sunday,the second was rubbery
+E17,E23,-1,> (Preceded By),False,He now makes breakfast every Sunday,". The first batch was undercooked,"
+E17,E24,-1,> (Preceded By),False,He now makes breakfast every Sunday,the third was edibl
+E17,E25,-1,> (Preceded By),False,He now makes breakfast every Sunday,she guided him through each step
+E17,E26,-1,> (Preceded By),False,He now makes breakfast every Sunday,that surprised him.
+E18,E1,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,his wife fell ill
+E18,E2,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,she came down with dengue fever
+E18,E3,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,was bedridden for three weeks
+E18,E4,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,His first attempt was toast
+E18,E5,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,He burned it
+E18,E6,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,the smoke alarm went off
+E18,E7,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,two neighbors knocked on the door
+E18,E8,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,"His wife, feverish and weak, laughed"
+E18,E9,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,he tried eggs
+E18,E10,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,He served the third batch to his wife
+E18,E11,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,Kabir progressed from toast and eggs to simple curries and rice dishes
+E18,E12,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,He called his mother four times for recipes
+E18,E13,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,he could prepare five different meals without consulting any instructions
+E18,E14,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,His wife recovered
+E18,E15,0,= (Equal),False,occasionally prepares dinner when his wife works late,resumed cooking
+E18,E16,0,= (Equal),False,occasionally prepares dinner when his wife works late,Kabir continued to help
+E18,E17,0,= (Equal),False,occasionally prepares dinner when his wife works late,He now makes breakfast every Sunday
+E18,E19,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,She had been the household's cook for all twelve years of their marriage
+E18,E20,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,Kabir had never cooked a meal
+E18,E21,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,abir had been content to remain ignorant of the kitchen's mysteries.
+E18,E22,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,the second was rubbery
+E18,E23,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,". The first batch was undercooked,"
+E18,E24,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,the third was edibl
+E18,E25,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,she guided him through each step
+E18,E26,-1,> (Preceded By),False,occasionally prepares dinner when his wife works late,that surprised him.
+E19,E1,2,m (Meets),False,She had been the household's cook for all twelve years of their marriage,his wife fell ill
+E19,E2,2,m (Meets),False,She had been the household's cook for all twelve years of their marriage,she came down with dengue fever
+E19,E3,2,m (Meets),False,She had been the household's cook for all twelve years of their marriage,was bedridden for three weeks
+E19,E4,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,His first attempt was toast
+E19,E5,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,He burned it
+E19,E6,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,the smoke alarm went off
+E19,E7,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,two neighbors knocked on the door
+E19,E8,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,"His wife, feverish and weak, laughed"
+E19,E9,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,he tried eggs
+E19,E10,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,He served the third batch to his wife
+E19,E11,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,Kabir progressed from toast and eggs to simple curries and rice dishes
+E19,E12,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,He called his mother four times for recipes
+E19,E13,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,he could prepare five different meals without consulting any instructions
+E19,E14,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,His wife recovered
+E19,E15,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,resumed cooking
+E19,E16,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,Kabir continued to help
+E19,E17,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,He now makes breakfast every Sunday
+E19,E18,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,occasionally prepares dinner when his wife works late
+E19,E20,0,= (Equal),False,She had been the household's cook for all twelve years of their marriage,Kabir had never cooked a meal
+E19,E21,0,= (Equal),False,She had been the household's cook for all twelve years of their marriage,abir had been content to remain ignorant of the kitchen's mysteries.
+E19,E22,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,the second was rubbery
+E19,E23,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,". The first batch was undercooked,"
+E19,E24,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,the third was edibl
+E19,E25,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,she guided him through each step
+E19,E26,1,< (Precedes),False,She had been the household's cook for all twelve years of their marriage,that surprised him.
+E20,E1,2,m (Meets),False,Kabir had never cooked a meal,his wife fell ill
+E20,E2,2,m (Meets),False,Kabir had never cooked a meal,she came down with dengue fever
+E20,E3,2,m (Meets),False,Kabir had never cooked a meal,was bedridden for three weeks
+E20,E4,1,< (Precedes),False,Kabir had never cooked a meal,His first attempt was toast
+E20,E5,1,< (Precedes),False,Kabir had never cooked a meal,He burned it
+E20,E6,1,< (Precedes),False,Kabir had never cooked a meal,the smoke alarm went off
+E20,E7,1,< (Precedes),False,Kabir had never cooked a meal,two neighbors knocked on the door
+E20,E8,1,< (Precedes),False,Kabir had never cooked a meal,"His wife, feverish and weak, laughed"
+E20,E9,1,< (Precedes),False,Kabir had never cooked a meal,he tried eggs
+E20,E10,1,< (Precedes),False,Kabir had never cooked a meal,He served the third batch to his wife
+E20,E11,1,< (Precedes),False,Kabir had never cooked a meal,Kabir progressed from toast and eggs to simple curries and rice dishes
+E20,E12,1,< (Precedes),False,Kabir had never cooked a meal,He called his mother four times for recipes
+E20,E13,1,< (Precedes),False,Kabir had never cooked a meal,he could prepare five different meals without consulting any instructions
+E20,E14,1,< (Precedes),False,Kabir had never cooked a meal,His wife recovered
+E20,E15,1,< (Precedes),False,Kabir had never cooked a meal,resumed cooking
+E20,E16,1,< (Precedes),False,Kabir had never cooked a meal,Kabir continued to help
+E20,E17,1,< (Precedes),False,Kabir had never cooked a meal,He now makes breakfast every Sunday
+E20,E18,1,< (Precedes),False,Kabir had never cooked a meal,occasionally prepares dinner when his wife works late
+E20,E19,0,= (Equal),False,Kabir had never cooked a meal,She had been the household's cook for all twelve years of their marriage
+E20,E21,0,= (Equal),False,Kabir had never cooked a meal,abir had been content to remain ignorant of the kitchen's mysteries.
+E20,E22,1,< (Precedes),False,Kabir had never cooked a meal,the second was rubbery
+E20,E23,1,< (Precedes),False,Kabir had never cooked a meal,". The first batch was undercooked,"
+E20,E24,1,< (Precedes),False,Kabir had never cooked a meal,the third was edibl
+E20,E25,1,< (Precedes),False,Kabir had never cooked a meal,she guided him through each step
+E20,E26,1,< (Precedes),False,Kabir had never cooked a meal,that surprised him.
+E21,E1,2,m (Meets),False,abir had been content to remain ignorant of the kitchen's mysteries.,his wife fell ill
+E21,E2,2,m (Meets),False,abir had been content to remain ignorant of the kitchen's mysteries.,she came down with dengue fever
+E21,E3,2,m (Meets),False,abir had been content to remain ignorant of the kitchen's mysteries.,was bedridden for three weeks
+E21,E4,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,His first attempt was toast
+E21,E5,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,He burned it
+E21,E6,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,the smoke alarm went off
+E21,E7,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,two neighbors knocked on the door
+E21,E8,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,"His wife, feverish and weak, laughed"
+E21,E9,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,he tried eggs
+E21,E10,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,He served the third batch to his wife
+E21,E11,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,Kabir progressed from toast and eggs to simple curries and rice dishes
+E21,E12,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,He called his mother four times for recipes
+E21,E13,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,he could prepare five different meals without consulting any instructions
+E21,E14,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,His wife recovered
+E21,E15,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,resumed cooking
+E21,E16,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,Kabir continued to help
+E21,E17,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,He now makes breakfast every Sunday
+E21,E18,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,occasionally prepares dinner when his wife works late
+E21,E19,0,= (Equal),False,abir had been content to remain ignorant of the kitchen's mysteries.,She had been the household's cook for all twelve years of their marriage
+E21,E20,0,= (Equal),False,abir had been content to remain ignorant of the kitchen's mysteries.,Kabir had never cooked a meal
+E21,E22,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,the second was rubbery
+E21,E23,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,". The first batch was undercooked,"
+E21,E24,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,the third was edibl
+E21,E25,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,she guided him through each step
+E21,E26,1,< (Precedes),False,abir had been content to remain ignorant of the kitchen's mysteries.,that surprised him.
+E22,E1,-1,> (Preceded By),False,the second was rubbery,his wife fell ill
+E22,E2,-1,> (Preceded By),False,the second was rubbery,she came down with dengue fever
+E22,E3,5,d (During),False,the second was rubbery,was bedridden for three weeks
+E22,E4,-1,> (Preceded By),False,the second was rubbery,His first attempt was toast
+E22,E5,-1,> (Preceded By),False,the second was rubbery,He burned it
+E22,E6,-1,> (Preceded By),False,the second was rubbery,the smoke alarm went off
+E22,E7,-1,> (Preceded By),False,the second was rubbery,two neighbors knocked on the door
+E22,E8,-1,> (Preceded By),False,the second was rubbery,"His wife, feverish and weak, laughed"
+E22,E9,-1,> (Preceded By),False,the second was rubbery,he tried eggs
+E22,E10,1,< (Precedes),False,the second was rubbery,He served the third batch to his wife
+E22,E11,1,< (Precedes),False,the second was rubbery,Kabir progressed from toast and eggs to simple curries and rice dishes
+E22,E12,1,< (Precedes),False,the second was rubbery,He called his mother four times for recipes
+E22,E13,1,< (Precedes),False,the second was rubbery,he could prepare five different meals without consulting any instructions
+E22,E14,1,< (Precedes),False,the second was rubbery,His wife recovered
+E22,E15,1,< (Precedes),False,the second was rubbery,resumed cooking
+E22,E16,1,< (Precedes),False,the second was rubbery,Kabir continued to help
+E22,E17,1,< (Precedes),False,the second was rubbery,He now makes breakfast every Sunday
+E22,E18,1,< (Precedes),False,the second was rubbery,occasionally prepares dinner when his wife works late
+E22,E19,-1,> (Preceded By),False,the second was rubbery,She had been the household's cook for all twelve years of their marriage
+E22,E20,-1,> (Preceded By),False,the second was rubbery,Kabir had never cooked a meal
+E22,E21,-1,> (Preceded By),False,the second was rubbery,abir had been content to remain ignorant of the kitchen's mysteries.
+E22,E23,-1,> (Preceded By),False,the second was rubbery,". The first batch was undercooked,"
+E22,E24,1,< (Precedes),False,the second was rubbery,the third was edibl
+E22,E25,1,< (Precedes),False,the second was rubbery,she guided him through each step
+E22,E26,1,< (Precedes),False,the second was rubbery,that surprised him.
+E23,E1,-1,> (Preceded By),False,". The first batch was undercooked,",his wife fell ill
+E23,E2,-1,> (Preceded By),False,". The first batch was undercooked,",she came down with dengue fever
+E23,E3,5,d (During),False,". The first batch was undercooked,",was bedridden for three weeks
+E23,E4,-1,> (Preceded By),False,". The first batch was undercooked,",His first attempt was toast
+E23,E5,-1,> (Preceded By),False,". The first batch was undercooked,",He burned it
+E23,E6,-1,> (Preceded By),False,". The first batch was undercooked,",the smoke alarm went off
+E23,E7,-1,> (Preceded By),False,". The first batch was undercooked,",two neighbors knocked on the door
+E23,E8,-1,> (Preceded By),False,". The first batch was undercooked,","His wife, feverish and weak, laughed"
+E23,E9,-2,mi (Met By),False,". The first batch was undercooked,",he tried eggs
+E23,E10,1,< (Precedes),False,". The first batch was undercooked,",He served the third batch to his wife
+E23,E11,1,< (Precedes),False,". The first batch was undercooked,",Kabir progressed from toast and eggs to simple curries and rice dishes
+E23,E12,1,< (Precedes),False,". The first batch was undercooked,",He called his mother four times for recipes
+E23,E13,1,< (Precedes),False,". The first batch was undercooked,",he could prepare five different meals without consulting any instructions
+E23,E14,1,< (Precedes),False,". The first batch was undercooked,",His wife recovered
+E23,E15,1,< (Precedes),False,". The first batch was undercooked,",resumed cooking
+E23,E16,1,< (Precedes),False,". The first batch was undercooked,",Kabir continued to help
+E23,E17,1,< (Precedes),False,". The first batch was undercooked,",He now makes breakfast every Sunday
+E23,E18,1,< (Precedes),False,". The first batch was undercooked,",occasionally prepares dinner when his wife works late
+E23,E19,-1,> (Preceded By),False,". The first batch was undercooked,",She had been the household's cook for all twelve years of their marriage
+E23,E20,-1,> (Preceded By),False,". The first batch was undercooked,",Kabir had never cooked a meal
+E23,E21,-1,> (Preceded By),False,". The first batch was undercooked,",abir had been content to remain ignorant of the kitchen's mysteries.
+E23,E22,1,< (Precedes),False,". The first batch was undercooked,",the second was rubbery
+E23,E24,1,< (Precedes),False,". The first batch was undercooked,",the third was edibl
+E23,E25,1,< (Precedes),False,". The first batch was undercooked,",she guided him through each step
+E23,E26,1,< (Precedes),False,". The first batch was undercooked,",that surprised him.
+E24,E1,-1,> (Preceded By),False,the third was edibl,his wife fell ill
+E24,E2,-1,> (Preceded By),False,the third was edibl,she came down with dengue fever
+E24,E3,5,d (During),False,the third was edibl,was bedridden for three weeks
+E24,E4,-1,> (Preceded By),False,the third was edibl,His first attempt was toast
+E24,E5,-1,> (Preceded By),False,the third was edibl,He burned it
+E24,E6,-1,> (Preceded By),False,the third was edibl,the smoke alarm went off
+E24,E7,-1,> (Preceded By),False,the third was edibl,two neighbors knocked on the door
+E24,E8,-1,> (Preceded By),False,the third was edibl,"His wife, feverish and weak, laughed"
+E24,E9,-1,> (Preceded By),False,the third was edibl,he tried eggs
+E24,E10,1,< (Precedes),False,the third was edibl,He served the third batch to his wife
+E24,E11,1,< (Precedes),False,the third was edibl,Kabir progressed from toast and eggs to simple curries and rice dishes
+E24,E12,1,< (Precedes),False,the third was edibl,He called his mother four times for recipes
+E24,E13,1,< (Precedes),False,the third was edibl,he could prepare five different meals without consulting any instructions
+E24,E14,1,< (Precedes),False,the third was edibl,His wife recovered
+E24,E15,1,< (Precedes),False,the third was edibl,resumed cooking
+E24,E16,1,< (Precedes),False,the third was edibl,Kabir continued to help
+E24,E17,1,< (Precedes),False,the third was edibl,He now makes breakfast every Sunday
+E24,E18,1,< (Precedes),False,the third was edibl,occasionally prepares dinner when his wife works late
+E24,E19,-1,> (Preceded By),False,the third was edibl,She had been the household's cook for all twelve years of their marriage
+E24,E20,-1,> (Preceded By),False,the third was edibl,Kabir had never cooked a meal
+E24,E21,-1,> (Preceded By),False,the third was edibl,abir had been content to remain ignorant of the kitchen's mysteries.
+E24,E22,-1,> (Preceded By),False,the third was edibl,the second was rubbery
+E24,E23,-1,> (Preceded By),False,the third was edibl,". The first batch was undercooked,"
+E24,E25,1,< (Precedes),False,the third was edibl,she guided him through each step
+E24,E26,1,< (Precedes),False,the third was edibl,that surprised him.
+E25,E1,-1,> (Preceded By),False,she guided him through each step,his wife fell ill
+E25,E2,-1,> (Preceded By),False,she guided him through each step,she came down with dengue fever
+E25,E3,5,d (During),False,she guided him through each step,was bedridden for three weeks
+E25,E4,-1,> (Preceded By),False,she guided him through each step,His first attempt was toast
+E25,E5,-1,> (Preceded By),False,she guided him through each step,He burned it
+E25,E6,-1,> (Preceded By),False,she guided him through each step,the smoke alarm went off
+E25,E7,-1,> (Preceded By),False,she guided him through each step,two neighbors knocked on the door
+E25,E8,-1,> (Preceded By),False,she guided him through each step,"His wife, feverish and weak, laughed"
+E25,E9,-1,> (Preceded By),False,she guided him through each step,he tried eggs
+E25,E10,-1,> (Preceded By),False,she guided him through each step,He served the third batch to his wife
+E25,E11,5,d (During),False,she guided him through each step,Kabir progressed from toast and eggs to simple curries and rice dishes
+E25,E12,0,= (Equal),False,she guided him through each step,He called his mother four times for recipes
+E25,E13,1,< (Precedes),False,she guided him through each step,he could prepare five different meals without consulting any instructions
+E25,E14,1,< (Precedes),False,she guided him through each step,His wife recovered
+E25,E15,1,< (Precedes),False,she guided him through each step,resumed cooking
+E25,E16,1,< (Precedes),False,she guided him through each step,Kabir continued to help
+E25,E17,1,< (Precedes),False,she guided him through each step,He now makes breakfast every Sunday
+E25,E18,1,< (Precedes),False,she guided him through each step,occasionally prepares dinner when his wife works late
+E25,E19,-1,> (Preceded By),False,she guided him through each step,She had been the household's cook for all twelve years of their marriage
+E25,E20,-1,> (Preceded By),False,she guided him through each step,Kabir had never cooked a meal
+E25,E21,-1,> (Preceded By),False,she guided him through each step,abir had been content to remain ignorant of the kitchen's mysteries.
+E25,E22,-1,> (Preceded By),False,she guided him through each step,the second was rubbery
+E25,E23,-1,> (Preceded By),False,she guided him through each step,". The first batch was undercooked,"
+E25,E24,-1,> (Preceded By),False,she guided him through each step,the third was edibl
+E25,E26,0,= (Equal),False,she guided him through each step,that surprised him.
+E26,E1,-1,> (Preceded By),False,that surprised him.,his wife fell ill
+E26,E2,-1,> (Preceded By),False,that surprised him.,she came down with dengue fever
+E26,E3,5,d (During),False,that surprised him.,was bedridden for three weeks
+E26,E4,-1,> (Preceded By),False,that surprised him.,His first attempt was toast
+E26,E5,-1,> (Preceded By),False,that surprised him.,He burned it
+E26,E6,-1,> (Preceded By),False,that surprised him.,the smoke alarm went off
+E26,E7,-1,> (Preceded By),False,that surprised him.,two neighbors knocked on the door
+E26,E8,-1,> (Preceded By),False,that surprised him.,"His wife, feverish and weak, laughed"
+E26,E9,-1,> (Preceded By),False,that surprised him.,he tried eggs
+E26,E10,-1,> (Preceded By),False,that surprised him.,He served the third batch to his wife
+E26,E11,5,d (During),False,that surprised him.,Kabir progressed from toast and eggs to simple curries and rice dishes
+E26,E12,0,= (Equal),False,that surprised him.,He called his mother four times for recipes
+E26,E13,1,< (Precedes),False,that surprised him.,he could prepare five different meals without consulting any instructions
+E26,E14,1,< (Precedes),False,that surprised him.,His wife recovered
+E26,E15,1,< (Precedes),False,that surprised him.,resumed cooking
+E26,E16,1,< (Precedes),False,that surprised him.,Kabir continued to help
+E26,E17,1,< (Precedes),False,that surprised him.,He now makes breakfast every Sunday
+E26,E18,1,< (Precedes),False,that surprised him.,occasionally prepares dinner when his wife works late
+E26,E19,-1,> (Preceded By),False,that surprised him.,She had been the household's cook for all twelve years of their marriage
+E26,E20,-1,> (Preceded By),False,that surprised him.,Kabir had never cooked a meal
+E26,E21,-1,> (Preceded By),False,that surprised him.,abir had been content to remain ignorant of the kitchen's mysteries.
+E26,E22,-1,> (Preceded By),False,that surprised him.,the second was rubbery
+E26,E23,-1,> (Preceded By),False,that surprised him.,". The first batch was undercooked,"
+E26,E24,-1,> (Preceded By),False,that surprised him.,the third was edibl
+E26,E25,0,= (Equal),False,that surprised him.,she guided him through each step

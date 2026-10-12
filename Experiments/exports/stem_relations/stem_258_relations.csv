@@ -1,0 +1,57 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,The fire was real.,The school's security guard had discovered
+E1,E3,-5,di (Contains),False,The fire was real.,The fire engines arrived
+E1,E4,-6,fi (Finished By),False,The fire was real.,The firefighters contained the blaze
+E1,E5,2,m (Meets),False,The fire was real.,The school was closed
+E1,E6,-5,di (Contains),False,The fire was real.,all four hundred students and thirty teachers had evacuated safely
+E1,E7,-5,di (Contains),False,The fire was real.,the entire class had exited the building
+E1,E8,1,< (Precedes),False,The fire was real.,the school implemented new fire safety measures
+E2,E1,5,d (During),False,The school's security guard had discovered,The fire was real.
+E2,E3,4,s (Starts),False,The school's security guard had discovered,The fire engines arrived
+E2,E4,1,< (Precedes),False,The school's security guard had discovered,The firefighters contained the blaze
+E2,E5,1,< (Precedes),False,The school's security guard had discovered,The school was closed
+E2,E6,2,m (Meets),False,The school's security guard had discovered,all four hundred students and thirty teachers had evacuated safely
+E2,E7,2,m (Meets),False,The school's security guard had discovered,the entire class had exited the building
+E2,E8,1,< (Precedes),False,The school's security guard had discovered,the school implemented new fire safety measures
+E3,E1,5,d (During),False,The fire engines arrived,The fire was real.
+E3,E2,-4,si (Started By),False,The fire engines arrived,The school's security guard had discovered
+E3,E4,2,m (Meets),False,The fire engines arrived,The firefighters contained the blaze
+E3,E5,1,< (Precedes),False,The fire engines arrived,The school was closed
+E3,E6,-6,fi (Finished By),False,The fire engines arrived,all four hundred students and thirty teachers had evacuated safely
+E3,E7,-5,di (Contains),False,The fire engines arrived,the entire class had exited the building
+E3,E8,1,< (Precedes),False,The fire engines arrived,the school implemented new fire safety measures
+E4,E1,6,f (Finishes),False,The firefighters contained the blaze,The fire was real.
+E4,E2,-1,> (Preceded By),False,The firefighters contained the blaze,The school's security guard had discovered
+E4,E3,-2,mi (Met By),False,The firefighters contained the blaze,The fire engines arrived
+E4,E5,2,m (Meets),False,The firefighters contained the blaze,The school was closed
+E4,E6,-2,mi (Met By),False,The firefighters contained the blaze,all four hundred students and thirty teachers had evacuated safely
+E4,E7,-1,> (Preceded By),False,The firefighters contained the blaze,the entire class had exited the building
+E4,E8,1,< (Precedes),False,The firefighters contained the blaze,the school implemented new fire safety measures
+E5,E1,-2,mi (Met By),False,The school was closed,The fire was real.
+E5,E2,-1,> (Preceded By),False,The school was closed,The school's security guard had discovered
+E5,E3,-1,> (Preceded By),False,The school was closed,The fire engines arrived
+E5,E4,-2,mi (Met By),False,The school was closed,The firefighters contained the blaze
+E5,E6,-1,> (Preceded By),False,The school was closed,all four hundred students and thirty teachers had evacuated safely
+E5,E7,-1,> (Preceded By),False,The school was closed,the entire class had exited the building
+E5,E8,2,m (Meets),False,The school was closed,the school implemented new fire safety measures
+E6,E1,5,d (During),False,all four hundred students and thirty teachers had evacuated safely,The fire was real.
+E6,E2,-2,mi (Met By),False,all four hundred students and thirty teachers had evacuated safely,The school's security guard had discovered
+E6,E3,6,f (Finishes),False,all four hundred students and thirty teachers had evacuated safely,The fire engines arrived
+E6,E4,2,m (Meets),False,all four hundred students and thirty teachers had evacuated safely,The firefighters contained the blaze
+E6,E5,1,< (Precedes),False,all four hundred students and thirty teachers had evacuated safely,The school was closed
+E6,E7,-4,si (Started By),False,all four hundred students and thirty teachers had evacuated safely,the entire class had exited the building
+E6,E8,1,< (Precedes),False,all four hundred students and thirty teachers had evacuated safely,the school implemented new fire safety measures
+E7,E1,5,d (During),False,the entire class had exited the building,The fire was real.
+E7,E2,-2,mi (Met By),False,the entire class had exited the building,The school's security guard had discovered
+E7,E3,5,d (During),False,the entire class had exited the building,The fire engines arrived
+E7,E4,1,< (Precedes),False,the entire class had exited the building,The firefighters contained the blaze
+E7,E5,1,< (Precedes),False,the entire class had exited the building,The school was closed
+E7,E6,4,s (Starts),False,the entire class had exited the building,all four hundred students and thirty teachers had evacuated safely
+E7,E8,1,< (Precedes),False,the entire class had exited the building,the school implemented new fire safety measures
+E8,E1,-1,> (Preceded By),False,the school implemented new fire safety measures,The fire was real.
+E8,E2,-1,> (Preceded By),False,the school implemented new fire safety measures,The school's security guard had discovered
+E8,E3,-1,> (Preceded By),False,the school implemented new fire safety measures,The fire engines arrived
+E8,E4,-1,> (Preceded By),False,the school implemented new fire safety measures,The firefighters contained the blaze
+E8,E5,-2,mi (Met By),False,the school implemented new fire safety measures,The school was closed
+E8,E6,-1,> (Preceded By),False,the school implemented new fire safety measures,all four hundred students and thirty teachers had evacuated safely
+E8,E7,-1,> (Preceded By),False,the school implemented new fire safety measures,the entire class had exited the building

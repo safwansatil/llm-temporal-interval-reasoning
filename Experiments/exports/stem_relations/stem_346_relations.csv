@@ -1,0 +1,157 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,his father's death,his father had tried to teach him
+E1,E3,4,s (Starts),False,his father's death,Rahul had been more interested in cricket
+E1,E4,4,s (Starts),False,his father's death,had refused the lessons
+E1,E5,1,< (Precedes),False,his father's death,found his father's old guitar
+E1,E6,1,< (Precedes),False,his father's death,took the guitar to a repair shop
+E1,E7,1,< (Precedes),False,his father's death,agreed
+E1,E8,1,< (Precedes),False,his father's death,replaced the strings
+E1,E9,1,< (Precedes),False,his father's death,polished the wood
+E1,E10,1,< (Precedes),False,his father's death,adjusted the bridge
+E1,E11,1,< (Precedes),False,his father's death,strummed the strings
+E1,E12,1,< (Precedes),False,his father's death,enrolled in guitar lessons
+E1,E13,1,< (Precedes),False,his father's death,practices for an hour each evening
+E2,E1,-4,si (Started By),False,his father had tried to teach him,his father's death
+E2,E3,0,= (Equal),False,his father had tried to teach him,Rahul had been more interested in cricket
+E2,E4,0,= (Equal),False,his father had tried to teach him,had refused the lessons
+E2,E5,1,< (Precedes),False,his father had tried to teach him,found his father's old guitar
+E2,E6,1,< (Precedes),False,his father had tried to teach him,took the guitar to a repair shop
+E2,E7,1,< (Precedes),False,his father had tried to teach him,agreed
+E2,E8,1,< (Precedes),False,his father had tried to teach him,replaced the strings
+E2,E9,1,< (Precedes),False,his father had tried to teach him,polished the wood
+E2,E10,1,< (Precedes),False,his father had tried to teach him,adjusted the bridge
+E2,E11,1,< (Precedes),False,his father had tried to teach him,strummed the strings
+E2,E12,1,< (Precedes),False,his father had tried to teach him,enrolled in guitar lessons
+E2,E13,1,< (Precedes),False,his father had tried to teach him,practices for an hour each evening
+E3,E1,-4,si (Started By),False,Rahul had been more interested in cricket,his father's death
+E3,E2,0,= (Equal),False,Rahul had been more interested in cricket,his father had tried to teach him
+E3,E4,0,= (Equal),False,Rahul had been more interested in cricket,had refused the lessons
+E3,E5,1,< (Precedes),False,Rahul had been more interested in cricket,found his father's old guitar
+E3,E6,1,< (Precedes),False,Rahul had been more interested in cricket,took the guitar to a repair shop
+E3,E7,1,< (Precedes),False,Rahul had been more interested in cricket,agreed
+E3,E8,1,< (Precedes),False,Rahul had been more interested in cricket,replaced the strings
+E3,E9,1,< (Precedes),False,Rahul had been more interested in cricket,polished the wood
+E3,E10,1,< (Precedes),False,Rahul had been more interested in cricket,adjusted the bridge
+E3,E11,1,< (Precedes),False,Rahul had been more interested in cricket,strummed the strings
+E3,E12,1,< (Precedes),False,Rahul had been more interested in cricket,enrolled in guitar lessons
+E3,E13,1,< (Precedes),False,Rahul had been more interested in cricket,practices for an hour each evening
+E4,E1,-4,si (Started By),False,had refused the lessons,his father's death
+E4,E2,0,= (Equal),False,had refused the lessons,his father had tried to teach him
+E4,E3,0,= (Equal),False,had refused the lessons,Rahul had been more interested in cricket
+E4,E5,1,< (Precedes),False,had refused the lessons,found his father's old guitar
+E4,E6,1,< (Precedes),False,had refused the lessons,took the guitar to a repair shop
+E4,E7,1,< (Precedes),False,had refused the lessons,agreed
+E4,E8,1,< (Precedes),False,had refused the lessons,replaced the strings
+E4,E9,1,< (Precedes),False,had refused the lessons,polished the wood
+E4,E10,1,< (Precedes),False,had refused the lessons,adjusted the bridge
+E4,E11,1,< (Precedes),False,had refused the lessons,strummed the strings
+E4,E12,1,< (Precedes),False,had refused the lessons,enrolled in guitar lessons
+E4,E13,1,< (Precedes),False,had refused the lessons,practices for an hour each evening
+E5,E1,-1,> (Preceded By),False,found his father's old guitar,his father's death
+E5,E2,-1,> (Preceded By),False,found his father's old guitar,his father had tried to teach him
+E5,E3,-1,> (Preceded By),False,found his father's old guitar,Rahul had been more interested in cricket
+E5,E4,-1,> (Preceded By),False,found his father's old guitar,had refused the lessons
+E5,E6,1,< (Precedes),False,found his father's old guitar,took the guitar to a repair shop
+E5,E7,1,< (Precedes),False,found his father's old guitar,agreed
+E5,E8,1,< (Precedes),False,found his father's old guitar,replaced the strings
+E5,E9,1,< (Precedes),False,found his father's old guitar,polished the wood
+E5,E10,1,< (Precedes),False,found his father's old guitar,adjusted the bridge
+E5,E11,1,< (Precedes),False,found his father's old guitar,strummed the strings
+E5,E12,1,< (Precedes),False,found his father's old guitar,enrolled in guitar lessons
+E5,E13,1,< (Precedes),False,found his father's old guitar,practices for an hour each evening
+E6,E1,-1,> (Preceded By),False,took the guitar to a repair shop,his father's death
+E6,E2,-1,> (Preceded By),False,took the guitar to a repair shop,his father had tried to teach him
+E6,E3,-1,> (Preceded By),False,took the guitar to a repair shop,Rahul had been more interested in cricket
+E6,E4,-1,> (Preceded By),False,took the guitar to a repair shop,had refused the lessons
+E6,E5,-1,> (Preceded By),False,took the guitar to a repair shop,found his father's old guitar
+E6,E7,2,m (Meets),False,took the guitar to a repair shop,agreed
+E6,E8,1,< (Precedes),False,took the guitar to a repair shop,replaced the strings
+E6,E9,1,< (Precedes),False,took the guitar to a repair shop,polished the wood
+E6,E10,1,< (Precedes),False,took the guitar to a repair shop,adjusted the bridge
+E6,E11,1,< (Precedes),False,took the guitar to a repair shop,strummed the strings
+E6,E12,1,< (Precedes),False,took the guitar to a repair shop,enrolled in guitar lessons
+E6,E13,1,< (Precedes),False,took the guitar to a repair shop,practices for an hour each evening
+E7,E1,-1,> (Preceded By),False,agreed,his father's death
+E7,E2,-1,> (Preceded By),False,agreed,his father had tried to teach him
+E7,E3,-1,> (Preceded By),False,agreed,Rahul had been more interested in cricket
+E7,E4,-1,> (Preceded By),False,agreed,had refused the lessons
+E7,E5,-1,> (Preceded By),False,agreed,found his father's old guitar
+E7,E6,-2,mi (Met By),False,agreed,took the guitar to a repair shop
+E7,E8,2,m (Meets),False,agreed,replaced the strings
+E7,E9,2,m (Meets),False,agreed,polished the wood
+E7,E10,2,m (Meets),False,agreed,adjusted the bridge
+E7,E11,1,< (Precedes),False,agreed,strummed the strings
+E7,E12,1,< (Precedes),False,agreed,enrolled in guitar lessons
+E7,E13,1,< (Precedes),False,agreed,practices for an hour each evening
+E8,E1,-1,> (Preceded By),False,replaced the strings,his father's death
+E8,E2,-1,> (Preceded By),False,replaced the strings,his father had tried to teach him
+E8,E3,-1,> (Preceded By),False,replaced the strings,Rahul had been more interested in cricket
+E8,E4,-1,> (Preceded By),False,replaced the strings,had refused the lessons
+E8,E5,-1,> (Preceded By),False,replaced the strings,found his father's old guitar
+E8,E6,-1,> (Preceded By),False,replaced the strings,took the guitar to a repair shop
+E8,E7,-2,mi (Met By),False,replaced the strings,agreed
+E8,E9,0,= (Equal),False,replaced the strings,polished the wood
+E8,E10,0,= (Equal),False,replaced the strings,adjusted the bridge
+E8,E11,2,m (Meets),False,replaced the strings,strummed the strings
+E8,E12,1,< (Precedes),False,replaced the strings,enrolled in guitar lessons
+E8,E13,1,< (Precedes),False,replaced the strings,practices for an hour each evening
+E9,E1,-1,> (Preceded By),False,polished the wood,his father's death
+E9,E2,-1,> (Preceded By),False,polished the wood,his father had tried to teach him
+E9,E3,-1,> (Preceded By),False,polished the wood,Rahul had been more interested in cricket
+E9,E4,-1,> (Preceded By),False,polished the wood,had refused the lessons
+E9,E5,-1,> (Preceded By),False,polished the wood,found his father's old guitar
+E9,E6,-1,> (Preceded By),False,polished the wood,took the guitar to a repair shop
+E9,E7,-2,mi (Met By),False,polished the wood,agreed
+E9,E8,0,= (Equal),False,polished the wood,replaced the strings
+E9,E10,0,= (Equal),False,polished the wood,adjusted the bridge
+E9,E11,2,m (Meets),False,polished the wood,strummed the strings
+E9,E12,1,< (Precedes),False,polished the wood,enrolled in guitar lessons
+E9,E13,1,< (Precedes),False,polished the wood,practices for an hour each evening
+E10,E1,-1,> (Preceded By),False,adjusted the bridge,his father's death
+E10,E2,-1,> (Preceded By),False,adjusted the bridge,his father had tried to teach him
+E10,E3,-1,> (Preceded By),False,adjusted the bridge,Rahul had been more interested in cricket
+E10,E4,-1,> (Preceded By),False,adjusted the bridge,had refused the lessons
+E10,E5,-1,> (Preceded By),False,adjusted the bridge,found his father's old guitar
+E10,E6,-1,> (Preceded By),False,adjusted the bridge,took the guitar to a repair shop
+E10,E7,-2,mi (Met By),False,adjusted the bridge,agreed
+E10,E8,0,= (Equal),False,adjusted the bridge,replaced the strings
+E10,E9,0,= (Equal),False,adjusted the bridge,polished the wood
+E10,E11,2,m (Meets),False,adjusted the bridge,strummed the strings
+E10,E12,1,< (Precedes),False,adjusted the bridge,enrolled in guitar lessons
+E10,E13,1,< (Precedes),False,adjusted the bridge,practices for an hour each evening
+E11,E1,-1,> (Preceded By),False,strummed the strings,his father's death
+E11,E2,-1,> (Preceded By),False,strummed the strings,his father had tried to teach him
+E11,E3,-1,> (Preceded By),False,strummed the strings,Rahul had been more interested in cricket
+E11,E4,-1,> (Preceded By),False,strummed the strings,had refused the lessons
+E11,E5,-1,> (Preceded By),False,strummed the strings,found his father's old guitar
+E11,E6,-1,> (Preceded By),False,strummed the strings,took the guitar to a repair shop
+E11,E7,-1,> (Preceded By),False,strummed the strings,agreed
+E11,E8,-2,mi (Met By),False,strummed the strings,replaced the strings
+E11,E9,-2,mi (Met By),False,strummed the strings,polished the wood
+E11,E10,-2,mi (Met By),False,strummed the strings,adjusted the bridge
+E11,E12,1,< (Precedes),False,strummed the strings,enrolled in guitar lessons
+E11,E13,1,< (Precedes),False,strummed the strings,practices for an hour each evening
+E12,E1,-1,> (Preceded By),False,enrolled in guitar lessons,his father's death
+E12,E2,-1,> (Preceded By),False,enrolled in guitar lessons,his father had tried to teach him
+E12,E3,-1,> (Preceded By),False,enrolled in guitar lessons,Rahul had been more interested in cricket
+E12,E4,-1,> (Preceded By),False,enrolled in guitar lessons,had refused the lessons
+E12,E5,-1,> (Preceded By),False,enrolled in guitar lessons,found his father's old guitar
+E12,E6,-1,> (Preceded By),False,enrolled in guitar lessons,took the guitar to a repair shop
+E12,E7,-1,> (Preceded By),False,enrolled in guitar lessons,agreed
+E12,E8,-1,> (Preceded By),False,enrolled in guitar lessons,replaced the strings
+E12,E9,-1,> (Preceded By),False,enrolled in guitar lessons,polished the wood
+E12,E10,-1,> (Preceded By),False,enrolled in guitar lessons,adjusted the bridge
+E12,E11,-1,> (Preceded By),False,enrolled in guitar lessons,strummed the strings
+E12,E13,2,m (Meets),False,enrolled in guitar lessons,practices for an hour each evening
+E13,E1,-1,> (Preceded By),False,practices for an hour each evening,his father's death
+E13,E2,-1,> (Preceded By),False,practices for an hour each evening,his father had tried to teach him
+E13,E3,-1,> (Preceded By),False,practices for an hour each evening,Rahul had been more interested in cricket
+E13,E4,-1,> (Preceded By),False,practices for an hour each evening,had refused the lessons
+E13,E5,-1,> (Preceded By),False,practices for an hour each evening,found his father's old guitar
+E13,E6,-1,> (Preceded By),False,practices for an hour each evening,took the guitar to a repair shop
+E13,E7,-1,> (Preceded By),False,practices for an hour each evening,agreed
+E13,E8,-1,> (Preceded By),False,practices for an hour each evening,replaced the strings
+E13,E9,-1,> (Preceded By),False,practices for an hour each evening,polished the wood
+E13,E10,-1,> (Preceded By),False,practices for an hour each evening,adjusted the bridge
+E13,E11,-1,> (Preceded By),False,practices for an hour each evening,strummed the strings
+E13,E12,-2,mi (Met By),False,practices for an hour each evening,enrolled in guitar lessons

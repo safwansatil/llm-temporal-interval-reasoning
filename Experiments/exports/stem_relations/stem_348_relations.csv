@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,learned about rainwater harvesting,attended in the first week of February
+E1,E3,2,m (Meets),False,learned about rainwater harvesting,returned home
+E1,E4,2,m (Meets),False,learned about rainwater harvesting,began planning a community-scale system
+E1,E5,1,< (Precedes),False,learned about rainwater harvesting,presented the idea at the village council meeting
+E1,E6,1,< (Precedes),False,learned about rainwater harvesting,council agreed to allow a pilot project
+E1,E7,1,< (Precedes),False,learned about rainwater harvesting,securing materials
+E1,E8,1,< (Precedes),False,learned about rainwater harvesting,installation began
+E1,E9,1,< (Precedes),False,learned about rainwater harvesting,system was completed
+E1,E10,1,< (Precedes),False,learned about rainwater harvesting,first rain came
+E1,E11,1,< (Precedes),False,learned about rainwater harvesting,tank filled to capacity
+E1,E12,1,< (Precedes),False,learned about rainwater harvesting,"dry season, which began in the middle of April"
+E1,E13,1,< (Precedes),False,learned about rainwater harvesting,village's tube wells were running low
+E1,E14,1,< (Precedes),False,learned about rainwater harvesting,council approved expansion of the project
+E1,E15,1,< (Precedes),False,learned about rainwater harvesting,installations were completed
+E1,E16,1,< (Precedes),False,learned about rainwater harvesting,village had reduced its dependence on groundwater by nearly half
+E1,E17,1,< (Precedes),False,learned about rainwater harvesting,Fahmida now works as a consultant
+E2,E1,0,= (Equal),False,attended in the first week of February,learned about rainwater harvesting
+E2,E3,2,m (Meets),False,attended in the first week of February,returned home
+E2,E4,2,m (Meets),False,attended in the first week of February,began planning a community-scale system
+E2,E5,1,< (Precedes),False,attended in the first week of February,presented the idea at the village council meeting
+E2,E6,1,< (Precedes),False,attended in the first week of February,council agreed to allow a pilot project
+E2,E7,1,< (Precedes),False,attended in the first week of February,securing materials
+E2,E8,1,< (Precedes),False,attended in the first week of February,installation began
+E2,E9,1,< (Precedes),False,attended in the first week of February,system was completed
+E2,E10,1,< (Precedes),False,attended in the first week of February,first rain came
+E2,E11,1,< (Precedes),False,attended in the first week of February,tank filled to capacity
+E2,E12,1,< (Precedes),False,attended in the first week of February,"dry season, which began in the middle of April"
+E2,E13,1,< (Precedes),False,attended in the first week of February,village's tube wells were running low
+E2,E14,1,< (Precedes),False,attended in the first week of February,council approved expansion of the project
+E2,E15,1,< (Precedes),False,attended in the first week of February,installations were completed
+E2,E16,1,< (Precedes),False,attended in the first week of February,village had reduced its dependence on groundwater by nearly half
+E2,E17,1,< (Precedes),False,attended in the first week of February,Fahmida now works as a consultant
+E3,E1,-2,mi (Met By),False,returned home,learned about rainwater harvesting
+E3,E2,-2,mi (Met By),False,returned home,attended in the first week of February
+E3,E4,-4,si (Started By),False,returned home,began planning a community-scale system
+E3,E5,-6,fi (Finished By),False,returned home,presented the idea at the village council meeting
+E3,E6,2,m (Meets),False,returned home,council agreed to allow a pilot project
+E3,E7,2,m (Meets),False,returned home,securing materials
+E3,E8,1,< (Precedes),False,returned home,installation began
+E3,E9,1,< (Precedes),False,returned home,system was completed
+E3,E10,1,< (Precedes),False,returned home,first rain came
+E3,E11,1,< (Precedes),False,returned home,tank filled to capacity
+E3,E12,1,< (Precedes),False,returned home,"dry season, which began in the middle of April"
+E3,E13,1,< (Precedes),False,returned home,village's tube wells were running low
+E3,E14,1,< (Precedes),False,returned home,council approved expansion of the project
+E3,E15,1,< (Precedes),False,returned home,installations were completed
+E3,E16,1,< (Precedes),False,returned home,village had reduced its dependence on groundwater by nearly half
+E3,E17,1,< (Precedes),False,returned home,Fahmida now works as a consultant
+E4,E1,-2,mi (Met By),False,began planning a community-scale system,learned about rainwater harvesting
+E4,E2,-2,mi (Met By),False,began planning a community-scale system,attended in the first week of February
+E4,E3,4,s (Starts),False,began planning a community-scale system,returned home
+E4,E5,2,m (Meets),False,began planning a community-scale system,presented the idea at the village council meeting
+E4,E6,1,< (Precedes),False,began planning a community-scale system,council agreed to allow a pilot project
+E4,E7,1,< (Precedes),False,began planning a community-scale system,securing materials
+E4,E8,1,< (Precedes),False,began planning a community-scale system,installation began
+E4,E9,1,< (Precedes),False,began planning a community-scale system,system was completed
+E4,E10,1,< (Precedes),False,began planning a community-scale system,first rain came
+E4,E11,1,< (Precedes),False,began planning a community-scale system,tank filled to capacity
+E4,E12,1,< (Precedes),False,began planning a community-scale system,"dry season, which began in the middle of April"
+E4,E13,1,< (Precedes),False,began planning a community-scale system,village's tube wells were running low
+E4,E14,1,< (Precedes),False,began planning a community-scale system,council approved expansion of the project
+E4,E15,1,< (Precedes),False,began planning a community-scale system,installations were completed
+E4,E16,1,< (Precedes),False,began planning a community-scale system,village had reduced its dependence on groundwater by nearly half
+E4,E17,1,< (Precedes),False,began planning a community-scale system,Fahmida now works as a consultant
+E5,E1,-1,> (Preceded By),False,presented the idea at the village council meeting,learned about rainwater harvesting
+E5,E2,-1,> (Preceded By),False,presented the idea at the village council meeting,attended in the first week of February
+E5,E3,6,f (Finishes),False,presented the idea at the village council meeting,returned home
+E5,E4,-2,mi (Met By),False,presented the idea at the village council meeting,began planning a community-scale system
+E5,E6,2,m (Meets),False,presented the idea at the village council meeting,council agreed to allow a pilot project
+E5,E7,2,m (Meets),False,presented the idea at the village council meeting,securing materials
+E5,E8,1,< (Precedes),False,presented the idea at the village council meeting,installation began
+E5,E9,1,< (Precedes),False,presented the idea at the village council meeting,system was completed
+E5,E10,1,< (Precedes),False,presented the idea at the village council meeting,first rain came
+E5,E11,1,< (Precedes),False,presented the idea at the village council meeting,tank filled to capacity
+E5,E12,1,< (Precedes),False,presented the idea at the village council meeting,"dry season, which began in the middle of April"
+E5,E13,1,< (Precedes),False,presented the idea at the village council meeting,village's tube wells were running low
+E5,E14,1,< (Precedes),False,presented the idea at the village council meeting,council approved expansion of the project
+E5,E15,1,< (Precedes),False,presented the idea at the village council meeting,installations were completed
+E5,E16,1,< (Precedes),False,presented the idea at the village council meeting,village had reduced its dependence on groundwater by nearly half
+E5,E17,1,< (Precedes),False,presented the idea at the village council meeting,Fahmida now works as a consultant
+E6,E1,-1,> (Preceded By),False,council agreed to allow a pilot project,learned about rainwater harvesting
+E6,E2,-1,> (Preceded By),False,council agreed to allow a pilot project,attended in the first week of February
+E6,E3,-2,mi (Met By),False,council agreed to allow a pilot project,returned home
+E6,E4,-1,> (Preceded By),False,council agreed to allow a pilot project,began planning a community-scale system
+E6,E5,-2,mi (Met By),False,council agreed to allow a pilot project,presented the idea at the village council meeting
+E6,E7,4,s (Starts),False,council agreed to allow a pilot project,securing materials
+E6,E8,1,< (Precedes),False,council agreed to allow a pilot project,installation began
+E6,E9,1,< (Precedes),False,council agreed to allow a pilot project,system was completed
+E6,E10,1,< (Precedes),False,council agreed to allow a pilot project,first rain came
+E6,E11,1,< (Precedes),False,council agreed to allow a pilot project,tank filled to capacity
+E6,E12,1,< (Precedes),False,council agreed to allow a pilot project,"dry season, which began in the middle of April"
+E6,E13,1,< (Precedes),False,council agreed to allow a pilot project,village's tube wells were running low
+E6,E14,1,< (Precedes),False,council agreed to allow a pilot project,council approved expansion of the project
+E6,E15,1,< (Precedes),False,council agreed to allow a pilot project,installations were completed
+E6,E16,1,< (Precedes),False,council agreed to allow a pilot project,village had reduced its dependence on groundwater by nearly half
+E6,E17,1,< (Precedes),False,council agreed to allow a pilot project,Fahmida now works as a consultant
+E7,E1,-1,> (Preceded By),False,securing materials,learned about rainwater harvesting
+E7,E2,-1,> (Preceded By),False,securing materials,attended in the first week of February
+E7,E3,-2,mi (Met By),False,securing materials,returned home
+E7,E4,-1,> (Preceded By),False,securing materials,began planning a community-scale system
+E7,E5,-2,mi (Met By),False,securing materials,presented the idea at the village council meeting
+E7,E6,-4,si (Started By),False,securing materials,council agreed to allow a pilot project
+E7,E8,2,m (Meets),False,securing materials,installation began
+E7,E9,2,m (Meets),False,securing materials,system was completed
+E7,E10,1,< (Precedes),False,securing materials,first rain came
+E7,E11,1,< (Precedes),False,securing materials,tank filled to capacity
+E7,E12,1,< (Precedes),False,securing materials,"dry season, which began in the middle of April"
+E7,E13,1,< (Precedes),False,securing materials,village's tube wells were running low
+E7,E14,1,< (Precedes),False,securing materials,council approved expansion of the project
+E7,E15,1,< (Precedes),False,securing materials,installations were completed
+E7,E16,1,< (Precedes),False,securing materials,village had reduced its dependence on groundwater by nearly half
+E7,E17,1,< (Precedes),False,securing materials,Fahmida now works as a consultant
+E8,E1,-1,> (Preceded By),False,installation began,learned about rainwater harvesting
+E8,E2,-1,> (Preceded By),False,installation began,attended in the first week of February
+E8,E3,-1,> (Preceded By),False,installation began,returned home
+E8,E4,-1,> (Preceded By),False,installation began,began planning a community-scale system
+E8,E5,-1,> (Preceded By),False,installation began,presented the idea at the village council meeting
+E8,E6,-1,> (Preceded By),False,installation began,council agreed to allow a pilot project
+E8,E7,-2,mi (Met By),False,installation began,securing materials
+E8,E9,0,= (Equal),False,installation began,system was completed
+E8,E10,2,m (Meets),False,installation began,first rain came
+E8,E11,1,< (Precedes),False,installation began,tank filled to capacity
+E8,E12,1,< (Precedes),False,installation began,"dry season, which began in the middle of April"
+E8,E13,1,< (Precedes),False,installation began,village's tube wells were running low
+E8,E14,1,< (Precedes),False,installation began,council approved expansion of the project
+E8,E15,1,< (Precedes),False,installation began,installations were completed
+E8,E16,1,< (Precedes),False,installation began,village had reduced its dependence on groundwater by nearly half
+E8,E17,1,< (Precedes),False,installation began,Fahmida now works as a consultant
+E9,E1,-1,> (Preceded By),False,system was completed,learned about rainwater harvesting
+E9,E2,-1,> (Preceded By),False,system was completed,attended in the first week of February
+E9,E3,-1,> (Preceded By),False,system was completed,returned home
+E9,E4,-1,> (Preceded By),False,system was completed,began planning a community-scale system
+E9,E5,-1,> (Preceded By),False,system was completed,presented the idea at the village council meeting
+E9,E6,-1,> (Preceded By),False,system was completed,council agreed to allow a pilot project
+E9,E7,-2,mi (Met By),False,system was completed,securing materials
+E9,E8,0,= (Equal),False,system was completed,installation began
+E9,E10,2,m (Meets),False,system was completed,first rain came
+E9,E11,1,< (Precedes),False,system was completed,tank filled to capacity
+E9,E12,1,< (Precedes),False,system was completed,"dry season, which began in the middle of April"
+E9,E13,1,< (Precedes),False,system was completed,village's tube wells were running low
+E9,E14,1,< (Precedes),False,system was completed,council approved expansion of the project
+E9,E15,1,< (Precedes),False,system was completed,installations were completed
+E9,E16,1,< (Precedes),False,system was completed,village had reduced its dependence on groundwater by nearly half
+E9,E17,1,< (Precedes),False,system was completed,Fahmida now works as a consultant
+E10,E1,-1,> (Preceded By),False,first rain came,learned about rainwater harvesting
+E10,E2,-1,> (Preceded By),False,first rain came,attended in the first week of February
+E10,E3,-1,> (Preceded By),False,first rain came,returned home
+E10,E4,-1,> (Preceded By),False,first rain came,began planning a community-scale system
+E10,E5,-1,> (Preceded By),False,first rain came,presented the idea at the village council meeting
+E10,E6,-1,> (Preceded By),False,first rain came,council agreed to allow a pilot project
+E10,E7,-1,> (Preceded By),False,first rain came,securing materials
+E10,E8,-2,mi (Met By),False,first rain came,installation began
+E10,E9,-2,mi (Met By),False,first rain came,system was completed
+E10,E11,2,m (Meets),False,first rain came,tank filled to capacity
+E10,E12,1,< (Precedes),False,first rain came,"dry season, which began in the middle of April"
+E10,E13,1,< (Precedes),False,first rain came,village's tube wells were running low
+E10,E14,1,< (Precedes),False,first rain came,council approved expansion of the project
+E10,E15,1,< (Precedes),False,first rain came,installations were completed
+E10,E16,1,< (Precedes),False,first rain came,village had reduced its dependence on groundwater by nearly half
+E10,E17,1,< (Precedes),False,first rain came,Fahmida now works as a consultant
+E11,E1,-1,> (Preceded By),False,tank filled to capacity,learned about rainwater harvesting
+E11,E2,-1,> (Preceded By),False,tank filled to capacity,attended in the first week of February
+E11,E3,-1,> (Preceded By),False,tank filled to capacity,returned home
+E11,E4,-1,> (Preceded By),False,tank filled to capacity,began planning a community-scale system
+E11,E5,-1,> (Preceded By),False,tank filled to capacity,presented the idea at the village council meeting
+E11,E6,-1,> (Preceded By),False,tank filled to capacity,council agreed to allow a pilot project
+E11,E7,-1,> (Preceded By),False,tank filled to capacity,securing materials
+E11,E8,-1,> (Preceded By),False,tank filled to capacity,installation began
+E11,E9,-1,> (Preceded By),False,tank filled to capacity,system was completed
+E11,E10,-2,mi (Met By),False,tank filled to capacity,first rain came
+E11,E12,3,o (Overlaps),False,tank filled to capacity,"dry season, which began in the middle of April"
+E11,E13,1,< (Precedes),False,tank filled to capacity,village's tube wells were running low
+E11,E14,1,< (Precedes),False,tank filled to capacity,council approved expansion of the project
+E11,E15,1,< (Precedes),False,tank filled to capacity,installations were completed
+E11,E16,1,< (Precedes),False,tank filled to capacity,village had reduced its dependence on groundwater by nearly half
+E11,E17,1,< (Precedes),False,tank filled to capacity,Fahmida now works as a consultant
+E12,E1,-1,> (Preceded By),False,"dry season, which began in the middle of April",learned about rainwater harvesting
+E12,E2,-1,> (Preceded By),False,"dry season, which began in the middle of April",attended in the first week of February
+E12,E3,-1,> (Preceded By),False,"dry season, which began in the middle of April",returned home
+E12,E4,-1,> (Preceded By),False,"dry season, which began in the middle of April",began planning a community-scale system
+E12,E5,-1,> (Preceded By),False,"dry season, which began in the middle of April",presented the idea at the village council meeting
+E12,E6,-1,> (Preceded By),False,"dry season, which began in the middle of April",council agreed to allow a pilot project
+E12,E7,-1,> (Preceded By),False,"dry season, which began in the middle of April",securing materials
+E12,E8,-1,> (Preceded By),False,"dry season, which began in the middle of April",installation began
+E12,E9,-1,> (Preceded By),False,"dry season, which began in the middle of April",system was completed
+E12,E10,-1,> (Preceded By),False,"dry season, which began in the middle of April",first rain came
+E12,E11,-3,oi (Overlapped By),False,"dry season, which began in the middle of April",tank filled to capacity
+E12,E13,-6,fi (Finished By),False,"dry season, which began in the middle of April",village's tube wells were running low
+E12,E14,2,m (Meets),False,"dry season, which began in the middle of April",council approved expansion of the project
+E12,E15,1,< (Precedes),False,"dry season, which began in the middle of April",installations were completed
+E12,E16,1,< (Precedes),False,"dry season, which began in the middle of April",village had reduced its dependence on groundwater by nearly half
+E12,E17,1,< (Precedes),False,"dry season, which began in the middle of April",Fahmida now works as a consultant
+E13,E1,-1,> (Preceded By),False,village's tube wells were running low,learned about rainwater harvesting
+E13,E2,-1,> (Preceded By),False,village's tube wells were running low,attended in the first week of February
+E13,E3,-1,> (Preceded By),False,village's tube wells were running low,returned home
+E13,E4,-1,> (Preceded By),False,village's tube wells were running low,began planning a community-scale system
+E13,E5,-1,> (Preceded By),False,village's tube wells were running low,presented the idea at the village council meeting
+E13,E6,-1,> (Preceded By),False,village's tube wells were running low,council agreed to allow a pilot project
+E13,E7,-1,> (Preceded By),False,village's tube wells were running low,securing materials
+E13,E8,-1,> (Preceded By),False,village's tube wells were running low,installation began
+E13,E9,-1,> (Preceded By),False,village's tube wells were running low,system was completed
+E13,E10,-1,> (Preceded By),False,village's tube wells were running low,first rain came
+E13,E11,-1,> (Preceded By),False,village's tube wells were running low,tank filled to capacity
+E13,E12,6,f (Finishes),False,village's tube wells were running low,"dry season, which began in the middle of April"
+E13,E14,2,m (Meets),False,village's tube wells were running low,council approved expansion of the project
+E13,E15,1,< (Precedes),False,village's tube wells were running low,installations were completed
+E13,E16,1,< (Precedes),False,village's tube wells were running low,village had reduced its dependence on groundwater by nearly half
+E13,E17,1,< (Precedes),False,village's tube wells were running low,Fahmida now works as a consultant
+E14,E1,-1,> (Preceded By),False,council approved expansion of the project,learned about rainwater harvesting
+E14,E2,-1,> (Preceded By),False,council approved expansion of the project,attended in the first week of February
+E14,E3,-1,> (Preceded By),False,council approved expansion of the project,returned home
+E14,E4,-1,> (Preceded By),False,council approved expansion of the project,began planning a community-scale system
+E14,E5,-1,> (Preceded By),False,council approved expansion of the project,presented the idea at the village council meeting
+E14,E6,-1,> (Preceded By),False,council approved expansion of the project,council agreed to allow a pilot project
+E14,E7,-1,> (Preceded By),False,council approved expansion of the project,securing materials
+E14,E8,-1,> (Preceded By),False,council approved expansion of the project,installation began
+E14,E9,-1,> (Preceded By),False,council approved expansion of the project,system was completed
+E14,E10,-1,> (Preceded By),False,council approved expansion of the project,first rain came
+E14,E11,-1,> (Preceded By),False,council approved expansion of the project,tank filled to capacity
+E14,E12,-2,mi (Met By),False,council approved expansion of the project,"dry season, which began in the middle of April"
+E14,E13,-2,mi (Met By),False,council approved expansion of the project,village's tube wells were running low
+E14,E15,2,m (Meets),False,council approved expansion of the project,installations were completed
+E14,E16,1,< (Precedes),False,council approved expansion of the project,village had reduced its dependence on groundwater by nearly half
+E14,E17,1,< (Precedes),False,council approved expansion of the project,Fahmida now works as a consultant
+E15,E1,-1,> (Preceded By),False,installations were completed,learned about rainwater harvesting
+E15,E2,-1,> (Preceded By),False,installations were completed,attended in the first week of February
+E15,E3,-1,> (Preceded By),False,installations were completed,returned home
+E15,E4,-1,> (Preceded By),False,installations were completed,began planning a community-scale system
+E15,E5,-1,> (Preceded By),False,installations were completed,presented the idea at the village council meeting
+E15,E6,-1,> (Preceded By),False,installations were completed,council agreed to allow a pilot project
+E15,E7,-1,> (Preceded By),False,installations were completed,securing materials
+E15,E8,-1,> (Preceded By),False,installations were completed,installation began
+E15,E9,-1,> (Preceded By),False,installations were completed,system was completed
+E15,E10,-1,> (Preceded By),False,installations were completed,first rain came
+E15,E11,-1,> (Preceded By),False,installations were completed,tank filled to capacity
+E15,E12,-1,> (Preceded By),False,installations were completed,"dry season, which began in the middle of April"
+E15,E13,-1,> (Preceded By),False,installations were completed,village's tube wells were running low
+E15,E14,-2,mi (Met By),False,installations were completed,council approved expansion of the project
+E15,E16,2,m (Meets),False,installations were completed,village had reduced its dependence on groundwater by nearly half
+E15,E17,1,< (Precedes),False,installations were completed,Fahmida now works as a consultant
+E16,E1,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,learned about rainwater harvesting
+E16,E2,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,attended in the first week of February
+E16,E3,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,returned home
+E16,E4,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,began planning a community-scale system
+E16,E5,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,presented the idea at the village council meeting
+E16,E6,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,council agreed to allow a pilot project
+E16,E7,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,securing materials
+E16,E8,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,installation began
+E16,E9,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,system was completed
+E16,E10,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,first rain came
+E16,E11,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,tank filled to capacity
+E16,E12,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,"dry season, which began in the middle of April"
+E16,E13,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,village's tube wells were running low
+E16,E14,-1,> (Preceded By),False,village had reduced its dependence on groundwater by nearly half,council approved expansion of the project
+E16,E15,-2,mi (Met By),False,village had reduced its dependence on groundwater by nearly half,installations were completed
+E16,E17,2,m (Meets),False,village had reduced its dependence on groundwater by nearly half,Fahmida now works as a consultant
+E17,E1,-1,> (Preceded By),False,Fahmida now works as a consultant,learned about rainwater harvesting
+E17,E2,-1,> (Preceded By),False,Fahmida now works as a consultant,attended in the first week of February
+E17,E3,-1,> (Preceded By),False,Fahmida now works as a consultant,returned home
+E17,E4,-1,> (Preceded By),False,Fahmida now works as a consultant,began planning a community-scale system
+E17,E5,-1,> (Preceded By),False,Fahmida now works as a consultant,presented the idea at the village council meeting
+E17,E6,-1,> (Preceded By),False,Fahmida now works as a consultant,council agreed to allow a pilot project
+E17,E7,-1,> (Preceded By),False,Fahmida now works as a consultant,securing materials
+E17,E8,-1,> (Preceded By),False,Fahmida now works as a consultant,installation began
+E17,E9,-1,> (Preceded By),False,Fahmida now works as a consultant,system was completed
+E17,E10,-1,> (Preceded By),False,Fahmida now works as a consultant,first rain came
+E17,E11,-1,> (Preceded By),False,Fahmida now works as a consultant,tank filled to capacity
+E17,E12,-1,> (Preceded By),False,Fahmida now works as a consultant,"dry season, which began in the middle of April"
+E17,E13,-1,> (Preceded By),False,Fahmida now works as a consultant,village's tube wells were running low
+E17,E14,-1,> (Preceded By),False,Fahmida now works as a consultant,council approved expansion of the project
+E17,E15,-1,> (Preceded By),False,Fahmida now works as a consultant,installations were completed
+E17,E16,-2,mi (Met By),False,Fahmida now works as a consultant,village had reduced its dependence on groundwater by nearly half

@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,the burglaries began,Three houses were broken into
+E1,E3,1,< (Precedes),False,the burglaries began,The police were notified
+E1,E4,1,< (Precedes),False,the burglaries began,the residents were frightened
+E1,E5,1,< (Precedes),False,the burglaries began,Mr. Anwar called a meeting
+E1,E6,1,< (Precedes),False,the burglaries began,Nearly forty residents gathered in the community center
+E1,E7,1,< (Precedes),False,the burglaries began,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E1,E8,1,< (Precedes),False,the burglaries began,The program began
+E1,E9,1,< (Precedes),False,the burglaries began,Volunteers worked in pairs
+E1,E10,1,< (Precedes),False,the burglaries began,Mr. Anwar created a schedule and assigned shifts
+E1,E11,1,< (Precedes),False,the burglaries began,more than sixty residents had volunteered
+E1,E12,1,< (Precedes),False,the burglaries began,The burglaries stopped
+E1,E13,1,< (Precedes),False,the burglaries began,The watch program continued
+E1,E14,1,< (Precedes),False,the burglaries began,it had become a permanent institution
+E1,E15,1,< (Precedes),False,the burglaries began,The burglaries never returned
+E1,E16,-2,mi (Met By),False,the burglaries began,Anwar had lived in the same neighborhood
+E2,E1,-4,si (Started By),False,Three houses were broken into,the burglaries began
+E2,E3,-5,di (Contains),False,Three houses were broken into,The police were notified
+E2,E4,2,m (Meets),False,Three houses were broken into,the residents were frightened
+E2,E5,1,< (Precedes),False,Three houses were broken into,Mr. Anwar called a meeting
+E2,E6,1,< (Precedes),False,Three houses were broken into,Nearly forty residents gathered in the community center
+E2,E7,1,< (Precedes),False,Three houses were broken into,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E2,E8,1,< (Precedes),False,Three houses were broken into,The program began
+E2,E9,1,< (Precedes),False,Three houses were broken into,Volunteers worked in pairs
+E2,E10,1,< (Precedes),False,Three houses were broken into,Mr. Anwar created a schedule and assigned shifts
+E2,E11,1,< (Precedes),False,Three houses were broken into,more than sixty residents had volunteered
+E2,E12,1,< (Precedes),False,Three houses were broken into,The burglaries stopped
+E2,E13,1,< (Precedes),False,Three houses were broken into,The watch program continued
+E2,E14,1,< (Precedes),False,Three houses were broken into,it had become a permanent institution
+E2,E15,1,< (Precedes),False,Three houses were broken into,The burglaries never returned
+E2,E16,-2,mi (Met By),False,Three houses were broken into,Anwar had lived in the same neighborhood
+E3,E1,-1,> (Preceded By),False,The police were notified,the burglaries began
+E3,E2,5,d (During),False,The police were notified,Three houses were broken into
+E3,E4,1,< (Precedes),False,The police were notified,the residents were frightened
+E3,E5,1,< (Precedes),False,The police were notified,Mr. Anwar called a meeting
+E3,E6,1,< (Precedes),False,The police were notified,Nearly forty residents gathered in the community center
+E3,E7,1,< (Precedes),False,The police were notified,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E3,E8,1,< (Precedes),False,The police were notified,The program began
+E3,E9,1,< (Precedes),False,The police were notified,Volunteers worked in pairs
+E3,E10,1,< (Precedes),False,The police were notified,Mr. Anwar created a schedule and assigned shifts
+E3,E11,1,< (Precedes),False,The police were notified,more than sixty residents had volunteered
+E3,E12,1,< (Precedes),False,The police were notified,The burglaries stopped
+E3,E13,1,< (Precedes),False,The police were notified,The watch program continued
+E3,E14,1,< (Precedes),False,The police were notified,it had become a permanent institution
+E3,E15,1,< (Precedes),False,The police were notified,The burglaries never returned
+E3,E16,-1,> (Preceded By),False,The police were notified,Anwar had lived in the same neighborhood
+E4,E1,-1,> (Preceded By),False,the residents were frightened,the burglaries began
+E4,E2,-2,mi (Met By),False,the residents were frightened,Three houses were broken into
+E4,E3,-1,> (Preceded By),False,the residents were frightened,The police were notified
+E4,E5,2,m (Meets),False,the residents were frightened,Mr. Anwar called a meeting
+E4,E6,2,m (Meets),False,the residents were frightened,Nearly forty residents gathered in the community center
+E4,E7,1,< (Precedes),False,the residents were frightened,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E4,E8,1,< (Precedes),False,the residents were frightened,The program began
+E4,E9,1,< (Precedes),False,the residents were frightened,Volunteers worked in pairs
+E4,E10,1,< (Precedes),False,the residents were frightened,Mr. Anwar created a schedule and assigned shifts
+E4,E11,1,< (Precedes),False,the residents were frightened,more than sixty residents had volunteered
+E4,E12,1,< (Precedes),False,the residents were frightened,The burglaries stopped
+E4,E13,1,< (Precedes),False,the residents were frightened,The watch program continued
+E4,E14,1,< (Precedes),False,the residents were frightened,it had become a permanent institution
+E4,E15,1,< (Precedes),False,the residents were frightened,The burglaries never returned
+E4,E16,-1,> (Preceded By),False,the residents were frightened,Anwar had lived in the same neighborhood
+E5,E1,-1,> (Preceded By),False,Mr. Anwar called a meeting,the burglaries began
+E5,E2,-1,> (Preceded By),False,Mr. Anwar called a meeting,Three houses were broken into
+E5,E3,-1,> (Preceded By),False,Mr. Anwar called a meeting,The police were notified
+E5,E4,-2,mi (Met By),False,Mr. Anwar called a meeting,the residents were frightened
+E5,E6,0,= (Equal),False,Mr. Anwar called a meeting,Nearly forty residents gathered in the community center
+E5,E7,2,m (Meets),False,Mr. Anwar called a meeting,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E5,E8,1,< (Precedes),False,Mr. Anwar called a meeting,The program began
+E5,E9,1,< (Precedes),False,Mr. Anwar called a meeting,Volunteers worked in pairs
+E5,E10,1,< (Precedes),False,Mr. Anwar called a meeting,Mr. Anwar created a schedule and assigned shifts
+E5,E11,1,< (Precedes),False,Mr. Anwar called a meeting,more than sixty residents had volunteered
+E5,E12,1,< (Precedes),False,Mr. Anwar called a meeting,The burglaries stopped
+E5,E13,1,< (Precedes),False,Mr. Anwar called a meeting,The watch program continued
+E5,E14,1,< (Precedes),False,Mr. Anwar called a meeting,it had become a permanent institution
+E5,E15,1,< (Precedes),False,Mr. Anwar called a meeting,The burglaries never returned
+E5,E16,-1,> (Preceded By),False,Mr. Anwar called a meeting,Anwar had lived in the same neighborhood
+E6,E1,-1,> (Preceded By),False,Nearly forty residents gathered in the community center,the burglaries began
+E6,E2,-1,> (Preceded By),False,Nearly forty residents gathered in the community center,Three houses were broken into
+E6,E3,-1,> (Preceded By),False,Nearly forty residents gathered in the community center,The police were notified
+E6,E4,-2,mi (Met By),False,Nearly forty residents gathered in the community center,the residents were frightened
+E6,E5,0,= (Equal),False,Nearly forty residents gathered in the community center,Mr. Anwar called a meeting
+E6,E7,2,m (Meets),False,Nearly forty residents gathered in the community center,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E6,E8,1,< (Precedes),False,Nearly forty residents gathered in the community center,The program began
+E6,E9,1,< (Precedes),False,Nearly forty residents gathered in the community center,Volunteers worked in pairs
+E6,E10,1,< (Precedes),False,Nearly forty residents gathered in the community center,Mr. Anwar created a schedule and assigned shifts
+E6,E11,1,< (Precedes),False,Nearly forty residents gathered in the community center,more than sixty residents had volunteered
+E6,E12,1,< (Precedes),False,Nearly forty residents gathered in the community center,The burglaries stopped
+E6,E13,1,< (Precedes),False,Nearly forty residents gathered in the community center,The watch program continued
+E6,E14,1,< (Precedes),False,Nearly forty residents gathered in the community center,it had become a permanent institution
+E6,E15,1,< (Precedes),False,Nearly forty residents gathered in the community center,The burglaries never returned
+E6,E16,-1,> (Preceded By),False,Nearly forty residents gathered in the community center,Anwar had lived in the same neighborhood
+E7,E1,-1,> (Preceded By),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,the burglaries began
+E7,E2,-1,> (Preceded By),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,Three houses were broken into
+E7,E3,-1,> (Preceded By),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,The police were notified
+E7,E4,-1,> (Preceded By),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,the residents were frightened
+E7,E5,-2,mi (Met By),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,Mr. Anwar called a meeting
+E7,E6,-2,mi (Met By),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,Nearly forty residents gathered in the community center
+E7,E8,1,< (Precedes),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,The program began
+E7,E9,1,< (Precedes),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,Volunteers worked in pairs
+E7,E10,1,< (Precedes),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,Mr. Anwar created a schedule and assigned shifts
+E7,E11,1,< (Precedes),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,more than sixty residents had volunteered
+E7,E12,1,< (Precedes),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,The burglaries stopped
+E7,E13,1,< (Precedes),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,The watch program continued
+E7,E14,1,< (Precedes),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,it had become a permanent institution
+E7,E15,1,< (Precedes),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,The burglaries never returned
+E7,E16,-1,> (Preceded By),False,Mr. Anwar proposed a simpler solution: a neighborhood watch program,Anwar had lived in the same neighborhood
+E8,E1,-1,> (Preceded By),False,The program began,the burglaries began
+E8,E2,-1,> (Preceded By),False,The program began,Three houses were broken into
+E8,E3,-1,> (Preceded By),False,The program began,The police were notified
+E8,E4,-1,> (Preceded By),False,The program began,the residents were frightened
+E8,E5,-1,> (Preceded By),False,The program began,Mr. Anwar called a meeting
+E8,E6,-1,> (Preceded By),False,The program began,Nearly forty residents gathered in the community center
+E8,E7,-1,> (Preceded By),False,The program began,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E8,E9,4,s (Starts),False,The program began,Volunteers worked in pairs
+E8,E10,-2,mi (Met By),False,The program began,Mr. Anwar created a schedule and assigned shifts
+E8,E11,1,< (Precedes),False,The program began,more than sixty residents had volunteered
+E8,E12,1,< (Precedes),False,The program began,The burglaries stopped
+E8,E13,4,s (Starts),False,The program began,The watch program continued
+E8,E14,1,< (Precedes),False,The program began,it had become a permanent institution
+E8,E15,1,< (Precedes),False,The program began,The burglaries never returned
+E8,E16,-1,> (Preceded By),False,The program began,Anwar had lived in the same neighborhood
+E9,E1,-1,> (Preceded By),False,Volunteers worked in pairs,the burglaries began
+E9,E2,-1,> (Preceded By),False,Volunteers worked in pairs,Three houses were broken into
+E9,E3,-1,> (Preceded By),False,Volunteers worked in pairs,The police were notified
+E9,E4,-1,> (Preceded By),False,Volunteers worked in pairs,the residents were frightened
+E9,E5,-1,> (Preceded By),False,Volunteers worked in pairs,Mr. Anwar called a meeting
+E9,E6,-1,> (Preceded By),False,Volunteers worked in pairs,Nearly forty residents gathered in the community center
+E9,E7,-1,> (Preceded By),False,Volunteers worked in pairs,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E9,E8,-4,si (Started By),False,Volunteers worked in pairs,The program began
+E9,E10,-2,mi (Met By),False,Volunteers worked in pairs,Mr. Anwar created a schedule and assigned shifts
+E9,E11,-5,di (Contains),False,Volunteers worked in pairs,more than sixty residents had volunteered
+E9,E12,-5,di (Contains),False,Volunteers worked in pairs,The burglaries stopped
+E9,E13,-4,si (Started By),False,Volunteers worked in pairs,The watch program continued
+E9,E14,2,m (Meets),False,Volunteers worked in pairs,it had become a permanent institution
+E9,E15,3,o (Overlaps),False,Volunteers worked in pairs,The burglaries never returned
+E9,E16,-1,> (Preceded By),False,Volunteers worked in pairs,Anwar had lived in the same neighborhood
+E10,E1,-1,> (Preceded By),False,Mr. Anwar created a schedule and assigned shifts,the burglaries began
+E10,E2,-1,> (Preceded By),False,Mr. Anwar created a schedule and assigned shifts,Three houses were broken into
+E10,E3,-1,> (Preceded By),False,Mr. Anwar created a schedule and assigned shifts,The police were notified
+E10,E4,-1,> (Preceded By),False,Mr. Anwar created a schedule and assigned shifts,the residents were frightened
+E10,E5,-1,> (Preceded By),False,Mr. Anwar created a schedule and assigned shifts,Mr. Anwar called a meeting
+E10,E6,-1,> (Preceded By),False,Mr. Anwar created a schedule and assigned shifts,Nearly forty residents gathered in the community center
+E10,E7,-1,> (Preceded By),False,Mr. Anwar created a schedule and assigned shifts,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E10,E8,2,m (Meets),False,Mr. Anwar created a schedule and assigned shifts,The program began
+E10,E9,2,m (Meets),False,Mr. Anwar created a schedule and assigned shifts,Volunteers worked in pairs
+E10,E11,1,< (Precedes),False,Mr. Anwar created a schedule and assigned shifts,more than sixty residents had volunteered
+E10,E12,1,< (Precedes),False,Mr. Anwar created a schedule and assigned shifts,The burglaries stopped
+E10,E13,2,m (Meets),False,Mr. Anwar created a schedule and assigned shifts,The watch program continued
+E10,E14,1,< (Precedes),False,Mr. Anwar created a schedule and assigned shifts,it had become a permanent institution
+E10,E15,1,< (Precedes),False,Mr. Anwar created a schedule and assigned shifts,The burglaries never returned
+E10,E16,-1,> (Preceded By),False,Mr. Anwar created a schedule and assigned shifts,Anwar had lived in the same neighborhood
+E11,E1,-1,> (Preceded By),False,more than sixty residents had volunteered,the burglaries began
+E11,E2,-1,> (Preceded By),False,more than sixty residents had volunteered,Three houses were broken into
+E11,E3,-1,> (Preceded By),False,more than sixty residents had volunteered,The police were notified
+E11,E4,-1,> (Preceded By),False,more than sixty residents had volunteered,the residents were frightened
+E11,E5,-1,> (Preceded By),False,more than sixty residents had volunteered,Mr. Anwar called a meeting
+E11,E6,-1,> (Preceded By),False,more than sixty residents had volunteered,Nearly forty residents gathered in the community center
+E11,E7,-1,> (Preceded By),False,more than sixty residents had volunteered,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E11,E8,-1,> (Preceded By),False,more than sixty residents had volunteered,The program began
+E11,E9,5,d (During),False,more than sixty residents had volunteered,Volunteers worked in pairs
+E11,E10,-1,> (Preceded By),False,more than sixty residents had volunteered,Mr. Anwar created a schedule and assigned shifts
+E11,E12,1,< (Precedes),False,more than sixty residents had volunteered,The burglaries stopped
+E11,E13,5,d (During),False,more than sixty residents had volunteered,The watch program continued
+E11,E14,1,< (Precedes),False,more than sixty residents had volunteered,it had become a permanent institution
+E11,E15,1,< (Precedes),False,more than sixty residents had volunteered,The burglaries never returned
+E11,E16,-1,> (Preceded By),False,more than sixty residents had volunteered,Anwar had lived in the same neighborhood
+E12,E1,-1,> (Preceded By),False,The burglaries stopped,the burglaries began
+E12,E2,-1,> (Preceded By),False,The burglaries stopped,Three houses were broken into
+E12,E3,-1,> (Preceded By),False,The burglaries stopped,The police were notified
+E12,E4,-1,> (Preceded By),False,The burglaries stopped,the residents were frightened
+E12,E5,-1,> (Preceded By),False,The burglaries stopped,Mr. Anwar called a meeting
+E12,E6,-1,> (Preceded By),False,The burglaries stopped,Nearly forty residents gathered in the community center
+E12,E7,-1,> (Preceded By),False,The burglaries stopped,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E12,E8,-1,> (Preceded By),False,The burglaries stopped,The program began
+E12,E9,5,d (During),False,The burglaries stopped,Volunteers worked in pairs
+E12,E10,-1,> (Preceded By),False,The burglaries stopped,Mr. Anwar created a schedule and assigned shifts
+E12,E11,-1,> (Preceded By),False,The burglaries stopped,more than sixty residents had volunteered
+E12,E13,5,d (During),False,The burglaries stopped,The watch program continued
+E12,E14,1,< (Precedes),False,The burglaries stopped,it had become a permanent institution
+E12,E15,4,s (Starts),False,The burglaries stopped,The burglaries never returned
+E12,E16,-1,> (Preceded By),False,The burglaries stopped,Anwar had lived in the same neighborhood
+E13,E1,-1,> (Preceded By),False,The watch program continued,the burglaries began
+E13,E2,-1,> (Preceded By),False,The watch program continued,Three houses were broken into
+E13,E3,-1,> (Preceded By),False,The watch program continued,The police were notified
+E13,E4,-1,> (Preceded By),False,The watch program continued,the residents were frightened
+E13,E5,-1,> (Preceded By),False,The watch program continued,Mr. Anwar called a meeting
+E13,E6,-1,> (Preceded By),False,The watch program continued,Nearly forty residents gathered in the community center
+E13,E7,-1,> (Preceded By),False,The watch program continued,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E13,E8,-4,si (Started By),False,The watch program continued,The program began
+E13,E9,4,s (Starts),False,The watch program continued,Volunteers worked in pairs
+E13,E10,-2,mi (Met By),False,The watch program continued,Mr. Anwar created a schedule and assigned shifts
+E13,E11,-5,di (Contains),False,The watch program continued,more than sixty residents had volunteered
+E13,E12,-5,di (Contains),False,The watch program continued,The burglaries stopped
+E13,E14,1,< (Precedes),False,The watch program continued,it had become a permanent institution
+E13,E15,3,o (Overlaps),False,The watch program continued,The burglaries never returned
+E13,E16,-1,> (Preceded By),False,The watch program continued,Anwar had lived in the same neighborhood
+E14,E1,-1,> (Preceded By),False,it had become a permanent institution,the burglaries began
+E14,E2,-1,> (Preceded By),False,it had become a permanent institution,Three houses were broken into
+E14,E3,-1,> (Preceded By),False,it had become a permanent institution,The police were notified
+E14,E4,-1,> (Preceded By),False,it had become a permanent institution,the residents were frightened
+E14,E5,-1,> (Preceded By),False,it had become a permanent institution,Mr. Anwar called a meeting
+E14,E6,-1,> (Preceded By),False,it had become a permanent institution,Nearly forty residents gathered in the community center
+E14,E7,-1,> (Preceded By),False,it had become a permanent institution,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E14,E8,-1,> (Preceded By),False,it had become a permanent institution,The program began
+E14,E9,-2,mi (Met By),False,it had become a permanent institution,Volunteers worked in pairs
+E14,E10,-1,> (Preceded By),False,it had become a permanent institution,Mr. Anwar created a schedule and assigned shifts
+E14,E11,-1,> (Preceded By),False,it had become a permanent institution,more than sixty residents had volunteered
+E14,E12,-1,> (Preceded By),False,it had become a permanent institution,The burglaries stopped
+E14,E13,-1,> (Preceded By),False,it had become a permanent institution,The watch program continued
+E14,E15,5,d (During),False,it had become a permanent institution,The burglaries never returned
+E14,E16,-1,> (Preceded By),False,it had become a permanent institution,Anwar had lived in the same neighborhood
+E15,E1,-1,> (Preceded By),False,The burglaries never returned,the burglaries began
+E15,E2,-1,> (Preceded By),False,The burglaries never returned,Three houses were broken into
+E15,E3,-1,> (Preceded By),False,The burglaries never returned,The police were notified
+E15,E4,-1,> (Preceded By),False,The burglaries never returned,the residents were frightened
+E15,E5,-1,> (Preceded By),False,The burglaries never returned,Mr. Anwar called a meeting
+E15,E6,-1,> (Preceded By),False,The burglaries never returned,Nearly forty residents gathered in the community center
+E15,E7,-1,> (Preceded By),False,The burglaries never returned,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E15,E8,-1,> (Preceded By),False,The burglaries never returned,The program began
+E15,E9,-3,oi (Overlapped By),False,The burglaries never returned,Volunteers worked in pairs
+E15,E10,-1,> (Preceded By),False,The burglaries never returned,Mr. Anwar created a schedule and assigned shifts
+E15,E11,-1,> (Preceded By),False,The burglaries never returned,more than sixty residents had volunteered
+E15,E12,-4,si (Started By),False,The burglaries never returned,The burglaries stopped
+E15,E13,-3,oi (Overlapped By),False,The burglaries never returned,The watch program continued
+E15,E14,-5,di (Contains),False,The burglaries never returned,it had become a permanent institution
+E15,E16,-1,> (Preceded By),False,The burglaries never returned,Anwar had lived in the same neighborhood
+E16,E1,2,m (Meets),False,Anwar had lived in the same neighborhood,the burglaries began
+E16,E2,2,m (Meets),False,Anwar had lived in the same neighborhood,Three houses were broken into
+E16,E3,1,< (Precedes),False,Anwar had lived in the same neighborhood,The police were notified
+E16,E4,1,< (Precedes),False,Anwar had lived in the same neighborhood,the residents were frightened
+E16,E5,1,< (Precedes),False,Anwar had lived in the same neighborhood,Mr. Anwar called a meeting
+E16,E6,1,< (Precedes),False,Anwar had lived in the same neighborhood,Nearly forty residents gathered in the community center
+E16,E7,1,< (Precedes),False,Anwar had lived in the same neighborhood,Mr. Anwar proposed a simpler solution: a neighborhood watch program
+E16,E8,1,< (Precedes),False,Anwar had lived in the same neighborhood,The program began
+E16,E9,1,< (Precedes),False,Anwar had lived in the same neighborhood,Volunteers worked in pairs
+E16,E10,1,< (Precedes),False,Anwar had lived in the same neighborhood,Mr. Anwar created a schedule and assigned shifts
+E16,E11,1,< (Precedes),False,Anwar had lived in the same neighborhood,more than sixty residents had volunteered
+E16,E12,1,< (Precedes),False,Anwar had lived in the same neighborhood,The burglaries stopped
+E16,E13,1,< (Precedes),False,Anwar had lived in the same neighborhood,The watch program continued
+E16,E14,1,< (Precedes),False,Anwar had lived in the same neighborhood,it had become a permanent institution
+E16,E15,1,< (Precedes),False,Anwar had lived in the same neighborhood,The burglaries never returned

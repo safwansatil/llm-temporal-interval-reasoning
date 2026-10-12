@@ -1,0 +1,463 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,medical appointment that had been scheduled,mechanical failure in the engine had been discovered
+E1,E3,1,< (Precedes),False,medical appointment that had been scheduled,ferry that connected the island to the mainland had been out of service
+E1,E4,1,< (Precedes),False,medical appointment that had been scheduled,the ferry was still not operational
+E1,E5,1,< (Precedes),False,medical appointment that had been scheduled,Jahir began asking among the fishing community
+E1,E6,1,< (Precedes),False,medical appointment that had been scheduled,agreed to take them
+E1,E7,1,< (Precedes),False,medical appointment that had been scheduled,They departed at dawn
+E1,E8,1,< (Precedes),False,medical appointment that had been scheduled,the boat's engine sputtered and died
+E1,E9,1,< (Precedes),False,medical appointment that had been scheduled,spent forty minutes cleaning the filter and restarting the engine
+E1,E10,1,< (Precedes),False,medical appointment that had been scheduled,They resumed the crossing
+E1,E11,1,< (Precedes),False,medical appointment that had been scheduled,They reached the mainland
+E1,E12,1,< (Precedes),False,medical appointment that had been scheduled,Jahir found a cheap guesthouse
+E1,E13,1,< (Precedes),False,medical appointment that had been scheduled,The appointment went well
+E1,E14,1,< (Precedes),False,medical appointment that had been scheduled,the doctor pronounced his daughter healthy
+E1,E15,1,< (Precedes),False,medical appointment that had been scheduled,The ferry resumed service
+E1,E16,1,< (Precedes),False,medical appointment that had been scheduled,Jahir heard the news
+E1,E17,1,< (Precedes),False,medical appointment that had been scheduled,the replacement part had to be ordered from a supplier in the capital.
+E1,E18,1,< (Precedes),False,medical appointment that had been scheduled,Sadek diagnosed the problem as contaminated fuel
+E1,E19,1,< (Precedes),False,medical appointment that had been scheduled,Jahir's anxiety had spiked
+E1,E20,1,< (Precedes),False,medical appointment that had been scheduled,sat quietly in the bow of the boat
+E1,E21,1,< (Precedes),False,medical appointment that had been scheduled,he also recognized
+E1,E22,4,s (Starts),False,medical appointment that had been scheduled,"he had not been willing to gamble with his daughter's health,"
+E2,E1,-1,> (Preceded By),False,mechanical failure in the engine had been discovered,medical appointment that had been scheduled
+E2,E3,4,s (Starts),False,mechanical failure in the engine had been discovered,ferry that connected the island to the mainland had been out of service
+E2,E4,1,< (Precedes),False,mechanical failure in the engine had been discovered,the ferry was still not operational
+E2,E5,1,< (Precedes),False,mechanical failure in the engine had been discovered,Jahir began asking among the fishing community
+E2,E6,1,< (Precedes),False,mechanical failure in the engine had been discovered,agreed to take them
+E2,E7,1,< (Precedes),False,mechanical failure in the engine had been discovered,They departed at dawn
+E2,E8,1,< (Precedes),False,mechanical failure in the engine had been discovered,the boat's engine sputtered and died
+E2,E9,1,< (Precedes),False,mechanical failure in the engine had been discovered,spent forty minutes cleaning the filter and restarting the engine
+E2,E10,1,< (Precedes),False,mechanical failure in the engine had been discovered,They resumed the crossing
+E2,E11,1,< (Precedes),False,mechanical failure in the engine had been discovered,They reached the mainland
+E2,E12,1,< (Precedes),False,mechanical failure in the engine had been discovered,Jahir found a cheap guesthouse
+E2,E13,1,< (Precedes),False,mechanical failure in the engine had been discovered,The appointment went well
+E2,E14,1,< (Precedes),False,mechanical failure in the engine had been discovered,the doctor pronounced his daughter healthy
+E2,E15,1,< (Precedes),False,mechanical failure in the engine had been discovered,The ferry resumed service
+E2,E16,1,< (Precedes),False,mechanical failure in the engine had been discovered,Jahir heard the news
+E2,E17,1,< (Precedes),False,mechanical failure in the engine had been discovered,the replacement part had to be ordered from a supplier in the capital.
+E2,E18,1,< (Precedes),False,mechanical failure in the engine had been discovered,Sadek diagnosed the problem as contaminated fuel
+E2,E19,1,< (Precedes),False,mechanical failure in the engine had been discovered,Jahir's anxiety had spiked
+E2,E20,1,< (Precedes),False,mechanical failure in the engine had been discovered,sat quietly in the bow of the boat
+E2,E21,1,< (Precedes),False,mechanical failure in the engine had been discovered,he also recognized
+E2,E22,5,d (During),False,mechanical failure in the engine had been discovered,"he had not been willing to gamble with his daughter's health,"
+E3,E1,-1,> (Preceded By),False,ferry that connected the island to the mainland had been out of service,medical appointment that had been scheduled
+E3,E2,-4,si (Started By),False,ferry that connected the island to the mainland had been out of service,mechanical failure in the engine had been discovered
+E3,E4,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,the ferry was still not operational
+E3,E5,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,Jahir began asking among the fishing community
+E3,E6,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,agreed to take them
+E3,E7,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,They departed at dawn
+E3,E8,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,the boat's engine sputtered and died
+E3,E9,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,spent forty minutes cleaning the filter and restarting the engine
+E3,E10,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,They resumed the crossing
+E3,E11,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,They reached the mainland
+E3,E12,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,Jahir found a cheap guesthouse
+E3,E13,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,The appointment went well
+E3,E14,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,the doctor pronounced his daughter healthy
+E3,E15,-6,fi (Finished By),False,ferry that connected the island to the mainland had been out of service,The ferry resumed service
+E3,E16,1,< (Precedes),False,ferry that connected the island to the mainland had been out of service,Jahir heard the news
+E3,E17,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,the replacement part had to be ordered from a supplier in the capital.
+E3,E18,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,Sadek diagnosed the problem as contaminated fuel
+E3,E19,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,Jahir's anxiety had spiked
+E3,E20,-5,di (Contains),False,ferry that connected the island to the mainland had been out of service,sat quietly in the bow of the boat
+E3,E21,1,< (Precedes),False,ferry that connected the island to the mainland had been out of service,he also recognized
+E3,E22,-3,oi (Overlapped By),False,ferry that connected the island to the mainland had been out of service,"he had not been willing to gamble with his daughter's health,"
+E4,E1,-1,> (Preceded By),False,the ferry was still not operational,medical appointment that had been scheduled
+E4,E2,-1,> (Preceded By),False,the ferry was still not operational,mechanical failure in the engine had been discovered
+E4,E3,5,d (During),False,the ferry was still not operational,ferry that connected the island to the mainland had been out of service
+E4,E5,-5,di (Contains),False,the ferry was still not operational,Jahir began asking among the fishing community
+E4,E6,-5,di (Contains),False,the ferry was still not operational,agreed to take them
+E4,E7,1,< (Precedes),False,the ferry was still not operational,They departed at dawn
+E4,E8,1,< (Precedes),False,the ferry was still not operational,the boat's engine sputtered and died
+E4,E9,1,< (Precedes),False,the ferry was still not operational,spent forty minutes cleaning the filter and restarting the engine
+E4,E10,1,< (Precedes),False,the ferry was still not operational,They resumed the crossing
+E4,E11,1,< (Precedes),False,the ferry was still not operational,They reached the mainland
+E4,E12,1,< (Precedes),False,the ferry was still not operational,Jahir found a cheap guesthouse
+E4,E13,1,< (Precedes),False,the ferry was still not operational,The appointment went well
+E4,E14,1,< (Precedes),False,the ferry was still not operational,the doctor pronounced his daughter healthy
+E4,E15,1,< (Precedes),False,the ferry was still not operational,The ferry resumed service
+E4,E16,1,< (Precedes),False,the ferry was still not operational,Jahir heard the news
+E4,E17,-1,> (Preceded By),False,the ferry was still not operational,the replacement part had to be ordered from a supplier in the capital.
+E4,E18,1,< (Precedes),False,the ferry was still not operational,Sadek diagnosed the problem as contaminated fuel
+E4,E19,1,< (Precedes),False,the ferry was still not operational,Jahir's anxiety had spiked
+E4,E20,1,< (Precedes),False,the ferry was still not operational,sat quietly in the bow of the boat
+E4,E21,1,< (Precedes),False,the ferry was still not operational,he also recognized
+E4,E22,5,d (During),False,the ferry was still not operational,"he had not been willing to gamble with his daughter's health,"
+E5,E1,-1,> (Preceded By),False,Jahir began asking among the fishing community,medical appointment that had been scheduled
+E5,E2,-1,> (Preceded By),False,Jahir began asking among the fishing community,mechanical failure in the engine had been discovered
+E5,E3,5,d (During),False,Jahir began asking among the fishing community,ferry that connected the island to the mainland had been out of service
+E5,E4,5,d (During),False,Jahir began asking among the fishing community,the ferry was still not operational
+E5,E6,1,< (Precedes),False,Jahir began asking among the fishing community,agreed to take them
+E5,E7,1,< (Precedes),False,Jahir began asking among the fishing community,They departed at dawn
+E5,E8,1,< (Precedes),False,Jahir began asking among the fishing community,the boat's engine sputtered and died
+E5,E9,1,< (Precedes),False,Jahir began asking among the fishing community,spent forty minutes cleaning the filter and restarting the engine
+E5,E10,1,< (Precedes),False,Jahir began asking among the fishing community,They resumed the crossing
+E5,E11,1,< (Precedes),False,Jahir began asking among the fishing community,They reached the mainland
+E5,E12,1,< (Precedes),False,Jahir began asking among the fishing community,Jahir found a cheap guesthouse
+E5,E13,1,< (Precedes),False,Jahir began asking among the fishing community,The appointment went well
+E5,E14,1,< (Precedes),False,Jahir began asking among the fishing community,the doctor pronounced his daughter healthy
+E5,E15,1,< (Precedes),False,Jahir began asking among the fishing community,The ferry resumed service
+E5,E16,1,< (Precedes),False,Jahir began asking among the fishing community,Jahir heard the news
+E5,E17,-1,> (Preceded By),False,Jahir began asking among the fishing community,the replacement part had to be ordered from a supplier in the capital.
+E5,E18,1,< (Precedes),False,Jahir began asking among the fishing community,Sadek diagnosed the problem as contaminated fuel
+E5,E19,1,< (Precedes),False,Jahir began asking among the fishing community,Jahir's anxiety had spiked
+E5,E20,1,< (Precedes),False,Jahir began asking among the fishing community,sat quietly in the bow of the boat
+E5,E21,1,< (Precedes),False,Jahir began asking among the fishing community,he also recognized
+E5,E22,5,d (During),False,Jahir began asking among the fishing community,"he had not been willing to gamble with his daughter's health,"
+E6,E1,-1,> (Preceded By),False,agreed to take them,medical appointment that had been scheduled
+E6,E2,-1,> (Preceded By),False,agreed to take them,mechanical failure in the engine had been discovered
+E6,E3,5,d (During),False,agreed to take them,ferry that connected the island to the mainland had been out of service
+E6,E4,5,d (During),False,agreed to take them,the ferry was still not operational
+E6,E5,-1,> (Preceded By),False,agreed to take them,Jahir began asking among the fishing community
+E6,E7,1,< (Precedes),False,agreed to take them,They departed at dawn
+E6,E8,1,< (Precedes),False,agreed to take them,the boat's engine sputtered and died
+E6,E9,1,< (Precedes),False,agreed to take them,spent forty minutes cleaning the filter and restarting the engine
+E6,E10,1,< (Precedes),False,agreed to take them,They resumed the crossing
+E6,E11,1,< (Precedes),False,agreed to take them,They reached the mainland
+E6,E12,1,< (Precedes),False,agreed to take them,Jahir found a cheap guesthouse
+E6,E13,1,< (Precedes),False,agreed to take them,The appointment went well
+E6,E14,1,< (Precedes),False,agreed to take them,the doctor pronounced his daughter healthy
+E6,E15,1,< (Precedes),False,agreed to take them,The ferry resumed service
+E6,E16,1,< (Precedes),False,agreed to take them,Jahir heard the news
+E6,E17,-1,> (Preceded By),False,agreed to take them,the replacement part had to be ordered from a supplier in the capital.
+E6,E18,1,< (Precedes),False,agreed to take them,Sadek diagnosed the problem as contaminated fuel
+E6,E19,1,< (Precedes),False,agreed to take them,Jahir's anxiety had spiked
+E6,E20,1,< (Precedes),False,agreed to take them,sat quietly in the bow of the boat
+E6,E21,1,< (Precedes),False,agreed to take them,he also recognized
+E6,E22,5,d (During),False,agreed to take them,"he had not been willing to gamble with his daughter's health,"
+E7,E1,-1,> (Preceded By),False,They departed at dawn,medical appointment that had been scheduled
+E7,E2,-1,> (Preceded By),False,They departed at dawn,mechanical failure in the engine had been discovered
+E7,E3,5,d (During),False,They departed at dawn,ferry that connected the island to the mainland had been out of service
+E7,E4,-1,> (Preceded By),False,They departed at dawn,the ferry was still not operational
+E7,E5,-1,> (Preceded By),False,They departed at dawn,Jahir began asking among the fishing community
+E7,E6,-1,> (Preceded By),False,They departed at dawn,agreed to take them
+E7,E8,1,< (Precedes),False,They departed at dawn,the boat's engine sputtered and died
+E7,E9,1,< (Precedes),False,They departed at dawn,spent forty minutes cleaning the filter and restarting the engine
+E7,E10,1,< (Precedes),False,They departed at dawn,They resumed the crossing
+E7,E11,1,< (Precedes),False,They departed at dawn,They reached the mainland
+E7,E12,1,< (Precedes),False,They departed at dawn,Jahir found a cheap guesthouse
+E7,E13,1,< (Precedes),False,They departed at dawn,The appointment went well
+E7,E14,1,< (Precedes),False,They departed at dawn,the doctor pronounced his daughter healthy
+E7,E15,1,< (Precedes),False,They departed at dawn,The ferry resumed service
+E7,E16,1,< (Precedes),False,They departed at dawn,Jahir heard the news
+E7,E17,-1,> (Preceded By),False,They departed at dawn,the replacement part had to be ordered from a supplier in the capital.
+E7,E18,1,< (Precedes),False,They departed at dawn,Sadek diagnosed the problem as contaminated fuel
+E7,E19,1,< (Precedes),False,They departed at dawn,Jahir's anxiety had spiked
+E7,E20,4,s (Starts),False,They departed at dawn,sat quietly in the bow of the boat
+E7,E21,1,< (Precedes),False,They departed at dawn,he also recognized
+E7,E22,5,d (During),False,They departed at dawn,"he had not been willing to gamble with his daughter's health,"
+E8,E1,-1,> (Preceded By),False,the boat's engine sputtered and died,medical appointment that had been scheduled
+E8,E2,-1,> (Preceded By),False,the boat's engine sputtered and died,mechanical failure in the engine had been discovered
+E8,E3,5,d (During),False,the boat's engine sputtered and died,ferry that connected the island to the mainland had been out of service
+E8,E4,-1,> (Preceded By),False,the boat's engine sputtered and died,the ferry was still not operational
+E8,E5,-1,> (Preceded By),False,the boat's engine sputtered and died,Jahir began asking among the fishing community
+E8,E6,-1,> (Preceded By),False,the boat's engine sputtered and died,agreed to take them
+E8,E7,-1,> (Preceded By),False,the boat's engine sputtered and died,They departed at dawn
+E8,E9,1,< (Precedes),False,the boat's engine sputtered and died,spent forty minutes cleaning the filter and restarting the engine
+E8,E10,1,< (Precedes),False,the boat's engine sputtered and died,They resumed the crossing
+E8,E11,1,< (Precedes),False,the boat's engine sputtered and died,They reached the mainland
+E8,E12,1,< (Precedes),False,the boat's engine sputtered and died,Jahir found a cheap guesthouse
+E8,E13,1,< (Precedes),False,the boat's engine sputtered and died,The appointment went well
+E8,E14,1,< (Precedes),False,the boat's engine sputtered and died,the doctor pronounced his daughter healthy
+E8,E15,1,< (Precedes),False,the boat's engine sputtered and died,The ferry resumed service
+E8,E16,1,< (Precedes),False,the boat's engine sputtered and died,Jahir heard the news
+E8,E17,-1,> (Preceded By),False,the boat's engine sputtered and died,the replacement part had to be ordered from a supplier in the capital.
+E8,E18,1,< (Precedes),False,the boat's engine sputtered and died,Sadek diagnosed the problem as contaminated fuel
+E8,E19,1,< (Precedes),False,the boat's engine sputtered and died,Jahir's anxiety had spiked
+E8,E20,5,d (During),False,the boat's engine sputtered and died,sat quietly in the bow of the boat
+E8,E21,1,< (Precedes),False,the boat's engine sputtered and died,he also recognized
+E8,E22,5,d (During),False,the boat's engine sputtered and died,"he had not been willing to gamble with his daughter's health,"
+E9,E1,-1,> (Preceded By),False,spent forty minutes cleaning the filter and restarting the engine,medical appointment that had been scheduled
+E9,E2,-1,> (Preceded By),False,spent forty minutes cleaning the filter and restarting the engine,mechanical failure in the engine had been discovered
+E9,E3,5,d (During),False,spent forty minutes cleaning the filter and restarting the engine,ferry that connected the island to the mainland had been out of service
+E9,E4,-1,> (Preceded By),False,spent forty minutes cleaning the filter and restarting the engine,the ferry was still not operational
+E9,E5,-1,> (Preceded By),False,spent forty minutes cleaning the filter and restarting the engine,Jahir began asking among the fishing community
+E9,E6,-1,> (Preceded By),False,spent forty minutes cleaning the filter and restarting the engine,agreed to take them
+E9,E7,-1,> (Preceded By),False,spent forty minutes cleaning the filter and restarting the engine,They departed at dawn
+E9,E8,-1,> (Preceded By),False,spent forty minutes cleaning the filter and restarting the engine,the boat's engine sputtered and died
+E9,E10,2,m (Meets),False,spent forty minutes cleaning the filter and restarting the engine,They resumed the crossing
+E9,E11,1,< (Precedes),False,spent forty minutes cleaning the filter and restarting the engine,They reached the mainland
+E9,E12,1,< (Precedes),False,spent forty minutes cleaning the filter and restarting the engine,Jahir found a cheap guesthouse
+E9,E13,1,< (Precedes),False,spent forty minutes cleaning the filter and restarting the engine,The appointment went well
+E9,E14,1,< (Precedes),False,spent forty minutes cleaning the filter and restarting the engine,the doctor pronounced his daughter healthy
+E9,E15,1,< (Precedes),False,spent forty minutes cleaning the filter and restarting the engine,The ferry resumed service
+E9,E16,1,< (Precedes),False,spent forty minutes cleaning the filter and restarting the engine,Jahir heard the news
+E9,E17,-1,> (Preceded By),False,spent forty minutes cleaning the filter and restarting the engine,the replacement part had to be ordered from a supplier in the capital.
+E9,E18,-2,mi (Met By),False,spent forty minutes cleaning the filter and restarting the engine,Sadek diagnosed the problem as contaminated fuel
+E9,E19,1,< (Precedes),False,spent forty minutes cleaning the filter and restarting the engine,Jahir's anxiety had spiked
+E9,E20,5,d (During),False,spent forty minutes cleaning the filter and restarting the engine,sat quietly in the bow of the boat
+E9,E21,1,< (Precedes),False,spent forty minutes cleaning the filter and restarting the engine,he also recognized
+E9,E22,5,d (During),False,spent forty minutes cleaning the filter and restarting the engine,"he had not been willing to gamble with his daughter's health,"
+E10,E1,-1,> (Preceded By),False,They resumed the crossing,medical appointment that had been scheduled
+E10,E2,-1,> (Preceded By),False,They resumed the crossing,mechanical failure in the engine had been discovered
+E10,E3,5,d (During),False,They resumed the crossing,ferry that connected the island to the mainland had been out of service
+E10,E4,-1,> (Preceded By),False,They resumed the crossing,the ferry was still not operational
+E10,E5,-1,> (Preceded By),False,They resumed the crossing,Jahir began asking among the fishing community
+E10,E6,-1,> (Preceded By),False,They resumed the crossing,agreed to take them
+E10,E7,-1,> (Preceded By),False,They resumed the crossing,They departed at dawn
+E10,E8,-1,> (Preceded By),False,They resumed the crossing,the boat's engine sputtered and died
+E10,E9,-2,mi (Met By),False,They resumed the crossing,spent forty minutes cleaning the filter and restarting the engine
+E10,E11,1,< (Precedes),False,They resumed the crossing,They reached the mainland
+E10,E12,1,< (Precedes),False,They resumed the crossing,Jahir found a cheap guesthouse
+E10,E13,1,< (Precedes),False,They resumed the crossing,The appointment went well
+E10,E14,1,< (Precedes),False,They resumed the crossing,the doctor pronounced his daughter healthy
+E10,E15,1,< (Precedes),False,They resumed the crossing,The ferry resumed service
+E10,E16,1,< (Precedes),False,They resumed the crossing,Jahir heard the news
+E10,E17,-1,> (Preceded By),False,They resumed the crossing,the replacement part had to be ordered from a supplier in the capital.
+E10,E18,-1,> (Preceded By),False,They resumed the crossing,Sadek diagnosed the problem as contaminated fuel
+E10,E19,2,m (Meets),False,They resumed the crossing,Jahir's anxiety had spiked
+E10,E20,5,d (During),False,They resumed the crossing,sat quietly in the bow of the boat
+E10,E21,1,< (Precedes),False,They resumed the crossing,he also recognized
+E10,E22,5,d (During),False,They resumed the crossing,"he had not been willing to gamble with his daughter's health,"
+E11,E1,-1,> (Preceded By),False,They reached the mainland,medical appointment that had been scheduled
+E11,E2,-1,> (Preceded By),False,They reached the mainland,mechanical failure in the engine had been discovered
+E11,E3,5,d (During),False,They reached the mainland,ferry that connected the island to the mainland had been out of service
+E11,E4,-1,> (Preceded By),False,They reached the mainland,the ferry was still not operational
+E11,E5,-1,> (Preceded By),False,They reached the mainland,Jahir began asking among the fishing community
+E11,E6,-1,> (Preceded By),False,They reached the mainland,agreed to take them
+E11,E7,-1,> (Preceded By),False,They reached the mainland,They departed at dawn
+E11,E8,-1,> (Preceded By),False,They reached the mainland,the boat's engine sputtered and died
+E11,E9,-1,> (Preceded By),False,They reached the mainland,spent forty minutes cleaning the filter and restarting the engine
+E11,E10,-1,> (Preceded By),False,They reached the mainland,They resumed the crossing
+E11,E12,-1,> (Preceded By),False,They reached the mainland,Jahir found a cheap guesthouse
+E11,E13,1,< (Precedes),False,They reached the mainland,The appointment went well
+E11,E14,1,< (Precedes),False,They reached the mainland,the doctor pronounced his daughter healthy
+E11,E15,1,< (Precedes),False,They reached the mainland,The ferry resumed service
+E11,E16,1,< (Precedes),False,They reached the mainland,Jahir heard the news
+E11,E17,-1,> (Preceded By),False,They reached the mainland,the replacement part had to be ordered from a supplier in the capital.
+E11,E18,-1,> (Preceded By),False,They reached the mainland,Sadek diagnosed the problem as contaminated fuel
+E11,E19,-1,> (Preceded By),False,They reached the mainland,Jahir's anxiety had spiked
+E11,E20,-1,> (Preceded By),False,They reached the mainland,sat quietly in the bow of the boat
+E11,E21,1,< (Precedes),False,They reached the mainland,he also recognized
+E11,E22,5,d (During),False,They reached the mainland,"he had not been willing to gamble with his daughter's health,"
+E12,E1,-1,> (Preceded By),False,Jahir found a cheap guesthouse,medical appointment that had been scheduled
+E12,E2,-1,> (Preceded By),False,Jahir found a cheap guesthouse,mechanical failure in the engine had been discovered
+E12,E3,5,d (During),False,Jahir found a cheap guesthouse,ferry that connected the island to the mainland had been out of service
+E12,E4,-1,> (Preceded By),False,Jahir found a cheap guesthouse,the ferry was still not operational
+E12,E5,-1,> (Preceded By),False,Jahir found a cheap guesthouse,Jahir began asking among the fishing community
+E12,E6,-1,> (Preceded By),False,Jahir found a cheap guesthouse,agreed to take them
+E12,E7,-1,> (Preceded By),False,Jahir found a cheap guesthouse,They departed at dawn
+E12,E8,-1,> (Preceded By),False,Jahir found a cheap guesthouse,the boat's engine sputtered and died
+E12,E9,-1,> (Preceded By),False,Jahir found a cheap guesthouse,spent forty minutes cleaning the filter and restarting the engine
+E12,E10,-1,> (Preceded By),False,Jahir found a cheap guesthouse,They resumed the crossing
+E12,E11,1,< (Precedes),False,Jahir found a cheap guesthouse,They reached the mainland
+E12,E13,1,< (Precedes),False,Jahir found a cheap guesthouse,The appointment went well
+E12,E14,1,< (Precedes),False,Jahir found a cheap guesthouse,the doctor pronounced his daughter healthy
+E12,E15,1,< (Precedes),False,Jahir found a cheap guesthouse,The ferry resumed service
+E12,E16,1,< (Precedes),False,Jahir found a cheap guesthouse,Jahir heard the news
+E12,E17,-1,> (Preceded By),False,Jahir found a cheap guesthouse,the replacement part had to be ordered from a supplier in the capital.
+E12,E18,-1,> (Preceded By),False,Jahir found a cheap guesthouse,Sadek diagnosed the problem as contaminated fuel
+E12,E19,6,f (Finishes),False,Jahir found a cheap guesthouse,Jahir's anxiety had spiked
+E12,E20,6,f (Finishes),False,Jahir found a cheap guesthouse,sat quietly in the bow of the boat
+E12,E21,1,< (Precedes),False,Jahir found a cheap guesthouse,he also recognized
+E12,E22,5,d (During),False,Jahir found a cheap guesthouse,"he had not been willing to gamble with his daughter's health,"
+E13,E1,-1,> (Preceded By),False,The appointment went well,medical appointment that had been scheduled
+E13,E2,-1,> (Preceded By),False,The appointment went well,mechanical failure in the engine had been discovered
+E13,E3,5,d (During),False,The appointment went well,ferry that connected the island to the mainland had been out of service
+E13,E4,-1,> (Preceded By),False,The appointment went well,the ferry was still not operational
+E13,E5,-1,> (Preceded By),False,The appointment went well,Jahir began asking among the fishing community
+E13,E6,-1,> (Preceded By),False,The appointment went well,agreed to take them
+E13,E7,-1,> (Preceded By),False,The appointment went well,They departed at dawn
+E13,E8,-1,> (Preceded By),False,The appointment went well,the boat's engine sputtered and died
+E13,E9,-1,> (Preceded By),False,The appointment went well,spent forty minutes cleaning the filter and restarting the engine
+E13,E10,-1,> (Preceded By),False,The appointment went well,They resumed the crossing
+E13,E11,-1,> (Preceded By),False,The appointment went well,They reached the mainland
+E13,E12,-1,> (Preceded By),False,The appointment went well,Jahir found a cheap guesthouse
+E13,E14,-5,di (Contains),False,The appointment went well,the doctor pronounced his daughter healthy
+E13,E15,1,< (Precedes),False,The appointment went well,The ferry resumed service
+E13,E16,1,< (Precedes),False,The appointment went well,Jahir heard the news
+E13,E17,-1,> (Preceded By),False,The appointment went well,the replacement part had to be ordered from a supplier in the capital.
+E13,E18,-1,> (Preceded By),False,The appointment went well,Sadek diagnosed the problem as contaminated fuel
+E13,E19,-1,> (Preceded By),False,The appointment went well,Jahir's anxiety had spiked
+E13,E20,-1,> (Preceded By),False,The appointment went well,sat quietly in the bow of the boat
+E13,E21,1,< (Precedes),False,The appointment went well,he also recognized
+E13,E22,6,f (Finishes),False,The appointment went well,"he had not been willing to gamble with his daughter's health,"
+E14,E1,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,medical appointment that had been scheduled
+E14,E2,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,mechanical failure in the engine had been discovered
+E14,E3,5,d (During),False,the doctor pronounced his daughter healthy,ferry that connected the island to the mainland had been out of service
+E14,E4,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,the ferry was still not operational
+E14,E5,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,Jahir began asking among the fishing community
+E14,E6,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,agreed to take them
+E14,E7,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,They departed at dawn
+E14,E8,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,the boat's engine sputtered and died
+E14,E9,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,spent forty minutes cleaning the filter and restarting the engine
+E14,E10,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,They resumed the crossing
+E14,E11,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,They reached the mainland
+E14,E12,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,Jahir found a cheap guesthouse
+E14,E13,5,d (During),False,the doctor pronounced his daughter healthy,The appointment went well
+E14,E15,1,< (Precedes),False,the doctor pronounced his daughter healthy,The ferry resumed service
+E14,E16,1,< (Precedes),False,the doctor pronounced his daughter healthy,Jahir heard the news
+E14,E17,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,the replacement part had to be ordered from a supplier in the capital.
+E14,E18,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,Sadek diagnosed the problem as contaminated fuel
+E14,E19,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,Jahir's anxiety had spiked
+E14,E20,-1,> (Preceded By),False,the doctor pronounced his daughter healthy,sat quietly in the bow of the boat
+E14,E21,1,< (Precedes),False,the doctor pronounced his daughter healthy,he also recognized
+E14,E22,5,d (During),False,the doctor pronounced his daughter healthy,"he had not been willing to gamble with his daughter's health,"
+E15,E1,-1,> (Preceded By),False,The ferry resumed service,medical appointment that had been scheduled
+E15,E2,-1,> (Preceded By),False,The ferry resumed service,mechanical failure in the engine had been discovered
+E15,E3,6,f (Finishes),False,The ferry resumed service,ferry that connected the island to the mainland had been out of service
+E15,E4,-1,> (Preceded By),False,The ferry resumed service,the ferry was still not operational
+E15,E5,-1,> (Preceded By),False,The ferry resumed service,Jahir began asking among the fishing community
+E15,E6,-1,> (Preceded By),False,The ferry resumed service,agreed to take them
+E15,E7,-1,> (Preceded By),False,The ferry resumed service,They departed at dawn
+E15,E8,-1,> (Preceded By),False,The ferry resumed service,the boat's engine sputtered and died
+E15,E9,-1,> (Preceded By),False,The ferry resumed service,spent forty minutes cleaning the filter and restarting the engine
+E15,E10,-1,> (Preceded By),False,The ferry resumed service,They resumed the crossing
+E15,E11,-1,> (Preceded By),False,The ferry resumed service,They reached the mainland
+E15,E12,-1,> (Preceded By),False,The ferry resumed service,Jahir found a cheap guesthouse
+E15,E13,-1,> (Preceded By),False,The ferry resumed service,The appointment went well
+E15,E14,-1,> (Preceded By),False,The ferry resumed service,the doctor pronounced his daughter healthy
+E15,E16,1,< (Precedes),False,The ferry resumed service,Jahir heard the news
+E15,E17,-1,> (Preceded By),False,The ferry resumed service,the replacement part had to be ordered from a supplier in the capital.
+E15,E18,-1,> (Preceded By),False,The ferry resumed service,Sadek diagnosed the problem as contaminated fuel
+E15,E19,-1,> (Preceded By),False,The ferry resumed service,Jahir's anxiety had spiked
+E15,E20,-1,> (Preceded By),False,The ferry resumed service,sat quietly in the bow of the boat
+E15,E21,1,< (Precedes),False,The ferry resumed service,he also recognized
+E15,E22,-1,> (Preceded By),False,The ferry resumed service,"he had not been willing to gamble with his daughter's health,"
+E16,E1,-1,> (Preceded By),False,Jahir heard the news,medical appointment that had been scheduled
+E16,E2,-1,> (Preceded By),False,Jahir heard the news,mechanical failure in the engine had been discovered
+E16,E3,-1,> (Preceded By),False,Jahir heard the news,ferry that connected the island to the mainland had been out of service
+E16,E4,-1,> (Preceded By),False,Jahir heard the news,the ferry was still not operational
+E16,E5,-1,> (Preceded By),False,Jahir heard the news,Jahir began asking among the fishing community
+E16,E6,-1,> (Preceded By),False,Jahir heard the news,agreed to take them
+E16,E7,-1,> (Preceded By),False,Jahir heard the news,They departed at dawn
+E16,E8,-1,> (Preceded By),False,Jahir heard the news,the boat's engine sputtered and died
+E16,E9,-1,> (Preceded By),False,Jahir heard the news,spent forty minutes cleaning the filter and restarting the engine
+E16,E10,-1,> (Preceded By),False,Jahir heard the news,They resumed the crossing
+E16,E11,-1,> (Preceded By),False,Jahir heard the news,They reached the mainland
+E16,E12,-1,> (Preceded By),False,Jahir heard the news,Jahir found a cheap guesthouse
+E16,E13,-1,> (Preceded By),False,Jahir heard the news,The appointment went well
+E16,E14,-1,> (Preceded By),False,Jahir heard the news,the doctor pronounced his daughter healthy
+E16,E15,-1,> (Preceded By),False,Jahir heard the news,The ferry resumed service
+E16,E17,-1,> (Preceded By),False,Jahir heard the news,the replacement part had to be ordered from a supplier in the capital.
+E16,E18,-1,> (Preceded By),False,Jahir heard the news,Sadek diagnosed the problem as contaminated fuel
+E16,E19,-1,> (Preceded By),False,Jahir heard the news,Jahir's anxiety had spiked
+E16,E20,-1,> (Preceded By),False,Jahir heard the news,sat quietly in the bow of the boat
+E16,E21,1,< (Precedes),False,Jahir heard the news,he also recognized
+E16,E22,-1,> (Preceded By),False,Jahir heard the news,"he had not been willing to gamble with his daughter's health,"
+E17,E1,-1,> (Preceded By),False,the replacement part had to be ordered from a supplier in the capital.,medical appointment that had been scheduled
+E17,E2,-1,> (Preceded By),False,the replacement part had to be ordered from a supplier in the capital.,mechanical failure in the engine had been discovered
+E17,E3,5,d (During),False,the replacement part had to be ordered from a supplier in the capital.,ferry that connected the island to the mainland had been out of service
+E17,E4,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,the ferry was still not operational
+E17,E5,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,Jahir began asking among the fishing community
+E17,E6,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,agreed to take them
+E17,E7,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,They departed at dawn
+E17,E8,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,the boat's engine sputtered and died
+E17,E9,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,spent forty minutes cleaning the filter and restarting the engine
+E17,E10,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,They resumed the crossing
+E17,E11,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,They reached the mainland
+E17,E12,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,Jahir found a cheap guesthouse
+E17,E13,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,The appointment went well
+E17,E14,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,the doctor pronounced his daughter healthy
+E17,E15,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,The ferry resumed service
+E17,E16,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,Jahir heard the news
+E17,E18,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,Sadek diagnosed the problem as contaminated fuel
+E17,E19,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,Jahir's anxiety had spiked
+E17,E20,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,sat quietly in the bow of the boat
+E17,E21,1,< (Precedes),False,the replacement part had to be ordered from a supplier in the capital.,he also recognized
+E17,E22,5,d (During),False,the replacement part had to be ordered from a supplier in the capital.,"he had not been willing to gamble with his daughter's health,"
+E18,E1,-1,> (Preceded By),False,Sadek diagnosed the problem as contaminated fuel,medical appointment that had been scheduled
+E18,E2,-1,> (Preceded By),False,Sadek diagnosed the problem as contaminated fuel,mechanical failure in the engine had been discovered
+E18,E3,5,d (During),False,Sadek diagnosed the problem as contaminated fuel,ferry that connected the island to the mainland had been out of service
+E18,E4,-1,> (Preceded By),False,Sadek diagnosed the problem as contaminated fuel,the ferry was still not operational
+E18,E5,-1,> (Preceded By),False,Sadek diagnosed the problem as contaminated fuel,Jahir began asking among the fishing community
+E18,E6,-1,> (Preceded By),False,Sadek diagnosed the problem as contaminated fuel,agreed to take them
+E18,E7,-1,> (Preceded By),False,Sadek diagnosed the problem as contaminated fuel,They departed at dawn
+E18,E8,-1,> (Preceded By),False,Sadek diagnosed the problem as contaminated fuel,the boat's engine sputtered and died
+E18,E9,2,m (Meets),False,Sadek diagnosed the problem as contaminated fuel,spent forty minutes cleaning the filter and restarting the engine
+E18,E10,1,< (Precedes),False,Sadek diagnosed the problem as contaminated fuel,They resumed the crossing
+E18,E11,1,< (Precedes),False,Sadek diagnosed the problem as contaminated fuel,They reached the mainland
+E18,E12,1,< (Precedes),False,Sadek diagnosed the problem as contaminated fuel,Jahir found a cheap guesthouse
+E18,E13,1,< (Precedes),False,Sadek diagnosed the problem as contaminated fuel,The appointment went well
+E18,E14,1,< (Precedes),False,Sadek diagnosed the problem as contaminated fuel,the doctor pronounced his daughter healthy
+E18,E15,1,< (Precedes),False,Sadek diagnosed the problem as contaminated fuel,The ferry resumed service
+E18,E16,1,< (Precedes),False,Sadek diagnosed the problem as contaminated fuel,Jahir heard the news
+E18,E17,-1,> (Preceded By),False,Sadek diagnosed the problem as contaminated fuel,the replacement part had to be ordered from a supplier in the capital.
+E18,E19,1,< (Precedes),False,Sadek diagnosed the problem as contaminated fuel,Jahir's anxiety had spiked
+E18,E20,5,d (During),False,Sadek diagnosed the problem as contaminated fuel,sat quietly in the bow of the boat
+E18,E21,1,< (Precedes),False,Sadek diagnosed the problem as contaminated fuel,he also recognized
+E18,E22,5,d (During),False,Sadek diagnosed the problem as contaminated fuel,"he had not been willing to gamble with his daughter's health,"
+E19,E1,-1,> (Preceded By),False,Jahir's anxiety had spiked,medical appointment that had been scheduled
+E19,E2,-1,> (Preceded By),False,Jahir's anxiety had spiked,mechanical failure in the engine had been discovered
+E19,E3,5,d (During),False,Jahir's anxiety had spiked,ferry that connected the island to the mainland had been out of service
+E19,E4,-1,> (Preceded By),False,Jahir's anxiety had spiked,the ferry was still not operational
+E19,E5,-1,> (Preceded By),False,Jahir's anxiety had spiked,Jahir began asking among the fishing community
+E19,E6,-1,> (Preceded By),False,Jahir's anxiety had spiked,agreed to take them
+E19,E7,-1,> (Preceded By),False,Jahir's anxiety had spiked,They departed at dawn
+E19,E8,-1,> (Preceded By),False,Jahir's anxiety had spiked,the boat's engine sputtered and died
+E19,E9,-1,> (Preceded By),False,Jahir's anxiety had spiked,spent forty minutes cleaning the filter and restarting the engine
+E19,E10,-2,mi (Met By),False,Jahir's anxiety had spiked,They resumed the crossing
+E19,E11,1,< (Precedes),False,Jahir's anxiety had spiked,They reached the mainland
+E19,E12,-6,fi (Finished By),False,Jahir's anxiety had spiked,Jahir found a cheap guesthouse
+E19,E13,1,< (Precedes),False,Jahir's anxiety had spiked,The appointment went well
+E19,E14,1,< (Precedes),False,Jahir's anxiety had spiked,the doctor pronounced his daughter healthy
+E19,E15,1,< (Precedes),False,Jahir's anxiety had spiked,The ferry resumed service
+E19,E16,1,< (Precedes),False,Jahir's anxiety had spiked,Jahir heard the news
+E19,E17,-1,> (Preceded By),False,Jahir's anxiety had spiked,the replacement part had to be ordered from a supplier in the capital.
+E19,E18,-1,> (Preceded By),False,Jahir's anxiety had spiked,Sadek diagnosed the problem as contaminated fuel
+E19,E20,6,f (Finishes),False,Jahir's anxiety had spiked,sat quietly in the bow of the boat
+E19,E21,1,< (Precedes),False,Jahir's anxiety had spiked,he also recognized
+E19,E22,5,d (During),False,Jahir's anxiety had spiked,"he had not been willing to gamble with his daughter's health,"
+E20,E1,-1,> (Preceded By),False,sat quietly in the bow of the boat,medical appointment that had been scheduled
+E20,E2,-1,> (Preceded By),False,sat quietly in the bow of the boat,mechanical failure in the engine had been discovered
+E20,E3,5,d (During),False,sat quietly in the bow of the boat,ferry that connected the island to the mainland had been out of service
+E20,E4,-1,> (Preceded By),False,sat quietly in the bow of the boat,the ferry was still not operational
+E20,E5,-1,> (Preceded By),False,sat quietly in the bow of the boat,Jahir began asking among the fishing community
+E20,E6,-1,> (Preceded By),False,sat quietly in the bow of the boat,agreed to take them
+E20,E7,-4,si (Started By),False,sat quietly in the bow of the boat,They departed at dawn
+E20,E8,-5,di (Contains),False,sat quietly in the bow of the boat,the boat's engine sputtered and died
+E20,E9,-5,di (Contains),False,sat quietly in the bow of the boat,spent forty minutes cleaning the filter and restarting the engine
+E20,E10,-5,di (Contains),False,sat quietly in the bow of the boat,They resumed the crossing
+E20,E11,1,< (Precedes),False,sat quietly in the bow of the boat,They reached the mainland
+E20,E12,-6,fi (Finished By),False,sat quietly in the bow of the boat,Jahir found a cheap guesthouse
+E20,E13,1,< (Precedes),False,sat quietly in the bow of the boat,The appointment went well
+E20,E14,1,< (Precedes),False,sat quietly in the bow of the boat,the doctor pronounced his daughter healthy
+E20,E15,1,< (Precedes),False,sat quietly in the bow of the boat,The ferry resumed service
+E20,E16,1,< (Precedes),False,sat quietly in the bow of the boat,Jahir heard the news
+E20,E17,-1,> (Preceded By),False,sat quietly in the bow of the boat,the replacement part had to be ordered from a supplier in the capital.
+E20,E18,-5,di (Contains),False,sat quietly in the bow of the boat,Sadek diagnosed the problem as contaminated fuel
+E20,E19,-6,fi (Finished By),False,sat quietly in the bow of the boat,Jahir's anxiety had spiked
+E20,E21,1,< (Precedes),False,sat quietly in the bow of the boat,he also recognized
+E20,E22,5,d (During),False,sat quietly in the bow of the boat,"he had not been willing to gamble with his daughter's health,"
+E21,E1,-1,> (Preceded By),False,he also recognized,medical appointment that had been scheduled
+E21,E2,-1,> (Preceded By),False,he also recognized,mechanical failure in the engine had been discovered
+E21,E3,-1,> (Preceded By),False,he also recognized,ferry that connected the island to the mainland had been out of service
+E21,E4,-1,> (Preceded By),False,he also recognized,the ferry was still not operational
+E21,E5,-1,> (Preceded By),False,he also recognized,Jahir began asking among the fishing community
+E21,E6,-1,> (Preceded By),False,he also recognized,agreed to take them
+E21,E7,-1,> (Preceded By),False,he also recognized,They departed at dawn
+E21,E8,-1,> (Preceded By),False,he also recognized,the boat's engine sputtered and died
+E21,E9,-1,> (Preceded By),False,he also recognized,spent forty minutes cleaning the filter and restarting the engine
+E21,E10,-1,> (Preceded By),False,he also recognized,They resumed the crossing
+E21,E11,-1,> (Preceded By),False,he also recognized,They reached the mainland
+E21,E12,-1,> (Preceded By),False,he also recognized,Jahir found a cheap guesthouse
+E21,E13,-1,> (Preceded By),False,he also recognized,The appointment went well
+E21,E14,-1,> (Preceded By),False,he also recognized,the doctor pronounced his daughter healthy
+E21,E15,-1,> (Preceded By),False,he also recognized,The ferry resumed service
+E21,E16,-1,> (Preceded By),False,he also recognized,Jahir heard the news
+E21,E17,-1,> (Preceded By),False,he also recognized,the replacement part had to be ordered from a supplier in the capital.
+E21,E18,-1,> (Preceded By),False,he also recognized,Sadek diagnosed the problem as contaminated fuel
+E21,E19,-1,> (Preceded By),False,he also recognized,Jahir's anxiety had spiked
+E21,E20,-1,> (Preceded By),False,he also recognized,sat quietly in the bow of the boat
+E21,E22,-1,> (Preceded By),False,he also recognized,"he had not been willing to gamble with his daughter's health,"
+E22,E1,-4,si (Started By),False,"he had not been willing to gamble with his daughter's health,",medical appointment that had been scheduled
+E22,E2,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",mechanical failure in the engine had been discovered
+E22,E3,3,o (Overlaps),False,"he had not been willing to gamble with his daughter's health,",ferry that connected the island to the mainland had been out of service
+E22,E4,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",the ferry was still not operational
+E22,E5,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",Jahir began asking among the fishing community
+E22,E6,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",agreed to take them
+E22,E7,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",They departed at dawn
+E22,E8,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",the boat's engine sputtered and died
+E22,E9,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",spent forty minutes cleaning the filter and restarting the engine
+E22,E10,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",They resumed the crossing
+E22,E11,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",They reached the mainland
+E22,E12,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",Jahir found a cheap guesthouse
+E22,E13,-6,fi (Finished By),False,"he had not been willing to gamble with his daughter's health,",The appointment went well
+E22,E14,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",the doctor pronounced his daughter healthy
+E22,E15,1,< (Precedes),False,"he had not been willing to gamble with his daughter's health,",The ferry resumed service
+E22,E16,1,< (Precedes),False,"he had not been willing to gamble with his daughter's health,",Jahir heard the news
+E22,E17,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",the replacement part had to be ordered from a supplier in the capital.
+E22,E18,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",Sadek diagnosed the problem as contaminated fuel
+E22,E19,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",Jahir's anxiety had spiked
+E22,E20,-5,di (Contains),False,"he had not been willing to gamble with his daughter's health,",sat quietly in the bow of the boat
+E22,E21,1,< (Precedes),False,"he had not been willing to gamble with his daughter's health,",he also recognized

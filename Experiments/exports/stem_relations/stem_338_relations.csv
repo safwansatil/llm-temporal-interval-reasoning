@@ -1,0 +1,91 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,a wedding gift from her mother-in-law,lost one of her gold earrings
+E1,E3,1,< (Precedes),False,a wedding gift from her mother-in-law,noticed the loss
+E1,E4,1,< (Precedes),False,a wedding gift from her mother-in-law,searched the house for two hours
+E1,E5,1,< (Precedes),False,a wedding gift from her mother-in-law,retraced her steps
+E1,E6,1,< (Precedes),False,a wedding gift from her mother-in-law,had found nothing
+E1,E7,1,< (Precedes),False,a wedding gift from her mother-in-law,returned to each location
+E1,E8,1,< (Precedes),False,a wedding gift from her mother-in-law,asked if anyone had found a gold earring
+E1,E9,1,< (Precedes),False,a wedding gift from her mother-in-law,found it
+E1,E10,1,< (Precedes),False,a wedding gift from her mother-in-law,checks her jewelry every evening before bed
+E2,E1,-1,> (Preceded By),False,lost one of her gold earrings,a wedding gift from her mother-in-law
+E2,E3,3,o (Overlaps),False,lost one of her gold earrings,noticed the loss
+E2,E4,3,o (Overlaps),False,lost one of her gold earrings,searched the house for two hours
+E2,E5,1,< (Precedes),False,lost one of her gold earrings,retraced her steps
+E2,E6,1,< (Precedes),False,lost one of her gold earrings,had found nothing
+E2,E7,1,< (Precedes),False,lost one of her gold earrings,returned to each location
+E2,E8,1,< (Precedes),False,lost one of her gold earrings,asked if anyone had found a gold earring
+E2,E9,1,< (Precedes),False,lost one of her gold earrings,found it
+E2,E10,1,< (Precedes),False,lost one of her gold earrings,checks her jewelry every evening before bed
+E3,E1,-1,> (Preceded By),False,noticed the loss,a wedding gift from her mother-in-law
+E3,E2,-3,oi (Overlapped By),False,noticed the loss,lost one of her gold earrings
+E3,E4,3,o (Overlaps),False,noticed the loss,searched the house for two hours
+E3,E5,1,< (Precedes),False,noticed the loss,retraced her steps
+E3,E6,1,< (Precedes),False,noticed the loss,had found nothing
+E3,E7,1,< (Precedes),False,noticed the loss,returned to each location
+E3,E8,1,< (Precedes),False,noticed the loss,asked if anyone had found a gold earring
+E3,E9,1,< (Precedes),False,noticed the loss,found it
+E3,E10,1,< (Precedes),False,noticed the loss,checks her jewelry every evening before bed
+E4,E1,-1,> (Preceded By),False,searched the house for two hours,a wedding gift from her mother-in-law
+E4,E2,-3,oi (Overlapped By),False,searched the house for two hours,lost one of her gold earrings
+E4,E3,-3,oi (Overlapped By),False,searched the house for two hours,noticed the loss
+E4,E5,2,m (Meets),False,searched the house for two hours,retraced her steps
+E4,E6,1,< (Precedes),False,searched the house for two hours,had found nothing
+E4,E7,1,< (Precedes),False,searched the house for two hours,returned to each location
+E4,E8,1,< (Precedes),False,searched the house for two hours,asked if anyone had found a gold earring
+E4,E9,1,< (Precedes),False,searched the house for two hours,found it
+E4,E10,1,< (Precedes),False,searched the house for two hours,checks her jewelry every evening before bed
+E5,E1,-1,> (Preceded By),False,retraced her steps,a wedding gift from her mother-in-law
+E5,E2,-1,> (Preceded By),False,retraced her steps,lost one of her gold earrings
+E5,E3,-1,> (Preceded By),False,retraced her steps,noticed the loss
+E5,E4,-2,mi (Met By),False,retraced her steps,searched the house for two hours
+E5,E6,2,m (Meets),False,retraced her steps,had found nothing
+E5,E7,1,< (Precedes),False,retraced her steps,returned to each location
+E5,E8,1,< (Precedes),False,retraced her steps,asked if anyone had found a gold earring
+E5,E9,1,< (Precedes),False,retraced her steps,found it
+E5,E10,1,< (Precedes),False,retraced her steps,checks her jewelry every evening before bed
+E6,E1,-1,> (Preceded By),False,had found nothing,a wedding gift from her mother-in-law
+E6,E2,-1,> (Preceded By),False,had found nothing,lost one of her gold earrings
+E6,E3,-1,> (Preceded By),False,had found nothing,noticed the loss
+E6,E4,-1,> (Preceded By),False,had found nothing,searched the house for two hours
+E6,E5,-2,mi (Met By),False,had found nothing,retraced her steps
+E6,E7,2,m (Meets),False,had found nothing,returned to each location
+E6,E8,1,< (Precedes),False,had found nothing,asked if anyone had found a gold earring
+E6,E9,1,< (Precedes),False,had found nothing,found it
+E6,E10,1,< (Precedes),False,had found nothing,checks her jewelry every evening before bed
+E7,E1,-1,> (Preceded By),False,returned to each location,a wedding gift from her mother-in-law
+E7,E2,-1,> (Preceded By),False,returned to each location,lost one of her gold earrings
+E7,E3,-1,> (Preceded By),False,returned to each location,noticed the loss
+E7,E4,-1,> (Preceded By),False,returned to each location,searched the house for two hours
+E7,E5,-1,> (Preceded By),False,returned to each location,retraced her steps
+E7,E6,-2,mi (Met By),False,returned to each location,had found nothing
+E7,E8,3,o (Overlaps),False,returned to each location,asked if anyone had found a gold earring
+E7,E9,1,< (Precedes),False,returned to each location,found it
+E7,E10,1,< (Precedes),False,returned to each location,checks her jewelry every evening before bed
+E8,E1,-1,> (Preceded By),False,asked if anyone had found a gold earring,a wedding gift from her mother-in-law
+E8,E2,-1,> (Preceded By),False,asked if anyone had found a gold earring,lost one of her gold earrings
+E8,E3,-1,> (Preceded By),False,asked if anyone had found a gold earring,noticed the loss
+E8,E4,-1,> (Preceded By),False,asked if anyone had found a gold earring,searched the house for two hours
+E8,E5,-1,> (Preceded By),False,asked if anyone had found a gold earring,retraced her steps
+E8,E6,-1,> (Preceded By),False,asked if anyone had found a gold earring,had found nothing
+E8,E7,-3,oi (Overlapped By),False,asked if anyone had found a gold earring,returned to each location
+E8,E9,1,< (Precedes),False,asked if anyone had found a gold earring,found it
+E8,E10,1,< (Precedes),False,asked if anyone had found a gold earring,checks her jewelry every evening before bed
+E9,E1,-1,> (Preceded By),False,found it,a wedding gift from her mother-in-law
+E9,E2,-1,> (Preceded By),False,found it,lost one of her gold earrings
+E9,E3,-1,> (Preceded By),False,found it,noticed the loss
+E9,E4,-1,> (Preceded By),False,found it,searched the house for two hours
+E9,E5,-1,> (Preceded By),False,found it,retraced her steps
+E9,E6,-1,> (Preceded By),False,found it,had found nothing
+E9,E7,-1,> (Preceded By),False,found it,returned to each location
+E9,E8,-1,> (Preceded By),False,found it,asked if anyone had found a gold earring
+E9,E10,1,< (Precedes),False,found it,checks her jewelry every evening before bed
+E10,E1,-1,> (Preceded By),False,checks her jewelry every evening before bed,a wedding gift from her mother-in-law
+E10,E2,-1,> (Preceded By),False,checks her jewelry every evening before bed,lost one of her gold earrings
+E10,E3,-1,> (Preceded By),False,checks her jewelry every evening before bed,noticed the loss
+E10,E4,-1,> (Preceded By),False,checks her jewelry every evening before bed,searched the house for two hours
+E10,E5,-1,> (Preceded By),False,checks her jewelry every evening before bed,retraced her steps
+E10,E6,-1,> (Preceded By),False,checks her jewelry every evening before bed,had found nothing
+E10,E7,-1,> (Preceded By),False,checks her jewelry every evening before bed,returned to each location
+E10,E8,-1,> (Preceded By),False,checks her jewelry every evening before bed,asked if anyone had found a gold earring
+E10,E9,-1,> (Preceded By),False,checks her jewelry every evening before bed,found it

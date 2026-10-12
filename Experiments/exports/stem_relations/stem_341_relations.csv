@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,borrowed three books from the university library,noted it in his planner
+E1,E3,1,< (Precedes),False,borrowed three books from the university library,the due date passed without his notice
+E1,E4,1,< (Precedes),False,borrowed three books from the university library,discovered the overdue books
+E1,E5,1,< (Precedes),False,borrowed three books from the university library,returned the books
+E1,E6,1,< (Precedes),False,borrowed three books from the university library,approached the librarian's desk
+E1,E7,1,< (Precedes),False,borrowed three books from the university library,scanned each book
+E1,E8,1,< (Precedes),False,borrowed three books from the university library,reduced the fine by half
+E1,E9,1,< (Precedes),False,borrowed three books from the university library,thanked her profusely
+E1,E10,1,< (Precedes),False,borrowed three books from the university library,paid the reduced amount
+E1,E11,1,< (Precedes),False,borrowed three books from the university library,sets a reminder on his phone for every library book
+E1,E12,1,< (Precedes),False,borrowed three books from the university library,returns them early whenever possible
+E1,E13,4,s (Starts),False,borrowed three books from the university library,Mrs. Haq who had worked at the university
+E1,E14,1,< (Precedes),False,borrowed three books from the university library,had saved him from a difficult week
+E2,E1,-2,mi (Met By),False,noted it in his planner,borrowed three books from the university library
+E2,E3,1,< (Precedes),False,noted it in his planner,the due date passed without his notice
+E2,E4,1,< (Precedes),False,noted it in his planner,discovered the overdue books
+E2,E5,1,< (Precedes),False,noted it in his planner,returned the books
+E2,E6,1,< (Precedes),False,noted it in his planner,approached the librarian's desk
+E2,E7,1,< (Precedes),False,noted it in his planner,scanned each book
+E2,E8,1,< (Precedes),False,noted it in his planner,reduced the fine by half
+E2,E9,1,< (Precedes),False,noted it in his planner,thanked her profusely
+E2,E10,1,< (Precedes),False,noted it in his planner,paid the reduced amount
+E2,E11,1,< (Precedes),False,noted it in his planner,sets a reminder on his phone for every library book
+E2,E12,1,< (Precedes),False,noted it in his planner,returns them early whenever possible
+E2,E13,5,d (During),False,noted it in his planner,Mrs. Haq who had worked at the university
+E2,E14,1,< (Precedes),False,noted it in his planner,had saved him from a difficult week
+E3,E1,-1,> (Preceded By),False,the due date passed without his notice,borrowed three books from the university library
+E3,E2,-1,> (Preceded By),False,the due date passed without his notice,noted it in his planner
+E3,E4,1,< (Precedes),False,the due date passed without his notice,discovered the overdue books
+E3,E5,1,< (Precedes),False,the due date passed without his notice,returned the books
+E3,E6,1,< (Precedes),False,the due date passed without his notice,approached the librarian's desk
+E3,E7,1,< (Precedes),False,the due date passed without his notice,scanned each book
+E3,E8,1,< (Precedes),False,the due date passed without his notice,reduced the fine by half
+E3,E9,1,< (Precedes),False,the due date passed without his notice,thanked her profusely
+E3,E10,1,< (Precedes),False,the due date passed without his notice,paid the reduced amount
+E3,E11,1,< (Precedes),False,the due date passed without his notice,sets a reminder on his phone for every library book
+E3,E12,1,< (Precedes),False,the due date passed without his notice,returns them early whenever possible
+E3,E13,5,d (During),False,the due date passed without his notice,Mrs. Haq who had worked at the university
+E3,E14,1,< (Precedes),False,the due date passed without his notice,had saved him from a difficult week
+E4,E1,-1,> (Preceded By),False,discovered the overdue books,borrowed three books from the university library
+E4,E2,-1,> (Preceded By),False,discovered the overdue books,noted it in his planner
+E4,E3,-1,> (Preceded By),False,discovered the overdue books,the due date passed without his notice
+E4,E5,1,< (Precedes),False,discovered the overdue books,returned the books
+E4,E6,1,< (Precedes),False,discovered the overdue books,approached the librarian's desk
+E4,E7,1,< (Precedes),False,discovered the overdue books,scanned each book
+E4,E8,1,< (Precedes),False,discovered the overdue books,reduced the fine by half
+E4,E9,1,< (Precedes),False,discovered the overdue books,thanked her profusely
+E4,E10,1,< (Precedes),False,discovered the overdue books,paid the reduced amount
+E4,E11,1,< (Precedes),False,discovered the overdue books,sets a reminder on his phone for every library book
+E4,E12,1,< (Precedes),False,discovered the overdue books,returns them early whenever possible
+E4,E13,5,d (During),False,discovered the overdue books,Mrs. Haq who had worked at the university
+E4,E14,1,< (Precedes),False,discovered the overdue books,had saved him from a difficult week
+E5,E1,-1,> (Preceded By),False,returned the books,borrowed three books from the university library
+E5,E2,-1,> (Preceded By),False,returned the books,noted it in his planner
+E5,E3,-1,> (Preceded By),False,returned the books,the due date passed without his notice
+E5,E4,-1,> (Preceded By),False,returned the books,discovered the overdue books
+E5,E6,2,m (Meets),False,returned the books,approached the librarian's desk
+E5,E7,1,< (Precedes),False,returned the books,scanned each book
+E5,E8,1,< (Precedes),False,returned the books,reduced the fine by half
+E5,E9,1,< (Precedes),False,returned the books,thanked her profusely
+E5,E10,1,< (Precedes),False,returned the books,paid the reduced amount
+E5,E11,1,< (Precedes),False,returned the books,sets a reminder on his phone for every library book
+E5,E12,1,< (Precedes),False,returned the books,returns them early whenever possible
+E5,E13,-2,mi (Met By),False,returned the books,Mrs. Haq who had worked at the university
+E5,E14,1,< (Precedes),False,returned the books,had saved him from a difficult week
+E6,E1,-1,> (Preceded By),False,approached the librarian's desk,borrowed three books from the university library
+E6,E2,-1,> (Preceded By),False,approached the librarian's desk,noted it in his planner
+E6,E3,-1,> (Preceded By),False,approached the librarian's desk,the due date passed without his notice
+E6,E4,-1,> (Preceded By),False,approached the librarian's desk,discovered the overdue books
+E6,E5,-2,mi (Met By),False,approached the librarian's desk,returned the books
+E6,E7,2,m (Meets),False,approached the librarian's desk,scanned each book
+E6,E8,1,< (Precedes),False,approached the librarian's desk,reduced the fine by half
+E6,E9,1,< (Precedes),False,approached the librarian's desk,thanked her profusely
+E6,E10,1,< (Precedes),False,approached the librarian's desk,paid the reduced amount
+E6,E11,1,< (Precedes),False,approached the librarian's desk,sets a reminder on his phone for every library book
+E6,E12,1,< (Precedes),False,approached the librarian's desk,returns them early whenever possible
+E6,E13,-1,> (Preceded By),False,approached the librarian's desk,Mrs. Haq who had worked at the university
+E6,E14,1,< (Precedes),False,approached the librarian's desk,had saved him from a difficult week
+E7,E1,-1,> (Preceded By),False,scanned each book,borrowed three books from the university library
+E7,E2,-1,> (Preceded By),False,scanned each book,noted it in his planner
+E7,E3,-1,> (Preceded By),False,scanned each book,the due date passed without his notice
+E7,E4,-1,> (Preceded By),False,scanned each book,discovered the overdue books
+E7,E5,-1,> (Preceded By),False,scanned each book,returned the books
+E7,E6,-2,mi (Met By),False,scanned each book,approached the librarian's desk
+E7,E8,2,m (Meets),False,scanned each book,reduced the fine by half
+E7,E9,1,< (Precedes),False,scanned each book,thanked her profusely
+E7,E10,1,< (Precedes),False,scanned each book,paid the reduced amount
+E7,E11,1,< (Precedes),False,scanned each book,sets a reminder on his phone for every library book
+E7,E12,1,< (Precedes),False,scanned each book,returns them early whenever possible
+E7,E13,-1,> (Preceded By),False,scanned each book,Mrs. Haq who had worked at the university
+E7,E14,1,< (Precedes),False,scanned each book,had saved him from a difficult week
+E8,E1,-1,> (Preceded By),False,reduced the fine by half,borrowed three books from the university library
+E8,E2,-1,> (Preceded By),False,reduced the fine by half,noted it in his planner
+E8,E3,-1,> (Preceded By),False,reduced the fine by half,the due date passed without his notice
+E8,E4,-1,> (Preceded By),False,reduced the fine by half,discovered the overdue books
+E8,E5,-1,> (Preceded By),False,reduced the fine by half,returned the books
+E8,E6,-1,> (Preceded By),False,reduced the fine by half,approached the librarian's desk
+E8,E7,-2,mi (Met By),False,reduced the fine by half,scanned each book
+E8,E9,2,m (Meets),False,reduced the fine by half,thanked her profusely
+E8,E10,1,< (Precedes),False,reduced the fine by half,paid the reduced amount
+E8,E11,1,< (Precedes),False,reduced the fine by half,sets a reminder on his phone for every library book
+E8,E12,1,< (Precedes),False,reduced the fine by half,returns them early whenever possible
+E8,E13,-1,> (Preceded By),False,reduced the fine by half,Mrs. Haq who had worked at the university
+E8,E14,1,< (Precedes),False,reduced the fine by half,had saved him from a difficult week
+E9,E1,-1,> (Preceded By),False,thanked her profusely,borrowed three books from the university library
+E9,E2,-1,> (Preceded By),False,thanked her profusely,noted it in his planner
+E9,E3,-1,> (Preceded By),False,thanked her profusely,the due date passed without his notice
+E9,E4,-1,> (Preceded By),False,thanked her profusely,discovered the overdue books
+E9,E5,-1,> (Preceded By),False,thanked her profusely,returned the books
+E9,E6,-1,> (Preceded By),False,thanked her profusely,approached the librarian's desk
+E9,E7,-1,> (Preceded By),False,thanked her profusely,scanned each book
+E9,E8,-2,mi (Met By),False,thanked her profusely,reduced the fine by half
+E9,E10,2,m (Meets),False,thanked her profusely,paid the reduced amount
+E9,E11,1,< (Precedes),False,thanked her profusely,sets a reminder on his phone for every library book
+E9,E12,1,< (Precedes),False,thanked her profusely,returns them early whenever possible
+E9,E13,-1,> (Preceded By),False,thanked her profusely,Mrs. Haq who had worked at the university
+E9,E14,1,< (Precedes),False,thanked her profusely,had saved him from a difficult week
+E10,E1,-1,> (Preceded By),False,paid the reduced amount,borrowed three books from the university library
+E10,E2,-1,> (Preceded By),False,paid the reduced amount,noted it in his planner
+E10,E3,-1,> (Preceded By),False,paid the reduced amount,the due date passed without his notice
+E10,E4,-1,> (Preceded By),False,paid the reduced amount,discovered the overdue books
+E10,E5,-1,> (Preceded By),False,paid the reduced amount,returned the books
+E10,E6,-1,> (Preceded By),False,paid the reduced amount,approached the librarian's desk
+E10,E7,-1,> (Preceded By),False,paid the reduced amount,scanned each book
+E10,E8,-1,> (Preceded By),False,paid the reduced amount,reduced the fine by half
+E10,E9,-2,mi (Met By),False,paid the reduced amount,thanked her profusely
+E10,E11,2,m (Meets),False,paid the reduced amount,sets a reminder on his phone for every library book
+E10,E12,2,m (Meets),False,paid the reduced amount,returns them early whenever possible
+E10,E13,-1,> (Preceded By),False,paid the reduced amount,Mrs. Haq who had worked at the university
+E10,E14,2,m (Meets),False,paid the reduced amount,had saved him from a difficult week
+E11,E1,-1,> (Preceded By),False,sets a reminder on his phone for every library book,borrowed three books from the university library
+E11,E2,-1,> (Preceded By),False,sets a reminder on his phone for every library book,noted it in his planner
+E11,E3,-1,> (Preceded By),False,sets a reminder on his phone for every library book,the due date passed without his notice
+E11,E4,-1,> (Preceded By),False,sets a reminder on his phone for every library book,discovered the overdue books
+E11,E5,-1,> (Preceded By),False,sets a reminder on his phone for every library book,returned the books
+E11,E6,-1,> (Preceded By),False,sets a reminder on his phone for every library book,approached the librarian's desk
+E11,E7,-1,> (Preceded By),False,sets a reminder on his phone for every library book,scanned each book
+E11,E8,-1,> (Preceded By),False,sets a reminder on his phone for every library book,reduced the fine by half
+E11,E9,-1,> (Preceded By),False,sets a reminder on his phone for every library book,thanked her profusely
+E11,E10,-2,mi (Met By),False,sets a reminder on his phone for every library book,paid the reduced amount
+E11,E12,0,= (Equal),False,sets a reminder on his phone for every library book,returns them early whenever possible
+E11,E13,-1,> (Preceded By),False,sets a reminder on his phone for every library book,Mrs. Haq who had worked at the university
+E11,E14,-4,si (Started By),False,sets a reminder on his phone for every library book,had saved him from a difficult week
+E12,E1,-1,> (Preceded By),False,returns them early whenever possible,borrowed three books from the university library
+E12,E2,-1,> (Preceded By),False,returns them early whenever possible,noted it in his planner
+E12,E3,-1,> (Preceded By),False,returns them early whenever possible,the due date passed without his notice
+E12,E4,-1,> (Preceded By),False,returns them early whenever possible,discovered the overdue books
+E12,E5,-1,> (Preceded By),False,returns them early whenever possible,returned the books
+E12,E6,-1,> (Preceded By),False,returns them early whenever possible,approached the librarian's desk
+E12,E7,-1,> (Preceded By),False,returns them early whenever possible,scanned each book
+E12,E8,-1,> (Preceded By),False,returns them early whenever possible,reduced the fine by half
+E12,E9,-1,> (Preceded By),False,returns them early whenever possible,thanked her profusely
+E12,E10,-2,mi (Met By),False,returns them early whenever possible,paid the reduced amount
+E12,E11,0,= (Equal),False,returns them early whenever possible,sets a reminder on his phone for every library book
+E12,E13,-1,> (Preceded By),False,returns them early whenever possible,Mrs. Haq who had worked at the university
+E12,E14,-4,si (Started By),False,returns them early whenever possible,had saved him from a difficult week
+E13,E1,-4,si (Started By),False,Mrs. Haq who had worked at the university,borrowed three books from the university library
+E13,E2,-5,di (Contains),False,Mrs. Haq who had worked at the university,noted it in his planner
+E13,E3,-5,di (Contains),False,Mrs. Haq who had worked at the university,the due date passed without his notice
+E13,E4,-5,di (Contains),False,Mrs. Haq who had worked at the university,discovered the overdue books
+E13,E5,2,m (Meets),False,Mrs. Haq who had worked at the university,returned the books
+E13,E6,1,< (Precedes),False,Mrs. Haq who had worked at the university,approached the librarian's desk
+E13,E7,1,< (Precedes),False,Mrs. Haq who had worked at the university,scanned each book
+E13,E8,1,< (Precedes),False,Mrs. Haq who had worked at the university,reduced the fine by half
+E13,E9,1,< (Precedes),False,Mrs. Haq who had worked at the university,thanked her profusely
+E13,E10,1,< (Precedes),False,Mrs. Haq who had worked at the university,paid the reduced amount
+E13,E11,1,< (Precedes),False,Mrs. Haq who had worked at the university,sets a reminder on his phone for every library book
+E13,E12,1,< (Precedes),False,Mrs. Haq who had worked at the university,returns them early whenever possible
+E13,E14,1,< (Precedes),False,Mrs. Haq who had worked at the university,had saved him from a difficult week
+E14,E1,-1,> (Preceded By),False,had saved him from a difficult week,borrowed three books from the university library
+E14,E2,-1,> (Preceded By),False,had saved him from a difficult week,noted it in his planner
+E14,E3,-1,> (Preceded By),False,had saved him from a difficult week,the due date passed without his notice
+E14,E4,-1,> (Preceded By),False,had saved him from a difficult week,discovered the overdue books
+E14,E5,-1,> (Preceded By),False,had saved him from a difficult week,returned the books
+E14,E6,-1,> (Preceded By),False,had saved him from a difficult week,approached the librarian's desk
+E14,E7,-1,> (Preceded By),False,had saved him from a difficult week,scanned each book
+E14,E8,-1,> (Preceded By),False,had saved him from a difficult week,reduced the fine by half
+E14,E9,-1,> (Preceded By),False,had saved him from a difficult week,thanked her profusely
+E14,E10,-2,mi (Met By),False,had saved him from a difficult week,paid the reduced amount
+E14,E11,4,s (Starts),False,had saved him from a difficult week,sets a reminder on his phone for every library book
+E14,E12,4,s (Starts),False,had saved him from a difficult week,returns them early whenever possible
+E14,E13,-1,> (Preceded By),False,had saved him from a difficult week,Mrs. Haq who had worked at the university

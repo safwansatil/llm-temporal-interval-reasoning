@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,charitable donation he had made,discovered the missing receipt
+E1,E3,1,< (Precedes),False,charitable donation he had made,searched his home office
+E1,E4,1,< (Precedes),False,charitable donation he had made,found nothing
+E1,E5,1,< (Precedes),False,charitable donation he had made,accountant called
+E1,E6,1,< (Precedes),False,charitable donation he had made,visited the charity office
+E1,E7,1,< (Precedes),False,charitable donation he had made,returned on Monday morning
+E1,E8,1,< (Precedes),False,charitable donation he had made,found the receipt
+E1,E9,1,< (Precedes),False,charitable donation he had made,Mr. Ahmed collected it
+E1,E10,1,< (Precedes),False,charitable donation he had made,accountant completed the filing
+E1,E11,1,< (Precedes),False,charitable donation he had made,keeps every receipt in three separate locations
+E2,E1,-1,> (Preceded By),False,discovered the missing receipt,charitable donation he had made
+E2,E3,1,< (Precedes),False,discovered the missing receipt,searched his home office
+E2,E4,1,< (Precedes),False,discovered the missing receipt,found nothing
+E2,E5,1,< (Precedes),False,discovered the missing receipt,accountant called
+E2,E6,1,< (Precedes),False,discovered the missing receipt,visited the charity office
+E2,E7,1,< (Precedes),False,discovered the missing receipt,returned on Monday morning
+E2,E8,1,< (Precedes),False,discovered the missing receipt,found the receipt
+E2,E9,1,< (Precedes),False,discovered the missing receipt,Mr. Ahmed collected it
+E2,E10,1,< (Precedes),False,discovered the missing receipt,accountant completed the filing
+E2,E11,1,< (Precedes),False,discovered the missing receipt,keeps every receipt in three separate locations
+E3,E1,-1,> (Preceded By),False,searched his home office,charitable donation he had made
+E3,E2,-1,> (Preceded By),False,searched his home office,discovered the missing receipt
+E3,E4,2,m (Meets),False,searched his home office,found nothing
+E3,E5,1,< (Precedes),False,searched his home office,accountant called
+E3,E6,1,< (Precedes),False,searched his home office,visited the charity office
+E3,E7,1,< (Precedes),False,searched his home office,returned on Monday morning
+E3,E8,1,< (Precedes),False,searched his home office,found the receipt
+E3,E9,1,< (Precedes),False,searched his home office,Mr. Ahmed collected it
+E3,E10,1,< (Precedes),False,searched his home office,accountant completed the filing
+E3,E11,1,< (Precedes),False,searched his home office,keeps every receipt in three separate locations
+E4,E1,-1,> (Preceded By),False,found nothing,charitable donation he had made
+E4,E2,-1,> (Preceded By),False,found nothing,discovered the missing receipt
+E4,E3,-2,mi (Met By),False,found nothing,searched his home office
+E4,E5,1,< (Precedes),False,found nothing,accountant called
+E4,E6,1,< (Precedes),False,found nothing,visited the charity office
+E4,E7,1,< (Precedes),False,found nothing,returned on Monday morning
+E4,E8,1,< (Precedes),False,found nothing,found the receipt
+E4,E9,1,< (Precedes),False,found nothing,Mr. Ahmed collected it
+E4,E10,1,< (Precedes),False,found nothing,accountant completed the filing
+E4,E11,1,< (Precedes),False,found nothing,keeps every receipt in three separate locations
+E5,E1,-1,> (Preceded By),False,accountant called,charitable donation he had made
+E5,E2,-1,> (Preceded By),False,accountant called,discovered the missing receipt
+E5,E3,-1,> (Preceded By),False,accountant called,searched his home office
+E5,E4,-1,> (Preceded By),False,accountant called,found nothing
+E5,E6,1,< (Precedes),False,accountant called,visited the charity office
+E5,E7,1,< (Precedes),False,accountant called,returned on Monday morning
+E5,E8,1,< (Precedes),False,accountant called,found the receipt
+E5,E9,1,< (Precedes),False,accountant called,Mr. Ahmed collected it
+E5,E10,1,< (Precedes),False,accountant called,accountant completed the filing
+E5,E11,1,< (Precedes),False,accountant called,keeps every receipt in three separate locations
+E6,E1,-1,> (Preceded By),False,visited the charity office,charitable donation he had made
+E6,E2,-1,> (Preceded By),False,visited the charity office,discovered the missing receipt
+E6,E3,-1,> (Preceded By),False,visited the charity office,searched his home office
+E6,E4,-1,> (Preceded By),False,visited the charity office,found nothing
+E6,E5,-1,> (Preceded By),False,visited the charity office,accountant called
+E6,E7,1,< (Precedes),False,visited the charity office,returned on Monday morning
+E6,E8,1,< (Precedes),False,visited the charity office,found the receipt
+E6,E9,1,< (Precedes),False,visited the charity office,Mr. Ahmed collected it
+E6,E10,1,< (Precedes),False,visited the charity office,accountant completed the filing
+E6,E11,1,< (Precedes),False,visited the charity office,keeps every receipt in three separate locations
+E7,E1,-1,> (Preceded By),False,returned on Monday morning,charitable donation he had made
+E7,E2,-1,> (Preceded By),False,returned on Monday morning,discovered the missing receipt
+E7,E3,-1,> (Preceded By),False,returned on Monday morning,searched his home office
+E7,E4,-1,> (Preceded By),False,returned on Monday morning,found nothing
+E7,E5,-1,> (Preceded By),False,returned on Monday morning,accountant called
+E7,E6,-1,> (Preceded By),False,returned on Monday morning,visited the charity office
+E7,E8,1,< (Precedes),False,returned on Monday morning,found the receipt
+E7,E9,1,< (Precedes),False,returned on Monday morning,Mr. Ahmed collected it
+E7,E10,1,< (Precedes),False,returned on Monday morning,accountant completed the filing
+E7,E11,1,< (Precedes),False,returned on Monday morning,keeps every receipt in three separate locations
+E8,E1,-1,> (Preceded By),False,found the receipt,charitable donation he had made
+E8,E2,-1,> (Preceded By),False,found the receipt,discovered the missing receipt
+E8,E3,-1,> (Preceded By),False,found the receipt,searched his home office
+E8,E4,-1,> (Preceded By),False,found the receipt,found nothing
+E8,E5,-1,> (Preceded By),False,found the receipt,accountant called
+E8,E6,-1,> (Preceded By),False,found the receipt,visited the charity office
+E8,E7,-1,> (Preceded By),False,found the receipt,returned on Monday morning
+E8,E9,1,< (Precedes),False,found the receipt,Mr. Ahmed collected it
+E8,E10,1,< (Precedes),False,found the receipt,accountant completed the filing
+E8,E11,1,< (Precedes),False,found the receipt,keeps every receipt in three separate locations
+E9,E1,-1,> (Preceded By),False,Mr. Ahmed collected it,charitable donation he had made
+E9,E2,-1,> (Preceded By),False,Mr. Ahmed collected it,discovered the missing receipt
+E9,E3,-1,> (Preceded By),False,Mr. Ahmed collected it,searched his home office
+E9,E4,-1,> (Preceded By),False,Mr. Ahmed collected it,found nothing
+E9,E5,-1,> (Preceded By),False,Mr. Ahmed collected it,accountant called
+E9,E6,-1,> (Preceded By),False,Mr. Ahmed collected it,visited the charity office
+E9,E7,-1,> (Preceded By),False,Mr. Ahmed collected it,returned on Monday morning
+E9,E8,-1,> (Preceded By),False,Mr. Ahmed collected it,found the receipt
+E9,E10,1,< (Precedes),False,Mr. Ahmed collected it,accountant completed the filing
+E9,E11,1,< (Precedes),False,Mr. Ahmed collected it,keeps every receipt in three separate locations
+E10,E1,-1,> (Preceded By),False,accountant completed the filing,charitable donation he had made
+E10,E2,-1,> (Preceded By),False,accountant completed the filing,discovered the missing receipt
+E10,E3,-1,> (Preceded By),False,accountant completed the filing,searched his home office
+E10,E4,-1,> (Preceded By),False,accountant completed the filing,found nothing
+E10,E5,-1,> (Preceded By),False,accountant completed the filing,accountant called
+E10,E6,-1,> (Preceded By),False,accountant completed the filing,visited the charity office
+E10,E7,-1,> (Preceded By),False,accountant completed the filing,returned on Monday morning
+E10,E8,-1,> (Preceded By),False,accountant completed the filing,found the receipt
+E10,E9,-1,> (Preceded By),False,accountant completed the filing,Mr. Ahmed collected it
+E10,E11,1,< (Precedes),False,accountant completed the filing,keeps every receipt in three separate locations
+E11,E1,-1,> (Preceded By),False,keeps every receipt in three separate locations,charitable donation he had made
+E11,E2,-1,> (Preceded By),False,keeps every receipt in three separate locations,discovered the missing receipt
+E11,E3,-1,> (Preceded By),False,keeps every receipt in three separate locations,searched his home office
+E11,E4,-1,> (Preceded By),False,keeps every receipt in three separate locations,found nothing
+E11,E5,-1,> (Preceded By),False,keeps every receipt in three separate locations,accountant called
+E11,E6,-1,> (Preceded By),False,keeps every receipt in three separate locations,visited the charity office
+E11,E7,-1,> (Preceded By),False,keeps every receipt in three separate locations,returned on Monday morning
+E11,E8,-1,> (Preceded By),False,keeps every receipt in three separate locations,found the receipt
+E11,E9,-1,> (Preceded By),False,keeps every receipt in three separate locations,Mr. Ahmed collected it
+E11,E10,-1,> (Preceded By),False,keeps every receipt in three separate locations,accountant completed the filing

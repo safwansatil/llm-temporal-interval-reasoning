@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,admiring,ordered a birthday gift
+E1,E3,1,< (Precedes),False,admiring,sitting in a sorting facility
+E1,E4,1,< (Precedes),False,admiring,checked the tracking information
+E1,E5,1,< (Precedes),False,admiring,called customer service
+E1,E6,1,< (Precedes),False,admiring,The package arrived
+E1,E7,1,< (Precedes),False,admiring,opened it
+E1,E8,1,< (Precedes),False,admiring,contacted customer service
+E1,E9,1,< (Precedes),False,admiring,returned the wrong saree
+E1,E10,1,< (Precedes),False,admiring,bought a different gift
+E1,E11,1,< (Precedes),False,admiring,wore it to her birthday dinner
+E1,E12,1,< (Precedes),False,admiring,The replacement saree arrived
+E1,E13,1,< (Precedes),False,admiring,kept it for herself
+E1,E14,1,< (Precedes),False,admiring,The birthday was on a Wednesday
+E1,E15,2,m (Meets),False,admiring,Seven business days passed
+E1,E16,1,< (Precedes),False,admiring,representative could not guarantee delivery
+E1,E17,1,< (Precedes),False,admiring,a replacement that would take another two weeks
+E2,E1,-2,mi (Met By),False,ordered a birthday gift,admiring
+E2,E3,1,< (Precedes),False,ordered a birthday gift,sitting in a sorting facility
+E2,E4,1,< (Precedes),False,ordered a birthday gift,checked the tracking information
+E2,E5,1,< (Precedes),False,ordered a birthday gift,called customer service
+E2,E6,1,< (Precedes),False,ordered a birthday gift,The package arrived
+E2,E7,1,< (Precedes),False,ordered a birthday gift,opened it
+E2,E8,1,< (Precedes),False,ordered a birthday gift,contacted customer service
+E2,E9,1,< (Precedes),False,ordered a birthday gift,returned the wrong saree
+E2,E10,1,< (Precedes),False,ordered a birthday gift,bought a different gift
+E2,E11,1,< (Precedes),False,ordered a birthday gift,wore it to her birthday dinner
+E2,E12,1,< (Precedes),False,ordered a birthday gift,The replacement saree arrived
+E2,E13,1,< (Precedes),False,ordered a birthday gift,kept it for herself
+E2,E14,1,< (Precedes),False,ordered a birthday gift,The birthday was on a Wednesday
+E2,E15,4,s (Starts),False,ordered a birthday gift,Seven business days passed
+E2,E16,1,< (Precedes),False,ordered a birthday gift,representative could not guarantee delivery
+E2,E17,1,< (Precedes),False,ordered a birthday gift,a replacement that would take another two weeks
+E3,E1,-1,> (Preceded By),False,sitting in a sorting facility,admiring
+E3,E2,-1,> (Preceded By),False,sitting in a sorting facility,ordered a birthday gift
+E3,E4,2,m (Meets),False,sitting in a sorting facility,checked the tracking information
+E3,E5,1,< (Precedes),False,sitting in a sorting facility,called customer service
+E3,E6,1,< (Precedes),False,sitting in a sorting facility,The package arrived
+E3,E7,1,< (Precedes),False,sitting in a sorting facility,opened it
+E3,E8,1,< (Precedes),False,sitting in a sorting facility,contacted customer service
+E3,E9,1,< (Precedes),False,sitting in a sorting facility,returned the wrong saree
+E3,E10,1,< (Precedes),False,sitting in a sorting facility,bought a different gift
+E3,E11,1,< (Precedes),False,sitting in a sorting facility,wore it to her birthday dinner
+E3,E12,1,< (Precedes),False,sitting in a sorting facility,The replacement saree arrived
+E3,E13,1,< (Precedes),False,sitting in a sorting facility,kept it for herself
+E3,E14,1,< (Precedes),False,sitting in a sorting facility,The birthday was on a Wednesday
+E3,E15,-3,oi (Overlapped By),False,sitting in a sorting facility,Seven business days passed
+E3,E16,1,< (Precedes),False,sitting in a sorting facility,representative could not guarantee delivery
+E3,E17,1,< (Precedes),False,sitting in a sorting facility,a replacement that would take another two weeks
+E4,E1,-1,> (Preceded By),False,checked the tracking information,admiring
+E4,E2,-1,> (Preceded By),False,checked the tracking information,ordered a birthday gift
+E4,E3,-2,mi (Met By),False,checked the tracking information,sitting in a sorting facility
+E4,E5,1,< (Precedes),False,checked the tracking information,called customer service
+E4,E6,1,< (Precedes),False,checked the tracking information,The package arrived
+E4,E7,1,< (Precedes),False,checked the tracking information,opened it
+E4,E8,1,< (Precedes),False,checked the tracking information,contacted customer service
+E4,E9,1,< (Precedes),False,checked the tracking information,returned the wrong saree
+E4,E10,1,< (Precedes),False,checked the tracking information,bought a different gift
+E4,E11,1,< (Precedes),False,checked the tracking information,wore it to her birthday dinner
+E4,E12,1,< (Precedes),False,checked the tracking information,The replacement saree arrived
+E4,E13,1,< (Precedes),False,checked the tracking information,kept it for herself
+E4,E14,1,< (Precedes),False,checked the tracking information,The birthday was on a Wednesday
+E4,E15,-1,> (Preceded By),False,checked the tracking information,Seven business days passed
+E4,E16,1,< (Precedes),False,checked the tracking information,representative could not guarantee delivery
+E4,E17,1,< (Precedes),False,checked the tracking information,a replacement that would take another two weeks
+E5,E1,-1,> (Preceded By),False,called customer service,admiring
+E5,E2,-1,> (Preceded By),False,called customer service,ordered a birthday gift
+E5,E3,-1,> (Preceded By),False,called customer service,sitting in a sorting facility
+E5,E4,-1,> (Preceded By),False,called customer service,checked the tracking information
+E5,E6,1,< (Precedes),False,called customer service,The package arrived
+E5,E7,1,< (Precedes),False,called customer service,opened it
+E5,E8,1,< (Precedes),False,called customer service,contacted customer service
+E5,E9,1,< (Precedes),False,called customer service,returned the wrong saree
+E5,E10,1,< (Precedes),False,called customer service,bought a different gift
+E5,E11,1,< (Precedes),False,called customer service,wore it to her birthday dinner
+E5,E12,1,< (Precedes),False,called customer service,The replacement saree arrived
+E5,E13,1,< (Precedes),False,called customer service,kept it for herself
+E5,E14,1,< (Precedes),False,called customer service,The birthday was on a Wednesday
+E5,E15,-1,> (Preceded By),False,called customer service,Seven business days passed
+E5,E16,2,m (Meets),False,called customer service,representative could not guarantee delivery
+E5,E17,1,< (Precedes),False,called customer service,a replacement that would take another two weeks
+E6,E1,-1,> (Preceded By),False,The package arrived,admiring
+E6,E2,-1,> (Preceded By),False,The package arrived,ordered a birthday gift
+E6,E3,-1,> (Preceded By),False,The package arrived,sitting in a sorting facility
+E6,E4,-1,> (Preceded By),False,The package arrived,checked the tracking information
+E6,E5,-1,> (Preceded By),False,The package arrived,called customer service
+E6,E7,2,m (Meets),False,The package arrived,opened it
+E6,E8,1,< (Precedes),False,The package arrived,contacted customer service
+E6,E9,1,< (Precedes),False,The package arrived,returned the wrong saree
+E6,E10,1,< (Precedes),False,The package arrived,bought a different gift
+E6,E11,1,< (Precedes),False,The package arrived,wore it to her birthday dinner
+E6,E12,1,< (Precedes),False,The package arrived,The replacement saree arrived
+E6,E13,1,< (Precedes),False,The package arrived,kept it for herself
+E6,E14,1,< (Precedes),False,The package arrived,The birthday was on a Wednesday
+E6,E15,-1,> (Preceded By),False,The package arrived,Seven business days passed
+E6,E16,-1,> (Preceded By),False,The package arrived,representative could not guarantee delivery
+E6,E17,1,< (Precedes),False,The package arrived,a replacement that would take another two weeks
+E7,E1,-1,> (Preceded By),False,opened it,admiring
+E7,E2,-1,> (Preceded By),False,opened it,ordered a birthday gift
+E7,E3,-1,> (Preceded By),False,opened it,sitting in a sorting facility
+E7,E4,-1,> (Preceded By),False,opened it,checked the tracking information
+E7,E5,-1,> (Preceded By),False,opened it,called customer service
+E7,E6,-2,mi (Met By),False,opened it,The package arrived
+E7,E8,1,< (Precedes),False,opened it,contacted customer service
+E7,E9,1,< (Precedes),False,opened it,returned the wrong saree
+E7,E10,1,< (Precedes),False,opened it,bought a different gift
+E7,E11,1,< (Precedes),False,opened it,wore it to her birthday dinner
+E7,E12,1,< (Precedes),False,opened it,The replacement saree arrived
+E7,E13,1,< (Precedes),False,opened it,kept it for herself
+E7,E14,1,< (Precedes),False,opened it,The birthday was on a Wednesday
+E7,E15,-1,> (Preceded By),False,opened it,Seven business days passed
+E7,E16,-1,> (Preceded By),False,opened it,representative could not guarantee delivery
+E7,E17,1,< (Precedes),False,opened it,a replacement that would take another two weeks
+E8,E1,-1,> (Preceded By),False,contacted customer service,admiring
+E8,E2,-1,> (Preceded By),False,contacted customer service,ordered a birthday gift
+E8,E3,-1,> (Preceded By),False,contacted customer service,sitting in a sorting facility
+E8,E4,-1,> (Preceded By),False,contacted customer service,checked the tracking information
+E8,E5,-1,> (Preceded By),False,contacted customer service,called customer service
+E8,E6,-1,> (Preceded By),False,contacted customer service,The package arrived
+E8,E7,-1,> (Preceded By),False,contacted customer service,opened it
+E8,E9,1,< (Precedes),False,contacted customer service,returned the wrong saree
+E8,E10,1,< (Precedes),False,contacted customer service,bought a different gift
+E8,E11,1,< (Precedes),False,contacted customer service,wore it to her birthday dinner
+E8,E12,1,< (Precedes),False,contacted customer service,The replacement saree arrived
+E8,E13,1,< (Precedes),False,contacted customer service,kept it for herself
+E8,E14,1,< (Precedes),False,contacted customer service,The birthday was on a Wednesday
+E8,E15,-1,> (Preceded By),False,contacted customer service,Seven business days passed
+E8,E16,-1,> (Preceded By),False,contacted customer service,representative could not guarantee delivery
+E8,E17,2,m (Meets),False,contacted customer service,a replacement that would take another two weeks
+E9,E1,-1,> (Preceded By),False,returned the wrong saree,admiring
+E9,E2,-1,> (Preceded By),False,returned the wrong saree,ordered a birthday gift
+E9,E3,-1,> (Preceded By),False,returned the wrong saree,sitting in a sorting facility
+E9,E4,-1,> (Preceded By),False,returned the wrong saree,checked the tracking information
+E9,E5,-1,> (Preceded By),False,returned the wrong saree,called customer service
+E9,E6,-1,> (Preceded By),False,returned the wrong saree,The package arrived
+E9,E7,-1,> (Preceded By),False,returned the wrong saree,opened it
+E9,E8,-1,> (Preceded By),False,returned the wrong saree,contacted customer service
+E9,E10,1,< (Precedes),False,returned the wrong saree,bought a different gift
+E9,E11,1,< (Precedes),False,returned the wrong saree,wore it to her birthday dinner
+E9,E12,1,< (Precedes),False,returned the wrong saree,The replacement saree arrived
+E9,E13,1,< (Precedes),False,returned the wrong saree,kept it for herself
+E9,E14,1,< (Precedes),False,returned the wrong saree,The birthday was on a Wednesday
+E9,E15,-1,> (Preceded By),False,returned the wrong saree,Seven business days passed
+E9,E16,-1,> (Preceded By),False,returned the wrong saree,representative could not guarantee delivery
+E9,E17,5,d (During),False,returned the wrong saree,a replacement that would take another two weeks
+E10,E1,-1,> (Preceded By),False,bought a different gift,admiring
+E10,E2,-1,> (Preceded By),False,bought a different gift,ordered a birthday gift
+E10,E3,-1,> (Preceded By),False,bought a different gift,sitting in a sorting facility
+E10,E4,-1,> (Preceded By),False,bought a different gift,checked the tracking information
+E10,E5,-1,> (Preceded By),False,bought a different gift,called customer service
+E10,E6,-1,> (Preceded By),False,bought a different gift,The package arrived
+E10,E7,-1,> (Preceded By),False,bought a different gift,opened it
+E10,E8,-1,> (Preceded By),False,bought a different gift,contacted customer service
+E10,E9,-1,> (Preceded By),False,bought a different gift,returned the wrong saree
+E10,E11,1,< (Precedes),False,bought a different gift,wore it to her birthday dinner
+E10,E12,1,< (Precedes),False,bought a different gift,The replacement saree arrived
+E10,E13,1,< (Precedes),False,bought a different gift,kept it for herself
+E10,E14,1,< (Precedes),False,bought a different gift,The birthday was on a Wednesday
+E10,E15,-1,> (Preceded By),False,bought a different gift,Seven business days passed
+E10,E16,-1,> (Preceded By),False,bought a different gift,representative could not guarantee delivery
+E10,E17,5,d (During),False,bought a different gift,a replacement that would take another two weeks
+E11,E1,-1,> (Preceded By),False,wore it to her birthday dinner,admiring
+E11,E2,-1,> (Preceded By),False,wore it to her birthday dinner,ordered a birthday gift
+E11,E3,-1,> (Preceded By),False,wore it to her birthday dinner,sitting in a sorting facility
+E11,E4,-1,> (Preceded By),False,wore it to her birthday dinner,checked the tracking information
+E11,E5,-1,> (Preceded By),False,wore it to her birthday dinner,called customer service
+E11,E6,-1,> (Preceded By),False,wore it to her birthday dinner,The package arrived
+E11,E7,-1,> (Preceded By),False,wore it to her birthday dinner,opened it
+E11,E8,-1,> (Preceded By),False,wore it to her birthday dinner,contacted customer service
+E11,E9,-1,> (Preceded By),False,wore it to her birthday dinner,returned the wrong saree
+E11,E10,-1,> (Preceded By),False,wore it to her birthday dinner,bought a different gift
+E11,E12,1,< (Precedes),False,wore it to her birthday dinner,The replacement saree arrived
+E11,E13,1,< (Precedes),False,wore it to her birthday dinner,kept it for herself
+E11,E14,-4,si (Started By),False,wore it to her birthday dinner,The birthday was on a Wednesday
+E11,E15,-1,> (Preceded By),False,wore it to her birthday dinner,Seven business days passed
+E11,E16,-1,> (Preceded By),False,wore it to her birthday dinner,representative could not guarantee delivery
+E11,E17,5,d (During),False,wore it to her birthday dinner,a replacement that would take another two weeks
+E12,E1,-1,> (Preceded By),False,The replacement saree arrived,admiring
+E12,E2,-1,> (Preceded By),False,The replacement saree arrived,ordered a birthday gift
+E12,E3,-1,> (Preceded By),False,The replacement saree arrived,sitting in a sorting facility
+E12,E4,-1,> (Preceded By),False,The replacement saree arrived,checked the tracking information
+E12,E5,-1,> (Preceded By),False,The replacement saree arrived,called customer service
+E12,E6,-1,> (Preceded By),False,The replacement saree arrived,The package arrived
+E12,E7,-1,> (Preceded By),False,The replacement saree arrived,opened it
+E12,E8,-1,> (Preceded By),False,The replacement saree arrived,contacted customer service
+E12,E9,-1,> (Preceded By),False,The replacement saree arrived,returned the wrong saree
+E12,E10,-1,> (Preceded By),False,The replacement saree arrived,bought a different gift
+E12,E11,-1,> (Preceded By),False,The replacement saree arrived,wore it to her birthday dinner
+E12,E13,2,m (Meets),False,The replacement saree arrived,kept it for herself
+E12,E14,-1,> (Preceded By),False,The replacement saree arrived,The birthday was on a Wednesday
+E12,E15,-1,> (Preceded By),False,The replacement saree arrived,Seven business days passed
+E12,E16,-1,> (Preceded By),False,The replacement saree arrived,representative could not guarantee delivery
+E12,E17,-2,mi (Met By),False,The replacement saree arrived,a replacement that would take another two weeks
+E13,E1,-1,> (Preceded By),False,kept it for herself,admiring
+E13,E2,-1,> (Preceded By),False,kept it for herself,ordered a birthday gift
+E13,E3,-1,> (Preceded By),False,kept it for herself,sitting in a sorting facility
+E13,E4,-1,> (Preceded By),False,kept it for herself,checked the tracking information
+E13,E5,-1,> (Preceded By),False,kept it for herself,called customer service
+E13,E6,-1,> (Preceded By),False,kept it for herself,The package arrived
+E13,E7,-1,> (Preceded By),False,kept it for herself,opened it
+E13,E8,-1,> (Preceded By),False,kept it for herself,contacted customer service
+E13,E9,-1,> (Preceded By),False,kept it for herself,returned the wrong saree
+E13,E10,-1,> (Preceded By),False,kept it for herself,bought a different gift
+E13,E11,-1,> (Preceded By),False,kept it for herself,wore it to her birthday dinner
+E13,E12,-2,mi (Met By),False,kept it for herself,The replacement saree arrived
+E13,E14,-1,> (Preceded By),False,kept it for herself,The birthday was on a Wednesday
+E13,E15,-1,> (Preceded By),False,kept it for herself,Seven business days passed
+E13,E16,-1,> (Preceded By),False,kept it for herself,representative could not guarantee delivery
+E13,E17,-1,> (Preceded By),False,kept it for herself,a replacement that would take another two weeks
+E14,E1,-1,> (Preceded By),False,The birthday was on a Wednesday,admiring
+E14,E2,-1,> (Preceded By),False,The birthday was on a Wednesday,ordered a birthday gift
+E14,E3,-1,> (Preceded By),False,The birthday was on a Wednesday,sitting in a sorting facility
+E14,E4,-1,> (Preceded By),False,The birthday was on a Wednesday,checked the tracking information
+E14,E5,-1,> (Preceded By),False,The birthday was on a Wednesday,called customer service
+E14,E6,-1,> (Preceded By),False,The birthday was on a Wednesday,The package arrived
+E14,E7,-1,> (Preceded By),False,The birthday was on a Wednesday,opened it
+E14,E8,-1,> (Preceded By),False,The birthday was on a Wednesday,contacted customer service
+E14,E9,-1,> (Preceded By),False,The birthday was on a Wednesday,returned the wrong saree
+E14,E10,-1,> (Preceded By),False,The birthday was on a Wednesday,bought a different gift
+E14,E11,4,s (Starts),False,The birthday was on a Wednesday,wore it to her birthday dinner
+E14,E12,1,< (Precedes),False,The birthday was on a Wednesday,The replacement saree arrived
+E14,E13,1,< (Precedes),False,The birthday was on a Wednesday,kept it for herself
+E14,E15,-1,> (Preceded By),False,The birthday was on a Wednesday,Seven business days passed
+E14,E16,-1,> (Preceded By),False,The birthday was on a Wednesday,representative could not guarantee delivery
+E14,E17,5,d (During),False,The birthday was on a Wednesday,a replacement that would take another two weeks
+E15,E1,-2,mi (Met By),False,Seven business days passed,admiring
+E15,E2,-4,si (Started By),False,Seven business days passed,ordered a birthday gift
+E15,E3,3,o (Overlaps),False,Seven business days passed,sitting in a sorting facility
+E15,E4,1,< (Precedes),False,Seven business days passed,checked the tracking information
+E15,E5,1,< (Precedes),False,Seven business days passed,called customer service
+E15,E6,1,< (Precedes),False,Seven business days passed,The package arrived
+E15,E7,1,< (Precedes),False,Seven business days passed,opened it
+E15,E8,1,< (Precedes),False,Seven business days passed,contacted customer service
+E15,E9,1,< (Precedes),False,Seven business days passed,returned the wrong saree
+E15,E10,1,< (Precedes),False,Seven business days passed,bought a different gift
+E15,E11,1,< (Precedes),False,Seven business days passed,wore it to her birthday dinner
+E15,E12,1,< (Precedes),False,Seven business days passed,The replacement saree arrived
+E15,E13,1,< (Precedes),False,Seven business days passed,kept it for herself
+E15,E14,1,< (Precedes),False,Seven business days passed,The birthday was on a Wednesday
+E15,E16,1,< (Precedes),False,Seven business days passed,representative could not guarantee delivery
+E15,E17,1,< (Precedes),False,Seven business days passed,a replacement that would take another two weeks
+E16,E1,-1,> (Preceded By),False,representative could not guarantee delivery,admiring
+E16,E2,-1,> (Preceded By),False,representative could not guarantee delivery,ordered a birthday gift
+E16,E3,-1,> (Preceded By),False,representative could not guarantee delivery,sitting in a sorting facility
+E16,E4,-1,> (Preceded By),False,representative could not guarantee delivery,checked the tracking information
+E16,E5,-2,mi (Met By),False,representative could not guarantee delivery,called customer service
+E16,E6,1,< (Precedes),False,representative could not guarantee delivery,The package arrived
+E16,E7,1,< (Precedes),False,representative could not guarantee delivery,opened it
+E16,E8,1,< (Precedes),False,representative could not guarantee delivery,contacted customer service
+E16,E9,1,< (Precedes),False,representative could not guarantee delivery,returned the wrong saree
+E16,E10,1,< (Precedes),False,representative could not guarantee delivery,bought a different gift
+E16,E11,1,< (Precedes),False,representative could not guarantee delivery,wore it to her birthday dinner
+E16,E12,1,< (Precedes),False,representative could not guarantee delivery,The replacement saree arrived
+E16,E13,1,< (Precedes),False,representative could not guarantee delivery,kept it for herself
+E16,E14,1,< (Precedes),False,representative could not guarantee delivery,The birthday was on a Wednesday
+E16,E15,-1,> (Preceded By),False,representative could not guarantee delivery,Seven business days passed
+E16,E17,1,< (Precedes),False,representative could not guarantee delivery,a replacement that would take another two weeks
+E17,E1,-1,> (Preceded By),False,a replacement that would take another two weeks,admiring
+E17,E2,-1,> (Preceded By),False,a replacement that would take another two weeks,ordered a birthday gift
+E17,E3,-1,> (Preceded By),False,a replacement that would take another two weeks,sitting in a sorting facility
+E17,E4,-1,> (Preceded By),False,a replacement that would take another two weeks,checked the tracking information
+E17,E5,-1,> (Preceded By),False,a replacement that would take another two weeks,called customer service
+E17,E6,-1,> (Preceded By),False,a replacement that would take another two weeks,The package arrived
+E17,E7,-1,> (Preceded By),False,a replacement that would take another two weeks,opened it
+E17,E8,-2,mi (Met By),False,a replacement that would take another two weeks,contacted customer service
+E17,E9,-5,di (Contains),False,a replacement that would take another two weeks,returned the wrong saree
+E17,E10,-5,di (Contains),False,a replacement that would take another two weeks,bought a different gift
+E17,E11,-5,di (Contains),False,a replacement that would take another two weeks,wore it to her birthday dinner
+E17,E12,2,m (Meets),False,a replacement that would take another two weeks,The replacement saree arrived
+E17,E13,1,< (Precedes),False,a replacement that would take another two weeks,kept it for herself
+E17,E14,-5,di (Contains),False,a replacement that would take another two weeks,The birthday was on a Wednesday
+E17,E15,-1,> (Preceded By),False,a replacement that would take another two weeks,Seven business days passed
+E17,E16,-1,> (Preceded By),False,a replacement that would take another two weeks,representative could not guarantee delivery

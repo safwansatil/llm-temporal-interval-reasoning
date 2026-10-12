@@ -1,0 +1,421 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,submitted his application,prepared obsessively
+E1,E3,1,< (Precedes),False,submitted his application,power cut
+E1,E4,1,< (Precedes),False,submitted his application,woke up
+E1,E5,1,< (Precedes),False,submitted his application,ironed the damp shirt
+E1,E6,1,< (Precedes),False,submitted his application,dressed hurriedly
+E1,E7,1,< (Precedes),False,submitted his application,ran to the bus stop
+E1,E8,1,< (Precedes),False,submitted his application,waited for twenty minutes
+E1,E9,1,< (Precedes),False,submitted his application,bus finally arrived
+E1,E10,1,< (Precedes),False,submitted his application,arrived at the company's office
+E1,E11,1,< (Precedes),False,submitted his application,receptionist informed him
+E1,E12,1,< (Precedes),False,submitted his application,stood in the lobby
+E1,E13,1,< (Precedes),False,submitted his application,walked out
+E1,E14,1,< (Precedes),False,submitted his application,spent the next two days in a state of bitter disappointment
+E1,E15,0,= (Equal),False,submitted his application,retiring
+E1,E16,1,< (Precedes),False,submitted his application,called him for an interview
+E1,E17,1,< (Precedes),False,submitted his application,set three alarms
+E1,E18,1,< (Precedes),False,submitted his application,prepared his clothes
+E1,E19,1,< (Precedes),False,submitted his application,arrived thirty minutes early
+E1,E20,1,< (Precedes),False,submitted his application,got the job
+E1,E21,0,= (Equal),False,submitted his application,"His father, who had worked for the same company"
+E2,E1,-1,> (Preceded By),False,prepared obsessively,submitted his application
+E2,E3,2,m (Meets),False,prepared obsessively,power cut
+E2,E4,1,< (Precedes),False,prepared obsessively,woke up
+E2,E5,1,< (Precedes),False,prepared obsessively,ironed the damp shirt
+E2,E6,1,< (Precedes),False,prepared obsessively,dressed hurriedly
+E2,E7,1,< (Precedes),False,prepared obsessively,ran to the bus stop
+E2,E8,1,< (Precedes),False,prepared obsessively,waited for twenty minutes
+E2,E9,1,< (Precedes),False,prepared obsessively,bus finally arrived
+E2,E10,1,< (Precedes),False,prepared obsessively,arrived at the company's office
+E2,E11,1,< (Precedes),False,prepared obsessively,receptionist informed him
+E2,E12,1,< (Precedes),False,prepared obsessively,stood in the lobby
+E2,E13,1,< (Precedes),False,prepared obsessively,walked out
+E2,E14,1,< (Precedes),False,prepared obsessively,spent the next two days in a state of bitter disappointment
+E2,E15,-1,> (Preceded By),False,prepared obsessively,retiring
+E2,E16,1,< (Precedes),False,prepared obsessively,called him for an interview
+E2,E17,1,< (Precedes),False,prepared obsessively,set three alarms
+E2,E18,1,< (Precedes),False,prepared obsessively,prepared his clothes
+E2,E19,1,< (Precedes),False,prepared obsessively,arrived thirty minutes early
+E2,E20,1,< (Precedes),False,prepared obsessively,got the job
+E2,E21,-1,> (Preceded By),False,prepared obsessively,"His father, who had worked for the same company"
+E3,E1,-1,> (Preceded By),False,power cut,submitted his application
+E3,E2,-2,mi (Met By),False,power cut,prepared obsessively
+E3,E4,2,m (Meets),False,power cut,woke up
+E3,E5,1,< (Precedes),False,power cut,ironed the damp shirt
+E3,E6,1,< (Precedes),False,power cut,dressed hurriedly
+E3,E7,1,< (Precedes),False,power cut,ran to the bus stop
+E3,E8,1,< (Precedes),False,power cut,waited for twenty minutes
+E3,E9,1,< (Precedes),False,power cut,bus finally arrived
+E3,E10,1,< (Precedes),False,power cut,arrived at the company's office
+E3,E11,1,< (Precedes),False,power cut,receptionist informed him
+E3,E12,1,< (Precedes),False,power cut,stood in the lobby
+E3,E13,1,< (Precedes),False,power cut,walked out
+E3,E14,1,< (Precedes),False,power cut,spent the next two days in a state of bitter disappointment
+E3,E15,-1,> (Preceded By),False,power cut,retiring
+E3,E16,1,< (Precedes),False,power cut,called him for an interview
+E3,E17,1,< (Precedes),False,power cut,set three alarms
+E3,E18,1,< (Precedes),False,power cut,prepared his clothes
+E3,E19,1,< (Precedes),False,power cut,arrived thirty minutes early
+E3,E20,1,< (Precedes),False,power cut,got the job
+E3,E21,-1,> (Preceded By),False,power cut,"His father, who had worked for the same company"
+E4,E1,-1,> (Preceded By),False,woke up,submitted his application
+E4,E2,-1,> (Preceded By),False,woke up,prepared obsessively
+E4,E3,-2,mi (Met By),False,woke up,power cut
+E4,E5,2,m (Meets),False,woke up,ironed the damp shirt
+E4,E6,1,< (Precedes),False,woke up,dressed hurriedly
+E4,E7,1,< (Precedes),False,woke up,ran to the bus stop
+E4,E8,1,< (Precedes),False,woke up,waited for twenty minutes
+E4,E9,1,< (Precedes),False,woke up,bus finally arrived
+E4,E10,1,< (Precedes),False,woke up,arrived at the company's office
+E4,E11,1,< (Precedes),False,woke up,receptionist informed him
+E4,E12,1,< (Precedes),False,woke up,stood in the lobby
+E4,E13,1,< (Precedes),False,woke up,walked out
+E4,E14,1,< (Precedes),False,woke up,spent the next two days in a state of bitter disappointment
+E4,E15,-1,> (Preceded By),False,woke up,retiring
+E4,E16,1,< (Precedes),False,woke up,called him for an interview
+E4,E17,1,< (Precedes),False,woke up,set three alarms
+E4,E18,1,< (Precedes),False,woke up,prepared his clothes
+E4,E19,1,< (Precedes),False,woke up,arrived thirty minutes early
+E4,E20,1,< (Precedes),False,woke up,got the job
+E4,E21,-1,> (Preceded By),False,woke up,"His father, who had worked for the same company"
+E5,E1,-1,> (Preceded By),False,ironed the damp shirt,submitted his application
+E5,E2,-1,> (Preceded By),False,ironed the damp shirt,prepared obsessively
+E5,E3,-1,> (Preceded By),False,ironed the damp shirt,power cut
+E5,E4,-2,mi (Met By),False,ironed the damp shirt,woke up
+E5,E6,2,m (Meets),False,ironed the damp shirt,dressed hurriedly
+E5,E7,1,< (Precedes),False,ironed the damp shirt,ran to the bus stop
+E5,E8,1,< (Precedes),False,ironed the damp shirt,waited for twenty minutes
+E5,E9,1,< (Precedes),False,ironed the damp shirt,bus finally arrived
+E5,E10,1,< (Precedes),False,ironed the damp shirt,arrived at the company's office
+E5,E11,1,< (Precedes),False,ironed the damp shirt,receptionist informed him
+E5,E12,1,< (Precedes),False,ironed the damp shirt,stood in the lobby
+E5,E13,1,< (Precedes),False,ironed the damp shirt,walked out
+E5,E14,1,< (Precedes),False,ironed the damp shirt,spent the next two days in a state of bitter disappointment
+E5,E15,-1,> (Preceded By),False,ironed the damp shirt,retiring
+E5,E16,1,< (Precedes),False,ironed the damp shirt,called him for an interview
+E5,E17,1,< (Precedes),False,ironed the damp shirt,set three alarms
+E5,E18,1,< (Precedes),False,ironed the damp shirt,prepared his clothes
+E5,E19,1,< (Precedes),False,ironed the damp shirt,arrived thirty minutes early
+E5,E20,1,< (Precedes),False,ironed the damp shirt,got the job
+E5,E21,-1,> (Preceded By),False,ironed the damp shirt,"His father, who had worked for the same company"
+E6,E1,-1,> (Preceded By),False,dressed hurriedly,submitted his application
+E6,E2,-1,> (Preceded By),False,dressed hurriedly,prepared obsessively
+E6,E3,-1,> (Preceded By),False,dressed hurriedly,power cut
+E6,E4,-1,> (Preceded By),False,dressed hurriedly,woke up
+E6,E5,-2,mi (Met By),False,dressed hurriedly,ironed the damp shirt
+E6,E7,2,m (Meets),False,dressed hurriedly,ran to the bus stop
+E6,E8,1,< (Precedes),False,dressed hurriedly,waited for twenty minutes
+E6,E9,1,< (Precedes),False,dressed hurriedly,bus finally arrived
+E6,E10,1,< (Precedes),False,dressed hurriedly,arrived at the company's office
+E6,E11,1,< (Precedes),False,dressed hurriedly,receptionist informed him
+E6,E12,1,< (Precedes),False,dressed hurriedly,stood in the lobby
+E6,E13,1,< (Precedes),False,dressed hurriedly,walked out
+E6,E14,1,< (Precedes),False,dressed hurriedly,spent the next two days in a state of bitter disappointment
+E6,E15,-1,> (Preceded By),False,dressed hurriedly,retiring
+E6,E16,1,< (Precedes),False,dressed hurriedly,called him for an interview
+E6,E17,1,< (Precedes),False,dressed hurriedly,set three alarms
+E6,E18,1,< (Precedes),False,dressed hurriedly,prepared his clothes
+E6,E19,1,< (Precedes),False,dressed hurriedly,arrived thirty minutes early
+E6,E20,1,< (Precedes),False,dressed hurriedly,got the job
+E6,E21,-1,> (Preceded By),False,dressed hurriedly,"His father, who had worked for the same company"
+E7,E1,-1,> (Preceded By),False,ran to the bus stop,submitted his application
+E7,E2,-1,> (Preceded By),False,ran to the bus stop,prepared obsessively
+E7,E3,-1,> (Preceded By),False,ran to the bus stop,power cut
+E7,E4,-1,> (Preceded By),False,ran to the bus stop,woke up
+E7,E5,-1,> (Preceded By),False,ran to the bus stop,ironed the damp shirt
+E7,E6,-2,mi (Met By),False,ran to the bus stop,dressed hurriedly
+E7,E8,2,m (Meets),False,ran to the bus stop,waited for twenty minutes
+E7,E9,1,< (Precedes),False,ran to the bus stop,bus finally arrived
+E7,E10,1,< (Precedes),False,ran to the bus stop,arrived at the company's office
+E7,E11,1,< (Precedes),False,ran to the bus stop,receptionist informed him
+E7,E12,1,< (Precedes),False,ran to the bus stop,stood in the lobby
+E7,E13,1,< (Precedes),False,ran to the bus stop,walked out
+E7,E14,1,< (Precedes),False,ran to the bus stop,spent the next two days in a state of bitter disappointment
+E7,E15,-1,> (Preceded By),False,ran to the bus stop,retiring
+E7,E16,1,< (Precedes),False,ran to the bus stop,called him for an interview
+E7,E17,1,< (Precedes),False,ran to the bus stop,set three alarms
+E7,E18,1,< (Precedes),False,ran to the bus stop,prepared his clothes
+E7,E19,1,< (Precedes),False,ran to the bus stop,arrived thirty minutes early
+E7,E20,1,< (Precedes),False,ran to the bus stop,got the job
+E7,E21,-1,> (Preceded By),False,ran to the bus stop,"His father, who had worked for the same company"
+E8,E1,-1,> (Preceded By),False,waited for twenty minutes,submitted his application
+E8,E2,-1,> (Preceded By),False,waited for twenty minutes,prepared obsessively
+E8,E3,-1,> (Preceded By),False,waited for twenty minutes,power cut
+E8,E4,-1,> (Preceded By),False,waited for twenty minutes,woke up
+E8,E5,-1,> (Preceded By),False,waited for twenty minutes,ironed the damp shirt
+E8,E6,-1,> (Preceded By),False,waited for twenty minutes,dressed hurriedly
+E8,E7,-2,mi (Met By),False,waited for twenty minutes,ran to the bus stop
+E8,E9,2,m (Meets),False,waited for twenty minutes,bus finally arrived
+E8,E10,1,< (Precedes),False,waited for twenty minutes,arrived at the company's office
+E8,E11,1,< (Precedes),False,waited for twenty minutes,receptionist informed him
+E8,E12,1,< (Precedes),False,waited for twenty minutes,stood in the lobby
+E8,E13,1,< (Precedes),False,waited for twenty minutes,walked out
+E8,E14,1,< (Precedes),False,waited for twenty minutes,spent the next two days in a state of bitter disappointment
+E8,E15,-1,> (Preceded By),False,waited for twenty minutes,retiring
+E8,E16,1,< (Precedes),False,waited for twenty minutes,called him for an interview
+E8,E17,1,< (Precedes),False,waited for twenty minutes,set three alarms
+E8,E18,1,< (Precedes),False,waited for twenty minutes,prepared his clothes
+E8,E19,1,< (Precedes),False,waited for twenty minutes,arrived thirty minutes early
+E8,E20,1,< (Precedes),False,waited for twenty minutes,got the job
+E8,E21,-1,> (Preceded By),False,waited for twenty minutes,"His father, who had worked for the same company"
+E9,E1,-1,> (Preceded By),False,bus finally arrived,submitted his application
+E9,E2,-1,> (Preceded By),False,bus finally arrived,prepared obsessively
+E9,E3,-1,> (Preceded By),False,bus finally arrived,power cut
+E9,E4,-1,> (Preceded By),False,bus finally arrived,woke up
+E9,E5,-1,> (Preceded By),False,bus finally arrived,ironed the damp shirt
+E9,E6,-1,> (Preceded By),False,bus finally arrived,dressed hurriedly
+E9,E7,-1,> (Preceded By),False,bus finally arrived,ran to the bus stop
+E9,E8,-2,mi (Met By),False,bus finally arrived,waited for twenty minutes
+E9,E10,1,< (Precedes),False,bus finally arrived,arrived at the company's office
+E9,E11,1,< (Precedes),False,bus finally arrived,receptionist informed him
+E9,E12,1,< (Precedes),False,bus finally arrived,stood in the lobby
+E9,E13,1,< (Precedes),False,bus finally arrived,walked out
+E9,E14,1,< (Precedes),False,bus finally arrived,spent the next two days in a state of bitter disappointment
+E9,E15,-1,> (Preceded By),False,bus finally arrived,retiring
+E9,E16,1,< (Precedes),False,bus finally arrived,called him for an interview
+E9,E17,1,< (Precedes),False,bus finally arrived,set three alarms
+E9,E18,1,< (Precedes),False,bus finally arrived,prepared his clothes
+E9,E19,1,< (Precedes),False,bus finally arrived,arrived thirty minutes early
+E9,E20,1,< (Precedes),False,bus finally arrived,got the job
+E9,E21,-1,> (Preceded By),False,bus finally arrived,"His father, who had worked for the same company"
+E10,E1,-1,> (Preceded By),False,arrived at the company's office,submitted his application
+E10,E2,-1,> (Preceded By),False,arrived at the company's office,prepared obsessively
+E10,E3,-1,> (Preceded By),False,arrived at the company's office,power cut
+E10,E4,-1,> (Preceded By),False,arrived at the company's office,woke up
+E10,E5,-1,> (Preceded By),False,arrived at the company's office,ironed the damp shirt
+E10,E6,-1,> (Preceded By),False,arrived at the company's office,dressed hurriedly
+E10,E7,-1,> (Preceded By),False,arrived at the company's office,ran to the bus stop
+E10,E8,-1,> (Preceded By),False,arrived at the company's office,waited for twenty minutes
+E10,E9,-1,> (Preceded By),False,arrived at the company's office,bus finally arrived
+E10,E11,2,m (Meets),False,arrived at the company's office,receptionist informed him
+E10,E12,1,< (Precedes),False,arrived at the company's office,stood in the lobby
+E10,E13,1,< (Precedes),False,arrived at the company's office,walked out
+E10,E14,1,< (Precedes),False,arrived at the company's office,spent the next two days in a state of bitter disappointment
+E10,E15,-1,> (Preceded By),False,arrived at the company's office,retiring
+E10,E16,1,< (Precedes),False,arrived at the company's office,called him for an interview
+E10,E17,1,< (Precedes),False,arrived at the company's office,set three alarms
+E10,E18,1,< (Precedes),False,arrived at the company's office,prepared his clothes
+E10,E19,1,< (Precedes),False,arrived at the company's office,arrived thirty minutes early
+E10,E20,1,< (Precedes),False,arrived at the company's office,got the job
+E10,E21,-1,> (Preceded By),False,arrived at the company's office,"His father, who had worked for the same company"
+E11,E1,-1,> (Preceded By),False,receptionist informed him,submitted his application
+E11,E2,-1,> (Preceded By),False,receptionist informed him,prepared obsessively
+E11,E3,-1,> (Preceded By),False,receptionist informed him,power cut
+E11,E4,-1,> (Preceded By),False,receptionist informed him,woke up
+E11,E5,-1,> (Preceded By),False,receptionist informed him,ironed the damp shirt
+E11,E6,-1,> (Preceded By),False,receptionist informed him,dressed hurriedly
+E11,E7,-1,> (Preceded By),False,receptionist informed him,ran to the bus stop
+E11,E8,-1,> (Preceded By),False,receptionist informed him,waited for twenty minutes
+E11,E9,-1,> (Preceded By),False,receptionist informed him,bus finally arrived
+E11,E10,-2,mi (Met By),False,receptionist informed him,arrived at the company's office
+E11,E12,2,m (Meets),False,receptionist informed him,stood in the lobby
+E11,E13,1,< (Precedes),False,receptionist informed him,walked out
+E11,E14,1,< (Precedes),False,receptionist informed him,spent the next two days in a state of bitter disappointment
+E11,E15,-1,> (Preceded By),False,receptionist informed him,retiring
+E11,E16,1,< (Precedes),False,receptionist informed him,called him for an interview
+E11,E17,1,< (Precedes),False,receptionist informed him,set three alarms
+E11,E18,1,< (Precedes),False,receptionist informed him,prepared his clothes
+E11,E19,1,< (Precedes),False,receptionist informed him,arrived thirty minutes early
+E11,E20,1,< (Precedes),False,receptionist informed him,got the job
+E11,E21,-1,> (Preceded By),False,receptionist informed him,"His father, who had worked for the same company"
+E12,E1,-1,> (Preceded By),False,stood in the lobby,submitted his application
+E12,E2,-1,> (Preceded By),False,stood in the lobby,prepared obsessively
+E12,E3,-1,> (Preceded By),False,stood in the lobby,power cut
+E12,E4,-1,> (Preceded By),False,stood in the lobby,woke up
+E12,E5,-1,> (Preceded By),False,stood in the lobby,ironed the damp shirt
+E12,E6,-1,> (Preceded By),False,stood in the lobby,dressed hurriedly
+E12,E7,-1,> (Preceded By),False,stood in the lobby,ran to the bus stop
+E12,E8,-1,> (Preceded By),False,stood in the lobby,waited for twenty minutes
+E12,E9,-1,> (Preceded By),False,stood in the lobby,bus finally arrived
+E12,E10,-1,> (Preceded By),False,stood in the lobby,arrived at the company's office
+E12,E11,-2,mi (Met By),False,stood in the lobby,receptionist informed him
+E12,E13,2,m (Meets),False,stood in the lobby,walked out
+E12,E14,1,< (Precedes),False,stood in the lobby,spent the next two days in a state of bitter disappointment
+E12,E15,-1,> (Preceded By),False,stood in the lobby,retiring
+E12,E16,1,< (Precedes),False,stood in the lobby,called him for an interview
+E12,E17,1,< (Precedes),False,stood in the lobby,set three alarms
+E12,E18,1,< (Precedes),False,stood in the lobby,prepared his clothes
+E12,E19,1,< (Precedes),False,stood in the lobby,arrived thirty minutes early
+E12,E20,1,< (Precedes),False,stood in the lobby,got the job
+E12,E21,-1,> (Preceded By),False,stood in the lobby,"His father, who had worked for the same company"
+E13,E1,-1,> (Preceded By),False,walked out,submitted his application
+E13,E2,-1,> (Preceded By),False,walked out,prepared obsessively
+E13,E3,-1,> (Preceded By),False,walked out,power cut
+E13,E4,-1,> (Preceded By),False,walked out,woke up
+E13,E5,-1,> (Preceded By),False,walked out,ironed the damp shirt
+E13,E6,-1,> (Preceded By),False,walked out,dressed hurriedly
+E13,E7,-1,> (Preceded By),False,walked out,ran to the bus stop
+E13,E8,-1,> (Preceded By),False,walked out,waited for twenty minutes
+E13,E9,-1,> (Preceded By),False,walked out,bus finally arrived
+E13,E10,-1,> (Preceded By),False,walked out,arrived at the company's office
+E13,E11,-1,> (Preceded By),False,walked out,receptionist informed him
+E13,E12,-2,mi (Met By),False,walked out,stood in the lobby
+E13,E14,2,m (Meets),False,walked out,spent the next two days in a state of bitter disappointment
+E13,E15,-1,> (Preceded By),False,walked out,retiring
+E13,E16,1,< (Precedes),False,walked out,called him for an interview
+E13,E17,1,< (Precedes),False,walked out,set three alarms
+E13,E18,1,< (Precedes),False,walked out,prepared his clothes
+E13,E19,1,< (Precedes),False,walked out,arrived thirty minutes early
+E13,E20,1,< (Precedes),False,walked out,got the job
+E13,E21,-1,> (Preceded By),False,walked out,"His father, who had worked for the same company"
+E14,E1,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,submitted his application
+E14,E2,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,prepared obsessively
+E14,E3,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,power cut
+E14,E4,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,woke up
+E14,E5,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,ironed the damp shirt
+E14,E6,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,dressed hurriedly
+E14,E7,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,ran to the bus stop
+E14,E8,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,waited for twenty minutes
+E14,E9,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,bus finally arrived
+E14,E10,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,arrived at the company's office
+E14,E11,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,receptionist informed him
+E14,E12,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,stood in the lobby
+E14,E13,-2,mi (Met By),False,spent the next two days in a state of bitter disappointment,walked out
+E14,E15,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,retiring
+E14,E16,1,< (Precedes),False,spent the next two days in a state of bitter disappointment,called him for an interview
+E14,E17,1,< (Precedes),False,spent the next two days in a state of bitter disappointment,set three alarms
+E14,E18,1,< (Precedes),False,spent the next two days in a state of bitter disappointment,prepared his clothes
+E14,E19,1,< (Precedes),False,spent the next two days in a state of bitter disappointment,arrived thirty minutes early
+E14,E20,1,< (Precedes),False,spent the next two days in a state of bitter disappointment,got the job
+E14,E21,-1,> (Preceded By),False,spent the next two days in a state of bitter disappointment,"His father, who had worked for the same company"
+E15,E1,0,= (Equal),False,retiring,submitted his application
+E15,E2,1,< (Precedes),False,retiring,prepared obsessively
+E15,E3,1,< (Precedes),False,retiring,power cut
+E15,E4,1,< (Precedes),False,retiring,woke up
+E15,E5,1,< (Precedes),False,retiring,ironed the damp shirt
+E15,E6,1,< (Precedes),False,retiring,dressed hurriedly
+E15,E7,1,< (Precedes),False,retiring,ran to the bus stop
+E15,E8,1,< (Precedes),False,retiring,waited for twenty minutes
+E15,E9,1,< (Precedes),False,retiring,bus finally arrived
+E15,E10,1,< (Precedes),False,retiring,arrived at the company's office
+E15,E11,1,< (Precedes),False,retiring,receptionist informed him
+E15,E12,1,< (Precedes),False,retiring,stood in the lobby
+E15,E13,1,< (Precedes),False,retiring,walked out
+E15,E14,1,< (Precedes),False,retiring,spent the next two days in a state of bitter disappointment
+E15,E16,1,< (Precedes),False,retiring,called him for an interview
+E15,E17,1,< (Precedes),False,retiring,set three alarms
+E15,E18,1,< (Precedes),False,retiring,prepared his clothes
+E15,E19,1,< (Precedes),False,retiring,arrived thirty minutes early
+E15,E20,1,< (Precedes),False,retiring,got the job
+E15,E21,0,= (Equal),False,retiring,"His father, who had worked for the same company"
+E16,E1,-1,> (Preceded By),False,called him for an interview,submitted his application
+E16,E2,-1,> (Preceded By),False,called him for an interview,prepared obsessively
+E16,E3,-1,> (Preceded By),False,called him for an interview,power cut
+E16,E4,-1,> (Preceded By),False,called him for an interview,woke up
+E16,E5,-1,> (Preceded By),False,called him for an interview,ironed the damp shirt
+E16,E6,-1,> (Preceded By),False,called him for an interview,dressed hurriedly
+E16,E7,-1,> (Preceded By),False,called him for an interview,ran to the bus stop
+E16,E8,-1,> (Preceded By),False,called him for an interview,waited for twenty minutes
+E16,E9,-1,> (Preceded By),False,called him for an interview,bus finally arrived
+E16,E10,-1,> (Preceded By),False,called him for an interview,arrived at the company's office
+E16,E11,-1,> (Preceded By),False,called him for an interview,receptionist informed him
+E16,E12,-1,> (Preceded By),False,called him for an interview,stood in the lobby
+E16,E13,-1,> (Preceded By),False,called him for an interview,walked out
+E16,E14,-1,> (Preceded By),False,called him for an interview,spent the next two days in a state of bitter disappointment
+E16,E15,-1,> (Preceded By),False,called him for an interview,retiring
+E16,E17,1,< (Precedes),False,called him for an interview,set three alarms
+E16,E18,1,< (Precedes),False,called him for an interview,prepared his clothes
+E16,E19,1,< (Precedes),False,called him for an interview,arrived thirty minutes early
+E16,E20,1,< (Precedes),False,called him for an interview,got the job
+E16,E21,-1,> (Preceded By),False,called him for an interview,"His father, who had worked for the same company"
+E17,E1,-1,> (Preceded By),False,set three alarms,submitted his application
+E17,E2,-1,> (Preceded By),False,set three alarms,prepared obsessively
+E17,E3,-1,> (Preceded By),False,set three alarms,power cut
+E17,E4,-1,> (Preceded By),False,set three alarms,woke up
+E17,E5,-1,> (Preceded By),False,set three alarms,ironed the damp shirt
+E17,E6,-1,> (Preceded By),False,set three alarms,dressed hurriedly
+E17,E7,-1,> (Preceded By),False,set three alarms,ran to the bus stop
+E17,E8,-1,> (Preceded By),False,set three alarms,waited for twenty minutes
+E17,E9,-1,> (Preceded By),False,set three alarms,bus finally arrived
+E17,E10,-1,> (Preceded By),False,set three alarms,arrived at the company's office
+E17,E11,-1,> (Preceded By),False,set three alarms,receptionist informed him
+E17,E12,-1,> (Preceded By),False,set three alarms,stood in the lobby
+E17,E13,-1,> (Preceded By),False,set three alarms,walked out
+E17,E14,-1,> (Preceded By),False,set three alarms,spent the next two days in a state of bitter disappointment
+E17,E15,-1,> (Preceded By),False,set three alarms,retiring
+E17,E16,-1,> (Preceded By),False,set three alarms,called him for an interview
+E17,E18,2,m (Meets),False,set three alarms,prepared his clothes
+E17,E19,1,< (Precedes),False,set three alarms,arrived thirty minutes early
+E17,E20,1,< (Precedes),False,set three alarms,got the job
+E17,E21,-1,> (Preceded By),False,set three alarms,"His father, who had worked for the same company"
+E18,E1,-1,> (Preceded By),False,prepared his clothes,submitted his application
+E18,E2,-1,> (Preceded By),False,prepared his clothes,prepared obsessively
+E18,E3,-1,> (Preceded By),False,prepared his clothes,power cut
+E18,E4,-1,> (Preceded By),False,prepared his clothes,woke up
+E18,E5,-1,> (Preceded By),False,prepared his clothes,ironed the damp shirt
+E18,E6,-1,> (Preceded By),False,prepared his clothes,dressed hurriedly
+E18,E7,-1,> (Preceded By),False,prepared his clothes,ran to the bus stop
+E18,E8,-1,> (Preceded By),False,prepared his clothes,waited for twenty minutes
+E18,E9,-1,> (Preceded By),False,prepared his clothes,bus finally arrived
+E18,E10,-1,> (Preceded By),False,prepared his clothes,arrived at the company's office
+E18,E11,-1,> (Preceded By),False,prepared his clothes,receptionist informed him
+E18,E12,-1,> (Preceded By),False,prepared his clothes,stood in the lobby
+E18,E13,-1,> (Preceded By),False,prepared his clothes,walked out
+E18,E14,-1,> (Preceded By),False,prepared his clothes,spent the next two days in a state of bitter disappointment
+E18,E15,-1,> (Preceded By),False,prepared his clothes,retiring
+E18,E16,-1,> (Preceded By),False,prepared his clothes,called him for an interview
+E18,E17,-2,mi (Met By),False,prepared his clothes,set three alarms
+E18,E19,1,< (Precedes),False,prepared his clothes,arrived thirty minutes early
+E18,E20,1,< (Precedes),False,prepared his clothes,got the job
+E18,E21,-1,> (Preceded By),False,prepared his clothes,"His father, who had worked for the same company"
+E19,E1,-1,> (Preceded By),False,arrived thirty minutes early,submitted his application
+E19,E2,-1,> (Preceded By),False,arrived thirty minutes early,prepared obsessively
+E19,E3,-1,> (Preceded By),False,arrived thirty minutes early,power cut
+E19,E4,-1,> (Preceded By),False,arrived thirty minutes early,woke up
+E19,E5,-1,> (Preceded By),False,arrived thirty minutes early,ironed the damp shirt
+E19,E6,-1,> (Preceded By),False,arrived thirty minutes early,dressed hurriedly
+E19,E7,-1,> (Preceded By),False,arrived thirty minutes early,ran to the bus stop
+E19,E8,-1,> (Preceded By),False,arrived thirty minutes early,waited for twenty minutes
+E19,E9,-1,> (Preceded By),False,arrived thirty minutes early,bus finally arrived
+E19,E10,-1,> (Preceded By),False,arrived thirty minutes early,arrived at the company's office
+E19,E11,-1,> (Preceded By),False,arrived thirty minutes early,receptionist informed him
+E19,E12,-1,> (Preceded By),False,arrived thirty minutes early,stood in the lobby
+E19,E13,-1,> (Preceded By),False,arrived thirty minutes early,walked out
+E19,E14,-1,> (Preceded By),False,arrived thirty minutes early,spent the next two days in a state of bitter disappointment
+E19,E15,-1,> (Preceded By),False,arrived thirty minutes early,retiring
+E19,E16,-1,> (Preceded By),False,arrived thirty minutes early,called him for an interview
+E19,E17,-1,> (Preceded By),False,arrived thirty minutes early,set three alarms
+E19,E18,-1,> (Preceded By),False,arrived thirty minutes early,prepared his clothes
+E19,E20,1,< (Precedes),False,arrived thirty minutes early,got the job
+E19,E21,-1,> (Preceded By),False,arrived thirty minutes early,"His father, who had worked for the same company"
+E20,E1,-1,> (Preceded By),False,got the job,submitted his application
+E20,E2,-1,> (Preceded By),False,got the job,prepared obsessively
+E20,E3,-1,> (Preceded By),False,got the job,power cut
+E20,E4,-1,> (Preceded By),False,got the job,woke up
+E20,E5,-1,> (Preceded By),False,got the job,ironed the damp shirt
+E20,E6,-1,> (Preceded By),False,got the job,dressed hurriedly
+E20,E7,-1,> (Preceded By),False,got the job,ran to the bus stop
+E20,E8,-1,> (Preceded By),False,got the job,waited for twenty minutes
+E20,E9,-1,> (Preceded By),False,got the job,bus finally arrived
+E20,E10,-1,> (Preceded By),False,got the job,arrived at the company's office
+E20,E11,-1,> (Preceded By),False,got the job,receptionist informed him
+E20,E12,-1,> (Preceded By),False,got the job,stood in the lobby
+E20,E13,-1,> (Preceded By),False,got the job,walked out
+E20,E14,-1,> (Preceded By),False,got the job,spent the next two days in a state of bitter disappointment
+E20,E15,-1,> (Preceded By),False,got the job,retiring
+E20,E16,-1,> (Preceded By),False,got the job,called him for an interview
+E20,E17,-1,> (Preceded By),False,got the job,set three alarms
+E20,E18,-1,> (Preceded By),False,got the job,prepared his clothes
+E20,E19,-1,> (Preceded By),False,got the job,arrived thirty minutes early
+E20,E21,-1,> (Preceded By),False,got the job,"His father, who had worked for the same company"
+E21,E1,0,= (Equal),False,"His father, who had worked for the same company",submitted his application
+E21,E2,1,< (Precedes),False,"His father, who had worked for the same company",prepared obsessively
+E21,E3,1,< (Precedes),False,"His father, who had worked for the same company",power cut
+E21,E4,1,< (Precedes),False,"His father, who had worked for the same company",woke up
+E21,E5,1,< (Precedes),False,"His father, who had worked for the same company",ironed the damp shirt
+E21,E6,1,< (Precedes),False,"His father, who had worked for the same company",dressed hurriedly
+E21,E7,1,< (Precedes),False,"His father, who had worked for the same company",ran to the bus stop
+E21,E8,1,< (Precedes),False,"His father, who had worked for the same company",waited for twenty minutes
+E21,E9,1,< (Precedes),False,"His father, who had worked for the same company",bus finally arrived
+E21,E10,1,< (Precedes),False,"His father, who had worked for the same company",arrived at the company's office
+E21,E11,1,< (Precedes),False,"His father, who had worked for the same company",receptionist informed him
+E21,E12,1,< (Precedes),False,"His father, who had worked for the same company",stood in the lobby
+E21,E13,1,< (Precedes),False,"His father, who had worked for the same company",walked out
+E21,E14,1,< (Precedes),False,"His father, who had worked for the same company",spent the next two days in a state of bitter disappointment
+E21,E15,0,= (Equal),False,"His father, who had worked for the same company",retiring
+E21,E16,1,< (Precedes),False,"His father, who had worked for the same company",called him for an interview
+E21,E17,1,< (Precedes),False,"His father, who had worked for the same company",set three alarms
+E21,E18,1,< (Precedes),False,"His father, who had worked for the same company",prepared his clothes
+E21,E19,1,< (Precedes),False,"His father, who had worked for the same company",arrived thirty minutes early
+E21,E20,1,< (Precedes),False,"His father, who had worked for the same company",got the job

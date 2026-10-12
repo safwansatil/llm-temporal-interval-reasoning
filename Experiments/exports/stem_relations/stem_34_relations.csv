@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,met at a yoga class in Dhaka,started training
+E1,E3,1,< (Precedes),False,met at a yoga class in Dhaka,signed up for a half marathon
+E1,E4,1,< (Precedes),False,met at a yoga class in Dhaka,moved temporarily to her parents' house in Comilla
+E1,E5,1,< (Precedes),False,met at a yoga class in Dhaka,pulled a muscle in her right leg
+E1,E6,1,< (Precedes),False,met at a yoga class in Dhaka,rest for two weeks
+E1,E7,1,< (Precedes),False,met at a yoga class in Dhaka,resumed training
+E1,E8,1,< (Precedes),False,met at a yoga class in Dhaka,took a bus to Cox's Bazar
+E1,E9,1,< (Precedes),False,met at a yoga class in Dhaka,checked into a guesthouse
+E1,E10,1,< (Precedes),False,met at a yoga class in Dhaka,walked along the beach
+E1,E11,1,< (Precedes),False,met at a yoga class in Dhaka,ran into a woman
+E1,E12,1,< (Precedes),False,met at a yoga class in Dhaka,having dinner together
+E1,E13,1,< (Precedes),False,met at a yoga class in Dhaka,the race started
+E1,E14,1,< (Precedes),False,met at a yoga class in Dhaka,crossed the finish line
+E1,E15,1,< (Precedes),False,met at a yoga class in Dhaka,running laps around the Hatirjheel area every morning before work.
+E2,E1,-1,> (Preceded By),False,started training,met at a yoga class in Dhaka
+E2,E3,2,m (Meets),False,started training,signed up for a half marathon
+E2,E4,1,< (Precedes),False,started training,moved temporarily to her parents' house in Comilla
+E2,E5,1,< (Precedes),False,started training,pulled a muscle in her right leg
+E2,E6,1,< (Precedes),False,started training,rest for two weeks
+E2,E7,1,< (Precedes),False,started training,resumed training
+E2,E8,1,< (Precedes),False,started training,took a bus to Cox's Bazar
+E2,E9,1,< (Precedes),False,started training,checked into a guesthouse
+E2,E10,1,< (Precedes),False,started training,walked along the beach
+E2,E11,1,< (Precedes),False,started training,ran into a woman
+E2,E12,1,< (Precedes),False,started training,having dinner together
+E2,E13,1,< (Precedes),False,started training,the race started
+E2,E14,1,< (Precedes),False,started training,crossed the finish line
+E2,E15,4,s (Starts),False,started training,running laps around the Hatirjheel area every morning before work.
+E3,E1,-1,> (Preceded By),False,signed up for a half marathon,met at a yoga class in Dhaka
+E3,E2,-2,mi (Met By),False,signed up for a half marathon,started training
+E3,E4,1,< (Precedes),False,signed up for a half marathon,moved temporarily to her parents' house in Comilla
+E3,E5,1,< (Precedes),False,signed up for a half marathon,pulled a muscle in her right leg
+E3,E6,1,< (Precedes),False,signed up for a half marathon,rest for two weeks
+E3,E7,1,< (Precedes),False,signed up for a half marathon,resumed training
+E3,E8,1,< (Precedes),False,signed up for a half marathon,took a bus to Cox's Bazar
+E3,E9,1,< (Precedes),False,signed up for a half marathon,checked into a guesthouse
+E3,E10,1,< (Precedes),False,signed up for a half marathon,walked along the beach
+E3,E11,1,< (Precedes),False,signed up for a half marathon,ran into a woman
+E3,E12,1,< (Precedes),False,signed up for a half marathon,having dinner together
+E3,E13,1,< (Precedes),False,signed up for a half marathon,the race started
+E3,E14,1,< (Precedes),False,signed up for a half marathon,crossed the finish line
+E3,E15,5,d (During),False,signed up for a half marathon,running laps around the Hatirjheel area every morning before work.
+E4,E1,-1,> (Preceded By),False,moved temporarily to her parents' house in Comilla,met at a yoga class in Dhaka
+E4,E2,-1,> (Preceded By),False,moved temporarily to her parents' house in Comilla,started training
+E4,E3,-1,> (Preceded By),False,moved temporarily to her parents' house in Comilla,signed up for a half marathon
+E4,E5,1,< (Precedes),False,moved temporarily to her parents' house in Comilla,pulled a muscle in her right leg
+E4,E6,1,< (Precedes),False,moved temporarily to her parents' house in Comilla,rest for two weeks
+E4,E7,1,< (Precedes),False,moved temporarily to her parents' house in Comilla,resumed training
+E4,E8,1,< (Precedes),False,moved temporarily to her parents' house in Comilla,took a bus to Cox's Bazar
+E4,E9,1,< (Precedes),False,moved temporarily to her parents' house in Comilla,checked into a guesthouse
+E4,E10,1,< (Precedes),False,moved temporarily to her parents' house in Comilla,walked along the beach
+E4,E11,1,< (Precedes),False,moved temporarily to her parents' house in Comilla,ran into a woman
+E4,E12,1,< (Precedes),False,moved temporarily to her parents' house in Comilla,having dinner together
+E4,E13,1,< (Precedes),False,moved temporarily to her parents' house in Comilla,the race started
+E4,E14,1,< (Precedes),False,moved temporarily to her parents' house in Comilla,crossed the finish line
+E4,E15,-2,mi (Met By),False,moved temporarily to her parents' house in Comilla,running laps around the Hatirjheel area every morning before work.
+E5,E1,-1,> (Preceded By),False,pulled a muscle in her right leg,met at a yoga class in Dhaka
+E5,E2,-1,> (Preceded By),False,pulled a muscle in her right leg,started training
+E5,E3,-1,> (Preceded By),False,pulled a muscle in her right leg,signed up for a half marathon
+E5,E4,-1,> (Preceded By),False,pulled a muscle in her right leg,moved temporarily to her parents' house in Comilla
+E5,E6,4,s (Starts),False,pulled a muscle in her right leg,rest for two weeks
+E5,E7,1,< (Precedes),False,pulled a muscle in her right leg,resumed training
+E5,E8,1,< (Precedes),False,pulled a muscle in her right leg,took a bus to Cox's Bazar
+E5,E9,1,< (Precedes),False,pulled a muscle in her right leg,checked into a guesthouse
+E5,E10,1,< (Precedes),False,pulled a muscle in her right leg,walked along the beach
+E5,E11,1,< (Precedes),False,pulled a muscle in her right leg,ran into a woman
+E5,E12,1,< (Precedes),False,pulled a muscle in her right leg,having dinner together
+E5,E13,1,< (Precedes),False,pulled a muscle in her right leg,the race started
+E5,E14,1,< (Precedes),False,pulled a muscle in her right leg,crossed the finish line
+E5,E15,-1,> (Preceded By),False,pulled a muscle in her right leg,running laps around the Hatirjheel area every morning before work.
+E6,E1,-1,> (Preceded By),False,rest for two weeks,met at a yoga class in Dhaka
+E6,E2,-1,> (Preceded By),False,rest for two weeks,started training
+E6,E3,-1,> (Preceded By),False,rest for two weeks,signed up for a half marathon
+E6,E4,-1,> (Preceded By),False,rest for two weeks,moved temporarily to her parents' house in Comilla
+E6,E5,-4,si (Started By),False,rest for two weeks,pulled a muscle in her right leg
+E6,E7,2,m (Meets),False,rest for two weeks,resumed training
+E6,E8,1,< (Precedes),False,rest for two weeks,took a bus to Cox's Bazar
+E6,E9,1,< (Precedes),False,rest for two weeks,checked into a guesthouse
+E6,E10,1,< (Precedes),False,rest for two weeks,walked along the beach
+E6,E11,1,< (Precedes),False,rest for two weeks,ran into a woman
+E6,E12,1,< (Precedes),False,rest for two weeks,having dinner together
+E6,E13,1,< (Precedes),False,rest for two weeks,the race started
+E6,E14,1,< (Precedes),False,rest for two weeks,crossed the finish line
+E6,E15,-1,> (Preceded By),False,rest for two weeks,running laps around the Hatirjheel area every morning before work.
+E7,E1,-1,> (Preceded By),False,resumed training,met at a yoga class in Dhaka
+E7,E2,-1,> (Preceded By),False,resumed training,started training
+E7,E3,-1,> (Preceded By),False,resumed training,signed up for a half marathon
+E7,E4,-1,> (Preceded By),False,resumed training,moved temporarily to her parents' house in Comilla
+E7,E5,-1,> (Preceded By),False,resumed training,pulled a muscle in her right leg
+E7,E6,-2,mi (Met By),False,resumed training,rest for two weeks
+E7,E8,1,< (Precedes),False,resumed training,took a bus to Cox's Bazar
+E7,E9,1,< (Precedes),False,resumed training,checked into a guesthouse
+E7,E10,1,< (Precedes),False,resumed training,walked along the beach
+E7,E11,1,< (Precedes),False,resumed training,ran into a woman
+E7,E12,1,< (Precedes),False,resumed training,having dinner together
+E7,E13,1,< (Precedes),False,resumed training,the race started
+E7,E14,1,< (Precedes),False,resumed training,crossed the finish line
+E7,E15,-1,> (Preceded By),False,resumed training,running laps around the Hatirjheel area every morning before work.
+E8,E1,-1,> (Preceded By),False,took a bus to Cox's Bazar,met at a yoga class in Dhaka
+E8,E2,-1,> (Preceded By),False,took a bus to Cox's Bazar,started training
+E8,E3,-1,> (Preceded By),False,took a bus to Cox's Bazar,signed up for a half marathon
+E8,E4,-1,> (Preceded By),False,took a bus to Cox's Bazar,moved temporarily to her parents' house in Comilla
+E8,E5,-1,> (Preceded By),False,took a bus to Cox's Bazar,pulled a muscle in her right leg
+E8,E6,-1,> (Preceded By),False,took a bus to Cox's Bazar,rest for two weeks
+E8,E7,-1,> (Preceded By),False,took a bus to Cox's Bazar,resumed training
+E8,E9,1,< (Precedes),False,took a bus to Cox's Bazar,checked into a guesthouse
+E8,E10,1,< (Precedes),False,took a bus to Cox's Bazar,walked along the beach
+E8,E11,1,< (Precedes),False,took a bus to Cox's Bazar,ran into a woman
+E8,E12,1,< (Precedes),False,took a bus to Cox's Bazar,having dinner together
+E8,E13,1,< (Precedes),False,took a bus to Cox's Bazar,the race started
+E8,E14,1,< (Precedes),False,took a bus to Cox's Bazar,crossed the finish line
+E8,E15,-1,> (Preceded By),False,took a bus to Cox's Bazar,running laps around the Hatirjheel area every morning before work.
+E9,E1,-1,> (Preceded By),False,checked into a guesthouse,met at a yoga class in Dhaka
+E9,E2,-1,> (Preceded By),False,checked into a guesthouse,started training
+E9,E3,-1,> (Preceded By),False,checked into a guesthouse,signed up for a half marathon
+E9,E4,-1,> (Preceded By),False,checked into a guesthouse,moved temporarily to her parents' house in Comilla
+E9,E5,-1,> (Preceded By),False,checked into a guesthouse,pulled a muscle in her right leg
+E9,E6,-1,> (Preceded By),False,checked into a guesthouse,rest for two weeks
+E9,E7,-1,> (Preceded By),False,checked into a guesthouse,resumed training
+E9,E8,-1,> (Preceded By),False,checked into a guesthouse,took a bus to Cox's Bazar
+E9,E10,1,< (Precedes),False,checked into a guesthouse,walked along the beach
+E9,E11,1,< (Precedes),False,checked into a guesthouse,ran into a woman
+E9,E12,1,< (Precedes),False,checked into a guesthouse,having dinner together
+E9,E13,1,< (Precedes),False,checked into a guesthouse,the race started
+E9,E14,1,< (Precedes),False,checked into a guesthouse,crossed the finish line
+E9,E15,-1,> (Preceded By),False,checked into a guesthouse,running laps around the Hatirjheel area every morning before work.
+E10,E1,-1,> (Preceded By),False,walked along the beach,met at a yoga class in Dhaka
+E10,E2,-1,> (Preceded By),False,walked along the beach,started training
+E10,E3,-1,> (Preceded By),False,walked along the beach,signed up for a half marathon
+E10,E4,-1,> (Preceded By),False,walked along the beach,moved temporarily to her parents' house in Comilla
+E10,E5,-1,> (Preceded By),False,walked along the beach,pulled a muscle in her right leg
+E10,E6,-1,> (Preceded By),False,walked along the beach,rest for two weeks
+E10,E7,-1,> (Preceded By),False,walked along the beach,resumed training
+E10,E8,-1,> (Preceded By),False,walked along the beach,took a bus to Cox's Bazar
+E10,E9,-1,> (Preceded By),False,walked along the beach,checked into a guesthouse
+E10,E11,-6,fi (Finished By),False,walked along the beach,ran into a woman
+E10,E12,1,< (Precedes),False,walked along the beach,having dinner together
+E10,E13,1,< (Precedes),False,walked along the beach,the race started
+E10,E14,1,< (Precedes),False,walked along the beach,crossed the finish line
+E10,E15,-1,> (Preceded By),False,walked along the beach,running laps around the Hatirjheel area every morning before work.
+E11,E1,-1,> (Preceded By),False,ran into a woman,met at a yoga class in Dhaka
+E11,E2,-1,> (Preceded By),False,ran into a woman,started training
+E11,E3,-1,> (Preceded By),False,ran into a woman,signed up for a half marathon
+E11,E4,-1,> (Preceded By),False,ran into a woman,moved temporarily to her parents' house in Comilla
+E11,E5,-1,> (Preceded By),False,ran into a woman,pulled a muscle in her right leg
+E11,E6,-1,> (Preceded By),False,ran into a woman,rest for two weeks
+E11,E7,-1,> (Preceded By),False,ran into a woman,resumed training
+E11,E8,-1,> (Preceded By),False,ran into a woman,took a bus to Cox's Bazar
+E11,E9,-1,> (Preceded By),False,ran into a woman,checked into a guesthouse
+E11,E10,6,f (Finishes),False,ran into a woman,walked along the beach
+E11,E12,1,< (Precedes),False,ran into a woman,having dinner together
+E11,E13,1,< (Precedes),False,ran into a woman,the race started
+E11,E14,1,< (Precedes),False,ran into a woman,crossed the finish line
+E11,E15,-1,> (Preceded By),False,ran into a woman,running laps around the Hatirjheel area every morning before work.
+E12,E1,-1,> (Preceded By),False,having dinner together,met at a yoga class in Dhaka
+E12,E2,-1,> (Preceded By),False,having dinner together,started training
+E12,E3,-1,> (Preceded By),False,having dinner together,signed up for a half marathon
+E12,E4,-1,> (Preceded By),False,having dinner together,moved temporarily to her parents' house in Comilla
+E12,E5,-1,> (Preceded By),False,having dinner together,pulled a muscle in her right leg
+E12,E6,-1,> (Preceded By),False,having dinner together,rest for two weeks
+E12,E7,-1,> (Preceded By),False,having dinner together,resumed training
+E12,E8,-1,> (Preceded By),False,having dinner together,took a bus to Cox's Bazar
+E12,E9,-1,> (Preceded By),False,having dinner together,checked into a guesthouse
+E12,E10,-1,> (Preceded By),False,having dinner together,walked along the beach
+E12,E11,-1,> (Preceded By),False,having dinner together,ran into a woman
+E12,E13,1,< (Precedes),False,having dinner together,the race started
+E12,E14,1,< (Precedes),False,having dinner together,crossed the finish line
+E12,E15,-1,> (Preceded By),False,having dinner together,running laps around the Hatirjheel area every morning before work.
+E13,E1,-1,> (Preceded By),False,the race started,met at a yoga class in Dhaka
+E13,E2,-1,> (Preceded By),False,the race started,started training
+E13,E3,-1,> (Preceded By),False,the race started,signed up for a half marathon
+E13,E4,-1,> (Preceded By),False,the race started,moved temporarily to her parents' house in Comilla
+E13,E5,-1,> (Preceded By),False,the race started,pulled a muscle in her right leg
+E13,E6,-1,> (Preceded By),False,the race started,rest for two weeks
+E13,E7,-1,> (Preceded By),False,the race started,resumed training
+E13,E8,-1,> (Preceded By),False,the race started,took a bus to Cox's Bazar
+E13,E9,-1,> (Preceded By),False,the race started,checked into a guesthouse
+E13,E10,-1,> (Preceded By),False,the race started,walked along the beach
+E13,E11,-1,> (Preceded By),False,the race started,ran into a woman
+E13,E12,-1,> (Preceded By),False,the race started,having dinner together
+E13,E14,1,< (Precedes),False,the race started,crossed the finish line
+E13,E15,-1,> (Preceded By),False,the race started,running laps around the Hatirjheel area every morning before work.
+E14,E1,-1,> (Preceded By),False,crossed the finish line,met at a yoga class in Dhaka
+E14,E2,-1,> (Preceded By),False,crossed the finish line,started training
+E14,E3,-1,> (Preceded By),False,crossed the finish line,signed up for a half marathon
+E14,E4,-1,> (Preceded By),False,crossed the finish line,moved temporarily to her parents' house in Comilla
+E14,E5,-1,> (Preceded By),False,crossed the finish line,pulled a muscle in her right leg
+E14,E6,-1,> (Preceded By),False,crossed the finish line,rest for two weeks
+E14,E7,-1,> (Preceded By),False,crossed the finish line,resumed training
+E14,E8,-1,> (Preceded By),False,crossed the finish line,took a bus to Cox's Bazar
+E14,E9,-1,> (Preceded By),False,crossed the finish line,checked into a guesthouse
+E14,E10,-1,> (Preceded By),False,crossed the finish line,walked along the beach
+E14,E11,-1,> (Preceded By),False,crossed the finish line,ran into a woman
+E14,E12,-1,> (Preceded By),False,crossed the finish line,having dinner together
+E14,E13,-1,> (Preceded By),False,crossed the finish line,the race started
+E14,E15,-1,> (Preceded By),False,crossed the finish line,running laps around the Hatirjheel area every morning before work.
+E15,E1,-1,> (Preceded By),False,running laps around the Hatirjheel area every morning before work.,met at a yoga class in Dhaka
+E15,E2,-4,si (Started By),False,running laps around the Hatirjheel area every morning before work.,started training
+E15,E3,-5,di (Contains),False,running laps around the Hatirjheel area every morning before work.,signed up for a half marathon
+E15,E4,2,m (Meets),False,running laps around the Hatirjheel area every morning before work.,moved temporarily to her parents' house in Comilla
+E15,E5,1,< (Precedes),False,running laps around the Hatirjheel area every morning before work.,pulled a muscle in her right leg
+E15,E6,1,< (Precedes),False,running laps around the Hatirjheel area every morning before work.,rest for two weeks
+E15,E7,1,< (Precedes),False,running laps around the Hatirjheel area every morning before work.,resumed training
+E15,E8,1,< (Precedes),False,running laps around the Hatirjheel area every morning before work.,took a bus to Cox's Bazar
+E15,E9,1,< (Precedes),False,running laps around the Hatirjheel area every morning before work.,checked into a guesthouse
+E15,E10,1,< (Precedes),False,running laps around the Hatirjheel area every morning before work.,walked along the beach
+E15,E11,1,< (Precedes),False,running laps around the Hatirjheel area every morning before work.,ran into a woman
+E15,E12,1,< (Precedes),False,running laps around the Hatirjheel area every morning before work.,having dinner together
+E15,E13,1,< (Precedes),False,running laps around the Hatirjheel area every morning before work.,the race started
+E15,E14,1,< (Precedes),False,running laps around the Hatirjheel area every morning before work.,crossed the finish line

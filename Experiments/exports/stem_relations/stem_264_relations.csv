@@ -1,0 +1,381 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,trying to retire
+E1,E3,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,Sadia arrived
+E1,E4,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,She had grown up in one of the villages
+E1,E5,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,moving to the city for medical college
+E1,E6,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,she had returned
+E1,E7,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,approached Dr. Anis
+E1,E8,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,Dr. Anis agreed
+E1,E9,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,Sadia observed his methods
+E1,E10,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,Dr. Anis fell ill with a respiratory infection
+E1,E11,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,the clinic had to operate without him
+E1,E12,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,Sadia managed alone
+E1,E13,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,Dr. Anis recovered
+E1,E14,2,m (Meets),False,Dr. Anis had been the only doctor serving the cluster of five villages,He officially retired
+E1,E15,2,m (Meets),False,Dr. Anis had been the only doctor serving the cluster of five villages,Sadia took over the clinic
+E1,E16,1,< (Precedes),False,Dr. Anis had been the only doctor serving the cluster of five villages,has been running it for a year now
+E1,E17,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,returned
+E1,E18,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,Sadia had handled everything with competence and compassion
+E1,E19,-5,di (Contains),False,Dr. Anis had been the only doctor serving the cluster of five villages,He realized
+E1,E20,1,< (Precedes),False,Dr. Anis had been the only doctor serving the cluster of five villages,"Dr. Anis still visits occasionally,"
+E2,E1,5,d (During),False,trying to retire,Dr. Anis had been the only doctor serving the cluster of five villages
+E2,E3,2,m (Meets),False,trying to retire,Sadia arrived
+E2,E4,-1,> (Preceded By),False,trying to retire,She had grown up in one of the villages
+E2,E5,-1,> (Preceded By),False,trying to retire,moving to the city for medical college
+E2,E6,2,m (Meets),False,trying to retire,she had returned
+E2,E7,1,< (Precedes),False,trying to retire,approached Dr. Anis
+E2,E8,1,< (Precedes),False,trying to retire,Dr. Anis agreed
+E2,E9,1,< (Precedes),False,trying to retire,Sadia observed his methods
+E2,E10,1,< (Precedes),False,trying to retire,Dr. Anis fell ill with a respiratory infection
+E2,E11,1,< (Precedes),False,trying to retire,the clinic had to operate without him
+E2,E12,1,< (Precedes),False,trying to retire,Sadia managed alone
+E2,E13,1,< (Precedes),False,trying to retire,Dr. Anis recovered
+E2,E14,1,< (Precedes),False,trying to retire,He officially retired
+E2,E15,1,< (Precedes),False,trying to retire,Sadia took over the clinic
+E2,E16,1,< (Precedes),False,trying to retire,has been running it for a year now
+E2,E17,1,< (Precedes),False,trying to retire,returned
+E2,E18,1,< (Precedes),False,trying to retire,Sadia had handled everything with competence and compassion
+E2,E19,1,< (Precedes),False,trying to retire,He realized
+E2,E20,1,< (Precedes),False,trying to retire,"Dr. Anis still visits occasionally,"
+E3,E1,5,d (During),False,Sadia arrived,Dr. Anis had been the only doctor serving the cluster of five villages
+E3,E2,-2,mi (Met By),False,Sadia arrived,trying to retire
+E3,E4,-1,> (Preceded By),False,Sadia arrived,She had grown up in one of the villages
+E3,E5,-1,> (Preceded By),False,Sadia arrived,moving to the city for medical college
+E3,E6,0,= (Equal),False,Sadia arrived,she had returned
+E3,E7,1,< (Precedes),False,Sadia arrived,approached Dr. Anis
+E3,E8,1,< (Precedes),False,Sadia arrived,Dr. Anis agreed
+E3,E9,1,< (Precedes),False,Sadia arrived,Sadia observed his methods
+E3,E10,1,< (Precedes),False,Sadia arrived,Dr. Anis fell ill with a respiratory infection
+E3,E11,1,< (Precedes),False,Sadia arrived,the clinic had to operate without him
+E3,E12,1,< (Precedes),False,Sadia arrived,Sadia managed alone
+E3,E13,1,< (Precedes),False,Sadia arrived,Dr. Anis recovered
+E3,E14,1,< (Precedes),False,Sadia arrived,He officially retired
+E3,E15,1,< (Precedes),False,Sadia arrived,Sadia took over the clinic
+E3,E16,1,< (Precedes),False,Sadia arrived,has been running it for a year now
+E3,E17,1,< (Precedes),False,Sadia arrived,returned
+E3,E18,1,< (Precedes),False,Sadia arrived,Sadia had handled everything with competence and compassion
+E3,E19,1,< (Precedes),False,Sadia arrived,He realized
+E3,E20,1,< (Precedes),False,Sadia arrived,"Dr. Anis still visits occasionally,"
+E4,E1,5,d (During),False,She had grown up in one of the villages,Dr. Anis had been the only doctor serving the cluster of five villages
+E4,E2,1,< (Precedes),False,She had grown up in one of the villages,trying to retire
+E4,E3,1,< (Precedes),False,She had grown up in one of the villages,Sadia arrived
+E4,E5,2,m (Meets),False,She had grown up in one of the villages,moving to the city for medical college
+E4,E6,1,< (Precedes),False,She had grown up in one of the villages,she had returned
+E4,E7,1,< (Precedes),False,She had grown up in one of the villages,approached Dr. Anis
+E4,E8,1,< (Precedes),False,She had grown up in one of the villages,Dr. Anis agreed
+E4,E9,1,< (Precedes),False,She had grown up in one of the villages,Sadia observed his methods
+E4,E10,1,< (Precedes),False,She had grown up in one of the villages,Dr. Anis fell ill with a respiratory infection
+E4,E11,1,< (Precedes),False,She had grown up in one of the villages,the clinic had to operate without him
+E4,E12,1,< (Precedes),False,She had grown up in one of the villages,Sadia managed alone
+E4,E13,1,< (Precedes),False,She had grown up in one of the villages,Dr. Anis recovered
+E4,E14,1,< (Precedes),False,She had grown up in one of the villages,He officially retired
+E4,E15,1,< (Precedes),False,She had grown up in one of the villages,Sadia took over the clinic
+E4,E16,1,< (Precedes),False,She had grown up in one of the villages,has been running it for a year now
+E4,E17,1,< (Precedes),False,She had grown up in one of the villages,returned
+E4,E18,1,< (Precedes),False,She had grown up in one of the villages,Sadia had handled everything with competence and compassion
+E4,E19,1,< (Precedes),False,She had grown up in one of the villages,He realized
+E4,E20,1,< (Precedes),False,She had grown up in one of the villages,"Dr. Anis still visits occasionally,"
+E5,E1,5,d (During),False,moving to the city for medical college,Dr. Anis had been the only doctor serving the cluster of five villages
+E5,E2,1,< (Precedes),False,moving to the city for medical college,trying to retire
+E5,E3,1,< (Precedes),False,moving to the city for medical college,Sadia arrived
+E5,E4,-2,mi (Met By),False,moving to the city for medical college,She had grown up in one of the villages
+E5,E6,1,< (Precedes),False,moving to the city for medical college,she had returned
+E5,E7,1,< (Precedes),False,moving to the city for medical college,approached Dr. Anis
+E5,E8,1,< (Precedes),False,moving to the city for medical college,Dr. Anis agreed
+E5,E9,1,< (Precedes),False,moving to the city for medical college,Sadia observed his methods
+E5,E10,1,< (Precedes),False,moving to the city for medical college,Dr. Anis fell ill with a respiratory infection
+E5,E11,1,< (Precedes),False,moving to the city for medical college,the clinic had to operate without him
+E5,E12,1,< (Precedes),False,moving to the city for medical college,Sadia managed alone
+E5,E13,1,< (Precedes),False,moving to the city for medical college,Dr. Anis recovered
+E5,E14,1,< (Precedes),False,moving to the city for medical college,He officially retired
+E5,E15,1,< (Precedes),False,moving to the city for medical college,Sadia took over the clinic
+E5,E16,1,< (Precedes),False,moving to the city for medical college,has been running it for a year now
+E5,E17,1,< (Precedes),False,moving to the city for medical college,returned
+E5,E18,1,< (Precedes),False,moving to the city for medical college,Sadia had handled everything with competence and compassion
+E5,E19,1,< (Precedes),False,moving to the city for medical college,He realized
+E5,E20,1,< (Precedes),False,moving to the city for medical college,"Dr. Anis still visits occasionally,"
+E6,E1,5,d (During),False,she had returned,Dr. Anis had been the only doctor serving the cluster of five villages
+E6,E2,-2,mi (Met By),False,she had returned,trying to retire
+E6,E3,0,= (Equal),False,she had returned,Sadia arrived
+E6,E4,-1,> (Preceded By),False,she had returned,She had grown up in one of the villages
+E6,E5,-1,> (Preceded By),False,she had returned,moving to the city for medical college
+E6,E7,1,< (Precedes),False,she had returned,approached Dr. Anis
+E6,E8,1,< (Precedes),False,she had returned,Dr. Anis agreed
+E6,E9,1,< (Precedes),False,she had returned,Sadia observed his methods
+E6,E10,1,< (Precedes),False,she had returned,Dr. Anis fell ill with a respiratory infection
+E6,E11,1,< (Precedes),False,she had returned,the clinic had to operate without him
+E6,E12,1,< (Precedes),False,she had returned,Sadia managed alone
+E6,E13,1,< (Precedes),False,she had returned,Dr. Anis recovered
+E6,E14,1,< (Precedes),False,she had returned,He officially retired
+E6,E15,1,< (Precedes),False,she had returned,Sadia took over the clinic
+E6,E16,1,< (Precedes),False,she had returned,has been running it for a year now
+E6,E17,1,< (Precedes),False,she had returned,returned
+E6,E18,1,< (Precedes),False,she had returned,Sadia had handled everything with competence and compassion
+E6,E19,1,< (Precedes),False,she had returned,He realized
+E6,E20,1,< (Precedes),False,she had returned,"Dr. Anis still visits occasionally,"
+E7,E1,5,d (During),False,approached Dr. Anis,Dr. Anis had been the only doctor serving the cluster of five villages
+E7,E2,-1,> (Preceded By),False,approached Dr. Anis,trying to retire
+E7,E3,-1,> (Preceded By),False,approached Dr. Anis,Sadia arrived
+E7,E4,-1,> (Preceded By),False,approached Dr. Anis,She had grown up in one of the villages
+E7,E5,-1,> (Preceded By),False,approached Dr. Anis,moving to the city for medical college
+E7,E6,-1,> (Preceded By),False,approached Dr. Anis,she had returned
+E7,E8,2,m (Meets),False,approached Dr. Anis,Dr. Anis agreed
+E7,E9,1,< (Precedes),False,approached Dr. Anis,Sadia observed his methods
+E7,E10,1,< (Precedes),False,approached Dr. Anis,Dr. Anis fell ill with a respiratory infection
+E7,E11,1,< (Precedes),False,approached Dr. Anis,the clinic had to operate without him
+E7,E12,1,< (Precedes),False,approached Dr. Anis,Sadia managed alone
+E7,E13,1,< (Precedes),False,approached Dr. Anis,Dr. Anis recovered
+E7,E14,1,< (Precedes),False,approached Dr. Anis,He officially retired
+E7,E15,1,< (Precedes),False,approached Dr. Anis,Sadia took over the clinic
+E7,E16,1,< (Precedes),False,approached Dr. Anis,has been running it for a year now
+E7,E17,1,< (Precedes),False,approached Dr. Anis,returned
+E7,E18,1,< (Precedes),False,approached Dr. Anis,Sadia had handled everything with competence and compassion
+E7,E19,1,< (Precedes),False,approached Dr. Anis,He realized
+E7,E20,1,< (Precedes),False,approached Dr. Anis,"Dr. Anis still visits occasionally,"
+E8,E1,5,d (During),False,Dr. Anis agreed,Dr. Anis had been the only doctor serving the cluster of five villages
+E8,E2,-1,> (Preceded By),False,Dr. Anis agreed,trying to retire
+E8,E3,-1,> (Preceded By),False,Dr. Anis agreed,Sadia arrived
+E8,E4,-1,> (Preceded By),False,Dr. Anis agreed,She had grown up in one of the villages
+E8,E5,-1,> (Preceded By),False,Dr. Anis agreed,moving to the city for medical college
+E8,E6,-1,> (Preceded By),False,Dr. Anis agreed,she had returned
+E8,E7,-2,mi (Met By),False,Dr. Anis agreed,approached Dr. Anis
+E8,E9,1,< (Precedes),False,Dr. Anis agreed,Sadia observed his methods
+E8,E10,1,< (Precedes),False,Dr. Anis agreed,Dr. Anis fell ill with a respiratory infection
+E8,E11,1,< (Precedes),False,Dr. Anis agreed,the clinic had to operate without him
+E8,E12,1,< (Precedes),False,Dr. Anis agreed,Sadia managed alone
+E8,E13,1,< (Precedes),False,Dr. Anis agreed,Dr. Anis recovered
+E8,E14,1,< (Precedes),False,Dr. Anis agreed,He officially retired
+E8,E15,1,< (Precedes),False,Dr. Anis agreed,Sadia took over the clinic
+E8,E16,1,< (Precedes),False,Dr. Anis agreed,has been running it for a year now
+E8,E17,1,< (Precedes),False,Dr. Anis agreed,returned
+E8,E18,1,< (Precedes),False,Dr. Anis agreed,Sadia had handled everything with competence and compassion
+E8,E19,1,< (Precedes),False,Dr. Anis agreed,He realized
+E8,E20,1,< (Precedes),False,Dr. Anis agreed,"Dr. Anis still visits occasionally,"
+E9,E1,5,d (During),False,Sadia observed his methods,Dr. Anis had been the only doctor serving the cluster of five villages
+E9,E2,-1,> (Preceded By),False,Sadia observed his methods,trying to retire
+E9,E3,-1,> (Preceded By),False,Sadia observed his methods,Sadia arrived
+E9,E4,-1,> (Preceded By),False,Sadia observed his methods,She had grown up in one of the villages
+E9,E5,-1,> (Preceded By),False,Sadia observed his methods,moving to the city for medical college
+E9,E6,-1,> (Preceded By),False,Sadia observed his methods,she had returned
+E9,E7,-1,> (Preceded By),False,Sadia observed his methods,approached Dr. Anis
+E9,E8,-1,> (Preceded By),False,Sadia observed his methods,Dr. Anis agreed
+E9,E10,2,m (Meets),False,Sadia observed his methods,Dr. Anis fell ill with a respiratory infection
+E9,E11,1,< (Precedes),False,Sadia observed his methods,the clinic had to operate without him
+E9,E12,1,< (Precedes),False,Sadia observed his methods,Sadia managed alone
+E9,E13,1,< (Precedes),False,Sadia observed his methods,Dr. Anis recovered
+E9,E14,1,< (Precedes),False,Sadia observed his methods,He officially retired
+E9,E15,1,< (Precedes),False,Sadia observed his methods,Sadia took over the clinic
+E9,E16,1,< (Precedes),False,Sadia observed his methods,has been running it for a year now
+E9,E17,1,< (Precedes),False,Sadia observed his methods,returned
+E9,E18,1,< (Precedes),False,Sadia observed his methods,Sadia had handled everything with competence and compassion
+E9,E19,1,< (Precedes),False,Sadia observed his methods,He realized
+E9,E20,1,< (Precedes),False,Sadia observed his methods,"Dr. Anis still visits occasionally,"
+E10,E1,5,d (During),False,Dr. Anis fell ill with a respiratory infection,Dr. Anis had been the only doctor serving the cluster of five villages
+E10,E2,-1,> (Preceded By),False,Dr. Anis fell ill with a respiratory infection,trying to retire
+E10,E3,-1,> (Preceded By),False,Dr. Anis fell ill with a respiratory infection,Sadia arrived
+E10,E4,-1,> (Preceded By),False,Dr. Anis fell ill with a respiratory infection,She had grown up in one of the villages
+E10,E5,-1,> (Preceded By),False,Dr. Anis fell ill with a respiratory infection,moving to the city for medical college
+E10,E6,-1,> (Preceded By),False,Dr. Anis fell ill with a respiratory infection,she had returned
+E10,E7,-1,> (Preceded By),False,Dr. Anis fell ill with a respiratory infection,approached Dr. Anis
+E10,E8,-1,> (Preceded By),False,Dr. Anis fell ill with a respiratory infection,Dr. Anis agreed
+E10,E9,-2,mi (Met By),False,Dr. Anis fell ill with a respiratory infection,Sadia observed his methods
+E10,E11,2,m (Meets),False,Dr. Anis fell ill with a respiratory infection,the clinic had to operate without him
+E10,E12,2,m (Meets),False,Dr. Anis fell ill with a respiratory infection,Sadia managed alone
+E10,E13,1,< (Precedes),False,Dr. Anis fell ill with a respiratory infection,Dr. Anis recovered
+E10,E14,1,< (Precedes),False,Dr. Anis fell ill with a respiratory infection,He officially retired
+E10,E15,1,< (Precedes),False,Dr. Anis fell ill with a respiratory infection,Sadia took over the clinic
+E10,E16,1,< (Precedes),False,Dr. Anis fell ill with a respiratory infection,has been running it for a year now
+E10,E17,1,< (Precedes),False,Dr. Anis fell ill with a respiratory infection,returned
+E10,E18,2,m (Meets),False,Dr. Anis fell ill with a respiratory infection,Sadia had handled everything with competence and compassion
+E10,E19,1,< (Precedes),False,Dr. Anis fell ill with a respiratory infection,He realized
+E10,E20,1,< (Precedes),False,Dr. Anis fell ill with a respiratory infection,"Dr. Anis still visits occasionally,"
+E11,E1,5,d (During),False,the clinic had to operate without him,Dr. Anis had been the only doctor serving the cluster of five villages
+E11,E2,-1,> (Preceded By),False,the clinic had to operate without him,trying to retire
+E11,E3,-1,> (Preceded By),False,the clinic had to operate without him,Sadia arrived
+E11,E4,-1,> (Preceded By),False,the clinic had to operate without him,She had grown up in one of the villages
+E11,E5,-1,> (Preceded By),False,the clinic had to operate without him,moving to the city for medical college
+E11,E6,-1,> (Preceded By),False,the clinic had to operate without him,she had returned
+E11,E7,-1,> (Preceded By),False,the clinic had to operate without him,approached Dr. Anis
+E11,E8,-1,> (Preceded By),False,the clinic had to operate without him,Dr. Anis agreed
+E11,E9,-1,> (Preceded By),False,the clinic had to operate without him,Sadia observed his methods
+E11,E10,-2,mi (Met By),False,the clinic had to operate without him,Dr. Anis fell ill with a respiratory infection
+E11,E12,0,= (Equal),False,the clinic had to operate without him,Sadia managed alone
+E11,E13,2,m (Meets),False,the clinic had to operate without him,Dr. Anis recovered
+E11,E14,1,< (Precedes),False,the clinic had to operate without him,He officially retired
+E11,E15,1,< (Precedes),False,the clinic had to operate without him,Sadia took over the clinic
+E11,E16,1,< (Precedes),False,the clinic had to operate without him,has been running it for a year now
+E11,E17,1,< (Precedes),False,the clinic had to operate without him,returned
+E11,E18,0,= (Equal),False,the clinic had to operate without him,Sadia had handled everything with competence and compassion
+E11,E19,1,< (Precedes),False,the clinic had to operate without him,He realized
+E11,E20,1,< (Precedes),False,the clinic had to operate without him,"Dr. Anis still visits occasionally,"
+E12,E1,5,d (During),False,Sadia managed alone,Dr. Anis had been the only doctor serving the cluster of five villages
+E12,E2,-1,> (Preceded By),False,Sadia managed alone,trying to retire
+E12,E3,-1,> (Preceded By),False,Sadia managed alone,Sadia arrived
+E12,E4,-1,> (Preceded By),False,Sadia managed alone,She had grown up in one of the villages
+E12,E5,-1,> (Preceded By),False,Sadia managed alone,moving to the city for medical college
+E12,E6,-1,> (Preceded By),False,Sadia managed alone,she had returned
+E12,E7,-1,> (Preceded By),False,Sadia managed alone,approached Dr. Anis
+E12,E8,-1,> (Preceded By),False,Sadia managed alone,Dr. Anis agreed
+E12,E9,-1,> (Preceded By),False,Sadia managed alone,Sadia observed his methods
+E12,E10,-2,mi (Met By),False,Sadia managed alone,Dr. Anis fell ill with a respiratory infection
+E12,E11,0,= (Equal),False,Sadia managed alone,the clinic had to operate without him
+E12,E13,2,m (Meets),False,Sadia managed alone,Dr. Anis recovered
+E12,E14,1,< (Precedes),False,Sadia managed alone,He officially retired
+E12,E15,1,< (Precedes),False,Sadia managed alone,Sadia took over the clinic
+E12,E16,1,< (Precedes),False,Sadia managed alone,has been running it for a year now
+E12,E17,1,< (Precedes),False,Sadia managed alone,returned
+E12,E18,0,= (Equal),False,Sadia managed alone,Sadia had handled everything with competence and compassion
+E12,E19,1,< (Precedes),False,Sadia managed alone,He realized
+E12,E20,1,< (Precedes),False,Sadia managed alone,"Dr. Anis still visits occasionally,"
+E13,E1,5,d (During),False,Dr. Anis recovered,Dr. Anis had been the only doctor serving the cluster of five villages
+E13,E2,-1,> (Preceded By),False,Dr. Anis recovered,trying to retire
+E13,E3,-1,> (Preceded By),False,Dr. Anis recovered,Sadia arrived
+E13,E4,-1,> (Preceded By),False,Dr. Anis recovered,She had grown up in one of the villages
+E13,E5,-1,> (Preceded By),False,Dr. Anis recovered,moving to the city for medical college
+E13,E6,-1,> (Preceded By),False,Dr. Anis recovered,she had returned
+E13,E7,-1,> (Preceded By),False,Dr. Anis recovered,approached Dr. Anis
+E13,E8,-1,> (Preceded By),False,Dr. Anis recovered,Dr. Anis agreed
+E13,E9,-1,> (Preceded By),False,Dr. Anis recovered,Sadia observed his methods
+E13,E10,-1,> (Preceded By),False,Dr. Anis recovered,Dr. Anis fell ill with a respiratory infection
+E13,E11,-2,mi (Met By),False,Dr. Anis recovered,the clinic had to operate without him
+E13,E12,-2,mi (Met By),False,Dr. Anis recovered,Sadia managed alone
+E13,E14,1,< (Precedes),False,Dr. Anis recovered,He officially retired
+E13,E15,1,< (Precedes),False,Dr. Anis recovered,Sadia took over the clinic
+E13,E16,1,< (Precedes),False,Dr. Anis recovered,has been running it for a year now
+E13,E17,2,m (Meets),False,Dr. Anis recovered,returned
+E13,E18,-2,mi (Met By),False,Dr. Anis recovered,Sadia had handled everything with competence and compassion
+E13,E19,1,< (Precedes),False,Dr. Anis recovered,He realized
+E13,E20,1,< (Precedes),False,Dr. Anis recovered,"Dr. Anis still visits occasionally,"
+E14,E1,-2,mi (Met By),False,He officially retired,Dr. Anis had been the only doctor serving the cluster of five villages
+E14,E2,-1,> (Preceded By),False,He officially retired,trying to retire
+E14,E3,-1,> (Preceded By),False,He officially retired,Sadia arrived
+E14,E4,-1,> (Preceded By),False,He officially retired,She had grown up in one of the villages
+E14,E5,-1,> (Preceded By),False,He officially retired,moving to the city for medical college
+E14,E6,-1,> (Preceded By),False,He officially retired,she had returned
+E14,E7,-1,> (Preceded By),False,He officially retired,approached Dr. Anis
+E14,E8,-1,> (Preceded By),False,He officially retired,Dr. Anis agreed
+E14,E9,-1,> (Preceded By),False,He officially retired,Sadia observed his methods
+E14,E10,-1,> (Preceded By),False,He officially retired,Dr. Anis fell ill with a respiratory infection
+E14,E11,-1,> (Preceded By),False,He officially retired,the clinic had to operate without him
+E14,E12,-1,> (Preceded By),False,He officially retired,Sadia managed alone
+E14,E13,-1,> (Preceded By),False,He officially retired,Dr. Anis recovered
+E14,E15,0,= (Equal),False,He officially retired,Sadia took over the clinic
+E14,E16,2,m (Meets),False,He officially retired,has been running it for a year now
+E14,E17,-1,> (Preceded By),False,He officially retired,returned
+E14,E18,-1,> (Preceded By),False,He officially retired,Sadia had handled everything with competence and compassion
+E14,E19,-1,> (Preceded By),False,He officially retired,He realized
+E14,E20,2,m (Meets),False,He officially retired,"Dr. Anis still visits occasionally,"
+E15,E1,-2,mi (Met By),False,Sadia took over the clinic,Dr. Anis had been the only doctor serving the cluster of five villages
+E15,E2,-1,> (Preceded By),False,Sadia took over the clinic,trying to retire
+E15,E3,-1,> (Preceded By),False,Sadia took over the clinic,Sadia arrived
+E15,E4,-1,> (Preceded By),False,Sadia took over the clinic,She had grown up in one of the villages
+E15,E5,-1,> (Preceded By),False,Sadia took over the clinic,moving to the city for medical college
+E15,E6,-1,> (Preceded By),False,Sadia took over the clinic,she had returned
+E15,E7,-1,> (Preceded By),False,Sadia took over the clinic,approached Dr. Anis
+E15,E8,-1,> (Preceded By),False,Sadia took over the clinic,Dr. Anis agreed
+E15,E9,-1,> (Preceded By),False,Sadia took over the clinic,Sadia observed his methods
+E15,E10,-1,> (Preceded By),False,Sadia took over the clinic,Dr. Anis fell ill with a respiratory infection
+E15,E11,-1,> (Preceded By),False,Sadia took over the clinic,the clinic had to operate without him
+E15,E12,-1,> (Preceded By),False,Sadia took over the clinic,Sadia managed alone
+E15,E13,-1,> (Preceded By),False,Sadia took over the clinic,Dr. Anis recovered
+E15,E14,0,= (Equal),False,Sadia took over the clinic,He officially retired
+E15,E16,2,m (Meets),False,Sadia took over the clinic,has been running it for a year now
+E15,E17,-1,> (Preceded By),False,Sadia took over the clinic,returned
+E15,E18,-1,> (Preceded By),False,Sadia took over the clinic,Sadia had handled everything with competence and compassion
+E15,E19,-1,> (Preceded By),False,Sadia took over the clinic,He realized
+E15,E20,2,m (Meets),False,Sadia took over the clinic,"Dr. Anis still visits occasionally,"
+E16,E1,-1,> (Preceded By),False,has been running it for a year now,Dr. Anis had been the only doctor serving the cluster of five villages
+E16,E2,-1,> (Preceded By),False,has been running it for a year now,trying to retire
+E16,E3,-1,> (Preceded By),False,has been running it for a year now,Sadia arrived
+E16,E4,-1,> (Preceded By),False,has been running it for a year now,She had grown up in one of the villages
+E16,E5,-1,> (Preceded By),False,has been running it for a year now,moving to the city for medical college
+E16,E6,-1,> (Preceded By),False,has been running it for a year now,she had returned
+E16,E7,-1,> (Preceded By),False,has been running it for a year now,approached Dr. Anis
+E16,E8,-1,> (Preceded By),False,has been running it for a year now,Dr. Anis agreed
+E16,E9,-1,> (Preceded By),False,has been running it for a year now,Sadia observed his methods
+E16,E10,-1,> (Preceded By),False,has been running it for a year now,Dr. Anis fell ill with a respiratory infection
+E16,E11,-1,> (Preceded By),False,has been running it for a year now,the clinic had to operate without him
+E16,E12,-1,> (Preceded By),False,has been running it for a year now,Sadia managed alone
+E16,E13,-1,> (Preceded By),False,has been running it for a year now,Dr. Anis recovered
+E16,E14,-2,mi (Met By),False,has been running it for a year now,He officially retired
+E16,E15,-2,mi (Met By),False,has been running it for a year now,Sadia took over the clinic
+E16,E17,-1,> (Preceded By),False,has been running it for a year now,returned
+E16,E18,-1,> (Preceded By),False,has been running it for a year now,Sadia had handled everything with competence and compassion
+E16,E19,-1,> (Preceded By),False,has been running it for a year now,He realized
+E16,E20,0,= (Equal),False,has been running it for a year now,"Dr. Anis still visits occasionally,"
+E17,E1,5,d (During),False,returned,Dr. Anis had been the only doctor serving the cluster of five villages
+E17,E2,-1,> (Preceded By),False,returned,trying to retire
+E17,E3,-1,> (Preceded By),False,returned,Sadia arrived
+E17,E4,-1,> (Preceded By),False,returned,She had grown up in one of the villages
+E17,E5,-1,> (Preceded By),False,returned,moving to the city for medical college
+E17,E6,-1,> (Preceded By),False,returned,she had returned
+E17,E7,-1,> (Preceded By),False,returned,approached Dr. Anis
+E17,E8,-1,> (Preceded By),False,returned,Dr. Anis agreed
+E17,E9,-1,> (Preceded By),False,returned,Sadia observed his methods
+E17,E10,-1,> (Preceded By),False,returned,Dr. Anis fell ill with a respiratory infection
+E17,E11,-1,> (Preceded By),False,returned,the clinic had to operate without him
+E17,E12,-1,> (Preceded By),False,returned,Sadia managed alone
+E17,E13,-2,mi (Met By),False,returned,Dr. Anis recovered
+E17,E14,1,< (Precedes),False,returned,He officially retired
+E17,E15,1,< (Precedes),False,returned,Sadia took over the clinic
+E17,E16,1,< (Precedes),False,returned,has been running it for a year now
+E17,E18,-1,> (Preceded By),False,returned,Sadia had handled everything with competence and compassion
+E17,E19,2,m (Meets),False,returned,He realized
+E17,E20,1,< (Precedes),False,returned,"Dr. Anis still visits occasionally,"
+E18,E1,5,d (During),False,Sadia had handled everything with competence and compassion,Dr. Anis had been the only doctor serving the cluster of five villages
+E18,E2,-1,> (Preceded By),False,Sadia had handled everything with competence and compassion,trying to retire
+E18,E3,-1,> (Preceded By),False,Sadia had handled everything with competence and compassion,Sadia arrived
+E18,E4,-1,> (Preceded By),False,Sadia had handled everything with competence and compassion,She had grown up in one of the villages
+E18,E5,-1,> (Preceded By),False,Sadia had handled everything with competence and compassion,moving to the city for medical college
+E18,E6,-1,> (Preceded By),False,Sadia had handled everything with competence and compassion,she had returned
+E18,E7,-1,> (Preceded By),False,Sadia had handled everything with competence and compassion,approached Dr. Anis
+E18,E8,-1,> (Preceded By),False,Sadia had handled everything with competence and compassion,Dr. Anis agreed
+E18,E9,-1,> (Preceded By),False,Sadia had handled everything with competence and compassion,Sadia observed his methods
+E18,E10,-2,mi (Met By),False,Sadia had handled everything with competence and compassion,Dr. Anis fell ill with a respiratory infection
+E18,E11,0,= (Equal),False,Sadia had handled everything with competence and compassion,the clinic had to operate without him
+E18,E12,0,= (Equal),False,Sadia had handled everything with competence and compassion,Sadia managed alone
+E18,E13,2,m (Meets),False,Sadia had handled everything with competence and compassion,Dr. Anis recovered
+E18,E14,1,< (Precedes),False,Sadia had handled everything with competence and compassion,He officially retired
+E18,E15,1,< (Precedes),False,Sadia had handled everything with competence and compassion,Sadia took over the clinic
+E18,E16,1,< (Precedes),False,Sadia had handled everything with competence and compassion,has been running it for a year now
+E18,E17,1,< (Precedes),False,Sadia had handled everything with competence and compassion,returned
+E18,E19,1,< (Precedes),False,Sadia had handled everything with competence and compassion,He realized
+E18,E20,1,< (Precedes),False,Sadia had handled everything with competence and compassion,"Dr. Anis still visits occasionally,"
+E19,E1,5,d (During),False,He realized,Dr. Anis had been the only doctor serving the cluster of five villages
+E19,E2,-1,> (Preceded By),False,He realized,trying to retire
+E19,E3,-1,> (Preceded By),False,He realized,Sadia arrived
+E19,E4,-1,> (Preceded By),False,He realized,She had grown up in one of the villages
+E19,E5,-1,> (Preceded By),False,He realized,moving to the city for medical college
+E19,E6,-1,> (Preceded By),False,He realized,she had returned
+E19,E7,-1,> (Preceded By),False,He realized,approached Dr. Anis
+E19,E8,-1,> (Preceded By),False,He realized,Dr. Anis agreed
+E19,E9,-1,> (Preceded By),False,He realized,Sadia observed his methods
+E19,E10,-1,> (Preceded By),False,He realized,Dr. Anis fell ill with a respiratory infection
+E19,E11,-1,> (Preceded By),False,He realized,the clinic had to operate without him
+E19,E12,-1,> (Preceded By),False,He realized,Sadia managed alone
+E19,E13,-1,> (Preceded By),False,He realized,Dr. Anis recovered
+E19,E14,1,< (Precedes),False,He realized,He officially retired
+E19,E15,1,< (Precedes),False,He realized,Sadia took over the clinic
+E19,E16,1,< (Precedes),False,He realized,has been running it for a year now
+E19,E17,-2,mi (Met By),False,He realized,returned
+E19,E18,-1,> (Preceded By),False,He realized,Sadia had handled everything with competence and compassion
+E19,E20,1,< (Precedes),False,He realized,"Dr. Anis still visits occasionally,"
+E20,E1,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",Dr. Anis had been the only doctor serving the cluster of five villages
+E20,E2,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",trying to retire
+E20,E3,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",Sadia arrived
+E20,E4,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",She had grown up in one of the villages
+E20,E5,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",moving to the city for medical college
+E20,E6,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",she had returned
+E20,E7,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",approached Dr. Anis
+E20,E8,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",Dr. Anis agreed
+E20,E9,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",Sadia observed his methods
+E20,E10,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",Dr. Anis fell ill with a respiratory infection
+E20,E11,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",the clinic had to operate without him
+E20,E12,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",Sadia managed alone
+E20,E13,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",Dr. Anis recovered
+E20,E14,-2,mi (Met By),False,"Dr. Anis still visits occasionally,",He officially retired
+E20,E15,-2,mi (Met By),False,"Dr. Anis still visits occasionally,",Sadia took over the clinic
+E20,E16,0,= (Equal),False,"Dr. Anis still visits occasionally,",has been running it for a year now
+E20,E17,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",returned
+E20,E18,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",Sadia had handled everything with competence and compassion
+E20,E19,-1,> (Preceded By),False,"Dr. Anis still visits occasionally,",He realized

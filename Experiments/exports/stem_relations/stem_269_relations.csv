@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,founded the business,painted by his father
+E1,E3,1,< (Precedes),False,founded the business,visited the stall
+E1,E4,1,< (Precedes),False,founded the business,offered to replace the old sign
+E1,E5,1,< (Precedes),False,founded the business,urged him to accept
+E1,E6,1,< (Precedes),False,founded the business,thought about it
+E1,E7,1,< (Precedes),False,founded the business,made his decision
+E1,E8,1,< (Precedes),False,founded the business,refused the offer
+E1,E9,1,< (Precedes),False,founded the business,tried to negotiate
+E1,E10,1,< (Precedes),False,founded the business,understands his father's decision
+E1,E11,1,< (Precedes),False,founded the business,told his own children
+E1,E12,1,< (Precedes),False,founded the business,hand-painted in a flowing script
+E1,E13,4,s (Starts),False,founded the business,had never considered changing it.
+E1,E14,1,< (Precedes),False,founded the business,old sign still hangs above the stall
+E1,E15,1,< (Precedes),False,founded the business,Customers still give directions by referencing the pale green lettering.
+E1,E16,1,< (Precedes),False,founded the business,had faded over the decades to a gentle palette of pale green and cream
+E2,E1,-1,> (Preceded By),False,painted by his father,founded the business
+E2,E3,1,< (Precedes),False,painted by his father,visited the stall
+E2,E4,1,< (Precedes),False,painted by his father,offered to replace the old sign
+E2,E5,1,< (Precedes),False,painted by his father,urged him to accept
+E2,E6,1,< (Precedes),False,painted by his father,thought about it
+E2,E7,1,< (Precedes),False,painted by his father,made his decision
+E2,E8,1,< (Precedes),False,painted by his father,refused the offer
+E2,E9,1,< (Precedes),False,painted by his father,tried to negotiate
+E2,E10,1,< (Precedes),False,painted by his father,understands his father's decision
+E2,E11,1,< (Precedes),False,painted by his father,told his own children
+E2,E12,0,= (Equal),False,painted by his father,hand-painted in a flowing script
+E2,E13,5,d (During),False,painted by his father,had never considered changing it.
+E2,E14,1,< (Precedes),False,painted by his father,old sign still hangs above the stall
+E2,E15,1,< (Precedes),False,painted by his father,Customers still give directions by referencing the pale green lettering.
+E2,E16,1,< (Precedes),False,painted by his father,had faded over the decades to a gentle palette of pale green and cream
+E3,E1,-1,> (Preceded By),False,visited the stall,founded the business
+E3,E2,-1,> (Preceded By),False,visited the stall,painted by his father
+E3,E4,2,m (Meets),False,visited the stall,offered to replace the old sign
+E3,E5,1,< (Precedes),False,visited the stall,urged him to accept
+E3,E6,1,< (Precedes),False,visited the stall,thought about it
+E3,E7,1,< (Precedes),False,visited the stall,made his decision
+E3,E8,1,< (Precedes),False,visited the stall,refused the offer
+E3,E9,1,< (Precedes),False,visited the stall,tried to negotiate
+E3,E10,1,< (Precedes),False,visited the stall,understands his father's decision
+E3,E11,1,< (Precedes),False,visited the stall,told his own children
+E3,E12,-1,> (Preceded By),False,visited the stall,hand-painted in a flowing script
+E3,E13,-2,mi (Met By),False,visited the stall,had never considered changing it.
+E3,E14,1,< (Precedes),False,visited the stall,old sign still hangs above the stall
+E3,E15,5,d (During),False,visited the stall,Customers still give directions by referencing the pale green lettering.
+E3,E16,-2,mi (Met By),False,visited the stall,had faded over the decades to a gentle palette of pale green and cream
+E4,E1,-1,> (Preceded By),False,offered to replace the old sign,founded the business
+E4,E2,-1,> (Preceded By),False,offered to replace the old sign,painted by his father
+E4,E3,-2,mi (Met By),False,offered to replace the old sign,visited the stall
+E4,E5,2,m (Meets),False,offered to replace the old sign,urged him to accept
+E4,E6,1,< (Precedes),False,offered to replace the old sign,thought about it
+E4,E7,1,< (Precedes),False,offered to replace the old sign,made his decision
+E4,E8,1,< (Precedes),False,offered to replace the old sign,refused the offer
+E4,E9,1,< (Precedes),False,offered to replace the old sign,tried to negotiate
+E4,E10,1,< (Precedes),False,offered to replace the old sign,understands his father's decision
+E4,E11,1,< (Precedes),False,offered to replace the old sign,told his own children
+E4,E12,-1,> (Preceded By),False,offered to replace the old sign,hand-painted in a flowing script
+E4,E13,-1,> (Preceded By),False,offered to replace the old sign,had never considered changing it.
+E4,E14,1,< (Precedes),False,offered to replace the old sign,old sign still hangs above the stall
+E4,E15,5,d (During),False,offered to replace the old sign,Customers still give directions by referencing the pale green lettering.
+E4,E16,-1,> (Preceded By),False,offered to replace the old sign,had faded over the decades to a gentle palette of pale green and cream
+E5,E1,-1,> (Preceded By),False,urged him to accept,founded the business
+E5,E2,-1,> (Preceded By),False,urged him to accept,painted by his father
+E5,E3,-1,> (Preceded By),False,urged him to accept,visited the stall
+E5,E4,-2,mi (Met By),False,urged him to accept,offered to replace the old sign
+E5,E6,1,< (Precedes),False,urged him to accept,thought about it
+E5,E7,1,< (Precedes),False,urged him to accept,made his decision
+E5,E8,1,< (Precedes),False,urged him to accept,refused the offer
+E5,E9,1,< (Precedes),False,urged him to accept,tried to negotiate
+E5,E10,1,< (Precedes),False,urged him to accept,understands his father's decision
+E5,E11,1,< (Precedes),False,urged him to accept,told his own children
+E5,E12,-1,> (Preceded By),False,urged him to accept,hand-painted in a flowing script
+E5,E13,-1,> (Preceded By),False,urged him to accept,had never considered changing it.
+E5,E14,1,< (Precedes),False,urged him to accept,old sign still hangs above the stall
+E5,E15,5,d (During),False,urged him to accept,Customers still give directions by referencing the pale green lettering.
+E5,E16,-1,> (Preceded By),False,urged him to accept,had faded over the decades to a gentle palette of pale green and cream
+E6,E1,-1,> (Preceded By),False,thought about it,founded the business
+E6,E2,-1,> (Preceded By),False,thought about it,painted by his father
+E6,E3,-1,> (Preceded By),False,thought about it,visited the stall
+E6,E4,-1,> (Preceded By),False,thought about it,offered to replace the old sign
+E6,E5,-1,> (Preceded By),False,thought about it,urged him to accept
+E6,E7,1,< (Precedes),False,thought about it,made his decision
+E6,E8,1,< (Precedes),False,thought about it,refused the offer
+E6,E9,1,< (Precedes),False,thought about it,tried to negotiate
+E6,E10,1,< (Precedes),False,thought about it,understands his father's decision
+E6,E11,1,< (Precedes),False,thought about it,told his own children
+E6,E12,-1,> (Preceded By),False,thought about it,hand-painted in a flowing script
+E6,E13,-1,> (Preceded By),False,thought about it,had never considered changing it.
+E6,E14,1,< (Precedes),False,thought about it,old sign still hangs above the stall
+E6,E15,5,d (During),False,thought about it,Customers still give directions by referencing the pale green lettering.
+E6,E16,-1,> (Preceded By),False,thought about it,had faded over the decades to a gentle palette of pale green and cream
+E7,E1,-1,> (Preceded By),False,made his decision,founded the business
+E7,E2,-1,> (Preceded By),False,made his decision,painted by his father
+E7,E3,-1,> (Preceded By),False,made his decision,visited the stall
+E7,E4,-1,> (Preceded By),False,made his decision,offered to replace the old sign
+E7,E5,-1,> (Preceded By),False,made his decision,urged him to accept
+E7,E6,-1,> (Preceded By),False,made his decision,thought about it
+E7,E8,1,< (Precedes),False,made his decision,refused the offer
+E7,E9,1,< (Precedes),False,made his decision,tried to negotiate
+E7,E10,1,< (Precedes),False,made his decision,understands his father's decision
+E7,E11,1,< (Precedes),False,made his decision,told his own children
+E7,E12,-1,> (Preceded By),False,made his decision,hand-painted in a flowing script
+E7,E13,-1,> (Preceded By),False,made his decision,had never considered changing it.
+E7,E14,1,< (Precedes),False,made his decision,old sign still hangs above the stall
+E7,E15,5,d (During),False,made his decision,Customers still give directions by referencing the pale green lettering.
+E7,E16,-1,> (Preceded By),False,made his decision,had faded over the decades to a gentle palette of pale green and cream
+E8,E1,-1,> (Preceded By),False,refused the offer,founded the business
+E8,E2,-1,> (Preceded By),False,refused the offer,painted by his father
+E8,E3,-1,> (Preceded By),False,refused the offer,visited the stall
+E8,E4,-1,> (Preceded By),False,refused the offer,offered to replace the old sign
+E8,E5,-1,> (Preceded By),False,refused the offer,urged him to accept
+E8,E6,-1,> (Preceded By),False,refused the offer,thought about it
+E8,E7,-1,> (Preceded By),False,refused the offer,made his decision
+E8,E9,2,m (Meets),False,refused the offer,tried to negotiate
+E8,E10,1,< (Precedes),False,refused the offer,understands his father's decision
+E8,E11,1,< (Precedes),False,refused the offer,told his own children
+E8,E12,-1,> (Preceded By),False,refused the offer,hand-painted in a flowing script
+E8,E13,-1,> (Preceded By),False,refused the offer,had never considered changing it.
+E8,E14,1,< (Precedes),False,refused the offer,old sign still hangs above the stall
+E8,E15,5,d (During),False,refused the offer,Customers still give directions by referencing the pale green lettering.
+E8,E16,-1,> (Preceded By),False,refused the offer,had faded over the decades to a gentle palette of pale green and cream
+E9,E1,-1,> (Preceded By),False,tried to negotiate,founded the business
+E9,E2,-1,> (Preceded By),False,tried to negotiate,painted by his father
+E9,E3,-1,> (Preceded By),False,tried to negotiate,visited the stall
+E9,E4,-1,> (Preceded By),False,tried to negotiate,offered to replace the old sign
+E9,E5,-1,> (Preceded By),False,tried to negotiate,urged him to accept
+E9,E6,-1,> (Preceded By),False,tried to negotiate,thought about it
+E9,E7,-1,> (Preceded By),False,tried to negotiate,made his decision
+E9,E8,-2,mi (Met By),False,tried to negotiate,refused the offer
+E9,E10,1,< (Precedes),False,tried to negotiate,understands his father's decision
+E9,E11,1,< (Precedes),False,tried to negotiate,told his own children
+E9,E12,-1,> (Preceded By),False,tried to negotiate,hand-painted in a flowing script
+E9,E13,-1,> (Preceded By),False,tried to negotiate,had never considered changing it.
+E9,E14,1,< (Precedes),False,tried to negotiate,old sign still hangs above the stall
+E9,E15,5,d (During),False,tried to negotiate,Customers still give directions by referencing the pale green lettering.
+E9,E16,-1,> (Preceded By),False,tried to negotiate,had faded over the decades to a gentle palette of pale green and cream
+E10,E1,-1,> (Preceded By),False,understands his father's decision,founded the business
+E10,E2,-1,> (Preceded By),False,understands his father's decision,painted by his father
+E10,E3,-1,> (Preceded By),False,understands his father's decision,visited the stall
+E10,E4,-1,> (Preceded By),False,understands his father's decision,offered to replace the old sign
+E10,E5,-1,> (Preceded By),False,understands his father's decision,urged him to accept
+E10,E6,-1,> (Preceded By),False,understands his father's decision,thought about it
+E10,E7,-1,> (Preceded By),False,understands his father's decision,made his decision
+E10,E8,-1,> (Preceded By),False,understands his father's decision,refused the offer
+E10,E9,-1,> (Preceded By),False,understands his father's decision,tried to negotiate
+E10,E11,2,m (Meets),False,understands his father's decision,told his own children
+E10,E12,-1,> (Preceded By),False,understands his father's decision,hand-painted in a flowing script
+E10,E13,-1,> (Preceded By),False,understands his father's decision,had never considered changing it.
+E10,E14,5,d (During),False,understands his father's decision,old sign still hangs above the stall
+E10,E15,5,d (During),False,understands his father's decision,Customers still give directions by referencing the pale green lettering.
+E10,E16,-1,> (Preceded By),False,understands his father's decision,had faded over the decades to a gentle palette of pale green and cream
+E11,E1,-1,> (Preceded By),False,told his own children,founded the business
+E11,E2,-1,> (Preceded By),False,told his own children,painted by his father
+E11,E3,-1,> (Preceded By),False,told his own children,visited the stall
+E11,E4,-1,> (Preceded By),False,told his own children,offered to replace the old sign
+E11,E5,-1,> (Preceded By),False,told his own children,urged him to accept
+E11,E6,-1,> (Preceded By),False,told his own children,thought about it
+E11,E7,-1,> (Preceded By),False,told his own children,made his decision
+E11,E8,-1,> (Preceded By),False,told his own children,refused the offer
+E11,E9,-1,> (Preceded By),False,told his own children,tried to negotiate
+E11,E10,-2,mi (Met By),False,told his own children,understands his father's decision
+E11,E12,-1,> (Preceded By),False,told his own children,hand-painted in a flowing script
+E11,E13,-1,> (Preceded By),False,told his own children,had never considered changing it.
+E11,E14,5,d (During),False,told his own children,old sign still hangs above the stall
+E11,E15,5,d (During),False,told his own children,Customers still give directions by referencing the pale green lettering.
+E11,E16,-1,> (Preceded By),False,told his own children,had faded over the decades to a gentle palette of pale green and cream
+E12,E1,-1,> (Preceded By),False,hand-painted in a flowing script,founded the business
+E12,E2,0,= (Equal),False,hand-painted in a flowing script,painted by his father
+E12,E3,1,< (Precedes),False,hand-painted in a flowing script,visited the stall
+E12,E4,1,< (Precedes),False,hand-painted in a flowing script,offered to replace the old sign
+E12,E5,1,< (Precedes),False,hand-painted in a flowing script,urged him to accept
+E12,E6,1,< (Precedes),False,hand-painted in a flowing script,thought about it
+E12,E7,1,< (Precedes),False,hand-painted in a flowing script,made his decision
+E12,E8,1,< (Precedes),False,hand-painted in a flowing script,refused the offer
+E12,E9,1,< (Precedes),False,hand-painted in a flowing script,tried to negotiate
+E12,E10,1,< (Precedes),False,hand-painted in a flowing script,understands his father's decision
+E12,E11,1,< (Precedes),False,hand-painted in a flowing script,told his own children
+E12,E13,5,d (During),False,hand-painted in a flowing script,had never considered changing it.
+E12,E14,1,< (Precedes),False,hand-painted in a flowing script,old sign still hangs above the stall
+E12,E15,1,< (Precedes),False,hand-painted in a flowing script,Customers still give directions by referencing the pale green lettering.
+E12,E16,1,< (Precedes),False,hand-painted in a flowing script,had faded over the decades to a gentle palette of pale green and cream
+E13,E1,-4,si (Started By),False,had never considered changing it.,founded the business
+E13,E2,-5,di (Contains),False,had never considered changing it.,painted by his father
+E13,E3,2,m (Meets),False,had never considered changing it.,visited the stall
+E13,E4,1,< (Precedes),False,had never considered changing it.,offered to replace the old sign
+E13,E5,1,< (Precedes),False,had never considered changing it.,urged him to accept
+E13,E6,1,< (Precedes),False,had never considered changing it.,thought about it
+E13,E7,1,< (Precedes),False,had never considered changing it.,made his decision
+E13,E8,1,< (Precedes),False,had never considered changing it.,refused the offer
+E13,E9,1,< (Precedes),False,had never considered changing it.,tried to negotiate
+E13,E10,1,< (Precedes),False,had never considered changing it.,understands his father's decision
+E13,E11,1,< (Precedes),False,had never considered changing it.,told his own children
+E13,E12,-5,di (Contains),False,had never considered changing it.,hand-painted in a flowing script
+E13,E14,1,< (Precedes),False,had never considered changing it.,old sign still hangs above the stall
+E13,E15,3,o (Overlaps),False,had never considered changing it.,Customers still give directions by referencing the pale green lettering.
+E13,E16,-6,fi (Finished By),False,had never considered changing it.,had faded over the decades to a gentle palette of pale green and cream
+E14,E1,-1,> (Preceded By),False,old sign still hangs above the stall,founded the business
+E14,E2,-1,> (Preceded By),False,old sign still hangs above the stall,painted by his father
+E14,E3,-1,> (Preceded By),False,old sign still hangs above the stall,visited the stall
+E14,E4,-1,> (Preceded By),False,old sign still hangs above the stall,offered to replace the old sign
+E14,E5,-1,> (Preceded By),False,old sign still hangs above the stall,urged him to accept
+E14,E6,-1,> (Preceded By),False,old sign still hangs above the stall,thought about it
+E14,E7,-1,> (Preceded By),False,old sign still hangs above the stall,made his decision
+E14,E8,-1,> (Preceded By),False,old sign still hangs above the stall,refused the offer
+E14,E9,-1,> (Preceded By),False,old sign still hangs above the stall,tried to negotiate
+E14,E10,-5,di (Contains),False,old sign still hangs above the stall,understands his father's decision
+E14,E11,-5,di (Contains),False,old sign still hangs above the stall,told his own children
+E14,E12,-1,> (Preceded By),False,old sign still hangs above the stall,hand-painted in a flowing script
+E14,E13,-1,> (Preceded By),False,old sign still hangs above the stall,had never considered changing it.
+E14,E15,6,f (Finishes),False,old sign still hangs above the stall,Customers still give directions by referencing the pale green lettering.
+E14,E16,-1,> (Preceded By),False,old sign still hangs above the stall,had faded over the decades to a gentle palette of pale green and cream
+E15,E1,-1,> (Preceded By),False,Customers still give directions by referencing the pale green lettering.,founded the business
+E15,E2,-1,> (Preceded By),False,Customers still give directions by referencing the pale green lettering.,painted by his father
+E15,E3,-5,di (Contains),False,Customers still give directions by referencing the pale green lettering.,visited the stall
+E15,E4,-5,di (Contains),False,Customers still give directions by referencing the pale green lettering.,offered to replace the old sign
+E15,E5,-5,di (Contains),False,Customers still give directions by referencing the pale green lettering.,urged him to accept
+E15,E6,-5,di (Contains),False,Customers still give directions by referencing the pale green lettering.,thought about it
+E15,E7,-5,di (Contains),False,Customers still give directions by referencing the pale green lettering.,made his decision
+E15,E8,-5,di (Contains),False,Customers still give directions by referencing the pale green lettering.,refused the offer
+E15,E9,-5,di (Contains),False,Customers still give directions by referencing the pale green lettering.,tried to negotiate
+E15,E10,-5,di (Contains),False,Customers still give directions by referencing the pale green lettering.,understands his father's decision
+E15,E11,-5,di (Contains),False,Customers still give directions by referencing the pale green lettering.,told his own children
+E15,E12,-1,> (Preceded By),False,Customers still give directions by referencing the pale green lettering.,hand-painted in a flowing script
+E15,E13,-3,oi (Overlapped By),False,Customers still give directions by referencing the pale green lettering.,had never considered changing it.
+E15,E14,-6,fi (Finished By),False,Customers still give directions by referencing the pale green lettering.,old sign still hangs above the stall
+E15,E16,-4,si (Started By),False,Customers still give directions by referencing the pale green lettering.,had faded over the decades to a gentle palette of pale green and cream
+E16,E1,-1,> (Preceded By),False,had faded over the decades to a gentle palette of pale green and cream,founded the business
+E16,E2,-1,> (Preceded By),False,had faded over the decades to a gentle palette of pale green and cream,painted by his father
+E16,E3,2,m (Meets),False,had faded over the decades to a gentle palette of pale green and cream,visited the stall
+E16,E4,1,< (Precedes),False,had faded over the decades to a gentle palette of pale green and cream,offered to replace the old sign
+E16,E5,1,< (Precedes),False,had faded over the decades to a gentle palette of pale green and cream,urged him to accept
+E16,E6,1,< (Precedes),False,had faded over the decades to a gentle palette of pale green and cream,thought about it
+E16,E7,1,< (Precedes),False,had faded over the decades to a gentle palette of pale green and cream,made his decision
+E16,E8,1,< (Precedes),False,had faded over the decades to a gentle palette of pale green and cream,refused the offer
+E16,E9,1,< (Precedes),False,had faded over the decades to a gentle palette of pale green and cream,tried to negotiate
+E16,E10,1,< (Precedes),False,had faded over the decades to a gentle palette of pale green and cream,understands his father's decision
+E16,E11,1,< (Precedes),False,had faded over the decades to a gentle palette of pale green and cream,told his own children
+E16,E12,-1,> (Preceded By),False,had faded over the decades to a gentle palette of pale green and cream,hand-painted in a flowing script
+E16,E13,6,f (Finishes),False,had faded over the decades to a gentle palette of pale green and cream,had never considered changing it.
+E16,E14,1,< (Precedes),False,had faded over the decades to a gentle palette of pale green and cream,old sign still hangs above the stall
+E16,E15,4,s (Starts),False,had faded over the decades to a gentle palette of pale green and cream,Customers still give directions by referencing the pale green lettering.

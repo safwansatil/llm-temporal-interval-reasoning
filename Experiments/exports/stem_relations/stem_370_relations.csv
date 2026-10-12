@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,commuting on the 7:15 bus,The bus was late
+E1,E3,1,< (Precedes),False,commuting on the 7:15 bus,The bus arrived thirty-seven minutes late
+E1,E4,1,< (Precedes),False,commuting on the 7:15 bus,Jahangir arrived at his office nearly an hour late
+E1,E5,1,< (Precedes),False,commuting on the 7:15 bus,had to explain himself to his supervisor
+E1,E6,1,< (Precedes),False,commuting on the 7:15 bus,made a small adjustment to his routine
+E1,E7,1,< (Precedes),False,commuting on the 7:15 bus,began taking the 7:00 bus
+E1,E8,1,< (Precedes),False,commuting on the 7:15 bus,arriving at work thirty minutes early
+E1,E9,1,< (Precedes),False,commuting on the 7:15 bus,has been taking the 7:00 bus
+E1,E10,1,< (Precedes),False,commuting on the 7:15 bus,considered calling a rickshaw
+E1,E11,1,< (Precedes),False,commuting on the 7:15 bus,a quiet half-hour before the office filled with noise.
+E1,E12,-6,fi (Finished By),False,commuting on the 7:15 bus,it had led him to a better schedule
+E2,E1,-2,mi (Met By),False,The bus was late,commuting on the 7:15 bus
+E2,E3,2,m (Meets),False,The bus was late,The bus arrived thirty-seven minutes late
+E2,E4,1,< (Precedes),False,The bus was late,Jahangir arrived at his office nearly an hour late
+E2,E5,1,< (Precedes),False,The bus was late,had to explain himself to his supervisor
+E2,E6,1,< (Precedes),False,The bus was late,made a small adjustment to his routine
+E2,E7,1,< (Precedes),False,The bus was late,began taking the 7:00 bus
+E2,E8,1,< (Precedes),False,The bus was late,arriving at work thirty minutes early
+E2,E9,1,< (Precedes),False,The bus was late,has been taking the 7:00 bus
+E2,E10,-5,di (Contains),False,The bus was late,considered calling a rickshaw
+E2,E11,1,< (Precedes),False,The bus was late,a quiet half-hour before the office filled with noise.
+E2,E12,-2,mi (Met By),False,The bus was late,it had led him to a better schedule
+E3,E1,-1,> (Preceded By),False,The bus arrived thirty-seven minutes late,commuting on the 7:15 bus
+E3,E2,-2,mi (Met By),False,The bus arrived thirty-seven minutes late,The bus was late
+E3,E4,1,< (Precedes),False,The bus arrived thirty-seven minutes late,Jahangir arrived at his office nearly an hour late
+E3,E5,1,< (Precedes),False,The bus arrived thirty-seven minutes late,had to explain himself to his supervisor
+E3,E6,1,< (Precedes),False,The bus arrived thirty-seven minutes late,made a small adjustment to his routine
+E3,E7,1,< (Precedes),False,The bus arrived thirty-seven minutes late,began taking the 7:00 bus
+E3,E8,1,< (Precedes),False,The bus arrived thirty-seven minutes late,arriving at work thirty minutes early
+E3,E9,1,< (Precedes),False,The bus arrived thirty-seven minutes late,has been taking the 7:00 bus
+E3,E10,-1,> (Preceded By),False,The bus arrived thirty-seven minutes late,considered calling a rickshaw
+E3,E11,1,< (Precedes),False,The bus arrived thirty-seven minutes late,a quiet half-hour before the office filled with noise.
+E3,E12,-1,> (Preceded By),False,The bus arrived thirty-seven minutes late,it had led him to a better schedule
+E4,E1,-1,> (Preceded By),False,Jahangir arrived at his office nearly an hour late,commuting on the 7:15 bus
+E4,E2,-1,> (Preceded By),False,Jahangir arrived at his office nearly an hour late,The bus was late
+E4,E3,-1,> (Preceded By),False,Jahangir arrived at his office nearly an hour late,The bus arrived thirty-seven minutes late
+E4,E5,2,m (Meets),False,Jahangir arrived at his office nearly an hour late,had to explain himself to his supervisor
+E4,E6,1,< (Precedes),False,Jahangir arrived at his office nearly an hour late,made a small adjustment to his routine
+E4,E7,1,< (Precedes),False,Jahangir arrived at his office nearly an hour late,began taking the 7:00 bus
+E4,E8,1,< (Precedes),False,Jahangir arrived at his office nearly an hour late,arriving at work thirty minutes early
+E4,E9,1,< (Precedes),False,Jahangir arrived at his office nearly an hour late,has been taking the 7:00 bus
+E4,E10,-1,> (Preceded By),False,Jahangir arrived at his office nearly an hour late,considered calling a rickshaw
+E4,E11,1,< (Precedes),False,Jahangir arrived at his office nearly an hour late,a quiet half-hour before the office filled with noise.
+E4,E12,-1,> (Preceded By),False,Jahangir arrived at his office nearly an hour late,it had led him to a better schedule
+E5,E1,-1,> (Preceded By),False,had to explain himself to his supervisor,commuting on the 7:15 bus
+E5,E2,-1,> (Preceded By),False,had to explain himself to his supervisor,The bus was late
+E5,E3,-1,> (Preceded By),False,had to explain himself to his supervisor,The bus arrived thirty-seven minutes late
+E5,E4,-2,mi (Met By),False,had to explain himself to his supervisor,Jahangir arrived at his office nearly an hour late
+E5,E6,2,m (Meets),False,had to explain himself to his supervisor,made a small adjustment to his routine
+E5,E7,1,< (Precedes),False,had to explain himself to his supervisor,began taking the 7:00 bus
+E5,E8,1,< (Precedes),False,had to explain himself to his supervisor,arriving at work thirty minutes early
+E5,E9,1,< (Precedes),False,had to explain himself to his supervisor,has been taking the 7:00 bus
+E5,E10,-1,> (Preceded By),False,had to explain himself to his supervisor,considered calling a rickshaw
+E5,E11,1,< (Precedes),False,had to explain himself to his supervisor,a quiet half-hour before the office filled with noise.
+E5,E12,-1,> (Preceded By),False,had to explain himself to his supervisor,it had led him to a better schedule
+E6,E1,-1,> (Preceded By),False,made a small adjustment to his routine,commuting on the 7:15 bus
+E6,E2,-1,> (Preceded By),False,made a small adjustment to his routine,The bus was late
+E6,E3,-1,> (Preceded By),False,made a small adjustment to his routine,The bus arrived thirty-seven minutes late
+E6,E4,-1,> (Preceded By),False,made a small adjustment to his routine,Jahangir arrived at his office nearly an hour late
+E6,E5,-2,mi (Met By),False,made a small adjustment to his routine,had to explain himself to his supervisor
+E6,E7,2,m (Meets),False,made a small adjustment to his routine,began taking the 7:00 bus
+E6,E8,1,< (Precedes),False,made a small adjustment to his routine,arriving at work thirty minutes early
+E6,E9,1,< (Precedes),False,made a small adjustment to his routine,has been taking the 7:00 bus
+E6,E10,-1,> (Preceded By),False,made a small adjustment to his routine,considered calling a rickshaw
+E6,E11,1,< (Precedes),False,made a small adjustment to his routine,a quiet half-hour before the office filled with noise.
+E6,E12,-1,> (Preceded By),False,made a small adjustment to his routine,it had led him to a better schedule
+E7,E1,-1,> (Preceded By),False,began taking the 7:00 bus,commuting on the 7:15 bus
+E7,E2,-1,> (Preceded By),False,began taking the 7:00 bus,The bus was late
+E7,E3,-1,> (Preceded By),False,began taking the 7:00 bus,The bus arrived thirty-seven minutes late
+E7,E4,-1,> (Preceded By),False,began taking the 7:00 bus,Jahangir arrived at his office nearly an hour late
+E7,E5,-1,> (Preceded By),False,began taking the 7:00 bus,had to explain himself to his supervisor
+E7,E6,-2,mi (Met By),False,began taking the 7:00 bus,made a small adjustment to his routine
+E7,E8,2,m (Meets),False,began taking the 7:00 bus,arriving at work thirty minutes early
+E7,E9,1,< (Precedes),False,began taking the 7:00 bus,has been taking the 7:00 bus
+E7,E10,-1,> (Preceded By),False,began taking the 7:00 bus,considered calling a rickshaw
+E7,E11,1,< (Precedes),False,began taking the 7:00 bus,a quiet half-hour before the office filled with noise.
+E7,E12,-1,> (Preceded By),False,began taking the 7:00 bus,it had led him to a better schedule
+E8,E1,-1,> (Preceded By),False,arriving at work thirty minutes early,commuting on the 7:15 bus
+E8,E2,-1,> (Preceded By),False,arriving at work thirty minutes early,The bus was late
+E8,E3,-1,> (Preceded By),False,arriving at work thirty minutes early,The bus arrived thirty-seven minutes late
+E8,E4,-1,> (Preceded By),False,arriving at work thirty minutes early,Jahangir arrived at his office nearly an hour late
+E8,E5,-1,> (Preceded By),False,arriving at work thirty minutes early,had to explain himself to his supervisor
+E8,E6,-1,> (Preceded By),False,arriving at work thirty minutes early,made a small adjustment to his routine
+E8,E7,-2,mi (Met By),False,arriving at work thirty minutes early,began taking the 7:00 bus
+E8,E9,2,m (Meets),False,arriving at work thirty minutes early,has been taking the 7:00 bus
+E8,E10,-1,> (Preceded By),False,arriving at work thirty minutes early,considered calling a rickshaw
+E8,E11,2,m (Meets),False,arriving at work thirty minutes early,a quiet half-hour before the office filled with noise.
+E8,E12,-1,> (Preceded By),False,arriving at work thirty minutes early,it had led him to a better schedule
+E9,E1,-1,> (Preceded By),False,has been taking the 7:00 bus,commuting on the 7:15 bus
+E9,E2,-1,> (Preceded By),False,has been taking the 7:00 bus,The bus was late
+E9,E3,-1,> (Preceded By),False,has been taking the 7:00 bus,The bus arrived thirty-seven minutes late
+E9,E4,-1,> (Preceded By),False,has been taking the 7:00 bus,Jahangir arrived at his office nearly an hour late
+E9,E5,-1,> (Preceded By),False,has been taking the 7:00 bus,had to explain himself to his supervisor
+E9,E6,-1,> (Preceded By),False,has been taking the 7:00 bus,made a small adjustment to his routine
+E9,E7,-1,> (Preceded By),False,has been taking the 7:00 bus,began taking the 7:00 bus
+E9,E8,-2,mi (Met By),False,has been taking the 7:00 bus,arriving at work thirty minutes early
+E9,E10,-1,> (Preceded By),False,has been taking the 7:00 bus,considered calling a rickshaw
+E9,E11,-4,si (Started By),False,has been taking the 7:00 bus,a quiet half-hour before the office filled with noise.
+E9,E12,-1,> (Preceded By),False,has been taking the 7:00 bus,it had led him to a better schedule
+E10,E1,-1,> (Preceded By),False,considered calling a rickshaw,commuting on the 7:15 bus
+E10,E2,5,d (During),False,considered calling a rickshaw,The bus was late
+E10,E3,1,< (Precedes),False,considered calling a rickshaw,The bus arrived thirty-seven minutes late
+E10,E4,1,< (Precedes),False,considered calling a rickshaw,Jahangir arrived at his office nearly an hour late
+E10,E5,1,< (Precedes),False,considered calling a rickshaw,had to explain himself to his supervisor
+E10,E6,1,< (Precedes),False,considered calling a rickshaw,made a small adjustment to his routine
+E10,E7,1,< (Precedes),False,considered calling a rickshaw,began taking the 7:00 bus
+E10,E8,1,< (Precedes),False,considered calling a rickshaw,arriving at work thirty minutes early
+E10,E9,1,< (Precedes),False,considered calling a rickshaw,has been taking the 7:00 bus
+E10,E11,1,< (Precedes),False,considered calling a rickshaw,a quiet half-hour before the office filled with noise.
+E10,E12,-1,> (Preceded By),False,considered calling a rickshaw,it had led him to a better schedule
+E11,E1,-1,> (Preceded By),False,a quiet half-hour before the office filled with noise.,commuting on the 7:15 bus
+E11,E2,-1,> (Preceded By),False,a quiet half-hour before the office filled with noise.,The bus was late
+E11,E3,-1,> (Preceded By),False,a quiet half-hour before the office filled with noise.,The bus arrived thirty-seven minutes late
+E11,E4,-1,> (Preceded By),False,a quiet half-hour before the office filled with noise.,Jahangir arrived at his office nearly an hour late
+E11,E5,-1,> (Preceded By),False,a quiet half-hour before the office filled with noise.,had to explain himself to his supervisor
+E11,E6,-1,> (Preceded By),False,a quiet half-hour before the office filled with noise.,made a small adjustment to his routine
+E11,E7,-1,> (Preceded By),False,a quiet half-hour before the office filled with noise.,began taking the 7:00 bus
+E11,E8,-2,mi (Met By),False,a quiet half-hour before the office filled with noise.,arriving at work thirty minutes early
+E11,E9,4,s (Starts),False,a quiet half-hour before the office filled with noise.,has been taking the 7:00 bus
+E11,E10,-1,> (Preceded By),False,a quiet half-hour before the office filled with noise.,considered calling a rickshaw
+E11,E12,-1,> (Preceded By),False,a quiet half-hour before the office filled with noise.,it had led him to a better schedule
+E12,E1,6,f (Finishes),False,it had led him to a better schedule,commuting on the 7:15 bus
+E12,E2,2,m (Meets),False,it had led him to a better schedule,The bus was late
+E12,E3,1,< (Precedes),False,it had led him to a better schedule,The bus arrived thirty-seven minutes late
+E12,E4,1,< (Precedes),False,it had led him to a better schedule,Jahangir arrived at his office nearly an hour late
+E12,E5,1,< (Precedes),False,it had led him to a better schedule,had to explain himself to his supervisor
+E12,E6,1,< (Precedes),False,it had led him to a better schedule,made a small adjustment to his routine
+E12,E7,1,< (Precedes),False,it had led him to a better schedule,began taking the 7:00 bus
+E12,E8,1,< (Precedes),False,it had led him to a better schedule,arriving at work thirty minutes early
+E12,E9,1,< (Precedes),False,it had led him to a better schedule,has been taking the 7:00 bus
+E12,E10,1,< (Precedes),False,it had led him to a better schedule,considered calling a rickshaw
+E12,E11,1,< (Precedes),False,it had led him to a better schedule,a quiet half-hour before the office filled with noise.

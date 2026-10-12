@@ -1,0 +1,157 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,Kamal's father had opened,he had retired
+E1,E3,1,< (Precedes),False,Kamal's father had opened,the landlord raised the rent
+E1,E4,1,< (Precedes),False,Kamal's father had opened,spent three weeks in April trying to find a new location
+E1,E5,1,< (Precedes),False,Kamal's father had opened,The last major sale had been during the Ekushey Book Fair in February
+E1,E6,1,< (Precedes),False,Kamal's father had opened,Kamal sat behind the old wooden counter going through the remaining inventory
+E1,E7,1,< (Precedes),False,Kamal's father had opened,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E1,E8,1,< (Precedes),False,Kamal's father had opened,the shelves had thinned out considerably
+E1,E9,1,< (Precedes),False,Kamal's father had opened,Kamal donated a large portion of the older stock to a school library
+E1,E10,1,< (Precedes),False,Kamal's father had opened,his father traveled down from Narayanganj
+E1,E11,1,< (Precedes),False,Kamal's father had opened,He stood at the entrance for a long moment before stepping inside
+E1,E12,1,< (Precedes),False,Kamal's father had opened,publisher set up a temporary stall beside the shop and brought in a crowd
+E1,E13,1,< (Precedes),False,Kamal's father had opened,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E2,E1,-1,> (Preceded By),False,he had retired,Kamal's father had opened
+E2,E3,1,< (Precedes),False,he had retired,the landlord raised the rent
+E2,E4,1,< (Precedes),False,he had retired,spent three weeks in April trying to find a new location
+E2,E5,1,< (Precedes),False,he had retired,The last major sale had been during the Ekushey Book Fair in February
+E2,E6,1,< (Precedes),False,he had retired,Kamal sat behind the old wooden counter going through the remaining inventory
+E2,E7,1,< (Precedes),False,he had retired,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E2,E8,1,< (Precedes),False,he had retired,the shelves had thinned out considerably
+E2,E9,1,< (Precedes),False,he had retired,Kamal donated a large portion of the older stock to a school library
+E2,E10,1,< (Precedes),False,he had retired,his father traveled down from Narayanganj
+E2,E11,1,< (Precedes),False,he had retired,He stood at the entrance for a long moment before stepping inside
+E2,E12,1,< (Precedes),False,he had retired,publisher set up a temporary stall beside the shop and brought in a crowd
+E2,E13,-1,> (Preceded By),False,he had retired,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E3,E1,-1,> (Preceded By),False,the landlord raised the rent,Kamal's father had opened
+E3,E2,-1,> (Preceded By),False,the landlord raised the rent,he had retired
+E3,E4,1,< (Precedes),False,the landlord raised the rent,spent three weeks in April trying to find a new location
+E3,E5,-1,> (Preceded By),False,the landlord raised the rent,The last major sale had been during the Ekushey Book Fair in February
+E3,E6,1,< (Precedes),False,the landlord raised the rent,Kamal sat behind the old wooden counter going through the remaining inventory
+E3,E7,1,< (Precedes),False,the landlord raised the rent,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E3,E8,1,< (Precedes),False,the landlord raised the rent,the shelves had thinned out considerably
+E3,E9,1,< (Precedes),False,the landlord raised the rent,Kamal donated a large portion of the older stock to a school library
+E3,E10,1,< (Precedes),False,the landlord raised the rent,his father traveled down from Narayanganj
+E3,E11,1,< (Precedes),False,the landlord raised the rent,He stood at the entrance for a long moment before stepping inside
+E3,E12,-1,> (Preceded By),False,the landlord raised the rent,publisher set up a temporary stall beside the shop and brought in a crowd
+E3,E13,-1,> (Preceded By),False,the landlord raised the rent,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E4,E1,-1,> (Preceded By),False,spent three weeks in April trying to find a new location,Kamal's father had opened
+E4,E2,-1,> (Preceded By),False,spent three weeks in April trying to find a new location,he had retired
+E4,E3,-1,> (Preceded By),False,spent three weeks in April trying to find a new location,the landlord raised the rent
+E4,E5,-1,> (Preceded By),False,spent three weeks in April trying to find a new location,The last major sale had been during the Ekushey Book Fair in February
+E4,E6,1,< (Precedes),False,spent three weeks in April trying to find a new location,Kamal sat behind the old wooden counter going through the remaining inventory
+E4,E7,1,< (Precedes),False,spent three weeks in April trying to find a new location,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E4,E8,1,< (Precedes),False,spent three weeks in April trying to find a new location,the shelves had thinned out considerably
+E4,E9,1,< (Precedes),False,spent three weeks in April trying to find a new location,Kamal donated a large portion of the older stock to a school library
+E4,E10,1,< (Precedes),False,spent three weeks in April trying to find a new location,his father traveled down from Narayanganj
+E4,E11,1,< (Precedes),False,spent three weeks in April trying to find a new location,He stood at the entrance for a long moment before stepping inside
+E4,E12,-1,> (Preceded By),False,spent three weeks in April trying to find a new location,publisher set up a temporary stall beside the shop and brought in a crowd
+E4,E13,-1,> (Preceded By),False,spent three weeks in April trying to find a new location,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E5,E1,-1,> (Preceded By),False,The last major sale had been during the Ekushey Book Fair in February,Kamal's father had opened
+E5,E2,-1,> (Preceded By),False,The last major sale had been during the Ekushey Book Fair in February,he had retired
+E5,E3,1,< (Precedes),False,The last major sale had been during the Ekushey Book Fair in February,the landlord raised the rent
+E5,E4,1,< (Precedes),False,The last major sale had been during the Ekushey Book Fair in February,spent three weeks in April trying to find a new location
+E5,E6,1,< (Precedes),False,The last major sale had been during the Ekushey Book Fair in February,Kamal sat behind the old wooden counter going through the remaining inventory
+E5,E7,1,< (Precedes),False,The last major sale had been during the Ekushey Book Fair in February,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E5,E8,1,< (Precedes),False,The last major sale had been during the Ekushey Book Fair in February,the shelves had thinned out considerably
+E5,E9,1,< (Precedes),False,The last major sale had been during the Ekushey Book Fair in February,Kamal donated a large portion of the older stock to a school library
+E5,E10,1,< (Precedes),False,The last major sale had been during the Ekushey Book Fair in February,his father traveled down from Narayanganj
+E5,E11,1,< (Precedes),False,The last major sale had been during the Ekushey Book Fair in February,He stood at the entrance for a long moment before stepping inside
+E5,E12,0,= (Equal),False,The last major sale had been during the Ekushey Book Fair in February,publisher set up a temporary stall beside the shop and brought in a crowd
+E5,E13,-1,> (Preceded By),False,The last major sale had been during the Ekushey Book Fair in February,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E6,E1,-1,> (Preceded By),False,Kamal sat behind the old wooden counter going through the remaining inventory,Kamal's father had opened
+E6,E2,-1,> (Preceded By),False,Kamal sat behind the old wooden counter going through the remaining inventory,he had retired
+E6,E3,-1,> (Preceded By),False,Kamal sat behind the old wooden counter going through the remaining inventory,the landlord raised the rent
+E6,E4,-1,> (Preceded By),False,Kamal sat behind the old wooden counter going through the remaining inventory,spent three weeks in April trying to find a new location
+E6,E5,-1,> (Preceded By),False,Kamal sat behind the old wooden counter going through the remaining inventory,The last major sale had been during the Ekushey Book Fair in February
+E6,E7,3,o (Overlaps),False,Kamal sat behind the old wooden counter going through the remaining inventory,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E6,E8,1,< (Precedes),False,Kamal sat behind the old wooden counter going through the remaining inventory,the shelves had thinned out considerably
+E6,E9,1,< (Precedes),False,Kamal sat behind the old wooden counter going through the remaining inventory,Kamal donated a large portion of the older stock to a school library
+E6,E10,1,< (Precedes),False,Kamal sat behind the old wooden counter going through the remaining inventory,his father traveled down from Narayanganj
+E6,E11,1,< (Precedes),False,Kamal sat behind the old wooden counter going through the remaining inventory,He stood at the entrance for a long moment before stepping inside
+E6,E12,-1,> (Preceded By),False,Kamal sat behind the old wooden counter going through the remaining inventory,publisher set up a temporary stall beside the shop and brought in a crowd
+E6,E13,-1,> (Preceded By),False,Kamal sat behind the old wooden counter going through the remaining inventory,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E7,E1,-1,> (Preceded By),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,Kamal's father had opened
+E7,E2,-1,> (Preceded By),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,he had retired
+E7,E3,-1,> (Preceded By),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,the landlord raised the rent
+E7,E4,-1,> (Preceded By),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,spent three weeks in April trying to find a new location
+E7,E5,-1,> (Preceded By),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,The last major sale had been during the Ekushey Book Fair in February
+E7,E6,-3,oi (Overlapped By),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,Kamal sat behind the old wooden counter going through the remaining inventory
+E7,E8,1,< (Precedes),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,the shelves had thinned out considerably
+E7,E9,1,< (Precedes),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,Kamal donated a large portion of the older stock to a school library
+E7,E10,1,< (Precedes),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,his father traveled down from Narayanganj
+E7,E11,1,< (Precedes),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,He stood at the entrance for a long moment before stepping inside
+E7,E12,-1,> (Preceded By),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,publisher set up a temporary stall beside the shop and brought in a crowd
+E7,E13,-1,> (Preceded By),False,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E8,E1,-1,> (Preceded By),False,the shelves had thinned out considerably,Kamal's father had opened
+E8,E2,-1,> (Preceded By),False,the shelves had thinned out considerably,he had retired
+E8,E3,-1,> (Preceded By),False,the shelves had thinned out considerably,the landlord raised the rent
+E8,E4,-1,> (Preceded By),False,the shelves had thinned out considerably,spent three weeks in April trying to find a new location
+E8,E5,-1,> (Preceded By),False,the shelves had thinned out considerably,The last major sale had been during the Ekushey Book Fair in February
+E8,E6,-1,> (Preceded By),False,the shelves had thinned out considerably,Kamal sat behind the old wooden counter going through the remaining inventory
+E8,E7,-1,> (Preceded By),False,the shelves had thinned out considerably,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E8,E9,1,< (Precedes),False,the shelves had thinned out considerably,Kamal donated a large portion of the older stock to a school library
+E8,E10,1,< (Precedes),False,the shelves had thinned out considerably,his father traveled down from Narayanganj
+E8,E11,1,< (Precedes),False,the shelves had thinned out considerably,He stood at the entrance for a long moment before stepping inside
+E8,E12,-1,> (Preceded By),False,the shelves had thinned out considerably,publisher set up a temporary stall beside the shop and brought in a crowd
+E8,E13,-1,> (Preceded By),False,the shelves had thinned out considerably,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E9,E1,-1,> (Preceded By),False,Kamal donated a large portion of the older stock to a school library,Kamal's father had opened
+E9,E2,-1,> (Preceded By),False,Kamal donated a large portion of the older stock to a school library,he had retired
+E9,E3,-1,> (Preceded By),False,Kamal donated a large portion of the older stock to a school library,the landlord raised the rent
+E9,E4,-1,> (Preceded By),False,Kamal donated a large portion of the older stock to a school library,spent three weeks in April trying to find a new location
+E9,E5,-1,> (Preceded By),False,Kamal donated a large portion of the older stock to a school library,The last major sale had been during the Ekushey Book Fair in February
+E9,E6,-1,> (Preceded By),False,Kamal donated a large portion of the older stock to a school library,Kamal sat behind the old wooden counter going through the remaining inventory
+E9,E7,-1,> (Preceded By),False,Kamal donated a large portion of the older stock to a school library,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E9,E8,-1,> (Preceded By),False,Kamal donated a large portion of the older stock to a school library,the shelves had thinned out considerably
+E9,E10,1,< (Precedes),False,Kamal donated a large portion of the older stock to a school library,his father traveled down from Narayanganj
+E9,E11,1,< (Precedes),False,Kamal donated a large portion of the older stock to a school library,He stood at the entrance for a long moment before stepping inside
+E9,E12,-1,> (Preceded By),False,Kamal donated a large portion of the older stock to a school library,publisher set up a temporary stall beside the shop and brought in a crowd
+E9,E13,-1,> (Preceded By),False,Kamal donated a large portion of the older stock to a school library,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E10,E1,-1,> (Preceded By),False,his father traveled down from Narayanganj,Kamal's father had opened
+E10,E2,-1,> (Preceded By),False,his father traveled down from Narayanganj,he had retired
+E10,E3,-1,> (Preceded By),False,his father traveled down from Narayanganj,the landlord raised the rent
+E10,E4,-1,> (Preceded By),False,his father traveled down from Narayanganj,spent three weeks in April trying to find a new location
+E10,E5,-1,> (Preceded By),False,his father traveled down from Narayanganj,The last major sale had been during the Ekushey Book Fair in February
+E10,E6,-1,> (Preceded By),False,his father traveled down from Narayanganj,Kamal sat behind the old wooden counter going through the remaining inventory
+E10,E7,-1,> (Preceded By),False,his father traveled down from Narayanganj,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E10,E8,-1,> (Preceded By),False,his father traveled down from Narayanganj,the shelves had thinned out considerably
+E10,E9,-1,> (Preceded By),False,his father traveled down from Narayanganj,Kamal donated a large portion of the older stock to a school library
+E10,E11,1,< (Precedes),False,his father traveled down from Narayanganj,He stood at the entrance for a long moment before stepping inside
+E10,E12,-1,> (Preceded By),False,his father traveled down from Narayanganj,publisher set up a temporary stall beside the shop and brought in a crowd
+E10,E13,-1,> (Preceded By),False,his father traveled down from Narayanganj,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E11,E1,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,Kamal's father had opened
+E11,E2,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,he had retired
+E11,E3,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,the landlord raised the rent
+E11,E4,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,spent three weeks in April trying to find a new location
+E11,E5,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,The last major sale had been during the Ekushey Book Fair in February
+E11,E6,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,Kamal sat behind the old wooden counter going through the remaining inventory
+E11,E7,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E11,E8,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,the shelves had thinned out considerably
+E11,E9,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,Kamal donated a large portion of the older stock to a school library
+E11,E10,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,his father traveled down from Narayanganj
+E11,E12,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,publisher set up a temporary stall beside the shop and brought in a crowd
+E11,E13,-1,> (Preceded By),False,He stood at the entrance for a long moment before stepping inside,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E12,E1,-1,> (Preceded By),False,publisher set up a temporary stall beside the shop and brought in a crowd,Kamal's father had opened
+E12,E2,-1,> (Preceded By),False,publisher set up a temporary stall beside the shop and brought in a crowd,he had retired
+E12,E3,1,< (Precedes),False,publisher set up a temporary stall beside the shop and brought in a crowd,the landlord raised the rent
+E12,E4,1,< (Precedes),False,publisher set up a temporary stall beside the shop and brought in a crowd,spent three weeks in April trying to find a new location
+E12,E5,0,= (Equal),False,publisher set up a temporary stall beside the shop and brought in a crowd,The last major sale had been during the Ekushey Book Fair in February
+E12,E6,1,< (Precedes),False,publisher set up a temporary stall beside the shop and brought in a crowd,Kamal sat behind the old wooden counter going through the remaining inventory
+E12,E7,1,< (Precedes),False,publisher set up a temporary stall beside the shop and brought in a crowd,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E12,E8,1,< (Precedes),False,publisher set up a temporary stall beside the shop and brought in a crowd,the shelves had thinned out considerably
+E12,E9,1,< (Precedes),False,publisher set up a temporary stall beside the shop and brought in a crowd,Kamal donated a large portion of the older stock to a school library
+E12,E10,1,< (Precedes),False,publisher set up a temporary stall beside the shop and brought in a crowd,his father traveled down from Narayanganj
+E12,E11,1,< (Precedes),False,publisher set up a temporary stall beside the shop and brought in a crowd,He stood at the entrance for a long moment before stepping inside
+E12,E13,-1,> (Preceded By),False,publisher set up a temporary stall beside the shop and brought in a crowd,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan
+E13,E1,-1,> (Preceded By),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,Kamal's father had opened
+E13,E2,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,he had retired
+E13,E3,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,the landlord raised the rent
+E13,E4,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,spent three weeks in April trying to find a new location
+E13,E5,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,The last major sale had been during the Ekushey Book Fair in February
+E13,E6,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,Kamal sat behind the old wooden counter going through the remaining inventory
+E13,E7,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,A young woman came in that afternoon and spent nearly an hour browsing before buying a copy of a novel by Humayun Ahmed
+E13,E8,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,the shelves had thinned out considerably
+E13,E9,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,Kamal donated a large portion of the older stock to a school library
+E13,E10,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,his father traveled down from Narayanganj
+E13,E11,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,He stood at the entrance for a long moment before stepping inside
+E13,E12,1,< (Precedes),False,She told him her father used to bring her to this exact shop every year during her childhood when they lived in Paltan,publisher set up a temporary stall beside the shop and brought in a crowd

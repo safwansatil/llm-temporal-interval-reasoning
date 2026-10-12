@@ -1,0 +1,463 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,The stray dog appeared in the neighborhood,scavenged for food near the market
+E1,E3,2,m (Meets),False,The stray dog appeared in the neighborhood,slept in a drainage pipe
+E1,E4,2,m (Meets),False,The stray dog appeared in the neighborhood,children who sometimes threw stones
+E1,E5,1,< (Precedes),False,The stray dog appeared in the neighborhood,noticed the dog
+E1,E6,1,< (Precedes),False,The stray dog appeared in the neighborhood,began leaving a bowl of rice and water outside her gate
+E1,E7,1,< (Precedes),False,The stray dog appeared in the neighborhood,the dog would not approach until she had gone back inside
+E1,E8,1,< (Precedes),False,The stray dog appeared in the neighborhood,it would eat while she watched from her doorstep
+E1,E9,1,< (Precedes),False,The stray dog appeared in the neighborhood,it allowed her to sit nearby
+E1,E10,1,< (Precedes),False,The stray dog appeared in the neighborhood,the dog followed her home
+E1,E11,1,< (Precedes),False,The stray dog appeared in the neighborhood,"It sat outside her gate, waiting"
+E1,E12,1,< (Precedes),False,The stray dog appeared in the neighborhood,it wagged its tail for the first time
+E1,E13,1,< (Precedes),False,The stray dog appeared in the neighborhood,She named it Laal
+E1,E14,1,< (Precedes),False,The stray dog appeared in the neighborhood,Laal has lived with Nasima for two years now
+E1,E15,1,< (Precedes),False,The stray dog appeared in the neighborhood,His limp has improved
+E1,E16,1,< (Precedes),False,The stray dog appeared in the neighborhood,his fur is clean
+E1,E17,1,< (Precedes),False,The stray dog appeared in the neighborhood,he accompanies her on every walk
+E1,E18,1,< (Precedes),False,The stray dog appeared in the neighborhood,The neighborhood children no longer throw stones
+E1,E19,1,< (Precedes),False,The stray dog appeared in the neighborhood,They call Laal by name
+E1,E20,1,< (Precedes),False,The stray dog appeared in the neighborhood,sometimes bring him treats
+E1,E21,1,< (Precedes),False,The stray dog appeared in the neighborhood,The stray dog that no one wanted has become the guardian of the lane
+E1,E22,1,< (Precedes),False,The stray dog appeared in the neighborhood,"Nasima, who had been lonely for years, has found a companion"
+E2,E1,-2,mi (Met By),False,scavenged for food near the market,The stray dog appeared in the neighborhood
+E2,E3,0,= (Equal),False,scavenged for food near the market,slept in a drainage pipe
+E2,E4,0,= (Equal),False,scavenged for food near the market,children who sometimes threw stones
+E2,E5,-5,di (Contains),False,scavenged for food near the market,noticed the dog
+E2,E6,-6,fi (Finished By),False,scavenged for food near the market,began leaving a bowl of rice and water outside her gate
+E2,E7,-5,di (Contains),False,scavenged for food near the market,the dog would not approach until she had gone back inside
+E2,E8,-5,di (Contains),False,scavenged for food near the market,it would eat while she watched from her doorstep
+E2,E9,-6,fi (Finished By),False,scavenged for food near the market,it allowed her to sit nearby
+E2,E10,2,m (Meets),False,scavenged for food near the market,the dog followed her home
+E2,E11,1,< (Precedes),False,scavenged for food near the market,"It sat outside her gate, waiting"
+E2,E12,1,< (Precedes),False,scavenged for food near the market,it wagged its tail for the first time
+E2,E13,1,< (Precedes),False,scavenged for food near the market,She named it Laal
+E2,E14,1,< (Precedes),False,scavenged for food near the market,Laal has lived with Nasima for two years now
+E2,E15,1,< (Precedes),False,scavenged for food near the market,His limp has improved
+E2,E16,1,< (Precedes),False,scavenged for food near the market,his fur is clean
+E2,E17,1,< (Precedes),False,scavenged for food near the market,he accompanies her on every walk
+E2,E18,1,< (Precedes),False,scavenged for food near the market,The neighborhood children no longer throw stones
+E2,E19,1,< (Precedes),False,scavenged for food near the market,They call Laal by name
+E2,E20,1,< (Precedes),False,scavenged for food near the market,sometimes bring him treats
+E2,E21,1,< (Precedes),False,scavenged for food near the market,The stray dog that no one wanted has become the guardian of the lane
+E2,E22,1,< (Precedes),False,scavenged for food near the market,"Nasima, who had been lonely for years, has found a companion"
+E3,E1,-2,mi (Met By),False,slept in a drainage pipe,The stray dog appeared in the neighborhood
+E3,E2,0,= (Equal),False,slept in a drainage pipe,scavenged for food near the market
+E3,E4,0,= (Equal),False,slept in a drainage pipe,children who sometimes threw stones
+E3,E5,-5,di (Contains),False,slept in a drainage pipe,noticed the dog
+E3,E6,-6,fi (Finished By),False,slept in a drainage pipe,began leaving a bowl of rice and water outside her gate
+E3,E7,-5,di (Contains),False,slept in a drainage pipe,the dog would not approach until she had gone back inside
+E3,E8,-5,di (Contains),False,slept in a drainage pipe,it would eat while she watched from her doorstep
+E3,E9,-6,fi (Finished By),False,slept in a drainage pipe,it allowed her to sit nearby
+E3,E10,2,m (Meets),False,slept in a drainage pipe,the dog followed her home
+E3,E11,1,< (Precedes),False,slept in a drainage pipe,"It sat outside her gate, waiting"
+E3,E12,1,< (Precedes),False,slept in a drainage pipe,it wagged its tail for the first time
+E3,E13,1,< (Precedes),False,slept in a drainage pipe,She named it Laal
+E3,E14,1,< (Precedes),False,slept in a drainage pipe,Laal has lived with Nasima for two years now
+E3,E15,1,< (Precedes),False,slept in a drainage pipe,His limp has improved
+E3,E16,1,< (Precedes),False,slept in a drainage pipe,his fur is clean
+E3,E17,1,< (Precedes),False,slept in a drainage pipe,he accompanies her on every walk
+E3,E18,1,< (Precedes),False,slept in a drainage pipe,The neighborhood children no longer throw stones
+E3,E19,1,< (Precedes),False,slept in a drainage pipe,They call Laal by name
+E3,E20,1,< (Precedes),False,slept in a drainage pipe,sometimes bring him treats
+E3,E21,1,< (Precedes),False,slept in a drainage pipe,The stray dog that no one wanted has become the guardian of the lane
+E3,E22,1,< (Precedes),False,slept in a drainage pipe,"Nasima, who had been lonely for years, has found a companion"
+E4,E1,-2,mi (Met By),False,children who sometimes threw stones,The stray dog appeared in the neighborhood
+E4,E2,0,= (Equal),False,children who sometimes threw stones,scavenged for food near the market
+E4,E3,0,= (Equal),False,children who sometimes threw stones,slept in a drainage pipe
+E4,E5,-5,di (Contains),False,children who sometimes threw stones,noticed the dog
+E4,E6,-6,fi (Finished By),False,children who sometimes threw stones,began leaving a bowl of rice and water outside her gate
+E4,E7,-5,di (Contains),False,children who sometimes threw stones,the dog would not approach until she had gone back inside
+E4,E8,-5,di (Contains),False,children who sometimes threw stones,it would eat while she watched from her doorstep
+E4,E9,-6,fi (Finished By),False,children who sometimes threw stones,it allowed her to sit nearby
+E4,E10,2,m (Meets),False,children who sometimes threw stones,the dog followed her home
+E4,E11,1,< (Precedes),False,children who sometimes threw stones,"It sat outside her gate, waiting"
+E4,E12,1,< (Precedes),False,children who sometimes threw stones,it wagged its tail for the first time
+E4,E13,1,< (Precedes),False,children who sometimes threw stones,She named it Laal
+E4,E14,1,< (Precedes),False,children who sometimes threw stones,Laal has lived with Nasima for two years now
+E4,E15,1,< (Precedes),False,children who sometimes threw stones,His limp has improved
+E4,E16,1,< (Precedes),False,children who sometimes threw stones,his fur is clean
+E4,E17,1,< (Precedes),False,children who sometimes threw stones,he accompanies her on every walk
+E4,E18,1,< (Precedes),False,children who sometimes threw stones,The neighborhood children no longer throw stones
+E4,E19,1,< (Precedes),False,children who sometimes threw stones,They call Laal by name
+E4,E20,1,< (Precedes),False,children who sometimes threw stones,sometimes bring him treats
+E4,E21,1,< (Precedes),False,children who sometimes threw stones,The stray dog that no one wanted has become the guardian of the lane
+E4,E22,1,< (Precedes),False,children who sometimes threw stones,"Nasima, who had been lonely for years, has found a companion"
+E5,E1,-1,> (Preceded By),False,noticed the dog,The stray dog appeared in the neighborhood
+E5,E2,5,d (During),False,noticed the dog,scavenged for food near the market
+E5,E3,5,d (During),False,noticed the dog,slept in a drainage pipe
+E5,E4,5,d (During),False,noticed the dog,children who sometimes threw stones
+E5,E6,2,m (Meets),False,noticed the dog,began leaving a bowl of rice and water outside her gate
+E5,E7,2,m (Meets),False,noticed the dog,the dog would not approach until she had gone back inside
+E5,E8,1,< (Precedes),False,noticed the dog,it would eat while she watched from her doorstep
+E5,E9,1,< (Precedes),False,noticed the dog,it allowed her to sit nearby
+E5,E10,1,< (Precedes),False,noticed the dog,the dog followed her home
+E5,E11,1,< (Precedes),False,noticed the dog,"It sat outside her gate, waiting"
+E5,E12,1,< (Precedes),False,noticed the dog,it wagged its tail for the first time
+E5,E13,1,< (Precedes),False,noticed the dog,She named it Laal
+E5,E14,1,< (Precedes),False,noticed the dog,Laal has lived with Nasima for two years now
+E5,E15,1,< (Precedes),False,noticed the dog,His limp has improved
+E5,E16,1,< (Precedes),False,noticed the dog,his fur is clean
+E5,E17,1,< (Precedes),False,noticed the dog,he accompanies her on every walk
+E5,E18,1,< (Precedes),False,noticed the dog,The neighborhood children no longer throw stones
+E5,E19,1,< (Precedes),False,noticed the dog,They call Laal by name
+E5,E20,1,< (Precedes),False,noticed the dog,sometimes bring him treats
+E5,E21,1,< (Precedes),False,noticed the dog,The stray dog that no one wanted has become the guardian of the lane
+E5,E22,1,< (Precedes),False,noticed the dog,"Nasima, who had been lonely for years, has found a companion"
+E6,E1,-1,> (Preceded By),False,began leaving a bowl of rice and water outside her gate,The stray dog appeared in the neighborhood
+E6,E2,6,f (Finishes),False,began leaving a bowl of rice and water outside her gate,scavenged for food near the market
+E6,E3,6,f (Finishes),False,began leaving a bowl of rice and water outside her gate,slept in a drainage pipe
+E6,E4,6,f (Finishes),False,began leaving a bowl of rice and water outside her gate,children who sometimes threw stones
+E6,E5,-2,mi (Met By),False,began leaving a bowl of rice and water outside her gate,noticed the dog
+E6,E7,-4,si (Started By),False,began leaving a bowl of rice and water outside her gate,the dog would not approach until she had gone back inside
+E6,E8,-5,di (Contains),False,began leaving a bowl of rice and water outside her gate,it would eat while she watched from her doorstep
+E6,E9,-6,fi (Finished By),False,began leaving a bowl of rice and water outside her gate,it allowed her to sit nearby
+E6,E10,2,m (Meets),False,began leaving a bowl of rice and water outside her gate,the dog followed her home
+E6,E11,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,"It sat outside her gate, waiting"
+E6,E12,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,it wagged its tail for the first time
+E6,E13,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,She named it Laal
+E6,E14,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,Laal has lived with Nasima for two years now
+E6,E15,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,His limp has improved
+E6,E16,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,his fur is clean
+E6,E17,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,he accompanies her on every walk
+E6,E18,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,The neighborhood children no longer throw stones
+E6,E19,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,They call Laal by name
+E6,E20,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,sometimes bring him treats
+E6,E21,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,The stray dog that no one wanted has become the guardian of the lane
+E6,E22,1,< (Precedes),False,began leaving a bowl of rice and water outside her gate,"Nasima, who had been lonely for years, has found a companion"
+E7,E1,-1,> (Preceded By),False,the dog would not approach until she had gone back inside,The stray dog appeared in the neighborhood
+E7,E2,5,d (During),False,the dog would not approach until she had gone back inside,scavenged for food near the market
+E7,E3,5,d (During),False,the dog would not approach until she had gone back inside,slept in a drainage pipe
+E7,E4,5,d (During),False,the dog would not approach until she had gone back inside,children who sometimes threw stones
+E7,E5,-2,mi (Met By),False,the dog would not approach until she had gone back inside,noticed the dog
+E7,E6,4,s (Starts),False,the dog would not approach until she had gone back inside,began leaving a bowl of rice and water outside her gate
+E7,E8,2,m (Meets),False,the dog would not approach until she had gone back inside,it would eat while she watched from her doorstep
+E7,E9,1,< (Precedes),False,the dog would not approach until she had gone back inside,it allowed her to sit nearby
+E7,E10,1,< (Precedes),False,the dog would not approach until she had gone back inside,the dog followed her home
+E7,E11,1,< (Precedes),False,the dog would not approach until she had gone back inside,"It sat outside her gate, waiting"
+E7,E12,1,< (Precedes),False,the dog would not approach until she had gone back inside,it wagged its tail for the first time
+E7,E13,1,< (Precedes),False,the dog would not approach until she had gone back inside,She named it Laal
+E7,E14,1,< (Precedes),False,the dog would not approach until she had gone back inside,Laal has lived with Nasima for two years now
+E7,E15,1,< (Precedes),False,the dog would not approach until she had gone back inside,His limp has improved
+E7,E16,1,< (Precedes),False,the dog would not approach until she had gone back inside,his fur is clean
+E7,E17,1,< (Precedes),False,the dog would not approach until she had gone back inside,he accompanies her on every walk
+E7,E18,1,< (Precedes),False,the dog would not approach until she had gone back inside,The neighborhood children no longer throw stones
+E7,E19,1,< (Precedes),False,the dog would not approach until she had gone back inside,They call Laal by name
+E7,E20,1,< (Precedes),False,the dog would not approach until she had gone back inside,sometimes bring him treats
+E7,E21,1,< (Precedes),False,the dog would not approach until she had gone back inside,The stray dog that no one wanted has become the guardian of the lane
+E7,E22,1,< (Precedes),False,the dog would not approach until she had gone back inside,"Nasima, who had been lonely for years, has found a companion"
+E8,E1,-1,> (Preceded By),False,it would eat while she watched from her doorstep,The stray dog appeared in the neighborhood
+E8,E2,5,d (During),False,it would eat while she watched from her doorstep,scavenged for food near the market
+E8,E3,5,d (During),False,it would eat while she watched from her doorstep,slept in a drainage pipe
+E8,E4,5,d (During),False,it would eat while she watched from her doorstep,children who sometimes threw stones
+E8,E5,-1,> (Preceded By),False,it would eat while she watched from her doorstep,noticed the dog
+E8,E6,5,d (During),False,it would eat while she watched from her doorstep,began leaving a bowl of rice and water outside her gate
+E8,E7,-2,mi (Met By),False,it would eat while she watched from her doorstep,the dog would not approach until she had gone back inside
+E8,E9,2,m (Meets),False,it would eat while she watched from her doorstep,it allowed her to sit nearby
+E8,E10,1,< (Precedes),False,it would eat while she watched from her doorstep,the dog followed her home
+E8,E11,1,< (Precedes),False,it would eat while she watched from her doorstep,"It sat outside her gate, waiting"
+E8,E12,1,< (Precedes),False,it would eat while she watched from her doorstep,it wagged its tail for the first time
+E8,E13,1,< (Precedes),False,it would eat while she watched from her doorstep,She named it Laal
+E8,E14,1,< (Precedes),False,it would eat while she watched from her doorstep,Laal has lived with Nasima for two years now
+E8,E15,1,< (Precedes),False,it would eat while she watched from her doorstep,His limp has improved
+E8,E16,1,< (Precedes),False,it would eat while she watched from her doorstep,his fur is clean
+E8,E17,1,< (Precedes),False,it would eat while she watched from her doorstep,he accompanies her on every walk
+E8,E18,1,< (Precedes),False,it would eat while she watched from her doorstep,The neighborhood children no longer throw stones
+E8,E19,1,< (Precedes),False,it would eat while she watched from her doorstep,They call Laal by name
+E8,E20,1,< (Precedes),False,it would eat while she watched from her doorstep,sometimes bring him treats
+E8,E21,1,< (Precedes),False,it would eat while she watched from her doorstep,The stray dog that no one wanted has become the guardian of the lane
+E8,E22,1,< (Precedes),False,it would eat while she watched from her doorstep,"Nasima, who had been lonely for years, has found a companion"
+E9,E1,-1,> (Preceded By),False,it allowed her to sit nearby,The stray dog appeared in the neighborhood
+E9,E2,6,f (Finishes),False,it allowed her to sit nearby,scavenged for food near the market
+E9,E3,6,f (Finishes),False,it allowed her to sit nearby,slept in a drainage pipe
+E9,E4,6,f (Finishes),False,it allowed her to sit nearby,children who sometimes threw stones
+E9,E5,-1,> (Preceded By),False,it allowed her to sit nearby,noticed the dog
+E9,E6,6,f (Finishes),False,it allowed her to sit nearby,began leaving a bowl of rice and water outside her gate
+E9,E7,-1,> (Preceded By),False,it allowed her to sit nearby,the dog would not approach until she had gone back inside
+E9,E8,-2,mi (Met By),False,it allowed her to sit nearby,it would eat while she watched from her doorstep
+E9,E10,2,m (Meets),False,it allowed her to sit nearby,the dog followed her home
+E9,E11,1,< (Precedes),False,it allowed her to sit nearby,"It sat outside her gate, waiting"
+E9,E12,1,< (Precedes),False,it allowed her to sit nearby,it wagged its tail for the first time
+E9,E13,1,< (Precedes),False,it allowed her to sit nearby,She named it Laal
+E9,E14,1,< (Precedes),False,it allowed her to sit nearby,Laal has lived with Nasima for two years now
+E9,E15,1,< (Precedes),False,it allowed her to sit nearby,His limp has improved
+E9,E16,1,< (Precedes),False,it allowed her to sit nearby,his fur is clean
+E9,E17,1,< (Precedes),False,it allowed her to sit nearby,he accompanies her on every walk
+E9,E18,1,< (Precedes),False,it allowed her to sit nearby,The neighborhood children no longer throw stones
+E9,E19,1,< (Precedes),False,it allowed her to sit nearby,They call Laal by name
+E9,E20,1,< (Precedes),False,it allowed her to sit nearby,sometimes bring him treats
+E9,E21,1,< (Precedes),False,it allowed her to sit nearby,The stray dog that no one wanted has become the guardian of the lane
+E9,E22,1,< (Precedes),False,it allowed her to sit nearby,"Nasima, who had been lonely for years, has found a companion"
+E10,E1,-1,> (Preceded By),False,the dog followed her home,The stray dog appeared in the neighborhood
+E10,E2,-2,mi (Met By),False,the dog followed her home,scavenged for food near the market
+E10,E3,-2,mi (Met By),False,the dog followed her home,slept in a drainage pipe
+E10,E4,-2,mi (Met By),False,the dog followed her home,children who sometimes threw stones
+E10,E5,-1,> (Preceded By),False,the dog followed her home,noticed the dog
+E10,E6,-2,mi (Met By),False,the dog followed her home,began leaving a bowl of rice and water outside her gate
+E10,E7,-1,> (Preceded By),False,the dog followed her home,the dog would not approach until she had gone back inside
+E10,E8,-1,> (Preceded By),False,the dog followed her home,it would eat while she watched from her doorstep
+E10,E9,-2,mi (Met By),False,the dog followed her home,it allowed her to sit nearby
+E10,E11,2,m (Meets),False,the dog followed her home,"It sat outside her gate, waiting"
+E10,E12,1,< (Precedes),False,the dog followed her home,it wagged its tail for the first time
+E10,E13,1,< (Precedes),False,the dog followed her home,She named it Laal
+E10,E14,1,< (Precedes),False,the dog followed her home,Laal has lived with Nasima for two years now
+E10,E15,1,< (Precedes),False,the dog followed her home,His limp has improved
+E10,E16,1,< (Precedes),False,the dog followed her home,his fur is clean
+E10,E17,1,< (Precedes),False,the dog followed her home,he accompanies her on every walk
+E10,E18,1,< (Precedes),False,the dog followed her home,The neighborhood children no longer throw stones
+E10,E19,1,< (Precedes),False,the dog followed her home,They call Laal by name
+E10,E20,1,< (Precedes),False,the dog followed her home,sometimes bring him treats
+E10,E21,1,< (Precedes),False,the dog followed her home,The stray dog that no one wanted has become the guardian of the lane
+E10,E22,1,< (Precedes),False,the dog followed her home,"Nasima, who had been lonely for years, has found a companion"
+E11,E1,-1,> (Preceded By),False,"It sat outside her gate, waiting",The stray dog appeared in the neighborhood
+E11,E2,-1,> (Preceded By),False,"It sat outside her gate, waiting",scavenged for food near the market
+E11,E3,-1,> (Preceded By),False,"It sat outside her gate, waiting",slept in a drainage pipe
+E11,E4,-1,> (Preceded By),False,"It sat outside her gate, waiting",children who sometimes threw stones
+E11,E5,-1,> (Preceded By),False,"It sat outside her gate, waiting",noticed the dog
+E11,E6,-1,> (Preceded By),False,"It sat outside her gate, waiting",began leaving a bowl of rice and water outside her gate
+E11,E7,-1,> (Preceded By),False,"It sat outside her gate, waiting",the dog would not approach until she had gone back inside
+E11,E8,-1,> (Preceded By),False,"It sat outside her gate, waiting",it would eat while she watched from her doorstep
+E11,E9,-1,> (Preceded By),False,"It sat outside her gate, waiting",it allowed her to sit nearby
+E11,E10,-2,mi (Met By),False,"It sat outside her gate, waiting",the dog followed her home
+E11,E12,2,m (Meets),False,"It sat outside her gate, waiting",it wagged its tail for the first time
+E11,E13,1,< (Precedes),False,"It sat outside her gate, waiting",She named it Laal
+E11,E14,1,< (Precedes),False,"It sat outside her gate, waiting",Laal has lived with Nasima for two years now
+E11,E15,1,< (Precedes),False,"It sat outside her gate, waiting",His limp has improved
+E11,E16,1,< (Precedes),False,"It sat outside her gate, waiting",his fur is clean
+E11,E17,1,< (Precedes),False,"It sat outside her gate, waiting",he accompanies her on every walk
+E11,E18,1,< (Precedes),False,"It sat outside her gate, waiting",The neighborhood children no longer throw stones
+E11,E19,1,< (Precedes),False,"It sat outside her gate, waiting",They call Laal by name
+E11,E20,1,< (Precedes),False,"It sat outside her gate, waiting",sometimes bring him treats
+E11,E21,1,< (Precedes),False,"It sat outside her gate, waiting",The stray dog that no one wanted has become the guardian of the lane
+E11,E22,1,< (Precedes),False,"It sat outside her gate, waiting","Nasima, who had been lonely for years, has found a companion"
+E12,E1,-1,> (Preceded By),False,it wagged its tail for the first time,The stray dog appeared in the neighborhood
+E12,E2,-1,> (Preceded By),False,it wagged its tail for the first time,scavenged for food near the market
+E12,E3,-1,> (Preceded By),False,it wagged its tail for the first time,slept in a drainage pipe
+E12,E4,-1,> (Preceded By),False,it wagged its tail for the first time,children who sometimes threw stones
+E12,E5,-1,> (Preceded By),False,it wagged its tail for the first time,noticed the dog
+E12,E6,-1,> (Preceded By),False,it wagged its tail for the first time,began leaving a bowl of rice and water outside her gate
+E12,E7,-1,> (Preceded By),False,it wagged its tail for the first time,the dog would not approach until she had gone back inside
+E12,E8,-1,> (Preceded By),False,it wagged its tail for the first time,it would eat while she watched from her doorstep
+E12,E9,-1,> (Preceded By),False,it wagged its tail for the first time,it allowed her to sit nearby
+E12,E10,-1,> (Preceded By),False,it wagged its tail for the first time,the dog followed her home
+E12,E11,-2,mi (Met By),False,it wagged its tail for the first time,"It sat outside her gate, waiting"
+E12,E13,2,m (Meets),False,it wagged its tail for the first time,She named it Laal
+E12,E14,1,< (Precedes),False,it wagged its tail for the first time,Laal has lived with Nasima for two years now
+E12,E15,1,< (Precedes),False,it wagged its tail for the first time,His limp has improved
+E12,E16,1,< (Precedes),False,it wagged its tail for the first time,his fur is clean
+E12,E17,1,< (Precedes),False,it wagged its tail for the first time,he accompanies her on every walk
+E12,E18,1,< (Precedes),False,it wagged its tail for the first time,The neighborhood children no longer throw stones
+E12,E19,1,< (Precedes),False,it wagged its tail for the first time,They call Laal by name
+E12,E20,1,< (Precedes),False,it wagged its tail for the first time,sometimes bring him treats
+E12,E21,1,< (Precedes),False,it wagged its tail for the first time,The stray dog that no one wanted has become the guardian of the lane
+E12,E22,1,< (Precedes),False,it wagged its tail for the first time,"Nasima, who had been lonely for years, has found a companion"
+E13,E1,-1,> (Preceded By),False,She named it Laal,The stray dog appeared in the neighborhood
+E13,E2,-1,> (Preceded By),False,She named it Laal,scavenged for food near the market
+E13,E3,-1,> (Preceded By),False,She named it Laal,slept in a drainage pipe
+E13,E4,-1,> (Preceded By),False,She named it Laal,children who sometimes threw stones
+E13,E5,-1,> (Preceded By),False,She named it Laal,noticed the dog
+E13,E6,-1,> (Preceded By),False,She named it Laal,began leaving a bowl of rice and water outside her gate
+E13,E7,-1,> (Preceded By),False,She named it Laal,the dog would not approach until she had gone back inside
+E13,E8,-1,> (Preceded By),False,She named it Laal,it would eat while she watched from her doorstep
+E13,E9,-1,> (Preceded By),False,She named it Laal,it allowed her to sit nearby
+E13,E10,-1,> (Preceded By),False,She named it Laal,the dog followed her home
+E13,E11,-1,> (Preceded By),False,She named it Laal,"It sat outside her gate, waiting"
+E13,E12,-2,mi (Met By),False,She named it Laal,it wagged its tail for the first time
+E13,E14,2,m (Meets),False,She named it Laal,Laal has lived with Nasima for two years now
+E13,E15,2,m (Meets),False,She named it Laal,His limp has improved
+E13,E16,2,m (Meets),False,She named it Laal,his fur is clean
+E13,E17,2,m (Meets),False,She named it Laal,he accompanies her on every walk
+E13,E18,2,m (Meets),False,She named it Laal,The neighborhood children no longer throw stones
+E13,E19,2,m (Meets),False,She named it Laal,They call Laal by name
+E13,E20,2,m (Meets),False,She named it Laal,sometimes bring him treats
+E13,E21,2,m (Meets),False,She named it Laal,The stray dog that no one wanted has become the guardian of the lane
+E13,E22,2,m (Meets),False,She named it Laal,"Nasima, who had been lonely for years, has found a companion"
+E14,E1,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,The stray dog appeared in the neighborhood
+E14,E2,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,scavenged for food near the market
+E14,E3,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,slept in a drainage pipe
+E14,E4,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,children who sometimes threw stones
+E14,E5,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,noticed the dog
+E14,E6,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,began leaving a bowl of rice and water outside her gate
+E14,E7,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,the dog would not approach until she had gone back inside
+E14,E8,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,it would eat while she watched from her doorstep
+E14,E9,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,it allowed her to sit nearby
+E14,E10,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,the dog followed her home
+E14,E11,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,"It sat outside her gate, waiting"
+E14,E12,-1,> (Preceded By),False,Laal has lived with Nasima for two years now,it wagged its tail for the first time
+E14,E13,-2,mi (Met By),False,Laal has lived with Nasima for two years now,She named it Laal
+E14,E15,0,= (Equal),False,Laal has lived with Nasima for two years now,His limp has improved
+E14,E16,0,= (Equal),False,Laal has lived with Nasima for two years now,his fur is clean
+E14,E17,0,= (Equal),False,Laal has lived with Nasima for two years now,he accompanies her on every walk
+E14,E18,0,= (Equal),False,Laal has lived with Nasima for two years now,The neighborhood children no longer throw stones
+E14,E19,0,= (Equal),False,Laal has lived with Nasima for two years now,They call Laal by name
+E14,E20,0,= (Equal),False,Laal has lived with Nasima for two years now,sometimes bring him treats
+E14,E21,0,= (Equal),False,Laal has lived with Nasima for two years now,The stray dog that no one wanted has become the guardian of the lane
+E14,E22,0,= (Equal),False,Laal has lived with Nasima for two years now,"Nasima, who had been lonely for years, has found a companion"
+E15,E1,-1,> (Preceded By),False,His limp has improved,The stray dog appeared in the neighborhood
+E15,E2,-1,> (Preceded By),False,His limp has improved,scavenged for food near the market
+E15,E3,-1,> (Preceded By),False,His limp has improved,slept in a drainage pipe
+E15,E4,-1,> (Preceded By),False,His limp has improved,children who sometimes threw stones
+E15,E5,-1,> (Preceded By),False,His limp has improved,noticed the dog
+E15,E6,-1,> (Preceded By),False,His limp has improved,began leaving a bowl of rice and water outside her gate
+E15,E7,-1,> (Preceded By),False,His limp has improved,the dog would not approach until she had gone back inside
+E15,E8,-1,> (Preceded By),False,His limp has improved,it would eat while she watched from her doorstep
+E15,E9,-1,> (Preceded By),False,His limp has improved,it allowed her to sit nearby
+E15,E10,-1,> (Preceded By),False,His limp has improved,the dog followed her home
+E15,E11,-1,> (Preceded By),False,His limp has improved,"It sat outside her gate, waiting"
+E15,E12,-1,> (Preceded By),False,His limp has improved,it wagged its tail for the first time
+E15,E13,-2,mi (Met By),False,His limp has improved,She named it Laal
+E15,E14,0,= (Equal),False,His limp has improved,Laal has lived with Nasima for two years now
+E15,E16,0,= (Equal),False,His limp has improved,his fur is clean
+E15,E17,0,= (Equal),False,His limp has improved,he accompanies her on every walk
+E15,E18,0,= (Equal),False,His limp has improved,The neighborhood children no longer throw stones
+E15,E19,0,= (Equal),False,His limp has improved,They call Laal by name
+E15,E20,0,= (Equal),False,His limp has improved,sometimes bring him treats
+E15,E21,0,= (Equal),False,His limp has improved,The stray dog that no one wanted has become the guardian of the lane
+E15,E22,0,= (Equal),False,His limp has improved,"Nasima, who had been lonely for years, has found a companion"
+E16,E1,-1,> (Preceded By),False,his fur is clean,The stray dog appeared in the neighborhood
+E16,E2,-1,> (Preceded By),False,his fur is clean,scavenged for food near the market
+E16,E3,-1,> (Preceded By),False,his fur is clean,slept in a drainage pipe
+E16,E4,-1,> (Preceded By),False,his fur is clean,children who sometimes threw stones
+E16,E5,-1,> (Preceded By),False,his fur is clean,noticed the dog
+E16,E6,-1,> (Preceded By),False,his fur is clean,began leaving a bowl of rice and water outside her gate
+E16,E7,-1,> (Preceded By),False,his fur is clean,the dog would not approach until she had gone back inside
+E16,E8,-1,> (Preceded By),False,his fur is clean,it would eat while she watched from her doorstep
+E16,E9,-1,> (Preceded By),False,his fur is clean,it allowed her to sit nearby
+E16,E10,-1,> (Preceded By),False,his fur is clean,the dog followed her home
+E16,E11,-1,> (Preceded By),False,his fur is clean,"It sat outside her gate, waiting"
+E16,E12,-1,> (Preceded By),False,his fur is clean,it wagged its tail for the first time
+E16,E13,-2,mi (Met By),False,his fur is clean,She named it Laal
+E16,E14,0,= (Equal),False,his fur is clean,Laal has lived with Nasima for two years now
+E16,E15,0,= (Equal),False,his fur is clean,His limp has improved
+E16,E17,0,= (Equal),False,his fur is clean,he accompanies her on every walk
+E16,E18,0,= (Equal),False,his fur is clean,The neighborhood children no longer throw stones
+E16,E19,0,= (Equal),False,his fur is clean,They call Laal by name
+E16,E20,0,= (Equal),False,his fur is clean,sometimes bring him treats
+E16,E21,0,= (Equal),False,his fur is clean,The stray dog that no one wanted has become the guardian of the lane
+E16,E22,0,= (Equal),False,his fur is clean,"Nasima, who had been lonely for years, has found a companion"
+E17,E1,-1,> (Preceded By),False,he accompanies her on every walk,The stray dog appeared in the neighborhood
+E17,E2,-1,> (Preceded By),False,he accompanies her on every walk,scavenged for food near the market
+E17,E3,-1,> (Preceded By),False,he accompanies her on every walk,slept in a drainage pipe
+E17,E4,-1,> (Preceded By),False,he accompanies her on every walk,children who sometimes threw stones
+E17,E5,-1,> (Preceded By),False,he accompanies her on every walk,noticed the dog
+E17,E6,-1,> (Preceded By),False,he accompanies her on every walk,began leaving a bowl of rice and water outside her gate
+E17,E7,-1,> (Preceded By),False,he accompanies her on every walk,the dog would not approach until she had gone back inside
+E17,E8,-1,> (Preceded By),False,he accompanies her on every walk,it would eat while she watched from her doorstep
+E17,E9,-1,> (Preceded By),False,he accompanies her on every walk,it allowed her to sit nearby
+E17,E10,-1,> (Preceded By),False,he accompanies her on every walk,the dog followed her home
+E17,E11,-1,> (Preceded By),False,he accompanies her on every walk,"It sat outside her gate, waiting"
+E17,E12,-1,> (Preceded By),False,he accompanies her on every walk,it wagged its tail for the first time
+E17,E13,-2,mi (Met By),False,he accompanies her on every walk,She named it Laal
+E17,E14,0,= (Equal),False,he accompanies her on every walk,Laal has lived with Nasima for two years now
+E17,E15,0,= (Equal),False,he accompanies her on every walk,His limp has improved
+E17,E16,0,= (Equal),False,he accompanies her on every walk,his fur is clean
+E17,E18,0,= (Equal),False,he accompanies her on every walk,The neighborhood children no longer throw stones
+E17,E19,0,= (Equal),False,he accompanies her on every walk,They call Laal by name
+E17,E20,0,= (Equal),False,he accompanies her on every walk,sometimes bring him treats
+E17,E21,0,= (Equal),False,he accompanies her on every walk,The stray dog that no one wanted has become the guardian of the lane
+E17,E22,0,= (Equal),False,he accompanies her on every walk,"Nasima, who had been lonely for years, has found a companion"
+E18,E1,-1,> (Preceded By),False,The neighborhood children no longer throw stones,The stray dog appeared in the neighborhood
+E18,E2,-1,> (Preceded By),False,The neighborhood children no longer throw stones,scavenged for food near the market
+E18,E3,-1,> (Preceded By),False,The neighborhood children no longer throw stones,slept in a drainage pipe
+E18,E4,-1,> (Preceded By),False,The neighborhood children no longer throw stones,children who sometimes threw stones
+E18,E5,-1,> (Preceded By),False,The neighborhood children no longer throw stones,noticed the dog
+E18,E6,-1,> (Preceded By),False,The neighborhood children no longer throw stones,began leaving a bowl of rice and water outside her gate
+E18,E7,-1,> (Preceded By),False,The neighborhood children no longer throw stones,the dog would not approach until she had gone back inside
+E18,E8,-1,> (Preceded By),False,The neighborhood children no longer throw stones,it would eat while she watched from her doorstep
+E18,E9,-1,> (Preceded By),False,The neighborhood children no longer throw stones,it allowed her to sit nearby
+E18,E10,-1,> (Preceded By),False,The neighborhood children no longer throw stones,the dog followed her home
+E18,E11,-1,> (Preceded By),False,The neighborhood children no longer throw stones,"It sat outside her gate, waiting"
+E18,E12,-1,> (Preceded By),False,The neighborhood children no longer throw stones,it wagged its tail for the first time
+E18,E13,-2,mi (Met By),False,The neighborhood children no longer throw stones,She named it Laal
+E18,E14,0,= (Equal),False,The neighborhood children no longer throw stones,Laal has lived with Nasima for two years now
+E18,E15,0,= (Equal),False,The neighborhood children no longer throw stones,His limp has improved
+E18,E16,0,= (Equal),False,The neighborhood children no longer throw stones,his fur is clean
+E18,E17,0,= (Equal),False,The neighborhood children no longer throw stones,he accompanies her on every walk
+E18,E19,0,= (Equal),False,The neighborhood children no longer throw stones,They call Laal by name
+E18,E20,0,= (Equal),False,The neighborhood children no longer throw stones,sometimes bring him treats
+E18,E21,0,= (Equal),False,The neighborhood children no longer throw stones,The stray dog that no one wanted has become the guardian of the lane
+E18,E22,0,= (Equal),False,The neighborhood children no longer throw stones,"Nasima, who had been lonely for years, has found a companion"
+E19,E1,-1,> (Preceded By),False,They call Laal by name,The stray dog appeared in the neighborhood
+E19,E2,-1,> (Preceded By),False,They call Laal by name,scavenged for food near the market
+E19,E3,-1,> (Preceded By),False,They call Laal by name,slept in a drainage pipe
+E19,E4,-1,> (Preceded By),False,They call Laal by name,children who sometimes threw stones
+E19,E5,-1,> (Preceded By),False,They call Laal by name,noticed the dog
+E19,E6,-1,> (Preceded By),False,They call Laal by name,began leaving a bowl of rice and water outside her gate
+E19,E7,-1,> (Preceded By),False,They call Laal by name,the dog would not approach until she had gone back inside
+E19,E8,-1,> (Preceded By),False,They call Laal by name,it would eat while she watched from her doorstep
+E19,E9,-1,> (Preceded By),False,They call Laal by name,it allowed her to sit nearby
+E19,E10,-1,> (Preceded By),False,They call Laal by name,the dog followed her home
+E19,E11,-1,> (Preceded By),False,They call Laal by name,"It sat outside her gate, waiting"
+E19,E12,-1,> (Preceded By),False,They call Laal by name,it wagged its tail for the first time
+E19,E13,-2,mi (Met By),False,They call Laal by name,She named it Laal
+E19,E14,0,= (Equal),False,They call Laal by name,Laal has lived with Nasima for two years now
+E19,E15,0,= (Equal),False,They call Laal by name,His limp has improved
+E19,E16,0,= (Equal),False,They call Laal by name,his fur is clean
+E19,E17,0,= (Equal),False,They call Laal by name,he accompanies her on every walk
+E19,E18,0,= (Equal),False,They call Laal by name,The neighborhood children no longer throw stones
+E19,E20,0,= (Equal),False,They call Laal by name,sometimes bring him treats
+E19,E21,0,= (Equal),False,They call Laal by name,The stray dog that no one wanted has become the guardian of the lane
+E19,E22,0,= (Equal),False,They call Laal by name,"Nasima, who had been lonely for years, has found a companion"
+E20,E1,-1,> (Preceded By),False,sometimes bring him treats,The stray dog appeared in the neighborhood
+E20,E2,-1,> (Preceded By),False,sometimes bring him treats,scavenged for food near the market
+E20,E3,-1,> (Preceded By),False,sometimes bring him treats,slept in a drainage pipe
+E20,E4,-1,> (Preceded By),False,sometimes bring him treats,children who sometimes threw stones
+E20,E5,-1,> (Preceded By),False,sometimes bring him treats,noticed the dog
+E20,E6,-1,> (Preceded By),False,sometimes bring him treats,began leaving a bowl of rice and water outside her gate
+E20,E7,-1,> (Preceded By),False,sometimes bring him treats,the dog would not approach until she had gone back inside
+E20,E8,-1,> (Preceded By),False,sometimes bring him treats,it would eat while she watched from her doorstep
+E20,E9,-1,> (Preceded By),False,sometimes bring him treats,it allowed her to sit nearby
+E20,E10,-1,> (Preceded By),False,sometimes bring him treats,the dog followed her home
+E20,E11,-1,> (Preceded By),False,sometimes bring him treats,"It sat outside her gate, waiting"
+E20,E12,-1,> (Preceded By),False,sometimes bring him treats,it wagged its tail for the first time
+E20,E13,-2,mi (Met By),False,sometimes bring him treats,She named it Laal
+E20,E14,0,= (Equal),False,sometimes bring him treats,Laal has lived with Nasima for two years now
+E20,E15,0,= (Equal),False,sometimes bring him treats,His limp has improved
+E20,E16,0,= (Equal),False,sometimes bring him treats,his fur is clean
+E20,E17,0,= (Equal),False,sometimes bring him treats,he accompanies her on every walk
+E20,E18,0,= (Equal),False,sometimes bring him treats,The neighborhood children no longer throw stones
+E20,E19,0,= (Equal),False,sometimes bring him treats,They call Laal by name
+E20,E21,0,= (Equal),False,sometimes bring him treats,The stray dog that no one wanted has become the guardian of the lane
+E20,E22,0,= (Equal),False,sometimes bring him treats,"Nasima, who had been lonely for years, has found a companion"
+E21,E1,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,The stray dog appeared in the neighborhood
+E21,E2,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,scavenged for food near the market
+E21,E3,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,slept in a drainage pipe
+E21,E4,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,children who sometimes threw stones
+E21,E5,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,noticed the dog
+E21,E6,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,began leaving a bowl of rice and water outside her gate
+E21,E7,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,the dog would not approach until she had gone back inside
+E21,E8,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,it would eat while she watched from her doorstep
+E21,E9,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,it allowed her to sit nearby
+E21,E10,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,the dog followed her home
+E21,E11,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,"It sat outside her gate, waiting"
+E21,E12,-1,> (Preceded By),False,The stray dog that no one wanted has become the guardian of the lane,it wagged its tail for the first time
+E21,E13,-2,mi (Met By),False,The stray dog that no one wanted has become the guardian of the lane,She named it Laal
+E21,E14,0,= (Equal),False,The stray dog that no one wanted has become the guardian of the lane,Laal has lived with Nasima for two years now
+E21,E15,0,= (Equal),False,The stray dog that no one wanted has become the guardian of the lane,His limp has improved
+E21,E16,0,= (Equal),False,The stray dog that no one wanted has become the guardian of the lane,his fur is clean
+E21,E17,0,= (Equal),False,The stray dog that no one wanted has become the guardian of the lane,he accompanies her on every walk
+E21,E18,0,= (Equal),False,The stray dog that no one wanted has become the guardian of the lane,The neighborhood children no longer throw stones
+E21,E19,0,= (Equal),False,The stray dog that no one wanted has become the guardian of the lane,They call Laal by name
+E21,E20,0,= (Equal),False,The stray dog that no one wanted has become the guardian of the lane,sometimes bring him treats
+E21,E22,0,= (Equal),False,The stray dog that no one wanted has become the guardian of the lane,"Nasima, who had been lonely for years, has found a companion"
+E22,E1,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",The stray dog appeared in the neighborhood
+E22,E2,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",scavenged for food near the market
+E22,E3,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",slept in a drainage pipe
+E22,E4,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",children who sometimes threw stones
+E22,E5,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",noticed the dog
+E22,E6,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",began leaving a bowl of rice and water outside her gate
+E22,E7,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",the dog would not approach until she had gone back inside
+E22,E8,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",it would eat while she watched from her doorstep
+E22,E9,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",it allowed her to sit nearby
+E22,E10,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",the dog followed her home
+E22,E11,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion","It sat outside her gate, waiting"
+E22,E12,-1,> (Preceded By),False,"Nasima, who had been lonely for years, has found a companion",it wagged its tail for the first time
+E22,E13,-2,mi (Met By),False,"Nasima, who had been lonely for years, has found a companion",She named it Laal
+E22,E14,0,= (Equal),False,"Nasima, who had been lonely for years, has found a companion",Laal has lived with Nasima for two years now
+E22,E15,0,= (Equal),False,"Nasima, who had been lonely for years, has found a companion",His limp has improved
+E22,E16,0,= (Equal),False,"Nasima, who had been lonely for years, has found a companion",his fur is clean
+E22,E17,0,= (Equal),False,"Nasima, who had been lonely for years, has found a companion",he accompanies her on every walk
+E22,E18,0,= (Equal),False,"Nasima, who had been lonely for years, has found a companion",The neighborhood children no longer throw stones
+E22,E19,0,= (Equal),False,"Nasima, who had been lonely for years, has found a companion",They call Laal by name
+E22,E20,0,= (Equal),False,"Nasima, who had been lonely for years, has found a companion",sometimes bring him treats
+E22,E21,0,= (Equal),False,"Nasima, who had been lonely for years, has found a companion",The stray dog that no one wanted has become the guardian of the lane

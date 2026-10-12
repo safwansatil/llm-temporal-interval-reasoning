@@ -1,0 +1,157 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,admired it in a shop window,purchasing it
+E1,E3,1,< (Precedes),False,admired it in a shop window,wore the jacket
+E1,E4,1,< (Precedes),False,admired it in a shop window,the jacket was stored in a cupboard
+E1,E5,1,< (Precedes),False,admired it in a shop window,His son discovered the jacket
+E1,E6,1,< (Precedes),False,admired it in a shop window,offered it to him
+E1,E7,1,< (Precedes),False,admired it in a shop window,His son wore it
+E1,E8,1,< (Precedes),False,admired it in a shop window,sent a photograph of himself
+E1,E9,1,< (Precedes),False,admired it in a shop window,Mr. Amin looks at that photograph often
+E1,E10,2,m (Meets),False,admired it in a shop window,bought the winter jacket
+E1,E11,1,< (Precedes),False,admired it in a shop window,The first time
+E1,E12,1,< (Precedes),False,admired it in a shop window,The second and third times
+E1,E13,1,< (Precedes),False,admired it in a shop window,The fourth time
+E2,E1,-2,mi (Met By),False,purchasing it,admired it in a shop window
+E2,E3,1,< (Precedes),False,purchasing it,wore the jacket
+E2,E4,1,< (Precedes),False,purchasing it,the jacket was stored in a cupboard
+E2,E5,1,< (Precedes),False,purchasing it,His son discovered the jacket
+E2,E6,1,< (Precedes),False,purchasing it,offered it to him
+E2,E7,1,< (Precedes),False,purchasing it,His son wore it
+E2,E8,1,< (Precedes),False,purchasing it,sent a photograph of himself
+E2,E9,1,< (Precedes),False,purchasing it,Mr. Amin looks at that photograph often
+E2,E10,0,= (Equal),False,purchasing it,bought the winter jacket
+E2,E11,1,< (Precedes),False,purchasing it,The first time
+E2,E12,1,< (Precedes),False,purchasing it,The second and third times
+E2,E13,1,< (Precedes),False,purchasing it,The fourth time
+E3,E1,-1,> (Preceded By),False,wore the jacket,admired it in a shop window
+E3,E2,-1,> (Preceded By),False,wore the jacket,purchasing it
+E3,E4,1,< (Precedes),False,wore the jacket,the jacket was stored in a cupboard
+E3,E5,1,< (Precedes),False,wore the jacket,His son discovered the jacket
+E3,E6,1,< (Precedes),False,wore the jacket,offered it to him
+E3,E7,1,< (Precedes),False,wore the jacket,His son wore it
+E3,E8,1,< (Precedes),False,wore the jacket,sent a photograph of himself
+E3,E9,1,< (Precedes),False,wore the jacket,Mr. Amin looks at that photograph often
+E3,E10,-1,> (Preceded By),False,wore the jacket,bought the winter jacket
+E3,E11,-4,si (Started By),False,wore the jacket,The first time
+E3,E12,-5,di (Contains),False,wore the jacket,The second and third times
+E3,E13,-5,di (Contains),False,wore the jacket,The fourth time
+E4,E1,-1,> (Preceded By),False,the jacket was stored in a cupboard,admired it in a shop window
+E4,E2,-1,> (Preceded By),False,the jacket was stored in a cupboard,purchasing it
+E4,E3,-1,> (Preceded By),False,the jacket was stored in a cupboard,wore the jacket
+E4,E5,2,m (Meets),False,the jacket was stored in a cupboard,His son discovered the jacket
+E4,E6,1,< (Precedes),False,the jacket was stored in a cupboard,offered it to him
+E4,E7,1,< (Precedes),False,the jacket was stored in a cupboard,His son wore it
+E4,E8,1,< (Precedes),False,the jacket was stored in a cupboard,sent a photograph of himself
+E4,E9,1,< (Precedes),False,the jacket was stored in a cupboard,Mr. Amin looks at that photograph often
+E4,E10,-1,> (Preceded By),False,the jacket was stored in a cupboard,bought the winter jacket
+E4,E11,-1,> (Preceded By),False,the jacket was stored in a cupboard,The first time
+E4,E12,-1,> (Preceded By),False,the jacket was stored in a cupboard,The second and third times
+E4,E13,-1,> (Preceded By),False,the jacket was stored in a cupboard,The fourth time
+E5,E1,-1,> (Preceded By),False,His son discovered the jacket,admired it in a shop window
+E5,E2,-1,> (Preceded By),False,His son discovered the jacket,purchasing it
+E5,E3,-1,> (Preceded By),False,His son discovered the jacket,wore the jacket
+E5,E4,-2,mi (Met By),False,His son discovered the jacket,the jacket was stored in a cupboard
+E5,E6,1,< (Precedes),False,His son discovered the jacket,offered it to him
+E5,E7,1,< (Precedes),False,His son discovered the jacket,His son wore it
+E5,E8,1,< (Precedes),False,His son discovered the jacket,sent a photograph of himself
+E5,E9,1,< (Precedes),False,His son discovered the jacket,Mr. Amin looks at that photograph often
+E5,E10,-1,> (Preceded By),False,His son discovered the jacket,bought the winter jacket
+E5,E11,-1,> (Preceded By),False,His son discovered the jacket,The first time
+E5,E12,-1,> (Preceded By),False,His son discovered the jacket,The second and third times
+E5,E13,-1,> (Preceded By),False,His son discovered the jacket,The fourth time
+E6,E1,-1,> (Preceded By),False,offered it to him,admired it in a shop window
+E6,E2,-1,> (Preceded By),False,offered it to him,purchasing it
+E6,E3,-1,> (Preceded By),False,offered it to him,wore the jacket
+E6,E4,-1,> (Preceded By),False,offered it to him,the jacket was stored in a cupboard
+E6,E5,-1,> (Preceded By),False,offered it to him,His son discovered the jacket
+E6,E7,1,< (Precedes),False,offered it to him,His son wore it
+E6,E8,1,< (Precedes),False,offered it to him,sent a photograph of himself
+E6,E9,1,< (Precedes),False,offered it to him,Mr. Amin looks at that photograph often
+E6,E10,-1,> (Preceded By),False,offered it to him,bought the winter jacket
+E6,E11,-1,> (Preceded By),False,offered it to him,The first time
+E6,E12,-1,> (Preceded By),False,offered it to him,The second and third times
+E6,E13,-1,> (Preceded By),False,offered it to him,The fourth time
+E7,E1,-1,> (Preceded By),False,His son wore it,admired it in a shop window
+E7,E2,-1,> (Preceded By),False,His son wore it,purchasing it
+E7,E3,-1,> (Preceded By),False,His son wore it,wore the jacket
+E7,E4,-1,> (Preceded By),False,His son wore it,the jacket was stored in a cupboard
+E7,E5,-1,> (Preceded By),False,His son wore it,His son discovered the jacket
+E7,E6,-1,> (Preceded By),False,His son wore it,offered it to him
+E7,E8,2,m (Meets),False,His son wore it,sent a photograph of himself
+E7,E9,1,< (Precedes),False,His son wore it,Mr. Amin looks at that photograph often
+E7,E10,-1,> (Preceded By),False,His son wore it,bought the winter jacket
+E7,E11,-1,> (Preceded By),False,His son wore it,The first time
+E7,E12,-1,> (Preceded By),False,His son wore it,The second and third times
+E7,E13,-1,> (Preceded By),False,His son wore it,The fourth time
+E8,E1,-1,> (Preceded By),False,sent a photograph of himself,admired it in a shop window
+E8,E2,-1,> (Preceded By),False,sent a photograph of himself,purchasing it
+E8,E3,-1,> (Preceded By),False,sent a photograph of himself,wore the jacket
+E8,E4,-1,> (Preceded By),False,sent a photograph of himself,the jacket was stored in a cupboard
+E8,E5,-1,> (Preceded By),False,sent a photograph of himself,His son discovered the jacket
+E8,E6,-1,> (Preceded By),False,sent a photograph of himself,offered it to him
+E8,E7,-2,mi (Met By),False,sent a photograph of himself,His son wore it
+E8,E9,2,m (Meets),False,sent a photograph of himself,Mr. Amin looks at that photograph often
+E8,E10,-1,> (Preceded By),False,sent a photograph of himself,bought the winter jacket
+E8,E11,-1,> (Preceded By),False,sent a photograph of himself,The first time
+E8,E12,-1,> (Preceded By),False,sent a photograph of himself,The second and third times
+E8,E13,-1,> (Preceded By),False,sent a photograph of himself,The fourth time
+E9,E1,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,admired it in a shop window
+E9,E2,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,purchasing it
+E9,E3,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,wore the jacket
+E9,E4,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,the jacket was stored in a cupboard
+E9,E5,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,His son discovered the jacket
+E9,E6,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,offered it to him
+E9,E7,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,His son wore it
+E9,E8,-2,mi (Met By),False,Mr. Amin looks at that photograph often,sent a photograph of himself
+E9,E10,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,bought the winter jacket
+E9,E11,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,The first time
+E9,E12,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,The second and third times
+E9,E13,-1,> (Preceded By),False,Mr. Amin looks at that photograph often,The fourth time
+E10,E1,-2,mi (Met By),False,bought the winter jacket,admired it in a shop window
+E10,E2,0,= (Equal),False,bought the winter jacket,purchasing it
+E10,E3,1,< (Precedes),False,bought the winter jacket,wore the jacket
+E10,E4,1,< (Precedes),False,bought the winter jacket,the jacket was stored in a cupboard
+E10,E5,1,< (Precedes),False,bought the winter jacket,His son discovered the jacket
+E10,E6,1,< (Precedes),False,bought the winter jacket,offered it to him
+E10,E7,1,< (Precedes),False,bought the winter jacket,His son wore it
+E10,E8,1,< (Precedes),False,bought the winter jacket,sent a photograph of himself
+E10,E9,1,< (Precedes),False,bought the winter jacket,Mr. Amin looks at that photograph often
+E10,E11,1,< (Precedes),False,bought the winter jacket,The first time
+E10,E12,1,< (Precedes),False,bought the winter jacket,The second and third times
+E10,E13,1,< (Precedes),False,bought the winter jacket,The fourth time
+E11,E1,-1,> (Preceded By),False,The first time,admired it in a shop window
+E11,E2,-1,> (Preceded By),False,The first time,purchasing it
+E11,E3,4,s (Starts),False,The first time,wore the jacket
+E11,E4,1,< (Precedes),False,The first time,the jacket was stored in a cupboard
+E11,E5,1,< (Precedes),False,The first time,His son discovered the jacket
+E11,E6,1,< (Precedes),False,The first time,offered it to him
+E11,E7,1,< (Precedes),False,The first time,His son wore it
+E11,E8,1,< (Precedes),False,The first time,sent a photograph of himself
+E11,E9,1,< (Precedes),False,The first time,Mr. Amin looks at that photograph often
+E11,E10,-1,> (Preceded By),False,The first time,bought the winter jacket
+E11,E12,1,< (Precedes),False,The first time,The second and third times
+E11,E13,1,< (Precedes),False,The first time,The fourth time
+E12,E1,-1,> (Preceded By),False,The second and third times,admired it in a shop window
+E12,E2,-1,> (Preceded By),False,The second and third times,purchasing it
+E12,E3,5,d (During),False,The second and third times,wore the jacket
+E12,E4,1,< (Precedes),False,The second and third times,the jacket was stored in a cupboard
+E12,E5,1,< (Precedes),False,The second and third times,His son discovered the jacket
+E12,E6,1,< (Precedes),False,The second and third times,offered it to him
+E12,E7,1,< (Precedes),False,The second and third times,His son wore it
+E12,E8,1,< (Precedes),False,The second and third times,sent a photograph of himself
+E12,E9,1,< (Precedes),False,The second and third times,Mr. Amin looks at that photograph often
+E12,E10,-1,> (Preceded By),False,The second and third times,bought the winter jacket
+E12,E11,-1,> (Preceded By),False,The second and third times,The first time
+E12,E13,1,< (Precedes),False,The second and third times,The fourth time
+E13,E1,-1,> (Preceded By),False,The fourth time,admired it in a shop window
+E13,E2,-1,> (Preceded By),False,The fourth time,purchasing it
+E13,E3,5,d (During),False,The fourth time,wore the jacket
+E13,E4,1,< (Precedes),False,The fourth time,the jacket was stored in a cupboard
+E13,E5,1,< (Precedes),False,The fourth time,His son discovered the jacket
+E13,E6,1,< (Precedes),False,The fourth time,offered it to him
+E13,E7,1,< (Precedes),False,The fourth time,His son wore it
+E13,E8,1,< (Precedes),False,The fourth time,sent a photograph of himself
+E13,E9,1,< (Precedes),False,The fourth time,Mr. Amin looks at that photograph often
+E13,E10,-1,> (Preceded By),False,The fourth time,bought the winter jacket
+E13,E11,-1,> (Preceded By),False,The fourth time,The first time
+E13,E12,-1,> (Preceded By),False,The fourth time,The second and third times

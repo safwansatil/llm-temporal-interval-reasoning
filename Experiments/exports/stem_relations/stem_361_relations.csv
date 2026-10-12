@@ -1,0 +1,91 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,started her rooftop garden,The first tomato appeared
+E1,E3,1,< (Precedes),False,started her rooftop garden,the chili plants were flowering
+E1,E4,1,< (Precedes),False,started her rooftop garden,the lime tree had produced three tiny green fruits
+E1,E5,1,< (Precedes),False,started her rooftop garden,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant"
+E1,E6,1,< (Precedes),False,started her rooftop garden,Her neighbors have followed her example
+E1,E7,0,= (Equal),False,started her rooftop garden,began with five pots
+E1,E8,1,< (Precedes),False,started her rooftop garden,photographed it and sent the image to her friend
+E1,E9,1,< (Precedes),False,started her rooftop garden,She spends thirty minutes each morning
+E1,E10,0,= (Equal),False,started her rooftop garden,had no gardening experience
+E2,E1,-1,> (Preceded By),False,The first tomato appeared,started her rooftop garden
+E2,E3,1,< (Precedes),False,The first tomato appeared,the chili plants were flowering
+E2,E4,1,< (Precedes),False,The first tomato appeared,the lime tree had produced three tiny green fruits
+E2,E5,1,< (Precedes),False,The first tomato appeared,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant"
+E2,E6,1,< (Precedes),False,The first tomato appeared,Her neighbors have followed her example
+E2,E7,-1,> (Preceded By),False,The first tomato appeared,began with five pots
+E2,E8,1,< (Precedes),False,The first tomato appeared,photographed it and sent the image to her friend
+E2,E9,1,< (Precedes),False,The first tomato appeared,She spends thirty minutes each morning
+E2,E10,-1,> (Preceded By),False,The first tomato appeared,had no gardening experience
+E3,E1,-1,> (Preceded By),False,the chili plants were flowering,started her rooftop garden
+E3,E2,-1,> (Preceded By),False,the chili plants were flowering,The first tomato appeared
+E3,E4,4,s (Starts),False,the chili plants were flowering,the lime tree had produced three tiny green fruits
+E3,E5,1,< (Precedes),False,the chili plants were flowering,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant"
+E3,E6,1,< (Precedes),False,the chili plants were flowering,Her neighbors have followed her example
+E3,E7,-1,> (Preceded By),False,the chili plants were flowering,began with five pots
+E3,E8,-1,> (Preceded By),False,the chili plants were flowering,photographed it and sent the image to her friend
+E3,E9,1,< (Precedes),False,the chili plants were flowering,She spends thirty minutes each morning
+E3,E10,-1,> (Preceded By),False,the chili plants were flowering,had no gardening experience
+E4,E1,-1,> (Preceded By),False,the lime tree had produced three tiny green fruits,started her rooftop garden
+E4,E2,-1,> (Preceded By),False,the lime tree had produced three tiny green fruits,The first tomato appeared
+E4,E3,-4,si (Started By),False,the lime tree had produced three tiny green fruits,the chili plants were flowering
+E4,E5,2,m (Meets),False,the lime tree had produced three tiny green fruits,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant"
+E4,E6,1,< (Precedes),False,the lime tree had produced three tiny green fruits,Her neighbors have followed her example
+E4,E7,-1,> (Preceded By),False,the lime tree had produced three tiny green fruits,began with five pots
+E4,E8,-1,> (Preceded By),False,the lime tree had produced three tiny green fruits,photographed it and sent the image to her friend
+E4,E9,2,m (Meets),False,the lime tree had produced three tiny green fruits,She spends thirty minutes each morning
+E4,E10,-1,> (Preceded By),False,the lime tree had produced three tiny green fruits,had no gardening experience
+E5,E1,-1,> (Preceded By),False,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant",started her rooftop garden
+E5,E2,-1,> (Preceded By),False,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant",The first tomato appeared
+E5,E3,-1,> (Preceded By),False,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant",the chili plants were flowering
+E5,E4,-2,mi (Met By),False,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant",the lime tree had produced three tiny green fruits
+E5,E6,1,< (Precedes),False,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant",Her neighbors have followed her example
+E5,E7,-1,> (Preceded By),False,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant",began with five pots
+E5,E8,-1,> (Preceded By),False,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant",photographed it and sent the image to her friend
+E5,E9,4,s (Starts),False,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant",She spends thirty minutes each morning
+E5,E10,-1,> (Preceded By),False,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant",had no gardening experience
+E6,E1,-1,> (Preceded By),False,Her neighbors have followed her example,started her rooftop garden
+E6,E2,-1,> (Preceded By),False,Her neighbors have followed her example,The first tomato appeared
+E6,E3,-1,> (Preceded By),False,Her neighbors have followed her example,the chili plants were flowering
+E6,E4,-1,> (Preceded By),False,Her neighbors have followed her example,the lime tree had produced three tiny green fruits
+E6,E5,-1,> (Preceded By),False,Her neighbors have followed her example,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant"
+E6,E7,-1,> (Preceded By),False,Her neighbors have followed her example,began with five pots
+E6,E8,-1,> (Preceded By),False,Her neighbors have followed her example,photographed it and sent the image to her friend
+E6,E9,5,d (During),False,Her neighbors have followed her example,She spends thirty minutes each morning
+E6,E10,-1,> (Preceded By),False,Her neighbors have followed her example,had no gardening experience
+E7,E1,0,= (Equal),False,began with five pots,started her rooftop garden
+E7,E2,1,< (Precedes),False,began with five pots,The first tomato appeared
+E7,E3,1,< (Precedes),False,began with five pots,the chili plants were flowering
+E7,E4,1,< (Precedes),False,began with five pots,the lime tree had produced three tiny green fruits
+E7,E5,1,< (Precedes),False,began with five pots,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant"
+E7,E6,1,< (Precedes),False,began with five pots,Her neighbors have followed her example
+E7,E8,1,< (Precedes),False,began with five pots,photographed it and sent the image to her friend
+E7,E9,1,< (Precedes),False,began with five pots,She spends thirty minutes each morning
+E7,E10,0,= (Equal),False,began with five pots,had no gardening experience
+E8,E1,-1,> (Preceded By),False,photographed it and sent the image to her friend,started her rooftop garden
+E8,E2,-1,> (Preceded By),False,photographed it and sent the image to her friend,The first tomato appeared
+E8,E3,1,< (Precedes),False,photographed it and sent the image to her friend,the chili plants were flowering
+E8,E4,1,< (Precedes),False,photographed it and sent the image to her friend,the lime tree had produced three tiny green fruits
+E8,E5,1,< (Precedes),False,photographed it and sent the image to her friend,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant"
+E8,E6,1,< (Precedes),False,photographed it and sent the image to her friend,Her neighbors have followed her example
+E8,E7,-1,> (Preceded By),False,photographed it and sent the image to her friend,began with five pots
+E8,E9,1,< (Precedes),False,photographed it and sent the image to her friend,She spends thirty minutes each morning
+E8,E10,-1,> (Preceded By),False,photographed it and sent the image to her friend,had no gardening experience
+E9,E1,-1,> (Preceded By),False,She spends thirty minutes each morning,started her rooftop garden
+E9,E2,-1,> (Preceded By),False,She spends thirty minutes each morning,The first tomato appeared
+E9,E3,-1,> (Preceded By),False,She spends thirty minutes each morning,the chili plants were flowering
+E9,E4,-2,mi (Met By),False,She spends thirty minutes each morning,the lime tree had produced three tiny green fruits
+E9,E5,-4,si (Started By),False,She spends thirty minutes each morning,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant"
+E9,E6,-5,di (Contains),False,She spends thirty minutes each morning,Her neighbors have followed her example
+E9,E7,-1,> (Preceded By),False,She spends thirty minutes each morning,began with five pots
+E9,E8,-1,> (Preceded By),False,She spends thirty minutes each morning,photographed it and sent the image to her friend
+E9,E10,-1,> (Preceded By),False,She spends thirty minutes each morning,had no gardening experience
+E10,E1,0,= (Equal),False,had no gardening experience,started her rooftop garden
+E10,E2,1,< (Precedes),False,had no gardening experience,The first tomato appeared
+E10,E3,1,< (Precedes),False,had no gardening experience,the chili plants were flowering
+E10,E4,1,< (Precedes),False,had no gardening experience,the lime tree had produced three tiny green fruits
+E10,E5,1,< (Precedes),False,had no gardening experience,"Nasreen has added herbs, leafy vegetables, and a climbing bean plant"
+E10,E6,1,< (Precedes),False,had no gardening experience,Her neighbors have followed her example
+E10,E7,0,= (Equal),False,had no gardening experience,began with five pots
+E10,E8,1,< (Precedes),False,had no gardening experience,photographed it and sent the image to her friend
+E10,E9,1,< (Precedes),False,had no gardening experience,She spends thirty minutes each morning

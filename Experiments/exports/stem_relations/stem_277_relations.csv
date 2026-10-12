@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,The previous secretary had resigned,elected secretary of the neighborhood Durga Puja committee
+E1,E3,1,< (Precedes),False,The previous secretary had resigned,reviewing the accounts
+E1,E4,1,< (Precedes),False,The previous secretary had resigned,"visiting local businesses and community members, requesting contributions"
+E1,E5,1,< (Precedes),False,The previous secretary had resigned,secured enough funding to proceed
+E1,E6,1,< (Precedes),False,The previous secretary had resigned,The idol order was placed
+E1,E7,1,< (Precedes),False,The previous secretary had resigned,pandal construction began
+E1,E8,1,< (Precedes),False,The previous secretary had resigned,The decorations were hung
+E1,E9,1,< (Precedes),False,The previous secretary had resigned,The idol arrived
+E1,E10,1,< (Precedes),False,The previous secretary had resigned,was installed
+E1,E11,1,< (Precedes),False,The previous secretary had resigned,The festival began
+E1,E12,1,< (Precedes),False,The previous secretary had resigned,immersion procession was the largest the neighborhood had seen in years
+E1,E13,1,< (Precedes),False,The previous secretary had resigned,The committee held its post-festival meeting
+E1,E14,1,< (Precedes),False,The previous secretary had resigned,Partha presented the final accounts
+E1,E15,1,< (Precedes),False,The previous secretary had resigned,He declined to serve as secretary for another term
+E2,E1,-1,> (Preceded By),False,elected secretary of the neighborhood Durga Puja committee,The previous secretary had resigned
+E2,E3,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,reviewing the accounts
+E2,E4,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,"visiting local businesses and community members, requesting contributions"
+E2,E5,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,secured enough funding to proceed
+E2,E6,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,The idol order was placed
+E2,E7,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,pandal construction began
+E2,E8,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,The decorations were hung
+E2,E9,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,The idol arrived
+E2,E10,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,was installed
+E2,E11,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,The festival began
+E2,E12,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,immersion procession was the largest the neighborhood had seen in years
+E2,E13,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,The committee held its post-festival meeting
+E2,E14,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,Partha presented the final accounts
+E2,E15,1,< (Precedes),False,elected secretary of the neighborhood Durga Puja committee,He declined to serve as secretary for another term
+E3,E1,-1,> (Preceded By),False,reviewing the accounts,The previous secretary had resigned
+E3,E2,-1,> (Preceded By),False,reviewing the accounts,elected secretary of the neighborhood Durga Puja committee
+E3,E4,2,m (Meets),False,reviewing the accounts,"visiting local businesses and community members, requesting contributions"
+E3,E5,1,< (Precedes),False,reviewing the accounts,secured enough funding to proceed
+E3,E6,1,< (Precedes),False,reviewing the accounts,The idol order was placed
+E3,E7,1,< (Precedes),False,reviewing the accounts,pandal construction began
+E3,E8,1,< (Precedes),False,reviewing the accounts,The decorations were hung
+E3,E9,1,< (Precedes),False,reviewing the accounts,The idol arrived
+E3,E10,1,< (Precedes),False,reviewing the accounts,was installed
+E3,E11,1,< (Precedes),False,reviewing the accounts,The festival began
+E3,E12,1,< (Precedes),False,reviewing the accounts,immersion procession was the largest the neighborhood had seen in years
+E3,E13,1,< (Precedes),False,reviewing the accounts,The committee held its post-festival meeting
+E3,E14,1,< (Precedes),False,reviewing the accounts,Partha presented the final accounts
+E3,E15,1,< (Precedes),False,reviewing the accounts,He declined to serve as secretary for another term
+E4,E1,-1,> (Preceded By),False,"visiting local businesses and community members, requesting contributions",The previous secretary had resigned
+E4,E2,-1,> (Preceded By),False,"visiting local businesses and community members, requesting contributions",elected secretary of the neighborhood Durga Puja committee
+E4,E3,-2,mi (Met By),False,"visiting local businesses and community members, requesting contributions",reviewing the accounts
+E4,E5,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",secured enough funding to proceed
+E4,E6,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",The idol order was placed
+E4,E7,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",pandal construction began
+E4,E8,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",The decorations were hung
+E4,E9,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",The idol arrived
+E4,E10,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",was installed
+E4,E11,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",The festival began
+E4,E12,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",immersion procession was the largest the neighborhood had seen in years
+E4,E13,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",The committee held its post-festival meeting
+E4,E14,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",Partha presented the final accounts
+E4,E15,1,< (Precedes),False,"visiting local businesses and community members, requesting contributions",He declined to serve as secretary for another term
+E5,E1,-1,> (Preceded By),False,secured enough funding to proceed,The previous secretary had resigned
+E5,E2,-1,> (Preceded By),False,secured enough funding to proceed,elected secretary of the neighborhood Durga Puja committee
+E5,E3,-1,> (Preceded By),False,secured enough funding to proceed,reviewing the accounts
+E5,E4,-1,> (Preceded By),False,secured enough funding to proceed,"visiting local businesses and community members, requesting contributions"
+E5,E6,1,< (Precedes),False,secured enough funding to proceed,The idol order was placed
+E5,E7,1,< (Precedes),False,secured enough funding to proceed,pandal construction began
+E5,E8,1,< (Precedes),False,secured enough funding to proceed,The decorations were hung
+E5,E9,1,< (Precedes),False,secured enough funding to proceed,The idol arrived
+E5,E10,1,< (Precedes),False,secured enough funding to proceed,was installed
+E5,E11,1,< (Precedes),False,secured enough funding to proceed,The festival began
+E5,E12,1,< (Precedes),False,secured enough funding to proceed,immersion procession was the largest the neighborhood had seen in years
+E5,E13,1,< (Precedes),False,secured enough funding to proceed,The committee held its post-festival meeting
+E5,E14,1,< (Precedes),False,secured enough funding to proceed,Partha presented the final accounts
+E5,E15,1,< (Precedes),False,secured enough funding to proceed,He declined to serve as secretary for another term
+E6,E1,-1,> (Preceded By),False,The idol order was placed,The previous secretary had resigned
+E6,E2,-1,> (Preceded By),False,The idol order was placed,elected secretary of the neighborhood Durga Puja committee
+E6,E3,-1,> (Preceded By),False,The idol order was placed,reviewing the accounts
+E6,E4,-1,> (Preceded By),False,The idol order was placed,"visiting local businesses and community members, requesting contributions"
+E6,E5,-1,> (Preceded By),False,The idol order was placed,secured enough funding to proceed
+E6,E7,1,< (Precedes),False,The idol order was placed,pandal construction began
+E6,E8,1,< (Precedes),False,The idol order was placed,The decorations were hung
+E6,E9,1,< (Precedes),False,The idol order was placed,The idol arrived
+E6,E10,1,< (Precedes),False,The idol order was placed,was installed
+E6,E11,1,< (Precedes),False,The idol order was placed,The festival began
+E6,E12,1,< (Precedes),False,The idol order was placed,immersion procession was the largest the neighborhood had seen in years
+E6,E13,1,< (Precedes),False,The idol order was placed,The committee held its post-festival meeting
+E6,E14,1,< (Precedes),False,The idol order was placed,Partha presented the final accounts
+E6,E15,1,< (Precedes),False,The idol order was placed,He declined to serve as secretary for another term
+E7,E1,-1,> (Preceded By),False,pandal construction began,The previous secretary had resigned
+E7,E2,-1,> (Preceded By),False,pandal construction began,elected secretary of the neighborhood Durga Puja committee
+E7,E3,-1,> (Preceded By),False,pandal construction began,reviewing the accounts
+E7,E4,-1,> (Preceded By),False,pandal construction began,"visiting local businesses and community members, requesting contributions"
+E7,E5,-1,> (Preceded By),False,pandal construction began,secured enough funding to proceed
+E7,E6,-1,> (Preceded By),False,pandal construction began,The idol order was placed
+E7,E8,1,< (Precedes),False,pandal construction began,The decorations were hung
+E7,E9,1,< (Precedes),False,pandal construction began,The idol arrived
+E7,E10,1,< (Precedes),False,pandal construction began,was installed
+E7,E11,1,< (Precedes),False,pandal construction began,The festival began
+E7,E12,1,< (Precedes),False,pandal construction began,immersion procession was the largest the neighborhood had seen in years
+E7,E13,1,< (Precedes),False,pandal construction began,The committee held its post-festival meeting
+E7,E14,1,< (Precedes),False,pandal construction began,Partha presented the final accounts
+E7,E15,1,< (Precedes),False,pandal construction began,He declined to serve as secretary for another term
+E8,E1,-1,> (Preceded By),False,The decorations were hung,The previous secretary had resigned
+E8,E2,-1,> (Preceded By),False,The decorations were hung,elected secretary of the neighborhood Durga Puja committee
+E8,E3,-1,> (Preceded By),False,The decorations were hung,reviewing the accounts
+E8,E4,-1,> (Preceded By),False,The decorations were hung,"visiting local businesses and community members, requesting contributions"
+E8,E5,-1,> (Preceded By),False,The decorations were hung,secured enough funding to proceed
+E8,E6,-1,> (Preceded By),False,The decorations were hung,The idol order was placed
+E8,E7,-1,> (Preceded By),False,The decorations were hung,pandal construction began
+E8,E9,1,< (Precedes),False,The decorations were hung,The idol arrived
+E8,E10,1,< (Precedes),False,The decorations were hung,was installed
+E8,E11,1,< (Precedes),False,The decorations were hung,The festival began
+E8,E12,1,< (Precedes),False,The decorations were hung,immersion procession was the largest the neighborhood had seen in years
+E8,E13,1,< (Precedes),False,The decorations were hung,The committee held its post-festival meeting
+E8,E14,1,< (Precedes),False,The decorations were hung,Partha presented the final accounts
+E8,E15,1,< (Precedes),False,The decorations were hung,He declined to serve as secretary for another term
+E9,E1,-1,> (Preceded By),False,The idol arrived,The previous secretary had resigned
+E9,E2,-1,> (Preceded By),False,The idol arrived,elected secretary of the neighborhood Durga Puja committee
+E9,E3,-1,> (Preceded By),False,The idol arrived,reviewing the accounts
+E9,E4,-1,> (Preceded By),False,The idol arrived,"visiting local businesses and community members, requesting contributions"
+E9,E5,-1,> (Preceded By),False,The idol arrived,secured enough funding to proceed
+E9,E6,-1,> (Preceded By),False,The idol arrived,The idol order was placed
+E9,E7,-1,> (Preceded By),False,The idol arrived,pandal construction began
+E9,E8,-1,> (Preceded By),False,The idol arrived,The decorations were hung
+E9,E10,1,< (Precedes),False,The idol arrived,was installed
+E9,E11,1,< (Precedes),False,The idol arrived,The festival began
+E9,E12,1,< (Precedes),False,The idol arrived,immersion procession was the largest the neighborhood had seen in years
+E9,E13,1,< (Precedes),False,The idol arrived,The committee held its post-festival meeting
+E9,E14,1,< (Precedes),False,The idol arrived,Partha presented the final accounts
+E9,E15,1,< (Precedes),False,The idol arrived,He declined to serve as secretary for another term
+E10,E1,-1,> (Preceded By),False,was installed,The previous secretary had resigned
+E10,E2,-1,> (Preceded By),False,was installed,elected secretary of the neighborhood Durga Puja committee
+E10,E3,-1,> (Preceded By),False,was installed,reviewing the accounts
+E10,E4,-1,> (Preceded By),False,was installed,"visiting local businesses and community members, requesting contributions"
+E10,E5,-1,> (Preceded By),False,was installed,secured enough funding to proceed
+E10,E6,-1,> (Preceded By),False,was installed,The idol order was placed
+E10,E7,-1,> (Preceded By),False,was installed,pandal construction began
+E10,E8,-1,> (Preceded By),False,was installed,The decorations were hung
+E10,E9,-1,> (Preceded By),False,was installed,The idol arrived
+E10,E11,1,< (Precedes),False,was installed,The festival began
+E10,E12,1,< (Precedes),False,was installed,immersion procession was the largest the neighborhood had seen in years
+E10,E13,1,< (Precedes),False,was installed,The committee held its post-festival meeting
+E10,E14,1,< (Precedes),False,was installed,Partha presented the final accounts
+E10,E15,1,< (Precedes),False,was installed,He declined to serve as secretary for another term
+E11,E1,-1,> (Preceded By),False,The festival began,The previous secretary had resigned
+E11,E2,-1,> (Preceded By),False,The festival began,elected secretary of the neighborhood Durga Puja committee
+E11,E3,-1,> (Preceded By),False,The festival began,reviewing the accounts
+E11,E4,-1,> (Preceded By),False,The festival began,"visiting local businesses and community members, requesting contributions"
+E11,E5,-1,> (Preceded By),False,The festival began,secured enough funding to proceed
+E11,E6,-1,> (Preceded By),False,The festival began,The idol order was placed
+E11,E7,-1,> (Preceded By),False,The festival began,pandal construction began
+E11,E8,-1,> (Preceded By),False,The festival began,The decorations were hung
+E11,E9,-1,> (Preceded By),False,The festival began,The idol arrived
+E11,E10,-1,> (Preceded By),False,The festival began,was installed
+E11,E12,1,< (Precedes),False,The festival began,immersion procession was the largest the neighborhood had seen in years
+E11,E13,1,< (Precedes),False,The festival began,The committee held its post-festival meeting
+E11,E14,1,< (Precedes),False,The festival began,Partha presented the final accounts
+E11,E15,1,< (Precedes),False,The festival began,He declined to serve as secretary for another term
+E12,E1,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,The previous secretary had resigned
+E12,E2,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,elected secretary of the neighborhood Durga Puja committee
+E12,E3,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,reviewing the accounts
+E12,E4,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,"visiting local businesses and community members, requesting contributions"
+E12,E5,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,secured enough funding to proceed
+E12,E6,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,The idol order was placed
+E12,E7,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,pandal construction began
+E12,E8,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,The decorations were hung
+E12,E9,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,The idol arrived
+E12,E10,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,was installed
+E12,E11,-1,> (Preceded By),False,immersion procession was the largest the neighborhood had seen in years,The festival began
+E12,E13,1,< (Precedes),False,immersion procession was the largest the neighborhood had seen in years,The committee held its post-festival meeting
+E12,E14,1,< (Precedes),False,immersion procession was the largest the neighborhood had seen in years,Partha presented the final accounts
+E12,E15,1,< (Precedes),False,immersion procession was the largest the neighborhood had seen in years,He declined to serve as secretary for another term
+E13,E1,-1,> (Preceded By),False,The committee held its post-festival meeting,The previous secretary had resigned
+E13,E2,-1,> (Preceded By),False,The committee held its post-festival meeting,elected secretary of the neighborhood Durga Puja committee
+E13,E3,-1,> (Preceded By),False,The committee held its post-festival meeting,reviewing the accounts
+E13,E4,-1,> (Preceded By),False,The committee held its post-festival meeting,"visiting local businesses and community members, requesting contributions"
+E13,E5,-1,> (Preceded By),False,The committee held its post-festival meeting,secured enough funding to proceed
+E13,E6,-1,> (Preceded By),False,The committee held its post-festival meeting,The idol order was placed
+E13,E7,-1,> (Preceded By),False,The committee held its post-festival meeting,pandal construction began
+E13,E8,-1,> (Preceded By),False,The committee held its post-festival meeting,The decorations were hung
+E13,E9,-1,> (Preceded By),False,The committee held its post-festival meeting,The idol arrived
+E13,E10,-1,> (Preceded By),False,The committee held its post-festival meeting,was installed
+E13,E11,-1,> (Preceded By),False,The committee held its post-festival meeting,The festival began
+E13,E12,-1,> (Preceded By),False,The committee held its post-festival meeting,immersion procession was the largest the neighborhood had seen in years
+E13,E14,-5,di (Contains),False,The committee held its post-festival meeting,Partha presented the final accounts
+E13,E15,-6,fi (Finished By),False,The committee held its post-festival meeting,He declined to serve as secretary for another term
+E14,E1,-1,> (Preceded By),False,Partha presented the final accounts,The previous secretary had resigned
+E14,E2,-1,> (Preceded By),False,Partha presented the final accounts,elected secretary of the neighborhood Durga Puja committee
+E14,E3,-1,> (Preceded By),False,Partha presented the final accounts,reviewing the accounts
+E14,E4,-1,> (Preceded By),False,Partha presented the final accounts,"visiting local businesses and community members, requesting contributions"
+E14,E5,-1,> (Preceded By),False,Partha presented the final accounts,secured enough funding to proceed
+E14,E6,-1,> (Preceded By),False,Partha presented the final accounts,The idol order was placed
+E14,E7,-1,> (Preceded By),False,Partha presented the final accounts,pandal construction began
+E14,E8,-1,> (Preceded By),False,Partha presented the final accounts,The decorations were hung
+E14,E9,-1,> (Preceded By),False,Partha presented the final accounts,The idol arrived
+E14,E10,-1,> (Preceded By),False,Partha presented the final accounts,was installed
+E14,E11,-1,> (Preceded By),False,Partha presented the final accounts,The festival began
+E14,E12,-1,> (Preceded By),False,Partha presented the final accounts,immersion procession was the largest the neighborhood had seen in years
+E14,E13,5,d (During),False,Partha presented the final accounts,The committee held its post-festival meeting
+E14,E15,1,< (Precedes),False,Partha presented the final accounts,He declined to serve as secretary for another term
+E15,E1,-1,> (Preceded By),False,He declined to serve as secretary for another term,The previous secretary had resigned
+E15,E2,-1,> (Preceded By),False,He declined to serve as secretary for another term,elected secretary of the neighborhood Durga Puja committee
+E15,E3,-1,> (Preceded By),False,He declined to serve as secretary for another term,reviewing the accounts
+E15,E4,-1,> (Preceded By),False,He declined to serve as secretary for another term,"visiting local businesses and community members, requesting contributions"
+E15,E5,-1,> (Preceded By),False,He declined to serve as secretary for another term,secured enough funding to proceed
+E15,E6,-1,> (Preceded By),False,He declined to serve as secretary for another term,The idol order was placed
+E15,E7,-1,> (Preceded By),False,He declined to serve as secretary for another term,pandal construction began
+E15,E8,-1,> (Preceded By),False,He declined to serve as secretary for another term,The decorations were hung
+E15,E9,-1,> (Preceded By),False,He declined to serve as secretary for another term,The idol arrived
+E15,E10,-1,> (Preceded By),False,He declined to serve as secretary for another term,was installed
+E15,E11,-1,> (Preceded By),False,He declined to serve as secretary for another term,The festival began
+E15,E12,-1,> (Preceded By),False,He declined to serve as secretary for another term,immersion procession was the largest the neighborhood had seen in years
+E15,E13,6,f (Finishes),False,He declined to serve as secretary for another term,The committee held its post-festival meeting
+E15,E14,-1,> (Preceded By),False,He declined to serve as secretary for another term,Partha presented the final accounts

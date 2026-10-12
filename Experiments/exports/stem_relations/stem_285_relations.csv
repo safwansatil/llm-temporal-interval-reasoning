@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,received the booking,met the couple
+E1,E3,1,< (Precedes),False,received the booking,wedding took place
+E1,E4,1,< (Precedes),False,received the booking,groom arrived
+E1,E5,1,< (Precedes),False,received the booking,exchanged vows
+E1,E6,1,< (Precedes),False,received the booking,Fatima reached out to steady them
+E1,E7,1,< (Precedes),False,received the booking,Rashed photographed everything
+E1,E8,1,< (Precedes),False,received the booking,stayed for the reception
+E1,E9,1,< (Precedes),False,received the booking,took photographs of the couple feeding each other cake
+E1,E10,1,< (Precedes),False,received the booking,delivered the photographs
+E1,E11,1,< (Precedes),False,received the booking,Fatima's daughter called him
+E1,E12,5,d (During),False,received the booking,ashed had been a wedding photographer for fifteen years
+E1,E13,1,< (Precedes),False,received the booking,first week of December was unlike any he had
+E1,E14,5,d (During),False,received the booking,"room were both in their late sixties,"
+E2,E1,-1,> (Preceded By),False,met the couple,received the booking
+E2,E3,1,< (Precedes),False,met the couple,wedding took place
+E2,E4,1,< (Precedes),False,met the couple,groom arrived
+E2,E5,1,< (Precedes),False,met the couple,exchanged vows
+E2,E6,1,< (Precedes),False,met the couple,Fatima reached out to steady them
+E2,E7,1,< (Precedes),False,met the couple,Rashed photographed everything
+E2,E8,1,< (Precedes),False,met the couple,stayed for the reception
+E2,E9,1,< (Precedes),False,met the couple,took photographs of the couple feeding each other cake
+E2,E10,1,< (Precedes),False,met the couple,delivered the photographs
+E2,E11,1,< (Precedes),False,met the couple,Fatima's daughter called him
+E2,E12,5,d (During),False,met the couple,ashed had been a wedding photographer for fifteen years
+E2,E13,1,< (Precedes),False,met the couple,first week of December was unlike any he had
+E2,E14,5,d (During),False,met the couple,"room were both in their late sixties,"
+E3,E1,-1,> (Preceded By),False,wedding took place,received the booking
+E3,E2,-1,> (Preceded By),False,wedding took place,met the couple
+E3,E4,-5,di (Contains),False,wedding took place,groom arrived
+E3,E5,-5,di (Contains),False,wedding took place,exchanged vows
+E3,E6,-5,di (Contains),False,wedding took place,Fatima reached out to steady them
+E3,E7,0,= (Equal),False,wedding took place,Rashed photographed everything
+E3,E8,-6,fi (Finished By),False,wedding took place,stayed for the reception
+E3,E9,-5,di (Contains),False,wedding took place,took photographs of the couple feeding each other cake
+E3,E10,1,< (Precedes),False,wedding took place,delivered the photographs
+E3,E11,1,< (Precedes),False,wedding took place,Fatima's daughter called him
+E3,E12,-2,mi (Met By),False,wedding took place,ashed had been a wedding photographer for fifteen years
+E3,E13,0,= (Equal),False,wedding took place,first week of December was unlike any he had
+E3,E14,5,d (During),False,wedding took place,"room were both in their late sixties,"
+E4,E1,-1,> (Preceded By),False,groom arrived,received the booking
+E4,E2,-1,> (Preceded By),False,groom arrived,met the couple
+E4,E3,5,d (During),False,groom arrived,wedding took place
+E4,E5,1,< (Precedes),False,groom arrived,exchanged vows
+E4,E6,1,< (Precedes),False,groom arrived,Fatima reached out to steady them
+E4,E7,5,d (During),False,groom arrived,Rashed photographed everything
+E4,E8,1,< (Precedes),False,groom arrived,stayed for the reception
+E4,E9,1,< (Precedes),False,groom arrived,took photographs of the couple feeding each other cake
+E4,E10,1,< (Precedes),False,groom arrived,delivered the photographs
+E4,E11,1,< (Precedes),False,groom arrived,Fatima's daughter called him
+E4,E12,-1,> (Preceded By),False,groom arrived,ashed had been a wedding photographer for fifteen years
+E4,E13,5,d (During),False,groom arrived,first week of December was unlike any he had
+E4,E14,5,d (During),False,groom arrived,"room were both in their late sixties,"
+E5,E1,-1,> (Preceded By),False,exchanged vows,received the booking
+E5,E2,-1,> (Preceded By),False,exchanged vows,met the couple
+E5,E3,5,d (During),False,exchanged vows,wedding took place
+E5,E4,-1,> (Preceded By),False,exchanged vows,groom arrived
+E5,E6,-6,fi (Finished By),False,exchanged vows,Fatima reached out to steady them
+E5,E7,5,d (During),False,exchanged vows,Rashed photographed everything
+E5,E8,1,< (Precedes),False,exchanged vows,stayed for the reception
+E5,E9,1,< (Precedes),False,exchanged vows,took photographs of the couple feeding each other cake
+E5,E10,1,< (Precedes),False,exchanged vows,delivered the photographs
+E5,E11,1,< (Precedes),False,exchanged vows,Fatima's daughter called him
+E5,E12,-1,> (Preceded By),False,exchanged vows,ashed had been a wedding photographer for fifteen years
+E5,E13,5,d (During),False,exchanged vows,first week of December was unlike any he had
+E5,E14,5,d (During),False,exchanged vows,"room were both in their late sixties,"
+E6,E1,-1,> (Preceded By),False,Fatima reached out to steady them,received the booking
+E6,E2,-1,> (Preceded By),False,Fatima reached out to steady them,met the couple
+E6,E3,5,d (During),False,Fatima reached out to steady them,wedding took place
+E6,E4,-1,> (Preceded By),False,Fatima reached out to steady them,groom arrived
+E6,E5,6,f (Finishes),False,Fatima reached out to steady them,exchanged vows
+E6,E7,5,d (During),False,Fatima reached out to steady them,Rashed photographed everything
+E6,E8,1,< (Precedes),False,Fatima reached out to steady them,stayed for the reception
+E6,E9,1,< (Precedes),False,Fatima reached out to steady them,took photographs of the couple feeding each other cake
+E6,E10,1,< (Precedes),False,Fatima reached out to steady them,delivered the photographs
+E6,E11,1,< (Precedes),False,Fatima reached out to steady them,Fatima's daughter called him
+E6,E12,-1,> (Preceded By),False,Fatima reached out to steady them,ashed had been a wedding photographer for fifteen years
+E6,E13,5,d (During),False,Fatima reached out to steady them,first week of December was unlike any he had
+E6,E14,5,d (During),False,Fatima reached out to steady them,"room were both in their late sixties,"
+E7,E1,-1,> (Preceded By),False,Rashed photographed everything,received the booking
+E7,E2,-1,> (Preceded By),False,Rashed photographed everything,met the couple
+E7,E3,0,= (Equal),False,Rashed photographed everything,wedding took place
+E7,E4,-5,di (Contains),False,Rashed photographed everything,groom arrived
+E7,E5,-5,di (Contains),False,Rashed photographed everything,exchanged vows
+E7,E6,-5,di (Contains),False,Rashed photographed everything,Fatima reached out to steady them
+E7,E8,-6,fi (Finished By),False,Rashed photographed everything,stayed for the reception
+E7,E9,-5,di (Contains),False,Rashed photographed everything,took photographs of the couple feeding each other cake
+E7,E10,1,< (Precedes),False,Rashed photographed everything,delivered the photographs
+E7,E11,1,< (Precedes),False,Rashed photographed everything,Fatima's daughter called him
+E7,E12,-2,mi (Met By),False,Rashed photographed everything,ashed had been a wedding photographer for fifteen years
+E7,E13,0,= (Equal),False,Rashed photographed everything,first week of December was unlike any he had
+E7,E14,5,d (During),False,Rashed photographed everything,"room were both in their late sixties,"
+E8,E1,-1,> (Preceded By),False,stayed for the reception,received the booking
+E8,E2,-1,> (Preceded By),False,stayed for the reception,met the couple
+E8,E3,6,f (Finishes),False,stayed for the reception,wedding took place
+E8,E4,-1,> (Preceded By),False,stayed for the reception,groom arrived
+E8,E5,-1,> (Preceded By),False,stayed for the reception,exchanged vows
+E8,E6,-1,> (Preceded By),False,stayed for the reception,Fatima reached out to steady them
+E8,E7,6,f (Finishes),False,stayed for the reception,Rashed photographed everything
+E8,E9,-5,di (Contains),False,stayed for the reception,took photographs of the couple feeding each other cake
+E8,E10,1,< (Precedes),False,stayed for the reception,delivered the photographs
+E8,E11,1,< (Precedes),False,stayed for the reception,Fatima's daughter called him
+E8,E12,-1,> (Preceded By),False,stayed for the reception,ashed had been a wedding photographer for fifteen years
+E8,E13,6,f (Finishes),False,stayed for the reception,first week of December was unlike any he had
+E8,E14,5,d (During),False,stayed for the reception,"room were both in their late sixties,"
+E9,E1,-1,> (Preceded By),False,took photographs of the couple feeding each other cake,received the booking
+E9,E2,-1,> (Preceded By),False,took photographs of the couple feeding each other cake,met the couple
+E9,E3,5,d (During),False,took photographs of the couple feeding each other cake,wedding took place
+E9,E4,-1,> (Preceded By),False,took photographs of the couple feeding each other cake,groom arrived
+E9,E5,-1,> (Preceded By),False,took photographs of the couple feeding each other cake,exchanged vows
+E9,E6,-1,> (Preceded By),False,took photographs of the couple feeding each other cake,Fatima reached out to steady them
+E9,E7,5,d (During),False,took photographs of the couple feeding each other cake,Rashed photographed everything
+E9,E8,5,d (During),False,took photographs of the couple feeding each other cake,stayed for the reception
+E9,E10,1,< (Precedes),False,took photographs of the couple feeding each other cake,delivered the photographs
+E9,E11,1,< (Precedes),False,took photographs of the couple feeding each other cake,Fatima's daughter called him
+E9,E12,-1,> (Preceded By),False,took photographs of the couple feeding each other cake,ashed had been a wedding photographer for fifteen years
+E9,E13,5,d (During),False,took photographs of the couple feeding each other cake,first week of December was unlike any he had
+E9,E14,5,d (During),False,took photographs of the couple feeding each other cake,"room were both in their late sixties,"
+E10,E1,-1,> (Preceded By),False,delivered the photographs,received the booking
+E10,E2,-1,> (Preceded By),False,delivered the photographs,met the couple
+E10,E3,-1,> (Preceded By),False,delivered the photographs,wedding took place
+E10,E4,-1,> (Preceded By),False,delivered the photographs,groom arrived
+E10,E5,-1,> (Preceded By),False,delivered the photographs,exchanged vows
+E10,E6,-1,> (Preceded By),False,delivered the photographs,Fatima reached out to steady them
+E10,E7,-1,> (Preceded By),False,delivered the photographs,Rashed photographed everything
+E10,E8,-1,> (Preceded By),False,delivered the photographs,stayed for the reception
+E10,E9,-1,> (Preceded By),False,delivered the photographs,took photographs of the couple feeding each other cake
+E10,E11,1,< (Precedes),False,delivered the photographs,Fatima's daughter called him
+E10,E12,-1,> (Preceded By),False,delivered the photographs,ashed had been a wedding photographer for fifteen years
+E10,E13,-1,> (Preceded By),False,delivered the photographs,first week of December was unlike any he had
+E10,E14,5,d (During),False,delivered the photographs,"room were both in their late sixties,"
+E11,E1,-1,> (Preceded By),False,Fatima's daughter called him,received the booking
+E11,E2,-1,> (Preceded By),False,Fatima's daughter called him,met the couple
+E11,E3,-1,> (Preceded By),False,Fatima's daughter called him,wedding took place
+E11,E4,-1,> (Preceded By),False,Fatima's daughter called him,groom arrived
+E11,E5,-1,> (Preceded By),False,Fatima's daughter called him,exchanged vows
+E11,E6,-1,> (Preceded By),False,Fatima's daughter called him,Fatima reached out to steady them
+E11,E7,-1,> (Preceded By),False,Fatima's daughter called him,Rashed photographed everything
+E11,E8,-1,> (Preceded By),False,Fatima's daughter called him,stayed for the reception
+E11,E9,-1,> (Preceded By),False,Fatima's daughter called him,took photographs of the couple feeding each other cake
+E11,E10,-1,> (Preceded By),False,Fatima's daughter called him,delivered the photographs
+E11,E12,-1,> (Preceded By),False,Fatima's daughter called him,ashed had been a wedding photographer for fifteen years
+E11,E13,-1,> (Preceded By),False,Fatima's daughter called him,first week of December was unlike any he had
+E11,E14,5,d (During),False,Fatima's daughter called him,"room were both in their late sixties,"
+E12,E1,-5,di (Contains),False,ashed had been a wedding photographer for fifteen years,received the booking
+E12,E2,-5,di (Contains),False,ashed had been a wedding photographer for fifteen years,met the couple
+E12,E3,2,m (Meets),False,ashed had been a wedding photographer for fifteen years,wedding took place
+E12,E4,1,< (Precedes),False,ashed had been a wedding photographer for fifteen years,groom arrived
+E12,E5,1,< (Precedes),False,ashed had been a wedding photographer for fifteen years,exchanged vows
+E12,E6,1,< (Precedes),False,ashed had been a wedding photographer for fifteen years,Fatima reached out to steady them
+E12,E7,2,m (Meets),False,ashed had been a wedding photographer for fifteen years,Rashed photographed everything
+E12,E8,1,< (Precedes),False,ashed had been a wedding photographer for fifteen years,stayed for the reception
+E12,E9,1,< (Precedes),False,ashed had been a wedding photographer for fifteen years,took photographs of the couple feeding each other cake
+E12,E10,1,< (Precedes),False,ashed had been a wedding photographer for fifteen years,delivered the photographs
+E12,E11,1,< (Precedes),False,ashed had been a wedding photographer for fifteen years,Fatima's daughter called him
+E12,E13,2,m (Meets),False,ashed had been a wedding photographer for fifteen years,first week of December was unlike any he had
+E12,E14,4,s (Starts),False,ashed had been a wedding photographer for fifteen years,"room were both in their late sixties,"
+E13,E1,-1,> (Preceded By),False,first week of December was unlike any he had,received the booking
+E13,E2,-1,> (Preceded By),False,first week of December was unlike any he had,met the couple
+E13,E3,0,= (Equal),False,first week of December was unlike any he had,wedding took place
+E13,E4,-5,di (Contains),False,first week of December was unlike any he had,groom arrived
+E13,E5,-5,di (Contains),False,first week of December was unlike any he had,exchanged vows
+E13,E6,-5,di (Contains),False,first week of December was unlike any he had,Fatima reached out to steady them
+E13,E7,0,= (Equal),False,first week of December was unlike any he had,Rashed photographed everything
+E13,E8,-6,fi (Finished By),False,first week of December was unlike any he had,stayed for the reception
+E13,E9,-5,di (Contains),False,first week of December was unlike any he had,took photographs of the couple feeding each other cake
+E13,E10,1,< (Precedes),False,first week of December was unlike any he had,delivered the photographs
+E13,E11,1,< (Precedes),False,first week of December was unlike any he had,Fatima's daughter called him
+E13,E12,-2,mi (Met By),False,first week of December was unlike any he had,ashed had been a wedding photographer for fifteen years
+E13,E14,5,d (During),False,first week of December was unlike any he had,"room were both in their late sixties,"
+E14,E1,-5,di (Contains),False,"room were both in their late sixties,",received the booking
+E14,E2,-5,di (Contains),False,"room were both in their late sixties,",met the couple
+E14,E3,-5,di (Contains),False,"room were both in their late sixties,",wedding took place
+E14,E4,-5,di (Contains),False,"room were both in their late sixties,",groom arrived
+E14,E5,-5,di (Contains),False,"room were both in their late sixties,",exchanged vows
+E14,E6,-5,di (Contains),False,"room were both in their late sixties,",Fatima reached out to steady them
+E14,E7,-5,di (Contains),False,"room were both in their late sixties,",Rashed photographed everything
+E14,E8,-5,di (Contains),False,"room were both in their late sixties,",stayed for the reception
+E14,E9,-5,di (Contains),False,"room were both in their late sixties,",took photographs of the couple feeding each other cake
+E14,E10,-5,di (Contains),False,"room were both in their late sixties,",delivered the photographs
+E14,E11,-5,di (Contains),False,"room were both in their late sixties,",Fatima's daughter called him
+E14,E12,-4,si (Started By),False,"room were both in their late sixties,",ashed had been a wedding photographer for fifteen years
+E14,E13,-5,di (Contains),False,"room were both in their late sixties,",first week of December was unlike any he had

@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,playing his flute at the park entrance,stopped to listen
+E1,E3,-5,di (Contains),False,playing his flute at the park entrance,finished playing
+E1,E4,-5,di (Contains),False,playing his flute at the park entrance,introduced himself
+E1,E5,-5,di (Contains),False,playing his flute at the park entrance,offered Amit a teaching position
+E1,E6,-5,di (Contains),False,playing his flute at the park entrance,accepted
+E1,E7,-6,fi (Finished By),False,playing his flute at the park entrance,gave his last street performance
+E1,E8,-5,di (Contains),False,playing his flute at the park entrance,played every melody he knew
+E1,E9,2,m (Meets),False,playing his flute at the park entrance,sun set
+E1,E10,1,< (Precedes),False,playing his flute at the park entrance,park emptied
+E1,E11,1,< (Precedes),False,playing his flute at the park entrance,started at the academy
+E1,E12,-1,> (Preceded By),False,playing his flute at the park entrance,he had learned from his grandfather
+E1,E13,0,= (Equal),False,playing his flute at the park entrance,he had played for three years
+E1,E14,-5,di (Contains),False,playing his flute at the park entrance,had come to know his music
+E1,E15,1,< (Precedes),False,playing his flute at the park entrance,he discovered that he loved the work.
+E2,E1,5,d (During),False,stopped to listen,playing his flute at the park entrance
+E2,E3,2,m (Meets),False,stopped to listen,finished playing
+E2,E4,1,< (Precedes),False,stopped to listen,introduced himself
+E2,E5,1,< (Precedes),False,stopped to listen,offered Amit a teaching position
+E2,E6,1,< (Precedes),False,stopped to listen,accepted
+E2,E7,1,< (Precedes),False,stopped to listen,gave his last street performance
+E2,E8,1,< (Precedes),False,stopped to listen,played every melody he knew
+E2,E9,1,< (Precedes),False,stopped to listen,sun set
+E2,E10,1,< (Precedes),False,stopped to listen,park emptied
+E2,E11,1,< (Precedes),False,stopped to listen,started at the academy
+E2,E12,-1,> (Preceded By),False,stopped to listen,he had learned from his grandfather
+E2,E13,5,d (During),False,stopped to listen,he had played for three years
+E2,E14,5,d (During),False,stopped to listen,had come to know his music
+E2,E15,1,< (Precedes),False,stopped to listen,he discovered that he loved the work.
+E3,E1,5,d (During),False,finished playing,playing his flute at the park entrance
+E3,E2,-2,mi (Met By),False,finished playing,stopped to listen
+E3,E4,2,m (Meets),False,finished playing,introduced himself
+E3,E5,1,< (Precedes),False,finished playing,offered Amit a teaching position
+E3,E6,1,< (Precedes),False,finished playing,accepted
+E3,E7,1,< (Precedes),False,finished playing,gave his last street performance
+E3,E8,1,< (Precedes),False,finished playing,played every melody he knew
+E3,E9,1,< (Precedes),False,finished playing,sun set
+E3,E10,1,< (Precedes),False,finished playing,park emptied
+E3,E11,1,< (Precedes),False,finished playing,started at the academy
+E3,E12,-1,> (Preceded By),False,finished playing,he had learned from his grandfather
+E3,E13,5,d (During),False,finished playing,he had played for three years
+E3,E14,5,d (During),False,finished playing,had come to know his music
+E3,E15,1,< (Precedes),False,finished playing,he discovered that he loved the work.
+E4,E1,5,d (During),False,introduced himself,playing his flute at the park entrance
+E4,E2,-1,> (Preceded By),False,introduced himself,stopped to listen
+E4,E3,-2,mi (Met By),False,introduced himself,finished playing
+E4,E5,2,m (Meets),False,introduced himself,offered Amit a teaching position
+E4,E6,1,< (Precedes),False,introduced himself,accepted
+E4,E7,1,< (Precedes),False,introduced himself,gave his last street performance
+E4,E8,1,< (Precedes),False,introduced himself,played every melody he knew
+E4,E9,1,< (Precedes),False,introduced himself,sun set
+E4,E10,1,< (Precedes),False,introduced himself,park emptied
+E4,E11,1,< (Precedes),False,introduced himself,started at the academy
+E4,E12,-1,> (Preceded By),False,introduced himself,he had learned from his grandfather
+E4,E13,5,d (During),False,introduced himself,he had played for three years
+E4,E14,5,d (During),False,introduced himself,had come to know his music
+E4,E15,1,< (Precedes),False,introduced himself,he discovered that he loved the work.
+E5,E1,5,d (During),False,offered Amit a teaching position,playing his flute at the park entrance
+E5,E2,-1,> (Preceded By),False,offered Amit a teaching position,stopped to listen
+E5,E3,-1,> (Preceded By),False,offered Amit a teaching position,finished playing
+E5,E4,-2,mi (Met By),False,offered Amit a teaching position,introduced himself
+E5,E6,2,m (Meets),False,offered Amit a teaching position,accepted
+E5,E7,1,< (Precedes),False,offered Amit a teaching position,gave his last street performance
+E5,E8,1,< (Precedes),False,offered Amit a teaching position,played every melody he knew
+E5,E9,1,< (Precedes),False,offered Amit a teaching position,sun set
+E5,E10,1,< (Precedes),False,offered Amit a teaching position,park emptied
+E5,E11,1,< (Precedes),False,offered Amit a teaching position,started at the academy
+E5,E12,-1,> (Preceded By),False,offered Amit a teaching position,he had learned from his grandfather
+E5,E13,5,d (During),False,offered Amit a teaching position,he had played for three years
+E5,E14,5,d (During),False,offered Amit a teaching position,had come to know his music
+E5,E15,1,< (Precedes),False,offered Amit a teaching position,he discovered that he loved the work.
+E6,E1,5,d (During),False,accepted,playing his flute at the park entrance
+E6,E2,-1,> (Preceded By),False,accepted,stopped to listen
+E6,E3,-1,> (Preceded By),False,accepted,finished playing
+E6,E4,-1,> (Preceded By),False,accepted,introduced himself
+E6,E5,-2,mi (Met By),False,accepted,offered Amit a teaching position
+E6,E7,1,< (Precedes),False,accepted,gave his last street performance
+E6,E8,1,< (Precedes),False,accepted,played every melody he knew
+E6,E9,1,< (Precedes),False,accepted,sun set
+E6,E10,1,< (Precedes),False,accepted,park emptied
+E6,E11,1,< (Precedes),False,accepted,started at the academy
+E6,E12,-1,> (Preceded By),False,accepted,he had learned from his grandfather
+E6,E13,5,d (During),False,accepted,he had played for three years
+E6,E14,5,d (During),False,accepted,had come to know his music
+E6,E15,1,< (Precedes),False,accepted,he discovered that he loved the work.
+E7,E1,6,f (Finishes),False,gave his last street performance,playing his flute at the park entrance
+E7,E2,-1,> (Preceded By),False,gave his last street performance,stopped to listen
+E7,E3,-1,> (Preceded By),False,gave his last street performance,finished playing
+E7,E4,-1,> (Preceded By),False,gave his last street performance,introduced himself
+E7,E5,-1,> (Preceded By),False,gave his last street performance,offered Amit a teaching position
+E7,E6,-1,> (Preceded By),False,gave his last street performance,accepted
+E7,E8,-5,di (Contains),False,gave his last street performance,played every melody he knew
+E7,E9,2,m (Meets),False,gave his last street performance,sun set
+E7,E10,1,< (Precedes),False,gave his last street performance,park emptied
+E7,E11,1,< (Precedes),False,gave his last street performance,started at the academy
+E7,E12,-1,> (Preceded By),False,gave his last street performance,he had learned from his grandfather
+E7,E13,6,f (Finishes),False,gave his last street performance,he had played for three years
+E7,E14,-2,mi (Met By),False,gave his last street performance,had come to know his music
+E7,E15,1,< (Precedes),False,gave his last street performance,he discovered that he loved the work.
+E8,E1,5,d (During),False,played every melody he knew,playing his flute at the park entrance
+E8,E2,-1,> (Preceded By),False,played every melody he knew,stopped to listen
+E8,E3,-1,> (Preceded By),False,played every melody he knew,finished playing
+E8,E4,-1,> (Preceded By),False,played every melody he knew,introduced himself
+E8,E5,-1,> (Preceded By),False,played every melody he knew,offered Amit a teaching position
+E8,E6,-1,> (Preceded By),False,played every melody he knew,accepted
+E8,E7,5,d (During),False,played every melody he knew,gave his last street performance
+E8,E9,1,< (Precedes),False,played every melody he knew,sun set
+E8,E10,1,< (Precedes),False,played every melody he knew,park emptied
+E8,E11,1,< (Precedes),False,played every melody he knew,started at the academy
+E8,E12,-1,> (Preceded By),False,played every melody he knew,he had learned from his grandfather
+E8,E13,5,d (During),False,played every melody he knew,he had played for three years
+E8,E14,-1,> (Preceded By),False,played every melody he knew,had come to know his music
+E8,E15,1,< (Precedes),False,played every melody he knew,he discovered that he loved the work.
+E9,E1,-2,mi (Met By),False,sun set,playing his flute at the park entrance
+E9,E2,-1,> (Preceded By),False,sun set,stopped to listen
+E9,E3,-1,> (Preceded By),False,sun set,finished playing
+E9,E4,-1,> (Preceded By),False,sun set,introduced himself
+E9,E5,-1,> (Preceded By),False,sun set,offered Amit a teaching position
+E9,E6,-1,> (Preceded By),False,sun set,accepted
+E9,E7,-2,mi (Met By),False,sun set,gave his last street performance
+E9,E8,-1,> (Preceded By),False,sun set,played every melody he knew
+E9,E10,2,m (Meets),False,sun set,park emptied
+E9,E11,1,< (Precedes),False,sun set,started at the academy
+E9,E12,-1,> (Preceded By),False,sun set,he had learned from his grandfather
+E9,E13,-2,mi (Met By),False,sun set,he had played for three years
+E9,E14,-1,> (Preceded By),False,sun set,had come to know his music
+E9,E15,1,< (Precedes),False,sun set,he discovered that he loved the work.
+E10,E1,-1,> (Preceded By),False,park emptied,playing his flute at the park entrance
+E10,E2,-1,> (Preceded By),False,park emptied,stopped to listen
+E10,E3,-1,> (Preceded By),False,park emptied,finished playing
+E10,E4,-1,> (Preceded By),False,park emptied,introduced himself
+E10,E5,-1,> (Preceded By),False,park emptied,offered Amit a teaching position
+E10,E6,-1,> (Preceded By),False,park emptied,accepted
+E10,E7,-1,> (Preceded By),False,park emptied,gave his last street performance
+E10,E8,-1,> (Preceded By),False,park emptied,played every melody he knew
+E10,E9,-2,mi (Met By),False,park emptied,sun set
+E10,E11,1,< (Precedes),False,park emptied,started at the academy
+E10,E12,-1,> (Preceded By),False,park emptied,he had learned from his grandfather
+E10,E13,-1,> (Preceded By),False,park emptied,he had played for three years
+E10,E14,-1,> (Preceded By),False,park emptied,had come to know his music
+E10,E15,1,< (Precedes),False,park emptied,he discovered that he loved the work.
+E11,E1,-1,> (Preceded By),False,started at the academy,playing his flute at the park entrance
+E11,E2,-1,> (Preceded By),False,started at the academy,stopped to listen
+E11,E3,-1,> (Preceded By),False,started at the academy,finished playing
+E11,E4,-1,> (Preceded By),False,started at the academy,introduced himself
+E11,E5,-1,> (Preceded By),False,started at the academy,offered Amit a teaching position
+E11,E6,-1,> (Preceded By),False,started at the academy,accepted
+E11,E7,-1,> (Preceded By),False,started at the academy,gave his last street performance
+E11,E8,-1,> (Preceded By),False,started at the academy,played every melody he knew
+E11,E9,-1,> (Preceded By),False,started at the academy,sun set
+E11,E10,-1,> (Preceded By),False,started at the academy,park emptied
+E11,E12,-1,> (Preceded By),False,started at the academy,he had learned from his grandfather
+E11,E13,-1,> (Preceded By),False,started at the academy,he had played for three years
+E11,E14,-1,> (Preceded By),False,started at the academy,had come to know his music
+E11,E15,1,< (Precedes),False,started at the academy,he discovered that he loved the work.
+E12,E1,1,< (Precedes),False,he had learned from his grandfather,playing his flute at the park entrance
+E12,E2,1,< (Precedes),False,he had learned from his grandfather,stopped to listen
+E12,E3,1,< (Precedes),False,he had learned from his grandfather,finished playing
+E12,E4,1,< (Precedes),False,he had learned from his grandfather,introduced himself
+E12,E5,1,< (Precedes),False,he had learned from his grandfather,offered Amit a teaching position
+E12,E6,1,< (Precedes),False,he had learned from his grandfather,accepted
+E12,E7,1,< (Precedes),False,he had learned from his grandfather,gave his last street performance
+E12,E8,1,< (Precedes),False,he had learned from his grandfather,played every melody he knew
+E12,E9,1,< (Precedes),False,he had learned from his grandfather,sun set
+E12,E10,1,< (Precedes),False,he had learned from his grandfather,park emptied
+E12,E11,1,< (Precedes),False,he had learned from his grandfather,started at the academy
+E12,E13,1,< (Precedes),False,he had learned from his grandfather,he had played for three years
+E12,E14,1,< (Precedes),False,he had learned from his grandfather,had come to know his music
+E12,E15,1,< (Precedes),False,he had learned from his grandfather,he discovered that he loved the work.
+E13,E1,0,= (Equal),False,he had played for three years,playing his flute at the park entrance
+E13,E2,-5,di (Contains),False,he had played for three years,stopped to listen
+E13,E3,-5,di (Contains),False,he had played for three years,finished playing
+E13,E4,-5,di (Contains),False,he had played for three years,introduced himself
+E13,E5,-5,di (Contains),False,he had played for three years,offered Amit a teaching position
+E13,E6,-5,di (Contains),False,he had played for three years,accepted
+E13,E7,-6,fi (Finished By),False,he had played for three years,gave his last street performance
+E13,E8,-5,di (Contains),False,he had played for three years,played every melody he knew
+E13,E9,2,m (Meets),False,he had played for three years,sun set
+E13,E10,1,< (Precedes),False,he had played for three years,park emptied
+E13,E11,1,< (Precedes),False,he had played for three years,started at the academy
+E13,E12,-1,> (Preceded By),False,he had played for three years,he had learned from his grandfather
+E13,E14,-5,di (Contains),False,he had played for three years,had come to know his music
+E13,E15,1,< (Precedes),False,he had played for three years,he discovered that he loved the work.
+E14,E1,5,d (During),False,had come to know his music,playing his flute at the park entrance
+E14,E2,-5,di (Contains),False,had come to know his music,stopped to listen
+E14,E3,-5,di (Contains),False,had come to know his music,finished playing
+E14,E4,-5,di (Contains),False,had come to know his music,introduced himself
+E14,E5,-5,di (Contains),False,had come to know his music,offered Amit a teaching position
+E14,E6,-5,di (Contains),False,had come to know his music,accepted
+E14,E7,2,m (Meets),False,had come to know his music,gave his last street performance
+E14,E8,1,< (Precedes),False,had come to know his music,played every melody he knew
+E14,E9,1,< (Precedes),False,had come to know his music,sun set
+E14,E10,1,< (Precedes),False,had come to know his music,park emptied
+E14,E11,1,< (Precedes),False,had come to know his music,started at the academy
+E14,E12,-1,> (Preceded By),False,had come to know his music,he had learned from his grandfather
+E14,E13,5,d (During),False,had come to know his music,he had played for three years
+E14,E15,1,< (Precedes),False,had come to know his music,he discovered that he loved the work.
+E15,E1,-1,> (Preceded By),False,he discovered that he loved the work.,playing his flute at the park entrance
+E15,E2,-1,> (Preceded By),False,he discovered that he loved the work.,stopped to listen
+E15,E3,-1,> (Preceded By),False,he discovered that he loved the work.,finished playing
+E15,E4,-1,> (Preceded By),False,he discovered that he loved the work.,introduced himself
+E15,E5,-1,> (Preceded By),False,he discovered that he loved the work.,offered Amit a teaching position
+E15,E6,-1,> (Preceded By),False,he discovered that he loved the work.,accepted
+E15,E7,-1,> (Preceded By),False,he discovered that he loved the work.,gave his last street performance
+E15,E8,-1,> (Preceded By),False,he discovered that he loved the work.,played every melody he knew
+E15,E9,-1,> (Preceded By),False,he discovered that he loved the work.,sun set
+E15,E10,-1,> (Preceded By),False,he discovered that he loved the work.,park emptied
+E15,E11,-1,> (Preceded By),False,he discovered that he loved the work.,started at the academy
+E15,E12,-1,> (Preceded By),False,he discovered that he loved the work.,he had learned from his grandfather
+E15,E13,-1,> (Preceded By),False,he discovered that he loved the work.,he had played for three years
+E15,E14,-1,> (Preceded By),False,he discovered that he loved the work.,had come to know his music

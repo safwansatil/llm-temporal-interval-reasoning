@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-4,si (Started By),False,Sattar had been the night guard at the primary school,taught himself English
+E1,E3,-6,fi (Finished By),False,Sattar had been the night guard at the primary school,could understand the broadcasts almost completely
+E1,E4,-6,fi (Finished By),False,Sattar had been the night guard at the primary school,could speak with reasonable fluency
+E1,E5,-5,di (Contains),False,Sattar had been the night guard at the primary school,A foreign journalist visited the school
+E1,E6,-5,di (Contains),False,Sattar had been the night guard at the primary school,called him in
+E1,E7,-5,di (Contains),False,Sattar had been the night guard at the primary school,Sattar served as translator
+E1,E8,-5,di (Contains),False,Sattar had been the night guard at the primary school,she included his story in her article
+E1,E9,-5,di (Contains),False,Sattar had been the night guard at the primary school,The article was published internationally
+E1,E10,-5,di (Contains),False,Sattar had been the night guard at the primary school,Sattar received a scholarship
+E1,E11,-5,di (Contains),False,Sattar had been the night guard at the primary school,He completed the course
+E1,E12,-5,di (Contains),False,Sattar had been the night guard at the primary school,returned to his job as night guard
+E1,E13,-6,fi (Finished By),False,Sattar had been the night guard at the primary school,tutors students in English
+E1,E14,-6,fi (Finished By),False,Sattar had been the night guard at the primary school,two of his students have gone on to university
+E2,E1,4,s (Starts),False,taught himself English,Sattar had been the night guard at the primary school
+E2,E3,3,o (Overlaps),False,taught himself English,could understand the broadcasts almost completely
+E2,E4,3,o (Overlaps),False,taught himself English,could speak with reasonable fluency
+E2,E5,2,m (Meets),False,taught himself English,A foreign journalist visited the school
+E2,E6,1,< (Precedes),False,taught himself English,called him in
+E2,E7,1,< (Precedes),False,taught himself English,Sattar served as translator
+E2,E8,1,< (Precedes),False,taught himself English,she included his story in her article
+E2,E9,1,< (Precedes),False,taught himself English,The article was published internationally
+E2,E10,1,< (Precedes),False,taught himself English,Sattar received a scholarship
+E2,E11,1,< (Precedes),False,taught himself English,He completed the course
+E2,E12,1,< (Precedes),False,taught himself English,returned to his job as night guard
+E2,E13,1,< (Precedes),False,taught himself English,tutors students in English
+E2,E14,1,< (Precedes),False,taught himself English,two of his students have gone on to university
+E3,E1,6,f (Finishes),False,could understand the broadcasts almost completely,Sattar had been the night guard at the primary school
+E3,E2,-3,oi (Overlapped By),False,could understand the broadcasts almost completely,taught himself English
+E3,E4,-6,fi (Finished By),False,could understand the broadcasts almost completely,could speak with reasonable fluency
+E3,E5,-5,di (Contains),False,could understand the broadcasts almost completely,A foreign journalist visited the school
+E3,E6,-5,di (Contains),False,could understand the broadcasts almost completely,called him in
+E3,E7,-5,di (Contains),False,could understand the broadcasts almost completely,Sattar served as translator
+E3,E8,-5,di (Contains),False,could understand the broadcasts almost completely,she included his story in her article
+E3,E9,-5,di (Contains),False,could understand the broadcasts almost completely,The article was published internationally
+E3,E10,-5,di (Contains),False,could understand the broadcasts almost completely,Sattar received a scholarship
+E3,E11,-5,di (Contains),False,could understand the broadcasts almost completely,He completed the course
+E3,E12,-5,di (Contains),False,could understand the broadcasts almost completely,returned to his job as night guard
+E3,E13,-6,fi (Finished By),False,could understand the broadcasts almost completely,tutors students in English
+E3,E14,-6,fi (Finished By),False,could understand the broadcasts almost completely,two of his students have gone on to university
+E4,E1,6,f (Finishes),False,could speak with reasonable fluency,Sattar had been the night guard at the primary school
+E4,E2,-3,oi (Overlapped By),False,could speak with reasonable fluency,taught himself English
+E4,E3,6,f (Finishes),False,could speak with reasonable fluency,could understand the broadcasts almost completely
+E4,E5,-5,di (Contains),False,could speak with reasonable fluency,A foreign journalist visited the school
+E4,E6,-5,di (Contains),False,could speak with reasonable fluency,called him in
+E4,E7,-5,di (Contains),False,could speak with reasonable fluency,Sattar served as translator
+E4,E8,-5,di (Contains),False,could speak with reasonable fluency,she included his story in her article
+E4,E9,-5,di (Contains),False,could speak with reasonable fluency,The article was published internationally
+E4,E10,-5,di (Contains),False,could speak with reasonable fluency,Sattar received a scholarship
+E4,E11,-5,di (Contains),False,could speak with reasonable fluency,He completed the course
+E4,E12,-5,di (Contains),False,could speak with reasonable fluency,returned to his job as night guard
+E4,E13,-6,fi (Finished By),False,could speak with reasonable fluency,tutors students in English
+E4,E14,-6,fi (Finished By),False,could speak with reasonable fluency,two of his students have gone on to university
+E5,E1,5,d (During),False,A foreign journalist visited the school,Sattar had been the night guard at the primary school
+E5,E2,-2,mi (Met By),False,A foreign journalist visited the school,taught himself English
+E5,E3,5,d (During),False,A foreign journalist visited the school,could understand the broadcasts almost completely
+E5,E4,5,d (During),False,A foreign journalist visited the school,could speak with reasonable fluency
+E5,E6,2,m (Meets),False,A foreign journalist visited the school,called him in
+E5,E7,1,< (Precedes),False,A foreign journalist visited the school,Sattar served as translator
+E5,E8,1,< (Precedes),False,A foreign journalist visited the school,she included his story in her article
+E5,E9,1,< (Precedes),False,A foreign journalist visited the school,The article was published internationally
+E5,E10,1,< (Precedes),False,A foreign journalist visited the school,Sattar received a scholarship
+E5,E11,1,< (Precedes),False,A foreign journalist visited the school,He completed the course
+E5,E12,1,< (Precedes),False,A foreign journalist visited the school,returned to his job as night guard
+E5,E13,1,< (Precedes),False,A foreign journalist visited the school,tutors students in English
+E5,E14,1,< (Precedes),False,A foreign journalist visited the school,two of his students have gone on to university
+E6,E1,5,d (During),False,called him in,Sattar had been the night guard at the primary school
+E6,E2,-1,> (Preceded By),False,called him in,taught himself English
+E6,E3,5,d (During),False,called him in,could understand the broadcasts almost completely
+E6,E4,5,d (During),False,called him in,could speak with reasonable fluency
+E6,E5,-2,mi (Met By),False,called him in,A foreign journalist visited the school
+E6,E7,2,m (Meets),False,called him in,Sattar served as translator
+E6,E8,1,< (Precedes),False,called him in,she included his story in her article
+E6,E9,1,< (Precedes),False,called him in,The article was published internationally
+E6,E10,1,< (Precedes),False,called him in,Sattar received a scholarship
+E6,E11,1,< (Precedes),False,called him in,He completed the course
+E6,E12,1,< (Precedes),False,called him in,returned to his job as night guard
+E6,E13,1,< (Precedes),False,called him in,tutors students in English
+E6,E14,1,< (Precedes),False,called him in,two of his students have gone on to university
+E7,E1,5,d (During),False,Sattar served as translator,Sattar had been the night guard at the primary school
+E7,E2,-1,> (Preceded By),False,Sattar served as translator,taught himself English
+E7,E3,5,d (During),False,Sattar served as translator,could understand the broadcasts almost completely
+E7,E4,5,d (During),False,Sattar served as translator,could speak with reasonable fluency
+E7,E5,-1,> (Preceded By),False,Sattar served as translator,A foreign journalist visited the school
+E7,E6,-2,mi (Met By),False,Sattar served as translator,called him in
+E7,E8,2,m (Meets),False,Sattar served as translator,she included his story in her article
+E7,E9,1,< (Precedes),False,Sattar served as translator,The article was published internationally
+E7,E10,1,< (Precedes),False,Sattar served as translator,Sattar received a scholarship
+E7,E11,1,< (Precedes),False,Sattar served as translator,He completed the course
+E7,E12,1,< (Precedes),False,Sattar served as translator,returned to his job as night guard
+E7,E13,1,< (Precedes),False,Sattar served as translator,tutors students in English
+E7,E14,1,< (Precedes),False,Sattar served as translator,two of his students have gone on to university
+E8,E1,5,d (During),False,she included his story in her article,Sattar had been the night guard at the primary school
+E8,E2,-1,> (Preceded By),False,she included his story in her article,taught himself English
+E8,E3,5,d (During),False,she included his story in her article,could understand the broadcasts almost completely
+E8,E4,5,d (During),False,she included his story in her article,could speak with reasonable fluency
+E8,E5,-1,> (Preceded By),False,she included his story in her article,A foreign journalist visited the school
+E8,E6,-1,> (Preceded By),False,she included his story in her article,called him in
+E8,E7,-2,mi (Met By),False,she included his story in her article,Sattar served as translator
+E8,E9,2,m (Meets),False,she included his story in her article,The article was published internationally
+E8,E10,1,< (Precedes),False,she included his story in her article,Sattar received a scholarship
+E8,E11,1,< (Precedes),False,she included his story in her article,He completed the course
+E8,E12,1,< (Precedes),False,she included his story in her article,returned to his job as night guard
+E8,E13,1,< (Precedes),False,she included his story in her article,tutors students in English
+E8,E14,1,< (Precedes),False,she included his story in her article,two of his students have gone on to university
+E9,E1,5,d (During),False,The article was published internationally,Sattar had been the night guard at the primary school
+E9,E2,-1,> (Preceded By),False,The article was published internationally,taught himself English
+E9,E3,5,d (During),False,The article was published internationally,could understand the broadcasts almost completely
+E9,E4,5,d (During),False,The article was published internationally,could speak with reasonable fluency
+E9,E5,-1,> (Preceded By),False,The article was published internationally,A foreign journalist visited the school
+E9,E6,-1,> (Preceded By),False,The article was published internationally,called him in
+E9,E7,-1,> (Preceded By),False,The article was published internationally,Sattar served as translator
+E9,E8,-2,mi (Met By),False,The article was published internationally,she included his story in her article
+E9,E10,2,m (Meets),False,The article was published internationally,Sattar received a scholarship
+E9,E11,1,< (Precedes),False,The article was published internationally,He completed the course
+E9,E12,1,< (Precedes),False,The article was published internationally,returned to his job as night guard
+E9,E13,1,< (Precedes),False,The article was published internationally,tutors students in English
+E9,E14,1,< (Precedes),False,The article was published internationally,two of his students have gone on to university
+E10,E1,5,d (During),False,Sattar received a scholarship,Sattar had been the night guard at the primary school
+E10,E2,-1,> (Preceded By),False,Sattar received a scholarship,taught himself English
+E10,E3,5,d (During),False,Sattar received a scholarship,could understand the broadcasts almost completely
+E10,E4,5,d (During),False,Sattar received a scholarship,could speak with reasonable fluency
+E10,E5,-1,> (Preceded By),False,Sattar received a scholarship,A foreign journalist visited the school
+E10,E6,-1,> (Preceded By),False,Sattar received a scholarship,called him in
+E10,E7,-1,> (Preceded By),False,Sattar received a scholarship,Sattar served as translator
+E10,E8,-1,> (Preceded By),False,Sattar received a scholarship,she included his story in her article
+E10,E9,-2,mi (Met By),False,Sattar received a scholarship,The article was published internationally
+E10,E11,2,m (Meets),False,Sattar received a scholarship,He completed the course
+E10,E12,1,< (Precedes),False,Sattar received a scholarship,returned to his job as night guard
+E10,E13,1,< (Precedes),False,Sattar received a scholarship,tutors students in English
+E10,E14,1,< (Precedes),False,Sattar received a scholarship,two of his students have gone on to university
+E11,E1,5,d (During),False,He completed the course,Sattar had been the night guard at the primary school
+E11,E2,-1,> (Preceded By),False,He completed the course,taught himself English
+E11,E3,5,d (During),False,He completed the course,could understand the broadcasts almost completely
+E11,E4,5,d (During),False,He completed the course,could speak with reasonable fluency
+E11,E5,-1,> (Preceded By),False,He completed the course,A foreign journalist visited the school
+E11,E6,-1,> (Preceded By),False,He completed the course,called him in
+E11,E7,-1,> (Preceded By),False,He completed the course,Sattar served as translator
+E11,E8,-1,> (Preceded By),False,He completed the course,she included his story in her article
+E11,E9,-1,> (Preceded By),False,He completed the course,The article was published internationally
+E11,E10,-2,mi (Met By),False,He completed the course,Sattar received a scholarship
+E11,E12,2,m (Meets),False,He completed the course,returned to his job as night guard
+E11,E13,1,< (Precedes),False,He completed the course,tutors students in English
+E11,E14,1,< (Precedes),False,He completed the course,two of his students have gone on to university
+E12,E1,5,d (During),False,returned to his job as night guard,Sattar had been the night guard at the primary school
+E12,E2,-1,> (Preceded By),False,returned to his job as night guard,taught himself English
+E12,E3,5,d (During),False,returned to his job as night guard,could understand the broadcasts almost completely
+E12,E4,5,d (During),False,returned to his job as night guard,could speak with reasonable fluency
+E12,E5,-1,> (Preceded By),False,returned to his job as night guard,A foreign journalist visited the school
+E12,E6,-1,> (Preceded By),False,returned to his job as night guard,called him in
+E12,E7,-1,> (Preceded By),False,returned to his job as night guard,Sattar served as translator
+E12,E8,-1,> (Preceded By),False,returned to his job as night guard,she included his story in her article
+E12,E9,-1,> (Preceded By),False,returned to his job as night guard,The article was published internationally
+E12,E10,-1,> (Preceded By),False,returned to his job as night guard,Sattar received a scholarship
+E12,E11,-2,mi (Met By),False,returned to his job as night guard,He completed the course
+E12,E13,2,m (Meets),False,returned to his job as night guard,tutors students in English
+E12,E14,1,< (Precedes),False,returned to his job as night guard,two of his students have gone on to university
+E13,E1,6,f (Finishes),False,tutors students in English,Sattar had been the night guard at the primary school
+E13,E2,-1,> (Preceded By),False,tutors students in English,taught himself English
+E13,E3,6,f (Finishes),False,tutors students in English,could understand the broadcasts almost completely
+E13,E4,6,f (Finishes),False,tutors students in English,could speak with reasonable fluency
+E13,E5,-1,> (Preceded By),False,tutors students in English,A foreign journalist visited the school
+E13,E6,-1,> (Preceded By),False,tutors students in English,called him in
+E13,E7,-1,> (Preceded By),False,tutors students in English,Sattar served as translator
+E13,E8,-1,> (Preceded By),False,tutors students in English,she included his story in her article
+E13,E9,-1,> (Preceded By),False,tutors students in English,The article was published internationally
+E13,E10,-1,> (Preceded By),False,tutors students in English,Sattar received a scholarship
+E13,E11,-1,> (Preceded By),False,tutors students in English,He completed the course
+E13,E12,-2,mi (Met By),False,tutors students in English,returned to his job as night guard
+E13,E14,-6,fi (Finished By),False,tutors students in English,two of his students have gone on to university
+E14,E1,6,f (Finishes),False,two of his students have gone on to university,Sattar had been the night guard at the primary school
+E14,E2,-1,> (Preceded By),False,two of his students have gone on to university,taught himself English
+E14,E3,6,f (Finishes),False,two of his students have gone on to university,could understand the broadcasts almost completely
+E14,E4,6,f (Finishes),False,two of his students have gone on to university,could speak with reasonable fluency
+E14,E5,-1,> (Preceded By),False,two of his students have gone on to university,A foreign journalist visited the school
+E14,E6,-1,> (Preceded By),False,two of his students have gone on to university,called him in
+E14,E7,-1,> (Preceded By),False,two of his students have gone on to university,Sattar served as translator
+E14,E8,-1,> (Preceded By),False,two of his students have gone on to university,she included his story in her article
+E14,E9,-1,> (Preceded By),False,two of his students have gone on to university,The article was published internationally
+E14,E10,-1,> (Preceded By),False,two of his students have gone on to university,Sattar received a scholarship
+E14,E11,-1,> (Preceded By),False,two of his students have gone on to university,He completed the course
+E14,E12,-1,> (Preceded By),False,two of his students have gone on to university,returned to his job as night guard
+E14,E13,6,f (Finishes),False,two of his students have gone on to university,tutors students in English

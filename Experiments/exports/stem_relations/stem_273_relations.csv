@@ -1,0 +1,343 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,Rafiq's father had worked there as a projectionist,Rafiq himself had spent his childhood in the projection room
+E1,E3,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,The cinema began its decline
+E1,E4,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,The first blow was the arrival of cable television
+E1,E5,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,The second was the internet
+E1,E6,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,attendance had dropped by more than half
+E1,E7,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,the cinema was operating at a loss
+E1,E8,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,The announcement of the closure came
+E1,E9,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,Rafiq heard the news
+E1,E10,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,He spent the next two weeks organizing a farewell event
+E1,E11,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,a crowd had gathered outside
+E1,E12,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,The cinema was full
+E1,E13,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,Former employees shared stories
+E1,E14,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E1,E15,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,The screen went dark
+E1,E16,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,The audience sat in silence
+E1,E17,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,Rafiq remained in his seat
+E1,E18,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,the staff began turning off the lights
+E1,E19,1,< (Precedes),False,Rafiq's father had worked there as a projectionist,The Minar Cinema Hall was gone
+E2,E1,5,d (During),False,Rafiq himself had spent his childhood in the projection room,Rafiq's father had worked there as a projectionist
+E2,E3,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,The cinema began its decline
+E2,E4,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,The first blow was the arrival of cable television
+E2,E5,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,The second was the internet
+E2,E6,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,attendance had dropped by more than half
+E2,E7,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,the cinema was operating at a loss
+E2,E8,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,The announcement of the closure came
+E2,E9,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,Rafiq heard the news
+E2,E10,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,He spent the next two weeks organizing a farewell event
+E2,E11,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,a crowd had gathered outside
+E2,E12,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,The cinema was full
+E2,E13,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,Former employees shared stories
+E2,E14,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E2,E15,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,The screen went dark
+E2,E16,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,The audience sat in silence
+E2,E17,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,Rafiq remained in his seat
+E2,E18,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,the staff began turning off the lights
+E2,E19,1,< (Precedes),False,Rafiq himself had spent his childhood in the projection room,The Minar Cinema Hall was gone
+E3,E1,-1,> (Preceded By),False,The cinema began its decline,Rafiq's father had worked there as a projectionist
+E3,E2,-1,> (Preceded By),False,The cinema began its decline,Rafiq himself had spent his childhood in the projection room
+E3,E4,-4,si (Started By),False,The cinema began its decline,The first blow was the arrival of cable television
+E3,E5,-5,di (Contains),False,The cinema began its decline,The second was the internet
+E3,E6,-5,di (Contains),False,The cinema began its decline,attendance had dropped by more than half
+E3,E7,-5,di (Contains),False,The cinema began its decline,the cinema was operating at a loss
+E3,E8,-5,di (Contains),False,The cinema began its decline,The announcement of the closure came
+E3,E9,-5,di (Contains),False,The cinema began its decline,Rafiq heard the news
+E3,E10,-5,di (Contains),False,The cinema began its decline,He spent the next two weeks organizing a farewell event
+E3,E11,-5,di (Contains),False,The cinema began its decline,a crowd had gathered outside
+E3,E12,-6,fi (Finished By),False,The cinema began its decline,The cinema was full
+E3,E13,-5,di (Contains),False,The cinema began its decline,Former employees shared stories
+E3,E14,-5,di (Contains),False,The cinema began its decline,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E3,E15,3,o (Overlaps),False,The cinema began its decline,The screen went dark
+E3,E16,-5,di (Contains),False,The cinema began its decline,The audience sat in silence
+E3,E17,-6,fi (Finished By),False,The cinema began its decline,Rafiq remained in his seat
+E3,E18,-6,fi (Finished By),False,The cinema began its decline,the staff began turning off the lights
+E3,E19,2,m (Meets),False,The cinema began its decline,The Minar Cinema Hall was gone
+E4,E1,-1,> (Preceded By),False,The first blow was the arrival of cable television,Rafiq's father had worked there as a projectionist
+E4,E2,-1,> (Preceded By),False,The first blow was the arrival of cable television,Rafiq himself had spent his childhood in the projection room
+E4,E3,4,s (Starts),False,The first blow was the arrival of cable television,The cinema began its decline
+E4,E5,2,m (Meets),False,The first blow was the arrival of cable television,The second was the internet
+E4,E6,1,< (Precedes),False,The first blow was the arrival of cable television,attendance had dropped by more than half
+E4,E7,1,< (Precedes),False,The first blow was the arrival of cable television,the cinema was operating at a loss
+E4,E8,1,< (Precedes),False,The first blow was the arrival of cable television,The announcement of the closure came
+E4,E9,1,< (Precedes),False,The first blow was the arrival of cable television,Rafiq heard the news
+E4,E10,1,< (Precedes),False,The first blow was the arrival of cable television,He spent the next two weeks organizing a farewell event
+E4,E11,1,< (Precedes),False,The first blow was the arrival of cable television,a crowd had gathered outside
+E4,E12,1,< (Precedes),False,The first blow was the arrival of cable television,The cinema was full
+E4,E13,1,< (Precedes),False,The first blow was the arrival of cable television,Former employees shared stories
+E4,E14,1,< (Precedes),False,The first blow was the arrival of cable television,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E4,E15,1,< (Precedes),False,The first blow was the arrival of cable television,The screen went dark
+E4,E16,1,< (Precedes),False,The first blow was the arrival of cable television,The audience sat in silence
+E4,E17,1,< (Precedes),False,The first blow was the arrival of cable television,Rafiq remained in his seat
+E4,E18,1,< (Precedes),False,The first blow was the arrival of cable television,the staff began turning off the lights
+E4,E19,1,< (Precedes),False,The first blow was the arrival of cable television,The Minar Cinema Hall was gone
+E5,E1,-1,> (Preceded By),False,The second was the internet,Rafiq's father had worked there as a projectionist
+E5,E2,-1,> (Preceded By),False,The second was the internet,Rafiq himself had spent his childhood in the projection room
+E5,E3,5,d (During),False,The second was the internet,The cinema began its decline
+E5,E4,-2,mi (Met By),False,The second was the internet,The first blow was the arrival of cable television
+E5,E6,2,m (Meets),False,The second was the internet,attendance had dropped by more than half
+E5,E7,1,< (Precedes),False,The second was the internet,the cinema was operating at a loss
+E5,E8,1,< (Precedes),False,The second was the internet,The announcement of the closure came
+E5,E9,1,< (Precedes),False,The second was the internet,Rafiq heard the news
+E5,E10,1,< (Precedes),False,The second was the internet,He spent the next two weeks organizing a farewell event
+E5,E11,1,< (Precedes),False,The second was the internet,a crowd had gathered outside
+E5,E12,1,< (Precedes),False,The second was the internet,The cinema was full
+E5,E13,1,< (Precedes),False,The second was the internet,Former employees shared stories
+E5,E14,1,< (Precedes),False,The second was the internet,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E5,E15,1,< (Precedes),False,The second was the internet,The screen went dark
+E5,E16,1,< (Precedes),False,The second was the internet,The audience sat in silence
+E5,E17,1,< (Precedes),False,The second was the internet,Rafiq remained in his seat
+E5,E18,1,< (Precedes),False,The second was the internet,the staff began turning off the lights
+E5,E19,1,< (Precedes),False,The second was the internet,The Minar Cinema Hall was gone
+E6,E1,-1,> (Preceded By),False,attendance had dropped by more than half,Rafiq's father had worked there as a projectionist
+E6,E2,-1,> (Preceded By),False,attendance had dropped by more than half,Rafiq himself had spent his childhood in the projection room
+E6,E3,5,d (During),False,attendance had dropped by more than half,The cinema began its decline
+E6,E4,-1,> (Preceded By),False,attendance had dropped by more than half,The first blow was the arrival of cable television
+E6,E5,-2,mi (Met By),False,attendance had dropped by more than half,The second was the internet
+E6,E7,2,m (Meets),False,attendance had dropped by more than half,the cinema was operating at a loss
+E6,E8,1,< (Precedes),False,attendance had dropped by more than half,The announcement of the closure came
+E6,E9,1,< (Precedes),False,attendance had dropped by more than half,Rafiq heard the news
+E6,E10,1,< (Precedes),False,attendance had dropped by more than half,He spent the next two weeks organizing a farewell event
+E6,E11,1,< (Precedes),False,attendance had dropped by more than half,a crowd had gathered outside
+E6,E12,1,< (Precedes),False,attendance had dropped by more than half,The cinema was full
+E6,E13,1,< (Precedes),False,attendance had dropped by more than half,Former employees shared stories
+E6,E14,1,< (Precedes),False,attendance had dropped by more than half,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E6,E15,1,< (Precedes),False,attendance had dropped by more than half,The screen went dark
+E6,E16,1,< (Precedes),False,attendance had dropped by more than half,The audience sat in silence
+E6,E17,1,< (Precedes),False,attendance had dropped by more than half,Rafiq remained in his seat
+E6,E18,1,< (Precedes),False,attendance had dropped by more than half,the staff began turning off the lights
+E6,E19,1,< (Precedes),False,attendance had dropped by more than half,The Minar Cinema Hall was gone
+E7,E1,-1,> (Preceded By),False,the cinema was operating at a loss,Rafiq's father had worked there as a projectionist
+E7,E2,-1,> (Preceded By),False,the cinema was operating at a loss,Rafiq himself had spent his childhood in the projection room
+E7,E3,5,d (During),False,the cinema was operating at a loss,The cinema began its decline
+E7,E4,-1,> (Preceded By),False,the cinema was operating at a loss,The first blow was the arrival of cable television
+E7,E5,-1,> (Preceded By),False,the cinema was operating at a loss,The second was the internet
+E7,E6,-2,mi (Met By),False,the cinema was operating at a loss,attendance had dropped by more than half
+E7,E8,2,m (Meets),False,the cinema was operating at a loss,The announcement of the closure came
+E7,E9,1,< (Precedes),False,the cinema was operating at a loss,Rafiq heard the news
+E7,E10,1,< (Precedes),False,the cinema was operating at a loss,He spent the next two weeks organizing a farewell event
+E7,E11,1,< (Precedes),False,the cinema was operating at a loss,a crowd had gathered outside
+E7,E12,1,< (Precedes),False,the cinema was operating at a loss,The cinema was full
+E7,E13,1,< (Precedes),False,the cinema was operating at a loss,Former employees shared stories
+E7,E14,1,< (Precedes),False,the cinema was operating at a loss,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E7,E15,1,< (Precedes),False,the cinema was operating at a loss,The screen went dark
+E7,E16,1,< (Precedes),False,the cinema was operating at a loss,The audience sat in silence
+E7,E17,1,< (Precedes),False,the cinema was operating at a loss,Rafiq remained in his seat
+E7,E18,1,< (Precedes),False,the cinema was operating at a loss,the staff began turning off the lights
+E7,E19,1,< (Precedes),False,the cinema was operating at a loss,The Minar Cinema Hall was gone
+E8,E1,-1,> (Preceded By),False,The announcement of the closure came,Rafiq's father had worked there as a projectionist
+E8,E2,-1,> (Preceded By),False,The announcement of the closure came,Rafiq himself had spent his childhood in the projection room
+E8,E3,5,d (During),False,The announcement of the closure came,The cinema began its decline
+E8,E4,-1,> (Preceded By),False,The announcement of the closure came,The first blow was the arrival of cable television
+E8,E5,-1,> (Preceded By),False,The announcement of the closure came,The second was the internet
+E8,E6,-1,> (Preceded By),False,The announcement of the closure came,attendance had dropped by more than half
+E8,E7,-2,mi (Met By),False,The announcement of the closure came,the cinema was operating at a loss
+E8,E9,2,m (Meets),False,The announcement of the closure came,Rafiq heard the news
+E8,E10,1,< (Precedes),False,The announcement of the closure came,He spent the next two weeks organizing a farewell event
+E8,E11,1,< (Precedes),False,The announcement of the closure came,a crowd had gathered outside
+E8,E12,1,< (Precedes),False,The announcement of the closure came,The cinema was full
+E8,E13,1,< (Precedes),False,The announcement of the closure came,Former employees shared stories
+E8,E14,1,< (Precedes),False,The announcement of the closure came,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E8,E15,1,< (Precedes),False,The announcement of the closure came,The screen went dark
+E8,E16,1,< (Precedes),False,The announcement of the closure came,The audience sat in silence
+E8,E17,1,< (Precedes),False,The announcement of the closure came,Rafiq remained in his seat
+E8,E18,1,< (Precedes),False,The announcement of the closure came,the staff began turning off the lights
+E8,E19,1,< (Precedes),False,The announcement of the closure came,The Minar Cinema Hall was gone
+E9,E1,-1,> (Preceded By),False,Rafiq heard the news,Rafiq's father had worked there as a projectionist
+E9,E2,-1,> (Preceded By),False,Rafiq heard the news,Rafiq himself had spent his childhood in the projection room
+E9,E3,5,d (During),False,Rafiq heard the news,The cinema began its decline
+E9,E4,-1,> (Preceded By),False,Rafiq heard the news,The first blow was the arrival of cable television
+E9,E5,-1,> (Preceded By),False,Rafiq heard the news,The second was the internet
+E9,E6,-1,> (Preceded By),False,Rafiq heard the news,attendance had dropped by more than half
+E9,E7,-1,> (Preceded By),False,Rafiq heard the news,the cinema was operating at a loss
+E9,E8,-2,mi (Met By),False,Rafiq heard the news,The announcement of the closure came
+E9,E10,2,m (Meets),False,Rafiq heard the news,He spent the next two weeks organizing a farewell event
+E9,E11,1,< (Precedes),False,Rafiq heard the news,a crowd had gathered outside
+E9,E12,1,< (Precedes),False,Rafiq heard the news,The cinema was full
+E9,E13,1,< (Precedes),False,Rafiq heard the news,Former employees shared stories
+E9,E14,1,< (Precedes),False,Rafiq heard the news,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E9,E15,1,< (Precedes),False,Rafiq heard the news,The screen went dark
+E9,E16,1,< (Precedes),False,Rafiq heard the news,The audience sat in silence
+E9,E17,1,< (Precedes),False,Rafiq heard the news,Rafiq remained in his seat
+E9,E18,1,< (Precedes),False,Rafiq heard the news,the staff began turning off the lights
+E9,E19,1,< (Precedes),False,Rafiq heard the news,The Minar Cinema Hall was gone
+E10,E1,-1,> (Preceded By),False,He spent the next two weeks organizing a farewell event,Rafiq's father had worked there as a projectionist
+E10,E2,-1,> (Preceded By),False,He spent the next two weeks organizing a farewell event,Rafiq himself had spent his childhood in the projection room
+E10,E3,5,d (During),False,He spent the next two weeks organizing a farewell event,The cinema began its decline
+E10,E4,-1,> (Preceded By),False,He spent the next two weeks organizing a farewell event,The first blow was the arrival of cable television
+E10,E5,-1,> (Preceded By),False,He spent the next two weeks organizing a farewell event,The second was the internet
+E10,E6,-1,> (Preceded By),False,He spent the next two weeks organizing a farewell event,attendance had dropped by more than half
+E10,E7,-1,> (Preceded By),False,He spent the next two weeks organizing a farewell event,the cinema was operating at a loss
+E10,E8,-1,> (Preceded By),False,He spent the next two weeks organizing a farewell event,The announcement of the closure came
+E10,E9,-2,mi (Met By),False,He spent the next two weeks organizing a farewell event,Rafiq heard the news
+E10,E11,2,m (Meets),False,He spent the next two weeks organizing a farewell event,a crowd had gathered outside
+E10,E12,1,< (Precedes),False,He spent the next two weeks organizing a farewell event,The cinema was full
+E10,E13,1,< (Precedes),False,He spent the next two weeks organizing a farewell event,Former employees shared stories
+E10,E14,1,< (Precedes),False,He spent the next two weeks organizing a farewell event,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E10,E15,1,< (Precedes),False,He spent the next two weeks organizing a farewell event,The screen went dark
+E10,E16,1,< (Precedes),False,He spent the next two weeks organizing a farewell event,The audience sat in silence
+E10,E17,1,< (Precedes),False,He spent the next two weeks organizing a farewell event,Rafiq remained in his seat
+E10,E18,1,< (Precedes),False,He spent the next two weeks organizing a farewell event,the staff began turning off the lights
+E10,E19,1,< (Precedes),False,He spent the next two weeks organizing a farewell event,The Minar Cinema Hall was gone
+E11,E1,-1,> (Preceded By),False,a crowd had gathered outside,Rafiq's father had worked there as a projectionist
+E11,E2,-1,> (Preceded By),False,a crowd had gathered outside,Rafiq himself had spent his childhood in the projection room
+E11,E3,5,d (During),False,a crowd had gathered outside,The cinema began its decline
+E11,E4,-1,> (Preceded By),False,a crowd had gathered outside,The first blow was the arrival of cable television
+E11,E5,-1,> (Preceded By),False,a crowd had gathered outside,The second was the internet
+E11,E6,-1,> (Preceded By),False,a crowd had gathered outside,attendance had dropped by more than half
+E11,E7,-1,> (Preceded By),False,a crowd had gathered outside,the cinema was operating at a loss
+E11,E8,-1,> (Preceded By),False,a crowd had gathered outside,The announcement of the closure came
+E11,E9,-1,> (Preceded By),False,a crowd had gathered outside,Rafiq heard the news
+E11,E10,-2,mi (Met By),False,a crowd had gathered outside,He spent the next two weeks organizing a farewell event
+E11,E12,3,o (Overlaps),False,a crowd had gathered outside,The cinema was full
+E11,E13,3,o (Overlaps),False,a crowd had gathered outside,Former employees shared stories
+E11,E14,2,m (Meets),False,a crowd had gathered outside,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E11,E15,1,< (Precedes),False,a crowd had gathered outside,The screen went dark
+E11,E16,1,< (Precedes),False,a crowd had gathered outside,The audience sat in silence
+E11,E17,1,< (Precedes),False,a crowd had gathered outside,Rafiq remained in his seat
+E11,E18,1,< (Precedes),False,a crowd had gathered outside,the staff began turning off the lights
+E11,E19,1,< (Precedes),False,a crowd had gathered outside,The Minar Cinema Hall was gone
+E12,E1,-1,> (Preceded By),False,The cinema was full,Rafiq's father had worked there as a projectionist
+E12,E2,-1,> (Preceded By),False,The cinema was full,Rafiq himself had spent his childhood in the projection room
+E12,E3,6,f (Finishes),False,The cinema was full,The cinema began its decline
+E12,E4,-1,> (Preceded By),False,The cinema was full,The first blow was the arrival of cable television
+E12,E5,-1,> (Preceded By),False,The cinema was full,The second was the internet
+E12,E6,-1,> (Preceded By),False,The cinema was full,attendance had dropped by more than half
+E12,E7,-1,> (Preceded By),False,The cinema was full,the cinema was operating at a loss
+E12,E8,-1,> (Preceded By),False,The cinema was full,The announcement of the closure came
+E12,E9,-1,> (Preceded By),False,The cinema was full,Rafiq heard the news
+E12,E10,-1,> (Preceded By),False,The cinema was full,He spent the next two weeks organizing a farewell event
+E12,E11,-3,oi (Overlapped By),False,The cinema was full,a crowd had gathered outside
+E12,E13,-4,si (Started By),False,The cinema was full,Former employees shared stories
+E12,E14,-5,di (Contains),False,The cinema was full,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E12,E15,3,o (Overlaps),False,The cinema was full,The screen went dark
+E12,E16,-5,di (Contains),False,The cinema was full,The audience sat in silence
+E12,E17,-6,fi (Finished By),False,The cinema was full,Rafiq remained in his seat
+E12,E18,-6,fi (Finished By),False,The cinema was full,the staff began turning off the lights
+E12,E19,2,m (Meets),False,The cinema was full,The Minar Cinema Hall was gone
+E13,E1,-1,> (Preceded By),False,Former employees shared stories,Rafiq's father had worked there as a projectionist
+E13,E2,-1,> (Preceded By),False,Former employees shared stories,Rafiq himself had spent his childhood in the projection room
+E13,E3,5,d (During),False,Former employees shared stories,The cinema began its decline
+E13,E4,-1,> (Preceded By),False,Former employees shared stories,The first blow was the arrival of cable television
+E13,E5,-1,> (Preceded By),False,Former employees shared stories,The second was the internet
+E13,E6,-1,> (Preceded By),False,Former employees shared stories,attendance had dropped by more than half
+E13,E7,-1,> (Preceded By),False,Former employees shared stories,the cinema was operating at a loss
+E13,E8,-1,> (Preceded By),False,Former employees shared stories,The announcement of the closure came
+E13,E9,-1,> (Preceded By),False,Former employees shared stories,Rafiq heard the news
+E13,E10,-1,> (Preceded By),False,Former employees shared stories,He spent the next two weeks organizing a farewell event
+E13,E11,-3,oi (Overlapped By),False,Former employees shared stories,a crowd had gathered outside
+E13,E12,4,s (Starts),False,Former employees shared stories,The cinema was full
+E13,E14,-6,fi (Finished By),False,Former employees shared stories,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E13,E15,2,m (Meets),False,Former employees shared stories,The screen went dark
+E13,E16,2,m (Meets),False,Former employees shared stories,The audience sat in silence
+E13,E17,1,< (Precedes),False,Former employees shared stories,Rafiq remained in his seat
+E13,E18,1,< (Precedes),False,Former employees shared stories,the staff began turning off the lights
+E13,E19,1,< (Precedes),False,Former employees shared stories,The Minar Cinema Hall was gone
+E14,E1,-1,> (Preceded By),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",Rafiq's father had worked there as a projectionist
+E14,E2,-1,> (Preceded By),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",Rafiq himself had spent his childhood in the projection room
+E14,E3,5,d (During),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",The cinema began its decline
+E14,E4,-1,> (Preceded By),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",The first blow was the arrival of cable television
+E14,E5,-1,> (Preceded By),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",The second was the internet
+E14,E6,-1,> (Preceded By),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",attendance had dropped by more than half
+E14,E7,-1,> (Preceded By),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",the cinema was operating at a loss
+E14,E8,-1,> (Preceded By),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",The announcement of the closure came
+E14,E9,-1,> (Preceded By),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",Rafiq heard the news
+E14,E10,-1,> (Preceded By),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",He spent the next two weeks organizing a farewell event
+E14,E11,-2,mi (Met By),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",a crowd had gathered outside
+E14,E12,5,d (During),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",The cinema was full
+E14,E13,6,f (Finishes),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",Former employees shared stories
+E14,E15,2,m (Meets),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",The screen went dark
+E14,E16,2,m (Meets),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",The audience sat in silence
+E14,E17,1,< (Precedes),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",Rafiq remained in his seat
+E14,E18,1,< (Precedes),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",the staff began turning off the lights
+E14,E19,1,< (Precedes),False,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time",The Minar Cinema Hall was gone
+E15,E1,-1,> (Preceded By),False,The screen went dark,Rafiq's father had worked there as a projectionist
+E15,E2,-1,> (Preceded By),False,The screen went dark,Rafiq himself had spent his childhood in the projection room
+E15,E3,-3,oi (Overlapped By),False,The screen went dark,The cinema began its decline
+E15,E4,-1,> (Preceded By),False,The screen went dark,The first blow was the arrival of cable television
+E15,E5,-1,> (Preceded By),False,The screen went dark,The second was the internet
+E15,E6,-1,> (Preceded By),False,The screen went dark,attendance had dropped by more than half
+E15,E7,-1,> (Preceded By),False,The screen went dark,the cinema was operating at a loss
+E15,E8,-1,> (Preceded By),False,The screen went dark,The announcement of the closure came
+E15,E9,-1,> (Preceded By),False,The screen went dark,Rafiq heard the news
+E15,E10,-1,> (Preceded By),False,The screen went dark,He spent the next two weeks organizing a farewell event
+E15,E11,-1,> (Preceded By),False,The screen went dark,a crowd had gathered outside
+E15,E12,-3,oi (Overlapped By),False,The screen went dark,The cinema was full
+E15,E13,-2,mi (Met By),False,The screen went dark,Former employees shared stories
+E15,E14,-2,mi (Met By),False,The screen went dark,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E15,E16,-4,si (Started By),False,The screen went dark,The audience sat in silence
+E15,E17,-5,di (Contains),False,The screen went dark,Rafiq remained in his seat
+E15,E18,-5,di (Contains),False,The screen went dark,the staff began turning off the lights
+E15,E19,3,o (Overlaps),False,The screen went dark,The Minar Cinema Hall was gone
+E16,E1,-1,> (Preceded By),False,The audience sat in silence,Rafiq's father had worked there as a projectionist
+E16,E2,-1,> (Preceded By),False,The audience sat in silence,Rafiq himself had spent his childhood in the projection room
+E16,E3,5,d (During),False,The audience sat in silence,The cinema began its decline
+E16,E4,-1,> (Preceded By),False,The audience sat in silence,The first blow was the arrival of cable television
+E16,E5,-1,> (Preceded By),False,The audience sat in silence,The second was the internet
+E16,E6,-1,> (Preceded By),False,The audience sat in silence,attendance had dropped by more than half
+E16,E7,-1,> (Preceded By),False,The audience sat in silence,the cinema was operating at a loss
+E16,E8,-1,> (Preceded By),False,The audience sat in silence,The announcement of the closure came
+E16,E9,-1,> (Preceded By),False,The audience sat in silence,Rafiq heard the news
+E16,E10,-1,> (Preceded By),False,The audience sat in silence,He spent the next two weeks organizing a farewell event
+E16,E11,-1,> (Preceded By),False,The audience sat in silence,a crowd had gathered outside
+E16,E12,5,d (During),False,The audience sat in silence,The cinema was full
+E16,E13,-2,mi (Met By),False,The audience sat in silence,Former employees shared stories
+E16,E14,-2,mi (Met By),False,The audience sat in silence,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E16,E15,4,s (Starts),False,The audience sat in silence,The screen went dark
+E16,E17,2,m (Meets),False,The audience sat in silence,Rafiq remained in his seat
+E16,E18,1,< (Precedes),False,The audience sat in silence,the staff began turning off the lights
+E16,E19,1,< (Precedes),False,The audience sat in silence,The Minar Cinema Hall was gone
+E17,E1,-1,> (Preceded By),False,Rafiq remained in his seat,Rafiq's father had worked there as a projectionist
+E17,E2,-1,> (Preceded By),False,Rafiq remained in his seat,Rafiq himself had spent his childhood in the projection room
+E17,E3,6,f (Finishes),False,Rafiq remained in his seat,The cinema began its decline
+E17,E4,-1,> (Preceded By),False,Rafiq remained in his seat,The first blow was the arrival of cable television
+E17,E5,-1,> (Preceded By),False,Rafiq remained in his seat,The second was the internet
+E17,E6,-1,> (Preceded By),False,Rafiq remained in his seat,attendance had dropped by more than half
+E17,E7,-1,> (Preceded By),False,Rafiq remained in his seat,the cinema was operating at a loss
+E17,E8,-1,> (Preceded By),False,Rafiq remained in his seat,The announcement of the closure came
+E17,E9,-1,> (Preceded By),False,Rafiq remained in his seat,Rafiq heard the news
+E17,E10,-1,> (Preceded By),False,Rafiq remained in his seat,He spent the next two weeks organizing a farewell event
+E17,E11,-1,> (Preceded By),False,Rafiq remained in his seat,a crowd had gathered outside
+E17,E12,6,f (Finishes),False,Rafiq remained in his seat,The cinema was full
+E17,E13,-1,> (Preceded By),False,Rafiq remained in his seat,Former employees shared stories
+E17,E14,-1,> (Preceded By),False,Rafiq remained in his seat,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E17,E15,5,d (During),False,Rafiq remained in his seat,The screen went dark
+E17,E16,-2,mi (Met By),False,Rafiq remained in his seat,The audience sat in silence
+E17,E18,-6,fi (Finished By),False,Rafiq remained in his seat,the staff began turning off the lights
+E17,E19,2,m (Meets),False,Rafiq remained in his seat,The Minar Cinema Hall was gone
+E18,E1,-1,> (Preceded By),False,the staff began turning off the lights,Rafiq's father had worked there as a projectionist
+E18,E2,-1,> (Preceded By),False,the staff began turning off the lights,Rafiq himself had spent his childhood in the projection room
+E18,E3,6,f (Finishes),False,the staff began turning off the lights,The cinema began its decline
+E18,E4,-1,> (Preceded By),False,the staff began turning off the lights,The first blow was the arrival of cable television
+E18,E5,-1,> (Preceded By),False,the staff began turning off the lights,The second was the internet
+E18,E6,-1,> (Preceded By),False,the staff began turning off the lights,attendance had dropped by more than half
+E18,E7,-1,> (Preceded By),False,the staff began turning off the lights,the cinema was operating at a loss
+E18,E8,-1,> (Preceded By),False,the staff began turning off the lights,The announcement of the closure came
+E18,E9,-1,> (Preceded By),False,the staff began turning off the lights,Rafiq heard the news
+E18,E10,-1,> (Preceded By),False,the staff began turning off the lights,He spent the next two weeks organizing a farewell event
+E18,E11,-1,> (Preceded By),False,the staff began turning off the lights,a crowd had gathered outside
+E18,E12,6,f (Finishes),False,the staff began turning off the lights,The cinema was full
+E18,E13,-1,> (Preceded By),False,the staff began turning off the lights,Former employees shared stories
+E18,E14,-1,> (Preceded By),False,the staff began turning off the lights,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E18,E15,5,d (During),False,the staff began turning off the lights,The screen went dark
+E18,E16,-1,> (Preceded By),False,the staff began turning off the lights,The audience sat in silence
+E18,E17,6,f (Finishes),False,the staff began turning off the lights,Rafiq remained in his seat
+E18,E19,2,m (Meets),False,the staff began turning off the lights,The Minar Cinema Hall was gone
+E19,E1,-1,> (Preceded By),False,The Minar Cinema Hall was gone,Rafiq's father had worked there as a projectionist
+E19,E2,-1,> (Preceded By),False,The Minar Cinema Hall was gone,Rafiq himself had spent his childhood in the projection room
+E19,E3,-2,mi (Met By),False,The Minar Cinema Hall was gone,The cinema began its decline
+E19,E4,-1,> (Preceded By),False,The Minar Cinema Hall was gone,The first blow was the arrival of cable television
+E19,E5,-1,> (Preceded By),False,The Minar Cinema Hall was gone,The second was the internet
+E19,E6,-1,> (Preceded By),False,The Minar Cinema Hall was gone,attendance had dropped by more than half
+E19,E7,-1,> (Preceded By),False,The Minar Cinema Hall was gone,the cinema was operating at a loss
+E19,E8,-1,> (Preceded By),False,The Minar Cinema Hall was gone,The announcement of the closure came
+E19,E9,-1,> (Preceded By),False,The Minar Cinema Hall was gone,Rafiq heard the news
+E19,E10,-1,> (Preceded By),False,The Minar Cinema Hall was gone,He spent the next two weeks organizing a farewell event
+E19,E11,-1,> (Preceded By),False,The Minar Cinema Hall was gone,a crowd had gathered outside
+E19,E12,-2,mi (Met By),False,The Minar Cinema Hall was gone,The cinema was full
+E19,E13,-1,> (Preceded By),False,The Minar Cinema Hall was gone,Former employees shared stories
+E19,E14,-1,> (Preceded By),False,The Minar Cinema Hall was gone,"Rafiq's father, now in his late seventies, was invited to operate the projector one last time"
+E19,E15,-3,oi (Overlapped By),False,The Minar Cinema Hall was gone,The screen went dark
+E19,E16,-1,> (Preceded By),False,The Minar Cinema Hall was gone,The audience sat in silence
+E19,E17,-2,mi (Met By),False,The Minar Cinema Hall was gone,Rafiq remained in his seat
+E19,E18,-2,mi (Met By),False,The Minar Cinema Hall was gone,the staff began turning off the lights

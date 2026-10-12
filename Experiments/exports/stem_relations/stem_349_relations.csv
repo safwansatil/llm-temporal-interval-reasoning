@@ -1,0 +1,307 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,planning,reading
+E1,E3,2,m (Meets),False,planning,discovered her passport was missing
+E1,E4,1,< (Precedes),False,planning,opened the drawer
+E1,E5,1,< (Precedes),False,planning,searched her apartment
+E1,E6,1,< (Precedes),False,planning,found nothing
+E1,E7,1,< (Precedes),False,planning,called the passport office
+E1,E8,1,< (Precedes),False,planning,collecting the required documents
+E1,E9,1,< (Precedes),False,planning,police report was filed
+E1,E10,1,< (Precedes),False,planning,flight itinerary was printed
+E1,E11,1,< (Precedes),False,planning,fee was paid
+E1,E12,1,< (Precedes),False,planning,submitted the application
+E1,E13,1,< (Precedes),False,planning,passport office called
+E1,E14,1,< (Precedes),False,planning,expedited application had been processed
+E1,E15,1,< (Precedes),False,planning,collected the new passport
+E1,E16,1,< (Precedes),False,planning,flew to Bangkok
+E1,E17,1,< (Precedes),False,planning,found the original passport
+E1,E18,1,< (Precedes),False,planning,She had a flight to Bangkok
+E2,E1,5,d (During),False,reading,planning
+E2,E3,1,< (Precedes),False,reading,discovered her passport was missing
+E2,E4,1,< (Precedes),False,reading,opened the drawer
+E2,E5,1,< (Precedes),False,reading,searched her apartment
+E2,E6,1,< (Precedes),False,reading,found nothing
+E2,E7,1,< (Precedes),False,reading,called the passport office
+E2,E8,1,< (Precedes),False,reading,collecting the required documents
+E2,E9,1,< (Precedes),False,reading,police report was filed
+E2,E10,1,< (Precedes),False,reading,flight itinerary was printed
+E2,E11,1,< (Precedes),False,reading,fee was paid
+E2,E12,1,< (Precedes),False,reading,submitted the application
+E2,E13,1,< (Precedes),False,reading,passport office called
+E2,E14,1,< (Precedes),False,reading,expedited application had been processed
+E2,E15,1,< (Precedes),False,reading,collected the new passport
+E2,E16,1,< (Precedes),False,reading,flew to Bangkok
+E2,E17,1,< (Precedes),False,reading,found the original passport
+E2,E18,1,< (Precedes),False,reading,She had a flight to Bangkok
+E3,E1,-2,mi (Met By),False,discovered her passport was missing,planning
+E3,E2,-1,> (Preceded By),False,discovered her passport was missing,reading
+E3,E4,2,m (Meets),False,discovered her passport was missing,opened the drawer
+E3,E5,1,< (Precedes),False,discovered her passport was missing,searched her apartment
+E3,E6,1,< (Precedes),False,discovered her passport was missing,found nothing
+E3,E7,1,< (Precedes),False,discovered her passport was missing,called the passport office
+E3,E8,1,< (Precedes),False,discovered her passport was missing,collecting the required documents
+E3,E9,1,< (Precedes),False,discovered her passport was missing,police report was filed
+E3,E10,1,< (Precedes),False,discovered her passport was missing,flight itinerary was printed
+E3,E11,1,< (Precedes),False,discovered her passport was missing,fee was paid
+E3,E12,1,< (Precedes),False,discovered her passport was missing,submitted the application
+E3,E13,1,< (Precedes),False,discovered her passport was missing,passport office called
+E3,E14,1,< (Precedes),False,discovered her passport was missing,expedited application had been processed
+E3,E15,1,< (Precedes),False,discovered her passport was missing,collected the new passport
+E3,E16,1,< (Precedes),False,discovered her passport was missing,flew to Bangkok
+E3,E17,1,< (Precedes),False,discovered her passport was missing,found the original passport
+E3,E18,1,< (Precedes),False,discovered her passport was missing,She had a flight to Bangkok
+E4,E1,-1,> (Preceded By),False,opened the drawer,planning
+E4,E2,-1,> (Preceded By),False,opened the drawer,reading
+E4,E3,-2,mi (Met By),False,opened the drawer,discovered her passport was missing
+E4,E5,2,m (Meets),False,opened the drawer,searched her apartment
+E4,E6,1,< (Precedes),False,opened the drawer,found nothing
+E4,E7,1,< (Precedes),False,opened the drawer,called the passport office
+E4,E8,1,< (Precedes),False,opened the drawer,collecting the required documents
+E4,E9,1,< (Precedes),False,opened the drawer,police report was filed
+E4,E10,1,< (Precedes),False,opened the drawer,flight itinerary was printed
+E4,E11,1,< (Precedes),False,opened the drawer,fee was paid
+E4,E12,1,< (Precedes),False,opened the drawer,submitted the application
+E4,E13,1,< (Precedes),False,opened the drawer,passport office called
+E4,E14,1,< (Precedes),False,opened the drawer,expedited application had been processed
+E4,E15,1,< (Precedes),False,opened the drawer,collected the new passport
+E4,E16,1,< (Precedes),False,opened the drawer,flew to Bangkok
+E4,E17,1,< (Precedes),False,opened the drawer,found the original passport
+E4,E18,1,< (Precedes),False,opened the drawer,She had a flight to Bangkok
+E5,E1,-1,> (Preceded By),False,searched her apartment,planning
+E5,E2,-1,> (Preceded By),False,searched her apartment,reading
+E5,E3,-1,> (Preceded By),False,searched her apartment,discovered her passport was missing
+E5,E4,-2,mi (Met By),False,searched her apartment,opened the drawer
+E5,E6,2,m (Meets),False,searched her apartment,found nothing
+E5,E7,1,< (Precedes),False,searched her apartment,called the passport office
+E5,E8,1,< (Precedes),False,searched her apartment,collecting the required documents
+E5,E9,1,< (Precedes),False,searched her apartment,police report was filed
+E5,E10,1,< (Precedes),False,searched her apartment,flight itinerary was printed
+E5,E11,1,< (Precedes),False,searched her apartment,fee was paid
+E5,E12,1,< (Precedes),False,searched her apartment,submitted the application
+E5,E13,1,< (Precedes),False,searched her apartment,passport office called
+E5,E14,1,< (Precedes),False,searched her apartment,expedited application had been processed
+E5,E15,1,< (Precedes),False,searched her apartment,collected the new passport
+E5,E16,1,< (Precedes),False,searched her apartment,flew to Bangkok
+E5,E17,1,< (Precedes),False,searched her apartment,found the original passport
+E5,E18,1,< (Precedes),False,searched her apartment,She had a flight to Bangkok
+E6,E1,-1,> (Preceded By),False,found nothing,planning
+E6,E2,-1,> (Preceded By),False,found nothing,reading
+E6,E3,-1,> (Preceded By),False,found nothing,discovered her passport was missing
+E6,E4,-1,> (Preceded By),False,found nothing,opened the drawer
+E6,E5,-2,mi (Met By),False,found nothing,searched her apartment
+E6,E7,1,< (Precedes),False,found nothing,called the passport office
+E6,E8,1,< (Precedes),False,found nothing,collecting the required documents
+E6,E9,1,< (Precedes),False,found nothing,police report was filed
+E6,E10,1,< (Precedes),False,found nothing,flight itinerary was printed
+E6,E11,1,< (Precedes),False,found nothing,fee was paid
+E6,E12,1,< (Precedes),False,found nothing,submitted the application
+E6,E13,1,< (Precedes),False,found nothing,passport office called
+E6,E14,1,< (Precedes),False,found nothing,expedited application had been processed
+E6,E15,1,< (Precedes),False,found nothing,collected the new passport
+E6,E16,1,< (Precedes),False,found nothing,flew to Bangkok
+E6,E17,1,< (Precedes),False,found nothing,found the original passport
+E6,E18,1,< (Precedes),False,found nothing,She had a flight to Bangkok
+E7,E1,-1,> (Preceded By),False,called the passport office,planning
+E7,E2,-1,> (Preceded By),False,called the passport office,reading
+E7,E3,-1,> (Preceded By),False,called the passport office,discovered her passport was missing
+E7,E4,-1,> (Preceded By),False,called the passport office,opened the drawer
+E7,E5,-1,> (Preceded By),False,called the passport office,searched her apartment
+E7,E6,-1,> (Preceded By),False,called the passport office,found nothing
+E7,E8,2,m (Meets),False,called the passport office,collecting the required documents
+E7,E9,1,< (Precedes),False,called the passport office,police report was filed
+E7,E10,1,< (Precedes),False,called the passport office,flight itinerary was printed
+E7,E11,1,< (Precedes),False,called the passport office,fee was paid
+E7,E12,1,< (Precedes),False,called the passport office,submitted the application
+E7,E13,1,< (Precedes),False,called the passport office,passport office called
+E7,E14,1,< (Precedes),False,called the passport office,expedited application had been processed
+E7,E15,1,< (Precedes),False,called the passport office,collected the new passport
+E7,E16,1,< (Precedes),False,called the passport office,flew to Bangkok
+E7,E17,1,< (Precedes),False,called the passport office,found the original passport
+E7,E18,1,< (Precedes),False,called the passport office,She had a flight to Bangkok
+E8,E1,-1,> (Preceded By),False,collecting the required documents,planning
+E8,E2,-1,> (Preceded By),False,collecting the required documents,reading
+E8,E3,-1,> (Preceded By),False,collecting the required documents,discovered her passport was missing
+E8,E4,-1,> (Preceded By),False,collecting the required documents,opened the drawer
+E8,E5,-1,> (Preceded By),False,collecting the required documents,searched her apartment
+E8,E6,-1,> (Preceded By),False,collecting the required documents,found nothing
+E8,E7,-2,mi (Met By),False,collecting the required documents,called the passport office
+E8,E9,-5,di (Contains),False,collecting the required documents,police report was filed
+E8,E10,-5,di (Contains),False,collecting the required documents,flight itinerary was printed
+E8,E11,-5,di (Contains),False,collecting the required documents,fee was paid
+E8,E12,1,< (Precedes),False,collecting the required documents,submitted the application
+E8,E13,1,< (Precedes),False,collecting the required documents,passport office called
+E8,E14,1,< (Precedes),False,collecting the required documents,expedited application had been processed
+E8,E15,1,< (Precedes),False,collecting the required documents,collected the new passport
+E8,E16,1,< (Precedes),False,collecting the required documents,flew to Bangkok
+E8,E17,1,< (Precedes),False,collecting the required documents,found the original passport
+E8,E18,1,< (Precedes),False,collecting the required documents,She had a flight to Bangkok
+E9,E1,-1,> (Preceded By),False,police report was filed,planning
+E9,E2,-1,> (Preceded By),False,police report was filed,reading
+E9,E3,-1,> (Preceded By),False,police report was filed,discovered her passport was missing
+E9,E4,-1,> (Preceded By),False,police report was filed,opened the drawer
+E9,E5,-1,> (Preceded By),False,police report was filed,searched her apartment
+E9,E6,-1,> (Preceded By),False,police report was filed,found nothing
+E9,E7,-1,> (Preceded By),False,police report was filed,called the passport office
+E9,E8,5,d (During),False,police report was filed,collecting the required documents
+E9,E10,2,m (Meets),False,police report was filed,flight itinerary was printed
+E9,E11,1,< (Precedes),False,police report was filed,fee was paid
+E9,E12,1,< (Precedes),False,police report was filed,submitted the application
+E9,E13,1,< (Precedes),False,police report was filed,passport office called
+E9,E14,1,< (Precedes),False,police report was filed,expedited application had been processed
+E9,E15,1,< (Precedes),False,police report was filed,collected the new passport
+E9,E16,1,< (Precedes),False,police report was filed,flew to Bangkok
+E9,E17,1,< (Precedes),False,police report was filed,found the original passport
+E9,E18,1,< (Precedes),False,police report was filed,She had a flight to Bangkok
+E10,E1,-1,> (Preceded By),False,flight itinerary was printed,planning
+E10,E2,-1,> (Preceded By),False,flight itinerary was printed,reading
+E10,E3,-1,> (Preceded By),False,flight itinerary was printed,discovered her passport was missing
+E10,E4,-1,> (Preceded By),False,flight itinerary was printed,opened the drawer
+E10,E5,-1,> (Preceded By),False,flight itinerary was printed,searched her apartment
+E10,E6,-1,> (Preceded By),False,flight itinerary was printed,found nothing
+E10,E7,-1,> (Preceded By),False,flight itinerary was printed,called the passport office
+E10,E8,5,d (During),False,flight itinerary was printed,collecting the required documents
+E10,E9,-2,mi (Met By),False,flight itinerary was printed,police report was filed
+E10,E11,2,m (Meets),False,flight itinerary was printed,fee was paid
+E10,E12,1,< (Precedes),False,flight itinerary was printed,submitted the application
+E10,E13,1,< (Precedes),False,flight itinerary was printed,passport office called
+E10,E14,1,< (Precedes),False,flight itinerary was printed,expedited application had been processed
+E10,E15,1,< (Precedes),False,flight itinerary was printed,collected the new passport
+E10,E16,1,< (Precedes),False,flight itinerary was printed,flew to Bangkok
+E10,E17,1,< (Precedes),False,flight itinerary was printed,found the original passport
+E10,E18,1,< (Precedes),False,flight itinerary was printed,She had a flight to Bangkok
+E11,E1,-1,> (Preceded By),False,fee was paid,planning
+E11,E2,-1,> (Preceded By),False,fee was paid,reading
+E11,E3,-1,> (Preceded By),False,fee was paid,discovered her passport was missing
+E11,E4,-1,> (Preceded By),False,fee was paid,opened the drawer
+E11,E5,-1,> (Preceded By),False,fee was paid,searched her apartment
+E11,E6,-1,> (Preceded By),False,fee was paid,found nothing
+E11,E7,-1,> (Preceded By),False,fee was paid,called the passport office
+E11,E8,5,d (During),False,fee was paid,collecting the required documents
+E11,E9,-1,> (Preceded By),False,fee was paid,police report was filed
+E11,E10,-2,mi (Met By),False,fee was paid,flight itinerary was printed
+E11,E12,1,< (Precedes),False,fee was paid,submitted the application
+E11,E13,1,< (Precedes),False,fee was paid,passport office called
+E11,E14,1,< (Precedes),False,fee was paid,expedited application had been processed
+E11,E15,1,< (Precedes),False,fee was paid,collected the new passport
+E11,E16,1,< (Precedes),False,fee was paid,flew to Bangkok
+E11,E17,1,< (Precedes),False,fee was paid,found the original passport
+E11,E18,1,< (Precedes),False,fee was paid,She had a flight to Bangkok
+E12,E1,-1,> (Preceded By),False,submitted the application,planning
+E12,E2,-1,> (Preceded By),False,submitted the application,reading
+E12,E3,-1,> (Preceded By),False,submitted the application,discovered her passport was missing
+E12,E4,-1,> (Preceded By),False,submitted the application,opened the drawer
+E12,E5,-1,> (Preceded By),False,submitted the application,searched her apartment
+E12,E6,-1,> (Preceded By),False,submitted the application,found nothing
+E12,E7,-1,> (Preceded By),False,submitted the application,called the passport office
+E12,E8,-1,> (Preceded By),False,submitted the application,collecting the required documents
+E12,E9,-1,> (Preceded By),False,submitted the application,police report was filed
+E12,E10,-1,> (Preceded By),False,submitted the application,flight itinerary was printed
+E12,E11,-1,> (Preceded By),False,submitted the application,fee was paid
+E12,E13,1,< (Precedes),False,submitted the application,passport office called
+E12,E14,2,m (Meets),False,submitted the application,expedited application had been processed
+E12,E15,1,< (Precedes),False,submitted the application,collected the new passport
+E12,E16,1,< (Precedes),False,submitted the application,flew to Bangkok
+E12,E17,1,< (Precedes),False,submitted the application,found the original passport
+E12,E18,1,< (Precedes),False,submitted the application,She had a flight to Bangkok
+E13,E1,-1,> (Preceded By),False,passport office called,planning
+E13,E2,-1,> (Preceded By),False,passport office called,reading
+E13,E3,-1,> (Preceded By),False,passport office called,discovered her passport was missing
+E13,E4,-1,> (Preceded By),False,passport office called,opened the drawer
+E13,E5,-1,> (Preceded By),False,passport office called,searched her apartment
+E13,E6,-1,> (Preceded By),False,passport office called,found nothing
+E13,E7,-1,> (Preceded By),False,passport office called,called the passport office
+E13,E8,-1,> (Preceded By),False,passport office called,collecting the required documents
+E13,E9,-1,> (Preceded By),False,passport office called,police report was filed
+E13,E10,-1,> (Preceded By),False,passport office called,flight itinerary was printed
+E13,E11,-1,> (Preceded By),False,passport office called,fee was paid
+E13,E12,-1,> (Preceded By),False,passport office called,submitted the application
+E13,E14,-2,mi (Met By),False,passport office called,expedited application had been processed
+E13,E15,1,< (Precedes),False,passport office called,collected the new passport
+E13,E16,1,< (Precedes),False,passport office called,flew to Bangkok
+E13,E17,1,< (Precedes),False,passport office called,found the original passport
+E13,E18,1,< (Precedes),False,passport office called,She had a flight to Bangkok
+E14,E1,-1,> (Preceded By),False,expedited application had been processed,planning
+E14,E2,-1,> (Preceded By),False,expedited application had been processed,reading
+E14,E3,-1,> (Preceded By),False,expedited application had been processed,discovered her passport was missing
+E14,E4,-1,> (Preceded By),False,expedited application had been processed,opened the drawer
+E14,E5,-1,> (Preceded By),False,expedited application had been processed,searched her apartment
+E14,E6,-1,> (Preceded By),False,expedited application had been processed,found nothing
+E14,E7,-1,> (Preceded By),False,expedited application had been processed,called the passport office
+E14,E8,-1,> (Preceded By),False,expedited application had been processed,collecting the required documents
+E14,E9,-1,> (Preceded By),False,expedited application had been processed,police report was filed
+E14,E10,-1,> (Preceded By),False,expedited application had been processed,flight itinerary was printed
+E14,E11,-1,> (Preceded By),False,expedited application had been processed,fee was paid
+E14,E12,-2,mi (Met By),False,expedited application had been processed,submitted the application
+E14,E13,2,m (Meets),False,expedited application had been processed,passport office called
+E14,E15,1,< (Precedes),False,expedited application had been processed,collected the new passport
+E14,E16,1,< (Precedes),False,expedited application had been processed,flew to Bangkok
+E14,E17,1,< (Precedes),False,expedited application had been processed,found the original passport
+E14,E18,1,< (Precedes),False,expedited application had been processed,She had a flight to Bangkok
+E15,E1,-1,> (Preceded By),False,collected the new passport,planning
+E15,E2,-1,> (Preceded By),False,collected the new passport,reading
+E15,E3,-1,> (Preceded By),False,collected the new passport,discovered her passport was missing
+E15,E4,-1,> (Preceded By),False,collected the new passport,opened the drawer
+E15,E5,-1,> (Preceded By),False,collected the new passport,searched her apartment
+E15,E6,-1,> (Preceded By),False,collected the new passport,found nothing
+E15,E7,-1,> (Preceded By),False,collected the new passport,called the passport office
+E15,E8,-1,> (Preceded By),False,collected the new passport,collecting the required documents
+E15,E9,-1,> (Preceded By),False,collected the new passport,police report was filed
+E15,E10,-1,> (Preceded By),False,collected the new passport,flight itinerary was printed
+E15,E11,-1,> (Preceded By),False,collected the new passport,fee was paid
+E15,E12,-1,> (Preceded By),False,collected the new passport,submitted the application
+E15,E13,-1,> (Preceded By),False,collected the new passport,passport office called
+E15,E14,-1,> (Preceded By),False,collected the new passport,expedited application had been processed
+E15,E16,1,< (Precedes),False,collected the new passport,flew to Bangkok
+E15,E17,1,< (Precedes),False,collected the new passport,found the original passport
+E15,E18,1,< (Precedes),False,collected the new passport,She had a flight to Bangkok
+E16,E1,-1,> (Preceded By),False,flew to Bangkok,planning
+E16,E2,-1,> (Preceded By),False,flew to Bangkok,reading
+E16,E3,-1,> (Preceded By),False,flew to Bangkok,discovered her passport was missing
+E16,E4,-1,> (Preceded By),False,flew to Bangkok,opened the drawer
+E16,E5,-1,> (Preceded By),False,flew to Bangkok,searched her apartment
+E16,E6,-1,> (Preceded By),False,flew to Bangkok,found nothing
+E16,E7,-1,> (Preceded By),False,flew to Bangkok,called the passport office
+E16,E8,-1,> (Preceded By),False,flew to Bangkok,collecting the required documents
+E16,E9,-1,> (Preceded By),False,flew to Bangkok,police report was filed
+E16,E10,-1,> (Preceded By),False,flew to Bangkok,flight itinerary was printed
+E16,E11,-1,> (Preceded By),False,flew to Bangkok,fee was paid
+E16,E12,-1,> (Preceded By),False,flew to Bangkok,submitted the application
+E16,E13,-1,> (Preceded By),False,flew to Bangkok,passport office called
+E16,E14,-1,> (Preceded By),False,flew to Bangkok,expedited application had been processed
+E16,E15,-1,> (Preceded By),False,flew to Bangkok,collected the new passport
+E16,E17,1,< (Precedes),False,flew to Bangkok,found the original passport
+E16,E18,-4,si (Started By),False,flew to Bangkok,She had a flight to Bangkok
+E17,E1,-1,> (Preceded By),False,found the original passport,planning
+E17,E2,-1,> (Preceded By),False,found the original passport,reading
+E17,E3,-1,> (Preceded By),False,found the original passport,discovered her passport was missing
+E17,E4,-1,> (Preceded By),False,found the original passport,opened the drawer
+E17,E5,-1,> (Preceded By),False,found the original passport,searched her apartment
+E17,E6,-1,> (Preceded By),False,found the original passport,found nothing
+E17,E7,-1,> (Preceded By),False,found the original passport,called the passport office
+E17,E8,-1,> (Preceded By),False,found the original passport,collecting the required documents
+E17,E9,-1,> (Preceded By),False,found the original passport,police report was filed
+E17,E10,-1,> (Preceded By),False,found the original passport,flight itinerary was printed
+E17,E11,-1,> (Preceded By),False,found the original passport,fee was paid
+E17,E12,-1,> (Preceded By),False,found the original passport,submitted the application
+E17,E13,-1,> (Preceded By),False,found the original passport,passport office called
+E17,E14,-1,> (Preceded By),False,found the original passport,expedited application had been processed
+E17,E15,-1,> (Preceded By),False,found the original passport,collected the new passport
+E17,E16,-1,> (Preceded By),False,found the original passport,flew to Bangkok
+E17,E18,-1,> (Preceded By),False,found the original passport,She had a flight to Bangkok
+E18,E1,-1,> (Preceded By),False,She had a flight to Bangkok,planning
+E18,E2,-1,> (Preceded By),False,She had a flight to Bangkok,reading
+E18,E3,-1,> (Preceded By),False,She had a flight to Bangkok,discovered her passport was missing
+E18,E4,-1,> (Preceded By),False,She had a flight to Bangkok,opened the drawer
+E18,E5,-1,> (Preceded By),False,She had a flight to Bangkok,searched her apartment
+E18,E6,-1,> (Preceded By),False,She had a flight to Bangkok,found nothing
+E18,E7,-1,> (Preceded By),False,She had a flight to Bangkok,called the passport office
+E18,E8,-1,> (Preceded By),False,She had a flight to Bangkok,collecting the required documents
+E18,E9,-1,> (Preceded By),False,She had a flight to Bangkok,police report was filed
+E18,E10,-1,> (Preceded By),False,She had a flight to Bangkok,flight itinerary was printed
+E18,E11,-1,> (Preceded By),False,She had a flight to Bangkok,fee was paid
+E18,E12,-1,> (Preceded By),False,She had a flight to Bangkok,submitted the application
+E18,E13,-1,> (Preceded By),False,She had a flight to Bangkok,passport office called
+E18,E14,-1,> (Preceded By),False,She had a flight to Bangkok,expedited application had been processed
+E18,E15,-1,> (Preceded By),False,She had a flight to Bangkok,collected the new passport
+E18,E16,4,s (Starts),False,She had a flight to Bangkok,flew to Bangkok
+E18,E17,1,< (Precedes),False,She had a flight to Bangkok,found the original passport

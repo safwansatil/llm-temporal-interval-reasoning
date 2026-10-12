@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,living near the college gate,shivering under a leaking awning
+E1,E3,-5,di (Contains),False,living near the college gate,built a small shelter from cardboard and plastic sheeting
+E1,E4,-5,di (Contains),False,living near the college gate,the rain destroyed it
+E1,E5,-5,di (Contains),False,living near the college gate,rebuilt the shelter
+E1,E6,-6,fi (Finished By),False,living near the college gate,began to trust the students
+E1,E7,-5,di (Contains),False,living near the college gate,built by the college's carpentry class
+E1,E8,-6,fi (Finished By),False,living near the college gate,has a name
+E1,E9,-6,fi (Finished By),False,living near the college gate,greets students at the gate
+E1,E10,-5,di (Contains),False,living near the college gate,The shelter lasted three days
+E1,E11,-5,di (Contains),False,living near the college gate,survived the rest of the monsoon
+E2,E1,5,d (During),False,shivering under a leaking awning,living near the college gate
+E2,E3,2,m (Meets),False,shivering under a leaking awning,built a small shelter from cardboard and plastic sheeting
+E2,E4,1,< (Precedes),False,shivering under a leaking awning,the rain destroyed it
+E2,E5,1,< (Precedes),False,shivering under a leaking awning,rebuilt the shelter
+E2,E6,1,< (Precedes),False,shivering under a leaking awning,began to trust the students
+E2,E7,1,< (Precedes),False,shivering under a leaking awning,built by the college's carpentry class
+E2,E8,1,< (Precedes),False,shivering under a leaking awning,has a name
+E2,E9,1,< (Precedes),False,shivering under a leaking awning,greets students at the gate
+E2,E10,1,< (Precedes),False,shivering under a leaking awning,The shelter lasted three days
+E2,E11,1,< (Precedes),False,shivering under a leaking awning,survived the rest of the monsoon
+E3,E1,5,d (During),False,built a small shelter from cardboard and plastic sheeting,living near the college gate
+E3,E2,-2,mi (Met By),False,built a small shelter from cardboard and plastic sheeting,shivering under a leaking awning
+E3,E4,1,< (Precedes),False,built a small shelter from cardboard and plastic sheeting,the rain destroyed it
+E3,E5,1,< (Precedes),False,built a small shelter from cardboard and plastic sheeting,rebuilt the shelter
+E3,E6,1,< (Precedes),False,built a small shelter from cardboard and plastic sheeting,began to trust the students
+E3,E7,1,< (Precedes),False,built a small shelter from cardboard and plastic sheeting,built by the college's carpentry class
+E3,E8,1,< (Precedes),False,built a small shelter from cardboard and plastic sheeting,has a name
+E3,E9,1,< (Precedes),False,built a small shelter from cardboard and plastic sheeting,greets students at the gate
+E3,E10,2,m (Meets),False,built a small shelter from cardboard and plastic sheeting,The shelter lasted three days
+E3,E11,1,< (Precedes),False,built a small shelter from cardboard and plastic sheeting,survived the rest of the monsoon
+E4,E1,5,d (During),False,the rain destroyed it,living near the college gate
+E4,E2,-1,> (Preceded By),False,the rain destroyed it,shivering under a leaking awning
+E4,E3,-1,> (Preceded By),False,the rain destroyed it,built a small shelter from cardboard and plastic sheeting
+E4,E5,1,< (Precedes),False,the rain destroyed it,rebuilt the shelter
+E4,E6,1,< (Precedes),False,the rain destroyed it,began to trust the students
+E4,E7,1,< (Precedes),False,the rain destroyed it,built by the college's carpentry class
+E4,E8,1,< (Precedes),False,the rain destroyed it,has a name
+E4,E9,1,< (Precedes),False,the rain destroyed it,greets students at the gate
+E4,E10,-2,mi (Met By),False,the rain destroyed it,The shelter lasted three days
+E4,E11,1,< (Precedes),False,the rain destroyed it,survived the rest of the monsoon
+E5,E1,5,d (During),False,rebuilt the shelter,living near the college gate
+E5,E2,-1,> (Preceded By),False,rebuilt the shelter,shivering under a leaking awning
+E5,E3,-1,> (Preceded By),False,rebuilt the shelter,built a small shelter from cardboard and plastic sheeting
+E5,E4,-1,> (Preceded By),False,rebuilt the shelter,the rain destroyed it
+E5,E6,1,< (Precedes),False,rebuilt the shelter,began to trust the students
+E5,E7,1,< (Precedes),False,rebuilt the shelter,built by the college's carpentry class
+E5,E8,1,< (Precedes),False,rebuilt the shelter,has a name
+E5,E9,1,< (Precedes),False,rebuilt the shelter,greets students at the gate
+E5,E10,-1,> (Preceded By),False,rebuilt the shelter,The shelter lasted three days
+E5,E11,1,< (Precedes),False,rebuilt the shelter,survived the rest of the monsoon
+E6,E1,6,f (Finishes),False,began to trust the students,living near the college gate
+E6,E2,-1,> (Preceded By),False,began to trust the students,shivering under a leaking awning
+E6,E3,-1,> (Preceded By),False,began to trust the students,built a small shelter from cardboard and plastic sheeting
+E6,E4,-1,> (Preceded By),False,began to trust the students,the rain destroyed it
+E6,E5,-1,> (Preceded By),False,began to trust the students,rebuilt the shelter
+E6,E7,-5,di (Contains),False,began to trust the students,built by the college's carpentry class
+E6,E8,-6,fi (Finished By),False,began to trust the students,has a name
+E6,E9,-6,fi (Finished By),False,began to trust the students,greets students at the gate
+E6,E10,-1,> (Preceded By),False,began to trust the students,The shelter lasted three days
+E6,E11,-3,oi (Overlapped By),False,began to trust the students,survived the rest of the monsoon
+E7,E1,5,d (During),False,built by the college's carpentry class,living near the college gate
+E7,E2,-1,> (Preceded By),False,built by the college's carpentry class,shivering under a leaking awning
+E7,E3,-1,> (Preceded By),False,built by the college's carpentry class,built a small shelter from cardboard and plastic sheeting
+E7,E4,-1,> (Preceded By),False,built by the college's carpentry class,the rain destroyed it
+E7,E5,-1,> (Preceded By),False,built by the college's carpentry class,rebuilt the shelter
+E7,E6,5,d (During),False,built by the college's carpentry class,began to trust the students
+E7,E8,1,< (Precedes),False,built by the college's carpentry class,has a name
+E7,E9,1,< (Precedes),False,built by the college's carpentry class,greets students at the gate
+E7,E10,-1,> (Preceded By),False,built by the college's carpentry class,The shelter lasted three days
+E7,E11,-1,> (Preceded By),False,built by the college's carpentry class,survived the rest of the monsoon
+E8,E1,6,f (Finishes),False,has a name,living near the college gate
+E8,E2,-1,> (Preceded By),False,has a name,shivering under a leaking awning
+E8,E3,-1,> (Preceded By),False,has a name,built a small shelter from cardboard and plastic sheeting
+E8,E4,-1,> (Preceded By),False,has a name,the rain destroyed it
+E8,E5,-1,> (Preceded By),False,has a name,rebuilt the shelter
+E8,E6,6,f (Finishes),False,has a name,began to trust the students
+E8,E7,-1,> (Preceded By),False,has a name,built by the college's carpentry class
+E8,E9,-6,fi (Finished By),False,has a name,greets students at the gate
+E8,E10,-1,> (Preceded By),False,has a name,The shelter lasted three days
+E8,E11,-1,> (Preceded By),False,has a name,survived the rest of the monsoon
+E9,E1,6,f (Finishes),False,greets students at the gate,living near the college gate
+E9,E2,-1,> (Preceded By),False,greets students at the gate,shivering under a leaking awning
+E9,E3,-1,> (Preceded By),False,greets students at the gate,built a small shelter from cardboard and plastic sheeting
+E9,E4,-1,> (Preceded By),False,greets students at the gate,the rain destroyed it
+E9,E5,-1,> (Preceded By),False,greets students at the gate,rebuilt the shelter
+E9,E6,6,f (Finishes),False,greets students at the gate,began to trust the students
+E9,E7,-1,> (Preceded By),False,greets students at the gate,built by the college's carpentry class
+E9,E8,6,f (Finishes),False,greets students at the gate,has a name
+E9,E10,-1,> (Preceded By),False,greets students at the gate,The shelter lasted three days
+E9,E11,-1,> (Preceded By),False,greets students at the gate,survived the rest of the monsoon
+E10,E1,5,d (During),False,The shelter lasted three days,living near the college gate
+E10,E2,-1,> (Preceded By),False,The shelter lasted three days,shivering under a leaking awning
+E10,E3,-2,mi (Met By),False,The shelter lasted three days,built a small shelter from cardboard and plastic sheeting
+E10,E4,2,m (Meets),False,The shelter lasted three days,the rain destroyed it
+E10,E5,1,< (Precedes),False,The shelter lasted three days,rebuilt the shelter
+E10,E6,1,< (Precedes),False,The shelter lasted three days,began to trust the students
+E10,E7,1,< (Precedes),False,The shelter lasted three days,built by the college's carpentry class
+E10,E8,1,< (Precedes),False,The shelter lasted three days,has a name
+E10,E9,1,< (Precedes),False,The shelter lasted three days,greets students at the gate
+E10,E11,1,< (Precedes),False,The shelter lasted three days,survived the rest of the monsoon
+E11,E1,5,d (During),False,survived the rest of the monsoon,living near the college gate
+E11,E2,-1,> (Preceded By),False,survived the rest of the monsoon,shivering under a leaking awning
+E11,E3,-1,> (Preceded By),False,survived the rest of the monsoon,built a small shelter from cardboard and plastic sheeting
+E11,E4,-1,> (Preceded By),False,survived the rest of the monsoon,the rain destroyed it
+E11,E5,-1,> (Preceded By),False,survived the rest of the monsoon,rebuilt the shelter
+E11,E6,3,o (Overlaps),False,survived the rest of the monsoon,began to trust the students
+E11,E7,1,< (Precedes),False,survived the rest of the monsoon,built by the college's carpentry class
+E11,E8,1,< (Precedes),False,survived the rest of the monsoon,has a name
+E11,E9,1,< (Precedes),False,survived the rest of the monsoon,greets students at the gate
+E11,E10,-1,> (Preceded By),False,survived the rest of the monsoon,The shelter lasted three days

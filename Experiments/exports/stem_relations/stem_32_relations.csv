@@ -1,0 +1,381 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,bought the silk fabric,caterer had cancelled
+E1,E3,1,< (Precedes),False,bought the silk fabric,took a bus from Sylhet to Dhaka
+E1,E4,1,< (Precedes),False,bought the silk fabric,arrived at her aunt's apartment
+E1,E5,1,< (Precedes),False,bought the silk fabric,calling every contact she had
+E1,E6,1,< (Precedes),False,bought the silk fabric,found a replacement caterer
+E1,E7,1,< (Precedes),False,bought the silk fabric,uncle flew in from Riyadh
+E1,E8,1,< (Precedes),False,bought the silk fabric,went to a parlour in Dhanmondi
+E1,E9,1,< (Precedes),False,bought the silk fabric,stopped at the New Market
+E1,E10,1,< (Precedes),False,bought the silk fabric,decorating the hall
+E1,E11,1,< (Precedes),False,bought the silk fabric,left her own outfit
+E1,E12,1,< (Precedes),False,bought the silk fabric,take a CNG at midnight
+E1,E13,1,< (Precedes),False,bought the silk fabric,returned just before one in the morning
+E1,E14,1,< (Precedes),False,bought the silk fabric,Riya's cousin Priya was getting married in the last week of Novembe
+E1,E15,1,< (Precedes),False,bought the silk fabric,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E1,E16,1,< (Precedes),False,bought the silk fabric,sending the whole family into a panic
+E1,E17,5,d (During),False,bought the silk fabric,he had been working for the past two and a half years
+E1,E18,1,< (Precedes),False,bought the silk fabric,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E1,E19,1,< (Precedes),False,bought the silk fabric,pick up bangles that had been ordered three weeks prior
+E1,E20,1,< (Precedes),False,bought the silk fabric,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E2,E1,-1,> (Preceded By),False,caterer had cancelled,bought the silk fabric
+E2,E3,1,< (Precedes),False,caterer had cancelled,took a bus from Sylhet to Dhaka
+E2,E4,1,< (Precedes),False,caterer had cancelled,arrived at her aunt's apartment
+E2,E5,1,< (Precedes),False,caterer had cancelled,calling every contact she had
+E2,E6,1,< (Precedes),False,caterer had cancelled,found a replacement caterer
+E2,E7,1,< (Precedes),False,caterer had cancelled,uncle flew in from Riyadh
+E2,E8,1,< (Precedes),False,caterer had cancelled,went to a parlour in Dhanmondi
+E2,E9,1,< (Precedes),False,caterer had cancelled,stopped at the New Market
+E2,E10,1,< (Precedes),False,caterer had cancelled,decorating the hall
+E2,E11,1,< (Precedes),False,caterer had cancelled,left her own outfit
+E2,E12,1,< (Precedes),False,caterer had cancelled,take a CNG at midnight
+E2,E13,1,< (Precedes),False,caterer had cancelled,returned just before one in the morning
+E2,E14,1,< (Precedes),False,caterer had cancelled,Riya's cousin Priya was getting married in the last week of Novembe
+E2,E15,1,< (Precedes),False,caterer had cancelled,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E2,E16,2,m (Meets),False,caterer had cancelled,sending the whole family into a panic
+E2,E17,5,d (During),False,caterer had cancelled,he had been working for the past two and a half years
+E2,E18,1,< (Precedes),False,caterer had cancelled,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E2,E19,1,< (Precedes),False,caterer had cancelled,pick up bangles that had been ordered three weeks prior
+E2,E20,1,< (Precedes),False,caterer had cancelled,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E3,E1,-1,> (Preceded By),False,took a bus from Sylhet to Dhaka,bought the silk fabric
+E3,E2,-1,> (Preceded By),False,took a bus from Sylhet to Dhaka,caterer had cancelled
+E3,E4,1,< (Precedes),False,took a bus from Sylhet to Dhaka,arrived at her aunt's apartment
+E3,E5,1,< (Precedes),False,took a bus from Sylhet to Dhaka,calling every contact she had
+E3,E6,1,< (Precedes),False,took a bus from Sylhet to Dhaka,found a replacement caterer
+E3,E7,1,< (Precedes),False,took a bus from Sylhet to Dhaka,uncle flew in from Riyadh
+E3,E8,1,< (Precedes),False,took a bus from Sylhet to Dhaka,went to a parlour in Dhanmondi
+E3,E9,1,< (Precedes),False,took a bus from Sylhet to Dhaka,stopped at the New Market
+E3,E10,1,< (Precedes),False,took a bus from Sylhet to Dhaka,decorating the hall
+E3,E11,1,< (Precedes),False,took a bus from Sylhet to Dhaka,left her own outfit
+E3,E12,1,< (Precedes),False,took a bus from Sylhet to Dhaka,take a CNG at midnight
+E3,E13,1,< (Precedes),False,took a bus from Sylhet to Dhaka,returned just before one in the morning
+E3,E14,1,< (Precedes),False,took a bus from Sylhet to Dhaka,Riya's cousin Priya was getting married in the last week of Novembe
+E3,E15,1,< (Precedes),False,took a bus from Sylhet to Dhaka,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E3,E16,5,d (During),False,took a bus from Sylhet to Dhaka,sending the whole family into a panic
+E3,E17,5,d (During),False,took a bus from Sylhet to Dhaka,he had been working for the past two and a half years
+E3,E18,1,< (Precedes),False,took a bus from Sylhet to Dhaka,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E3,E19,1,< (Precedes),False,took a bus from Sylhet to Dhaka,pick up bangles that had been ordered three weeks prior
+E3,E20,1,< (Precedes),False,took a bus from Sylhet to Dhaka,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E4,E1,-1,> (Preceded By),False,arrived at her aunt's apartment,bought the silk fabric
+E4,E2,-1,> (Preceded By),False,arrived at her aunt's apartment,caterer had cancelled
+E4,E3,-1,> (Preceded By),False,arrived at her aunt's apartment,took a bus from Sylhet to Dhaka
+E4,E5,1,< (Precedes),False,arrived at her aunt's apartment,calling every contact she had
+E4,E6,1,< (Precedes),False,arrived at her aunt's apartment,found a replacement caterer
+E4,E7,1,< (Precedes),False,arrived at her aunt's apartment,uncle flew in from Riyadh
+E4,E8,1,< (Precedes),False,arrived at her aunt's apartment,went to a parlour in Dhanmondi
+E4,E9,1,< (Precedes),False,arrived at her aunt's apartment,stopped at the New Market
+E4,E10,1,< (Precedes),False,arrived at her aunt's apartment,decorating the hall
+E4,E11,1,< (Precedes),False,arrived at her aunt's apartment,left her own outfit
+E4,E12,1,< (Precedes),False,arrived at her aunt's apartment,take a CNG at midnight
+E4,E13,1,< (Precedes),False,arrived at her aunt's apartment,returned just before one in the morning
+E4,E14,1,< (Precedes),False,arrived at her aunt's apartment,Riya's cousin Priya was getting married in the last week of Novembe
+E4,E15,1,< (Precedes),False,arrived at her aunt's apartment,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E4,E16,5,d (During),False,arrived at her aunt's apartment,sending the whole family into a panic
+E4,E17,5,d (During),False,arrived at her aunt's apartment,he had been working for the past two and a half years
+E4,E18,1,< (Precedes),False,arrived at her aunt's apartment,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E4,E19,1,< (Precedes),False,arrived at her aunt's apartment,pick up bangles that had been ordered three weeks prior
+E4,E20,1,< (Precedes),False,arrived at her aunt's apartment,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E5,E1,-1,> (Preceded By),False,calling every contact she had,bought the silk fabric
+E5,E2,-1,> (Preceded By),False,calling every contact she had,caterer had cancelled
+E5,E3,-1,> (Preceded By),False,calling every contact she had,took a bus from Sylhet to Dhaka
+E5,E4,-1,> (Preceded By),False,calling every contact she had,arrived at her aunt's apartment
+E5,E6,1,< (Precedes),False,calling every contact she had,found a replacement caterer
+E5,E7,1,< (Precedes),False,calling every contact she had,uncle flew in from Riyadh
+E5,E8,1,< (Precedes),False,calling every contact she had,went to a parlour in Dhanmondi
+E5,E9,1,< (Precedes),False,calling every contact she had,stopped at the New Market
+E5,E10,1,< (Precedes),False,calling every contact she had,decorating the hall
+E5,E11,1,< (Precedes),False,calling every contact she had,left her own outfit
+E5,E12,1,< (Precedes),False,calling every contact she had,take a CNG at midnight
+E5,E13,1,< (Precedes),False,calling every contact she had,returned just before one in the morning
+E5,E14,1,< (Precedes),False,calling every contact she had,Riya's cousin Priya was getting married in the last week of Novembe
+E5,E15,-1,> (Preceded By),False,calling every contact she had,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E5,E16,5,d (During),False,calling every contact she had,sending the whole family into a panic
+E5,E17,5,d (During),False,calling every contact she had,he had been working for the past two and a half years
+E5,E18,1,< (Precedes),False,calling every contact she had,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E5,E19,1,< (Precedes),False,calling every contact she had,pick up bangles that had been ordered three weeks prior
+E5,E20,1,< (Precedes),False,calling every contact she had,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E6,E1,-1,> (Preceded By),False,found a replacement caterer,bought the silk fabric
+E6,E2,-1,> (Preceded By),False,found a replacement caterer,caterer had cancelled
+E6,E3,-1,> (Preceded By),False,found a replacement caterer,took a bus from Sylhet to Dhaka
+E6,E4,-1,> (Preceded By),False,found a replacement caterer,arrived at her aunt's apartment
+E6,E5,-1,> (Preceded By),False,found a replacement caterer,calling every contact she had
+E6,E7,1,< (Precedes),False,found a replacement caterer,uncle flew in from Riyadh
+E6,E8,1,< (Precedes),False,found a replacement caterer,went to a parlour in Dhanmondi
+E6,E9,1,< (Precedes),False,found a replacement caterer,stopped at the New Market
+E6,E10,1,< (Precedes),False,found a replacement caterer,decorating the hall
+E6,E11,1,< (Precedes),False,found a replacement caterer,left her own outfit
+E6,E12,1,< (Precedes),False,found a replacement caterer,take a CNG at midnight
+E6,E13,1,< (Precedes),False,found a replacement caterer,returned just before one in the morning
+E6,E14,1,< (Precedes),False,found a replacement caterer,Riya's cousin Priya was getting married in the last week of Novembe
+E6,E15,-1,> (Preceded By),False,found a replacement caterer,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E6,E16,-2,mi (Met By),False,found a replacement caterer,sending the whole family into a panic
+E6,E17,5,d (During),False,found a replacement caterer,he had been working for the past two and a half years
+E6,E18,1,< (Precedes),False,found a replacement caterer,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E6,E19,1,< (Precedes),False,found a replacement caterer,pick up bangles that had been ordered three weeks prior
+E6,E20,1,< (Precedes),False,found a replacement caterer,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E7,E1,-1,> (Preceded By),False,uncle flew in from Riyadh,bought the silk fabric
+E7,E2,-1,> (Preceded By),False,uncle flew in from Riyadh,caterer had cancelled
+E7,E3,-1,> (Preceded By),False,uncle flew in from Riyadh,took a bus from Sylhet to Dhaka
+E7,E4,-1,> (Preceded By),False,uncle flew in from Riyadh,arrived at her aunt's apartment
+E7,E5,-1,> (Preceded By),False,uncle flew in from Riyadh,calling every contact she had
+E7,E6,-1,> (Preceded By),False,uncle flew in from Riyadh,found a replacement caterer
+E7,E8,1,< (Precedes),False,uncle flew in from Riyadh,went to a parlour in Dhanmondi
+E7,E9,1,< (Precedes),False,uncle flew in from Riyadh,stopped at the New Market
+E7,E10,1,< (Precedes),False,uncle flew in from Riyadh,decorating the hall
+E7,E11,1,< (Precedes),False,uncle flew in from Riyadh,left her own outfit
+E7,E12,1,< (Precedes),False,uncle flew in from Riyadh,take a CNG at midnight
+E7,E13,1,< (Precedes),False,uncle flew in from Riyadh,returned just before one in the morning
+E7,E14,1,< (Precedes),False,uncle flew in from Riyadh,Riya's cousin Priya was getting married in the last week of Novembe
+E7,E15,-1,> (Preceded By),False,uncle flew in from Riyadh,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E7,E16,-1,> (Preceded By),False,uncle flew in from Riyadh,sending the whole family into a panic
+E7,E17,-2,mi (Met By),False,uncle flew in from Riyadh,he had been working for the past two and a half years
+E7,E18,1,< (Precedes),False,uncle flew in from Riyadh,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E7,E19,1,< (Precedes),False,uncle flew in from Riyadh,pick up bangles that had been ordered three weeks prior
+E7,E20,1,< (Precedes),False,uncle flew in from Riyadh,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E8,E1,-1,> (Preceded By),False,went to a parlour in Dhanmondi,bought the silk fabric
+E8,E2,-1,> (Preceded By),False,went to a parlour in Dhanmondi,caterer had cancelled
+E8,E3,-1,> (Preceded By),False,went to a parlour in Dhanmondi,took a bus from Sylhet to Dhaka
+E8,E4,-1,> (Preceded By),False,went to a parlour in Dhanmondi,arrived at her aunt's apartment
+E8,E5,-1,> (Preceded By),False,went to a parlour in Dhanmondi,calling every contact she had
+E8,E6,-1,> (Preceded By),False,went to a parlour in Dhanmondi,found a replacement caterer
+E8,E7,-1,> (Preceded By),False,went to a parlour in Dhanmondi,uncle flew in from Riyadh
+E8,E9,1,< (Precedes),False,went to a parlour in Dhanmondi,stopped at the New Market
+E8,E10,1,< (Precedes),False,went to a parlour in Dhanmondi,decorating the hall
+E8,E11,1,< (Precedes),False,went to a parlour in Dhanmondi,left her own outfit
+E8,E12,1,< (Precedes),False,went to a parlour in Dhanmondi,take a CNG at midnight
+E8,E13,1,< (Precedes),False,went to a parlour in Dhanmondi,returned just before one in the morning
+E8,E14,1,< (Precedes),False,went to a parlour in Dhanmondi,Riya's cousin Priya was getting married in the last week of Novembe
+E8,E15,-1,> (Preceded By),False,went to a parlour in Dhanmondi,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E8,E16,-1,> (Preceded By),False,went to a parlour in Dhanmondi,sending the whole family into a panic
+E8,E17,-1,> (Preceded By),False,went to a parlour in Dhanmondi,he had been working for the past two and a half years
+E8,E18,-1,> (Preceded By),False,went to a parlour in Dhanmondi,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E8,E19,1,< (Precedes),False,went to a parlour in Dhanmondi,pick up bangles that had been ordered three weeks prior
+E8,E20,1,< (Precedes),False,went to a parlour in Dhanmondi,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E9,E1,-1,> (Preceded By),False,stopped at the New Market,bought the silk fabric
+E9,E2,-1,> (Preceded By),False,stopped at the New Market,caterer had cancelled
+E9,E3,-1,> (Preceded By),False,stopped at the New Market,took a bus from Sylhet to Dhaka
+E9,E4,-1,> (Preceded By),False,stopped at the New Market,arrived at her aunt's apartment
+E9,E5,-1,> (Preceded By),False,stopped at the New Market,calling every contact she had
+E9,E6,-1,> (Preceded By),False,stopped at the New Market,found a replacement caterer
+E9,E7,-1,> (Preceded By),False,stopped at the New Market,uncle flew in from Riyadh
+E9,E8,-1,> (Preceded By),False,stopped at the New Market,went to a parlour in Dhanmondi
+E9,E10,1,< (Precedes),False,stopped at the New Market,decorating the hall
+E9,E11,1,< (Precedes),False,stopped at the New Market,left her own outfit
+E9,E12,1,< (Precedes),False,stopped at the New Market,take a CNG at midnight
+E9,E13,1,< (Precedes),False,stopped at the New Market,returned just before one in the morning
+E9,E14,1,< (Precedes),False,stopped at the New Market,Riya's cousin Priya was getting married in the last week of Novembe
+E9,E15,-1,> (Preceded By),False,stopped at the New Market,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E9,E16,-1,> (Preceded By),False,stopped at the New Market,sending the whole family into a panic
+E9,E17,-1,> (Preceded By),False,stopped at the New Market,he had been working for the past two and a half years
+E9,E18,-1,> (Preceded By),False,stopped at the New Market,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E9,E19,1,< (Precedes),False,stopped at the New Market,pick up bangles that had been ordered three weeks prior
+E9,E20,1,< (Precedes),False,stopped at the New Market,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E10,E1,-1,> (Preceded By),False,decorating the hall,bought the silk fabric
+E10,E2,-1,> (Preceded By),False,decorating the hall,caterer had cancelled
+E10,E3,-1,> (Preceded By),False,decorating the hall,took a bus from Sylhet to Dhaka
+E10,E4,-1,> (Preceded By),False,decorating the hall,arrived at her aunt's apartment
+E10,E5,-1,> (Preceded By),False,decorating the hall,calling every contact she had
+E10,E6,-1,> (Preceded By),False,decorating the hall,found a replacement caterer
+E10,E7,-1,> (Preceded By),False,decorating the hall,uncle flew in from Riyadh
+E10,E8,-1,> (Preceded By),False,decorating the hall,went to a parlour in Dhanmondi
+E10,E9,-1,> (Preceded By),False,decorating the hall,stopped at the New Market
+E10,E11,-5,di (Contains),False,decorating the hall,left her own outfit
+E10,E12,-5,di (Contains),False,decorating the hall,take a CNG at midnight
+E10,E13,1,< (Precedes),False,decorating the hall,returned just before one in the morning
+E10,E14,1,< (Precedes),False,decorating the hall,Riya's cousin Priya was getting married in the last week of Novembe
+E10,E15,-1,> (Preceded By),False,decorating the hall,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E10,E16,-1,> (Preceded By),False,decorating the hall,sending the whole family into a panic
+E10,E17,-1,> (Preceded By),False,decorating the hall,he had been working for the past two and a half years
+E10,E18,-1,> (Preceded By),False,decorating the hall,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E10,E19,-1,> (Preceded By),False,decorating the hall,pick up bangles that had been ordered three weeks prior
+E10,E20,1,< (Precedes),False,decorating the hall,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E11,E1,-1,> (Preceded By),False,left her own outfit,bought the silk fabric
+E11,E2,-1,> (Preceded By),False,left her own outfit,caterer had cancelled
+E11,E3,-1,> (Preceded By),False,left her own outfit,took a bus from Sylhet to Dhaka
+E11,E4,-1,> (Preceded By),False,left her own outfit,arrived at her aunt's apartment
+E11,E5,-1,> (Preceded By),False,left her own outfit,calling every contact she had
+E11,E6,-1,> (Preceded By),False,left her own outfit,found a replacement caterer
+E11,E7,-1,> (Preceded By),False,left her own outfit,uncle flew in from Riyadh
+E11,E8,-1,> (Preceded By),False,left her own outfit,went to a parlour in Dhanmondi
+E11,E9,-1,> (Preceded By),False,left her own outfit,stopped at the New Market
+E11,E10,5,d (During),False,left her own outfit,decorating the hall
+E11,E12,1,< (Precedes),False,left her own outfit,take a CNG at midnight
+E11,E13,1,< (Precedes),False,left her own outfit,returned just before one in the morning
+E11,E14,1,< (Precedes),False,left her own outfit,Riya's cousin Priya was getting married in the last week of Novembe
+E11,E15,-1,> (Preceded By),False,left her own outfit,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E11,E16,-1,> (Preceded By),False,left her own outfit,sending the whole family into a panic
+E11,E17,-1,> (Preceded By),False,left her own outfit,he had been working for the past two and a half years
+E11,E18,-1,> (Preceded By),False,left her own outfit,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E11,E19,-1,> (Preceded By),False,left her own outfit,pick up bangles that had been ordered three weeks prior
+E11,E20,1,< (Precedes),False,left her own outfit,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E12,E1,-1,> (Preceded By),False,take a CNG at midnight,bought the silk fabric
+E12,E2,-1,> (Preceded By),False,take a CNG at midnight,caterer had cancelled
+E12,E3,-1,> (Preceded By),False,take a CNG at midnight,took a bus from Sylhet to Dhaka
+E12,E4,-1,> (Preceded By),False,take a CNG at midnight,arrived at her aunt's apartment
+E12,E5,-1,> (Preceded By),False,take a CNG at midnight,calling every contact she had
+E12,E6,-1,> (Preceded By),False,take a CNG at midnight,found a replacement caterer
+E12,E7,-1,> (Preceded By),False,take a CNG at midnight,uncle flew in from Riyadh
+E12,E8,-1,> (Preceded By),False,take a CNG at midnight,went to a parlour in Dhanmondi
+E12,E9,-1,> (Preceded By),False,take a CNG at midnight,stopped at the New Market
+E12,E10,5,d (During),False,take a CNG at midnight,decorating the hall
+E12,E11,-1,> (Preceded By),False,take a CNG at midnight,left her own outfit
+E12,E13,1,< (Precedes),False,take a CNG at midnight,returned just before one in the morning
+E12,E14,1,< (Precedes),False,take a CNG at midnight,Riya's cousin Priya was getting married in the last week of Novembe
+E12,E15,-1,> (Preceded By),False,take a CNG at midnight,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E12,E16,-1,> (Preceded By),False,take a CNG at midnight,sending the whole family into a panic
+E12,E17,-1,> (Preceded By),False,take a CNG at midnight,he had been working for the past two and a half years
+E12,E18,-1,> (Preceded By),False,take a CNG at midnight,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E12,E19,-1,> (Preceded By),False,take a CNG at midnight,pick up bangles that had been ordered three weeks prior
+E12,E20,1,< (Precedes),False,take a CNG at midnight,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E13,E1,-1,> (Preceded By),False,returned just before one in the morning,bought the silk fabric
+E13,E2,-1,> (Preceded By),False,returned just before one in the morning,caterer had cancelled
+E13,E3,-1,> (Preceded By),False,returned just before one in the morning,took a bus from Sylhet to Dhaka
+E13,E4,-1,> (Preceded By),False,returned just before one in the morning,arrived at her aunt's apartment
+E13,E5,-1,> (Preceded By),False,returned just before one in the morning,calling every contact she had
+E13,E6,-1,> (Preceded By),False,returned just before one in the morning,found a replacement caterer
+E13,E7,-1,> (Preceded By),False,returned just before one in the morning,uncle flew in from Riyadh
+E13,E8,-1,> (Preceded By),False,returned just before one in the morning,went to a parlour in Dhanmondi
+E13,E9,-1,> (Preceded By),False,returned just before one in the morning,stopped at the New Market
+E13,E10,-1,> (Preceded By),False,returned just before one in the morning,decorating the hall
+E13,E11,-1,> (Preceded By),False,returned just before one in the morning,left her own outfit
+E13,E12,-1,> (Preceded By),False,returned just before one in the morning,take a CNG at midnight
+E13,E14,1,< (Precedes),False,returned just before one in the morning,Riya's cousin Priya was getting married in the last week of Novembe
+E13,E15,-1,> (Preceded By),False,returned just before one in the morning,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E13,E16,-1,> (Preceded By),False,returned just before one in the morning,sending the whole family into a panic
+E13,E17,-1,> (Preceded By),False,returned just before one in the morning,he had been working for the past two and a half years
+E13,E18,-1,> (Preceded By),False,returned just before one in the morning,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E13,E19,-1,> (Preceded By),False,returned just before one in the morning,pick up bangles that had been ordered three weeks prior
+E13,E20,1,< (Precedes),False,returned just before one in the morning,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E14,E1,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,bought the silk fabric
+E14,E2,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,caterer had cancelled
+E14,E3,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,took a bus from Sylhet to Dhaka
+E14,E4,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,arrived at her aunt's apartment
+E14,E5,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,calling every contact she had
+E14,E6,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,found a replacement caterer
+E14,E7,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,uncle flew in from Riyadh
+E14,E8,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,went to a parlour in Dhanmondi
+E14,E9,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,stopped at the New Market
+E14,E10,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,decorating the hall
+E14,E11,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,left her own outfit
+E14,E12,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,take a CNG at midnight
+E14,E13,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,returned just before one in the morning
+E14,E15,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E14,E16,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,sending the whole family into a panic
+E14,E17,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,he had been working for the past two and a half years
+E14,E18,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E14,E19,-1,> (Preceded By),False,Riya's cousin Priya was getting married in the last week of Novembe,pick up bangles that had been ordered three weeks prior
+E14,E20,0,= (Equal),False,Riya's cousin Priya was getting married in the last week of Novembe,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E15,E1,-1,> (Preceded By),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,bought the silk fabric
+E15,E2,-1,> (Preceded By),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,caterer had cancelled
+E15,E3,-1,> (Preceded By),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,took a bus from Sylhet to Dhaka
+E15,E4,-1,> (Preceded By),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,arrived at her aunt's apartment
+E15,E5,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,calling every contact she had
+E15,E6,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,found a replacement caterer
+E15,E7,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,uncle flew in from Riyadh
+E15,E8,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,went to a parlour in Dhanmondi
+E15,E9,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,stopped at the New Market
+E15,E10,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,decorating the hall
+E15,E11,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,left her own outfit
+E15,E12,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,take a CNG at midnight
+E15,E13,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,returned just before one in the morning
+E15,E14,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,Riya's cousin Priya was getting married in the last week of Novembe
+E15,E16,5,d (During),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,sending the whole family into a panic
+E15,E17,5,d (During),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,he had been working for the past two and a half years
+E15,E18,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E15,E19,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,pick up bangles that had been ordered three weeks prior
+E15,E20,1,< (Precedes),False,she found the entire living room buried under fabric rolls and stacks of invitation cards,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E16,E1,-1,> (Preceded By),False,sending the whole family into a panic,bought the silk fabric
+E16,E2,-2,mi (Met By),False,sending the whole family into a panic,caterer had cancelled
+E16,E3,-5,di (Contains),False,sending the whole family into a panic,took a bus from Sylhet to Dhaka
+E16,E4,-5,di (Contains),False,sending the whole family into a panic,arrived at her aunt's apartment
+E16,E5,-5,di (Contains),False,sending the whole family into a panic,calling every contact she had
+E16,E6,2,m (Meets),False,sending the whole family into a panic,found a replacement caterer
+E16,E7,1,< (Precedes),False,sending the whole family into a panic,uncle flew in from Riyadh
+E16,E8,1,< (Precedes),False,sending the whole family into a panic,went to a parlour in Dhanmondi
+E16,E9,1,< (Precedes),False,sending the whole family into a panic,stopped at the New Market
+E16,E10,1,< (Precedes),False,sending the whole family into a panic,decorating the hall
+E16,E11,1,< (Precedes),False,sending the whole family into a panic,left her own outfit
+E16,E12,1,< (Precedes),False,sending the whole family into a panic,take a CNG at midnight
+E16,E13,1,< (Precedes),False,sending the whole family into a panic,returned just before one in the morning
+E16,E14,1,< (Precedes),False,sending the whole family into a panic,Riya's cousin Priya was getting married in the last week of Novembe
+E16,E15,-5,di (Contains),False,sending the whole family into a panic,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E16,E17,5,d (During),False,sending the whole family into a panic,he had been working for the past two and a half years
+E16,E18,1,< (Precedes),False,sending the whole family into a panic,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E16,E19,1,< (Precedes),False,sending the whole family into a panic,pick up bangles that had been ordered three weeks prior
+E16,E20,1,< (Precedes),False,sending the whole family into a panic,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E17,E1,-5,di (Contains),False,he had been working for the past two and a half years,bought the silk fabric
+E17,E2,-5,di (Contains),False,he had been working for the past two and a half years,caterer had cancelled
+E17,E3,-5,di (Contains),False,he had been working for the past two and a half years,took a bus from Sylhet to Dhaka
+E17,E4,-5,di (Contains),False,he had been working for the past two and a half years,arrived at her aunt's apartment
+E17,E5,-5,di (Contains),False,he had been working for the past two and a half years,calling every contact she had
+E17,E6,-5,di (Contains),False,he had been working for the past two and a half years,found a replacement caterer
+E17,E7,2,m (Meets),False,he had been working for the past two and a half years,uncle flew in from Riyadh
+E17,E8,1,< (Precedes),False,he had been working for the past two and a half years,went to a parlour in Dhanmondi
+E17,E9,1,< (Precedes),False,he had been working for the past two and a half years,stopped at the New Market
+E17,E10,1,< (Precedes),False,he had been working for the past two and a half years,decorating the hall
+E17,E11,1,< (Precedes),False,he had been working for the past two and a half years,left her own outfit
+E17,E12,1,< (Precedes),False,he had been working for the past two and a half years,take a CNG at midnight
+E17,E13,1,< (Precedes),False,he had been working for the past two and a half years,returned just before one in the morning
+E17,E14,1,< (Precedes),False,he had been working for the past two and a half years,Riya's cousin Priya was getting married in the last week of Novembe
+E17,E15,-5,di (Contains),False,he had been working for the past two and a half years,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E17,E16,-5,di (Contains),False,he had been working for the past two and a half years,sending the whole family into a panic
+E17,E18,1,< (Precedes),False,he had been working for the past two and a half years,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E17,E19,1,< (Precedes),False,he had been working for the past two and a half years,pick up bangles that had been ordered three weeks prior
+E17,E20,1,< (Precedes),False,he had been working for the past two and a half years,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E18,E1,-1,> (Preceded By),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,bought the silk fabric
+E18,E2,-1,> (Preceded By),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,caterer had cancelled
+E18,E3,-1,> (Preceded By),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,took a bus from Sylhet to Dhaka
+E18,E4,-1,> (Preceded By),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,arrived at her aunt's apartment
+E18,E5,-1,> (Preceded By),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,calling every contact she had
+E18,E6,-1,> (Preceded By),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,found a replacement caterer
+E18,E7,-1,> (Preceded By),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,uncle flew in from Riyadh
+E18,E8,1,< (Precedes),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,went to a parlour in Dhanmondi
+E18,E9,1,< (Precedes),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,stopped at the New Market
+E18,E10,1,< (Precedes),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,decorating the hall
+E18,E11,1,< (Precedes),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,left her own outfit
+E18,E12,1,< (Precedes),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,take a CNG at midnight
+E18,E13,1,< (Precedes),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,returned just before one in the morning
+E18,E14,1,< (Precedes),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,Riya's cousin Priya was getting married in the last week of Novembe
+E18,E15,-1,> (Preceded By),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E18,E16,-1,> (Preceded By),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,sending the whole family into a panic
+E18,E17,-1,> (Preceded By),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,he had been working for the past two and a half years
+E18,E19,1,< (Precedes),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,pick up bangles that had been ordered three weeks prior
+E18,E20,1,< (Precedes),False,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E19,E1,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,bought the silk fabric
+E19,E2,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,caterer had cancelled
+E19,E3,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,took a bus from Sylhet to Dhaka
+E19,E4,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,arrived at her aunt's apartment
+E19,E5,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,calling every contact she had
+E19,E6,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,found a replacement caterer
+E19,E7,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,uncle flew in from Riyadh
+E19,E8,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,went to a parlour in Dhanmondi
+E19,E9,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,stopped at the New Market
+E19,E10,1,< (Precedes),False,pick up bangles that had been ordered three weeks prior,decorating the hall
+E19,E11,1,< (Precedes),False,pick up bangles that had been ordered three weeks prior,left her own outfit
+E19,E12,1,< (Precedes),False,pick up bangles that had been ordered three weeks prior,take a CNG at midnight
+E19,E13,1,< (Precedes),False,pick up bangles that had been ordered three weeks prior,returned just before one in the morning
+E19,E14,1,< (Precedes),False,pick up bangles that had been ordered three weeks prior,Riya's cousin Priya was getting married in the last week of Novembe
+E19,E15,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E19,E16,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,sending the whole family into a panic
+E19,E17,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,he had been working for the past two and a half years
+E19,E18,-1,> (Preceded By),False,pick up bangles that had been ordered three weeks prior,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E19,E20,1,< (Precedes),False,pick up bangles that had been ordered three weeks prior,he wedding ceremony was to be held at a community hall in Uttara on the 22nd
+E20,E1,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,bought the silk fabric
+E20,E2,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,caterer had cancelled
+E20,E3,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,took a bus from Sylhet to Dhaka
+E20,E4,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,arrived at her aunt's apartment
+E20,E5,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,calling every contact she had
+E20,E6,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,found a replacement caterer
+E20,E7,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,uncle flew in from Riyadh
+E20,E8,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,went to a parlour in Dhanmondi
+E20,E9,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,stopped at the New Market
+E20,E10,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,decorating the hall
+E20,E11,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,left her own outfit
+E20,E12,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,take a CNG at midnight
+E20,E13,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,returned just before one in the morning
+E20,E14,0,= (Equal),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,Riya's cousin Priya was getting married in the last week of Novembe
+E20,E15,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,she found the entire living room buried under fabric rolls and stacks of invitation cards
+E20,E16,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,sending the whole family into a panic
+E20,E17,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,he had been working for the past two and a half years
+E20,E18,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,he mentioned that he had already wired money for the wedding from Saudi Arabia five weeks ago
+E20,E19,-1,> (Preceded By),False,he wedding ceremony was to be held at a community hall in Uttara on the 22nd,pick up bangles that had been ordered three weeks prior

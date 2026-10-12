@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,moved to the neighborhood,visited
+E1,E3,1,< (Precedes),False,moved to the neighborhood,helped her fill out the application
+E1,E4,1,< (Precedes),False,moved to the neighborhood,issued her card
+E1,E5,1,< (Precedes),False,moved to the neighborhood,borrowed
+E1,E6,1,< (Precedes),False,moved to the neighborhood,finished it
+E1,E7,1,< (Precedes),False,moved to the neighborhood,returned to borrow another
+E1,E8,1,< (Precedes),False,moved to the neighborhood,visited the library
+E1,E9,1,< (Precedes),False,moved to the neighborhood,borrowed a new book
+E1,E10,4,s (Starts),False,moved to the neighborhood,she passed it every day on her way to work
+E1,E11,4,s (Starts),False,moved to the neighborhood,she never went inside
+E1,E12,4,s (Starts),False,moved to the neighborhood,she walked past rather than entered
+E1,E13,1,< (Precedes),False,moved to the neighborhood,who had worked there for twenty-nine years
+E1,E14,1,< (Precedes),False,moved to the neighborhood,she had read more books in six weeks
+E1,E15,1,< (Precedes),False,moved to the neighborhood,has become friends with the elderly librarian
+E2,E1,-1,> (Preceded By),False,visited,moved to the neighborhood
+E2,E3,2,m (Meets),False,visited,helped her fill out the application
+E2,E4,1,< (Precedes),False,visited,issued her card
+E2,E5,1,< (Precedes),False,visited,borrowed
+E2,E6,1,< (Precedes),False,visited,finished it
+E2,E7,1,< (Precedes),False,visited,returned to borrow another
+E2,E8,1,< (Precedes),False,visited,visited the library
+E2,E9,1,< (Precedes),False,visited,borrowed a new book
+E2,E10,-2,mi (Met By),False,visited,she passed it every day on her way to work
+E2,E11,-2,mi (Met By),False,visited,she never went inside
+E2,E12,-2,mi (Met By),False,visited,she walked past rather than entered
+E2,E13,5,d (During),False,visited,who had worked there for twenty-nine years
+E2,E14,1,< (Precedes),False,visited,she had read more books in six weeks
+E2,E15,1,< (Precedes),False,visited,has become friends with the elderly librarian
+E3,E1,-1,> (Preceded By),False,helped her fill out the application,moved to the neighborhood
+E3,E2,-2,mi (Met By),False,helped her fill out the application,visited
+E3,E4,2,m (Meets),False,helped her fill out the application,issued her card
+E3,E5,1,< (Precedes),False,helped her fill out the application,borrowed
+E3,E6,1,< (Precedes),False,helped her fill out the application,finished it
+E3,E7,1,< (Precedes),False,helped her fill out the application,returned to borrow another
+E3,E8,1,< (Precedes),False,helped her fill out the application,visited the library
+E3,E9,1,< (Precedes),False,helped her fill out the application,borrowed a new book
+E3,E10,-1,> (Preceded By),False,helped her fill out the application,she passed it every day on her way to work
+E3,E11,-1,> (Preceded By),False,helped her fill out the application,she never went inside
+E3,E12,-1,> (Preceded By),False,helped her fill out the application,she walked past rather than entered
+E3,E13,5,d (During),False,helped her fill out the application,who had worked there for twenty-nine years
+E3,E14,1,< (Precedes),False,helped her fill out the application,she had read more books in six weeks
+E3,E15,1,< (Precedes),False,helped her fill out the application,has become friends with the elderly librarian
+E4,E1,-1,> (Preceded By),False,issued her card,moved to the neighborhood
+E4,E2,-1,> (Preceded By),False,issued her card,visited
+E4,E3,-2,mi (Met By),False,issued her card,helped her fill out the application
+E4,E5,2,m (Meets),False,issued her card,borrowed
+E4,E6,1,< (Precedes),False,issued her card,finished it
+E4,E7,1,< (Precedes),False,issued her card,returned to borrow another
+E4,E8,1,< (Precedes),False,issued her card,visited the library
+E4,E9,1,< (Precedes),False,issued her card,borrowed a new book
+E4,E10,-1,> (Preceded By),False,issued her card,she passed it every day on her way to work
+E4,E11,-1,> (Preceded By),False,issued her card,she never went inside
+E4,E12,-1,> (Preceded By),False,issued her card,she walked past rather than entered
+E4,E13,5,d (During),False,issued her card,who had worked there for twenty-nine years
+E4,E14,2,m (Meets),False,issued her card,she had read more books in six weeks
+E4,E15,1,< (Precedes),False,issued her card,has become friends with the elderly librarian
+E5,E1,-1,> (Preceded By),False,borrowed,moved to the neighborhood
+E5,E2,-1,> (Preceded By),False,borrowed,visited
+E5,E3,-1,> (Preceded By),False,borrowed,helped her fill out the application
+E5,E4,-2,mi (Met By),False,borrowed,issued her card
+E5,E6,1,< (Precedes),False,borrowed,finished it
+E5,E7,1,< (Precedes),False,borrowed,returned to borrow another
+E5,E8,1,< (Precedes),False,borrowed,visited the library
+E5,E9,1,< (Precedes),False,borrowed,borrowed a new book
+E5,E10,-1,> (Preceded By),False,borrowed,she passed it every day on her way to work
+E5,E11,-1,> (Preceded By),False,borrowed,she never went inside
+E5,E12,-1,> (Preceded By),False,borrowed,she walked past rather than entered
+E5,E13,5,d (During),False,borrowed,who had worked there for twenty-nine years
+E5,E14,4,s (Starts),False,borrowed,she had read more books in six weeks
+E5,E15,1,< (Precedes),False,borrowed,has become friends with the elderly librarian
+E6,E1,-1,> (Preceded By),False,finished it,moved to the neighborhood
+E6,E2,-1,> (Preceded By),False,finished it,visited
+E6,E3,-1,> (Preceded By),False,finished it,helped her fill out the application
+E6,E4,-1,> (Preceded By),False,finished it,issued her card
+E6,E5,-1,> (Preceded By),False,finished it,borrowed
+E6,E7,1,< (Precedes),False,finished it,returned to borrow another
+E6,E8,1,< (Precedes),False,finished it,visited the library
+E6,E9,1,< (Precedes),False,finished it,borrowed a new book
+E6,E10,-1,> (Preceded By),False,finished it,she passed it every day on her way to work
+E6,E11,-1,> (Preceded By),False,finished it,she never went inside
+E6,E12,-1,> (Preceded By),False,finished it,she walked past rather than entered
+E6,E13,5,d (During),False,finished it,who had worked there for twenty-nine years
+E6,E14,5,d (During),False,finished it,she had read more books in six weeks
+E6,E15,1,< (Precedes),False,finished it,has become friends with the elderly librarian
+E7,E1,-1,> (Preceded By),False,returned to borrow another,moved to the neighborhood
+E7,E2,-1,> (Preceded By),False,returned to borrow another,visited
+E7,E3,-1,> (Preceded By),False,returned to borrow another,helped her fill out the application
+E7,E4,-1,> (Preceded By),False,returned to borrow another,issued her card
+E7,E5,-1,> (Preceded By),False,returned to borrow another,borrowed
+E7,E6,-1,> (Preceded By),False,returned to borrow another,finished it
+E7,E8,-4,si (Started By),False,returned to borrow another,visited the library
+E7,E9,3,o (Overlaps),False,returned to borrow another,borrowed a new book
+E7,E10,-1,> (Preceded By),False,returned to borrow another,she passed it every day on her way to work
+E7,E11,-1,> (Preceded By),False,returned to borrow another,she never went inside
+E7,E12,-1,> (Preceded By),False,returned to borrow another,she walked past rather than entered
+E7,E13,5,d (During),False,returned to borrow another,who had worked there for twenty-nine years
+E7,E14,5,d (During),False,returned to borrow another,she had read more books in six weeks
+E7,E15,1,< (Precedes),False,returned to borrow another,has become friends with the elderly librarian
+E8,E1,-1,> (Preceded By),False,visited the library,moved to the neighborhood
+E8,E2,-1,> (Preceded By),False,visited the library,visited
+E8,E3,-1,> (Preceded By),False,visited the library,helped her fill out the application
+E8,E4,-1,> (Preceded By),False,visited the library,issued her card
+E8,E5,-1,> (Preceded By),False,visited the library,borrowed
+E8,E6,-1,> (Preceded By),False,visited the library,finished it
+E8,E7,4,s (Starts),False,visited the library,returned to borrow another
+E8,E9,2,m (Meets),False,visited the library,borrowed a new book
+E8,E10,-1,> (Preceded By),False,visited the library,she passed it every day on her way to work
+E8,E11,-1,> (Preceded By),False,visited the library,she never went inside
+E8,E12,-1,> (Preceded By),False,visited the library,she walked past rather than entered
+E8,E13,5,d (During),False,visited the library,who had worked there for twenty-nine years
+E8,E14,5,d (During),False,visited the library,she had read more books in six weeks
+E8,E15,1,< (Precedes),False,visited the library,has become friends with the elderly librarian
+E9,E1,-1,> (Preceded By),False,borrowed a new book,moved to the neighborhood
+E9,E2,-1,> (Preceded By),False,borrowed a new book,visited
+E9,E3,-1,> (Preceded By),False,borrowed a new book,helped her fill out the application
+E9,E4,-1,> (Preceded By),False,borrowed a new book,issued her card
+E9,E5,-1,> (Preceded By),False,borrowed a new book,borrowed
+E9,E6,-1,> (Preceded By),False,borrowed a new book,finished it
+E9,E7,-3,oi (Overlapped By),False,borrowed a new book,returned to borrow another
+E9,E8,-2,mi (Met By),False,borrowed a new book,visited the library
+E9,E10,-1,> (Preceded By),False,borrowed a new book,she passed it every day on her way to work
+E9,E11,-1,> (Preceded By),False,borrowed a new book,she never went inside
+E9,E12,-1,> (Preceded By),False,borrowed a new book,she walked past rather than entered
+E9,E13,5,d (During),False,borrowed a new book,who had worked there for twenty-nine years
+E9,E14,6,f (Finishes),False,borrowed a new book,she had read more books in six weeks
+E9,E15,2,m (Meets),False,borrowed a new book,has become friends with the elderly librarian
+E10,E1,-4,si (Started By),False,she passed it every day on her way to work,moved to the neighborhood
+E10,E2,2,m (Meets),False,she passed it every day on her way to work,visited
+E10,E3,1,< (Precedes),False,she passed it every day on her way to work,helped her fill out the application
+E10,E4,1,< (Precedes),False,she passed it every day on her way to work,issued her card
+E10,E5,1,< (Precedes),False,she passed it every day on her way to work,borrowed
+E10,E6,1,< (Precedes),False,she passed it every day on her way to work,finished it
+E10,E7,1,< (Precedes),False,she passed it every day on her way to work,returned to borrow another
+E10,E8,1,< (Precedes),False,she passed it every day on her way to work,visited the library
+E10,E9,1,< (Precedes),False,she passed it every day on her way to work,borrowed a new book
+E10,E11,0,= (Equal),False,she passed it every day on her way to work,she never went inside
+E10,E12,0,= (Equal),False,she passed it every day on her way to work,she walked past rather than entered
+E10,E13,3,o (Overlaps),False,she passed it every day on her way to work,who had worked there for twenty-nine years
+E10,E14,1,< (Precedes),False,she passed it every day on her way to work,she had read more books in six weeks
+E10,E15,1,< (Precedes),False,she passed it every day on her way to work,has become friends with the elderly librarian
+E11,E1,-4,si (Started By),False,she never went inside,moved to the neighborhood
+E11,E2,2,m (Meets),False,she never went inside,visited
+E11,E3,1,< (Precedes),False,she never went inside,helped her fill out the application
+E11,E4,1,< (Precedes),False,she never went inside,issued her card
+E11,E5,1,< (Precedes),False,she never went inside,borrowed
+E11,E6,1,< (Precedes),False,she never went inside,finished it
+E11,E7,1,< (Precedes),False,she never went inside,returned to borrow another
+E11,E8,1,< (Precedes),False,she never went inside,visited the library
+E11,E9,1,< (Precedes),False,she never went inside,borrowed a new book
+E11,E10,0,= (Equal),False,she never went inside,she passed it every day on her way to work
+E11,E12,0,= (Equal),False,she never went inside,she walked past rather than entered
+E11,E13,3,o (Overlaps),False,she never went inside,who had worked there for twenty-nine years
+E11,E14,1,< (Precedes),False,she never went inside,she had read more books in six weeks
+E11,E15,1,< (Precedes),False,she never went inside,has become friends with the elderly librarian
+E12,E1,-4,si (Started By),False,she walked past rather than entered,moved to the neighborhood
+E12,E2,2,m (Meets),False,she walked past rather than entered,visited
+E12,E3,1,< (Precedes),False,she walked past rather than entered,helped her fill out the application
+E12,E4,1,< (Precedes),False,she walked past rather than entered,issued her card
+E12,E5,1,< (Precedes),False,she walked past rather than entered,borrowed
+E12,E6,1,< (Precedes),False,she walked past rather than entered,finished it
+E12,E7,1,< (Precedes),False,she walked past rather than entered,returned to borrow another
+E12,E8,1,< (Precedes),False,she walked past rather than entered,visited the library
+E12,E9,1,< (Precedes),False,she walked past rather than entered,borrowed a new book
+E12,E10,0,= (Equal),False,she walked past rather than entered,she passed it every day on her way to work
+E12,E11,0,= (Equal),False,she walked past rather than entered,she never went inside
+E12,E13,3,o (Overlaps),False,she walked past rather than entered,who had worked there for twenty-nine years
+E12,E14,1,< (Precedes),False,she walked past rather than entered,she had read more books in six weeks
+E12,E15,1,< (Precedes),False,she walked past rather than entered,has become friends with the elderly librarian
+E13,E1,-1,> (Preceded By),False,who had worked there for twenty-nine years,moved to the neighborhood
+E13,E2,-5,di (Contains),False,who had worked there for twenty-nine years,visited
+E13,E3,-5,di (Contains),False,who had worked there for twenty-nine years,helped her fill out the application
+E13,E4,-5,di (Contains),False,who had worked there for twenty-nine years,issued her card
+E13,E5,-5,di (Contains),False,who had worked there for twenty-nine years,borrowed
+E13,E6,-5,di (Contains),False,who had worked there for twenty-nine years,finished it
+E13,E7,-5,di (Contains),False,who had worked there for twenty-nine years,returned to borrow another
+E13,E8,-5,di (Contains),False,who had worked there for twenty-nine years,visited the library
+E13,E9,-5,di (Contains),False,who had worked there for twenty-nine years,borrowed a new book
+E13,E10,-3,oi (Overlapped By),False,who had worked there for twenty-nine years,she passed it every day on her way to work
+E13,E11,-3,oi (Overlapped By),False,who had worked there for twenty-nine years,she never went inside
+E13,E12,-3,oi (Overlapped By),False,who had worked there for twenty-nine years,she walked past rather than entered
+E13,E14,-5,di (Contains),False,who had worked there for twenty-nine years,she had read more books in six weeks
+E13,E15,-6,fi (Finished By),False,who had worked there for twenty-nine years,has become friends with the elderly librarian
+E14,E1,-1,> (Preceded By),False,she had read more books in six weeks,moved to the neighborhood
+E14,E2,-1,> (Preceded By),False,she had read more books in six weeks,visited
+E14,E3,-1,> (Preceded By),False,she had read more books in six weeks,helped her fill out the application
+E14,E4,-2,mi (Met By),False,she had read more books in six weeks,issued her card
+E14,E5,-4,si (Started By),False,she had read more books in six weeks,borrowed
+E14,E6,-5,di (Contains),False,she had read more books in six weeks,finished it
+E14,E7,-5,di (Contains),False,she had read more books in six weeks,returned to borrow another
+E14,E8,-5,di (Contains),False,she had read more books in six weeks,visited the library
+E14,E9,-6,fi (Finished By),False,she had read more books in six weeks,borrowed a new book
+E14,E10,-1,> (Preceded By),False,she had read more books in six weeks,she passed it every day on her way to work
+E14,E11,-1,> (Preceded By),False,she had read more books in six weeks,she never went inside
+E14,E12,-1,> (Preceded By),False,she had read more books in six weeks,she walked past rather than entered
+E14,E13,5,d (During),False,she had read more books in six weeks,who had worked there for twenty-nine years
+E14,E15,2,m (Meets),False,she had read more books in six weeks,has become friends with the elderly librarian
+E15,E1,-1,> (Preceded By),False,has become friends with the elderly librarian,moved to the neighborhood
+E15,E2,-1,> (Preceded By),False,has become friends with the elderly librarian,visited
+E15,E3,-1,> (Preceded By),False,has become friends with the elderly librarian,helped her fill out the application
+E15,E4,-1,> (Preceded By),False,has become friends with the elderly librarian,issued her card
+E15,E5,-1,> (Preceded By),False,has become friends with the elderly librarian,borrowed
+E15,E6,-1,> (Preceded By),False,has become friends with the elderly librarian,finished it
+E15,E7,-1,> (Preceded By),False,has become friends with the elderly librarian,returned to borrow another
+E15,E8,-1,> (Preceded By),False,has become friends with the elderly librarian,visited the library
+E15,E9,-2,mi (Met By),False,has become friends with the elderly librarian,borrowed a new book
+E15,E10,-1,> (Preceded By),False,has become friends with the elderly librarian,she passed it every day on her way to work
+E15,E11,-1,> (Preceded By),False,has become friends with the elderly librarian,she never went inside
+E15,E12,-1,> (Preceded By),False,has become friends with the elderly librarian,she walked past rather than entered
+E15,E13,6,f (Finishes),False,has become friends with the elderly librarian,who had worked there for twenty-nine years
+E15,E14,-2,mi (Met By),False,has become friends with the elderly librarian,she had read more books in six weeks

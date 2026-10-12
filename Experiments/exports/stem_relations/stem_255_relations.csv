@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,traveling for nearly eighteen hours,returning from a job interview
+E1,E3,2,m (Meets),False,traveling for nearly eighteen hours,boarded the wrong train
+E1,E4,1,< (Precedes),False,traveling for nearly eighteen hours,realized his mistake
+E1,E5,1,< (Precedes),False,traveling for nearly eighteen hours,got off at the next stop
+E1,E6,1,< (Precedes),False,traveling for nearly eighteen hours,spent the night on a bench
+E1,E7,1,< (Precedes),False,traveling for nearly eighteen hours,brought him a cup of tea
+E1,E8,1,< (Precedes),False,traveling for nearly eighteen hours,talked for an hour
+E1,E9,1,< (Precedes),False,traveling for nearly eighteen hours,The train arrived
+E1,E10,1,< (Precedes),False,traveling for nearly eighteen hours,Shafiq boarded it
+E1,E11,1,< (Precedes),False,traveling for nearly eighteen hours,reached his destination
+E1,E12,1,< (Precedes),False,traveling for nearly eighteen hours,received an offer
+E1,E13,1,< (Precedes),False,traveling for nearly eighteen hours,the conductor announced the next station
+E1,E14,1,< (Precedes),False,traveling for nearly eighteen hours,The station was nearly deserted at that hour
+E1,E15,1,< (Precedes),False,traveling for nearly eighteen hours,The next train back to his intended route would not arrive until the following morning
+E1,E16,1,< (Precedes),False,traveling for nearly eighteen hours,shared stories of his forty years running the stal
+E1,E17,1,< (Precedes),False,traveling for nearly eighteen hours,"never passed through that junction station again,"
+E2,E1,0,= (Equal),False,returning from a job interview,traveling for nearly eighteen hours
+E2,E3,2,m (Meets),False,returning from a job interview,boarded the wrong train
+E2,E4,1,< (Precedes),False,returning from a job interview,realized his mistake
+E2,E5,1,< (Precedes),False,returning from a job interview,got off at the next stop
+E2,E6,1,< (Precedes),False,returning from a job interview,spent the night on a bench
+E2,E7,1,< (Precedes),False,returning from a job interview,brought him a cup of tea
+E2,E8,1,< (Precedes),False,returning from a job interview,talked for an hour
+E2,E9,1,< (Precedes),False,returning from a job interview,The train arrived
+E2,E10,1,< (Precedes),False,returning from a job interview,Shafiq boarded it
+E2,E11,1,< (Precedes),False,returning from a job interview,reached his destination
+E2,E12,1,< (Precedes),False,returning from a job interview,received an offer
+E2,E13,1,< (Precedes),False,returning from a job interview,the conductor announced the next station
+E2,E14,1,< (Precedes),False,returning from a job interview,The station was nearly deserted at that hour
+E2,E15,1,< (Precedes),False,returning from a job interview,The next train back to his intended route would not arrive until the following morning
+E2,E16,1,< (Precedes),False,returning from a job interview,shared stories of his forty years running the stal
+E2,E17,1,< (Precedes),False,returning from a job interview,"never passed through that junction station again,"
+E3,E1,-2,mi (Met By),False,boarded the wrong train,traveling for nearly eighteen hours
+E3,E2,-2,mi (Met By),False,boarded the wrong train,returning from a job interview
+E3,E4,1,< (Precedes),False,boarded the wrong train,realized his mistake
+E3,E5,1,< (Precedes),False,boarded the wrong train,got off at the next stop
+E3,E6,1,< (Precedes),False,boarded the wrong train,spent the night on a bench
+E3,E7,1,< (Precedes),False,boarded the wrong train,brought him a cup of tea
+E3,E8,1,< (Precedes),False,boarded the wrong train,talked for an hour
+E3,E9,1,< (Precedes),False,boarded the wrong train,The train arrived
+E3,E10,1,< (Precedes),False,boarded the wrong train,Shafiq boarded it
+E3,E11,1,< (Precedes),False,boarded the wrong train,reached his destination
+E3,E12,1,< (Precedes),False,boarded the wrong train,received an offer
+E3,E13,1,< (Precedes),False,boarded the wrong train,the conductor announced the next station
+E3,E14,1,< (Precedes),False,boarded the wrong train,The station was nearly deserted at that hour
+E3,E15,1,< (Precedes),False,boarded the wrong train,The next train back to his intended route would not arrive until the following morning
+E3,E16,1,< (Precedes),False,boarded the wrong train,shared stories of his forty years running the stal
+E3,E17,1,< (Precedes),False,boarded the wrong train,"never passed through that junction station again,"
+E4,E1,-1,> (Preceded By),False,realized his mistake,traveling for nearly eighteen hours
+E4,E2,-1,> (Preceded By),False,realized his mistake,returning from a job interview
+E4,E3,-1,> (Preceded By),False,realized his mistake,boarded the wrong train
+E4,E5,1,< (Precedes),False,realized his mistake,got off at the next stop
+E4,E6,1,< (Precedes),False,realized his mistake,spent the night on a bench
+E4,E7,1,< (Precedes),False,realized his mistake,brought him a cup of tea
+E4,E8,1,< (Precedes),False,realized his mistake,talked for an hour
+E4,E9,1,< (Precedes),False,realized his mistake,The train arrived
+E4,E10,1,< (Precedes),False,realized his mistake,Shafiq boarded it
+E4,E11,1,< (Precedes),False,realized his mistake,reached his destination
+E4,E12,1,< (Precedes),False,realized his mistake,received an offer
+E4,E13,0,= (Equal),False,realized his mistake,the conductor announced the next station
+E4,E14,1,< (Precedes),False,realized his mistake,The station was nearly deserted at that hour
+E4,E15,1,< (Precedes),False,realized his mistake,The next train back to his intended route would not arrive until the following morning
+E4,E16,1,< (Precedes),False,realized his mistake,shared stories of his forty years running the stal
+E4,E17,1,< (Precedes),False,realized his mistake,"never passed through that junction station again,"
+E5,E1,-1,> (Preceded By),False,got off at the next stop,traveling for nearly eighteen hours
+E5,E2,-1,> (Preceded By),False,got off at the next stop,returning from a job interview
+E5,E3,-1,> (Preceded By),False,got off at the next stop,boarded the wrong train
+E5,E4,-1,> (Preceded By),False,got off at the next stop,realized his mistake
+E5,E6,1,< (Precedes),False,got off at the next stop,spent the night on a bench
+E5,E7,1,< (Precedes),False,got off at the next stop,brought him a cup of tea
+E5,E8,1,< (Precedes),False,got off at the next stop,talked for an hour
+E5,E9,1,< (Precedes),False,got off at the next stop,The train arrived
+E5,E10,1,< (Precedes),False,got off at the next stop,Shafiq boarded it
+E5,E11,1,< (Precedes),False,got off at the next stop,reached his destination
+E5,E12,1,< (Precedes),False,got off at the next stop,received an offer
+E5,E13,-1,> (Preceded By),False,got off at the next stop,the conductor announced the next station
+E5,E14,1,< (Precedes),False,got off at the next stop,The station was nearly deserted at that hour
+E5,E15,1,< (Precedes),False,got off at the next stop,The next train back to his intended route would not arrive until the following morning
+E5,E16,1,< (Precedes),False,got off at the next stop,shared stories of his forty years running the stal
+E5,E17,1,< (Precedes),False,got off at the next stop,"never passed through that junction station again,"
+E6,E1,-1,> (Preceded By),False,spent the night on a bench,traveling for nearly eighteen hours
+E6,E2,-1,> (Preceded By),False,spent the night on a bench,returning from a job interview
+E6,E3,-1,> (Preceded By),False,spent the night on a bench,boarded the wrong train
+E6,E4,-1,> (Preceded By),False,spent the night on a bench,realized his mistake
+E6,E5,-1,> (Preceded By),False,spent the night on a bench,got off at the next stop
+E6,E7,-5,di (Contains),False,spent the night on a bench,brought him a cup of tea
+E6,E8,-5,di (Contains),False,spent the night on a bench,talked for an hour
+E6,E9,2,m (Meets),False,spent the night on a bench,The train arrived
+E6,E10,1,< (Precedes),False,spent the night on a bench,Shafiq boarded it
+E6,E11,1,< (Precedes),False,spent the night on a bench,reached his destination
+E6,E12,1,< (Precedes),False,spent the night on a bench,received an offer
+E6,E13,-1,> (Preceded By),False,spent the night on a bench,the conductor announced the next station
+E6,E14,0,= (Equal),False,spent the night on a bench,The station was nearly deserted at that hour
+E6,E15,0,= (Equal),False,spent the night on a bench,The next train back to his intended route would not arrive until the following morning
+E6,E16,-5,di (Contains),False,spent the night on a bench,shared stories of his forty years running the stal
+E6,E17,1,< (Precedes),False,spent the night on a bench,"never passed through that junction station again,"
+E7,E1,-1,> (Preceded By),False,brought him a cup of tea,traveling for nearly eighteen hours
+E7,E2,-1,> (Preceded By),False,brought him a cup of tea,returning from a job interview
+E7,E3,-1,> (Preceded By),False,brought him a cup of tea,boarded the wrong train
+E7,E4,-1,> (Preceded By),False,brought him a cup of tea,realized his mistake
+E7,E5,-1,> (Preceded By),False,brought him a cup of tea,got off at the next stop
+E7,E6,5,d (During),False,brought him a cup of tea,spent the night on a bench
+E7,E8,2,m (Meets),False,brought him a cup of tea,talked for an hour
+E7,E9,1,< (Precedes),False,brought him a cup of tea,The train arrived
+E7,E10,1,< (Precedes),False,brought him a cup of tea,Shafiq boarded it
+E7,E11,1,< (Precedes),False,brought him a cup of tea,reached his destination
+E7,E12,1,< (Precedes),False,brought him a cup of tea,received an offer
+E7,E13,-1,> (Preceded By),False,brought him a cup of tea,the conductor announced the next station
+E7,E14,5,d (During),False,brought him a cup of tea,The station was nearly deserted at that hour
+E7,E15,5,d (During),False,brought him a cup of tea,The next train back to his intended route would not arrive until the following morning
+E7,E16,2,m (Meets),False,brought him a cup of tea,shared stories of his forty years running the stal
+E7,E17,1,< (Precedes),False,brought him a cup of tea,"never passed through that junction station again,"
+E8,E1,-1,> (Preceded By),False,talked for an hour,traveling for nearly eighteen hours
+E8,E2,-1,> (Preceded By),False,talked for an hour,returning from a job interview
+E8,E3,-1,> (Preceded By),False,talked for an hour,boarded the wrong train
+E8,E4,-1,> (Preceded By),False,talked for an hour,realized his mistake
+E8,E5,-1,> (Preceded By),False,talked for an hour,got off at the next stop
+E8,E6,5,d (During),False,talked for an hour,spent the night on a bench
+E8,E7,-2,mi (Met By),False,talked for an hour,brought him a cup of tea
+E8,E9,1,< (Precedes),False,talked for an hour,The train arrived
+E8,E10,1,< (Precedes),False,talked for an hour,Shafiq boarded it
+E8,E11,1,< (Precedes),False,talked for an hour,reached his destination
+E8,E12,1,< (Precedes),False,talked for an hour,received an offer
+E8,E13,-1,> (Preceded By),False,talked for an hour,the conductor announced the next station
+E8,E14,5,d (During),False,talked for an hour,The station was nearly deserted at that hour
+E8,E15,5,d (During),False,talked for an hour,The next train back to his intended route would not arrive until the following morning
+E8,E16,0,= (Equal),False,talked for an hour,shared stories of his forty years running the stal
+E8,E17,1,< (Precedes),False,talked for an hour,"never passed through that junction station again,"
+E9,E1,-1,> (Preceded By),False,The train arrived,traveling for nearly eighteen hours
+E9,E2,-1,> (Preceded By),False,The train arrived,returning from a job interview
+E9,E3,-1,> (Preceded By),False,The train arrived,boarded the wrong train
+E9,E4,-1,> (Preceded By),False,The train arrived,realized his mistake
+E9,E5,-1,> (Preceded By),False,The train arrived,got off at the next stop
+E9,E6,-2,mi (Met By),False,The train arrived,spent the night on a bench
+E9,E7,-1,> (Preceded By),False,The train arrived,brought him a cup of tea
+E9,E8,-1,> (Preceded By),False,The train arrived,talked for an hour
+E9,E10,1,< (Precedes),False,The train arrived,Shafiq boarded it
+E9,E11,1,< (Precedes),False,The train arrived,reached his destination
+E9,E12,1,< (Precedes),False,The train arrived,received an offer
+E9,E13,-1,> (Preceded By),False,The train arrived,the conductor announced the next station
+E9,E14,-2,mi (Met By),False,The train arrived,The station was nearly deserted at that hour
+E9,E15,-2,mi (Met By),False,The train arrived,The next train back to his intended route would not arrive until the following morning
+E9,E16,-1,> (Preceded By),False,The train arrived,shared stories of his forty years running the stal
+E9,E17,1,< (Precedes),False,The train arrived,"never passed through that junction station again,"
+E10,E1,-1,> (Preceded By),False,Shafiq boarded it,traveling for nearly eighteen hours
+E10,E2,-1,> (Preceded By),False,Shafiq boarded it,returning from a job interview
+E10,E3,-1,> (Preceded By),False,Shafiq boarded it,boarded the wrong train
+E10,E4,-1,> (Preceded By),False,Shafiq boarded it,realized his mistake
+E10,E5,-1,> (Preceded By),False,Shafiq boarded it,got off at the next stop
+E10,E6,-1,> (Preceded By),False,Shafiq boarded it,spent the night on a bench
+E10,E7,-1,> (Preceded By),False,Shafiq boarded it,brought him a cup of tea
+E10,E8,-1,> (Preceded By),False,Shafiq boarded it,talked for an hour
+E10,E9,-1,> (Preceded By),False,Shafiq boarded it,The train arrived
+E10,E11,1,< (Precedes),False,Shafiq boarded it,reached his destination
+E10,E12,1,< (Precedes),False,Shafiq boarded it,received an offer
+E10,E13,-1,> (Preceded By),False,Shafiq boarded it,the conductor announced the next station
+E10,E14,-1,> (Preceded By),False,Shafiq boarded it,The station was nearly deserted at that hour
+E10,E15,-1,> (Preceded By),False,Shafiq boarded it,The next train back to his intended route would not arrive until the following morning
+E10,E16,-1,> (Preceded By),False,Shafiq boarded it,shared stories of his forty years running the stal
+E10,E17,1,< (Precedes),False,Shafiq boarded it,"never passed through that junction station again,"
+E11,E1,-1,> (Preceded By),False,reached his destination,traveling for nearly eighteen hours
+E11,E2,-1,> (Preceded By),False,reached his destination,returning from a job interview
+E11,E3,-1,> (Preceded By),False,reached his destination,boarded the wrong train
+E11,E4,-1,> (Preceded By),False,reached his destination,realized his mistake
+E11,E5,-1,> (Preceded By),False,reached his destination,got off at the next stop
+E11,E6,-1,> (Preceded By),False,reached his destination,spent the night on a bench
+E11,E7,-1,> (Preceded By),False,reached his destination,brought him a cup of tea
+E11,E8,-1,> (Preceded By),False,reached his destination,talked for an hour
+E11,E9,-1,> (Preceded By),False,reached his destination,The train arrived
+E11,E10,-1,> (Preceded By),False,reached his destination,Shafiq boarded it
+E11,E12,1,< (Precedes),False,reached his destination,received an offer
+E11,E13,-1,> (Preceded By),False,reached his destination,the conductor announced the next station
+E11,E14,-1,> (Preceded By),False,reached his destination,The station was nearly deserted at that hour
+E11,E15,-1,> (Preceded By),False,reached his destination,The next train back to his intended route would not arrive until the following morning
+E11,E16,-1,> (Preceded By),False,reached his destination,shared stories of his forty years running the stal
+E11,E17,2,m (Meets),False,reached his destination,"never passed through that junction station again,"
+E12,E1,-1,> (Preceded By),False,received an offer,traveling for nearly eighteen hours
+E12,E2,-1,> (Preceded By),False,received an offer,returning from a job interview
+E12,E3,-1,> (Preceded By),False,received an offer,boarded the wrong train
+E12,E4,-1,> (Preceded By),False,received an offer,realized his mistake
+E12,E5,-1,> (Preceded By),False,received an offer,got off at the next stop
+E12,E6,-1,> (Preceded By),False,received an offer,spent the night on a bench
+E12,E7,-1,> (Preceded By),False,received an offer,brought him a cup of tea
+E12,E8,-1,> (Preceded By),False,received an offer,talked for an hour
+E12,E9,-1,> (Preceded By),False,received an offer,The train arrived
+E12,E10,-1,> (Preceded By),False,received an offer,Shafiq boarded it
+E12,E11,-1,> (Preceded By),False,received an offer,reached his destination
+E12,E13,-1,> (Preceded By),False,received an offer,the conductor announced the next station
+E12,E14,-1,> (Preceded By),False,received an offer,The station was nearly deserted at that hour
+E12,E15,-1,> (Preceded By),False,received an offer,The next train back to his intended route would not arrive until the following morning
+E12,E16,-1,> (Preceded By),False,received an offer,shared stories of his forty years running the stal
+E12,E17,5,d (During),False,received an offer,"never passed through that junction station again,"
+E13,E1,-1,> (Preceded By),False,the conductor announced the next station,traveling for nearly eighteen hours
+E13,E2,-1,> (Preceded By),False,the conductor announced the next station,returning from a job interview
+E13,E3,-1,> (Preceded By),False,the conductor announced the next station,boarded the wrong train
+E13,E4,0,= (Equal),False,the conductor announced the next station,realized his mistake
+E13,E5,1,< (Precedes),False,the conductor announced the next station,got off at the next stop
+E13,E6,1,< (Precedes),False,the conductor announced the next station,spent the night on a bench
+E13,E7,1,< (Precedes),False,the conductor announced the next station,brought him a cup of tea
+E13,E8,1,< (Precedes),False,the conductor announced the next station,talked for an hour
+E13,E9,1,< (Precedes),False,the conductor announced the next station,The train arrived
+E13,E10,1,< (Precedes),False,the conductor announced the next station,Shafiq boarded it
+E13,E11,1,< (Precedes),False,the conductor announced the next station,reached his destination
+E13,E12,1,< (Precedes),False,the conductor announced the next station,received an offer
+E13,E14,1,< (Precedes),False,the conductor announced the next station,The station was nearly deserted at that hour
+E13,E15,1,< (Precedes),False,the conductor announced the next station,The next train back to his intended route would not arrive until the following morning
+E13,E16,1,< (Precedes),False,the conductor announced the next station,shared stories of his forty years running the stal
+E13,E17,1,< (Precedes),False,the conductor announced the next station,"never passed through that junction station again,"
+E14,E1,-1,> (Preceded By),False,The station was nearly deserted at that hour,traveling for nearly eighteen hours
+E14,E2,-1,> (Preceded By),False,The station was nearly deserted at that hour,returning from a job interview
+E14,E3,-1,> (Preceded By),False,The station was nearly deserted at that hour,boarded the wrong train
+E14,E4,-1,> (Preceded By),False,The station was nearly deserted at that hour,realized his mistake
+E14,E5,-1,> (Preceded By),False,The station was nearly deserted at that hour,got off at the next stop
+E14,E6,0,= (Equal),False,The station was nearly deserted at that hour,spent the night on a bench
+E14,E7,-5,di (Contains),False,The station was nearly deserted at that hour,brought him a cup of tea
+E14,E8,-5,di (Contains),False,The station was nearly deserted at that hour,talked for an hour
+E14,E9,2,m (Meets),False,The station was nearly deserted at that hour,The train arrived
+E14,E10,1,< (Precedes),False,The station was nearly deserted at that hour,Shafiq boarded it
+E14,E11,1,< (Precedes),False,The station was nearly deserted at that hour,reached his destination
+E14,E12,1,< (Precedes),False,The station was nearly deserted at that hour,received an offer
+E14,E13,-1,> (Preceded By),False,The station was nearly deserted at that hour,the conductor announced the next station
+E14,E15,0,= (Equal),False,The station was nearly deserted at that hour,The next train back to his intended route would not arrive until the following morning
+E14,E16,-5,di (Contains),False,The station was nearly deserted at that hour,shared stories of his forty years running the stal
+E14,E17,1,< (Precedes),False,The station was nearly deserted at that hour,"never passed through that junction station again,"
+E15,E1,-1,> (Preceded By),False,The next train back to his intended route would not arrive until the following morning,traveling for nearly eighteen hours
+E15,E2,-1,> (Preceded By),False,The next train back to his intended route would not arrive until the following morning,returning from a job interview
+E15,E3,-1,> (Preceded By),False,The next train back to his intended route would not arrive until the following morning,boarded the wrong train
+E15,E4,-1,> (Preceded By),False,The next train back to his intended route would not arrive until the following morning,realized his mistake
+E15,E5,-1,> (Preceded By),False,The next train back to his intended route would not arrive until the following morning,got off at the next stop
+E15,E6,0,= (Equal),False,The next train back to his intended route would not arrive until the following morning,spent the night on a bench
+E15,E7,-5,di (Contains),False,The next train back to his intended route would not arrive until the following morning,brought him a cup of tea
+E15,E8,-5,di (Contains),False,The next train back to his intended route would not arrive until the following morning,talked for an hour
+E15,E9,2,m (Meets),False,The next train back to his intended route would not arrive until the following morning,The train arrived
+E15,E10,1,< (Precedes),False,The next train back to his intended route would not arrive until the following morning,Shafiq boarded it
+E15,E11,1,< (Precedes),False,The next train back to his intended route would not arrive until the following morning,reached his destination
+E15,E12,1,< (Precedes),False,The next train back to his intended route would not arrive until the following morning,received an offer
+E15,E13,-1,> (Preceded By),False,The next train back to his intended route would not arrive until the following morning,the conductor announced the next station
+E15,E14,0,= (Equal),False,The next train back to his intended route would not arrive until the following morning,The station was nearly deserted at that hour
+E15,E16,-5,di (Contains),False,The next train back to his intended route would not arrive until the following morning,shared stories of his forty years running the stal
+E15,E17,1,< (Precedes),False,The next train back to his intended route would not arrive until the following morning,"never passed through that junction station again,"
+E16,E1,-1,> (Preceded By),False,shared stories of his forty years running the stal,traveling for nearly eighteen hours
+E16,E2,-1,> (Preceded By),False,shared stories of his forty years running the stal,returning from a job interview
+E16,E3,-1,> (Preceded By),False,shared stories of his forty years running the stal,boarded the wrong train
+E16,E4,-1,> (Preceded By),False,shared stories of his forty years running the stal,realized his mistake
+E16,E5,-1,> (Preceded By),False,shared stories of his forty years running the stal,got off at the next stop
+E16,E6,5,d (During),False,shared stories of his forty years running the stal,spent the night on a bench
+E16,E7,-2,mi (Met By),False,shared stories of his forty years running the stal,brought him a cup of tea
+E16,E8,0,= (Equal),False,shared stories of his forty years running the stal,talked for an hour
+E16,E9,1,< (Precedes),False,shared stories of his forty years running the stal,The train arrived
+E16,E10,1,< (Precedes),False,shared stories of his forty years running the stal,Shafiq boarded it
+E16,E11,1,< (Precedes),False,shared stories of his forty years running the stal,reached his destination
+E16,E12,1,< (Precedes),False,shared stories of his forty years running the stal,received an offer
+E16,E13,-1,> (Preceded By),False,shared stories of his forty years running the stal,the conductor announced the next station
+E16,E14,5,d (During),False,shared stories of his forty years running the stal,The station was nearly deserted at that hour
+E16,E15,5,d (During),False,shared stories of his forty years running the stal,The next train back to his intended route would not arrive until the following morning
+E16,E17,1,< (Precedes),False,shared stories of his forty years running the stal,"never passed through that junction station again,"
+E17,E1,-1,> (Preceded By),False,"never passed through that junction station again,",traveling for nearly eighteen hours
+E17,E2,-1,> (Preceded By),False,"never passed through that junction station again,",returning from a job interview
+E17,E3,-1,> (Preceded By),False,"never passed through that junction station again,",boarded the wrong train
+E17,E4,-1,> (Preceded By),False,"never passed through that junction station again,",realized his mistake
+E17,E5,-1,> (Preceded By),False,"never passed through that junction station again,",got off at the next stop
+E17,E6,-1,> (Preceded By),False,"never passed through that junction station again,",spent the night on a bench
+E17,E7,-1,> (Preceded By),False,"never passed through that junction station again,",brought him a cup of tea
+E17,E8,-1,> (Preceded By),False,"never passed through that junction station again,",talked for an hour
+E17,E9,-1,> (Preceded By),False,"never passed through that junction station again,",The train arrived
+E17,E10,-1,> (Preceded By),False,"never passed through that junction station again,",Shafiq boarded it
+E17,E11,-2,mi (Met By),False,"never passed through that junction station again,",reached his destination
+E17,E12,-5,di (Contains),False,"never passed through that junction station again,",received an offer
+E17,E13,-1,> (Preceded By),False,"never passed through that junction station again,",the conductor announced the next station
+E17,E14,-1,> (Preceded By),False,"never passed through that junction station again,",The station was nearly deserted at that hour
+E17,E15,-1,> (Preceded By),False,"never passed through that junction station again,",The next train back to his intended route would not arrive until the following morning
+E17,E16,-1,> (Preceded By),False,"never passed through that junction station again,",shared stories of his forty years running the stal

@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,Mr. Rahman had sat in the same chair on his veranda,she passed away
+E1,E3,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,Mr. Rahman continued to sit in the chair
+E1,E4,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,he would find himself checking his watch at the forty-minute mark
+E1,E5,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,The neighbors noticed
+E1,E6,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E1,E7,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,He asked his grandson to paint the chair
+E1,E8,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,The grandson completed the work over a weekend
+E1,E9,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,the chair transformed from a symbol of waiting into something else entirely
+E1,E10,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,Mr. Rahman still sits in the yellow chair every evening
+E1,E11,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,"neighbors pass by, they stop to talk"
+E1,E12,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,Children wave
+E1,E13,-4,si (Started By),False,Mr. Rahman had sat in the same chair on his veranda,The walk took exactly forty minutes
+E1,E14,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,Mr. Rahman did something unexpected
+E1,E15,1,< (Precedes),False,Mr. Rahman had sat in the same chair on his veranda,still present in the hearts of those who remember her
+E2,E1,-2,mi (Met By),False,she passed away,Mr. Rahman had sat in the same chair on his veranda
+E2,E3,2,m (Meets),False,she passed away,Mr. Rahman continued to sit in the chair
+E2,E4,2,m (Meets),False,she passed away,he would find himself checking his watch at the forty-minute mark
+E2,E5,2,m (Meets),False,she passed away,The neighbors noticed
+E2,E6,2,m (Meets),False,she passed away,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E2,E7,1,< (Precedes),False,she passed away,He asked his grandson to paint the chair
+E2,E8,1,< (Precedes),False,she passed away,The grandson completed the work over a weekend
+E2,E9,1,< (Precedes),False,she passed away,the chair transformed from a symbol of waiting into something else entirely
+E2,E10,1,< (Precedes),False,she passed away,Mr. Rahman still sits in the yellow chair every evening
+E2,E11,1,< (Precedes),False,she passed away,"neighbors pass by, they stop to talk"
+E2,E12,1,< (Precedes),False,she passed away,Children wave
+E2,E13,-1,> (Preceded By),False,she passed away,The walk took exactly forty minutes
+E2,E14,1,< (Precedes),False,she passed away,Mr. Rahman did something unexpected
+E2,E15,2,m (Meets),False,she passed away,still present in the hearts of those who remember her
+E3,E1,-1,> (Preceded By),False,Mr. Rahman continued to sit in the chair,Mr. Rahman had sat in the same chair on his veranda
+E3,E2,-2,mi (Met By),False,Mr. Rahman continued to sit in the chair,she passed away
+E3,E4,-4,si (Started By),False,Mr. Rahman continued to sit in the chair,he would find himself checking his watch at the forty-minute mark
+E3,E5,-4,si (Started By),False,Mr. Rahman continued to sit in the chair,The neighbors noticed
+E3,E6,0,= (Equal),False,Mr. Rahman continued to sit in the chair,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E3,E7,-5,di (Contains),False,Mr. Rahman continued to sit in the chair,He asked his grandson to paint the chair
+E3,E8,-5,di (Contains),False,Mr. Rahman continued to sit in the chair,The grandson completed the work over a weekend
+E3,E9,-5,di (Contains),False,Mr. Rahman continued to sit in the chair,the chair transformed from a symbol of waiting into something else entirely
+E3,E10,-6,fi (Finished By),False,Mr. Rahman continued to sit in the chair,Mr. Rahman still sits in the yellow chair every evening
+E3,E11,-6,fi (Finished By),False,Mr. Rahman continued to sit in the chair,"neighbors pass by, they stop to talk"
+E3,E12,-6,fi (Finished By),False,Mr. Rahman continued to sit in the chair,Children wave
+E3,E13,-1,> (Preceded By),False,Mr. Rahman continued to sit in the chair,The walk took exactly forty minutes
+E3,E14,-5,di (Contains),False,Mr. Rahman continued to sit in the chair,Mr. Rahman did something unexpected
+E3,E15,0,= (Equal),False,Mr. Rahman continued to sit in the chair,still present in the hearts of those who remember her
+E4,E1,-1,> (Preceded By),False,he would find himself checking his watch at the forty-minute mark,Mr. Rahman had sat in the same chair on his veranda
+E4,E2,-2,mi (Met By),False,he would find himself checking his watch at the forty-minute mark,she passed away
+E4,E3,4,s (Starts),False,he would find himself checking his watch at the forty-minute mark,Mr. Rahman continued to sit in the chair
+E4,E5,-4,si (Started By),False,he would find himself checking his watch at the forty-minute mark,The neighbors noticed
+E4,E6,4,s (Starts),False,he would find himself checking his watch at the forty-minute mark,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E4,E7,1,< (Precedes),False,he would find himself checking his watch at the forty-minute mark,He asked his grandson to paint the chair
+E4,E8,1,< (Precedes),False,he would find himself checking his watch at the forty-minute mark,The grandson completed the work over a weekend
+E4,E9,1,< (Precedes),False,he would find himself checking his watch at the forty-minute mark,the chair transformed from a symbol of waiting into something else entirely
+E4,E10,1,< (Precedes),False,he would find himself checking his watch at the forty-minute mark,Mr. Rahman still sits in the yellow chair every evening
+E4,E11,1,< (Precedes),False,he would find himself checking his watch at the forty-minute mark,"neighbors pass by, they stop to talk"
+E4,E12,1,< (Precedes),False,he would find himself checking his watch at the forty-minute mark,Children wave
+E4,E13,-1,> (Preceded By),False,he would find himself checking his watch at the forty-minute mark,The walk took exactly forty minutes
+E4,E14,1,< (Precedes),False,he would find himself checking his watch at the forty-minute mark,Mr. Rahman did something unexpected
+E4,E15,4,s (Starts),False,he would find himself checking his watch at the forty-minute mark,still present in the hearts of those who remember her
+E5,E1,-1,> (Preceded By),False,The neighbors noticed,Mr. Rahman had sat in the same chair on his veranda
+E5,E2,-2,mi (Met By),False,The neighbors noticed,she passed away
+E5,E3,4,s (Starts),False,The neighbors noticed,Mr. Rahman continued to sit in the chair
+E5,E4,4,s (Starts),False,The neighbors noticed,he would find himself checking his watch at the forty-minute mark
+E5,E6,4,s (Starts),False,The neighbors noticed,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E5,E7,1,< (Precedes),False,The neighbors noticed,He asked his grandson to paint the chair
+E5,E8,1,< (Precedes),False,The neighbors noticed,The grandson completed the work over a weekend
+E5,E9,1,< (Precedes),False,The neighbors noticed,the chair transformed from a symbol of waiting into something else entirely
+E5,E10,1,< (Precedes),False,The neighbors noticed,Mr. Rahman still sits in the yellow chair every evening
+E5,E11,1,< (Precedes),False,The neighbors noticed,"neighbors pass by, they stop to talk"
+E5,E12,1,< (Precedes),False,The neighbors noticed,Children wave
+E5,E13,-1,> (Preceded By),False,The neighbors noticed,The walk took exactly forty minutes
+E5,E14,1,< (Precedes),False,The neighbors noticed,Mr. Rahman did something unexpected
+E5,E15,4,s (Starts),False,The neighbors noticed,still present in the hearts of those who remember her
+E6,E1,-1,> (Preceded By),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",Mr. Rahman had sat in the same chair on his veranda
+E6,E2,-2,mi (Met By),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",she passed away
+E6,E3,0,= (Equal),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",Mr. Rahman continued to sit in the chair
+E6,E4,-4,si (Started By),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",he would find himself checking his watch at the forty-minute mark
+E6,E5,-4,si (Started By),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",The neighbors noticed
+E6,E7,-5,di (Contains),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",He asked his grandson to paint the chair
+E6,E8,-5,di (Contains),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",The grandson completed the work over a weekend
+E6,E9,-5,di (Contains),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",the chair transformed from a symbol of waiting into something else entirely
+E6,E10,-6,fi (Finished By),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",Mr. Rahman still sits in the yellow chair every evening
+E6,E11,-6,fi (Finished By),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping","neighbors pass by, they stop to talk"
+E6,E12,-6,fi (Finished By),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",Children wave
+E6,E13,-1,> (Preceded By),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",The walk took exactly forty minutes
+E6,E14,-5,di (Contains),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",Mr. Rahman did something unexpected
+E6,E15,0,= (Equal),False,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping",still present in the hearts of those who remember her
+E7,E1,-1,> (Preceded By),False,He asked his grandson to paint the chair,Mr. Rahman had sat in the same chair on his veranda
+E7,E2,-1,> (Preceded By),False,He asked his grandson to paint the chair,she passed away
+E7,E3,5,d (During),False,He asked his grandson to paint the chair,Mr. Rahman continued to sit in the chair
+E7,E4,-1,> (Preceded By),False,He asked his grandson to paint the chair,he would find himself checking his watch at the forty-minute mark
+E7,E5,-1,> (Preceded By),False,He asked his grandson to paint the chair,The neighbors noticed
+E7,E6,5,d (During),False,He asked his grandson to paint the chair,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E7,E8,2,m (Meets),False,He asked his grandson to paint the chair,The grandson completed the work over a weekend
+E7,E9,1,< (Precedes),False,He asked his grandson to paint the chair,the chair transformed from a symbol of waiting into something else entirely
+E7,E10,1,< (Precedes),False,He asked his grandson to paint the chair,Mr. Rahman still sits in the yellow chair every evening
+E7,E11,1,< (Precedes),False,He asked his grandson to paint the chair,"neighbors pass by, they stop to talk"
+E7,E12,1,< (Precedes),False,He asked his grandson to paint the chair,Children wave
+E7,E13,-1,> (Preceded By),False,He asked his grandson to paint the chair,The walk took exactly forty minutes
+E7,E14,0,= (Equal),False,He asked his grandson to paint the chair,Mr. Rahman did something unexpected
+E7,E15,5,d (During),False,He asked his grandson to paint the chair,still present in the hearts of those who remember her
+E8,E1,-1,> (Preceded By),False,The grandson completed the work over a weekend,Mr. Rahman had sat in the same chair on his veranda
+E8,E2,-1,> (Preceded By),False,The grandson completed the work over a weekend,she passed away
+E8,E3,5,d (During),False,The grandson completed the work over a weekend,Mr. Rahman continued to sit in the chair
+E8,E4,-1,> (Preceded By),False,The grandson completed the work over a weekend,he would find himself checking his watch at the forty-minute mark
+E8,E5,-1,> (Preceded By),False,The grandson completed the work over a weekend,The neighbors noticed
+E8,E6,5,d (During),False,The grandson completed the work over a weekend,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E8,E7,-2,mi (Met By),False,The grandson completed the work over a weekend,He asked his grandson to paint the chair
+E8,E9,2,m (Meets),False,The grandson completed the work over a weekend,the chair transformed from a symbol of waiting into something else entirely
+E8,E10,2,m (Meets),False,The grandson completed the work over a weekend,Mr. Rahman still sits in the yellow chair every evening
+E8,E11,1,< (Precedes),False,The grandson completed the work over a weekend,"neighbors pass by, they stop to talk"
+E8,E12,1,< (Precedes),False,The grandson completed the work over a weekend,Children wave
+E8,E13,-1,> (Preceded By),False,The grandson completed the work over a weekend,The walk took exactly forty minutes
+E8,E14,-2,mi (Met By),False,The grandson completed the work over a weekend,Mr. Rahman did something unexpected
+E8,E15,5,d (During),False,The grandson completed the work over a weekend,still present in the hearts of those who remember her
+E9,E1,-1,> (Preceded By),False,the chair transformed from a symbol of waiting into something else entirely,Mr. Rahman had sat in the same chair on his veranda
+E9,E2,-1,> (Preceded By),False,the chair transformed from a symbol of waiting into something else entirely,she passed away
+E9,E3,5,d (During),False,the chair transformed from a symbol of waiting into something else entirely,Mr. Rahman continued to sit in the chair
+E9,E4,-1,> (Preceded By),False,the chair transformed from a symbol of waiting into something else entirely,he would find himself checking his watch at the forty-minute mark
+E9,E5,-1,> (Preceded By),False,the chair transformed from a symbol of waiting into something else entirely,The neighbors noticed
+E9,E6,5,d (During),False,the chair transformed from a symbol of waiting into something else entirely,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E9,E7,-1,> (Preceded By),False,the chair transformed from a symbol of waiting into something else entirely,He asked his grandson to paint the chair
+E9,E8,-2,mi (Met By),False,the chair transformed from a symbol of waiting into something else entirely,The grandson completed the work over a weekend
+E9,E10,4,s (Starts),False,the chair transformed from a symbol of waiting into something else entirely,Mr. Rahman still sits in the yellow chair every evening
+E9,E11,2,m (Meets),False,the chair transformed from a symbol of waiting into something else entirely,"neighbors pass by, they stop to talk"
+E9,E12,2,m (Meets),False,the chair transformed from a symbol of waiting into something else entirely,Children wave
+E9,E13,-1,> (Preceded By),False,the chair transformed from a symbol of waiting into something else entirely,The walk took exactly forty minutes
+E9,E14,-1,> (Preceded By),False,the chair transformed from a symbol of waiting into something else entirely,Mr. Rahman did something unexpected
+E9,E15,5,d (During),False,the chair transformed from a symbol of waiting into something else entirely,still present in the hearts of those who remember her
+E10,E1,-1,> (Preceded By),False,Mr. Rahman still sits in the yellow chair every evening,Mr. Rahman had sat in the same chair on his veranda
+E10,E2,-1,> (Preceded By),False,Mr. Rahman still sits in the yellow chair every evening,she passed away
+E10,E3,6,f (Finishes),False,Mr. Rahman still sits in the yellow chair every evening,Mr. Rahman continued to sit in the chair
+E10,E4,-1,> (Preceded By),False,Mr. Rahman still sits in the yellow chair every evening,he would find himself checking his watch at the forty-minute mark
+E10,E5,-1,> (Preceded By),False,Mr. Rahman still sits in the yellow chair every evening,The neighbors noticed
+E10,E6,6,f (Finishes),False,Mr. Rahman still sits in the yellow chair every evening,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E10,E7,-1,> (Preceded By),False,Mr. Rahman still sits in the yellow chair every evening,He asked his grandson to paint the chair
+E10,E8,-2,mi (Met By),False,Mr. Rahman still sits in the yellow chair every evening,The grandson completed the work over a weekend
+E10,E9,-4,si (Started By),False,Mr. Rahman still sits in the yellow chair every evening,the chair transformed from a symbol of waiting into something else entirely
+E10,E11,-6,fi (Finished By),False,Mr. Rahman still sits in the yellow chair every evening,"neighbors pass by, they stop to talk"
+E10,E12,-6,fi (Finished By),False,Mr. Rahman still sits in the yellow chair every evening,Children wave
+E10,E13,-1,> (Preceded By),False,Mr. Rahman still sits in the yellow chair every evening,The walk took exactly forty minutes
+E10,E14,-1,> (Preceded By),False,Mr. Rahman still sits in the yellow chair every evening,Mr. Rahman did something unexpected
+E10,E15,6,f (Finishes),False,Mr. Rahman still sits in the yellow chair every evening,still present in the hearts of those who remember her
+E11,E1,-1,> (Preceded By),False,"neighbors pass by, they stop to talk",Mr. Rahman had sat in the same chair on his veranda
+E11,E2,-1,> (Preceded By),False,"neighbors pass by, they stop to talk",she passed away
+E11,E3,6,f (Finishes),False,"neighbors pass by, they stop to talk",Mr. Rahman continued to sit in the chair
+E11,E4,-1,> (Preceded By),False,"neighbors pass by, they stop to talk",he would find himself checking his watch at the forty-minute mark
+E11,E5,-1,> (Preceded By),False,"neighbors pass by, they stop to talk",The neighbors noticed
+E11,E6,6,f (Finishes),False,"neighbors pass by, they stop to talk","His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E11,E7,-1,> (Preceded By),False,"neighbors pass by, they stop to talk",He asked his grandson to paint the chair
+E11,E8,-1,> (Preceded By),False,"neighbors pass by, they stop to talk",The grandson completed the work over a weekend
+E11,E9,-2,mi (Met By),False,"neighbors pass by, they stop to talk",the chair transformed from a symbol of waiting into something else entirely
+E11,E10,6,f (Finishes),False,"neighbors pass by, they stop to talk",Mr. Rahman still sits in the yellow chair every evening
+E11,E12,0,= (Equal),False,"neighbors pass by, they stop to talk",Children wave
+E11,E13,-1,> (Preceded By),False,"neighbors pass by, they stop to talk",The walk took exactly forty minutes
+E11,E14,-1,> (Preceded By),False,"neighbors pass by, they stop to talk",Mr. Rahman did something unexpected
+E11,E15,6,f (Finishes),False,"neighbors pass by, they stop to talk",still present in the hearts of those who remember her
+E12,E1,-1,> (Preceded By),False,Children wave,Mr. Rahman had sat in the same chair on his veranda
+E12,E2,-1,> (Preceded By),False,Children wave,she passed away
+E12,E3,6,f (Finishes),False,Children wave,Mr. Rahman continued to sit in the chair
+E12,E4,-1,> (Preceded By),False,Children wave,he would find himself checking his watch at the forty-minute mark
+E12,E5,-1,> (Preceded By),False,Children wave,The neighbors noticed
+E12,E6,6,f (Finishes),False,Children wave,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E12,E7,-1,> (Preceded By),False,Children wave,He asked his grandson to paint the chair
+E12,E8,-1,> (Preceded By),False,Children wave,The grandson completed the work over a weekend
+E12,E9,-2,mi (Met By),False,Children wave,the chair transformed from a symbol of waiting into something else entirely
+E12,E10,6,f (Finishes),False,Children wave,Mr. Rahman still sits in the yellow chair every evening
+E12,E11,0,= (Equal),False,Children wave,"neighbors pass by, they stop to talk"
+E12,E13,-1,> (Preceded By),False,Children wave,The walk took exactly forty minutes
+E12,E14,-1,> (Preceded By),False,Children wave,Mr. Rahman did something unexpected
+E12,E15,6,f (Finishes),False,Children wave,still present in the hearts of those who remember her
+E13,E1,4,s (Starts),False,The walk took exactly forty minutes,Mr. Rahman had sat in the same chair on his veranda
+E13,E2,1,< (Precedes),False,The walk took exactly forty minutes,she passed away
+E13,E3,1,< (Precedes),False,The walk took exactly forty minutes,Mr. Rahman continued to sit in the chair
+E13,E4,1,< (Precedes),False,The walk took exactly forty minutes,he would find himself checking his watch at the forty-minute mark
+E13,E5,1,< (Precedes),False,The walk took exactly forty minutes,The neighbors noticed
+E13,E6,1,< (Precedes),False,The walk took exactly forty minutes,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E13,E7,1,< (Precedes),False,The walk took exactly forty minutes,He asked his grandson to paint the chair
+E13,E8,1,< (Precedes),False,The walk took exactly forty minutes,The grandson completed the work over a weekend
+E13,E9,1,< (Precedes),False,The walk took exactly forty minutes,the chair transformed from a symbol of waiting into something else entirely
+E13,E10,1,< (Precedes),False,The walk took exactly forty minutes,Mr. Rahman still sits in the yellow chair every evening
+E13,E11,1,< (Precedes),False,The walk took exactly forty minutes,"neighbors pass by, they stop to talk"
+E13,E12,1,< (Precedes),False,The walk took exactly forty minutes,Children wave
+E13,E14,1,< (Precedes),False,The walk took exactly forty minutes,Mr. Rahman did something unexpected
+E13,E15,1,< (Precedes),False,The walk took exactly forty minutes,still present in the hearts of those who remember her
+E14,E1,-1,> (Preceded By),False,Mr. Rahman did something unexpected,Mr. Rahman had sat in the same chair on his veranda
+E14,E2,-1,> (Preceded By),False,Mr. Rahman did something unexpected,she passed away
+E14,E3,5,d (During),False,Mr. Rahman did something unexpected,Mr. Rahman continued to sit in the chair
+E14,E4,-1,> (Preceded By),False,Mr. Rahman did something unexpected,he would find himself checking his watch at the forty-minute mark
+E14,E5,-1,> (Preceded By),False,Mr. Rahman did something unexpected,The neighbors noticed
+E14,E6,5,d (During),False,Mr. Rahman did something unexpected,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E14,E7,0,= (Equal),False,Mr. Rahman did something unexpected,He asked his grandson to paint the chair
+E14,E8,2,m (Meets),False,Mr. Rahman did something unexpected,The grandson completed the work over a weekend
+E14,E9,1,< (Precedes),False,Mr. Rahman did something unexpected,the chair transformed from a symbol of waiting into something else entirely
+E14,E10,1,< (Precedes),False,Mr. Rahman did something unexpected,Mr. Rahman still sits in the yellow chair every evening
+E14,E11,1,< (Precedes),False,Mr. Rahman did something unexpected,"neighbors pass by, they stop to talk"
+E14,E12,1,< (Precedes),False,Mr. Rahman did something unexpected,Children wave
+E14,E13,-1,> (Preceded By),False,Mr. Rahman did something unexpected,The walk took exactly forty minutes
+E14,E15,5,d (During),False,Mr. Rahman did something unexpected,still present in the hearts of those who remember her
+E15,E1,-1,> (Preceded By),False,still present in the hearts of those who remember her,Mr. Rahman had sat in the same chair on his veranda
+E15,E2,-2,mi (Met By),False,still present in the hearts of those who remember her,she passed away
+E15,E3,0,= (Equal),False,still present in the hearts of those who remember her,Mr. Rahman continued to sit in the chair
+E15,E4,-4,si (Started By),False,still present in the hearts of those who remember her,he would find himself checking his watch at the forty-minute mark
+E15,E5,-4,si (Started By),False,still present in the hearts of those who remember her,The neighbors noticed
+E15,E6,0,= (Equal),False,still present in the hearts of those who remember her,"His daughter, who called every evening, would ask if he had eaten and if he was sleeping"
+E15,E7,-5,di (Contains),False,still present in the hearts of those who remember her,He asked his grandson to paint the chair
+E15,E8,-5,di (Contains),False,still present in the hearts of those who remember her,The grandson completed the work over a weekend
+E15,E9,-5,di (Contains),False,still present in the hearts of those who remember her,the chair transformed from a symbol of waiting into something else entirely
+E15,E10,-6,fi (Finished By),False,still present in the hearts of those who remember her,Mr. Rahman still sits in the yellow chair every evening
+E15,E11,-6,fi (Finished By),False,still present in the hearts of those who remember her,"neighbors pass by, they stop to talk"
+E15,E12,-6,fi (Finished By),False,still present in the hearts of those who remember her,Children wave
+E15,E13,-1,> (Preceded By),False,still present in the hearts of those who remember her,The walk took exactly forty minutes
+E15,E14,-5,di (Contains),False,still present in the hearts of those who remember her,Mr. Rahman did something unexpected

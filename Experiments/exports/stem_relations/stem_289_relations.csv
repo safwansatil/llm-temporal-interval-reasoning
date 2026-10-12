@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,bought his son's Eid shoes,paid more than he had planned
+E1,E3,1,< (Precedes),False,bought his son's Eid shoes,stored in a cupboard
+E1,E4,1,< (Precedes),False,bought his son's Eid shoes,took out the shoes
+E1,E5,1,< (Precedes),False,bought his son's Eid shoes,noticed a small scratch
+E1,E6,1,< (Precedes),False,bought his son's Eid shoes,put them on
+E1,E7,1,< (Precedes),False,bought his son's Eid shoes,refused to take them off
+E1,E8,1,< (Precedes),False,bought his son's Eid shoes,soles began to wear thin
+E1,E9,1,< (Precedes),False,bought his son's Eid shoes,shoes no longer fit
+E1,E10,1,< (Precedes),False,bought his son's Eid shoes,cleaned them
+E1,E11,1,< (Precedes),False,bought his son's Eid shoes,placed them in a box
+E1,E12,1,< (Precedes),False,bought his son's Eid shoes,did not even see the scratch
+E2,E1,-2,mi (Met By),False,paid more than he had planned,bought his son's Eid shoes
+E2,E3,2,m (Meets),False,paid more than he had planned,stored in a cupboard
+E2,E4,1,< (Precedes),False,paid more than he had planned,took out the shoes
+E2,E5,1,< (Precedes),False,paid more than he had planned,noticed a small scratch
+E2,E6,1,< (Precedes),False,paid more than he had planned,put them on
+E2,E7,1,< (Precedes),False,paid more than he had planned,refused to take them off
+E2,E8,1,< (Precedes),False,paid more than he had planned,soles began to wear thin
+E2,E9,1,< (Precedes),False,paid more than he had planned,shoes no longer fit
+E2,E10,1,< (Precedes),False,paid more than he had planned,cleaned them
+E2,E11,1,< (Precedes),False,paid more than he had planned,placed them in a box
+E2,E12,1,< (Precedes),False,paid more than he had planned,did not even see the scratch
+E3,E1,-1,> (Preceded By),False,stored in a cupboard,bought his son's Eid shoes
+E3,E2,-2,mi (Met By),False,stored in a cupboard,paid more than he had planned
+E3,E4,2,m (Meets),False,stored in a cupboard,took out the shoes
+E3,E5,1,< (Precedes),False,stored in a cupboard,noticed a small scratch
+E3,E6,1,< (Precedes),False,stored in a cupboard,put them on
+E3,E7,1,< (Precedes),False,stored in a cupboard,refused to take them off
+E3,E8,1,< (Precedes),False,stored in a cupboard,soles began to wear thin
+E3,E9,1,< (Precedes),False,stored in a cupboard,shoes no longer fit
+E3,E10,1,< (Precedes),False,stored in a cupboard,cleaned them
+E3,E11,1,< (Precedes),False,stored in a cupboard,placed them in a box
+E3,E12,1,< (Precedes),False,stored in a cupboard,did not even see the scratch
+E4,E1,-1,> (Preceded By),False,took out the shoes,bought his son's Eid shoes
+E4,E2,-1,> (Preceded By),False,took out the shoes,paid more than he had planned
+E4,E3,-2,mi (Met By),False,took out the shoes,stored in a cupboard
+E4,E5,2,m (Meets),False,took out the shoes,noticed a small scratch
+E4,E6,1,< (Precedes),False,took out the shoes,put them on
+E4,E7,1,< (Precedes),False,took out the shoes,refused to take them off
+E4,E8,1,< (Precedes),False,took out the shoes,soles began to wear thin
+E4,E9,1,< (Precedes),False,took out the shoes,shoes no longer fit
+E4,E10,1,< (Precedes),False,took out the shoes,cleaned them
+E4,E11,1,< (Precedes),False,took out the shoes,placed them in a box
+E4,E12,1,< (Precedes),False,took out the shoes,did not even see the scratch
+E5,E1,-1,> (Preceded By),False,noticed a small scratch,bought his son's Eid shoes
+E5,E2,-1,> (Preceded By),False,noticed a small scratch,paid more than he had planned
+E5,E3,-1,> (Preceded By),False,noticed a small scratch,stored in a cupboard
+E5,E4,-2,mi (Met By),False,noticed a small scratch,took out the shoes
+E5,E6,1,< (Precedes),False,noticed a small scratch,put them on
+E5,E7,1,< (Precedes),False,noticed a small scratch,refused to take them off
+E5,E8,1,< (Precedes),False,noticed a small scratch,soles began to wear thin
+E5,E9,1,< (Precedes),False,noticed a small scratch,shoes no longer fit
+E5,E10,1,< (Precedes),False,noticed a small scratch,cleaned them
+E5,E11,1,< (Precedes),False,noticed a small scratch,placed them in a box
+E5,E12,1,< (Precedes),False,noticed a small scratch,did not even see the scratch
+E6,E1,-1,> (Preceded By),False,put them on,bought his son's Eid shoes
+E6,E2,-1,> (Preceded By),False,put them on,paid more than he had planned
+E6,E3,-1,> (Preceded By),False,put them on,stored in a cupboard
+E6,E4,-1,> (Preceded By),False,put them on,took out the shoes
+E6,E5,-1,> (Preceded By),False,put them on,noticed a small scratch
+E6,E7,2,m (Meets),False,put them on,refused to take them off
+E6,E8,1,< (Precedes),False,put them on,soles began to wear thin
+E6,E9,1,< (Precedes),False,put them on,shoes no longer fit
+E6,E10,1,< (Precedes),False,put them on,cleaned them
+E6,E11,1,< (Precedes),False,put them on,placed them in a box
+E6,E12,-2,mi (Met By),False,put them on,did not even see the scratch
+E7,E1,-1,> (Preceded By),False,refused to take them off,bought his son's Eid shoes
+E7,E2,-1,> (Preceded By),False,refused to take them off,paid more than he had planned
+E7,E3,-1,> (Preceded By),False,refused to take them off,stored in a cupboard
+E7,E4,-1,> (Preceded By),False,refused to take them off,took out the shoes
+E7,E5,-1,> (Preceded By),False,refused to take them off,noticed a small scratch
+E7,E6,-2,mi (Met By),False,refused to take them off,put them on
+E7,E8,1,< (Precedes),False,refused to take them off,soles began to wear thin
+E7,E9,1,< (Precedes),False,refused to take them off,shoes no longer fit
+E7,E10,1,< (Precedes),False,refused to take them off,cleaned them
+E7,E11,1,< (Precedes),False,refused to take them off,placed them in a box
+E7,E12,-1,> (Preceded By),False,refused to take them off,did not even see the scratch
+E8,E1,-1,> (Preceded By),False,soles began to wear thin,bought his son's Eid shoes
+E8,E2,-1,> (Preceded By),False,soles began to wear thin,paid more than he had planned
+E8,E3,-1,> (Preceded By),False,soles began to wear thin,stored in a cupboard
+E8,E4,-1,> (Preceded By),False,soles began to wear thin,took out the shoes
+E8,E5,-1,> (Preceded By),False,soles began to wear thin,noticed a small scratch
+E8,E6,-1,> (Preceded By),False,soles began to wear thin,put them on
+E8,E7,-1,> (Preceded By),False,soles began to wear thin,refused to take them off
+E8,E9,2,m (Meets),False,soles began to wear thin,shoes no longer fit
+E8,E10,1,< (Precedes),False,soles began to wear thin,cleaned them
+E8,E11,1,< (Precedes),False,soles began to wear thin,placed them in a box
+E8,E12,-1,> (Preceded By),False,soles began to wear thin,did not even see the scratch
+E9,E1,-1,> (Preceded By),False,shoes no longer fit,bought his son's Eid shoes
+E9,E2,-1,> (Preceded By),False,shoes no longer fit,paid more than he had planned
+E9,E3,-1,> (Preceded By),False,shoes no longer fit,stored in a cupboard
+E9,E4,-1,> (Preceded By),False,shoes no longer fit,took out the shoes
+E9,E5,-1,> (Preceded By),False,shoes no longer fit,noticed a small scratch
+E9,E6,-1,> (Preceded By),False,shoes no longer fit,put them on
+E9,E7,-1,> (Preceded By),False,shoes no longer fit,refused to take them off
+E9,E8,-2,mi (Met By),False,shoes no longer fit,soles began to wear thin
+E9,E10,1,< (Precedes),False,shoes no longer fit,cleaned them
+E9,E11,1,< (Precedes),False,shoes no longer fit,placed them in a box
+E9,E12,-1,> (Preceded By),False,shoes no longer fit,did not even see the scratch
+E10,E1,-1,> (Preceded By),False,cleaned them,bought his son's Eid shoes
+E10,E2,-1,> (Preceded By),False,cleaned them,paid more than he had planned
+E10,E3,-1,> (Preceded By),False,cleaned them,stored in a cupboard
+E10,E4,-1,> (Preceded By),False,cleaned them,took out the shoes
+E10,E5,-1,> (Preceded By),False,cleaned them,noticed a small scratch
+E10,E6,-1,> (Preceded By),False,cleaned them,put them on
+E10,E7,-1,> (Preceded By),False,cleaned them,refused to take them off
+E10,E8,-1,> (Preceded By),False,cleaned them,soles began to wear thin
+E10,E9,-1,> (Preceded By),False,cleaned them,shoes no longer fit
+E10,E11,2,m (Meets),False,cleaned them,placed them in a box
+E10,E12,-1,> (Preceded By),False,cleaned them,did not even see the scratch
+E11,E1,-1,> (Preceded By),False,placed them in a box,bought his son's Eid shoes
+E11,E2,-1,> (Preceded By),False,placed them in a box,paid more than he had planned
+E11,E3,-1,> (Preceded By),False,placed them in a box,stored in a cupboard
+E11,E4,-1,> (Preceded By),False,placed them in a box,took out the shoes
+E11,E5,-1,> (Preceded By),False,placed them in a box,noticed a small scratch
+E11,E6,-1,> (Preceded By),False,placed them in a box,put them on
+E11,E7,-1,> (Preceded By),False,placed them in a box,refused to take them off
+E11,E8,-1,> (Preceded By),False,placed them in a box,soles began to wear thin
+E11,E9,-1,> (Preceded By),False,placed them in a box,shoes no longer fit
+E11,E10,-2,mi (Met By),False,placed them in a box,cleaned them
+E11,E12,-1,> (Preceded By),False,placed them in a box,did not even see the scratch
+E12,E1,-1,> (Preceded By),False,did not even see the scratch,bought his son's Eid shoes
+E12,E2,-1,> (Preceded By),False,did not even see the scratch,paid more than he had planned
+E12,E3,-1,> (Preceded By),False,did not even see the scratch,stored in a cupboard
+E12,E4,-1,> (Preceded By),False,did not even see the scratch,took out the shoes
+E12,E5,-1,> (Preceded By),False,did not even see the scratch,noticed a small scratch
+E12,E6,2,m (Meets),False,did not even see the scratch,put them on
+E12,E7,1,< (Precedes),False,did not even see the scratch,refused to take them off
+E12,E8,1,< (Precedes),False,did not even see the scratch,soles began to wear thin
+E12,E9,1,< (Precedes),False,did not even see the scratch,shoes no longer fit
+E12,E10,1,< (Precedes),False,did not even see the scratch,cleaned them
+E12,E11,1,< (Precedes),False,did not even see the scratch,placed them in a box

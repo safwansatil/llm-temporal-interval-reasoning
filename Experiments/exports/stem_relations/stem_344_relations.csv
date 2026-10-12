@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,The orange cat appeared in the alley behind Rima's apartment,Rima noticed it
+E1,E3,1,< (Precedes),False,The orange cat appeared in the alley behind Rima's apartment,She began leaving food near the boxes
+E1,E4,1,< (Precedes),False,The orange cat appeared in the alley behind Rima's apartment,The food disappeared overnight
+E1,E5,1,< (Precedes),False,The orange cat appeared in the alley behind Rima's apartment,Rima left more
+E1,E6,1,< (Precedes),False,The orange cat appeared in the alley behind Rima's apartment,the cat no longer ran when Rima approached
+E1,E7,1,< (Precedes),False,The orange cat appeared in the alley behind Rima's apartment,it allowed her to sit nearby while it ate
+E1,E8,1,< (Precedes),False,The orange cat appeared in the alley behind Rima's apartment,it let her touch its head
+E1,E9,1,< (Precedes),False,The orange cat appeared in the alley behind Rima's apartment,The cat now lives on Rima's small balcony
+E1,E10,1,< (Precedes),False,The orange cat appeared in the alley behind Rima's apartment,She has named it Komola
+E1,E11,1,< (Precedes),False,The orange cat appeared in the alley behind Rima's apartment,This continued for a full week
+E2,E1,-1,> (Preceded By),False,Rima noticed it,The orange cat appeared in the alley behind Rima's apartment
+E2,E3,1,< (Precedes),False,Rima noticed it,She began leaving food near the boxes
+E2,E4,1,< (Precedes),False,Rima noticed it,The food disappeared overnight
+E2,E5,1,< (Precedes),False,Rima noticed it,Rima left more
+E2,E6,1,< (Precedes),False,Rima noticed it,the cat no longer ran when Rima approached
+E2,E7,1,< (Precedes),False,Rima noticed it,it allowed her to sit nearby while it ate
+E2,E8,1,< (Precedes),False,Rima noticed it,it let her touch its head
+E2,E9,1,< (Precedes),False,Rima noticed it,The cat now lives on Rima's small balcony
+E2,E10,1,< (Precedes),False,Rima noticed it,She has named it Komola
+E2,E11,1,< (Precedes),False,Rima noticed it,This continued for a full week
+E3,E1,-1,> (Preceded By),False,She began leaving food near the boxes,The orange cat appeared in the alley behind Rima's apartment
+E3,E2,-1,> (Preceded By),False,She began leaving food near the boxes,Rima noticed it
+E3,E4,1,< (Precedes),False,She began leaving food near the boxes,The food disappeared overnight
+E3,E5,1,< (Precedes),False,She began leaving food near the boxes,Rima left more
+E3,E6,1,< (Precedes),False,She began leaving food near the boxes,the cat no longer ran when Rima approached
+E3,E7,1,< (Precedes),False,She began leaving food near the boxes,it allowed her to sit nearby while it ate
+E3,E8,1,< (Precedes),False,She began leaving food near the boxes,it let her touch its head
+E3,E9,1,< (Precedes),False,She began leaving food near the boxes,The cat now lives on Rima's small balcony
+E3,E10,1,< (Precedes),False,She began leaving food near the boxes,She has named it Komola
+E3,E11,4,s (Starts),False,She began leaving food near the boxes,This continued for a full week
+E4,E1,-1,> (Preceded By),False,The food disappeared overnight,The orange cat appeared in the alley behind Rima's apartment
+E4,E2,-1,> (Preceded By),False,The food disappeared overnight,Rima noticed it
+E4,E3,-1,> (Preceded By),False,The food disappeared overnight,She began leaving food near the boxes
+E4,E5,1,< (Precedes),False,The food disappeared overnight,Rima left more
+E4,E6,1,< (Precedes),False,The food disappeared overnight,the cat no longer ran when Rima approached
+E4,E7,1,< (Precedes),False,The food disappeared overnight,it allowed her to sit nearby while it ate
+E4,E8,1,< (Precedes),False,The food disappeared overnight,it let her touch its head
+E4,E9,1,< (Precedes),False,The food disappeared overnight,The cat now lives on Rima's small balcony
+E4,E10,1,< (Precedes),False,The food disappeared overnight,She has named it Komola
+E4,E11,5,d (During),False,The food disappeared overnight,This continued for a full week
+E5,E1,-1,> (Preceded By),False,Rima left more,The orange cat appeared in the alley behind Rima's apartment
+E5,E2,-1,> (Preceded By),False,Rima left more,Rima noticed it
+E5,E3,-1,> (Preceded By),False,Rima left more,She began leaving food near the boxes
+E5,E4,-1,> (Preceded By),False,Rima left more,The food disappeared overnight
+E5,E6,1,< (Precedes),False,Rima left more,the cat no longer ran when Rima approached
+E5,E7,1,< (Precedes),False,Rima left more,it allowed her to sit nearby while it ate
+E5,E8,1,< (Precedes),False,Rima left more,it let her touch its head
+E5,E9,1,< (Precedes),False,Rima left more,The cat now lives on Rima's small balcony
+E5,E10,1,< (Precedes),False,Rima left more,She has named it Komola
+E5,E11,5,d (During),False,Rima left more,This continued for a full week
+E6,E1,-1,> (Preceded By),False,the cat no longer ran when Rima approached,The orange cat appeared in the alley behind Rima's apartment
+E6,E2,-1,> (Preceded By),False,the cat no longer ran when Rima approached,Rima noticed it
+E6,E3,-1,> (Preceded By),False,the cat no longer ran when Rima approached,She began leaving food near the boxes
+E6,E4,-1,> (Preceded By),False,the cat no longer ran when Rima approached,The food disappeared overnight
+E6,E5,-1,> (Preceded By),False,the cat no longer ran when Rima approached,Rima left more
+E6,E7,1,< (Precedes),False,the cat no longer ran when Rima approached,it allowed her to sit nearby while it ate
+E6,E8,1,< (Precedes),False,the cat no longer ran when Rima approached,it let her touch its head
+E6,E9,1,< (Precedes),False,the cat no longer ran when Rima approached,The cat now lives on Rima's small balcony
+E6,E10,1,< (Precedes),False,the cat no longer ran when Rima approached,She has named it Komola
+E6,E11,-2,mi (Met By),False,the cat no longer ran when Rima approached,This continued for a full week
+E7,E1,-1,> (Preceded By),False,it allowed her to sit nearby while it ate,The orange cat appeared in the alley behind Rima's apartment
+E7,E2,-1,> (Preceded By),False,it allowed her to sit nearby while it ate,Rima noticed it
+E7,E3,-1,> (Preceded By),False,it allowed her to sit nearby while it ate,She began leaving food near the boxes
+E7,E4,-1,> (Preceded By),False,it allowed her to sit nearby while it ate,The food disappeared overnight
+E7,E5,-1,> (Preceded By),False,it allowed her to sit nearby while it ate,Rima left more
+E7,E6,-1,> (Preceded By),False,it allowed her to sit nearby while it ate,the cat no longer ran when Rima approached
+E7,E8,1,< (Precedes),False,it allowed her to sit nearby while it ate,it let her touch its head
+E7,E9,1,< (Precedes),False,it allowed her to sit nearby while it ate,The cat now lives on Rima's small balcony
+E7,E10,1,< (Precedes),False,it allowed her to sit nearby while it ate,She has named it Komola
+E7,E11,-1,> (Preceded By),False,it allowed her to sit nearby while it ate,This continued for a full week
+E8,E1,-1,> (Preceded By),False,it let her touch its head,The orange cat appeared in the alley behind Rima's apartment
+E8,E2,-1,> (Preceded By),False,it let her touch its head,Rima noticed it
+E8,E3,-1,> (Preceded By),False,it let her touch its head,She began leaving food near the boxes
+E8,E4,-1,> (Preceded By),False,it let her touch its head,The food disappeared overnight
+E8,E5,-1,> (Preceded By),False,it let her touch its head,Rima left more
+E8,E6,-1,> (Preceded By),False,it let her touch its head,the cat no longer ran when Rima approached
+E8,E7,-1,> (Preceded By),False,it let her touch its head,it allowed her to sit nearby while it ate
+E8,E9,1,< (Precedes),False,it let her touch its head,The cat now lives on Rima's small balcony
+E8,E10,1,< (Precedes),False,it let her touch its head,She has named it Komola
+E8,E11,-1,> (Preceded By),False,it let her touch its head,This continued for a full week
+E9,E1,-1,> (Preceded By),False,The cat now lives on Rima's small balcony,The orange cat appeared in the alley behind Rima's apartment
+E9,E2,-1,> (Preceded By),False,The cat now lives on Rima's small balcony,Rima noticed it
+E9,E3,-1,> (Preceded By),False,The cat now lives on Rima's small balcony,She began leaving food near the boxes
+E9,E4,-1,> (Preceded By),False,The cat now lives on Rima's small balcony,The food disappeared overnight
+E9,E5,-1,> (Preceded By),False,The cat now lives on Rima's small balcony,Rima left more
+E9,E6,-1,> (Preceded By),False,The cat now lives on Rima's small balcony,the cat no longer ran when Rima approached
+E9,E7,-1,> (Preceded By),False,The cat now lives on Rima's small balcony,it allowed her to sit nearby while it ate
+E9,E8,-1,> (Preceded By),False,The cat now lives on Rima's small balcony,it let her touch its head
+E9,E10,-4,si (Started By),False,The cat now lives on Rima's small balcony,She has named it Komola
+E9,E11,-1,> (Preceded By),False,The cat now lives on Rima's small balcony,This continued for a full week
+E10,E1,-1,> (Preceded By),False,She has named it Komola,The orange cat appeared in the alley behind Rima's apartment
+E10,E2,-1,> (Preceded By),False,She has named it Komola,Rima noticed it
+E10,E3,-1,> (Preceded By),False,She has named it Komola,She began leaving food near the boxes
+E10,E4,-1,> (Preceded By),False,She has named it Komola,The food disappeared overnight
+E10,E5,-1,> (Preceded By),False,She has named it Komola,Rima left more
+E10,E6,-1,> (Preceded By),False,She has named it Komola,the cat no longer ran when Rima approached
+E10,E7,-1,> (Preceded By),False,She has named it Komola,it allowed her to sit nearby while it ate
+E10,E8,-1,> (Preceded By),False,She has named it Komola,it let her touch its head
+E10,E9,4,s (Starts),False,She has named it Komola,The cat now lives on Rima's small balcony
+E10,E11,-1,> (Preceded By),False,She has named it Komola,This continued for a full week
+E11,E1,-1,> (Preceded By),False,This continued for a full week,The orange cat appeared in the alley behind Rima's apartment
+E11,E2,-1,> (Preceded By),False,This continued for a full week,Rima noticed it
+E11,E3,-4,si (Started By),False,This continued for a full week,She began leaving food near the boxes
+E11,E4,-5,di (Contains),False,This continued for a full week,The food disappeared overnight
+E11,E5,-5,di (Contains),False,This continued for a full week,Rima left more
+E11,E6,2,m (Meets),False,This continued for a full week,the cat no longer ran when Rima approached
+E11,E7,1,< (Precedes),False,This continued for a full week,it allowed her to sit nearby while it ate
+E11,E8,1,< (Precedes),False,This continued for a full week,it let her touch its head
+E11,E9,1,< (Precedes),False,This continued for a full week,The cat now lives on Rima's small balcony
+E11,E10,1,< (Precedes),False,This continued for a full week,She has named it Komola

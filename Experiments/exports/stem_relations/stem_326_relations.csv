@@ -1,0 +1,993 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,She was traveling for a conference
+E1,E3,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,that would begin the following Monday
+E1,E4,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,she had planned to spend the weekend exploring the city before the sessions began
+E1,E5,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,She arrived at the airport three hours before departure
+E1,E6,2,m (Meets),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,as she always did
+E1,E7,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,checked in without incident
+E1,E8,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,The delay was announced an hour before boarding
+E1,E9,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,A mechanical issue had been discovered during the pre-flight inspection
+E1,E10,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,the engineers were working on it
+E1,E11,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,The airline representative said the delay would be approximately two hours
+E1,E12,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,Sharmin settled into a chair at the gate
+E1,E13,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,opened her book
+E1,E14,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,Two hours became four
+E1,E15,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,Four became six
+E1,E16,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,The airline provided meal vouchers and periodic updates
+E1,E17,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,none of which contained good news
+E1,E18,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,The mechanical issue was more complex than initially thought
+E1,E19,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,the part needed for the repair was not available at the airport
+E1,E20,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,A replacement part had been ordered from a warehouse
+E1,E21,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,would arrive the following morning
+E1,E22,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,Sharmin was rebooked on a flight departing on Saturday afternoon
+E1,E23,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,She spent the night at an airport hotel
+E1,E24,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,returned to the terminal the next morning
+E1,E25,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,The replacement flight departed on time
+E1,E26,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,she arrived in Singapore late Saturday evening
+E1,E27,2,m (Meets),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,nearly twenty-four hours after her original schedule
+E1,E28,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,She had lost her weekend of exploration
+E1,E29,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,she made it to the conference on Monday morning as planned
+E1,E30,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,The delay had been frustrating
+E1,E31,2,m (Meets),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,she had learned long ago that travel required flexibility
+E1,E32,1,< (Precedes),False,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November,"Anger, she told herself, did not make planes arrive faster"
+E2,E1,-1,> (Preceded By),False,She was traveling for a conference,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E2,E3,-5,di (Contains),False,She was traveling for a conference,that would begin the following Monday
+E2,E4,-5,di (Contains),False,She was traveling for a conference,she had planned to spend the weekend exploring the city before the sessions began
+E2,E5,-5,di (Contains),False,She was traveling for a conference,She arrived at the airport three hours before departure
+E2,E6,5,d (During),False,She was traveling for a conference,as she always did
+E2,E7,-5,di (Contains),False,She was traveling for a conference,checked in without incident
+E2,E8,-5,di (Contains),False,She was traveling for a conference,The delay was announced an hour before boarding
+E2,E9,-5,di (Contains),False,She was traveling for a conference,A mechanical issue had been discovered during the pre-flight inspection
+E2,E10,-5,di (Contains),False,She was traveling for a conference,the engineers were working on it
+E2,E11,-5,di (Contains),False,She was traveling for a conference,The airline representative said the delay would be approximately two hours
+E2,E12,-5,di (Contains),False,She was traveling for a conference,Sharmin settled into a chair at the gate
+E2,E13,-5,di (Contains),False,She was traveling for a conference,opened her book
+E2,E14,-5,di (Contains),False,She was traveling for a conference,Two hours became four
+E2,E15,-5,di (Contains),False,She was traveling for a conference,Four became six
+E2,E16,-5,di (Contains),False,She was traveling for a conference,The airline provided meal vouchers and periodic updates
+E2,E17,-5,di (Contains),False,She was traveling for a conference,none of which contained good news
+E2,E18,-5,di (Contains),False,She was traveling for a conference,The mechanical issue was more complex than initially thought
+E2,E19,-5,di (Contains),False,She was traveling for a conference,the part needed for the repair was not available at the airport
+E2,E20,-5,di (Contains),False,She was traveling for a conference,A replacement part had been ordered from a warehouse
+E2,E21,-5,di (Contains),False,She was traveling for a conference,would arrive the following morning
+E2,E22,-5,di (Contains),False,She was traveling for a conference,Sharmin was rebooked on a flight departing on Saturday afternoon
+E2,E23,-5,di (Contains),False,She was traveling for a conference,She spent the night at an airport hotel
+E2,E24,-5,di (Contains),False,She was traveling for a conference,returned to the terminal the next morning
+E2,E25,-5,di (Contains),False,She was traveling for a conference,The replacement flight departed on time
+E2,E26,-5,di (Contains),False,She was traveling for a conference,she arrived in Singapore late Saturday evening
+E2,E27,-3,oi (Overlapped By),False,She was traveling for a conference,nearly twenty-four hours after her original schedule
+E2,E28,-5,di (Contains),False,She was traveling for a conference,She had lost her weekend of exploration
+E2,E29,-5,di (Contains),False,She was traveling for a conference,she made it to the conference on Monday morning as planned
+E2,E30,-5,di (Contains),False,She was traveling for a conference,The delay had been frustrating
+E2,E31,5,d (During),False,She was traveling for a conference,she had learned long ago that travel required flexibility
+E2,E32,2,m (Meets),False,She was traveling for a conference,"Anger, she told herself, did not make planes arrive faster"
+E3,E1,-1,> (Preceded By),False,that would begin the following Monday,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E3,E2,5,d (During),False,that would begin the following Monday,She was traveling for a conference
+E3,E4,-1,> (Preceded By),False,that would begin the following Monday,she had planned to spend the weekend exploring the city before the sessions began
+E3,E5,-1,> (Preceded By),False,that would begin the following Monday,She arrived at the airport three hours before departure
+E3,E6,5,d (During),False,that would begin the following Monday,as she always did
+E3,E7,-1,> (Preceded By),False,that would begin the following Monday,checked in without incident
+E3,E8,-1,> (Preceded By),False,that would begin the following Monday,The delay was announced an hour before boarding
+E3,E9,-1,> (Preceded By),False,that would begin the following Monday,A mechanical issue had been discovered during the pre-flight inspection
+E3,E10,-1,> (Preceded By),False,that would begin the following Monday,the engineers were working on it
+E3,E11,-1,> (Preceded By),False,that would begin the following Monday,The airline representative said the delay would be approximately two hours
+E3,E12,-1,> (Preceded By),False,that would begin the following Monday,Sharmin settled into a chair at the gate
+E3,E13,-1,> (Preceded By),False,that would begin the following Monday,opened her book
+E3,E14,-1,> (Preceded By),False,that would begin the following Monday,Two hours became four
+E3,E15,-1,> (Preceded By),False,that would begin the following Monday,Four became six
+E3,E16,-1,> (Preceded By),False,that would begin the following Monday,The airline provided meal vouchers and periodic updates
+E3,E17,-1,> (Preceded By),False,that would begin the following Monday,none of which contained good news
+E3,E18,-1,> (Preceded By),False,that would begin the following Monday,The mechanical issue was more complex than initially thought
+E3,E19,-1,> (Preceded By),False,that would begin the following Monday,the part needed for the repair was not available at the airport
+E3,E20,-1,> (Preceded By),False,that would begin the following Monday,A replacement part had been ordered from a warehouse
+E3,E21,-1,> (Preceded By),False,that would begin the following Monday,would arrive the following morning
+E3,E22,-1,> (Preceded By),False,that would begin the following Monday,Sharmin was rebooked on a flight departing on Saturday afternoon
+E3,E23,-1,> (Preceded By),False,that would begin the following Monday,She spent the night at an airport hotel
+E3,E24,-1,> (Preceded By),False,that would begin the following Monday,returned to the terminal the next morning
+E3,E25,-1,> (Preceded By),False,that would begin the following Monday,The replacement flight departed on time
+E3,E26,-1,> (Preceded By),False,that would begin the following Monday,she arrived in Singapore late Saturday evening
+E3,E27,-1,> (Preceded By),False,that would begin the following Monday,nearly twenty-four hours after her original schedule
+E3,E28,-1,> (Preceded By),False,that would begin the following Monday,She had lost her weekend of exploration
+E3,E29,0,= (Equal),False,that would begin the following Monday,she made it to the conference on Monday morning as planned
+E3,E30,-1,> (Preceded By),False,that would begin the following Monday,The delay had been frustrating
+E3,E31,5,d (During),False,that would begin the following Monday,she had learned long ago that travel required flexibility
+E3,E32,1,< (Precedes),False,that would begin the following Monday,"Anger, she told herself, did not make planes arrive faster"
+E4,E1,-1,> (Preceded By),False,she had planned to spend the weekend exploring the city before the sessions began,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E4,E2,5,d (During),False,she had planned to spend the weekend exploring the city before the sessions began,She was traveling for a conference
+E4,E3,1,< (Precedes),False,she had planned to spend the weekend exploring the city before the sessions began,that would begin the following Monday
+E4,E5,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,She arrived at the airport three hours before departure
+E4,E6,5,d (During),False,she had planned to spend the weekend exploring the city before the sessions began,as she always did
+E4,E7,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,checked in without incident
+E4,E8,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,The delay was announced an hour before boarding
+E4,E9,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,A mechanical issue had been discovered during the pre-flight inspection
+E4,E10,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,the engineers were working on it
+E4,E11,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,The airline representative said the delay would be approximately two hours
+E4,E12,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,Sharmin settled into a chair at the gate
+E4,E13,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,opened her book
+E4,E14,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,Two hours became four
+E4,E15,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,Four became six
+E4,E16,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,The airline provided meal vouchers and periodic updates
+E4,E17,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,none of which contained good news
+E4,E18,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,The mechanical issue was more complex than initially thought
+E4,E19,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,the part needed for the repair was not available at the airport
+E4,E20,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,A replacement part had been ordered from a warehouse
+E4,E21,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,would arrive the following morning
+E4,E22,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,Sharmin was rebooked on a flight departing on Saturday afternoon
+E4,E23,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,She spent the night at an airport hotel
+E4,E24,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,returned to the terminal the next morning
+E4,E25,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,The replacement flight departed on time
+E4,E26,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,she arrived in Singapore late Saturday evening
+E4,E27,-3,oi (Overlapped By),False,she had planned to spend the weekend exploring the city before the sessions began,nearly twenty-four hours after her original schedule
+E4,E28,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,She had lost her weekend of exploration
+E4,E29,1,< (Precedes),False,she had planned to spend the weekend exploring the city before the sessions began,she made it to the conference on Monday morning as planned
+E4,E30,-5,di (Contains),False,she had planned to spend the weekend exploring the city before the sessions began,The delay had been frustrating
+E4,E31,5,d (During),False,she had planned to spend the weekend exploring the city before the sessions began,she had learned long ago that travel required flexibility
+E4,E32,1,< (Precedes),False,she had planned to spend the weekend exploring the city before the sessions began,"Anger, she told herself, did not make planes arrive faster"
+E5,E1,-1,> (Preceded By),False,She arrived at the airport three hours before departure,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E5,E2,5,d (During),False,She arrived at the airport three hours before departure,She was traveling for a conference
+E5,E3,1,< (Precedes),False,She arrived at the airport three hours before departure,that would begin the following Monday
+E5,E4,5,d (During),False,She arrived at the airport three hours before departure,she had planned to spend the weekend exploring the city before the sessions began
+E5,E6,5,d (During),False,She arrived at the airport three hours before departure,as she always did
+E5,E7,1,< (Precedes),False,She arrived at the airport three hours before departure,checked in without incident
+E5,E8,1,< (Precedes),False,She arrived at the airport three hours before departure,The delay was announced an hour before boarding
+E5,E9,1,< (Precedes),False,She arrived at the airport three hours before departure,A mechanical issue had been discovered during the pre-flight inspection
+E5,E10,1,< (Precedes),False,She arrived at the airport three hours before departure,the engineers were working on it
+E5,E11,1,< (Precedes),False,She arrived at the airport three hours before departure,The airline representative said the delay would be approximately two hours
+E5,E12,1,< (Precedes),False,She arrived at the airport three hours before departure,Sharmin settled into a chair at the gate
+E5,E13,1,< (Precedes),False,She arrived at the airport three hours before departure,opened her book
+E5,E14,1,< (Precedes),False,She arrived at the airport three hours before departure,Two hours became four
+E5,E15,1,< (Precedes),False,She arrived at the airport three hours before departure,Four became six
+E5,E16,1,< (Precedes),False,She arrived at the airport three hours before departure,The airline provided meal vouchers and periodic updates
+E5,E17,1,< (Precedes),False,She arrived at the airport three hours before departure,none of which contained good news
+E5,E18,1,< (Precedes),False,She arrived at the airport three hours before departure,The mechanical issue was more complex than initially thought
+E5,E19,1,< (Precedes),False,She arrived at the airport three hours before departure,the part needed for the repair was not available at the airport
+E5,E20,1,< (Precedes),False,She arrived at the airport three hours before departure,A replacement part had been ordered from a warehouse
+E5,E21,1,< (Precedes),False,She arrived at the airport three hours before departure,would arrive the following morning
+E5,E22,1,< (Precedes),False,She arrived at the airport three hours before departure,Sharmin was rebooked on a flight departing on Saturday afternoon
+E5,E23,1,< (Precedes),False,She arrived at the airport three hours before departure,She spent the night at an airport hotel
+E5,E24,1,< (Precedes),False,She arrived at the airport three hours before departure,returned to the terminal the next morning
+E5,E25,1,< (Precedes),False,She arrived at the airport three hours before departure,The replacement flight departed on time
+E5,E26,1,< (Precedes),False,She arrived at the airport three hours before departure,she arrived in Singapore late Saturday evening
+E5,E27,5,d (During),False,She arrived at the airport three hours before departure,nearly twenty-four hours after her original schedule
+E5,E28,1,< (Precedes),False,She arrived at the airport three hours before departure,She had lost her weekend of exploration
+E5,E29,1,< (Precedes),False,She arrived at the airport three hours before departure,she made it to the conference on Monday morning as planned
+E5,E30,1,< (Precedes),False,She arrived at the airport three hours before departure,The delay had been frustrating
+E5,E31,5,d (During),False,She arrived at the airport three hours before departure,she had learned long ago that travel required flexibility
+E5,E32,1,< (Precedes),False,She arrived at the airport three hours before departure,"Anger, she told herself, did not make planes arrive faster"
+E6,E1,-2,mi (Met By),False,as she always did,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E6,E2,-5,di (Contains),False,as she always did,She was traveling for a conference
+E6,E3,-5,di (Contains),False,as she always did,that would begin the following Monday
+E6,E4,-5,di (Contains),False,as she always did,she had planned to spend the weekend exploring the city before the sessions began
+E6,E5,-5,di (Contains),False,as she always did,She arrived at the airport three hours before departure
+E6,E7,-5,di (Contains),False,as she always did,checked in without incident
+E6,E8,-5,di (Contains),False,as she always did,The delay was announced an hour before boarding
+E6,E9,-5,di (Contains),False,as she always did,A mechanical issue had been discovered during the pre-flight inspection
+E6,E10,-5,di (Contains),False,as she always did,the engineers were working on it
+E6,E11,-5,di (Contains),False,as she always did,The airline representative said the delay would be approximately two hours
+E6,E12,-5,di (Contains),False,as she always did,Sharmin settled into a chair at the gate
+E6,E13,-5,di (Contains),False,as she always did,opened her book
+E6,E14,-5,di (Contains),False,as she always did,Two hours became four
+E6,E15,-5,di (Contains),False,as she always did,Four became six
+E6,E16,-5,di (Contains),False,as she always did,The airline provided meal vouchers and periodic updates
+E6,E17,-5,di (Contains),False,as she always did,none of which contained good news
+E6,E18,-5,di (Contains),False,as she always did,The mechanical issue was more complex than initially thought
+E6,E19,-5,di (Contains),False,as she always did,the part needed for the repair was not available at the airport
+E6,E20,-5,di (Contains),False,as she always did,A replacement part had been ordered from a warehouse
+E6,E21,-5,di (Contains),False,as she always did,would arrive the following morning
+E6,E22,-5,di (Contains),False,as she always did,Sharmin was rebooked on a flight departing on Saturday afternoon
+E6,E23,-5,di (Contains),False,as she always did,She spent the night at an airport hotel
+E6,E24,-5,di (Contains),False,as she always did,returned to the terminal the next morning
+E6,E25,-5,di (Contains),False,as she always did,The replacement flight departed on time
+E6,E26,-5,di (Contains),False,as she always did,she arrived in Singapore late Saturday evening
+E6,E27,-4,si (Started By),False,as she always did,nearly twenty-four hours after her original schedule
+E6,E28,-5,di (Contains),False,as she always did,She had lost her weekend of exploration
+E6,E29,-5,di (Contains),False,as she always did,she made it to the conference on Monday morning as planned
+E6,E30,-5,di (Contains),False,as she always did,The delay had been frustrating
+E6,E31,0,= (Equal),False,as she always did,she had learned long ago that travel required flexibility
+E6,E32,-5,di (Contains),False,as she always did,"Anger, she told herself, did not make planes arrive faster"
+E7,E1,-1,> (Preceded By),False,checked in without incident,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E7,E2,5,d (During),False,checked in without incident,She was traveling for a conference
+E7,E3,1,< (Precedes),False,checked in without incident,that would begin the following Monday
+E7,E4,5,d (During),False,checked in without incident,she had planned to spend the weekend exploring the city before the sessions began
+E7,E5,-1,> (Preceded By),False,checked in without incident,She arrived at the airport three hours before departure
+E7,E6,5,d (During),False,checked in without incident,as she always did
+E7,E8,1,< (Precedes),False,checked in without incident,The delay was announced an hour before boarding
+E7,E9,1,< (Precedes),False,checked in without incident,A mechanical issue had been discovered during the pre-flight inspection
+E7,E10,1,< (Precedes),False,checked in without incident,the engineers were working on it
+E7,E11,1,< (Precedes),False,checked in without incident,The airline representative said the delay would be approximately two hours
+E7,E12,1,< (Precedes),False,checked in without incident,Sharmin settled into a chair at the gate
+E7,E13,1,< (Precedes),False,checked in without incident,opened her book
+E7,E14,1,< (Precedes),False,checked in without incident,Two hours became four
+E7,E15,1,< (Precedes),False,checked in without incident,Four became six
+E7,E16,1,< (Precedes),False,checked in without incident,The airline provided meal vouchers and periodic updates
+E7,E17,1,< (Precedes),False,checked in without incident,none of which contained good news
+E7,E18,1,< (Precedes),False,checked in without incident,The mechanical issue was more complex than initially thought
+E7,E19,1,< (Precedes),False,checked in without incident,the part needed for the repair was not available at the airport
+E7,E20,1,< (Precedes),False,checked in without incident,A replacement part had been ordered from a warehouse
+E7,E21,1,< (Precedes),False,checked in without incident,would arrive the following morning
+E7,E22,1,< (Precedes),False,checked in without incident,Sharmin was rebooked on a flight departing on Saturday afternoon
+E7,E23,1,< (Precedes),False,checked in without incident,She spent the night at an airport hotel
+E7,E24,1,< (Precedes),False,checked in without incident,returned to the terminal the next morning
+E7,E25,1,< (Precedes),False,checked in without incident,The replacement flight departed on time
+E7,E26,1,< (Precedes),False,checked in without incident,she arrived in Singapore late Saturday evening
+E7,E27,5,d (During),False,checked in without incident,nearly twenty-four hours after her original schedule
+E7,E28,1,< (Precedes),False,checked in without incident,She had lost her weekend of exploration
+E7,E29,1,< (Precedes),False,checked in without incident,she made it to the conference on Monday morning as planned
+E7,E30,1,< (Precedes),False,checked in without incident,The delay had been frustrating
+E7,E31,5,d (During),False,checked in without incident,she had learned long ago that travel required flexibility
+E7,E32,1,< (Precedes),False,checked in without incident,"Anger, she told herself, did not make planes arrive faster"
+E8,E1,-1,> (Preceded By),False,The delay was announced an hour before boarding,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E8,E2,5,d (During),False,The delay was announced an hour before boarding,She was traveling for a conference
+E8,E3,1,< (Precedes),False,The delay was announced an hour before boarding,that would begin the following Monday
+E8,E4,5,d (During),False,The delay was announced an hour before boarding,she had planned to spend the weekend exploring the city before the sessions began
+E8,E5,-1,> (Preceded By),False,The delay was announced an hour before boarding,She arrived at the airport three hours before departure
+E8,E6,5,d (During),False,The delay was announced an hour before boarding,as she always did
+E8,E7,-1,> (Preceded By),False,The delay was announced an hour before boarding,checked in without incident
+E8,E9,1,< (Precedes),False,The delay was announced an hour before boarding,A mechanical issue had been discovered during the pre-flight inspection
+E8,E10,1,< (Precedes),False,The delay was announced an hour before boarding,the engineers were working on it
+E8,E11,1,< (Precedes),False,The delay was announced an hour before boarding,The airline representative said the delay would be approximately two hours
+E8,E12,1,< (Precedes),False,The delay was announced an hour before boarding,Sharmin settled into a chair at the gate
+E8,E13,1,< (Precedes),False,The delay was announced an hour before boarding,opened her book
+E8,E14,1,< (Precedes),False,The delay was announced an hour before boarding,Two hours became four
+E8,E15,1,< (Precedes),False,The delay was announced an hour before boarding,Four became six
+E8,E16,1,< (Precedes),False,The delay was announced an hour before boarding,The airline provided meal vouchers and periodic updates
+E8,E17,1,< (Precedes),False,The delay was announced an hour before boarding,none of which contained good news
+E8,E18,1,< (Precedes),False,The delay was announced an hour before boarding,The mechanical issue was more complex than initially thought
+E8,E19,1,< (Precedes),False,The delay was announced an hour before boarding,the part needed for the repair was not available at the airport
+E8,E20,1,< (Precedes),False,The delay was announced an hour before boarding,A replacement part had been ordered from a warehouse
+E8,E21,1,< (Precedes),False,The delay was announced an hour before boarding,would arrive the following morning
+E8,E22,1,< (Precedes),False,The delay was announced an hour before boarding,Sharmin was rebooked on a flight departing on Saturday afternoon
+E8,E23,1,< (Precedes),False,The delay was announced an hour before boarding,She spent the night at an airport hotel
+E8,E24,1,< (Precedes),False,The delay was announced an hour before boarding,returned to the terminal the next morning
+E8,E25,1,< (Precedes),False,The delay was announced an hour before boarding,The replacement flight departed on time
+E8,E26,1,< (Precedes),False,The delay was announced an hour before boarding,she arrived in Singapore late Saturday evening
+E8,E27,5,d (During),False,The delay was announced an hour before boarding,nearly twenty-four hours after her original schedule
+E8,E28,1,< (Precedes),False,The delay was announced an hour before boarding,She had lost her weekend of exploration
+E8,E29,1,< (Precedes),False,The delay was announced an hour before boarding,she made it to the conference on Monday morning as planned
+E8,E30,2,m (Meets),False,The delay was announced an hour before boarding,The delay had been frustrating
+E8,E31,5,d (During),False,The delay was announced an hour before boarding,she had learned long ago that travel required flexibility
+E8,E32,1,< (Precedes),False,The delay was announced an hour before boarding,"Anger, she told herself, did not make planes arrive faster"
+E9,E1,-1,> (Preceded By),False,A mechanical issue had been discovered during the pre-flight inspection,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E9,E2,5,d (During),False,A mechanical issue had been discovered during the pre-flight inspection,She was traveling for a conference
+E9,E3,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,that would begin the following Monday
+E9,E4,5,d (During),False,A mechanical issue had been discovered during the pre-flight inspection,she had planned to spend the weekend exploring the city before the sessions began
+E9,E5,-1,> (Preceded By),False,A mechanical issue had been discovered during the pre-flight inspection,She arrived at the airport three hours before departure
+E9,E6,5,d (During),False,A mechanical issue had been discovered during the pre-flight inspection,as she always did
+E9,E7,-1,> (Preceded By),False,A mechanical issue had been discovered during the pre-flight inspection,checked in without incident
+E9,E8,-1,> (Preceded By),False,A mechanical issue had been discovered during the pre-flight inspection,The delay was announced an hour before boarding
+E9,E10,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,the engineers were working on it
+E9,E11,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,The airline representative said the delay would be approximately two hours
+E9,E12,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,Sharmin settled into a chair at the gate
+E9,E13,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,opened her book
+E9,E14,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,Two hours became four
+E9,E15,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,Four became six
+E9,E16,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,The airline provided meal vouchers and periodic updates
+E9,E17,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,none of which contained good news
+E9,E18,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,The mechanical issue was more complex than initially thought
+E9,E19,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,the part needed for the repair was not available at the airport
+E9,E20,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,A replacement part had been ordered from a warehouse
+E9,E21,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,would arrive the following morning
+E9,E22,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,Sharmin was rebooked on a flight departing on Saturday afternoon
+E9,E23,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,She spent the night at an airport hotel
+E9,E24,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,returned to the terminal the next morning
+E9,E25,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,The replacement flight departed on time
+E9,E26,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,she arrived in Singapore late Saturday evening
+E9,E27,5,d (During),False,A mechanical issue had been discovered during the pre-flight inspection,nearly twenty-four hours after her original schedule
+E9,E28,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,She had lost her weekend of exploration
+E9,E29,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,she made it to the conference on Monday morning as planned
+E9,E30,5,d (During),False,A mechanical issue had been discovered during the pre-flight inspection,The delay had been frustrating
+E9,E31,5,d (During),False,A mechanical issue had been discovered during the pre-flight inspection,she had learned long ago that travel required flexibility
+E9,E32,1,< (Precedes),False,A mechanical issue had been discovered during the pre-flight inspection,"Anger, she told herself, did not make planes arrive faster"
+E10,E1,-1,> (Preceded By),False,the engineers were working on it,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E10,E2,5,d (During),False,the engineers were working on it,She was traveling for a conference
+E10,E3,1,< (Precedes),False,the engineers were working on it,that would begin the following Monday
+E10,E4,5,d (During),False,the engineers were working on it,she had planned to spend the weekend exploring the city before the sessions began
+E10,E5,-1,> (Preceded By),False,the engineers were working on it,She arrived at the airport three hours before departure
+E10,E6,5,d (During),False,the engineers were working on it,as she always did
+E10,E7,-1,> (Preceded By),False,the engineers were working on it,checked in without incident
+E10,E8,-1,> (Preceded By),False,the engineers were working on it,The delay was announced an hour before boarding
+E10,E9,-1,> (Preceded By),False,the engineers were working on it,A mechanical issue had been discovered during the pre-flight inspection
+E10,E11,-5,di (Contains),False,the engineers were working on it,The airline representative said the delay would be approximately two hours
+E10,E12,-5,di (Contains),False,the engineers were working on it,Sharmin settled into a chair at the gate
+E10,E13,-5,di (Contains),False,the engineers were working on it,opened her book
+E10,E14,-5,di (Contains),False,the engineers were working on it,Two hours became four
+E10,E15,-5,di (Contains),False,the engineers were working on it,Four became six
+E10,E16,-5,di (Contains),False,the engineers were working on it,The airline provided meal vouchers and periodic updates
+E10,E17,-5,di (Contains),False,the engineers were working on it,none of which contained good news
+E10,E18,-5,di (Contains),False,the engineers were working on it,The mechanical issue was more complex than initially thought
+E10,E19,-5,di (Contains),False,the engineers were working on it,the part needed for the repair was not available at the airport
+E10,E20,-5,di (Contains),False,the engineers were working on it,A replacement part had been ordered from a warehouse
+E10,E21,1,< (Precedes),False,the engineers were working on it,would arrive the following morning
+E10,E22,1,< (Precedes),False,the engineers were working on it,Sharmin was rebooked on a flight departing on Saturday afternoon
+E10,E23,1,< (Precedes),False,the engineers were working on it,She spent the night at an airport hotel
+E10,E24,1,< (Precedes),False,the engineers were working on it,returned to the terminal the next morning
+E10,E25,1,< (Precedes),False,the engineers were working on it,The replacement flight departed on time
+E10,E26,1,< (Precedes),False,the engineers were working on it,she arrived in Singapore late Saturday evening
+E10,E27,5,d (During),False,the engineers were working on it,nearly twenty-four hours after her original schedule
+E10,E28,1,< (Precedes),False,the engineers were working on it,She had lost her weekend of exploration
+E10,E29,1,< (Precedes),False,the engineers were working on it,she made it to the conference on Monday morning as planned
+E10,E30,5,d (During),False,the engineers were working on it,The delay had been frustrating
+E10,E31,5,d (During),False,the engineers were working on it,she had learned long ago that travel required flexibility
+E10,E32,1,< (Precedes),False,the engineers were working on it,"Anger, she told herself, did not make planes arrive faster"
+E11,E1,-1,> (Preceded By),False,The airline representative said the delay would be approximately two hours,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E11,E2,5,d (During),False,The airline representative said the delay would be approximately two hours,She was traveling for a conference
+E11,E3,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,that would begin the following Monday
+E11,E4,5,d (During),False,The airline representative said the delay would be approximately two hours,she had planned to spend the weekend exploring the city before the sessions began
+E11,E5,-1,> (Preceded By),False,The airline representative said the delay would be approximately two hours,She arrived at the airport three hours before departure
+E11,E6,5,d (During),False,The airline representative said the delay would be approximately two hours,as she always did
+E11,E7,-1,> (Preceded By),False,The airline representative said the delay would be approximately two hours,checked in without incident
+E11,E8,-1,> (Preceded By),False,The airline representative said the delay would be approximately two hours,The delay was announced an hour before boarding
+E11,E9,-1,> (Preceded By),False,The airline representative said the delay would be approximately two hours,A mechanical issue had been discovered during the pre-flight inspection
+E11,E10,5,d (During),False,The airline representative said the delay would be approximately two hours,the engineers were working on it
+E11,E12,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,Sharmin settled into a chair at the gate
+E11,E13,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,opened her book
+E11,E14,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,Two hours became four
+E11,E15,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,Four became six
+E11,E16,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,The airline provided meal vouchers and periodic updates
+E11,E17,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,none of which contained good news
+E11,E18,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,The mechanical issue was more complex than initially thought
+E11,E19,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,the part needed for the repair was not available at the airport
+E11,E20,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,A replacement part had been ordered from a warehouse
+E11,E21,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,would arrive the following morning
+E11,E22,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,Sharmin was rebooked on a flight departing on Saturday afternoon
+E11,E23,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,She spent the night at an airport hotel
+E11,E24,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,returned to the terminal the next morning
+E11,E25,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,The replacement flight departed on time
+E11,E26,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,she arrived in Singapore late Saturday evening
+E11,E27,5,d (During),False,The airline representative said the delay would be approximately two hours,nearly twenty-four hours after her original schedule
+E11,E28,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,She had lost her weekend of exploration
+E11,E29,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,she made it to the conference on Monday morning as planned
+E11,E30,5,d (During),False,The airline representative said the delay would be approximately two hours,The delay had been frustrating
+E11,E31,5,d (During),False,The airline representative said the delay would be approximately two hours,she had learned long ago that travel required flexibility
+E11,E32,1,< (Precedes),False,The airline representative said the delay would be approximately two hours,"Anger, she told herself, did not make planes arrive faster"
+E12,E1,-1,> (Preceded By),False,Sharmin settled into a chair at the gate,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E12,E2,5,d (During),False,Sharmin settled into a chair at the gate,She was traveling for a conference
+E12,E3,1,< (Precedes),False,Sharmin settled into a chair at the gate,that would begin the following Monday
+E12,E4,5,d (During),False,Sharmin settled into a chair at the gate,she had planned to spend the weekend exploring the city before the sessions began
+E12,E5,-1,> (Preceded By),False,Sharmin settled into a chair at the gate,She arrived at the airport three hours before departure
+E12,E6,5,d (During),False,Sharmin settled into a chair at the gate,as she always did
+E12,E7,-1,> (Preceded By),False,Sharmin settled into a chair at the gate,checked in without incident
+E12,E8,-1,> (Preceded By),False,Sharmin settled into a chair at the gate,The delay was announced an hour before boarding
+E12,E9,-1,> (Preceded By),False,Sharmin settled into a chair at the gate,A mechanical issue had been discovered during the pre-flight inspection
+E12,E10,5,d (During),False,Sharmin settled into a chair at the gate,the engineers were working on it
+E12,E11,-1,> (Preceded By),False,Sharmin settled into a chair at the gate,The airline representative said the delay would be approximately two hours
+E12,E13,1,< (Precedes),False,Sharmin settled into a chair at the gate,opened her book
+E12,E14,1,< (Precedes),False,Sharmin settled into a chair at the gate,Two hours became four
+E12,E15,1,< (Precedes),False,Sharmin settled into a chair at the gate,Four became six
+E12,E16,1,< (Precedes),False,Sharmin settled into a chair at the gate,The airline provided meal vouchers and periodic updates
+E12,E17,1,< (Precedes),False,Sharmin settled into a chair at the gate,none of which contained good news
+E12,E18,1,< (Precedes),False,Sharmin settled into a chair at the gate,The mechanical issue was more complex than initially thought
+E12,E19,1,< (Precedes),False,Sharmin settled into a chair at the gate,the part needed for the repair was not available at the airport
+E12,E20,1,< (Precedes),False,Sharmin settled into a chair at the gate,A replacement part had been ordered from a warehouse
+E12,E21,1,< (Precedes),False,Sharmin settled into a chair at the gate,would arrive the following morning
+E12,E22,1,< (Precedes),False,Sharmin settled into a chair at the gate,Sharmin was rebooked on a flight departing on Saturday afternoon
+E12,E23,1,< (Precedes),False,Sharmin settled into a chair at the gate,She spent the night at an airport hotel
+E12,E24,1,< (Precedes),False,Sharmin settled into a chair at the gate,returned to the terminal the next morning
+E12,E25,1,< (Precedes),False,Sharmin settled into a chair at the gate,The replacement flight departed on time
+E12,E26,1,< (Precedes),False,Sharmin settled into a chair at the gate,she arrived in Singapore late Saturday evening
+E12,E27,5,d (During),False,Sharmin settled into a chair at the gate,nearly twenty-four hours after her original schedule
+E12,E28,1,< (Precedes),False,Sharmin settled into a chair at the gate,She had lost her weekend of exploration
+E12,E29,1,< (Precedes),False,Sharmin settled into a chair at the gate,she made it to the conference on Monday morning as planned
+E12,E30,5,d (During),False,Sharmin settled into a chair at the gate,The delay had been frustrating
+E12,E31,5,d (During),False,Sharmin settled into a chair at the gate,she had learned long ago that travel required flexibility
+E12,E32,1,< (Precedes),False,Sharmin settled into a chair at the gate,"Anger, she told herself, did not make planes arrive faster"
+E13,E1,-1,> (Preceded By),False,opened her book,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E13,E2,5,d (During),False,opened her book,She was traveling for a conference
+E13,E3,1,< (Precedes),False,opened her book,that would begin the following Monday
+E13,E4,5,d (During),False,opened her book,she had planned to spend the weekend exploring the city before the sessions began
+E13,E5,-1,> (Preceded By),False,opened her book,She arrived at the airport three hours before departure
+E13,E6,5,d (During),False,opened her book,as she always did
+E13,E7,-1,> (Preceded By),False,opened her book,checked in without incident
+E13,E8,-1,> (Preceded By),False,opened her book,The delay was announced an hour before boarding
+E13,E9,-1,> (Preceded By),False,opened her book,A mechanical issue had been discovered during the pre-flight inspection
+E13,E10,5,d (During),False,opened her book,the engineers were working on it
+E13,E11,-1,> (Preceded By),False,opened her book,The airline representative said the delay would be approximately two hours
+E13,E12,-1,> (Preceded By),False,opened her book,Sharmin settled into a chair at the gate
+E13,E14,1,< (Precedes),False,opened her book,Two hours became four
+E13,E15,1,< (Precedes),False,opened her book,Four became six
+E13,E16,1,< (Precedes),False,opened her book,The airline provided meal vouchers and periodic updates
+E13,E17,1,< (Precedes),False,opened her book,none of which contained good news
+E13,E18,1,< (Precedes),False,opened her book,The mechanical issue was more complex than initially thought
+E13,E19,1,< (Precedes),False,opened her book,the part needed for the repair was not available at the airport
+E13,E20,1,< (Precedes),False,opened her book,A replacement part had been ordered from a warehouse
+E13,E21,1,< (Precedes),False,opened her book,would arrive the following morning
+E13,E22,1,< (Precedes),False,opened her book,Sharmin was rebooked on a flight departing on Saturday afternoon
+E13,E23,1,< (Precedes),False,opened her book,She spent the night at an airport hotel
+E13,E24,1,< (Precedes),False,opened her book,returned to the terminal the next morning
+E13,E25,1,< (Precedes),False,opened her book,The replacement flight departed on time
+E13,E26,1,< (Precedes),False,opened her book,she arrived in Singapore late Saturday evening
+E13,E27,5,d (During),False,opened her book,nearly twenty-four hours after her original schedule
+E13,E28,1,< (Precedes),False,opened her book,She had lost her weekend of exploration
+E13,E29,1,< (Precedes),False,opened her book,she made it to the conference on Monday morning as planned
+E13,E30,5,d (During),False,opened her book,The delay had been frustrating
+E13,E31,5,d (During),False,opened her book,she had learned long ago that travel required flexibility
+E13,E32,1,< (Precedes),False,opened her book,"Anger, she told herself, did not make planes arrive faster"
+E14,E1,-1,> (Preceded By),False,Two hours became four,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E14,E2,5,d (During),False,Two hours became four,She was traveling for a conference
+E14,E3,1,< (Precedes),False,Two hours became four,that would begin the following Monday
+E14,E4,5,d (During),False,Two hours became four,she had planned to spend the weekend exploring the city before the sessions began
+E14,E5,-1,> (Preceded By),False,Two hours became four,She arrived at the airport three hours before departure
+E14,E6,5,d (During),False,Two hours became four,as she always did
+E14,E7,-1,> (Preceded By),False,Two hours became four,checked in without incident
+E14,E8,-1,> (Preceded By),False,Two hours became four,The delay was announced an hour before boarding
+E14,E9,-1,> (Preceded By),False,Two hours became four,A mechanical issue had been discovered during the pre-flight inspection
+E14,E10,5,d (During),False,Two hours became four,the engineers were working on it
+E14,E11,-1,> (Preceded By),False,Two hours became four,The airline representative said the delay would be approximately two hours
+E14,E12,-1,> (Preceded By),False,Two hours became four,Sharmin settled into a chair at the gate
+E14,E13,-1,> (Preceded By),False,Two hours became four,opened her book
+E14,E15,1,< (Precedes),False,Two hours became four,Four became six
+E14,E16,1,< (Precedes),False,Two hours became four,The airline provided meal vouchers and periodic updates
+E14,E17,1,< (Precedes),False,Two hours became four,none of which contained good news
+E14,E18,1,< (Precedes),False,Two hours became four,The mechanical issue was more complex than initially thought
+E14,E19,1,< (Precedes),False,Two hours became four,the part needed for the repair was not available at the airport
+E14,E20,1,< (Precedes),False,Two hours became four,A replacement part had been ordered from a warehouse
+E14,E21,1,< (Precedes),False,Two hours became four,would arrive the following morning
+E14,E22,1,< (Precedes),False,Two hours became four,Sharmin was rebooked on a flight departing on Saturday afternoon
+E14,E23,1,< (Precedes),False,Two hours became four,She spent the night at an airport hotel
+E14,E24,1,< (Precedes),False,Two hours became four,returned to the terminal the next morning
+E14,E25,1,< (Precedes),False,Two hours became four,The replacement flight departed on time
+E14,E26,1,< (Precedes),False,Two hours became four,she arrived in Singapore late Saturday evening
+E14,E27,5,d (During),False,Two hours became four,nearly twenty-four hours after her original schedule
+E14,E28,1,< (Precedes),False,Two hours became four,She had lost her weekend of exploration
+E14,E29,1,< (Precedes),False,Two hours became four,she made it to the conference on Monday morning as planned
+E14,E30,5,d (During),False,Two hours became four,The delay had been frustrating
+E14,E31,5,d (During),False,Two hours became four,she had learned long ago that travel required flexibility
+E14,E32,1,< (Precedes),False,Two hours became four,"Anger, she told herself, did not make planes arrive faster"
+E15,E1,-1,> (Preceded By),False,Four became six,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E15,E2,5,d (During),False,Four became six,She was traveling for a conference
+E15,E3,1,< (Precedes),False,Four became six,that would begin the following Monday
+E15,E4,5,d (During),False,Four became six,she had planned to spend the weekend exploring the city before the sessions began
+E15,E5,-1,> (Preceded By),False,Four became six,She arrived at the airport three hours before departure
+E15,E6,5,d (During),False,Four became six,as she always did
+E15,E7,-1,> (Preceded By),False,Four became six,checked in without incident
+E15,E8,-1,> (Preceded By),False,Four became six,The delay was announced an hour before boarding
+E15,E9,-1,> (Preceded By),False,Four became six,A mechanical issue had been discovered during the pre-flight inspection
+E15,E10,5,d (During),False,Four became six,the engineers were working on it
+E15,E11,-1,> (Preceded By),False,Four became six,The airline representative said the delay would be approximately two hours
+E15,E12,-1,> (Preceded By),False,Four became six,Sharmin settled into a chair at the gate
+E15,E13,-1,> (Preceded By),False,Four became six,opened her book
+E15,E14,-1,> (Preceded By),False,Four became six,Two hours became four
+E15,E16,1,< (Precedes),False,Four became six,The airline provided meal vouchers and periodic updates
+E15,E17,1,< (Precedes),False,Four became six,none of which contained good news
+E15,E18,1,< (Precedes),False,Four became six,The mechanical issue was more complex than initially thought
+E15,E19,1,< (Precedes),False,Four became six,the part needed for the repair was not available at the airport
+E15,E20,1,< (Precedes),False,Four became six,A replacement part had been ordered from a warehouse
+E15,E21,1,< (Precedes),False,Four became six,would arrive the following morning
+E15,E22,1,< (Precedes),False,Four became six,Sharmin was rebooked on a flight departing on Saturday afternoon
+E15,E23,1,< (Precedes),False,Four became six,She spent the night at an airport hotel
+E15,E24,1,< (Precedes),False,Four became six,returned to the terminal the next morning
+E15,E25,1,< (Precedes),False,Four became six,The replacement flight departed on time
+E15,E26,1,< (Precedes),False,Four became six,she arrived in Singapore late Saturday evening
+E15,E27,5,d (During),False,Four became six,nearly twenty-four hours after her original schedule
+E15,E28,1,< (Precedes),False,Four became six,She had lost her weekend of exploration
+E15,E29,1,< (Precedes),False,Four became six,she made it to the conference on Monday morning as planned
+E15,E30,5,d (During),False,Four became six,The delay had been frustrating
+E15,E31,5,d (During),False,Four became six,she had learned long ago that travel required flexibility
+E15,E32,1,< (Precedes),False,Four became six,"Anger, she told herself, did not make planes arrive faster"
+E16,E1,-1,> (Preceded By),False,The airline provided meal vouchers and periodic updates,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E16,E2,5,d (During),False,The airline provided meal vouchers and periodic updates,She was traveling for a conference
+E16,E3,1,< (Precedes),False,The airline provided meal vouchers and periodic updates,that would begin the following Monday
+E16,E4,5,d (During),False,The airline provided meal vouchers and periodic updates,she had planned to spend the weekend exploring the city before the sessions began
+E16,E5,-1,> (Preceded By),False,The airline provided meal vouchers and periodic updates,She arrived at the airport three hours before departure
+E16,E6,5,d (During),False,The airline provided meal vouchers and periodic updates,as she always did
+E16,E7,-1,> (Preceded By),False,The airline provided meal vouchers and periodic updates,checked in without incident
+E16,E8,-1,> (Preceded By),False,The airline provided meal vouchers and periodic updates,The delay was announced an hour before boarding
+E16,E9,-1,> (Preceded By),False,The airline provided meal vouchers and periodic updates,A mechanical issue had been discovered during the pre-flight inspection
+E16,E10,5,d (During),False,The airline provided meal vouchers and periodic updates,the engineers were working on it
+E16,E11,-1,> (Preceded By),False,The airline provided meal vouchers and periodic updates,The airline representative said the delay would be approximately two hours
+E16,E12,-1,> (Preceded By),False,The airline provided meal vouchers and periodic updates,Sharmin settled into a chair at the gate
+E16,E13,-1,> (Preceded By),False,The airline provided meal vouchers and periodic updates,opened her book
+E16,E14,-1,> (Preceded By),False,The airline provided meal vouchers and periodic updates,Two hours became four
+E16,E15,-1,> (Preceded By),False,The airline provided meal vouchers and periodic updates,Four became six
+E16,E17,3,o (Overlaps),False,The airline provided meal vouchers and periodic updates,none of which contained good news
+E16,E18,-5,di (Contains),False,The airline provided meal vouchers and periodic updates,The mechanical issue was more complex than initially thought
+E16,E19,-5,di (Contains),False,The airline provided meal vouchers and periodic updates,the part needed for the repair was not available at the airport
+E16,E20,-5,di (Contains),False,The airline provided meal vouchers and periodic updates,A replacement part had been ordered from a warehouse
+E16,E21,1,< (Precedes),False,The airline provided meal vouchers and periodic updates,would arrive the following morning
+E16,E22,1,< (Precedes),False,The airline provided meal vouchers and periodic updates,Sharmin was rebooked on a flight departing on Saturday afternoon
+E16,E23,1,< (Precedes),False,The airline provided meal vouchers and periodic updates,She spent the night at an airport hotel
+E16,E24,1,< (Precedes),False,The airline provided meal vouchers and periodic updates,returned to the terminal the next morning
+E16,E25,1,< (Precedes),False,The airline provided meal vouchers and periodic updates,The replacement flight departed on time
+E16,E26,1,< (Precedes),False,The airline provided meal vouchers and periodic updates,she arrived in Singapore late Saturday evening
+E16,E27,5,d (During),False,The airline provided meal vouchers and periodic updates,nearly twenty-four hours after her original schedule
+E16,E28,1,< (Precedes),False,The airline provided meal vouchers and periodic updates,She had lost her weekend of exploration
+E16,E29,1,< (Precedes),False,The airline provided meal vouchers and periodic updates,she made it to the conference on Monday morning as planned
+E16,E30,5,d (During),False,The airline provided meal vouchers and periodic updates,The delay had been frustrating
+E16,E31,5,d (During),False,The airline provided meal vouchers and periodic updates,she had learned long ago that travel required flexibility
+E16,E32,1,< (Precedes),False,The airline provided meal vouchers and periodic updates,"Anger, she told herself, did not make planes arrive faster"
+E17,E1,-1,> (Preceded By),False,none of which contained good news,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E17,E2,5,d (During),False,none of which contained good news,She was traveling for a conference
+E17,E3,1,< (Precedes),False,none of which contained good news,that would begin the following Monday
+E17,E4,5,d (During),False,none of which contained good news,she had planned to spend the weekend exploring the city before the sessions began
+E17,E5,-1,> (Preceded By),False,none of which contained good news,She arrived at the airport three hours before departure
+E17,E6,5,d (During),False,none of which contained good news,as she always did
+E17,E7,-1,> (Preceded By),False,none of which contained good news,checked in without incident
+E17,E8,-1,> (Preceded By),False,none of which contained good news,The delay was announced an hour before boarding
+E17,E9,-1,> (Preceded By),False,none of which contained good news,A mechanical issue had been discovered during the pre-flight inspection
+E17,E10,5,d (During),False,none of which contained good news,the engineers were working on it
+E17,E11,-1,> (Preceded By),False,none of which contained good news,The airline representative said the delay would be approximately two hours
+E17,E12,-1,> (Preceded By),False,none of which contained good news,Sharmin settled into a chair at the gate
+E17,E13,-1,> (Preceded By),False,none of which contained good news,opened her book
+E17,E14,-1,> (Preceded By),False,none of which contained good news,Two hours became four
+E17,E15,-1,> (Preceded By),False,none of which contained good news,Four became six
+E17,E16,-3,oi (Overlapped By),False,none of which contained good news,The airline provided meal vouchers and periodic updates
+E17,E18,-5,di (Contains),False,none of which contained good news,The mechanical issue was more complex than initially thought
+E17,E19,-5,di (Contains),False,none of which contained good news,the part needed for the repair was not available at the airport
+E17,E20,-5,di (Contains),False,none of which contained good news,A replacement part had been ordered from a warehouse
+E17,E21,1,< (Precedes),False,none of which contained good news,would arrive the following morning
+E17,E22,1,< (Precedes),False,none of which contained good news,Sharmin was rebooked on a flight departing on Saturday afternoon
+E17,E23,1,< (Precedes),False,none of which contained good news,She spent the night at an airport hotel
+E17,E24,1,< (Precedes),False,none of which contained good news,returned to the terminal the next morning
+E17,E25,1,< (Precedes),False,none of which contained good news,The replacement flight departed on time
+E17,E26,1,< (Precedes),False,none of which contained good news,she arrived in Singapore late Saturday evening
+E17,E27,5,d (During),False,none of which contained good news,nearly twenty-four hours after her original schedule
+E17,E28,1,< (Precedes),False,none of which contained good news,She had lost her weekend of exploration
+E17,E29,1,< (Precedes),False,none of which contained good news,she made it to the conference on Monday morning as planned
+E17,E30,5,d (During),False,none of which contained good news,The delay had been frustrating
+E17,E31,5,d (During),False,none of which contained good news,she had learned long ago that travel required flexibility
+E17,E32,1,< (Precedes),False,none of which contained good news,"Anger, she told herself, did not make planes arrive faster"
+E18,E1,-1,> (Preceded By),False,The mechanical issue was more complex than initially thought,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E18,E2,5,d (During),False,The mechanical issue was more complex than initially thought,She was traveling for a conference
+E18,E3,1,< (Precedes),False,The mechanical issue was more complex than initially thought,that would begin the following Monday
+E18,E4,5,d (During),False,The mechanical issue was more complex than initially thought,she had planned to spend the weekend exploring the city before the sessions began
+E18,E5,-1,> (Preceded By),False,The mechanical issue was more complex than initially thought,She arrived at the airport three hours before departure
+E18,E6,5,d (During),False,The mechanical issue was more complex than initially thought,as she always did
+E18,E7,-1,> (Preceded By),False,The mechanical issue was more complex than initially thought,checked in without incident
+E18,E8,-1,> (Preceded By),False,The mechanical issue was more complex than initially thought,The delay was announced an hour before boarding
+E18,E9,-1,> (Preceded By),False,The mechanical issue was more complex than initially thought,A mechanical issue had been discovered during the pre-flight inspection
+E18,E10,5,d (During),False,The mechanical issue was more complex than initially thought,the engineers were working on it
+E18,E11,-1,> (Preceded By),False,The mechanical issue was more complex than initially thought,The airline representative said the delay would be approximately two hours
+E18,E12,-1,> (Preceded By),False,The mechanical issue was more complex than initially thought,Sharmin settled into a chair at the gate
+E18,E13,-1,> (Preceded By),False,The mechanical issue was more complex than initially thought,opened her book
+E18,E14,-1,> (Preceded By),False,The mechanical issue was more complex than initially thought,Two hours became four
+E18,E15,-1,> (Preceded By),False,The mechanical issue was more complex than initially thought,Four became six
+E18,E16,5,d (During),False,The mechanical issue was more complex than initially thought,The airline provided meal vouchers and periodic updates
+E18,E17,5,d (During),False,The mechanical issue was more complex than initially thought,none of which contained good news
+E18,E19,1,< (Precedes),False,The mechanical issue was more complex than initially thought,the part needed for the repair was not available at the airport
+E18,E20,1,< (Precedes),False,The mechanical issue was more complex than initially thought,A replacement part had been ordered from a warehouse
+E18,E21,1,< (Precedes),False,The mechanical issue was more complex than initially thought,would arrive the following morning
+E18,E22,1,< (Precedes),False,The mechanical issue was more complex than initially thought,Sharmin was rebooked on a flight departing on Saturday afternoon
+E18,E23,1,< (Precedes),False,The mechanical issue was more complex than initially thought,She spent the night at an airport hotel
+E18,E24,1,< (Precedes),False,The mechanical issue was more complex than initially thought,returned to the terminal the next morning
+E18,E25,1,< (Precedes),False,The mechanical issue was more complex than initially thought,The replacement flight departed on time
+E18,E26,1,< (Precedes),False,The mechanical issue was more complex than initially thought,she arrived in Singapore late Saturday evening
+E18,E27,5,d (During),False,The mechanical issue was more complex than initially thought,nearly twenty-four hours after her original schedule
+E18,E28,1,< (Precedes),False,The mechanical issue was more complex than initially thought,She had lost her weekend of exploration
+E18,E29,1,< (Precedes),False,The mechanical issue was more complex than initially thought,she made it to the conference on Monday morning as planned
+E18,E30,5,d (During),False,The mechanical issue was more complex than initially thought,The delay had been frustrating
+E18,E31,5,d (During),False,The mechanical issue was more complex than initially thought,she had learned long ago that travel required flexibility
+E18,E32,1,< (Precedes),False,The mechanical issue was more complex than initially thought,"Anger, she told herself, did not make planes arrive faster"
+E19,E1,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E19,E2,5,d (During),False,the part needed for the repair was not available at the airport,She was traveling for a conference
+E19,E3,1,< (Precedes),False,the part needed for the repair was not available at the airport,that would begin the following Monday
+E19,E4,5,d (During),False,the part needed for the repair was not available at the airport,she had planned to spend the weekend exploring the city before the sessions began
+E19,E5,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,She arrived at the airport three hours before departure
+E19,E6,5,d (During),False,the part needed for the repair was not available at the airport,as she always did
+E19,E7,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,checked in without incident
+E19,E8,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,The delay was announced an hour before boarding
+E19,E9,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,A mechanical issue had been discovered during the pre-flight inspection
+E19,E10,5,d (During),False,the part needed for the repair was not available at the airport,the engineers were working on it
+E19,E11,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,The airline representative said the delay would be approximately two hours
+E19,E12,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,Sharmin settled into a chair at the gate
+E19,E13,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,opened her book
+E19,E14,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,Two hours became four
+E19,E15,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,Four became six
+E19,E16,5,d (During),False,the part needed for the repair was not available at the airport,The airline provided meal vouchers and periodic updates
+E19,E17,5,d (During),False,the part needed for the repair was not available at the airport,none of which contained good news
+E19,E18,-1,> (Preceded By),False,the part needed for the repair was not available at the airport,The mechanical issue was more complex than initially thought
+E19,E20,1,< (Precedes),False,the part needed for the repair was not available at the airport,A replacement part had been ordered from a warehouse
+E19,E21,1,< (Precedes),False,the part needed for the repair was not available at the airport,would arrive the following morning
+E19,E22,1,< (Precedes),False,the part needed for the repair was not available at the airport,Sharmin was rebooked on a flight departing on Saturday afternoon
+E19,E23,1,< (Precedes),False,the part needed for the repair was not available at the airport,She spent the night at an airport hotel
+E19,E24,1,< (Precedes),False,the part needed for the repair was not available at the airport,returned to the terminal the next morning
+E19,E25,1,< (Precedes),False,the part needed for the repair was not available at the airport,The replacement flight departed on time
+E19,E26,1,< (Precedes),False,the part needed for the repair was not available at the airport,she arrived in Singapore late Saturday evening
+E19,E27,5,d (During),False,the part needed for the repair was not available at the airport,nearly twenty-four hours after her original schedule
+E19,E28,1,< (Precedes),False,the part needed for the repair was not available at the airport,She had lost her weekend of exploration
+E19,E29,1,< (Precedes),False,the part needed for the repair was not available at the airport,she made it to the conference on Monday morning as planned
+E19,E30,5,d (During),False,the part needed for the repair was not available at the airport,The delay had been frustrating
+E19,E31,5,d (During),False,the part needed for the repair was not available at the airport,she had learned long ago that travel required flexibility
+E19,E32,1,< (Precedes),False,the part needed for the repair was not available at the airport,"Anger, she told herself, did not make planes arrive faster"
+E20,E1,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E20,E2,5,d (During),False,A replacement part had been ordered from a warehouse,She was traveling for a conference
+E20,E3,1,< (Precedes),False,A replacement part had been ordered from a warehouse,that would begin the following Monday
+E20,E4,5,d (During),False,A replacement part had been ordered from a warehouse,she had planned to spend the weekend exploring the city before the sessions began
+E20,E5,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,She arrived at the airport three hours before departure
+E20,E6,5,d (During),False,A replacement part had been ordered from a warehouse,as she always did
+E20,E7,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,checked in without incident
+E20,E8,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,The delay was announced an hour before boarding
+E20,E9,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,A mechanical issue had been discovered during the pre-flight inspection
+E20,E10,5,d (During),False,A replacement part had been ordered from a warehouse,the engineers were working on it
+E20,E11,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,The airline representative said the delay would be approximately two hours
+E20,E12,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,Sharmin settled into a chair at the gate
+E20,E13,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,opened her book
+E20,E14,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,Two hours became four
+E20,E15,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,Four became six
+E20,E16,5,d (During),False,A replacement part had been ordered from a warehouse,The airline provided meal vouchers and periodic updates
+E20,E17,5,d (During),False,A replacement part had been ordered from a warehouse,none of which contained good news
+E20,E18,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,The mechanical issue was more complex than initially thought
+E20,E19,-1,> (Preceded By),False,A replacement part had been ordered from a warehouse,the part needed for the repair was not available at the airport
+E20,E21,1,< (Precedes),False,A replacement part had been ordered from a warehouse,would arrive the following morning
+E20,E22,1,< (Precedes),False,A replacement part had been ordered from a warehouse,Sharmin was rebooked on a flight departing on Saturday afternoon
+E20,E23,1,< (Precedes),False,A replacement part had been ordered from a warehouse,She spent the night at an airport hotel
+E20,E24,1,< (Precedes),False,A replacement part had been ordered from a warehouse,returned to the terminal the next morning
+E20,E25,1,< (Precedes),False,A replacement part had been ordered from a warehouse,The replacement flight departed on time
+E20,E26,1,< (Precedes),False,A replacement part had been ordered from a warehouse,she arrived in Singapore late Saturday evening
+E20,E27,5,d (During),False,A replacement part had been ordered from a warehouse,nearly twenty-four hours after her original schedule
+E20,E28,1,< (Precedes),False,A replacement part had been ordered from a warehouse,She had lost her weekend of exploration
+E20,E29,1,< (Precedes),False,A replacement part had been ordered from a warehouse,she made it to the conference on Monday morning as planned
+E20,E30,5,d (During),False,A replacement part had been ordered from a warehouse,The delay had been frustrating
+E20,E31,5,d (During),False,A replacement part had been ordered from a warehouse,she had learned long ago that travel required flexibility
+E20,E32,1,< (Precedes),False,A replacement part had been ordered from a warehouse,"Anger, she told herself, did not make planes arrive faster"
+E21,E1,-1,> (Preceded By),False,would arrive the following morning,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E21,E2,5,d (During),False,would arrive the following morning,She was traveling for a conference
+E21,E3,1,< (Precedes),False,would arrive the following morning,that would begin the following Monday
+E21,E4,5,d (During),False,would arrive the following morning,she had planned to spend the weekend exploring the city before the sessions began
+E21,E5,-1,> (Preceded By),False,would arrive the following morning,She arrived at the airport three hours before departure
+E21,E6,5,d (During),False,would arrive the following morning,as she always did
+E21,E7,-1,> (Preceded By),False,would arrive the following morning,checked in without incident
+E21,E8,-1,> (Preceded By),False,would arrive the following morning,The delay was announced an hour before boarding
+E21,E9,-1,> (Preceded By),False,would arrive the following morning,A mechanical issue had been discovered during the pre-flight inspection
+E21,E10,-1,> (Preceded By),False,would arrive the following morning,the engineers were working on it
+E21,E11,-1,> (Preceded By),False,would arrive the following morning,The airline representative said the delay would be approximately two hours
+E21,E12,-1,> (Preceded By),False,would arrive the following morning,Sharmin settled into a chair at the gate
+E21,E13,-1,> (Preceded By),False,would arrive the following morning,opened her book
+E21,E14,-1,> (Preceded By),False,would arrive the following morning,Two hours became four
+E21,E15,-1,> (Preceded By),False,would arrive the following morning,Four became six
+E21,E16,-1,> (Preceded By),False,would arrive the following morning,The airline provided meal vouchers and periodic updates
+E21,E17,-1,> (Preceded By),False,would arrive the following morning,none of which contained good news
+E21,E18,-1,> (Preceded By),False,would arrive the following morning,The mechanical issue was more complex than initially thought
+E21,E19,-1,> (Preceded By),False,would arrive the following morning,the part needed for the repair was not available at the airport
+E21,E20,-1,> (Preceded By),False,would arrive the following morning,A replacement part had been ordered from a warehouse
+E21,E22,1,< (Precedes),False,would arrive the following morning,Sharmin was rebooked on a flight departing on Saturday afternoon
+E21,E23,1,< (Precedes),False,would arrive the following morning,She spent the night at an airport hotel
+E21,E24,1,< (Precedes),False,would arrive the following morning,returned to the terminal the next morning
+E21,E25,1,< (Precedes),False,would arrive the following morning,The replacement flight departed on time
+E21,E26,1,< (Precedes),False,would arrive the following morning,she arrived in Singapore late Saturday evening
+E21,E27,5,d (During),False,would arrive the following morning,nearly twenty-four hours after her original schedule
+E21,E28,1,< (Precedes),False,would arrive the following morning,She had lost her weekend of exploration
+E21,E29,1,< (Precedes),False,would arrive the following morning,she made it to the conference on Monday morning as planned
+E21,E30,5,d (During),False,would arrive the following morning,The delay had been frustrating
+E21,E31,5,d (During),False,would arrive the following morning,she had learned long ago that travel required flexibility
+E21,E32,1,< (Precedes),False,would arrive the following morning,"Anger, she told herself, did not make planes arrive faster"
+E22,E1,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E22,E2,5,d (During),False,Sharmin was rebooked on a flight departing on Saturday afternoon,She was traveling for a conference
+E22,E3,1,< (Precedes),False,Sharmin was rebooked on a flight departing on Saturday afternoon,that would begin the following Monday
+E22,E4,5,d (During),False,Sharmin was rebooked on a flight departing on Saturday afternoon,she had planned to spend the weekend exploring the city before the sessions began
+E22,E5,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,She arrived at the airport three hours before departure
+E22,E6,5,d (During),False,Sharmin was rebooked on a flight departing on Saturday afternoon,as she always did
+E22,E7,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,checked in without incident
+E22,E8,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,The delay was announced an hour before boarding
+E22,E9,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,A mechanical issue had been discovered during the pre-flight inspection
+E22,E10,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,the engineers were working on it
+E22,E11,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,The airline representative said the delay would be approximately two hours
+E22,E12,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,Sharmin settled into a chair at the gate
+E22,E13,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,opened her book
+E22,E14,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,Two hours became four
+E22,E15,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,Four became six
+E22,E16,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,The airline provided meal vouchers and periodic updates
+E22,E17,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,none of which contained good news
+E22,E18,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,The mechanical issue was more complex than initially thought
+E22,E19,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,the part needed for the repair was not available at the airport
+E22,E20,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,A replacement part had been ordered from a warehouse
+E22,E21,-1,> (Preceded By),False,Sharmin was rebooked on a flight departing on Saturday afternoon,would arrive the following morning
+E22,E23,1,< (Precedes),False,Sharmin was rebooked on a flight departing on Saturday afternoon,She spent the night at an airport hotel
+E22,E24,1,< (Precedes),False,Sharmin was rebooked on a flight departing on Saturday afternoon,returned to the terminal the next morning
+E22,E25,1,< (Precedes),False,Sharmin was rebooked on a flight departing on Saturday afternoon,The replacement flight departed on time
+E22,E26,1,< (Precedes),False,Sharmin was rebooked on a flight departing on Saturday afternoon,she arrived in Singapore late Saturday evening
+E22,E27,5,d (During),False,Sharmin was rebooked on a flight departing on Saturday afternoon,nearly twenty-four hours after her original schedule
+E22,E28,1,< (Precedes),False,Sharmin was rebooked on a flight departing on Saturday afternoon,She had lost her weekend of exploration
+E22,E29,1,< (Precedes),False,Sharmin was rebooked on a flight departing on Saturday afternoon,she made it to the conference on Monday morning as planned
+E22,E30,5,d (During),False,Sharmin was rebooked on a flight departing on Saturday afternoon,The delay had been frustrating
+E22,E31,5,d (During),False,Sharmin was rebooked on a flight departing on Saturday afternoon,she had learned long ago that travel required flexibility
+E22,E32,1,< (Precedes),False,Sharmin was rebooked on a flight departing on Saturday afternoon,"Anger, she told herself, did not make planes arrive faster"
+E23,E1,-1,> (Preceded By),False,She spent the night at an airport hotel,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E23,E2,5,d (During),False,She spent the night at an airport hotel,She was traveling for a conference
+E23,E3,1,< (Precedes),False,She spent the night at an airport hotel,that would begin the following Monday
+E23,E4,5,d (During),False,She spent the night at an airport hotel,she had planned to spend the weekend exploring the city before the sessions began
+E23,E5,-1,> (Preceded By),False,She spent the night at an airport hotel,She arrived at the airport three hours before departure
+E23,E6,5,d (During),False,She spent the night at an airport hotel,as she always did
+E23,E7,-1,> (Preceded By),False,She spent the night at an airport hotel,checked in without incident
+E23,E8,-1,> (Preceded By),False,She spent the night at an airport hotel,The delay was announced an hour before boarding
+E23,E9,-1,> (Preceded By),False,She spent the night at an airport hotel,A mechanical issue had been discovered during the pre-flight inspection
+E23,E10,-1,> (Preceded By),False,She spent the night at an airport hotel,the engineers were working on it
+E23,E11,-1,> (Preceded By),False,She spent the night at an airport hotel,The airline representative said the delay would be approximately two hours
+E23,E12,-1,> (Preceded By),False,She spent the night at an airport hotel,Sharmin settled into a chair at the gate
+E23,E13,-1,> (Preceded By),False,She spent the night at an airport hotel,opened her book
+E23,E14,-1,> (Preceded By),False,She spent the night at an airport hotel,Two hours became four
+E23,E15,-1,> (Preceded By),False,She spent the night at an airport hotel,Four became six
+E23,E16,-1,> (Preceded By),False,She spent the night at an airport hotel,The airline provided meal vouchers and periodic updates
+E23,E17,-1,> (Preceded By),False,She spent the night at an airport hotel,none of which contained good news
+E23,E18,-1,> (Preceded By),False,She spent the night at an airport hotel,The mechanical issue was more complex than initially thought
+E23,E19,-1,> (Preceded By),False,She spent the night at an airport hotel,the part needed for the repair was not available at the airport
+E23,E20,-1,> (Preceded By),False,She spent the night at an airport hotel,A replacement part had been ordered from a warehouse
+E23,E21,-1,> (Preceded By),False,She spent the night at an airport hotel,would arrive the following morning
+E23,E22,-1,> (Preceded By),False,She spent the night at an airport hotel,Sharmin was rebooked on a flight departing on Saturday afternoon
+E23,E24,1,< (Precedes),False,She spent the night at an airport hotel,returned to the terminal the next morning
+E23,E25,1,< (Precedes),False,She spent the night at an airport hotel,The replacement flight departed on time
+E23,E26,1,< (Precedes),False,She spent the night at an airport hotel,she arrived in Singapore late Saturday evening
+E23,E27,5,d (During),False,She spent the night at an airport hotel,nearly twenty-four hours after her original schedule
+E23,E28,1,< (Precedes),False,She spent the night at an airport hotel,She had lost her weekend of exploration
+E23,E29,1,< (Precedes),False,She spent the night at an airport hotel,she made it to the conference on Monday morning as planned
+E23,E30,5,d (During),False,She spent the night at an airport hotel,The delay had been frustrating
+E23,E31,5,d (During),False,She spent the night at an airport hotel,she had learned long ago that travel required flexibility
+E23,E32,1,< (Precedes),False,She spent the night at an airport hotel,"Anger, she told herself, did not make planes arrive faster"
+E24,E1,-1,> (Preceded By),False,returned to the terminal the next morning,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E24,E2,5,d (During),False,returned to the terminal the next morning,She was traveling for a conference
+E24,E3,1,< (Precedes),False,returned to the terminal the next morning,that would begin the following Monday
+E24,E4,5,d (During),False,returned to the terminal the next morning,she had planned to spend the weekend exploring the city before the sessions began
+E24,E5,-1,> (Preceded By),False,returned to the terminal the next morning,She arrived at the airport three hours before departure
+E24,E6,5,d (During),False,returned to the terminal the next morning,as she always did
+E24,E7,-1,> (Preceded By),False,returned to the terminal the next morning,checked in without incident
+E24,E8,-1,> (Preceded By),False,returned to the terminal the next morning,The delay was announced an hour before boarding
+E24,E9,-1,> (Preceded By),False,returned to the terminal the next morning,A mechanical issue had been discovered during the pre-flight inspection
+E24,E10,-1,> (Preceded By),False,returned to the terminal the next morning,the engineers were working on it
+E24,E11,-1,> (Preceded By),False,returned to the terminal the next morning,The airline representative said the delay would be approximately two hours
+E24,E12,-1,> (Preceded By),False,returned to the terminal the next morning,Sharmin settled into a chair at the gate
+E24,E13,-1,> (Preceded By),False,returned to the terminal the next morning,opened her book
+E24,E14,-1,> (Preceded By),False,returned to the terminal the next morning,Two hours became four
+E24,E15,-1,> (Preceded By),False,returned to the terminal the next morning,Four became six
+E24,E16,-1,> (Preceded By),False,returned to the terminal the next morning,The airline provided meal vouchers and periodic updates
+E24,E17,-1,> (Preceded By),False,returned to the terminal the next morning,none of which contained good news
+E24,E18,-1,> (Preceded By),False,returned to the terminal the next morning,The mechanical issue was more complex than initially thought
+E24,E19,-1,> (Preceded By),False,returned to the terminal the next morning,the part needed for the repair was not available at the airport
+E24,E20,-1,> (Preceded By),False,returned to the terminal the next morning,A replacement part had been ordered from a warehouse
+E24,E21,-1,> (Preceded By),False,returned to the terminal the next morning,would arrive the following morning
+E24,E22,-1,> (Preceded By),False,returned to the terminal the next morning,Sharmin was rebooked on a flight departing on Saturday afternoon
+E24,E23,-1,> (Preceded By),False,returned to the terminal the next morning,She spent the night at an airport hotel
+E24,E25,1,< (Precedes),False,returned to the terminal the next morning,The replacement flight departed on time
+E24,E26,1,< (Precedes),False,returned to the terminal the next morning,she arrived in Singapore late Saturday evening
+E24,E27,5,d (During),False,returned to the terminal the next morning,nearly twenty-four hours after her original schedule
+E24,E28,1,< (Precedes),False,returned to the terminal the next morning,She had lost her weekend of exploration
+E24,E29,1,< (Precedes),False,returned to the terminal the next morning,she made it to the conference on Monday morning as planned
+E24,E30,5,d (During),False,returned to the terminal the next morning,The delay had been frustrating
+E24,E31,5,d (During),False,returned to the terminal the next morning,she had learned long ago that travel required flexibility
+E24,E32,1,< (Precedes),False,returned to the terminal the next morning,"Anger, she told herself, did not make planes arrive faster"
+E25,E1,-1,> (Preceded By),False,The replacement flight departed on time,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E25,E2,5,d (During),False,The replacement flight departed on time,She was traveling for a conference
+E25,E3,1,< (Precedes),False,The replacement flight departed on time,that would begin the following Monday
+E25,E4,5,d (During),False,The replacement flight departed on time,she had planned to spend the weekend exploring the city before the sessions began
+E25,E5,-1,> (Preceded By),False,The replacement flight departed on time,She arrived at the airport three hours before departure
+E25,E6,5,d (During),False,The replacement flight departed on time,as she always did
+E25,E7,-1,> (Preceded By),False,The replacement flight departed on time,checked in without incident
+E25,E8,-1,> (Preceded By),False,The replacement flight departed on time,The delay was announced an hour before boarding
+E25,E9,-1,> (Preceded By),False,The replacement flight departed on time,A mechanical issue had been discovered during the pre-flight inspection
+E25,E10,-1,> (Preceded By),False,The replacement flight departed on time,the engineers were working on it
+E25,E11,-1,> (Preceded By),False,The replacement flight departed on time,The airline representative said the delay would be approximately two hours
+E25,E12,-1,> (Preceded By),False,The replacement flight departed on time,Sharmin settled into a chair at the gate
+E25,E13,-1,> (Preceded By),False,The replacement flight departed on time,opened her book
+E25,E14,-1,> (Preceded By),False,The replacement flight departed on time,Two hours became four
+E25,E15,-1,> (Preceded By),False,The replacement flight departed on time,Four became six
+E25,E16,-1,> (Preceded By),False,The replacement flight departed on time,The airline provided meal vouchers and periodic updates
+E25,E17,-1,> (Preceded By),False,The replacement flight departed on time,none of which contained good news
+E25,E18,-1,> (Preceded By),False,The replacement flight departed on time,The mechanical issue was more complex than initially thought
+E25,E19,-1,> (Preceded By),False,The replacement flight departed on time,the part needed for the repair was not available at the airport
+E25,E20,-1,> (Preceded By),False,The replacement flight departed on time,A replacement part had been ordered from a warehouse
+E25,E21,-1,> (Preceded By),False,The replacement flight departed on time,would arrive the following morning
+E25,E22,-1,> (Preceded By),False,The replacement flight departed on time,Sharmin was rebooked on a flight departing on Saturday afternoon
+E25,E23,-1,> (Preceded By),False,The replacement flight departed on time,She spent the night at an airport hotel
+E25,E24,-1,> (Preceded By),False,The replacement flight departed on time,returned to the terminal the next morning
+E25,E26,1,< (Precedes),False,The replacement flight departed on time,she arrived in Singapore late Saturday evening
+E25,E27,5,d (During),False,The replacement flight departed on time,nearly twenty-four hours after her original schedule
+E25,E28,1,< (Precedes),False,The replacement flight departed on time,She had lost her weekend of exploration
+E25,E29,1,< (Precedes),False,The replacement flight departed on time,she made it to the conference on Monday morning as planned
+E25,E30,5,d (During),False,The replacement flight departed on time,The delay had been frustrating
+E25,E31,5,d (During),False,The replacement flight departed on time,she had learned long ago that travel required flexibility
+E25,E32,1,< (Precedes),False,The replacement flight departed on time,"Anger, she told herself, did not make planes arrive faster"
+E26,E1,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E26,E2,5,d (During),False,she arrived in Singapore late Saturday evening,She was traveling for a conference
+E26,E3,1,< (Precedes),False,she arrived in Singapore late Saturday evening,that would begin the following Monday
+E26,E4,5,d (During),False,she arrived in Singapore late Saturday evening,she had planned to spend the weekend exploring the city before the sessions began
+E26,E5,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,She arrived at the airport three hours before departure
+E26,E6,5,d (During),False,she arrived in Singapore late Saturday evening,as she always did
+E26,E7,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,checked in without incident
+E26,E8,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,The delay was announced an hour before boarding
+E26,E9,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,A mechanical issue had been discovered during the pre-flight inspection
+E26,E10,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,the engineers were working on it
+E26,E11,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,The airline representative said the delay would be approximately two hours
+E26,E12,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,Sharmin settled into a chair at the gate
+E26,E13,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,opened her book
+E26,E14,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,Two hours became four
+E26,E15,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,Four became six
+E26,E16,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,The airline provided meal vouchers and periodic updates
+E26,E17,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,none of which contained good news
+E26,E18,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,The mechanical issue was more complex than initially thought
+E26,E19,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,the part needed for the repair was not available at the airport
+E26,E20,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,A replacement part had been ordered from a warehouse
+E26,E21,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,would arrive the following morning
+E26,E22,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,Sharmin was rebooked on a flight departing on Saturday afternoon
+E26,E23,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,She spent the night at an airport hotel
+E26,E24,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,returned to the terminal the next morning
+E26,E25,-1,> (Preceded By),False,she arrived in Singapore late Saturday evening,The replacement flight departed on time
+E26,E27,-2,mi (Met By),False,she arrived in Singapore late Saturday evening,nearly twenty-four hours after her original schedule
+E26,E28,1,< (Precedes),False,she arrived in Singapore late Saturday evening,She had lost her weekend of exploration
+E26,E29,1,< (Precedes),False,she arrived in Singapore late Saturday evening,she made it to the conference on Monday morning as planned
+E26,E30,-2,mi (Met By),False,she arrived in Singapore late Saturday evening,The delay had been frustrating
+E26,E31,5,d (During),False,she arrived in Singapore late Saturday evening,she had learned long ago that travel required flexibility
+E26,E32,1,< (Precedes),False,she arrived in Singapore late Saturday evening,"Anger, she told herself, did not make planes arrive faster"
+E27,E1,-2,mi (Met By),False,nearly twenty-four hours after her original schedule,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E27,E2,3,o (Overlaps),False,nearly twenty-four hours after her original schedule,She was traveling for a conference
+E27,E3,1,< (Precedes),False,nearly twenty-four hours after her original schedule,that would begin the following Monday
+E27,E4,3,o (Overlaps),False,nearly twenty-four hours after her original schedule,she had planned to spend the weekend exploring the city before the sessions began
+E27,E5,-5,di (Contains),False,nearly twenty-four hours after her original schedule,She arrived at the airport three hours before departure
+E27,E6,4,s (Starts),False,nearly twenty-four hours after her original schedule,as she always did
+E27,E7,-5,di (Contains),False,nearly twenty-four hours after her original schedule,checked in without incident
+E27,E8,-5,di (Contains),False,nearly twenty-four hours after her original schedule,The delay was announced an hour before boarding
+E27,E9,-5,di (Contains),False,nearly twenty-four hours after her original schedule,A mechanical issue had been discovered during the pre-flight inspection
+E27,E10,-5,di (Contains),False,nearly twenty-four hours after her original schedule,the engineers were working on it
+E27,E11,-5,di (Contains),False,nearly twenty-four hours after her original schedule,The airline representative said the delay would be approximately two hours
+E27,E12,-5,di (Contains),False,nearly twenty-four hours after her original schedule,Sharmin settled into a chair at the gate
+E27,E13,-5,di (Contains),False,nearly twenty-four hours after her original schedule,opened her book
+E27,E14,-5,di (Contains),False,nearly twenty-four hours after her original schedule,Two hours became four
+E27,E15,-5,di (Contains),False,nearly twenty-four hours after her original schedule,Four became six
+E27,E16,-5,di (Contains),False,nearly twenty-four hours after her original schedule,The airline provided meal vouchers and periodic updates
+E27,E17,-5,di (Contains),False,nearly twenty-four hours after her original schedule,none of which contained good news
+E27,E18,-5,di (Contains),False,nearly twenty-four hours after her original schedule,The mechanical issue was more complex than initially thought
+E27,E19,-5,di (Contains),False,nearly twenty-four hours after her original schedule,the part needed for the repair was not available at the airport
+E27,E20,-5,di (Contains),False,nearly twenty-four hours after her original schedule,A replacement part had been ordered from a warehouse
+E27,E21,-5,di (Contains),False,nearly twenty-four hours after her original schedule,would arrive the following morning
+E27,E22,-5,di (Contains),False,nearly twenty-four hours after her original schedule,Sharmin was rebooked on a flight departing on Saturday afternoon
+E27,E23,-5,di (Contains),False,nearly twenty-four hours after her original schedule,She spent the night at an airport hotel
+E27,E24,-5,di (Contains),False,nearly twenty-four hours after her original schedule,returned to the terminal the next morning
+E27,E25,-5,di (Contains),False,nearly twenty-four hours after her original schedule,The replacement flight departed on time
+E27,E26,2,m (Meets),False,nearly twenty-four hours after her original schedule,she arrived in Singapore late Saturday evening
+E27,E28,1,< (Precedes),False,nearly twenty-four hours after her original schedule,She had lost her weekend of exploration
+E27,E29,1,< (Precedes),False,nearly twenty-four hours after her original schedule,she made it to the conference on Monday morning as planned
+E27,E30,-6,fi (Finished By),False,nearly twenty-four hours after her original schedule,The delay had been frustrating
+E27,E31,4,s (Starts),False,nearly twenty-four hours after her original schedule,she had learned long ago that travel required flexibility
+E27,E32,1,< (Precedes),False,nearly twenty-four hours after her original schedule,"Anger, she told herself, did not make planes arrive faster"
+E28,E1,-1,> (Preceded By),False,She had lost her weekend of exploration,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E28,E2,5,d (During),False,She had lost her weekend of exploration,She was traveling for a conference
+E28,E3,1,< (Precedes),False,She had lost her weekend of exploration,that would begin the following Monday
+E28,E4,5,d (During),False,She had lost her weekend of exploration,she had planned to spend the weekend exploring the city before the sessions began
+E28,E5,-1,> (Preceded By),False,She had lost her weekend of exploration,She arrived at the airport three hours before departure
+E28,E6,5,d (During),False,She had lost her weekend of exploration,as she always did
+E28,E7,-1,> (Preceded By),False,She had lost her weekend of exploration,checked in without incident
+E28,E8,-1,> (Preceded By),False,She had lost her weekend of exploration,The delay was announced an hour before boarding
+E28,E9,-1,> (Preceded By),False,She had lost her weekend of exploration,A mechanical issue had been discovered during the pre-flight inspection
+E28,E10,-1,> (Preceded By),False,She had lost her weekend of exploration,the engineers were working on it
+E28,E11,-1,> (Preceded By),False,She had lost her weekend of exploration,The airline representative said the delay would be approximately two hours
+E28,E12,-1,> (Preceded By),False,She had lost her weekend of exploration,Sharmin settled into a chair at the gate
+E28,E13,-1,> (Preceded By),False,She had lost her weekend of exploration,opened her book
+E28,E14,-1,> (Preceded By),False,She had lost her weekend of exploration,Two hours became four
+E28,E15,-1,> (Preceded By),False,She had lost her weekend of exploration,Four became six
+E28,E16,-1,> (Preceded By),False,She had lost her weekend of exploration,The airline provided meal vouchers and periodic updates
+E28,E17,-1,> (Preceded By),False,She had lost her weekend of exploration,none of which contained good news
+E28,E18,-1,> (Preceded By),False,She had lost her weekend of exploration,The mechanical issue was more complex than initially thought
+E28,E19,-1,> (Preceded By),False,She had lost her weekend of exploration,the part needed for the repair was not available at the airport
+E28,E20,-1,> (Preceded By),False,She had lost her weekend of exploration,A replacement part had been ordered from a warehouse
+E28,E21,-1,> (Preceded By),False,She had lost her weekend of exploration,would arrive the following morning
+E28,E22,-1,> (Preceded By),False,She had lost her weekend of exploration,Sharmin was rebooked on a flight departing on Saturday afternoon
+E28,E23,-1,> (Preceded By),False,She had lost her weekend of exploration,She spent the night at an airport hotel
+E28,E24,-1,> (Preceded By),False,She had lost her weekend of exploration,returned to the terminal the next morning
+E28,E25,-1,> (Preceded By),False,She had lost her weekend of exploration,The replacement flight departed on time
+E28,E26,-1,> (Preceded By),False,She had lost her weekend of exploration,she arrived in Singapore late Saturday evening
+E28,E27,-1,> (Preceded By),False,She had lost her weekend of exploration,nearly twenty-four hours after her original schedule
+E28,E29,1,< (Precedes),False,She had lost her weekend of exploration,she made it to the conference on Monday morning as planned
+E28,E30,-1,> (Preceded By),False,She had lost her weekend of exploration,The delay had been frustrating
+E28,E31,5,d (During),False,She had lost her weekend of exploration,she had learned long ago that travel required flexibility
+E28,E32,1,< (Precedes),False,She had lost her weekend of exploration,"Anger, she told herself, did not make planes arrive faster"
+E29,E1,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E29,E2,5,d (During),False,she made it to the conference on Monday morning as planned,She was traveling for a conference
+E29,E3,0,= (Equal),False,she made it to the conference on Monday morning as planned,that would begin the following Monday
+E29,E4,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,she had planned to spend the weekend exploring the city before the sessions began
+E29,E5,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,She arrived at the airport three hours before departure
+E29,E6,5,d (During),False,she made it to the conference on Monday morning as planned,as she always did
+E29,E7,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,checked in without incident
+E29,E8,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,The delay was announced an hour before boarding
+E29,E9,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,A mechanical issue had been discovered during the pre-flight inspection
+E29,E10,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,the engineers were working on it
+E29,E11,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,The airline representative said the delay would be approximately two hours
+E29,E12,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,Sharmin settled into a chair at the gate
+E29,E13,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,opened her book
+E29,E14,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,Two hours became four
+E29,E15,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,Four became six
+E29,E16,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,The airline provided meal vouchers and periodic updates
+E29,E17,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,none of which contained good news
+E29,E18,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,The mechanical issue was more complex than initially thought
+E29,E19,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,the part needed for the repair was not available at the airport
+E29,E20,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,A replacement part had been ordered from a warehouse
+E29,E21,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,would arrive the following morning
+E29,E22,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,Sharmin was rebooked on a flight departing on Saturday afternoon
+E29,E23,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,She spent the night at an airport hotel
+E29,E24,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,returned to the terminal the next morning
+E29,E25,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,The replacement flight departed on time
+E29,E26,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,she arrived in Singapore late Saturday evening
+E29,E27,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,nearly twenty-four hours after her original schedule
+E29,E28,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,She had lost her weekend of exploration
+E29,E30,-1,> (Preceded By),False,she made it to the conference on Monday morning as planned,The delay had been frustrating
+E29,E31,5,d (During),False,she made it to the conference on Monday morning as planned,she had learned long ago that travel required flexibility
+E29,E32,1,< (Precedes),False,she made it to the conference on Monday morning as planned,"Anger, she told herself, did not make planes arrive faster"
+E30,E1,-1,> (Preceded By),False,The delay had been frustrating,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E30,E2,5,d (During),False,The delay had been frustrating,She was traveling for a conference
+E30,E3,1,< (Precedes),False,The delay had been frustrating,that would begin the following Monday
+E30,E4,5,d (During),False,The delay had been frustrating,she had planned to spend the weekend exploring the city before the sessions began
+E30,E5,-1,> (Preceded By),False,The delay had been frustrating,She arrived at the airport three hours before departure
+E30,E6,5,d (During),False,The delay had been frustrating,as she always did
+E30,E7,-1,> (Preceded By),False,The delay had been frustrating,checked in without incident
+E30,E8,-2,mi (Met By),False,The delay had been frustrating,The delay was announced an hour before boarding
+E30,E9,-5,di (Contains),False,The delay had been frustrating,A mechanical issue had been discovered during the pre-flight inspection
+E30,E10,-5,di (Contains),False,The delay had been frustrating,the engineers were working on it
+E30,E11,-5,di (Contains),False,The delay had been frustrating,The airline representative said the delay would be approximately two hours
+E30,E12,-5,di (Contains),False,The delay had been frustrating,Sharmin settled into a chair at the gate
+E30,E13,-5,di (Contains),False,The delay had been frustrating,opened her book
+E30,E14,-5,di (Contains),False,The delay had been frustrating,Two hours became four
+E30,E15,-5,di (Contains),False,The delay had been frustrating,Four became six
+E30,E16,-5,di (Contains),False,The delay had been frustrating,The airline provided meal vouchers and periodic updates
+E30,E17,-5,di (Contains),False,The delay had been frustrating,none of which contained good news
+E30,E18,-5,di (Contains),False,The delay had been frustrating,The mechanical issue was more complex than initially thought
+E30,E19,-5,di (Contains),False,The delay had been frustrating,the part needed for the repair was not available at the airport
+E30,E20,-5,di (Contains),False,The delay had been frustrating,A replacement part had been ordered from a warehouse
+E30,E21,-5,di (Contains),False,The delay had been frustrating,would arrive the following morning
+E30,E22,-5,di (Contains),False,The delay had been frustrating,Sharmin was rebooked on a flight departing on Saturday afternoon
+E30,E23,-5,di (Contains),False,The delay had been frustrating,She spent the night at an airport hotel
+E30,E24,-5,di (Contains),False,The delay had been frustrating,returned to the terminal the next morning
+E30,E25,-5,di (Contains),False,The delay had been frustrating,The replacement flight departed on time
+E30,E26,2,m (Meets),False,The delay had been frustrating,she arrived in Singapore late Saturday evening
+E30,E27,6,f (Finishes),False,The delay had been frustrating,nearly twenty-four hours after her original schedule
+E30,E28,1,< (Precedes),False,The delay had been frustrating,She had lost her weekend of exploration
+E30,E29,1,< (Precedes),False,The delay had been frustrating,she made it to the conference on Monday morning as planned
+E30,E31,5,d (During),False,The delay had been frustrating,she had learned long ago that travel required flexibility
+E30,E32,1,< (Precedes),False,The delay had been frustrating,"Anger, she told herself, did not make planes arrive faster"
+E31,E1,-2,mi (Met By),False,she had learned long ago that travel required flexibility,Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E31,E2,-5,di (Contains),False,she had learned long ago that travel required flexibility,She was traveling for a conference
+E31,E3,-5,di (Contains),False,she had learned long ago that travel required flexibility,that would begin the following Monday
+E31,E4,-5,di (Contains),False,she had learned long ago that travel required flexibility,she had planned to spend the weekend exploring the city before the sessions began
+E31,E5,-5,di (Contains),False,she had learned long ago that travel required flexibility,She arrived at the airport three hours before departure
+E31,E6,0,= (Equal),False,she had learned long ago that travel required flexibility,as she always did
+E31,E7,-5,di (Contains),False,she had learned long ago that travel required flexibility,checked in without incident
+E31,E8,-5,di (Contains),False,she had learned long ago that travel required flexibility,The delay was announced an hour before boarding
+E31,E9,-5,di (Contains),False,she had learned long ago that travel required flexibility,A mechanical issue had been discovered during the pre-flight inspection
+E31,E10,-5,di (Contains),False,she had learned long ago that travel required flexibility,the engineers were working on it
+E31,E11,-5,di (Contains),False,she had learned long ago that travel required flexibility,The airline representative said the delay would be approximately two hours
+E31,E12,-5,di (Contains),False,she had learned long ago that travel required flexibility,Sharmin settled into a chair at the gate
+E31,E13,-5,di (Contains),False,she had learned long ago that travel required flexibility,opened her book
+E31,E14,-5,di (Contains),False,she had learned long ago that travel required flexibility,Two hours became four
+E31,E15,-5,di (Contains),False,she had learned long ago that travel required flexibility,Four became six
+E31,E16,-5,di (Contains),False,she had learned long ago that travel required flexibility,The airline provided meal vouchers and periodic updates
+E31,E17,-5,di (Contains),False,she had learned long ago that travel required flexibility,none of which contained good news
+E31,E18,-5,di (Contains),False,she had learned long ago that travel required flexibility,The mechanical issue was more complex than initially thought
+E31,E19,-5,di (Contains),False,she had learned long ago that travel required flexibility,the part needed for the repair was not available at the airport
+E31,E20,-5,di (Contains),False,she had learned long ago that travel required flexibility,A replacement part had been ordered from a warehouse
+E31,E21,-5,di (Contains),False,she had learned long ago that travel required flexibility,would arrive the following morning
+E31,E22,-5,di (Contains),False,she had learned long ago that travel required flexibility,Sharmin was rebooked on a flight departing on Saturday afternoon
+E31,E23,-5,di (Contains),False,she had learned long ago that travel required flexibility,She spent the night at an airport hotel
+E31,E24,-5,di (Contains),False,she had learned long ago that travel required flexibility,returned to the terminal the next morning
+E31,E25,-5,di (Contains),False,she had learned long ago that travel required flexibility,The replacement flight departed on time
+E31,E26,-5,di (Contains),False,she had learned long ago that travel required flexibility,she arrived in Singapore late Saturday evening
+E31,E27,-4,si (Started By),False,she had learned long ago that travel required flexibility,nearly twenty-four hours after her original schedule
+E31,E28,-5,di (Contains),False,she had learned long ago that travel required flexibility,She had lost her weekend of exploration
+E31,E29,-5,di (Contains),False,she had learned long ago that travel required flexibility,she made it to the conference on Monday morning as planned
+E31,E30,-5,di (Contains),False,she had learned long ago that travel required flexibility,The delay had been frustrating
+E31,E32,-5,di (Contains),False,she had learned long ago that travel required flexibility,"Anger, she told herself, did not make planes arrive faster"
+E32,E1,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",Sharmin's flight to Singapore was scheduled to depart on a Friday evening in the first week of November
+E32,E2,-2,mi (Met By),False,"Anger, she told herself, did not make planes arrive faster",She was traveling for a conference
+E32,E3,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",that would begin the following Monday
+E32,E4,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",she had planned to spend the weekend exploring the city before the sessions began
+E32,E5,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",She arrived at the airport three hours before departure
+E32,E6,5,d (During),False,"Anger, she told herself, did not make planes arrive faster",as she always did
+E32,E7,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",checked in without incident
+E32,E8,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",The delay was announced an hour before boarding
+E32,E9,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",A mechanical issue had been discovered during the pre-flight inspection
+E32,E10,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",the engineers were working on it
+E32,E11,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",The airline representative said the delay would be approximately two hours
+E32,E12,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",Sharmin settled into a chair at the gate
+E32,E13,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",opened her book
+E32,E14,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",Two hours became four
+E32,E15,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",Four became six
+E32,E16,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",The airline provided meal vouchers and periodic updates
+E32,E17,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",none of which contained good news
+E32,E18,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",The mechanical issue was more complex than initially thought
+E32,E19,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",the part needed for the repair was not available at the airport
+E32,E20,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",A replacement part had been ordered from a warehouse
+E32,E21,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",would arrive the following morning
+E32,E22,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",Sharmin was rebooked on a flight departing on Saturday afternoon
+E32,E23,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",She spent the night at an airport hotel
+E32,E24,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",returned to the terminal the next morning
+E32,E25,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",The replacement flight departed on time
+E32,E26,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",she arrived in Singapore late Saturday evening
+E32,E27,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",nearly twenty-four hours after her original schedule
+E32,E28,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",She had lost her weekend of exploration
+E32,E29,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",she made it to the conference on Monday morning as planned
+E32,E30,-1,> (Preceded By),False,"Anger, she told herself, did not make planes arrive faster",The delay had been frustrating
+E32,E31,5,d (During),False,"Anger, she told herself, did not make planes arrive faster",she had learned long ago that travel required flexibility

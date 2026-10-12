@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,Jamshed had been pulling his rickshaw,working abroad
+E1,E3,-5,di (Contains),False,Jamshed had been pulling his rickshaw,The journey
+E1,E4,-5,di (Contains),False,Jamshed had been pulling his rickshaw,"During the ride, she told him"
+E1,E5,-5,di (Contains),False,Jamshed had been pulling his rickshaw,She apologized
+E1,E6,1,< (Precedes),False,Jamshed had been pulling his rickshaw,he found an envelope
+E1,E7,1,< (Precedes),False,Jamshed had been pulling his rickshaw,ate the sweets that evening and thought
+E1,E8,-5,di (Contains),False,Jamshed had been pulling his rickshaw,working abroad for five years
+E1,E9,0,= (Equal),False,Jamshed had been pulling his rickshaw,pulling his rickshaw through the city streets for twenty-two years
+E1,E10,-5,di (Contains),False,Jamshed had been pulling his rickshaw,a woman flagged him near the train station
+E1,E11,-5,di (Contains),False,Jamshed had been pulling his rickshaw,helped her load the suitcases
+E1,E12,-6,fi (Finished By),False,Jamshed had been pulling his rickshaw,reached her destination
+E1,E13,-5,di (Contains),False,Jamshed had been pulling his rickshaw,discovered she had left her wallet on the train
+E1,E14,-5,di (Contains),False,Jamshed had been pulling his rickshaw,told her the ride was free
+E1,E15,-5,di (Contains),False,Jamshed had been pulling his rickshaw,accepted with tears in her eyes
+E1,E16,1,< (Precedes),False,Jamshed had been pulling his rickshaw,found an envelope taped to his rickshaw seat
+E1,E17,1,< (Precedes),False,Jamshed had been pulling his rickshaw,Jamshed ate the sweets
+E2,E1,5,d (During),False,working abroad,Jamshed had been pulling his rickshaw
+E2,E3,2,m (Meets),False,working abroad,The journey
+E2,E4,1,< (Precedes),False,working abroad,"During the ride, she told him"
+E2,E5,1,< (Precedes),False,working abroad,She apologized
+E2,E6,1,< (Precedes),False,working abroad,he found an envelope
+E2,E7,1,< (Precedes),False,working abroad,ate the sweets that evening and thought
+E2,E8,0,= (Equal),False,working abroad,working abroad for five years
+E2,E9,5,d (During),False,working abroad,pulling his rickshaw through the city streets for twenty-two years
+E2,E10,-6,fi (Finished By),False,working abroad,a woman flagged him near the train station
+E2,E11,2,m (Meets),False,working abroad,helped her load the suitcases
+E2,E12,1,< (Precedes),False,working abroad,reached her destination
+E2,E13,1,< (Precedes),False,working abroad,discovered she had left her wallet on the train
+E2,E14,1,< (Precedes),False,working abroad,told her the ride was free
+E2,E15,1,< (Precedes),False,working abroad,accepted with tears in her eyes
+E2,E16,1,< (Precedes),False,working abroad,found an envelope taped to his rickshaw seat
+E2,E17,1,< (Precedes),False,working abroad,Jamshed ate the sweets
+E3,E1,5,d (During),False,The journey,Jamshed had been pulling his rickshaw
+E3,E2,-2,mi (Met By),False,The journey,working abroad
+E3,E4,-5,di (Contains),False,The journey,"During the ride, she told him"
+E3,E5,2,m (Meets),False,The journey,She apologized
+E3,E6,1,< (Precedes),False,The journey,he found an envelope
+E3,E7,1,< (Precedes),False,The journey,ate the sweets that evening and thought
+E3,E8,-2,mi (Met By),False,The journey,working abroad for five years
+E3,E9,5,d (During),False,The journey,pulling his rickshaw through the city streets for twenty-two years
+E3,E10,-2,mi (Met By),False,The journey,a woman flagged him near the train station
+E3,E11,-4,si (Started By),False,The journey,helped her load the suitcases
+E3,E12,2,m (Meets),False,The journey,reached her destination
+E3,E13,2,m (Meets),False,The journey,discovered she had left her wallet on the train
+E3,E14,1,< (Precedes),False,The journey,told her the ride was free
+E3,E15,1,< (Precedes),False,The journey,accepted with tears in her eyes
+E3,E16,1,< (Precedes),False,The journey,found an envelope taped to his rickshaw seat
+E3,E17,1,< (Precedes),False,The journey,Jamshed ate the sweets
+E4,E1,5,d (During),False,"During the ride, she told him",Jamshed had been pulling his rickshaw
+E4,E2,-1,> (Preceded By),False,"During the ride, she told him",working abroad
+E4,E3,5,d (During),False,"During the ride, she told him",The journey
+E4,E5,1,< (Precedes),False,"During the ride, she told him",She apologized
+E4,E6,1,< (Precedes),False,"During the ride, she told him",he found an envelope
+E4,E7,1,< (Precedes),False,"During the ride, she told him",ate the sweets that evening and thought
+E4,E8,-1,> (Preceded By),False,"During the ride, she told him",working abroad for five years
+E4,E9,5,d (During),False,"During the ride, she told him",pulling his rickshaw through the city streets for twenty-two years
+E4,E10,-1,> (Preceded By),False,"During the ride, she told him",a woman flagged him near the train station
+E4,E11,-2,mi (Met By),False,"During the ride, she told him",helped her load the suitcases
+E4,E12,1,< (Precedes),False,"During the ride, she told him",reached her destination
+E4,E13,1,< (Precedes),False,"During the ride, she told him",discovered she had left her wallet on the train
+E4,E14,1,< (Precedes),False,"During the ride, she told him",told her the ride was free
+E4,E15,1,< (Precedes),False,"During the ride, she told him",accepted with tears in her eyes
+E4,E16,1,< (Precedes),False,"During the ride, she told him",found an envelope taped to his rickshaw seat
+E4,E17,1,< (Precedes),False,"During the ride, she told him",Jamshed ate the sweets
+E5,E1,5,d (During),False,She apologized,Jamshed had been pulling his rickshaw
+E5,E2,-1,> (Preceded By),False,She apologized,working abroad
+E5,E3,-2,mi (Met By),False,She apologized,The journey
+E5,E4,-1,> (Preceded By),False,She apologized,"During the ride, she told him"
+E5,E6,1,< (Precedes),False,She apologized,he found an envelope
+E5,E7,1,< (Precedes),False,She apologized,ate the sweets that evening and thought
+E5,E8,-1,> (Preceded By),False,She apologized,working abroad for five years
+E5,E9,5,d (During),False,She apologized,pulling his rickshaw through the city streets for twenty-two years
+E5,E10,-1,> (Preceded By),False,She apologized,a woman flagged him near the train station
+E5,E11,-1,> (Preceded By),False,She apologized,helped her load the suitcases
+E5,E12,4,s (Starts),False,She apologized,reached her destination
+E5,E13,0,= (Equal),False,She apologized,discovered she had left her wallet on the train
+E5,E14,2,m (Meets),False,She apologized,told her the ride was free
+E5,E15,1,< (Precedes),False,She apologized,accepted with tears in her eyes
+E5,E16,1,< (Precedes),False,She apologized,found an envelope taped to his rickshaw seat
+E5,E17,1,< (Precedes),False,She apologized,Jamshed ate the sweets
+E6,E1,-1,> (Preceded By),False,he found an envelope,Jamshed had been pulling his rickshaw
+E6,E2,-1,> (Preceded By),False,he found an envelope,working abroad
+E6,E3,-1,> (Preceded By),False,he found an envelope,The journey
+E6,E4,-1,> (Preceded By),False,he found an envelope,"During the ride, she told him"
+E6,E5,-1,> (Preceded By),False,he found an envelope,She apologized
+E6,E7,1,< (Precedes),False,he found an envelope,ate the sweets that evening and thought
+E6,E8,-1,> (Preceded By),False,he found an envelope,working abroad for five years
+E6,E9,-1,> (Preceded By),False,he found an envelope,pulling his rickshaw through the city streets for twenty-two years
+E6,E10,-1,> (Preceded By),False,he found an envelope,a woman flagged him near the train station
+E6,E11,-1,> (Preceded By),False,he found an envelope,helped her load the suitcases
+E6,E12,-1,> (Preceded By),False,he found an envelope,reached her destination
+E6,E13,-1,> (Preceded By),False,he found an envelope,discovered she had left her wallet on the train
+E6,E14,-1,> (Preceded By),False,he found an envelope,told her the ride was free
+E6,E15,-1,> (Preceded By),False,he found an envelope,accepted with tears in her eyes
+E6,E16,0,= (Equal),False,he found an envelope,found an envelope taped to his rickshaw seat
+E6,E17,1,< (Precedes),False,he found an envelope,Jamshed ate the sweets
+E7,E1,-1,> (Preceded By),False,ate the sweets that evening and thought,Jamshed had been pulling his rickshaw
+E7,E2,-1,> (Preceded By),False,ate the sweets that evening and thought,working abroad
+E7,E3,-1,> (Preceded By),False,ate the sweets that evening and thought,The journey
+E7,E4,-1,> (Preceded By),False,ate the sweets that evening and thought,"During the ride, she told him"
+E7,E5,-1,> (Preceded By),False,ate the sweets that evening and thought,She apologized
+E7,E6,-1,> (Preceded By),False,ate the sweets that evening and thought,he found an envelope
+E7,E8,-1,> (Preceded By),False,ate the sweets that evening and thought,working abroad for five years
+E7,E9,-1,> (Preceded By),False,ate the sweets that evening and thought,pulling his rickshaw through the city streets for twenty-two years
+E7,E10,-1,> (Preceded By),False,ate the sweets that evening and thought,a woman flagged him near the train station
+E7,E11,-1,> (Preceded By),False,ate the sweets that evening and thought,helped her load the suitcases
+E7,E12,-1,> (Preceded By),False,ate the sweets that evening and thought,reached her destination
+E7,E13,-1,> (Preceded By),False,ate the sweets that evening and thought,discovered she had left her wallet on the train
+E7,E14,-1,> (Preceded By),False,ate the sweets that evening and thought,told her the ride was free
+E7,E15,-1,> (Preceded By),False,ate the sweets that evening and thought,accepted with tears in her eyes
+E7,E16,-1,> (Preceded By),False,ate the sweets that evening and thought,found an envelope taped to his rickshaw seat
+E7,E17,-4,si (Started By),False,ate the sweets that evening and thought,Jamshed ate the sweets
+E8,E1,5,d (During),False,working abroad for five years,Jamshed had been pulling his rickshaw
+E8,E2,0,= (Equal),False,working abroad for five years,working abroad
+E8,E3,2,m (Meets),False,working abroad for five years,The journey
+E8,E4,1,< (Precedes),False,working abroad for five years,"During the ride, she told him"
+E8,E5,1,< (Precedes),False,working abroad for five years,She apologized
+E8,E6,1,< (Precedes),False,working abroad for five years,he found an envelope
+E8,E7,1,< (Precedes),False,working abroad for five years,ate the sweets that evening and thought
+E8,E9,5,d (During),False,working abroad for five years,pulling his rickshaw through the city streets for twenty-two years
+E8,E10,-6,fi (Finished By),False,working abroad for five years,a woman flagged him near the train station
+E8,E11,2,m (Meets),False,working abroad for five years,helped her load the suitcases
+E8,E12,1,< (Precedes),False,working abroad for five years,reached her destination
+E8,E13,1,< (Precedes),False,working abroad for five years,discovered she had left her wallet on the train
+E8,E14,1,< (Precedes),False,working abroad for five years,told her the ride was free
+E8,E15,1,< (Precedes),False,working abroad for five years,accepted with tears in her eyes
+E8,E16,1,< (Precedes),False,working abroad for five years,found an envelope taped to his rickshaw seat
+E8,E17,1,< (Precedes),False,working abroad for five years,Jamshed ate the sweets
+E9,E1,0,= (Equal),False,pulling his rickshaw through the city streets for twenty-two years,Jamshed had been pulling his rickshaw
+E9,E2,-5,di (Contains),False,pulling his rickshaw through the city streets for twenty-two years,working abroad
+E9,E3,-5,di (Contains),False,pulling his rickshaw through the city streets for twenty-two years,The journey
+E9,E4,-5,di (Contains),False,pulling his rickshaw through the city streets for twenty-two years,"During the ride, she told him"
+E9,E5,-5,di (Contains),False,pulling his rickshaw through the city streets for twenty-two years,She apologized
+E9,E6,1,< (Precedes),False,pulling his rickshaw through the city streets for twenty-two years,he found an envelope
+E9,E7,1,< (Precedes),False,pulling his rickshaw through the city streets for twenty-two years,ate the sweets that evening and thought
+E9,E8,-5,di (Contains),False,pulling his rickshaw through the city streets for twenty-two years,working abroad for five years
+E9,E10,-5,di (Contains),False,pulling his rickshaw through the city streets for twenty-two years,a woman flagged him near the train station
+E9,E11,-5,di (Contains),False,pulling his rickshaw through the city streets for twenty-two years,helped her load the suitcases
+E9,E12,-6,fi (Finished By),False,pulling his rickshaw through the city streets for twenty-two years,reached her destination
+E9,E13,-5,di (Contains),False,pulling his rickshaw through the city streets for twenty-two years,discovered she had left her wallet on the train
+E9,E14,-5,di (Contains),False,pulling his rickshaw through the city streets for twenty-two years,told her the ride was free
+E9,E15,-5,di (Contains),False,pulling his rickshaw through the city streets for twenty-two years,accepted with tears in her eyes
+E9,E16,1,< (Precedes),False,pulling his rickshaw through the city streets for twenty-two years,found an envelope taped to his rickshaw seat
+E9,E17,1,< (Precedes),False,pulling his rickshaw through the city streets for twenty-two years,Jamshed ate the sweets
+E10,E1,5,d (During),False,a woman flagged him near the train station,Jamshed had been pulling his rickshaw
+E10,E2,6,f (Finishes),False,a woman flagged him near the train station,working abroad
+E10,E3,2,m (Meets),False,a woman flagged him near the train station,The journey
+E10,E4,1,< (Precedes),False,a woman flagged him near the train station,"During the ride, she told him"
+E10,E5,1,< (Precedes),False,a woman flagged him near the train station,She apologized
+E10,E6,1,< (Precedes),False,a woman flagged him near the train station,he found an envelope
+E10,E7,1,< (Precedes),False,a woman flagged him near the train station,ate the sweets that evening and thought
+E10,E8,6,f (Finishes),False,a woman flagged him near the train station,working abroad for five years
+E10,E9,5,d (During),False,a woman flagged him near the train station,pulling his rickshaw through the city streets for twenty-two years
+E10,E11,2,m (Meets),False,a woman flagged him near the train station,helped her load the suitcases
+E10,E12,1,< (Precedes),False,a woman flagged him near the train station,reached her destination
+E10,E13,1,< (Precedes),False,a woman flagged him near the train station,discovered she had left her wallet on the train
+E10,E14,1,< (Precedes),False,a woman flagged him near the train station,told her the ride was free
+E10,E15,1,< (Precedes),False,a woman flagged him near the train station,accepted with tears in her eyes
+E10,E16,1,< (Precedes),False,a woman flagged him near the train station,found an envelope taped to his rickshaw seat
+E10,E17,1,< (Precedes),False,a woman flagged him near the train station,Jamshed ate the sweets
+E11,E1,5,d (During),False,helped her load the suitcases,Jamshed had been pulling his rickshaw
+E11,E2,-2,mi (Met By),False,helped her load the suitcases,working abroad
+E11,E3,4,s (Starts),False,helped her load the suitcases,The journey
+E11,E4,2,m (Meets),False,helped her load the suitcases,"During the ride, she told him"
+E11,E5,1,< (Precedes),False,helped her load the suitcases,She apologized
+E11,E6,1,< (Precedes),False,helped her load the suitcases,he found an envelope
+E11,E7,1,< (Precedes),False,helped her load the suitcases,ate the sweets that evening and thought
+E11,E8,-2,mi (Met By),False,helped her load the suitcases,working abroad for five years
+E11,E9,5,d (During),False,helped her load the suitcases,pulling his rickshaw through the city streets for twenty-two years
+E11,E10,-2,mi (Met By),False,helped her load the suitcases,a woman flagged him near the train station
+E11,E12,1,< (Precedes),False,helped her load the suitcases,reached her destination
+E11,E13,1,< (Precedes),False,helped her load the suitcases,discovered she had left her wallet on the train
+E11,E14,1,< (Precedes),False,helped her load the suitcases,told her the ride was free
+E11,E15,1,< (Precedes),False,helped her load the suitcases,accepted with tears in her eyes
+E11,E16,1,< (Precedes),False,helped her load the suitcases,found an envelope taped to his rickshaw seat
+E11,E17,1,< (Precedes),False,helped her load the suitcases,Jamshed ate the sweets
+E12,E1,6,f (Finishes),False,reached her destination,Jamshed had been pulling his rickshaw
+E12,E2,-1,> (Preceded By),False,reached her destination,working abroad
+E12,E3,-2,mi (Met By),False,reached her destination,The journey
+E12,E4,-1,> (Preceded By),False,reached her destination,"During the ride, she told him"
+E12,E5,-4,si (Started By),False,reached her destination,She apologized
+E12,E6,1,< (Precedes),False,reached her destination,he found an envelope
+E12,E7,1,< (Precedes),False,reached her destination,ate the sweets that evening and thought
+E12,E8,-1,> (Preceded By),False,reached her destination,working abroad for five years
+E12,E9,6,f (Finishes),False,reached her destination,pulling his rickshaw through the city streets for twenty-two years
+E12,E10,-1,> (Preceded By),False,reached her destination,a woman flagged him near the train station
+E12,E11,-1,> (Preceded By),False,reached her destination,helped her load the suitcases
+E12,E13,-4,si (Started By),False,reached her destination,discovered she had left her wallet on the train
+E12,E14,-5,di (Contains),False,reached her destination,told her the ride was free
+E12,E15,-5,di (Contains),False,reached her destination,accepted with tears in her eyes
+E12,E16,1,< (Precedes),False,reached her destination,found an envelope taped to his rickshaw seat
+E12,E17,1,< (Precedes),False,reached her destination,Jamshed ate the sweets
+E13,E1,5,d (During),False,discovered she had left her wallet on the train,Jamshed had been pulling his rickshaw
+E13,E2,-1,> (Preceded By),False,discovered she had left her wallet on the train,working abroad
+E13,E3,-2,mi (Met By),False,discovered she had left her wallet on the train,The journey
+E13,E4,-1,> (Preceded By),False,discovered she had left her wallet on the train,"During the ride, she told him"
+E13,E5,0,= (Equal),False,discovered she had left her wallet on the train,She apologized
+E13,E6,1,< (Precedes),False,discovered she had left her wallet on the train,he found an envelope
+E13,E7,1,< (Precedes),False,discovered she had left her wallet on the train,ate the sweets that evening and thought
+E13,E8,-1,> (Preceded By),False,discovered she had left her wallet on the train,working abroad for five years
+E13,E9,5,d (During),False,discovered she had left her wallet on the train,pulling his rickshaw through the city streets for twenty-two years
+E13,E10,-1,> (Preceded By),False,discovered she had left her wallet on the train,a woman flagged him near the train station
+E13,E11,-1,> (Preceded By),False,discovered she had left her wallet on the train,helped her load the suitcases
+E13,E12,4,s (Starts),False,discovered she had left her wallet on the train,reached her destination
+E13,E14,2,m (Meets),False,discovered she had left her wallet on the train,told her the ride was free
+E13,E15,1,< (Precedes),False,discovered she had left her wallet on the train,accepted with tears in her eyes
+E13,E16,1,< (Precedes),False,discovered she had left her wallet on the train,found an envelope taped to his rickshaw seat
+E13,E17,1,< (Precedes),False,discovered she had left her wallet on the train,Jamshed ate the sweets
+E14,E1,5,d (During),False,told her the ride was free,Jamshed had been pulling his rickshaw
+E14,E2,-1,> (Preceded By),False,told her the ride was free,working abroad
+E14,E3,-1,> (Preceded By),False,told her the ride was free,The journey
+E14,E4,-1,> (Preceded By),False,told her the ride was free,"During the ride, she told him"
+E14,E5,-2,mi (Met By),False,told her the ride was free,She apologized
+E14,E6,1,< (Precedes),False,told her the ride was free,he found an envelope
+E14,E7,1,< (Precedes),False,told her the ride was free,ate the sweets that evening and thought
+E14,E8,-1,> (Preceded By),False,told her the ride was free,working abroad for five years
+E14,E9,5,d (During),False,told her the ride was free,pulling his rickshaw through the city streets for twenty-two years
+E14,E10,-1,> (Preceded By),False,told her the ride was free,a woman flagged him near the train station
+E14,E11,-1,> (Preceded By),False,told her the ride was free,helped her load the suitcases
+E14,E12,5,d (During),False,told her the ride was free,reached her destination
+E14,E13,-2,mi (Met By),False,told her the ride was free,discovered she had left her wallet on the train
+E14,E15,2,m (Meets),False,told her the ride was free,accepted with tears in her eyes
+E14,E16,1,< (Precedes),False,told her the ride was free,found an envelope taped to his rickshaw seat
+E14,E17,1,< (Precedes),False,told her the ride was free,Jamshed ate the sweets
+E15,E1,5,d (During),False,accepted with tears in her eyes,Jamshed had been pulling his rickshaw
+E15,E2,-1,> (Preceded By),False,accepted with tears in her eyes,working abroad
+E15,E3,-1,> (Preceded By),False,accepted with tears in her eyes,The journey
+E15,E4,-1,> (Preceded By),False,accepted with tears in her eyes,"During the ride, she told him"
+E15,E5,-1,> (Preceded By),False,accepted with tears in her eyes,She apologized
+E15,E6,1,< (Precedes),False,accepted with tears in her eyes,he found an envelope
+E15,E7,1,< (Precedes),False,accepted with tears in her eyes,ate the sweets that evening and thought
+E15,E8,-1,> (Preceded By),False,accepted with tears in her eyes,working abroad for five years
+E15,E9,5,d (During),False,accepted with tears in her eyes,pulling his rickshaw through the city streets for twenty-two years
+E15,E10,-1,> (Preceded By),False,accepted with tears in her eyes,a woman flagged him near the train station
+E15,E11,-1,> (Preceded By),False,accepted with tears in her eyes,helped her load the suitcases
+E15,E12,5,d (During),False,accepted with tears in her eyes,reached her destination
+E15,E13,-1,> (Preceded By),False,accepted with tears in her eyes,discovered she had left her wallet on the train
+E15,E14,-2,mi (Met By),False,accepted with tears in her eyes,told her the ride was free
+E15,E16,1,< (Precedes),False,accepted with tears in her eyes,found an envelope taped to his rickshaw seat
+E15,E17,1,< (Precedes),False,accepted with tears in her eyes,Jamshed ate the sweets
+E16,E1,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,Jamshed had been pulling his rickshaw
+E16,E2,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,working abroad
+E16,E3,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,The journey
+E16,E4,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,"During the ride, she told him"
+E16,E5,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,She apologized
+E16,E6,0,= (Equal),False,found an envelope taped to his rickshaw seat,he found an envelope
+E16,E7,1,< (Precedes),False,found an envelope taped to his rickshaw seat,ate the sweets that evening and thought
+E16,E8,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,working abroad for five years
+E16,E9,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,pulling his rickshaw through the city streets for twenty-two years
+E16,E10,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,a woman flagged him near the train station
+E16,E11,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,helped her load the suitcases
+E16,E12,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,reached her destination
+E16,E13,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,discovered she had left her wallet on the train
+E16,E14,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,told her the ride was free
+E16,E15,-1,> (Preceded By),False,found an envelope taped to his rickshaw seat,accepted with tears in her eyes
+E16,E17,1,< (Precedes),False,found an envelope taped to his rickshaw seat,Jamshed ate the sweets
+E17,E1,-1,> (Preceded By),False,Jamshed ate the sweets,Jamshed had been pulling his rickshaw
+E17,E2,-1,> (Preceded By),False,Jamshed ate the sweets,working abroad
+E17,E3,-1,> (Preceded By),False,Jamshed ate the sweets,The journey
+E17,E4,-1,> (Preceded By),False,Jamshed ate the sweets,"During the ride, she told him"
+E17,E5,-1,> (Preceded By),False,Jamshed ate the sweets,She apologized
+E17,E6,-1,> (Preceded By),False,Jamshed ate the sweets,he found an envelope
+E17,E7,4,s (Starts),False,Jamshed ate the sweets,ate the sweets that evening and thought
+E17,E8,-1,> (Preceded By),False,Jamshed ate the sweets,working abroad for five years
+E17,E9,-1,> (Preceded By),False,Jamshed ate the sweets,pulling his rickshaw through the city streets for twenty-two years
+E17,E10,-1,> (Preceded By),False,Jamshed ate the sweets,a woman flagged him near the train station
+E17,E11,-1,> (Preceded By),False,Jamshed ate the sweets,helped her load the suitcases
+E17,E12,-1,> (Preceded By),False,Jamshed ate the sweets,reached her destination
+E17,E13,-1,> (Preceded By),False,Jamshed ate the sweets,discovered she had left her wallet on the train
+E17,E14,-1,> (Preceded By),False,Jamshed ate the sweets,told her the ride was free
+E17,E15,-1,> (Preceded By),False,Jamshed ate the sweets,accepted with tears in her eyes
+E17,E16,-1,> (Preceded By),False,Jamshed ate the sweets,found an envelope taped to his rickshaw seat

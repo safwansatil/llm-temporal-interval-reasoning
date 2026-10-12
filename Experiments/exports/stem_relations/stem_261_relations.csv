@@ -1,0 +1,91 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,the village's reservoirs were at their lowest levels,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting"
+E1,E3,-5,di (Contains),False,the village's reservoirs were at their lowest levels,The canal reached the river
+E1,E4,-5,di (Contains),False,the village's reservoirs were at their lowest levels,half a kilometer had been completed
+E1,E5,-5,di (Contains),False,the village's reservoirs were at their lowest levels,two kilometers of canal had been dug
+E1,E6,-5,di (Contains),False,the village's reservoirs were at their lowest levels,the remaining distance
+E1,E7,2,m (Meets),False,the village's reservoirs were at their lowest levels,Water flowed through the channel for the first time
+E1,E8,1,< (Precedes),False,the village's reservoirs were at their lowest levels,The fields received their first irrigation
+E1,E9,1,< (Precedes),False,the village's reservoirs were at their lowest levels,The harvest that year was modest
+E1,E10,1,< (Precedes),False,the village's reservoirs were at their lowest levels,The canal remains
+E2,E1,5,d (During),False,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting",the village's reservoirs were at their lowest levels
+E2,E3,1,< (Precedes),False,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting",The canal reached the river
+E2,E4,1,< (Precedes),False,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting",half a kilometer had been completed
+E2,E5,1,< (Precedes),False,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting",two kilometers of canal had been dug
+E2,E6,1,< (Precedes),False,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting",the remaining distance
+E2,E7,1,< (Precedes),False,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting",Water flowed through the channel for the first time
+E2,E8,1,< (Precedes),False,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting",The fields received their first irrigation
+E2,E9,1,< (Precedes),False,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting",The harvest that year was modest
+E2,E10,1,< (Precedes),False,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting",The canal remains
+E3,E1,5,d (During),False,The canal reached the river,the village's reservoirs were at their lowest levels
+E3,E2,-1,> (Preceded By),False,The canal reached the river,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting"
+E3,E4,-4,si (Started By),False,The canal reached the river,half a kilometer had been completed
+E3,E5,-4,si (Started By),False,The canal reached the river,two kilometers of canal had been dug
+E3,E6,0,= (Equal),False,The canal reached the river,the remaining distance
+E3,E7,1,< (Precedes),False,The canal reached the river,Water flowed through the channel for the first time
+E3,E8,1,< (Precedes),False,The canal reached the river,The fields received their first irrigation
+E3,E9,1,< (Precedes),False,The canal reached the river,The harvest that year was modest
+E3,E10,1,< (Precedes),False,The canal reached the river,The canal remains
+E4,E1,5,d (During),False,half a kilometer had been completed,the village's reservoirs were at their lowest levels
+E4,E2,-1,> (Preceded By),False,half a kilometer had been completed,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting"
+E4,E3,4,s (Starts),False,half a kilometer had been completed,The canal reached the river
+E4,E5,4,s (Starts),False,half a kilometer had been completed,two kilometers of canal had been dug
+E4,E6,4,s (Starts),False,half a kilometer had been completed,the remaining distance
+E4,E7,1,< (Precedes),False,half a kilometer had been completed,Water flowed through the channel for the first time
+E4,E8,1,< (Precedes),False,half a kilometer had been completed,The fields received their first irrigation
+E4,E9,1,< (Precedes),False,half a kilometer had been completed,The harvest that year was modest
+E4,E10,1,< (Precedes),False,half a kilometer had been completed,The canal remains
+E5,E1,5,d (During),False,two kilometers of canal had been dug,the village's reservoirs were at their lowest levels
+E5,E2,-1,> (Preceded By),False,two kilometers of canal had been dug,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting"
+E5,E3,4,s (Starts),False,two kilometers of canal had been dug,The canal reached the river
+E5,E4,-4,si (Started By),False,two kilometers of canal had been dug,half a kilometer had been completed
+E5,E6,4,s (Starts),False,two kilometers of canal had been dug,the remaining distance
+E5,E7,1,< (Precedes),False,two kilometers of canal had been dug,Water flowed through the channel for the first time
+E5,E8,1,< (Precedes),False,two kilometers of canal had been dug,The fields received their first irrigation
+E5,E9,1,< (Precedes),False,two kilometers of canal had been dug,The harvest that year was modest
+E5,E10,1,< (Precedes),False,two kilometers of canal had been dug,The canal remains
+E6,E1,5,d (During),False,the remaining distance,the village's reservoirs were at their lowest levels
+E6,E2,-1,> (Preceded By),False,the remaining distance,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting"
+E6,E3,0,= (Equal),False,the remaining distance,The canal reached the river
+E6,E4,-4,si (Started By),False,the remaining distance,half a kilometer had been completed
+E6,E5,-4,si (Started By),False,the remaining distance,two kilometers of canal had been dug
+E6,E7,1,< (Precedes),False,the remaining distance,Water flowed through the channel for the first time
+E6,E8,1,< (Precedes),False,the remaining distance,The fields received their first irrigation
+E6,E9,1,< (Precedes),False,the remaining distance,The harvest that year was modest
+E6,E10,1,< (Precedes),False,the remaining distance,The canal remains
+E7,E1,-2,mi (Met By),False,Water flowed through the channel for the first time,the village's reservoirs were at their lowest levels
+E7,E2,-1,> (Preceded By),False,Water flowed through the channel for the first time,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting"
+E7,E3,-1,> (Preceded By),False,Water flowed through the channel for the first time,The canal reached the river
+E7,E4,-1,> (Preceded By),False,Water flowed through the channel for the first time,half a kilometer had been completed
+E7,E5,-1,> (Preceded By),False,Water flowed through the channel for the first time,two kilometers of canal had been dug
+E7,E6,-1,> (Preceded By),False,Water flowed through the channel for the first time,the remaining distance
+E7,E8,1,< (Precedes),False,Water flowed through the channel for the first time,The fields received their first irrigation
+E7,E9,1,< (Precedes),False,Water flowed through the channel for the first time,The harvest that year was modest
+E7,E10,1,< (Precedes),False,Water flowed through the channel for the first time,The canal remains
+E8,E1,-1,> (Preceded By),False,The fields received their first irrigation,the village's reservoirs were at their lowest levels
+E8,E2,-1,> (Preceded By),False,The fields received their first irrigation,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting"
+E8,E3,-1,> (Preceded By),False,The fields received their first irrigation,The canal reached the river
+E8,E4,-1,> (Preceded By),False,The fields received their first irrigation,half a kilometer had been completed
+E8,E5,-1,> (Preceded By),False,The fields received their first irrigation,two kilometers of canal had been dug
+E8,E6,-1,> (Preceded By),False,The fields received their first irrigation,the remaining distance
+E8,E7,-1,> (Preceded By),False,The fields received their first irrigation,Water flowed through the channel for the first time
+E8,E9,1,< (Precedes),False,The fields received their first irrigation,The harvest that year was modest
+E8,E10,1,< (Precedes),False,The fields received their first irrigation,The canal remains
+E9,E1,-1,> (Preceded By),False,The harvest that year was modest,the village's reservoirs were at their lowest levels
+E9,E2,-1,> (Preceded By),False,The harvest that year was modest,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting"
+E9,E3,-1,> (Preceded By),False,The harvest that year was modest,The canal reached the river
+E9,E4,-1,> (Preceded By),False,The harvest that year was modest,half a kilometer had been completed
+E9,E5,-1,> (Preceded By),False,The harvest that year was modest,two kilometers of canal had been dug
+E9,E6,-1,> (Preceded By),False,The harvest that year was modest,the remaining distance
+E9,E7,-1,> (Preceded By),False,The harvest that year was modest,Water flowed through the channel for the first time
+E9,E8,-1,> (Preceded By),False,The harvest that year was modest,The fields received their first irrigation
+E9,E10,2,m (Meets),False,The harvest that year was modest,The canal remains
+E10,E1,-1,> (Preceded By),False,The canal remains,the village's reservoirs were at their lowest levels
+E10,E2,-1,> (Preceded By),False,The canal remains,"Abdul Haq, the village's oldest farmer at seventy-nine, called a meeting"
+E10,E3,-1,> (Preceded By),False,The canal remains,The canal reached the river
+E10,E4,-1,> (Preceded By),False,The canal remains,half a kilometer had been completed
+E10,E5,-1,> (Preceded By),False,The canal remains,two kilometers of canal had been dug
+E10,E6,-1,> (Preceded By),False,The canal remains,the remaining distance
+E10,E7,-1,> (Preceded By),False,The canal remains,Water flowed through the channel for the first time
+E10,E8,-1,> (Preceded By),False,The canal remains,The fields received their first irrigation
+E10,E9,-2,mi (Met By),False,The canal remains,The harvest that year was modest

@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,parked in the same spot dozens of times,no-parking sign had been installed
+E1,E3,1,< (Precedes),False,parked in the same spot dozens of times,parked his car outside the bank
+E1,E4,1,< (Precedes),False,parked in the same spot dozens of times,received the parking ticket
+E1,E5,1,< (Precedes),False,parked in the same spot dozens of times,paid the fine online
+E1,E6,1,< (Precedes),False,parked in the same spot dozens of times,parks in the designated lot behind the post office
+E1,E7,1,< (Precedes),False,parked in the same spot dozens of times,visits every week
+E1,E8,1,< (Precedes),False,parked in the same spot dozens of times,five minutes became twenty
+E1,E9,1,< (Precedes),False,parked in the same spot dozens of times,intending to be inside for only five minutes
+E1,E10,1,< (Precedes),False,parked in the same spot dozens of times,after a complaint from a nearby shopkeeper.
+E1,E11,1,< (Precedes),False,parked in the same spot dozens of times,has discovered a small tea stall along the route
+E2,E1,-1,> (Preceded By),False,no-parking sign had been installed,parked in the same spot dozens of times
+E2,E3,1,< (Precedes),False,no-parking sign had been installed,parked his car outside the bank
+E2,E4,1,< (Precedes),False,no-parking sign had been installed,received the parking ticket
+E2,E5,1,< (Precedes),False,no-parking sign had been installed,paid the fine online
+E2,E6,1,< (Precedes),False,no-parking sign had been installed,parks in the designated lot behind the post office
+E2,E7,1,< (Precedes),False,no-parking sign had been installed,visits every week
+E2,E8,1,< (Precedes),False,no-parking sign had been installed,five minutes became twenty
+E2,E9,1,< (Precedes),False,no-parking sign had been installed,intending to be inside for only five minutes
+E2,E10,-1,> (Preceded By),False,no-parking sign had been installed,after a complaint from a nearby shopkeeper.
+E2,E11,1,< (Precedes),False,no-parking sign had been installed,has discovered a small tea stall along the route
+E3,E1,-1,> (Preceded By),False,parked his car outside the bank,parked in the same spot dozens of times
+E3,E2,-1,> (Preceded By),False,parked his car outside the bank,no-parking sign had been installed
+E3,E4,1,< (Precedes),False,parked his car outside the bank,received the parking ticket
+E3,E5,1,< (Precedes),False,parked his car outside the bank,paid the fine online
+E3,E6,1,< (Precedes),False,parked his car outside the bank,parks in the designated lot behind the post office
+E3,E7,1,< (Precedes),False,parked his car outside the bank,visits every week
+E3,E8,2,m (Meets),False,parked his car outside the bank,five minutes became twenty
+E3,E9,0,= (Equal),False,parked his car outside the bank,intending to be inside for only five minutes
+E3,E10,-1,> (Preceded By),False,parked his car outside the bank,after a complaint from a nearby shopkeeper.
+E3,E11,1,< (Precedes),False,parked his car outside the bank,has discovered a small tea stall along the route
+E4,E1,-1,> (Preceded By),False,received the parking ticket,parked in the same spot dozens of times
+E4,E2,-1,> (Preceded By),False,received the parking ticket,no-parking sign had been installed
+E4,E3,-1,> (Preceded By),False,received the parking ticket,parked his car outside the bank
+E4,E5,1,< (Precedes),False,received the parking ticket,paid the fine online
+E4,E6,1,< (Precedes),False,received the parking ticket,parks in the designated lot behind the post office
+E4,E7,1,< (Precedes),False,received the parking ticket,visits every week
+E4,E8,-2,mi (Met By),False,received the parking ticket,five minutes became twenty
+E4,E9,-1,> (Preceded By),False,received the parking ticket,intending to be inside for only five minutes
+E4,E10,-1,> (Preceded By),False,received the parking ticket,after a complaint from a nearby shopkeeper.
+E4,E11,1,< (Precedes),False,received the parking ticket,has discovered a small tea stall along the route
+E5,E1,-1,> (Preceded By),False,paid the fine online,parked in the same spot dozens of times
+E5,E2,-1,> (Preceded By),False,paid the fine online,no-parking sign had been installed
+E5,E3,-1,> (Preceded By),False,paid the fine online,parked his car outside the bank
+E5,E4,-1,> (Preceded By),False,paid the fine online,received the parking ticket
+E5,E6,1,< (Precedes),False,paid the fine online,parks in the designated lot behind the post office
+E5,E7,1,< (Precedes),False,paid the fine online,visits every week
+E5,E8,-1,> (Preceded By),False,paid the fine online,five minutes became twenty
+E5,E9,-1,> (Preceded By),False,paid the fine online,intending to be inside for only five minutes
+E5,E10,-1,> (Preceded By),False,paid the fine online,after a complaint from a nearby shopkeeper.
+E5,E11,1,< (Precedes),False,paid the fine online,has discovered a small tea stall along the route
+E6,E1,-1,> (Preceded By),False,parks in the designated lot behind the post office,parked in the same spot dozens of times
+E6,E2,-1,> (Preceded By),False,parks in the designated lot behind the post office,no-parking sign had been installed
+E6,E3,-1,> (Preceded By),False,parks in the designated lot behind the post office,parked his car outside the bank
+E6,E4,-1,> (Preceded By),False,parks in the designated lot behind the post office,received the parking ticket
+E6,E5,-1,> (Preceded By),False,parks in the designated lot behind the post office,paid the fine online
+E6,E7,-6,fi (Finished By),False,parks in the designated lot behind the post office,visits every week
+E6,E8,-1,> (Preceded By),False,parks in the designated lot behind the post office,five minutes became twenty
+E6,E9,-1,> (Preceded By),False,parks in the designated lot behind the post office,intending to be inside for only five minutes
+E6,E10,-1,> (Preceded By),False,parks in the designated lot behind the post office,after a complaint from a nearby shopkeeper.
+E6,E11,-5,di (Contains),False,parks in the designated lot behind the post office,has discovered a small tea stall along the route
+E7,E1,-1,> (Preceded By),False,visits every week,parked in the same spot dozens of times
+E7,E2,-1,> (Preceded By),False,visits every week,no-parking sign had been installed
+E7,E3,-1,> (Preceded By),False,visits every week,parked his car outside the bank
+E7,E4,-1,> (Preceded By),False,visits every week,received the parking ticket
+E7,E5,-1,> (Preceded By),False,visits every week,paid the fine online
+E7,E6,6,f (Finishes),False,visits every week,parks in the designated lot behind the post office
+E7,E8,-1,> (Preceded By),False,visits every week,five minutes became twenty
+E7,E9,-1,> (Preceded By),False,visits every week,intending to be inside for only five minutes
+E7,E10,-1,> (Preceded By),False,visits every week,after a complaint from a nearby shopkeeper.
+E7,E11,-1,> (Preceded By),False,visits every week,has discovered a small tea stall along the route
+E8,E1,-1,> (Preceded By),False,five minutes became twenty,parked in the same spot dozens of times
+E8,E2,-1,> (Preceded By),False,five minutes became twenty,no-parking sign had been installed
+E8,E3,-2,mi (Met By),False,five minutes became twenty,parked his car outside the bank
+E8,E4,2,m (Meets),False,five minutes became twenty,received the parking ticket
+E8,E5,1,< (Precedes),False,five minutes became twenty,paid the fine online
+E8,E6,1,< (Precedes),False,five minutes became twenty,parks in the designated lot behind the post office
+E8,E7,1,< (Precedes),False,five minutes became twenty,visits every week
+E8,E9,-2,mi (Met By),False,five minutes became twenty,intending to be inside for only five minutes
+E8,E10,-1,> (Preceded By),False,five minutes became twenty,after a complaint from a nearby shopkeeper.
+E8,E11,1,< (Precedes),False,five minutes became twenty,has discovered a small tea stall along the route
+E9,E1,-1,> (Preceded By),False,intending to be inside for only five minutes,parked in the same spot dozens of times
+E9,E2,-1,> (Preceded By),False,intending to be inside for only five minutes,no-parking sign had been installed
+E9,E3,0,= (Equal),False,intending to be inside for only five minutes,parked his car outside the bank
+E9,E4,1,< (Precedes),False,intending to be inside for only five minutes,received the parking ticket
+E9,E5,1,< (Precedes),False,intending to be inside for only five minutes,paid the fine online
+E9,E6,1,< (Precedes),False,intending to be inside for only five minutes,parks in the designated lot behind the post office
+E9,E7,1,< (Precedes),False,intending to be inside for only five minutes,visits every week
+E9,E8,2,m (Meets),False,intending to be inside for only five minutes,five minutes became twenty
+E9,E10,-1,> (Preceded By),False,intending to be inside for only five minutes,after a complaint from a nearby shopkeeper.
+E9,E11,1,< (Precedes),False,intending to be inside for only five minutes,has discovered a small tea stall along the route
+E10,E1,-1,> (Preceded By),False,after a complaint from a nearby shopkeeper.,parked in the same spot dozens of times
+E10,E2,1,< (Precedes),False,after a complaint from a nearby shopkeeper.,no-parking sign had been installed
+E10,E3,1,< (Precedes),False,after a complaint from a nearby shopkeeper.,parked his car outside the bank
+E10,E4,1,< (Precedes),False,after a complaint from a nearby shopkeeper.,received the parking ticket
+E10,E5,1,< (Precedes),False,after a complaint from a nearby shopkeeper.,paid the fine online
+E10,E6,1,< (Precedes),False,after a complaint from a nearby shopkeeper.,parks in the designated lot behind the post office
+E10,E7,1,< (Precedes),False,after a complaint from a nearby shopkeeper.,visits every week
+E10,E8,1,< (Precedes),False,after a complaint from a nearby shopkeeper.,five minutes became twenty
+E10,E9,1,< (Precedes),False,after a complaint from a nearby shopkeeper.,intending to be inside for only five minutes
+E10,E11,1,< (Precedes),False,after a complaint from a nearby shopkeeper.,has discovered a small tea stall along the route
+E11,E1,-1,> (Preceded By),False,has discovered a small tea stall along the route,parked in the same spot dozens of times
+E11,E2,-1,> (Preceded By),False,has discovered a small tea stall along the route,no-parking sign had been installed
+E11,E3,-1,> (Preceded By),False,has discovered a small tea stall along the route,parked his car outside the bank
+E11,E4,-1,> (Preceded By),False,has discovered a small tea stall along the route,received the parking ticket
+E11,E5,-1,> (Preceded By),False,has discovered a small tea stall along the route,paid the fine online
+E11,E6,5,d (During),False,has discovered a small tea stall along the route,parks in the designated lot behind the post office
+E11,E7,1,< (Precedes),False,has discovered a small tea stall along the route,visits every week
+E11,E8,-1,> (Preceded By),False,has discovered a small tea stall along the route,five minutes became twenty
+E11,E9,-1,> (Preceded By),False,has discovered a small tea stall along the route,intending to be inside for only five minutes
+E11,E10,-1,> (Preceded By),False,has discovered a small tea stall along the route,after a complaint from a nearby shopkeeper.

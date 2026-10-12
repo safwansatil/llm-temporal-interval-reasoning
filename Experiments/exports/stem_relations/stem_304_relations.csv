@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,the villagers used the backup well near the mosque,the backup well was also running dry
+E1,E3,1,< (Precedes),False,the villagers used the backup well near the mosque,The village council met
+E1,E4,1,< (Precedes),False,the villagers used the backup well near the mosque,A mechanic from the district town was contacted by phone
+E1,E5,1,< (Precedes),False,the villagers used the backup well near the mosque,diagnosed the problem
+E1,E6,1,< (Precedes),False,the villagers used the backup well near the mosque,The women organized a rotation to fetch water from a well in the neighboring village
+E1,E7,1,< (Precedes),False,the villagers used the backup well near the mosque,The children carried smaller containers after school
+E1,E8,1,< (Precedes),False,the villagers used the backup well near the mosque,The part arrived
+E1,E9,1,< (Precedes),False,the villagers used the backup well near the mosque,The mechanic installed it
+E1,E10,1,< (Precedes),False,the villagers used the backup well near the mosque,the tube well was operational
+E1,E11,1,< (Precedes),False,the villagers used the backup well near the mosque,The first gush of clean water was greeted with cheers
+E1,E12,-4,si (Started By),False,the villagers used the backup well near the mosque,stopped working during the second week
+E1,E13,1,< (Precedes),False,the villagers used the backup well near the mosque,he promised to visit
+E1,E14,1,< (Precedes),False,the villagers used the backup well near the mosque,arrived on time
+E1,E15,1,< (Precedes),False,the villagers used the backup well near the mosque,delivery would take ten days
+E1,E16,4,s (Starts),False,the villagers used the backup well near the mosque,crisis had lasted thirteen days
+E2,E1,-1,> (Preceded By),False,the backup well was also running dry,the villagers used the backup well near the mosque
+E2,E3,-1,> (Preceded By),False,the backup well was also running dry,The village council met
+E2,E4,-1,> (Preceded By),False,the backup well was also running dry,A mechanic from the district town was contacted by phone
+E2,E5,1,< (Precedes),False,the backup well was also running dry,diagnosed the problem
+E2,E6,4,s (Starts),False,the backup well was also running dry,The women organized a rotation to fetch water from a well in the neighboring village
+E2,E7,4,s (Starts),False,the backup well was also running dry,The children carried smaller containers after school
+E2,E8,1,< (Precedes),False,the backup well was also running dry,The part arrived
+E2,E9,1,< (Precedes),False,the backup well was also running dry,The mechanic installed it
+E2,E10,1,< (Precedes),False,the backup well was also running dry,the tube well was operational
+E2,E11,1,< (Precedes),False,the backup well was also running dry,The first gush of clean water was greeted with cheers
+E2,E12,-1,> (Preceded By),False,the backup well was also running dry,stopped working during the second week
+E2,E13,-1,> (Preceded By),False,the backup well was also running dry,he promised to visit
+E2,E14,1,< (Precedes),False,the backup well was also running dry,arrived on time
+E2,E15,1,< (Precedes),False,the backup well was also running dry,delivery would take ten days
+E2,E16,5,d (During),False,the backup well was also running dry,crisis had lasted thirteen days
+E3,E1,-1,> (Preceded By),False,The village council met,the villagers used the backup well near the mosque
+E3,E2,1,< (Precedes),False,The village council met,the backup well was also running dry
+E3,E4,0,= (Equal),False,The village council met,A mechanic from the district town was contacted by phone
+E3,E5,1,< (Precedes),False,The village council met,diagnosed the problem
+E3,E6,1,< (Precedes),False,The village council met,The women organized a rotation to fetch water from a well in the neighboring village
+E3,E7,1,< (Precedes),False,The village council met,The children carried smaller containers after school
+E3,E8,1,< (Precedes),False,The village council met,The part arrived
+E3,E9,1,< (Precedes),False,The village council met,The mechanic installed it
+E3,E10,1,< (Precedes),False,The village council met,the tube well was operational
+E3,E11,1,< (Precedes),False,The village council met,The first gush of clean water was greeted with cheers
+E3,E12,-1,> (Preceded By),False,The village council met,stopped working during the second week
+E3,E13,0,= (Equal),False,The village council met,he promised to visit
+E3,E14,1,< (Precedes),False,The village council met,arrived on time
+E3,E15,1,< (Precedes),False,The village council met,delivery would take ten days
+E3,E16,5,d (During),False,The village council met,crisis had lasted thirteen days
+E4,E1,-1,> (Preceded By),False,A mechanic from the district town was contacted by phone,the villagers used the backup well near the mosque
+E4,E2,1,< (Precedes),False,A mechanic from the district town was contacted by phone,the backup well was also running dry
+E4,E3,0,= (Equal),False,A mechanic from the district town was contacted by phone,The village council met
+E4,E5,1,< (Precedes),False,A mechanic from the district town was contacted by phone,diagnosed the problem
+E4,E6,1,< (Precedes),False,A mechanic from the district town was contacted by phone,The women organized a rotation to fetch water from a well in the neighboring village
+E4,E7,1,< (Precedes),False,A mechanic from the district town was contacted by phone,The children carried smaller containers after school
+E4,E8,1,< (Precedes),False,A mechanic from the district town was contacted by phone,The part arrived
+E4,E9,1,< (Precedes),False,A mechanic from the district town was contacted by phone,The mechanic installed it
+E4,E10,1,< (Precedes),False,A mechanic from the district town was contacted by phone,the tube well was operational
+E4,E11,1,< (Precedes),False,A mechanic from the district town was contacted by phone,The first gush of clean water was greeted with cheers
+E4,E12,-1,> (Preceded By),False,A mechanic from the district town was contacted by phone,stopped working during the second week
+E4,E13,0,= (Equal),False,A mechanic from the district town was contacted by phone,he promised to visit
+E4,E14,1,< (Precedes),False,A mechanic from the district town was contacted by phone,arrived on time
+E4,E15,1,< (Precedes),False,A mechanic from the district town was contacted by phone,delivery would take ten days
+E4,E16,5,d (During),False,A mechanic from the district town was contacted by phone,crisis had lasted thirteen days
+E5,E1,-1,> (Preceded By),False,diagnosed the problem,the villagers used the backup well near the mosque
+E5,E2,-1,> (Preceded By),False,diagnosed the problem,the backup well was also running dry
+E5,E3,-1,> (Preceded By),False,diagnosed the problem,The village council met
+E5,E4,-1,> (Preceded By),False,diagnosed the problem,A mechanic from the district town was contacted by phone
+E5,E6,5,d (During),False,diagnosed the problem,The women organized a rotation to fetch water from a well in the neighboring village
+E5,E7,5,d (During),False,diagnosed the problem,The children carried smaller containers after school
+E5,E8,1,< (Precedes),False,diagnosed the problem,The part arrived
+E5,E9,1,< (Precedes),False,diagnosed the problem,The mechanic installed it
+E5,E10,1,< (Precedes),False,diagnosed the problem,the tube well was operational
+E5,E11,1,< (Precedes),False,diagnosed the problem,The first gush of clean water was greeted with cheers
+E5,E12,-1,> (Preceded By),False,diagnosed the problem,stopped working during the second week
+E5,E13,-1,> (Preceded By),False,diagnosed the problem,he promised to visit
+E5,E14,0,= (Equal),False,diagnosed the problem,arrived on time
+E5,E15,4,s (Starts),False,diagnosed the problem,delivery would take ten days
+E5,E16,5,d (During),False,diagnosed the problem,crisis had lasted thirteen days
+E6,E1,-1,> (Preceded By),False,The women organized a rotation to fetch water from a well in the neighboring village,the villagers used the backup well near the mosque
+E6,E2,-4,si (Started By),False,The women organized a rotation to fetch water from a well in the neighboring village,the backup well was also running dry
+E6,E3,-1,> (Preceded By),False,The women organized a rotation to fetch water from a well in the neighboring village,The village council met
+E6,E4,-1,> (Preceded By),False,The women organized a rotation to fetch water from a well in the neighboring village,A mechanic from the district town was contacted by phone
+E6,E5,-5,di (Contains),False,The women organized a rotation to fetch water from a well in the neighboring village,diagnosed the problem
+E6,E7,0,= (Equal),False,The women organized a rotation to fetch water from a well in the neighboring village,The children carried smaller containers after school
+E6,E8,-6,fi (Finished By),False,The women organized a rotation to fetch water from a well in the neighboring village,The part arrived
+E6,E9,-6,fi (Finished By),False,The women organized a rotation to fetch water from a well in the neighboring village,The mechanic installed it
+E6,E10,-6,fi (Finished By),False,The women organized a rotation to fetch water from a well in the neighboring village,the tube well was operational
+E6,E11,-6,fi (Finished By),False,The women organized a rotation to fetch water from a well in the neighboring village,The first gush of clean water was greeted with cheers
+E6,E12,-1,> (Preceded By),False,The women organized a rotation to fetch water from a well in the neighboring village,stopped working during the second week
+E6,E13,-1,> (Preceded By),False,The women organized a rotation to fetch water from a well in the neighboring village,he promised to visit
+E6,E14,-5,di (Contains),False,The women organized a rotation to fetch water from a well in the neighboring village,arrived on time
+E6,E15,-6,fi (Finished By),False,The women organized a rotation to fetch water from a well in the neighboring village,delivery would take ten days
+E6,E16,6,f (Finishes),False,The women organized a rotation to fetch water from a well in the neighboring village,crisis had lasted thirteen days
+E7,E1,-1,> (Preceded By),False,The children carried smaller containers after school,the villagers used the backup well near the mosque
+E7,E2,-4,si (Started By),False,The children carried smaller containers after school,the backup well was also running dry
+E7,E3,-1,> (Preceded By),False,The children carried smaller containers after school,The village council met
+E7,E4,-1,> (Preceded By),False,The children carried smaller containers after school,A mechanic from the district town was contacted by phone
+E7,E5,-5,di (Contains),False,The children carried smaller containers after school,diagnosed the problem
+E7,E6,0,= (Equal),False,The children carried smaller containers after school,The women organized a rotation to fetch water from a well in the neighboring village
+E7,E8,-6,fi (Finished By),False,The children carried smaller containers after school,The part arrived
+E7,E9,-6,fi (Finished By),False,The children carried smaller containers after school,The mechanic installed it
+E7,E10,-6,fi (Finished By),False,The children carried smaller containers after school,the tube well was operational
+E7,E11,-6,fi (Finished By),False,The children carried smaller containers after school,The first gush of clean water was greeted with cheers
+E7,E12,-1,> (Preceded By),False,The children carried smaller containers after school,stopped working during the second week
+E7,E13,-1,> (Preceded By),False,The children carried smaller containers after school,he promised to visit
+E7,E14,-5,di (Contains),False,The children carried smaller containers after school,arrived on time
+E7,E15,-6,fi (Finished By),False,The children carried smaller containers after school,delivery would take ten days
+E7,E16,6,f (Finishes),False,The children carried smaller containers after school,crisis had lasted thirteen days
+E8,E1,-1,> (Preceded By),False,The part arrived,the villagers used the backup well near the mosque
+E8,E2,-1,> (Preceded By),False,The part arrived,the backup well was also running dry
+E8,E3,-1,> (Preceded By),False,The part arrived,The village council met
+E8,E4,-1,> (Preceded By),False,The part arrived,A mechanic from the district town was contacted by phone
+E8,E5,-1,> (Preceded By),False,The part arrived,diagnosed the problem
+E8,E6,6,f (Finishes),False,The part arrived,The women organized a rotation to fetch water from a well in the neighboring village
+E8,E7,6,f (Finishes),False,The part arrived,The children carried smaller containers after school
+E8,E9,0,= (Equal),False,The part arrived,The mechanic installed it
+E8,E10,0,= (Equal),False,The part arrived,the tube well was operational
+E8,E11,0,= (Equal),False,The part arrived,The first gush of clean water was greeted with cheers
+E8,E12,-1,> (Preceded By),False,The part arrived,stopped working during the second week
+E8,E13,-1,> (Preceded By),False,The part arrived,he promised to visit
+E8,E14,-1,> (Preceded By),False,The part arrived,arrived on time
+E8,E15,6,f (Finishes),False,The part arrived,delivery would take ten days
+E8,E16,6,f (Finishes),False,The part arrived,crisis had lasted thirteen days
+E9,E1,-1,> (Preceded By),False,The mechanic installed it,the villagers used the backup well near the mosque
+E9,E2,-1,> (Preceded By),False,The mechanic installed it,the backup well was also running dry
+E9,E3,-1,> (Preceded By),False,The mechanic installed it,The village council met
+E9,E4,-1,> (Preceded By),False,The mechanic installed it,A mechanic from the district town was contacted by phone
+E9,E5,-1,> (Preceded By),False,The mechanic installed it,diagnosed the problem
+E9,E6,6,f (Finishes),False,The mechanic installed it,The women organized a rotation to fetch water from a well in the neighboring village
+E9,E7,6,f (Finishes),False,The mechanic installed it,The children carried smaller containers after school
+E9,E8,0,= (Equal),False,The mechanic installed it,The part arrived
+E9,E10,0,= (Equal),False,The mechanic installed it,the tube well was operational
+E9,E11,0,= (Equal),False,The mechanic installed it,The first gush of clean water was greeted with cheers
+E9,E12,-1,> (Preceded By),False,The mechanic installed it,stopped working during the second week
+E9,E13,-1,> (Preceded By),False,The mechanic installed it,he promised to visit
+E9,E14,-1,> (Preceded By),False,The mechanic installed it,arrived on time
+E9,E15,6,f (Finishes),False,The mechanic installed it,delivery would take ten days
+E9,E16,6,f (Finishes),False,The mechanic installed it,crisis had lasted thirteen days
+E10,E1,-1,> (Preceded By),False,the tube well was operational,the villagers used the backup well near the mosque
+E10,E2,-1,> (Preceded By),False,the tube well was operational,the backup well was also running dry
+E10,E3,-1,> (Preceded By),False,the tube well was operational,The village council met
+E10,E4,-1,> (Preceded By),False,the tube well was operational,A mechanic from the district town was contacted by phone
+E10,E5,-1,> (Preceded By),False,the tube well was operational,diagnosed the problem
+E10,E6,6,f (Finishes),False,the tube well was operational,The women organized a rotation to fetch water from a well in the neighboring village
+E10,E7,6,f (Finishes),False,the tube well was operational,The children carried smaller containers after school
+E10,E8,0,= (Equal),False,the tube well was operational,The part arrived
+E10,E9,0,= (Equal),False,the tube well was operational,The mechanic installed it
+E10,E11,0,= (Equal),False,the tube well was operational,The first gush of clean water was greeted with cheers
+E10,E12,-1,> (Preceded By),False,the tube well was operational,stopped working during the second week
+E10,E13,-1,> (Preceded By),False,the tube well was operational,he promised to visit
+E10,E14,-1,> (Preceded By),False,the tube well was operational,arrived on time
+E10,E15,6,f (Finishes),False,the tube well was operational,delivery would take ten days
+E10,E16,6,f (Finishes),False,the tube well was operational,crisis had lasted thirteen days
+E11,E1,-1,> (Preceded By),False,The first gush of clean water was greeted with cheers,the villagers used the backup well near the mosque
+E11,E2,-1,> (Preceded By),False,The first gush of clean water was greeted with cheers,the backup well was also running dry
+E11,E3,-1,> (Preceded By),False,The first gush of clean water was greeted with cheers,The village council met
+E11,E4,-1,> (Preceded By),False,The first gush of clean water was greeted with cheers,A mechanic from the district town was contacted by phone
+E11,E5,-1,> (Preceded By),False,The first gush of clean water was greeted with cheers,diagnosed the problem
+E11,E6,6,f (Finishes),False,The first gush of clean water was greeted with cheers,The women organized a rotation to fetch water from a well in the neighboring village
+E11,E7,6,f (Finishes),False,The first gush of clean water was greeted with cheers,The children carried smaller containers after school
+E11,E8,0,= (Equal),False,The first gush of clean water was greeted with cheers,The part arrived
+E11,E9,0,= (Equal),False,The first gush of clean water was greeted with cheers,The mechanic installed it
+E11,E10,0,= (Equal),False,The first gush of clean water was greeted with cheers,the tube well was operational
+E11,E12,-1,> (Preceded By),False,The first gush of clean water was greeted with cheers,stopped working during the second week
+E11,E13,-1,> (Preceded By),False,The first gush of clean water was greeted with cheers,he promised to visit
+E11,E14,-1,> (Preceded By),False,The first gush of clean water was greeted with cheers,arrived on time
+E11,E15,6,f (Finishes),False,The first gush of clean water was greeted with cheers,delivery would take ten days
+E11,E16,6,f (Finishes),False,The first gush of clean water was greeted with cheers,crisis had lasted thirteen days
+E12,E1,4,s (Starts),False,stopped working during the second week,the villagers used the backup well near the mosque
+E12,E2,1,< (Precedes),False,stopped working during the second week,the backup well was also running dry
+E12,E3,1,< (Precedes),False,stopped working during the second week,The village council met
+E12,E4,1,< (Precedes),False,stopped working during the second week,A mechanic from the district town was contacted by phone
+E12,E5,1,< (Precedes),False,stopped working during the second week,diagnosed the problem
+E12,E6,1,< (Precedes),False,stopped working during the second week,The women organized a rotation to fetch water from a well in the neighboring village
+E12,E7,1,< (Precedes),False,stopped working during the second week,The children carried smaller containers after school
+E12,E8,1,< (Precedes),False,stopped working during the second week,The part arrived
+E12,E9,1,< (Precedes),False,stopped working during the second week,The mechanic installed it
+E12,E10,1,< (Precedes),False,stopped working during the second week,the tube well was operational
+E12,E11,1,< (Precedes),False,stopped working during the second week,The first gush of clean water was greeted with cheers
+E12,E13,1,< (Precedes),False,stopped working during the second week,he promised to visit
+E12,E14,1,< (Precedes),False,stopped working during the second week,arrived on time
+E12,E15,1,< (Precedes),False,stopped working during the second week,delivery would take ten days
+E12,E16,4,s (Starts),False,stopped working during the second week,crisis had lasted thirteen days
+E13,E1,-1,> (Preceded By),False,he promised to visit,the villagers used the backup well near the mosque
+E13,E2,1,< (Precedes),False,he promised to visit,the backup well was also running dry
+E13,E3,0,= (Equal),False,he promised to visit,The village council met
+E13,E4,0,= (Equal),False,he promised to visit,A mechanic from the district town was contacted by phone
+E13,E5,1,< (Precedes),False,he promised to visit,diagnosed the problem
+E13,E6,1,< (Precedes),False,he promised to visit,The women organized a rotation to fetch water from a well in the neighboring village
+E13,E7,1,< (Precedes),False,he promised to visit,The children carried smaller containers after school
+E13,E8,1,< (Precedes),False,he promised to visit,The part arrived
+E13,E9,1,< (Precedes),False,he promised to visit,The mechanic installed it
+E13,E10,1,< (Precedes),False,he promised to visit,the tube well was operational
+E13,E11,1,< (Precedes),False,he promised to visit,The first gush of clean water was greeted with cheers
+E13,E12,-1,> (Preceded By),False,he promised to visit,stopped working during the second week
+E13,E14,1,< (Precedes),False,he promised to visit,arrived on time
+E13,E15,1,< (Precedes),False,he promised to visit,delivery would take ten days
+E13,E16,5,d (During),False,he promised to visit,crisis had lasted thirteen days
+E14,E1,-1,> (Preceded By),False,arrived on time,the villagers used the backup well near the mosque
+E14,E2,-1,> (Preceded By),False,arrived on time,the backup well was also running dry
+E14,E3,-1,> (Preceded By),False,arrived on time,The village council met
+E14,E4,-1,> (Preceded By),False,arrived on time,A mechanic from the district town was contacted by phone
+E14,E5,0,= (Equal),False,arrived on time,diagnosed the problem
+E14,E6,5,d (During),False,arrived on time,The women organized a rotation to fetch water from a well in the neighboring village
+E14,E7,5,d (During),False,arrived on time,The children carried smaller containers after school
+E14,E8,1,< (Precedes),False,arrived on time,The part arrived
+E14,E9,1,< (Precedes),False,arrived on time,The mechanic installed it
+E14,E10,1,< (Precedes),False,arrived on time,the tube well was operational
+E14,E11,1,< (Precedes),False,arrived on time,The first gush of clean water was greeted with cheers
+E14,E12,-1,> (Preceded By),False,arrived on time,stopped working during the second week
+E14,E13,-1,> (Preceded By),False,arrived on time,he promised to visit
+E14,E15,4,s (Starts),False,arrived on time,delivery would take ten days
+E14,E16,5,d (During),False,arrived on time,crisis had lasted thirteen days
+E15,E1,-1,> (Preceded By),False,delivery would take ten days,the villagers used the backup well near the mosque
+E15,E2,-1,> (Preceded By),False,delivery would take ten days,the backup well was also running dry
+E15,E3,-1,> (Preceded By),False,delivery would take ten days,The village council met
+E15,E4,-1,> (Preceded By),False,delivery would take ten days,A mechanic from the district town was contacted by phone
+E15,E5,-4,si (Started By),False,delivery would take ten days,diagnosed the problem
+E15,E6,6,f (Finishes),False,delivery would take ten days,The women organized a rotation to fetch water from a well in the neighboring village
+E15,E7,6,f (Finishes),False,delivery would take ten days,The children carried smaller containers after school
+E15,E8,-6,fi (Finished By),False,delivery would take ten days,The part arrived
+E15,E9,-6,fi (Finished By),False,delivery would take ten days,The mechanic installed it
+E15,E10,-6,fi (Finished By),False,delivery would take ten days,the tube well was operational
+E15,E11,-6,fi (Finished By),False,delivery would take ten days,The first gush of clean water was greeted with cheers
+E15,E12,-1,> (Preceded By),False,delivery would take ten days,stopped working during the second week
+E15,E13,-1,> (Preceded By),False,delivery would take ten days,he promised to visit
+E15,E14,-4,si (Started By),False,delivery would take ten days,arrived on time
+E15,E16,6,f (Finishes),False,delivery would take ten days,crisis had lasted thirteen days
+E16,E1,-4,si (Started By),False,crisis had lasted thirteen days,the villagers used the backup well near the mosque
+E16,E2,-5,di (Contains),False,crisis had lasted thirteen days,the backup well was also running dry
+E16,E3,-5,di (Contains),False,crisis had lasted thirteen days,The village council met
+E16,E4,-5,di (Contains),False,crisis had lasted thirteen days,A mechanic from the district town was contacted by phone
+E16,E5,-5,di (Contains),False,crisis had lasted thirteen days,diagnosed the problem
+E16,E6,-6,fi (Finished By),False,crisis had lasted thirteen days,The women organized a rotation to fetch water from a well in the neighboring village
+E16,E7,-6,fi (Finished By),False,crisis had lasted thirteen days,The children carried smaller containers after school
+E16,E8,-6,fi (Finished By),False,crisis had lasted thirteen days,The part arrived
+E16,E9,-6,fi (Finished By),False,crisis had lasted thirteen days,The mechanic installed it
+E16,E10,-6,fi (Finished By),False,crisis had lasted thirteen days,the tube well was operational
+E16,E11,-6,fi (Finished By),False,crisis had lasted thirteen days,The first gush of clean water was greeted with cheers
+E16,E12,-4,si (Started By),False,crisis had lasted thirteen days,stopped working during the second week
+E16,E13,-5,di (Contains),False,crisis had lasted thirteen days,he promised to visit
+E16,E14,-5,di (Contains),False,crisis had lasted thirteen days,arrived on time
+E16,E15,-6,fi (Finished By),False,crisis had lasted thirteen days,delivery would take ten days

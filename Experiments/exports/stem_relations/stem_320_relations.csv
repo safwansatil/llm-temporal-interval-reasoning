@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,eyeing it,ordered her Eid outfit
+E1,E3,1,< (Precedes),False,eyeing it,called customer service
+E1,E4,1,< (Precedes),False,eyeing it,called again
+E1,E5,1,< (Precedes),False,eyeing it,accepted
+E1,E6,1,< (Precedes),False,eyeing it,bought a replacement outfit
+E1,E7,1,< (Precedes),False,eyeing it,wore it
+E1,E8,1,< (Precedes),False,eyeing it,received compliments
+E1,E9,1,< (Precedes),False,eyeing it,refund arrived
+E1,E10,1,< (Precedes),False,eyeing it,promised delivery within two weeks
+E1,E11,1,< (Precedes),False,eyeing it,The two weeks passed.
+E1,E12,1,< (Precedes),False,eyeing it,the order had been delayed
+E1,E13,1,< (Precedes),False,eyeing it,representative promised delivery by the following Friday
+E1,E14,1,< (Precedes),False,eyeing it,Friday came and went.
+E1,E15,1,< (Precedes),False,eyeing it,dress was somewhere in a warehouse two hundred kilometers away
+E1,E16,1,< (Precedes),False,eyeing it,discovered that her order had been shipped to the wrong address
+E2,E1,-2,mi (Met By),False,ordered her Eid outfit,eyeing it
+E2,E3,1,< (Precedes),False,ordered her Eid outfit,called customer service
+E2,E4,1,< (Precedes),False,ordered her Eid outfit,called again
+E2,E5,1,< (Precedes),False,ordered her Eid outfit,accepted
+E2,E6,1,< (Precedes),False,ordered her Eid outfit,bought a replacement outfit
+E2,E7,1,< (Precedes),False,ordered her Eid outfit,wore it
+E2,E8,1,< (Precedes),False,ordered her Eid outfit,received compliments
+E2,E9,1,< (Precedes),False,ordered her Eid outfit,refund arrived
+E2,E10,2,m (Meets),False,ordered her Eid outfit,promised delivery within two weeks
+E2,E11,1,< (Precedes),False,ordered her Eid outfit,The two weeks passed.
+E2,E12,1,< (Precedes),False,ordered her Eid outfit,the order had been delayed
+E2,E13,1,< (Precedes),False,ordered her Eid outfit,representative promised delivery by the following Friday
+E2,E14,1,< (Precedes),False,ordered her Eid outfit,Friday came and went.
+E2,E15,1,< (Precedes),False,ordered her Eid outfit,dress was somewhere in a warehouse two hundred kilometers away
+E2,E16,1,< (Precedes),False,ordered her Eid outfit,discovered that her order had been shipped to the wrong address
+E3,E1,-1,> (Preceded By),False,called customer service,eyeing it
+E3,E2,-1,> (Preceded By),False,called customer service,ordered her Eid outfit
+E3,E4,1,< (Precedes),False,called customer service,called again
+E3,E5,1,< (Precedes),False,called customer service,accepted
+E3,E6,1,< (Precedes),False,called customer service,bought a replacement outfit
+E3,E7,1,< (Precedes),False,called customer service,wore it
+E3,E8,1,< (Precedes),False,called customer service,received compliments
+E3,E9,1,< (Precedes),False,called customer service,refund arrived
+E3,E10,-1,> (Preceded By),False,called customer service,promised delivery within two weeks
+E3,E11,-1,> (Preceded By),False,called customer service,The two weeks passed.
+E3,E12,-2,mi (Met By),False,called customer service,the order had been delayed
+E3,E13,2,m (Meets),False,called customer service,representative promised delivery by the following Friday
+E3,E14,1,< (Precedes),False,called customer service,Friday came and went.
+E3,E15,1,< (Precedes),False,called customer service,dress was somewhere in a warehouse two hundred kilometers away
+E3,E16,1,< (Precedes),False,called customer service,discovered that her order had been shipped to the wrong address
+E4,E1,-1,> (Preceded By),False,called again,eyeing it
+E4,E2,-1,> (Preceded By),False,called again,ordered her Eid outfit
+E4,E3,-1,> (Preceded By),False,called again,called customer service
+E4,E5,1,< (Precedes),False,called again,accepted
+E4,E6,1,< (Precedes),False,called again,bought a replacement outfit
+E4,E7,1,< (Precedes),False,called again,wore it
+E4,E8,1,< (Precedes),False,called again,received compliments
+E4,E9,1,< (Precedes),False,called again,refund arrived
+E4,E10,-1,> (Preceded By),False,called again,promised delivery within two weeks
+E4,E11,-1,> (Preceded By),False,called again,The two weeks passed.
+E4,E12,-1,> (Preceded By),False,called again,the order had been delayed
+E4,E13,-1,> (Preceded By),False,called again,representative promised delivery by the following Friday
+E4,E14,-1,> (Preceded By),False,called again,Friday came and went.
+E4,E15,1,< (Precedes),False,called again,dress was somewhere in a warehouse two hundred kilometers away
+E4,E16,2,m (Meets),False,called again,discovered that her order had been shipped to the wrong address
+E5,E1,-1,> (Preceded By),False,accepted,eyeing it
+E5,E2,-1,> (Preceded By),False,accepted,ordered her Eid outfit
+E5,E3,-1,> (Preceded By),False,accepted,called customer service
+E5,E4,-1,> (Preceded By),False,accepted,called again
+E5,E6,1,< (Precedes),False,accepted,bought a replacement outfit
+E5,E7,1,< (Precedes),False,accepted,wore it
+E5,E8,1,< (Precedes),False,accepted,received compliments
+E5,E9,1,< (Precedes),False,accepted,refund arrived
+E5,E10,-1,> (Preceded By),False,accepted,promised delivery within two weeks
+E5,E11,-1,> (Preceded By),False,accepted,The two weeks passed.
+E5,E12,-1,> (Preceded By),False,accepted,the order had been delayed
+E5,E13,-1,> (Preceded By),False,accepted,representative promised delivery by the following Friday
+E5,E14,-1,> (Preceded By),False,accepted,Friday came and went.
+E5,E15,-2,mi (Met By),False,accepted,dress was somewhere in a warehouse two hundred kilometers away
+E5,E16,-1,> (Preceded By),False,accepted,discovered that her order had been shipped to the wrong address
+E6,E1,-1,> (Preceded By),False,bought a replacement outfit,eyeing it
+E6,E2,-1,> (Preceded By),False,bought a replacement outfit,ordered her Eid outfit
+E6,E3,-1,> (Preceded By),False,bought a replacement outfit,called customer service
+E6,E4,-1,> (Preceded By),False,bought a replacement outfit,called again
+E6,E5,-1,> (Preceded By),False,bought a replacement outfit,accepted
+E6,E7,1,< (Precedes),False,bought a replacement outfit,wore it
+E6,E8,1,< (Precedes),False,bought a replacement outfit,received compliments
+E6,E9,1,< (Precedes),False,bought a replacement outfit,refund arrived
+E6,E10,-1,> (Preceded By),False,bought a replacement outfit,promised delivery within two weeks
+E6,E11,-1,> (Preceded By),False,bought a replacement outfit,The two weeks passed.
+E6,E12,-1,> (Preceded By),False,bought a replacement outfit,the order had been delayed
+E6,E13,-1,> (Preceded By),False,bought a replacement outfit,representative promised delivery by the following Friday
+E6,E14,-1,> (Preceded By),False,bought a replacement outfit,Friday came and went.
+E6,E15,-1,> (Preceded By),False,bought a replacement outfit,dress was somewhere in a warehouse two hundred kilometers away
+E6,E16,-1,> (Preceded By),False,bought a replacement outfit,discovered that her order had been shipped to the wrong address
+E7,E1,-1,> (Preceded By),False,wore it,eyeing it
+E7,E2,-1,> (Preceded By),False,wore it,ordered her Eid outfit
+E7,E3,-1,> (Preceded By),False,wore it,called customer service
+E7,E4,-1,> (Preceded By),False,wore it,called again
+E7,E5,-1,> (Preceded By),False,wore it,accepted
+E7,E6,-1,> (Preceded By),False,wore it,bought a replacement outfit
+E7,E8,1,< (Precedes),False,wore it,received compliments
+E7,E9,1,< (Precedes),False,wore it,refund arrived
+E7,E10,-1,> (Preceded By),False,wore it,promised delivery within two weeks
+E7,E11,-1,> (Preceded By),False,wore it,The two weeks passed.
+E7,E12,-1,> (Preceded By),False,wore it,the order had been delayed
+E7,E13,-1,> (Preceded By),False,wore it,representative promised delivery by the following Friday
+E7,E14,-1,> (Preceded By),False,wore it,Friday came and went.
+E7,E15,-1,> (Preceded By),False,wore it,dress was somewhere in a warehouse two hundred kilometers away
+E7,E16,-1,> (Preceded By),False,wore it,discovered that her order had been shipped to the wrong address
+E8,E1,-1,> (Preceded By),False,received compliments,eyeing it
+E8,E2,-1,> (Preceded By),False,received compliments,ordered her Eid outfit
+E8,E3,-1,> (Preceded By),False,received compliments,called customer service
+E8,E4,-1,> (Preceded By),False,received compliments,called again
+E8,E5,-1,> (Preceded By),False,received compliments,accepted
+E8,E6,-1,> (Preceded By),False,received compliments,bought a replacement outfit
+E8,E7,-1,> (Preceded By),False,received compliments,wore it
+E8,E9,1,< (Precedes),False,received compliments,refund arrived
+E8,E10,-1,> (Preceded By),False,received compliments,promised delivery within two weeks
+E8,E11,-1,> (Preceded By),False,received compliments,The two weeks passed.
+E8,E12,-1,> (Preceded By),False,received compliments,the order had been delayed
+E8,E13,-1,> (Preceded By),False,received compliments,representative promised delivery by the following Friday
+E8,E14,-1,> (Preceded By),False,received compliments,Friday came and went.
+E8,E15,-1,> (Preceded By),False,received compliments,dress was somewhere in a warehouse two hundred kilometers away
+E8,E16,-1,> (Preceded By),False,received compliments,discovered that her order had been shipped to the wrong address
+E9,E1,-1,> (Preceded By),False,refund arrived,eyeing it
+E9,E2,-1,> (Preceded By),False,refund arrived,ordered her Eid outfit
+E9,E3,-1,> (Preceded By),False,refund arrived,called customer service
+E9,E4,-1,> (Preceded By),False,refund arrived,called again
+E9,E5,-1,> (Preceded By),False,refund arrived,accepted
+E9,E6,-1,> (Preceded By),False,refund arrived,bought a replacement outfit
+E9,E7,-1,> (Preceded By),False,refund arrived,wore it
+E9,E8,-1,> (Preceded By),False,refund arrived,received compliments
+E9,E10,-1,> (Preceded By),False,refund arrived,promised delivery within two weeks
+E9,E11,-1,> (Preceded By),False,refund arrived,The two weeks passed.
+E9,E12,-1,> (Preceded By),False,refund arrived,the order had been delayed
+E9,E13,-1,> (Preceded By),False,refund arrived,representative promised delivery by the following Friday
+E9,E14,-1,> (Preceded By),False,refund arrived,Friday came and went.
+E9,E15,-1,> (Preceded By),False,refund arrived,dress was somewhere in a warehouse two hundred kilometers away
+E9,E16,-1,> (Preceded By),False,refund arrived,discovered that her order had been shipped to the wrong address
+E10,E1,-1,> (Preceded By),False,promised delivery within two weeks,eyeing it
+E10,E2,-2,mi (Met By),False,promised delivery within two weeks,ordered her Eid outfit
+E10,E3,1,< (Precedes),False,promised delivery within two weeks,called customer service
+E10,E4,1,< (Precedes),False,promised delivery within two weeks,called again
+E10,E5,1,< (Precedes),False,promised delivery within two weeks,accepted
+E10,E6,1,< (Precedes),False,promised delivery within two weeks,bought a replacement outfit
+E10,E7,1,< (Precedes),False,promised delivery within two weeks,wore it
+E10,E8,1,< (Precedes),False,promised delivery within two weeks,received compliments
+E10,E9,1,< (Precedes),False,promised delivery within two weeks,refund arrived
+E10,E11,1,< (Precedes),False,promised delivery within two weeks,The two weeks passed.
+E10,E12,1,< (Precedes),False,promised delivery within two weeks,the order had been delayed
+E10,E13,1,< (Precedes),False,promised delivery within two weeks,representative promised delivery by the following Friday
+E10,E14,1,< (Precedes),False,promised delivery within two weeks,Friday came and went.
+E10,E15,1,< (Precedes),False,promised delivery within two weeks,dress was somewhere in a warehouse two hundred kilometers away
+E10,E16,1,< (Precedes),False,promised delivery within two weeks,discovered that her order had been shipped to the wrong address
+E11,E1,-1,> (Preceded By),False,The two weeks passed.,eyeing it
+E11,E2,-1,> (Preceded By),False,The two weeks passed.,ordered her Eid outfit
+E11,E3,1,< (Precedes),False,The two weeks passed.,called customer service
+E11,E4,1,< (Precedes),False,The two weeks passed.,called again
+E11,E5,1,< (Precedes),False,The two weeks passed.,accepted
+E11,E6,1,< (Precedes),False,The two weeks passed.,bought a replacement outfit
+E11,E7,1,< (Precedes),False,The two weeks passed.,wore it
+E11,E8,1,< (Precedes),False,The two weeks passed.,received compliments
+E11,E9,1,< (Precedes),False,The two weeks passed.,refund arrived
+E11,E10,-1,> (Preceded By),False,The two weeks passed.,promised delivery within two weeks
+E11,E12,2,m (Meets),False,The two weeks passed.,the order had been delayed
+E11,E13,1,< (Precedes),False,The two weeks passed.,representative promised delivery by the following Friday
+E11,E14,1,< (Precedes),False,The two weeks passed.,Friday came and went.
+E11,E15,1,< (Precedes),False,The two weeks passed.,dress was somewhere in a warehouse two hundred kilometers away
+E11,E16,1,< (Precedes),False,The two weeks passed.,discovered that her order had been shipped to the wrong address
+E12,E1,-1,> (Preceded By),False,the order had been delayed,eyeing it
+E12,E2,-1,> (Preceded By),False,the order had been delayed,ordered her Eid outfit
+E12,E3,2,m (Meets),False,the order had been delayed,called customer service
+E12,E4,1,< (Precedes),False,the order had been delayed,called again
+E12,E5,1,< (Precedes),False,the order had been delayed,accepted
+E12,E6,1,< (Precedes),False,the order had been delayed,bought a replacement outfit
+E12,E7,1,< (Precedes),False,the order had been delayed,wore it
+E12,E8,1,< (Precedes),False,the order had been delayed,received compliments
+E12,E9,1,< (Precedes),False,the order had been delayed,refund arrived
+E12,E10,-1,> (Preceded By),False,the order had been delayed,promised delivery within two weeks
+E12,E11,-2,mi (Met By),False,the order had been delayed,The two weeks passed.
+E12,E13,1,< (Precedes),False,the order had been delayed,representative promised delivery by the following Friday
+E12,E14,1,< (Precedes),False,the order had been delayed,Friday came and went.
+E12,E15,1,< (Precedes),False,the order had been delayed,dress was somewhere in a warehouse two hundred kilometers away
+E12,E16,1,< (Precedes),False,the order had been delayed,discovered that her order had been shipped to the wrong address
+E13,E1,-1,> (Preceded By),False,representative promised delivery by the following Friday,eyeing it
+E13,E2,-1,> (Preceded By),False,representative promised delivery by the following Friday,ordered her Eid outfit
+E13,E3,-2,mi (Met By),False,representative promised delivery by the following Friday,called customer service
+E13,E4,1,< (Precedes),False,representative promised delivery by the following Friday,called again
+E13,E5,1,< (Precedes),False,representative promised delivery by the following Friday,accepted
+E13,E6,1,< (Precedes),False,representative promised delivery by the following Friday,bought a replacement outfit
+E13,E7,1,< (Precedes),False,representative promised delivery by the following Friday,wore it
+E13,E8,1,< (Precedes),False,representative promised delivery by the following Friday,received compliments
+E13,E9,1,< (Precedes),False,representative promised delivery by the following Friday,refund arrived
+E13,E10,-1,> (Preceded By),False,representative promised delivery by the following Friday,promised delivery within two weeks
+E13,E11,-1,> (Preceded By),False,representative promised delivery by the following Friday,The two weeks passed.
+E13,E12,-1,> (Preceded By),False,representative promised delivery by the following Friday,the order had been delayed
+E13,E14,1,< (Precedes),False,representative promised delivery by the following Friday,Friday came and went.
+E13,E15,1,< (Precedes),False,representative promised delivery by the following Friday,dress was somewhere in a warehouse two hundred kilometers away
+E13,E16,1,< (Precedes),False,representative promised delivery by the following Friday,discovered that her order had been shipped to the wrong address
+E14,E1,-1,> (Preceded By),False,Friday came and went.,eyeing it
+E14,E2,-1,> (Preceded By),False,Friday came and went.,ordered her Eid outfit
+E14,E3,-1,> (Preceded By),False,Friday came and went.,called customer service
+E14,E4,1,< (Precedes),False,Friday came and went.,called again
+E14,E5,1,< (Precedes),False,Friday came and went.,accepted
+E14,E6,1,< (Precedes),False,Friday came and went.,bought a replacement outfit
+E14,E7,1,< (Precedes),False,Friday came and went.,wore it
+E14,E8,1,< (Precedes),False,Friday came and went.,received compliments
+E14,E9,1,< (Precedes),False,Friday came and went.,refund arrived
+E14,E10,-1,> (Preceded By),False,Friday came and went.,promised delivery within two weeks
+E14,E11,-1,> (Preceded By),False,Friday came and went.,The two weeks passed.
+E14,E12,-1,> (Preceded By),False,Friday came and went.,the order had been delayed
+E14,E13,-1,> (Preceded By),False,Friday came and went.,representative promised delivery by the following Friday
+E14,E15,1,< (Precedes),False,Friday came and went.,dress was somewhere in a warehouse two hundred kilometers away
+E14,E16,1,< (Precedes),False,Friday came and went.,discovered that her order had been shipped to the wrong address
+E15,E1,-1,> (Preceded By),False,dress was somewhere in a warehouse two hundred kilometers away,eyeing it
+E15,E2,-1,> (Preceded By),False,dress was somewhere in a warehouse two hundred kilometers away,ordered her Eid outfit
+E15,E3,-1,> (Preceded By),False,dress was somewhere in a warehouse two hundred kilometers away,called customer service
+E15,E4,-1,> (Preceded By),False,dress was somewhere in a warehouse two hundred kilometers away,called again
+E15,E5,2,m (Meets),False,dress was somewhere in a warehouse two hundred kilometers away,accepted
+E15,E6,1,< (Precedes),False,dress was somewhere in a warehouse two hundred kilometers away,bought a replacement outfit
+E15,E7,1,< (Precedes),False,dress was somewhere in a warehouse two hundred kilometers away,wore it
+E15,E8,1,< (Precedes),False,dress was somewhere in a warehouse two hundred kilometers away,received compliments
+E15,E9,1,< (Precedes),False,dress was somewhere in a warehouse two hundred kilometers away,refund arrived
+E15,E10,-1,> (Preceded By),False,dress was somewhere in a warehouse two hundred kilometers away,promised delivery within two weeks
+E15,E11,-1,> (Preceded By),False,dress was somewhere in a warehouse two hundred kilometers away,The two weeks passed.
+E15,E12,-1,> (Preceded By),False,dress was somewhere in a warehouse two hundred kilometers away,the order had been delayed
+E15,E13,-1,> (Preceded By),False,dress was somewhere in a warehouse two hundred kilometers away,representative promised delivery by the following Friday
+E15,E14,-1,> (Preceded By),False,dress was somewhere in a warehouse two hundred kilometers away,Friday came and went.
+E15,E16,-2,mi (Met By),False,dress was somewhere in a warehouse two hundred kilometers away,discovered that her order had been shipped to the wrong address
+E16,E1,-1,> (Preceded By),False,discovered that her order had been shipped to the wrong address,eyeing it
+E16,E2,-1,> (Preceded By),False,discovered that her order had been shipped to the wrong address,ordered her Eid outfit
+E16,E3,-1,> (Preceded By),False,discovered that her order had been shipped to the wrong address,called customer service
+E16,E4,-2,mi (Met By),False,discovered that her order had been shipped to the wrong address,called again
+E16,E5,1,< (Precedes),False,discovered that her order had been shipped to the wrong address,accepted
+E16,E6,1,< (Precedes),False,discovered that her order had been shipped to the wrong address,bought a replacement outfit
+E16,E7,1,< (Precedes),False,discovered that her order had been shipped to the wrong address,wore it
+E16,E8,1,< (Precedes),False,discovered that her order had been shipped to the wrong address,received compliments
+E16,E9,1,< (Precedes),False,discovered that her order had been shipped to the wrong address,refund arrived
+E16,E10,-1,> (Preceded By),False,discovered that her order had been shipped to the wrong address,promised delivery within two weeks
+E16,E11,-1,> (Preceded By),False,discovered that her order had been shipped to the wrong address,The two weeks passed.
+E16,E12,-1,> (Preceded By),False,discovered that her order had been shipped to the wrong address,the order had been delayed
+E16,E13,-1,> (Preceded By),False,discovered that her order had been shipped to the wrong address,representative promised delivery by the following Friday
+E16,E14,-1,> (Preceded By),False,discovered that her order had been shipped to the wrong address,Friday came and went.
+E16,E15,2,m (Meets),False,discovered that her order had been shipped to the wrong address,dress was somewhere in a warehouse two hundred kilometers away

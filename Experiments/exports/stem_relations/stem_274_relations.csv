@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,They were born two years apart,shared a bedroom
+E1,E3,1,< (Precedes),False,They were born two years apart,Rokeya married and moved to the city
+E1,E4,1,< (Precedes),False,They were born two years apart,kept the promise
+E1,E5,1,< (Precedes),False,They were born two years apart,The silence lasted for nearly two years
+E1,E6,1,< (Precedes),False,They were born two years apart,Shireen fell ill
+E1,E7,1,< (Precedes),False,They were born two years apart,the correct diagnosis was made
+E1,E8,1,< (Precedes),False,They were born two years apart,Rokeya received the news
+E1,E9,1,< (Precedes),False,They were born two years apart,She was on a bus to the village
+E1,E10,1,< (Precedes),False,They were born two years apart,She arrived at the family home
+E1,E11,1,< (Precedes),False,They were born two years apart,Rokeya stayed for five weeks
+E1,E12,1,< (Precedes),False,They were born two years apart,Shireen recovered slowly
+E1,E13,1,< (Precedes),False,They were born two years apart,Rokeya finally returned to the city
+E1,E14,1,< (Precedes),False,They were born two years apart,She calls Shireen every Sunday evening
+E2,E1,-4,si (Started By),False,shared a bedroom,They were born two years apart
+E2,E3,2,m (Meets),False,shared a bedroom,Rokeya married and moved to the city
+E2,E4,1,< (Precedes),False,shared a bedroom,kept the promise
+E2,E5,1,< (Precedes),False,shared a bedroom,The silence lasted for nearly two years
+E2,E6,1,< (Precedes),False,shared a bedroom,Shireen fell ill
+E2,E7,1,< (Precedes),False,shared a bedroom,the correct diagnosis was made
+E2,E8,1,< (Precedes),False,shared a bedroom,Rokeya received the news
+E2,E9,1,< (Precedes),False,shared a bedroom,She was on a bus to the village
+E2,E10,1,< (Precedes),False,shared a bedroom,She arrived at the family home
+E2,E11,1,< (Precedes),False,shared a bedroom,Rokeya stayed for five weeks
+E2,E12,1,< (Precedes),False,shared a bedroom,Shireen recovered slowly
+E2,E13,1,< (Precedes),False,shared a bedroom,Rokeya finally returned to the city
+E2,E14,1,< (Precedes),False,shared a bedroom,She calls Shireen every Sunday evening
+E3,E1,-1,> (Preceded By),False,Rokeya married and moved to the city,They were born two years apart
+E3,E2,-2,mi (Met By),False,Rokeya married and moved to the city,shared a bedroom
+E3,E4,2,m (Meets),False,Rokeya married and moved to the city,kept the promise
+E3,E5,1,< (Precedes),False,Rokeya married and moved to the city,The silence lasted for nearly two years
+E3,E6,1,< (Precedes),False,Rokeya married and moved to the city,Shireen fell ill
+E3,E7,1,< (Precedes),False,Rokeya married and moved to the city,the correct diagnosis was made
+E3,E8,1,< (Precedes),False,Rokeya married and moved to the city,Rokeya received the news
+E3,E9,1,< (Precedes),False,Rokeya married and moved to the city,She was on a bus to the village
+E3,E10,1,< (Precedes),False,Rokeya married and moved to the city,She arrived at the family home
+E3,E11,1,< (Precedes),False,Rokeya married and moved to the city,Rokeya stayed for five weeks
+E3,E12,1,< (Precedes),False,Rokeya married and moved to the city,Shireen recovered slowly
+E3,E13,1,< (Precedes),False,Rokeya married and moved to the city,Rokeya finally returned to the city
+E3,E14,1,< (Precedes),False,Rokeya married and moved to the city,She calls Shireen every Sunday evening
+E4,E1,-1,> (Preceded By),False,kept the promise,They were born two years apart
+E4,E2,-1,> (Preceded By),False,kept the promise,shared a bedroom
+E4,E3,-2,mi (Met By),False,kept the promise,Rokeya married and moved to the city
+E4,E5,2,m (Meets),False,kept the promise,The silence lasted for nearly two years
+E4,E6,1,< (Precedes),False,kept the promise,Shireen fell ill
+E4,E7,1,< (Precedes),False,kept the promise,the correct diagnosis was made
+E4,E8,1,< (Precedes),False,kept the promise,Rokeya received the news
+E4,E9,1,< (Precedes),False,kept the promise,She was on a bus to the village
+E4,E10,1,< (Precedes),False,kept the promise,She arrived at the family home
+E4,E11,1,< (Precedes),False,kept the promise,Rokeya stayed for five weeks
+E4,E12,1,< (Precedes),False,kept the promise,Shireen recovered slowly
+E4,E13,1,< (Precedes),False,kept the promise,Rokeya finally returned to the city
+E4,E14,1,< (Precedes),False,kept the promise,She calls Shireen every Sunday evening
+E5,E1,-1,> (Preceded By),False,The silence lasted for nearly two years,They were born two years apart
+E5,E2,-1,> (Preceded By),False,The silence lasted for nearly two years,shared a bedroom
+E5,E3,-1,> (Preceded By),False,The silence lasted for nearly two years,Rokeya married and moved to the city
+E5,E4,-2,mi (Met By),False,The silence lasted for nearly two years,kept the promise
+E5,E6,2,m (Meets),False,The silence lasted for nearly two years,Shireen fell ill
+E5,E7,1,< (Precedes),False,The silence lasted for nearly two years,the correct diagnosis was made
+E5,E8,1,< (Precedes),False,The silence lasted for nearly two years,Rokeya received the news
+E5,E9,1,< (Precedes),False,The silence lasted for nearly two years,She was on a bus to the village
+E5,E10,1,< (Precedes),False,The silence lasted for nearly two years,She arrived at the family home
+E5,E11,1,< (Precedes),False,The silence lasted for nearly two years,Rokeya stayed for five weeks
+E5,E12,1,< (Precedes),False,The silence lasted for nearly two years,Shireen recovered slowly
+E5,E13,1,< (Precedes),False,The silence lasted for nearly two years,Rokeya finally returned to the city
+E5,E14,1,< (Precedes),False,The silence lasted for nearly two years,She calls Shireen every Sunday evening
+E6,E1,-1,> (Preceded By),False,Shireen fell ill,They were born two years apart
+E6,E2,-1,> (Preceded By),False,Shireen fell ill,shared a bedroom
+E6,E3,-1,> (Preceded By),False,Shireen fell ill,Rokeya married and moved to the city
+E6,E4,-1,> (Preceded By),False,Shireen fell ill,kept the promise
+E6,E5,-2,mi (Met By),False,Shireen fell ill,The silence lasted for nearly two years
+E6,E7,2,m (Meets),False,Shireen fell ill,the correct diagnosis was made
+E6,E8,1,< (Precedes),False,Shireen fell ill,Rokeya received the news
+E6,E9,1,< (Precedes),False,Shireen fell ill,She was on a bus to the village
+E6,E10,1,< (Precedes),False,Shireen fell ill,She arrived at the family home
+E6,E11,1,< (Precedes),False,Shireen fell ill,Rokeya stayed for five weeks
+E6,E12,1,< (Precedes),False,Shireen fell ill,Shireen recovered slowly
+E6,E13,1,< (Precedes),False,Shireen fell ill,Rokeya finally returned to the city
+E6,E14,1,< (Precedes),False,Shireen fell ill,She calls Shireen every Sunday evening
+E7,E1,-1,> (Preceded By),False,the correct diagnosis was made,They were born two years apart
+E7,E2,-1,> (Preceded By),False,the correct diagnosis was made,shared a bedroom
+E7,E3,-1,> (Preceded By),False,the correct diagnosis was made,Rokeya married and moved to the city
+E7,E4,-1,> (Preceded By),False,the correct diagnosis was made,kept the promise
+E7,E5,-1,> (Preceded By),False,the correct diagnosis was made,The silence lasted for nearly two years
+E7,E6,-2,mi (Met By),False,the correct diagnosis was made,Shireen fell ill
+E7,E8,2,m (Meets),False,the correct diagnosis was made,Rokeya received the news
+E7,E9,1,< (Precedes),False,the correct diagnosis was made,She was on a bus to the village
+E7,E10,1,< (Precedes),False,the correct diagnosis was made,She arrived at the family home
+E7,E11,1,< (Precedes),False,the correct diagnosis was made,Rokeya stayed for five weeks
+E7,E12,1,< (Precedes),False,the correct diagnosis was made,Shireen recovered slowly
+E7,E13,1,< (Precedes),False,the correct diagnosis was made,Rokeya finally returned to the city
+E7,E14,1,< (Precedes),False,the correct diagnosis was made,She calls Shireen every Sunday evening
+E8,E1,-1,> (Preceded By),False,Rokeya received the news,They were born two years apart
+E8,E2,-1,> (Preceded By),False,Rokeya received the news,shared a bedroom
+E8,E3,-1,> (Preceded By),False,Rokeya received the news,Rokeya married and moved to the city
+E8,E4,-1,> (Preceded By),False,Rokeya received the news,kept the promise
+E8,E5,-1,> (Preceded By),False,Rokeya received the news,The silence lasted for nearly two years
+E8,E6,-1,> (Preceded By),False,Rokeya received the news,Shireen fell ill
+E8,E7,-2,mi (Met By),False,Rokeya received the news,the correct diagnosis was made
+E8,E9,2,m (Meets),False,Rokeya received the news,She was on a bus to the village
+E8,E10,1,< (Precedes),False,Rokeya received the news,She arrived at the family home
+E8,E11,1,< (Precedes),False,Rokeya received the news,Rokeya stayed for five weeks
+E8,E12,1,< (Precedes),False,Rokeya received the news,Shireen recovered slowly
+E8,E13,1,< (Precedes),False,Rokeya received the news,Rokeya finally returned to the city
+E8,E14,1,< (Precedes),False,Rokeya received the news,She calls Shireen every Sunday evening
+E9,E1,-1,> (Preceded By),False,She was on a bus to the village,They were born two years apart
+E9,E2,-1,> (Preceded By),False,She was on a bus to the village,shared a bedroom
+E9,E3,-1,> (Preceded By),False,She was on a bus to the village,Rokeya married and moved to the city
+E9,E4,-1,> (Preceded By),False,She was on a bus to the village,kept the promise
+E9,E5,-1,> (Preceded By),False,She was on a bus to the village,The silence lasted for nearly two years
+E9,E6,-1,> (Preceded By),False,She was on a bus to the village,Shireen fell ill
+E9,E7,-1,> (Preceded By),False,She was on a bus to the village,the correct diagnosis was made
+E9,E8,-2,mi (Met By),False,She was on a bus to the village,Rokeya received the news
+E9,E10,2,m (Meets),False,She was on a bus to the village,She arrived at the family home
+E9,E11,1,< (Precedes),False,She was on a bus to the village,Rokeya stayed for five weeks
+E9,E12,1,< (Precedes),False,She was on a bus to the village,Shireen recovered slowly
+E9,E13,1,< (Precedes),False,She was on a bus to the village,Rokeya finally returned to the city
+E9,E14,1,< (Precedes),False,She was on a bus to the village,She calls Shireen every Sunday evening
+E10,E1,-1,> (Preceded By),False,She arrived at the family home,They were born two years apart
+E10,E2,-1,> (Preceded By),False,She arrived at the family home,shared a bedroom
+E10,E3,-1,> (Preceded By),False,She arrived at the family home,Rokeya married and moved to the city
+E10,E4,-1,> (Preceded By),False,She arrived at the family home,kept the promise
+E10,E5,-1,> (Preceded By),False,She arrived at the family home,The silence lasted for nearly two years
+E10,E6,-1,> (Preceded By),False,She arrived at the family home,Shireen fell ill
+E10,E7,-1,> (Preceded By),False,She arrived at the family home,the correct diagnosis was made
+E10,E8,-1,> (Preceded By),False,She arrived at the family home,Rokeya received the news
+E10,E9,-2,mi (Met By),False,She arrived at the family home,She was on a bus to the village
+E10,E11,2,m (Meets),False,She arrived at the family home,Rokeya stayed for five weeks
+E10,E12,2,m (Meets),False,She arrived at the family home,Shireen recovered slowly
+E10,E13,1,< (Precedes),False,She arrived at the family home,Rokeya finally returned to the city
+E10,E14,1,< (Precedes),False,She arrived at the family home,She calls Shireen every Sunday evening
+E11,E1,-1,> (Preceded By),False,Rokeya stayed for five weeks,They were born two years apart
+E11,E2,-1,> (Preceded By),False,Rokeya stayed for five weeks,shared a bedroom
+E11,E3,-1,> (Preceded By),False,Rokeya stayed for five weeks,Rokeya married and moved to the city
+E11,E4,-1,> (Preceded By),False,Rokeya stayed for five weeks,kept the promise
+E11,E5,-1,> (Preceded By),False,Rokeya stayed for five weeks,The silence lasted for nearly two years
+E11,E6,-1,> (Preceded By),False,Rokeya stayed for five weeks,Shireen fell ill
+E11,E7,-1,> (Preceded By),False,Rokeya stayed for five weeks,the correct diagnosis was made
+E11,E8,-1,> (Preceded By),False,Rokeya stayed for five weeks,Rokeya received the news
+E11,E9,-1,> (Preceded By),False,Rokeya stayed for five weeks,She was on a bus to the village
+E11,E10,-2,mi (Met By),False,Rokeya stayed for five weeks,She arrived at the family home
+E11,E12,0,= (Equal),False,Rokeya stayed for five weeks,Shireen recovered slowly
+E11,E13,2,m (Meets),False,Rokeya stayed for five weeks,Rokeya finally returned to the city
+E11,E14,1,< (Precedes),False,Rokeya stayed for five weeks,She calls Shireen every Sunday evening
+E12,E1,-1,> (Preceded By),False,Shireen recovered slowly,They were born two years apart
+E12,E2,-1,> (Preceded By),False,Shireen recovered slowly,shared a bedroom
+E12,E3,-1,> (Preceded By),False,Shireen recovered slowly,Rokeya married and moved to the city
+E12,E4,-1,> (Preceded By),False,Shireen recovered slowly,kept the promise
+E12,E5,-1,> (Preceded By),False,Shireen recovered slowly,The silence lasted for nearly two years
+E12,E6,-1,> (Preceded By),False,Shireen recovered slowly,Shireen fell ill
+E12,E7,-1,> (Preceded By),False,Shireen recovered slowly,the correct diagnosis was made
+E12,E8,-1,> (Preceded By),False,Shireen recovered slowly,Rokeya received the news
+E12,E9,-1,> (Preceded By),False,Shireen recovered slowly,She was on a bus to the village
+E12,E10,-2,mi (Met By),False,Shireen recovered slowly,She arrived at the family home
+E12,E11,0,= (Equal),False,Shireen recovered slowly,Rokeya stayed for five weeks
+E12,E13,2,m (Meets),False,Shireen recovered slowly,Rokeya finally returned to the city
+E12,E14,1,< (Precedes),False,Shireen recovered slowly,She calls Shireen every Sunday evening
+E13,E1,-1,> (Preceded By),False,Rokeya finally returned to the city,They were born two years apart
+E13,E2,-1,> (Preceded By),False,Rokeya finally returned to the city,shared a bedroom
+E13,E3,-1,> (Preceded By),False,Rokeya finally returned to the city,Rokeya married and moved to the city
+E13,E4,-1,> (Preceded By),False,Rokeya finally returned to the city,kept the promise
+E13,E5,-1,> (Preceded By),False,Rokeya finally returned to the city,The silence lasted for nearly two years
+E13,E6,-1,> (Preceded By),False,Rokeya finally returned to the city,Shireen fell ill
+E13,E7,-1,> (Preceded By),False,Rokeya finally returned to the city,the correct diagnosis was made
+E13,E8,-1,> (Preceded By),False,Rokeya finally returned to the city,Rokeya received the news
+E13,E9,-1,> (Preceded By),False,Rokeya finally returned to the city,She was on a bus to the village
+E13,E10,-1,> (Preceded By),False,Rokeya finally returned to the city,She arrived at the family home
+E13,E11,-2,mi (Met By),False,Rokeya finally returned to the city,Rokeya stayed for five weeks
+E13,E12,-2,mi (Met By),False,Rokeya finally returned to the city,Shireen recovered slowly
+E13,E14,2,m (Meets),False,Rokeya finally returned to the city,She calls Shireen every Sunday evening
+E14,E1,-1,> (Preceded By),False,She calls Shireen every Sunday evening,They were born two years apart
+E14,E2,-1,> (Preceded By),False,She calls Shireen every Sunday evening,shared a bedroom
+E14,E3,-1,> (Preceded By),False,She calls Shireen every Sunday evening,Rokeya married and moved to the city
+E14,E4,-1,> (Preceded By),False,She calls Shireen every Sunday evening,kept the promise
+E14,E5,-1,> (Preceded By),False,She calls Shireen every Sunday evening,The silence lasted for nearly two years
+E14,E6,-1,> (Preceded By),False,She calls Shireen every Sunday evening,Shireen fell ill
+E14,E7,-1,> (Preceded By),False,She calls Shireen every Sunday evening,the correct diagnosis was made
+E14,E8,-1,> (Preceded By),False,She calls Shireen every Sunday evening,Rokeya received the news
+E14,E9,-1,> (Preceded By),False,She calls Shireen every Sunday evening,She was on a bus to the village
+E14,E10,-1,> (Preceded By),False,She calls Shireen every Sunday evening,She arrived at the family home
+E14,E11,-1,> (Preceded By),False,She calls Shireen every Sunday evening,Rokeya stayed for five weeks
+E14,E12,-1,> (Preceded By),False,She calls Shireen every Sunday evening,Shireen recovered slowly
+E14,E13,-2,mi (Met By),False,She calls Shireen every Sunday evening,Rokeya finally returned to the city

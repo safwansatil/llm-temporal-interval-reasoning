@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,visited the doctor for a routine checkup,received his diagnosis
+E1,E3,2,m (Meets),False,visited the doctor for a routine checkup,told him he had Type 2 diabetes
+E1,E4,1,< (Precedes),False,visited the doctor for a routine checkup,researched dietary changes
+E1,E5,1,< (Precedes),False,visited the doctor for a routine checkup,planned a new menu
+E1,E6,1,< (Precedes),False,visited the doctor for a routine checkup,eliminate sugar
+E1,E7,1,< (Precedes),False,visited the doctor for a routine checkup,reduce carbohydrates
+E1,E8,1,< (Precedes),False,visited the doctor for a routine checkup,monitor his blood glucose levels three times a day
+E1,E9,1,< (Precedes),False,visited the doctor for a routine checkup,argued with his wife
+E1,E10,1,< (Precedes),False,visited the doctor for a routine checkup,apologized
+E1,E11,1,< (Precedes),False,visited the doctor for a routine checkup,follow-up appointment
+E1,E12,1,< (Precedes),False,visited the doctor for a routine checkup,scheduled another follow-up
+E1,E13,1,< (Precedes),False,visited the doctor for a routine checkup,walks for forty minutes every morning
+E1,E14,1,< (Precedes),False,visited the doctor for a routine checkup,eats carefully
+E1,E15,1,< (Precedes),False,visited the doctor for a routine checkup,lost eight kilograms
+E1,E16,1,< (Precedes),False,visited the doctor for a routine checkup,spent the first weekend
+E1,E17,4,s (Starts),False,visited the doctor for a routine checkup,Mr. Bashir has now been managing his diabetes
+E2,E1,-2,mi (Met By),False,received his diagnosis,visited the doctor for a routine checkup
+E2,E3,0,= (Equal),False,received his diagnosis,told him he had Type 2 diabetes
+E2,E4,1,< (Precedes),False,received his diagnosis,researched dietary changes
+E2,E5,1,< (Precedes),False,received his diagnosis,planned a new menu
+E2,E6,1,< (Precedes),False,received his diagnosis,eliminate sugar
+E2,E7,1,< (Precedes),False,received his diagnosis,reduce carbohydrates
+E2,E8,1,< (Precedes),False,received his diagnosis,monitor his blood glucose levels three times a day
+E2,E9,1,< (Precedes),False,received his diagnosis,argued with his wife
+E2,E10,1,< (Precedes),False,received his diagnosis,apologized
+E2,E11,1,< (Precedes),False,received his diagnosis,follow-up appointment
+E2,E12,1,< (Precedes),False,received his diagnosis,scheduled another follow-up
+E2,E13,1,< (Precedes),False,received his diagnosis,walks for forty minutes every morning
+E2,E14,1,< (Precedes),False,received his diagnosis,eats carefully
+E2,E15,1,< (Precedes),False,received his diagnosis,lost eight kilograms
+E2,E16,1,< (Precedes),False,received his diagnosis,spent the first weekend
+E2,E17,5,d (During),False,received his diagnosis,Mr. Bashir has now been managing his diabetes
+E3,E1,-2,mi (Met By),False,told him he had Type 2 diabetes,visited the doctor for a routine checkup
+E3,E2,0,= (Equal),False,told him he had Type 2 diabetes,received his diagnosis
+E3,E4,1,< (Precedes),False,told him he had Type 2 diabetes,researched dietary changes
+E3,E5,1,< (Precedes),False,told him he had Type 2 diabetes,planned a new menu
+E3,E6,1,< (Precedes),False,told him he had Type 2 diabetes,eliminate sugar
+E3,E7,1,< (Precedes),False,told him he had Type 2 diabetes,reduce carbohydrates
+E3,E8,1,< (Precedes),False,told him he had Type 2 diabetes,monitor his blood glucose levels three times a day
+E3,E9,1,< (Precedes),False,told him he had Type 2 diabetes,argued with his wife
+E3,E10,1,< (Precedes),False,told him he had Type 2 diabetes,apologized
+E3,E11,1,< (Precedes),False,told him he had Type 2 diabetes,follow-up appointment
+E3,E12,1,< (Precedes),False,told him he had Type 2 diabetes,scheduled another follow-up
+E3,E13,1,< (Precedes),False,told him he had Type 2 diabetes,walks for forty minutes every morning
+E3,E14,1,< (Precedes),False,told him he had Type 2 diabetes,eats carefully
+E3,E15,1,< (Precedes),False,told him he had Type 2 diabetes,lost eight kilograms
+E3,E16,1,< (Precedes),False,told him he had Type 2 diabetes,spent the first weekend
+E3,E17,5,d (During),False,told him he had Type 2 diabetes,Mr. Bashir has now been managing his diabetes
+E4,E1,-1,> (Preceded By),False,researched dietary changes,visited the doctor for a routine checkup
+E4,E2,-1,> (Preceded By),False,researched dietary changes,received his diagnosis
+E4,E3,-1,> (Preceded By),False,researched dietary changes,told him he had Type 2 diabetes
+E4,E5,4,s (Starts),False,researched dietary changes,planned a new menu
+E4,E6,1,< (Precedes),False,researched dietary changes,eliminate sugar
+E4,E7,1,< (Precedes),False,researched dietary changes,reduce carbohydrates
+E4,E8,1,< (Precedes),False,researched dietary changes,monitor his blood glucose levels three times a day
+E4,E9,-1,> (Preceded By),False,researched dietary changes,argued with his wife
+E4,E10,-1,> (Preceded By),False,researched dietary changes,apologized
+E4,E11,1,< (Precedes),False,researched dietary changes,follow-up appointment
+E4,E12,1,< (Precedes),False,researched dietary changes,scheduled another follow-up
+E4,E13,1,< (Precedes),False,researched dietary changes,walks for forty minutes every morning
+E4,E14,1,< (Precedes),False,researched dietary changes,eats carefully
+E4,E15,1,< (Precedes),False,researched dietary changes,lost eight kilograms
+E4,E16,5,d (During),False,researched dietary changes,spent the first weekend
+E4,E17,5,d (During),False,researched dietary changes,Mr. Bashir has now been managing his diabetes
+E5,E1,-1,> (Preceded By),False,planned a new menu,visited the doctor for a routine checkup
+E5,E2,-1,> (Preceded By),False,planned a new menu,received his diagnosis
+E5,E3,-1,> (Preceded By),False,planned a new menu,told him he had Type 2 diabetes
+E5,E4,-4,si (Started By),False,planned a new menu,researched dietary changes
+E5,E6,2,m (Meets),False,planned a new menu,eliminate sugar
+E5,E7,2,m (Meets),False,planned a new menu,reduce carbohydrates
+E5,E8,2,m (Meets),False,planned a new menu,monitor his blood glucose levels three times a day
+E5,E9,-1,> (Preceded By),False,planned a new menu,argued with his wife
+E5,E10,-1,> (Preceded By),False,planned a new menu,apologized
+E5,E11,1,< (Precedes),False,planned a new menu,follow-up appointment
+E5,E12,1,< (Precedes),False,planned a new menu,scheduled another follow-up
+E5,E13,2,m (Meets),False,planned a new menu,walks for forty minutes every morning
+E5,E14,2,m (Meets),False,planned a new menu,eats carefully
+E5,E15,1,< (Precedes),False,planned a new menu,lost eight kilograms
+E5,E16,6,f (Finishes),False,planned a new menu,spent the first weekend
+E5,E17,5,d (During),False,planned a new menu,Mr. Bashir has now been managing his diabetes
+E6,E1,-1,> (Preceded By),False,eliminate sugar,visited the doctor for a routine checkup
+E6,E2,-1,> (Preceded By),False,eliminate sugar,received his diagnosis
+E6,E3,-1,> (Preceded By),False,eliminate sugar,told him he had Type 2 diabetes
+E6,E4,-1,> (Preceded By),False,eliminate sugar,researched dietary changes
+E6,E5,-2,mi (Met By),False,eliminate sugar,planned a new menu
+E6,E7,0,= (Equal),False,eliminate sugar,reduce carbohydrates
+E6,E8,0,= (Equal),False,eliminate sugar,monitor his blood glucose levels three times a day
+E6,E9,-1,> (Preceded By),False,eliminate sugar,argued with his wife
+E6,E10,-1,> (Preceded By),False,eliminate sugar,apologized
+E6,E11,-5,di (Contains),False,eliminate sugar,follow-up appointment
+E6,E12,-5,di (Contains),False,eliminate sugar,scheduled another follow-up
+E6,E13,0,= (Equal),False,eliminate sugar,walks for forty minutes every morning
+E6,E14,0,= (Equal),False,eliminate sugar,eats carefully
+E6,E15,-6,fi (Finished By),False,eliminate sugar,lost eight kilograms
+E6,E16,-2,mi (Met By),False,eliminate sugar,spent the first weekend
+E6,E17,6,f (Finishes),False,eliminate sugar,Mr. Bashir has now been managing his diabetes
+E7,E1,-1,> (Preceded By),False,reduce carbohydrates,visited the doctor for a routine checkup
+E7,E2,-1,> (Preceded By),False,reduce carbohydrates,received his diagnosis
+E7,E3,-1,> (Preceded By),False,reduce carbohydrates,told him he had Type 2 diabetes
+E7,E4,-1,> (Preceded By),False,reduce carbohydrates,researched dietary changes
+E7,E5,-2,mi (Met By),False,reduce carbohydrates,planned a new menu
+E7,E6,0,= (Equal),False,reduce carbohydrates,eliminate sugar
+E7,E8,0,= (Equal),False,reduce carbohydrates,monitor his blood glucose levels three times a day
+E7,E9,-1,> (Preceded By),False,reduce carbohydrates,argued with his wife
+E7,E10,-1,> (Preceded By),False,reduce carbohydrates,apologized
+E7,E11,-5,di (Contains),False,reduce carbohydrates,follow-up appointment
+E7,E12,-5,di (Contains),False,reduce carbohydrates,scheduled another follow-up
+E7,E13,0,= (Equal),False,reduce carbohydrates,walks for forty minutes every morning
+E7,E14,0,= (Equal),False,reduce carbohydrates,eats carefully
+E7,E15,-6,fi (Finished By),False,reduce carbohydrates,lost eight kilograms
+E7,E16,-2,mi (Met By),False,reduce carbohydrates,spent the first weekend
+E7,E17,6,f (Finishes),False,reduce carbohydrates,Mr. Bashir has now been managing his diabetes
+E8,E1,-1,> (Preceded By),False,monitor his blood glucose levels three times a day,visited the doctor for a routine checkup
+E8,E2,-1,> (Preceded By),False,monitor his blood glucose levels three times a day,received his diagnosis
+E8,E3,-1,> (Preceded By),False,monitor his blood glucose levels three times a day,told him he had Type 2 diabetes
+E8,E4,-1,> (Preceded By),False,monitor his blood glucose levels three times a day,researched dietary changes
+E8,E5,-2,mi (Met By),False,monitor his blood glucose levels three times a day,planned a new menu
+E8,E6,0,= (Equal),False,monitor his blood glucose levels three times a day,eliminate sugar
+E8,E7,0,= (Equal),False,monitor his blood glucose levels three times a day,reduce carbohydrates
+E8,E9,-1,> (Preceded By),False,monitor his blood glucose levels three times a day,argued with his wife
+E8,E10,-1,> (Preceded By),False,monitor his blood glucose levels three times a day,apologized
+E8,E11,-5,di (Contains),False,monitor his blood glucose levels three times a day,follow-up appointment
+E8,E12,-5,di (Contains),False,monitor his blood glucose levels three times a day,scheduled another follow-up
+E8,E13,0,= (Equal),False,monitor his blood glucose levels three times a day,walks for forty minutes every morning
+E8,E14,0,= (Equal),False,monitor his blood glucose levels three times a day,eats carefully
+E8,E15,-6,fi (Finished By),False,monitor his blood glucose levels three times a day,lost eight kilograms
+E8,E16,-2,mi (Met By),False,monitor his blood glucose levels three times a day,spent the first weekend
+E8,E17,6,f (Finishes),False,monitor his blood glucose levels three times a day,Mr. Bashir has now been managing his diabetes
+E9,E1,-1,> (Preceded By),False,argued with his wife,visited the doctor for a routine checkup
+E9,E2,-1,> (Preceded By),False,argued with his wife,received his diagnosis
+E9,E3,-1,> (Preceded By),False,argued with his wife,told him he had Type 2 diabetes
+E9,E4,1,< (Precedes),False,argued with his wife,researched dietary changes
+E9,E5,1,< (Precedes),False,argued with his wife,planned a new menu
+E9,E6,1,< (Precedes),False,argued with his wife,eliminate sugar
+E9,E7,1,< (Precedes),False,argued with his wife,reduce carbohydrates
+E9,E8,1,< (Precedes),False,argued with his wife,monitor his blood glucose levels three times a day
+E9,E10,1,< (Precedes),False,argued with his wife,apologized
+E9,E11,1,< (Precedes),False,argued with his wife,follow-up appointment
+E9,E12,1,< (Precedes),False,argued with his wife,scheduled another follow-up
+E9,E13,1,< (Precedes),False,argued with his wife,walks for forty minutes every morning
+E9,E14,1,< (Precedes),False,argued with his wife,eats carefully
+E9,E15,1,< (Precedes),False,argued with his wife,lost eight kilograms
+E9,E16,5,d (During),False,argued with his wife,spent the first weekend
+E9,E17,5,d (During),False,argued with his wife,Mr. Bashir has now been managing his diabetes
+E10,E1,-1,> (Preceded By),False,apologized,visited the doctor for a routine checkup
+E10,E2,-1,> (Preceded By),False,apologized,received his diagnosis
+E10,E3,-1,> (Preceded By),False,apologized,told him he had Type 2 diabetes
+E10,E4,1,< (Precedes),False,apologized,researched dietary changes
+E10,E5,1,< (Precedes),False,apologized,planned a new menu
+E10,E6,1,< (Precedes),False,apologized,eliminate sugar
+E10,E7,1,< (Precedes),False,apologized,reduce carbohydrates
+E10,E8,1,< (Precedes),False,apologized,monitor his blood glucose levels three times a day
+E10,E9,-1,> (Preceded By),False,apologized,argued with his wife
+E10,E11,1,< (Precedes),False,apologized,follow-up appointment
+E10,E12,1,< (Precedes),False,apologized,scheduled another follow-up
+E10,E13,1,< (Precedes),False,apologized,walks for forty minutes every morning
+E10,E14,1,< (Precedes),False,apologized,eats carefully
+E10,E15,1,< (Precedes),False,apologized,lost eight kilograms
+E10,E16,5,d (During),False,apologized,spent the first weekend
+E10,E17,5,d (During),False,apologized,Mr. Bashir has now been managing his diabetes
+E11,E1,-1,> (Preceded By),False,follow-up appointment,visited the doctor for a routine checkup
+E11,E2,-1,> (Preceded By),False,follow-up appointment,received his diagnosis
+E11,E3,-1,> (Preceded By),False,follow-up appointment,told him he had Type 2 diabetes
+E11,E4,-1,> (Preceded By),False,follow-up appointment,researched dietary changes
+E11,E5,-1,> (Preceded By),False,follow-up appointment,planned a new menu
+E11,E6,5,d (During),False,follow-up appointment,eliminate sugar
+E11,E7,5,d (During),False,follow-up appointment,reduce carbohydrates
+E11,E8,5,d (During),False,follow-up appointment,monitor his blood glucose levels three times a day
+E11,E9,-1,> (Preceded By),False,follow-up appointment,argued with his wife
+E11,E10,-1,> (Preceded By),False,follow-up appointment,apologized
+E11,E12,2,m (Meets),False,follow-up appointment,scheduled another follow-up
+E11,E13,5,d (During),False,follow-up appointment,walks for forty minutes every morning
+E11,E14,5,d (During),False,follow-up appointment,eats carefully
+E11,E15,1,< (Precedes),False,follow-up appointment,lost eight kilograms
+E11,E16,-1,> (Preceded By),False,follow-up appointment,spent the first weekend
+E11,E17,5,d (During),False,follow-up appointment,Mr. Bashir has now been managing his diabetes
+E12,E1,-1,> (Preceded By),False,scheduled another follow-up,visited the doctor for a routine checkup
+E12,E2,-1,> (Preceded By),False,scheduled another follow-up,received his diagnosis
+E12,E3,-1,> (Preceded By),False,scheduled another follow-up,told him he had Type 2 diabetes
+E12,E4,-1,> (Preceded By),False,scheduled another follow-up,researched dietary changes
+E12,E5,-1,> (Preceded By),False,scheduled another follow-up,planned a new menu
+E12,E6,5,d (During),False,scheduled another follow-up,eliminate sugar
+E12,E7,5,d (During),False,scheduled another follow-up,reduce carbohydrates
+E12,E8,5,d (During),False,scheduled another follow-up,monitor his blood glucose levels three times a day
+E12,E9,-1,> (Preceded By),False,scheduled another follow-up,argued with his wife
+E12,E10,-1,> (Preceded By),False,scheduled another follow-up,apologized
+E12,E11,-2,mi (Met By),False,scheduled another follow-up,follow-up appointment
+E12,E13,5,d (During),False,scheduled another follow-up,walks for forty minutes every morning
+E12,E14,5,d (During),False,scheduled another follow-up,eats carefully
+E12,E15,1,< (Precedes),False,scheduled another follow-up,lost eight kilograms
+E12,E16,-1,> (Preceded By),False,scheduled another follow-up,spent the first weekend
+E12,E17,5,d (During),False,scheduled another follow-up,Mr. Bashir has now been managing his diabetes
+E13,E1,-1,> (Preceded By),False,walks for forty minutes every morning,visited the doctor for a routine checkup
+E13,E2,-1,> (Preceded By),False,walks for forty minutes every morning,received his diagnosis
+E13,E3,-1,> (Preceded By),False,walks for forty minutes every morning,told him he had Type 2 diabetes
+E13,E4,-1,> (Preceded By),False,walks for forty minutes every morning,researched dietary changes
+E13,E5,-2,mi (Met By),False,walks for forty minutes every morning,planned a new menu
+E13,E6,0,= (Equal),False,walks for forty minutes every morning,eliminate sugar
+E13,E7,0,= (Equal),False,walks for forty minutes every morning,reduce carbohydrates
+E13,E8,0,= (Equal),False,walks for forty minutes every morning,monitor his blood glucose levels three times a day
+E13,E9,-1,> (Preceded By),False,walks for forty minutes every morning,argued with his wife
+E13,E10,-1,> (Preceded By),False,walks for forty minutes every morning,apologized
+E13,E11,-5,di (Contains),False,walks for forty minutes every morning,follow-up appointment
+E13,E12,-5,di (Contains),False,walks for forty minutes every morning,scheduled another follow-up
+E13,E14,0,= (Equal),False,walks for forty minutes every morning,eats carefully
+E13,E15,-6,fi (Finished By),False,walks for forty minutes every morning,lost eight kilograms
+E13,E16,-2,mi (Met By),False,walks for forty minutes every morning,spent the first weekend
+E13,E17,6,f (Finishes),False,walks for forty minutes every morning,Mr. Bashir has now been managing his diabetes
+E14,E1,-1,> (Preceded By),False,eats carefully,visited the doctor for a routine checkup
+E14,E2,-1,> (Preceded By),False,eats carefully,received his diagnosis
+E14,E3,-1,> (Preceded By),False,eats carefully,told him he had Type 2 diabetes
+E14,E4,-1,> (Preceded By),False,eats carefully,researched dietary changes
+E14,E5,-2,mi (Met By),False,eats carefully,planned a new menu
+E14,E6,0,= (Equal),False,eats carefully,eliminate sugar
+E14,E7,0,= (Equal),False,eats carefully,reduce carbohydrates
+E14,E8,0,= (Equal),False,eats carefully,monitor his blood glucose levels three times a day
+E14,E9,-1,> (Preceded By),False,eats carefully,argued with his wife
+E14,E10,-1,> (Preceded By),False,eats carefully,apologized
+E14,E11,-5,di (Contains),False,eats carefully,follow-up appointment
+E14,E12,-5,di (Contains),False,eats carefully,scheduled another follow-up
+E14,E13,0,= (Equal),False,eats carefully,walks for forty minutes every morning
+E14,E15,-6,fi (Finished By),False,eats carefully,lost eight kilograms
+E14,E16,-2,mi (Met By),False,eats carefully,spent the first weekend
+E14,E17,6,f (Finishes),False,eats carefully,Mr. Bashir has now been managing his diabetes
+E15,E1,-1,> (Preceded By),False,lost eight kilograms,visited the doctor for a routine checkup
+E15,E2,-1,> (Preceded By),False,lost eight kilograms,received his diagnosis
+E15,E3,-1,> (Preceded By),False,lost eight kilograms,told him he had Type 2 diabetes
+E15,E4,-1,> (Preceded By),False,lost eight kilograms,researched dietary changes
+E15,E5,-1,> (Preceded By),False,lost eight kilograms,planned a new menu
+E15,E6,6,f (Finishes),False,lost eight kilograms,eliminate sugar
+E15,E7,6,f (Finishes),False,lost eight kilograms,reduce carbohydrates
+E15,E8,6,f (Finishes),False,lost eight kilograms,monitor his blood glucose levels three times a day
+E15,E9,-1,> (Preceded By),False,lost eight kilograms,argued with his wife
+E15,E10,-1,> (Preceded By),False,lost eight kilograms,apologized
+E15,E11,-1,> (Preceded By),False,lost eight kilograms,follow-up appointment
+E15,E12,-1,> (Preceded By),False,lost eight kilograms,scheduled another follow-up
+E15,E13,6,f (Finishes),False,lost eight kilograms,walks for forty minutes every morning
+E15,E14,6,f (Finishes),False,lost eight kilograms,eats carefully
+E15,E16,-1,> (Preceded By),False,lost eight kilograms,spent the first weekend
+E15,E17,6,f (Finishes),False,lost eight kilograms,Mr. Bashir has now been managing his diabetes
+E16,E1,-1,> (Preceded By),False,spent the first weekend,visited the doctor for a routine checkup
+E16,E2,-1,> (Preceded By),False,spent the first weekend,received his diagnosis
+E16,E3,-1,> (Preceded By),False,spent the first weekend,told him he had Type 2 diabetes
+E16,E4,-5,di (Contains),False,spent the first weekend,researched dietary changes
+E16,E5,-6,fi (Finished By),False,spent the first weekend,planned a new menu
+E16,E6,2,m (Meets),False,spent the first weekend,eliminate sugar
+E16,E7,2,m (Meets),False,spent the first weekend,reduce carbohydrates
+E16,E8,2,m (Meets),False,spent the first weekend,monitor his blood glucose levels three times a day
+E16,E9,-5,di (Contains),False,spent the first weekend,argued with his wife
+E16,E10,-5,di (Contains),False,spent the first weekend,apologized
+E16,E11,1,< (Precedes),False,spent the first weekend,follow-up appointment
+E16,E12,1,< (Precedes),False,spent the first weekend,scheduled another follow-up
+E16,E13,2,m (Meets),False,spent the first weekend,walks for forty minutes every morning
+E16,E14,2,m (Meets),False,spent the first weekend,eats carefully
+E16,E15,1,< (Precedes),False,spent the first weekend,lost eight kilograms
+E16,E17,5,d (During),False,spent the first weekend,Mr. Bashir has now been managing his diabetes
+E17,E1,-4,si (Started By),False,Mr. Bashir has now been managing his diabetes,visited the doctor for a routine checkup
+E17,E2,-5,di (Contains),False,Mr. Bashir has now been managing his diabetes,received his diagnosis
+E17,E3,-5,di (Contains),False,Mr. Bashir has now been managing his diabetes,told him he had Type 2 diabetes
+E17,E4,-5,di (Contains),False,Mr. Bashir has now been managing his diabetes,researched dietary changes
+E17,E5,-5,di (Contains),False,Mr. Bashir has now been managing his diabetes,planned a new menu
+E17,E6,-6,fi (Finished By),False,Mr. Bashir has now been managing his diabetes,eliminate sugar
+E17,E7,-6,fi (Finished By),False,Mr. Bashir has now been managing his diabetes,reduce carbohydrates
+E17,E8,-6,fi (Finished By),False,Mr. Bashir has now been managing his diabetes,monitor his blood glucose levels three times a day
+E17,E9,-5,di (Contains),False,Mr. Bashir has now been managing his diabetes,argued with his wife
+E17,E10,-5,di (Contains),False,Mr. Bashir has now been managing his diabetes,apologized
+E17,E11,-5,di (Contains),False,Mr. Bashir has now been managing his diabetes,follow-up appointment
+E17,E12,-5,di (Contains),False,Mr. Bashir has now been managing his diabetes,scheduled another follow-up
+E17,E13,-6,fi (Finished By),False,Mr. Bashir has now been managing his diabetes,walks for forty minutes every morning
+E17,E14,-6,fi (Finished By),False,Mr. Bashir has now been managing his diabetes,eats carefully
+E17,E15,-6,fi (Finished By),False,Mr. Bashir has now been managing his diabetes,lost eight kilograms
+E17,E16,-5,di (Contains),False,Mr. Bashir has now been managing his diabetes,spent the first weekend

@@ -1,0 +1,381 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,Zahir decided to run for the union council,He began his campaign
+E1,E3,1,< (Precedes),False,Zahir decided to run for the union council,visiting households in the union's nine villages
+E1,E4,1,< (Precedes),False,Zahir decided to run for the union council,covered three villages and spoken to nearly five hundred voters
+E1,E5,1,< (Precedes),False,Zahir decided to run for the union council,devoted to the remaining six villages
+E1,E6,1,< (Precedes),False,Zahir decided to run for the union council,His voice grew hoarse
+E1,E7,1,< (Precedes),False,Zahir decided to run for the union council,rest it for two days
+E1,E8,1,< (Precedes),False,Zahir decided to run for the union council,his main opponent held a large rally
+E1,E9,1,< (Precedes),False,Zahir decided to run for the union council,Zahir attended as an observer
+E1,E10,1,< (Precedes),False,Zahir decided to run for the union council,Zahir decided to run a different kind of campaign
+E1,E11,1,< (Precedes),False,Zahir decided to run for the union council,At his own rally
+E1,E12,1,< (Precedes),False,Zahir decided to run for the union council,spread rumors that Zahir had embezzled funds from the school
+E1,E13,1,< (Precedes),False,Zahir decided to run for the union council,Zahir spent a full week defending his reputation
+E1,E14,1,< (Precedes),False,Zahir decided to run for the union council,The school's headmaster publicly vouched for him
+E1,E15,1,< (Precedes),False,Zahir decided to run for the union council,the rumors subsided
+E1,E16,1,< (Precedes),False,Zahir decided to run for the union council,The election took place
+E1,E17,1,< (Precedes),False,Zahir decided to run for the union council,Zahir voted early in the morning
+E1,E18,1,< (Precedes),False,Zahir decided to run for the union council,The results were announced
+E1,E19,1,< (Precedes),False,Zahir decided to run for the union council,Zahir had won
+E1,E20,1,< (Precedes),False,Zahir decided to run for the union council,He stood in the council office
+E2,E1,-1,> (Preceded By),False,He began his campaign,Zahir decided to run for the union council
+E2,E3,4,s (Starts),False,He began his campaign,visiting households in the union's nine villages
+E2,E4,4,s (Starts),False,He began his campaign,covered three villages and spoken to nearly five hundred voters
+E2,E5,1,< (Precedes),False,He began his campaign,devoted to the remaining six villages
+E2,E6,1,< (Precedes),False,He began his campaign,His voice grew hoarse
+E2,E7,1,< (Precedes),False,He began his campaign,rest it for two days
+E2,E8,1,< (Precedes),False,He began his campaign,his main opponent held a large rally
+E2,E9,1,< (Precedes),False,He began his campaign,Zahir attended as an observer
+E2,E10,1,< (Precedes),False,He began his campaign,Zahir decided to run a different kind of campaign
+E2,E11,1,< (Precedes),False,He began his campaign,At his own rally
+E2,E12,1,< (Precedes),False,He began his campaign,spread rumors that Zahir had embezzled funds from the school
+E2,E13,1,< (Precedes),False,He began his campaign,Zahir spent a full week defending his reputation
+E2,E14,1,< (Precedes),False,He began his campaign,The school's headmaster publicly vouched for him
+E2,E15,1,< (Precedes),False,He began his campaign,the rumors subsided
+E2,E16,1,< (Precedes),False,He began his campaign,The election took place
+E2,E17,1,< (Precedes),False,He began his campaign,Zahir voted early in the morning
+E2,E18,1,< (Precedes),False,He began his campaign,The results were announced
+E2,E19,1,< (Precedes),False,He began his campaign,Zahir had won
+E2,E20,1,< (Precedes),False,He began his campaign,He stood in the council office
+E3,E1,-1,> (Preceded By),False,visiting households in the union's nine villages,Zahir decided to run for the union council
+E3,E2,-4,si (Started By),False,visiting households in the union's nine villages,He began his campaign
+E3,E4,-4,si (Started By),False,visiting households in the union's nine villages,covered three villages and spoken to nearly five hundred voters
+E3,E5,-5,di (Contains),False,visiting households in the union's nine villages,devoted to the remaining six villages
+E3,E6,-5,di (Contains),False,visiting households in the union's nine villages,His voice grew hoarse
+E3,E7,-5,di (Contains),False,visiting households in the union's nine villages,rest it for two days
+E3,E8,-5,di (Contains),False,visiting households in the union's nine villages,his main opponent held a large rally
+E3,E9,-5,di (Contains),False,visiting households in the union's nine villages,Zahir attended as an observer
+E3,E10,-5,di (Contains),False,visiting households in the union's nine villages,Zahir decided to run a different kind of campaign
+E3,E11,-5,di (Contains),False,visiting households in the union's nine villages,At his own rally
+E3,E12,-5,di (Contains),False,visiting households in the union's nine villages,spread rumors that Zahir had embezzled funds from the school
+E3,E13,-5,di (Contains),False,visiting households in the union's nine villages,Zahir spent a full week defending his reputation
+E3,E14,-5,di (Contains),False,visiting households in the union's nine villages,The school's headmaster publicly vouched for him
+E3,E15,-5,di (Contains),False,visiting households in the union's nine villages,the rumors subsided
+E3,E16,1,< (Precedes),False,visiting households in the union's nine villages,The election took place
+E3,E17,1,< (Precedes),False,visiting households in the union's nine villages,Zahir voted early in the morning
+E3,E18,1,< (Precedes),False,visiting households in the union's nine villages,The results were announced
+E3,E19,1,< (Precedes),False,visiting households in the union's nine villages,Zahir had won
+E3,E20,1,< (Precedes),False,visiting households in the union's nine villages,He stood in the council office
+E4,E1,-1,> (Preceded By),False,covered three villages and spoken to nearly five hundred voters,Zahir decided to run for the union council
+E4,E2,-4,si (Started By),False,covered three villages and spoken to nearly five hundred voters,He began his campaign
+E4,E3,4,s (Starts),False,covered three villages and spoken to nearly five hundred voters,visiting households in the union's nine villages
+E4,E5,2,m (Meets),False,covered three villages and spoken to nearly five hundred voters,devoted to the remaining six villages
+E4,E6,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,His voice grew hoarse
+E4,E7,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,rest it for two days
+E4,E8,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,his main opponent held a large rally
+E4,E9,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,Zahir attended as an observer
+E4,E10,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,Zahir decided to run a different kind of campaign
+E4,E11,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,At his own rally
+E4,E12,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,spread rumors that Zahir had embezzled funds from the school
+E4,E13,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,Zahir spent a full week defending his reputation
+E4,E14,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,The school's headmaster publicly vouched for him
+E4,E15,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,the rumors subsided
+E4,E16,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,The election took place
+E4,E17,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,Zahir voted early in the morning
+E4,E18,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,The results were announced
+E4,E19,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,Zahir had won
+E4,E20,1,< (Precedes),False,covered three villages and spoken to nearly five hundred voters,He stood in the council office
+E5,E1,-1,> (Preceded By),False,devoted to the remaining six villages,Zahir decided to run for the union council
+E5,E2,-1,> (Preceded By),False,devoted to the remaining six villages,He began his campaign
+E5,E3,5,d (During),False,devoted to the remaining six villages,visiting households in the union's nine villages
+E5,E4,-2,mi (Met By),False,devoted to the remaining six villages,covered three villages and spoken to nearly five hundred voters
+E5,E6,-5,di (Contains),False,devoted to the remaining six villages,His voice grew hoarse
+E5,E7,-5,di (Contains),False,devoted to the remaining six villages,rest it for two days
+E5,E8,2,m (Meets),False,devoted to the remaining six villages,his main opponent held a large rally
+E5,E9,2,m (Meets),False,devoted to the remaining six villages,Zahir attended as an observer
+E5,E10,1,< (Precedes),False,devoted to the remaining six villages,Zahir decided to run a different kind of campaign
+E5,E11,1,< (Precedes),False,devoted to the remaining six villages,At his own rally
+E5,E12,1,< (Precedes),False,devoted to the remaining six villages,spread rumors that Zahir had embezzled funds from the school
+E5,E13,1,< (Precedes),False,devoted to the remaining six villages,Zahir spent a full week defending his reputation
+E5,E14,1,< (Precedes),False,devoted to the remaining six villages,The school's headmaster publicly vouched for him
+E5,E15,1,< (Precedes),False,devoted to the remaining six villages,the rumors subsided
+E5,E16,1,< (Precedes),False,devoted to the remaining six villages,The election took place
+E5,E17,1,< (Precedes),False,devoted to the remaining six villages,Zahir voted early in the morning
+E5,E18,1,< (Precedes),False,devoted to the remaining six villages,The results were announced
+E5,E19,1,< (Precedes),False,devoted to the remaining six villages,Zahir had won
+E5,E20,1,< (Precedes),False,devoted to the remaining six villages,He stood in the council office
+E6,E1,-1,> (Preceded By),False,His voice grew hoarse,Zahir decided to run for the union council
+E6,E2,-1,> (Preceded By),False,His voice grew hoarse,He began his campaign
+E6,E3,5,d (During),False,His voice grew hoarse,visiting households in the union's nine villages
+E6,E4,-1,> (Preceded By),False,His voice grew hoarse,covered three villages and spoken to nearly five hundred voters
+E6,E5,5,d (During),False,His voice grew hoarse,devoted to the remaining six villages
+E6,E7,2,m (Meets),False,His voice grew hoarse,rest it for two days
+E6,E8,1,< (Precedes),False,His voice grew hoarse,his main opponent held a large rally
+E6,E9,1,< (Precedes),False,His voice grew hoarse,Zahir attended as an observer
+E6,E10,1,< (Precedes),False,His voice grew hoarse,Zahir decided to run a different kind of campaign
+E6,E11,1,< (Precedes),False,His voice grew hoarse,At his own rally
+E6,E12,1,< (Precedes),False,His voice grew hoarse,spread rumors that Zahir had embezzled funds from the school
+E6,E13,1,< (Precedes),False,His voice grew hoarse,Zahir spent a full week defending his reputation
+E6,E14,1,< (Precedes),False,His voice grew hoarse,The school's headmaster publicly vouched for him
+E6,E15,1,< (Precedes),False,His voice grew hoarse,the rumors subsided
+E6,E16,1,< (Precedes),False,His voice grew hoarse,The election took place
+E6,E17,1,< (Precedes),False,His voice grew hoarse,Zahir voted early in the morning
+E6,E18,1,< (Precedes),False,His voice grew hoarse,The results were announced
+E6,E19,1,< (Precedes),False,His voice grew hoarse,Zahir had won
+E6,E20,1,< (Precedes),False,His voice grew hoarse,He stood in the council office
+E7,E1,-1,> (Preceded By),False,rest it for two days,Zahir decided to run for the union council
+E7,E2,-1,> (Preceded By),False,rest it for two days,He began his campaign
+E7,E3,5,d (During),False,rest it for two days,visiting households in the union's nine villages
+E7,E4,-1,> (Preceded By),False,rest it for two days,covered three villages and spoken to nearly five hundred voters
+E7,E5,5,d (During),False,rest it for two days,devoted to the remaining six villages
+E7,E6,-2,mi (Met By),False,rest it for two days,His voice grew hoarse
+E7,E8,1,< (Precedes),False,rest it for two days,his main opponent held a large rally
+E7,E9,1,< (Precedes),False,rest it for two days,Zahir attended as an observer
+E7,E10,1,< (Precedes),False,rest it for two days,Zahir decided to run a different kind of campaign
+E7,E11,1,< (Precedes),False,rest it for two days,At his own rally
+E7,E12,1,< (Precedes),False,rest it for two days,spread rumors that Zahir had embezzled funds from the school
+E7,E13,1,< (Precedes),False,rest it for two days,Zahir spent a full week defending his reputation
+E7,E14,1,< (Precedes),False,rest it for two days,The school's headmaster publicly vouched for him
+E7,E15,1,< (Precedes),False,rest it for two days,the rumors subsided
+E7,E16,1,< (Precedes),False,rest it for two days,The election took place
+E7,E17,1,< (Precedes),False,rest it for two days,Zahir voted early in the morning
+E7,E18,1,< (Precedes),False,rest it for two days,The results were announced
+E7,E19,1,< (Precedes),False,rest it for two days,Zahir had won
+E7,E20,1,< (Precedes),False,rest it for two days,He stood in the council office
+E8,E1,-1,> (Preceded By),False,his main opponent held a large rally,Zahir decided to run for the union council
+E8,E2,-1,> (Preceded By),False,his main opponent held a large rally,He began his campaign
+E8,E3,5,d (During),False,his main opponent held a large rally,visiting households in the union's nine villages
+E8,E4,-1,> (Preceded By),False,his main opponent held a large rally,covered three villages and spoken to nearly five hundred voters
+E8,E5,-2,mi (Met By),False,his main opponent held a large rally,devoted to the remaining six villages
+E8,E6,-1,> (Preceded By),False,his main opponent held a large rally,His voice grew hoarse
+E8,E7,-1,> (Preceded By),False,his main opponent held a large rally,rest it for two days
+E8,E9,0,= (Equal),False,his main opponent held a large rally,Zahir attended as an observer
+E8,E10,2,m (Meets),False,his main opponent held a large rally,Zahir decided to run a different kind of campaign
+E8,E11,1,< (Precedes),False,his main opponent held a large rally,At his own rally
+E8,E12,1,< (Precedes),False,his main opponent held a large rally,spread rumors that Zahir had embezzled funds from the school
+E8,E13,1,< (Precedes),False,his main opponent held a large rally,Zahir spent a full week defending his reputation
+E8,E14,1,< (Precedes),False,his main opponent held a large rally,The school's headmaster publicly vouched for him
+E8,E15,1,< (Precedes),False,his main opponent held a large rally,the rumors subsided
+E8,E16,1,< (Precedes),False,his main opponent held a large rally,The election took place
+E8,E17,1,< (Precedes),False,his main opponent held a large rally,Zahir voted early in the morning
+E8,E18,1,< (Precedes),False,his main opponent held a large rally,The results were announced
+E8,E19,1,< (Precedes),False,his main opponent held a large rally,Zahir had won
+E8,E20,1,< (Precedes),False,his main opponent held a large rally,He stood in the council office
+E9,E1,-1,> (Preceded By),False,Zahir attended as an observer,Zahir decided to run for the union council
+E9,E2,-1,> (Preceded By),False,Zahir attended as an observer,He began his campaign
+E9,E3,5,d (During),False,Zahir attended as an observer,visiting households in the union's nine villages
+E9,E4,-1,> (Preceded By),False,Zahir attended as an observer,covered three villages and spoken to nearly five hundred voters
+E9,E5,-2,mi (Met By),False,Zahir attended as an observer,devoted to the remaining six villages
+E9,E6,-1,> (Preceded By),False,Zahir attended as an observer,His voice grew hoarse
+E9,E7,-1,> (Preceded By),False,Zahir attended as an observer,rest it for two days
+E9,E8,0,= (Equal),False,Zahir attended as an observer,his main opponent held a large rally
+E9,E10,2,m (Meets),False,Zahir attended as an observer,Zahir decided to run a different kind of campaign
+E9,E11,1,< (Precedes),False,Zahir attended as an observer,At his own rally
+E9,E12,1,< (Precedes),False,Zahir attended as an observer,spread rumors that Zahir had embezzled funds from the school
+E9,E13,1,< (Precedes),False,Zahir attended as an observer,Zahir spent a full week defending his reputation
+E9,E14,1,< (Precedes),False,Zahir attended as an observer,The school's headmaster publicly vouched for him
+E9,E15,1,< (Precedes),False,Zahir attended as an observer,the rumors subsided
+E9,E16,1,< (Precedes),False,Zahir attended as an observer,The election took place
+E9,E17,1,< (Precedes),False,Zahir attended as an observer,Zahir voted early in the morning
+E9,E18,1,< (Precedes),False,Zahir attended as an observer,The results were announced
+E9,E19,1,< (Precedes),False,Zahir attended as an observer,Zahir had won
+E9,E20,1,< (Precedes),False,Zahir attended as an observer,He stood in the council office
+E10,E1,-1,> (Preceded By),False,Zahir decided to run a different kind of campaign,Zahir decided to run for the union council
+E10,E2,-1,> (Preceded By),False,Zahir decided to run a different kind of campaign,He began his campaign
+E10,E3,5,d (During),False,Zahir decided to run a different kind of campaign,visiting households in the union's nine villages
+E10,E4,-1,> (Preceded By),False,Zahir decided to run a different kind of campaign,covered three villages and spoken to nearly five hundred voters
+E10,E5,-1,> (Preceded By),False,Zahir decided to run a different kind of campaign,devoted to the remaining six villages
+E10,E6,-1,> (Preceded By),False,Zahir decided to run a different kind of campaign,His voice grew hoarse
+E10,E7,-1,> (Preceded By),False,Zahir decided to run a different kind of campaign,rest it for two days
+E10,E8,-2,mi (Met By),False,Zahir decided to run a different kind of campaign,his main opponent held a large rally
+E10,E9,-2,mi (Met By),False,Zahir decided to run a different kind of campaign,Zahir attended as an observer
+E10,E11,1,< (Precedes),False,Zahir decided to run a different kind of campaign,At his own rally
+E10,E12,1,< (Precedes),False,Zahir decided to run a different kind of campaign,spread rumors that Zahir had embezzled funds from the school
+E10,E13,1,< (Precedes),False,Zahir decided to run a different kind of campaign,Zahir spent a full week defending his reputation
+E10,E14,1,< (Precedes),False,Zahir decided to run a different kind of campaign,The school's headmaster publicly vouched for him
+E10,E15,1,< (Precedes),False,Zahir decided to run a different kind of campaign,the rumors subsided
+E10,E16,1,< (Precedes),False,Zahir decided to run a different kind of campaign,The election took place
+E10,E17,1,< (Precedes),False,Zahir decided to run a different kind of campaign,Zahir voted early in the morning
+E10,E18,1,< (Precedes),False,Zahir decided to run a different kind of campaign,The results were announced
+E10,E19,1,< (Precedes),False,Zahir decided to run a different kind of campaign,Zahir had won
+E10,E20,1,< (Precedes),False,Zahir decided to run a different kind of campaign,He stood in the council office
+E11,E1,-1,> (Preceded By),False,At his own rally,Zahir decided to run for the union council
+E11,E2,-1,> (Preceded By),False,At his own rally,He began his campaign
+E11,E3,5,d (During),False,At his own rally,visiting households in the union's nine villages
+E11,E4,-1,> (Preceded By),False,At his own rally,covered three villages and spoken to nearly five hundred voters
+E11,E5,-1,> (Preceded By),False,At his own rally,devoted to the remaining six villages
+E11,E6,-1,> (Preceded By),False,At his own rally,His voice grew hoarse
+E11,E7,-1,> (Preceded By),False,At his own rally,rest it for two days
+E11,E8,-1,> (Preceded By),False,At his own rally,his main opponent held a large rally
+E11,E9,-1,> (Preceded By),False,At his own rally,Zahir attended as an observer
+E11,E10,-1,> (Preceded By),False,At his own rally,Zahir decided to run a different kind of campaign
+E11,E12,1,< (Precedes),False,At his own rally,spread rumors that Zahir had embezzled funds from the school
+E11,E13,1,< (Precedes),False,At his own rally,Zahir spent a full week defending his reputation
+E11,E14,1,< (Precedes),False,At his own rally,The school's headmaster publicly vouched for him
+E11,E15,1,< (Precedes),False,At his own rally,the rumors subsided
+E11,E16,1,< (Precedes),False,At his own rally,The election took place
+E11,E17,1,< (Precedes),False,At his own rally,Zahir voted early in the morning
+E11,E18,1,< (Precedes),False,At his own rally,The results were announced
+E11,E19,1,< (Precedes),False,At his own rally,Zahir had won
+E11,E20,1,< (Precedes),False,At his own rally,He stood in the council office
+E12,E1,-1,> (Preceded By),False,spread rumors that Zahir had embezzled funds from the school,Zahir decided to run for the union council
+E12,E2,-1,> (Preceded By),False,spread rumors that Zahir had embezzled funds from the school,He began his campaign
+E12,E3,5,d (During),False,spread rumors that Zahir had embezzled funds from the school,visiting households in the union's nine villages
+E12,E4,-1,> (Preceded By),False,spread rumors that Zahir had embezzled funds from the school,covered three villages and spoken to nearly five hundred voters
+E12,E5,-1,> (Preceded By),False,spread rumors that Zahir had embezzled funds from the school,devoted to the remaining six villages
+E12,E6,-1,> (Preceded By),False,spread rumors that Zahir had embezzled funds from the school,His voice grew hoarse
+E12,E7,-1,> (Preceded By),False,spread rumors that Zahir had embezzled funds from the school,rest it for two days
+E12,E8,-1,> (Preceded By),False,spread rumors that Zahir had embezzled funds from the school,his main opponent held a large rally
+E12,E9,-1,> (Preceded By),False,spread rumors that Zahir had embezzled funds from the school,Zahir attended as an observer
+E12,E10,-1,> (Preceded By),False,spread rumors that Zahir had embezzled funds from the school,Zahir decided to run a different kind of campaign
+E12,E11,-1,> (Preceded By),False,spread rumors that Zahir had embezzled funds from the school,At his own rally
+E12,E13,2,m (Meets),False,spread rumors that Zahir had embezzled funds from the school,Zahir spent a full week defending his reputation
+E12,E14,1,< (Precedes),False,spread rumors that Zahir had embezzled funds from the school,The school's headmaster publicly vouched for him
+E12,E15,1,< (Precedes),False,spread rumors that Zahir had embezzled funds from the school,the rumors subsided
+E12,E16,1,< (Precedes),False,spread rumors that Zahir had embezzled funds from the school,The election took place
+E12,E17,1,< (Precedes),False,spread rumors that Zahir had embezzled funds from the school,Zahir voted early in the morning
+E12,E18,1,< (Precedes),False,spread rumors that Zahir had embezzled funds from the school,The results were announced
+E12,E19,1,< (Precedes),False,spread rumors that Zahir had embezzled funds from the school,Zahir had won
+E12,E20,1,< (Precedes),False,spread rumors that Zahir had embezzled funds from the school,He stood in the council office
+E13,E1,-1,> (Preceded By),False,Zahir spent a full week defending his reputation,Zahir decided to run for the union council
+E13,E2,-1,> (Preceded By),False,Zahir spent a full week defending his reputation,He began his campaign
+E13,E3,5,d (During),False,Zahir spent a full week defending his reputation,visiting households in the union's nine villages
+E13,E4,-1,> (Preceded By),False,Zahir spent a full week defending his reputation,covered three villages and spoken to nearly five hundred voters
+E13,E5,-1,> (Preceded By),False,Zahir spent a full week defending his reputation,devoted to the remaining six villages
+E13,E6,-1,> (Preceded By),False,Zahir spent a full week defending his reputation,His voice grew hoarse
+E13,E7,-1,> (Preceded By),False,Zahir spent a full week defending his reputation,rest it for two days
+E13,E8,-1,> (Preceded By),False,Zahir spent a full week defending his reputation,his main opponent held a large rally
+E13,E9,-1,> (Preceded By),False,Zahir spent a full week defending his reputation,Zahir attended as an observer
+E13,E10,-1,> (Preceded By),False,Zahir spent a full week defending his reputation,Zahir decided to run a different kind of campaign
+E13,E11,-1,> (Preceded By),False,Zahir spent a full week defending his reputation,At his own rally
+E13,E12,-2,mi (Met By),False,Zahir spent a full week defending his reputation,spread rumors that Zahir had embezzled funds from the school
+E13,E14,-5,di (Contains),False,Zahir spent a full week defending his reputation,The school's headmaster publicly vouched for him
+E13,E15,2,m (Meets),False,Zahir spent a full week defending his reputation,the rumors subsided
+E13,E16,1,< (Precedes),False,Zahir spent a full week defending his reputation,The election took place
+E13,E17,1,< (Precedes),False,Zahir spent a full week defending his reputation,Zahir voted early in the morning
+E13,E18,1,< (Precedes),False,Zahir spent a full week defending his reputation,The results were announced
+E13,E19,1,< (Precedes),False,Zahir spent a full week defending his reputation,Zahir had won
+E13,E20,1,< (Precedes),False,Zahir spent a full week defending his reputation,He stood in the council office
+E14,E1,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,Zahir decided to run for the union council
+E14,E2,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,He began his campaign
+E14,E3,5,d (During),False,The school's headmaster publicly vouched for him,visiting households in the union's nine villages
+E14,E4,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,covered three villages and spoken to nearly five hundred voters
+E14,E5,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,devoted to the remaining six villages
+E14,E6,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,His voice grew hoarse
+E14,E7,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,rest it for two days
+E14,E8,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,his main opponent held a large rally
+E14,E9,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,Zahir attended as an observer
+E14,E10,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,Zahir decided to run a different kind of campaign
+E14,E11,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,At his own rally
+E14,E12,-1,> (Preceded By),False,The school's headmaster publicly vouched for him,spread rumors that Zahir had embezzled funds from the school
+E14,E13,5,d (During),False,The school's headmaster publicly vouched for him,Zahir spent a full week defending his reputation
+E14,E15,1,< (Precedes),False,The school's headmaster publicly vouched for him,the rumors subsided
+E14,E16,1,< (Precedes),False,The school's headmaster publicly vouched for him,The election took place
+E14,E17,1,< (Precedes),False,The school's headmaster publicly vouched for him,Zahir voted early in the morning
+E14,E18,1,< (Precedes),False,The school's headmaster publicly vouched for him,The results were announced
+E14,E19,1,< (Precedes),False,The school's headmaster publicly vouched for him,Zahir had won
+E14,E20,1,< (Precedes),False,The school's headmaster publicly vouched for him,He stood in the council office
+E15,E1,-1,> (Preceded By),False,the rumors subsided,Zahir decided to run for the union council
+E15,E2,-1,> (Preceded By),False,the rumors subsided,He began his campaign
+E15,E3,5,d (During),False,the rumors subsided,visiting households in the union's nine villages
+E15,E4,-1,> (Preceded By),False,the rumors subsided,covered three villages and spoken to nearly five hundred voters
+E15,E5,-1,> (Preceded By),False,the rumors subsided,devoted to the remaining six villages
+E15,E6,-1,> (Preceded By),False,the rumors subsided,His voice grew hoarse
+E15,E7,-1,> (Preceded By),False,the rumors subsided,rest it for two days
+E15,E8,-1,> (Preceded By),False,the rumors subsided,his main opponent held a large rally
+E15,E9,-1,> (Preceded By),False,the rumors subsided,Zahir attended as an observer
+E15,E10,-1,> (Preceded By),False,the rumors subsided,Zahir decided to run a different kind of campaign
+E15,E11,-1,> (Preceded By),False,the rumors subsided,At his own rally
+E15,E12,-1,> (Preceded By),False,the rumors subsided,spread rumors that Zahir had embezzled funds from the school
+E15,E13,-2,mi (Met By),False,the rumors subsided,Zahir spent a full week defending his reputation
+E15,E14,-1,> (Preceded By),False,the rumors subsided,The school's headmaster publicly vouched for him
+E15,E16,1,< (Precedes),False,the rumors subsided,The election took place
+E15,E17,1,< (Precedes),False,the rumors subsided,Zahir voted early in the morning
+E15,E18,1,< (Precedes),False,the rumors subsided,The results were announced
+E15,E19,1,< (Precedes),False,the rumors subsided,Zahir had won
+E15,E20,1,< (Precedes),False,the rumors subsided,He stood in the council office
+E16,E1,-1,> (Preceded By),False,The election took place,Zahir decided to run for the union council
+E16,E2,-1,> (Preceded By),False,The election took place,He began his campaign
+E16,E3,-1,> (Preceded By),False,The election took place,visiting households in the union's nine villages
+E16,E4,-1,> (Preceded By),False,The election took place,covered three villages and spoken to nearly five hundred voters
+E16,E5,-1,> (Preceded By),False,The election took place,devoted to the remaining six villages
+E16,E6,-1,> (Preceded By),False,The election took place,His voice grew hoarse
+E16,E7,-1,> (Preceded By),False,The election took place,rest it for two days
+E16,E8,-1,> (Preceded By),False,The election took place,his main opponent held a large rally
+E16,E9,-1,> (Preceded By),False,The election took place,Zahir attended as an observer
+E16,E10,-1,> (Preceded By),False,The election took place,Zahir decided to run a different kind of campaign
+E16,E11,-1,> (Preceded By),False,The election took place,At his own rally
+E16,E12,-1,> (Preceded By),False,The election took place,spread rumors that Zahir had embezzled funds from the school
+E16,E13,-1,> (Preceded By),False,The election took place,Zahir spent a full week defending his reputation
+E16,E14,-1,> (Preceded By),False,The election took place,The school's headmaster publicly vouched for him
+E16,E15,-1,> (Preceded By),False,The election took place,the rumors subsided
+E16,E17,-5,di (Contains),False,The election took place,Zahir voted early in the morning
+E16,E18,1,< (Precedes),False,The election took place,The results were announced
+E16,E19,1,< (Precedes),False,The election took place,Zahir had won
+E16,E20,1,< (Precedes),False,The election took place,He stood in the council office
+E17,E1,-1,> (Preceded By),False,Zahir voted early in the morning,Zahir decided to run for the union council
+E17,E2,-1,> (Preceded By),False,Zahir voted early in the morning,He began his campaign
+E17,E3,-1,> (Preceded By),False,Zahir voted early in the morning,visiting households in the union's nine villages
+E17,E4,-1,> (Preceded By),False,Zahir voted early in the morning,covered three villages and spoken to nearly five hundred voters
+E17,E5,-1,> (Preceded By),False,Zahir voted early in the morning,devoted to the remaining six villages
+E17,E6,-1,> (Preceded By),False,Zahir voted early in the morning,His voice grew hoarse
+E17,E7,-1,> (Preceded By),False,Zahir voted early in the morning,rest it for two days
+E17,E8,-1,> (Preceded By),False,Zahir voted early in the morning,his main opponent held a large rally
+E17,E9,-1,> (Preceded By),False,Zahir voted early in the morning,Zahir attended as an observer
+E17,E10,-1,> (Preceded By),False,Zahir voted early in the morning,Zahir decided to run a different kind of campaign
+E17,E11,-1,> (Preceded By),False,Zahir voted early in the morning,At his own rally
+E17,E12,-1,> (Preceded By),False,Zahir voted early in the morning,spread rumors that Zahir had embezzled funds from the school
+E17,E13,-1,> (Preceded By),False,Zahir voted early in the morning,Zahir spent a full week defending his reputation
+E17,E14,-1,> (Preceded By),False,Zahir voted early in the morning,The school's headmaster publicly vouched for him
+E17,E15,-1,> (Preceded By),False,Zahir voted early in the morning,the rumors subsided
+E17,E16,5,d (During),False,Zahir voted early in the morning,The election took place
+E17,E18,1,< (Precedes),False,Zahir voted early in the morning,The results were announced
+E17,E19,1,< (Precedes),False,Zahir voted early in the morning,Zahir had won
+E17,E20,1,< (Precedes),False,Zahir voted early in the morning,He stood in the council office
+E18,E1,-1,> (Preceded By),False,The results were announced,Zahir decided to run for the union council
+E18,E2,-1,> (Preceded By),False,The results were announced,He began his campaign
+E18,E3,-1,> (Preceded By),False,The results were announced,visiting households in the union's nine villages
+E18,E4,-1,> (Preceded By),False,The results were announced,covered three villages and spoken to nearly five hundred voters
+E18,E5,-1,> (Preceded By),False,The results were announced,devoted to the remaining six villages
+E18,E6,-1,> (Preceded By),False,The results were announced,His voice grew hoarse
+E18,E7,-1,> (Preceded By),False,The results were announced,rest it for two days
+E18,E8,-1,> (Preceded By),False,The results were announced,his main opponent held a large rally
+E18,E9,-1,> (Preceded By),False,The results were announced,Zahir attended as an observer
+E18,E10,-1,> (Preceded By),False,The results were announced,Zahir decided to run a different kind of campaign
+E18,E11,-1,> (Preceded By),False,The results were announced,At his own rally
+E18,E12,-1,> (Preceded By),False,The results were announced,spread rumors that Zahir had embezzled funds from the school
+E18,E13,-1,> (Preceded By),False,The results were announced,Zahir spent a full week defending his reputation
+E18,E14,-1,> (Preceded By),False,The results were announced,The school's headmaster publicly vouched for him
+E18,E15,-1,> (Preceded By),False,The results were announced,the rumors subsided
+E18,E16,-1,> (Preceded By),False,The results were announced,The election took place
+E18,E17,-1,> (Preceded By),False,The results were announced,Zahir voted early in the morning
+E18,E19,0,= (Equal),False,The results were announced,Zahir had won
+E18,E20,1,< (Precedes),False,The results were announced,He stood in the council office
+E19,E1,-1,> (Preceded By),False,Zahir had won,Zahir decided to run for the union council
+E19,E2,-1,> (Preceded By),False,Zahir had won,He began his campaign
+E19,E3,-1,> (Preceded By),False,Zahir had won,visiting households in the union's nine villages
+E19,E4,-1,> (Preceded By),False,Zahir had won,covered three villages and spoken to nearly five hundred voters
+E19,E5,-1,> (Preceded By),False,Zahir had won,devoted to the remaining six villages
+E19,E6,-1,> (Preceded By),False,Zahir had won,His voice grew hoarse
+E19,E7,-1,> (Preceded By),False,Zahir had won,rest it for two days
+E19,E8,-1,> (Preceded By),False,Zahir had won,his main opponent held a large rally
+E19,E9,-1,> (Preceded By),False,Zahir had won,Zahir attended as an observer
+E19,E10,-1,> (Preceded By),False,Zahir had won,Zahir decided to run a different kind of campaign
+E19,E11,-1,> (Preceded By),False,Zahir had won,At his own rally
+E19,E12,-1,> (Preceded By),False,Zahir had won,spread rumors that Zahir had embezzled funds from the school
+E19,E13,-1,> (Preceded By),False,Zahir had won,Zahir spent a full week defending his reputation
+E19,E14,-1,> (Preceded By),False,Zahir had won,The school's headmaster publicly vouched for him
+E19,E15,-1,> (Preceded By),False,Zahir had won,the rumors subsided
+E19,E16,-1,> (Preceded By),False,Zahir had won,The election took place
+E19,E17,-1,> (Preceded By),False,Zahir had won,Zahir voted early in the morning
+E19,E18,0,= (Equal),False,Zahir had won,The results were announced
+E19,E20,1,< (Precedes),False,Zahir had won,He stood in the council office
+E20,E1,-1,> (Preceded By),False,He stood in the council office,Zahir decided to run for the union council
+E20,E2,-1,> (Preceded By),False,He stood in the council office,He began his campaign
+E20,E3,-1,> (Preceded By),False,He stood in the council office,visiting households in the union's nine villages
+E20,E4,-1,> (Preceded By),False,He stood in the council office,covered three villages and spoken to nearly five hundred voters
+E20,E5,-1,> (Preceded By),False,He stood in the council office,devoted to the remaining six villages
+E20,E6,-1,> (Preceded By),False,He stood in the council office,His voice grew hoarse
+E20,E7,-1,> (Preceded By),False,He stood in the council office,rest it for two days
+E20,E8,-1,> (Preceded By),False,He stood in the council office,his main opponent held a large rally
+E20,E9,-1,> (Preceded By),False,He stood in the council office,Zahir attended as an observer
+E20,E10,-1,> (Preceded By),False,He stood in the council office,Zahir decided to run a different kind of campaign
+E20,E11,-1,> (Preceded By),False,He stood in the council office,At his own rally
+E20,E12,-1,> (Preceded By),False,He stood in the council office,spread rumors that Zahir had embezzled funds from the school
+E20,E13,-1,> (Preceded By),False,He stood in the council office,Zahir spent a full week defending his reputation
+E20,E14,-1,> (Preceded By),False,He stood in the council office,The school's headmaster publicly vouched for him
+E20,E15,-1,> (Preceded By),False,He stood in the council office,the rumors subsided
+E20,E16,-1,> (Preceded By),False,He stood in the council office,The election took place
+E20,E17,-1,> (Preceded By),False,He stood in the council office,Zahir voted early in the morning
+E20,E18,-1,> (Preceded By),False,He stood in the council office,The results were announced
+E20,E19,-1,> (Preceded By),False,He stood in the council office,Zahir had won

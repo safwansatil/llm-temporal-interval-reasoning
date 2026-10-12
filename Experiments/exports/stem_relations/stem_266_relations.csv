@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,married to her,she fell ill
+E1,E3,-5,di (Contains),False,married to her,been in the cancer ward
+E1,E4,-5,di (Contains),False,married to her,sitting up in bed
+E1,E5,-5,di (Contains),False,married to her,bought the bouquet of roses
+E1,E6,-5,di (Contains),False,married to her,reached her room
+E1,E7,-5,di (Contains),False,married to her,placed the wilted bouquet in a vase
+E1,E8,-5,di (Contains),False,married to her,held her hand
+E1,E9,-5,di (Contains),False,married to her,came home
+E1,E10,-5,di (Contains),False,married to her,pressed one of the dried flowers into a book
+E1,E11,-6,fi (Finished By),False,married to her,been in remission
+E1,E12,-5,di (Contains),False,married to her,He visited his wife every day at the same time
+E1,E13,-5,di (Contains),False,married to her,"vendor had only one bouquet left,"
+E1,E14,-4,si (Started By),False,married to her,she had never once complained
+E1,E15,-5,di (Contains),False,married to her,had said she could go home within three days
+E2,E1,5,d (During),False,she fell ill,married to her
+E2,E3,1,< (Precedes),False,she fell ill,been in the cancer ward
+E2,E4,1,< (Precedes),False,she fell ill,sitting up in bed
+E2,E5,1,< (Precedes),False,she fell ill,bought the bouquet of roses
+E2,E6,1,< (Precedes),False,she fell ill,reached her room
+E2,E7,1,< (Precedes),False,she fell ill,placed the wilted bouquet in a vase
+E2,E8,1,< (Precedes),False,she fell ill,held her hand
+E2,E9,1,< (Precedes),False,she fell ill,came home
+E2,E10,1,< (Precedes),False,she fell ill,pressed one of the dried flowers into a book
+E2,E11,1,< (Precedes),False,she fell ill,been in remission
+E2,E12,1,< (Precedes),False,she fell ill,He visited his wife every day at the same time
+E2,E13,1,< (Precedes),False,she fell ill,"vendor had only one bouquet left,"
+E2,E14,5,d (During),False,she fell ill,she had never once complained
+E2,E15,1,< (Precedes),False,she fell ill,had said she could go home within three days
+E3,E1,5,d (During),False,been in the cancer ward,married to her
+E3,E2,-1,> (Preceded By),False,been in the cancer ward,she fell ill
+E3,E4,-6,fi (Finished By),False,been in the cancer ward,sitting up in bed
+E3,E5,-5,di (Contains),False,been in the cancer ward,bought the bouquet of roses
+E3,E6,-6,fi (Finished By),False,been in the cancer ward,reached her room
+E3,E7,2,m (Meets),False,been in the cancer ward,placed the wilted bouquet in a vase
+E3,E8,1,< (Precedes),False,been in the cancer ward,held her hand
+E3,E9,1,< (Precedes),False,been in the cancer ward,came home
+E3,E10,1,< (Precedes),False,been in the cancer ward,pressed one of the dried flowers into a book
+E3,E11,1,< (Precedes),False,been in the cancer ward,been in remission
+E3,E12,0,= (Equal),False,been in the cancer ward,He visited his wife every day at the same time
+E3,E13,-5,di (Contains),False,been in the cancer ward,"vendor had only one bouquet left,"
+E3,E14,6,f (Finishes),False,been in the cancer ward,she had never once complained
+E3,E15,2,m (Meets),False,been in the cancer ward,had said she could go home within three days
+E4,E1,5,d (During),False,sitting up in bed,married to her
+E4,E2,-1,> (Preceded By),False,sitting up in bed,she fell ill
+E4,E3,6,f (Finishes),False,sitting up in bed,been in the cancer ward
+E4,E5,-2,mi (Met By),False,sitting up in bed,bought the bouquet of roses
+E4,E6,0,= (Equal),False,sitting up in bed,reached her room
+E4,E7,2,m (Meets),False,sitting up in bed,placed the wilted bouquet in a vase
+E4,E8,1,< (Precedes),False,sitting up in bed,held her hand
+E4,E9,1,< (Precedes),False,sitting up in bed,came home
+E4,E10,1,< (Precedes),False,sitting up in bed,pressed one of the dried flowers into a book
+E4,E11,1,< (Precedes),False,sitting up in bed,been in remission
+E4,E12,6,f (Finishes),False,sitting up in bed,He visited his wife every day at the same time
+E4,E13,-2,mi (Met By),False,sitting up in bed,"vendor had only one bouquet left,"
+E4,E14,6,f (Finishes),False,sitting up in bed,she had never once complained
+E4,E15,2,m (Meets),False,sitting up in bed,had said she could go home within three days
+E5,E1,5,d (During),False,bought the bouquet of roses,married to her
+E5,E2,-1,> (Preceded By),False,bought the bouquet of roses,she fell ill
+E5,E3,5,d (During),False,bought the bouquet of roses,been in the cancer ward
+E5,E4,2,m (Meets),False,bought the bouquet of roses,sitting up in bed
+E5,E6,2,m (Meets),False,bought the bouquet of roses,reached her room
+E5,E7,1,< (Precedes),False,bought the bouquet of roses,placed the wilted bouquet in a vase
+E5,E8,1,< (Precedes),False,bought the bouquet of roses,held her hand
+E5,E9,1,< (Precedes),False,bought the bouquet of roses,came home
+E5,E10,1,< (Precedes),False,bought the bouquet of roses,pressed one of the dried flowers into a book
+E5,E11,1,< (Precedes),False,bought the bouquet of roses,been in remission
+E5,E12,5,d (During),False,bought the bouquet of roses,He visited his wife every day at the same time
+E5,E13,0,= (Equal),False,bought the bouquet of roses,"vendor had only one bouquet left,"
+E5,E14,5,d (During),False,bought the bouquet of roses,she had never once complained
+E5,E15,1,< (Precedes),False,bought the bouquet of roses,had said she could go home within three days
+E6,E1,5,d (During),False,reached her room,married to her
+E6,E2,-1,> (Preceded By),False,reached her room,she fell ill
+E6,E3,6,f (Finishes),False,reached her room,been in the cancer ward
+E6,E4,0,= (Equal),False,reached her room,sitting up in bed
+E6,E5,-2,mi (Met By),False,reached her room,bought the bouquet of roses
+E6,E7,2,m (Meets),False,reached her room,placed the wilted bouquet in a vase
+E6,E8,1,< (Precedes),False,reached her room,held her hand
+E6,E9,1,< (Precedes),False,reached her room,came home
+E6,E10,1,< (Precedes),False,reached her room,pressed one of the dried flowers into a book
+E6,E11,1,< (Precedes),False,reached her room,been in remission
+E6,E12,6,f (Finishes),False,reached her room,He visited his wife every day at the same time
+E6,E13,-2,mi (Met By),False,reached her room,"vendor had only one bouquet left,"
+E6,E14,6,f (Finishes),False,reached her room,she had never once complained
+E6,E15,2,m (Meets),False,reached her room,had said she could go home within three days
+E7,E1,5,d (During),False,placed the wilted bouquet in a vase,married to her
+E7,E2,-1,> (Preceded By),False,placed the wilted bouquet in a vase,she fell ill
+E7,E3,-2,mi (Met By),False,placed the wilted bouquet in a vase,been in the cancer ward
+E7,E4,-2,mi (Met By),False,placed the wilted bouquet in a vase,sitting up in bed
+E7,E5,-1,> (Preceded By),False,placed the wilted bouquet in a vase,bought the bouquet of roses
+E7,E6,-2,mi (Met By),False,placed the wilted bouquet in a vase,reached her room
+E7,E8,2,m (Meets),False,placed the wilted bouquet in a vase,held her hand
+E7,E9,1,< (Precedes),False,placed the wilted bouquet in a vase,came home
+E7,E10,1,< (Precedes),False,placed the wilted bouquet in a vase,pressed one of the dried flowers into a book
+E7,E11,1,< (Precedes),False,placed the wilted bouquet in a vase,been in remission
+E7,E12,-2,mi (Met By),False,placed the wilted bouquet in a vase,He visited his wife every day at the same time
+E7,E13,-1,> (Preceded By),False,placed the wilted bouquet in a vase,"vendor had only one bouquet left,"
+E7,E14,-2,mi (Met By),False,placed the wilted bouquet in a vase,she had never once complained
+E7,E15,0,= (Equal),False,placed the wilted bouquet in a vase,had said she could go home within three days
+E8,E1,5,d (During),False,held her hand,married to her
+E8,E2,-1,> (Preceded By),False,held her hand,she fell ill
+E8,E3,-1,> (Preceded By),False,held her hand,been in the cancer ward
+E8,E4,-1,> (Preceded By),False,held her hand,sitting up in bed
+E8,E5,-1,> (Preceded By),False,held her hand,bought the bouquet of roses
+E8,E6,-1,> (Preceded By),False,held her hand,reached her room
+E8,E7,-2,mi (Met By),False,held her hand,placed the wilted bouquet in a vase
+E8,E9,1,< (Precedes),False,held her hand,came home
+E8,E10,1,< (Precedes),False,held her hand,pressed one of the dried flowers into a book
+E8,E11,1,< (Precedes),False,held her hand,been in remission
+E8,E12,-1,> (Preceded By),False,held her hand,He visited his wife every day at the same time
+E8,E13,-1,> (Preceded By),False,held her hand,"vendor had only one bouquet left,"
+E8,E14,-1,> (Preceded By),False,held her hand,she had never once complained
+E8,E15,-2,mi (Met By),False,held her hand,had said she could go home within three days
+E9,E1,5,d (During),False,came home,married to her
+E9,E2,-1,> (Preceded By),False,came home,she fell ill
+E9,E3,-1,> (Preceded By),False,came home,been in the cancer ward
+E9,E4,-1,> (Preceded By),False,came home,sitting up in bed
+E9,E5,-1,> (Preceded By),False,came home,bought the bouquet of roses
+E9,E6,-1,> (Preceded By),False,came home,reached her room
+E9,E7,-1,> (Preceded By),False,came home,placed the wilted bouquet in a vase
+E9,E8,-1,> (Preceded By),False,came home,held her hand
+E9,E10,1,< (Precedes),False,came home,pressed one of the dried flowers into a book
+E9,E11,1,< (Precedes),False,came home,been in remission
+E9,E12,-1,> (Preceded By),False,came home,He visited his wife every day at the same time
+E9,E13,-1,> (Preceded By),False,came home,"vendor had only one bouquet left,"
+E9,E14,-1,> (Preceded By),False,came home,she had never once complained
+E9,E15,-1,> (Preceded By),False,came home,had said she could go home within three days
+E10,E1,5,d (During),False,pressed one of the dried flowers into a book,married to her
+E10,E2,-1,> (Preceded By),False,pressed one of the dried flowers into a book,she fell ill
+E10,E3,-1,> (Preceded By),False,pressed one of the dried flowers into a book,been in the cancer ward
+E10,E4,-1,> (Preceded By),False,pressed one of the dried flowers into a book,sitting up in bed
+E10,E5,-1,> (Preceded By),False,pressed one of the dried flowers into a book,bought the bouquet of roses
+E10,E6,-1,> (Preceded By),False,pressed one of the dried flowers into a book,reached her room
+E10,E7,-1,> (Preceded By),False,pressed one of the dried flowers into a book,placed the wilted bouquet in a vase
+E10,E8,-1,> (Preceded By),False,pressed one of the dried flowers into a book,held her hand
+E10,E9,-1,> (Preceded By),False,pressed one of the dried flowers into a book,came home
+E10,E11,2,m (Meets),False,pressed one of the dried flowers into a book,been in remission
+E10,E12,-1,> (Preceded By),False,pressed one of the dried flowers into a book,He visited his wife every day at the same time
+E10,E13,-1,> (Preceded By),False,pressed one of the dried flowers into a book,"vendor had only one bouquet left,"
+E10,E14,-1,> (Preceded By),False,pressed one of the dried flowers into a book,she had never once complained
+E10,E15,-1,> (Preceded By),False,pressed one of the dried flowers into a book,had said she could go home within three days
+E11,E1,6,f (Finishes),False,been in remission,married to her
+E11,E2,-1,> (Preceded By),False,been in remission,she fell ill
+E11,E3,-1,> (Preceded By),False,been in remission,been in the cancer ward
+E11,E4,-1,> (Preceded By),False,been in remission,sitting up in bed
+E11,E5,-1,> (Preceded By),False,been in remission,bought the bouquet of roses
+E11,E6,-1,> (Preceded By),False,been in remission,reached her room
+E11,E7,-1,> (Preceded By),False,been in remission,placed the wilted bouquet in a vase
+E11,E8,-1,> (Preceded By),False,been in remission,held her hand
+E11,E9,-1,> (Preceded By),False,been in remission,came home
+E11,E10,-2,mi (Met By),False,been in remission,pressed one of the dried flowers into a book
+E11,E12,-1,> (Preceded By),False,been in remission,He visited his wife every day at the same time
+E11,E13,-1,> (Preceded By),False,been in remission,"vendor had only one bouquet left,"
+E11,E14,-1,> (Preceded By),False,been in remission,she had never once complained
+E11,E15,-1,> (Preceded By),False,been in remission,had said she could go home within three days
+E12,E1,5,d (During),False,He visited his wife every day at the same time,married to her
+E12,E2,-1,> (Preceded By),False,He visited his wife every day at the same time,she fell ill
+E12,E3,0,= (Equal),False,He visited his wife every day at the same time,been in the cancer ward
+E12,E4,-6,fi (Finished By),False,He visited his wife every day at the same time,sitting up in bed
+E12,E5,-5,di (Contains),False,He visited his wife every day at the same time,bought the bouquet of roses
+E12,E6,-6,fi (Finished By),False,He visited his wife every day at the same time,reached her room
+E12,E7,2,m (Meets),False,He visited his wife every day at the same time,placed the wilted bouquet in a vase
+E12,E8,1,< (Precedes),False,He visited his wife every day at the same time,held her hand
+E12,E9,1,< (Precedes),False,He visited his wife every day at the same time,came home
+E12,E10,1,< (Precedes),False,He visited his wife every day at the same time,pressed one of the dried flowers into a book
+E12,E11,1,< (Precedes),False,He visited his wife every day at the same time,been in remission
+E12,E13,-5,di (Contains),False,He visited his wife every day at the same time,"vendor had only one bouquet left,"
+E12,E14,6,f (Finishes),False,He visited his wife every day at the same time,she had never once complained
+E12,E15,2,m (Meets),False,He visited his wife every day at the same time,had said she could go home within three days
+E13,E1,5,d (During),False,"vendor had only one bouquet left,",married to her
+E13,E2,-1,> (Preceded By),False,"vendor had only one bouquet left,",she fell ill
+E13,E3,5,d (During),False,"vendor had only one bouquet left,",been in the cancer ward
+E13,E4,2,m (Meets),False,"vendor had only one bouquet left,",sitting up in bed
+E13,E5,0,= (Equal),False,"vendor had only one bouquet left,",bought the bouquet of roses
+E13,E6,2,m (Meets),False,"vendor had only one bouquet left,",reached her room
+E13,E7,1,< (Precedes),False,"vendor had only one bouquet left,",placed the wilted bouquet in a vase
+E13,E8,1,< (Precedes),False,"vendor had only one bouquet left,",held her hand
+E13,E9,1,< (Precedes),False,"vendor had only one bouquet left,",came home
+E13,E10,1,< (Precedes),False,"vendor had only one bouquet left,",pressed one of the dried flowers into a book
+E13,E11,1,< (Precedes),False,"vendor had only one bouquet left,",been in remission
+E13,E12,5,d (During),False,"vendor had only one bouquet left,",He visited his wife every day at the same time
+E13,E14,5,d (During),False,"vendor had only one bouquet left,",she had never once complained
+E13,E15,1,< (Precedes),False,"vendor had only one bouquet left,",had said she could go home within three days
+E14,E1,4,s (Starts),False,she had never once complained,married to her
+E14,E2,-5,di (Contains),False,she had never once complained,she fell ill
+E14,E3,-6,fi (Finished By),False,she had never once complained,been in the cancer ward
+E14,E4,-6,fi (Finished By),False,she had never once complained,sitting up in bed
+E14,E5,-5,di (Contains),False,she had never once complained,bought the bouquet of roses
+E14,E6,-6,fi (Finished By),False,she had never once complained,reached her room
+E14,E7,2,m (Meets),False,she had never once complained,placed the wilted bouquet in a vase
+E14,E8,1,< (Precedes),False,she had never once complained,held her hand
+E14,E9,1,< (Precedes),False,she had never once complained,came home
+E14,E10,1,< (Precedes),False,she had never once complained,pressed one of the dried flowers into a book
+E14,E11,1,< (Precedes),False,she had never once complained,been in remission
+E14,E12,-6,fi (Finished By),False,she had never once complained,He visited his wife every day at the same time
+E14,E13,-5,di (Contains),False,she had never once complained,"vendor had only one bouquet left,"
+E14,E15,2,m (Meets),False,she had never once complained,had said she could go home within three days
+E15,E1,5,d (During),False,had said she could go home within three days,married to her
+E15,E2,-1,> (Preceded By),False,had said she could go home within three days,she fell ill
+E15,E3,-2,mi (Met By),False,had said she could go home within three days,been in the cancer ward
+E15,E4,-2,mi (Met By),False,had said she could go home within three days,sitting up in bed
+E15,E5,-1,> (Preceded By),False,had said she could go home within three days,bought the bouquet of roses
+E15,E6,-2,mi (Met By),False,had said she could go home within three days,reached her room
+E15,E7,0,= (Equal),False,had said she could go home within three days,placed the wilted bouquet in a vase
+E15,E8,2,m (Meets),False,had said she could go home within three days,held her hand
+E15,E9,1,< (Precedes),False,had said she could go home within three days,came home
+E15,E10,1,< (Precedes),False,had said she could go home within three days,pressed one of the dried flowers into a book
+E15,E11,1,< (Precedes),False,had said she could go home within three days,been in remission
+E15,E12,-2,mi (Met By),False,had said she could go home within three days,He visited his wife every day at the same time
+E15,E13,-1,> (Preceded By),False,had said she could go home within three days,"vendor had only one bouquet left,"
+E15,E14,-2,mi (Met By),False,had said she could go home within three days,she had never once complained

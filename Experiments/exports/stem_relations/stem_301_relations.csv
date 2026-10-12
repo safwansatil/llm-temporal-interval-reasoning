@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,A landslide,buried a fifty-meter stretch under mud and debris
+E1,E3,4,s (Starts),False,A landslide,The main road connecting the two villages was closed
+E1,E4,1,< (Precedes),False,A landslide,A footpath was carved through the hillside
+E1,E5,1,< (Precedes),False,A landslide,Farmers carried their produce to market on their heads
+E1,E6,1,< (Precedes),False,A landslide,Children walked an extra hour to reach the school
+E1,E7,1,< (Precedes),False,A landslide,A bulldozer and a crew of fifteen men worked for six consecutive days
+E1,E8,1,< (Precedes),False,A landslide,The road was finally cleared
+E1,E9,1,< (Precedes),False,A landslide,the two villages held a small celebration
+E1,E10,1,< (Precedes),False,A landslide,Tea was served
+E1,E11,1,< (Precedes),False,A landslide,speeches were given
+E1,E12,1,< (Precedes),False,A landslide,everyone returned to their normal routines
+E2,E1,0,= (Equal),False,buried a fifty-meter stretch under mud and debris,A landslide
+E2,E3,4,s (Starts),False,buried a fifty-meter stretch under mud and debris,The main road connecting the two villages was closed
+E2,E4,1,< (Precedes),False,buried a fifty-meter stretch under mud and debris,A footpath was carved through the hillside
+E2,E5,1,< (Precedes),False,buried a fifty-meter stretch under mud and debris,Farmers carried their produce to market on their heads
+E2,E6,1,< (Precedes),False,buried a fifty-meter stretch under mud and debris,Children walked an extra hour to reach the school
+E2,E7,1,< (Precedes),False,buried a fifty-meter stretch under mud and debris,A bulldozer and a crew of fifteen men worked for six consecutive days
+E2,E8,1,< (Precedes),False,buried a fifty-meter stretch under mud and debris,The road was finally cleared
+E2,E9,1,< (Precedes),False,buried a fifty-meter stretch under mud and debris,the two villages held a small celebration
+E2,E10,1,< (Precedes),False,buried a fifty-meter stretch under mud and debris,Tea was served
+E2,E11,1,< (Precedes),False,buried a fifty-meter stretch under mud and debris,speeches were given
+E2,E12,1,< (Precedes),False,buried a fifty-meter stretch under mud and debris,everyone returned to their normal routines
+E3,E1,-4,si (Started By),False,The main road connecting the two villages was closed,A landslide
+E3,E2,-4,si (Started By),False,The main road connecting the two villages was closed,buried a fifty-meter stretch under mud and debris
+E3,E4,-5,di (Contains),False,The main road connecting the two villages was closed,A footpath was carved through the hillside
+E3,E5,-6,fi (Finished By),False,The main road connecting the two villages was closed,Farmers carried their produce to market on their heads
+E3,E6,-6,fi (Finished By),False,The main road connecting the two villages was closed,Children walked an extra hour to reach the school
+E3,E7,-6,fi (Finished By),False,The main road connecting the two villages was closed,A bulldozer and a crew of fifteen men worked for six consecutive days
+E3,E8,2,m (Meets),False,The main road connecting the two villages was closed,The road was finally cleared
+E3,E9,1,< (Precedes),False,The main road connecting the two villages was closed,the two villages held a small celebration
+E3,E10,1,< (Precedes),False,The main road connecting the two villages was closed,Tea was served
+E3,E11,1,< (Precedes),False,The main road connecting the two villages was closed,speeches were given
+E3,E12,1,< (Precedes),False,The main road connecting the two villages was closed,everyone returned to their normal routines
+E4,E1,-1,> (Preceded By),False,A footpath was carved through the hillside,A landslide
+E4,E2,-1,> (Preceded By),False,A footpath was carved through the hillside,buried a fifty-meter stretch under mud and debris
+E4,E3,5,d (During),False,A footpath was carved through the hillside,The main road connecting the two villages was closed
+E4,E5,2,m (Meets),False,A footpath was carved through the hillside,Farmers carried their produce to market on their heads
+E4,E6,2,m (Meets),False,A footpath was carved through the hillside,Children walked an extra hour to reach the school
+E4,E7,1,< (Precedes),False,A footpath was carved through the hillside,A bulldozer and a crew of fifteen men worked for six consecutive days
+E4,E8,1,< (Precedes),False,A footpath was carved through the hillside,The road was finally cleared
+E4,E9,1,< (Precedes),False,A footpath was carved through the hillside,the two villages held a small celebration
+E4,E10,1,< (Precedes),False,A footpath was carved through the hillside,Tea was served
+E4,E11,1,< (Precedes),False,A footpath was carved through the hillside,speeches were given
+E4,E12,1,< (Precedes),False,A footpath was carved through the hillside,everyone returned to their normal routines
+E5,E1,-1,> (Preceded By),False,Farmers carried their produce to market on their heads,A landslide
+E5,E2,-1,> (Preceded By),False,Farmers carried their produce to market on their heads,buried a fifty-meter stretch under mud and debris
+E5,E3,6,f (Finishes),False,Farmers carried their produce to market on their heads,The main road connecting the two villages was closed
+E5,E4,-2,mi (Met By),False,Farmers carried their produce to market on their heads,A footpath was carved through the hillside
+E5,E6,0,= (Equal),False,Farmers carried their produce to market on their heads,Children walked an extra hour to reach the school
+E5,E7,-6,fi (Finished By),False,Farmers carried their produce to market on their heads,A bulldozer and a crew of fifteen men worked for six consecutive days
+E5,E8,2,m (Meets),False,Farmers carried their produce to market on their heads,The road was finally cleared
+E5,E9,1,< (Precedes),False,Farmers carried their produce to market on their heads,the two villages held a small celebration
+E5,E10,1,< (Precedes),False,Farmers carried their produce to market on their heads,Tea was served
+E5,E11,1,< (Precedes),False,Farmers carried their produce to market on their heads,speeches were given
+E5,E12,1,< (Precedes),False,Farmers carried their produce to market on their heads,everyone returned to their normal routines
+E6,E1,-1,> (Preceded By),False,Children walked an extra hour to reach the school,A landslide
+E6,E2,-1,> (Preceded By),False,Children walked an extra hour to reach the school,buried a fifty-meter stretch under mud and debris
+E6,E3,6,f (Finishes),False,Children walked an extra hour to reach the school,The main road connecting the two villages was closed
+E6,E4,-2,mi (Met By),False,Children walked an extra hour to reach the school,A footpath was carved through the hillside
+E6,E5,0,= (Equal),False,Children walked an extra hour to reach the school,Farmers carried their produce to market on their heads
+E6,E7,-6,fi (Finished By),False,Children walked an extra hour to reach the school,A bulldozer and a crew of fifteen men worked for six consecutive days
+E6,E8,2,m (Meets),False,Children walked an extra hour to reach the school,The road was finally cleared
+E6,E9,1,< (Precedes),False,Children walked an extra hour to reach the school,the two villages held a small celebration
+E6,E10,1,< (Precedes),False,Children walked an extra hour to reach the school,Tea was served
+E6,E11,1,< (Precedes),False,Children walked an extra hour to reach the school,speeches were given
+E6,E12,1,< (Precedes),False,Children walked an extra hour to reach the school,everyone returned to their normal routines
+E7,E1,-1,> (Preceded By),False,A bulldozer and a crew of fifteen men worked for six consecutive days,A landslide
+E7,E2,-1,> (Preceded By),False,A bulldozer and a crew of fifteen men worked for six consecutive days,buried a fifty-meter stretch under mud and debris
+E7,E3,6,f (Finishes),False,A bulldozer and a crew of fifteen men worked for six consecutive days,The main road connecting the two villages was closed
+E7,E4,-1,> (Preceded By),False,A bulldozer and a crew of fifteen men worked for six consecutive days,A footpath was carved through the hillside
+E7,E5,6,f (Finishes),False,A bulldozer and a crew of fifteen men worked for six consecutive days,Farmers carried their produce to market on their heads
+E7,E6,6,f (Finishes),False,A bulldozer and a crew of fifteen men worked for six consecutive days,Children walked an extra hour to reach the school
+E7,E8,2,m (Meets),False,A bulldozer and a crew of fifteen men worked for six consecutive days,The road was finally cleared
+E7,E9,1,< (Precedes),False,A bulldozer and a crew of fifteen men worked for six consecutive days,the two villages held a small celebration
+E7,E10,1,< (Precedes),False,A bulldozer and a crew of fifteen men worked for six consecutive days,Tea was served
+E7,E11,1,< (Precedes),False,A bulldozer and a crew of fifteen men worked for six consecutive days,speeches were given
+E7,E12,1,< (Precedes),False,A bulldozer and a crew of fifteen men worked for six consecutive days,everyone returned to their normal routines
+E8,E1,-1,> (Preceded By),False,The road was finally cleared,A landslide
+E8,E2,-1,> (Preceded By),False,The road was finally cleared,buried a fifty-meter stretch under mud and debris
+E8,E3,-2,mi (Met By),False,The road was finally cleared,The main road connecting the two villages was closed
+E8,E4,-1,> (Preceded By),False,The road was finally cleared,A footpath was carved through the hillside
+E8,E5,-2,mi (Met By),False,The road was finally cleared,Farmers carried their produce to market on their heads
+E8,E6,-2,mi (Met By),False,The road was finally cleared,Children walked an extra hour to reach the school
+E8,E7,-2,mi (Met By),False,The road was finally cleared,A bulldozer and a crew of fifteen men worked for six consecutive days
+E8,E9,1,< (Precedes),False,The road was finally cleared,the two villages held a small celebration
+E8,E10,1,< (Precedes),False,The road was finally cleared,Tea was served
+E8,E11,1,< (Precedes),False,The road was finally cleared,speeches were given
+E8,E12,1,< (Precedes),False,The road was finally cleared,everyone returned to their normal routines
+E9,E1,-1,> (Preceded By),False,the two villages held a small celebration,A landslide
+E9,E2,-1,> (Preceded By),False,the two villages held a small celebration,buried a fifty-meter stretch under mud and debris
+E9,E3,-1,> (Preceded By),False,the two villages held a small celebration,The main road connecting the two villages was closed
+E9,E4,-1,> (Preceded By),False,the two villages held a small celebration,A footpath was carved through the hillside
+E9,E5,-1,> (Preceded By),False,the two villages held a small celebration,Farmers carried their produce to market on their heads
+E9,E6,-1,> (Preceded By),False,the two villages held a small celebration,Children walked an extra hour to reach the school
+E9,E7,-1,> (Preceded By),False,the two villages held a small celebration,A bulldozer and a crew of fifteen men worked for six consecutive days
+E9,E8,-1,> (Preceded By),False,the two villages held a small celebration,The road was finally cleared
+E9,E10,-5,di (Contains),False,the two villages held a small celebration,Tea was served
+E9,E11,-5,di (Contains),False,the two villages held a small celebration,speeches were given
+E9,E12,1,< (Precedes),False,the two villages held a small celebration,everyone returned to their normal routines
+E10,E1,-1,> (Preceded By),False,Tea was served,A landslide
+E10,E2,-1,> (Preceded By),False,Tea was served,buried a fifty-meter stretch under mud and debris
+E10,E3,-1,> (Preceded By),False,Tea was served,The main road connecting the two villages was closed
+E10,E4,-1,> (Preceded By),False,Tea was served,A footpath was carved through the hillside
+E10,E5,-1,> (Preceded By),False,Tea was served,Farmers carried their produce to market on their heads
+E10,E6,-1,> (Preceded By),False,Tea was served,Children walked an extra hour to reach the school
+E10,E7,-1,> (Preceded By),False,Tea was served,A bulldozer and a crew of fifteen men worked for six consecutive days
+E10,E8,-1,> (Preceded By),False,Tea was served,The road was finally cleared
+E10,E9,5,d (During),False,Tea was served,the two villages held a small celebration
+E10,E11,0,= (Equal),False,Tea was served,speeches were given
+E10,E12,1,< (Precedes),False,Tea was served,everyone returned to their normal routines
+E11,E1,-1,> (Preceded By),False,speeches were given,A landslide
+E11,E2,-1,> (Preceded By),False,speeches were given,buried a fifty-meter stretch under mud and debris
+E11,E3,-1,> (Preceded By),False,speeches were given,The main road connecting the two villages was closed
+E11,E4,-1,> (Preceded By),False,speeches were given,A footpath was carved through the hillside
+E11,E5,-1,> (Preceded By),False,speeches were given,Farmers carried their produce to market on their heads
+E11,E6,-1,> (Preceded By),False,speeches were given,Children walked an extra hour to reach the school
+E11,E7,-1,> (Preceded By),False,speeches were given,A bulldozer and a crew of fifteen men worked for six consecutive days
+E11,E8,-1,> (Preceded By),False,speeches were given,The road was finally cleared
+E11,E9,5,d (During),False,speeches were given,the two villages held a small celebration
+E11,E10,0,= (Equal),False,speeches were given,Tea was served
+E11,E12,1,< (Precedes),False,speeches were given,everyone returned to their normal routines
+E12,E1,-1,> (Preceded By),False,everyone returned to their normal routines,A landslide
+E12,E2,-1,> (Preceded By),False,everyone returned to their normal routines,buried a fifty-meter stretch under mud and debris
+E12,E3,-1,> (Preceded By),False,everyone returned to their normal routines,The main road connecting the two villages was closed
+E12,E4,-1,> (Preceded By),False,everyone returned to their normal routines,A footpath was carved through the hillside
+E12,E5,-1,> (Preceded By),False,everyone returned to their normal routines,Farmers carried their produce to market on their heads
+E12,E6,-1,> (Preceded By),False,everyone returned to their normal routines,Children walked an extra hour to reach the school
+E12,E7,-1,> (Preceded By),False,everyone returned to their normal routines,A bulldozer and a crew of fifteen men worked for six consecutive days
+E12,E8,-1,> (Preceded By),False,everyone returned to their normal routines,The road was finally cleared
+E12,E9,-1,> (Preceded By),False,everyone returned to their normal routines,the two villages held a small celebration
+E12,E10,-1,> (Preceded By),False,everyone returned to their normal routines,Tea was served
+E12,E11,-1,> (Preceded By),False,everyone returned to their normal routines,speeches were given

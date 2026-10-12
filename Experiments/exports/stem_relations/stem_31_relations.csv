@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,sent his first application,first application had actually been shortlisted
+E1,E3,1,< (Precedes),False,sent his first application,got a call for a preliminary phone interview
+E1,E4,1,< (Precedes),False,sent his first application,took the call
+E1,E5,1,< (Precedes),False,sent his first application,asked to come in for a written test
+E1,E6,1,< (Precedes),False,sent his first application,written test took three hours
+E1,E7,1,< (Precedes),False,sent his first application,received an email asking him to come back for a panel interview
+E1,E8,1,< (Precedes),False,sent his first application,panel interview was held
+E1,E9,1,< (Precedes),False,sent his first application,offer letter arrived
+E1,E10,1,< (Precedes),False,sent his first application,called his mother
+E1,E11,1,< (Precedes),False,sent his first application,walked down to a tea shop
+E1,E12,5,d (During),False,sent his first application,trying to get a job
+E1,E13,1,< (Precedes),False,sent his first application,had already returned
+E1,E14,1,< (Precedes),False,sent his first application,was staying
+E1,E15,1,< (Precedes),False,sent his first application,wore the blazer
+E1,E16,-1,> (Preceded By),False,sent his first application,his mother had packed for him
+E1,E17,1,< (Precedes),False,sent his first application,had been misplaced
+E2,E1,-1,> (Preceded By),False,first application had actually been shortlisted,sent his first application
+E2,E3,1,< (Precedes),False,first application had actually been shortlisted,got a call for a preliminary phone interview
+E2,E4,1,< (Precedes),False,first application had actually been shortlisted,took the call
+E2,E5,1,< (Precedes),False,first application had actually been shortlisted,asked to come in for a written test
+E2,E6,1,< (Precedes),False,first application had actually been shortlisted,written test took three hours
+E2,E7,1,< (Precedes),False,first application had actually been shortlisted,received an email asking him to come back for a panel interview
+E2,E8,1,< (Precedes),False,first application had actually been shortlisted,panel interview was held
+E2,E9,1,< (Precedes),False,first application had actually been shortlisted,offer letter arrived
+E2,E10,1,< (Precedes),False,first application had actually been shortlisted,called his mother
+E2,E11,1,< (Precedes),False,first application had actually been shortlisted,walked down to a tea shop
+E2,E12,5,d (During),False,first application had actually been shortlisted,trying to get a job
+E2,E13,1,< (Precedes),False,first application had actually been shortlisted,had already returned
+E2,E14,1,< (Precedes),False,first application had actually been shortlisted,was staying
+E2,E15,1,< (Precedes),False,first application had actually been shortlisted,wore the blazer
+E2,E16,-1,> (Preceded By),False,first application had actually been shortlisted,his mother had packed for him
+E2,E17,1,< (Precedes),False,first application had actually been shortlisted,had been misplaced
+E3,E1,-1,> (Preceded By),False,got a call for a preliminary phone interview,sent his first application
+E3,E2,-1,> (Preceded By),False,got a call for a preliminary phone interview,first application had actually been shortlisted
+E3,E4,2,m (Meets),False,got a call for a preliminary phone interview,took the call
+E3,E5,2,m (Meets),False,got a call for a preliminary phone interview,asked to come in for a written test
+E3,E6,1,< (Precedes),False,got a call for a preliminary phone interview,written test took three hours
+E3,E7,1,< (Precedes),False,got a call for a preliminary phone interview,received an email asking him to come back for a panel interview
+E3,E8,1,< (Precedes),False,got a call for a preliminary phone interview,panel interview was held
+E3,E9,1,< (Precedes),False,got a call for a preliminary phone interview,offer letter arrived
+E3,E10,1,< (Precedes),False,got a call for a preliminary phone interview,called his mother
+E3,E11,1,< (Precedes),False,got a call for a preliminary phone interview,walked down to a tea shop
+E3,E12,5,d (During),False,got a call for a preliminary phone interview,trying to get a job
+E3,E13,1,< (Precedes),False,got a call for a preliminary phone interview,had already returned
+E3,E14,1,< (Precedes),False,got a call for a preliminary phone interview,was staying
+E3,E15,1,< (Precedes),False,got a call for a preliminary phone interview,wore the blazer
+E3,E16,-1,> (Preceded By),False,got a call for a preliminary phone interview,his mother had packed for him
+E3,E17,-1,> (Preceded By),False,got a call for a preliminary phone interview,had been misplaced
+E4,E1,-1,> (Preceded By),False,took the call,sent his first application
+E4,E2,-1,> (Preceded By),False,took the call,first application had actually been shortlisted
+E4,E3,-2,mi (Met By),False,took the call,got a call for a preliminary phone interview
+E4,E5,4,s (Starts),False,took the call,asked to come in for a written test
+E4,E6,1,< (Precedes),False,took the call,written test took three hours
+E4,E7,1,< (Precedes),False,took the call,received an email asking him to come back for a panel interview
+E4,E8,1,< (Precedes),False,took the call,panel interview was held
+E4,E9,1,< (Precedes),False,took the call,offer letter arrived
+E4,E10,1,< (Precedes),False,took the call,called his mother
+E4,E11,1,< (Precedes),False,took the call,walked down to a tea shop
+E4,E12,5,d (During),False,took the call,trying to get a job
+E4,E13,1,< (Precedes),False,took the call,had already returned
+E4,E14,1,< (Precedes),False,took the call,was staying
+E4,E15,1,< (Precedes),False,took the call,wore the blazer
+E4,E16,-1,> (Preceded By),False,took the call,his mother had packed for him
+E4,E17,-1,> (Preceded By),False,took the call,had been misplaced
+E5,E1,-1,> (Preceded By),False,asked to come in for a written test,sent his first application
+E5,E2,-1,> (Preceded By),False,asked to come in for a written test,first application had actually been shortlisted
+E5,E3,-2,mi (Met By),False,asked to come in for a written test,got a call for a preliminary phone interview
+E5,E4,-4,si (Started By),False,asked to come in for a written test,took the call
+E5,E6,1,< (Precedes),False,asked to come in for a written test,written test took three hours
+E5,E7,1,< (Precedes),False,asked to come in for a written test,received an email asking him to come back for a panel interview
+E5,E8,1,< (Precedes),False,asked to come in for a written test,panel interview was held
+E5,E9,1,< (Precedes),False,asked to come in for a written test,offer letter arrived
+E5,E10,1,< (Precedes),False,asked to come in for a written test,called his mother
+E5,E11,1,< (Precedes),False,asked to come in for a written test,walked down to a tea shop
+E5,E12,5,d (During),False,asked to come in for a written test,trying to get a job
+E5,E13,1,< (Precedes),False,asked to come in for a written test,had already returned
+E5,E14,1,< (Precedes),False,asked to come in for a written test,was staying
+E5,E15,1,< (Precedes),False,asked to come in for a written test,wore the blazer
+E5,E16,-1,> (Preceded By),False,asked to come in for a written test,his mother had packed for him
+E5,E17,-1,> (Preceded By),False,asked to come in for a written test,had been misplaced
+E6,E1,-1,> (Preceded By),False,written test took three hours,sent his first application
+E6,E2,-1,> (Preceded By),False,written test took three hours,first application had actually been shortlisted
+E6,E3,-1,> (Preceded By),False,written test took three hours,got a call for a preliminary phone interview
+E6,E4,-1,> (Preceded By),False,written test took three hours,took the call
+E6,E5,-1,> (Preceded By),False,written test took three hours,asked to come in for a written test
+E6,E7,1,< (Precedes),False,written test took three hours,received an email asking him to come back for a panel interview
+E6,E8,1,< (Precedes),False,written test took three hours,panel interview was held
+E6,E9,1,< (Precedes),False,written test took three hours,offer letter arrived
+E6,E10,1,< (Precedes),False,written test took three hours,called his mother
+E6,E11,1,< (Precedes),False,written test took three hours,walked down to a tea shop
+E6,E12,5,d (During),False,written test took three hours,trying to get a job
+E6,E13,-1,> (Preceded By),False,written test took three hours,had already returned
+E6,E14,5,d (During),False,written test took three hours,was staying
+E6,E15,1,< (Precedes),False,written test took three hours,wore the blazer
+E6,E16,-1,> (Preceded By),False,written test took three hours,his mother had packed for him
+E6,E17,-1,> (Preceded By),False,written test took three hours,had been misplaced
+E7,E1,-1,> (Preceded By),False,received an email asking him to come back for a panel interview,sent his first application
+E7,E2,-1,> (Preceded By),False,received an email asking him to come back for a panel interview,first application had actually been shortlisted
+E7,E3,-1,> (Preceded By),False,received an email asking him to come back for a panel interview,got a call for a preliminary phone interview
+E7,E4,-1,> (Preceded By),False,received an email asking him to come back for a panel interview,took the call
+E7,E5,-1,> (Preceded By),False,received an email asking him to come back for a panel interview,asked to come in for a written test
+E7,E6,-1,> (Preceded By),False,received an email asking him to come back for a panel interview,written test took three hours
+E7,E8,1,< (Precedes),False,received an email asking him to come back for a panel interview,panel interview was held
+E7,E9,1,< (Precedes),False,received an email asking him to come back for a panel interview,offer letter arrived
+E7,E10,1,< (Precedes),False,received an email asking him to come back for a panel interview,called his mother
+E7,E11,1,< (Precedes),False,received an email asking him to come back for a panel interview,walked down to a tea shop
+E7,E12,-3,oi (Overlapped By),False,received an email asking him to come back for a panel interview,trying to get a job
+E7,E13,-1,> (Preceded By),False,received an email asking him to come back for a panel interview,had already returned
+E7,E14,5,d (During),False,received an email asking him to come back for a panel interview,was staying
+E7,E15,1,< (Precedes),False,received an email asking him to come back for a panel interview,wore the blazer
+E7,E16,-1,> (Preceded By),False,received an email asking him to come back for a panel interview,his mother had packed for him
+E7,E17,-1,> (Preceded By),False,received an email asking him to come back for a panel interview,had been misplaced
+E8,E1,-1,> (Preceded By),False,panel interview was held,sent his first application
+E8,E2,-1,> (Preceded By),False,panel interview was held,first application had actually been shortlisted
+E8,E3,-1,> (Preceded By),False,panel interview was held,got a call for a preliminary phone interview
+E8,E4,-1,> (Preceded By),False,panel interview was held,took the call
+E8,E5,-1,> (Preceded By),False,panel interview was held,asked to come in for a written test
+E8,E6,-1,> (Preceded By),False,panel interview was held,written test took three hours
+E8,E7,-1,> (Preceded By),False,panel interview was held,received an email asking him to come back for a panel interview
+E8,E9,1,< (Precedes),False,panel interview was held,offer letter arrived
+E8,E10,1,< (Precedes),False,panel interview was held,called his mother
+E8,E11,1,< (Precedes),False,panel interview was held,walked down to a tea shop
+E8,E12,-1,> (Preceded By),False,panel interview was held,trying to get a job
+E8,E13,-1,> (Preceded By),False,panel interview was held,had already returned
+E8,E14,5,d (During),False,panel interview was held,was staying
+E8,E15,2,m (Meets),False,panel interview was held,wore the blazer
+E8,E16,-1,> (Preceded By),False,panel interview was held,his mother had packed for him
+E8,E17,-1,> (Preceded By),False,panel interview was held,had been misplaced
+E9,E1,-1,> (Preceded By),False,offer letter arrived,sent his first application
+E9,E2,-1,> (Preceded By),False,offer letter arrived,first application had actually been shortlisted
+E9,E3,-1,> (Preceded By),False,offer letter arrived,got a call for a preliminary phone interview
+E9,E4,-1,> (Preceded By),False,offer letter arrived,took the call
+E9,E5,-1,> (Preceded By),False,offer letter arrived,asked to come in for a written test
+E9,E6,-1,> (Preceded By),False,offer letter arrived,written test took three hours
+E9,E7,-1,> (Preceded By),False,offer letter arrived,received an email asking him to come back for a panel interview
+E9,E8,-1,> (Preceded By),False,offer letter arrived,panel interview was held
+E9,E10,1,< (Precedes),False,offer letter arrived,called his mother
+E9,E11,1,< (Precedes),False,offer letter arrived,walked down to a tea shop
+E9,E12,-1,> (Preceded By),False,offer letter arrived,trying to get a job
+E9,E13,-1,> (Preceded By),False,offer letter arrived,had already returned
+E9,E14,5,d (During),False,offer letter arrived,was staying
+E9,E15,6,f (Finishes),False,offer letter arrived,wore the blazer
+E9,E16,-1,> (Preceded By),False,offer letter arrived,his mother had packed for him
+E9,E17,-1,> (Preceded By),False,offer letter arrived,had been misplaced
+E10,E1,-1,> (Preceded By),False,called his mother,sent his first application
+E10,E2,-1,> (Preceded By),False,called his mother,first application had actually been shortlisted
+E10,E3,-1,> (Preceded By),False,called his mother,got a call for a preliminary phone interview
+E10,E4,-1,> (Preceded By),False,called his mother,took the call
+E10,E5,-1,> (Preceded By),False,called his mother,asked to come in for a written test
+E10,E6,-1,> (Preceded By),False,called his mother,written test took three hours
+E10,E7,-1,> (Preceded By),False,called his mother,received an email asking him to come back for a panel interview
+E10,E8,-1,> (Preceded By),False,called his mother,panel interview was held
+E10,E9,-1,> (Preceded By),False,called his mother,offer letter arrived
+E10,E11,4,s (Starts),False,called his mother,walked down to a tea shop
+E10,E12,-1,> (Preceded By),False,called his mother,trying to get a job
+E10,E13,-1,> (Preceded By),False,called his mother,had already returned
+E10,E14,5,d (During),False,called his mother,was staying
+E10,E15,-1,> (Preceded By),False,called his mother,wore the blazer
+E10,E16,-1,> (Preceded By),False,called his mother,his mother had packed for him
+E10,E17,-1,> (Preceded By),False,called his mother,had been misplaced
+E11,E1,-1,> (Preceded By),False,walked down to a tea shop,sent his first application
+E11,E2,-1,> (Preceded By),False,walked down to a tea shop,first application had actually been shortlisted
+E11,E3,-1,> (Preceded By),False,walked down to a tea shop,got a call for a preliminary phone interview
+E11,E4,-1,> (Preceded By),False,walked down to a tea shop,took the call
+E11,E5,-1,> (Preceded By),False,walked down to a tea shop,asked to come in for a written test
+E11,E6,-1,> (Preceded By),False,walked down to a tea shop,written test took three hours
+E11,E7,-1,> (Preceded By),False,walked down to a tea shop,received an email asking him to come back for a panel interview
+E11,E8,-1,> (Preceded By),False,walked down to a tea shop,panel interview was held
+E11,E9,-1,> (Preceded By),False,walked down to a tea shop,offer letter arrived
+E11,E10,-4,si (Started By),False,walked down to a tea shop,called his mother
+E11,E12,-1,> (Preceded By),False,walked down to a tea shop,trying to get a job
+E11,E13,-1,> (Preceded By),False,walked down to a tea shop,had already returned
+E11,E14,5,d (During),False,walked down to a tea shop,was staying
+E11,E15,-1,> (Preceded By),False,walked down to a tea shop,wore the blazer
+E11,E16,-1,> (Preceded By),False,walked down to a tea shop,his mother had packed for him
+E11,E17,-1,> (Preceded By),False,walked down to a tea shop,had been misplaced
+E12,E1,-5,di (Contains),False,trying to get a job,sent his first application
+E12,E2,-5,di (Contains),False,trying to get a job,first application had actually been shortlisted
+E12,E3,-5,di (Contains),False,trying to get a job,got a call for a preliminary phone interview
+E12,E4,-5,di (Contains),False,trying to get a job,took the call
+E12,E5,-5,di (Contains),False,trying to get a job,asked to come in for a written test
+E12,E6,-5,di (Contains),False,trying to get a job,written test took three hours
+E12,E7,3,o (Overlaps),False,trying to get a job,received an email asking him to come back for a panel interview
+E12,E8,1,< (Precedes),False,trying to get a job,panel interview was held
+E12,E9,1,< (Precedes),False,trying to get a job,offer letter arrived
+E12,E10,1,< (Precedes),False,trying to get a job,called his mother
+E12,E11,1,< (Precedes),False,trying to get a job,walked down to a tea shop
+E12,E13,-5,di (Contains),False,trying to get a job,had already returned
+E12,E14,3,o (Overlaps),False,trying to get a job,was staying
+E12,E15,1,< (Precedes),False,trying to get a job,wore the blazer
+E12,E16,-5,di (Contains),False,trying to get a job,his mother had packed for him
+E12,E17,-5,di (Contains),False,trying to get a job,had been misplaced
+E13,E1,-1,> (Preceded By),False,had already returned,sent his first application
+E13,E2,-1,> (Preceded By),False,had already returned,first application had actually been shortlisted
+E13,E3,-1,> (Preceded By),False,had already returned,got a call for a preliminary phone interview
+E13,E4,-1,> (Preceded By),False,had already returned,took the call
+E13,E5,-1,> (Preceded By),False,had already returned,asked to come in for a written test
+E13,E6,1,< (Precedes),False,had already returned,written test took three hours
+E13,E7,1,< (Precedes),False,had already returned,received an email asking him to come back for a panel interview
+E13,E8,1,< (Precedes),False,had already returned,panel interview was held
+E13,E9,1,< (Precedes),False,had already returned,offer letter arrived
+E13,E10,1,< (Precedes),False,had already returned,called his mother
+E13,E11,1,< (Precedes),False,had already returned,walked down to a tea shop
+E13,E12,5,d (During),False,had already returned,trying to get a job
+E13,E14,2,m (Meets),False,had already returned,was staying
+E13,E15,1,< (Precedes),False,had already returned,wore the blazer
+E13,E16,-1,> (Preceded By),False,had already returned,his mother had packed for him
+E13,E17,-1,> (Preceded By),False,had already returned,had been misplaced
+E14,E1,-1,> (Preceded By),False,was staying,sent his first application
+E14,E2,-1,> (Preceded By),False,was staying,first application had actually been shortlisted
+E14,E3,-1,> (Preceded By),False,was staying,got a call for a preliminary phone interview
+E14,E4,-1,> (Preceded By),False,was staying,took the call
+E14,E5,-1,> (Preceded By),False,was staying,asked to come in for a written test
+E14,E6,-5,di (Contains),False,was staying,written test took three hours
+E14,E7,-5,di (Contains),False,was staying,received an email asking him to come back for a panel interview
+E14,E8,-5,di (Contains),False,was staying,panel interview was held
+E14,E9,-5,di (Contains),False,was staying,offer letter arrived
+E14,E10,-5,di (Contains),False,was staying,called his mother
+E14,E11,-5,di (Contains),False,was staying,walked down to a tea shop
+E14,E12,-3,oi (Overlapped By),False,was staying,trying to get a job
+E14,E13,-2,mi (Met By),False,was staying,had already returned
+E14,E15,-5,di (Contains),False,was staying,wore the blazer
+E14,E16,-1,> (Preceded By),False,was staying,his mother had packed for him
+E14,E17,-1,> (Preceded By),False,was staying,had been misplaced
+E15,E1,-1,> (Preceded By),False,wore the blazer,sent his first application
+E15,E2,-1,> (Preceded By),False,wore the blazer,first application had actually been shortlisted
+E15,E3,-1,> (Preceded By),False,wore the blazer,got a call for a preliminary phone interview
+E15,E4,-1,> (Preceded By),False,wore the blazer,took the call
+E15,E5,-1,> (Preceded By),False,wore the blazer,asked to come in for a written test
+E15,E6,-1,> (Preceded By),False,wore the blazer,written test took three hours
+E15,E7,-1,> (Preceded By),False,wore the blazer,received an email asking him to come back for a panel interview
+E15,E8,-2,mi (Met By),False,wore the blazer,panel interview was held
+E15,E9,-6,fi (Finished By),False,wore the blazer,offer letter arrived
+E15,E10,1,< (Precedes),False,wore the blazer,called his mother
+E15,E11,1,< (Precedes),False,wore the blazer,walked down to a tea shop
+E15,E12,-1,> (Preceded By),False,wore the blazer,trying to get a job
+E15,E13,-1,> (Preceded By),False,wore the blazer,had already returned
+E15,E14,5,d (During),False,wore the blazer,was staying
+E15,E16,-1,> (Preceded By),False,wore the blazer,his mother had packed for him
+E15,E17,-1,> (Preceded By),False,wore the blazer,had been misplaced
+E16,E1,1,< (Precedes),False,his mother had packed for him,sent his first application
+E16,E2,1,< (Precedes),False,his mother had packed for him,first application had actually been shortlisted
+E16,E3,1,< (Precedes),False,his mother had packed for him,got a call for a preliminary phone interview
+E16,E4,1,< (Precedes),False,his mother had packed for him,took the call
+E16,E5,1,< (Precedes),False,his mother had packed for him,asked to come in for a written test
+E16,E6,1,< (Precedes),False,his mother had packed for him,written test took three hours
+E16,E7,1,< (Precedes),False,his mother had packed for him,received an email asking him to come back for a panel interview
+E16,E8,1,< (Precedes),False,his mother had packed for him,panel interview was held
+E16,E9,1,< (Precedes),False,his mother had packed for him,offer letter arrived
+E16,E10,1,< (Precedes),False,his mother had packed for him,called his mother
+E16,E11,1,< (Precedes),False,his mother had packed for him,walked down to a tea shop
+E16,E12,5,d (During),False,his mother had packed for him,trying to get a job
+E16,E13,1,< (Precedes),False,his mother had packed for him,had already returned
+E16,E14,1,< (Precedes),False,his mother had packed for him,was staying
+E16,E15,1,< (Precedes),False,his mother had packed for him,wore the blazer
+E16,E17,1,< (Precedes),False,his mother had packed for him,had been misplaced
+E17,E1,-1,> (Preceded By),False,had been misplaced,sent his first application
+E17,E2,-1,> (Preceded By),False,had been misplaced,first application had actually been shortlisted
+E17,E3,1,< (Precedes),False,had been misplaced,got a call for a preliminary phone interview
+E17,E4,1,< (Precedes),False,had been misplaced,took the call
+E17,E5,1,< (Precedes),False,had been misplaced,asked to come in for a written test
+E17,E6,1,< (Precedes),False,had been misplaced,written test took three hours
+E17,E7,1,< (Precedes),False,had been misplaced,received an email asking him to come back for a panel interview
+E17,E8,1,< (Precedes),False,had been misplaced,panel interview was held
+E17,E9,1,< (Precedes),False,had been misplaced,offer letter arrived
+E17,E10,1,< (Precedes),False,had been misplaced,called his mother
+E17,E11,1,< (Precedes),False,had been misplaced,walked down to a tea shop
+E17,E12,5,d (During),False,had been misplaced,trying to get a job
+E17,E13,1,< (Precedes),False,had been misplaced,had already returned
+E17,E14,1,< (Precedes),False,had been misplaced,was staying
+E17,E15,1,< (Precedes),False,had been misplaced,wore the blazer
+E17,E16,-1,> (Preceded By),False,had been misplaced,his mother had packed for him

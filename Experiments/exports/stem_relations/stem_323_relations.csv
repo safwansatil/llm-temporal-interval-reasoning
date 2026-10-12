@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,visit the doctor for a checkup,The appointment
+E1,E3,2,m (Meets),False,visit the doctor for a checkup,picked up his medication from the pharmacy
+E1,E4,2,m (Meets),False,visit the doctor for a checkup,took the medication
+E1,E5,1,< (Precedes),False,visit the doctor for a checkup,felt unusually dizzy
+E1,E6,1,< (Precedes),False,visit the doctor for a checkup,checked the label
+E1,E7,1,< (Precedes),False,visit the doctor for a checkup,stopped taking the medication
+E1,E8,1,< (Precedes),False,visit the doctor for a checkup,called his doctor
+E1,E9,1,< (Precedes),False,visit the doctor for a checkup,prescribed a corrected dosage
+E1,E10,1,< (Precedes),False,visit the doctor for a checkup,returned to the pharmacy
+E1,E11,1,< (Precedes),False,visit the doctor for a checkup,spoke to the pharmacist
+E1,E12,1,< (Precedes),False,visit the doctor for a checkup,implemented a double-check system
+E1,E13,1,< (Precedes),False,visit the doctor for a checkup,checks every prescription label carefully
+E1,E14,0,= (Equal),False,visit the doctor for a checkup,had been taking the same blood pressure medicine
+E1,E15,1,< (Precedes),False,visit the doctor for a checkup,he had been fortunate to notice the error
+E2,E1,5,d (During),False,The appointment,visit the doctor for a checkup
+E2,E3,1,< (Precedes),False,The appointment,picked up his medication from the pharmacy
+E2,E4,1,< (Precedes),False,The appointment,took the medication
+E2,E5,1,< (Precedes),False,The appointment,felt unusually dizzy
+E2,E6,1,< (Precedes),False,The appointment,checked the label
+E2,E7,1,< (Precedes),False,The appointment,stopped taking the medication
+E2,E8,1,< (Precedes),False,The appointment,called his doctor
+E2,E9,1,< (Precedes),False,The appointment,prescribed a corrected dosage
+E2,E10,1,< (Precedes),False,The appointment,returned to the pharmacy
+E2,E11,1,< (Precedes),False,The appointment,spoke to the pharmacist
+E2,E12,1,< (Precedes),False,The appointment,implemented a double-check system
+E2,E13,1,< (Precedes),False,The appointment,checks every prescription label carefully
+E2,E14,5,d (During),False,The appointment,had been taking the same blood pressure medicine
+E2,E15,1,< (Precedes),False,The appointment,he had been fortunate to notice the error
+E3,E1,-2,mi (Met By),False,picked up his medication from the pharmacy,visit the doctor for a checkup
+E3,E2,-1,> (Preceded By),False,picked up his medication from the pharmacy,The appointment
+E3,E4,4,s (Starts),False,picked up his medication from the pharmacy,took the medication
+E3,E5,1,< (Precedes),False,picked up his medication from the pharmacy,felt unusually dizzy
+E3,E6,1,< (Precedes),False,picked up his medication from the pharmacy,checked the label
+E3,E7,1,< (Precedes),False,picked up his medication from the pharmacy,stopped taking the medication
+E3,E8,1,< (Precedes),False,picked up his medication from the pharmacy,called his doctor
+E3,E9,1,< (Precedes),False,picked up his medication from the pharmacy,prescribed a corrected dosage
+E3,E10,1,< (Precedes),False,picked up his medication from the pharmacy,returned to the pharmacy
+E3,E11,1,< (Precedes),False,picked up his medication from the pharmacy,spoke to the pharmacist
+E3,E12,1,< (Precedes),False,picked up his medication from the pharmacy,implemented a double-check system
+E3,E13,1,< (Precedes),False,picked up his medication from the pharmacy,checks every prescription label carefully
+E3,E14,-2,mi (Met By),False,picked up his medication from the pharmacy,had been taking the same blood pressure medicine
+E3,E15,1,< (Precedes),False,picked up his medication from the pharmacy,he had been fortunate to notice the error
+E4,E1,-2,mi (Met By),False,took the medication,visit the doctor for a checkup
+E4,E2,-1,> (Preceded By),False,took the medication,The appointment
+E4,E3,-4,si (Started By),False,took the medication,picked up his medication from the pharmacy
+E4,E5,2,m (Meets),False,took the medication,felt unusually dizzy
+E4,E6,2,m (Meets),False,took the medication,checked the label
+E4,E7,1,< (Precedes),False,took the medication,stopped taking the medication
+E4,E8,1,< (Precedes),False,took the medication,called his doctor
+E4,E9,1,< (Precedes),False,took the medication,prescribed a corrected dosage
+E4,E10,1,< (Precedes),False,took the medication,returned to the pharmacy
+E4,E11,1,< (Precedes),False,took the medication,spoke to the pharmacist
+E4,E12,1,< (Precedes),False,took the medication,implemented a double-check system
+E4,E13,1,< (Precedes),False,took the medication,checks every prescription label carefully
+E4,E14,-2,mi (Met By),False,took the medication,had been taking the same blood pressure medicine
+E4,E15,2,m (Meets),False,took the medication,he had been fortunate to notice the error
+E5,E1,-1,> (Preceded By),False,felt unusually dizzy,visit the doctor for a checkup
+E5,E2,-1,> (Preceded By),False,felt unusually dizzy,The appointment
+E5,E3,-1,> (Preceded By),False,felt unusually dizzy,picked up his medication from the pharmacy
+E5,E4,-2,mi (Met By),False,felt unusually dizzy,took the medication
+E5,E6,4,s (Starts),False,felt unusually dizzy,checked the label
+E5,E7,1,< (Precedes),False,felt unusually dizzy,stopped taking the medication
+E5,E8,1,< (Precedes),False,felt unusually dizzy,called his doctor
+E5,E9,1,< (Precedes),False,felt unusually dizzy,prescribed a corrected dosage
+E5,E10,1,< (Precedes),False,felt unusually dizzy,returned to the pharmacy
+E5,E11,1,< (Precedes),False,felt unusually dizzy,spoke to the pharmacist
+E5,E12,1,< (Precedes),False,felt unusually dizzy,implemented a double-check system
+E5,E13,1,< (Precedes),False,felt unusually dizzy,checks every prescription label carefully
+E5,E14,-1,> (Preceded By),False,felt unusually dizzy,had been taking the same blood pressure medicine
+E5,E15,0,= (Equal),False,felt unusually dizzy,he had been fortunate to notice the error
+E6,E1,-1,> (Preceded By),False,checked the label,visit the doctor for a checkup
+E6,E2,-1,> (Preceded By),False,checked the label,The appointment
+E6,E3,-1,> (Preceded By),False,checked the label,picked up his medication from the pharmacy
+E6,E4,-2,mi (Met By),False,checked the label,took the medication
+E6,E5,-4,si (Started By),False,checked the label,felt unusually dizzy
+E6,E7,-5,di (Contains),False,checked the label,stopped taking the medication
+E6,E8,1,< (Precedes),False,checked the label,called his doctor
+E6,E9,1,< (Precedes),False,checked the label,prescribed a corrected dosage
+E6,E10,1,< (Precedes),False,checked the label,returned to the pharmacy
+E6,E11,1,< (Precedes),False,checked the label,spoke to the pharmacist
+E6,E12,1,< (Precedes),False,checked the label,implemented a double-check system
+E6,E13,1,< (Precedes),False,checked the label,checks every prescription label carefully
+E6,E14,-1,> (Preceded By),False,checked the label,had been taking the same blood pressure medicine
+E6,E15,-4,si (Started By),False,checked the label,he had been fortunate to notice the error
+E7,E1,-1,> (Preceded By),False,stopped taking the medication,visit the doctor for a checkup
+E7,E2,-1,> (Preceded By),False,stopped taking the medication,The appointment
+E7,E3,-1,> (Preceded By),False,stopped taking the medication,picked up his medication from the pharmacy
+E7,E4,-1,> (Preceded By),False,stopped taking the medication,took the medication
+E7,E5,-1,> (Preceded By),False,stopped taking the medication,felt unusually dizzy
+E7,E6,5,d (During),False,stopped taking the medication,checked the label
+E7,E8,1,< (Precedes),False,stopped taking the medication,called his doctor
+E7,E9,1,< (Precedes),False,stopped taking the medication,prescribed a corrected dosage
+E7,E10,1,< (Precedes),False,stopped taking the medication,returned to the pharmacy
+E7,E11,1,< (Precedes),False,stopped taking the medication,spoke to the pharmacist
+E7,E12,1,< (Precedes),False,stopped taking the medication,implemented a double-check system
+E7,E13,1,< (Precedes),False,stopped taking the medication,checks every prescription label carefully
+E7,E14,-1,> (Preceded By),False,stopped taking the medication,had been taking the same blood pressure medicine
+E7,E15,-1,> (Preceded By),False,stopped taking the medication,he had been fortunate to notice the error
+E8,E1,-1,> (Preceded By),False,called his doctor,visit the doctor for a checkup
+E8,E2,-1,> (Preceded By),False,called his doctor,The appointment
+E8,E3,-1,> (Preceded By),False,called his doctor,picked up his medication from the pharmacy
+E8,E4,-1,> (Preceded By),False,called his doctor,took the medication
+E8,E5,-1,> (Preceded By),False,called his doctor,felt unusually dizzy
+E8,E6,-1,> (Preceded By),False,called his doctor,checked the label
+E8,E7,-1,> (Preceded By),False,called his doctor,stopped taking the medication
+E8,E9,-4,si (Started By),False,called his doctor,prescribed a corrected dosage
+E8,E10,-5,di (Contains),False,called his doctor,returned to the pharmacy
+E8,E11,-5,di (Contains),False,called his doctor,spoke to the pharmacist
+E8,E12,-5,di (Contains),False,called his doctor,implemented a double-check system
+E8,E13,-6,fi (Finished By),False,called his doctor,checks every prescription label carefully
+E8,E14,-1,> (Preceded By),False,called his doctor,had been taking the same blood pressure medicine
+E8,E15,-1,> (Preceded By),False,called his doctor,he had been fortunate to notice the error
+E9,E1,-1,> (Preceded By),False,prescribed a corrected dosage,visit the doctor for a checkup
+E9,E2,-1,> (Preceded By),False,prescribed a corrected dosage,The appointment
+E9,E3,-1,> (Preceded By),False,prescribed a corrected dosage,picked up his medication from the pharmacy
+E9,E4,-1,> (Preceded By),False,prescribed a corrected dosage,took the medication
+E9,E5,-1,> (Preceded By),False,prescribed a corrected dosage,felt unusually dizzy
+E9,E6,-1,> (Preceded By),False,prescribed a corrected dosage,checked the label
+E9,E7,-1,> (Preceded By),False,prescribed a corrected dosage,stopped taking the medication
+E9,E8,4,s (Starts),False,prescribed a corrected dosage,called his doctor
+E9,E10,1,< (Precedes),False,prescribed a corrected dosage,returned to the pharmacy
+E9,E11,1,< (Precedes),False,prescribed a corrected dosage,spoke to the pharmacist
+E9,E12,1,< (Precedes),False,prescribed a corrected dosage,implemented a double-check system
+E9,E13,1,< (Precedes),False,prescribed a corrected dosage,checks every prescription label carefully
+E9,E14,-1,> (Preceded By),False,prescribed a corrected dosage,had been taking the same blood pressure medicine
+E9,E15,-1,> (Preceded By),False,prescribed a corrected dosage,he had been fortunate to notice the error
+E10,E1,-1,> (Preceded By),False,returned to the pharmacy,visit the doctor for a checkup
+E10,E2,-1,> (Preceded By),False,returned to the pharmacy,The appointment
+E10,E3,-1,> (Preceded By),False,returned to the pharmacy,picked up his medication from the pharmacy
+E10,E4,-1,> (Preceded By),False,returned to the pharmacy,took the medication
+E10,E5,-1,> (Preceded By),False,returned to the pharmacy,felt unusually dizzy
+E10,E6,-1,> (Preceded By),False,returned to the pharmacy,checked the label
+E10,E7,-1,> (Preceded By),False,returned to the pharmacy,stopped taking the medication
+E10,E8,5,d (During),False,returned to the pharmacy,called his doctor
+E10,E9,-1,> (Preceded By),False,returned to the pharmacy,prescribed a corrected dosage
+E10,E11,4,s (Starts),False,returned to the pharmacy,spoke to the pharmacist
+E10,E12,1,< (Precedes),False,returned to the pharmacy,implemented a double-check system
+E10,E13,1,< (Precedes),False,returned to the pharmacy,checks every prescription label carefully
+E10,E14,-1,> (Preceded By),False,returned to the pharmacy,had been taking the same blood pressure medicine
+E10,E15,-1,> (Preceded By),False,returned to the pharmacy,he had been fortunate to notice the error
+E11,E1,-1,> (Preceded By),False,spoke to the pharmacist,visit the doctor for a checkup
+E11,E2,-1,> (Preceded By),False,spoke to the pharmacist,The appointment
+E11,E3,-1,> (Preceded By),False,spoke to the pharmacist,picked up his medication from the pharmacy
+E11,E4,-1,> (Preceded By),False,spoke to the pharmacist,took the medication
+E11,E5,-1,> (Preceded By),False,spoke to the pharmacist,felt unusually dizzy
+E11,E6,-1,> (Preceded By),False,spoke to the pharmacist,checked the label
+E11,E7,-1,> (Preceded By),False,spoke to the pharmacist,stopped taking the medication
+E11,E8,5,d (During),False,spoke to the pharmacist,called his doctor
+E11,E9,-1,> (Preceded By),False,spoke to the pharmacist,prescribed a corrected dosage
+E11,E10,-4,si (Started By),False,spoke to the pharmacist,returned to the pharmacy
+E11,E12,1,< (Precedes),False,spoke to the pharmacist,implemented a double-check system
+E11,E13,1,< (Precedes),False,spoke to the pharmacist,checks every prescription label carefully
+E11,E14,-1,> (Preceded By),False,spoke to the pharmacist,had been taking the same blood pressure medicine
+E11,E15,-1,> (Preceded By),False,spoke to the pharmacist,he had been fortunate to notice the error
+E12,E1,-1,> (Preceded By),False,implemented a double-check system,visit the doctor for a checkup
+E12,E2,-1,> (Preceded By),False,implemented a double-check system,The appointment
+E12,E3,-1,> (Preceded By),False,implemented a double-check system,picked up his medication from the pharmacy
+E12,E4,-1,> (Preceded By),False,implemented a double-check system,took the medication
+E12,E5,-1,> (Preceded By),False,implemented a double-check system,felt unusually dizzy
+E12,E6,-1,> (Preceded By),False,implemented a double-check system,checked the label
+E12,E7,-1,> (Preceded By),False,implemented a double-check system,stopped taking the medication
+E12,E8,5,d (During),False,implemented a double-check system,called his doctor
+E12,E9,-1,> (Preceded By),False,implemented a double-check system,prescribed a corrected dosage
+E12,E10,-1,> (Preceded By),False,implemented a double-check system,returned to the pharmacy
+E12,E11,-1,> (Preceded By),False,implemented a double-check system,spoke to the pharmacist
+E12,E13,5,d (During),False,implemented a double-check system,checks every prescription label carefully
+E12,E14,-1,> (Preceded By),False,implemented a double-check system,had been taking the same blood pressure medicine
+E12,E15,-1,> (Preceded By),False,implemented a double-check system,he had been fortunate to notice the error
+E13,E1,-1,> (Preceded By),False,checks every prescription label carefully,visit the doctor for a checkup
+E13,E2,-1,> (Preceded By),False,checks every prescription label carefully,The appointment
+E13,E3,-1,> (Preceded By),False,checks every prescription label carefully,picked up his medication from the pharmacy
+E13,E4,-1,> (Preceded By),False,checks every prescription label carefully,took the medication
+E13,E5,-1,> (Preceded By),False,checks every prescription label carefully,felt unusually dizzy
+E13,E6,-1,> (Preceded By),False,checks every prescription label carefully,checked the label
+E13,E7,-1,> (Preceded By),False,checks every prescription label carefully,stopped taking the medication
+E13,E8,6,f (Finishes),False,checks every prescription label carefully,called his doctor
+E13,E9,-1,> (Preceded By),False,checks every prescription label carefully,prescribed a corrected dosage
+E13,E10,-1,> (Preceded By),False,checks every prescription label carefully,returned to the pharmacy
+E13,E11,-1,> (Preceded By),False,checks every prescription label carefully,spoke to the pharmacist
+E13,E12,-5,di (Contains),False,checks every prescription label carefully,implemented a double-check system
+E13,E14,-1,> (Preceded By),False,checks every prescription label carefully,had been taking the same blood pressure medicine
+E13,E15,-1,> (Preceded By),False,checks every prescription label carefully,he had been fortunate to notice the error
+E14,E1,0,= (Equal),False,had been taking the same blood pressure medicine,visit the doctor for a checkup
+E14,E2,-5,di (Contains),False,had been taking the same blood pressure medicine,The appointment
+E14,E3,2,m (Meets),False,had been taking the same blood pressure medicine,picked up his medication from the pharmacy
+E14,E4,2,m (Meets),False,had been taking the same blood pressure medicine,took the medication
+E14,E5,1,< (Precedes),False,had been taking the same blood pressure medicine,felt unusually dizzy
+E14,E6,1,< (Precedes),False,had been taking the same blood pressure medicine,checked the label
+E14,E7,1,< (Precedes),False,had been taking the same blood pressure medicine,stopped taking the medication
+E14,E8,1,< (Precedes),False,had been taking the same blood pressure medicine,called his doctor
+E14,E9,1,< (Precedes),False,had been taking the same blood pressure medicine,prescribed a corrected dosage
+E14,E10,1,< (Precedes),False,had been taking the same blood pressure medicine,returned to the pharmacy
+E14,E11,1,< (Precedes),False,had been taking the same blood pressure medicine,spoke to the pharmacist
+E14,E12,1,< (Precedes),False,had been taking the same blood pressure medicine,implemented a double-check system
+E14,E13,1,< (Precedes),False,had been taking the same blood pressure medicine,checks every prescription label carefully
+E14,E15,1,< (Precedes),False,had been taking the same blood pressure medicine,he had been fortunate to notice the error
+E15,E1,-1,> (Preceded By),False,he had been fortunate to notice the error,visit the doctor for a checkup
+E15,E2,-1,> (Preceded By),False,he had been fortunate to notice the error,The appointment
+E15,E3,-1,> (Preceded By),False,he had been fortunate to notice the error,picked up his medication from the pharmacy
+E15,E4,-2,mi (Met By),False,he had been fortunate to notice the error,took the medication
+E15,E5,0,= (Equal),False,he had been fortunate to notice the error,felt unusually dizzy
+E15,E6,4,s (Starts),False,he had been fortunate to notice the error,checked the label
+E15,E7,1,< (Precedes),False,he had been fortunate to notice the error,stopped taking the medication
+E15,E8,1,< (Precedes),False,he had been fortunate to notice the error,called his doctor
+E15,E9,1,< (Precedes),False,he had been fortunate to notice the error,prescribed a corrected dosage
+E15,E10,1,< (Precedes),False,he had been fortunate to notice the error,returned to the pharmacy
+E15,E11,1,< (Precedes),False,he had been fortunate to notice the error,spoke to the pharmacist
+E15,E12,1,< (Precedes),False,he had been fortunate to notice the error,implemented a double-check system
+E15,E13,1,< (Precedes),False,he had been fortunate to notice the error,checks every prescription label carefully
+E15,E14,-1,> (Preceded By),False,he had been fortunate to notice the error,had been taking the same blood pressure medicine

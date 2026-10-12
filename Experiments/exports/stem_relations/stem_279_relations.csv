@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,3,o (Overlaps),False,previous principal had retired,science laboratory had been locked
+E1,E3,4,s (Starts),False,previous principal had retired,dispute between two senior teachers
+E1,E4,1,< (Precedes),False,previous principal had retired,Mrs. Hossain took charge as the principal of the district high school
+E1,E5,1,< (Precedes),False,previous principal had retired,She spent her first week observing
+E1,E6,1,< (Precedes),False,previous principal had retired,she had identified the most urgent problems
+E1,E7,1,< (Precedes),False,previous principal had retired,she called a staff meeting
+E1,E8,1,< (Precedes),False,previous principal had retired,The broken window was replaced
+E1,E9,1,< (Precedes),False,previous principal had retired,Mrs. Hossain personally visited the education board office
+E1,E10,1,< (Precedes),False,previous principal had retired,The forms were submitted
+E1,E11,1,< (Precedes),False,previous principal had retired,erupted during a department meeting
+E1,E12,1,< (Precedes),False,previous principal had retired,Mrs. Hossain mediated the conflict
+E1,E13,1,< (Precedes),False,previous principal had retired,the school's atmosphere had noticeably improved
+E1,E14,1,< (Precedes),False,previous principal had retired,"end-of-year examination results, released"
+E1,E15,1,< (Precedes),False,previous principal had retired,Mrs. Hossain stood at the school gate
+E2,E1,-3,oi (Overlapped By),False,science laboratory had been locked,previous principal had retired
+E2,E3,5,d (During),False,science laboratory had been locked,dispute between two senior teachers
+E2,E4,-5,di (Contains),False,science laboratory had been locked,Mrs. Hossain took charge as the principal of the district high school
+E2,E5,-5,di (Contains),False,science laboratory had been locked,She spent her first week observing
+E2,E6,-5,di (Contains),False,science laboratory had been locked,she had identified the most urgent problems
+E2,E7,-5,di (Contains),False,science laboratory had been locked,she called a staff meeting
+E2,E8,-5,di (Contains),False,science laboratory had been locked,The broken window was replaced
+E2,E9,-5,di (Contains),False,science laboratory had been locked,Mrs. Hossain personally visited the education board office
+E2,E10,3,o (Overlaps),False,science laboratory had been locked,The forms were submitted
+E2,E11,1,< (Precedes),False,science laboratory had been locked,erupted during a department meeting
+E2,E12,1,< (Precedes),False,science laboratory had been locked,Mrs. Hossain mediated the conflict
+E2,E13,1,< (Precedes),False,science laboratory had been locked,the school's atmosphere had noticeably improved
+E2,E14,1,< (Precedes),False,science laboratory had been locked,"end-of-year examination results, released"
+E2,E15,1,< (Precedes),False,science laboratory had been locked,Mrs. Hossain stood at the school gate
+E3,E1,-4,si (Started By),False,dispute between two senior teachers,previous principal had retired
+E3,E2,-5,di (Contains),False,dispute between two senior teachers,science laboratory had been locked
+E3,E4,-5,di (Contains),False,dispute between two senior teachers,Mrs. Hossain took charge as the principal of the district high school
+E3,E5,-5,di (Contains),False,dispute between two senior teachers,She spent her first week observing
+E3,E6,-5,di (Contains),False,dispute between two senior teachers,she had identified the most urgent problems
+E3,E7,-5,di (Contains),False,dispute between two senior teachers,she called a staff meeting
+E3,E8,-5,di (Contains),False,dispute between two senior teachers,The broken window was replaced
+E3,E9,-5,di (Contains),False,dispute between two senior teachers,Mrs. Hossain personally visited the education board office
+E3,E10,-5,di (Contains),False,dispute between two senior teachers,The forms were submitted
+E3,E11,-5,di (Contains),False,dispute between two senior teachers,erupted during a department meeting
+E3,E12,-5,di (Contains),False,dispute between two senior teachers,Mrs. Hossain mediated the conflict
+E3,E13,2,m (Meets),False,dispute between two senior teachers,the school's atmosphere had noticeably improved
+E3,E14,1,< (Precedes),False,dispute between two senior teachers,"end-of-year examination results, released"
+E3,E15,1,< (Precedes),False,dispute between two senior teachers,Mrs. Hossain stood at the school gate
+E4,E1,-1,> (Preceded By),False,Mrs. Hossain took charge as the principal of the district high school,previous principal had retired
+E4,E2,5,d (During),False,Mrs. Hossain took charge as the principal of the district high school,science laboratory had been locked
+E4,E3,5,d (During),False,Mrs. Hossain took charge as the principal of the district high school,dispute between two senior teachers
+E4,E5,0,= (Equal),False,Mrs. Hossain took charge as the principal of the district high school,She spent her first week observing
+E4,E6,2,m (Meets),False,Mrs. Hossain took charge as the principal of the district high school,she had identified the most urgent problems
+E4,E7,1,< (Precedes),False,Mrs. Hossain took charge as the principal of the district high school,she called a staff meeting
+E4,E8,1,< (Precedes),False,Mrs. Hossain took charge as the principal of the district high school,The broken window was replaced
+E4,E9,1,< (Precedes),False,Mrs. Hossain took charge as the principal of the district high school,Mrs. Hossain personally visited the education board office
+E4,E10,1,< (Precedes),False,Mrs. Hossain took charge as the principal of the district high school,The forms were submitted
+E4,E11,1,< (Precedes),False,Mrs. Hossain took charge as the principal of the district high school,erupted during a department meeting
+E4,E12,1,< (Precedes),False,Mrs. Hossain took charge as the principal of the district high school,Mrs. Hossain mediated the conflict
+E4,E13,1,< (Precedes),False,Mrs. Hossain took charge as the principal of the district high school,the school's atmosphere had noticeably improved
+E4,E14,1,< (Precedes),False,Mrs. Hossain took charge as the principal of the district high school,"end-of-year examination results, released"
+E4,E15,1,< (Precedes),False,Mrs. Hossain took charge as the principal of the district high school,Mrs. Hossain stood at the school gate
+E5,E1,-1,> (Preceded By),False,She spent her first week observing,previous principal had retired
+E5,E2,5,d (During),False,She spent her first week observing,science laboratory had been locked
+E5,E3,5,d (During),False,She spent her first week observing,dispute between two senior teachers
+E5,E4,0,= (Equal),False,She spent her first week observing,Mrs. Hossain took charge as the principal of the district high school
+E5,E6,2,m (Meets),False,She spent her first week observing,she had identified the most urgent problems
+E5,E7,1,< (Precedes),False,She spent her first week observing,she called a staff meeting
+E5,E8,1,< (Precedes),False,She spent her first week observing,The broken window was replaced
+E5,E9,1,< (Precedes),False,She spent her first week observing,Mrs. Hossain personally visited the education board office
+E5,E10,1,< (Precedes),False,She spent her first week observing,The forms were submitted
+E5,E11,1,< (Precedes),False,She spent her first week observing,erupted during a department meeting
+E5,E12,1,< (Precedes),False,She spent her first week observing,Mrs. Hossain mediated the conflict
+E5,E13,1,< (Precedes),False,She spent her first week observing,the school's atmosphere had noticeably improved
+E5,E14,1,< (Precedes),False,She spent her first week observing,"end-of-year examination results, released"
+E5,E15,1,< (Precedes),False,She spent her first week observing,Mrs. Hossain stood at the school gate
+E6,E1,-1,> (Preceded By),False,she had identified the most urgent problems,previous principal had retired
+E6,E2,5,d (During),False,she had identified the most urgent problems,science laboratory had been locked
+E6,E3,5,d (During),False,she had identified the most urgent problems,dispute between two senior teachers
+E6,E4,-2,mi (Met By),False,she had identified the most urgent problems,Mrs. Hossain took charge as the principal of the district high school
+E6,E5,-2,mi (Met By),False,she had identified the most urgent problems,She spent her first week observing
+E6,E7,3,o (Overlaps),False,she had identified the most urgent problems,she called a staff meeting
+E6,E8,3,o (Overlaps),False,she had identified the most urgent problems,The broken window was replaced
+E6,E9,2,m (Meets),False,she had identified the most urgent problems,Mrs. Hossain personally visited the education board office
+E6,E10,1,< (Precedes),False,she had identified the most urgent problems,The forms were submitted
+E6,E11,1,< (Precedes),False,she had identified the most urgent problems,erupted during a department meeting
+E6,E12,1,< (Precedes),False,she had identified the most urgent problems,Mrs. Hossain mediated the conflict
+E6,E13,1,< (Precedes),False,she had identified the most urgent problems,the school's atmosphere had noticeably improved
+E6,E14,1,< (Precedes),False,she had identified the most urgent problems,"end-of-year examination results, released"
+E6,E15,1,< (Precedes),False,she had identified the most urgent problems,Mrs. Hossain stood at the school gate
+E7,E1,-1,> (Preceded By),False,she called a staff meeting,previous principal had retired
+E7,E2,5,d (During),False,she called a staff meeting,science laboratory had been locked
+E7,E3,5,d (During),False,she called a staff meeting,dispute between two senior teachers
+E7,E4,-1,> (Preceded By),False,she called a staff meeting,Mrs. Hossain took charge as the principal of the district high school
+E7,E5,-1,> (Preceded By),False,she called a staff meeting,She spent her first week observing
+E7,E6,-3,oi (Overlapped By),False,she called a staff meeting,she had identified the most urgent problems
+E7,E8,3,o (Overlaps),False,she called a staff meeting,The broken window was replaced
+E7,E9,3,o (Overlaps),False,she called a staff meeting,Mrs. Hossain personally visited the education board office
+E7,E10,1,< (Precedes),False,she called a staff meeting,The forms were submitted
+E7,E11,1,< (Precedes),False,she called a staff meeting,erupted during a department meeting
+E7,E12,1,< (Precedes),False,she called a staff meeting,Mrs. Hossain mediated the conflict
+E7,E13,1,< (Precedes),False,she called a staff meeting,the school's atmosphere had noticeably improved
+E7,E14,1,< (Precedes),False,she called a staff meeting,"end-of-year examination results, released"
+E7,E15,1,< (Precedes),False,she called a staff meeting,Mrs. Hossain stood at the school gate
+E8,E1,-1,> (Preceded By),False,The broken window was replaced,previous principal had retired
+E8,E2,5,d (During),False,The broken window was replaced,science laboratory had been locked
+E8,E3,5,d (During),False,The broken window was replaced,dispute between two senior teachers
+E8,E4,-1,> (Preceded By),False,The broken window was replaced,Mrs. Hossain took charge as the principal of the district high school
+E8,E5,-1,> (Preceded By),False,The broken window was replaced,She spent her first week observing
+E8,E6,-3,oi (Overlapped By),False,The broken window was replaced,she had identified the most urgent problems
+E8,E7,-3,oi (Overlapped By),False,The broken window was replaced,she called a staff meeting
+E8,E9,-5,di (Contains),False,The broken window was replaced,Mrs. Hossain personally visited the education board office
+E8,E10,2,m (Meets),False,The broken window was replaced,The forms were submitted
+E8,E11,1,< (Precedes),False,The broken window was replaced,erupted during a department meeting
+E8,E12,1,< (Precedes),False,The broken window was replaced,Mrs. Hossain mediated the conflict
+E8,E13,1,< (Precedes),False,The broken window was replaced,the school's atmosphere had noticeably improved
+E8,E14,1,< (Precedes),False,The broken window was replaced,"end-of-year examination results, released"
+E8,E15,1,< (Precedes),False,The broken window was replaced,Mrs. Hossain stood at the school gate
+E9,E1,-1,> (Preceded By),False,Mrs. Hossain personally visited the education board office,previous principal had retired
+E9,E2,5,d (During),False,Mrs. Hossain personally visited the education board office,science laboratory had been locked
+E9,E3,5,d (During),False,Mrs. Hossain personally visited the education board office,dispute between two senior teachers
+E9,E4,-1,> (Preceded By),False,Mrs. Hossain personally visited the education board office,Mrs. Hossain took charge as the principal of the district high school
+E9,E5,-1,> (Preceded By),False,Mrs. Hossain personally visited the education board office,She spent her first week observing
+E9,E6,-2,mi (Met By),False,Mrs. Hossain personally visited the education board office,she had identified the most urgent problems
+E9,E7,-3,oi (Overlapped By),False,Mrs. Hossain personally visited the education board office,she called a staff meeting
+E9,E8,5,d (During),False,Mrs. Hossain personally visited the education board office,The broken window was replaced
+E9,E10,1,< (Precedes),False,Mrs. Hossain personally visited the education board office,The forms were submitted
+E9,E11,1,< (Precedes),False,Mrs. Hossain personally visited the education board office,erupted during a department meeting
+E9,E12,1,< (Precedes),False,Mrs. Hossain personally visited the education board office,Mrs. Hossain mediated the conflict
+E9,E13,1,< (Precedes),False,Mrs. Hossain personally visited the education board office,the school's atmosphere had noticeably improved
+E9,E14,1,< (Precedes),False,Mrs. Hossain personally visited the education board office,"end-of-year examination results, released"
+E9,E15,1,< (Precedes),False,Mrs. Hossain personally visited the education board office,Mrs. Hossain stood at the school gate
+E10,E1,-1,> (Preceded By),False,The forms were submitted,previous principal had retired
+E10,E2,-3,oi (Overlapped By),False,The forms were submitted,science laboratory had been locked
+E10,E3,5,d (During),False,The forms were submitted,dispute between two senior teachers
+E10,E4,-1,> (Preceded By),False,The forms were submitted,Mrs. Hossain took charge as the principal of the district high school
+E10,E5,-1,> (Preceded By),False,The forms were submitted,She spent her first week observing
+E10,E6,-1,> (Preceded By),False,The forms were submitted,she had identified the most urgent problems
+E10,E7,-1,> (Preceded By),False,The forms were submitted,she called a staff meeting
+E10,E8,-2,mi (Met By),False,The forms were submitted,The broken window was replaced
+E10,E9,-1,> (Preceded By),False,The forms were submitted,Mrs. Hossain personally visited the education board office
+E10,E11,1,< (Precedes),False,The forms were submitted,erupted during a department meeting
+E10,E12,1,< (Precedes),False,The forms were submitted,Mrs. Hossain mediated the conflict
+E10,E13,1,< (Precedes),False,The forms were submitted,the school's atmosphere had noticeably improved
+E10,E14,1,< (Precedes),False,The forms were submitted,"end-of-year examination results, released"
+E10,E15,1,< (Precedes),False,The forms were submitted,Mrs. Hossain stood at the school gate
+E11,E1,-1,> (Preceded By),False,erupted during a department meeting,previous principal had retired
+E11,E2,-1,> (Preceded By),False,erupted during a department meeting,science laboratory had been locked
+E11,E3,5,d (During),False,erupted during a department meeting,dispute between two senior teachers
+E11,E4,-1,> (Preceded By),False,erupted during a department meeting,Mrs. Hossain took charge as the principal of the district high school
+E11,E5,-1,> (Preceded By),False,erupted during a department meeting,She spent her first week observing
+E11,E6,-1,> (Preceded By),False,erupted during a department meeting,she had identified the most urgent problems
+E11,E7,-1,> (Preceded By),False,erupted during a department meeting,she called a staff meeting
+E11,E8,-1,> (Preceded By),False,erupted during a department meeting,The broken window was replaced
+E11,E9,-1,> (Preceded By),False,erupted during a department meeting,Mrs. Hossain personally visited the education board office
+E11,E10,-1,> (Preceded By),False,erupted during a department meeting,The forms were submitted
+E11,E12,4,s (Starts),False,erupted during a department meeting,Mrs. Hossain mediated the conflict
+E11,E13,1,< (Precedes),False,erupted during a department meeting,the school's atmosphere had noticeably improved
+E11,E14,1,< (Precedes),False,erupted during a department meeting,"end-of-year examination results, released"
+E11,E15,1,< (Precedes),False,erupted during a department meeting,Mrs. Hossain stood at the school gate
+E12,E1,-1,> (Preceded By),False,Mrs. Hossain mediated the conflict,previous principal had retired
+E12,E2,-1,> (Preceded By),False,Mrs. Hossain mediated the conflict,science laboratory had been locked
+E12,E3,5,d (During),False,Mrs. Hossain mediated the conflict,dispute between two senior teachers
+E12,E4,-1,> (Preceded By),False,Mrs. Hossain mediated the conflict,Mrs. Hossain took charge as the principal of the district high school
+E12,E5,-1,> (Preceded By),False,Mrs. Hossain mediated the conflict,She spent her first week observing
+E12,E6,-1,> (Preceded By),False,Mrs. Hossain mediated the conflict,she had identified the most urgent problems
+E12,E7,-1,> (Preceded By),False,Mrs. Hossain mediated the conflict,she called a staff meeting
+E12,E8,-1,> (Preceded By),False,Mrs. Hossain mediated the conflict,The broken window was replaced
+E12,E9,-1,> (Preceded By),False,Mrs. Hossain mediated the conflict,Mrs. Hossain personally visited the education board office
+E12,E10,-1,> (Preceded By),False,Mrs. Hossain mediated the conflict,The forms were submitted
+E12,E11,-4,si (Started By),False,Mrs. Hossain mediated the conflict,erupted during a department meeting
+E12,E13,1,< (Precedes),False,Mrs. Hossain mediated the conflict,the school's atmosphere had noticeably improved
+E12,E14,1,< (Precedes),False,Mrs. Hossain mediated the conflict,"end-of-year examination results, released"
+E12,E15,1,< (Precedes),False,Mrs. Hossain mediated the conflict,Mrs. Hossain stood at the school gate
+E13,E1,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,previous principal had retired
+E13,E2,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,science laboratory had been locked
+E13,E3,-2,mi (Met By),False,the school's atmosphere had noticeably improved,dispute between two senior teachers
+E13,E4,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,Mrs. Hossain took charge as the principal of the district high school
+E13,E5,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,She spent her first week observing
+E13,E6,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,she had identified the most urgent problems
+E13,E7,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,she called a staff meeting
+E13,E8,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,The broken window was replaced
+E13,E9,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,Mrs. Hossain personally visited the education board office
+E13,E10,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,The forms were submitted
+E13,E11,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,erupted during a department meeting
+E13,E12,-1,> (Preceded By),False,the school's atmosphere had noticeably improved,Mrs. Hossain mediated the conflict
+E13,E14,1,< (Precedes),False,the school's atmosphere had noticeably improved,"end-of-year examination results, released"
+E13,E15,1,< (Precedes),False,the school's atmosphere had noticeably improved,Mrs. Hossain stood at the school gate
+E14,E1,-1,> (Preceded By),False,"end-of-year examination results, released",previous principal had retired
+E14,E2,-1,> (Preceded By),False,"end-of-year examination results, released",science laboratory had been locked
+E14,E3,-1,> (Preceded By),False,"end-of-year examination results, released",dispute between two senior teachers
+E14,E4,-1,> (Preceded By),False,"end-of-year examination results, released",Mrs. Hossain took charge as the principal of the district high school
+E14,E5,-1,> (Preceded By),False,"end-of-year examination results, released",She spent her first week observing
+E14,E6,-1,> (Preceded By),False,"end-of-year examination results, released",she had identified the most urgent problems
+E14,E7,-1,> (Preceded By),False,"end-of-year examination results, released",she called a staff meeting
+E14,E8,-1,> (Preceded By),False,"end-of-year examination results, released",The broken window was replaced
+E14,E9,-1,> (Preceded By),False,"end-of-year examination results, released",Mrs. Hossain personally visited the education board office
+E14,E10,-1,> (Preceded By),False,"end-of-year examination results, released",The forms were submitted
+E14,E11,-1,> (Preceded By),False,"end-of-year examination results, released",erupted during a department meeting
+E14,E12,-1,> (Preceded By),False,"end-of-year examination results, released",Mrs. Hossain mediated the conflict
+E14,E13,-1,> (Preceded By),False,"end-of-year examination results, released",the school's atmosphere had noticeably improved
+E14,E15,1,< (Precedes),False,"end-of-year examination results, released",Mrs. Hossain stood at the school gate
+E15,E1,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,previous principal had retired
+E15,E2,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,science laboratory had been locked
+E15,E3,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,dispute between two senior teachers
+E15,E4,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,Mrs. Hossain took charge as the principal of the district high school
+E15,E5,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,She spent her first week observing
+E15,E6,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,she had identified the most urgent problems
+E15,E7,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,she called a staff meeting
+E15,E8,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,The broken window was replaced
+E15,E9,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,Mrs. Hossain personally visited the education board office
+E15,E10,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,The forms were submitted
+E15,E11,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,erupted during a department meeting
+E15,E12,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,Mrs. Hossain mediated the conflict
+E15,E13,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,the school's atmosphere had noticeably improved
+E15,E14,-1,> (Preceded By),False,Mrs. Hossain stood at the school gate,"end-of-year examination results, released"

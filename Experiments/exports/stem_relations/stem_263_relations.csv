@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,waiting at the bus stand,a shared taxi pulled up
+E1,E3,1,< (Precedes),False,waiting at the bus stand,Shirin climbed in
+E1,E4,1,< (Precedes),False,waiting at the bus stand,the young mother discovered she had left her purse at the bus stand
+E1,E5,1,< (Precedes),False,waiting at the bus stand,Shirin offered to pay the woman's share
+E1,E6,1,< (Precedes),False,waiting at the bus stand,The taxi reached the town
+E1,E7,1,< (Precedes),False,waiting at the bus stand,The young mother thanked Shirin and the elderly man
+E1,E8,1,< (Precedes),False,waiting at the bus stand,Shirin walked away
+E1,E9,2,m (Meets),False,waiting at the bus stand,he was heading to the district town
+E1,E10,1,< (Precedes),False,waiting at the bus stand,followed by an elderly man and a young mother with an infant
+E1,E11,2,m (Meets),False,waiting at the bus stand,The journey normally took ninety minute
+E1,E12,2,m (Meets),False,waiting at the bus stand,The detour added another forty minutes to the trip
+E1,E13,1,< (Precedes),False,waiting at the bus stand,Shirin stared out the window and tried to remain patient
+E1,E14,1,< (Precedes),False,waiting at the bus stand,offered to pay half.
+E2,E1,-2,mi (Met By),False,a shared taxi pulled up,waiting at the bus stand
+E2,E3,2,m (Meets),False,a shared taxi pulled up,Shirin climbed in
+E2,E4,1,< (Precedes),False,a shared taxi pulled up,the young mother discovered she had left her purse at the bus stand
+E2,E5,1,< (Precedes),False,a shared taxi pulled up,Shirin offered to pay the woman's share
+E2,E6,1,< (Precedes),False,a shared taxi pulled up,The taxi reached the town
+E2,E7,1,< (Precedes),False,a shared taxi pulled up,The young mother thanked Shirin and the elderly man
+E2,E8,1,< (Precedes),False,a shared taxi pulled up,Shirin walked away
+E2,E9,0,= (Equal),False,a shared taxi pulled up,he was heading to the district town
+E2,E10,1,< (Precedes),False,a shared taxi pulled up,followed by an elderly man and a young mother with an infant
+E2,E11,4,s (Starts),False,a shared taxi pulled up,The journey normally took ninety minute
+E2,E12,4,s (Starts),False,a shared taxi pulled up,The detour added another forty minutes to the trip
+E2,E13,1,< (Precedes),False,a shared taxi pulled up,Shirin stared out the window and tried to remain patient
+E2,E14,1,< (Precedes),False,a shared taxi pulled up,offered to pay half.
+E3,E1,-1,> (Preceded By),False,Shirin climbed in,waiting at the bus stand
+E3,E2,-2,mi (Met By),False,Shirin climbed in,a shared taxi pulled up
+E3,E4,1,< (Precedes),False,Shirin climbed in,the young mother discovered she had left her purse at the bus stand
+E3,E5,1,< (Precedes),False,Shirin climbed in,Shirin offered to pay the woman's share
+E3,E6,1,< (Precedes),False,Shirin climbed in,The taxi reached the town
+E3,E7,1,< (Precedes),False,Shirin climbed in,The young mother thanked Shirin and the elderly man
+E3,E8,1,< (Precedes),False,Shirin climbed in,Shirin walked away
+E3,E9,-2,mi (Met By),False,Shirin climbed in,he was heading to the district town
+E3,E10,2,m (Meets),False,Shirin climbed in,followed by an elderly man and a young mother with an infant
+E3,E11,5,d (During),False,Shirin climbed in,The journey normally took ninety minute
+E3,E12,5,d (During),False,Shirin climbed in,The detour added another forty minutes to the trip
+E3,E13,1,< (Precedes),False,Shirin climbed in,Shirin stared out the window and tried to remain patient
+E3,E14,1,< (Precedes),False,Shirin climbed in,offered to pay half.
+E4,E1,-1,> (Preceded By),False,the young mother discovered she had left her purse at the bus stand,waiting at the bus stand
+E4,E2,-1,> (Preceded By),False,the young mother discovered she had left her purse at the bus stand,a shared taxi pulled up
+E4,E3,-1,> (Preceded By),False,the young mother discovered she had left her purse at the bus stand,Shirin climbed in
+E4,E5,2,m (Meets),False,the young mother discovered she had left her purse at the bus stand,Shirin offered to pay the woman's share
+E4,E6,1,< (Precedes),False,the young mother discovered she had left her purse at the bus stand,The taxi reached the town
+E4,E7,1,< (Precedes),False,the young mother discovered she had left her purse at the bus stand,The young mother thanked Shirin and the elderly man
+E4,E8,1,< (Precedes),False,the young mother discovered she had left her purse at the bus stand,Shirin walked away
+E4,E9,-1,> (Preceded By),False,the young mother discovered she had left her purse at the bus stand,he was heading to the district town
+E4,E10,-1,> (Preceded By),False,the young mother discovered she had left her purse at the bus stand,followed by an elderly man and a young mother with an infant
+E4,E11,5,d (During),False,the young mother discovered she had left her purse at the bus stand,The journey normally took ninety minute
+E4,E12,5,d (During),False,the young mother discovered she had left her purse at the bus stand,The detour added another forty minutes to the trip
+E4,E13,5,d (During),False,the young mother discovered she had left her purse at the bus stand,Shirin stared out the window and tried to remain patient
+E4,E14,1,< (Precedes),False,the young mother discovered she had left her purse at the bus stand,offered to pay half.
+E5,E1,-1,> (Preceded By),False,Shirin offered to pay the woman's share,waiting at the bus stand
+E5,E2,-1,> (Preceded By),False,Shirin offered to pay the woman's share,a shared taxi pulled up
+E5,E3,-1,> (Preceded By),False,Shirin offered to pay the woman's share,Shirin climbed in
+E5,E4,-2,mi (Met By),False,Shirin offered to pay the woman's share,the young mother discovered she had left her purse at the bus stand
+E5,E6,1,< (Precedes),False,Shirin offered to pay the woman's share,The taxi reached the town
+E5,E7,1,< (Precedes),False,Shirin offered to pay the woman's share,The young mother thanked Shirin and the elderly man
+E5,E8,1,< (Precedes),False,Shirin offered to pay the woman's share,Shirin walked away
+E5,E9,-1,> (Preceded By),False,Shirin offered to pay the woman's share,he was heading to the district town
+E5,E10,-1,> (Preceded By),False,Shirin offered to pay the woman's share,followed by an elderly man and a young mother with an infant
+E5,E11,5,d (During),False,Shirin offered to pay the woman's share,The journey normally took ninety minute
+E5,E12,5,d (During),False,Shirin offered to pay the woman's share,The detour added another forty minutes to the trip
+E5,E13,5,d (During),False,Shirin offered to pay the woman's share,Shirin stared out the window and tried to remain patient
+E5,E14,2,m (Meets),False,Shirin offered to pay the woman's share,offered to pay half.
+E6,E1,-1,> (Preceded By),False,The taxi reached the town,waiting at the bus stand
+E6,E2,-1,> (Preceded By),False,The taxi reached the town,a shared taxi pulled up
+E6,E3,-1,> (Preceded By),False,The taxi reached the town,Shirin climbed in
+E6,E4,-1,> (Preceded By),False,The taxi reached the town,the young mother discovered she had left her purse at the bus stand
+E6,E5,-1,> (Preceded By),False,The taxi reached the town,Shirin offered to pay the woman's share
+E6,E7,2,m (Meets),False,The taxi reached the town,The young mother thanked Shirin and the elderly man
+E6,E8,1,< (Precedes),False,The taxi reached the town,Shirin walked away
+E6,E9,-1,> (Preceded By),False,The taxi reached the town,he was heading to the district town
+E6,E10,-1,> (Preceded By),False,The taxi reached the town,followed by an elderly man and a young mother with an infant
+E6,E11,-2,mi (Met By),False,The taxi reached the town,The journey normally took ninety minute
+E6,E12,-2,mi (Met By),False,The taxi reached the town,The detour added another forty minutes to the trip
+E6,E13,-2,mi (Met By),False,The taxi reached the town,Shirin stared out the window and tried to remain patient
+E6,E14,-1,> (Preceded By),False,The taxi reached the town,offered to pay half.
+E7,E1,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,waiting at the bus stand
+E7,E2,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,a shared taxi pulled up
+E7,E3,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,Shirin climbed in
+E7,E4,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,the young mother discovered she had left her purse at the bus stand
+E7,E5,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,Shirin offered to pay the woman's share
+E7,E6,-2,mi (Met By),False,The young mother thanked Shirin and the elderly man,The taxi reached the town
+E7,E8,2,m (Meets),False,The young mother thanked Shirin and the elderly man,Shirin walked away
+E7,E9,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,he was heading to the district town
+E7,E10,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,followed by an elderly man and a young mother with an infant
+E7,E11,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,The journey normally took ninety minute
+E7,E12,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,The detour added another forty minutes to the trip
+E7,E13,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,Shirin stared out the window and tried to remain patient
+E7,E14,-1,> (Preceded By),False,The young mother thanked Shirin and the elderly man,offered to pay half.
+E8,E1,-1,> (Preceded By),False,Shirin walked away,waiting at the bus stand
+E8,E2,-1,> (Preceded By),False,Shirin walked away,a shared taxi pulled up
+E8,E3,-1,> (Preceded By),False,Shirin walked away,Shirin climbed in
+E8,E4,-1,> (Preceded By),False,Shirin walked away,the young mother discovered she had left her purse at the bus stand
+E8,E5,-1,> (Preceded By),False,Shirin walked away,Shirin offered to pay the woman's share
+E8,E6,-1,> (Preceded By),False,Shirin walked away,The taxi reached the town
+E8,E7,-2,mi (Met By),False,Shirin walked away,The young mother thanked Shirin and the elderly man
+E8,E9,-1,> (Preceded By),False,Shirin walked away,he was heading to the district town
+E8,E10,-1,> (Preceded By),False,Shirin walked away,followed by an elderly man and a young mother with an infant
+E8,E11,-1,> (Preceded By),False,Shirin walked away,The journey normally took ninety minute
+E8,E12,-1,> (Preceded By),False,Shirin walked away,The detour added another forty minutes to the trip
+E8,E13,-1,> (Preceded By),False,Shirin walked away,Shirin stared out the window and tried to remain patient
+E8,E14,-1,> (Preceded By),False,Shirin walked away,offered to pay half.
+E9,E1,-2,mi (Met By),False,he was heading to the district town,waiting at the bus stand
+E9,E2,0,= (Equal),False,he was heading to the district town,a shared taxi pulled up
+E9,E3,2,m (Meets),False,he was heading to the district town,Shirin climbed in
+E9,E4,1,< (Precedes),False,he was heading to the district town,the young mother discovered she had left her purse at the bus stand
+E9,E5,1,< (Precedes),False,he was heading to the district town,Shirin offered to pay the woman's share
+E9,E6,1,< (Precedes),False,he was heading to the district town,The taxi reached the town
+E9,E7,1,< (Precedes),False,he was heading to the district town,The young mother thanked Shirin and the elderly man
+E9,E8,1,< (Precedes),False,he was heading to the district town,Shirin walked away
+E9,E10,1,< (Precedes),False,he was heading to the district town,followed by an elderly man and a young mother with an infant
+E9,E11,4,s (Starts),False,he was heading to the district town,The journey normally took ninety minute
+E9,E12,4,s (Starts),False,he was heading to the district town,The detour added another forty minutes to the trip
+E9,E13,1,< (Precedes),False,he was heading to the district town,Shirin stared out the window and tried to remain patient
+E9,E14,1,< (Precedes),False,he was heading to the district town,offered to pay half.
+E10,E1,-1,> (Preceded By),False,followed by an elderly man and a young mother with an infant,waiting at the bus stand
+E10,E2,-1,> (Preceded By),False,followed by an elderly man and a young mother with an infant,a shared taxi pulled up
+E10,E3,-2,mi (Met By),False,followed by an elderly man and a young mother with an infant,Shirin climbed in
+E10,E4,1,< (Precedes),False,followed by an elderly man and a young mother with an infant,the young mother discovered she had left her purse at the bus stand
+E10,E5,1,< (Precedes),False,followed by an elderly man and a young mother with an infant,Shirin offered to pay the woman's share
+E10,E6,1,< (Precedes),False,followed by an elderly man and a young mother with an infant,The taxi reached the town
+E10,E7,1,< (Precedes),False,followed by an elderly man and a young mother with an infant,The young mother thanked Shirin and the elderly man
+E10,E8,1,< (Precedes),False,followed by an elderly man and a young mother with an infant,Shirin walked away
+E10,E9,-1,> (Preceded By),False,followed by an elderly man and a young mother with an infant,he was heading to the district town
+E10,E11,5,d (During),False,followed by an elderly man and a young mother with an infant,The journey normally took ninety minute
+E10,E12,5,d (During),False,followed by an elderly man and a young mother with an infant,The detour added another forty minutes to the trip
+E10,E13,2,m (Meets),False,followed by an elderly man and a young mother with an infant,Shirin stared out the window and tried to remain patient
+E10,E14,1,< (Precedes),False,followed by an elderly man and a young mother with an infant,offered to pay half.
+E11,E1,-2,mi (Met By),False,The journey normally took ninety minute,waiting at the bus stand
+E11,E2,-4,si (Started By),False,The journey normally took ninety minute,a shared taxi pulled up
+E11,E3,-5,di (Contains),False,The journey normally took ninety minute,Shirin climbed in
+E11,E4,-5,di (Contains),False,The journey normally took ninety minute,the young mother discovered she had left her purse at the bus stand
+E11,E5,-5,di (Contains),False,The journey normally took ninety minute,Shirin offered to pay the woman's share
+E11,E6,2,m (Meets),False,The journey normally took ninety minute,The taxi reached the town
+E11,E7,1,< (Precedes),False,The journey normally took ninety minute,The young mother thanked Shirin and the elderly man
+E11,E8,1,< (Precedes),False,The journey normally took ninety minute,Shirin walked away
+E11,E9,-4,si (Started By),False,The journey normally took ninety minute,he was heading to the district town
+E11,E10,-5,di (Contains),False,The journey normally took ninety minute,followed by an elderly man and a young mother with an infant
+E11,E12,0,= (Equal),False,The journey normally took ninety minute,The detour added another forty minutes to the trip
+E11,E13,-6,fi (Finished By),False,The journey normally took ninety minute,Shirin stared out the window and tried to remain patient
+E11,E14,-5,di (Contains),False,The journey normally took ninety minute,offered to pay half.
+E12,E1,-2,mi (Met By),False,The detour added another forty minutes to the trip,waiting at the bus stand
+E12,E2,-4,si (Started By),False,The detour added another forty minutes to the trip,a shared taxi pulled up
+E12,E3,-5,di (Contains),False,The detour added another forty minutes to the trip,Shirin climbed in
+E12,E4,-5,di (Contains),False,The detour added another forty minutes to the trip,the young mother discovered she had left her purse at the bus stand
+E12,E5,-5,di (Contains),False,The detour added another forty minutes to the trip,Shirin offered to pay the woman's share
+E12,E6,2,m (Meets),False,The detour added another forty minutes to the trip,The taxi reached the town
+E12,E7,1,< (Precedes),False,The detour added another forty minutes to the trip,The young mother thanked Shirin and the elderly man
+E12,E8,1,< (Precedes),False,The detour added another forty minutes to the trip,Shirin walked away
+E12,E9,-4,si (Started By),False,The detour added another forty minutes to the trip,he was heading to the district town
+E12,E10,-5,di (Contains),False,The detour added another forty minutes to the trip,followed by an elderly man and a young mother with an infant
+E12,E11,0,= (Equal),False,The detour added another forty minutes to the trip,The journey normally took ninety minute
+E12,E13,-6,fi (Finished By),False,The detour added another forty minutes to the trip,Shirin stared out the window and tried to remain patient
+E12,E14,-5,di (Contains),False,The detour added another forty minutes to the trip,offered to pay half.
+E13,E1,-1,> (Preceded By),False,Shirin stared out the window and tried to remain patient,waiting at the bus stand
+E13,E2,-1,> (Preceded By),False,Shirin stared out the window and tried to remain patient,a shared taxi pulled up
+E13,E3,-1,> (Preceded By),False,Shirin stared out the window and tried to remain patient,Shirin climbed in
+E13,E4,-5,di (Contains),False,Shirin stared out the window and tried to remain patient,the young mother discovered she had left her purse at the bus stand
+E13,E5,-5,di (Contains),False,Shirin stared out the window and tried to remain patient,Shirin offered to pay the woman's share
+E13,E6,2,m (Meets),False,Shirin stared out the window and tried to remain patient,The taxi reached the town
+E13,E7,1,< (Precedes),False,Shirin stared out the window and tried to remain patient,The young mother thanked Shirin and the elderly man
+E13,E8,1,< (Precedes),False,Shirin stared out the window and tried to remain patient,Shirin walked away
+E13,E9,-1,> (Preceded By),False,Shirin stared out the window and tried to remain patient,he was heading to the district town
+E13,E10,-2,mi (Met By),False,Shirin stared out the window and tried to remain patient,followed by an elderly man and a young mother with an infant
+E13,E11,6,f (Finishes),False,Shirin stared out the window and tried to remain patient,The journey normally took ninety minute
+E13,E12,6,f (Finishes),False,Shirin stared out the window and tried to remain patient,The detour added another forty minutes to the trip
+E13,E14,-5,di (Contains),False,Shirin stared out the window and tried to remain patient,offered to pay half.
+E14,E1,-1,> (Preceded By),False,offered to pay half.,waiting at the bus stand
+E14,E2,-1,> (Preceded By),False,offered to pay half.,a shared taxi pulled up
+E14,E3,-1,> (Preceded By),False,offered to pay half.,Shirin climbed in
+E14,E4,-1,> (Preceded By),False,offered to pay half.,the young mother discovered she had left her purse at the bus stand
+E14,E5,-2,mi (Met By),False,offered to pay half.,Shirin offered to pay the woman's share
+E14,E6,1,< (Precedes),False,offered to pay half.,The taxi reached the town
+E14,E7,1,< (Precedes),False,offered to pay half.,The young mother thanked Shirin and the elderly man
+E14,E8,1,< (Precedes),False,offered to pay half.,Shirin walked away
+E14,E9,-1,> (Preceded By),False,offered to pay half.,he was heading to the district town
+E14,E10,-1,> (Preceded By),False,offered to pay half.,followed by an elderly man and a young mother with an infant
+E14,E11,5,d (During),False,offered to pay half.,The journey normally took ninety minute
+E14,E12,5,d (During),False,offered to pay half.,The detour added another forty minutes to the trip
+E14,E13,5,d (During),False,offered to pay half.,Shirin stared out the window and tried to remain patient

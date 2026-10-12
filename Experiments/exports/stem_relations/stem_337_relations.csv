@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,ordered her daughter's wedding cake,visited the bakery
+E1,E3,2,m (Meets),False,ordered her daughter's wedding cake,paid a substantial deposit
+E1,E4,1,< (Precedes),False,ordered her daughter's wedding cake,a kitchen fire
+E1,E5,1,< (Precedes),False,ordered her daughter's wedding cake,waited at the venue
+E1,E6,1,< (Precedes),False,ordered her daughter's wedding cake,called the bakery
+E1,E7,1,< (Precedes),False,ordered her daughter's wedding cake,called again
+E1,E8,1,< (Precedes),False,ordered her daughter's wedding cake,called her sister
+E1,E9,1,< (Precedes),False,ordered her daughter's wedding cake,Sharmin arrived at the venue
+E1,E10,1,< (Precedes),False,ordered her daughter's wedding cake,placed it on the display table
+E1,E11,1,< (Precedes),False,ordered her daughter's wedding cake,arranged the flowers around it
+E1,E12,1,< (Precedes),False,ordered her daughter's wedding cake,gasped with delight
+E1,E13,1,< (Precedes),False,ordered her daughter's wedding cake,received a full refund
+E1,E14,1,< (Precedes),False,ordered her daughter's wedding cake,The wedding was scheduled
+E2,E1,-2,mi (Met By),False,visited the bakery,ordered her daughter's wedding cake
+E2,E3,-4,si (Started By),False,visited the bakery,paid a substantial deposit
+E2,E4,1,< (Precedes),False,visited the bakery,a kitchen fire
+E2,E5,1,< (Precedes),False,visited the bakery,waited at the venue
+E2,E6,1,< (Precedes),False,visited the bakery,called the bakery
+E2,E7,1,< (Precedes),False,visited the bakery,called again
+E2,E8,1,< (Precedes),False,visited the bakery,called her sister
+E2,E9,1,< (Precedes),False,visited the bakery,Sharmin arrived at the venue
+E2,E10,1,< (Precedes),False,visited the bakery,placed it on the display table
+E2,E11,1,< (Precedes),False,visited the bakery,arranged the flowers around it
+E2,E12,1,< (Precedes),False,visited the bakery,gasped with delight
+E2,E13,1,< (Precedes),False,visited the bakery,received a full refund
+E2,E14,1,< (Precedes),False,visited the bakery,The wedding was scheduled
+E3,E1,-2,mi (Met By),False,paid a substantial deposit,ordered her daughter's wedding cake
+E3,E2,4,s (Starts),False,paid a substantial deposit,visited the bakery
+E3,E4,1,< (Precedes),False,paid a substantial deposit,a kitchen fire
+E3,E5,1,< (Precedes),False,paid a substantial deposit,waited at the venue
+E3,E6,1,< (Precedes),False,paid a substantial deposit,called the bakery
+E3,E7,1,< (Precedes),False,paid a substantial deposit,called again
+E3,E8,1,< (Precedes),False,paid a substantial deposit,called her sister
+E3,E9,1,< (Precedes),False,paid a substantial deposit,Sharmin arrived at the venue
+E3,E10,1,< (Precedes),False,paid a substantial deposit,placed it on the display table
+E3,E11,1,< (Precedes),False,paid a substantial deposit,arranged the flowers around it
+E3,E12,1,< (Precedes),False,paid a substantial deposit,gasped with delight
+E3,E13,1,< (Precedes),False,paid a substantial deposit,received a full refund
+E3,E14,1,< (Precedes),False,paid a substantial deposit,The wedding was scheduled
+E4,E1,-1,> (Preceded By),False,a kitchen fire,ordered her daughter's wedding cake
+E4,E2,-1,> (Preceded By),False,a kitchen fire,visited the bakery
+E4,E3,-1,> (Preceded By),False,a kitchen fire,paid a substantial deposit
+E4,E5,1,< (Precedes),False,a kitchen fire,waited at the venue
+E4,E6,1,< (Precedes),False,a kitchen fire,called the bakery
+E4,E7,1,< (Precedes),False,a kitchen fire,called again
+E4,E8,1,< (Precedes),False,a kitchen fire,called her sister
+E4,E9,1,< (Precedes),False,a kitchen fire,Sharmin arrived at the venue
+E4,E10,1,< (Precedes),False,a kitchen fire,placed it on the display table
+E4,E11,1,< (Precedes),False,a kitchen fire,arranged the flowers around it
+E4,E12,1,< (Precedes),False,a kitchen fire,gasped with delight
+E4,E13,1,< (Precedes),False,a kitchen fire,received a full refund
+E4,E14,1,< (Precedes),False,a kitchen fire,The wedding was scheduled
+E5,E1,-1,> (Preceded By),False,waited at the venue,ordered her daughter's wedding cake
+E5,E2,-1,> (Preceded By),False,waited at the venue,visited the bakery
+E5,E3,-1,> (Preceded By),False,waited at the venue,paid a substantial deposit
+E5,E4,-1,> (Preceded By),False,waited at the venue,a kitchen fire
+E5,E6,-5,di (Contains),False,waited at the venue,called the bakery
+E5,E7,-5,di (Contains),False,waited at the venue,called again
+E5,E8,-5,di (Contains),False,waited at the venue,called her sister
+E5,E9,-5,di (Contains),False,waited at the venue,Sharmin arrived at the venue
+E5,E10,-5,di (Contains),False,waited at the venue,placed it on the display table
+E5,E11,-6,fi (Finished By),False,waited at the venue,arranged the flowers around it
+E5,E12,1,< (Precedes),False,waited at the venue,gasped with delight
+E5,E13,1,< (Precedes),False,waited at the venue,received a full refund
+E5,E14,4,s (Starts),False,waited at the venue,The wedding was scheduled
+E6,E1,-1,> (Preceded By),False,called the bakery,ordered her daughter's wedding cake
+E6,E2,-1,> (Preceded By),False,called the bakery,visited the bakery
+E6,E3,-1,> (Preceded By),False,called the bakery,paid a substantial deposit
+E6,E4,-1,> (Preceded By),False,called the bakery,a kitchen fire
+E6,E5,5,d (During),False,called the bakery,waited at the venue
+E6,E7,1,< (Precedes),False,called the bakery,called again
+E6,E8,1,< (Precedes),False,called the bakery,called her sister
+E6,E9,1,< (Precedes),False,called the bakery,Sharmin arrived at the venue
+E6,E10,1,< (Precedes),False,called the bakery,placed it on the display table
+E6,E11,1,< (Precedes),False,called the bakery,arranged the flowers around it
+E6,E12,1,< (Precedes),False,called the bakery,gasped with delight
+E6,E13,1,< (Precedes),False,called the bakery,received a full refund
+E6,E14,5,d (During),False,called the bakery,The wedding was scheduled
+E7,E1,-1,> (Preceded By),False,called again,ordered her daughter's wedding cake
+E7,E2,-1,> (Preceded By),False,called again,visited the bakery
+E7,E3,-1,> (Preceded By),False,called again,paid a substantial deposit
+E7,E4,-1,> (Preceded By),False,called again,a kitchen fire
+E7,E5,5,d (During),False,called again,waited at the venue
+E7,E6,-1,> (Preceded By),False,called again,called the bakery
+E7,E8,1,< (Precedes),False,called again,called her sister
+E7,E9,1,< (Precedes),False,called again,Sharmin arrived at the venue
+E7,E10,1,< (Precedes),False,called again,placed it on the display table
+E7,E11,1,< (Precedes),False,called again,arranged the flowers around it
+E7,E12,1,< (Precedes),False,called again,gasped with delight
+E7,E13,1,< (Precedes),False,called again,received a full refund
+E7,E14,5,d (During),False,called again,The wedding was scheduled
+E8,E1,-1,> (Preceded By),False,called her sister,ordered her daughter's wedding cake
+E8,E2,-1,> (Preceded By),False,called her sister,visited the bakery
+E8,E3,-1,> (Preceded By),False,called her sister,paid a substantial deposit
+E8,E4,-1,> (Preceded By),False,called her sister,a kitchen fire
+E8,E5,5,d (During),False,called her sister,waited at the venue
+E8,E6,-1,> (Preceded By),False,called her sister,called the bakery
+E8,E7,-1,> (Preceded By),False,called her sister,called again
+E8,E9,1,< (Precedes),False,called her sister,Sharmin arrived at the venue
+E8,E10,1,< (Precedes),False,called her sister,placed it on the display table
+E8,E11,1,< (Precedes),False,called her sister,arranged the flowers around it
+E8,E12,1,< (Precedes),False,called her sister,gasped with delight
+E8,E13,1,< (Precedes),False,called her sister,received a full refund
+E8,E14,5,d (During),False,called her sister,The wedding was scheduled
+E9,E1,-1,> (Preceded By),False,Sharmin arrived at the venue,ordered her daughter's wedding cake
+E9,E2,-1,> (Preceded By),False,Sharmin arrived at the venue,visited the bakery
+E9,E3,-1,> (Preceded By),False,Sharmin arrived at the venue,paid a substantial deposit
+E9,E4,-1,> (Preceded By),False,Sharmin arrived at the venue,a kitchen fire
+E9,E5,5,d (During),False,Sharmin arrived at the venue,waited at the venue
+E9,E6,-1,> (Preceded By),False,Sharmin arrived at the venue,called the bakery
+E9,E7,-1,> (Preceded By),False,Sharmin arrived at the venue,called again
+E9,E8,-1,> (Preceded By),False,Sharmin arrived at the venue,called her sister
+E9,E10,2,m (Meets),False,Sharmin arrived at the venue,placed it on the display table
+E9,E11,1,< (Precedes),False,Sharmin arrived at the venue,arranged the flowers around it
+E9,E12,1,< (Precedes),False,Sharmin arrived at the venue,gasped with delight
+E9,E13,1,< (Precedes),False,Sharmin arrived at the venue,received a full refund
+E9,E14,5,d (During),False,Sharmin arrived at the venue,The wedding was scheduled
+E10,E1,-1,> (Preceded By),False,placed it on the display table,ordered her daughter's wedding cake
+E10,E2,-1,> (Preceded By),False,placed it on the display table,visited the bakery
+E10,E3,-1,> (Preceded By),False,placed it on the display table,paid a substantial deposit
+E10,E4,-1,> (Preceded By),False,placed it on the display table,a kitchen fire
+E10,E5,5,d (During),False,placed it on the display table,waited at the venue
+E10,E6,-1,> (Preceded By),False,placed it on the display table,called the bakery
+E10,E7,-1,> (Preceded By),False,placed it on the display table,called again
+E10,E8,-1,> (Preceded By),False,placed it on the display table,called her sister
+E10,E9,-2,mi (Met By),False,placed it on the display table,Sharmin arrived at the venue
+E10,E11,2,m (Meets),False,placed it on the display table,arranged the flowers around it
+E10,E12,1,< (Precedes),False,placed it on the display table,gasped with delight
+E10,E13,1,< (Precedes),False,placed it on the display table,received a full refund
+E10,E14,5,d (During),False,placed it on the display table,The wedding was scheduled
+E11,E1,-1,> (Preceded By),False,arranged the flowers around it,ordered her daughter's wedding cake
+E11,E2,-1,> (Preceded By),False,arranged the flowers around it,visited the bakery
+E11,E3,-1,> (Preceded By),False,arranged the flowers around it,paid a substantial deposit
+E11,E4,-1,> (Preceded By),False,arranged the flowers around it,a kitchen fire
+E11,E5,6,f (Finishes),False,arranged the flowers around it,waited at the venue
+E11,E6,-1,> (Preceded By),False,arranged the flowers around it,called the bakery
+E11,E7,-1,> (Preceded By),False,arranged the flowers around it,called again
+E11,E8,-1,> (Preceded By),False,arranged the flowers around it,called her sister
+E11,E9,-1,> (Preceded By),False,arranged the flowers around it,Sharmin arrived at the venue
+E11,E10,-2,mi (Met By),False,arranged the flowers around it,placed it on the display table
+E11,E12,1,< (Precedes),False,arranged the flowers around it,gasped with delight
+E11,E13,1,< (Precedes),False,arranged the flowers around it,received a full refund
+E11,E14,5,d (During),False,arranged the flowers around it,The wedding was scheduled
+E12,E1,-1,> (Preceded By),False,gasped with delight,ordered her daughter's wedding cake
+E12,E2,-1,> (Preceded By),False,gasped with delight,visited the bakery
+E12,E3,-1,> (Preceded By),False,gasped with delight,paid a substantial deposit
+E12,E4,-1,> (Preceded By),False,gasped with delight,a kitchen fire
+E12,E5,-1,> (Preceded By),False,gasped with delight,waited at the venue
+E12,E6,-1,> (Preceded By),False,gasped with delight,called the bakery
+E12,E7,-1,> (Preceded By),False,gasped with delight,called again
+E12,E8,-1,> (Preceded By),False,gasped with delight,called her sister
+E12,E9,-1,> (Preceded By),False,gasped with delight,Sharmin arrived at the venue
+E12,E10,-1,> (Preceded By),False,gasped with delight,placed it on the display table
+E12,E11,-1,> (Preceded By),False,gasped with delight,arranged the flowers around it
+E12,E13,1,< (Precedes),False,gasped with delight,received a full refund
+E12,E14,5,d (During),False,gasped with delight,The wedding was scheduled
+E13,E1,-1,> (Preceded By),False,received a full refund,ordered her daughter's wedding cake
+E13,E2,-1,> (Preceded By),False,received a full refund,visited the bakery
+E13,E3,-1,> (Preceded By),False,received a full refund,paid a substantial deposit
+E13,E4,-1,> (Preceded By),False,received a full refund,a kitchen fire
+E13,E5,-1,> (Preceded By),False,received a full refund,waited at the venue
+E13,E6,-1,> (Preceded By),False,received a full refund,called the bakery
+E13,E7,-1,> (Preceded By),False,received a full refund,called again
+E13,E8,-1,> (Preceded By),False,received a full refund,called her sister
+E13,E9,-1,> (Preceded By),False,received a full refund,Sharmin arrived at the venue
+E13,E10,-1,> (Preceded By),False,received a full refund,placed it on the display table
+E13,E11,-1,> (Preceded By),False,received a full refund,arranged the flowers around it
+E13,E12,-1,> (Preceded By),False,received a full refund,gasped with delight
+E13,E14,-1,> (Preceded By),False,received a full refund,The wedding was scheduled
+E14,E1,-1,> (Preceded By),False,The wedding was scheduled,ordered her daughter's wedding cake
+E14,E2,-1,> (Preceded By),False,The wedding was scheduled,visited the bakery
+E14,E3,-1,> (Preceded By),False,The wedding was scheduled,paid a substantial deposit
+E14,E4,-1,> (Preceded By),False,The wedding was scheduled,a kitchen fire
+E14,E5,-4,si (Started By),False,The wedding was scheduled,waited at the venue
+E14,E6,-5,di (Contains),False,The wedding was scheduled,called the bakery
+E14,E7,-5,di (Contains),False,The wedding was scheduled,called again
+E14,E8,-5,di (Contains),False,The wedding was scheduled,called her sister
+E14,E9,-5,di (Contains),False,The wedding was scheduled,Sharmin arrived at the venue
+E14,E10,-5,di (Contains),False,The wedding was scheduled,placed it on the display table
+E14,E11,-5,di (Contains),False,The wedding was scheduled,arranged the flowers around it
+E14,E12,-5,di (Contains),False,The wedding was scheduled,gasped with delight
+E14,E13,1,< (Precedes),False,The wedding was scheduled,received a full refund
