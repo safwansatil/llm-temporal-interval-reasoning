@@ -1,16 +1,64 @@
-# LaTeX build artifacts (acl_latex.pdf is committed on purpose as the compiled paper)
+# ============================================================================
+# Ignore policy: LOGS, BUILD ARTIFACTS and LIBRARIES only.
+# No data is ignored. Everything under Experiments/results/ and
+# Experiments/exports/ is tracked, including analysis caches and tables.
+# ============================================================================
+
+# --- Logs ------------------------------------------------------------------
+# Written by Experiments/scripts/run_models.py (LOG_DIR) and analyze.py.
+# Path documented in Experiments/scripts/RUN_INSTRUCTIONS.md section 5.
+*.log
+Experiments/results/logs/
+nohup.out
+
+# --- Build artifacts -------------------------------------------------------
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# LaTeX / BibTeX intermediates
+# (acl_latex.pdf is committed on purpose: it is the compiled paper, not a build artifact)
 *.aux
 *.bbl
 *.blg
 *.fdb_latexmk
 *.fls
-*.log
 *.out
 *.synctex.gz
 *.toc
 *.run.xml
 
-# OS / editor noise
+# Packaging / compiled output
+build/
+dist/
+*.egg-info/
+.installed.cfg
+
+# --- Libraries / dependencies ----------------------------------------------
+.venv/
+venv/
+env/
+node_modules/
+__pypackages__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.whl
+package-lock.json
+yarn.lock
+
+# --- OS / editor -----------------------------------------------------------
 .DS_Store
 Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
 *~
+*.swp
+*.swo
+.idea/
+.vscode/
