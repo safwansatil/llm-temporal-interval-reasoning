@@ -1,0 +1,110 @@
+{
+  "final": true,
+  "model_id": "gpt-luna",
+  "model_key": "openai/gpt-6-luna",
+  "item_id": "stem_283",
+  "stem_id": 283,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14"
+  ],
+  "prompt_sha256": "6c19dd2f2b47a75f35802759bd93b3fba4393f14a32dc32aa6c5b66a69c7f13f",
+  "prompt_file": "prompts/stem_283.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:31:43Z",
+  "finished_at": "2026-10-06T18:31:59Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "usage": {
+      "prompt_tokens": 990,
+      "completion_tokens": 1719,
+      "total_tokens": 2709,
+      "cost": 0.000948915,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0009585,
+        "upstream_inference_prompt_cost": 9.9e-05,
+        "upstream_inference_completions_cost": 0.0008595
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1468,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "OpenAI",
+    "generation_id": "gen-1791311504-Oplk2VhRP2yGrsPzFCus",
+    "model_served": "openai/gpt-6-luna",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - m < < < < < < < < < < < <\nE2: mi - < < < < < < < < < < < <\nE3: > > - = di di di < < < < < < <\nE4: > > = - di di di < < < < < < <\nE5: > > d d - < < < < < < < < <\nE6: > > d d > - < < < < < < < <\nE7: > > d d > > - < < < < < < <\nE8: > > > > > > > - < < < < < <\nE9: > > > > > > > > - < < < < <\nE10: > > > > > > > > > - < < < <\nE11: > > > > > > > > > > - di < <\nE12: > > > > > > > > > > d - < <\nE13: > > > > > > > > > > > > - di\nE14: > > > > > > > > > > > > d -\n</matrix>",
+    "reasoning": "**Deriving event intervals**\n\nI need to outline the intervals for various events. E1 was postponed from the beginning of January until mid-April when an appointment was finally made. E2 corresponds to the appointment made on Monday in mid-April, while E3 refers to the scheduled appointment for the following Thursday. It seems like E2 and E3 are closely related; E2 (making the appointment) occurs before or around the same time as E3 (setting the appointment). Finally, E4 indicates a checkup that took 2 hours on Thursday.**Clarifying appointment intervals**\n\nI’m considering whether E3 refers to the appointment set for a specific time. If E3 involves scheduling, it likely coincides with the occurrence of the actual appointment, which I think means E3 equals E4. E4 refers to a checkup that lasted two hours and included subevents like reviewing blood work (E5), checking pressure (E6), and asking questions (E7). E1 spans from January to mid-April and overlaps with E2 when the appointment was finally made. It seems postponing continued until that appointment.**Mapping appointment timelines**\n\nE1 seems to relate to events prior to E2, which is when the appointment was made. E8 indicates that walking started the last week of April, right after the mid-April checkup. Moving forward, by mid-May we have E9, end of June is E10, and July signifies E11. E12 is the follow-up appointment, and E13 is possibly in the same evening after that appointment. It looks like E11 and E12 might include a smiling doctor, indicating a positive return visit.**Analyzing event intervals**\n\nI'm examining event intervals and their relationships. There's an E2 appointment on Monday and E3 occurring on Thursday, so E2 happens before E3. E3 and E4 likely refer to the same time since E3 is for the appointment set on Thursday. I think E4, a checkup two hours later, could coincide with E3. E5 through E7 are sequential events within E4. I'm noticing the timeline stretches from January to the appointment, while E8 indicates a habit starting last week in April.**Mapping walking routine events**\n\nI'm looking at the timeline of a walking routine that started last week in April. E8 marks the beginning of this habit, which seems continuous. E9 represents a milestone where two kilograms are lost by mid-May. It suggests E8 comes before E9 and is likely a short event. E10 shows improved energy by the end of June after E9, and events continue with E11 in July that follows. There's also a call related to E14, possibly linked to appointments. I need to carefully organize these events in a matrix format.**Mapping event chronology**\n\nI'm organizing the events in a chronological order. E1 meets E2, and E2 occurs before both E3 and E4, which seem equal. E4 includes E5, E6, and E7, where E5 happens before E6, and E6 happens before E7. So, E1 and E2 occur before these events. E8 follows E4 and comes before E9, which is then before E10 and E11. E11 contains E12, which occurs before E13, and E13 also contains E14. This structure helps clarify the event sequence.",
+    "reasoning_details": [
+      {
+        "type": "reasoning.summary",
+        "summary": "**Deriving event intervals**\n\nI need to outline the intervals for various events. E1 was postponed from the beginning of January until mid-April when an appointment was finally made. E2 corresponds to the appointment made on Monday in mid-April, while E3 refers to the scheduled appointment for the following Thursday. It seems like E2 and E3 are closely related; E2 (making the appointment) occurs before or around the same time as E3 (setting the appointment). Finally, E4 indicates a checkup that took 2 hours on Thursday.**Clarifying appointment intervals**\n\nI’m considering whether E3 refers to the appointment set for a specific time. If E3 involves scheduling, it likely coincides with the occurrence of the actual appointment, which I think means E3 equals E4. E4 refers to a checkup that lasted two hours and included subevents like reviewing blood work (E5), checking pressure (E6), and asking questions (E7). E1 spans from January to mid-April and overlaps with E2 when the appointment was finally made. It seems postponing continued until that appointment.**Mapping appointment timelines**\n\nE1 seems to relate to events prior to E2, which is when the appointment was made. E8 indicates that walking started the last week of April, right after the mid-April checkup. Moving forward, by mid-May we have E9, end of June is E10, and July signifies E11. E12 is the follow-up appointment, and E13 is possibly in the same evening after that appointment. It looks like E11 and E12 might include a smiling doctor, indicating a positive return visit.",
+        "format": "openai-responses-v1",
+        "index": 0
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT6YJPsv8px8aXGdWIhjqppq47vkWRCrDBxR2OSxbjrLQGRYVOhi6nMEF9wWDlY1vGVytbAWGnzUCKXEFzWhtT1cCDvDl1bQRlOPRIfaoxqtTlBeumrA3kbxo_yi4qZ6e8yz7Zqlpd--ya3Tys3i-rO-qP3ptFjkeBoCfkA3gP_0SSUxekXRQIA9GPhyj96SaWKBlw8QIexydd1Un6Urb76EyJqmiL8tB0TmW5jgceds6Vn-ZYi6Z3dUScDxxPqo_fPgdasOlr6FWtuCHvLKd3wJ8nMwtP0gPAoo41uhLkSlVo-OPtkrQXUC4zvIQqGK--K1F2BzTHT_2UfMwxPtnEXbxKHHsPHp1OP1opimVMMAsrUJMAbofPKxwS_dVPJgoAxM9_Se4AQbCGOsSE9hZbndkNQTuz_ZIyJt6amDJmpIgX5oC4upkg9LxdPTMyPc2VQKKVPKj72nzkyORMY5PyHYlMD8E69gk4-2q4KK5kiyZGNdkhrsnfAI81VVvGsTR4asECX4fCfCc2uJR-lAIvspUrTtxcoFMz2A-3aGYgWpFir69F0UrFuzCzkSMNqrnj-1GFQoKTMkNx4tFMEpIGPaaNadg7yVrG2ezMheRkCLBLwR2ih3v0cMvet4UTvr62GxpCuRzQHI-Jhkd2R_tKXtD5QaBN0eT0Bp9JFo2s8Twk0-IsG7rzCI7RPdyp0Ni0XEA7Xf9txOnWBLst47MId-JCRlpNNcX__z0JwueHR0gXQXOuOSPzzs9NkSuBOTaOGRw9epaiRX5t0mQNXmhTYMyiohEJi1dEzpKIRZmCOartpaYnwC3FBqFCr8Dd7UGhloRQ0Bs0YF1nF8Znlgpb9uKb_mzSqEQokQeUC4VWLUtO6iWa_BVX4KWvVODbhUCYuwi0S0S5BnBomXNPtvP93GTBTQg9zaoCuuIRfZ9lDbs_ZkBhbvy7yM8B5iCqWRTQqMn0ZapsXXBF3BPSLuOYFqYnj2HvXTNtXtVqLKVvCU15aaDxgpJ-gPHCdHX2Q3WEqgNSpU8GQvJHrNSjsIP57dR1gW5oIKIKJGnyGqsGXA0C8FCQ7jChG3feuxBQhXB1-AuNe-h24GWla56F7I3MpMEygZJKfrYPunUjhP2htpUTv78a-sMW4G-0t92zZoCHawUXIPduQDseoDEpygzo-6Y93PPnV8ivr13R7wFfffvYmzYgObjr20OwS25pTszHgXCUdW78bkv33tj67an_J0lXlZzbXRmC1q5xtROwRTTPDRR9CtGqWtnS9L6rBr_fFzOG6kLrVeV9y9Fi2WXUXwQlyAt0EUNNogrolryadakFEP2ILDDXZVQ34FIbTP-_dXDrUz9bTftZei6MM-WuCz-F2aUOZhd4vemJznOt3912WHBAEn3VzS6k5k2gHyiRAKfFWy1_tQ1x_mKhF1OoUDzNmQ52uivqNrjJ6cte_ZW1DWQkFCJa7HgIIDHNfgNr4ZbKD5Yhwqy9QW7xFsdGIBUesKG5P2KG4b9LH_NgLQ9l6tllSJz8ABBLfmB6HR4SbQcUwNX5k7OWyxmNN77KuSdasZOyLidI0rZd0zUUf58E7nM-NSEr15-QLbIJ2SzEEj_tRzfEwgMGL2gnnIIe1cxmXHws6IsDP1FivxTWF-G4iaqEFG0iBCTJ1Png2O4T2-4n2FNIn_0YHewdwiZgMrE7yAGt9Sx0J1zcUsmtMzrPKZF4Tjq8N3E8UpERPHgt8oC4my2alTmvvkvCrM_PdZkCGowtfDVDSGzDFWl21bg_wSCzQ1epIOl2-ATCZhORIms7QKVSGnHgT7x3Hi0N2G6M-M1kNDwxhgrYS7mCJoiAErjluK790DQaQ7PbH6HZFAJePPV-BSSVP8int0MUeGItZ4hrY4O8nZ9ehnPmp_tQC2dh56BtD9n38tzd-K7AJlCWWlOjSsltEndtbXNuR6hoMgY9GgsOsFO4CRsoBRAT1CS_hkS3DcM7Yg6neGpEpic95gIOj2dECCxPXeBSxDCaaRnvYlYgfTujyJEuQWIIWQ08DrGUBNWnLP0GBKRUnhxiDMplAvpUcsPL1OhneRiWFV_5xx9A8ct0Z7vZfg78VhC8GGFgQ4nn5aGvPA_UHfbykJOSDAfGqb2KmV5rZ-ohhDIK4pEbxtLK63X_KN2gl-kzH2c251ahvWpuMHDerpY4LWVO2fhvxtDVMeelxRncEECsr12jt4lP6NkWQnzCHQNl556dOsuTIT0ypTXXonwy7ZrGFYkTaCB03ijC25_xYhMRiY-6OvCzKgrwfnPCB9VssljjVKvsON9vuRqoRMOYhYBs1q2w4oG5lGgy3_R3bA9c-O7oC4RbEVkJnO9_QFdT5b2fUJsM_Xje66u3jbLDDE8ely3NNcopgQoYbMF6WKAf0rcP9kzW9gj-5PA6K41qaOfkcPylWqlfdLZw0rXlz-4_vCJ1CzRSCG245JzeeRSXPtvA4C-P8fKbVzOYhCWjKDINO9s1HKLoYquydRJ931qCkCEamrUzaI38OK-wkxTINyXqpzeb-viKYtPTJrCYWL4WwAFNqyiU7ndnlfk3AC93H1l66mMatV0UofIj54gnbcU_-j7jfjyVVQTqS2cHIL8zjdBkJ-K0aEDE4cb19Pb2uIm2XQ0tbeLMSN_368Z0AsfzRsyqrDiVOrWBvPSbuyk_oqKmTUsFenlB7IJNWT0Uj9PQOVX-8pZFRfCJzVgE6ypB4gn2wqCQEC-ebeXKDUTCfZKK-b0sEHqvmpnNnNOqWMgjekRW8MB7oW9s44NH5YKEMG9mgOxiLCV7lkhTsck7LW5uRmyR-Jo_CFylo_4wTr6SLy0yuEsCZ_ZvwPfk6tr56L77Pt_ueIdqohcCD5QukynMY3O6wCndjx-BuXcHJ6RxJnQfxMakURJEeH3mht2YgcvlsaXmCTpcZzerg6w5tcFshCnQfFLEirPTMZK2hJkiwlDZBL3Si3HD2YfNgpY2ByBTAOQrbVPEdAKQN68Y1JRIb1CRBoUiZj-T49A7tQQ0cs3PcDjkumbI3Jq56aTkYlZhmko0aJCmd7xzna2AUG0oggRIhgn7lje94JE61jEYV8woPofgOd1WXqQI8D_jfeLvHu7VN8tbF3vuQH2F3b572lMyjXVig5pF71ErZArWSgIaxuGM2cFxMY6tnugJjQfuVKN2UJrZdQ5pothYzhVAPTc4hW41EQ41to_PCoV0znvGapy5OUJeitNaYGsvLSxdjt03_vub-dUrLnXs4zU5W3fO2djYJoP5OdrjaD1B6Z2AqwGphYXIBupG4NjC_EV88YfesMj-GxUtJEgbmEzo0Xu_3v7c0hsTfJz6v5liwGvtMWCfiTJbIRDkqVodedPjRAbRqBqVRogizmtEni6kokIxFXyQm0fW1Wg22DkYyx22KPdk0pNRNJ1-yZAw3tn2tktYDQ4CaPjB1OpB3TewiphyFynv24hYYRIuM5hzhyD6OdqNWa2_GC5HsnxUS-_dVsFGoAfkCnpsqRdaAEsGSGAsQ6UkBjfsa8swi5FqwydDxAfsarduFZOX1JNaOk8Jm4qD7YXVVZ1MbaJjMu1nmsCSFGoqz1GxAsCeF6s4ab3g685QC0-d62NO9Cm5Cm19Ine4ZCmcg3DphJGFHWZoz74mhKlzRTmxkd1AOYSbekCDrWJWDIC6Dzlq8kozLe1v3NdledVgNcxwKLGV-JINNjsUmDFqqdCmLVE12Dldd6v9V-mwyfwImv-Pj-GdDAUhJcnByBHGngDJz1D3TUnFd5uv4-pXYbV1m_kHx2CusunrBvPo8-HSSO6B9K6jYDJqwrnrrMRU-3XCA2h8aueGaHzyg5gg1Yj8blxmgFnoDcCXV4m7ASDj2Y8PEJy4wSZlSuWDtYPUWJw2-uFcaON0cjeIOjC8IE_k8QBOHPaRFVDJ8xkQlbskGWfYiNO2UtsaAtAG4-ki2EcrQ_Jf4CsLtyPUzy3eXURUD7Rlkl47o598qFynvBqraX_jfgke5P_yJC36UFPDZzasu2H-9gyqHEjLih-n1Ve0p5ADMHDxk9L_s1Poktw5f6mGtt8R2kgGOQ8-LcLxmwBCCEouvFiQti7mLMB1nG_WQLOUTfc8J10r4SntkJ_V0inkDw9fy2n_zA5q7MOK0dTyCaFfQth3BfH7lXWFVBl9pEXMPV3eKvijFI6NFW_LB_D90_fCHQqbcijH1IiRqjvRBliB30lBKSpMnXIOmrFi65SVzVVnrMWO5kPmoi-uIKVrIfLwSzuKoYAIs4VSiu3L2rO7zFijM1yRcC39OMi-PYg5ae8X3tB-w4fWOKEpbO1keubD6WXF4-haBOMboXUaP2_D3cd33mWJ8rPOA9ae7oRdcJW9tjQByN9xrM_G5as9vEu4ABesx9Jb9ymg5jbGB8bD9d6wPJxxN5ZDeVdfeOe_psvbdpjl8AHOpY1g==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0d9beb30ff8ece21016ac53e915dd487d180ff8e9bce8e9b14",
+        "index": 1
+      },
+      {
+        "type": "reasoning.summary",
+        "summary": "**Analyzing event intervals**\n\nI'm examining event intervals and their relationships. There's an E2 appointment on Monday and E3 occurring on Thursday, so E2 happens before E3. E3 and E4 likely refer to the same time since E3 is for the appointment set on Thursday. I think E4, a checkup two hours later, could coincide with E3. E5 through E7 are sequential events within E4. I'm noticing the timeline stretches from January to the appointment, while E8 indicates a habit starting last week in April.**Mapping walking routine events**\n\nI'm looking at the timeline of a walking routine that started last week in April. E8 marks the beginning of this habit, which seems continuous. E9 represents a milestone where two kilograms are lost by mid-May. It suggests E8 comes before E9 and is likely a short event. E10 shows improved energy by the end of June after E9, and events continue with E11 in July that follows. There's also a call related to E14, possibly linked to appointments. I need to carefully organize these events in a matrix format.**Mapping event chronology**\n\nI'm organizing the events in a chronological order. E1 meets E2, and E2 occurs before both E3 and E4, which seem equal. E4 includes E5, E6, and E7, where E5 happens before E6, and E6 happens before E7. So, E1 and E2 occur before these events. E8 follows E4 and comes before E9, which is then before E10 and E11. E11 contains E12, which occurs before E13, and E13 also contains E14. This structure helps clarify the event sequence.",
+        "format": "openai-responses-v1",
+        "index": 2
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT6dBwsWd69ixHWCoS7a3IjB8M58Yx7UA0q6k8WqW0dQaa7971JF7HTnD7jByAaUjuc9enhGzUAqAo5z-tIOCzDxZKG1jZzxF3fZRRINc7UXrW9OuV_-iKn-6XwmmB1g5TpphQEV7u1DJ9ArGylpoeyNU_8QDmR21j3Q66LnagfbWg56KPdGhANi2jHmACFB8r3rtuKoZm1sI0igu-8xbeRFUM5WAJkjk8TKhk1bLkiPzVB-6-iu4OTrW9u2CyFBgpO72ROHIp4km0OkxoaeTEQwjuKvEvKeqoxBunHH4axlsz48ewDoVSmWXyQBOd0mBrxGz11sHb4Xkjt_S_oNPnvRQP82WVK5ydLnzLrVehgbEoz9LboNzyME9R53WlTFbUTyo7JWBkdaJLlzExyLZ1GLrKRPTDsfy3l1BQsXSgoWd_RxXCKgpmv7G9ARWr7w3_QSwcV24UEz6e95OEjMPvdBWzl2OaewsO6AdzqgC6j3_pDN9JAe8UWT7Ke1Zvzo6dM_sIw2N0QLEKxEbG-0V5SZtYRIvnmpidlcqYX1oOKS1ky00TedD2zUBn-KNmqCGMC2J49iYDAtSZC561UDSzR3zvvLjLGe7NOY1qzubvZdOaqplbVxgEcWO5iwN2k9d-gLubCBDMgM6teKmHYsPY41IA3KQVofIKwtTx2rGa1i7SP9iVaMi2fDFaW-HbqfIRWXXXs3t5b_Hc_-98ywNQX33Qi7lXFHwz4cxunCQ83xGcu4Di-bS_KVySb4680hgYvxPA1Zx_uRU8PZ5veBO-f7GaCr7tmN-bdeWIM8EXdeZ8bKA117C-Sy2vCpiA9TSNXK9qUbkamvye3BchbnQLQKpRtoYgWmTtnVyHdAiIgJbd9H6AdXjJQkh3YhSmNVKtI12iv_oXgJUGz801l_xe8AzSDPQSDrDPkAl1mK0xbdrxj5EZV5nCZpHXDiaPVChI1HusBtXNRSIPfXe6dxR0dfMU0xAGh1nHRL0WSKcB7mZP75Jd2avKIftzrgl20BoaPyBavhZXRIWBa1sLxIhAyu45T17HfJW-1kTCDHfz5rrVJEE9-cqX7tixohqKiutCocRHxgceKoh_Htu15TPkhvRftUmX46jqI1oPK2W4gJDhlnX3wwdcTqRK6tuCZBGSvmksOshAIFE4MEoDYoCG4J7DGVG7w11szq4GvzuKi3Zf88P1TzdqhF5vRgt1YFidYhZjkbAkVm0ForGvdUpmTR-3gSeKRBCeKoXNfDWIknIEvHIBkgPi7U1NjBNYZ1RiSuuyTcs1mr94LtaCtC9MiPu7smf0wvffcHauVybYNO2KlGyfq8S7ihyyvGIqc6-6MEJY7oEo9zhLIT-BbeG78kGJLOkY0Pj9jGCvCknxYZkSRPnAn3KeNHnoQEBA-4m5wNPZRh1Rs7cIHEaWiWvRtmUB0tWXRnUZC-RiR21Bp6kfkVe-W3UegDAzscPpGzn7mOXvan_g-VpXPiEuGoXlYBU6fpeKXIl-xuFwpkRAJmId--tjIkzUagvOlLN7vDbKc0_nU8So0dIlDPKue9qjxUxhDFWuo7WpJUtpIePFFoDY3Gk0h93E4YQtKJtvVGpbwDXPoagZz2mmNZuzOXUBSG-dZ2BB0ZhT0ukf4F3jhus6H1Do02Su8hTV8S3De-oEicTrsIm0AeZ1IA99QsJjbqONxxiDEKLDQlUinzxa9Tq1AB3bMB7_WYvtztsZ9_llxwHwiqFLKPmqEHCK8TWsmwDgD98iamiTniJwp1Z4D6Amg36Ks8i7F-GdW27GCLpkRZ6RFROHIkjOdlFIl7Qo--sSTXCpxFItDCv55QtSq88Aipek_L-pb2Frrf6A_493CVUAao1OPx1SSzdmtiQKDHuCMonX2bFYhaqq8SaUR8rNrTFBUsw75d_DngqOpZbeshzTb_yqrn6ryUZDJSwlkrvnd8nXDsxPz7J5KmbZcWXBIvLFK96sqdVK2W9Jowm9zqFYS_Rbg64BQT1qgc4VxronQ-x1ATSKJrhm4TUI0XaLlLlrUUgO3UpQumwrIBB_q3uDnsup42qdBK-DMN7dH3d-PscQh_sfYlniaqB9Hb6XJByF_78N5UV5Db57fwwGTknbf6hQYtRqr8yOvKAcg4YmykqocrAv6wY1GSJk-b0myOd9WH7Vj-k5Sqr2RqjQ7AnOSNyHNGKuvtvE48QzqRo9GrxpyVOrXpB-tIJV8JY5v1EjRGH9SrWgZvJOEJDORc9laQ2tqxh45U4YC0zgvveyJQN7ZPk1Rwu3Lv-zA65Vstw83YYcZH_-N9uItB4XxYnevoGjvaO-rS80PGVsAxycAX2-bun5Q9L2Oa73psFsBzZBUtrLlaj_GW6PEBl3MEDe3AJqnRsZvIByvfjI59dJtBlYnf1tj9k38tI7zbrOvf91ZsQDEgHykZYctVjHtJUT5VGmBwzHYHYA-4KIazhn_Ycay60qh3EjPVA8p7wmI83RUsw7eEEwz5jppnR4wel-cLD8s-tHY7pGQJ2Y2n8s57-LHY-3tkoCfobauubCkvQyLO8BaqLovfkS4f3hrPhoygFC-kU-6iYnQ57gGZte-pP22urclfqJRUZVu89OW3VUZsxcj_TcfyokH3tZnXxWCWJwRTtXW25PHvF77KsdHiYyjGl71d-1Wo5HqXMQvSIanVlnEUet36ZlQqlOjRcNAFX0sGSp_oqUKKCSuziG_IsUcl3LAHCf4C2trXJ_MsQ2h6cuggxZYk7EwkXddqiTQ8vbGUBeNoeLFivqLvOUDTeuISKrQMU7fGSH-_nPX6TiDOkdsAwTPy9C9f4uyJF16nGJoi-1QUjSMZ7Otc6WX0dyJNStdzBbstRSVxGiRt7-YeXTq_riYKUDJ7nF_4MPOXz2Y3g23_KW1NwFmgm2TGlUK98SIjJbIDhRixg04muW_MSthDxCG_FcZdq5eWMEDQVlkMEkvE-bX8Ip2I57HLPicMbl_DBRHPYJtzDhXWi_uhFCUpKfPC6Z8gUtgWHrL9phuFT_jWtakBSt4vvf-Ow3mvWgrA_CKMQwjfFh25O8JnvkwKg3O6j0IpAxWX_Jazr-WZXZ7rE3r6QDygFq7COIJflg_ur0mqpx1lRfgXkm6SgOWxx4M3lBgS2MSmG2LdvyCJSl8YnxCU9icndRYrbkiWnnwVf7PzGFWjG0WC3TBPmRlg6_DLbjUpNVv9MKuUInuVAKIE5h-V1s6Hx7WsXA-N8wSFrCXypfUNXRuDg1_5B6mwn7j_3waRW9UmZj2DHvcPK0E-iNJ8RA5RmuuTTcaBYd1-q5hjQ-EJ1Gd4mJqaQXGgT-Grea5vrbZZ7qpsoRfmagpCuQHkp2A6zt5moolWdzzeHEcPR-5mwiv0JYwLKhn7b4X2p6oPDvEue6OrxQfT1S5dTgyB4zmMSSO2EbnmLJnlcxIm12Y6WsyB80LpAUMjmLj3yemRCZP5NIrRiRZQYtaH9vbUm1U2gZkqncfoNsPOPAuQtFLcmTbgdq_TyTa7d4F_Nb2QbUYj20F4nO4FpdKVTwZ1uY5LSHMxGbCKAlF8wwrUg6HNKoe0G2hx6p7QPDF41vXq_8O33q4u-tLAIWwON4m_fwt_1jhx8mkZFH1qDUfEedfUHFi1ILI_9VRPQBadCyxFcKKQ-DiKOkAPFaF0n3jAX3O-2E5CuIsUmCTFFfIP1Pk_Vew8LQDty68DkxDK76iUTKWR85V0IXqzSS0Oft6XOJytz2GNsExCvMsiXdRkJI6_UHCyGTKzcSYen7pJSpGXewqCfIuNl7-KhDxI68087fxVk_S2IRDaB9ZZGXHCgzlKN-jAQomVY-wdFrk5w9hj-pPnt0ir0O48kJMKpvYlYL0C_c2uz6htTnDGh6b3zKRyUdtuXJsQxHY5e-BRBH-G9m4AqIedOxMtz_3Lpm5ExMAQveA5YKVy93iKMvSetAWa6JA3hiNdJLTnKrrLU_83qzsJazbuM8l_JOWit3hr89xpSz9YptW88-VhK4UybgMLbnXuHPxIsXS7U3YPORIgRs0UZUwSXHW7EaK7iu46K4kHcYBwJebhsqxiZBH0gUDYZRblZE8OMnpQjsvDZOnZ3zjs.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0d9beb30ff8ece21016ac53e983f0087d196af75951f8a1a0e",
+        "index": 3
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT6f3Zc3vbYSoPf8siE4A3V-XDN_9EwR_zPa3hO64YnNCPiOUZNDIrOQ1xBmE3So4LgOPlDqN3WdV_XrCPzog-JfnEpZ7gQ-x_WzKrOSpGT9hD7NasjViHcnvkRB2RSxKgmnG6J7pb025WYfHbftCL3q8oubZrbrSXlvs0sjtG0Es7eWhmXvz2ShI26u_Y3Wm7bc9INXXa1b8zVpGHtNtJuAMz9e5122x61JW-kn3yxz8vw3Nb4W5nqfF3LHvtCkRqkTylO42D0vOQFl-g7Vfjuq3EyI1DfWpbtJQKv8ArJQNY0YpG5IF0Y6kzhfJvuRcsd0lLkD5c_AVq328TJoaJWl_vWRL2N5CPaA49mn9f5ZIi62Mleo_WLfHJBTpfn7SCZY7lxziYSPHn0_NUnzUEbpMFpY8bVC038GwYwPwgpaiZ5QLVuujG-Ns9sFoKeqM6Wk-v7wnZK-elJDkNVwzoy08dJ73nfJYWy59qe8o9ajSb46pdE3IlQI1pnpIsYeMjFOaukhjq3a3dRqpIDPZ-gpg1HWm2cvqjaHYrnpYHxnbPeNnhqJL9eL0h8IczXt0XM2N44R7SNtHh_lAm-8w1xgqQRjx1rhfzTUQiJ09faS0PBmNCSMvIRh6YyEXPP-7YQznwfQRef-nNuJQ1WkPBXiI_Pjqc3hlJObLF2q7_sU_WZ0sWVm30PqkYmjJGh_-63qf_HIDnT-lPxGEvYmBXBbbkPG43v-iGX_4cXOmGgltzj4ZvLv8bZtjnB9OWxMGZNxBMEBb80Eanmp5KciDUr3HNFsEYMdKkHvTGNRvxVSmKa-xAIfHsOXXHcESTFH2LyYItRodfqOYqlGeEebt7SNRqKu5mJrRwenr79UZtw9hMTt1WNiXQsz-tUE2R0BLew1D-oL9R6sxHM0g1iI7mXZlUy1QHzEH9_8TBX64NZUt_K-8_XCx5Ldd2tChJ9YG9XoEKtSPsP0PFGv3brB4tGB1O8m65z0FFzMupIogJJl-WdUVtSOak6n6IXJ_2u3TWtn6a7w5xNC2_S-fwmmQF5NzPGkNFaXyNPvRqx5sVEwZqiFDd1a2Kp90NF2j2FGr3mcZPck6jGJU4Yj-23iGK18YkguQ9xY_NEdJ5S6hYWFJrdm3kK_rEFQF79i1l4Mhqoxscz9LM_hsaA6Q9ixIUp_J15GjalgKWau0rcqFLXBiXe8tWba_VkIMHXuUPxAujVQzsL65h9eQ1cQVK_a_cnXZYo0IMg-YZgOpeIzm6P_7sYLp7QEynUdXTWgNPP-OuCGvCLGVkvK6IWRl9aSCIsFVhtb_9fEs5I04OUXAZ9qeHn0xAtCM3O5d9CvQhO3WXZb8J0ysanjZJuPV8jE6FcWBBlfJ0NFUhS2hoF0yvbLg0GwVB5HxNyFU2NpGk6for6uIYhSKFLuAEnFz-dr5sI9XvPpfcv8ywhwZNb7S9ucOu24HLYNxskJlX00YP9HS2qIfqwlqdlsWDLhYRvjlhSVRv5Urtu1oRY76qyG3WZpwE-cTmysAEAIencMOvhDHj7vftDb2Q0i1VIzJY13M_mGy7LTM4kxIct97T09fOtVY7i5kq82SnqC9nJn5_Iwmx-RKiZP9B2itFgRLp-_t4RCFp88_M06V-kmNMdSqL8w8ek8HuopBZSzN3IZk213pG1KkNaALgfBKWILA_A5knLGD32Y8W67sWem2FXmPtGhbyvB83lsFXmUvV4-gGj1U0S3KfTC26l7s9xKoTGGSK-nQTVs32wkqkJB1M0AE5T1xQsvTUKzq5UQqRo9NtYyXpbQ1WzSYbvqv1fSB_-QCgdW-xoB-x2nbWdgz-gjpn-XY1gV8ZABOzDJn3PFz1ZqVrpeBmp4vw_YDrRRsaVmZX_4nS1u8DTHXmZ2JZHkjCQfZqB4X6TZ9V1MbuaYJXsN2yL87j4s-jSMTqqBAVaM5Hx1tikuyHO2XnzyDt5zFyIeYp3ktyZcmIighsWS8dbtmRFzpmfdxk-Iw8WfD7WuXBVlhFLJz3xsHSFBfjSi6ooD4FUDfjhSuLWyxbpzULy2txhxTh47FDPUNDW80b1hyYMim3ady3zigl_24RS0axw95GKUGxFrCkRhKRhpN1npe6yY5btUFM67s6Y-v0X8EZfgM2bYnYjCU1lKlTbRq969Y4IyvnJE1uvbGjNGudJgbsEiu9p2DT5qjlQoaGjiVQm0ArcCxVxLVzQsOBxzLGCbiTldPcABjfAHQsl_RQEGhbjfTGTOmxjqlMx6Tev-BR_Mv6xIkCF2pCbcv0efqMFstzkt2VCvpIOxq3XhMwI9rIdK6Qe9sHsYVflLj9X3K0bCbP4ZDk24TpbqURzhfFaOJP5AcdeX-0f-HSjnpHMdz7wmXxSQI2LiqlwYuJeryhnDjYCVdGNDWGwHdXMy_6VuG0W4RNjtwUvjalQKQwt1X5tVCDtbx1JSR_fSzi70-pI4CWvvmL5FXxw4ThJsxjZWTFmcDnLWzkuqeGONFDqJjyB0nQxLUOC5SucePIYxsxyezO68C1Lc36ykXZ_lfdwoRsk3150riQWWLDxkbS8c0b5Zc46G11eqFvIvMQ5m_h4wlRypuTTgifipD2oNeW8u6fvoEGLPSESp2pLwQkKZDv2oqg1wuLZwSLhl48xu6JB7mErvLqbfAvTn5u1IApyzVb8f63kPSKD3WBaailF30rKRtMZ9W0huHgzl0j_B5gO5Hd9-TL35tC8PvvQGelx2uADA8FhF_O2f0bYsDiklShPUhMeGP0kVhxP8m6YOlhNJC_-_Tl3fc_lL8uWVI1Gr7tpca6JQWrQzZ3tkrIvODM-wVJXscM6dOlu_GHOb1zSUtcFp1qz0fOsBn9Boym8NwAn6l5EZFkOqyoqVGt5xiONa.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0d9beb30ff8ece21016ac53e9d9f3087d191535ff9608050cb",
+        "index": 4
+      }
+    ],
+    "latency_s": 16.484
+  }
+}

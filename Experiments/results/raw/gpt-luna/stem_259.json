@@ -1,0 +1,99 @@
+{
+  "final": true,
+  "model_id": "gpt-luna",
+  "model_key": "openai/gpt-6-luna",
+  "item_id": "stem_259",
+  "stem_id": 259,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9"
+  ],
+  "prompt_sha256": "ad2bbf7a0b521dce0fcff0d09a5953735f20e2798db31b28f5e860c7d81924b9",
+  "prompt_file": "prompts/stem_259.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:23:48Z",
+  "finished_at": "2026-10-06T18:24:02Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "usage": {
+      "prompt_tokens": 1103,
+      "completion_tokens": 1474,
+      "total_tokens": 2577,
+      "cost": 0.000866052,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1100,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0008748,
+        "upstream_inference_prompt_cost": 0.0001378,
+        "upstream_inference_completions_cost": 0.000737
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1354,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "OpenAI",
+    "generation_id": "gen-1791311030-WKAxTT4oL8BMp96luNLe",
+    "model_served": "openai/gpt-6-luna",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < <\nE2: > - < < < < < < <\nE3: > > - di di di m < <\nE4: > > d - < < < < <\nE5: > > d > - < < < <\nE6: > > d > > - < < <\nE7: > > mi > > > - < <\nE8: > > > > > > > - <\nE9: > > > > > > > > -\n</matrix>",
+    "reasoning": "**Clarifying event timelines**\n\nI’m trying to make sense of the events E8 and E9. Event E8 describes the digitization process, which is followed by sharing or uploading. So, E8 seems to end with the upload, and then E9 starts right after that. But I see some ambiguity since E8 mentions only the digitization without explicitly stating the upload part. I need to clarify this relationship to ensure it’s understood correctly and keep the timelines clear.",
+    "reasoning_details": [
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxTy85OZpt2x-Lch8qVf0fwdsqhS55Pv2xNzxDV2QpU1cY6oo5ApWBMvzToOduECIVi-d7WMRMq0evr2fNqTxZRbny-_WisxLJXg20Nhybrb_UYOb5uz66VLFw2H5rJWQun3GV5yk3iwdyipPPw7F-TQoG_bNTgXhsynME9f1FRBISk6Kq0weaPtq8ITWruX5Cj_qmXpuYhRjOb0hoM8fSk594MLm2_Szs-emeaBSpWSV6FwxhjuYe8UNyvEedZKSKTVGA5yM9DkO8Q_OGwhrCtYZuTMh50BDRVL3Rp_YvJNS11IIs4uope5uxRoCgctmOKX-iOq2u-oq75A6vU0ZDR3C_2W-pryB6LUOzIEM3iLuVGVBJq5JcQl0xrEfapM1cPhDEnWd7p8d1Vw6KvOrpAWShbqgwdjzdB565-drFTJF6naxN6qLP-ULrx-llh77mLo3_Y5WNlxZtYdBqZnqo7PUTNV_p2f3aReEqNTIu024GKUg-eB0_y-hB1Wdda7spzy8N_K43fzjgId4Fut-P6IqwZsCQaiQAY2TvLtt-rKjPgvsta1F2YxX-ECWsAIQDaS20TdEakos9S9-kiswwUPuak5mg2D4tA29x4oz-u8gr7VxLBrNp3inQmoHOSrM7UrUQR1qXxtw_-wIJejT7-XH_It45rmzcxZJIVlrFZewzHdzrcUG-IBaDjIKKa0AXERMLM8MHnGnkoTWaTxf6rH30D3Qsa9_wiLEPizQHDyJHn32NP7vRgbdxm4LbE03UdxxzVmuN3vRjC0t1seSDnKcjFI3dv8VNweTMksDzSrwr0C8jkRvyInbkP7Z7Yl8kNVDeU43j2Yyfm9zkvhNdRAX5g58GReC29pZKEzL9PkL3qtMP4B4sPgPmvOBSpiHiGIkzkIg-kjr1FuVxhi8AeBOty3bILp4MbCzsk7Sa6H7g2uhooxJeD5-Q2DzMyJP5ZlkGufliT2YBhWy_iObbieqQvm8-Z9O4hJny09f7ikll1-QQScFN6t62zDqivmr1o_Ix4vIp_H-T_vo4KiySRaafnviRjqLW5kPOsLJyBopQZ5n2fKf7ZFxn6AmpH-_BHLhd0lVNrdRf7S8838DJhfkXqygd7KOJca3mr42c8DOrUtxw21b8BLrdzPeFpaKVOS5uTqRLIkDDpaswiEoF2jOTVxKGOrvO5Wl6FwfwmqxpqMF096xeUbPrbpKlH2xqe93AW2RjYsGrSzMkZGosZys_AAvyIwxijM668GB_GXW1cNR4KRcYoFZpFbPKBgoOq11QHwA35l5uN3CY-dMnTAkPuqbG9BRZVWAEnoyLZEaYNKC3Hp3vr-6Dc8WWen3ELF3cG0AXVAyNsl2oOLmwosPA6UXn-hu0H-qv5466q70nKE8-toNhvNK7e0CYWcZsbFelDe0C3I00jD7y2IAQ__1coTJkDYxSxtdPf_8Y7EHhlIxLp3m-LyXljlecAAqfdwcHCABa20HOHmEe6qYQq4jOeMTtRyF6vsdgMayE6gJ8H4oQkWOmJ-2922DTHClYe2iLjE4XrPh9KaeXENOtf5sUKfNicFVRVrGbu_V4_zTrFE8k8yYq2E8Dbfm0Zh-4RRCVBsvNxoWk-7Pn3tKOlizFaWCQ14INTNsVsynnemp6JNo65KP5G-gQdyLNCr4muHwk6DPQAiIdQ3XlsP3aJi_1dIwfv4r5wNRO5ogneO9P2bs-nGnnbb9SJF3wKURdH4PJ_Xli1H4s6INvuPkbJoyoMBE4uRG0sSnwFni7_VYiSXK-HQX5SKcQgXrcROTzwNn8h5ZY9jdg04nbBbqmiF222cpqh3ZOsYYa1brsLcciFGZPVh561h6XeuetE97IgMQTPR6AkjwlIVZZd2qeiYJyy9OAqnSEoVMV4q4s7zGartwu7bzg-QkG37NS5QutTM1qmSHSYq-P5YlQUvBUs6IE0g9IHW-fEn_W1PYOnBeEYtF1c51gUd8kfxU8czaS85MNtlEEfBF_WXZAmA5vlfFjLUXVgUVRL-BrLrtfu1XrloqU2rt6JAjOa5Wti4X1Cy73S-UdKNbJdMNF6QVadKOGEJLgTO0I14AUu8vXdOaia9QnQc-OO0hCjW0QwuKGHlNBKPXMQqFIOloKeO3PWzYjszG06aLK1CGYb-E4GGRdHxonHy5tABF-1SgPAW2SkzGJcA_5hecUSrFEZQz-g4A3MSvq6dAAwSHW_yVGuONlMhcycN2B9KgAKwCKt6Uz7sPBq3riZiVBrK71cPSbZoB06Tul87JS9xSuLlj22X_a5-GyuVa45xzNVw0nBFsidv5MjOiZVXne3KGXs0sp5HyiLc4rNOH-RhY496Iw4Hyp130P1R_UCaLE-dMA8macftGV3T0c4_cUeDn0gjkWcbcdmA8CT2V11cAXgxB521UGwKWDWDmQlev2hMCRDCMC_rKkvqG7rCxqxwenKwJFD84SflgK8quB4J-dUHsoVvg53ztQrBoQTNsKTFIAmEM90HtYfdKB9awMdWDMH1ZBgv20S2vtIfiY9LFaZrN4R6H_GP-yRvaogQxpgmfmBWo_jZs0yP7lWBaMSESO06KJ4EOwnEIgEP6N-nyOAhjfiZckBU2OFQGmOwy-QqeaY74rArqmJ5pSX-TOOR9b8K4wDnehxqqnodH7P_FvekqoZEvyrv04N5Ep2_2meUI1qEqm-S1muK2wvwzYGnXAgRep29AnbiH3AlvgdM84EyRZ78qBwlV_iGf5tW6p4BZADqLnl-BzvItZ4IgblURxGYY1nk9mr1M5ky-h_-dPyF1GeVJIwtdgktxLo_FUDD7EhD_l-at20okZoq2uxs3BwMxShyuZi1bbCG1wQBOfOIKWD4-TNJdMunu6kFfevyaMm2_D2Fr_aWvm5_fJyxOeitmex0XuFzBvGSmyheLwaMPsUGGYqdtdYlFECJghx1MvUDpB7n1lOrHTsNzTF247MQqFaNvVbI7P3DotAkPhln6q1xaFp8hKvTYLOzxy5M3gXVUdp_-IETfeVCU8-NWwOq9RjhWONei4P72DpBPKgvsCZUIYVvCPnjxbrIEK56xWazIJ0E8cR2SSAGiToOB4ebqO80MGyUI2T2aa8D1wXEYcC2XIyXJJ6z5rdN-oeOopeJ197Llg-Im9k1140HQ8-g0IT_zbWCINEhjOcETar-nAsPzLz8I0lwIjeldMapTPtycq9nFHMyghq0d7cKiuILwX4jtNC-I9CVRiCum1kKtymkEqUuW4JZe8n6llYieu92VmzyH7exPLu7hNVSXG-TuuULtvU-UPlrMDg-C8gEJ0kU1GLtY9aNgXbOflzsErmrLTl_3guTBxv1aFsNXIQ0AcPGkqFoE7zi1-sinVXHuADzDRHH3-hl06KUSAqlxpWSFe65ncr6du4MTjBc4Ykh--JpU9xTfApnx8OrAV1qKLH5nHLFKTc9y0crNli2c5ys6zaVFkDEb165VfxaiIhPbTOTPSBiWVkOfTa7_ZXkEPWYZtGvMKcCN3B-vA9I2Ql7beh7LY5C_i_f0MN0ImdSNao_Di6PLUVxqAIoNzuhXbPVTzrUi-sw6iHgQ6vwFJFsqkqtgl1kJpjie1DAJM0EfO9sBcWq2m-4RX5NumekfrnjgCT1y98ojLSOzn4FKl0dhLUXTP_nT3008CMMG-RAl17KWHP7d0wk6Qm8ZDnmawcsSYoXf5Ye7oNGWTFCCoPmW53x-GTcaUO1SdspZeJmRC-VZESgr3vj68dvnNQ0Td5iYOflQPONxRmw62nXCL-RVz-NSuIQWURtqe-eP100Eg0b1iz6okKcwnfZP0MXB2gt2dg7zVnPlLDAGheBsfFAY5Yeabjx7wra8fadTgH38T84FQjPS99Wo1g1mqCR4ncoPe_vkjZeWrWxZaqSZLV-gnW0AjGDvAJ2GrCfuBA06ZMP005-8x7yKedCfCbp8YI1dSkTMuJCBA2qz3yNV5_hYveyBq6_66RCg5JEGF3Hhdt8BDHRhDV59vjgRagCNnpxkOhZIp-axoQOwwtNfycAQGUYoXb34XfTUZQ9S5ancgqIhls7Y11VSNR_kpojspJJCTjBDPwsoAIc-Ii2nHVJn9pBz7UGc0Ns1yMnMbu79JbbI1wjSqKwDp6JTLZCB9snMTCO_kTw6LlkLdePZY-6wPaIkbPRByfp7GNsyhGD4qntsCY81iLrOLZi5KD-4dUM7wFs=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_065762fbde3a5df4016ac53cb72a6887d18e218fc37be67017",
+        "index": 0
+      },
+      {
+        "type": "reasoning.summary",
+        "summary": "**Clarifying event timelines**\n\nI’m trying to make sense of the events E8 and E9. Event E8 describes the digitization process, which is followed by sharing or uploading. So, E8 seems to end with the upload, and then E9 starts right after that. But I see some ambiguity since E8 mentions only the digitization without explicitly stating the upload part. I need to clarify this relationship to ensure it’s understood correctly and keep the timelines clear.",
+        "format": "openai-responses-v1",
+        "index": 1
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxTzCcfw5A0y6uZ40o0CODJHXZbL1LIxfUMQaaTWmt5TwEp-7cEDNjm4k8CZnrwumEZyHxx2_ks2Xi9giWnRilHlp6Sx9N2FxWahfeZkPjpPpMUW3xhEqxtb7iW4jBP6ylHTKqxOtV8Mc_HQtE3rbl9KvVqt8oGmyGG7A_msGaH9q433APXFMB9WcKXFGY12471dstL-voFDB1BfpJVoUYuWNQ7GlJzqSYMZX1TvNHouKuP8Sq22dKKjhJBfBVA8bv2JddmQ3lk-xrSLBX3lbFdV2scIHzg5uofJ91i5Pr3TsdS6KPHWzpmaWFXanB5IykvoPr5-owwx7Q64KEQSl0sJt81-LE5vNJ70_kCvHtw27XVDr-jVZVGGW780W3PRjGDkTT-NGX2odCr4PfGDDAeuxNpFr3c5TOGHwXNiHZ9xTRzt6nhmSr25_COOZN6-JE30rloCGNFyNrbkhSOCNbZ-6W7WWSroHhCHfNH7u8NtkmUhus1HG4lDjCYVsVAcpjYURTkM6fS3sxXVgtHBob92y5x3pLCO-ek6G0Kapkx6YW8IYB3V_Ac8fhUzO-Fkmj1XviEORUvGZRgXXSEZDQa_ExnsAZpjKUIiv2KiW7yxIfgw2vykIeD7eFSiUCZVrnopk-BIwQV9r-H7rCW-EYCt9nQzzm3fLD7HKHHOn-3037XjnQ9CDE1sE3wkp3inFMv9YfmmVPE4nXRP4-w3g7lDTRAvO9ffqBL7NVA6ZH88K57dU4ZvaoJxTI95vfqQvPCotgohCNhily71GN8hQN4HHiuXls1R-srbszZHPWSh8EqaGVgAFVLIfyo0k_P6gqEuFPh6kdBv5YfjpcaGrrBrqDhBUlEta_UX5RrH6Eh5riFhKQpYqe75xROxOnBwjcLtgV6GjkIhpWgrpsqaIeyFuuDy5Q2EycT1pSCP05QBJ1BwtrW1LmlUp1YjEqlVabeB-JrPW_fJZtpuvP1FbBE_xwC5SbWQnXLRHU7bgR9Z5_3wCND6UzhmbPFOg6oQkTScA5B19twmh5GdUHlk8OMN4qsEQhj1lRVBg1ufDjZGARxK_td7AoO01n3EeJ34tZfkvHRXwVvfsQh5I3buU2XYB8_xByzJVvF3cKvvnCD9IDDqNygcUFGLd4BULhMSHD-9bggPivdZREGc-6iQ20RwoWHXcPACsjfN2_pM5YQ4Q1-2XsjK7ODNmJAVvToUwC_JvoKcsHTjNi9250d97OXUHfPrUVoaiqRrCZ5asbQuKjSn9kVuW504j3oCd3jK1DUUHZxxl6XU6fuBW0bUzDtTOv7n4N8PMlfwBJvX8O1cmRw7KLIkdC1SLEU6Qv62wbbe1qiLaTlY3URvSVAytn3nmnfH9a4L46IfBBHk9JKtvyFKYF8hVjYw7u6aszX4PdYB1aivC-oHzYla6Qnb9_Tu3VaHkocg-KkAV0LvNNPg6dUNhfkPME6DWm1WFuHKizlbz6uxlVGaCfQSar-dF-0Q5GfrNyDkK2xnamTmvxBWXe8NXKe2dTYuAnkwo8pvTuPMp5UxYlIB5v40mU8k3mNaI8tUDXBNAFT9kFuhhOoiDvvrcICQykltXKLY7hMXTCqx3gx9NEmPhmnPCVK5LZNF3VGZXoKCxDthBWThC9E1r-Icx0LYDGCAjjqlwXELg9V7U9UACB4BPO3xruzURLsYBcxVRxTKAt_g6BJ1oKi1TSizqH47sjuQpt1lCjc2G-tjf4zJljKNjAgAjeVeO987OAUcPSW5tVwEJjDFxgtHIfow4JL_8uam9l7hrnM3aOsvS7WbhshihzrtA3IQRiBQgI6Jfa0JJ04krvuGp1wTaDesZfbjqub6jqsZL5mJU1mSFuRJypUipscbI1gmgbKmAvkM4HQPSnQOFBnJn2IOSwSJs_a9KiKKkwh7uKNq0D5tNlwl4nVcivk-_a4esMWxws1YDQLsG2g9A0zLh2dLYEu5MutKacuvehB6FX_rb4pZ20xhNpLZ7UjfidrJenSeojmwYwyTQ3Gf_FGVNcTamfdLeK5wb8i5ImyIgdmKBIfY6zEpUrM0A0OVC4bSsSzYDQvRfjznHEJBgVgiJC73rKQyVY7p4Yf1M7d3P1w8aRImTzyI9TKYCYWJaDB9XmF-v-rflpFrlrhpfktdJi6pxQmKy8AFWD5IDfQoEiv9dBvfyGjRyeXjmebwvTQtlVWkNqimGbm5o88p9fa4MXMHc3nfrczzodW7DakWKw0OVYxMS7jxDxvak58IlOC2bp4Rv4xPnWZKR9zHTGXTe3bdd0OXihdtMZd9cOw_2VS1tERisWGTB6WFJcosSNmsT-yY6D5RmPFCA1aj4jG-QmBN3XXjPZvjFwswS8jgkPax_NS2aaWoYSa8XYfcOBTGqMxlLBgjXBoybZvC7JWzHv7N-fy6J3ov077PuWwP6HvjZsexxhJw8MJWtmqraoEGkwsxFBrhSLjLmGowMLWtLQXF1vNW-3rF5SEO4vCR6v1ZdFKRjlvkaMO-W266nAjzOipQLTHCB9mtAVDfFAPlgN1mZT6-UM5Nsi9JInLSxvaKCKBr4Fk59cZeOvvFmJY5rKKySkMnHDMUPvTYwvQgFXV4tNCxDou6uZ9mv5qmWPn8cUwF1uX0TscuoQOAz2eS6KBSiMfxixVIZ10Um2ofiFMSEvzMoeB43nVsYXDMGx43tELniEWPhbkL0AAbH_6mV_IdTpwB8SE4SsHQLrNo51qO9xbDAj0TH1a4GDWcE0CvgyVoLlRkYjMbNI9fNiJ96z0qS7qGNEcAfqZZV5OZ4I-ngIfdj57gCfJkkNuLWk5X-b4t9lNgmMMsT4hlCR8QUeg89xdLsrD01NWG8anAR9MbtmfDlpV_rbg7DAKD5YmQjy7xiOxf8U_KCHnDdku4FL3B5M-uNSrZIiQeBqVYKnh4qNeFY-58wfiSye-K1ftTDV1YXhDnvwrUYB4PqOcRJtvNHh3pnDYhOk6v7Pd4jWrTkOncDmmvxJI_nDZL-OpU7I9KOKlnzRJk2BlJlb9Zj1XvvmhRLr3vwH-wr_PTJZqgHtBahtMF3I-U4q9buCol2EndJJroEU_Pdqj0HawvIL-c6FjUxp3f8dd7hj974ksbKlK0bYR1CTSFSB_3UKDd44xq1MHj09RRJjJq5c6bP5tABK0ou6AhMRTVeJKeJF6GPmPYxsiqstLtD4mCkLlGxQ6xwqyTHe9VZ9b3XWjd49anPvQFufJydPssHQEW9NC4m5YSauhrSVfaCqJfr4dVPlyEpT_uaFpCw_7n2hsSMu-wNBhCECEBUCOt9wGGVVkJ4OsCe2r8bR9ngM6d6qQIr45emt8mktLgDvxHo6HiuamBzggfuviXvy1y8A1X0mhjxiI3ua3kmhcDvRg7wukwpR5FqYIQ4Zimv0T-M5Y7rr2-7E66pPsbf_ZtVNbpKPArXGz3M2cvf47F9z6akqhS8RDiUvYt03JOorVk4_MqSEjEf8DVznAGmSGdgu3m_TZAZLkMfs6MOmZ0LFRVUPuZ7VoAHWdjsRlgjigf7ova2V6EsJdidtpn9Iakusr9joIEjEjTtTxXqmE43SfUixfubeBnOddBqcOmOg5fvRYopJ06Awn_TNVmnQ_hncheedeXmJ4anGY7RRn1r5O98X8WuohZzOBZGMCE6hhbSoQMN_JVCCjimo_w8F_GEJLPto5vAKzVjFROiQj9GIGP6A1jajdMIrj9Dyaaqhexav-pTGN_I0F5wn3osZmkH_Z4FNdtPkHsw6_ZcK6lH4lqHvFtukH__QIrz2YySH5_HpWlMVjY-GCIaTKiSJBCR81lV3IZt0kV1kcSjRq6BayOQ7Sv_9Q_KKU_9JqR2Ca_tg67ifzbaMbyxjDUwnpjWNNtr7AKxbHaaUqj78wf3oCJRG_-bHSQk.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_065762fbde3a5df4016ac53cbc51a087d1a068b13255aa1e24",
+        "index": 2
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxTzDyiE0IqDVvmDsFT6du7gfHnyL2DZV36Nra1Q_J08KRCqSBoYTlXf0AI9DcFkLlnm9K1RDT66DuRtBC1qAt31MQ6joDddd_v7Q2rKHAbb1LVc8ChF4pvW8rBkEuvMw_GuOIBuAyrDPehBm5jwNkIqTn938pVC3sDm5bBjmSF2qkytRtafu-sotIj_smPXX4SyIPePzklJz7HHl16H-LlkxqCoyht1KgNy24PrzHy8gkC3IX4eLuy5yA8FQOj3BYX0JCRWgC4g7NFnC-mueciPGKmmWaXe1uXLOaxn14aBOK1DQC8cYuI_HE-UO_pYUpCoYZW_4Eg09PeXE1YqAQ0eMExz-DLafEJzy6O5jLuECm4IGeHft57tL8QWjg0pnff0Tx1o0EWYynPbT0t9jbKfKizjcPSTrmSeAx-4IQR4N1i3c5R8pr7c8eMUML1ZDal4KkuskS3i2P8dLL0Tz4gsgnCzzQzBKCPGSETTmrIaTi_lNqIQnoz0ffSWyt2sXgrEMaId3bxtNgRqyJgXqWF8wRKJaDJHHW3weJOU9M3oMfIZcYHrnq6vevYa7XKW7FDK_nl3qO9mTpmXkLAd_5CYFHoxs59tEE-YFFgnbm5ATJoXzXXj4mQqUe81ykOG0VYTFGrX0ZFYOapzyH3FYGxIBobHxXSXg4XNE8EsL6fOoJqhHLETa3Rbh9Ae9lm39Sat8sFB1RNnqMzWLgSmsmW3gN4sykYRiqSiSpvL5ue4uBa_sx6NFKR1I8Wx0IKp24a3YQEYQ6k_touq6pS0Yi58GmO9iOSupMiCZHbA1GYffeRvFWfBQ3n8iMwxg65ewbNb2_QNdUenQu5X5lRtvTaGg9awIPNNEVrkePRt-KlSfpfg9KffphEADxrAZUGJqoNQul4SfWDns7g2UP0uIk6LOK3VjQh71Y5KqAakhzP3fl2eoCXARjYDVXoBGM_26ekewdt_i8o3JpAMUHkNNQac2-sFzyO2GL7pA417Yt3g9D_P_4rYhrT37Ah_54KguAcQCviOn29HtTE4L9M_mKZbaDNepNHHlN0ky_bVZ-vI-zNwTmRC0CpDtXLkVkm2hjj0cIVfp2j3cDoR3VwE-VwoK2ftFuaJN6QpyweAA6qGBtmJkkkV2K9vr3_sn1TmrBFaUDvE-3uhYVwBqAOio2-9sfPBYGiTpAQMKDgk32BXC2Wi19kfLRuUy4GbGPHv1mxl_ep49EkXjv26JSrW8R95KEabqz2rYCWd2FXQIKtT45ddDIexJLiZlmk0Pn2xVRrPuHmdX3w941yU17bGDbV95fXP4BQS87ZmTxkDtxRj6CGa_X9ejUJYmSjXDFuNN6kIrq9_1G0N19t81QHwipVaJmfkI8EmNnZ3axqmTBEbIkbb2FT7l5GHYMiG_2pFagggghpEcs1FsyTsjcMGJ4r7fyE2rP3qGctd_CxQadAdkL5mrVhSpO9RYG-6nSItSNyf0NRER_k0eAak71KxkUvHd4fGU6Gge00wsT9ME9HQ3ZMy1LJeooBYc-syol_4Pxxru_42zm7fAmyOLazTb6_HVh7P1ayWKoYLL_iTTiE3rsJtZubRI4qYYtuD5NbtKjKLQsWgAaBhqPWM0PvetWPjarHb1xBT8MuKSjx70fVF4C3xovHQMn_CI8gfWLmvWAtjKtQ7guJlXSPYaNsc0Q9D6RKDAo6qWV-jI3LNw-jEof6HruD58fHvOfDpqDNdRIB3GBosbnqxq4uf2TM_W4V3OV9z1JdfccwuoByhgkNdjkTUYVlX0hcPFkFLWdovnnVAIo2ZX5uDAl0bME3ZwtuE_53JR-c4C9GHegiyibLtkKiyNj-94LZi_PfLiWpQaaJSK0npoBCeYRUj4yVI8sWorl25wpd3rW5NBW7Hys9irSJgN0eNVj2y6dlBcTkyZNNJriG7XbsHxAyXfmYmcE5usZUeigEsmSqo_bPmJBNpQ3VltPlM5mI40Bh1D-TDPRigf1N_jDKwQimlJ-BJwBHjVRqQT2EzKE4erykPyPX_uSRSunyiZKbJtXExlNtJkC6QanGoqoA4JUf4AZUsVc1Tr2KIwMoe2cFBI3PXX3_sw6yVWUfx1IICKf1DlW_GIouqGZpLN1CrDXyC0qCqbEjy7TsipxaobQyTdcH4rdUlHzA-1wullwe-Ug1-yBSyuhOuaVauySQOTBsyjYgHB-Oz_cJ7kJZ3WdiOfYx2NqK9ASzQsgqjXuBdug6TxL-Qoz8GM4iHnVj_doCaZrsRNp8J32_ZWq_xlNWejKL-WI3NvWus2-xajhsXuEbvC4qfHVZOq.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_065762fbde3a5df4016ac53cc2049087d1a84613fb33b664bf",
+        "index": 3
+      }
+    ],
+    "latency_s": 13.75
+  }
+}
