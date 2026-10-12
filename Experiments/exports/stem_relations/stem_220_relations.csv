@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,The first tooth appeared at six months,the last fell out at twelve years
+E1,E3,1,< (Precedes),False,The first tooth appeared at six months,The mother had kept every one in a small box
+E1,E4,1,< (Precedes),False,The first tooth appeared at six months,The shelf was cleared
+E1,E5,1,< (Precedes),False,The first tooth appeared at six months,a renovation that lasted three weeks
+E1,E6,1,< (Precedes),False,The first tooth appeared at six months,The box was misplaced for two days
+E1,E7,1,< (Precedes),False,The first tooth appeared at six months,found behind a radiator
+E1,E8,1,< (Precedes),False,The first tooth appeared at six months,the heat having warped the labels
+E1,E9,1,< (Precedes),False,The first tooth appeared at six months,The mother spent an afternoon decoding them
+E1,E10,1,< (Precedes),False,The first tooth appeared at six months,was lost during a school trip
+E1,E11,1,< (Precedes),False,The first tooth appeared at six months,The boy swallowed it in his sleep
+E1,E12,1,< (Precedes),False,The first tooth appeared at six months,The mother left that slot empty
+E1,E13,1,< (Precedes),False,The first tooth appeared at six months,asked to see the box
+E1,E14,1,< (Precedes),False,The first tooth appeared at six months,He opened it
+E1,E15,1,< (Precedes),False,The first tooth appeared at six months,closed it
+E1,E16,1,< (Precedes),False,The first tooth appeared at six months,The mother said the empty slot was her favourite
+E2,E1,-1,> (Preceded By),False,the last fell out at twelve years,The first tooth appeared at six months
+E2,E3,5,d (During),False,the last fell out at twelve years,The mother had kept every one in a small box
+E2,E4,1,< (Precedes),False,the last fell out at twelve years,The shelf was cleared
+E2,E5,1,< (Precedes),False,the last fell out at twelve years,a renovation that lasted three weeks
+E2,E6,1,< (Precedes),False,the last fell out at twelve years,The box was misplaced for two days
+E2,E7,1,< (Precedes),False,the last fell out at twelve years,found behind a radiator
+E2,E8,1,< (Precedes),False,the last fell out at twelve years,the heat having warped the labels
+E2,E9,1,< (Precedes),False,the last fell out at twelve years,The mother spent an afternoon decoding them
+E2,E10,0,= (Equal),False,the last fell out at twelve years,was lost during a school trip
+E2,E11,0,= (Equal),False,the last fell out at twelve years,The boy swallowed it in his sleep
+E2,E12,1,< (Precedes),False,the last fell out at twelve years,The mother left that slot empty
+E2,E13,1,< (Precedes),False,the last fell out at twelve years,asked to see the box
+E2,E14,1,< (Precedes),False,the last fell out at twelve years,He opened it
+E2,E15,1,< (Precedes),False,the last fell out at twelve years,closed it
+E2,E16,1,< (Precedes),False,the last fell out at twelve years,The mother said the empty slot was her favourite
+E3,E1,-1,> (Preceded By),False,The mother had kept every one in a small box,The first tooth appeared at six months
+E3,E2,-5,di (Contains),False,The mother had kept every one in a small box,the last fell out at twelve years
+E3,E4,-5,di (Contains),False,The mother had kept every one in a small box,The shelf was cleared
+E3,E5,-5,di (Contains),False,The mother had kept every one in a small box,a renovation that lasted three weeks
+E3,E6,-5,di (Contains),False,The mother had kept every one in a small box,The box was misplaced for two days
+E3,E7,-5,di (Contains),False,The mother had kept every one in a small box,found behind a radiator
+E3,E8,-5,di (Contains),False,The mother had kept every one in a small box,the heat having warped the labels
+E3,E9,-5,di (Contains),False,The mother had kept every one in a small box,The mother spent an afternoon decoding them
+E3,E10,-5,di (Contains),False,The mother had kept every one in a small box,was lost during a school trip
+E3,E11,-5,di (Contains),False,The mother had kept every one in a small box,The boy swallowed it in his sleep
+E3,E12,-5,di (Contains),False,The mother had kept every one in a small box,The mother left that slot empty
+E3,E13,-5,di (Contains),False,The mother had kept every one in a small box,asked to see the box
+E3,E14,-5,di (Contains),False,The mother had kept every one in a small box,He opened it
+E3,E15,-5,di (Contains),False,The mother had kept every one in a small box,closed it
+E3,E16,-5,di (Contains),False,The mother had kept every one in a small box,The mother said the empty slot was her favourite
+E4,E1,-1,> (Preceded By),False,The shelf was cleared,The first tooth appeared at six months
+E4,E2,-1,> (Preceded By),False,The shelf was cleared,the last fell out at twelve years
+E4,E3,5,d (During),False,The shelf was cleared,The mother had kept every one in a small box
+E4,E5,4,s (Starts),False,The shelf was cleared,a renovation that lasted three weeks
+E4,E6,2,m (Meets),False,The shelf was cleared,The box was misplaced for two days
+E4,E7,1,< (Precedes),False,The shelf was cleared,found behind a radiator
+E4,E8,2,m (Meets),False,The shelf was cleared,the heat having warped the labels
+E4,E9,1,< (Precedes),False,The shelf was cleared,The mother spent an afternoon decoding them
+E4,E10,-1,> (Preceded By),False,The shelf was cleared,was lost during a school trip
+E4,E11,-1,> (Preceded By),False,The shelf was cleared,The boy swallowed it in his sleep
+E4,E12,-1,> (Preceded By),False,The shelf was cleared,The mother left that slot empty
+E4,E13,1,< (Precedes),False,The shelf was cleared,asked to see the box
+E4,E14,1,< (Precedes),False,The shelf was cleared,He opened it
+E4,E15,1,< (Precedes),False,The shelf was cleared,closed it
+E4,E16,1,< (Precedes),False,The shelf was cleared,The mother said the empty slot was her favourite
+E5,E1,-1,> (Preceded By),False,a renovation that lasted three weeks,The first tooth appeared at six months
+E5,E2,-1,> (Preceded By),False,a renovation that lasted three weeks,the last fell out at twelve years
+E5,E3,5,d (During),False,a renovation that lasted three weeks,The mother had kept every one in a small box
+E5,E4,-4,si (Started By),False,a renovation that lasted three weeks,The shelf was cleared
+E5,E6,-5,di (Contains),False,a renovation that lasted three weeks,The box was misplaced for two days
+E5,E7,-5,di (Contains),False,a renovation that lasted three weeks,found behind a radiator
+E5,E8,-5,di (Contains),False,a renovation that lasted three weeks,the heat having warped the labels
+E5,E9,1,< (Precedes),False,a renovation that lasted three weeks,The mother spent an afternoon decoding them
+E5,E10,-1,> (Preceded By),False,a renovation that lasted three weeks,was lost during a school trip
+E5,E11,-1,> (Preceded By),False,a renovation that lasted three weeks,The boy swallowed it in his sleep
+E5,E12,-1,> (Preceded By),False,a renovation that lasted three weeks,The mother left that slot empty
+E5,E13,1,< (Precedes),False,a renovation that lasted three weeks,asked to see the box
+E5,E14,1,< (Precedes),False,a renovation that lasted three weeks,He opened it
+E5,E15,1,< (Precedes),False,a renovation that lasted three weeks,closed it
+E5,E16,1,< (Precedes),False,a renovation that lasted three weeks,The mother said the empty slot was her favourite
+E6,E1,-1,> (Preceded By),False,The box was misplaced for two days,The first tooth appeared at six months
+E6,E2,-1,> (Preceded By),False,The box was misplaced for two days,the last fell out at twelve years
+E6,E3,5,d (During),False,The box was misplaced for two days,The mother had kept every one in a small box
+E6,E4,-2,mi (Met By),False,The box was misplaced for two days,The shelf was cleared
+E6,E5,5,d (During),False,The box was misplaced for two days,a renovation that lasted three weeks
+E6,E7,2,m (Meets),False,The box was misplaced for two days,found behind a radiator
+E6,E8,0,= (Equal),False,The box was misplaced for two days,the heat having warped the labels
+E6,E9,1,< (Precedes),False,The box was misplaced for two days,The mother spent an afternoon decoding them
+E6,E10,-1,> (Preceded By),False,The box was misplaced for two days,was lost during a school trip
+E6,E11,-1,> (Preceded By),False,The box was misplaced for two days,The boy swallowed it in his sleep
+E6,E12,-1,> (Preceded By),False,The box was misplaced for two days,The mother left that slot empty
+E6,E13,1,< (Precedes),False,The box was misplaced for two days,asked to see the box
+E6,E14,1,< (Precedes),False,The box was misplaced for two days,He opened it
+E6,E15,1,< (Precedes),False,The box was misplaced for two days,closed it
+E6,E16,1,< (Precedes),False,The box was misplaced for two days,The mother said the empty slot was her favourite
+E7,E1,-1,> (Preceded By),False,found behind a radiator,The first tooth appeared at six months
+E7,E2,-1,> (Preceded By),False,found behind a radiator,the last fell out at twelve years
+E7,E3,5,d (During),False,found behind a radiator,The mother had kept every one in a small box
+E7,E4,-1,> (Preceded By),False,found behind a radiator,The shelf was cleared
+E7,E5,5,d (During),False,found behind a radiator,a renovation that lasted three weeks
+E7,E6,-2,mi (Met By),False,found behind a radiator,The box was misplaced for two days
+E7,E8,-2,mi (Met By),False,found behind a radiator,the heat having warped the labels
+E7,E9,1,< (Precedes),False,found behind a radiator,The mother spent an afternoon decoding them
+E7,E10,-1,> (Preceded By),False,found behind a radiator,was lost during a school trip
+E7,E11,-1,> (Preceded By),False,found behind a radiator,The boy swallowed it in his sleep
+E7,E12,-1,> (Preceded By),False,found behind a radiator,The mother left that slot empty
+E7,E13,1,< (Precedes),False,found behind a radiator,asked to see the box
+E7,E14,1,< (Precedes),False,found behind a radiator,He opened it
+E7,E15,1,< (Precedes),False,found behind a radiator,closed it
+E7,E16,1,< (Precedes),False,found behind a radiator,The mother said the empty slot was her favourite
+E8,E1,-1,> (Preceded By),False,the heat having warped the labels,The first tooth appeared at six months
+E8,E2,-1,> (Preceded By),False,the heat having warped the labels,the last fell out at twelve years
+E8,E3,5,d (During),False,the heat having warped the labels,The mother had kept every one in a small box
+E8,E4,-2,mi (Met By),False,the heat having warped the labels,The shelf was cleared
+E8,E5,5,d (During),False,the heat having warped the labels,a renovation that lasted three weeks
+E8,E6,0,= (Equal),False,the heat having warped the labels,The box was misplaced for two days
+E8,E7,2,m (Meets),False,the heat having warped the labels,found behind a radiator
+E8,E9,1,< (Precedes),False,the heat having warped the labels,The mother spent an afternoon decoding them
+E8,E10,-1,> (Preceded By),False,the heat having warped the labels,was lost during a school trip
+E8,E11,-1,> (Preceded By),False,the heat having warped the labels,The boy swallowed it in his sleep
+E8,E12,-1,> (Preceded By),False,the heat having warped the labels,The mother left that slot empty
+E8,E13,1,< (Precedes),False,the heat having warped the labels,asked to see the box
+E8,E14,1,< (Precedes),False,the heat having warped the labels,He opened it
+E8,E15,1,< (Precedes),False,the heat having warped the labels,closed it
+E8,E16,1,< (Precedes),False,the heat having warped the labels,The mother said the empty slot was her favourite
+E9,E1,-1,> (Preceded By),False,The mother spent an afternoon decoding them,The first tooth appeared at six months
+E9,E2,-1,> (Preceded By),False,The mother spent an afternoon decoding them,the last fell out at twelve years
+E9,E3,5,d (During),False,The mother spent an afternoon decoding them,The mother had kept every one in a small box
+E9,E4,-1,> (Preceded By),False,The mother spent an afternoon decoding them,The shelf was cleared
+E9,E5,-1,> (Preceded By),False,The mother spent an afternoon decoding them,a renovation that lasted three weeks
+E9,E6,-1,> (Preceded By),False,The mother spent an afternoon decoding them,The box was misplaced for two days
+E9,E7,-1,> (Preceded By),False,The mother spent an afternoon decoding them,found behind a radiator
+E9,E8,-1,> (Preceded By),False,The mother spent an afternoon decoding them,the heat having warped the labels
+E9,E10,-1,> (Preceded By),False,The mother spent an afternoon decoding them,was lost during a school trip
+E9,E11,-1,> (Preceded By),False,The mother spent an afternoon decoding them,The boy swallowed it in his sleep
+E9,E12,-1,> (Preceded By),False,The mother spent an afternoon decoding them,The mother left that slot empty
+E9,E13,1,< (Precedes),False,The mother spent an afternoon decoding them,asked to see the box
+E9,E14,1,< (Precedes),False,The mother spent an afternoon decoding them,He opened it
+E9,E15,1,< (Precedes),False,The mother spent an afternoon decoding them,closed it
+E9,E16,1,< (Precedes),False,The mother spent an afternoon decoding them,The mother said the empty slot was her favourite
+E10,E1,-1,> (Preceded By),False,was lost during a school trip,The first tooth appeared at six months
+E10,E2,0,= (Equal),False,was lost during a school trip,the last fell out at twelve years
+E10,E3,5,d (During),False,was lost during a school trip,The mother had kept every one in a small box
+E10,E4,1,< (Precedes),False,was lost during a school trip,The shelf was cleared
+E10,E5,1,< (Precedes),False,was lost during a school trip,a renovation that lasted three weeks
+E10,E6,1,< (Precedes),False,was lost during a school trip,The box was misplaced for two days
+E10,E7,1,< (Precedes),False,was lost during a school trip,found behind a radiator
+E10,E8,1,< (Precedes),False,was lost during a school trip,the heat having warped the labels
+E10,E9,1,< (Precedes),False,was lost during a school trip,The mother spent an afternoon decoding them
+E10,E11,0,= (Equal),False,was lost during a school trip,The boy swallowed it in his sleep
+E10,E12,1,< (Precedes),False,was lost during a school trip,The mother left that slot empty
+E10,E13,1,< (Precedes),False,was lost during a school trip,asked to see the box
+E10,E14,1,< (Precedes),False,was lost during a school trip,He opened it
+E10,E15,1,< (Precedes),False,was lost during a school trip,closed it
+E10,E16,1,< (Precedes),False,was lost during a school trip,The mother said the empty slot was her favourite
+E11,E1,-1,> (Preceded By),False,The boy swallowed it in his sleep,The first tooth appeared at six months
+E11,E2,0,= (Equal),False,The boy swallowed it in his sleep,the last fell out at twelve years
+E11,E3,5,d (During),False,The boy swallowed it in his sleep,The mother had kept every one in a small box
+E11,E4,1,< (Precedes),False,The boy swallowed it in his sleep,The shelf was cleared
+E11,E5,1,< (Precedes),False,The boy swallowed it in his sleep,a renovation that lasted three weeks
+E11,E6,1,< (Precedes),False,The boy swallowed it in his sleep,The box was misplaced for two days
+E11,E7,1,< (Precedes),False,The boy swallowed it in his sleep,found behind a radiator
+E11,E8,1,< (Precedes),False,The boy swallowed it in his sleep,the heat having warped the labels
+E11,E9,1,< (Precedes),False,The boy swallowed it in his sleep,The mother spent an afternoon decoding them
+E11,E10,0,= (Equal),False,The boy swallowed it in his sleep,was lost during a school trip
+E11,E12,1,< (Precedes),False,The boy swallowed it in his sleep,The mother left that slot empty
+E11,E13,1,< (Precedes),False,The boy swallowed it in his sleep,asked to see the box
+E11,E14,1,< (Precedes),False,The boy swallowed it in his sleep,He opened it
+E11,E15,1,< (Precedes),False,The boy swallowed it in his sleep,closed it
+E11,E16,1,< (Precedes),False,The boy swallowed it in his sleep,The mother said the empty slot was her favourite
+E12,E1,-1,> (Preceded By),False,The mother left that slot empty,The first tooth appeared at six months
+E12,E2,-1,> (Preceded By),False,The mother left that slot empty,the last fell out at twelve years
+E12,E3,5,d (During),False,The mother left that slot empty,The mother had kept every one in a small box
+E12,E4,1,< (Precedes),False,The mother left that slot empty,The shelf was cleared
+E12,E5,1,< (Precedes),False,The mother left that slot empty,a renovation that lasted three weeks
+E12,E6,1,< (Precedes),False,The mother left that slot empty,The box was misplaced for two days
+E12,E7,1,< (Precedes),False,The mother left that slot empty,found behind a radiator
+E12,E8,1,< (Precedes),False,The mother left that slot empty,the heat having warped the labels
+E12,E9,1,< (Precedes),False,The mother left that slot empty,The mother spent an afternoon decoding them
+E12,E10,-1,> (Preceded By),False,The mother left that slot empty,was lost during a school trip
+E12,E11,-1,> (Preceded By),False,The mother left that slot empty,The boy swallowed it in his sleep
+E12,E13,1,< (Precedes),False,The mother left that slot empty,asked to see the box
+E12,E14,1,< (Precedes),False,The mother left that slot empty,He opened it
+E12,E15,1,< (Precedes),False,The mother left that slot empty,closed it
+E12,E16,1,< (Precedes),False,The mother left that slot empty,The mother said the empty slot was her favourite
+E13,E1,-1,> (Preceded By),False,asked to see the box,The first tooth appeared at six months
+E13,E2,-1,> (Preceded By),False,asked to see the box,the last fell out at twelve years
+E13,E3,5,d (During),False,asked to see the box,The mother had kept every one in a small box
+E13,E4,-1,> (Preceded By),False,asked to see the box,The shelf was cleared
+E13,E5,-1,> (Preceded By),False,asked to see the box,a renovation that lasted three weeks
+E13,E6,-1,> (Preceded By),False,asked to see the box,The box was misplaced for two days
+E13,E7,-1,> (Preceded By),False,asked to see the box,found behind a radiator
+E13,E8,-1,> (Preceded By),False,asked to see the box,the heat having warped the labels
+E13,E9,-1,> (Preceded By),False,asked to see the box,The mother spent an afternoon decoding them
+E13,E10,-1,> (Preceded By),False,asked to see the box,was lost during a school trip
+E13,E11,-1,> (Preceded By),False,asked to see the box,The boy swallowed it in his sleep
+E13,E12,-1,> (Preceded By),False,asked to see the box,The mother left that slot empty
+E13,E14,1,< (Precedes),False,asked to see the box,He opened it
+E13,E15,1,< (Precedes),False,asked to see the box,closed it
+E13,E16,1,< (Precedes),False,asked to see the box,The mother said the empty slot was her favourite
+E14,E1,-1,> (Preceded By),False,He opened it,The first tooth appeared at six months
+E14,E2,-1,> (Preceded By),False,He opened it,the last fell out at twelve years
+E14,E3,5,d (During),False,He opened it,The mother had kept every one in a small box
+E14,E4,-1,> (Preceded By),False,He opened it,The shelf was cleared
+E14,E5,-1,> (Preceded By),False,He opened it,a renovation that lasted three weeks
+E14,E6,-1,> (Preceded By),False,He opened it,The box was misplaced for two days
+E14,E7,-1,> (Preceded By),False,He opened it,found behind a radiator
+E14,E8,-1,> (Preceded By),False,He opened it,the heat having warped the labels
+E14,E9,-1,> (Preceded By),False,He opened it,The mother spent an afternoon decoding them
+E14,E10,-1,> (Preceded By),False,He opened it,was lost during a school trip
+E14,E11,-1,> (Preceded By),False,He opened it,The boy swallowed it in his sleep
+E14,E12,-1,> (Preceded By),False,He opened it,The mother left that slot empty
+E14,E13,-1,> (Preceded By),False,He opened it,asked to see the box
+E14,E15,1,< (Precedes),False,He opened it,closed it
+E14,E16,1,< (Precedes),False,He opened it,The mother said the empty slot was her favourite
+E15,E1,-1,> (Preceded By),False,closed it,The first tooth appeared at six months
+E15,E2,-1,> (Preceded By),False,closed it,the last fell out at twelve years
+E15,E3,5,d (During),False,closed it,The mother had kept every one in a small box
+E15,E4,-1,> (Preceded By),False,closed it,The shelf was cleared
+E15,E5,-1,> (Preceded By),False,closed it,a renovation that lasted three weeks
+E15,E6,-1,> (Preceded By),False,closed it,The box was misplaced for two days
+E15,E7,-1,> (Preceded By),False,closed it,found behind a radiator
+E15,E8,-1,> (Preceded By),False,closed it,the heat having warped the labels
+E15,E9,-1,> (Preceded By),False,closed it,The mother spent an afternoon decoding them
+E15,E10,-1,> (Preceded By),False,closed it,was lost during a school trip
+E15,E11,-1,> (Preceded By),False,closed it,The boy swallowed it in his sleep
+E15,E12,-1,> (Preceded By),False,closed it,The mother left that slot empty
+E15,E13,-1,> (Preceded By),False,closed it,asked to see the box
+E15,E14,-1,> (Preceded By),False,closed it,He opened it
+E15,E16,1,< (Precedes),False,closed it,The mother said the empty slot was her favourite
+E16,E1,-1,> (Preceded By),False,The mother said the empty slot was her favourite,The first tooth appeared at six months
+E16,E2,-1,> (Preceded By),False,The mother said the empty slot was her favourite,the last fell out at twelve years
+E16,E3,5,d (During),False,The mother said the empty slot was her favourite,The mother had kept every one in a small box
+E16,E4,-1,> (Preceded By),False,The mother said the empty slot was her favourite,The shelf was cleared
+E16,E5,-1,> (Preceded By),False,The mother said the empty slot was her favourite,a renovation that lasted three weeks
+E16,E6,-1,> (Preceded By),False,The mother said the empty slot was her favourite,The box was misplaced for two days
+E16,E7,-1,> (Preceded By),False,The mother said the empty slot was her favourite,found behind a radiator
+E16,E8,-1,> (Preceded By),False,The mother said the empty slot was her favourite,the heat having warped the labels
+E16,E9,-1,> (Preceded By),False,The mother said the empty slot was her favourite,The mother spent an afternoon decoding them
+E16,E10,-1,> (Preceded By),False,The mother said the empty slot was her favourite,was lost during a school trip
+E16,E11,-1,> (Preceded By),False,The mother said the empty slot was her favourite,The boy swallowed it in his sleep
+E16,E12,-1,> (Preceded By),False,The mother said the empty slot was her favourite,The mother left that slot empty
+E16,E13,-1,> (Preceded By),False,The mother said the empty slot was her favourite,asked to see the box
+E16,E14,-1,> (Preceded By),False,The mother said the empty slot was her favourite,He opened it
+E16,E15,-1,> (Preceded By),False,The mother said the empty slot was her favourite,closed it

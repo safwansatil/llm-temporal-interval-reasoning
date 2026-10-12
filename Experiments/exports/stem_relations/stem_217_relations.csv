@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,The prisoner had served twenty three years of a life sentence,the hearing would last ninety minutes
+E1,E3,-5,di (Contains),False,The prisoner had served twenty three years of a life sentence,His lawyer had prepared for three months
+E1,E4,-5,di (Contains),False,The prisoner had served twenty three years of a life sentence,The victim's family had submitted a statement
+E1,E5,1,< (Precedes),False,The prisoner had served twenty three years of a life sentence,the recess that followed
+E1,E6,1,< (Precedes),False,The prisoner had served twenty three years of a life sentence,The board deliberated for twenty two minutes
+E1,E7,1,< (Precedes),False,The prisoner had served twenty three years of a life sentence,denied parole for another five years
+E1,E8,-5,di (Contains),False,The prisoner had served twenty three years of a life sentence,The prisoner had been denied four times before
+E1,E9,1,< (Precedes),False,The prisoner had served twenty three years of a life sentence,The prisoner returned to his cell
+E1,E10,3,o (Overlaps),False,The prisoner had served twenty three years of a life sentence,had been broken for eleven years
+E1,E11,-4,si (Started By),False,The prisoner had served twenty three years of a life sentence,his original conviction
+E1,E12,3,o (Overlaps),False,The prisoner had served twenty three years of a life sentence,He had asked for it to be fixed every year
+E1,E13,1,< (Precedes),False,The prisoner had served twenty three years of a life sentence,The guard who finally replaced it
+E1,E14,1,< (Precedes),False,The prisoner had served twenty three years of a life sentence,The prisoner looked at it for an hour
+E1,E15,1,< (Precedes),False,The prisoner had served twenty three years of a life sentence,he wrote a letter to his daughter
+E1,E16,-1,> (Preceded By),False,The prisoner had served twenty three years of a life sentence,his arrest
+E1,E17,1,< (Precedes),False,The prisoner had served twenty three years of a life sentence,The letter would take four days to arrive
+E2,E1,-2,mi (Met By),False,the hearing would last ninety minutes,The prisoner had served twenty three years of a life sentence
+E2,E3,-1,> (Preceded By),False,the hearing would last ninety minutes,His lawyer had prepared for three months
+E2,E4,-1,> (Preceded By),False,the hearing would last ninety minutes,The victim's family had submitted a statement
+E2,E5,-5,di (Contains),False,the hearing would last ninety minutes,the recess that followed
+E2,E6,-5,di (Contains),False,the hearing would last ninety minutes,The board deliberated for twenty two minutes
+E2,E7,-5,di (Contains),False,the hearing would last ninety minutes,denied parole for another five years
+E2,E8,-1,> (Preceded By),False,the hearing would last ninety minutes,The prisoner had been denied four times before
+E2,E9,1,< (Precedes),False,the hearing would last ninety minutes,The prisoner returned to his cell
+E2,E10,5,d (During),False,the hearing would last ninety minutes,had been broken for eleven years
+E2,E11,-1,> (Preceded By),False,the hearing would last ninety minutes,his original conviction
+E2,E12,6,f (Finishes),False,the hearing would last ninety minutes,He had asked for it to be fixed every year
+E2,E13,1,< (Precedes),False,the hearing would last ninety minutes,The guard who finally replaced it
+E2,E14,1,< (Precedes),False,the hearing would last ninety minutes,The prisoner looked at it for an hour
+E2,E15,1,< (Precedes),False,the hearing would last ninety minutes,he wrote a letter to his daughter
+E2,E16,-1,> (Preceded By),False,the hearing would last ninety minutes,his arrest
+E2,E17,1,< (Precedes),False,the hearing would last ninety minutes,The letter would take four days to arrive
+E3,E1,5,d (During),False,His lawyer had prepared for three months,The prisoner had served twenty three years of a life sentence
+E3,E2,1,< (Precedes),False,His lawyer had prepared for three months,the hearing would last ninety minutes
+E3,E4,-6,fi (Finished By),False,His lawyer had prepared for three months,The victim's family had submitted a statement
+E3,E5,1,< (Precedes),False,His lawyer had prepared for three months,the recess that followed
+E3,E6,1,< (Precedes),False,His lawyer had prepared for three months,The board deliberated for twenty two minutes
+E3,E7,1,< (Precedes),False,His lawyer had prepared for three months,denied parole for another five years
+E3,E8,-1,> (Preceded By),False,His lawyer had prepared for three months,The prisoner had been denied four times before
+E3,E9,1,< (Precedes),False,His lawyer had prepared for three months,The prisoner returned to his cell
+E3,E10,5,d (During),False,His lawyer had prepared for three months,had been broken for eleven years
+E3,E11,-1,> (Preceded By),False,His lawyer had prepared for three months,his original conviction
+E3,E12,5,d (During),False,His lawyer had prepared for three months,He had asked for it to be fixed every year
+E3,E13,1,< (Precedes),False,His lawyer had prepared for three months,The guard who finally replaced it
+E3,E14,1,< (Precedes),False,His lawyer had prepared for three months,The prisoner looked at it for an hour
+E3,E15,1,< (Precedes),False,His lawyer had prepared for three months,he wrote a letter to his daughter
+E3,E16,-1,> (Preceded By),False,His lawyer had prepared for three months,his arrest
+E3,E17,1,< (Precedes),False,His lawyer had prepared for three months,The letter would take four days to arrive
+E4,E1,5,d (During),False,The victim's family had submitted a statement,The prisoner had served twenty three years of a life sentence
+E4,E2,1,< (Precedes),False,The victim's family had submitted a statement,the hearing would last ninety minutes
+E4,E3,6,f (Finishes),False,The victim's family had submitted a statement,His lawyer had prepared for three months
+E4,E5,1,< (Precedes),False,The victim's family had submitted a statement,the recess that followed
+E4,E6,1,< (Precedes),False,The victim's family had submitted a statement,The board deliberated for twenty two minutes
+E4,E7,1,< (Precedes),False,The victim's family had submitted a statement,denied parole for another five years
+E4,E8,-1,> (Preceded By),False,The victim's family had submitted a statement,The prisoner had been denied four times before
+E4,E9,1,< (Precedes),False,The victim's family had submitted a statement,The prisoner returned to his cell
+E4,E10,5,d (During),False,The victim's family had submitted a statement,had been broken for eleven years
+E4,E11,-1,> (Preceded By),False,The victim's family had submitted a statement,his original conviction
+E4,E12,5,d (During),False,The victim's family had submitted a statement,He had asked for it to be fixed every year
+E4,E13,1,< (Precedes),False,The victim's family had submitted a statement,The guard who finally replaced it
+E4,E14,1,< (Precedes),False,The victim's family had submitted a statement,The prisoner looked at it for an hour
+E4,E15,1,< (Precedes),False,The victim's family had submitted a statement,he wrote a letter to his daughter
+E4,E16,-1,> (Preceded By),False,The victim's family had submitted a statement,his arrest
+E4,E17,1,< (Precedes),False,The victim's family had submitted a statement,The letter would take four days to arrive
+E5,E1,-1,> (Preceded By),False,the recess that followed,The prisoner had served twenty three years of a life sentence
+E5,E2,5,d (During),False,the recess that followed,the hearing would last ninety minutes
+E5,E3,-1,> (Preceded By),False,the recess that followed,His lawyer had prepared for three months
+E5,E4,-1,> (Preceded By),False,the recess that followed,The victim's family had submitted a statement
+E5,E6,2,m (Meets),False,the recess that followed,The board deliberated for twenty two minutes
+E5,E7,1,< (Precedes),False,the recess that followed,denied parole for another five years
+E5,E8,-1,> (Preceded By),False,the recess that followed,The prisoner had been denied four times before
+E5,E9,1,< (Precedes),False,the recess that followed,The prisoner returned to his cell
+E5,E10,5,d (During),False,the recess that followed,had been broken for eleven years
+E5,E11,-1,> (Preceded By),False,the recess that followed,his original conviction
+E5,E12,5,d (During),False,the recess that followed,He had asked for it to be fixed every year
+E5,E13,1,< (Precedes),False,the recess that followed,The guard who finally replaced it
+E5,E14,1,< (Precedes),False,the recess that followed,The prisoner looked at it for an hour
+E5,E15,1,< (Precedes),False,the recess that followed,he wrote a letter to his daughter
+E5,E16,-1,> (Preceded By),False,the recess that followed,his arrest
+E5,E17,1,< (Precedes),False,the recess that followed,The letter would take four days to arrive
+E6,E1,-1,> (Preceded By),False,The board deliberated for twenty two minutes,The prisoner had served twenty three years of a life sentence
+E6,E2,5,d (During),False,The board deliberated for twenty two minutes,the hearing would last ninety minutes
+E6,E3,-1,> (Preceded By),False,The board deliberated for twenty two minutes,His lawyer had prepared for three months
+E6,E4,-1,> (Preceded By),False,The board deliberated for twenty two minutes,The victim's family had submitted a statement
+E6,E5,-2,mi (Met By),False,The board deliberated for twenty two minutes,the recess that followed
+E6,E7,2,m (Meets),False,The board deliberated for twenty two minutes,denied parole for another five years
+E6,E8,-1,> (Preceded By),False,The board deliberated for twenty two minutes,The prisoner had been denied four times before
+E6,E9,1,< (Precedes),False,The board deliberated for twenty two minutes,The prisoner returned to his cell
+E6,E10,5,d (During),False,The board deliberated for twenty two minutes,had been broken for eleven years
+E6,E11,-1,> (Preceded By),False,The board deliberated for twenty two minutes,his original conviction
+E6,E12,5,d (During),False,The board deliberated for twenty two minutes,He had asked for it to be fixed every year
+E6,E13,1,< (Precedes),False,The board deliberated for twenty two minutes,The guard who finally replaced it
+E6,E14,1,< (Precedes),False,The board deliberated for twenty two minutes,The prisoner looked at it for an hour
+E6,E15,1,< (Precedes),False,The board deliberated for twenty two minutes,he wrote a letter to his daughter
+E6,E16,-1,> (Preceded By),False,The board deliberated for twenty two minutes,his arrest
+E6,E17,1,< (Precedes),False,The board deliberated for twenty two minutes,The letter would take four days to arrive
+E7,E1,-1,> (Preceded By),False,denied parole for another five years,The prisoner had served twenty three years of a life sentence
+E7,E2,5,d (During),False,denied parole for another five years,the hearing would last ninety minutes
+E7,E3,-1,> (Preceded By),False,denied parole for another five years,His lawyer had prepared for three months
+E7,E4,-1,> (Preceded By),False,denied parole for another five years,The victim's family had submitted a statement
+E7,E5,-1,> (Preceded By),False,denied parole for another five years,the recess that followed
+E7,E6,-2,mi (Met By),False,denied parole for another five years,The board deliberated for twenty two minutes
+E7,E8,-1,> (Preceded By),False,denied parole for another five years,The prisoner had been denied four times before
+E7,E9,1,< (Precedes),False,denied parole for another five years,The prisoner returned to his cell
+E7,E10,5,d (During),False,denied parole for another five years,had been broken for eleven years
+E7,E11,-1,> (Preceded By),False,denied parole for another five years,his original conviction
+E7,E12,5,d (During),False,denied parole for another five years,He had asked for it to be fixed every year
+E7,E13,1,< (Precedes),False,denied parole for another five years,The guard who finally replaced it
+E7,E14,1,< (Precedes),False,denied parole for another five years,The prisoner looked at it for an hour
+E7,E15,1,< (Precedes),False,denied parole for another five years,he wrote a letter to his daughter
+E7,E16,-1,> (Preceded By),False,denied parole for another five years,his arrest
+E7,E17,1,< (Precedes),False,denied parole for another five years,The letter would take four days to arrive
+E8,E1,5,d (During),False,The prisoner had been denied four times before,The prisoner had served twenty three years of a life sentence
+E8,E2,1,< (Precedes),False,The prisoner had been denied four times before,the hearing would last ninety minutes
+E8,E3,1,< (Precedes),False,The prisoner had been denied four times before,His lawyer had prepared for three months
+E8,E4,1,< (Precedes),False,The prisoner had been denied four times before,The victim's family had submitted a statement
+E8,E5,1,< (Precedes),False,The prisoner had been denied four times before,the recess that followed
+E8,E6,1,< (Precedes),False,The prisoner had been denied four times before,The board deliberated for twenty two minutes
+E8,E7,1,< (Precedes),False,The prisoner had been denied four times before,denied parole for another five years
+E8,E9,1,< (Precedes),False,The prisoner had been denied four times before,The prisoner returned to his cell
+E8,E10,3,o (Overlaps),False,The prisoner had been denied four times before,had been broken for eleven years
+E8,E11,-1,> (Preceded By),False,The prisoner had been denied four times before,his original conviction
+E8,E12,3,o (Overlaps),False,The prisoner had been denied four times before,He had asked for it to be fixed every year
+E8,E13,1,< (Precedes),False,The prisoner had been denied four times before,The guard who finally replaced it
+E8,E14,1,< (Precedes),False,The prisoner had been denied four times before,The prisoner looked at it for an hour
+E8,E15,1,< (Precedes),False,The prisoner had been denied four times before,he wrote a letter to his daughter
+E8,E16,-1,> (Preceded By),False,The prisoner had been denied four times before,his arrest
+E8,E17,1,< (Precedes),False,The prisoner had been denied four times before,The letter would take four days to arrive
+E9,E1,-1,> (Preceded By),False,The prisoner returned to his cell,The prisoner had served twenty three years of a life sentence
+E9,E2,-1,> (Preceded By),False,The prisoner returned to his cell,the hearing would last ninety minutes
+E9,E3,-1,> (Preceded By),False,The prisoner returned to his cell,His lawyer had prepared for three months
+E9,E4,-1,> (Preceded By),False,The prisoner returned to his cell,The victim's family had submitted a statement
+E9,E5,-1,> (Preceded By),False,The prisoner returned to his cell,the recess that followed
+E9,E6,-1,> (Preceded By),False,The prisoner returned to his cell,The board deliberated for twenty two minutes
+E9,E7,-1,> (Preceded By),False,The prisoner returned to his cell,denied parole for another five years
+E9,E8,-1,> (Preceded By),False,The prisoner returned to his cell,The prisoner had been denied four times before
+E9,E10,5,d (During),False,The prisoner returned to his cell,had been broken for eleven years
+E9,E11,-1,> (Preceded By),False,The prisoner returned to his cell,his original conviction
+E9,E12,-1,> (Preceded By),False,The prisoner returned to his cell,He had asked for it to be fixed every year
+E9,E13,1,< (Precedes),False,The prisoner returned to his cell,The guard who finally replaced it
+E9,E14,1,< (Precedes),False,The prisoner returned to his cell,The prisoner looked at it for an hour
+E9,E15,1,< (Precedes),False,The prisoner returned to his cell,he wrote a letter to his daughter
+E9,E16,-1,> (Preceded By),False,The prisoner returned to his cell,his arrest
+E9,E17,1,< (Precedes),False,The prisoner returned to his cell,The letter would take four days to arrive
+E10,E1,-3,oi (Overlapped By),False,had been broken for eleven years,The prisoner had served twenty three years of a life sentence
+E10,E2,-5,di (Contains),False,had been broken for eleven years,the hearing would last ninety minutes
+E10,E3,-5,di (Contains),False,had been broken for eleven years,His lawyer had prepared for three months
+E10,E4,-5,di (Contains),False,had been broken for eleven years,The victim's family had submitted a statement
+E10,E5,-5,di (Contains),False,had been broken for eleven years,the recess that followed
+E10,E6,-5,di (Contains),False,had been broken for eleven years,The board deliberated for twenty two minutes
+E10,E7,-5,di (Contains),False,had been broken for eleven years,denied parole for another five years
+E10,E8,-3,oi (Overlapped By),False,had been broken for eleven years,The prisoner had been denied four times before
+E10,E9,-5,di (Contains),False,had been broken for eleven years,The prisoner returned to his cell
+E10,E11,-1,> (Preceded By),False,had been broken for eleven years,his original conviction
+E10,E12,-4,si (Started By),False,had been broken for eleven years,He had asked for it to be fixed every year
+E10,E13,2,m (Meets),False,had been broken for eleven years,The guard who finally replaced it
+E10,E14,1,< (Precedes),False,had been broken for eleven years,The prisoner looked at it for an hour
+E10,E15,1,< (Precedes),False,had been broken for eleven years,he wrote a letter to his daughter
+E10,E16,-1,> (Preceded By),False,had been broken for eleven years,his arrest
+E10,E17,1,< (Precedes),False,had been broken for eleven years,The letter would take four days to arrive
+E11,E1,4,s (Starts),False,his original conviction,The prisoner had served twenty three years of a life sentence
+E11,E2,1,< (Precedes),False,his original conviction,the hearing would last ninety minutes
+E11,E3,1,< (Precedes),False,his original conviction,His lawyer had prepared for three months
+E11,E4,1,< (Precedes),False,his original conviction,The victim's family had submitted a statement
+E11,E5,1,< (Precedes),False,his original conviction,the recess that followed
+E11,E6,1,< (Precedes),False,his original conviction,The board deliberated for twenty two minutes
+E11,E7,1,< (Precedes),False,his original conviction,denied parole for another five years
+E11,E8,1,< (Precedes),False,his original conviction,The prisoner had been denied four times before
+E11,E9,1,< (Precedes),False,his original conviction,The prisoner returned to his cell
+E11,E10,1,< (Precedes),False,his original conviction,had been broken for eleven years
+E11,E12,1,< (Precedes),False,his original conviction,He had asked for it to be fixed every year
+E11,E13,1,< (Precedes),False,his original conviction,The guard who finally replaced it
+E11,E14,1,< (Precedes),False,his original conviction,The prisoner looked at it for an hour
+E11,E15,1,< (Precedes),False,his original conviction,he wrote a letter to his daughter
+E11,E16,-1,> (Preceded By),False,his original conviction,his arrest
+E11,E17,1,< (Precedes),False,his original conviction,The letter would take four days to arrive
+E12,E1,-3,oi (Overlapped By),False,He had asked for it to be fixed every year,The prisoner had served twenty three years of a life sentence
+E12,E2,-6,fi (Finished By),False,He had asked for it to be fixed every year,the hearing would last ninety minutes
+E12,E3,-5,di (Contains),False,He had asked for it to be fixed every year,His lawyer had prepared for three months
+E12,E4,-5,di (Contains),False,He had asked for it to be fixed every year,The victim's family had submitted a statement
+E12,E5,-5,di (Contains),False,He had asked for it to be fixed every year,the recess that followed
+E12,E6,-5,di (Contains),False,He had asked for it to be fixed every year,The board deliberated for twenty two minutes
+E12,E7,-5,di (Contains),False,He had asked for it to be fixed every year,denied parole for another five years
+E12,E8,-3,oi (Overlapped By),False,He had asked for it to be fixed every year,The prisoner had been denied four times before
+E12,E9,1,< (Precedes),False,He had asked for it to be fixed every year,The prisoner returned to his cell
+E12,E10,4,s (Starts),False,He had asked for it to be fixed every year,had been broken for eleven years
+E12,E11,-1,> (Preceded By),False,He had asked for it to be fixed every year,his original conviction
+E12,E13,1,< (Precedes),False,He had asked for it to be fixed every year,The guard who finally replaced it
+E12,E14,1,< (Precedes),False,He had asked for it to be fixed every year,The prisoner looked at it for an hour
+E12,E15,1,< (Precedes),False,He had asked for it to be fixed every year,he wrote a letter to his daughter
+E12,E16,-1,> (Preceded By),False,He had asked for it to be fixed every year,his arrest
+E12,E17,1,< (Precedes),False,He had asked for it to be fixed every year,The letter would take four days to arrive
+E13,E1,-1,> (Preceded By),False,The guard who finally replaced it,The prisoner had served twenty three years of a life sentence
+E13,E2,-1,> (Preceded By),False,The guard who finally replaced it,the hearing would last ninety minutes
+E13,E3,-1,> (Preceded By),False,The guard who finally replaced it,His lawyer had prepared for three months
+E13,E4,-1,> (Preceded By),False,The guard who finally replaced it,The victim's family had submitted a statement
+E13,E5,-1,> (Preceded By),False,The guard who finally replaced it,the recess that followed
+E13,E6,-1,> (Preceded By),False,The guard who finally replaced it,The board deliberated for twenty two minutes
+E13,E7,-1,> (Preceded By),False,The guard who finally replaced it,denied parole for another five years
+E13,E8,-1,> (Preceded By),False,The guard who finally replaced it,The prisoner had been denied four times before
+E13,E9,-1,> (Preceded By),False,The guard who finally replaced it,The prisoner returned to his cell
+E13,E10,-2,mi (Met By),False,The guard who finally replaced it,had been broken for eleven years
+E13,E11,-1,> (Preceded By),False,The guard who finally replaced it,his original conviction
+E13,E12,-1,> (Preceded By),False,The guard who finally replaced it,He had asked for it to be fixed every year
+E13,E14,1,< (Precedes),False,The guard who finally replaced it,The prisoner looked at it for an hour
+E13,E15,1,< (Precedes),False,The guard who finally replaced it,he wrote a letter to his daughter
+E13,E16,-1,> (Preceded By),False,The guard who finally replaced it,his arrest
+E13,E17,1,< (Precedes),False,The guard who finally replaced it,The letter would take four days to arrive
+E14,E1,-1,> (Preceded By),False,The prisoner looked at it for an hour,The prisoner had served twenty three years of a life sentence
+E14,E2,-1,> (Preceded By),False,The prisoner looked at it for an hour,the hearing would last ninety minutes
+E14,E3,-1,> (Preceded By),False,The prisoner looked at it for an hour,His lawyer had prepared for three months
+E14,E4,-1,> (Preceded By),False,The prisoner looked at it for an hour,The victim's family had submitted a statement
+E14,E5,-1,> (Preceded By),False,The prisoner looked at it for an hour,the recess that followed
+E14,E6,-1,> (Preceded By),False,The prisoner looked at it for an hour,The board deliberated for twenty two minutes
+E14,E7,-1,> (Preceded By),False,The prisoner looked at it for an hour,denied parole for another five years
+E14,E8,-1,> (Preceded By),False,The prisoner looked at it for an hour,The prisoner had been denied four times before
+E14,E9,-1,> (Preceded By),False,The prisoner looked at it for an hour,The prisoner returned to his cell
+E14,E10,-1,> (Preceded By),False,The prisoner looked at it for an hour,had been broken for eleven years
+E14,E11,-1,> (Preceded By),False,The prisoner looked at it for an hour,his original conviction
+E14,E12,-1,> (Preceded By),False,The prisoner looked at it for an hour,He had asked for it to be fixed every year
+E14,E13,-1,> (Preceded By),False,The prisoner looked at it for an hour,The guard who finally replaced it
+E14,E15,1,< (Precedes),False,The prisoner looked at it for an hour,he wrote a letter to his daughter
+E14,E16,-1,> (Preceded By),False,The prisoner looked at it for an hour,his arrest
+E14,E17,1,< (Precedes),False,The prisoner looked at it for an hour,The letter would take four days to arrive
+E15,E1,-1,> (Preceded By),False,he wrote a letter to his daughter,The prisoner had served twenty three years of a life sentence
+E15,E2,-1,> (Preceded By),False,he wrote a letter to his daughter,the hearing would last ninety minutes
+E15,E3,-1,> (Preceded By),False,he wrote a letter to his daughter,His lawyer had prepared for three months
+E15,E4,-1,> (Preceded By),False,he wrote a letter to his daughter,The victim's family had submitted a statement
+E15,E5,-1,> (Preceded By),False,he wrote a letter to his daughter,the recess that followed
+E15,E6,-1,> (Preceded By),False,he wrote a letter to his daughter,The board deliberated for twenty two minutes
+E15,E7,-1,> (Preceded By),False,he wrote a letter to his daughter,denied parole for another five years
+E15,E8,-1,> (Preceded By),False,he wrote a letter to his daughter,The prisoner had been denied four times before
+E15,E9,-1,> (Preceded By),False,he wrote a letter to his daughter,The prisoner returned to his cell
+E15,E10,-1,> (Preceded By),False,he wrote a letter to his daughter,had been broken for eleven years
+E15,E11,-1,> (Preceded By),False,he wrote a letter to his daughter,his original conviction
+E15,E12,-1,> (Preceded By),False,he wrote a letter to his daughter,He had asked for it to be fixed every year
+E15,E13,-1,> (Preceded By),False,he wrote a letter to his daughter,The guard who finally replaced it
+E15,E14,-1,> (Preceded By),False,he wrote a letter to his daughter,The prisoner looked at it for an hour
+E15,E16,-1,> (Preceded By),False,he wrote a letter to his daughter,his arrest
+E15,E17,1,< (Precedes),False,he wrote a letter to his daughter,The letter would take four days to arrive
+E16,E1,1,< (Precedes),False,his arrest,The prisoner had served twenty three years of a life sentence
+E16,E2,1,< (Precedes),False,his arrest,the hearing would last ninety minutes
+E16,E3,1,< (Precedes),False,his arrest,His lawyer had prepared for three months
+E16,E4,1,< (Precedes),False,his arrest,The victim's family had submitted a statement
+E16,E5,1,< (Precedes),False,his arrest,the recess that followed
+E16,E6,1,< (Precedes),False,his arrest,The board deliberated for twenty two minutes
+E16,E7,1,< (Precedes),False,his arrest,denied parole for another five years
+E16,E8,1,< (Precedes),False,his arrest,The prisoner had been denied four times before
+E16,E9,1,< (Precedes),False,his arrest,The prisoner returned to his cell
+E16,E10,1,< (Precedes),False,his arrest,had been broken for eleven years
+E16,E11,1,< (Precedes),False,his arrest,his original conviction
+E16,E12,1,< (Precedes),False,his arrest,He had asked for it to be fixed every year
+E16,E13,1,< (Precedes),False,his arrest,The guard who finally replaced it
+E16,E14,1,< (Precedes),False,his arrest,The prisoner looked at it for an hour
+E16,E15,1,< (Precedes),False,his arrest,he wrote a letter to his daughter
+E16,E17,1,< (Precedes),False,his arrest,The letter would take four days to arrive
+E17,E1,-1,> (Preceded By),False,The letter would take four days to arrive,The prisoner had served twenty three years of a life sentence
+E17,E2,-1,> (Preceded By),False,The letter would take four days to arrive,the hearing would last ninety minutes
+E17,E3,-1,> (Preceded By),False,The letter would take four days to arrive,His lawyer had prepared for three months
+E17,E4,-1,> (Preceded By),False,The letter would take four days to arrive,The victim's family had submitted a statement
+E17,E5,-1,> (Preceded By),False,The letter would take four days to arrive,the recess that followed
+E17,E6,-1,> (Preceded By),False,The letter would take four days to arrive,The board deliberated for twenty two minutes
+E17,E7,-1,> (Preceded By),False,The letter would take four days to arrive,denied parole for another five years
+E17,E8,-1,> (Preceded By),False,The letter would take four days to arrive,The prisoner had been denied four times before
+E17,E9,-1,> (Preceded By),False,The letter would take four days to arrive,The prisoner returned to his cell
+E17,E10,-1,> (Preceded By),False,The letter would take four days to arrive,had been broken for eleven years
+E17,E11,-1,> (Preceded By),False,The letter would take four days to arrive,his original conviction
+E17,E12,-1,> (Preceded By),False,The letter would take four days to arrive,He had asked for it to be fixed every year
+E17,E13,-1,> (Preceded By),False,The letter would take four days to arrive,The guard who finally replaced it
+E17,E14,-1,> (Preceded By),False,The letter would take four days to arrive,The prisoner looked at it for an hour
+E17,E15,-1,> (Preceded By),False,The letter would take four days to arrive,he wrote a letter to his daughter
+E17,E16,-1,> (Preceded By),False,The letter would take four days to arrive,his arrest

@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,coral head's initial formation,the first funding proposal
+E1,E3,1,< (Precedes),False,coral head's initial formation,the widespread bleaching event
+E1,E4,1,< (Precedes),False,coral head's initial formation,lengthy grant approval
+E1,E5,1,< (Precedes),False,coral head's initial formation,grant's final approval
+E1,E6,1,< (Precedes),False,coral head's initial formation,the official expedition launch
+E1,E7,1,< (Precedes),False,coral head's initial formation,"massive storm system,"
+E1,E8,1,< (Precedes),False,coral head's initial formation,the researchers' total isolation
+E1,E9,1,< (Precedes),False,coral head's initial formation,first dive series
+E1,E10,1,< (Precedes),False,coral head's initial formation,young scientist's descent
+E1,E11,1,< (Precedes),False,coral head's initial formation,mandatory medical suspension
+E1,E12,1,< (Precedes),False,coral head's initial formation,the expedition's final day.
+E1,E13,4,s (Starts),False,coral head's initial formation,the reef's silent degradation
+E1,E14,4,s (Starts),False,coral head's initial formation,human timeline's complete irrelevance
+E2,E1,-1,> (Preceded By),False,the first funding proposal,coral head's initial formation
+E2,E3,1,< (Precedes),False,the first funding proposal,the widespread bleaching event
+E2,E4,1,< (Precedes),False,the first funding proposal,lengthy grant approval
+E2,E5,1,< (Precedes),False,the first funding proposal,grant's final approval
+E2,E6,1,< (Precedes),False,the first funding proposal,the official expedition launch
+E2,E7,1,< (Precedes),False,the first funding proposal,"massive storm system,"
+E2,E8,1,< (Precedes),False,the first funding proposal,the researchers' total isolation
+E2,E9,1,< (Precedes),False,the first funding proposal,first dive series
+E2,E10,1,< (Precedes),False,the first funding proposal,young scientist's descent
+E2,E11,1,< (Precedes),False,the first funding proposal,mandatory medical suspension
+E2,E12,1,< (Precedes),False,the first funding proposal,the expedition's final day.
+E2,E13,5,d (During),False,the first funding proposal,the reef's silent degradation
+E2,E14,5,d (During),False,the first funding proposal,human timeline's complete irrelevance
+E3,E1,-1,> (Preceded By),False,the widespread bleaching event,coral head's initial formation
+E3,E2,-1,> (Preceded By),False,the widespread bleaching event,the first funding proposal
+E3,E4,3,o (Overlaps),False,the widespread bleaching event,lengthy grant approval
+E3,E5,1,< (Precedes),False,the widespread bleaching event,grant's final approval
+E3,E6,1,< (Precedes),False,the widespread bleaching event,the official expedition launch
+E3,E7,1,< (Precedes),False,the widespread bleaching event,"massive storm system,"
+E3,E8,1,< (Precedes),False,the widespread bleaching event,the researchers' total isolation
+E3,E9,1,< (Precedes),False,the widespread bleaching event,first dive series
+E3,E10,1,< (Precedes),False,the widespread bleaching event,young scientist's descent
+E3,E11,1,< (Precedes),False,the widespread bleaching event,mandatory medical suspension
+E3,E12,1,< (Precedes),False,the widespread bleaching event,the expedition's final day.
+E3,E13,5,d (During),False,the widespread bleaching event,the reef's silent degradation
+E3,E14,5,d (During),False,the widespread bleaching event,human timeline's complete irrelevance
+E4,E1,-1,> (Preceded By),False,lengthy grant approval,coral head's initial formation
+E4,E2,-1,> (Preceded By),False,lengthy grant approval,the first funding proposal
+E4,E3,-3,oi (Overlapped By),False,lengthy grant approval,the widespread bleaching event
+E4,E5,-6,fi (Finished By),False,lengthy grant approval,grant's final approval
+E4,E6,2,m (Meets),False,lengthy grant approval,the official expedition launch
+E4,E7,1,< (Precedes),False,lengthy grant approval,"massive storm system,"
+E4,E8,1,< (Precedes),False,lengthy grant approval,the researchers' total isolation
+E4,E9,1,< (Precedes),False,lengthy grant approval,first dive series
+E4,E10,1,< (Precedes),False,lengthy grant approval,young scientist's descent
+E4,E11,1,< (Precedes),False,lengthy grant approval,mandatory medical suspension
+E4,E12,1,< (Precedes),False,lengthy grant approval,the expedition's final day.
+E4,E13,5,d (During),False,lengthy grant approval,the reef's silent degradation
+E4,E14,5,d (During),False,lengthy grant approval,human timeline's complete irrelevance
+E5,E1,-1,> (Preceded By),False,grant's final approval,coral head's initial formation
+E5,E2,-1,> (Preceded By),False,grant's final approval,the first funding proposal
+E5,E3,-1,> (Preceded By),False,grant's final approval,the widespread bleaching event
+E5,E4,6,f (Finishes),False,grant's final approval,lengthy grant approval
+E5,E6,2,m (Meets),False,grant's final approval,the official expedition launch
+E5,E7,1,< (Precedes),False,grant's final approval,"massive storm system,"
+E5,E8,1,< (Precedes),False,grant's final approval,the researchers' total isolation
+E5,E9,1,< (Precedes),False,grant's final approval,first dive series
+E5,E10,1,< (Precedes),False,grant's final approval,young scientist's descent
+E5,E11,1,< (Precedes),False,grant's final approval,mandatory medical suspension
+E5,E12,1,< (Precedes),False,grant's final approval,the expedition's final day.
+E5,E13,5,d (During),False,grant's final approval,the reef's silent degradation
+E5,E14,5,d (During),False,grant's final approval,human timeline's complete irrelevance
+E6,E1,-1,> (Preceded By),False,the official expedition launch,coral head's initial formation
+E6,E2,-1,> (Preceded By),False,the official expedition launch,the first funding proposal
+E6,E3,-1,> (Preceded By),False,the official expedition launch,the widespread bleaching event
+E6,E4,-2,mi (Met By),False,the official expedition launch,lengthy grant approval
+E6,E5,-2,mi (Met By),False,the official expedition launch,grant's final approval
+E6,E7,1,< (Precedes),False,the official expedition launch,"massive storm system,"
+E6,E8,1,< (Precedes),False,the official expedition launch,the researchers' total isolation
+E6,E9,1,< (Precedes),False,the official expedition launch,first dive series
+E6,E10,1,< (Precedes),False,the official expedition launch,young scientist's descent
+E6,E11,1,< (Precedes),False,the official expedition launch,mandatory medical suspension
+E6,E12,1,< (Precedes),False,the official expedition launch,the expedition's final day.
+E6,E13,5,d (During),False,the official expedition launch,the reef's silent degradation
+E6,E14,5,d (During),False,the official expedition launch,human timeline's complete irrelevance
+E7,E1,-1,> (Preceded By),False,"massive storm system,",coral head's initial formation
+E7,E2,-1,> (Preceded By),False,"massive storm system,",the first funding proposal
+E7,E3,-1,> (Preceded By),False,"massive storm system,",the widespread bleaching event
+E7,E4,-1,> (Preceded By),False,"massive storm system,",lengthy grant approval
+E7,E5,-1,> (Preceded By),False,"massive storm system,",grant's final approval
+E7,E6,-1,> (Preceded By),False,"massive storm system,",the official expedition launch
+E7,E8,-5,di (Contains),False,"massive storm system,",the researchers' total isolation
+E7,E9,1,< (Precedes),False,"massive storm system,",first dive series
+E7,E10,1,< (Precedes),False,"massive storm system,",young scientist's descent
+E7,E11,1,< (Precedes),False,"massive storm system,",mandatory medical suspension
+E7,E12,1,< (Precedes),False,"massive storm system,",the expedition's final day.
+E7,E13,5,d (During),False,"massive storm system,",the reef's silent degradation
+E7,E14,5,d (During),False,"massive storm system,",human timeline's complete irrelevance
+E8,E1,-1,> (Preceded By),False,the researchers' total isolation,coral head's initial formation
+E8,E2,-1,> (Preceded By),False,the researchers' total isolation,the first funding proposal
+E8,E3,-1,> (Preceded By),False,the researchers' total isolation,the widespread bleaching event
+E8,E4,-1,> (Preceded By),False,the researchers' total isolation,lengthy grant approval
+E8,E5,-1,> (Preceded By),False,the researchers' total isolation,grant's final approval
+E8,E6,-1,> (Preceded By),False,the researchers' total isolation,the official expedition launch
+E8,E7,5,d (During),False,the researchers' total isolation,"massive storm system,"
+E8,E9,1,< (Precedes),False,the researchers' total isolation,first dive series
+E8,E10,1,< (Precedes),False,the researchers' total isolation,young scientist's descent
+E8,E11,1,< (Precedes),False,the researchers' total isolation,mandatory medical suspension
+E8,E12,1,< (Precedes),False,the researchers' total isolation,the expedition's final day.
+E8,E13,5,d (During),False,the researchers' total isolation,the reef's silent degradation
+E8,E14,5,d (During),False,the researchers' total isolation,human timeline's complete irrelevance
+E9,E1,-1,> (Preceded By),False,first dive series,coral head's initial formation
+E9,E2,-1,> (Preceded By),False,first dive series,the first funding proposal
+E9,E3,-1,> (Preceded By),False,first dive series,the widespread bleaching event
+E9,E4,-1,> (Preceded By),False,first dive series,lengthy grant approval
+E9,E5,-1,> (Preceded By),False,first dive series,grant's final approval
+E9,E6,-1,> (Preceded By),False,first dive series,the official expedition launch
+E9,E7,-1,> (Preceded By),False,first dive series,"massive storm system,"
+E9,E8,-1,> (Preceded By),False,first dive series,the researchers' total isolation
+E9,E10,-4,si (Started By),False,first dive series,young scientist's descent
+E9,E11,1,< (Precedes),False,first dive series,mandatory medical suspension
+E9,E12,1,< (Precedes),False,first dive series,the expedition's final day.
+E9,E13,5,d (During),False,first dive series,the reef's silent degradation
+E9,E14,5,d (During),False,first dive series,human timeline's complete irrelevance
+E10,E1,-1,> (Preceded By),False,young scientist's descent,coral head's initial formation
+E10,E2,-1,> (Preceded By),False,young scientist's descent,the first funding proposal
+E10,E3,-1,> (Preceded By),False,young scientist's descent,the widespread bleaching event
+E10,E4,-1,> (Preceded By),False,young scientist's descent,lengthy grant approval
+E10,E5,-1,> (Preceded By),False,young scientist's descent,grant's final approval
+E10,E6,-1,> (Preceded By),False,young scientist's descent,the official expedition launch
+E10,E7,-1,> (Preceded By),False,young scientist's descent,"massive storm system,"
+E10,E8,-1,> (Preceded By),False,young scientist's descent,the researchers' total isolation
+E10,E9,4,s (Starts),False,young scientist's descent,first dive series
+E10,E11,1,< (Precedes),False,young scientist's descent,mandatory medical suspension
+E10,E12,1,< (Precedes),False,young scientist's descent,the expedition's final day.
+E10,E13,5,d (During),False,young scientist's descent,the reef's silent degradation
+E10,E14,5,d (During),False,young scientist's descent,human timeline's complete irrelevance
+E11,E1,-1,> (Preceded By),False,mandatory medical suspension,coral head's initial formation
+E11,E2,-1,> (Preceded By),False,mandatory medical suspension,the first funding proposal
+E11,E3,-1,> (Preceded By),False,mandatory medical suspension,the widespread bleaching event
+E11,E4,-1,> (Preceded By),False,mandatory medical suspension,lengthy grant approval
+E11,E5,-1,> (Preceded By),False,mandatory medical suspension,grant's final approval
+E11,E6,-1,> (Preceded By),False,mandatory medical suspension,the official expedition launch
+E11,E7,-1,> (Preceded By),False,mandatory medical suspension,"massive storm system,"
+E11,E8,-1,> (Preceded By),False,mandatory medical suspension,the researchers' total isolation
+E11,E9,-1,> (Preceded By),False,mandatory medical suspension,first dive series
+E11,E10,-1,> (Preceded By),False,mandatory medical suspension,young scientist's descent
+E11,E12,6,f (Finishes),False,mandatory medical suspension,the expedition's final day.
+E11,E13,6,f (Finishes),False,mandatory medical suspension,the reef's silent degradation
+E11,E14,6,f (Finishes),False,mandatory medical suspension,human timeline's complete irrelevance
+E12,E1,-1,> (Preceded By),False,the expedition's final day.,coral head's initial formation
+E12,E2,-1,> (Preceded By),False,the expedition's final day.,the first funding proposal
+E12,E3,-1,> (Preceded By),False,the expedition's final day.,the widespread bleaching event
+E12,E4,-1,> (Preceded By),False,the expedition's final day.,lengthy grant approval
+E12,E5,-1,> (Preceded By),False,the expedition's final day.,grant's final approval
+E12,E6,-1,> (Preceded By),False,the expedition's final day.,the official expedition launch
+E12,E7,-1,> (Preceded By),False,the expedition's final day.,"massive storm system,"
+E12,E8,-1,> (Preceded By),False,the expedition's final day.,the researchers' total isolation
+E12,E9,-1,> (Preceded By),False,the expedition's final day.,first dive series
+E12,E10,-1,> (Preceded By),False,the expedition's final day.,young scientist's descent
+E12,E11,-6,fi (Finished By),False,the expedition's final day.,mandatory medical suspension
+E12,E13,6,f (Finishes),False,the expedition's final day.,the reef's silent degradation
+E12,E14,6,f (Finishes),False,the expedition's final day.,human timeline's complete irrelevance
+E13,E1,-4,si (Started By),False,the reef's silent degradation,coral head's initial formation
+E13,E2,-5,di (Contains),False,the reef's silent degradation,the first funding proposal
+E13,E3,-5,di (Contains),False,the reef's silent degradation,the widespread bleaching event
+E13,E4,-5,di (Contains),False,the reef's silent degradation,lengthy grant approval
+E13,E5,-5,di (Contains),False,the reef's silent degradation,grant's final approval
+E13,E6,-5,di (Contains),False,the reef's silent degradation,the official expedition launch
+E13,E7,-5,di (Contains),False,the reef's silent degradation,"massive storm system,"
+E13,E8,-5,di (Contains),False,the reef's silent degradation,the researchers' total isolation
+E13,E9,-5,di (Contains),False,the reef's silent degradation,first dive series
+E13,E10,-5,di (Contains),False,the reef's silent degradation,young scientist's descent
+E13,E11,-6,fi (Finished By),False,the reef's silent degradation,mandatory medical suspension
+E13,E12,-6,fi (Finished By),False,the reef's silent degradation,the expedition's final day.
+E13,E14,0,= (Equal),False,the reef's silent degradation,human timeline's complete irrelevance
+E14,E1,-4,si (Started By),False,human timeline's complete irrelevance,coral head's initial formation
+E14,E2,-5,di (Contains),False,human timeline's complete irrelevance,the first funding proposal
+E14,E3,-5,di (Contains),False,human timeline's complete irrelevance,the widespread bleaching event
+E14,E4,-5,di (Contains),False,human timeline's complete irrelevance,lengthy grant approval
+E14,E5,-5,di (Contains),False,human timeline's complete irrelevance,grant's final approval
+E14,E6,-5,di (Contains),False,human timeline's complete irrelevance,the official expedition launch
+E14,E7,-5,di (Contains),False,human timeline's complete irrelevance,"massive storm system,"
+E14,E8,-5,di (Contains),False,human timeline's complete irrelevance,the researchers' total isolation
+E14,E9,-5,di (Contains),False,human timeline's complete irrelevance,first dive series
+E14,E10,-5,di (Contains),False,human timeline's complete irrelevance,young scientist's descent
+E14,E11,-6,fi (Finished By),False,human timeline's complete irrelevance,mandatory medical suspension
+E14,E12,-6,fi (Finished By),False,human timeline's complete irrelevance,the expedition's final day.
+E14,E13,0,= (Equal),False,human timeline's complete irrelevance,the reef's silent degradation

@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-3,oi (Overlapped By),False,the clerk owed the passenger's uncle a favor,taken three weeks to assemble
+E1,E3,-5,di (Contains),False,the clerk owed the passenger's uncle a favor,a tanker had jackknifed on it
+E1,E4,-5,di (Contains),False,the clerk owed the passenger's uncle a favor,Emeka chose the back streets
+E1,E5,-5,di (Contains),False,the clerk owed the passenger's uncle a favor,entered the market stretch
+E1,E6,-5,di (Contains),False,the clerk owed the passenger's uncle a favor,his passenger's phone rang
+E1,E7,-5,di (Contains),False,the clerk owed the passenger's uncle a favor,two counters reopened from lunch
+E1,E8,-5,di (Contains),False,the clerk owed the passenger's uncle a favor,reached the gate
+E1,E9,-6,fi (Finished By),False,the clerk owed the passenger's uncle a favor,were inside
+E1,E10,-5,di (Contains),False,the clerk owed the passenger's uncle a favor,saying the queue inside was already an hour long
+E1,E11,-5,di (Contains),False,the clerk owed the passenger's uncle a favor,assed while they were arguing with the tanker traffic
+E2,E1,3,o (Overlaps),False,taken three weeks to assemble,the clerk owed the passenger's uncle a favor
+E2,E3,1,< (Precedes),False,taken three weeks to assemble,a tanker had jackknifed on it
+E2,E4,1,< (Precedes),False,taken three weeks to assemble,Emeka chose the back streets
+E2,E5,1,< (Precedes),False,taken three weeks to assemble,entered the market stretch
+E2,E6,1,< (Precedes),False,taken three weeks to assemble,his passenger's phone rang
+E2,E7,1,< (Precedes),False,taken three weeks to assemble,two counters reopened from lunch
+E2,E8,1,< (Precedes),False,taken three weeks to assemble,reached the gate
+E2,E9,1,< (Precedes),False,taken three weeks to assemble,were inside
+E2,E10,1,< (Precedes),False,taken three weeks to assemble,saying the queue inside was already an hour long
+E2,E11,1,< (Precedes),False,taken three weeks to assemble,assed while they were arguing with the tanker traffic
+E3,E1,5,d (During),False,a tanker had jackknifed on it,the clerk owed the passenger's uncle a favor
+E3,E2,-1,> (Preceded By),False,a tanker had jackknifed on it,taken three weeks to assemble
+E3,E4,1,< (Precedes),False,a tanker had jackknifed on it,Emeka chose the back streets
+E3,E5,1,< (Precedes),False,a tanker had jackknifed on it,entered the market stretch
+E3,E6,1,< (Precedes),False,a tanker had jackknifed on it,his passenger's phone rang
+E3,E7,1,< (Precedes),False,a tanker had jackknifed on it,two counters reopened from lunch
+E3,E8,1,< (Precedes),False,a tanker had jackknifed on it,reached the gate
+E3,E9,1,< (Precedes),False,a tanker had jackknifed on it,were inside
+E3,E10,1,< (Precedes),False,a tanker had jackknifed on it,saying the queue inside was already an hour long
+E3,E11,1,< (Precedes),False,a tanker had jackknifed on it,assed while they were arguing with the tanker traffic
+E4,E1,5,d (During),False,Emeka chose the back streets,the clerk owed the passenger's uncle a favor
+E4,E2,-1,> (Preceded By),False,Emeka chose the back streets,taken three weeks to assemble
+E4,E3,-1,> (Preceded By),False,Emeka chose the back streets,a tanker had jackknifed on it
+E4,E5,1,< (Precedes),False,Emeka chose the back streets,entered the market stretch
+E4,E6,1,< (Precedes),False,Emeka chose the back streets,his passenger's phone rang
+E4,E7,1,< (Precedes),False,Emeka chose the back streets,two counters reopened from lunch
+E4,E8,1,< (Precedes),False,Emeka chose the back streets,reached the gate
+E4,E9,1,< (Precedes),False,Emeka chose the back streets,were inside
+E4,E10,1,< (Precedes),False,Emeka chose the back streets,saying the queue inside was already an hour long
+E4,E11,-1,> (Preceded By),False,Emeka chose the back streets,assed while they were arguing with the tanker traffic
+E5,E1,5,d (During),False,entered the market stretch,the clerk owed the passenger's uncle a favor
+E5,E2,-1,> (Preceded By),False,entered the market stretch,taken three weeks to assemble
+E5,E3,-1,> (Preceded By),False,entered the market stretch,a tanker had jackknifed on it
+E5,E4,-1,> (Preceded By),False,entered the market stretch,Emeka chose the back streets
+E5,E6,1,< (Precedes),False,entered the market stretch,his passenger's phone rang
+E5,E7,1,< (Precedes),False,entered the market stretch,two counters reopened from lunch
+E5,E8,1,< (Precedes),False,entered the market stretch,reached the gate
+E5,E9,1,< (Precedes),False,entered the market stretch,were inside
+E5,E10,1,< (Precedes),False,entered the market stretch,saying the queue inside was already an hour long
+E5,E11,-1,> (Preceded By),False,entered the market stretch,assed while they were arguing with the tanker traffic
+E6,E1,5,d (During),False,his passenger's phone rang,the clerk owed the passenger's uncle a favor
+E6,E2,-1,> (Preceded By),False,his passenger's phone rang,taken three weeks to assemble
+E6,E3,-1,> (Preceded By),False,his passenger's phone rang,a tanker had jackknifed on it
+E6,E4,-1,> (Preceded By),False,his passenger's phone rang,Emeka chose the back streets
+E6,E5,-1,> (Preceded By),False,his passenger's phone rang,entered the market stretch
+E6,E7,1,< (Precedes),False,his passenger's phone rang,two counters reopened from lunch
+E6,E8,1,< (Precedes),False,his passenger's phone rang,reached the gate
+E6,E9,1,< (Precedes),False,his passenger's phone rang,were inside
+E6,E10,2,m (Meets),False,his passenger's phone rang,saying the queue inside was already an hour long
+E6,E11,-1,> (Preceded By),False,his passenger's phone rang,assed while they were arguing with the tanker traffic
+E7,E1,5,d (During),False,two counters reopened from lunch,the clerk owed the passenger's uncle a favor
+E7,E2,-1,> (Preceded By),False,two counters reopened from lunch,taken three weeks to assemble
+E7,E3,-1,> (Preceded By),False,two counters reopened from lunch,a tanker had jackknifed on it
+E7,E4,-1,> (Preceded By),False,two counters reopened from lunch,Emeka chose the back streets
+E7,E5,-1,> (Preceded By),False,two counters reopened from lunch,entered the market stretch
+E7,E6,-1,> (Preceded By),False,two counters reopened from lunch,his passenger's phone rang
+E7,E8,1,< (Precedes),False,two counters reopened from lunch,reached the gate
+E7,E9,1,< (Precedes),False,two counters reopened from lunch,were inside
+E7,E10,-1,> (Preceded By),False,two counters reopened from lunch,saying the queue inside was already an hour long
+E7,E11,-1,> (Preceded By),False,two counters reopened from lunch,assed while they were arguing with the tanker traffic
+E8,E1,5,d (During),False,reached the gate,the clerk owed the passenger's uncle a favor
+E8,E2,-1,> (Preceded By),False,reached the gate,taken three weeks to assemble
+E8,E3,-1,> (Preceded By),False,reached the gate,a tanker had jackknifed on it
+E8,E4,-1,> (Preceded By),False,reached the gate,Emeka chose the back streets
+E8,E5,-1,> (Preceded By),False,reached the gate,entered the market stretch
+E8,E6,-1,> (Preceded By),False,reached the gate,his passenger's phone rang
+E8,E7,-1,> (Preceded By),False,reached the gate,two counters reopened from lunch
+E8,E9,2,m (Meets),False,reached the gate,were inside
+E8,E10,-1,> (Preceded By),False,reached the gate,saying the queue inside was already an hour long
+E8,E11,-1,> (Preceded By),False,reached the gate,assed while they were arguing with the tanker traffic
+E9,E1,6,f (Finishes),False,were inside,the clerk owed the passenger's uncle a favor
+E9,E2,-1,> (Preceded By),False,were inside,taken three weeks to assemble
+E9,E3,-1,> (Preceded By),False,were inside,a tanker had jackknifed on it
+E9,E4,-1,> (Preceded By),False,were inside,Emeka chose the back streets
+E9,E5,-1,> (Preceded By),False,were inside,entered the market stretch
+E9,E6,-1,> (Preceded By),False,were inside,his passenger's phone rang
+E9,E7,-1,> (Preceded By),False,were inside,two counters reopened from lunch
+E9,E8,-2,mi (Met By),False,were inside,reached the gate
+E9,E10,-1,> (Preceded By),False,were inside,saying the queue inside was already an hour long
+E9,E11,-1,> (Preceded By),False,were inside,assed while they were arguing with the tanker traffic
+E10,E1,5,d (During),False,saying the queue inside was already an hour long,the clerk owed the passenger's uncle a favor
+E10,E2,-1,> (Preceded By),False,saying the queue inside was already an hour long,taken three weeks to assemble
+E10,E3,-1,> (Preceded By),False,saying the queue inside was already an hour long,a tanker had jackknifed on it
+E10,E4,-1,> (Preceded By),False,saying the queue inside was already an hour long,Emeka chose the back streets
+E10,E5,-1,> (Preceded By),False,saying the queue inside was already an hour long,entered the market stretch
+E10,E6,-2,mi (Met By),False,saying the queue inside was already an hour long,his passenger's phone rang
+E10,E7,1,< (Precedes),False,saying the queue inside was already an hour long,two counters reopened from lunch
+E10,E8,1,< (Precedes),False,saying the queue inside was already an hour long,reached the gate
+E10,E9,1,< (Precedes),False,saying the queue inside was already an hour long,were inside
+E10,E11,-1,> (Preceded By),False,saying the queue inside was already an hour long,assed while they were arguing with the tanker traffic
+E11,E1,5,d (During),False,assed while they were arguing with the tanker traffic,the clerk owed the passenger's uncle a favor
+E11,E2,-1,> (Preceded By),False,assed while they were arguing with the tanker traffic,taken three weeks to assemble
+E11,E3,-1,> (Preceded By),False,assed while they were arguing with the tanker traffic,a tanker had jackknifed on it
+E11,E4,1,< (Precedes),False,assed while they were arguing with the tanker traffic,Emeka chose the back streets
+E11,E5,1,< (Precedes),False,assed while they were arguing with the tanker traffic,entered the market stretch
+E11,E6,1,< (Precedes),False,assed while they were arguing with the tanker traffic,his passenger's phone rang
+E11,E7,1,< (Precedes),False,assed while they were arguing with the tanker traffic,two counters reopened from lunch
+E11,E8,1,< (Precedes),False,assed while they were arguing with the tanker traffic,reached the gate
+E11,E9,1,< (Precedes),False,assed while they were arguing with the tanker traffic,were inside
+E11,E10,1,< (Precedes),False,assed while they were arguing with the tanker traffic,saying the queue inside was already an hour long

@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,the professor's comment during the proposal defense,the judge engine's uptime dashboard first flagged red
+E1,E3,1,< (Precedes),False,the professor's comment during the proposal defense,a call made from the library
+E1,E4,1,< (Precedes),False,the professor's comment during the proposal defense,Orin was still debugging the submission queue
+E1,E5,1,< (Precedes),False,the professor's comment during the proposal defense,the schema she'd altered
+E1,E6,1,< (Precedes),False,the professor's comment during the proposal defense,Tanzim rebuilt
+E1,E7,1,< (Precedes),False,the professor's comment during the proposal defense,a bug report filed
+E1,E8,1,< (Precedes),False,the professor's comment during the proposal defense,"an index that, by the time she saw his commit, had already been reverted"
+E1,E9,1,< (Precedes),False,the professor's comment during the proposal defense,the deadlock had first appeared during the stress test run
+E1,E10,1,< (Precedes),False,the professor's comment during the proposal defense,it originated
+E1,E11,1,< (Precedes),False,the professor's comment during the proposal defense,Orin would only generate
+E1,E12,1,< (Precedes),False,the professor's comment during the proposal defense,drafting the postmortem
+E1,E13,1,< (Precedes),False,the professor's comment during the proposal defense,the server clock drift introduced
+E1,E14,1,< (Precedes),False,the professor's comment during the proposal defense,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E1,E15,1,< (Precedes),False,the professor's comment during the proposal defense,"call with Tanzim that took place,"
+E2,E1,-1,> (Preceded By),False,the judge engine's uptime dashboard first flagged red,the professor's comment during the proposal defense
+E2,E3,2,m (Meets),False,the judge engine's uptime dashboard first flagged red,a call made from the library
+E2,E4,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,Orin was still debugging the submission queue
+E2,E5,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,the schema she'd altered
+E2,E6,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,Tanzim rebuilt
+E2,E7,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,a bug report filed
+E2,E8,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,"an index that, by the time she saw his commit, had already been reverted"
+E2,E9,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,the deadlock had first appeared during the stress test run
+E2,E10,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,it originated
+E2,E11,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,Orin would only generate
+E2,E12,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,drafting the postmortem
+E2,E13,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,the server clock drift introduced
+E2,E14,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E2,E15,1,< (Precedes),False,the judge engine's uptime dashboard first flagged red,"call with Tanzim that took place,"
+E3,E1,-1,> (Preceded By),False,a call made from the library,the professor's comment during the proposal defense
+E3,E2,-2,mi (Met By),False,a call made from the library,the judge engine's uptime dashboard first flagged red
+E3,E4,1,< (Precedes),False,a call made from the library,Orin was still debugging the submission queue
+E3,E5,1,< (Precedes),False,a call made from the library,the schema she'd altered
+E3,E6,1,< (Precedes),False,a call made from the library,Tanzim rebuilt
+E3,E7,1,< (Precedes),False,a call made from the library,a bug report filed
+E3,E8,1,< (Precedes),False,a call made from the library,"an index that, by the time she saw his commit, had already been reverted"
+E3,E9,1,< (Precedes),False,a call made from the library,the deadlock had first appeared during the stress test run
+E3,E10,1,< (Precedes),False,a call made from the library,it originated
+E3,E11,1,< (Precedes),False,a call made from the library,Orin would only generate
+E3,E12,1,< (Precedes),False,a call made from the library,drafting the postmortem
+E3,E13,1,< (Precedes),False,a call made from the library,the server clock drift introduced
+E3,E14,1,< (Precedes),False,a call made from the library,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E3,E15,1,< (Precedes),False,a call made from the library,"call with Tanzim that took place,"
+E4,E1,-1,> (Preceded By),False,Orin was still debugging the submission queue,the professor's comment during the proposal defense
+E4,E2,-1,> (Preceded By),False,Orin was still debugging the submission queue,the judge engine's uptime dashboard first flagged red
+E4,E3,-1,> (Preceded By),False,Orin was still debugging the submission queue,a call made from the library
+E4,E5,-5,di (Contains),False,Orin was still debugging the submission queue,the schema she'd altered
+E4,E6,-5,di (Contains),False,Orin was still debugging the submission queue,Tanzim rebuilt
+E4,E7,-1,> (Preceded By),False,Orin was still debugging the submission queue,a bug report filed
+E4,E8,-5,di (Contains),False,Orin was still debugging the submission queue,"an index that, by the time she saw his commit, had already been reverted"
+E4,E9,-5,di (Contains),False,Orin was still debugging the submission queue,the deadlock had first appeared during the stress test run
+E4,E10,-5,di (Contains),False,Orin was still debugging the submission queue,it originated
+E4,E11,1,< (Precedes),False,Orin was still debugging the submission queue,Orin would only generate
+E4,E12,3,o (Overlaps),False,Orin was still debugging the submission queue,drafting the postmortem
+E4,E13,-1,> (Preceded By),False,Orin was still debugging the submission queue,the server clock drift introduced
+E4,E14,-4,si (Started By),False,Orin was still debugging the submission queue,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E4,E15,1,< (Precedes),False,Orin was still debugging the submission queue,"call with Tanzim that took place,"
+E5,E1,-1,> (Preceded By),False,the schema she'd altered,the professor's comment during the proposal defense
+E5,E2,-1,> (Preceded By),False,the schema she'd altered,the judge engine's uptime dashboard first flagged red
+E5,E3,-1,> (Preceded By),False,the schema she'd altered,a call made from the library
+E5,E4,5,d (During),False,the schema she'd altered,Orin was still debugging the submission queue
+E5,E6,1,< (Precedes),False,the schema she'd altered,Tanzim rebuilt
+E5,E7,-1,> (Preceded By),False,the schema she'd altered,a bug report filed
+E5,E8,1,< (Precedes),False,the schema she'd altered,"an index that, by the time she saw his commit, had already been reverted"
+E5,E9,1,< (Precedes),False,the schema she'd altered,the deadlock had first appeared during the stress test run
+E5,E10,1,< (Precedes),False,the schema she'd altered,it originated
+E5,E11,1,< (Precedes),False,the schema she'd altered,Orin would only generate
+E5,E12,1,< (Precedes),False,the schema she'd altered,drafting the postmortem
+E5,E13,-1,> (Preceded By),False,the schema she'd altered,the server clock drift introduced
+E5,E14,-1,> (Preceded By),False,the schema she'd altered,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E5,E15,1,< (Precedes),False,the schema she'd altered,"call with Tanzim that took place,"
+E6,E1,-1,> (Preceded By),False,Tanzim rebuilt,the professor's comment during the proposal defense
+E6,E2,-1,> (Preceded By),False,Tanzim rebuilt,the judge engine's uptime dashboard first flagged red
+E6,E3,-1,> (Preceded By),False,Tanzim rebuilt,a call made from the library
+E6,E4,5,d (During),False,Tanzim rebuilt,Orin was still debugging the submission queue
+E6,E5,-1,> (Preceded By),False,Tanzim rebuilt,the schema she'd altered
+E6,E7,-1,> (Preceded By),False,Tanzim rebuilt,a bug report filed
+E6,E8,2,m (Meets),False,Tanzim rebuilt,"an index that, by the time she saw his commit, had already been reverted"
+E6,E9,1,< (Precedes),False,Tanzim rebuilt,the deadlock had first appeared during the stress test run
+E6,E10,1,< (Precedes),False,Tanzim rebuilt,it originated
+E6,E11,1,< (Precedes),False,Tanzim rebuilt,Orin would only generate
+E6,E12,1,< (Precedes),False,Tanzim rebuilt,drafting the postmortem
+E6,E13,-1,> (Preceded By),False,Tanzim rebuilt,the server clock drift introduced
+E6,E14,-1,> (Preceded By),False,Tanzim rebuilt,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E6,E15,1,< (Precedes),False,Tanzim rebuilt,"call with Tanzim that took place,"
+E7,E1,-1,> (Preceded By),False,a bug report filed,the professor's comment during the proposal defense
+E7,E2,-1,> (Preceded By),False,a bug report filed,the judge engine's uptime dashboard first flagged red
+E7,E3,-1,> (Preceded By),False,a bug report filed,a call made from the library
+E7,E4,1,< (Precedes),False,a bug report filed,Orin was still debugging the submission queue
+E7,E5,1,< (Precedes),False,a bug report filed,the schema she'd altered
+E7,E6,1,< (Precedes),False,a bug report filed,Tanzim rebuilt
+E7,E8,1,< (Precedes),False,a bug report filed,"an index that, by the time she saw his commit, had already been reverted"
+E7,E9,1,< (Precedes),False,a bug report filed,the deadlock had first appeared during the stress test run
+E7,E10,1,< (Precedes),False,a bug report filed,it originated
+E7,E11,1,< (Precedes),False,a bug report filed,Orin would only generate
+E7,E12,1,< (Precedes),False,a bug report filed,drafting the postmortem
+E7,E13,1,< (Precedes),False,a bug report filed,the server clock drift introduced
+E7,E14,1,< (Precedes),False,a bug report filed,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E7,E15,1,< (Precedes),False,a bug report filed,"call with Tanzim that took place,"
+E8,E1,-1,> (Preceded By),False,"an index that, by the time she saw his commit, had already been reverted",the professor's comment during the proposal defense
+E8,E2,-1,> (Preceded By),False,"an index that, by the time she saw his commit, had already been reverted",the judge engine's uptime dashboard first flagged red
+E8,E3,-1,> (Preceded By),False,"an index that, by the time she saw his commit, had already been reverted",a call made from the library
+E8,E4,5,d (During),False,"an index that, by the time she saw his commit, had already been reverted",Orin was still debugging the submission queue
+E8,E5,-1,> (Preceded By),False,"an index that, by the time she saw his commit, had already been reverted",the schema she'd altered
+E8,E6,-2,mi (Met By),False,"an index that, by the time she saw his commit, had already been reverted",Tanzim rebuilt
+E8,E7,-1,> (Preceded By),False,"an index that, by the time she saw his commit, had already been reverted",a bug report filed
+E8,E9,-5,di (Contains),False,"an index that, by the time she saw his commit, had already been reverted",the deadlock had first appeared during the stress test run
+E8,E10,-5,di (Contains),False,"an index that, by the time she saw his commit, had already been reverted",it originated
+E8,E11,1,< (Precedes),False,"an index that, by the time she saw his commit, had already been reverted",Orin would only generate
+E8,E12,2,m (Meets),False,"an index that, by the time she saw his commit, had already been reverted",drafting the postmortem
+E8,E13,-1,> (Preceded By),False,"an index that, by the time she saw his commit, had already been reverted",the server clock drift introduced
+E8,E14,-1,> (Preceded By),False,"an index that, by the time she saw his commit, had already been reverted","when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E8,E15,1,< (Precedes),False,"an index that, by the time she saw his commit, had already been reverted","call with Tanzim that took place,"
+E9,E1,-1,> (Preceded By),False,the deadlock had first appeared during the stress test run,the professor's comment during the proposal defense
+E9,E2,-1,> (Preceded By),False,the deadlock had first appeared during the stress test run,the judge engine's uptime dashboard first flagged red
+E9,E3,-1,> (Preceded By),False,the deadlock had first appeared during the stress test run,a call made from the library
+E9,E4,5,d (During),False,the deadlock had first appeared during the stress test run,Orin was still debugging the submission queue
+E9,E5,-1,> (Preceded By),False,the deadlock had first appeared during the stress test run,the schema she'd altered
+E9,E6,-1,> (Preceded By),False,the deadlock had first appeared during the stress test run,Tanzim rebuilt
+E9,E7,-1,> (Preceded By),False,the deadlock had first appeared during the stress test run,a bug report filed
+E9,E8,5,d (During),False,the deadlock had first appeared during the stress test run,"an index that, by the time she saw his commit, had already been reverted"
+E9,E10,1,< (Precedes),False,the deadlock had first appeared during the stress test run,it originated
+E9,E11,1,< (Precedes),False,the deadlock had first appeared during the stress test run,Orin would only generate
+E9,E12,1,< (Precedes),False,the deadlock had first appeared during the stress test run,drafting the postmortem
+E9,E13,-1,> (Preceded By),False,the deadlock had first appeared during the stress test run,the server clock drift introduced
+E9,E14,-1,> (Preceded By),False,the deadlock had first appeared during the stress test run,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E9,E15,1,< (Precedes),False,the deadlock had first appeared during the stress test run,"call with Tanzim that took place,"
+E10,E1,-1,> (Preceded By),False,it originated,the professor's comment during the proposal defense
+E10,E2,-1,> (Preceded By),False,it originated,the judge engine's uptime dashboard first flagged red
+E10,E3,-1,> (Preceded By),False,it originated,a call made from the library
+E10,E4,5,d (During),False,it originated,Orin was still debugging the submission queue
+E10,E5,-1,> (Preceded By),False,it originated,the schema she'd altered
+E10,E6,-1,> (Preceded By),False,it originated,Tanzim rebuilt
+E10,E7,-1,> (Preceded By),False,it originated,a bug report filed
+E10,E8,5,d (During),False,it originated,"an index that, by the time she saw his commit, had already been reverted"
+E10,E9,-1,> (Preceded By),False,it originated,the deadlock had first appeared during the stress test run
+E10,E11,1,< (Precedes),False,it originated,Orin would only generate
+E10,E12,1,< (Precedes),False,it originated,drafting the postmortem
+E10,E13,-1,> (Preceded By),False,it originated,the server clock drift introduced
+E10,E14,-1,> (Preceded By),False,it originated,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E10,E15,1,< (Precedes),False,it originated,"call with Tanzim that took place,"
+E11,E1,-1,> (Preceded By),False,Orin would only generate,the professor's comment during the proposal defense
+E11,E2,-1,> (Preceded By),False,Orin would only generate,the judge engine's uptime dashboard first flagged red
+E11,E3,-1,> (Preceded By),False,Orin would only generate,a call made from the library
+E11,E4,-1,> (Preceded By),False,Orin would only generate,Orin was still debugging the submission queue
+E11,E5,-1,> (Preceded By),False,Orin would only generate,the schema she'd altered
+E11,E6,-1,> (Preceded By),False,Orin would only generate,Tanzim rebuilt
+E11,E7,-1,> (Preceded By),False,Orin would only generate,a bug report filed
+E11,E8,-1,> (Preceded By),False,Orin would only generate,"an index that, by the time she saw his commit, had already been reverted"
+E11,E9,-1,> (Preceded By),False,Orin would only generate,the deadlock had first appeared during the stress test run
+E11,E10,-1,> (Preceded By),False,Orin would only generate,it originated
+E11,E12,-1,> (Preceded By),False,Orin would only generate,drafting the postmortem
+E11,E13,-1,> (Preceded By),False,Orin would only generate,the server clock drift introduced
+E11,E14,-1,> (Preceded By),False,Orin would only generate,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E11,E15,-1,> (Preceded By),False,Orin would only generate,"call with Tanzim that took place,"
+E12,E1,-1,> (Preceded By),False,drafting the postmortem,the professor's comment during the proposal defense
+E12,E2,-1,> (Preceded By),False,drafting the postmortem,the judge engine's uptime dashboard first flagged red
+E12,E3,-1,> (Preceded By),False,drafting the postmortem,a call made from the library
+E12,E4,-3,oi (Overlapped By),False,drafting the postmortem,Orin was still debugging the submission queue
+E12,E5,-1,> (Preceded By),False,drafting the postmortem,the schema she'd altered
+E12,E6,-1,> (Preceded By),False,drafting the postmortem,Tanzim rebuilt
+E12,E7,-1,> (Preceded By),False,drafting the postmortem,a bug report filed
+E12,E8,-2,mi (Met By),False,drafting the postmortem,"an index that, by the time she saw his commit, had already been reverted"
+E12,E9,-1,> (Preceded By),False,drafting the postmortem,the deadlock had first appeared during the stress test run
+E12,E10,-1,> (Preceded By),False,drafting the postmortem,it originated
+E12,E11,1,< (Precedes),False,drafting the postmortem,Orin would only generate
+E12,E13,-1,> (Preceded By),False,drafting the postmortem,the server clock drift introduced
+E12,E14,-1,> (Preceded By),False,drafting the postmortem,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E12,E15,-5,di (Contains),False,drafting the postmortem,"call with Tanzim that took place,"
+E13,E1,-1,> (Preceded By),False,the server clock drift introduced,the professor's comment during the proposal defense
+E13,E2,-1,> (Preceded By),False,the server clock drift introduced,the judge engine's uptime dashboard first flagged red
+E13,E3,-1,> (Preceded By),False,the server clock drift introduced,a call made from the library
+E13,E4,1,< (Precedes),False,the server clock drift introduced,Orin was still debugging the submission queue
+E13,E5,1,< (Precedes),False,the server clock drift introduced,the schema she'd altered
+E13,E6,1,< (Precedes),False,the server clock drift introduced,Tanzim rebuilt
+E13,E7,-1,> (Preceded By),False,the server clock drift introduced,a bug report filed
+E13,E8,1,< (Precedes),False,the server clock drift introduced,"an index that, by the time she saw his commit, had already been reverted"
+E13,E9,1,< (Precedes),False,the server clock drift introduced,the deadlock had first appeared during the stress test run
+E13,E10,1,< (Precedes),False,the server clock drift introduced,it originated
+E13,E11,1,< (Precedes),False,the server clock drift introduced,Orin would only generate
+E13,E12,1,< (Precedes),False,the server clock drift introduced,drafting the postmortem
+E13,E14,1,< (Precedes),False,the server clock drift introduced,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"
+E13,E15,1,< (Precedes),False,the server clock drift introduced,"call with Tanzim that took place,"
+E14,E1,-1,> (Preceded By),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",the professor's comment during the proposal defense
+E14,E2,-1,> (Preceded By),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",the judge engine's uptime dashboard first flagged red
+E14,E3,-1,> (Preceded By),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",a call made from the library
+E14,E4,4,s (Starts),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",Orin was still debugging the submission queue
+E14,E5,1,< (Precedes),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",the schema she'd altered
+E14,E6,1,< (Precedes),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",Tanzim rebuilt
+E14,E7,-1,> (Preceded By),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",a bug report filed
+E14,E8,1,< (Precedes),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend","an index that, by the time she saw his commit, had already been reverted"
+E14,E9,1,< (Precedes),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",the deadlock had first appeared during the stress test run
+E14,E10,1,< (Precedes),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",it originated
+E14,E11,1,< (Precedes),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",Orin would only generate
+E14,E12,1,< (Precedes),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",drafting the postmortem
+E14,E13,-1,> (Preceded By),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend",the server clock drift introduced
+E14,E15,1,< (Precedes),False,"when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend","call with Tanzim that took place,"
+E15,E1,-1,> (Preceded By),False,"call with Tanzim that took place,",the professor's comment during the proposal defense
+E15,E2,-1,> (Preceded By),False,"call with Tanzim that took place,",the judge engine's uptime dashboard first flagged red
+E15,E3,-1,> (Preceded By),False,"call with Tanzim that took place,",a call made from the library
+E15,E4,-1,> (Preceded By),False,"call with Tanzim that took place,",Orin was still debugging the submission queue
+E15,E5,-1,> (Preceded By),False,"call with Tanzim that took place,",the schema she'd altered
+E15,E6,-1,> (Preceded By),False,"call with Tanzim that took place,",Tanzim rebuilt
+E15,E7,-1,> (Preceded By),False,"call with Tanzim that took place,",a bug report filed
+E15,E8,-1,> (Preceded By),False,"call with Tanzim that took place,","an index that, by the time she saw his commit, had already been reverted"
+E15,E9,-1,> (Preceded By),False,"call with Tanzim that took place,",the deadlock had first appeared during the stress test run
+E15,E10,-1,> (Preceded By),False,"call with Tanzim that took place,",it originated
+E15,E11,1,< (Precedes),False,"call with Tanzim that took place,",Orin would only generate
+E15,E12,5,d (During),False,"call with Tanzim that took place,",drafting the postmortem
+E15,E13,-1,> (Preceded By),False,"call with Tanzim that took place,",the server clock drift introduced
+E15,E14,-1,> (Preceded By),False,"call with Tanzim that took place,","when the team migrated the judge engine from the lab machines to the cloud instance, a migration completed the same weekend"

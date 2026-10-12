@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-1,> (Preceded By),False,The total solar eclipse lasted two minutes and thirty three seconds,A photographer travelled from New York to Wyoming
+E1,E3,-1,> (Preceded By),False,The total solar eclipse lasted two minutes and thirty three seconds,by train for six days
+E1,E4,-1,> (Preceded By),False,The total solar eclipse lasted two minutes and thirty three seconds,by wagon for two more
+E1,E5,-1,> (Preceded By),False,The total solar eclipse lasted two minutes and thirty three seconds,He set up his camera in a field
+E1,E6,-1,> (Preceded By),False,The total solar eclipse lasted two minutes and thirty three seconds,aligned it over three hours
+E1,E7,0,= (Equal),False,The total solar eclipse lasted two minutes and thirty three seconds,exposed a single plate during totality
+E1,E8,1,< (Precedes),False,The total solar eclipse lasted two minutes and thirty three seconds,The plate was developed that night
+E1,E9,1,< (Precedes),False,The total solar eclipse lasted two minutes and thirty three seconds,The print was exhibited in New York the following month
+E1,E10,1,< (Precedes),False,The total solar eclipse lasted two minutes and thirty three seconds,The glass plate was stored in a box
+E1,E11,1,< (Precedes),False,The total solar eclipse lasted two minutes and thirty three seconds,rediscovered in 1978
+E1,E12,1,< (Precedes),False,The total solar eclipse lasted two minutes and thirty three seconds,the next eclipse that crossed the same continent
+E1,E13,1,< (Precedes),False,The total solar eclipse lasted two minutes and thirty three seconds,The plate was digitised in 2017
+E1,E14,1,< (Precedes),False,The total solar eclipse lasted two minutes and thirty three seconds,The digital image was viewed online by three million people in the first week
+E2,E1,1,< (Precedes),False,A photographer travelled from New York to Wyoming,The total solar eclipse lasted two minutes and thirty three seconds
+E2,E3,-4,si (Started By),False,A photographer travelled from New York to Wyoming,by train for six days
+E2,E4,-6,fi (Finished By),False,A photographer travelled from New York to Wyoming,by wagon for two more
+E2,E5,1,< (Precedes),False,A photographer travelled from New York to Wyoming,He set up his camera in a field
+E2,E6,1,< (Precedes),False,A photographer travelled from New York to Wyoming,aligned it over three hours
+E2,E7,1,< (Precedes),False,A photographer travelled from New York to Wyoming,exposed a single plate during totality
+E2,E8,1,< (Precedes),False,A photographer travelled from New York to Wyoming,The plate was developed that night
+E2,E9,1,< (Precedes),False,A photographer travelled from New York to Wyoming,The print was exhibited in New York the following month
+E2,E10,1,< (Precedes),False,A photographer travelled from New York to Wyoming,The glass plate was stored in a box
+E2,E11,1,< (Precedes),False,A photographer travelled from New York to Wyoming,rediscovered in 1978
+E2,E12,1,< (Precedes),False,A photographer travelled from New York to Wyoming,the next eclipse that crossed the same continent
+E2,E13,1,< (Precedes),False,A photographer travelled from New York to Wyoming,The plate was digitised in 2017
+E2,E14,1,< (Precedes),False,A photographer travelled from New York to Wyoming,The digital image was viewed online by three million people in the first week
+E3,E1,1,< (Precedes),False,by train for six days,The total solar eclipse lasted two minutes and thirty three seconds
+E3,E2,4,s (Starts),False,by train for six days,A photographer travelled from New York to Wyoming
+E3,E4,2,m (Meets),False,by train for six days,by wagon for two more
+E3,E5,1,< (Precedes),False,by train for six days,He set up his camera in a field
+E3,E6,1,< (Precedes),False,by train for six days,aligned it over three hours
+E3,E7,1,< (Precedes),False,by train for six days,exposed a single plate during totality
+E3,E8,1,< (Precedes),False,by train for six days,The plate was developed that night
+E3,E9,1,< (Precedes),False,by train for six days,The print was exhibited in New York the following month
+E3,E10,1,< (Precedes),False,by train for six days,The glass plate was stored in a box
+E3,E11,1,< (Precedes),False,by train for six days,rediscovered in 1978
+E3,E12,1,< (Precedes),False,by train for six days,the next eclipse that crossed the same continent
+E3,E13,1,< (Precedes),False,by train for six days,The plate was digitised in 2017
+E3,E14,1,< (Precedes),False,by train for six days,The digital image was viewed online by three million people in the first week
+E4,E1,1,< (Precedes),False,by wagon for two more,The total solar eclipse lasted two minutes and thirty three seconds
+E4,E2,6,f (Finishes),False,by wagon for two more,A photographer travelled from New York to Wyoming
+E4,E3,-2,mi (Met By),False,by wagon for two more,by train for six days
+E4,E5,1,< (Precedes),False,by wagon for two more,He set up his camera in a field
+E4,E6,1,< (Precedes),False,by wagon for two more,aligned it over three hours
+E4,E7,1,< (Precedes),False,by wagon for two more,exposed a single plate during totality
+E4,E8,1,< (Precedes),False,by wagon for two more,The plate was developed that night
+E4,E9,1,< (Precedes),False,by wagon for two more,The print was exhibited in New York the following month
+E4,E10,1,< (Precedes),False,by wagon for two more,The glass plate was stored in a box
+E4,E11,1,< (Precedes),False,by wagon for two more,rediscovered in 1978
+E4,E12,1,< (Precedes),False,by wagon for two more,the next eclipse that crossed the same continent
+E4,E13,1,< (Precedes),False,by wagon for two more,The plate was digitised in 2017
+E4,E14,1,< (Precedes),False,by wagon for two more,The digital image was viewed online by three million people in the first week
+E5,E1,1,< (Precedes),False,He set up his camera in a field,The total solar eclipse lasted two minutes and thirty three seconds
+E5,E2,-1,> (Preceded By),False,He set up his camera in a field,A photographer travelled from New York to Wyoming
+E5,E3,-1,> (Preceded By),False,He set up his camera in a field,by train for six days
+E5,E4,-1,> (Preceded By),False,He set up his camera in a field,by wagon for two more
+E5,E6,2,m (Meets),False,He set up his camera in a field,aligned it over three hours
+E5,E7,1,< (Precedes),False,He set up his camera in a field,exposed a single plate during totality
+E5,E8,1,< (Precedes),False,He set up his camera in a field,The plate was developed that night
+E5,E9,1,< (Precedes),False,He set up his camera in a field,The print was exhibited in New York the following month
+E5,E10,1,< (Precedes),False,He set up his camera in a field,The glass plate was stored in a box
+E5,E11,1,< (Precedes),False,He set up his camera in a field,rediscovered in 1978
+E5,E12,1,< (Precedes),False,He set up his camera in a field,the next eclipse that crossed the same continent
+E5,E13,1,< (Precedes),False,He set up his camera in a field,The plate was digitised in 2017
+E5,E14,1,< (Precedes),False,He set up his camera in a field,The digital image was viewed online by three million people in the first week
+E6,E1,1,< (Precedes),False,aligned it over three hours,The total solar eclipse lasted two minutes and thirty three seconds
+E6,E2,-1,> (Preceded By),False,aligned it over three hours,A photographer travelled from New York to Wyoming
+E6,E3,-1,> (Preceded By),False,aligned it over three hours,by train for six days
+E6,E4,-1,> (Preceded By),False,aligned it over three hours,by wagon for two more
+E6,E5,-2,mi (Met By),False,aligned it over three hours,He set up his camera in a field
+E6,E7,1,< (Precedes),False,aligned it over three hours,exposed a single plate during totality
+E6,E8,1,< (Precedes),False,aligned it over three hours,The plate was developed that night
+E6,E9,1,< (Precedes),False,aligned it over three hours,The print was exhibited in New York the following month
+E6,E10,1,< (Precedes),False,aligned it over three hours,The glass plate was stored in a box
+E6,E11,1,< (Precedes),False,aligned it over three hours,rediscovered in 1978
+E6,E12,1,< (Precedes),False,aligned it over three hours,the next eclipse that crossed the same continent
+E6,E13,1,< (Precedes),False,aligned it over three hours,The plate was digitised in 2017
+E6,E14,1,< (Precedes),False,aligned it over three hours,The digital image was viewed online by three million people in the first week
+E7,E1,0,= (Equal),False,exposed a single plate during totality,The total solar eclipse lasted two minutes and thirty three seconds
+E7,E2,-1,> (Preceded By),False,exposed a single plate during totality,A photographer travelled from New York to Wyoming
+E7,E3,-1,> (Preceded By),False,exposed a single plate during totality,by train for six days
+E7,E4,-1,> (Preceded By),False,exposed a single plate during totality,by wagon for two more
+E7,E5,-1,> (Preceded By),False,exposed a single plate during totality,He set up his camera in a field
+E7,E6,-1,> (Preceded By),False,exposed a single plate during totality,aligned it over three hours
+E7,E8,1,< (Precedes),False,exposed a single plate during totality,The plate was developed that night
+E7,E9,1,< (Precedes),False,exposed a single plate during totality,The print was exhibited in New York the following month
+E7,E10,1,< (Precedes),False,exposed a single plate during totality,The glass plate was stored in a box
+E7,E11,1,< (Precedes),False,exposed a single plate during totality,rediscovered in 1978
+E7,E12,1,< (Precedes),False,exposed a single plate during totality,the next eclipse that crossed the same continent
+E7,E13,1,< (Precedes),False,exposed a single plate during totality,The plate was digitised in 2017
+E7,E14,1,< (Precedes),False,exposed a single plate during totality,The digital image was viewed online by three million people in the first week
+E8,E1,-1,> (Preceded By),False,The plate was developed that night,The total solar eclipse lasted two minutes and thirty three seconds
+E8,E2,-1,> (Preceded By),False,The plate was developed that night,A photographer travelled from New York to Wyoming
+E8,E3,-1,> (Preceded By),False,The plate was developed that night,by train for six days
+E8,E4,-1,> (Preceded By),False,The plate was developed that night,by wagon for two more
+E8,E5,-1,> (Preceded By),False,The plate was developed that night,He set up his camera in a field
+E8,E6,-1,> (Preceded By),False,The plate was developed that night,aligned it over three hours
+E8,E7,-1,> (Preceded By),False,The plate was developed that night,exposed a single plate during totality
+E8,E9,1,< (Precedes),False,The plate was developed that night,The print was exhibited in New York the following month
+E8,E10,1,< (Precedes),False,The plate was developed that night,The glass plate was stored in a box
+E8,E11,1,< (Precedes),False,The plate was developed that night,rediscovered in 1978
+E8,E12,1,< (Precedes),False,The plate was developed that night,the next eclipse that crossed the same continent
+E8,E13,1,< (Precedes),False,The plate was developed that night,The plate was digitised in 2017
+E8,E14,1,< (Precedes),False,The plate was developed that night,The digital image was viewed online by three million people in the first week
+E9,E1,-1,> (Preceded By),False,The print was exhibited in New York the following month,The total solar eclipse lasted two minutes and thirty three seconds
+E9,E2,-1,> (Preceded By),False,The print was exhibited in New York the following month,A photographer travelled from New York to Wyoming
+E9,E3,-1,> (Preceded By),False,The print was exhibited in New York the following month,by train for six days
+E9,E4,-1,> (Preceded By),False,The print was exhibited in New York the following month,by wagon for two more
+E9,E5,-1,> (Preceded By),False,The print was exhibited in New York the following month,He set up his camera in a field
+E9,E6,-1,> (Preceded By),False,The print was exhibited in New York the following month,aligned it over three hours
+E9,E7,-1,> (Preceded By),False,The print was exhibited in New York the following month,exposed a single plate during totality
+E9,E8,-1,> (Preceded By),False,The print was exhibited in New York the following month,The plate was developed that night
+E9,E10,1,< (Precedes),False,The print was exhibited in New York the following month,The glass plate was stored in a box
+E9,E11,1,< (Precedes),False,The print was exhibited in New York the following month,rediscovered in 1978
+E9,E12,1,< (Precedes),False,The print was exhibited in New York the following month,the next eclipse that crossed the same continent
+E9,E13,1,< (Precedes),False,The print was exhibited in New York the following month,The plate was digitised in 2017
+E9,E14,1,< (Precedes),False,The print was exhibited in New York the following month,The digital image was viewed online by three million people in the first week
+E10,E1,-1,> (Preceded By),False,The glass plate was stored in a box,The total solar eclipse lasted two minutes and thirty three seconds
+E10,E2,-1,> (Preceded By),False,The glass plate was stored in a box,A photographer travelled from New York to Wyoming
+E10,E3,-1,> (Preceded By),False,The glass plate was stored in a box,by train for six days
+E10,E4,-1,> (Preceded By),False,The glass plate was stored in a box,by wagon for two more
+E10,E5,-1,> (Preceded By),False,The glass plate was stored in a box,He set up his camera in a field
+E10,E6,-1,> (Preceded By),False,The glass plate was stored in a box,aligned it over three hours
+E10,E7,-1,> (Preceded By),False,The glass plate was stored in a box,exposed a single plate during totality
+E10,E8,-1,> (Preceded By),False,The glass plate was stored in a box,The plate was developed that night
+E10,E9,-1,> (Preceded By),False,The glass plate was stored in a box,The print was exhibited in New York the following month
+E10,E11,1,< (Precedes),False,The glass plate was stored in a box,rediscovered in 1978
+E10,E12,1,< (Precedes),False,The glass plate was stored in a box,the next eclipse that crossed the same continent
+E10,E13,1,< (Precedes),False,The glass plate was stored in a box,The plate was digitised in 2017
+E10,E14,1,< (Precedes),False,The glass plate was stored in a box,The digital image was viewed online by three million people in the first week
+E11,E1,-1,> (Preceded By),False,rediscovered in 1978,The total solar eclipse lasted two minutes and thirty three seconds
+E11,E2,-1,> (Preceded By),False,rediscovered in 1978,A photographer travelled from New York to Wyoming
+E11,E3,-1,> (Preceded By),False,rediscovered in 1978,by train for six days
+E11,E4,-1,> (Preceded By),False,rediscovered in 1978,by wagon for two more
+E11,E5,-1,> (Preceded By),False,rediscovered in 1978,He set up his camera in a field
+E11,E6,-1,> (Preceded By),False,rediscovered in 1978,aligned it over three hours
+E11,E7,-1,> (Preceded By),False,rediscovered in 1978,exposed a single plate during totality
+E11,E8,-1,> (Preceded By),False,rediscovered in 1978,The plate was developed that night
+E11,E9,-1,> (Preceded By),False,rediscovered in 1978,The print was exhibited in New York the following month
+E11,E10,-1,> (Preceded By),False,rediscovered in 1978,The glass plate was stored in a box
+E11,E12,0,= (Equal),False,rediscovered in 1978,the next eclipse that crossed the same continent
+E11,E13,1,< (Precedes),False,rediscovered in 1978,The plate was digitised in 2017
+E11,E14,1,< (Precedes),False,rediscovered in 1978,The digital image was viewed online by three million people in the first week
+E12,E1,-1,> (Preceded By),False,the next eclipse that crossed the same continent,The total solar eclipse lasted two minutes and thirty three seconds
+E12,E2,-1,> (Preceded By),False,the next eclipse that crossed the same continent,A photographer travelled from New York to Wyoming
+E12,E3,-1,> (Preceded By),False,the next eclipse that crossed the same continent,by train for six days
+E12,E4,-1,> (Preceded By),False,the next eclipse that crossed the same continent,by wagon for two more
+E12,E5,-1,> (Preceded By),False,the next eclipse that crossed the same continent,He set up his camera in a field
+E12,E6,-1,> (Preceded By),False,the next eclipse that crossed the same continent,aligned it over three hours
+E12,E7,-1,> (Preceded By),False,the next eclipse that crossed the same continent,exposed a single plate during totality
+E12,E8,-1,> (Preceded By),False,the next eclipse that crossed the same continent,The plate was developed that night
+E12,E9,-1,> (Preceded By),False,the next eclipse that crossed the same continent,The print was exhibited in New York the following month
+E12,E10,-1,> (Preceded By),False,the next eclipse that crossed the same continent,The glass plate was stored in a box
+E12,E11,0,= (Equal),False,the next eclipse that crossed the same continent,rediscovered in 1978
+E12,E13,1,< (Precedes),False,the next eclipse that crossed the same continent,The plate was digitised in 2017
+E12,E14,1,< (Precedes),False,the next eclipse that crossed the same continent,The digital image was viewed online by three million people in the first week
+E13,E1,-1,> (Preceded By),False,The plate was digitised in 2017,The total solar eclipse lasted two minutes and thirty three seconds
+E13,E2,-1,> (Preceded By),False,The plate was digitised in 2017,A photographer travelled from New York to Wyoming
+E13,E3,-1,> (Preceded By),False,The plate was digitised in 2017,by train for six days
+E13,E4,-1,> (Preceded By),False,The plate was digitised in 2017,by wagon for two more
+E13,E5,-1,> (Preceded By),False,The plate was digitised in 2017,He set up his camera in a field
+E13,E6,-1,> (Preceded By),False,The plate was digitised in 2017,aligned it over three hours
+E13,E7,-1,> (Preceded By),False,The plate was digitised in 2017,exposed a single plate during totality
+E13,E8,-1,> (Preceded By),False,The plate was digitised in 2017,The plate was developed that night
+E13,E9,-1,> (Preceded By),False,The plate was digitised in 2017,The print was exhibited in New York the following month
+E13,E10,-1,> (Preceded By),False,The plate was digitised in 2017,The glass plate was stored in a box
+E13,E11,-1,> (Preceded By),False,The plate was digitised in 2017,rediscovered in 1978
+E13,E12,-1,> (Preceded By),False,The plate was digitised in 2017,the next eclipse that crossed the same continent
+E13,E14,2,m (Meets),False,The plate was digitised in 2017,The digital image was viewed online by three million people in the first week
+E14,E1,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,The total solar eclipse lasted two minutes and thirty three seconds
+E14,E2,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,A photographer travelled from New York to Wyoming
+E14,E3,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,by train for six days
+E14,E4,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,by wagon for two more
+E14,E5,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,He set up his camera in a field
+E14,E6,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,aligned it over three hours
+E14,E7,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,exposed a single plate during totality
+E14,E8,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,The plate was developed that night
+E14,E9,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,The print was exhibited in New York the following month
+E14,E10,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,The glass plate was stored in a box
+E14,E11,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,rediscovered in 1978
+E14,E12,-1,> (Preceded By),False,The digital image was viewed online by three million people in the first week,the next eclipse that crossed the same continent
+E14,E13,-2,mi (Met By),False,The digital image was viewed online by three million people in the first week,The plate was digitised in 2017

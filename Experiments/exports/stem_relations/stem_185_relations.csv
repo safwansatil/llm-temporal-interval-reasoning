@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,The sequence had been written,reviewed across fourteen months
+E1,E3,1,< (Precedes),False,The sequence had been written,uploaded
+E1,E4,1,< (Precedes),False,The sequence had been written,the engineer who led its design retired
+E1,E5,1,< (Precedes),False,The sequence had been written,a memory fault triggered the backup sequence
+E1,E6,1,< (Precedes),False,The sequence had been written,the backup performed flawlessly
+E1,E7,1,< (Precedes),False,The sequence had been written,The first images arrived
+E1,E8,1,< (Precedes),False,The sequence had been written,applause in a room of people
+E1,E9,1,< (Precedes),False,The sequence had been written,upload
+E1,E10,1,< (Precedes),False,The sequence had been written,execution
+E1,E11,1,< (Precedes),False,The sequence had been written,watched the encounter from the public gallery.
+E1,E12,-1,> (Preceded By),False,The sequence had been written,The probe itself had been launched
+E1,E13,1,< (Precedes),False,The sequence had been written,two of them now worked at the agency
+E1,E14,1,< (Precedes),False,The sequence had been written,the probe reached the outer planet
+E1,E15,5,d (During),False,The sequence had been written,its round-trip signal delay had grown to eleven hours
+E1,E16,5,d (During),False,The sequence had been written,a command sent at breakfast was confirmed after midnight.
+E2,E1,-1,> (Preceded By),False,reviewed across fourteen months,The sequence had been written
+E2,E3,1,< (Precedes),False,reviewed across fourteen months,uploaded
+E2,E4,1,< (Precedes),False,reviewed across fourteen months,the engineer who led its design retired
+E2,E5,1,< (Precedes),False,reviewed across fourteen months,a memory fault triggered the backup sequence
+E2,E6,1,< (Precedes),False,reviewed across fourteen months,the backup performed flawlessly
+E2,E7,1,< (Precedes),False,reviewed across fourteen months,The first images arrived
+E2,E8,1,< (Precedes),False,reviewed across fourteen months,applause in a room of people
+E2,E9,1,< (Precedes),False,reviewed across fourteen months,upload
+E2,E10,1,< (Precedes),False,reviewed across fourteen months,execution
+E2,E11,1,< (Precedes),False,reviewed across fourteen months,watched the encounter from the public gallery.
+E2,E12,-1,> (Preceded By),False,reviewed across fourteen months,The probe itself had been launched
+E2,E13,1,< (Precedes),False,reviewed across fourteen months,two of them now worked at the agency
+E2,E14,1,< (Precedes),False,reviewed across fourteen months,the probe reached the outer planet
+E2,E15,5,d (During),False,reviewed across fourteen months,its round-trip signal delay had grown to eleven hours
+E2,E16,-3,oi (Overlapped By),False,reviewed across fourteen months,a command sent at breakfast was confirmed after midnight.
+E3,E1,-1,> (Preceded By),False,uploaded,The sequence had been written
+E3,E2,-1,> (Preceded By),False,uploaded,reviewed across fourteen months
+E3,E4,1,< (Precedes),False,uploaded,the engineer who led its design retired
+E3,E5,1,< (Precedes),False,uploaded,a memory fault triggered the backup sequence
+E3,E6,1,< (Precedes),False,uploaded,the backup performed flawlessly
+E3,E7,1,< (Precedes),False,uploaded,The first images arrived
+E3,E8,1,< (Precedes),False,uploaded,applause in a room of people
+E3,E9,0,= (Equal),False,uploaded,upload
+E3,E10,1,< (Precedes),False,uploaded,execution
+E3,E11,1,< (Precedes),False,uploaded,watched the encounter from the public gallery.
+E3,E12,-1,> (Preceded By),False,uploaded,The probe itself had been launched
+E3,E13,1,< (Precedes),False,uploaded,two of them now worked at the agency
+E3,E14,1,< (Precedes),False,uploaded,the probe reached the outer planet
+E3,E15,5,d (During),False,uploaded,its round-trip signal delay had grown to eleven hours
+E3,E16,-1,> (Preceded By),False,uploaded,a command sent at breakfast was confirmed after midnight.
+E4,E1,-1,> (Preceded By),False,the engineer who led its design retired,The sequence had been written
+E4,E2,-1,> (Preceded By),False,the engineer who led its design retired,reviewed across fourteen months
+E4,E3,-1,> (Preceded By),False,the engineer who led its design retired,uploaded
+E4,E5,1,< (Precedes),False,the engineer who led its design retired,a memory fault triggered the backup sequence
+E4,E6,1,< (Precedes),False,the engineer who led its design retired,the backup performed flawlessly
+E4,E7,1,< (Precedes),False,the engineer who led its design retired,The first images arrived
+E4,E8,1,< (Precedes),False,the engineer who led its design retired,applause in a room of people
+E4,E9,-1,> (Preceded By),False,the engineer who led its design retired,upload
+E4,E10,1,< (Precedes),False,the engineer who led its design retired,execution
+E4,E11,1,< (Precedes),False,the engineer who led its design retired,watched the encounter from the public gallery.
+E4,E12,-1,> (Preceded By),False,the engineer who led its design retired,The probe itself had been launched
+E4,E13,1,< (Precedes),False,the engineer who led its design retired,two of them now worked at the agency
+E4,E14,1,< (Precedes),False,the engineer who led its design retired,the probe reached the outer planet
+E4,E15,5,d (During),False,the engineer who led its design retired,its round-trip signal delay had grown to eleven hours
+E4,E16,-1,> (Preceded By),False,the engineer who led its design retired,a command sent at breakfast was confirmed after midnight.
+E5,E1,-1,> (Preceded By),False,a memory fault triggered the backup sequence,The sequence had been written
+E5,E2,-1,> (Preceded By),False,a memory fault triggered the backup sequence,reviewed across fourteen months
+E5,E3,-1,> (Preceded By),False,a memory fault triggered the backup sequence,uploaded
+E5,E4,-1,> (Preceded By),False,a memory fault triggered the backup sequence,the engineer who led its design retired
+E5,E6,2,m (Meets),False,a memory fault triggered the backup sequence,the backup performed flawlessly
+E5,E7,1,< (Precedes),False,a memory fault triggered the backup sequence,The first images arrived
+E5,E8,1,< (Precedes),False,a memory fault triggered the backup sequence,applause in a room of people
+E5,E9,-1,> (Preceded By),False,a memory fault triggered the backup sequence,upload
+E5,E10,5,d (During),False,a memory fault triggered the backup sequence,execution
+E5,E11,1,< (Precedes),False,a memory fault triggered the backup sequence,watched the encounter from the public gallery.
+E5,E12,-1,> (Preceded By),False,a memory fault triggered the backup sequence,The probe itself had been launched
+E5,E13,1,< (Precedes),False,a memory fault triggered the backup sequence,two of them now worked at the agency
+E5,E14,-1,> (Preceded By),False,a memory fault triggered the backup sequence,the probe reached the outer planet
+E5,E15,-1,> (Preceded By),False,a memory fault triggered the backup sequence,its round-trip signal delay had grown to eleven hours
+E5,E16,-1,> (Preceded By),False,a memory fault triggered the backup sequence,a command sent at breakfast was confirmed after midnight.
+E6,E1,-1,> (Preceded By),False,the backup performed flawlessly,The sequence had been written
+E6,E2,-1,> (Preceded By),False,the backup performed flawlessly,reviewed across fourteen months
+E6,E3,-1,> (Preceded By),False,the backup performed flawlessly,uploaded
+E6,E4,-1,> (Preceded By),False,the backup performed flawlessly,the engineer who led its design retired
+E6,E5,-2,mi (Met By),False,the backup performed flawlessly,a memory fault triggered the backup sequence
+E6,E7,1,< (Precedes),False,the backup performed flawlessly,The first images arrived
+E6,E8,1,< (Precedes),False,the backup performed flawlessly,applause in a room of people
+E6,E9,-1,> (Preceded By),False,the backup performed flawlessly,upload
+E6,E10,6,f (Finishes),False,the backup performed flawlessly,execution
+E6,E11,1,< (Precedes),False,the backup performed flawlessly,watched the encounter from the public gallery.
+E6,E12,-1,> (Preceded By),False,the backup performed flawlessly,The probe itself had been launched
+E6,E13,1,< (Precedes),False,the backup performed flawlessly,two of them now worked at the agency
+E6,E14,-1,> (Preceded By),False,the backup performed flawlessly,the probe reached the outer planet
+E6,E15,-1,> (Preceded By),False,the backup performed flawlessly,its round-trip signal delay had grown to eleven hours
+E6,E16,-1,> (Preceded By),False,the backup performed flawlessly,a command sent at breakfast was confirmed after midnight.
+E7,E1,-1,> (Preceded By),False,The first images arrived,The sequence had been written
+E7,E2,-1,> (Preceded By),False,The first images arrived,reviewed across fourteen months
+E7,E3,-1,> (Preceded By),False,The first images arrived,uploaded
+E7,E4,-1,> (Preceded By),False,The first images arrived,the engineer who led its design retired
+E7,E5,-1,> (Preceded By),False,The first images arrived,a memory fault triggered the backup sequence
+E7,E6,-1,> (Preceded By),False,The first images arrived,the backup performed flawlessly
+E7,E8,0,= (Equal),False,The first images arrived,applause in a room of people
+E7,E9,-1,> (Preceded By),False,The first images arrived,upload
+E7,E10,-1,> (Preceded By),False,The first images arrived,execution
+E7,E11,0,= (Equal),False,The first images arrived,watched the encounter from the public gallery.
+E7,E12,-1,> (Preceded By),False,The first images arrived,The probe itself had been launched
+E7,E13,4,s (Starts),False,The first images arrived,two of them now worked at the agency
+E7,E14,-1,> (Preceded By),False,The first images arrived,the probe reached the outer planet
+E7,E15,-1,> (Preceded By),False,The first images arrived,its round-trip signal delay had grown to eleven hours
+E7,E16,-1,> (Preceded By),False,The first images arrived,a command sent at breakfast was confirmed after midnight.
+E8,E1,-1,> (Preceded By),False,applause in a room of people,The sequence had been written
+E8,E2,-1,> (Preceded By),False,applause in a room of people,reviewed across fourteen months
+E8,E3,-1,> (Preceded By),False,applause in a room of people,uploaded
+E8,E4,-1,> (Preceded By),False,applause in a room of people,the engineer who led its design retired
+E8,E5,-1,> (Preceded By),False,applause in a room of people,a memory fault triggered the backup sequence
+E8,E6,-1,> (Preceded By),False,applause in a room of people,the backup performed flawlessly
+E8,E7,0,= (Equal),False,applause in a room of people,The first images arrived
+E8,E9,-1,> (Preceded By),False,applause in a room of people,upload
+E8,E10,-1,> (Preceded By),False,applause in a room of people,execution
+E8,E11,0,= (Equal),False,applause in a room of people,watched the encounter from the public gallery.
+E8,E12,-1,> (Preceded By),False,applause in a room of people,The probe itself had been launched
+E8,E13,4,s (Starts),False,applause in a room of people,two of them now worked at the agency
+E8,E14,-1,> (Preceded By),False,applause in a room of people,the probe reached the outer planet
+E8,E15,-1,> (Preceded By),False,applause in a room of people,its round-trip signal delay had grown to eleven hours
+E8,E16,-1,> (Preceded By),False,applause in a room of people,a command sent at breakfast was confirmed after midnight.
+E9,E1,-1,> (Preceded By),False,upload,The sequence had been written
+E9,E2,-1,> (Preceded By),False,upload,reviewed across fourteen months
+E9,E3,0,= (Equal),False,upload,uploaded
+E9,E4,1,< (Precedes),False,upload,the engineer who led its design retired
+E9,E5,1,< (Precedes),False,upload,a memory fault triggered the backup sequence
+E9,E6,1,< (Precedes),False,upload,the backup performed flawlessly
+E9,E7,1,< (Precedes),False,upload,The first images arrived
+E9,E8,1,< (Precedes),False,upload,applause in a room of people
+E9,E10,1,< (Precedes),False,upload,execution
+E9,E11,1,< (Precedes),False,upload,watched the encounter from the public gallery.
+E9,E12,-1,> (Preceded By),False,upload,The probe itself had been launched
+E9,E13,1,< (Precedes),False,upload,two of them now worked at the agency
+E9,E14,1,< (Precedes),False,upload,the probe reached the outer planet
+E9,E15,5,d (During),False,upload,its round-trip signal delay had grown to eleven hours
+E9,E16,-1,> (Preceded By),False,upload,a command sent at breakfast was confirmed after midnight.
+E10,E1,-1,> (Preceded By),False,execution,The sequence had been written
+E10,E2,-1,> (Preceded By),False,execution,reviewed across fourteen months
+E10,E3,-1,> (Preceded By),False,execution,uploaded
+E10,E4,-1,> (Preceded By),False,execution,the engineer who led its design retired
+E10,E5,-5,di (Contains),False,execution,a memory fault triggered the backup sequence
+E10,E6,-6,fi (Finished By),False,execution,the backup performed flawlessly
+E10,E7,1,< (Precedes),False,execution,The first images arrived
+E10,E8,1,< (Precedes),False,execution,applause in a room of people
+E10,E9,-1,> (Preceded By),False,execution,upload
+E10,E11,1,< (Precedes),False,execution,watched the encounter from the public gallery.
+E10,E12,-1,> (Preceded By),False,execution,The probe itself had been launched
+E10,E13,1,< (Precedes),False,execution,two of them now worked at the agency
+E10,E14,-1,> (Preceded By),False,execution,the probe reached the outer planet
+E10,E15,-1,> (Preceded By),False,execution,its round-trip signal delay had grown to eleven hours
+E10,E16,-1,> (Preceded By),False,execution,a command sent at breakfast was confirmed after midnight.
+E11,E1,-1,> (Preceded By),False,watched the encounter from the public gallery.,The sequence had been written
+E11,E2,-1,> (Preceded By),False,watched the encounter from the public gallery.,reviewed across fourteen months
+E11,E3,-1,> (Preceded By),False,watched the encounter from the public gallery.,uploaded
+E11,E4,-1,> (Preceded By),False,watched the encounter from the public gallery.,the engineer who led its design retired
+E11,E5,-1,> (Preceded By),False,watched the encounter from the public gallery.,a memory fault triggered the backup sequence
+E11,E6,-1,> (Preceded By),False,watched the encounter from the public gallery.,the backup performed flawlessly
+E11,E7,0,= (Equal),False,watched the encounter from the public gallery.,The first images arrived
+E11,E8,0,= (Equal),False,watched the encounter from the public gallery.,applause in a room of people
+E11,E9,-1,> (Preceded By),False,watched the encounter from the public gallery.,upload
+E11,E10,-1,> (Preceded By),False,watched the encounter from the public gallery.,execution
+E11,E12,-1,> (Preceded By),False,watched the encounter from the public gallery.,The probe itself had been launched
+E11,E13,4,s (Starts),False,watched the encounter from the public gallery.,two of them now worked at the agency
+E11,E14,-1,> (Preceded By),False,watched the encounter from the public gallery.,the probe reached the outer planet
+E11,E15,-1,> (Preceded By),False,watched the encounter from the public gallery.,its round-trip signal delay had grown to eleven hours
+E11,E16,-1,> (Preceded By),False,watched the encounter from the public gallery.,a command sent at breakfast was confirmed after midnight.
+E12,E1,1,< (Precedes),False,The probe itself had been launched,The sequence had been written
+E12,E2,1,< (Precedes),False,The probe itself had been launched,reviewed across fourteen months
+E12,E3,1,< (Precedes),False,The probe itself had been launched,uploaded
+E12,E4,1,< (Precedes),False,The probe itself had been launched,the engineer who led its design retired
+E12,E5,1,< (Precedes),False,The probe itself had been launched,a memory fault triggered the backup sequence
+E12,E6,1,< (Precedes),False,The probe itself had been launched,the backup performed flawlessly
+E12,E7,1,< (Precedes),False,The probe itself had been launched,The first images arrived
+E12,E8,1,< (Precedes),False,The probe itself had been launched,applause in a room of people
+E12,E9,1,< (Precedes),False,The probe itself had been launched,upload
+E12,E10,1,< (Precedes),False,The probe itself had been launched,execution
+E12,E11,1,< (Precedes),False,The probe itself had been launched,watched the encounter from the public gallery.
+E12,E13,1,< (Precedes),False,The probe itself had been launched,two of them now worked at the agency
+E12,E14,1,< (Precedes),False,The probe itself had been launched,the probe reached the outer planet
+E12,E15,4,s (Starts),False,The probe itself had been launched,its round-trip signal delay had grown to eleven hours
+E12,E16,4,s (Starts),False,The probe itself had been launched,a command sent at breakfast was confirmed after midnight.
+E13,E1,-1,> (Preceded By),False,two of them now worked at the agency,The sequence had been written
+E13,E2,-1,> (Preceded By),False,two of them now worked at the agency,reviewed across fourteen months
+E13,E3,-1,> (Preceded By),False,two of them now worked at the agency,uploaded
+E13,E4,-1,> (Preceded By),False,two of them now worked at the agency,the engineer who led its design retired
+E13,E5,-1,> (Preceded By),False,two of them now worked at the agency,a memory fault triggered the backup sequence
+E13,E6,-1,> (Preceded By),False,two of them now worked at the agency,the backup performed flawlessly
+E13,E7,-4,si (Started By),False,two of them now worked at the agency,The first images arrived
+E13,E8,-4,si (Started By),False,two of them now worked at the agency,applause in a room of people
+E13,E9,-1,> (Preceded By),False,two of them now worked at the agency,upload
+E13,E10,-1,> (Preceded By),False,two of them now worked at the agency,execution
+E13,E11,-4,si (Started By),False,two of them now worked at the agency,watched the encounter from the public gallery.
+E13,E12,-1,> (Preceded By),False,two of them now worked at the agency,The probe itself had been launched
+E13,E14,-1,> (Preceded By),False,two of them now worked at the agency,the probe reached the outer planet
+E13,E15,-1,> (Preceded By),False,two of them now worked at the agency,its round-trip signal delay had grown to eleven hours
+E13,E16,-1,> (Preceded By),False,two of them now worked at the agency,a command sent at breakfast was confirmed after midnight.
+E14,E1,-1,> (Preceded By),False,the probe reached the outer planet,The sequence had been written
+E14,E2,-1,> (Preceded By),False,the probe reached the outer planet,reviewed across fourteen months
+E14,E3,-1,> (Preceded By),False,the probe reached the outer planet,uploaded
+E14,E4,-1,> (Preceded By),False,the probe reached the outer planet,the engineer who led its design retired
+E14,E5,1,< (Precedes),False,the probe reached the outer planet,a memory fault triggered the backup sequence
+E14,E6,1,< (Precedes),False,the probe reached the outer planet,the backup performed flawlessly
+E14,E7,1,< (Precedes),False,the probe reached the outer planet,The first images arrived
+E14,E8,1,< (Precedes),False,the probe reached the outer planet,applause in a room of people
+E14,E9,-1,> (Preceded By),False,the probe reached the outer planet,upload
+E14,E10,1,< (Precedes),False,the probe reached the outer planet,execution
+E14,E11,1,< (Precedes),False,the probe reached the outer planet,watched the encounter from the public gallery.
+E14,E12,-1,> (Preceded By),False,the probe reached the outer planet,The probe itself had been launched
+E14,E13,1,< (Precedes),False,the probe reached the outer planet,two of them now worked at the agency
+E14,E15,-2,mi (Met By),False,the probe reached the outer planet,its round-trip signal delay had grown to eleven hours
+E14,E16,-1,> (Preceded By),False,the probe reached the outer planet,a command sent at breakfast was confirmed after midnight.
+E15,E1,-5,di (Contains),False,its round-trip signal delay had grown to eleven hours,The sequence had been written
+E15,E2,-5,di (Contains),False,its round-trip signal delay had grown to eleven hours,reviewed across fourteen months
+E15,E3,-5,di (Contains),False,its round-trip signal delay had grown to eleven hours,uploaded
+E15,E4,-5,di (Contains),False,its round-trip signal delay had grown to eleven hours,the engineer who led its design retired
+E15,E5,1,< (Precedes),False,its round-trip signal delay had grown to eleven hours,a memory fault triggered the backup sequence
+E15,E6,1,< (Precedes),False,its round-trip signal delay had grown to eleven hours,the backup performed flawlessly
+E15,E7,1,< (Precedes),False,its round-trip signal delay had grown to eleven hours,The first images arrived
+E15,E8,1,< (Precedes),False,its round-trip signal delay had grown to eleven hours,applause in a room of people
+E15,E9,-5,di (Contains),False,its round-trip signal delay had grown to eleven hours,upload
+E15,E10,1,< (Precedes),False,its round-trip signal delay had grown to eleven hours,execution
+E15,E11,1,< (Precedes),False,its round-trip signal delay had grown to eleven hours,watched the encounter from the public gallery.
+E15,E12,-4,si (Started By),False,its round-trip signal delay had grown to eleven hours,The probe itself had been launched
+E15,E13,1,< (Precedes),False,its round-trip signal delay had grown to eleven hours,two of them now worked at the agency
+E15,E14,2,m (Meets),False,its round-trip signal delay had grown to eleven hours,the probe reached the outer planet
+E15,E16,-4,si (Started By),False,its round-trip signal delay had grown to eleven hours,a command sent at breakfast was confirmed after midnight.
+E16,E1,-5,di (Contains),False,a command sent at breakfast was confirmed after midnight.,The sequence had been written
+E16,E2,3,o (Overlaps),False,a command sent at breakfast was confirmed after midnight.,reviewed across fourteen months
+E16,E3,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,uploaded
+E16,E4,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,the engineer who led its design retired
+E16,E5,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,a memory fault triggered the backup sequence
+E16,E6,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,the backup performed flawlessly
+E16,E7,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,The first images arrived
+E16,E8,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,applause in a room of people
+E16,E9,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,upload
+E16,E10,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,execution
+E16,E11,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,watched the encounter from the public gallery.
+E16,E12,-4,si (Started By),False,a command sent at breakfast was confirmed after midnight.,The probe itself had been launched
+E16,E13,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,two of them now worked at the agency
+E16,E14,1,< (Precedes),False,a command sent at breakfast was confirmed after midnight.,the probe reached the outer planet
+E16,E15,4,s (Starts),False,a command sent at breakfast was confirmed after midnight.,its round-trip signal delay had grown to eleven hours

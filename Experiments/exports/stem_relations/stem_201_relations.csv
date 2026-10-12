@@ -1,0 +1,343 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,The train left the capital at dusk,ran west all night
+E1,E3,1,< (Precedes),False,The train left the capital at dusk,it crossed the line where the clocks fell back an hour
+E1,E4,1,< (Precedes),False,The train left the capital at dusk,the journey of eleven hours arrived only ten clock-hours after it departed
+E1,E5,2,m (Meets),False,The train left the capital at dusk,the schedule absorbed silently
+E1,E6,2,m (Meets),False,The train left the capital at dusk,the body did not
+E1,E7,2,m (Meets),False,The train left the capital at dusk,Farid had done the trip monthly for nine years
+E1,E8,2,m (Meets),False,The train left the capital at dusk,still woke at the old hour
+E1,E9,2,m (Meets),False,The train left the capital at dusk,his interior clock loyal to the city he'd left
+E1,E10,2,m (Meets),False,The train left the capital at dusk,The dining car stopped serving at a fixed time
+E1,E11,2,m (Meets),False,The train left the capital at dusk,"that was reached, on westbound runs, twice"
+E1,E12,2,m (Meets),False,The train left the capital at dusk,once before the zone line and once after
+E1,E13,2,m (Meets),False,The train left the capital at dusk,the steward's policy on the second occurrence had varied over the years with the steward
+E1,E14,1,< (Precedes),False,The train left the capital at dusk,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E1,E15,1,< (Precedes),False,The train left the capital at dusk,the train that usually beat the sunrise into the terminus arrived after it
+E1,E16,2,m (Meets),False,The train left the capital at dusk,Farid's connection was a bus that left punctually and seldom: every two hours
+E1,E17,1,< (Precedes),False,The train left the capital at dusk,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E1,E18,1,< (Precedes),False,The train left the capital at dusk,"On the platform he reset his watch, as he always did, last thing"
+E1,E19,1,< (Precedes),False,The train left the capital at dusk,"the small ceremony of agreeing, a day late, to be where he was"
+E2,E1,-1,> (Preceded By),False,ran west all night,The train left the capital at dusk
+E2,E3,-5,di (Contains),False,ran west all night,it crossed the line where the clocks fell back an hour
+E2,E4,1,< (Precedes),False,ran west all night,the journey of eleven hours arrived only ten clock-hours after it departed
+E2,E5,5,d (During),False,ran west all night,the schedule absorbed silently
+E2,E6,5,d (During),False,ran west all night,the body did not
+E2,E7,5,d (During),False,ran west all night,Farid had done the trip monthly for nine years
+E2,E8,5,d (During),False,ran west all night,still woke at the old hour
+E2,E9,5,d (During),False,ran west all night,his interior clock loyal to the city he'd left
+E2,E10,5,d (During),False,ran west all night,The dining car stopped serving at a fixed time
+E2,E11,5,d (During),False,ran west all night,"that was reached, on westbound runs, twice"
+E2,E12,5,d (During),False,ran west all night,once before the zone line and once after
+E2,E13,5,d (During),False,ran west all night,the steward's policy on the second occurrence had varied over the years with the steward
+E2,E14,3,o (Overlaps),False,ran west all night,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E2,E15,1,< (Precedes),False,ran west all night,the train that usually beat the sunrise into the terminus arrived after it
+E2,E16,5,d (During),False,ran west all night,Farid's connection was a bus that left punctually and seldom: every two hours
+E2,E17,1,< (Precedes),False,ran west all night,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E2,E18,1,< (Precedes),False,ran west all night,"On the platform he reset his watch, as he always did, last thing"
+E2,E19,1,< (Precedes),False,ran west all night,"the small ceremony of agreeing, a day late, to be where he was"
+E3,E1,-1,> (Preceded By),False,it crossed the line where the clocks fell back an hour,The train left the capital at dusk
+E3,E2,5,d (During),False,it crossed the line where the clocks fell back an hour,ran west all night
+E3,E4,1,< (Precedes),False,it crossed the line where the clocks fell back an hour,the journey of eleven hours arrived only ten clock-hours after it departed
+E3,E5,5,d (During),False,it crossed the line where the clocks fell back an hour,the schedule absorbed silently
+E3,E6,5,d (During),False,it crossed the line where the clocks fell back an hour,the body did not
+E3,E7,5,d (During),False,it crossed the line where the clocks fell back an hour,Farid had done the trip monthly for nine years
+E3,E8,5,d (During),False,it crossed the line where the clocks fell back an hour,still woke at the old hour
+E3,E9,5,d (During),False,it crossed the line where the clocks fell back an hour,his interior clock loyal to the city he'd left
+E3,E10,5,d (During),False,it crossed the line where the clocks fell back an hour,The dining car stopped serving at a fixed time
+E3,E11,5,d (During),False,it crossed the line where the clocks fell back an hour,"that was reached, on westbound runs, twice"
+E3,E12,5,d (During),False,it crossed the line where the clocks fell back an hour,once before the zone line and once after
+E3,E13,5,d (During),False,it crossed the line where the clocks fell back an hour,the steward's policy on the second occurrence had varied over the years with the steward
+E3,E14,1,< (Precedes),False,it crossed the line where the clocks fell back an hour,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E3,E15,1,< (Precedes),False,it crossed the line where the clocks fell back an hour,the train that usually beat the sunrise into the terminus arrived after it
+E3,E16,5,d (During),False,it crossed the line where the clocks fell back an hour,Farid's connection was a bus that left punctually and seldom: every two hours
+E3,E17,1,< (Precedes),False,it crossed the line where the clocks fell back an hour,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E3,E18,1,< (Precedes),False,it crossed the line where the clocks fell back an hour,"On the platform he reset his watch, as he always did, last thing"
+E3,E19,1,< (Precedes),False,it crossed the line where the clocks fell back an hour,"the small ceremony of agreeing, a day late, to be where he was"
+E4,E1,-1,> (Preceded By),False,the journey of eleven hours arrived only ten clock-hours after it departed,The train left the capital at dusk
+E4,E2,-1,> (Preceded By),False,the journey of eleven hours arrived only ten clock-hours after it departed,ran west all night
+E4,E3,-1,> (Preceded By),False,the journey of eleven hours arrived only ten clock-hours after it departed,it crossed the line where the clocks fell back an hour
+E4,E5,5,d (During),False,the journey of eleven hours arrived only ten clock-hours after it departed,the schedule absorbed silently
+E4,E6,5,d (During),False,the journey of eleven hours arrived only ten clock-hours after it departed,the body did not
+E4,E7,5,d (During),False,the journey of eleven hours arrived only ten clock-hours after it departed,Farid had done the trip monthly for nine years
+E4,E8,5,d (During),False,the journey of eleven hours arrived only ten clock-hours after it departed,still woke at the old hour
+E4,E9,5,d (During),False,the journey of eleven hours arrived only ten clock-hours after it departed,his interior clock loyal to the city he'd left
+E4,E10,5,d (During),False,the journey of eleven hours arrived only ten clock-hours after it departed,The dining car stopped serving at a fixed time
+E4,E11,5,d (During),False,the journey of eleven hours arrived only ten clock-hours after it departed,"that was reached, on westbound runs, twice"
+E4,E12,5,d (During),False,the journey of eleven hours arrived only ten clock-hours after it departed,once before the zone line and once after
+E4,E13,5,d (During),False,the journey of eleven hours arrived only ten clock-hours after it departed,the steward's policy on the second occurrence had varied over the years with the steward
+E4,E14,-1,> (Preceded By),False,the journey of eleven hours arrived only ten clock-hours after it departed,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E4,E15,0,= (Equal),False,the journey of eleven hours arrived only ten clock-hours after it departed,the train that usually beat the sunrise into the terminus arrived after it
+E4,E16,5,d (During),False,the journey of eleven hours arrived only ten clock-hours after it departed,Farid's connection was a bus that left punctually and seldom: every two hours
+E4,E17,1,< (Precedes),False,the journey of eleven hours arrived only ten clock-hours after it departed,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E4,E18,1,< (Precedes),False,the journey of eleven hours arrived only ten clock-hours after it departed,"On the platform he reset his watch, as he always did, last thing"
+E4,E19,1,< (Precedes),False,the journey of eleven hours arrived only ten clock-hours after it departed,"the small ceremony of agreeing, a day late, to be where he was"
+E5,E1,-2,mi (Met By),False,the schedule absorbed silently,The train left the capital at dusk
+E5,E2,-5,di (Contains),False,the schedule absorbed silently,ran west all night
+E5,E3,-5,di (Contains),False,the schedule absorbed silently,it crossed the line where the clocks fell back an hour
+E5,E4,-5,di (Contains),False,the schedule absorbed silently,the journey of eleven hours arrived only ten clock-hours after it departed
+E5,E6,0,= (Equal),False,the schedule absorbed silently,the body did not
+E5,E7,0,= (Equal),False,the schedule absorbed silently,Farid had done the trip monthly for nine years
+E5,E8,0,= (Equal),False,the schedule absorbed silently,still woke at the old hour
+E5,E9,0,= (Equal),False,the schedule absorbed silently,his interior clock loyal to the city he'd left
+E5,E10,0,= (Equal),False,the schedule absorbed silently,The dining car stopped serving at a fixed time
+E5,E11,0,= (Equal),False,the schedule absorbed silently,"that was reached, on westbound runs, twice"
+E5,E12,0,= (Equal),False,the schedule absorbed silently,once before the zone line and once after
+E5,E13,0,= (Equal),False,the schedule absorbed silently,the steward's policy on the second occurrence had varied over the years with the steward
+E5,E14,-5,di (Contains),False,the schedule absorbed silently,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E5,E15,-5,di (Contains),False,the schedule absorbed silently,the train that usually beat the sunrise into the terminus arrived after it
+E5,E16,0,= (Equal),False,the schedule absorbed silently,Farid's connection was a bus that left punctually and seldom: every two hours
+E5,E17,-5,di (Contains),False,the schedule absorbed silently,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E5,E18,-5,di (Contains),False,the schedule absorbed silently,"On the platform he reset his watch, as he always did, last thing"
+E5,E19,-5,di (Contains),False,the schedule absorbed silently,"the small ceremony of agreeing, a day late, to be where he was"
+E6,E1,-2,mi (Met By),False,the body did not,The train left the capital at dusk
+E6,E2,-5,di (Contains),False,the body did not,ran west all night
+E6,E3,-5,di (Contains),False,the body did not,it crossed the line where the clocks fell back an hour
+E6,E4,-5,di (Contains),False,the body did not,the journey of eleven hours arrived only ten clock-hours after it departed
+E6,E5,0,= (Equal),False,the body did not,the schedule absorbed silently
+E6,E7,0,= (Equal),False,the body did not,Farid had done the trip monthly for nine years
+E6,E8,0,= (Equal),False,the body did not,still woke at the old hour
+E6,E9,0,= (Equal),False,the body did not,his interior clock loyal to the city he'd left
+E6,E10,0,= (Equal),False,the body did not,The dining car stopped serving at a fixed time
+E6,E11,0,= (Equal),False,the body did not,"that was reached, on westbound runs, twice"
+E6,E12,0,= (Equal),False,the body did not,once before the zone line and once after
+E6,E13,0,= (Equal),False,the body did not,the steward's policy on the second occurrence had varied over the years with the steward
+E6,E14,-5,di (Contains),False,the body did not,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E6,E15,-5,di (Contains),False,the body did not,the train that usually beat the sunrise into the terminus arrived after it
+E6,E16,0,= (Equal),False,the body did not,Farid's connection was a bus that left punctually and seldom: every two hours
+E6,E17,-5,di (Contains),False,the body did not,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E6,E18,-5,di (Contains),False,the body did not,"On the platform he reset his watch, as he always did, last thing"
+E6,E19,-5,di (Contains),False,the body did not,"the small ceremony of agreeing, a day late, to be where he was"
+E7,E1,-2,mi (Met By),False,Farid had done the trip monthly for nine years,The train left the capital at dusk
+E7,E2,-5,di (Contains),False,Farid had done the trip monthly for nine years,ran west all night
+E7,E3,-5,di (Contains),False,Farid had done the trip monthly for nine years,it crossed the line where the clocks fell back an hour
+E7,E4,-5,di (Contains),False,Farid had done the trip monthly for nine years,the journey of eleven hours arrived only ten clock-hours after it departed
+E7,E5,0,= (Equal),False,Farid had done the trip monthly for nine years,the schedule absorbed silently
+E7,E6,0,= (Equal),False,Farid had done the trip monthly for nine years,the body did not
+E7,E8,0,= (Equal),False,Farid had done the trip monthly for nine years,still woke at the old hour
+E7,E9,0,= (Equal),False,Farid had done the trip monthly for nine years,his interior clock loyal to the city he'd left
+E7,E10,0,= (Equal),False,Farid had done the trip monthly for nine years,The dining car stopped serving at a fixed time
+E7,E11,0,= (Equal),False,Farid had done the trip monthly for nine years,"that was reached, on westbound runs, twice"
+E7,E12,0,= (Equal),False,Farid had done the trip monthly for nine years,once before the zone line and once after
+E7,E13,0,= (Equal),False,Farid had done the trip monthly for nine years,the steward's policy on the second occurrence had varied over the years with the steward
+E7,E14,-5,di (Contains),False,Farid had done the trip monthly for nine years,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E7,E15,-5,di (Contains),False,Farid had done the trip monthly for nine years,the train that usually beat the sunrise into the terminus arrived after it
+E7,E16,0,= (Equal),False,Farid had done the trip monthly for nine years,Farid's connection was a bus that left punctually and seldom: every two hours
+E7,E17,-5,di (Contains),False,Farid had done the trip monthly for nine years,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E7,E18,-5,di (Contains),False,Farid had done the trip monthly for nine years,"On the platform he reset his watch, as he always did, last thing"
+E7,E19,-5,di (Contains),False,Farid had done the trip monthly for nine years,"the small ceremony of agreeing, a day late, to be where he was"
+E8,E1,-2,mi (Met By),False,still woke at the old hour,The train left the capital at dusk
+E8,E2,-5,di (Contains),False,still woke at the old hour,ran west all night
+E8,E3,-5,di (Contains),False,still woke at the old hour,it crossed the line where the clocks fell back an hour
+E8,E4,-5,di (Contains),False,still woke at the old hour,the journey of eleven hours arrived only ten clock-hours after it departed
+E8,E5,0,= (Equal),False,still woke at the old hour,the schedule absorbed silently
+E8,E6,0,= (Equal),False,still woke at the old hour,the body did not
+E8,E7,0,= (Equal),False,still woke at the old hour,Farid had done the trip monthly for nine years
+E8,E9,0,= (Equal),False,still woke at the old hour,his interior clock loyal to the city he'd left
+E8,E10,0,= (Equal),False,still woke at the old hour,The dining car stopped serving at a fixed time
+E8,E11,0,= (Equal),False,still woke at the old hour,"that was reached, on westbound runs, twice"
+E8,E12,0,= (Equal),False,still woke at the old hour,once before the zone line and once after
+E8,E13,0,= (Equal),False,still woke at the old hour,the steward's policy on the second occurrence had varied over the years with the steward
+E8,E14,-5,di (Contains),False,still woke at the old hour,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E8,E15,-5,di (Contains),False,still woke at the old hour,the train that usually beat the sunrise into the terminus arrived after it
+E8,E16,0,= (Equal),False,still woke at the old hour,Farid's connection was a bus that left punctually and seldom: every two hours
+E8,E17,-5,di (Contains),False,still woke at the old hour,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E8,E18,-5,di (Contains),False,still woke at the old hour,"On the platform he reset his watch, as he always did, last thing"
+E8,E19,-5,di (Contains),False,still woke at the old hour,"the small ceremony of agreeing, a day late, to be where he was"
+E9,E1,-2,mi (Met By),False,his interior clock loyal to the city he'd left,The train left the capital at dusk
+E9,E2,-5,di (Contains),False,his interior clock loyal to the city he'd left,ran west all night
+E9,E3,-5,di (Contains),False,his interior clock loyal to the city he'd left,it crossed the line where the clocks fell back an hour
+E9,E4,-5,di (Contains),False,his interior clock loyal to the city he'd left,the journey of eleven hours arrived only ten clock-hours after it departed
+E9,E5,0,= (Equal),False,his interior clock loyal to the city he'd left,the schedule absorbed silently
+E9,E6,0,= (Equal),False,his interior clock loyal to the city he'd left,the body did not
+E9,E7,0,= (Equal),False,his interior clock loyal to the city he'd left,Farid had done the trip monthly for nine years
+E9,E8,0,= (Equal),False,his interior clock loyal to the city he'd left,still woke at the old hour
+E9,E10,0,= (Equal),False,his interior clock loyal to the city he'd left,The dining car stopped serving at a fixed time
+E9,E11,0,= (Equal),False,his interior clock loyal to the city he'd left,"that was reached, on westbound runs, twice"
+E9,E12,0,= (Equal),False,his interior clock loyal to the city he'd left,once before the zone line and once after
+E9,E13,0,= (Equal),False,his interior clock loyal to the city he'd left,the steward's policy on the second occurrence had varied over the years with the steward
+E9,E14,-5,di (Contains),False,his interior clock loyal to the city he'd left,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E9,E15,-5,di (Contains),False,his interior clock loyal to the city he'd left,the train that usually beat the sunrise into the terminus arrived after it
+E9,E16,0,= (Equal),False,his interior clock loyal to the city he'd left,Farid's connection was a bus that left punctually and seldom: every two hours
+E9,E17,-5,di (Contains),False,his interior clock loyal to the city he'd left,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E9,E18,-5,di (Contains),False,his interior clock loyal to the city he'd left,"On the platform he reset his watch, as he always did, last thing"
+E9,E19,-5,di (Contains),False,his interior clock loyal to the city he'd left,"the small ceremony of agreeing, a day late, to be where he was"
+E10,E1,-2,mi (Met By),False,The dining car stopped serving at a fixed time,The train left the capital at dusk
+E10,E2,-5,di (Contains),False,The dining car stopped serving at a fixed time,ran west all night
+E10,E3,-5,di (Contains),False,The dining car stopped serving at a fixed time,it crossed the line where the clocks fell back an hour
+E10,E4,-5,di (Contains),False,The dining car stopped serving at a fixed time,the journey of eleven hours arrived only ten clock-hours after it departed
+E10,E5,0,= (Equal),False,The dining car stopped serving at a fixed time,the schedule absorbed silently
+E10,E6,0,= (Equal),False,The dining car stopped serving at a fixed time,the body did not
+E10,E7,0,= (Equal),False,The dining car stopped serving at a fixed time,Farid had done the trip monthly for nine years
+E10,E8,0,= (Equal),False,The dining car stopped serving at a fixed time,still woke at the old hour
+E10,E9,0,= (Equal),False,The dining car stopped serving at a fixed time,his interior clock loyal to the city he'd left
+E10,E11,0,= (Equal),False,The dining car stopped serving at a fixed time,"that was reached, on westbound runs, twice"
+E10,E12,0,= (Equal),False,The dining car stopped serving at a fixed time,once before the zone line and once after
+E10,E13,0,= (Equal),False,The dining car stopped serving at a fixed time,the steward's policy on the second occurrence had varied over the years with the steward
+E10,E14,-5,di (Contains),False,The dining car stopped serving at a fixed time,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E10,E15,-5,di (Contains),False,The dining car stopped serving at a fixed time,the train that usually beat the sunrise into the terminus arrived after it
+E10,E16,0,= (Equal),False,The dining car stopped serving at a fixed time,Farid's connection was a bus that left punctually and seldom: every two hours
+E10,E17,-5,di (Contains),False,The dining car stopped serving at a fixed time,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E10,E18,-5,di (Contains),False,The dining car stopped serving at a fixed time,"On the platform he reset his watch, as he always did, last thing"
+E10,E19,-5,di (Contains),False,The dining car stopped serving at a fixed time,"the small ceremony of agreeing, a day late, to be where he was"
+E11,E1,-2,mi (Met By),False,"that was reached, on westbound runs, twice",The train left the capital at dusk
+E11,E2,-5,di (Contains),False,"that was reached, on westbound runs, twice",ran west all night
+E11,E3,-5,di (Contains),False,"that was reached, on westbound runs, twice",it crossed the line where the clocks fell back an hour
+E11,E4,-5,di (Contains),False,"that was reached, on westbound runs, twice",the journey of eleven hours arrived only ten clock-hours after it departed
+E11,E5,0,= (Equal),False,"that was reached, on westbound runs, twice",the schedule absorbed silently
+E11,E6,0,= (Equal),False,"that was reached, on westbound runs, twice",the body did not
+E11,E7,0,= (Equal),False,"that was reached, on westbound runs, twice",Farid had done the trip monthly for nine years
+E11,E8,0,= (Equal),False,"that was reached, on westbound runs, twice",still woke at the old hour
+E11,E9,0,= (Equal),False,"that was reached, on westbound runs, twice",his interior clock loyal to the city he'd left
+E11,E10,0,= (Equal),False,"that was reached, on westbound runs, twice",The dining car stopped serving at a fixed time
+E11,E12,0,= (Equal),False,"that was reached, on westbound runs, twice",once before the zone line and once after
+E11,E13,0,= (Equal),False,"that was reached, on westbound runs, twice",the steward's policy on the second occurrence had varied over the years with the steward
+E11,E14,-5,di (Contains),False,"that was reached, on westbound runs, twice","Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E11,E15,-5,di (Contains),False,"that was reached, on westbound runs, twice",the train that usually beat the sunrise into the terminus arrived after it
+E11,E16,0,= (Equal),False,"that was reached, on westbound runs, twice",Farid's connection was a bus that left punctually and seldom: every two hours
+E11,E17,-5,di (Contains),False,"that was reached, on westbound runs, twice","He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E11,E18,-5,di (Contains),False,"that was reached, on westbound runs, twice","On the platform he reset his watch, as he always did, last thing"
+E11,E19,-5,di (Contains),False,"that was reached, on westbound runs, twice","the small ceremony of agreeing, a day late, to be where he was"
+E12,E1,-2,mi (Met By),False,once before the zone line and once after,The train left the capital at dusk
+E12,E2,-5,di (Contains),False,once before the zone line and once after,ran west all night
+E12,E3,-5,di (Contains),False,once before the zone line and once after,it crossed the line where the clocks fell back an hour
+E12,E4,-5,di (Contains),False,once before the zone line and once after,the journey of eleven hours arrived only ten clock-hours after it departed
+E12,E5,0,= (Equal),False,once before the zone line and once after,the schedule absorbed silently
+E12,E6,0,= (Equal),False,once before the zone line and once after,the body did not
+E12,E7,0,= (Equal),False,once before the zone line and once after,Farid had done the trip monthly for nine years
+E12,E8,0,= (Equal),False,once before the zone line and once after,still woke at the old hour
+E12,E9,0,= (Equal),False,once before the zone line and once after,his interior clock loyal to the city he'd left
+E12,E10,0,= (Equal),False,once before the zone line and once after,The dining car stopped serving at a fixed time
+E12,E11,0,= (Equal),False,once before the zone line and once after,"that was reached, on westbound runs, twice"
+E12,E13,0,= (Equal),False,once before the zone line and once after,the steward's policy on the second occurrence had varied over the years with the steward
+E12,E14,-5,di (Contains),False,once before the zone line and once after,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E12,E15,-5,di (Contains),False,once before the zone line and once after,the train that usually beat the sunrise into the terminus arrived after it
+E12,E16,0,= (Equal),False,once before the zone line and once after,Farid's connection was a bus that left punctually and seldom: every two hours
+E12,E17,-5,di (Contains),False,once before the zone line and once after,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E12,E18,-5,di (Contains),False,once before the zone line and once after,"On the platform he reset his watch, as he always did, last thing"
+E12,E19,-5,di (Contains),False,once before the zone line and once after,"the small ceremony of agreeing, a day late, to be where he was"
+E13,E1,-2,mi (Met By),False,the steward's policy on the second occurrence had varied over the years with the steward,The train left the capital at dusk
+E13,E2,-5,di (Contains),False,the steward's policy on the second occurrence had varied over the years with the steward,ran west all night
+E13,E3,-5,di (Contains),False,the steward's policy on the second occurrence had varied over the years with the steward,it crossed the line where the clocks fell back an hour
+E13,E4,-5,di (Contains),False,the steward's policy on the second occurrence had varied over the years with the steward,the journey of eleven hours arrived only ten clock-hours after it departed
+E13,E5,0,= (Equal),False,the steward's policy on the second occurrence had varied over the years with the steward,the schedule absorbed silently
+E13,E6,0,= (Equal),False,the steward's policy on the second occurrence had varied over the years with the steward,the body did not
+E13,E7,0,= (Equal),False,the steward's policy on the second occurrence had varied over the years with the steward,Farid had done the trip monthly for nine years
+E13,E8,0,= (Equal),False,the steward's policy on the second occurrence had varied over the years with the steward,still woke at the old hour
+E13,E9,0,= (Equal),False,the steward's policy on the second occurrence had varied over the years with the steward,his interior clock loyal to the city he'd left
+E13,E10,0,= (Equal),False,the steward's policy on the second occurrence had varied over the years with the steward,The dining car stopped serving at a fixed time
+E13,E11,0,= (Equal),False,the steward's policy on the second occurrence had varied over the years with the steward,"that was reached, on westbound runs, twice"
+E13,E12,0,= (Equal),False,the steward's policy on the second occurrence had varied over the years with the steward,once before the zone line and once after
+E13,E14,-5,di (Contains),False,the steward's policy on the second occurrence had varied over the years with the steward,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E13,E15,-5,di (Contains),False,the steward's policy on the second occurrence had varied over the years with the steward,the train that usually beat the sunrise into the terminus arrived after it
+E13,E16,0,= (Equal),False,the steward's policy on the second occurrence had varied over the years with the steward,Farid's connection was a bus that left punctually and seldom: every two hours
+E13,E17,-5,di (Contains),False,the steward's policy on the second occurrence had varied over the years with the steward,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E13,E18,-5,di (Contains),False,the steward's policy on the second occurrence had varied over the years with the steward,"On the platform he reset his watch, as he always did, last thing"
+E13,E19,-5,di (Contains),False,the steward's policy on the second occurrence had varied over the years with the steward,"the small ceremony of agreeing, a day late, to be where he was"
+E14,E1,-1,> (Preceded By),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",The train left the capital at dusk
+E14,E2,-3,oi (Overlapped By),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",ran west all night
+E14,E3,-1,> (Preceded By),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",it crossed the line where the clocks fell back an hour
+E14,E4,1,< (Precedes),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",the journey of eleven hours arrived only ten clock-hours after it departed
+E14,E5,5,d (During),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",the schedule absorbed silently
+E14,E6,5,d (During),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",the body did not
+E14,E7,5,d (During),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",Farid had done the trip monthly for nine years
+E14,E8,5,d (During),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",still woke at the old hour
+E14,E9,5,d (During),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",his interior clock loyal to the city he'd left
+E14,E10,5,d (During),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",The dining car stopped serving at a fixed time
+E14,E11,5,d (During),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning","that was reached, on westbound runs, twice"
+E14,E12,5,d (During),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",once before the zone line and once after
+E14,E13,5,d (During),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",the steward's policy on the second occurrence had varied over the years with the steward
+E14,E15,1,< (Precedes),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",the train that usually beat the sunrise into the terminus arrived after it
+E14,E16,5,d (During),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning",Farid's connection was a bus that left punctually and seldom: every two hours
+E14,E17,1,< (Precedes),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning","He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E14,E18,1,< (Precedes),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning","On the platform he reset his watch, as he always did, last thing"
+E14,E19,1,< (Precedes),False,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning","the small ceremony of agreeing, a day late, to be where he was"
+E15,E1,-1,> (Preceded By),False,the train that usually beat the sunrise into the terminus arrived after it,The train left the capital at dusk
+E15,E2,-1,> (Preceded By),False,the train that usually beat the sunrise into the terminus arrived after it,ran west all night
+E15,E3,-1,> (Preceded By),False,the train that usually beat the sunrise into the terminus arrived after it,it crossed the line where the clocks fell back an hour
+E15,E4,0,= (Equal),False,the train that usually beat the sunrise into the terminus arrived after it,the journey of eleven hours arrived only ten clock-hours after it departed
+E15,E5,5,d (During),False,the train that usually beat the sunrise into the terminus arrived after it,the schedule absorbed silently
+E15,E6,5,d (During),False,the train that usually beat the sunrise into the terminus arrived after it,the body did not
+E15,E7,5,d (During),False,the train that usually beat the sunrise into the terminus arrived after it,Farid had done the trip monthly for nine years
+E15,E8,5,d (During),False,the train that usually beat the sunrise into the terminus arrived after it,still woke at the old hour
+E15,E9,5,d (During),False,the train that usually beat the sunrise into the terminus arrived after it,his interior clock loyal to the city he'd left
+E15,E10,5,d (During),False,the train that usually beat the sunrise into the terminus arrived after it,The dining car stopped serving at a fixed time
+E15,E11,5,d (During),False,the train that usually beat the sunrise into the terminus arrived after it,"that was reached, on westbound runs, twice"
+E15,E12,5,d (During),False,the train that usually beat the sunrise into the terminus arrived after it,once before the zone line and once after
+E15,E13,5,d (During),False,the train that usually beat the sunrise into the terminus arrived after it,the steward's policy on the second occurrence had varied over the years with the steward
+E15,E14,-1,> (Preceded By),False,the train that usually beat the sunrise into the terminus arrived after it,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E15,E16,5,d (During),False,the train that usually beat the sunrise into the terminus arrived after it,Farid's connection was a bus that left punctually and seldom: every two hours
+E15,E17,1,< (Precedes),False,the train that usually beat the sunrise into the terminus arrived after it,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E15,E18,1,< (Precedes),False,the train that usually beat the sunrise into the terminus arrived after it,"On the platform he reset his watch, as he always did, last thing"
+E15,E19,1,< (Precedes),False,the train that usually beat the sunrise into the terminus arrived after it,"the small ceremony of agreeing, a day late, to be where he was"
+E16,E1,-2,mi (Met By),False,Farid's connection was a bus that left punctually and seldom: every two hours,The train left the capital at dusk
+E16,E2,-5,di (Contains),False,Farid's connection was a bus that left punctually and seldom: every two hours,ran west all night
+E16,E3,-5,di (Contains),False,Farid's connection was a bus that left punctually and seldom: every two hours,it crossed the line where the clocks fell back an hour
+E16,E4,-5,di (Contains),False,Farid's connection was a bus that left punctually and seldom: every two hours,the journey of eleven hours arrived only ten clock-hours after it departed
+E16,E5,0,= (Equal),False,Farid's connection was a bus that left punctually and seldom: every two hours,the schedule absorbed silently
+E16,E6,0,= (Equal),False,Farid's connection was a bus that left punctually and seldom: every two hours,the body did not
+E16,E7,0,= (Equal),False,Farid's connection was a bus that left punctually and seldom: every two hours,Farid had done the trip monthly for nine years
+E16,E8,0,= (Equal),False,Farid's connection was a bus that left punctually and seldom: every two hours,still woke at the old hour
+E16,E9,0,= (Equal),False,Farid's connection was a bus that left punctually and seldom: every two hours,his interior clock loyal to the city he'd left
+E16,E10,0,= (Equal),False,Farid's connection was a bus that left punctually and seldom: every two hours,The dining car stopped serving at a fixed time
+E16,E11,0,= (Equal),False,Farid's connection was a bus that left punctually and seldom: every two hours,"that was reached, on westbound runs, twice"
+E16,E12,0,= (Equal),False,Farid's connection was a bus that left punctually and seldom: every two hours,once before the zone line and once after
+E16,E13,0,= (Equal),False,Farid's connection was a bus that left punctually and seldom: every two hours,the steward's policy on the second occurrence had varied over the years with the steward
+E16,E14,-5,di (Contains),False,Farid's connection was a bus that left punctually and seldom: every two hours,"Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E16,E15,-5,di (Contains),False,Farid's connection was a bus that left punctually and seldom: every two hours,the train that usually beat the sunrise into the terminus arrived after it
+E16,E17,-5,di (Contains),False,Farid's connection was a bus that left punctually and seldom: every two hours,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E16,E18,-5,di (Contains),False,Farid's connection was a bus that left punctually and seldom: every two hours,"On the platform he reset his watch, as he always did, last thing"
+E16,E19,-5,di (Contains),False,Farid's connection was a bus that left punctually and seldom: every two hours,"the small ceremony of agreeing, a day late, to be where he was"
+E17,E1,-1,> (Preceded By),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",The train left the capital at dusk
+E17,E2,-1,> (Preceded By),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",ran west all night
+E17,E3,-1,> (Preceded By),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",it crossed the line where the clocks fell back an hour
+E17,E4,-1,> (Preceded By),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",the journey of eleven hours arrived only ten clock-hours after it departed
+E17,E5,5,d (During),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",the schedule absorbed silently
+E17,E6,5,d (During),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",the body did not
+E17,E7,5,d (During),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",Farid had done the trip monthly for nine years
+E17,E8,5,d (During),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",still woke at the old hour
+E17,E9,5,d (During),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",his interior clock loyal to the city he'd left
+E17,E10,5,d (During),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",The dining car stopped serving at a fixed time
+E17,E11,5,d (During),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument","that was reached, on westbound runs, twice"
+E17,E12,5,d (During),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",once before the zone line and once after
+E17,E13,5,d (During),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",the steward's policy on the second occurrence had varied over the years with the steward
+E17,E14,-1,> (Preceded By),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument","Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E17,E15,-1,> (Preceded By),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",the train that usually beat the sunrise into the terminus arrived after it
+E17,E16,5,d (During),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument",Farid's connection was a bus that left punctually and seldom: every two hours
+E17,E18,1,< (Precedes),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument","On the platform he reset his watch, as he always did, last thing"
+E17,E19,1,< (Precedes),False,"He had missed it, he calculated, by roughly the length of the dining car's second closing argument","the small ceremony of agreeing, a day late, to be where he was"
+E18,E1,-1,> (Preceded By),False,"On the platform he reset his watch, as he always did, last thing",The train left the capital at dusk
+E18,E2,-1,> (Preceded By),False,"On the platform he reset his watch, as he always did, last thing",ran west all night
+E18,E3,-1,> (Preceded By),False,"On the platform he reset his watch, as he always did, last thing",it crossed the line where the clocks fell back an hour
+E18,E4,-1,> (Preceded By),False,"On the platform he reset his watch, as he always did, last thing",the journey of eleven hours arrived only ten clock-hours after it departed
+E18,E5,5,d (During),False,"On the platform he reset his watch, as he always did, last thing",the schedule absorbed silently
+E18,E6,5,d (During),False,"On the platform he reset his watch, as he always did, last thing",the body did not
+E18,E7,5,d (During),False,"On the platform he reset his watch, as he always did, last thing",Farid had done the trip monthly for nine years
+E18,E8,5,d (During),False,"On the platform he reset his watch, as he always did, last thing",still woke at the old hour
+E18,E9,5,d (During),False,"On the platform he reset his watch, as he always did, last thing",his interior clock loyal to the city he'd left
+E18,E10,5,d (During),False,"On the platform he reset his watch, as he always did, last thing",The dining car stopped serving at a fixed time
+E18,E11,5,d (During),False,"On the platform he reset his watch, as he always did, last thing","that was reached, on westbound runs, twice"
+E18,E12,5,d (During),False,"On the platform he reset his watch, as he always did, last thing",once before the zone line and once after
+E18,E13,5,d (During),False,"On the platform he reset his watch, as he always did, last thing",the steward's policy on the second occurrence had varied over the years with the steward
+E18,E14,-1,> (Preceded By),False,"On the platform he reset his watch, as he always did, last thing","Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E18,E15,-1,> (Preceded By),False,"On the platform he reset his watch, as he always did, last thing",the train that usually beat the sunrise into the terminus arrived after it
+E18,E16,5,d (During),False,"On the platform he reset his watch, as he always did, last thing",Farid's connection was a bus that left punctually and seldom: every two hours
+E18,E17,-1,> (Preceded By),False,"On the platform he reset his watch, as he always did, last thing","He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E18,E19,2,m (Meets),False,"On the platform he reset his watch, as he always did, last thing","the small ceremony of agreeing, a day late, to be where he was"
+E19,E1,-1,> (Preceded By),False,"the small ceremony of agreeing, a day late, to be where he was",The train left the capital at dusk
+E19,E2,-1,> (Preceded By),False,"the small ceremony of agreeing, a day late, to be where he was",ran west all night
+E19,E3,-1,> (Preceded By),False,"the small ceremony of agreeing, a day late, to be where he was",it crossed the line where the clocks fell back an hour
+E19,E4,-1,> (Preceded By),False,"the small ceremony of agreeing, a day late, to be where he was",the journey of eleven hours arrived only ten clock-hours after it departed
+E19,E5,5,d (During),False,"the small ceremony of agreeing, a day late, to be where he was",the schedule absorbed silently
+E19,E6,5,d (During),False,"the small ceremony of agreeing, a day late, to be where he was",the body did not
+E19,E7,5,d (During),False,"the small ceremony of agreeing, a day late, to be where he was",Farid had done the trip monthly for nine years
+E19,E8,5,d (During),False,"the small ceremony of agreeing, a day late, to be where he was",still woke at the old hour
+E19,E9,5,d (During),False,"the small ceremony of agreeing, a day late, to be where he was",his interior clock loyal to the city he'd left
+E19,E10,5,d (During),False,"the small ceremony of agreeing, a day late, to be where he was",The dining car stopped serving at a fixed time
+E19,E11,5,d (During),False,"the small ceremony of agreeing, a day late, to be where he was","that was reached, on westbound runs, twice"
+E19,E12,5,d (During),False,"the small ceremony of agreeing, a day late, to be where he was",once before the zone line and once after
+E19,E13,5,d (During),False,"the small ceremony of agreeing, a day late, to be where he was",the steward's policy on the second occurrence had varied over the years with the steward
+E19,E14,-1,> (Preceded By),False,"the small ceremony of agreeing, a day late, to be where he was","Tonight's emergency stop — ninety minutes, a cargo derailment somewhere ahead — consumed the entire margin the schedule held in reserve, plus the gained hour, plus a little of the morning"
+E19,E15,-1,> (Preceded By),False,"the small ceremony of agreeing, a day late, to be where he was",the train that usually beat the sunrise into the terminus arrived after it
+E19,E16,5,d (During),False,"the small ceremony of agreeing, a day late, to be where he was",Farid's connection was a bus that left punctually and seldom: every two hours
+E19,E17,-1,> (Preceded By),False,"the small ceremony of agreeing, a day late, to be where he was","He had missed it, he calculated, by roughly the length of the dining car's second closing argument"
+E19,E18,-2,mi (Met By),False,"the small ceremony of agreeing, a day late, to be where he was","On the platform he reset his watch, as he always did, last thing"

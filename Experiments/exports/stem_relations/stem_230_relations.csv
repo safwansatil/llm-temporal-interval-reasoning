@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,The strike began at midnight on a Sunday,lasted forty nine days
+E1,E3,-1,> (Preceded By),False,The strike began at midnight on a Sunday,the runway was built
+E1,E4,1,< (Precedes),False,The strike began at midnight on a Sunday,the airport was silent for three hours
+E1,E5,5,d (During),False,The strike began at midnight on a Sunday,had been waiting for a rebooked flight since Friday
+E1,E6,1,< (Precedes),False,The strike began at midnight on a Sunday,He slept in the terminal on a bench
+E1,E7,1,< (Precedes),False,The strike began at midnight on a Sunday,A cleaner saw him there every morning
+E1,E8,5,d (During),False,The strike began at midnight on a Sunday,The cleaner had worked at the airport for thirty years
+E1,E9,1,< (Precedes),False,The strike began at midnight on a Sunday,The passenger's flight finally left on day fifty
+E1,E10,1,< (Precedes),False,The strike began at midnight on a Sunday,The takeoff was delayed by a bird strike for forty minutes
+E1,E11,1,< (Precedes),False,The strike began at midnight on a Sunday,The passenger landed at his destination
+E1,E12,1,< (Precedes),False,The strike began at midnight on a Sunday,collected his bag
+E1,E13,1,< (Precedes),False,The strike began at midnight on a Sunday,took a taxi to his hotel
+E1,E14,-1,> (Preceded By),False,The strike began at midnight on a Sunday,The reservation had been made fifty one days earlier
+E1,E15,1,< (Precedes),False,The strike began at midnight on a Sunday,The front desk clerk asked
+E1,E16,1,< (Precedes),False,The strike began at midnight on a Sunday,He said nothing
+E1,E17,1,< (Precedes),False,The strike began at midnight on a Sunday,then he laughed
+E2,E1,-4,si (Started By),False,lasted forty nine days,The strike began at midnight on a Sunday
+E2,E3,-1,> (Preceded By),False,lasted forty nine days,the runway was built
+E2,E4,-5,di (Contains),False,lasted forty nine days,the airport was silent for three hours
+E2,E5,5,d (During),False,lasted forty nine days,had been waiting for a rebooked flight since Friday
+E2,E6,-6,fi (Finished By),False,lasted forty nine days,He slept in the terminal on a bench
+E2,E7,-6,fi (Finished By),False,lasted forty nine days,A cleaner saw him there every morning
+E2,E8,5,d (During),False,lasted forty nine days,The cleaner had worked at the airport for thirty years
+E2,E9,1,< (Precedes),False,lasted forty nine days,The passenger's flight finally left on day fifty
+E2,E10,2,m (Meets),False,lasted forty nine days,The takeoff was delayed by a bird strike for forty minutes
+E2,E11,1,< (Precedes),False,lasted forty nine days,The passenger landed at his destination
+E2,E12,1,< (Precedes),False,lasted forty nine days,collected his bag
+E2,E13,1,< (Precedes),False,lasted forty nine days,took a taxi to his hotel
+E2,E14,-1,> (Preceded By),False,lasted forty nine days,The reservation had been made fifty one days earlier
+E2,E15,1,< (Precedes),False,lasted forty nine days,The front desk clerk asked
+E2,E16,1,< (Precedes),False,lasted forty nine days,He said nothing
+E2,E17,1,< (Precedes),False,lasted forty nine days,then he laughed
+E3,E1,1,< (Precedes),False,the runway was built,The strike began at midnight on a Sunday
+E3,E2,1,< (Precedes),False,the runway was built,lasted forty nine days
+E3,E4,1,< (Precedes),False,the runway was built,the airport was silent for three hours
+E3,E5,1,< (Precedes),False,the runway was built,had been waiting for a rebooked flight since Friday
+E3,E6,1,< (Precedes),False,the runway was built,He slept in the terminal on a bench
+E3,E7,1,< (Precedes),False,the runway was built,A cleaner saw him there every morning
+E3,E8,2,m (Meets),False,the runway was built,The cleaner had worked at the airport for thirty years
+E3,E9,1,< (Precedes),False,the runway was built,The passenger's flight finally left on day fifty
+E3,E10,1,< (Precedes),False,the runway was built,The takeoff was delayed by a bird strike for forty minutes
+E3,E11,1,< (Precedes),False,the runway was built,The passenger landed at his destination
+E3,E12,1,< (Precedes),False,the runway was built,collected his bag
+E3,E13,1,< (Precedes),False,the runway was built,took a taxi to his hotel
+E3,E14,1,< (Precedes),False,the runway was built,The reservation had been made fifty one days earlier
+E3,E15,1,< (Precedes),False,the runway was built,The front desk clerk asked
+E3,E16,1,< (Precedes),False,the runway was built,He said nothing
+E3,E17,1,< (Precedes),False,the runway was built,then he laughed
+E4,E1,-1,> (Preceded By),False,the airport was silent for three hours,The strike began at midnight on a Sunday
+E4,E2,5,d (During),False,the airport was silent for three hours,lasted forty nine days
+E4,E3,-1,> (Preceded By),False,the airport was silent for three hours,the runway was built
+E4,E5,5,d (During),False,the airport was silent for three hours,had been waiting for a rebooked flight since Friday
+E4,E6,2,m (Meets),False,the airport was silent for three hours,He slept in the terminal on a bench
+E4,E7,2,m (Meets),False,the airport was silent for three hours,A cleaner saw him there every morning
+E4,E8,5,d (During),False,the airport was silent for three hours,The cleaner had worked at the airport for thirty years
+E4,E9,1,< (Precedes),False,the airport was silent for three hours,The passenger's flight finally left on day fifty
+E4,E10,1,< (Precedes),False,the airport was silent for three hours,The takeoff was delayed by a bird strike for forty minutes
+E4,E11,1,< (Precedes),False,the airport was silent for three hours,The passenger landed at his destination
+E4,E12,1,< (Precedes),False,the airport was silent for three hours,collected his bag
+E4,E13,1,< (Precedes),False,the airport was silent for three hours,took a taxi to his hotel
+E4,E14,-1,> (Preceded By),False,the airport was silent for three hours,The reservation had been made fifty one days earlier
+E4,E15,1,< (Precedes),False,the airport was silent for three hours,The front desk clerk asked
+E4,E16,1,< (Precedes),False,the airport was silent for three hours,He said nothing
+E4,E17,1,< (Precedes),False,the airport was silent for three hours,then he laughed
+E5,E1,-5,di (Contains),False,had been waiting for a rebooked flight since Friday,The strike began at midnight on a Sunday
+E5,E2,-5,di (Contains),False,had been waiting for a rebooked flight since Friday,lasted forty nine days
+E5,E3,-1,> (Preceded By),False,had been waiting for a rebooked flight since Friday,the runway was built
+E5,E4,-5,di (Contains),False,had been waiting for a rebooked flight since Friday,the airport was silent for three hours
+E5,E6,-5,di (Contains),False,had been waiting for a rebooked flight since Friday,He slept in the terminal on a bench
+E5,E7,-5,di (Contains),False,had been waiting for a rebooked flight since Friday,A cleaner saw him there every morning
+E5,E8,6,f (Finishes),False,had been waiting for a rebooked flight since Friday,The cleaner had worked at the airport for thirty years
+E5,E9,2,m (Meets),False,had been waiting for a rebooked flight since Friday,The passenger's flight finally left on day fifty
+E5,E10,-6,fi (Finished By),False,had been waiting for a rebooked flight since Friday,The takeoff was delayed by a bird strike for forty minutes
+E5,E11,1,< (Precedes),False,had been waiting for a rebooked flight since Friday,The passenger landed at his destination
+E5,E12,1,< (Precedes),False,had been waiting for a rebooked flight since Friday,collected his bag
+E5,E13,1,< (Precedes),False,had been waiting for a rebooked flight since Friday,took a taxi to his hotel
+E5,E14,-5,di (Contains),False,had been waiting for a rebooked flight since Friday,The reservation had been made fifty one days earlier
+E5,E15,1,< (Precedes),False,had been waiting for a rebooked flight since Friday,The front desk clerk asked
+E5,E16,1,< (Precedes),False,had been waiting for a rebooked flight since Friday,He said nothing
+E5,E17,1,< (Precedes),False,had been waiting for a rebooked flight since Friday,then he laughed
+E6,E1,-1,> (Preceded By),False,He slept in the terminal on a bench,The strike began at midnight on a Sunday
+E6,E2,6,f (Finishes),False,He slept in the terminal on a bench,lasted forty nine days
+E6,E3,-1,> (Preceded By),False,He slept in the terminal on a bench,the runway was built
+E6,E4,-2,mi (Met By),False,He slept in the terminal on a bench,the airport was silent for three hours
+E6,E5,5,d (During),False,He slept in the terminal on a bench,had been waiting for a rebooked flight since Friday
+E6,E7,0,= (Equal),False,He slept in the terminal on a bench,A cleaner saw him there every morning
+E6,E8,5,d (During),False,He slept in the terminal on a bench,The cleaner had worked at the airport for thirty years
+E6,E9,1,< (Precedes),False,He slept in the terminal on a bench,The passenger's flight finally left on day fifty
+E6,E10,2,m (Meets),False,He slept in the terminal on a bench,The takeoff was delayed by a bird strike for forty minutes
+E6,E11,1,< (Precedes),False,He slept in the terminal on a bench,The passenger landed at his destination
+E6,E12,1,< (Precedes),False,He slept in the terminal on a bench,collected his bag
+E6,E13,1,< (Precedes),False,He slept in the terminal on a bench,took a taxi to his hotel
+E6,E14,-1,> (Preceded By),False,He slept in the terminal on a bench,The reservation had been made fifty one days earlier
+E6,E15,1,< (Precedes),False,He slept in the terminal on a bench,The front desk clerk asked
+E6,E16,1,< (Precedes),False,He slept in the terminal on a bench,He said nothing
+E6,E17,1,< (Precedes),False,He slept in the terminal on a bench,then he laughed
+E7,E1,-1,> (Preceded By),False,A cleaner saw him there every morning,The strike began at midnight on a Sunday
+E7,E2,6,f (Finishes),False,A cleaner saw him there every morning,lasted forty nine days
+E7,E3,-1,> (Preceded By),False,A cleaner saw him there every morning,the runway was built
+E7,E4,-2,mi (Met By),False,A cleaner saw him there every morning,the airport was silent for three hours
+E7,E5,5,d (During),False,A cleaner saw him there every morning,had been waiting for a rebooked flight since Friday
+E7,E6,0,= (Equal),False,A cleaner saw him there every morning,He slept in the terminal on a bench
+E7,E8,5,d (During),False,A cleaner saw him there every morning,The cleaner had worked at the airport for thirty years
+E7,E9,1,< (Precedes),False,A cleaner saw him there every morning,The passenger's flight finally left on day fifty
+E7,E10,2,m (Meets),False,A cleaner saw him there every morning,The takeoff was delayed by a bird strike for forty minutes
+E7,E11,1,< (Precedes),False,A cleaner saw him there every morning,The passenger landed at his destination
+E7,E12,1,< (Precedes),False,A cleaner saw him there every morning,collected his bag
+E7,E13,1,< (Precedes),False,A cleaner saw him there every morning,took a taxi to his hotel
+E7,E14,-1,> (Preceded By),False,A cleaner saw him there every morning,The reservation had been made fifty one days earlier
+E7,E15,1,< (Precedes),False,A cleaner saw him there every morning,The front desk clerk asked
+E7,E16,1,< (Precedes),False,A cleaner saw him there every morning,He said nothing
+E7,E17,1,< (Precedes),False,A cleaner saw him there every morning,then he laughed
+E8,E1,-5,di (Contains),False,The cleaner had worked at the airport for thirty years,The strike began at midnight on a Sunday
+E8,E2,-5,di (Contains),False,The cleaner had worked at the airport for thirty years,lasted forty nine days
+E8,E3,-2,mi (Met By),False,The cleaner had worked at the airport for thirty years,the runway was built
+E8,E4,-5,di (Contains),False,The cleaner had worked at the airport for thirty years,the airport was silent for three hours
+E8,E5,-6,fi (Finished By),False,The cleaner had worked at the airport for thirty years,had been waiting for a rebooked flight since Friday
+E8,E6,-5,di (Contains),False,The cleaner had worked at the airport for thirty years,He slept in the terminal on a bench
+E8,E7,-5,di (Contains),False,The cleaner had worked at the airport for thirty years,A cleaner saw him there every morning
+E8,E9,2,m (Meets),False,The cleaner had worked at the airport for thirty years,The passenger's flight finally left on day fifty
+E8,E10,-6,fi (Finished By),False,The cleaner had worked at the airport for thirty years,The takeoff was delayed by a bird strike for forty minutes
+E8,E11,1,< (Precedes),False,The cleaner had worked at the airport for thirty years,The passenger landed at his destination
+E8,E12,1,< (Precedes),False,The cleaner had worked at the airport for thirty years,collected his bag
+E8,E13,1,< (Precedes),False,The cleaner had worked at the airport for thirty years,took a taxi to his hotel
+E8,E14,-5,di (Contains),False,The cleaner had worked at the airport for thirty years,The reservation had been made fifty one days earlier
+E8,E15,1,< (Precedes),False,The cleaner had worked at the airport for thirty years,The front desk clerk asked
+E8,E16,1,< (Precedes),False,The cleaner had worked at the airport for thirty years,He said nothing
+E8,E17,1,< (Precedes),False,The cleaner had worked at the airport for thirty years,then he laughed
+E9,E1,-1,> (Preceded By),False,The passenger's flight finally left on day fifty,The strike began at midnight on a Sunday
+E9,E2,-1,> (Preceded By),False,The passenger's flight finally left on day fifty,lasted forty nine days
+E9,E3,-1,> (Preceded By),False,The passenger's flight finally left on day fifty,the runway was built
+E9,E4,-1,> (Preceded By),False,The passenger's flight finally left on day fifty,the airport was silent for three hours
+E9,E5,-2,mi (Met By),False,The passenger's flight finally left on day fifty,had been waiting for a rebooked flight since Friday
+E9,E6,-1,> (Preceded By),False,The passenger's flight finally left on day fifty,He slept in the terminal on a bench
+E9,E7,-1,> (Preceded By),False,The passenger's flight finally left on day fifty,A cleaner saw him there every morning
+E9,E8,-2,mi (Met By),False,The passenger's flight finally left on day fifty,The cleaner had worked at the airport for thirty years
+E9,E10,-2,mi (Met By),False,The passenger's flight finally left on day fifty,The takeoff was delayed by a bird strike for forty minutes
+E9,E11,1,< (Precedes),False,The passenger's flight finally left on day fifty,The passenger landed at his destination
+E9,E12,1,< (Precedes),False,The passenger's flight finally left on day fifty,collected his bag
+E9,E13,1,< (Precedes),False,The passenger's flight finally left on day fifty,took a taxi to his hotel
+E9,E14,-1,> (Preceded By),False,The passenger's flight finally left on day fifty,The reservation had been made fifty one days earlier
+E9,E15,1,< (Precedes),False,The passenger's flight finally left on day fifty,The front desk clerk asked
+E9,E16,1,< (Precedes),False,The passenger's flight finally left on day fifty,He said nothing
+E9,E17,1,< (Precedes),False,The passenger's flight finally left on day fifty,then he laughed
+E10,E1,-1,> (Preceded By),False,The takeoff was delayed by a bird strike for forty minutes,The strike began at midnight on a Sunday
+E10,E2,-2,mi (Met By),False,The takeoff was delayed by a bird strike for forty minutes,lasted forty nine days
+E10,E3,-1,> (Preceded By),False,The takeoff was delayed by a bird strike for forty minutes,the runway was built
+E10,E4,-1,> (Preceded By),False,The takeoff was delayed by a bird strike for forty minutes,the airport was silent for three hours
+E10,E5,6,f (Finishes),False,The takeoff was delayed by a bird strike for forty minutes,had been waiting for a rebooked flight since Friday
+E10,E6,-2,mi (Met By),False,The takeoff was delayed by a bird strike for forty minutes,He slept in the terminal on a bench
+E10,E7,-2,mi (Met By),False,The takeoff was delayed by a bird strike for forty minutes,A cleaner saw him there every morning
+E10,E8,6,f (Finishes),False,The takeoff was delayed by a bird strike for forty minutes,The cleaner had worked at the airport for thirty years
+E10,E9,2,m (Meets),False,The takeoff was delayed by a bird strike for forty minutes,The passenger's flight finally left on day fifty
+E10,E11,1,< (Precedes),False,The takeoff was delayed by a bird strike for forty minutes,The passenger landed at his destination
+E10,E12,1,< (Precedes),False,The takeoff was delayed by a bird strike for forty minutes,collected his bag
+E10,E13,1,< (Precedes),False,The takeoff was delayed by a bird strike for forty minutes,took a taxi to his hotel
+E10,E14,-1,> (Preceded By),False,The takeoff was delayed by a bird strike for forty minutes,The reservation had been made fifty one days earlier
+E10,E15,1,< (Precedes),False,The takeoff was delayed by a bird strike for forty minutes,The front desk clerk asked
+E10,E16,1,< (Precedes),False,The takeoff was delayed by a bird strike for forty minutes,He said nothing
+E10,E17,1,< (Precedes),False,The takeoff was delayed by a bird strike for forty minutes,then he laughed
+E11,E1,-1,> (Preceded By),False,The passenger landed at his destination,The strike began at midnight on a Sunday
+E11,E2,-1,> (Preceded By),False,The passenger landed at his destination,lasted forty nine days
+E11,E3,-1,> (Preceded By),False,The passenger landed at his destination,the runway was built
+E11,E4,-1,> (Preceded By),False,The passenger landed at his destination,the airport was silent for three hours
+E11,E5,-1,> (Preceded By),False,The passenger landed at his destination,had been waiting for a rebooked flight since Friday
+E11,E6,-1,> (Preceded By),False,The passenger landed at his destination,He slept in the terminal on a bench
+E11,E7,-1,> (Preceded By),False,The passenger landed at his destination,A cleaner saw him there every morning
+E11,E8,-1,> (Preceded By),False,The passenger landed at his destination,The cleaner had worked at the airport for thirty years
+E11,E9,-1,> (Preceded By),False,The passenger landed at his destination,The passenger's flight finally left on day fifty
+E11,E10,-1,> (Preceded By),False,The passenger landed at his destination,The takeoff was delayed by a bird strike for forty minutes
+E11,E12,2,m (Meets),False,The passenger landed at his destination,collected his bag
+E11,E13,1,< (Precedes),False,The passenger landed at his destination,took a taxi to his hotel
+E11,E14,-1,> (Preceded By),False,The passenger landed at his destination,The reservation had been made fifty one days earlier
+E11,E15,1,< (Precedes),False,The passenger landed at his destination,The front desk clerk asked
+E11,E16,1,< (Precedes),False,The passenger landed at his destination,He said nothing
+E11,E17,1,< (Precedes),False,The passenger landed at his destination,then he laughed
+E12,E1,-1,> (Preceded By),False,collected his bag,The strike began at midnight on a Sunday
+E12,E2,-1,> (Preceded By),False,collected his bag,lasted forty nine days
+E12,E3,-1,> (Preceded By),False,collected his bag,the runway was built
+E12,E4,-1,> (Preceded By),False,collected his bag,the airport was silent for three hours
+E12,E5,-1,> (Preceded By),False,collected his bag,had been waiting for a rebooked flight since Friday
+E12,E6,-1,> (Preceded By),False,collected his bag,He slept in the terminal on a bench
+E12,E7,-1,> (Preceded By),False,collected his bag,A cleaner saw him there every morning
+E12,E8,-1,> (Preceded By),False,collected his bag,The cleaner had worked at the airport for thirty years
+E12,E9,-1,> (Preceded By),False,collected his bag,The passenger's flight finally left on day fifty
+E12,E10,-1,> (Preceded By),False,collected his bag,The takeoff was delayed by a bird strike for forty minutes
+E12,E11,-2,mi (Met By),False,collected his bag,The passenger landed at his destination
+E12,E13,2,m (Meets),False,collected his bag,took a taxi to his hotel
+E12,E14,-1,> (Preceded By),False,collected his bag,The reservation had been made fifty one days earlier
+E12,E15,1,< (Precedes),False,collected his bag,The front desk clerk asked
+E12,E16,1,< (Precedes),False,collected his bag,He said nothing
+E12,E17,1,< (Precedes),False,collected his bag,then he laughed
+E13,E1,-1,> (Preceded By),False,took a taxi to his hotel,The strike began at midnight on a Sunday
+E13,E2,-1,> (Preceded By),False,took a taxi to his hotel,lasted forty nine days
+E13,E3,-1,> (Preceded By),False,took a taxi to his hotel,the runway was built
+E13,E4,-1,> (Preceded By),False,took a taxi to his hotel,the airport was silent for three hours
+E13,E5,-1,> (Preceded By),False,took a taxi to his hotel,had been waiting for a rebooked flight since Friday
+E13,E6,-1,> (Preceded By),False,took a taxi to his hotel,He slept in the terminal on a bench
+E13,E7,-1,> (Preceded By),False,took a taxi to his hotel,A cleaner saw him there every morning
+E13,E8,-1,> (Preceded By),False,took a taxi to his hotel,The cleaner had worked at the airport for thirty years
+E13,E9,-1,> (Preceded By),False,took a taxi to his hotel,The passenger's flight finally left on day fifty
+E13,E10,-1,> (Preceded By),False,took a taxi to his hotel,The takeoff was delayed by a bird strike for forty minutes
+E13,E11,-1,> (Preceded By),False,took a taxi to his hotel,The passenger landed at his destination
+E13,E12,-2,mi (Met By),False,took a taxi to his hotel,collected his bag
+E13,E14,-1,> (Preceded By),False,took a taxi to his hotel,The reservation had been made fifty one days earlier
+E13,E15,1,< (Precedes),False,took a taxi to his hotel,The front desk clerk asked
+E13,E16,1,< (Precedes),False,took a taxi to his hotel,He said nothing
+E13,E17,1,< (Precedes),False,took a taxi to his hotel,then he laughed
+E14,E1,1,< (Precedes),False,The reservation had been made fifty one days earlier,The strike began at midnight on a Sunday
+E14,E2,1,< (Precedes),False,The reservation had been made fifty one days earlier,lasted forty nine days
+E14,E3,-1,> (Preceded By),False,The reservation had been made fifty one days earlier,the runway was built
+E14,E4,1,< (Precedes),False,The reservation had been made fifty one days earlier,the airport was silent for three hours
+E14,E5,5,d (During),False,The reservation had been made fifty one days earlier,had been waiting for a rebooked flight since Friday
+E14,E6,1,< (Precedes),False,The reservation had been made fifty one days earlier,He slept in the terminal on a bench
+E14,E7,1,< (Precedes),False,The reservation had been made fifty one days earlier,A cleaner saw him there every morning
+E14,E8,5,d (During),False,The reservation had been made fifty one days earlier,The cleaner had worked at the airport for thirty years
+E14,E9,1,< (Precedes),False,The reservation had been made fifty one days earlier,The passenger's flight finally left on day fifty
+E14,E10,1,< (Precedes),False,The reservation had been made fifty one days earlier,The takeoff was delayed by a bird strike for forty minutes
+E14,E11,1,< (Precedes),False,The reservation had been made fifty one days earlier,The passenger landed at his destination
+E14,E12,1,< (Precedes),False,The reservation had been made fifty one days earlier,collected his bag
+E14,E13,1,< (Precedes),False,The reservation had been made fifty one days earlier,took a taxi to his hotel
+E14,E15,1,< (Precedes),False,The reservation had been made fifty one days earlier,The front desk clerk asked
+E14,E16,1,< (Precedes),False,The reservation had been made fifty one days earlier,He said nothing
+E14,E17,1,< (Precedes),False,The reservation had been made fifty one days earlier,then he laughed
+E15,E1,-1,> (Preceded By),False,The front desk clerk asked,The strike began at midnight on a Sunday
+E15,E2,-1,> (Preceded By),False,The front desk clerk asked,lasted forty nine days
+E15,E3,-1,> (Preceded By),False,The front desk clerk asked,the runway was built
+E15,E4,-1,> (Preceded By),False,The front desk clerk asked,the airport was silent for three hours
+E15,E5,-1,> (Preceded By),False,The front desk clerk asked,had been waiting for a rebooked flight since Friday
+E15,E6,-1,> (Preceded By),False,The front desk clerk asked,He slept in the terminal on a bench
+E15,E7,-1,> (Preceded By),False,The front desk clerk asked,A cleaner saw him there every morning
+E15,E8,-1,> (Preceded By),False,The front desk clerk asked,The cleaner had worked at the airport for thirty years
+E15,E9,-1,> (Preceded By),False,The front desk clerk asked,The passenger's flight finally left on day fifty
+E15,E10,-1,> (Preceded By),False,The front desk clerk asked,The takeoff was delayed by a bird strike for forty minutes
+E15,E11,-1,> (Preceded By),False,The front desk clerk asked,The passenger landed at his destination
+E15,E12,-1,> (Preceded By),False,The front desk clerk asked,collected his bag
+E15,E13,-1,> (Preceded By),False,The front desk clerk asked,took a taxi to his hotel
+E15,E14,-1,> (Preceded By),False,The front desk clerk asked,The reservation had been made fifty one days earlier
+E15,E16,2,m (Meets),False,The front desk clerk asked,He said nothing
+E15,E17,1,< (Precedes),False,The front desk clerk asked,then he laughed
+E16,E1,-1,> (Preceded By),False,He said nothing,The strike began at midnight on a Sunday
+E16,E2,-1,> (Preceded By),False,He said nothing,lasted forty nine days
+E16,E3,-1,> (Preceded By),False,He said nothing,the runway was built
+E16,E4,-1,> (Preceded By),False,He said nothing,the airport was silent for three hours
+E16,E5,-1,> (Preceded By),False,He said nothing,had been waiting for a rebooked flight since Friday
+E16,E6,-1,> (Preceded By),False,He said nothing,He slept in the terminal on a bench
+E16,E7,-1,> (Preceded By),False,He said nothing,A cleaner saw him there every morning
+E16,E8,-1,> (Preceded By),False,He said nothing,The cleaner had worked at the airport for thirty years
+E16,E9,-1,> (Preceded By),False,He said nothing,The passenger's flight finally left on day fifty
+E16,E10,-1,> (Preceded By),False,He said nothing,The takeoff was delayed by a bird strike for forty minutes
+E16,E11,-1,> (Preceded By),False,He said nothing,The passenger landed at his destination
+E16,E12,-1,> (Preceded By),False,He said nothing,collected his bag
+E16,E13,-1,> (Preceded By),False,He said nothing,took a taxi to his hotel
+E16,E14,-1,> (Preceded By),False,He said nothing,The reservation had been made fifty one days earlier
+E16,E15,-2,mi (Met By),False,He said nothing,The front desk clerk asked
+E16,E17,1,< (Precedes),False,He said nothing,then he laughed
+E17,E1,-1,> (Preceded By),False,then he laughed,The strike began at midnight on a Sunday
+E17,E2,-1,> (Preceded By),False,then he laughed,lasted forty nine days
+E17,E3,-1,> (Preceded By),False,then he laughed,the runway was built
+E17,E4,-1,> (Preceded By),False,then he laughed,the airport was silent for three hours
+E17,E5,-1,> (Preceded By),False,then he laughed,had been waiting for a rebooked flight since Friday
+E17,E6,-1,> (Preceded By),False,then he laughed,He slept in the terminal on a bench
+E17,E7,-1,> (Preceded By),False,then he laughed,A cleaner saw him there every morning
+E17,E8,-1,> (Preceded By),False,then he laughed,The cleaner had worked at the airport for thirty years
+E17,E9,-1,> (Preceded By),False,then he laughed,The passenger's flight finally left on day fifty
+E17,E10,-1,> (Preceded By),False,then he laughed,The takeoff was delayed by a bird strike for forty minutes
+E17,E11,-1,> (Preceded By),False,then he laughed,The passenger landed at his destination
+E17,E12,-1,> (Preceded By),False,then he laughed,collected his bag
+E17,E13,-1,> (Preceded By),False,then he laughed,took a taxi to his hotel
+E17,E14,-1,> (Preceded By),False,then he laughed,The reservation had been made fifty one days earlier
+E17,E15,-1,> (Preceded By),False,then he laughed,The front desk clerk asked
+E17,E16,-1,> (Preceded By),False,then he laughed,He said nothing

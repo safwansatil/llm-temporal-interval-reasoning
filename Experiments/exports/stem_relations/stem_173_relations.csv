@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,Rima had been wanting to paint the boundary wall of her family home for six months.,bought the paint
+E1,E3,-5,di (Contains),False,Rima had been wanting to paint the boundary wall of her family home for six months.,began painting
+E1,E4,-5,di (Contains),False,Rima had been wanting to paint the boundary wall of her family home for six months.,completed the first section
+E1,E5,-6,fi (Finished By),False,Rima had been wanting to paint the boundary wall of her family home for six months.,painted the second section
+E1,E6,-6,fi (Finished By),False,Rima had been wanting to paint the boundary wall of her family home for six months.,finished the work
+E1,E7,1,< (Precedes),False,Rima had been wanting to paint the boundary wall of her family home for six months.,neighbors complimented the color
+E1,E8,1,< (Precedes),False,Rima had been wanting to paint the boundary wall of her family home for six months.,admired the completed wall
+E1,E9,-1,> (Preceded By),False,Rima had been wanting to paint the boundary wall of her family home for six months.,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E1,E10,-5,di (Contains),False,Rima had been wanting to paint the boundary wall of her family home for six months.,She decided to finish the rest over the coming weekend.
+E1,E11,-5,di (Contains),False,Rima had been wanting to paint the boundary wall of her family home for six months.,ho had refused to help during the first weekend
+E1,E12,-5,di (Contains),False,Rima had been wanting to paint the boundary wall of her family home for six months.,joined her this time.
+E2,E1,5,d (During),False,bought the paint,Rima had been wanting to paint the boundary wall of her family home for six months.
+E2,E3,1,< (Precedes),False,bought the paint,began painting
+E2,E4,1,< (Precedes),False,bought the paint,completed the first section
+E2,E5,1,< (Precedes),False,bought the paint,painted the second section
+E2,E6,1,< (Precedes),False,bought the paint,finished the work
+E2,E7,1,< (Precedes),False,bought the paint,neighbors complimented the color
+E2,E8,1,< (Precedes),False,bought the paint,admired the completed wall
+E2,E9,-1,> (Preceded By),False,bought the paint,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E2,E10,1,< (Precedes),False,bought the paint,She decided to finish the rest over the coming weekend.
+E2,E11,1,< (Precedes),False,bought the paint,ho had refused to help during the first weekend
+E2,E12,1,< (Precedes),False,bought the paint,joined her this time.
+E3,E1,5,d (During),False,began painting,Rima had been wanting to paint the boundary wall of her family home for six months.
+E3,E2,-1,> (Preceded By),False,began painting,bought the paint
+E3,E4,2,m (Meets),False,began painting,completed the first section
+E3,E5,1,< (Precedes),False,began painting,painted the second section
+E3,E6,1,< (Precedes),False,began painting,finished the work
+E3,E7,1,< (Precedes),False,began painting,neighbors complimented the color
+E3,E8,1,< (Precedes),False,began painting,admired the completed wall
+E3,E9,-1,> (Preceded By),False,began painting,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E3,E10,1,< (Precedes),False,began painting,She decided to finish the rest over the coming weekend.
+E3,E11,2,m (Meets),False,began painting,ho had refused to help during the first weekend
+E3,E12,1,< (Precedes),False,began painting,joined her this time.
+E4,E1,5,d (During),False,completed the first section,Rima had been wanting to paint the boundary wall of her family home for six months.
+E4,E2,-1,> (Preceded By),False,completed the first section,bought the paint
+E4,E3,-2,mi (Met By),False,completed the first section,began painting
+E4,E5,1,< (Precedes),False,completed the first section,painted the second section
+E4,E6,1,< (Precedes),False,completed the first section,finished the work
+E4,E7,1,< (Precedes),False,completed the first section,neighbors complimented the color
+E4,E8,1,< (Precedes),False,completed the first section,admired the completed wall
+E4,E9,-1,> (Preceded By),False,completed the first section,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E4,E10,1,< (Precedes),False,completed the first section,She decided to finish the rest over the coming weekend.
+E4,E11,0,= (Equal),False,completed the first section,ho had refused to help during the first weekend
+E4,E12,1,< (Precedes),False,completed the first section,joined her this time.
+E5,E1,6,f (Finishes),False,painted the second section,Rima had been wanting to paint the boundary wall of her family home for six months.
+E5,E2,-1,> (Preceded By),False,painted the second section,bought the paint
+E5,E3,-1,> (Preceded By),False,painted the second section,began painting
+E5,E4,-1,> (Preceded By),False,painted the second section,completed the first section
+E5,E6,0,= (Equal),False,painted the second section,finished the work
+E5,E7,1,< (Precedes),False,painted the second section,neighbors complimented the color
+E5,E8,1,< (Precedes),False,painted the second section,admired the completed wall
+E5,E9,-1,> (Preceded By),False,painted the second section,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E5,E10,-1,> (Preceded By),False,painted the second section,She decided to finish the rest over the coming weekend.
+E5,E11,-1,> (Preceded By),False,painted the second section,ho had refused to help during the first weekend
+E5,E12,-2,mi (Met By),False,painted the second section,joined her this time.
+E6,E1,6,f (Finishes),False,finished the work,Rima had been wanting to paint the boundary wall of her family home for six months.
+E6,E2,-1,> (Preceded By),False,finished the work,bought the paint
+E6,E3,-1,> (Preceded By),False,finished the work,began painting
+E6,E4,-1,> (Preceded By),False,finished the work,completed the first section
+E6,E5,0,= (Equal),False,finished the work,painted the second section
+E6,E7,1,< (Precedes),False,finished the work,neighbors complimented the color
+E6,E8,1,< (Precedes),False,finished the work,admired the completed wall
+E6,E9,-1,> (Preceded By),False,finished the work,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E6,E10,-1,> (Preceded By),False,finished the work,She decided to finish the rest over the coming weekend.
+E6,E11,-1,> (Preceded By),False,finished the work,ho had refused to help during the first weekend
+E6,E12,-2,mi (Met By),False,finished the work,joined her this time.
+E7,E1,-1,> (Preceded By),False,neighbors complimented the color,Rima had been wanting to paint the boundary wall of her family home for six months.
+E7,E2,-1,> (Preceded By),False,neighbors complimented the color,bought the paint
+E7,E3,-1,> (Preceded By),False,neighbors complimented the color,began painting
+E7,E4,-1,> (Preceded By),False,neighbors complimented the color,completed the first section
+E7,E5,-1,> (Preceded By),False,neighbors complimented the color,painted the second section
+E7,E6,-1,> (Preceded By),False,neighbors complimented the color,finished the work
+E7,E8,1,< (Precedes),False,neighbors complimented the color,admired the completed wall
+E7,E9,-1,> (Preceded By),False,neighbors complimented the color,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E7,E10,-1,> (Preceded By),False,neighbors complimented the color,She decided to finish the rest over the coming weekend.
+E7,E11,-1,> (Preceded By),False,neighbors complimented the color,ho had refused to help during the first weekend
+E7,E12,-1,> (Preceded By),False,neighbors complimented the color,joined her this time.
+E8,E1,-1,> (Preceded By),False,admired the completed wall,Rima had been wanting to paint the boundary wall of her family home for six months.
+E8,E2,-1,> (Preceded By),False,admired the completed wall,bought the paint
+E8,E3,-1,> (Preceded By),False,admired the completed wall,began painting
+E8,E4,-1,> (Preceded By),False,admired the completed wall,completed the first section
+E8,E5,-1,> (Preceded By),False,admired the completed wall,painted the second section
+E8,E6,-1,> (Preceded By),False,admired the completed wall,finished the work
+E8,E7,-1,> (Preceded By),False,admired the completed wall,neighbors complimented the color
+E8,E9,-1,> (Preceded By),False,admired the completed wall,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E8,E10,-1,> (Preceded By),False,admired the completed wall,She decided to finish the rest over the coming weekend.
+E8,E11,-1,> (Preceded By),False,admired the completed wall,ho had refused to help during the first weekend
+E8,E12,-1,> (Preceded By),False,admired the completed wall,joined her this time.
+E9,E1,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",Rima had been wanting to paint the boundary wall of her family home for six months.
+E9,E2,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",bought the paint
+E9,E3,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",began painting
+E9,E4,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",completed the first section
+E9,E5,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",painted the second section
+E9,E6,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",finished the work
+E9,E7,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",neighbors complimented the color
+E9,E8,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",admired the completed wall
+E9,E10,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",She decided to finish the rest over the coming weekend.
+E9,E11,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",ho had refused to help during the first weekend
+E9,E12,1,< (Precedes),False,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon.",joined her this time.
+E10,E1,5,d (During),False,She decided to finish the rest over the coming weekend.,Rima had been wanting to paint the boundary wall of her family home for six months.
+E10,E2,-1,> (Preceded By),False,She decided to finish the rest over the coming weekend.,bought the paint
+E10,E3,-1,> (Preceded By),False,She decided to finish the rest over the coming weekend.,began painting
+E10,E4,-1,> (Preceded By),False,She decided to finish the rest over the coming weekend.,completed the first section
+E10,E5,1,< (Precedes),False,She decided to finish the rest over the coming weekend.,painted the second section
+E10,E6,1,< (Precedes),False,She decided to finish the rest over the coming weekend.,finished the work
+E10,E7,1,< (Precedes),False,She decided to finish the rest over the coming weekend.,neighbors complimented the color
+E10,E8,1,< (Precedes),False,She decided to finish the rest over the coming weekend.,admired the completed wall
+E10,E9,-1,> (Preceded By),False,She decided to finish the rest over the coming weekend.,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E10,E11,-1,> (Preceded By),False,She decided to finish the rest over the coming weekend.,ho had refused to help during the first weekend
+E10,E12,1,< (Precedes),False,She decided to finish the rest over the coming weekend.,joined her this time.
+E11,E1,5,d (During),False,ho had refused to help during the first weekend,Rima had been wanting to paint the boundary wall of her family home for six months.
+E11,E2,-1,> (Preceded By),False,ho had refused to help during the first weekend,bought the paint
+E11,E3,-2,mi (Met By),False,ho had refused to help during the first weekend,began painting
+E11,E4,0,= (Equal),False,ho had refused to help during the first weekend,completed the first section
+E11,E5,1,< (Precedes),False,ho had refused to help during the first weekend,painted the second section
+E11,E6,1,< (Precedes),False,ho had refused to help during the first weekend,finished the work
+E11,E7,1,< (Precedes),False,ho had refused to help during the first weekend,neighbors complimented the color
+E11,E8,1,< (Precedes),False,ho had refused to help during the first weekend,admired the completed wall
+E11,E9,-1,> (Preceded By),False,ho had refused to help during the first weekend,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E11,E10,1,< (Precedes),False,ho had refused to help during the first weekend,She decided to finish the rest over the coming weekend.
+E11,E12,1,< (Precedes),False,ho had refused to help during the first weekend,joined her this time.
+E12,E1,5,d (During),False,joined her this time.,Rima had been wanting to paint the boundary wall of her family home for six months.
+E12,E2,-1,> (Preceded By),False,joined her this time.,bought the paint
+E12,E3,-1,> (Preceded By),False,joined her this time.,began painting
+E12,E4,-1,> (Preceded By),False,joined her this time.,completed the first section
+E12,E5,2,m (Meets),False,joined her this time.,painted the second section
+E12,E6,2,m (Meets),False,joined her this time.,finished the work
+E12,E7,1,< (Precedes),False,joined her this time.,neighbors complimented the color
+E12,E8,1,< (Precedes),False,joined her this time.,admired the completed wall
+E12,E9,-1,> (Preceded By),False,joined her this time.,"he old paint had faded to a dull gray, and patches of moss had spread across the lower portion during the previous monsoon."
+E12,E10,-1,> (Preceded By),False,joined her this time.,She decided to finish the rest over the coming weekend.
+E12,E11,-1,> (Preceded By),False,joined her this time.,ho had refused to help during the first weekend

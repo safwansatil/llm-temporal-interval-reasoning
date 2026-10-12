@@ -1,0 +1,211 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,"knee, injured",saving for the pilgrimage
+E1,E3,1,< (Precedes),False,"knee, injured",youngest child was born
+E1,E4,-1,> (Preceded By),False,"knee, injured",mother had performed it
+E1,E5,1,< (Precedes),False,"knee, injured",child was now married
+E1,E6,1,< (Precedes),False,"knee, injured",application had been rejected
+E1,E7,1,< (Precedes),False,"knee, injured",approved on the third attempt
+E1,E8,1,< (Precedes),False,"knee, injured",last two years of saving had been spent
+E1,E9,1,< (Precedes),False,"knee, injured",flight crossed four time zones
+E1,E10,1,< (Precedes),False,"knee, injured",day at Arafat began at noon
+E1,E11,1,< (Precedes),False,"knee, injured",ended at sunset
+E1,E12,1,< (Precedes),False,"knee, injured",she stood through all of it
+E1,E13,1,< (Precedes),False,"knee, injured",walked beside a man
+E1,E14,1,< (Precedes),False,"knee, injured",the cost had risen past
+E1,E15,5,d (During),False,"knee, injured","had applied for forty years,"
+E2,E1,-1,> (Preceded By),False,saving for the pilgrimage,"knee, injured"
+E2,E3,-5,di (Contains),False,saving for the pilgrimage,youngest child was born
+E2,E4,-1,> (Preceded By),False,saving for the pilgrimage,mother had performed it
+E2,E5,-5,di (Contains),False,saving for the pilgrimage,child was now married
+E2,E6,-5,di (Contains),False,saving for the pilgrimage,application had been rejected
+E2,E7,2,m (Meets),False,saving for the pilgrimage,approved on the third attempt
+E2,E8,-6,fi (Finished By),False,saving for the pilgrimage,last two years of saving had been spent
+E2,E9,1,< (Precedes),False,saving for the pilgrimage,flight crossed four time zones
+E2,E10,1,< (Precedes),False,saving for the pilgrimage,day at Arafat began at noon
+E2,E11,1,< (Precedes),False,saving for the pilgrimage,ended at sunset
+E2,E12,1,< (Precedes),False,saving for the pilgrimage,she stood through all of it
+E2,E13,1,< (Precedes),False,saving for the pilgrimage,walked beside a man
+E2,E14,3,o (Overlaps),False,saving for the pilgrimage,the cost had risen past
+E2,E15,5,d (During),False,saving for the pilgrimage,"had applied for forty years,"
+E3,E1,-1,> (Preceded By),False,youngest child was born,"knee, injured"
+E3,E2,5,d (During),False,youngest child was born,saving for the pilgrimage
+E3,E4,-1,> (Preceded By),False,youngest child was born,mother had performed it
+E3,E5,1,< (Precedes),False,youngest child was born,child was now married
+E3,E6,1,< (Precedes),False,youngest child was born,application had been rejected
+E3,E7,1,< (Precedes),False,youngest child was born,approved on the third attempt
+E3,E8,1,< (Precedes),False,youngest child was born,last two years of saving had been spent
+E3,E9,1,< (Precedes),False,youngest child was born,flight crossed four time zones
+E3,E10,1,< (Precedes),False,youngest child was born,day at Arafat began at noon
+E3,E11,1,< (Precedes),False,youngest child was born,ended at sunset
+E3,E12,1,< (Precedes),False,youngest child was born,she stood through all of it
+E3,E13,1,< (Precedes),False,youngest child was born,walked beside a man
+E3,E14,1,< (Precedes),False,youngest child was born,the cost had risen past
+E3,E15,5,d (During),False,youngest child was born,"had applied for forty years,"
+E4,E1,1,< (Precedes),False,mother had performed it,"knee, injured"
+E4,E2,1,< (Precedes),False,mother had performed it,saving for the pilgrimage
+E4,E3,1,< (Precedes),False,mother had performed it,youngest child was born
+E4,E5,1,< (Precedes),False,mother had performed it,child was now married
+E4,E6,1,< (Precedes),False,mother had performed it,application had been rejected
+E4,E7,1,< (Precedes),False,mother had performed it,approved on the third attempt
+E4,E8,1,< (Precedes),False,mother had performed it,last two years of saving had been spent
+E4,E9,1,< (Precedes),False,mother had performed it,flight crossed four time zones
+E4,E10,1,< (Precedes),False,mother had performed it,day at Arafat began at noon
+E4,E11,1,< (Precedes),False,mother had performed it,ended at sunset
+E4,E12,1,< (Precedes),False,mother had performed it,she stood through all of it
+E4,E13,1,< (Precedes),False,mother had performed it,walked beside a man
+E4,E14,1,< (Precedes),False,mother had performed it,the cost had risen past
+E4,E15,4,s (Starts),False,mother had performed it,"had applied for forty years,"
+E5,E1,-1,> (Preceded By),False,child was now married,"knee, injured"
+E5,E2,5,d (During),False,child was now married,saving for the pilgrimage
+E5,E3,-1,> (Preceded By),False,child was now married,youngest child was born
+E5,E4,-1,> (Preceded By),False,child was now married,mother had performed it
+E5,E6,1,< (Precedes),False,child was now married,application had been rejected
+E5,E7,1,< (Precedes),False,child was now married,approved on the third attempt
+E5,E8,1,< (Precedes),False,child was now married,last two years of saving had been spent
+E5,E9,1,< (Precedes),False,child was now married,flight crossed four time zones
+E5,E10,1,< (Precedes),False,child was now married,day at Arafat began at noon
+E5,E11,1,< (Precedes),False,child was now married,ended at sunset
+E5,E12,1,< (Precedes),False,child was now married,she stood through all of it
+E5,E13,1,< (Precedes),False,child was now married,walked beside a man
+E5,E14,1,< (Precedes),False,child was now married,the cost had risen past
+E5,E15,5,d (During),False,child was now married,"had applied for forty years,"
+E6,E1,-1,> (Preceded By),False,application had been rejected,"knee, injured"
+E6,E2,5,d (During),False,application had been rejected,saving for the pilgrimage
+E6,E3,-1,> (Preceded By),False,application had been rejected,youngest child was born
+E6,E4,-1,> (Preceded By),False,application had been rejected,mother had performed it
+E6,E5,-1,> (Preceded By),False,application had been rejected,child was now married
+E6,E7,1,< (Precedes),False,application had been rejected,approved on the third attempt
+E6,E8,2,m (Meets),False,application had been rejected,last two years of saving had been spent
+E6,E9,1,< (Precedes),False,application had been rejected,flight crossed four time zones
+E6,E10,1,< (Precedes),False,application had been rejected,day at Arafat began at noon
+E6,E11,1,< (Precedes),False,application had been rejected,ended at sunset
+E6,E12,1,< (Precedes),False,application had been rejected,she stood through all of it
+E6,E13,1,< (Precedes),False,application had been rejected,walked beside a man
+E6,E14,1,< (Precedes),False,application had been rejected,the cost had risen past
+E6,E15,5,d (During),False,application had been rejected,"had applied for forty years,"
+E7,E1,-1,> (Preceded By),False,approved on the third attempt,"knee, injured"
+E7,E2,-2,mi (Met By),False,approved on the third attempt,saving for the pilgrimage
+E7,E3,-1,> (Preceded By),False,approved on the third attempt,youngest child was born
+E7,E4,-1,> (Preceded By),False,approved on the third attempt,mother had performed it
+E7,E5,-1,> (Preceded By),False,approved on the third attempt,child was now married
+E7,E6,-1,> (Preceded By),False,approved on the third attempt,application had been rejected
+E7,E8,-2,mi (Met By),False,approved on the third attempt,last two years of saving had been spent
+E7,E9,1,< (Precedes),False,approved on the third attempt,flight crossed four time zones
+E7,E10,1,< (Precedes),False,approved on the third attempt,day at Arafat began at noon
+E7,E11,1,< (Precedes),False,approved on the third attempt,ended at sunset
+E7,E12,1,< (Precedes),False,approved on the third attempt,she stood through all of it
+E7,E13,1,< (Precedes),False,approved on the third attempt,walked beside a man
+E7,E14,6,f (Finishes),False,approved on the third attempt,the cost had risen past
+E7,E15,5,d (During),False,approved on the third attempt,"had applied for forty years,"
+E8,E1,-1,> (Preceded By),False,last two years of saving had been spent,"knee, injured"
+E8,E2,6,f (Finishes),False,last two years of saving had been spent,saving for the pilgrimage
+E8,E3,-1,> (Preceded By),False,last two years of saving had been spent,youngest child was born
+E8,E4,-1,> (Preceded By),False,last two years of saving had been spent,mother had performed it
+E8,E5,-1,> (Preceded By),False,last two years of saving had been spent,child was now married
+E8,E6,-2,mi (Met By),False,last two years of saving had been spent,application had been rejected
+E8,E7,2,m (Meets),False,last two years of saving had been spent,approved on the third attempt
+E8,E9,1,< (Precedes),False,last two years of saving had been spent,flight crossed four time zones
+E8,E10,1,< (Precedes),False,last two years of saving had been spent,day at Arafat began at noon
+E8,E11,1,< (Precedes),False,last two years of saving had been spent,ended at sunset
+E8,E12,1,< (Precedes),False,last two years of saving had been spent,she stood through all of it
+E8,E13,1,< (Precedes),False,last two years of saving had been spent,walked beside a man
+E8,E14,3,o (Overlaps),False,last two years of saving had been spent,the cost had risen past
+E8,E15,5,d (During),False,last two years of saving had been spent,"had applied for forty years,"
+E9,E1,-1,> (Preceded By),False,flight crossed four time zones,"knee, injured"
+E9,E2,-1,> (Preceded By),False,flight crossed four time zones,saving for the pilgrimage
+E9,E3,-1,> (Preceded By),False,flight crossed four time zones,youngest child was born
+E9,E4,-1,> (Preceded By),False,flight crossed four time zones,mother had performed it
+E9,E5,-1,> (Preceded By),False,flight crossed four time zones,child was now married
+E9,E6,-1,> (Preceded By),False,flight crossed four time zones,application had been rejected
+E9,E7,-1,> (Preceded By),False,flight crossed four time zones,approved on the third attempt
+E9,E8,-1,> (Preceded By),False,flight crossed four time zones,last two years of saving had been spent
+E9,E10,1,< (Precedes),False,flight crossed four time zones,day at Arafat began at noon
+E9,E11,1,< (Precedes),False,flight crossed four time zones,ended at sunset
+E9,E12,1,< (Precedes),False,flight crossed four time zones,she stood through all of it
+E9,E13,1,< (Precedes),False,flight crossed four time zones,walked beside a man
+E9,E14,-1,> (Preceded By),False,flight crossed four time zones,the cost had risen past
+E9,E15,5,d (During),False,flight crossed four time zones,"had applied for forty years,"
+E10,E1,-1,> (Preceded By),False,day at Arafat began at noon,"knee, injured"
+E10,E2,-1,> (Preceded By),False,day at Arafat began at noon,saving for the pilgrimage
+E10,E3,-1,> (Preceded By),False,day at Arafat began at noon,youngest child was born
+E10,E4,-1,> (Preceded By),False,day at Arafat began at noon,mother had performed it
+E10,E5,-1,> (Preceded By),False,day at Arafat began at noon,child was now married
+E10,E6,-1,> (Preceded By),False,day at Arafat began at noon,application had been rejected
+E10,E7,-1,> (Preceded By),False,day at Arafat began at noon,approved on the third attempt
+E10,E8,-1,> (Preceded By),False,day at Arafat began at noon,last two years of saving had been spent
+E10,E9,-1,> (Preceded By),False,day at Arafat began at noon,flight crossed four time zones
+E10,E11,1,< (Precedes),False,day at Arafat began at noon,ended at sunset
+E10,E12,4,s (Starts),False,day at Arafat began at noon,she stood through all of it
+E10,E13,1,< (Precedes),False,day at Arafat began at noon,walked beside a man
+E10,E14,-1,> (Preceded By),False,day at Arafat began at noon,the cost had risen past
+E10,E15,5,d (During),False,day at Arafat began at noon,"had applied for forty years,"
+E11,E1,-1,> (Preceded By),False,ended at sunset,"knee, injured"
+E11,E2,-1,> (Preceded By),False,ended at sunset,saving for the pilgrimage
+E11,E3,-1,> (Preceded By),False,ended at sunset,youngest child was born
+E11,E4,-1,> (Preceded By),False,ended at sunset,mother had performed it
+E11,E5,-1,> (Preceded By),False,ended at sunset,child was now married
+E11,E6,-1,> (Preceded By),False,ended at sunset,application had been rejected
+E11,E7,-1,> (Preceded By),False,ended at sunset,approved on the third attempt
+E11,E8,-1,> (Preceded By),False,ended at sunset,last two years of saving had been spent
+E11,E9,-1,> (Preceded By),False,ended at sunset,flight crossed four time zones
+E11,E10,-1,> (Preceded By),False,ended at sunset,day at Arafat began at noon
+E11,E12,6,f (Finishes),False,ended at sunset,she stood through all of it
+E11,E13,1,< (Precedes),False,ended at sunset,walked beside a man
+E11,E14,-1,> (Preceded By),False,ended at sunset,the cost had risen past
+E11,E15,5,d (During),False,ended at sunset,"had applied for forty years,"
+E12,E1,-1,> (Preceded By),False,she stood through all of it,"knee, injured"
+E12,E2,-1,> (Preceded By),False,she stood through all of it,saving for the pilgrimage
+E12,E3,-1,> (Preceded By),False,she stood through all of it,youngest child was born
+E12,E4,-1,> (Preceded By),False,she stood through all of it,mother had performed it
+E12,E5,-1,> (Preceded By),False,she stood through all of it,child was now married
+E12,E6,-1,> (Preceded By),False,she stood through all of it,application had been rejected
+E12,E7,-1,> (Preceded By),False,she stood through all of it,approved on the third attempt
+E12,E8,-1,> (Preceded By),False,she stood through all of it,last two years of saving had been spent
+E12,E9,-1,> (Preceded By),False,she stood through all of it,flight crossed four time zones
+E12,E10,-4,si (Started By),False,she stood through all of it,day at Arafat began at noon
+E12,E11,-6,fi (Finished By),False,she stood through all of it,ended at sunset
+E12,E13,1,< (Precedes),False,she stood through all of it,walked beside a man
+E12,E14,-1,> (Preceded By),False,she stood through all of it,the cost had risen past
+E12,E15,5,d (During),False,she stood through all of it,"had applied for forty years,"
+E13,E1,-1,> (Preceded By),False,walked beside a man,"knee, injured"
+E13,E2,-1,> (Preceded By),False,walked beside a man,saving for the pilgrimage
+E13,E3,-1,> (Preceded By),False,walked beside a man,youngest child was born
+E13,E4,-1,> (Preceded By),False,walked beside a man,mother had performed it
+E13,E5,-1,> (Preceded By),False,walked beside a man,child was now married
+E13,E6,-1,> (Preceded By),False,walked beside a man,application had been rejected
+E13,E7,-1,> (Preceded By),False,walked beside a man,approved on the third attempt
+E13,E8,-1,> (Preceded By),False,walked beside a man,last two years of saving had been spent
+E13,E9,-1,> (Preceded By),False,walked beside a man,flight crossed four time zones
+E13,E10,-1,> (Preceded By),False,walked beside a man,day at Arafat began at noon
+E13,E11,-1,> (Preceded By),False,walked beside a man,ended at sunset
+E13,E12,-1,> (Preceded By),False,walked beside a man,she stood through all of it
+E13,E14,-1,> (Preceded By),False,walked beside a man,the cost had risen past
+E13,E15,6,f (Finishes),False,walked beside a man,"had applied for forty years,"
+E14,E1,-1,> (Preceded By),False,the cost had risen past,"knee, injured"
+E14,E2,-3,oi (Overlapped By),False,the cost had risen past,saving for the pilgrimage
+E14,E3,-1,> (Preceded By),False,the cost had risen past,youngest child was born
+E14,E4,-1,> (Preceded By),False,the cost had risen past,mother had performed it
+E14,E5,-1,> (Preceded By),False,the cost had risen past,child was now married
+E14,E6,-1,> (Preceded By),False,the cost had risen past,application had been rejected
+E14,E7,-6,fi (Finished By),False,the cost had risen past,approved on the third attempt
+E14,E8,-3,oi (Overlapped By),False,the cost had risen past,last two years of saving had been spent
+E14,E9,1,< (Precedes),False,the cost had risen past,flight crossed four time zones
+E14,E10,1,< (Precedes),False,the cost had risen past,day at Arafat began at noon
+E14,E11,1,< (Precedes),False,the cost had risen past,ended at sunset
+E14,E12,1,< (Precedes),False,the cost had risen past,she stood through all of it
+E14,E13,1,< (Precedes),False,the cost had risen past,walked beside a man
+E14,E15,5,d (During),False,the cost had risen past,"had applied for forty years,"
+E15,E1,-5,di (Contains),False,"had applied for forty years,","knee, injured"
+E15,E2,-5,di (Contains),False,"had applied for forty years,",saving for the pilgrimage
+E15,E3,-5,di (Contains),False,"had applied for forty years,",youngest child was born
+E15,E4,-4,si (Started By),False,"had applied for forty years,",mother had performed it
+E15,E5,-5,di (Contains),False,"had applied for forty years,",child was now married
+E15,E6,-5,di (Contains),False,"had applied for forty years,",application had been rejected
+E15,E7,-5,di (Contains),False,"had applied for forty years,",approved on the third attempt
+E15,E8,-5,di (Contains),False,"had applied for forty years,",last two years of saving had been spent
+E15,E9,-5,di (Contains),False,"had applied for forty years,",flight crossed four time zones
+E15,E10,-5,di (Contains),False,"had applied for forty years,",day at Arafat began at noon
+E15,E11,-5,di (Contains),False,"had applied for forty years,",ended at sunset
+E15,E12,-5,di (Contains),False,"had applied for forty years,",she stood through all of it
+E15,E13,-6,fi (Finished By),False,"had applied for forty years,",walked beside a man
+E15,E14,-5,di (Contains),False,"had applied for forty years,",the cost had risen past

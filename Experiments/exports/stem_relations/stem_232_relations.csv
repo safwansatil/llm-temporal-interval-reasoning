@@ -1,0 +1,157 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,the ambulance had taken him to the hospital,dressed in three minutes
+E1,E3,1,< (Precedes),False,the ambulance had taken him to the hospital,was on the road within ten
+E1,E4,1,< (Precedes),False,the ambulance had taken him to the hospital,She drove through empty streets
+E1,E5,2,m (Meets),False,the ambulance had taken him to the hospital,kept her father under observation
+E1,E6,1,< (Precedes),False,the ambulance had taken him to the hospital,Samira and her mother sat through the night
+E1,E7,1,< (Precedes),False,the ambulance had taken him to the hospital,He would need to stay in the hospital
+E1,E8,1,< (Precedes),False,the ambulance had taken him to the hospital,took leave from work
+E1,E9,1,< (Precedes),False,the ambulance had taken him to the hospital,"t the hospital, helping her mother"
+E1,E10,1,< (Precedes),False,the ambulance had taken him to the hospital,She stayed at her parents' hous
+E1,E11,1,< (Precedes),False,the ambulance had taken him to the hospital,Her father returned to his normal routine
+E1,E12,1,< (Precedes),False,the ambulance had taken him to the hospital,continued to call him
+E1,E13,5,d (During),False,the ambulance had taken him to the hospital,she had gone to bed
+E2,E1,-1,> (Preceded By),False,dressed in three minutes,the ambulance had taken him to the hospital
+E2,E3,2,m (Meets),False,dressed in three minutes,was on the road within ten
+E2,E4,1,< (Precedes),False,dressed in three minutes,She drove through empty streets
+E2,E5,5,d (During),False,dressed in three minutes,kept her father under observation
+E2,E6,1,< (Precedes),False,dressed in three minutes,Samira and her mother sat through the night
+E2,E7,1,< (Precedes),False,dressed in three minutes,He would need to stay in the hospital
+E2,E8,1,< (Precedes),False,dressed in three minutes,took leave from work
+E2,E9,1,< (Precedes),False,dressed in three minutes,"t the hospital, helping her mother"
+E2,E10,1,< (Precedes),False,dressed in three minutes,She stayed at her parents' hous
+E2,E11,1,< (Precedes),False,dressed in three minutes,Her father returned to his normal routine
+E2,E12,1,< (Precedes),False,dressed in three minutes,continued to call him
+E2,E13,-2,mi (Met By),False,dressed in three minutes,she had gone to bed
+E3,E1,-1,> (Preceded By),False,was on the road within ten,the ambulance had taken him to the hospital
+E3,E2,-2,mi (Met By),False,was on the road within ten,dressed in three minutes
+E3,E4,2,m (Meets),False,was on the road within ten,She drove through empty streets
+E3,E5,5,d (During),False,was on the road within ten,kept her father under observation
+E3,E6,1,< (Precedes),False,was on the road within ten,Samira and her mother sat through the night
+E3,E7,1,< (Precedes),False,was on the road within ten,He would need to stay in the hospital
+E3,E8,1,< (Precedes),False,was on the road within ten,took leave from work
+E3,E9,1,< (Precedes),False,was on the road within ten,"t the hospital, helping her mother"
+E3,E10,1,< (Precedes),False,was on the road within ten,She stayed at her parents' hous
+E3,E11,1,< (Precedes),False,was on the road within ten,Her father returned to his normal routine
+E3,E12,1,< (Precedes),False,was on the road within ten,continued to call him
+E3,E13,-1,> (Preceded By),False,was on the road within ten,she had gone to bed
+E4,E1,-1,> (Preceded By),False,She drove through empty streets,the ambulance had taken him to the hospital
+E4,E2,-1,> (Preceded By),False,She drove through empty streets,dressed in three minutes
+E4,E3,-2,mi (Met By),False,She drove through empty streets,was on the road within ten
+E4,E5,5,d (During),False,She drove through empty streets,kept her father under observation
+E4,E6,2,m (Meets),False,She drove through empty streets,Samira and her mother sat through the night
+E4,E7,1,< (Precedes),False,She drove through empty streets,He would need to stay in the hospital
+E4,E8,1,< (Precedes),False,She drove through empty streets,took leave from work
+E4,E9,1,< (Precedes),False,She drove through empty streets,"t the hospital, helping her mother"
+E4,E10,1,< (Precedes),False,She drove through empty streets,She stayed at her parents' hous
+E4,E11,1,< (Precedes),False,She drove through empty streets,Her father returned to his normal routine
+E4,E12,1,< (Precedes),False,She drove through empty streets,continued to call him
+E4,E13,-1,> (Preceded By),False,She drove through empty streets,she had gone to bed
+E5,E1,-2,mi (Met By),False,kept her father under observation,the ambulance had taken him to the hospital
+E5,E2,-5,di (Contains),False,kept her father under observation,dressed in three minutes
+E5,E3,-5,di (Contains),False,kept her father under observation,was on the road within ten
+E5,E4,-5,di (Contains),False,kept her father under observation,She drove through empty streets
+E5,E6,-6,fi (Finished By),False,kept her father under observation,Samira and her mother sat through the night
+E5,E7,2,m (Meets),False,kept her father under observation,He would need to stay in the hospital
+E5,E8,2,m (Meets),False,kept her father under observation,took leave from work
+E5,E9,2,m (Meets),False,kept her father under observation,"t the hospital, helping her mother"
+E5,E10,1,< (Precedes),False,kept her father under observation,She stayed at her parents' hous
+E5,E11,1,< (Precedes),False,kept her father under observation,Her father returned to his normal routine
+E5,E12,1,< (Precedes),False,kept her father under observation,continued to call him
+E5,E13,-3,oi (Overlapped By),False,kept her father under observation,she had gone to bed
+E6,E1,-1,> (Preceded By),False,Samira and her mother sat through the night,the ambulance had taken him to the hospital
+E6,E2,-1,> (Preceded By),False,Samira and her mother sat through the night,dressed in three minutes
+E6,E3,-1,> (Preceded By),False,Samira and her mother sat through the night,was on the road within ten
+E6,E4,-2,mi (Met By),False,Samira and her mother sat through the night,She drove through empty streets
+E6,E5,6,f (Finishes),False,Samira and her mother sat through the night,kept her father under observation
+E6,E7,2,m (Meets),False,Samira and her mother sat through the night,He would need to stay in the hospital
+E6,E8,2,m (Meets),False,Samira and her mother sat through the night,took leave from work
+E6,E9,2,m (Meets),False,Samira and her mother sat through the night,"t the hospital, helping her mother"
+E6,E10,1,< (Precedes),False,Samira and her mother sat through the night,She stayed at her parents' hous
+E6,E11,1,< (Precedes),False,Samira and her mother sat through the night,Her father returned to his normal routine
+E6,E12,1,< (Precedes),False,Samira and her mother sat through the night,continued to call him
+E6,E13,-1,> (Preceded By),False,Samira and her mother sat through the night,she had gone to bed
+E7,E1,-1,> (Preceded By),False,He would need to stay in the hospital,the ambulance had taken him to the hospital
+E7,E2,-1,> (Preceded By),False,He would need to stay in the hospital,dressed in three minutes
+E7,E3,-1,> (Preceded By),False,He would need to stay in the hospital,was on the road within ten
+E7,E4,-1,> (Preceded By),False,He would need to stay in the hospital,She drove through empty streets
+E7,E5,-2,mi (Met By),False,He would need to stay in the hospital,kept her father under observation
+E7,E6,-2,mi (Met By),False,He would need to stay in the hospital,Samira and her mother sat through the night
+E7,E8,4,s (Starts),False,He would need to stay in the hospital,took leave from work
+E7,E9,0,= (Equal),False,He would need to stay in the hospital,"t the hospital, helping her mother"
+E7,E10,2,m (Meets),False,He would need to stay in the hospital,She stayed at her parents' hous
+E7,E11,2,m (Meets),False,He would need to stay in the hospital,Her father returned to his normal routine
+E7,E12,1,< (Precedes),False,He would need to stay in the hospital,continued to call him
+E7,E13,-1,> (Preceded By),False,He would need to stay in the hospital,she had gone to bed
+E8,E1,-1,> (Preceded By),False,took leave from work,the ambulance had taken him to the hospital
+E8,E2,-1,> (Preceded By),False,took leave from work,dressed in three minutes
+E8,E3,-1,> (Preceded By),False,took leave from work,was on the road within ten
+E8,E4,-1,> (Preceded By),False,took leave from work,She drove through empty streets
+E8,E5,-2,mi (Met By),False,took leave from work,kept her father under observation
+E8,E6,-2,mi (Met By),False,took leave from work,Samira and her mother sat through the night
+E8,E7,-4,si (Started By),False,took leave from work,He would need to stay in the hospital
+E8,E9,-4,si (Started By),False,took leave from work,"t the hospital, helping her mother"
+E8,E10,3,o (Overlaps),False,took leave from work,She stayed at her parents' hous
+E8,E11,3,o (Overlaps),False,took leave from work,Her father returned to his normal routine
+E8,E12,1,< (Precedes),False,took leave from work,continued to call him
+E8,E13,-1,> (Preceded By),False,took leave from work,she had gone to bed
+E9,E1,-1,> (Preceded By),False,"t the hospital, helping her mother",the ambulance had taken him to the hospital
+E9,E2,-1,> (Preceded By),False,"t the hospital, helping her mother",dressed in three minutes
+E9,E3,-1,> (Preceded By),False,"t the hospital, helping her mother",was on the road within ten
+E9,E4,-1,> (Preceded By),False,"t the hospital, helping her mother",She drove through empty streets
+E9,E5,-2,mi (Met By),False,"t the hospital, helping her mother",kept her father under observation
+E9,E6,-2,mi (Met By),False,"t the hospital, helping her mother",Samira and her mother sat through the night
+E9,E7,0,= (Equal),False,"t the hospital, helping her mother",He would need to stay in the hospital
+E9,E8,4,s (Starts),False,"t the hospital, helping her mother",took leave from work
+E9,E10,2,m (Meets),False,"t the hospital, helping her mother",She stayed at her parents' hous
+E9,E11,2,m (Meets),False,"t the hospital, helping her mother",Her father returned to his normal routine
+E9,E12,1,< (Precedes),False,"t the hospital, helping her mother",continued to call him
+E9,E13,-1,> (Preceded By),False,"t the hospital, helping her mother",she had gone to bed
+E10,E1,-1,> (Preceded By),False,She stayed at her parents' hous,the ambulance had taken him to the hospital
+E10,E2,-1,> (Preceded By),False,She stayed at her parents' hous,dressed in three minutes
+E10,E3,-1,> (Preceded By),False,She stayed at her parents' hous,was on the road within ten
+E10,E4,-1,> (Preceded By),False,She stayed at her parents' hous,She drove through empty streets
+E10,E5,-1,> (Preceded By),False,She stayed at her parents' hous,kept her father under observation
+E10,E6,-1,> (Preceded By),False,She stayed at her parents' hous,Samira and her mother sat through the night
+E10,E7,-2,mi (Met By),False,She stayed at her parents' hous,He would need to stay in the hospital
+E10,E8,-3,oi (Overlapped By),False,She stayed at her parents' hous,took leave from work
+E10,E9,-2,mi (Met By),False,She stayed at her parents' hous,"t the hospital, helping her mother"
+E10,E11,4,s (Starts),False,She stayed at her parents' hous,Her father returned to his normal routine
+E10,E12,2,m (Meets),False,She stayed at her parents' hous,continued to call him
+E10,E13,-1,> (Preceded By),False,She stayed at her parents' hous,she had gone to bed
+E11,E1,-1,> (Preceded By),False,Her father returned to his normal routine,the ambulance had taken him to the hospital
+E11,E2,-1,> (Preceded By),False,Her father returned to his normal routine,dressed in three minutes
+E11,E3,-1,> (Preceded By),False,Her father returned to his normal routine,was on the road within ten
+E11,E4,-1,> (Preceded By),False,Her father returned to his normal routine,She drove through empty streets
+E11,E5,-1,> (Preceded By),False,Her father returned to his normal routine,kept her father under observation
+E11,E6,-1,> (Preceded By),False,Her father returned to his normal routine,Samira and her mother sat through the night
+E11,E7,-2,mi (Met By),False,Her father returned to his normal routine,He would need to stay in the hospital
+E11,E8,-3,oi (Overlapped By),False,Her father returned to his normal routine,took leave from work
+E11,E9,-2,mi (Met By),False,Her father returned to his normal routine,"t the hospital, helping her mother"
+E11,E10,-4,si (Started By),False,Her father returned to his normal routine,She stayed at her parents' hous
+E11,E12,3,o (Overlaps),False,Her father returned to his normal routine,continued to call him
+E11,E13,-1,> (Preceded By),False,Her father returned to his normal routine,she had gone to bed
+E12,E1,-1,> (Preceded By),False,continued to call him,the ambulance had taken him to the hospital
+E12,E2,-1,> (Preceded By),False,continued to call him,dressed in three minutes
+E12,E3,-1,> (Preceded By),False,continued to call him,was on the road within ten
+E12,E4,-1,> (Preceded By),False,continued to call him,She drove through empty streets
+E12,E5,-1,> (Preceded By),False,continued to call him,kept her father under observation
+E12,E6,-1,> (Preceded By),False,continued to call him,Samira and her mother sat through the night
+E12,E7,-1,> (Preceded By),False,continued to call him,He would need to stay in the hospital
+E12,E8,-1,> (Preceded By),False,continued to call him,took leave from work
+E12,E9,-1,> (Preceded By),False,continued to call him,"t the hospital, helping her mother"
+E12,E10,-2,mi (Met By),False,continued to call him,She stayed at her parents' hous
+E12,E11,-3,oi (Overlapped By),False,continued to call him,Her father returned to his normal routine
+E12,E13,-1,> (Preceded By),False,continued to call him,she had gone to bed
+E13,E1,-5,di (Contains),False,she had gone to bed,the ambulance had taken him to the hospital
+E13,E2,2,m (Meets),False,she had gone to bed,dressed in three minutes
+E13,E3,1,< (Precedes),False,she had gone to bed,was on the road within ten
+E13,E4,1,< (Precedes),False,she had gone to bed,She drove through empty streets
+E13,E5,3,o (Overlaps),False,she had gone to bed,kept her father under observation
+E13,E6,1,< (Precedes),False,she had gone to bed,Samira and her mother sat through the night
+E13,E7,1,< (Precedes),False,she had gone to bed,He would need to stay in the hospital
+E13,E8,1,< (Precedes),False,she had gone to bed,took leave from work
+E13,E9,1,< (Precedes),False,she had gone to bed,"t the hospital, helping her mother"
+E13,E10,1,< (Precedes),False,she had gone to bed,She stayed at her parents' hous
+E13,E11,1,< (Precedes),False,she had gone to bed,Her father returned to his normal routine
+E13,E12,1,< (Precedes),False,she had gone to bed,continued to call him

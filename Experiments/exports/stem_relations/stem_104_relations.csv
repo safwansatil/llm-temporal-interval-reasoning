@@ -1,0 +1,813 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,Rafi pushed the final commit,the demo judges were already two tables over
+E1,E3,1,< (Precedes),False,Rafi pushed the final commit,the judging round
+E1,E4,1,< (Precedes),False,Rafi pushed the final commit,the lunch break
+E1,E5,-1,> (Preceded By),False,Rafi pushed the final commit,had been pushed earlier
+E1,E6,-1,> (Preceded By),False,Rafi pushed the final commit,the sponsor's flight landed ahead of schedule
+E1,E7,-1,> (Preceded By),False,Rafi pushed the final commit,debugging the auth module in the stairwell
+E1,E8,-1,> (Preceded By),False,Rafi pushed the final commit,the main hall's wifi kept dropping
+E1,E9,-1,> (Preceded By),False,Rafi pushed the final commit,the router misconfiguration
+E1,E10,-1,> (Preceded By),False,Rafi pushed the final commit,the setup crew's dry run three days prior
+E1,E11,-1,> (Preceded By),False,Rafi pushed the final commit,Nusrat first sketched the matching algorithm
+E1,E12,-1,> (Preceded By),False,Rafi pushed the final commit,an idea she'd actually had months earlier during finals week
+E1,E13,-1,> (Preceded By),False,Rafi pushed the final commit,shelved
+E1,E14,-1,> (Preceded By),False,Rafi pushed the final commit,the hackathon's theme reveal
+E1,E15,-1,> (Preceded By),False,Rafi pushed the final commit,her calling from the cafe across town
+E1,E16,-1,> (Preceded By),False,Rafi pushed the final commit,chasing a database migration error
+E1,E17,-1,> (Preceded By),False,Rafi pushed the final commit,the following morning's stress test
+E1,E18,-1,> (Preceded By),False,Rafi pushed the final commit,the crash their prototype suffered
+E1,E19,0,= (Equal),False,Rafi pushed the final commit,now being renovated
+E1,E20,-1,> (Preceded By),False,Rafi pushed the final commit,had missed the opening ceremony
+E1,E21,-1,> (Preceded By),False,Rafi pushed the final commit,stuck at the airport
+E1,E22,-1,> (Preceded By),False,Rafi pushed the final commit,a delay caused by weather
+E1,E23,-1,> (Preceded By),False,Rafi pushed the final commit,wouldn't actually hit the city
+E1,E24,-1,> (Preceded By),False,Rafi pushed the final commit,arriving instead just as the mentors were doing rounds
+E1,E25,-1,> (Preceded By),False,Rafi pushed the final commit,a pointed question about the fallback logic
+E1,E26,-1,> (Preceded By),False,Rafi pushed the final commit,Rafi had written hastily
+E1,E27,-1,> (Preceded By),False,Rafi pushed the final commit,Nusrat's napkin idea got vetoed once
+E1,E28,-1,> (Preceded By),False,Rafi pushed the final commit,reinstated an hour later
+E1,E29,-1,> (Preceded By),False,Rafi pushed the final commit,the vetoing mentor left early for a flight
+E2,E1,0,= (Equal),False,the demo judges were already two tables over,Rafi pushed the final commit
+E2,E3,1,< (Precedes),False,the demo judges were already two tables over,the judging round
+E2,E4,1,< (Precedes),False,the demo judges were already two tables over,the lunch break
+E2,E5,-1,> (Preceded By),False,the demo judges were already two tables over,had been pushed earlier
+E2,E6,-1,> (Preceded By),False,the demo judges were already two tables over,the sponsor's flight landed ahead of schedule
+E2,E7,-1,> (Preceded By),False,the demo judges were already two tables over,debugging the auth module in the stairwell
+E2,E8,-1,> (Preceded By),False,the demo judges were already two tables over,the main hall's wifi kept dropping
+E2,E9,-1,> (Preceded By),False,the demo judges were already two tables over,the router misconfiguration
+E2,E10,-1,> (Preceded By),False,the demo judges were already two tables over,the setup crew's dry run three days prior
+E2,E11,-1,> (Preceded By),False,the demo judges were already two tables over,Nusrat first sketched the matching algorithm
+E2,E12,-1,> (Preceded By),False,the demo judges were already two tables over,an idea she'd actually had months earlier during finals week
+E2,E13,-1,> (Preceded By),False,the demo judges were already two tables over,shelved
+E2,E14,-1,> (Preceded By),False,the demo judges were already two tables over,the hackathon's theme reveal
+E2,E15,-1,> (Preceded By),False,the demo judges were already two tables over,her calling from the cafe across town
+E2,E16,-1,> (Preceded By),False,the demo judges were already two tables over,chasing a database migration error
+E2,E17,-1,> (Preceded By),False,the demo judges were already two tables over,the following morning's stress test
+E2,E18,-1,> (Preceded By),False,the demo judges were already two tables over,the crash their prototype suffered
+E2,E19,0,= (Equal),False,the demo judges were already two tables over,now being renovated
+E2,E20,-1,> (Preceded By),False,the demo judges were already two tables over,had missed the opening ceremony
+E2,E21,-1,> (Preceded By),False,the demo judges were already two tables over,stuck at the airport
+E2,E22,-1,> (Preceded By),False,the demo judges were already two tables over,a delay caused by weather
+E2,E23,-1,> (Preceded By),False,the demo judges were already two tables over,wouldn't actually hit the city
+E2,E24,-1,> (Preceded By),False,the demo judges were already two tables over,arriving instead just as the mentors were doing rounds
+E2,E25,-1,> (Preceded By),False,the demo judges were already two tables over,a pointed question about the fallback logic
+E2,E26,-1,> (Preceded By),False,the demo judges were already two tables over,Rafi had written hastily
+E2,E27,-1,> (Preceded By),False,the demo judges were already two tables over,Nusrat's napkin idea got vetoed once
+E2,E28,-1,> (Preceded By),False,the demo judges were already two tables over,reinstated an hour later
+E2,E29,-1,> (Preceded By),False,the demo judges were already two tables over,the vetoing mentor left early for a flight
+E3,E1,-1,> (Preceded By),False,the judging round,Rafi pushed the final commit
+E3,E2,-1,> (Preceded By),False,the judging round,the demo judges were already two tables over
+E3,E4,-1,> (Preceded By),False,the judging round,the lunch break
+E3,E5,-1,> (Preceded By),False,the judging round,had been pushed earlier
+E3,E6,-1,> (Preceded By),False,the judging round,the sponsor's flight landed ahead of schedule
+E3,E7,-1,> (Preceded By),False,the judging round,debugging the auth module in the stairwell
+E3,E8,-1,> (Preceded By),False,the judging round,the main hall's wifi kept dropping
+E3,E9,-1,> (Preceded By),False,the judging round,the router misconfiguration
+E3,E10,-1,> (Preceded By),False,the judging round,the setup crew's dry run three days prior
+E3,E11,-1,> (Preceded By),False,the judging round,Nusrat first sketched the matching algorithm
+E3,E12,-1,> (Preceded By),False,the judging round,an idea she'd actually had months earlier during finals week
+E3,E13,-1,> (Preceded By),False,the judging round,shelved
+E3,E14,-1,> (Preceded By),False,the judging round,the hackathon's theme reveal
+E3,E15,-1,> (Preceded By),False,the judging round,her calling from the cafe across town
+E3,E16,-1,> (Preceded By),False,the judging round,chasing a database migration error
+E3,E17,-1,> (Preceded By),False,the judging round,the following morning's stress test
+E3,E18,-1,> (Preceded By),False,the judging round,the crash their prototype suffered
+E3,E19,-1,> (Preceded By),False,the judging round,now being renovated
+E3,E20,-1,> (Preceded By),False,the judging round,had missed the opening ceremony
+E3,E21,-1,> (Preceded By),False,the judging round,stuck at the airport
+E3,E22,-1,> (Preceded By),False,the judging round,a delay caused by weather
+E3,E23,-1,> (Preceded By),False,the judging round,wouldn't actually hit the city
+E3,E24,-1,> (Preceded By),False,the judging round,arriving instead just as the mentors were doing rounds
+E3,E25,-1,> (Preceded By),False,the judging round,a pointed question about the fallback logic
+E3,E26,-1,> (Preceded By),False,the judging round,Rafi had written hastily
+E3,E27,-1,> (Preceded By),False,the judging round,Nusrat's napkin idea got vetoed once
+E3,E28,-1,> (Preceded By),False,the judging round,reinstated an hour later
+E3,E29,-1,> (Preceded By),False,the judging round,the vetoing mentor left early for a flight
+E4,E1,-1,> (Preceded By),False,the lunch break,Rafi pushed the final commit
+E4,E2,-1,> (Preceded By),False,the lunch break,the demo judges were already two tables over
+E4,E3,1,< (Precedes),False,the lunch break,the judging round
+E4,E5,-1,> (Preceded By),False,the lunch break,had been pushed earlier
+E4,E6,-1,> (Preceded By),False,the lunch break,the sponsor's flight landed ahead of schedule
+E4,E7,-1,> (Preceded By),False,the lunch break,debugging the auth module in the stairwell
+E4,E8,-1,> (Preceded By),False,the lunch break,the main hall's wifi kept dropping
+E4,E9,-1,> (Preceded By),False,the lunch break,the router misconfiguration
+E4,E10,-1,> (Preceded By),False,the lunch break,the setup crew's dry run three days prior
+E4,E11,-1,> (Preceded By),False,the lunch break,Nusrat first sketched the matching algorithm
+E4,E12,-1,> (Preceded By),False,the lunch break,an idea she'd actually had months earlier during finals week
+E4,E13,-1,> (Preceded By),False,the lunch break,shelved
+E4,E14,-1,> (Preceded By),False,the lunch break,the hackathon's theme reveal
+E4,E15,-1,> (Preceded By),False,the lunch break,her calling from the cafe across town
+E4,E16,-1,> (Preceded By),False,the lunch break,chasing a database migration error
+E4,E17,-1,> (Preceded By),False,the lunch break,the following morning's stress test
+E4,E18,-1,> (Preceded By),False,the lunch break,the crash their prototype suffered
+E4,E19,-1,> (Preceded By),False,the lunch break,now being renovated
+E4,E20,-1,> (Preceded By),False,the lunch break,had missed the opening ceremony
+E4,E21,-1,> (Preceded By),False,the lunch break,stuck at the airport
+E4,E22,-1,> (Preceded By),False,the lunch break,a delay caused by weather
+E4,E23,-1,> (Preceded By),False,the lunch break,wouldn't actually hit the city
+E4,E24,-1,> (Preceded By),False,the lunch break,arriving instead just as the mentors were doing rounds
+E4,E25,-1,> (Preceded By),False,the lunch break,a pointed question about the fallback logic
+E4,E26,-1,> (Preceded By),False,the lunch break,Rafi had written hastily
+E4,E27,-1,> (Preceded By),False,the lunch break,Nusrat's napkin idea got vetoed once
+E4,E28,-1,> (Preceded By),False,the lunch break,reinstated an hour later
+E4,E29,-1,> (Preceded By),False,the lunch break,the vetoing mentor left early for a flight
+E5,E1,1,< (Precedes),False,had been pushed earlier,Rafi pushed the final commit
+E5,E2,1,< (Precedes),False,had been pushed earlier,the demo judges were already two tables over
+E5,E3,1,< (Precedes),False,had been pushed earlier,the judging round
+E5,E4,1,< (Precedes),False,had been pushed earlier,the lunch break
+E5,E6,-1,> (Preceded By),False,had been pushed earlier,the sponsor's flight landed ahead of schedule
+E5,E7,-1,> (Preceded By),False,had been pushed earlier,debugging the auth module in the stairwell
+E5,E8,-1,> (Preceded By),False,had been pushed earlier,the main hall's wifi kept dropping
+E5,E9,-1,> (Preceded By),False,had been pushed earlier,the router misconfiguration
+E5,E10,-1,> (Preceded By),False,had been pushed earlier,the setup crew's dry run three days prior
+E5,E11,-1,> (Preceded By),False,had been pushed earlier,Nusrat first sketched the matching algorithm
+E5,E12,-1,> (Preceded By),False,had been pushed earlier,an idea she'd actually had months earlier during finals week
+E5,E13,-1,> (Preceded By),False,had been pushed earlier,shelved
+E5,E14,-1,> (Preceded By),False,had been pushed earlier,the hackathon's theme reveal
+E5,E15,-1,> (Preceded By),False,had been pushed earlier,her calling from the cafe across town
+E5,E16,-1,> (Preceded By),False,had been pushed earlier,chasing a database migration error
+E5,E17,0,= (Equal),False,had been pushed earlier,the following morning's stress test
+E5,E18,-1,> (Preceded By),False,had been pushed earlier,the crash their prototype suffered
+E5,E19,1,< (Precedes),False,had been pushed earlier,now being renovated
+E5,E20,-1,> (Preceded By),False,had been pushed earlier,had missed the opening ceremony
+E5,E21,-1,> (Preceded By),False,had been pushed earlier,stuck at the airport
+E5,E22,-1,> (Preceded By),False,had been pushed earlier,a delay caused by weather
+E5,E23,-1,> (Preceded By),False,had been pushed earlier,wouldn't actually hit the city
+E5,E24,-1,> (Preceded By),False,had been pushed earlier,arriving instead just as the mentors were doing rounds
+E5,E25,-1,> (Preceded By),False,had been pushed earlier,a pointed question about the fallback logic
+E5,E26,-1,> (Preceded By),False,had been pushed earlier,Rafi had written hastily
+E5,E27,-1,> (Preceded By),False,had been pushed earlier,Nusrat's napkin idea got vetoed once
+E5,E28,-1,> (Preceded By),False,had been pushed earlier,reinstated an hour later
+E5,E29,-1,> (Preceded By),False,had been pushed earlier,the vetoing mentor left early for a flight
+E6,E1,1,< (Precedes),False,the sponsor's flight landed ahead of schedule,Rafi pushed the final commit
+E6,E2,1,< (Precedes),False,the sponsor's flight landed ahead of schedule,the demo judges were already two tables over
+E6,E3,1,< (Precedes),False,the sponsor's flight landed ahead of schedule,the judging round
+E6,E4,1,< (Precedes),False,the sponsor's flight landed ahead of schedule,the lunch break
+E6,E5,1,< (Precedes),False,the sponsor's flight landed ahead of schedule,had been pushed earlier
+E6,E7,0,= (Equal),False,the sponsor's flight landed ahead of schedule,debugging the auth module in the stairwell
+E6,E8,0,= (Equal),False,the sponsor's flight landed ahead of schedule,the main hall's wifi kept dropping
+E6,E9,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,the router misconfiguration
+E6,E10,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,the setup crew's dry run three days prior
+E6,E11,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,Nusrat first sketched the matching algorithm
+E6,E12,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,an idea she'd actually had months earlier during finals week
+E6,E13,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,shelved
+E6,E14,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,the hackathon's theme reveal
+E6,E15,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,her calling from the cafe across town
+E6,E16,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,chasing a database migration error
+E6,E17,1,< (Precedes),False,the sponsor's flight landed ahead of schedule,the following morning's stress test
+E6,E18,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,the crash their prototype suffered
+E6,E19,1,< (Precedes),False,the sponsor's flight landed ahead of schedule,now being renovated
+E6,E20,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,had missed the opening ceremony
+E6,E21,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,stuck at the airport
+E6,E22,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,a delay caused by weather
+E6,E23,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,wouldn't actually hit the city
+E6,E24,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,arriving instead just as the mentors were doing rounds
+E6,E25,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,a pointed question about the fallback logic
+E6,E26,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,Rafi had written hastily
+E6,E27,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,Nusrat's napkin idea got vetoed once
+E6,E28,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,reinstated an hour later
+E6,E29,-1,> (Preceded By),False,the sponsor's flight landed ahead of schedule,the vetoing mentor left early for a flight
+E7,E1,1,< (Precedes),False,debugging the auth module in the stairwell,Rafi pushed the final commit
+E7,E2,1,< (Precedes),False,debugging the auth module in the stairwell,the demo judges were already two tables over
+E7,E3,1,< (Precedes),False,debugging the auth module in the stairwell,the judging round
+E7,E4,1,< (Precedes),False,debugging the auth module in the stairwell,the lunch break
+E7,E5,1,< (Precedes),False,debugging the auth module in the stairwell,had been pushed earlier
+E7,E6,0,= (Equal),False,debugging the auth module in the stairwell,the sponsor's flight landed ahead of schedule
+E7,E8,0,= (Equal),False,debugging the auth module in the stairwell,the main hall's wifi kept dropping
+E7,E9,-1,> (Preceded By),False,debugging the auth module in the stairwell,the router misconfiguration
+E7,E10,-1,> (Preceded By),False,debugging the auth module in the stairwell,the setup crew's dry run three days prior
+E7,E11,-1,> (Preceded By),False,debugging the auth module in the stairwell,Nusrat first sketched the matching algorithm
+E7,E12,-1,> (Preceded By),False,debugging the auth module in the stairwell,an idea she'd actually had months earlier during finals week
+E7,E13,-1,> (Preceded By),False,debugging the auth module in the stairwell,shelved
+E7,E14,-1,> (Preceded By),False,debugging the auth module in the stairwell,the hackathon's theme reveal
+E7,E15,-1,> (Preceded By),False,debugging the auth module in the stairwell,her calling from the cafe across town
+E7,E16,-1,> (Preceded By),False,debugging the auth module in the stairwell,chasing a database migration error
+E7,E17,1,< (Precedes),False,debugging the auth module in the stairwell,the following morning's stress test
+E7,E18,-1,> (Preceded By),False,debugging the auth module in the stairwell,the crash their prototype suffered
+E7,E19,1,< (Precedes),False,debugging the auth module in the stairwell,now being renovated
+E7,E20,-1,> (Preceded By),False,debugging the auth module in the stairwell,had missed the opening ceremony
+E7,E21,-1,> (Preceded By),False,debugging the auth module in the stairwell,stuck at the airport
+E7,E22,-1,> (Preceded By),False,debugging the auth module in the stairwell,a delay caused by weather
+E7,E23,-1,> (Preceded By),False,debugging the auth module in the stairwell,wouldn't actually hit the city
+E7,E24,-1,> (Preceded By),False,debugging the auth module in the stairwell,arriving instead just as the mentors were doing rounds
+E7,E25,-1,> (Preceded By),False,debugging the auth module in the stairwell,a pointed question about the fallback logic
+E7,E26,-1,> (Preceded By),False,debugging the auth module in the stairwell,Rafi had written hastily
+E7,E27,-1,> (Preceded By),False,debugging the auth module in the stairwell,Nusrat's napkin idea got vetoed once
+E7,E28,-1,> (Preceded By),False,debugging the auth module in the stairwell,reinstated an hour later
+E7,E29,-1,> (Preceded By),False,debugging the auth module in the stairwell,the vetoing mentor left early for a flight
+E8,E1,1,< (Precedes),False,the main hall's wifi kept dropping,Rafi pushed the final commit
+E8,E2,1,< (Precedes),False,the main hall's wifi kept dropping,the demo judges were already two tables over
+E8,E3,1,< (Precedes),False,the main hall's wifi kept dropping,the judging round
+E8,E4,1,< (Precedes),False,the main hall's wifi kept dropping,the lunch break
+E8,E5,1,< (Precedes),False,the main hall's wifi kept dropping,had been pushed earlier
+E8,E6,0,= (Equal),False,the main hall's wifi kept dropping,the sponsor's flight landed ahead of schedule
+E8,E7,0,= (Equal),False,the main hall's wifi kept dropping,debugging the auth module in the stairwell
+E8,E9,-1,> (Preceded By),False,the main hall's wifi kept dropping,the router misconfiguration
+E8,E10,-1,> (Preceded By),False,the main hall's wifi kept dropping,the setup crew's dry run three days prior
+E8,E11,-1,> (Preceded By),False,the main hall's wifi kept dropping,Nusrat first sketched the matching algorithm
+E8,E12,-1,> (Preceded By),False,the main hall's wifi kept dropping,an idea she'd actually had months earlier during finals week
+E8,E13,-1,> (Preceded By),False,the main hall's wifi kept dropping,shelved
+E8,E14,-1,> (Preceded By),False,the main hall's wifi kept dropping,the hackathon's theme reveal
+E8,E15,-1,> (Preceded By),False,the main hall's wifi kept dropping,her calling from the cafe across town
+E8,E16,-1,> (Preceded By),False,the main hall's wifi kept dropping,chasing a database migration error
+E8,E17,1,< (Precedes),False,the main hall's wifi kept dropping,the following morning's stress test
+E8,E18,-1,> (Preceded By),False,the main hall's wifi kept dropping,the crash their prototype suffered
+E8,E19,1,< (Precedes),False,the main hall's wifi kept dropping,now being renovated
+E8,E20,-1,> (Preceded By),False,the main hall's wifi kept dropping,had missed the opening ceremony
+E8,E21,-1,> (Preceded By),False,the main hall's wifi kept dropping,stuck at the airport
+E8,E22,-1,> (Preceded By),False,the main hall's wifi kept dropping,a delay caused by weather
+E8,E23,-1,> (Preceded By),False,the main hall's wifi kept dropping,wouldn't actually hit the city
+E8,E24,-1,> (Preceded By),False,the main hall's wifi kept dropping,arriving instead just as the mentors were doing rounds
+E8,E25,-1,> (Preceded By),False,the main hall's wifi kept dropping,a pointed question about the fallback logic
+E8,E26,-1,> (Preceded By),False,the main hall's wifi kept dropping,Rafi had written hastily
+E8,E27,-1,> (Preceded By),False,the main hall's wifi kept dropping,Nusrat's napkin idea got vetoed once
+E8,E28,-1,> (Preceded By),False,the main hall's wifi kept dropping,reinstated an hour later
+E8,E29,-1,> (Preceded By),False,the main hall's wifi kept dropping,the vetoing mentor left early for a flight
+E9,E1,1,< (Precedes),False,the router misconfiguration,Rafi pushed the final commit
+E9,E2,1,< (Precedes),False,the router misconfiguration,the demo judges were already two tables over
+E9,E3,1,< (Precedes),False,the router misconfiguration,the judging round
+E9,E4,1,< (Precedes),False,the router misconfiguration,the lunch break
+E9,E5,1,< (Precedes),False,the router misconfiguration,had been pushed earlier
+E9,E6,1,< (Precedes),False,the router misconfiguration,the sponsor's flight landed ahead of schedule
+E9,E7,1,< (Precedes),False,the router misconfiguration,debugging the auth module in the stairwell
+E9,E8,1,< (Precedes),False,the router misconfiguration,the main hall's wifi kept dropping
+E9,E10,0,= (Equal),False,the router misconfiguration,the setup crew's dry run three days prior
+E9,E11,0,= (Equal),False,the router misconfiguration,Nusrat first sketched the matching algorithm
+E9,E12,-1,> (Preceded By),False,the router misconfiguration,an idea she'd actually had months earlier during finals week
+E9,E13,-1,> (Preceded By),False,the router misconfiguration,shelved
+E9,E14,-1,> (Preceded By),False,the router misconfiguration,the hackathon's theme reveal
+E9,E15,1,< (Precedes),False,the router misconfiguration,her calling from the cafe across town
+E9,E16,1,< (Precedes),False,the router misconfiguration,chasing a database migration error
+E9,E17,1,< (Precedes),False,the router misconfiguration,the following morning's stress test
+E9,E18,-1,> (Preceded By),False,the router misconfiguration,the crash their prototype suffered
+E9,E19,1,< (Precedes),False,the router misconfiguration,now being renovated
+E9,E20,1,< (Precedes),False,the router misconfiguration,had missed the opening ceremony
+E9,E21,1,< (Precedes),False,the router misconfiguration,stuck at the airport
+E9,E22,1,< (Precedes),False,the router misconfiguration,a delay caused by weather
+E9,E23,1,< (Precedes),False,the router misconfiguration,wouldn't actually hit the city
+E9,E24,1,< (Precedes),False,the router misconfiguration,arriving instead just as the mentors were doing rounds
+E9,E25,1,< (Precedes),False,the router misconfiguration,a pointed question about the fallback logic
+E9,E26,1,< (Precedes),False,the router misconfiguration,Rafi had written hastily
+E9,E27,1,< (Precedes),False,the router misconfiguration,Nusrat's napkin idea got vetoed once
+E9,E28,1,< (Precedes),False,the router misconfiguration,reinstated an hour later
+E9,E29,1,< (Precedes),False,the router misconfiguration,the vetoing mentor left early for a flight
+E10,E1,1,< (Precedes),False,the setup crew's dry run three days prior,Rafi pushed the final commit
+E10,E2,1,< (Precedes),False,the setup crew's dry run three days prior,the demo judges were already two tables over
+E10,E3,1,< (Precedes),False,the setup crew's dry run three days prior,the judging round
+E10,E4,1,< (Precedes),False,the setup crew's dry run three days prior,the lunch break
+E10,E5,1,< (Precedes),False,the setup crew's dry run three days prior,had been pushed earlier
+E10,E6,1,< (Precedes),False,the setup crew's dry run three days prior,the sponsor's flight landed ahead of schedule
+E10,E7,1,< (Precedes),False,the setup crew's dry run three days prior,debugging the auth module in the stairwell
+E10,E8,1,< (Precedes),False,the setup crew's dry run three days prior,the main hall's wifi kept dropping
+E10,E9,0,= (Equal),False,the setup crew's dry run three days prior,the router misconfiguration
+E10,E11,0,= (Equal),False,the setup crew's dry run three days prior,Nusrat first sketched the matching algorithm
+E10,E12,-1,> (Preceded By),False,the setup crew's dry run three days prior,an idea she'd actually had months earlier during finals week
+E10,E13,-1,> (Preceded By),False,the setup crew's dry run three days prior,shelved
+E10,E14,-1,> (Preceded By),False,the setup crew's dry run three days prior,the hackathon's theme reveal
+E10,E15,1,< (Precedes),False,the setup crew's dry run three days prior,her calling from the cafe across town
+E10,E16,1,< (Precedes),False,the setup crew's dry run three days prior,chasing a database migration error
+E10,E17,1,< (Precedes),False,the setup crew's dry run three days prior,the following morning's stress test
+E10,E18,-1,> (Preceded By),False,the setup crew's dry run three days prior,the crash their prototype suffered
+E10,E19,1,< (Precedes),False,the setup crew's dry run three days prior,now being renovated
+E10,E20,1,< (Precedes),False,the setup crew's dry run three days prior,had missed the opening ceremony
+E10,E21,1,< (Precedes),False,the setup crew's dry run three days prior,stuck at the airport
+E10,E22,1,< (Precedes),False,the setup crew's dry run three days prior,a delay caused by weather
+E10,E23,1,< (Precedes),False,the setup crew's dry run three days prior,wouldn't actually hit the city
+E10,E24,1,< (Precedes),False,the setup crew's dry run three days prior,arriving instead just as the mentors were doing rounds
+E10,E25,1,< (Precedes),False,the setup crew's dry run three days prior,a pointed question about the fallback logic
+E10,E26,1,< (Precedes),False,the setup crew's dry run three days prior,Rafi had written hastily
+E10,E27,1,< (Precedes),False,the setup crew's dry run three days prior,Nusrat's napkin idea got vetoed once
+E10,E28,1,< (Precedes),False,the setup crew's dry run three days prior,reinstated an hour later
+E10,E29,1,< (Precedes),False,the setup crew's dry run three days prior,the vetoing mentor left early for a flight
+E11,E1,1,< (Precedes),False,Nusrat first sketched the matching algorithm,Rafi pushed the final commit
+E11,E2,1,< (Precedes),False,Nusrat first sketched the matching algorithm,the demo judges were already two tables over
+E11,E3,1,< (Precedes),False,Nusrat first sketched the matching algorithm,the judging round
+E11,E4,1,< (Precedes),False,Nusrat first sketched the matching algorithm,the lunch break
+E11,E5,1,< (Precedes),False,Nusrat first sketched the matching algorithm,had been pushed earlier
+E11,E6,1,< (Precedes),False,Nusrat first sketched the matching algorithm,the sponsor's flight landed ahead of schedule
+E11,E7,1,< (Precedes),False,Nusrat first sketched the matching algorithm,debugging the auth module in the stairwell
+E11,E8,1,< (Precedes),False,Nusrat first sketched the matching algorithm,the main hall's wifi kept dropping
+E11,E9,0,= (Equal),False,Nusrat first sketched the matching algorithm,the router misconfiguration
+E11,E10,0,= (Equal),False,Nusrat first sketched the matching algorithm,the setup crew's dry run three days prior
+E11,E12,-1,> (Preceded By),False,Nusrat first sketched the matching algorithm,an idea she'd actually had months earlier during finals week
+E11,E13,-1,> (Preceded By),False,Nusrat first sketched the matching algorithm,shelved
+E11,E14,-1,> (Preceded By),False,Nusrat first sketched the matching algorithm,the hackathon's theme reveal
+E11,E15,1,< (Precedes),False,Nusrat first sketched the matching algorithm,her calling from the cafe across town
+E11,E16,1,< (Precedes),False,Nusrat first sketched the matching algorithm,chasing a database migration error
+E11,E17,1,< (Precedes),False,Nusrat first sketched the matching algorithm,the following morning's stress test
+E11,E18,-1,> (Preceded By),False,Nusrat first sketched the matching algorithm,the crash their prototype suffered
+E11,E19,1,< (Precedes),False,Nusrat first sketched the matching algorithm,now being renovated
+E11,E20,1,< (Precedes),False,Nusrat first sketched the matching algorithm,had missed the opening ceremony
+E11,E21,1,< (Precedes),False,Nusrat first sketched the matching algorithm,stuck at the airport
+E11,E22,1,< (Precedes),False,Nusrat first sketched the matching algorithm,a delay caused by weather
+E11,E23,1,< (Precedes),False,Nusrat first sketched the matching algorithm,wouldn't actually hit the city
+E11,E24,1,< (Precedes),False,Nusrat first sketched the matching algorithm,arriving instead just as the mentors were doing rounds
+E11,E25,1,< (Precedes),False,Nusrat first sketched the matching algorithm,a pointed question about the fallback logic
+E11,E26,1,< (Precedes),False,Nusrat first sketched the matching algorithm,Rafi had written hastily
+E11,E27,1,< (Precedes),False,Nusrat first sketched the matching algorithm,Nusrat's napkin idea got vetoed once
+E11,E28,1,< (Precedes),False,Nusrat first sketched the matching algorithm,reinstated an hour later
+E11,E29,1,< (Precedes),False,Nusrat first sketched the matching algorithm,the vetoing mentor left early for a flight
+E12,E1,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,Rafi pushed the final commit
+E12,E2,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,the demo judges were already two tables over
+E12,E3,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,the judging round
+E12,E4,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,the lunch break
+E12,E5,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,had been pushed earlier
+E12,E6,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,the sponsor's flight landed ahead of schedule
+E12,E7,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,debugging the auth module in the stairwell
+E12,E8,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,the main hall's wifi kept dropping
+E12,E9,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,the router misconfiguration
+E12,E10,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,the setup crew's dry run three days prior
+E12,E11,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,Nusrat first sketched the matching algorithm
+E12,E13,4,s (Starts),False,an idea she'd actually had months earlier during finals week,shelved
+E12,E14,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,the hackathon's theme reveal
+E12,E15,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,her calling from the cafe across town
+E12,E16,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,chasing a database migration error
+E12,E17,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,the following morning's stress test
+E12,E18,-1,> (Preceded By),False,an idea she'd actually had months earlier during finals week,the crash their prototype suffered
+E12,E19,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,now being renovated
+E12,E20,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,had missed the opening ceremony
+E12,E21,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,stuck at the airport
+E12,E22,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,a delay caused by weather
+E12,E23,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,wouldn't actually hit the city
+E12,E24,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,arriving instead just as the mentors were doing rounds
+E12,E25,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,a pointed question about the fallback logic
+E12,E26,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,Rafi had written hastily
+E12,E27,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,Nusrat's napkin idea got vetoed once
+E12,E28,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,reinstated an hour later
+E12,E29,1,< (Precedes),False,an idea she'd actually had months earlier during finals week,the vetoing mentor left early for a flight
+E13,E1,1,< (Precedes),False,shelved,Rafi pushed the final commit
+E13,E2,1,< (Precedes),False,shelved,the demo judges were already two tables over
+E13,E3,1,< (Precedes),False,shelved,the judging round
+E13,E4,1,< (Precedes),False,shelved,the lunch break
+E13,E5,1,< (Precedes),False,shelved,had been pushed earlier
+E13,E6,1,< (Precedes),False,shelved,the sponsor's flight landed ahead of schedule
+E13,E7,1,< (Precedes),False,shelved,debugging the auth module in the stairwell
+E13,E8,1,< (Precedes),False,shelved,the main hall's wifi kept dropping
+E13,E9,1,< (Precedes),False,shelved,the router misconfiguration
+E13,E10,1,< (Precedes),False,shelved,the setup crew's dry run three days prior
+E13,E11,1,< (Precedes),False,shelved,Nusrat first sketched the matching algorithm
+E13,E12,-4,si (Started By),False,shelved,an idea she'd actually had months earlier during finals week
+E13,E14,-6,fi (Finished By),False,shelved,the hackathon's theme reveal
+E13,E15,1,< (Precedes),False,shelved,her calling from the cafe across town
+E13,E16,1,< (Precedes),False,shelved,chasing a database migration error
+E13,E17,1,< (Precedes),False,shelved,the following morning's stress test
+E13,E18,-1,> (Preceded By),False,shelved,the crash their prototype suffered
+E13,E19,1,< (Precedes),False,shelved,now being renovated
+E13,E20,1,< (Precedes),False,shelved,had missed the opening ceremony
+E13,E21,1,< (Precedes),False,shelved,stuck at the airport
+E13,E22,1,< (Precedes),False,shelved,a delay caused by weather
+E13,E23,1,< (Precedes),False,shelved,wouldn't actually hit the city
+E13,E24,1,< (Precedes),False,shelved,arriving instead just as the mentors were doing rounds
+E13,E25,1,< (Precedes),False,shelved,a pointed question about the fallback logic
+E13,E26,1,< (Precedes),False,shelved,Rafi had written hastily
+E13,E27,1,< (Precedes),False,shelved,Nusrat's napkin idea got vetoed once
+E13,E28,1,< (Precedes),False,shelved,reinstated an hour later
+E13,E29,1,< (Precedes),False,shelved,the vetoing mentor left early for a flight
+E14,E1,1,< (Precedes),False,the hackathon's theme reveal,Rafi pushed the final commit
+E14,E2,1,< (Precedes),False,the hackathon's theme reveal,the demo judges were already two tables over
+E14,E3,1,< (Precedes),False,the hackathon's theme reveal,the judging round
+E14,E4,1,< (Precedes),False,the hackathon's theme reveal,the lunch break
+E14,E5,1,< (Precedes),False,the hackathon's theme reveal,had been pushed earlier
+E14,E6,1,< (Precedes),False,the hackathon's theme reveal,the sponsor's flight landed ahead of schedule
+E14,E7,1,< (Precedes),False,the hackathon's theme reveal,debugging the auth module in the stairwell
+E14,E8,1,< (Precedes),False,the hackathon's theme reveal,the main hall's wifi kept dropping
+E14,E9,1,< (Precedes),False,the hackathon's theme reveal,the router misconfiguration
+E14,E10,1,< (Precedes),False,the hackathon's theme reveal,the setup crew's dry run three days prior
+E14,E11,1,< (Precedes),False,the hackathon's theme reveal,Nusrat first sketched the matching algorithm
+E14,E12,-1,> (Preceded By),False,the hackathon's theme reveal,an idea she'd actually had months earlier during finals week
+E14,E13,6,f (Finishes),False,the hackathon's theme reveal,shelved
+E14,E15,1,< (Precedes),False,the hackathon's theme reveal,her calling from the cafe across town
+E14,E16,1,< (Precedes),False,the hackathon's theme reveal,chasing a database migration error
+E14,E17,1,< (Precedes),False,the hackathon's theme reveal,the following morning's stress test
+E14,E18,-1,> (Preceded By),False,the hackathon's theme reveal,the crash their prototype suffered
+E14,E19,1,< (Precedes),False,the hackathon's theme reveal,now being renovated
+E14,E20,1,< (Precedes),False,the hackathon's theme reveal,had missed the opening ceremony
+E14,E21,1,< (Precedes),False,the hackathon's theme reveal,stuck at the airport
+E14,E22,1,< (Precedes),False,the hackathon's theme reveal,a delay caused by weather
+E14,E23,1,< (Precedes),False,the hackathon's theme reveal,wouldn't actually hit the city
+E14,E24,1,< (Precedes),False,the hackathon's theme reveal,arriving instead just as the mentors were doing rounds
+E14,E25,1,< (Precedes),False,the hackathon's theme reveal,a pointed question about the fallback logic
+E14,E26,1,< (Precedes),False,the hackathon's theme reveal,Rafi had written hastily
+E14,E27,1,< (Precedes),False,the hackathon's theme reveal,Nusrat's napkin idea got vetoed once
+E14,E28,1,< (Precedes),False,the hackathon's theme reveal,reinstated an hour later
+E14,E29,1,< (Precedes),False,the hackathon's theme reveal,the vetoing mentor left early for a flight
+E15,E1,1,< (Precedes),False,her calling from the cafe across town,Rafi pushed the final commit
+E15,E2,1,< (Precedes),False,her calling from the cafe across town,the demo judges were already two tables over
+E15,E3,1,< (Precedes),False,her calling from the cafe across town,the judging round
+E15,E4,1,< (Precedes),False,her calling from the cafe across town,the lunch break
+E15,E5,1,< (Precedes),False,her calling from the cafe across town,had been pushed earlier
+E15,E6,1,< (Precedes),False,her calling from the cafe across town,the sponsor's flight landed ahead of schedule
+E15,E7,1,< (Precedes),False,her calling from the cafe across town,debugging the auth module in the stairwell
+E15,E8,1,< (Precedes),False,her calling from the cafe across town,the main hall's wifi kept dropping
+E15,E9,-1,> (Preceded By),False,her calling from the cafe across town,the router misconfiguration
+E15,E10,-1,> (Preceded By),False,her calling from the cafe across town,the setup crew's dry run three days prior
+E15,E11,-1,> (Preceded By),False,her calling from the cafe across town,Nusrat first sketched the matching algorithm
+E15,E12,-1,> (Preceded By),False,her calling from the cafe across town,an idea she'd actually had months earlier during finals week
+E15,E13,-1,> (Preceded By),False,her calling from the cafe across town,shelved
+E15,E14,-1,> (Preceded By),False,her calling from the cafe across town,the hackathon's theme reveal
+E15,E16,0,= (Equal),False,her calling from the cafe across town,chasing a database migration error
+E15,E17,1,< (Precedes),False,her calling from the cafe across town,the following morning's stress test
+E15,E18,-1,> (Preceded By),False,her calling from the cafe across town,the crash their prototype suffered
+E15,E19,1,< (Precedes),False,her calling from the cafe across town,now being renovated
+E15,E20,-1,> (Preceded By),False,her calling from the cafe across town,had missed the opening ceremony
+E15,E21,-1,> (Preceded By),False,her calling from the cafe across town,stuck at the airport
+E15,E22,-1,> (Preceded By),False,her calling from the cafe across town,a delay caused by weather
+E15,E23,-1,> (Preceded By),False,her calling from the cafe across town,wouldn't actually hit the city
+E15,E24,-1,> (Preceded By),False,her calling from the cafe across town,arriving instead just as the mentors were doing rounds
+E15,E25,-1,> (Preceded By),False,her calling from the cafe across town,a pointed question about the fallback logic
+E15,E26,-1,> (Preceded By),False,her calling from the cafe across town,Rafi had written hastily
+E15,E27,-1,> (Preceded By),False,her calling from the cafe across town,Nusrat's napkin idea got vetoed once
+E15,E28,-1,> (Preceded By),False,her calling from the cafe across town,reinstated an hour later
+E15,E29,-1,> (Preceded By),False,her calling from the cafe across town,the vetoing mentor left early for a flight
+E16,E1,1,< (Precedes),False,chasing a database migration error,Rafi pushed the final commit
+E16,E2,1,< (Precedes),False,chasing a database migration error,the demo judges were already two tables over
+E16,E3,1,< (Precedes),False,chasing a database migration error,the judging round
+E16,E4,1,< (Precedes),False,chasing a database migration error,the lunch break
+E16,E5,1,< (Precedes),False,chasing a database migration error,had been pushed earlier
+E16,E6,1,< (Precedes),False,chasing a database migration error,the sponsor's flight landed ahead of schedule
+E16,E7,1,< (Precedes),False,chasing a database migration error,debugging the auth module in the stairwell
+E16,E8,1,< (Precedes),False,chasing a database migration error,the main hall's wifi kept dropping
+E16,E9,-1,> (Preceded By),False,chasing a database migration error,the router misconfiguration
+E16,E10,-1,> (Preceded By),False,chasing a database migration error,the setup crew's dry run three days prior
+E16,E11,-1,> (Preceded By),False,chasing a database migration error,Nusrat first sketched the matching algorithm
+E16,E12,-1,> (Preceded By),False,chasing a database migration error,an idea she'd actually had months earlier during finals week
+E16,E13,-1,> (Preceded By),False,chasing a database migration error,shelved
+E16,E14,-1,> (Preceded By),False,chasing a database migration error,the hackathon's theme reveal
+E16,E15,0,= (Equal),False,chasing a database migration error,her calling from the cafe across town
+E16,E17,1,< (Precedes),False,chasing a database migration error,the following morning's stress test
+E16,E18,-1,> (Preceded By),False,chasing a database migration error,the crash their prototype suffered
+E16,E19,1,< (Precedes),False,chasing a database migration error,now being renovated
+E16,E20,-1,> (Preceded By),False,chasing a database migration error,had missed the opening ceremony
+E16,E21,-1,> (Preceded By),False,chasing a database migration error,stuck at the airport
+E16,E22,-1,> (Preceded By),False,chasing a database migration error,a delay caused by weather
+E16,E23,-1,> (Preceded By),False,chasing a database migration error,wouldn't actually hit the city
+E16,E24,-1,> (Preceded By),False,chasing a database migration error,arriving instead just as the mentors were doing rounds
+E16,E25,-1,> (Preceded By),False,chasing a database migration error,a pointed question about the fallback logic
+E16,E26,-1,> (Preceded By),False,chasing a database migration error,Rafi had written hastily
+E16,E27,-1,> (Preceded By),False,chasing a database migration error,Nusrat's napkin idea got vetoed once
+E16,E28,-1,> (Preceded By),False,chasing a database migration error,reinstated an hour later
+E16,E29,-1,> (Preceded By),False,chasing a database migration error,the vetoing mentor left early for a flight
+E17,E1,1,< (Precedes),False,the following morning's stress test,Rafi pushed the final commit
+E17,E2,1,< (Precedes),False,the following morning's stress test,the demo judges were already two tables over
+E17,E3,1,< (Precedes),False,the following morning's stress test,the judging round
+E17,E4,1,< (Precedes),False,the following morning's stress test,the lunch break
+E17,E5,0,= (Equal),False,the following morning's stress test,had been pushed earlier
+E17,E6,-1,> (Preceded By),False,the following morning's stress test,the sponsor's flight landed ahead of schedule
+E17,E7,-1,> (Preceded By),False,the following morning's stress test,debugging the auth module in the stairwell
+E17,E8,-1,> (Preceded By),False,the following morning's stress test,the main hall's wifi kept dropping
+E17,E9,-1,> (Preceded By),False,the following morning's stress test,the router misconfiguration
+E17,E10,-1,> (Preceded By),False,the following morning's stress test,the setup crew's dry run three days prior
+E17,E11,-1,> (Preceded By),False,the following morning's stress test,Nusrat first sketched the matching algorithm
+E17,E12,-1,> (Preceded By),False,the following morning's stress test,an idea she'd actually had months earlier during finals week
+E17,E13,-1,> (Preceded By),False,the following morning's stress test,shelved
+E17,E14,-1,> (Preceded By),False,the following morning's stress test,the hackathon's theme reveal
+E17,E15,-1,> (Preceded By),False,the following morning's stress test,her calling from the cafe across town
+E17,E16,-1,> (Preceded By),False,the following morning's stress test,chasing a database migration error
+E17,E18,-1,> (Preceded By),False,the following morning's stress test,the crash their prototype suffered
+E17,E19,1,< (Precedes),False,the following morning's stress test,now being renovated
+E17,E20,-1,> (Preceded By),False,the following morning's stress test,had missed the opening ceremony
+E17,E21,-1,> (Preceded By),False,the following morning's stress test,stuck at the airport
+E17,E22,-1,> (Preceded By),False,the following morning's stress test,a delay caused by weather
+E17,E23,-1,> (Preceded By),False,the following morning's stress test,wouldn't actually hit the city
+E17,E24,-1,> (Preceded By),False,the following morning's stress test,arriving instead just as the mentors were doing rounds
+E17,E25,-1,> (Preceded By),False,the following morning's stress test,a pointed question about the fallback logic
+E17,E26,-1,> (Preceded By),False,the following morning's stress test,Rafi had written hastily
+E17,E27,-1,> (Preceded By),False,the following morning's stress test,Nusrat's napkin idea got vetoed once
+E17,E28,-1,> (Preceded By),False,the following morning's stress test,reinstated an hour later
+E17,E29,-1,> (Preceded By),False,the following morning's stress test,the vetoing mentor left early for a flight
+E18,E1,1,< (Precedes),False,the crash their prototype suffered,Rafi pushed the final commit
+E18,E2,1,< (Precedes),False,the crash their prototype suffered,the demo judges were already two tables over
+E18,E3,1,< (Precedes),False,the crash their prototype suffered,the judging round
+E18,E4,1,< (Precedes),False,the crash their prototype suffered,the lunch break
+E18,E5,1,< (Precedes),False,the crash their prototype suffered,had been pushed earlier
+E18,E6,1,< (Precedes),False,the crash their prototype suffered,the sponsor's flight landed ahead of schedule
+E18,E7,1,< (Precedes),False,the crash their prototype suffered,debugging the auth module in the stairwell
+E18,E8,1,< (Precedes),False,the crash their prototype suffered,the main hall's wifi kept dropping
+E18,E9,1,< (Precedes),False,the crash their prototype suffered,the router misconfiguration
+E18,E10,1,< (Precedes),False,the crash their prototype suffered,the setup crew's dry run three days prior
+E18,E11,1,< (Precedes),False,the crash their prototype suffered,Nusrat first sketched the matching algorithm
+E18,E12,1,< (Precedes),False,the crash their prototype suffered,an idea she'd actually had months earlier during finals week
+E18,E13,1,< (Precedes),False,the crash their prototype suffered,shelved
+E18,E14,1,< (Precedes),False,the crash their prototype suffered,the hackathon's theme reveal
+E18,E15,1,< (Precedes),False,the crash their prototype suffered,her calling from the cafe across town
+E18,E16,1,< (Precedes),False,the crash their prototype suffered,chasing a database migration error
+E18,E17,1,< (Precedes),False,the crash their prototype suffered,the following morning's stress test
+E18,E19,1,< (Precedes),False,the crash their prototype suffered,now being renovated
+E18,E20,1,< (Precedes),False,the crash their prototype suffered,had missed the opening ceremony
+E18,E21,1,< (Precedes),False,the crash their prototype suffered,stuck at the airport
+E18,E22,1,< (Precedes),False,the crash their prototype suffered,a delay caused by weather
+E18,E23,1,< (Precedes),False,the crash their prototype suffered,wouldn't actually hit the city
+E18,E24,1,< (Precedes),False,the crash their prototype suffered,arriving instead just as the mentors were doing rounds
+E18,E25,1,< (Precedes),False,the crash their prototype suffered,a pointed question about the fallback logic
+E18,E26,1,< (Precedes),False,the crash their prototype suffered,Rafi had written hastily
+E18,E27,1,< (Precedes),False,the crash their prototype suffered,Nusrat's napkin idea got vetoed once
+E18,E28,1,< (Precedes),False,the crash their prototype suffered,reinstated an hour later
+E18,E29,1,< (Precedes),False,the crash their prototype suffered,the vetoing mentor left early for a flight
+E19,E1,0,= (Equal),False,now being renovated,Rafi pushed the final commit
+E19,E2,0,= (Equal),False,now being renovated,the demo judges were already two tables over
+E19,E3,1,< (Precedes),False,now being renovated,the judging round
+E19,E4,1,< (Precedes),False,now being renovated,the lunch break
+E19,E5,-1,> (Preceded By),False,now being renovated,had been pushed earlier
+E19,E6,-1,> (Preceded By),False,now being renovated,the sponsor's flight landed ahead of schedule
+E19,E7,-1,> (Preceded By),False,now being renovated,debugging the auth module in the stairwell
+E19,E8,-1,> (Preceded By),False,now being renovated,the main hall's wifi kept dropping
+E19,E9,-1,> (Preceded By),False,now being renovated,the router misconfiguration
+E19,E10,-1,> (Preceded By),False,now being renovated,the setup crew's dry run three days prior
+E19,E11,-1,> (Preceded By),False,now being renovated,Nusrat first sketched the matching algorithm
+E19,E12,-1,> (Preceded By),False,now being renovated,an idea she'd actually had months earlier during finals week
+E19,E13,-1,> (Preceded By),False,now being renovated,shelved
+E19,E14,-1,> (Preceded By),False,now being renovated,the hackathon's theme reveal
+E19,E15,-1,> (Preceded By),False,now being renovated,her calling from the cafe across town
+E19,E16,-1,> (Preceded By),False,now being renovated,chasing a database migration error
+E19,E17,-1,> (Preceded By),False,now being renovated,the following morning's stress test
+E19,E18,-1,> (Preceded By),False,now being renovated,the crash their prototype suffered
+E19,E20,-1,> (Preceded By),False,now being renovated,had missed the opening ceremony
+E19,E21,-1,> (Preceded By),False,now being renovated,stuck at the airport
+E19,E22,-1,> (Preceded By),False,now being renovated,a delay caused by weather
+E19,E23,-1,> (Preceded By),False,now being renovated,wouldn't actually hit the city
+E19,E24,-1,> (Preceded By),False,now being renovated,arriving instead just as the mentors were doing rounds
+E19,E25,-1,> (Preceded By),False,now being renovated,a pointed question about the fallback logic
+E19,E26,-1,> (Preceded By),False,now being renovated,Rafi had written hastily
+E19,E27,-1,> (Preceded By),False,now being renovated,Nusrat's napkin idea got vetoed once
+E19,E28,-1,> (Preceded By),False,now being renovated,reinstated an hour later
+E19,E29,-1,> (Preceded By),False,now being renovated,the vetoing mentor left early for a flight
+E20,E1,1,< (Precedes),False,had missed the opening ceremony,Rafi pushed the final commit
+E20,E2,1,< (Precedes),False,had missed the opening ceremony,the demo judges were already two tables over
+E20,E3,1,< (Precedes),False,had missed the opening ceremony,the judging round
+E20,E4,1,< (Precedes),False,had missed the opening ceremony,the lunch break
+E20,E5,1,< (Precedes),False,had missed the opening ceremony,had been pushed earlier
+E20,E6,1,< (Precedes),False,had missed the opening ceremony,the sponsor's flight landed ahead of schedule
+E20,E7,1,< (Precedes),False,had missed the opening ceremony,debugging the auth module in the stairwell
+E20,E8,1,< (Precedes),False,had missed the opening ceremony,the main hall's wifi kept dropping
+E20,E9,-1,> (Preceded By),False,had missed the opening ceremony,the router misconfiguration
+E20,E10,-1,> (Preceded By),False,had missed the opening ceremony,the setup crew's dry run three days prior
+E20,E11,-1,> (Preceded By),False,had missed the opening ceremony,Nusrat first sketched the matching algorithm
+E20,E12,-1,> (Preceded By),False,had missed the opening ceremony,an idea she'd actually had months earlier during finals week
+E20,E13,-1,> (Preceded By),False,had missed the opening ceremony,shelved
+E20,E14,-1,> (Preceded By),False,had missed the opening ceremony,the hackathon's theme reveal
+E20,E15,1,< (Precedes),False,had missed the opening ceremony,her calling from the cafe across town
+E20,E16,1,< (Precedes),False,had missed the opening ceremony,chasing a database migration error
+E20,E17,1,< (Precedes),False,had missed the opening ceremony,the following morning's stress test
+E20,E18,-1,> (Preceded By),False,had missed the opening ceremony,the crash their prototype suffered
+E20,E19,1,< (Precedes),False,had missed the opening ceremony,now being renovated
+E20,E21,0,= (Equal),False,had missed the opening ceremony,stuck at the airport
+E20,E22,0,= (Equal),False,had missed the opening ceremony,a delay caused by weather
+E20,E23,1,< (Precedes),False,had missed the opening ceremony,wouldn't actually hit the city
+E20,E24,1,< (Precedes),False,had missed the opening ceremony,arriving instead just as the mentors were doing rounds
+E20,E25,1,< (Precedes),False,had missed the opening ceremony,a pointed question about the fallback logic
+E20,E26,1,< (Precedes),False,had missed the opening ceremony,Rafi had written hastily
+E20,E27,1,< (Precedes),False,had missed the opening ceremony,Nusrat's napkin idea got vetoed once
+E20,E28,1,< (Precedes),False,had missed the opening ceremony,reinstated an hour later
+E20,E29,1,< (Precedes),False,had missed the opening ceremony,the vetoing mentor left early for a flight
+E21,E1,1,< (Precedes),False,stuck at the airport,Rafi pushed the final commit
+E21,E2,1,< (Precedes),False,stuck at the airport,the demo judges were already two tables over
+E21,E3,1,< (Precedes),False,stuck at the airport,the judging round
+E21,E4,1,< (Precedes),False,stuck at the airport,the lunch break
+E21,E5,1,< (Precedes),False,stuck at the airport,had been pushed earlier
+E21,E6,1,< (Precedes),False,stuck at the airport,the sponsor's flight landed ahead of schedule
+E21,E7,1,< (Precedes),False,stuck at the airport,debugging the auth module in the stairwell
+E21,E8,1,< (Precedes),False,stuck at the airport,the main hall's wifi kept dropping
+E21,E9,-1,> (Preceded By),False,stuck at the airport,the router misconfiguration
+E21,E10,-1,> (Preceded By),False,stuck at the airport,the setup crew's dry run three days prior
+E21,E11,-1,> (Preceded By),False,stuck at the airport,Nusrat first sketched the matching algorithm
+E21,E12,-1,> (Preceded By),False,stuck at the airport,an idea she'd actually had months earlier during finals week
+E21,E13,-1,> (Preceded By),False,stuck at the airport,shelved
+E21,E14,-1,> (Preceded By),False,stuck at the airport,the hackathon's theme reveal
+E21,E15,1,< (Precedes),False,stuck at the airport,her calling from the cafe across town
+E21,E16,1,< (Precedes),False,stuck at the airport,chasing a database migration error
+E21,E17,1,< (Precedes),False,stuck at the airport,the following morning's stress test
+E21,E18,-1,> (Preceded By),False,stuck at the airport,the crash their prototype suffered
+E21,E19,1,< (Precedes),False,stuck at the airport,now being renovated
+E21,E20,0,= (Equal),False,stuck at the airport,had missed the opening ceremony
+E21,E22,0,= (Equal),False,stuck at the airport,a delay caused by weather
+E21,E23,1,< (Precedes),False,stuck at the airport,wouldn't actually hit the city
+E21,E24,1,< (Precedes),False,stuck at the airport,arriving instead just as the mentors were doing rounds
+E21,E25,1,< (Precedes),False,stuck at the airport,a pointed question about the fallback logic
+E21,E26,1,< (Precedes),False,stuck at the airport,Rafi had written hastily
+E21,E27,1,< (Precedes),False,stuck at the airport,Nusrat's napkin idea got vetoed once
+E21,E28,1,< (Precedes),False,stuck at the airport,reinstated an hour later
+E21,E29,1,< (Precedes),False,stuck at the airport,the vetoing mentor left early for a flight
+E22,E1,1,< (Precedes),False,a delay caused by weather,Rafi pushed the final commit
+E22,E2,1,< (Precedes),False,a delay caused by weather,the demo judges were already two tables over
+E22,E3,1,< (Precedes),False,a delay caused by weather,the judging round
+E22,E4,1,< (Precedes),False,a delay caused by weather,the lunch break
+E22,E5,1,< (Precedes),False,a delay caused by weather,had been pushed earlier
+E22,E6,1,< (Precedes),False,a delay caused by weather,the sponsor's flight landed ahead of schedule
+E22,E7,1,< (Precedes),False,a delay caused by weather,debugging the auth module in the stairwell
+E22,E8,1,< (Precedes),False,a delay caused by weather,the main hall's wifi kept dropping
+E22,E9,-1,> (Preceded By),False,a delay caused by weather,the router misconfiguration
+E22,E10,-1,> (Preceded By),False,a delay caused by weather,the setup crew's dry run three days prior
+E22,E11,-1,> (Preceded By),False,a delay caused by weather,Nusrat first sketched the matching algorithm
+E22,E12,-1,> (Preceded By),False,a delay caused by weather,an idea she'd actually had months earlier during finals week
+E22,E13,-1,> (Preceded By),False,a delay caused by weather,shelved
+E22,E14,-1,> (Preceded By),False,a delay caused by weather,the hackathon's theme reveal
+E22,E15,1,< (Precedes),False,a delay caused by weather,her calling from the cafe across town
+E22,E16,1,< (Precedes),False,a delay caused by weather,chasing a database migration error
+E22,E17,1,< (Precedes),False,a delay caused by weather,the following morning's stress test
+E22,E18,-1,> (Preceded By),False,a delay caused by weather,the crash their prototype suffered
+E22,E19,1,< (Precedes),False,a delay caused by weather,now being renovated
+E22,E20,0,= (Equal),False,a delay caused by weather,had missed the opening ceremony
+E22,E21,0,= (Equal),False,a delay caused by weather,stuck at the airport
+E22,E23,1,< (Precedes),False,a delay caused by weather,wouldn't actually hit the city
+E22,E24,1,< (Precedes),False,a delay caused by weather,arriving instead just as the mentors were doing rounds
+E22,E25,1,< (Precedes),False,a delay caused by weather,a pointed question about the fallback logic
+E22,E26,1,< (Precedes),False,a delay caused by weather,Rafi had written hastily
+E22,E27,1,< (Precedes),False,a delay caused by weather,Nusrat's napkin idea got vetoed once
+E22,E28,1,< (Precedes),False,a delay caused by weather,reinstated an hour later
+E22,E29,1,< (Precedes),False,a delay caused by weather,the vetoing mentor left early for a flight
+E23,E1,1,< (Precedes),False,wouldn't actually hit the city,Rafi pushed the final commit
+E23,E2,1,< (Precedes),False,wouldn't actually hit the city,the demo judges were already two tables over
+E23,E3,1,< (Precedes),False,wouldn't actually hit the city,the judging round
+E23,E4,1,< (Precedes),False,wouldn't actually hit the city,the lunch break
+E23,E5,1,< (Precedes),False,wouldn't actually hit the city,had been pushed earlier
+E23,E6,1,< (Precedes),False,wouldn't actually hit the city,the sponsor's flight landed ahead of schedule
+E23,E7,1,< (Precedes),False,wouldn't actually hit the city,debugging the auth module in the stairwell
+E23,E8,1,< (Precedes),False,wouldn't actually hit the city,the main hall's wifi kept dropping
+E23,E9,-1,> (Preceded By),False,wouldn't actually hit the city,the router misconfiguration
+E23,E10,-1,> (Preceded By),False,wouldn't actually hit the city,the setup crew's dry run three days prior
+E23,E11,-1,> (Preceded By),False,wouldn't actually hit the city,Nusrat first sketched the matching algorithm
+E23,E12,-1,> (Preceded By),False,wouldn't actually hit the city,an idea she'd actually had months earlier during finals week
+E23,E13,-1,> (Preceded By),False,wouldn't actually hit the city,shelved
+E23,E14,-1,> (Preceded By),False,wouldn't actually hit the city,the hackathon's theme reveal
+E23,E15,1,< (Precedes),False,wouldn't actually hit the city,her calling from the cafe across town
+E23,E16,1,< (Precedes),False,wouldn't actually hit the city,chasing a database migration error
+E23,E17,1,< (Precedes),False,wouldn't actually hit the city,the following morning's stress test
+E23,E18,-1,> (Preceded By),False,wouldn't actually hit the city,the crash their prototype suffered
+E23,E19,1,< (Precedes),False,wouldn't actually hit the city,now being renovated
+E23,E20,-1,> (Preceded By),False,wouldn't actually hit the city,had missed the opening ceremony
+E23,E21,-1,> (Preceded By),False,wouldn't actually hit the city,stuck at the airport
+E23,E22,-1,> (Preceded By),False,wouldn't actually hit the city,a delay caused by weather
+E23,E24,-1,> (Preceded By),False,wouldn't actually hit the city,arriving instead just as the mentors were doing rounds
+E23,E25,-1,> (Preceded By),False,wouldn't actually hit the city,a pointed question about the fallback logic
+E23,E26,-1,> (Preceded By),False,wouldn't actually hit the city,Rafi had written hastily
+E23,E27,-1,> (Preceded By),False,wouldn't actually hit the city,Nusrat's napkin idea got vetoed once
+E23,E28,-1,> (Preceded By),False,wouldn't actually hit the city,reinstated an hour later
+E23,E29,-1,> (Preceded By),False,wouldn't actually hit the city,the vetoing mentor left early for a flight
+E24,E1,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,Rafi pushed the final commit
+E24,E2,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,the demo judges were already two tables over
+E24,E3,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,the judging round
+E24,E4,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,the lunch break
+E24,E5,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,had been pushed earlier
+E24,E6,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,the sponsor's flight landed ahead of schedule
+E24,E7,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,debugging the auth module in the stairwell
+E24,E8,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,the main hall's wifi kept dropping
+E24,E9,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,the router misconfiguration
+E24,E10,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,the setup crew's dry run three days prior
+E24,E11,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,Nusrat first sketched the matching algorithm
+E24,E12,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,an idea she'd actually had months earlier during finals week
+E24,E13,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,shelved
+E24,E14,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,the hackathon's theme reveal
+E24,E15,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,her calling from the cafe across town
+E24,E16,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,chasing a database migration error
+E24,E17,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,the following morning's stress test
+E24,E18,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,the crash their prototype suffered
+E24,E19,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,now being renovated
+E24,E20,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,had missed the opening ceremony
+E24,E21,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,stuck at the airport
+E24,E22,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,a delay caused by weather
+E24,E23,1,< (Precedes),False,arriving instead just as the mentors were doing rounds,wouldn't actually hit the city
+E24,E25,0,= (Equal),False,arriving instead just as the mentors were doing rounds,a pointed question about the fallback logic
+E24,E26,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,Rafi had written hastily
+E24,E27,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,Nusrat's napkin idea got vetoed once
+E24,E28,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,reinstated an hour later
+E24,E29,-1,> (Preceded By),False,arriving instead just as the mentors were doing rounds,the vetoing mentor left early for a flight
+E25,E1,1,< (Precedes),False,a pointed question about the fallback logic,Rafi pushed the final commit
+E25,E2,1,< (Precedes),False,a pointed question about the fallback logic,the demo judges were already two tables over
+E25,E3,1,< (Precedes),False,a pointed question about the fallback logic,the judging round
+E25,E4,1,< (Precedes),False,a pointed question about the fallback logic,the lunch break
+E25,E5,1,< (Precedes),False,a pointed question about the fallback logic,had been pushed earlier
+E25,E6,1,< (Precedes),False,a pointed question about the fallback logic,the sponsor's flight landed ahead of schedule
+E25,E7,1,< (Precedes),False,a pointed question about the fallback logic,debugging the auth module in the stairwell
+E25,E8,1,< (Precedes),False,a pointed question about the fallback logic,the main hall's wifi kept dropping
+E25,E9,-1,> (Preceded By),False,a pointed question about the fallback logic,the router misconfiguration
+E25,E10,-1,> (Preceded By),False,a pointed question about the fallback logic,the setup crew's dry run three days prior
+E25,E11,-1,> (Preceded By),False,a pointed question about the fallback logic,Nusrat first sketched the matching algorithm
+E25,E12,-1,> (Preceded By),False,a pointed question about the fallback logic,an idea she'd actually had months earlier during finals week
+E25,E13,-1,> (Preceded By),False,a pointed question about the fallback logic,shelved
+E25,E14,-1,> (Preceded By),False,a pointed question about the fallback logic,the hackathon's theme reveal
+E25,E15,1,< (Precedes),False,a pointed question about the fallback logic,her calling from the cafe across town
+E25,E16,1,< (Precedes),False,a pointed question about the fallback logic,chasing a database migration error
+E25,E17,1,< (Precedes),False,a pointed question about the fallback logic,the following morning's stress test
+E25,E18,-1,> (Preceded By),False,a pointed question about the fallback logic,the crash their prototype suffered
+E25,E19,1,< (Precedes),False,a pointed question about the fallback logic,now being renovated
+E25,E20,-1,> (Preceded By),False,a pointed question about the fallback logic,had missed the opening ceremony
+E25,E21,-1,> (Preceded By),False,a pointed question about the fallback logic,stuck at the airport
+E25,E22,-1,> (Preceded By),False,a pointed question about the fallback logic,a delay caused by weather
+E25,E23,1,< (Precedes),False,a pointed question about the fallback logic,wouldn't actually hit the city
+E25,E24,0,= (Equal),False,a pointed question about the fallback logic,arriving instead just as the mentors were doing rounds
+E25,E26,-1,> (Preceded By),False,a pointed question about the fallback logic,Rafi had written hastily
+E25,E27,-1,> (Preceded By),False,a pointed question about the fallback logic,Nusrat's napkin idea got vetoed once
+E25,E28,-1,> (Preceded By),False,a pointed question about the fallback logic,reinstated an hour later
+E25,E29,-1,> (Preceded By),False,a pointed question about the fallback logic,the vetoing mentor left early for a flight
+E26,E1,1,< (Precedes),False,Rafi had written hastily,Rafi pushed the final commit
+E26,E2,1,< (Precedes),False,Rafi had written hastily,the demo judges were already two tables over
+E26,E3,1,< (Precedes),False,Rafi had written hastily,the judging round
+E26,E4,1,< (Precedes),False,Rafi had written hastily,the lunch break
+E26,E5,1,< (Precedes),False,Rafi had written hastily,had been pushed earlier
+E26,E6,1,< (Precedes),False,Rafi had written hastily,the sponsor's flight landed ahead of schedule
+E26,E7,1,< (Precedes),False,Rafi had written hastily,debugging the auth module in the stairwell
+E26,E8,1,< (Precedes),False,Rafi had written hastily,the main hall's wifi kept dropping
+E26,E9,-1,> (Preceded By),False,Rafi had written hastily,the router misconfiguration
+E26,E10,-1,> (Preceded By),False,Rafi had written hastily,the setup crew's dry run three days prior
+E26,E11,-1,> (Preceded By),False,Rafi had written hastily,Nusrat first sketched the matching algorithm
+E26,E12,-1,> (Preceded By),False,Rafi had written hastily,an idea she'd actually had months earlier during finals week
+E26,E13,-1,> (Preceded By),False,Rafi had written hastily,shelved
+E26,E14,-1,> (Preceded By),False,Rafi had written hastily,the hackathon's theme reveal
+E26,E15,1,< (Precedes),False,Rafi had written hastily,her calling from the cafe across town
+E26,E16,1,< (Precedes),False,Rafi had written hastily,chasing a database migration error
+E26,E17,1,< (Precedes),False,Rafi had written hastily,the following morning's stress test
+E26,E18,-1,> (Preceded By),False,Rafi had written hastily,the crash their prototype suffered
+E26,E19,1,< (Precedes),False,Rafi had written hastily,now being renovated
+E26,E20,-1,> (Preceded By),False,Rafi had written hastily,had missed the opening ceremony
+E26,E21,-1,> (Preceded By),False,Rafi had written hastily,stuck at the airport
+E26,E22,-1,> (Preceded By),False,Rafi had written hastily,a delay caused by weather
+E26,E23,1,< (Precedes),False,Rafi had written hastily,wouldn't actually hit the city
+E26,E24,1,< (Precedes),False,Rafi had written hastily,arriving instead just as the mentors were doing rounds
+E26,E25,1,< (Precedes),False,Rafi had written hastily,a pointed question about the fallback logic
+E26,E27,-1,> (Preceded By),False,Rafi had written hastily,Nusrat's napkin idea got vetoed once
+E26,E28,1,< (Precedes),False,Rafi had written hastily,reinstated an hour later
+E26,E29,1,< (Precedes),False,Rafi had written hastily,the vetoing mentor left early for a flight
+E27,E1,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,Rafi pushed the final commit
+E27,E2,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,the demo judges were already two tables over
+E27,E3,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,the judging round
+E27,E4,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,the lunch break
+E27,E5,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,had been pushed earlier
+E27,E6,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,the sponsor's flight landed ahead of schedule
+E27,E7,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,debugging the auth module in the stairwell
+E27,E8,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,the main hall's wifi kept dropping
+E27,E9,-1,> (Preceded By),False,Nusrat's napkin idea got vetoed once,the router misconfiguration
+E27,E10,-1,> (Preceded By),False,Nusrat's napkin idea got vetoed once,the setup crew's dry run three days prior
+E27,E11,-1,> (Preceded By),False,Nusrat's napkin idea got vetoed once,Nusrat first sketched the matching algorithm
+E27,E12,-1,> (Preceded By),False,Nusrat's napkin idea got vetoed once,an idea she'd actually had months earlier during finals week
+E27,E13,-1,> (Preceded By),False,Nusrat's napkin idea got vetoed once,shelved
+E27,E14,-1,> (Preceded By),False,Nusrat's napkin idea got vetoed once,the hackathon's theme reveal
+E27,E15,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,her calling from the cafe across town
+E27,E16,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,chasing a database migration error
+E27,E17,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,the following morning's stress test
+E27,E18,-1,> (Preceded By),False,Nusrat's napkin idea got vetoed once,the crash their prototype suffered
+E27,E19,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,now being renovated
+E27,E20,-1,> (Preceded By),False,Nusrat's napkin idea got vetoed once,had missed the opening ceremony
+E27,E21,-1,> (Preceded By),False,Nusrat's napkin idea got vetoed once,stuck at the airport
+E27,E22,-1,> (Preceded By),False,Nusrat's napkin idea got vetoed once,a delay caused by weather
+E27,E23,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,wouldn't actually hit the city
+E27,E24,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,arriving instead just as the mentors were doing rounds
+E27,E25,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,a pointed question about the fallback logic
+E27,E26,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,Rafi had written hastily
+E27,E28,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,reinstated an hour later
+E27,E29,1,< (Precedes),False,Nusrat's napkin idea got vetoed once,the vetoing mentor left early for a flight
+E28,E1,1,< (Precedes),False,reinstated an hour later,Rafi pushed the final commit
+E28,E2,1,< (Precedes),False,reinstated an hour later,the demo judges were already two tables over
+E28,E3,1,< (Precedes),False,reinstated an hour later,the judging round
+E28,E4,1,< (Precedes),False,reinstated an hour later,the lunch break
+E28,E5,1,< (Precedes),False,reinstated an hour later,had been pushed earlier
+E28,E6,1,< (Precedes),False,reinstated an hour later,the sponsor's flight landed ahead of schedule
+E28,E7,1,< (Precedes),False,reinstated an hour later,debugging the auth module in the stairwell
+E28,E8,1,< (Precedes),False,reinstated an hour later,the main hall's wifi kept dropping
+E28,E9,-1,> (Preceded By),False,reinstated an hour later,the router misconfiguration
+E28,E10,-1,> (Preceded By),False,reinstated an hour later,the setup crew's dry run three days prior
+E28,E11,-1,> (Preceded By),False,reinstated an hour later,Nusrat first sketched the matching algorithm
+E28,E12,-1,> (Preceded By),False,reinstated an hour later,an idea she'd actually had months earlier during finals week
+E28,E13,-1,> (Preceded By),False,reinstated an hour later,shelved
+E28,E14,-1,> (Preceded By),False,reinstated an hour later,the hackathon's theme reveal
+E28,E15,1,< (Precedes),False,reinstated an hour later,her calling from the cafe across town
+E28,E16,1,< (Precedes),False,reinstated an hour later,chasing a database migration error
+E28,E17,1,< (Precedes),False,reinstated an hour later,the following morning's stress test
+E28,E18,-1,> (Preceded By),False,reinstated an hour later,the crash their prototype suffered
+E28,E19,1,< (Precedes),False,reinstated an hour later,now being renovated
+E28,E20,-1,> (Preceded By),False,reinstated an hour later,had missed the opening ceremony
+E28,E21,-1,> (Preceded By),False,reinstated an hour later,stuck at the airport
+E28,E22,-1,> (Preceded By),False,reinstated an hour later,a delay caused by weather
+E28,E23,1,< (Precedes),False,reinstated an hour later,wouldn't actually hit the city
+E28,E24,1,< (Precedes),False,reinstated an hour later,arriving instead just as the mentors were doing rounds
+E28,E25,1,< (Precedes),False,reinstated an hour later,a pointed question about the fallback logic
+E28,E26,-1,> (Preceded By),False,reinstated an hour later,Rafi had written hastily
+E28,E27,-1,> (Preceded By),False,reinstated an hour later,Nusrat's napkin idea got vetoed once
+E28,E29,0,= (Equal),False,reinstated an hour later,the vetoing mentor left early for a flight
+E29,E1,1,< (Precedes),False,the vetoing mentor left early for a flight,Rafi pushed the final commit
+E29,E2,1,< (Precedes),False,the vetoing mentor left early for a flight,the demo judges were already two tables over
+E29,E3,1,< (Precedes),False,the vetoing mentor left early for a flight,the judging round
+E29,E4,1,< (Precedes),False,the vetoing mentor left early for a flight,the lunch break
+E29,E5,1,< (Precedes),False,the vetoing mentor left early for a flight,had been pushed earlier
+E29,E6,1,< (Precedes),False,the vetoing mentor left early for a flight,the sponsor's flight landed ahead of schedule
+E29,E7,1,< (Precedes),False,the vetoing mentor left early for a flight,debugging the auth module in the stairwell
+E29,E8,1,< (Precedes),False,the vetoing mentor left early for a flight,the main hall's wifi kept dropping
+E29,E9,-1,> (Preceded By),False,the vetoing mentor left early for a flight,the router misconfiguration
+E29,E10,-1,> (Preceded By),False,the vetoing mentor left early for a flight,the setup crew's dry run three days prior
+E29,E11,-1,> (Preceded By),False,the vetoing mentor left early for a flight,Nusrat first sketched the matching algorithm
+E29,E12,-1,> (Preceded By),False,the vetoing mentor left early for a flight,an idea she'd actually had months earlier during finals week
+E29,E13,-1,> (Preceded By),False,the vetoing mentor left early for a flight,shelved
+E29,E14,-1,> (Preceded By),False,the vetoing mentor left early for a flight,the hackathon's theme reveal
+E29,E15,1,< (Precedes),False,the vetoing mentor left early for a flight,her calling from the cafe across town
+E29,E16,1,< (Precedes),False,the vetoing mentor left early for a flight,chasing a database migration error
+E29,E17,1,< (Precedes),False,the vetoing mentor left early for a flight,the following morning's stress test
+E29,E18,-1,> (Preceded By),False,the vetoing mentor left early for a flight,the crash their prototype suffered
+E29,E19,1,< (Precedes),False,the vetoing mentor left early for a flight,now being renovated
+E29,E20,-1,> (Preceded By),False,the vetoing mentor left early for a flight,had missed the opening ceremony
+E29,E21,-1,> (Preceded By),False,the vetoing mentor left early for a flight,stuck at the airport
+E29,E22,-1,> (Preceded By),False,the vetoing mentor left early for a flight,a delay caused by weather
+E29,E23,1,< (Precedes),False,the vetoing mentor left early for a flight,wouldn't actually hit the city
+E29,E24,1,< (Precedes),False,the vetoing mentor left early for a flight,arriving instead just as the mentors were doing rounds
+E29,E25,1,< (Precedes),False,the vetoing mentor left early for a flight,a pointed question about the fallback logic
+E29,E26,-1,> (Preceded By),False,the vetoing mentor left early for a flight,Rafi had written hastily
+E29,E27,-1,> (Preceded By),False,the vetoing mentor left early for a flight,Nusrat's napkin idea got vetoed once
+E29,E28,0,= (Equal),False,the vetoing mentor left early for a flight,reinstated an hour later

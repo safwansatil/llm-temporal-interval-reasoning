@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-1,> (Preceded By),False,Halvard steadies the drill rig,the first core sample came back contaminated
+E1,E3,-1,> (Preceded By),False,Halvard steadies the drill rig,this second core was already logged
+E1,E4,-1,> (Preceded By),False,Halvard steadies the drill rig,the storm that grounded the resupply flight
+E1,E5,0,= (Equal),False,Halvard steadies the drill rig,He remembers
+E1,E6,-1,> (Preceded By),False,Halvard steadies the drill rig,requesting those units in a satellite call
+E1,E7,-1,> (Preceded By),False,Halvard steadies the drill rig,had lost power
+E1,E8,-1,> (Preceded By),False,Halvard steadies the drill rig,a firmware update pushed
+E1,E9,-1,> (Preceded By),False,Halvard steadies the drill rig,the drilling program was approved
+E1,E10,-1,> (Preceded By),False,Halvard steadies the drill rig,preliminary data from the very core sample
+E1,E11,0,= (Equal),False,Halvard steadies the drill rig,Halvard recalls
+E1,E12,-1,> (Preceded By),False,Halvard steadies the drill rig,Berit radioing from the secondary camp
+E1,E13,-1,> (Preceded By),False,Halvard steadies the drill rig,she'd already begun decontamination procedures
+E1,E14,-1,> (Preceded By),False,Halvard steadies the drill rig,the contamination was confirmed by the lab
+E1,E15,-1,> (Preceded By),False,Halvard steadies the drill rig,she dismissed
+E1,E16,0,= (Equal),False,Halvard steadies the drill rig,the tremor he's feeling right now
+E2,E1,1,< (Precedes),False,the first core sample came back contaminated,Halvard steadies the drill rig
+E2,E3,1,< (Precedes),False,the first core sample came back contaminated,this second core was already logged
+E2,E4,1,< (Precedes),False,the first core sample came back contaminated,the storm that grounded the resupply flight
+E2,E5,1,< (Precedes),False,the first core sample came back contaminated,He remembers
+E2,E6,1,< (Precedes),False,the first core sample came back contaminated,requesting those units in a satellite call
+E2,E7,1,< (Precedes),False,the first core sample came back contaminated,had lost power
+E2,E8,-1,> (Preceded By),False,the first core sample came back contaminated,a firmware update pushed
+E2,E9,-1,> (Preceded By),False,the first core sample came back contaminated,the drilling program was approved
+E2,E10,-1,> (Preceded By),False,the first core sample came back contaminated,preliminary data from the very core sample
+E2,E11,1,< (Precedes),False,the first core sample came back contaminated,Halvard recalls
+E2,E12,1,< (Precedes),False,the first core sample came back contaminated,Berit radioing from the secondary camp
+E2,E13,1,< (Precedes),False,the first core sample came back contaminated,she'd already begun decontamination procedures
+E2,E14,1,< (Precedes),False,the first core sample came back contaminated,the contamination was confirmed by the lab
+E2,E15,1,< (Precedes),False,the first core sample came back contaminated,she dismissed
+E2,E16,1,< (Precedes),False,the first core sample came back contaminated,the tremor he's feeling right now
+E3,E1,1,< (Precedes),False,this second core was already logged,Halvard steadies the drill rig
+E3,E2,-1,> (Preceded By),False,this second core was already logged,the first core sample came back contaminated
+E3,E4,1,< (Precedes),False,this second core was already logged,the storm that grounded the resupply flight
+E3,E5,1,< (Precedes),False,this second core was already logged,He remembers
+E3,E6,1,< (Precedes),False,this second core was already logged,requesting those units in a satellite call
+E3,E7,-1,> (Preceded By),False,this second core was already logged,had lost power
+E3,E8,-1,> (Preceded By),False,this second core was already logged,a firmware update pushed
+E3,E9,-1,> (Preceded By),False,this second core was already logged,the drilling program was approved
+E3,E10,-1,> (Preceded By),False,this second core was already logged,preliminary data from the very core sample
+E3,E11,1,< (Precedes),False,this second core was already logged,Halvard recalls
+E3,E12,1,< (Precedes),False,this second core was already logged,Berit radioing from the secondary camp
+E3,E13,1,< (Precedes),False,this second core was already logged,she'd already begun decontamination procedures
+E3,E14,1,< (Precedes),False,this second core was already logged,the contamination was confirmed by the lab
+E3,E15,1,< (Precedes),False,this second core was already logged,she dismissed
+E3,E16,1,< (Precedes),False,this second core was already logged,the tremor he's feeling right now
+E4,E1,1,< (Precedes),False,the storm that grounded the resupply flight,Halvard steadies the drill rig
+E4,E2,-1,> (Preceded By),False,the storm that grounded the resupply flight,the first core sample came back contaminated
+E4,E3,-1,> (Preceded By),False,the storm that grounded the resupply flight,this second core was already logged
+E4,E5,1,< (Precedes),False,the storm that grounded the resupply flight,He remembers
+E4,E6,1,< (Precedes),False,the storm that grounded the resupply flight,requesting those units in a satellite call
+E4,E7,-1,> (Preceded By),False,the storm that grounded the resupply flight,had lost power
+E4,E8,-1,> (Preceded By),False,the storm that grounded the resupply flight,a firmware update pushed
+E4,E9,-1,> (Preceded By),False,the storm that grounded the resupply flight,the drilling program was approved
+E4,E10,-1,> (Preceded By),False,the storm that grounded the resupply flight,preliminary data from the very core sample
+E4,E11,1,< (Precedes),False,the storm that grounded the resupply flight,Halvard recalls
+E4,E12,1,< (Precedes),False,the storm that grounded the resupply flight,Berit radioing from the secondary camp
+E4,E13,1,< (Precedes),False,the storm that grounded the resupply flight,she'd already begun decontamination procedures
+E4,E14,1,< (Precedes),False,the storm that grounded the resupply flight,the contamination was confirmed by the lab
+E4,E15,1,< (Precedes),False,the storm that grounded the resupply flight,she dismissed
+E4,E16,1,< (Precedes),False,the storm that grounded the resupply flight,the tremor he's feeling right now
+E5,E1,0,= (Equal),False,He remembers,Halvard steadies the drill rig
+E5,E2,-1,> (Preceded By),False,He remembers,the first core sample came back contaminated
+E5,E3,-1,> (Preceded By),False,He remembers,this second core was already logged
+E5,E4,-1,> (Preceded By),False,He remembers,the storm that grounded the resupply flight
+E5,E6,-1,> (Preceded By),False,He remembers,requesting those units in a satellite call
+E5,E7,-1,> (Preceded By),False,He remembers,had lost power
+E5,E8,-1,> (Preceded By),False,He remembers,a firmware update pushed
+E5,E9,-1,> (Preceded By),False,He remembers,the drilling program was approved
+E5,E10,-1,> (Preceded By),False,He remembers,preliminary data from the very core sample
+E5,E11,0,= (Equal),False,He remembers,Halvard recalls
+E5,E12,-1,> (Preceded By),False,He remembers,Berit radioing from the secondary camp
+E5,E13,-1,> (Preceded By),False,He remembers,she'd already begun decontamination procedures
+E5,E14,-1,> (Preceded By),False,He remembers,the contamination was confirmed by the lab
+E5,E15,-1,> (Preceded By),False,He remembers,she dismissed
+E5,E16,0,= (Equal),False,He remembers,the tremor he's feeling right now
+E6,E1,1,< (Precedes),False,requesting those units in a satellite call,Halvard steadies the drill rig
+E6,E2,-1,> (Preceded By),False,requesting those units in a satellite call,the first core sample came back contaminated
+E6,E3,-1,> (Preceded By),False,requesting those units in a satellite call,this second core was already logged
+E6,E4,-1,> (Preceded By),False,requesting those units in a satellite call,the storm that grounded the resupply flight
+E6,E5,1,< (Precedes),False,requesting those units in a satellite call,He remembers
+E6,E7,-1,> (Preceded By),False,requesting those units in a satellite call,had lost power
+E6,E8,-1,> (Preceded By),False,requesting those units in a satellite call,a firmware update pushed
+E6,E9,-1,> (Preceded By),False,requesting those units in a satellite call,the drilling program was approved
+E6,E10,-1,> (Preceded By),False,requesting those units in a satellite call,preliminary data from the very core sample
+E6,E11,1,< (Precedes),False,requesting those units in a satellite call,Halvard recalls
+E6,E12,-1,> (Preceded By),False,requesting those units in a satellite call,Berit radioing from the secondary camp
+E6,E13,-1,> (Preceded By),False,requesting those units in a satellite call,she'd already begun decontamination procedures
+E6,E14,-1,> (Preceded By),False,requesting those units in a satellite call,the contamination was confirmed by the lab
+E6,E15,1,< (Precedes),False,requesting those units in a satellite call,she dismissed
+E6,E16,1,< (Precedes),False,requesting those units in a satellite call,the tremor he's feeling right now
+E7,E1,1,< (Precedes),False,had lost power,Halvard steadies the drill rig
+E7,E2,-1,> (Preceded By),False,had lost power,the first core sample came back contaminated
+E7,E3,1,< (Precedes),False,had lost power,this second core was already logged
+E7,E4,1,< (Precedes),False,had lost power,the storm that grounded the resupply flight
+E7,E5,1,< (Precedes),False,had lost power,He remembers
+E7,E6,1,< (Precedes),False,had lost power,requesting those units in a satellite call
+E7,E8,-1,> (Preceded By),False,had lost power,a firmware update pushed
+E7,E9,-1,> (Preceded By),False,had lost power,the drilling program was approved
+E7,E10,-1,> (Preceded By),False,had lost power,preliminary data from the very core sample
+E7,E11,1,< (Precedes),False,had lost power,Halvard recalls
+E7,E12,1,< (Precedes),False,had lost power,Berit radioing from the secondary camp
+E7,E13,1,< (Precedes),False,had lost power,she'd already begun decontamination procedures
+E7,E14,1,< (Precedes),False,had lost power,the contamination was confirmed by the lab
+E7,E15,1,< (Precedes),False,had lost power,she dismissed
+E7,E16,1,< (Precedes),False,had lost power,the tremor he's feeling right now
+E8,E1,1,< (Precedes),False,a firmware update pushed,Halvard steadies the drill rig
+E8,E2,1,< (Precedes),False,a firmware update pushed,the first core sample came back contaminated
+E8,E3,1,< (Precedes),False,a firmware update pushed,this second core was already logged
+E8,E4,1,< (Precedes),False,a firmware update pushed,the storm that grounded the resupply flight
+E8,E5,1,< (Precedes),False,a firmware update pushed,He remembers
+E8,E6,1,< (Precedes),False,a firmware update pushed,requesting those units in a satellite call
+E8,E7,1,< (Precedes),False,a firmware update pushed,had lost power
+E8,E9,0,= (Equal),False,a firmware update pushed,the drilling program was approved
+E8,E10,-1,> (Preceded By),False,a firmware update pushed,preliminary data from the very core sample
+E8,E11,1,< (Precedes),False,a firmware update pushed,Halvard recalls
+E8,E12,1,< (Precedes),False,a firmware update pushed,Berit radioing from the secondary camp
+E8,E13,1,< (Precedes),False,a firmware update pushed,she'd already begun decontamination procedures
+E8,E14,1,< (Precedes),False,a firmware update pushed,the contamination was confirmed by the lab
+E8,E15,1,< (Precedes),False,a firmware update pushed,she dismissed
+E8,E16,1,< (Precedes),False,a firmware update pushed,the tremor he's feeling right now
+E9,E1,1,< (Precedes),False,the drilling program was approved,Halvard steadies the drill rig
+E9,E2,1,< (Precedes),False,the drilling program was approved,the first core sample came back contaminated
+E9,E3,1,< (Precedes),False,the drilling program was approved,this second core was already logged
+E9,E4,1,< (Precedes),False,the drilling program was approved,the storm that grounded the resupply flight
+E9,E5,1,< (Precedes),False,the drilling program was approved,He remembers
+E9,E6,1,< (Precedes),False,the drilling program was approved,requesting those units in a satellite call
+E9,E7,1,< (Precedes),False,the drilling program was approved,had lost power
+E9,E8,0,= (Equal),False,the drilling program was approved,a firmware update pushed
+E9,E10,-1,> (Preceded By),False,the drilling program was approved,preliminary data from the very core sample
+E9,E11,1,< (Precedes),False,the drilling program was approved,Halvard recalls
+E9,E12,1,< (Precedes),False,the drilling program was approved,Berit radioing from the secondary camp
+E9,E13,1,< (Precedes),False,the drilling program was approved,she'd already begun decontamination procedures
+E9,E14,1,< (Precedes),False,the drilling program was approved,the contamination was confirmed by the lab
+E9,E15,1,< (Precedes),False,the drilling program was approved,she dismissed
+E9,E16,1,< (Precedes),False,the drilling program was approved,the tremor he's feeling right now
+E10,E1,1,< (Precedes),False,preliminary data from the very core sample,Halvard steadies the drill rig
+E10,E2,1,< (Precedes),False,preliminary data from the very core sample,the first core sample came back contaminated
+E10,E3,1,< (Precedes),False,preliminary data from the very core sample,this second core was already logged
+E10,E4,1,< (Precedes),False,preliminary data from the very core sample,the storm that grounded the resupply flight
+E10,E5,1,< (Precedes),False,preliminary data from the very core sample,He remembers
+E10,E6,1,< (Precedes),False,preliminary data from the very core sample,requesting those units in a satellite call
+E10,E7,1,< (Precedes),False,preliminary data from the very core sample,had lost power
+E10,E8,1,< (Precedes),False,preliminary data from the very core sample,a firmware update pushed
+E10,E9,1,< (Precedes),False,preliminary data from the very core sample,the drilling program was approved
+E10,E11,1,< (Precedes),False,preliminary data from the very core sample,Halvard recalls
+E10,E12,1,< (Precedes),False,preliminary data from the very core sample,Berit radioing from the secondary camp
+E10,E13,1,< (Precedes),False,preliminary data from the very core sample,she'd already begun decontamination procedures
+E10,E14,1,< (Precedes),False,preliminary data from the very core sample,the contamination was confirmed by the lab
+E10,E15,1,< (Precedes),False,preliminary data from the very core sample,she dismissed
+E10,E16,1,< (Precedes),False,preliminary data from the very core sample,the tremor he's feeling right now
+E11,E1,0,= (Equal),False,Halvard recalls,Halvard steadies the drill rig
+E11,E2,-1,> (Preceded By),False,Halvard recalls,the first core sample came back contaminated
+E11,E3,-1,> (Preceded By),False,Halvard recalls,this second core was already logged
+E11,E4,-1,> (Preceded By),False,Halvard recalls,the storm that grounded the resupply flight
+E11,E5,0,= (Equal),False,Halvard recalls,He remembers
+E11,E6,-1,> (Preceded By),False,Halvard recalls,requesting those units in a satellite call
+E11,E7,-1,> (Preceded By),False,Halvard recalls,had lost power
+E11,E8,-1,> (Preceded By),False,Halvard recalls,a firmware update pushed
+E11,E9,-1,> (Preceded By),False,Halvard recalls,the drilling program was approved
+E11,E10,-1,> (Preceded By),False,Halvard recalls,preliminary data from the very core sample
+E11,E12,-1,> (Preceded By),False,Halvard recalls,Berit radioing from the secondary camp
+E11,E13,-1,> (Preceded By),False,Halvard recalls,she'd already begun decontamination procedures
+E11,E14,-1,> (Preceded By),False,Halvard recalls,the contamination was confirmed by the lab
+E11,E15,-1,> (Preceded By),False,Halvard recalls,she dismissed
+E11,E16,0,= (Equal),False,Halvard recalls,the tremor he's feeling right now
+E12,E1,1,< (Precedes),False,Berit radioing from the secondary camp,Halvard steadies the drill rig
+E12,E2,-1,> (Preceded By),False,Berit radioing from the secondary camp,the first core sample came back contaminated
+E12,E3,-1,> (Preceded By),False,Berit radioing from the secondary camp,this second core was already logged
+E12,E4,-1,> (Preceded By),False,Berit radioing from the secondary camp,the storm that grounded the resupply flight
+E12,E5,1,< (Precedes),False,Berit radioing from the secondary camp,He remembers
+E12,E6,1,< (Precedes),False,Berit radioing from the secondary camp,requesting those units in a satellite call
+E12,E7,-1,> (Preceded By),False,Berit radioing from the secondary camp,had lost power
+E12,E8,-1,> (Preceded By),False,Berit radioing from the secondary camp,a firmware update pushed
+E12,E9,-1,> (Preceded By),False,Berit radioing from the secondary camp,the drilling program was approved
+E12,E10,-1,> (Preceded By),False,Berit radioing from the secondary camp,preliminary data from the very core sample
+E12,E11,1,< (Precedes),False,Berit radioing from the secondary camp,Halvard recalls
+E12,E13,-1,> (Preceded By),False,Berit radioing from the secondary camp,she'd already begun decontamination procedures
+E12,E14,1,< (Precedes),False,Berit radioing from the secondary camp,the contamination was confirmed by the lab
+E12,E15,1,< (Precedes),False,Berit radioing from the secondary camp,she dismissed
+E12,E16,1,< (Precedes),False,Berit radioing from the secondary camp,the tremor he's feeling right now
+E13,E1,1,< (Precedes),False,she'd already begun decontamination procedures,Halvard steadies the drill rig
+E13,E2,-1,> (Preceded By),False,she'd already begun decontamination procedures,the first core sample came back contaminated
+E13,E3,-1,> (Preceded By),False,she'd already begun decontamination procedures,this second core was already logged
+E13,E4,-1,> (Preceded By),False,she'd already begun decontamination procedures,the storm that grounded the resupply flight
+E13,E5,1,< (Precedes),False,she'd already begun decontamination procedures,He remembers
+E13,E6,1,< (Precedes),False,she'd already begun decontamination procedures,requesting those units in a satellite call
+E13,E7,-1,> (Preceded By),False,she'd already begun decontamination procedures,had lost power
+E13,E8,-1,> (Preceded By),False,she'd already begun decontamination procedures,a firmware update pushed
+E13,E9,-1,> (Preceded By),False,she'd already begun decontamination procedures,the drilling program was approved
+E13,E10,-1,> (Preceded By),False,she'd already begun decontamination procedures,preliminary data from the very core sample
+E13,E11,1,< (Precedes),False,she'd already begun decontamination procedures,Halvard recalls
+E13,E12,1,< (Precedes),False,she'd already begun decontamination procedures,Berit radioing from the secondary camp
+E13,E14,1,< (Precedes),False,she'd already begun decontamination procedures,the contamination was confirmed by the lab
+E13,E15,1,< (Precedes),False,she'd already begun decontamination procedures,she dismissed
+E13,E16,1,< (Precedes),False,she'd already begun decontamination procedures,the tremor he's feeling right now
+E14,E1,1,< (Precedes),False,the contamination was confirmed by the lab,Halvard steadies the drill rig
+E14,E2,-1,> (Preceded By),False,the contamination was confirmed by the lab,the first core sample came back contaminated
+E14,E3,-1,> (Preceded By),False,the contamination was confirmed by the lab,this second core was already logged
+E14,E4,-1,> (Preceded By),False,the contamination was confirmed by the lab,the storm that grounded the resupply flight
+E14,E5,1,< (Precedes),False,the contamination was confirmed by the lab,He remembers
+E14,E6,1,< (Precedes),False,the contamination was confirmed by the lab,requesting those units in a satellite call
+E14,E7,-1,> (Preceded By),False,the contamination was confirmed by the lab,had lost power
+E14,E8,-1,> (Preceded By),False,the contamination was confirmed by the lab,a firmware update pushed
+E14,E9,-1,> (Preceded By),False,the contamination was confirmed by the lab,the drilling program was approved
+E14,E10,-1,> (Preceded By),False,the contamination was confirmed by the lab,preliminary data from the very core sample
+E14,E11,1,< (Precedes),False,the contamination was confirmed by the lab,Halvard recalls
+E14,E12,-1,> (Preceded By),False,the contamination was confirmed by the lab,Berit radioing from the secondary camp
+E14,E13,-1,> (Preceded By),False,the contamination was confirmed by the lab,she'd already begun decontamination procedures
+E14,E15,1,< (Precedes),False,the contamination was confirmed by the lab,she dismissed
+E14,E16,1,< (Precedes),False,the contamination was confirmed by the lab,the tremor he's feeling right now
+E15,E1,1,< (Precedes),False,she dismissed,Halvard steadies the drill rig
+E15,E2,-1,> (Preceded By),False,she dismissed,the first core sample came back contaminated
+E15,E3,-1,> (Preceded By),False,she dismissed,this second core was already logged
+E15,E4,-1,> (Preceded By),False,she dismissed,the storm that grounded the resupply flight
+E15,E5,1,< (Precedes),False,she dismissed,He remembers
+E15,E6,-1,> (Preceded By),False,she dismissed,requesting those units in a satellite call
+E15,E7,-1,> (Preceded By),False,she dismissed,had lost power
+E15,E8,-1,> (Preceded By),False,she dismissed,a firmware update pushed
+E15,E9,-1,> (Preceded By),False,she dismissed,the drilling program was approved
+E15,E10,-1,> (Preceded By),False,she dismissed,preliminary data from the very core sample
+E15,E11,1,< (Precedes),False,she dismissed,Halvard recalls
+E15,E12,-1,> (Preceded By),False,she dismissed,Berit radioing from the secondary camp
+E15,E13,-1,> (Preceded By),False,she dismissed,she'd already begun decontamination procedures
+E15,E14,-1,> (Preceded By),False,she dismissed,the contamination was confirmed by the lab
+E15,E16,1,< (Precedes),False,she dismissed,the tremor he's feeling right now
+E16,E1,0,= (Equal),False,the tremor he's feeling right now,Halvard steadies the drill rig
+E16,E2,-1,> (Preceded By),False,the tremor he's feeling right now,the first core sample came back contaminated
+E16,E3,-1,> (Preceded By),False,the tremor he's feeling right now,this second core was already logged
+E16,E4,-1,> (Preceded By),False,the tremor he's feeling right now,the storm that grounded the resupply flight
+E16,E5,0,= (Equal),False,the tremor he's feeling right now,He remembers
+E16,E6,-1,> (Preceded By),False,the tremor he's feeling right now,requesting those units in a satellite call
+E16,E7,-1,> (Preceded By),False,the tremor he's feeling right now,had lost power
+E16,E8,-1,> (Preceded By),False,the tremor he's feeling right now,a firmware update pushed
+E16,E9,-1,> (Preceded By),False,the tremor he's feeling right now,the drilling program was approved
+E16,E10,-1,> (Preceded By),False,the tremor he's feeling right now,preliminary data from the very core sample
+E16,E11,0,= (Equal),False,the tremor he's feeling right now,Halvard recalls
+E16,E12,-1,> (Preceded By),False,the tremor he's feeling right now,Berit radioing from the secondary camp
+E16,E13,-1,> (Preceded By),False,the tremor he's feeling right now,she'd already begun decontamination procedures
+E16,E14,-1,> (Preceded By),False,the tremor he's feeling right now,the contamination was confirmed by the lab
+E16,E15,-1,> (Preceded By),False,the tremor he's feeling right now,she dismissed

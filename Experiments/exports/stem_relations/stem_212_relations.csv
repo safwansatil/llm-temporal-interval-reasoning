@@ -1,0 +1,463 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,The symphony was written over four years,its premiere lasted forty five minutes
+E1,E3,1,< (Precedes),False,The symphony was written over four years,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E1,E4,2,m (Meets),False,The symphony was written over four years,The composer had heard that note in a dream
+E1,E5,1,< (Precedes),False,The symphony was written over four years,woke at 3 a.m.
+E1,E6,1,< (Precedes),False,The symphony was written over four years,wrote it down in two minutes
+E1,E7,1,< (Precedes),False,The symphony was written over four years,The orchestra rehearsed it for three weeks
+E1,E8,1,< (Precedes),False,The symphony was written over four years,The second violins in the final rehearsal played it wrong five times in a row
+E1,E9,1,< (Precedes),False,The symphony was written over four years,then correctly once
+E1,E10,1,< (Precedes),False,The symphony was written over four years,then wrong again
+E1,E11,1,< (Precedes),False,The symphony was written over four years,The conductor chose to trust the once
+E1,E12,1,< (Precedes),False,The symphony was written over four years,"On the night, the note was played correctly"
+E1,E13,1,< (Precedes),False,The symphony was written over four years,The second violins later disagreed about whether it was their best or their luckiest
+E1,E14,1,< (Precedes),False,The symphony was written over four years,The critic's review appeared four days later
+E1,E15,1,< (Precedes),False,The symphony was written over four years,calling the note the work's only memorable instant
+E1,E16,1,< (Precedes),False,The symphony was written over four years,The composer circled that sentence
+E1,E17,1,< (Precedes),False,The symphony was written over four years,kept it in his wallet
+E1,E18,2,m (Meets),False,The symphony was written over four years,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E1,E19,1,< (Precedes),False,The symphony was written over four years,The composer died thirty years later
+E1,E20,1,< (Precedes),False,The symphony was written over four years,At his funeral someone played the note alone on a single violin
+E1,E21,1,< (Precedes),False,The symphony was written over four years,It lasted again less than a second
+E1,E22,1,< (Precedes),False,The symphony was written over four years,The applause went longer
+E2,E1,-1,> (Preceded By),False,its premiere lasted forty five minutes,The symphony was written over four years
+E2,E3,-5,di (Contains),False,its premiere lasted forty five minutes,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E2,E4,-1,> (Preceded By),False,its premiere lasted forty five minutes,The composer had heard that note in a dream
+E2,E5,-1,> (Preceded By),False,its premiere lasted forty five minutes,woke at 3 a.m.
+E2,E6,-1,> (Preceded By),False,its premiere lasted forty five minutes,wrote it down in two minutes
+E2,E7,-1,> (Preceded By),False,its premiere lasted forty five minutes,The orchestra rehearsed it for three weeks
+E2,E8,-1,> (Preceded By),False,its premiere lasted forty five minutes,The second violins in the final rehearsal played it wrong five times in a row
+E2,E9,-1,> (Preceded By),False,its premiere lasted forty five minutes,then correctly once
+E2,E10,-1,> (Preceded By),False,its premiere lasted forty five minutes,then wrong again
+E2,E11,-1,> (Preceded By),False,its premiere lasted forty five minutes,The conductor chose to trust the once
+E2,E12,-2,mi (Met By),False,its premiere lasted forty five minutes,"On the night, the note was played correctly"
+E2,E13,1,< (Precedes),False,its premiere lasted forty five minutes,The second violins later disagreed about whether it was their best or their luckiest
+E2,E14,1,< (Precedes),False,its premiere lasted forty five minutes,The critic's review appeared four days later
+E2,E15,1,< (Precedes),False,its premiere lasted forty five minutes,calling the note the work's only memorable instant
+E2,E16,1,< (Precedes),False,its premiere lasted forty five minutes,The composer circled that sentence
+E2,E17,1,< (Precedes),False,its premiere lasted forty five minutes,kept it in his wallet
+E2,E18,6,f (Finishes),False,its premiere lasted forty five minutes,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E2,E19,1,< (Precedes),False,its premiere lasted forty five minutes,The composer died thirty years later
+E2,E20,1,< (Precedes),False,its premiere lasted forty five minutes,At his funeral someone played the note alone on a single violin
+E2,E21,1,< (Precedes),False,its premiere lasted forty five minutes,It lasted again less than a second
+E2,E22,1,< (Precedes),False,its premiere lasted forty five minutes,The applause went longer
+E3,E1,-1,> (Preceded By),False,"the loudest note, a brass climax in the third movement, lasted less than a second",The symphony was written over four years
+E3,E2,5,d (During),False,"the loudest note, a brass climax in the third movement, lasted less than a second",its premiere lasted forty five minutes
+E3,E4,-1,> (Preceded By),False,"the loudest note, a brass climax in the third movement, lasted less than a second",The composer had heard that note in a dream
+E3,E5,-1,> (Preceded By),False,"the loudest note, a brass climax in the third movement, lasted less than a second",woke at 3 a.m.
+E3,E6,-1,> (Preceded By),False,"the loudest note, a brass climax in the third movement, lasted less than a second",wrote it down in two minutes
+E3,E7,-1,> (Preceded By),False,"the loudest note, a brass climax in the third movement, lasted less than a second",The orchestra rehearsed it for three weeks
+E3,E8,-1,> (Preceded By),False,"the loudest note, a brass climax in the third movement, lasted less than a second",The second violins in the final rehearsal played it wrong five times in a row
+E3,E9,-1,> (Preceded By),False,"the loudest note, a brass climax in the third movement, lasted less than a second",then correctly once
+E3,E10,-1,> (Preceded By),False,"the loudest note, a brass climax in the third movement, lasted less than a second",then wrong again
+E3,E11,-1,> (Preceded By),False,"the loudest note, a brass climax in the third movement, lasted less than a second",The conductor chose to trust the once
+E3,E12,-1,> (Preceded By),False,"the loudest note, a brass climax in the third movement, lasted less than a second","On the night, the note was played correctly"
+E3,E13,1,< (Precedes),False,"the loudest note, a brass climax in the third movement, lasted less than a second",The second violins later disagreed about whether it was their best or their luckiest
+E3,E14,1,< (Precedes),False,"the loudest note, a brass climax in the third movement, lasted less than a second",The critic's review appeared four days later
+E3,E15,1,< (Precedes),False,"the loudest note, a brass climax in the third movement, lasted less than a second",calling the note the work's only memorable instant
+E3,E16,1,< (Precedes),False,"the loudest note, a brass climax in the third movement, lasted less than a second",The composer circled that sentence
+E3,E17,1,< (Precedes),False,"the loudest note, a brass climax in the third movement, lasted less than a second",kept it in his wallet
+E3,E18,5,d (During),False,"the loudest note, a brass climax in the third movement, lasted less than a second","The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E3,E19,1,< (Precedes),False,"the loudest note, a brass climax in the third movement, lasted less than a second",The composer died thirty years later
+E3,E20,1,< (Precedes),False,"the loudest note, a brass climax in the third movement, lasted less than a second",At his funeral someone played the note alone on a single violin
+E3,E21,1,< (Precedes),False,"the loudest note, a brass climax in the third movement, lasted less than a second",It lasted again less than a second
+E3,E22,1,< (Precedes),False,"the loudest note, a brass climax in the third movement, lasted less than a second",The applause went longer
+E4,E1,-2,mi (Met By),False,The composer had heard that note in a dream,The symphony was written over four years
+E4,E2,1,< (Precedes),False,The composer had heard that note in a dream,its premiere lasted forty five minutes
+E4,E3,1,< (Precedes),False,The composer had heard that note in a dream,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E4,E5,1,< (Precedes),False,The composer had heard that note in a dream,woke at 3 a.m.
+E4,E6,1,< (Precedes),False,The composer had heard that note in a dream,wrote it down in two minutes
+E4,E7,1,< (Precedes),False,The composer had heard that note in a dream,The orchestra rehearsed it for three weeks
+E4,E8,1,< (Precedes),False,The composer had heard that note in a dream,The second violins in the final rehearsal played it wrong five times in a row
+E4,E9,1,< (Precedes),False,The composer had heard that note in a dream,then correctly once
+E4,E10,1,< (Precedes),False,The composer had heard that note in a dream,then wrong again
+E4,E11,1,< (Precedes),False,The composer had heard that note in a dream,The conductor chose to trust the once
+E4,E12,1,< (Precedes),False,The composer had heard that note in a dream,"On the night, the note was played correctly"
+E4,E13,1,< (Precedes),False,The composer had heard that note in a dream,The second violins later disagreed about whether it was their best or their luckiest
+E4,E14,1,< (Precedes),False,The composer had heard that note in a dream,The critic's review appeared four days later
+E4,E15,1,< (Precedes),False,The composer had heard that note in a dream,calling the note the work's only memorable instant
+E4,E16,1,< (Precedes),False,The composer had heard that note in a dream,The composer circled that sentence
+E4,E17,1,< (Precedes),False,The composer had heard that note in a dream,kept it in his wallet
+E4,E18,2,m (Meets),False,The composer had heard that note in a dream,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E4,E19,1,< (Precedes),False,The composer had heard that note in a dream,The composer died thirty years later
+E4,E20,1,< (Precedes),False,The composer had heard that note in a dream,At his funeral someone played the note alone on a single violin
+E4,E21,1,< (Precedes),False,The composer had heard that note in a dream,It lasted again less than a second
+E4,E22,1,< (Precedes),False,The composer had heard that note in a dream,The applause went longer
+E5,E1,-1,> (Preceded By),False,woke at 3 a.m.,The symphony was written over four years
+E5,E2,1,< (Precedes),False,woke at 3 a.m.,its premiere lasted forty five minutes
+E5,E3,1,< (Precedes),False,woke at 3 a.m.,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E5,E4,-1,> (Preceded By),False,woke at 3 a.m.,The composer had heard that note in a dream
+E5,E6,1,< (Precedes),False,woke at 3 a.m.,wrote it down in two minutes
+E5,E7,1,< (Precedes),False,woke at 3 a.m.,The orchestra rehearsed it for three weeks
+E5,E8,1,< (Precedes),False,woke at 3 a.m.,The second violins in the final rehearsal played it wrong five times in a row
+E5,E9,1,< (Precedes),False,woke at 3 a.m.,then correctly once
+E5,E10,1,< (Precedes),False,woke at 3 a.m.,then wrong again
+E5,E11,1,< (Precedes),False,woke at 3 a.m.,The conductor chose to trust the once
+E5,E12,1,< (Precedes),False,woke at 3 a.m.,"On the night, the note was played correctly"
+E5,E13,1,< (Precedes),False,woke at 3 a.m.,The second violins later disagreed about whether it was their best or their luckiest
+E5,E14,1,< (Precedes),False,woke at 3 a.m.,The critic's review appeared four days later
+E5,E15,1,< (Precedes),False,woke at 3 a.m.,calling the note the work's only memorable instant
+E5,E16,1,< (Precedes),False,woke at 3 a.m.,The composer circled that sentence
+E5,E17,1,< (Precedes),False,woke at 3 a.m.,kept it in his wallet
+E5,E18,5,d (During),False,woke at 3 a.m.,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E5,E19,1,< (Precedes),False,woke at 3 a.m.,The composer died thirty years later
+E5,E20,1,< (Precedes),False,woke at 3 a.m.,At his funeral someone played the note alone on a single violin
+E5,E21,1,< (Precedes),False,woke at 3 a.m.,It lasted again less than a second
+E5,E22,1,< (Precedes),False,woke at 3 a.m.,The applause went longer
+E6,E1,-1,> (Preceded By),False,wrote it down in two minutes,The symphony was written over four years
+E6,E2,1,< (Precedes),False,wrote it down in two minutes,its premiere lasted forty five minutes
+E6,E3,1,< (Precedes),False,wrote it down in two minutes,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E6,E4,-1,> (Preceded By),False,wrote it down in two minutes,The composer had heard that note in a dream
+E6,E5,-1,> (Preceded By),False,wrote it down in two minutes,woke at 3 a.m.
+E6,E7,1,< (Precedes),False,wrote it down in two minutes,The orchestra rehearsed it for three weeks
+E6,E8,1,< (Precedes),False,wrote it down in two minutes,The second violins in the final rehearsal played it wrong five times in a row
+E6,E9,1,< (Precedes),False,wrote it down in two minutes,then correctly once
+E6,E10,1,< (Precedes),False,wrote it down in two minutes,then wrong again
+E6,E11,1,< (Precedes),False,wrote it down in two minutes,The conductor chose to trust the once
+E6,E12,1,< (Precedes),False,wrote it down in two minutes,"On the night, the note was played correctly"
+E6,E13,1,< (Precedes),False,wrote it down in two minutes,The second violins later disagreed about whether it was their best or their luckiest
+E6,E14,1,< (Precedes),False,wrote it down in two minutes,The critic's review appeared four days later
+E6,E15,1,< (Precedes),False,wrote it down in two minutes,calling the note the work's only memorable instant
+E6,E16,1,< (Precedes),False,wrote it down in two minutes,The composer circled that sentence
+E6,E17,1,< (Precedes),False,wrote it down in two minutes,kept it in his wallet
+E6,E18,5,d (During),False,wrote it down in two minutes,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E6,E19,1,< (Precedes),False,wrote it down in two minutes,The composer died thirty years later
+E6,E20,1,< (Precedes),False,wrote it down in two minutes,At his funeral someone played the note alone on a single violin
+E6,E21,1,< (Precedes),False,wrote it down in two minutes,It lasted again less than a second
+E6,E22,1,< (Precedes),False,wrote it down in two minutes,The applause went longer
+E7,E1,-1,> (Preceded By),False,The orchestra rehearsed it for three weeks,The symphony was written over four years
+E7,E2,1,< (Precedes),False,The orchestra rehearsed it for three weeks,its premiere lasted forty five minutes
+E7,E3,1,< (Precedes),False,The orchestra rehearsed it for three weeks,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E7,E4,-1,> (Preceded By),False,The orchestra rehearsed it for three weeks,The composer had heard that note in a dream
+E7,E5,-1,> (Preceded By),False,The orchestra rehearsed it for three weeks,woke at 3 a.m.
+E7,E6,-1,> (Preceded By),False,The orchestra rehearsed it for three weeks,wrote it down in two minutes
+E7,E8,1,< (Precedes),False,The orchestra rehearsed it for three weeks,The second violins in the final rehearsal played it wrong five times in a row
+E7,E9,1,< (Precedes),False,The orchestra rehearsed it for three weeks,then correctly once
+E7,E10,1,< (Precedes),False,The orchestra rehearsed it for three weeks,then wrong again
+E7,E11,1,< (Precedes),False,The orchestra rehearsed it for three weeks,The conductor chose to trust the once
+E7,E12,1,< (Precedes),False,The orchestra rehearsed it for three weeks,"On the night, the note was played correctly"
+E7,E13,1,< (Precedes),False,The orchestra rehearsed it for three weeks,The second violins later disagreed about whether it was their best or their luckiest
+E7,E14,1,< (Precedes),False,The orchestra rehearsed it for three weeks,The critic's review appeared four days later
+E7,E15,1,< (Precedes),False,The orchestra rehearsed it for three weeks,calling the note the work's only memorable instant
+E7,E16,1,< (Precedes),False,The orchestra rehearsed it for three weeks,The composer circled that sentence
+E7,E17,1,< (Precedes),False,The orchestra rehearsed it for three weeks,kept it in his wallet
+E7,E18,5,d (During),False,The orchestra rehearsed it for three weeks,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E7,E19,1,< (Precedes),False,The orchestra rehearsed it for three weeks,The composer died thirty years later
+E7,E20,1,< (Precedes),False,The orchestra rehearsed it for three weeks,At his funeral someone played the note alone on a single violin
+E7,E21,1,< (Precedes),False,The orchestra rehearsed it for three weeks,It lasted again less than a second
+E7,E22,1,< (Precedes),False,The orchestra rehearsed it for three weeks,The applause went longer
+E8,E1,-1,> (Preceded By),False,The second violins in the final rehearsal played it wrong five times in a row,The symphony was written over four years
+E8,E2,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,its premiere lasted forty five minutes
+E8,E3,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E8,E4,-1,> (Preceded By),False,The second violins in the final rehearsal played it wrong five times in a row,The composer had heard that note in a dream
+E8,E5,-1,> (Preceded By),False,The second violins in the final rehearsal played it wrong five times in a row,woke at 3 a.m.
+E8,E6,-1,> (Preceded By),False,The second violins in the final rehearsal played it wrong five times in a row,wrote it down in two minutes
+E8,E7,-1,> (Preceded By),False,The second violins in the final rehearsal played it wrong five times in a row,The orchestra rehearsed it for three weeks
+E8,E9,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,then correctly once
+E8,E10,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,then wrong again
+E8,E11,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,The conductor chose to trust the once
+E8,E12,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,"On the night, the note was played correctly"
+E8,E13,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,The second violins later disagreed about whether it was their best or their luckiest
+E8,E14,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,The critic's review appeared four days later
+E8,E15,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,calling the note the work's only memorable instant
+E8,E16,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,The composer circled that sentence
+E8,E17,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,kept it in his wallet
+E8,E18,5,d (During),False,The second violins in the final rehearsal played it wrong five times in a row,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E8,E19,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,The composer died thirty years later
+E8,E20,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,At his funeral someone played the note alone on a single violin
+E8,E21,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,It lasted again less than a second
+E8,E22,1,< (Precedes),False,The second violins in the final rehearsal played it wrong five times in a row,The applause went longer
+E9,E1,-1,> (Preceded By),False,then correctly once,The symphony was written over four years
+E9,E2,1,< (Precedes),False,then correctly once,its premiere lasted forty five minutes
+E9,E3,1,< (Precedes),False,then correctly once,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E9,E4,-1,> (Preceded By),False,then correctly once,The composer had heard that note in a dream
+E9,E5,-1,> (Preceded By),False,then correctly once,woke at 3 a.m.
+E9,E6,-1,> (Preceded By),False,then correctly once,wrote it down in two minutes
+E9,E7,-1,> (Preceded By),False,then correctly once,The orchestra rehearsed it for three weeks
+E9,E8,-1,> (Preceded By),False,then correctly once,The second violins in the final rehearsal played it wrong five times in a row
+E9,E10,1,< (Precedes),False,then correctly once,then wrong again
+E9,E11,1,< (Precedes),False,then correctly once,The conductor chose to trust the once
+E9,E12,1,< (Precedes),False,then correctly once,"On the night, the note was played correctly"
+E9,E13,1,< (Precedes),False,then correctly once,The second violins later disagreed about whether it was their best or their luckiest
+E9,E14,1,< (Precedes),False,then correctly once,The critic's review appeared four days later
+E9,E15,1,< (Precedes),False,then correctly once,calling the note the work's only memorable instant
+E9,E16,1,< (Precedes),False,then correctly once,The composer circled that sentence
+E9,E17,1,< (Precedes),False,then correctly once,kept it in his wallet
+E9,E18,5,d (During),False,then correctly once,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E9,E19,1,< (Precedes),False,then correctly once,The composer died thirty years later
+E9,E20,1,< (Precedes),False,then correctly once,At his funeral someone played the note alone on a single violin
+E9,E21,1,< (Precedes),False,then correctly once,It lasted again less than a second
+E9,E22,1,< (Precedes),False,then correctly once,The applause went longer
+E10,E1,-1,> (Preceded By),False,then wrong again,The symphony was written over four years
+E10,E2,1,< (Precedes),False,then wrong again,its premiere lasted forty five minutes
+E10,E3,1,< (Precedes),False,then wrong again,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E10,E4,-1,> (Preceded By),False,then wrong again,The composer had heard that note in a dream
+E10,E5,-1,> (Preceded By),False,then wrong again,woke at 3 a.m.
+E10,E6,-1,> (Preceded By),False,then wrong again,wrote it down in two minutes
+E10,E7,-1,> (Preceded By),False,then wrong again,The orchestra rehearsed it for three weeks
+E10,E8,-1,> (Preceded By),False,then wrong again,The second violins in the final rehearsal played it wrong five times in a row
+E10,E9,-1,> (Preceded By),False,then wrong again,then correctly once
+E10,E11,1,< (Precedes),False,then wrong again,The conductor chose to trust the once
+E10,E12,1,< (Precedes),False,then wrong again,"On the night, the note was played correctly"
+E10,E13,1,< (Precedes),False,then wrong again,The second violins later disagreed about whether it was their best or their luckiest
+E10,E14,1,< (Precedes),False,then wrong again,The critic's review appeared four days later
+E10,E15,1,< (Precedes),False,then wrong again,calling the note the work's only memorable instant
+E10,E16,1,< (Precedes),False,then wrong again,The composer circled that sentence
+E10,E17,1,< (Precedes),False,then wrong again,kept it in his wallet
+E10,E18,5,d (During),False,then wrong again,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E10,E19,1,< (Precedes),False,then wrong again,The composer died thirty years later
+E10,E20,1,< (Precedes),False,then wrong again,At his funeral someone played the note alone on a single violin
+E10,E21,1,< (Precedes),False,then wrong again,It lasted again less than a second
+E10,E22,1,< (Precedes),False,then wrong again,The applause went longer
+E11,E1,-1,> (Preceded By),False,The conductor chose to trust the once,The symphony was written over four years
+E11,E2,1,< (Precedes),False,The conductor chose to trust the once,its premiere lasted forty five minutes
+E11,E3,1,< (Precedes),False,The conductor chose to trust the once,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E11,E4,-1,> (Preceded By),False,The conductor chose to trust the once,The composer had heard that note in a dream
+E11,E5,-1,> (Preceded By),False,The conductor chose to trust the once,woke at 3 a.m.
+E11,E6,-1,> (Preceded By),False,The conductor chose to trust the once,wrote it down in two minutes
+E11,E7,-1,> (Preceded By),False,The conductor chose to trust the once,The orchestra rehearsed it for three weeks
+E11,E8,-1,> (Preceded By),False,The conductor chose to trust the once,The second violins in the final rehearsal played it wrong five times in a row
+E11,E9,-1,> (Preceded By),False,The conductor chose to trust the once,then correctly once
+E11,E10,-1,> (Preceded By),False,The conductor chose to trust the once,then wrong again
+E11,E12,1,< (Precedes),False,The conductor chose to trust the once,"On the night, the note was played correctly"
+E11,E13,1,< (Precedes),False,The conductor chose to trust the once,The second violins later disagreed about whether it was their best or their luckiest
+E11,E14,1,< (Precedes),False,The conductor chose to trust the once,The critic's review appeared four days later
+E11,E15,1,< (Precedes),False,The conductor chose to trust the once,calling the note the work's only memorable instant
+E11,E16,1,< (Precedes),False,The conductor chose to trust the once,The composer circled that sentence
+E11,E17,1,< (Precedes),False,The conductor chose to trust the once,kept it in his wallet
+E11,E18,5,d (During),False,The conductor chose to trust the once,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E11,E19,1,< (Precedes),False,The conductor chose to trust the once,The composer died thirty years later
+E11,E20,1,< (Precedes),False,The conductor chose to trust the once,At his funeral someone played the note alone on a single violin
+E11,E21,1,< (Precedes),False,The conductor chose to trust the once,It lasted again less than a second
+E11,E22,1,< (Precedes),False,The conductor chose to trust the once,The applause went longer
+E12,E1,-1,> (Preceded By),False,"On the night, the note was played correctly",The symphony was written over four years
+E12,E2,2,m (Meets),False,"On the night, the note was played correctly",its premiere lasted forty five minutes
+E12,E3,1,< (Precedes),False,"On the night, the note was played correctly","the loudest note, a brass climax in the third movement, lasted less than a second"
+E12,E4,-1,> (Preceded By),False,"On the night, the note was played correctly",The composer had heard that note in a dream
+E12,E5,-1,> (Preceded By),False,"On the night, the note was played correctly",woke at 3 a.m.
+E12,E6,-1,> (Preceded By),False,"On the night, the note was played correctly",wrote it down in two minutes
+E12,E7,-1,> (Preceded By),False,"On the night, the note was played correctly",The orchestra rehearsed it for three weeks
+E12,E8,-1,> (Preceded By),False,"On the night, the note was played correctly",The second violins in the final rehearsal played it wrong five times in a row
+E12,E9,-1,> (Preceded By),False,"On the night, the note was played correctly",then correctly once
+E12,E10,-1,> (Preceded By),False,"On the night, the note was played correctly",then wrong again
+E12,E11,-1,> (Preceded By),False,"On the night, the note was played correctly",The conductor chose to trust the once
+E12,E13,1,< (Precedes),False,"On the night, the note was played correctly",The second violins later disagreed about whether it was their best or their luckiest
+E12,E14,1,< (Precedes),False,"On the night, the note was played correctly",The critic's review appeared four days later
+E12,E15,1,< (Precedes),False,"On the night, the note was played correctly",calling the note the work's only memorable instant
+E12,E16,1,< (Precedes),False,"On the night, the note was played correctly",The composer circled that sentence
+E12,E17,1,< (Precedes),False,"On the night, the note was played correctly",kept it in his wallet
+E12,E18,5,d (During),False,"On the night, the note was played correctly","The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E12,E19,1,< (Precedes),False,"On the night, the note was played correctly",The composer died thirty years later
+E12,E20,1,< (Precedes),False,"On the night, the note was played correctly",At his funeral someone played the note alone on a single violin
+E12,E21,1,< (Precedes),False,"On the night, the note was played correctly",It lasted again less than a second
+E12,E22,1,< (Precedes),False,"On the night, the note was played correctly",The applause went longer
+E13,E1,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,The symphony was written over four years
+E13,E2,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,its premiere lasted forty five minutes
+E13,E3,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E13,E4,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,The composer had heard that note in a dream
+E13,E5,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,woke at 3 a.m.
+E13,E6,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,wrote it down in two minutes
+E13,E7,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,The orchestra rehearsed it for three weeks
+E13,E8,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,The second violins in the final rehearsal played it wrong five times in a row
+E13,E9,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,then correctly once
+E13,E10,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,then wrong again
+E13,E11,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,The conductor chose to trust the once
+E13,E12,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,"On the night, the note was played correctly"
+E13,E14,1,< (Precedes),False,The second violins later disagreed about whether it was their best or their luckiest,The critic's review appeared four days later
+E13,E15,1,< (Precedes),False,The second violins later disagreed about whether it was their best or their luckiest,calling the note the work's only memorable instant
+E13,E16,1,< (Precedes),False,The second violins later disagreed about whether it was their best or their luckiest,The composer circled that sentence
+E13,E17,1,< (Precedes),False,The second violins later disagreed about whether it was their best or their luckiest,kept it in his wallet
+E13,E18,-1,> (Preceded By),False,The second violins later disagreed about whether it was their best or their luckiest,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E13,E19,1,< (Precedes),False,The second violins later disagreed about whether it was their best or their luckiest,The composer died thirty years later
+E13,E20,1,< (Precedes),False,The second violins later disagreed about whether it was their best or their luckiest,At his funeral someone played the note alone on a single violin
+E13,E21,1,< (Precedes),False,The second violins later disagreed about whether it was their best or their luckiest,It lasted again less than a second
+E13,E22,1,< (Precedes),False,The second violins later disagreed about whether it was their best or their luckiest,The applause went longer
+E14,E1,-1,> (Preceded By),False,The critic's review appeared four days later,The symphony was written over four years
+E14,E2,-1,> (Preceded By),False,The critic's review appeared four days later,its premiere lasted forty five minutes
+E14,E3,-1,> (Preceded By),False,The critic's review appeared four days later,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E14,E4,-1,> (Preceded By),False,The critic's review appeared four days later,The composer had heard that note in a dream
+E14,E5,-1,> (Preceded By),False,The critic's review appeared four days later,woke at 3 a.m.
+E14,E6,-1,> (Preceded By),False,The critic's review appeared four days later,wrote it down in two minutes
+E14,E7,-1,> (Preceded By),False,The critic's review appeared four days later,The orchestra rehearsed it for three weeks
+E14,E8,-1,> (Preceded By),False,The critic's review appeared four days later,The second violins in the final rehearsal played it wrong five times in a row
+E14,E9,-1,> (Preceded By),False,The critic's review appeared four days later,then correctly once
+E14,E10,-1,> (Preceded By),False,The critic's review appeared four days later,then wrong again
+E14,E11,-1,> (Preceded By),False,The critic's review appeared four days later,The conductor chose to trust the once
+E14,E12,-1,> (Preceded By),False,The critic's review appeared four days later,"On the night, the note was played correctly"
+E14,E13,-1,> (Preceded By),False,The critic's review appeared four days later,The second violins later disagreed about whether it was their best or their luckiest
+E14,E15,1,< (Precedes),False,The critic's review appeared four days later,calling the note the work's only memorable instant
+E14,E16,1,< (Precedes),False,The critic's review appeared four days later,The composer circled that sentence
+E14,E17,1,< (Precedes),False,The critic's review appeared four days later,kept it in his wallet
+E14,E18,-1,> (Preceded By),False,The critic's review appeared four days later,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E14,E19,1,< (Precedes),False,The critic's review appeared four days later,The composer died thirty years later
+E14,E20,1,< (Precedes),False,The critic's review appeared four days later,At his funeral someone played the note alone on a single violin
+E14,E21,1,< (Precedes),False,The critic's review appeared four days later,It lasted again less than a second
+E14,E22,1,< (Precedes),False,The critic's review appeared four days later,The applause went longer
+E15,E1,-1,> (Preceded By),False,calling the note the work's only memorable instant,The symphony was written over four years
+E15,E2,-1,> (Preceded By),False,calling the note the work's only memorable instant,its premiere lasted forty five minutes
+E15,E3,-1,> (Preceded By),False,calling the note the work's only memorable instant,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E15,E4,-1,> (Preceded By),False,calling the note the work's only memorable instant,The composer had heard that note in a dream
+E15,E5,-1,> (Preceded By),False,calling the note the work's only memorable instant,woke at 3 a.m.
+E15,E6,-1,> (Preceded By),False,calling the note the work's only memorable instant,wrote it down in two minutes
+E15,E7,-1,> (Preceded By),False,calling the note the work's only memorable instant,The orchestra rehearsed it for three weeks
+E15,E8,-1,> (Preceded By),False,calling the note the work's only memorable instant,The second violins in the final rehearsal played it wrong five times in a row
+E15,E9,-1,> (Preceded By),False,calling the note the work's only memorable instant,then correctly once
+E15,E10,-1,> (Preceded By),False,calling the note the work's only memorable instant,then wrong again
+E15,E11,-1,> (Preceded By),False,calling the note the work's only memorable instant,The conductor chose to trust the once
+E15,E12,-1,> (Preceded By),False,calling the note the work's only memorable instant,"On the night, the note was played correctly"
+E15,E13,-1,> (Preceded By),False,calling the note the work's only memorable instant,The second violins later disagreed about whether it was their best or their luckiest
+E15,E14,-1,> (Preceded By),False,calling the note the work's only memorable instant,The critic's review appeared four days later
+E15,E16,1,< (Precedes),False,calling the note the work's only memorable instant,The composer circled that sentence
+E15,E17,1,< (Precedes),False,calling the note the work's only memorable instant,kept it in his wallet
+E15,E18,-1,> (Preceded By),False,calling the note the work's only memorable instant,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E15,E19,1,< (Precedes),False,calling the note the work's only memorable instant,The composer died thirty years later
+E15,E20,1,< (Precedes),False,calling the note the work's only memorable instant,At his funeral someone played the note alone on a single violin
+E15,E21,1,< (Precedes),False,calling the note the work's only memorable instant,It lasted again less than a second
+E15,E22,1,< (Precedes),False,calling the note the work's only memorable instant,The applause went longer
+E16,E1,-1,> (Preceded By),False,The composer circled that sentence,The symphony was written over four years
+E16,E2,-1,> (Preceded By),False,The composer circled that sentence,its premiere lasted forty five minutes
+E16,E3,-1,> (Preceded By),False,The composer circled that sentence,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E16,E4,-1,> (Preceded By),False,The composer circled that sentence,The composer had heard that note in a dream
+E16,E5,-1,> (Preceded By),False,The composer circled that sentence,woke at 3 a.m.
+E16,E6,-1,> (Preceded By),False,The composer circled that sentence,wrote it down in two minutes
+E16,E7,-1,> (Preceded By),False,The composer circled that sentence,The orchestra rehearsed it for three weeks
+E16,E8,-1,> (Preceded By),False,The composer circled that sentence,The second violins in the final rehearsal played it wrong five times in a row
+E16,E9,-1,> (Preceded By),False,The composer circled that sentence,then correctly once
+E16,E10,-1,> (Preceded By),False,The composer circled that sentence,then wrong again
+E16,E11,-1,> (Preceded By),False,The composer circled that sentence,The conductor chose to trust the once
+E16,E12,-1,> (Preceded By),False,The composer circled that sentence,"On the night, the note was played correctly"
+E16,E13,-1,> (Preceded By),False,The composer circled that sentence,The second violins later disagreed about whether it was their best or their luckiest
+E16,E14,-1,> (Preceded By),False,The composer circled that sentence,The critic's review appeared four days later
+E16,E15,-1,> (Preceded By),False,The composer circled that sentence,calling the note the work's only memorable instant
+E16,E17,1,< (Precedes),False,The composer circled that sentence,kept it in his wallet
+E16,E18,-1,> (Preceded By),False,The composer circled that sentence,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E16,E19,1,< (Precedes),False,The composer circled that sentence,The composer died thirty years later
+E16,E20,1,< (Precedes),False,The composer circled that sentence,At his funeral someone played the note alone on a single violin
+E16,E21,1,< (Precedes),False,The composer circled that sentence,It lasted again less than a second
+E16,E22,1,< (Precedes),False,The composer circled that sentence,The applause went longer
+E17,E1,-1,> (Preceded By),False,kept it in his wallet,The symphony was written over four years
+E17,E2,-1,> (Preceded By),False,kept it in his wallet,its premiere lasted forty five minutes
+E17,E3,-1,> (Preceded By),False,kept it in his wallet,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E17,E4,-1,> (Preceded By),False,kept it in his wallet,The composer had heard that note in a dream
+E17,E5,-1,> (Preceded By),False,kept it in his wallet,woke at 3 a.m.
+E17,E6,-1,> (Preceded By),False,kept it in his wallet,wrote it down in two minutes
+E17,E7,-1,> (Preceded By),False,kept it in his wallet,The orchestra rehearsed it for three weeks
+E17,E8,-1,> (Preceded By),False,kept it in his wallet,The second violins in the final rehearsal played it wrong five times in a row
+E17,E9,-1,> (Preceded By),False,kept it in his wallet,then correctly once
+E17,E10,-1,> (Preceded By),False,kept it in his wallet,then wrong again
+E17,E11,-1,> (Preceded By),False,kept it in his wallet,The conductor chose to trust the once
+E17,E12,-1,> (Preceded By),False,kept it in his wallet,"On the night, the note was played correctly"
+E17,E13,-1,> (Preceded By),False,kept it in his wallet,The second violins later disagreed about whether it was their best or their luckiest
+E17,E14,-1,> (Preceded By),False,kept it in his wallet,The critic's review appeared four days later
+E17,E15,-1,> (Preceded By),False,kept it in his wallet,calling the note the work's only memorable instant
+E17,E16,-1,> (Preceded By),False,kept it in his wallet,The composer circled that sentence
+E17,E18,-1,> (Preceded By),False,kept it in his wallet,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E17,E19,1,< (Precedes),False,kept it in his wallet,The composer died thirty years later
+E17,E20,1,< (Precedes),False,kept it in his wallet,At his funeral someone played the note alone on a single violin
+E17,E21,1,< (Precedes),False,kept it in his wallet,It lasted again less than a second
+E17,E22,1,< (Precedes),False,kept it in his wallet,The applause went longer
+E18,E1,-2,mi (Met By),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",The symphony was written over four years
+E18,E2,-6,fi (Finished By),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",its premiere lasted forty five minutes
+E18,E3,-5,di (Contains),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline","the loudest note, a brass climax in the third movement, lasted less than a second"
+E18,E4,-2,mi (Met By),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",The composer had heard that note in a dream
+E18,E5,-5,di (Contains),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",woke at 3 a.m.
+E18,E6,-5,di (Contains),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",wrote it down in two minutes
+E18,E7,-5,di (Contains),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",The orchestra rehearsed it for three weeks
+E18,E8,-5,di (Contains),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",The second violins in the final rehearsal played it wrong five times in a row
+E18,E9,-5,di (Contains),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",then correctly once
+E18,E10,-5,di (Contains),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",then wrong again
+E18,E11,-5,di (Contains),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",The conductor chose to trust the once
+E18,E12,-5,di (Contains),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline","On the night, the note was played correctly"
+E18,E13,1,< (Precedes),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",The second violins later disagreed about whether it was their best or their luckiest
+E18,E14,1,< (Precedes),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",The critic's review appeared four days later
+E18,E15,1,< (Precedes),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",calling the note the work's only memorable instant
+E18,E16,1,< (Precedes),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",The composer circled that sentence
+E18,E17,1,< (Precedes),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",kept it in his wallet
+E18,E19,1,< (Precedes),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",The composer died thirty years later
+E18,E20,1,< (Precedes),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",At his funeral someone played the note alone on a single violin
+E18,E21,1,< (Precedes),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",It lasted again less than a second
+E18,E22,1,< (Precedes),False,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline",The applause went longer
+E19,E1,-1,> (Preceded By),False,The composer died thirty years later,The symphony was written over four years
+E19,E2,-1,> (Preceded By),False,The composer died thirty years later,its premiere lasted forty five minutes
+E19,E3,-1,> (Preceded By),False,The composer died thirty years later,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E19,E4,-1,> (Preceded By),False,The composer died thirty years later,The composer had heard that note in a dream
+E19,E5,-1,> (Preceded By),False,The composer died thirty years later,woke at 3 a.m.
+E19,E6,-1,> (Preceded By),False,The composer died thirty years later,wrote it down in two minutes
+E19,E7,-1,> (Preceded By),False,The composer died thirty years later,The orchestra rehearsed it for three weeks
+E19,E8,-1,> (Preceded By),False,The composer died thirty years later,The second violins in the final rehearsal played it wrong five times in a row
+E19,E9,-1,> (Preceded By),False,The composer died thirty years later,then correctly once
+E19,E10,-1,> (Preceded By),False,The composer died thirty years later,then wrong again
+E19,E11,-1,> (Preceded By),False,The composer died thirty years later,The conductor chose to trust the once
+E19,E12,-1,> (Preceded By),False,The composer died thirty years later,"On the night, the note was played correctly"
+E19,E13,-1,> (Preceded By),False,The composer died thirty years later,The second violins later disagreed about whether it was their best or their luckiest
+E19,E14,-1,> (Preceded By),False,The composer died thirty years later,The critic's review appeared four days later
+E19,E15,-1,> (Preceded By),False,The composer died thirty years later,calling the note the work's only memorable instant
+E19,E16,-1,> (Preceded By),False,The composer died thirty years later,The composer circled that sentence
+E19,E17,-1,> (Preceded By),False,The composer died thirty years later,kept it in his wallet
+E19,E18,-1,> (Preceded By),False,The composer died thirty years later,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E19,E20,1,< (Precedes),False,The composer died thirty years later,At his funeral someone played the note alone on a single violin
+E19,E21,1,< (Precedes),False,The composer died thirty years later,It lasted again less than a second
+E19,E22,1,< (Precedes),False,The composer died thirty years later,The applause went longer
+E20,E1,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,The symphony was written over four years
+E20,E2,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,its premiere lasted forty five minutes
+E20,E3,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E20,E4,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,The composer had heard that note in a dream
+E20,E5,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,woke at 3 a.m.
+E20,E6,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,wrote it down in two minutes
+E20,E7,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,The orchestra rehearsed it for three weeks
+E20,E8,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,The second violins in the final rehearsal played it wrong five times in a row
+E20,E9,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,then correctly once
+E20,E10,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,then wrong again
+E20,E11,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,The conductor chose to trust the once
+E20,E12,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,"On the night, the note was played correctly"
+E20,E13,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,The second violins later disagreed about whether it was their best or their luckiest
+E20,E14,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,The critic's review appeared four days later
+E20,E15,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,calling the note the work's only memorable instant
+E20,E16,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,The composer circled that sentence
+E20,E17,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,kept it in his wallet
+E20,E18,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E20,E19,-1,> (Preceded By),False,At his funeral someone played the note alone on a single violin,The composer died thirty years later
+E20,E21,1,< (Precedes),False,At his funeral someone played the note alone on a single violin,It lasted again less than a second
+E20,E22,1,< (Precedes),False,At his funeral someone played the note alone on a single violin,The applause went longer
+E21,E1,-1,> (Preceded By),False,It lasted again less than a second,The symphony was written over four years
+E21,E2,-1,> (Preceded By),False,It lasted again less than a second,its premiere lasted forty five minutes
+E21,E3,-1,> (Preceded By),False,It lasted again less than a second,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E21,E4,-1,> (Preceded By),False,It lasted again less than a second,The composer had heard that note in a dream
+E21,E5,-1,> (Preceded By),False,It lasted again less than a second,woke at 3 a.m.
+E21,E6,-1,> (Preceded By),False,It lasted again less than a second,wrote it down in two minutes
+E21,E7,-1,> (Preceded By),False,It lasted again less than a second,The orchestra rehearsed it for three weeks
+E21,E8,-1,> (Preceded By),False,It lasted again less than a second,The second violins in the final rehearsal played it wrong five times in a row
+E21,E9,-1,> (Preceded By),False,It lasted again less than a second,then correctly once
+E21,E10,-1,> (Preceded By),False,It lasted again less than a second,then wrong again
+E21,E11,-1,> (Preceded By),False,It lasted again less than a second,The conductor chose to trust the once
+E21,E12,-1,> (Preceded By),False,It lasted again less than a second,"On the night, the note was played correctly"
+E21,E13,-1,> (Preceded By),False,It lasted again less than a second,The second violins later disagreed about whether it was their best or their luckiest
+E21,E14,-1,> (Preceded By),False,It lasted again less than a second,The critic's review appeared four days later
+E21,E15,-1,> (Preceded By),False,It lasted again less than a second,calling the note the work's only memorable instant
+E21,E16,-1,> (Preceded By),False,It lasted again less than a second,The composer circled that sentence
+E21,E17,-1,> (Preceded By),False,It lasted again less than a second,kept it in his wallet
+E21,E18,-1,> (Preceded By),False,It lasted again less than a second,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E21,E19,-1,> (Preceded By),False,It lasted again less than a second,The composer died thirty years later
+E21,E20,-1,> (Preceded By),False,It lasted again less than a second,At his funeral someone played the note alone on a single violin
+E21,E22,1,< (Precedes),False,It lasted again less than a second,The applause went longer
+E22,E1,-1,> (Preceded By),False,The applause went longer,The symphony was written over four years
+E22,E2,-1,> (Preceded By),False,The applause went longer,its premiere lasted forty five minutes
+E22,E3,-1,> (Preceded By),False,The applause went longer,"the loudest note, a brass climax in the third movement, lasted less than a second"
+E22,E4,-1,> (Preceded By),False,The applause went longer,The composer had heard that note in a dream
+E22,E5,-1,> (Preceded By),False,The applause went longer,woke at 3 a.m.
+E22,E6,-1,> (Preceded By),False,The applause went longer,wrote it down in two minutes
+E22,E7,-1,> (Preceded By),False,The applause went longer,The orchestra rehearsed it for three weeks
+E22,E8,-1,> (Preceded By),False,The applause went longer,The second violins in the final rehearsal played it wrong five times in a row
+E22,E9,-1,> (Preceded By),False,The applause went longer,then correctly once
+E22,E10,-1,> (Preceded By),False,The applause went longer,then wrong again
+E22,E11,-1,> (Preceded By),False,The applause went longer,The conductor chose to trust the once
+E22,E12,-1,> (Preceded By),False,The applause went longer,"On the night, the note was played correctly"
+E22,E13,-1,> (Preceded By),False,The applause went longer,The second violins later disagreed about whether it was their best or their luckiest
+E22,E14,-1,> (Preceded By),False,The applause went longer,The critic's review appeared four days later
+E22,E15,-1,> (Preceded By),False,The applause went longer,calling the note the work's only memorable instant
+E22,E16,-1,> (Preceded By),False,The applause went longer,The composer circled that sentence
+E22,E17,-1,> (Preceded By),False,The applause went longer,kept it in his wallet
+E22,E18,-1,> (Preceded By),False,The applause went longer,"The note's entire existence, from dream to ink to bow to silence, had taken less than the time between the reviewer's breakfast and his deadline"
+E22,E19,-1,> (Preceded By),False,The applause went longer,The composer died thirty years later
+E22,E20,-1,> (Preceded By),False,The applause went longer,At his funeral someone played the note alone on a single violin
+E22,E21,-1,> (Preceded By),False,The applause went longer,It lasted again less than a second

@@ -1,0 +1,757 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,The main shock lasted forty seconds,the city would spend years recovering from it
+E1,E3,1,< (Precedes),False,The main shock lasted forty seconds,the dangerous season was the middle one
+E1,E4,1,< (Precedes),False,The main shock lasted forty seconds,the weeks of aftershocks
+E1,E5,1,< (Precedes),False,The main shock lasted forty seconds,buildings weakened by the first event waited for the follow-up blows
+E1,E6,1,< (Precedes),False,The main shock lasted forty seconds,The inspection teams worked a triage
+E1,E7,1,< (Precedes),False,The main shock lasted forty seconds,thirty minutes per building for the rapid pass
+E1,E8,1,< (Precedes),False,The main shock lasted forty seconds,racing a decay curve
+E1,E9,1,< (Precedes),False,The main shock lasted forty seconds,aftershock frequency fell by the day
+E1,E10,1,< (Precedes),False,The main shock lasted forty seconds,any single one could exceed the forecast
+E1,E11,1,< (Precedes),False,The main shock lasted forty seconds,the strongest aftershock in fact arrived on the ninth day
+E1,E12,1,< (Precedes),False,The main shock lasted forty seconds,the daily count had already dwindled to nearly nothing
+E1,E13,1,< (Precedes),False,The main shock lasted forty seconds,two cleared buildings had been reoccupied
+E1,E14,1,< (Precedes),False,The main shock lasted forty seconds,Both held
+E1,E15,1,< (Precedes),False,The main shock lasted forty seconds,The school inspection was the contested one
+E1,E16,1,< (Precedes),False,The main shock lasted forty seconds,the rapid pass had cleared it
+E1,E17,1,< (Precedes),False,The main shock lasted forty seconds,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E1,E18,1,< (Precedes),False,The main shock lasted forty seconds,the term was scheduled to resume
+E1,E19,4,s (Starts),False,The main shock lasted forty seconds,The engineer who refused to sign was older than the building
+E1,E20,-5,di (Contains),False,The main shock lasted forty seconds,she had inspected it after the previous earthquake
+E1,E21,-5,di (Contains),False,The main shock lasted forty seconds,a generation ago
+E1,E22,3,o (Overlaps),False,The main shock lasted forty seconds,remembered a crack pattern that the current drawings did not show
+E1,E23,-5,di (Contains),False,The main shock lasted forty seconds,the repair had been recorded but not the damage
+E1,E24,1,< (Precedes),False,The main shock lasted forty seconds,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E1,E25,1,< (Precedes),False,The main shock lasted forty seconds,The school reopened a month late
+E1,E26,1,< (Precedes),False,The main shock lasted forty seconds,which was recorded as a delay
+E1,E27,1,< (Precedes),False,The main shock lasted forty seconds,the engineer kept her own ledger
+E1,E28,1,< (Precedes),False,The main shock lasted forty seconds,in which it was recorded as the month that didn't bury anyone
+E2,E1,-2,mi (Met By),False,the city would spend years recovering from it,The main shock lasted forty seconds
+E2,E3,-5,di (Contains),False,the city would spend years recovering from it,the dangerous season was the middle one
+E2,E4,-5,di (Contains),False,the city would spend years recovering from it,the weeks of aftershocks
+E2,E5,-5,di (Contains),False,the city would spend years recovering from it,buildings weakened by the first event waited for the follow-up blows
+E2,E6,-5,di (Contains),False,the city would spend years recovering from it,The inspection teams worked a triage
+E2,E7,-5,di (Contains),False,the city would spend years recovering from it,thirty minutes per building for the rapid pass
+E2,E8,-5,di (Contains),False,the city would spend years recovering from it,racing a decay curve
+E2,E9,-5,di (Contains),False,the city would spend years recovering from it,aftershock frequency fell by the day
+E2,E10,-5,di (Contains),False,the city would spend years recovering from it,any single one could exceed the forecast
+E2,E11,-5,di (Contains),False,the city would spend years recovering from it,the strongest aftershock in fact arrived on the ninth day
+E2,E12,-5,di (Contains),False,the city would spend years recovering from it,the daily count had already dwindled to nearly nothing
+E2,E13,-5,di (Contains),False,the city would spend years recovering from it,two cleared buildings had been reoccupied
+E2,E14,-5,di (Contains),False,the city would spend years recovering from it,Both held
+E2,E15,-5,di (Contains),False,the city would spend years recovering from it,The school inspection was the contested one
+E2,E16,-5,di (Contains),False,the city would spend years recovering from it,the rapid pass had cleared it
+E2,E17,-5,di (Contains),False,the city would spend years recovering from it,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E2,E18,-5,di (Contains),False,the city would spend years recovering from it,the term was scheduled to resume
+E2,E19,6,f (Finishes),False,the city would spend years recovering from it,The engineer who refused to sign was older than the building
+E2,E20,-1,> (Preceded By),False,the city would spend years recovering from it,she had inspected it after the previous earthquake
+E2,E21,-1,> (Preceded By),False,the city would spend years recovering from it,a generation ago
+E2,E22,6,f (Finishes),False,the city would spend years recovering from it,remembered a crack pattern that the current drawings did not show
+E2,E23,-1,> (Preceded By),False,the city would spend years recovering from it,the repair had been recorded but not the damage
+E2,E24,-5,di (Contains),False,the city would spend years recovering from it,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E2,E25,-5,di (Contains),False,the city would spend years recovering from it,The school reopened a month late
+E2,E26,-5,di (Contains),False,the city would spend years recovering from it,which was recorded as a delay
+E2,E27,-6,fi (Finished By),False,the city would spend years recovering from it,the engineer kept her own ledger
+E2,E28,-5,di (Contains),False,the city would spend years recovering from it,in which it was recorded as the month that didn't bury anyone
+E3,E1,-1,> (Preceded By),False,the dangerous season was the middle one,The main shock lasted forty seconds
+E3,E2,5,d (During),False,the dangerous season was the middle one,the city would spend years recovering from it
+E3,E4,0,= (Equal),False,the dangerous season was the middle one,the weeks of aftershocks
+E3,E5,0,= (Equal),False,the dangerous season was the middle one,buildings weakened by the first event waited for the follow-up blows
+E3,E6,-5,di (Contains),False,the dangerous season was the middle one,The inspection teams worked a triage
+E3,E7,-5,di (Contains),False,the dangerous season was the middle one,thirty minutes per building for the rapid pass
+E3,E8,-5,di (Contains),False,the dangerous season was the middle one,racing a decay curve
+E3,E9,0,= (Equal),False,the dangerous season was the middle one,aftershock frequency fell by the day
+E3,E10,0,= (Equal),False,the dangerous season was the middle one,any single one could exceed the forecast
+E3,E11,-5,di (Contains),False,the dangerous season was the middle one,the strongest aftershock in fact arrived on the ninth day
+E3,E12,-5,di (Contains),False,the dangerous season was the middle one,the daily count had already dwindled to nearly nothing
+E3,E13,-5,di (Contains),False,the dangerous season was the middle one,two cleared buildings had been reoccupied
+E3,E14,-5,di (Contains),False,the dangerous season was the middle one,Both held
+E3,E15,-5,di (Contains),False,the dangerous season was the middle one,The school inspection was the contested one
+E3,E16,-5,di (Contains),False,the dangerous season was the middle one,the rapid pass had cleared it
+E3,E17,-6,fi (Finished By),False,the dangerous season was the middle one,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E3,E18,2,m (Meets),False,the dangerous season was the middle one,the term was scheduled to resume
+E3,E19,5,d (During),False,the dangerous season was the middle one,The engineer who refused to sign was older than the building
+E3,E20,-1,> (Preceded By),False,the dangerous season was the middle one,she had inspected it after the previous earthquake
+E3,E21,-1,> (Preceded By),False,the dangerous season was the middle one,a generation ago
+E3,E22,5,d (During),False,the dangerous season was the middle one,remembered a crack pattern that the current drawings did not show
+E3,E23,-1,> (Preceded By),False,the dangerous season was the middle one,the repair had been recorded but not the damage
+E3,E24,2,m (Meets),False,the dangerous season was the middle one,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E3,E25,1,< (Precedes),False,the dangerous season was the middle one,The school reopened a month late
+E3,E26,1,< (Precedes),False,the dangerous season was the middle one,which was recorded as a delay
+E3,E27,1,< (Precedes),False,the dangerous season was the middle one,the engineer kept her own ledger
+E3,E28,1,< (Precedes),False,the dangerous season was the middle one,in which it was recorded as the month that didn't bury anyone
+E4,E1,-1,> (Preceded By),False,the weeks of aftershocks,The main shock lasted forty seconds
+E4,E2,5,d (During),False,the weeks of aftershocks,the city would spend years recovering from it
+E4,E3,0,= (Equal),False,the weeks of aftershocks,the dangerous season was the middle one
+E4,E5,0,= (Equal),False,the weeks of aftershocks,buildings weakened by the first event waited for the follow-up blows
+E4,E6,-5,di (Contains),False,the weeks of aftershocks,The inspection teams worked a triage
+E4,E7,-5,di (Contains),False,the weeks of aftershocks,thirty minutes per building for the rapid pass
+E4,E8,-5,di (Contains),False,the weeks of aftershocks,racing a decay curve
+E4,E9,0,= (Equal),False,the weeks of aftershocks,aftershock frequency fell by the day
+E4,E10,0,= (Equal),False,the weeks of aftershocks,any single one could exceed the forecast
+E4,E11,-5,di (Contains),False,the weeks of aftershocks,the strongest aftershock in fact arrived on the ninth day
+E4,E12,-5,di (Contains),False,the weeks of aftershocks,the daily count had already dwindled to nearly nothing
+E4,E13,-5,di (Contains),False,the weeks of aftershocks,two cleared buildings had been reoccupied
+E4,E14,-5,di (Contains),False,the weeks of aftershocks,Both held
+E4,E15,-5,di (Contains),False,the weeks of aftershocks,The school inspection was the contested one
+E4,E16,-5,di (Contains),False,the weeks of aftershocks,the rapid pass had cleared it
+E4,E17,-6,fi (Finished By),False,the weeks of aftershocks,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E4,E18,2,m (Meets),False,the weeks of aftershocks,the term was scheduled to resume
+E4,E19,5,d (During),False,the weeks of aftershocks,The engineer who refused to sign was older than the building
+E4,E20,-1,> (Preceded By),False,the weeks of aftershocks,she had inspected it after the previous earthquake
+E4,E21,-1,> (Preceded By),False,the weeks of aftershocks,a generation ago
+E4,E22,5,d (During),False,the weeks of aftershocks,remembered a crack pattern that the current drawings did not show
+E4,E23,-1,> (Preceded By),False,the weeks of aftershocks,the repair had been recorded but not the damage
+E4,E24,2,m (Meets),False,the weeks of aftershocks,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E4,E25,1,< (Precedes),False,the weeks of aftershocks,The school reopened a month late
+E4,E26,1,< (Precedes),False,the weeks of aftershocks,which was recorded as a delay
+E4,E27,1,< (Precedes),False,the weeks of aftershocks,the engineer kept her own ledger
+E4,E28,1,< (Precedes),False,the weeks of aftershocks,in which it was recorded as the month that didn't bury anyone
+E5,E1,-1,> (Preceded By),False,buildings weakened by the first event waited for the follow-up blows,The main shock lasted forty seconds
+E5,E2,5,d (During),False,buildings weakened by the first event waited for the follow-up blows,the city would spend years recovering from it
+E5,E3,0,= (Equal),False,buildings weakened by the first event waited for the follow-up blows,the dangerous season was the middle one
+E5,E4,0,= (Equal),False,buildings weakened by the first event waited for the follow-up blows,the weeks of aftershocks
+E5,E6,-5,di (Contains),False,buildings weakened by the first event waited for the follow-up blows,The inspection teams worked a triage
+E5,E7,-5,di (Contains),False,buildings weakened by the first event waited for the follow-up blows,thirty minutes per building for the rapid pass
+E5,E8,-5,di (Contains),False,buildings weakened by the first event waited for the follow-up blows,racing a decay curve
+E5,E9,0,= (Equal),False,buildings weakened by the first event waited for the follow-up blows,aftershock frequency fell by the day
+E5,E10,0,= (Equal),False,buildings weakened by the first event waited for the follow-up blows,any single one could exceed the forecast
+E5,E11,-5,di (Contains),False,buildings weakened by the first event waited for the follow-up blows,the strongest aftershock in fact arrived on the ninth day
+E5,E12,-5,di (Contains),False,buildings weakened by the first event waited for the follow-up blows,the daily count had already dwindled to nearly nothing
+E5,E13,-5,di (Contains),False,buildings weakened by the first event waited for the follow-up blows,two cleared buildings had been reoccupied
+E5,E14,-5,di (Contains),False,buildings weakened by the first event waited for the follow-up blows,Both held
+E5,E15,-5,di (Contains),False,buildings weakened by the first event waited for the follow-up blows,The school inspection was the contested one
+E5,E16,-5,di (Contains),False,buildings weakened by the first event waited for the follow-up blows,the rapid pass had cleared it
+E5,E17,-6,fi (Finished By),False,buildings weakened by the first event waited for the follow-up blows,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E5,E18,2,m (Meets),False,buildings weakened by the first event waited for the follow-up blows,the term was scheduled to resume
+E5,E19,5,d (During),False,buildings weakened by the first event waited for the follow-up blows,The engineer who refused to sign was older than the building
+E5,E20,-1,> (Preceded By),False,buildings weakened by the first event waited for the follow-up blows,she had inspected it after the previous earthquake
+E5,E21,-1,> (Preceded By),False,buildings weakened by the first event waited for the follow-up blows,a generation ago
+E5,E22,5,d (During),False,buildings weakened by the first event waited for the follow-up blows,remembered a crack pattern that the current drawings did not show
+E5,E23,-1,> (Preceded By),False,buildings weakened by the first event waited for the follow-up blows,the repair had been recorded but not the damage
+E5,E24,2,m (Meets),False,buildings weakened by the first event waited for the follow-up blows,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E5,E25,1,< (Precedes),False,buildings weakened by the first event waited for the follow-up blows,The school reopened a month late
+E5,E26,1,< (Precedes),False,buildings weakened by the first event waited for the follow-up blows,which was recorded as a delay
+E5,E27,1,< (Precedes),False,buildings weakened by the first event waited for the follow-up blows,the engineer kept her own ledger
+E5,E28,1,< (Precedes),False,buildings weakened by the first event waited for the follow-up blows,in which it was recorded as the month that didn't bury anyone
+E6,E1,-1,> (Preceded By),False,The inspection teams worked a triage,The main shock lasted forty seconds
+E6,E2,5,d (During),False,The inspection teams worked a triage,the city would spend years recovering from it
+E6,E3,5,d (During),False,The inspection teams worked a triage,the dangerous season was the middle one
+E6,E4,5,d (During),False,The inspection teams worked a triage,the weeks of aftershocks
+E6,E5,5,d (During),False,The inspection teams worked a triage,buildings weakened by the first event waited for the follow-up blows
+E6,E7,0,= (Equal),False,The inspection teams worked a triage,thirty minutes per building for the rapid pass
+E6,E8,0,= (Equal),False,The inspection teams worked a triage,racing a decay curve
+E6,E9,5,d (During),False,The inspection teams worked a triage,aftershock frequency fell by the day
+E6,E10,5,d (During),False,The inspection teams worked a triage,any single one could exceed the forecast
+E6,E11,-5,di (Contains),False,The inspection teams worked a triage,the strongest aftershock in fact arrived on the ninth day
+E6,E12,-5,di (Contains),False,The inspection teams worked a triage,the daily count had already dwindled to nearly nothing
+E6,E13,-5,di (Contains),False,The inspection teams worked a triage,two cleared buildings had been reoccupied
+E6,E14,-5,di (Contains),False,The inspection teams worked a triage,Both held
+E6,E15,2,m (Meets),False,The inspection teams worked a triage,The school inspection was the contested one
+E6,E16,-5,di (Contains),False,The inspection teams worked a triage,the rapid pass had cleared it
+E6,E17,2,m (Meets),False,The inspection teams worked a triage,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E6,E18,1,< (Precedes),False,The inspection teams worked a triage,the term was scheduled to resume
+E6,E19,5,d (During),False,The inspection teams worked a triage,The engineer who refused to sign was older than the building
+E6,E20,-1,> (Preceded By),False,The inspection teams worked a triage,she had inspected it after the previous earthquake
+E6,E21,-1,> (Preceded By),False,The inspection teams worked a triage,a generation ago
+E6,E22,5,d (During),False,The inspection teams worked a triage,remembered a crack pattern that the current drawings did not show
+E6,E23,-1,> (Preceded By),False,The inspection teams worked a triage,the repair had been recorded but not the damage
+E6,E24,1,< (Precedes),False,The inspection teams worked a triage,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E6,E25,1,< (Precedes),False,The inspection teams worked a triage,The school reopened a month late
+E6,E26,1,< (Precedes),False,The inspection teams worked a triage,which was recorded as a delay
+E6,E27,1,< (Precedes),False,The inspection teams worked a triage,the engineer kept her own ledger
+E6,E28,1,< (Precedes),False,The inspection teams worked a triage,in which it was recorded as the month that didn't bury anyone
+E7,E1,-1,> (Preceded By),False,thirty minutes per building for the rapid pass,The main shock lasted forty seconds
+E7,E2,5,d (During),False,thirty minutes per building for the rapid pass,the city would spend years recovering from it
+E7,E3,5,d (During),False,thirty minutes per building for the rapid pass,the dangerous season was the middle one
+E7,E4,5,d (During),False,thirty minutes per building for the rapid pass,the weeks of aftershocks
+E7,E5,5,d (During),False,thirty minutes per building for the rapid pass,buildings weakened by the first event waited for the follow-up blows
+E7,E6,0,= (Equal),False,thirty minutes per building for the rapid pass,The inspection teams worked a triage
+E7,E8,0,= (Equal),False,thirty minutes per building for the rapid pass,racing a decay curve
+E7,E9,5,d (During),False,thirty minutes per building for the rapid pass,aftershock frequency fell by the day
+E7,E10,5,d (During),False,thirty minutes per building for the rapid pass,any single one could exceed the forecast
+E7,E11,-5,di (Contains),False,thirty minutes per building for the rapid pass,the strongest aftershock in fact arrived on the ninth day
+E7,E12,-5,di (Contains),False,thirty minutes per building for the rapid pass,the daily count had already dwindled to nearly nothing
+E7,E13,-5,di (Contains),False,thirty minutes per building for the rapid pass,two cleared buildings had been reoccupied
+E7,E14,-5,di (Contains),False,thirty minutes per building for the rapid pass,Both held
+E7,E15,2,m (Meets),False,thirty minutes per building for the rapid pass,The school inspection was the contested one
+E7,E16,-5,di (Contains),False,thirty minutes per building for the rapid pass,the rapid pass had cleared it
+E7,E17,2,m (Meets),False,thirty minutes per building for the rapid pass,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E7,E18,1,< (Precedes),False,thirty minutes per building for the rapid pass,the term was scheduled to resume
+E7,E19,5,d (During),False,thirty minutes per building for the rapid pass,The engineer who refused to sign was older than the building
+E7,E20,-1,> (Preceded By),False,thirty minutes per building for the rapid pass,she had inspected it after the previous earthquake
+E7,E21,-1,> (Preceded By),False,thirty minutes per building for the rapid pass,a generation ago
+E7,E22,5,d (During),False,thirty minutes per building for the rapid pass,remembered a crack pattern that the current drawings did not show
+E7,E23,-1,> (Preceded By),False,thirty minutes per building for the rapid pass,the repair had been recorded but not the damage
+E7,E24,1,< (Precedes),False,thirty minutes per building for the rapid pass,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E7,E25,1,< (Precedes),False,thirty minutes per building for the rapid pass,The school reopened a month late
+E7,E26,1,< (Precedes),False,thirty minutes per building for the rapid pass,which was recorded as a delay
+E7,E27,1,< (Precedes),False,thirty minutes per building for the rapid pass,the engineer kept her own ledger
+E7,E28,1,< (Precedes),False,thirty minutes per building for the rapid pass,in which it was recorded as the month that didn't bury anyone
+E8,E1,-1,> (Preceded By),False,racing a decay curve,The main shock lasted forty seconds
+E8,E2,5,d (During),False,racing a decay curve,the city would spend years recovering from it
+E8,E3,5,d (During),False,racing a decay curve,the dangerous season was the middle one
+E8,E4,5,d (During),False,racing a decay curve,the weeks of aftershocks
+E8,E5,5,d (During),False,racing a decay curve,buildings weakened by the first event waited for the follow-up blows
+E8,E6,0,= (Equal),False,racing a decay curve,The inspection teams worked a triage
+E8,E7,0,= (Equal),False,racing a decay curve,thirty minutes per building for the rapid pass
+E8,E9,5,d (During),False,racing a decay curve,aftershock frequency fell by the day
+E8,E10,5,d (During),False,racing a decay curve,any single one could exceed the forecast
+E8,E11,-5,di (Contains),False,racing a decay curve,the strongest aftershock in fact arrived on the ninth day
+E8,E12,-5,di (Contains),False,racing a decay curve,the daily count had already dwindled to nearly nothing
+E8,E13,-5,di (Contains),False,racing a decay curve,two cleared buildings had been reoccupied
+E8,E14,-5,di (Contains),False,racing a decay curve,Both held
+E8,E15,2,m (Meets),False,racing a decay curve,The school inspection was the contested one
+E8,E16,-5,di (Contains),False,racing a decay curve,the rapid pass had cleared it
+E8,E17,2,m (Meets),False,racing a decay curve,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E8,E18,1,< (Precedes),False,racing a decay curve,the term was scheduled to resume
+E8,E19,5,d (During),False,racing a decay curve,The engineer who refused to sign was older than the building
+E8,E20,-1,> (Preceded By),False,racing a decay curve,she had inspected it after the previous earthquake
+E8,E21,-1,> (Preceded By),False,racing a decay curve,a generation ago
+E8,E22,5,d (During),False,racing a decay curve,remembered a crack pattern that the current drawings did not show
+E8,E23,-1,> (Preceded By),False,racing a decay curve,the repair had been recorded but not the damage
+E8,E24,1,< (Precedes),False,racing a decay curve,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E8,E25,1,< (Precedes),False,racing a decay curve,The school reopened a month late
+E8,E26,1,< (Precedes),False,racing a decay curve,which was recorded as a delay
+E8,E27,1,< (Precedes),False,racing a decay curve,the engineer kept her own ledger
+E8,E28,1,< (Precedes),False,racing a decay curve,in which it was recorded as the month that didn't bury anyone
+E9,E1,-1,> (Preceded By),False,aftershock frequency fell by the day,The main shock lasted forty seconds
+E9,E2,5,d (During),False,aftershock frequency fell by the day,the city would spend years recovering from it
+E9,E3,0,= (Equal),False,aftershock frequency fell by the day,the dangerous season was the middle one
+E9,E4,0,= (Equal),False,aftershock frequency fell by the day,the weeks of aftershocks
+E9,E5,0,= (Equal),False,aftershock frequency fell by the day,buildings weakened by the first event waited for the follow-up blows
+E9,E6,-5,di (Contains),False,aftershock frequency fell by the day,The inspection teams worked a triage
+E9,E7,-5,di (Contains),False,aftershock frequency fell by the day,thirty minutes per building for the rapid pass
+E9,E8,-5,di (Contains),False,aftershock frequency fell by the day,racing a decay curve
+E9,E10,0,= (Equal),False,aftershock frequency fell by the day,any single one could exceed the forecast
+E9,E11,-5,di (Contains),False,aftershock frequency fell by the day,the strongest aftershock in fact arrived on the ninth day
+E9,E12,-5,di (Contains),False,aftershock frequency fell by the day,the daily count had already dwindled to nearly nothing
+E9,E13,-5,di (Contains),False,aftershock frequency fell by the day,two cleared buildings had been reoccupied
+E9,E14,-5,di (Contains),False,aftershock frequency fell by the day,Both held
+E9,E15,-5,di (Contains),False,aftershock frequency fell by the day,The school inspection was the contested one
+E9,E16,-5,di (Contains),False,aftershock frequency fell by the day,the rapid pass had cleared it
+E9,E17,-6,fi (Finished By),False,aftershock frequency fell by the day,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E9,E18,2,m (Meets),False,aftershock frequency fell by the day,the term was scheduled to resume
+E9,E19,5,d (During),False,aftershock frequency fell by the day,The engineer who refused to sign was older than the building
+E9,E20,-1,> (Preceded By),False,aftershock frequency fell by the day,she had inspected it after the previous earthquake
+E9,E21,-1,> (Preceded By),False,aftershock frequency fell by the day,a generation ago
+E9,E22,5,d (During),False,aftershock frequency fell by the day,remembered a crack pattern that the current drawings did not show
+E9,E23,-1,> (Preceded By),False,aftershock frequency fell by the day,the repair had been recorded but not the damage
+E9,E24,2,m (Meets),False,aftershock frequency fell by the day,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E9,E25,1,< (Precedes),False,aftershock frequency fell by the day,The school reopened a month late
+E9,E26,1,< (Precedes),False,aftershock frequency fell by the day,which was recorded as a delay
+E9,E27,1,< (Precedes),False,aftershock frequency fell by the day,the engineer kept her own ledger
+E9,E28,1,< (Precedes),False,aftershock frequency fell by the day,in which it was recorded as the month that didn't bury anyone
+E10,E1,-1,> (Preceded By),False,any single one could exceed the forecast,The main shock lasted forty seconds
+E10,E2,5,d (During),False,any single one could exceed the forecast,the city would spend years recovering from it
+E10,E3,0,= (Equal),False,any single one could exceed the forecast,the dangerous season was the middle one
+E10,E4,0,= (Equal),False,any single one could exceed the forecast,the weeks of aftershocks
+E10,E5,0,= (Equal),False,any single one could exceed the forecast,buildings weakened by the first event waited for the follow-up blows
+E10,E6,-5,di (Contains),False,any single one could exceed the forecast,The inspection teams worked a triage
+E10,E7,-5,di (Contains),False,any single one could exceed the forecast,thirty minutes per building for the rapid pass
+E10,E8,-5,di (Contains),False,any single one could exceed the forecast,racing a decay curve
+E10,E9,0,= (Equal),False,any single one could exceed the forecast,aftershock frequency fell by the day
+E10,E11,-5,di (Contains),False,any single one could exceed the forecast,the strongest aftershock in fact arrived on the ninth day
+E10,E12,-5,di (Contains),False,any single one could exceed the forecast,the daily count had already dwindled to nearly nothing
+E10,E13,-5,di (Contains),False,any single one could exceed the forecast,two cleared buildings had been reoccupied
+E10,E14,-5,di (Contains),False,any single one could exceed the forecast,Both held
+E10,E15,-5,di (Contains),False,any single one could exceed the forecast,The school inspection was the contested one
+E10,E16,-5,di (Contains),False,any single one could exceed the forecast,the rapid pass had cleared it
+E10,E17,-6,fi (Finished By),False,any single one could exceed the forecast,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E10,E18,2,m (Meets),False,any single one could exceed the forecast,the term was scheduled to resume
+E10,E19,5,d (During),False,any single one could exceed the forecast,The engineer who refused to sign was older than the building
+E10,E20,-1,> (Preceded By),False,any single one could exceed the forecast,she had inspected it after the previous earthquake
+E10,E21,-1,> (Preceded By),False,any single one could exceed the forecast,a generation ago
+E10,E22,5,d (During),False,any single one could exceed the forecast,remembered a crack pattern that the current drawings did not show
+E10,E23,-1,> (Preceded By),False,any single one could exceed the forecast,the repair had been recorded but not the damage
+E10,E24,2,m (Meets),False,any single one could exceed the forecast,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E10,E25,1,< (Precedes),False,any single one could exceed the forecast,The school reopened a month late
+E10,E26,1,< (Precedes),False,any single one could exceed the forecast,which was recorded as a delay
+E10,E27,1,< (Precedes),False,any single one could exceed the forecast,the engineer kept her own ledger
+E10,E28,1,< (Precedes),False,any single one could exceed the forecast,in which it was recorded as the month that didn't bury anyone
+E11,E1,-1,> (Preceded By),False,the strongest aftershock in fact arrived on the ninth day,The main shock lasted forty seconds
+E11,E2,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,the city would spend years recovering from it
+E11,E3,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,the dangerous season was the middle one
+E11,E4,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,the weeks of aftershocks
+E11,E5,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,buildings weakened by the first event waited for the follow-up blows
+E11,E6,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,The inspection teams worked a triage
+E11,E7,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,thirty minutes per building for the rapid pass
+E11,E8,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,racing a decay curve
+E11,E9,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,aftershock frequency fell by the day
+E11,E10,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,any single one could exceed the forecast
+E11,E12,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,the daily count had already dwindled to nearly nothing
+E11,E13,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,two cleared buildings had been reoccupied
+E11,E14,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,Both held
+E11,E15,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,The school inspection was the contested one
+E11,E16,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,the rapid pass had cleared it
+E11,E17,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E11,E18,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,the term was scheduled to resume
+E11,E19,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,The engineer who refused to sign was older than the building
+E11,E20,-1,> (Preceded By),False,the strongest aftershock in fact arrived on the ninth day,she had inspected it after the previous earthquake
+E11,E21,-1,> (Preceded By),False,the strongest aftershock in fact arrived on the ninth day,a generation ago
+E11,E22,5,d (During),False,the strongest aftershock in fact arrived on the ninth day,remembered a crack pattern that the current drawings did not show
+E11,E23,-1,> (Preceded By),False,the strongest aftershock in fact arrived on the ninth day,the repair had been recorded but not the damage
+E11,E24,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E11,E25,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,The school reopened a month late
+E11,E26,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,which was recorded as a delay
+E11,E27,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,the engineer kept her own ledger
+E11,E28,1,< (Precedes),False,the strongest aftershock in fact arrived on the ninth day,in which it was recorded as the month that didn't bury anyone
+E12,E1,-1,> (Preceded By),False,the daily count had already dwindled to nearly nothing,The main shock lasted forty seconds
+E12,E2,5,d (During),False,the daily count had already dwindled to nearly nothing,the city would spend years recovering from it
+E12,E3,5,d (During),False,the daily count had already dwindled to nearly nothing,the dangerous season was the middle one
+E12,E4,5,d (During),False,the daily count had already dwindled to nearly nothing,the weeks of aftershocks
+E12,E5,5,d (During),False,the daily count had already dwindled to nearly nothing,buildings weakened by the first event waited for the follow-up blows
+E12,E6,5,d (During),False,the daily count had already dwindled to nearly nothing,The inspection teams worked a triage
+E12,E7,5,d (During),False,the daily count had already dwindled to nearly nothing,thirty minutes per building for the rapid pass
+E12,E8,5,d (During),False,the daily count had already dwindled to nearly nothing,racing a decay curve
+E12,E9,5,d (During),False,the daily count had already dwindled to nearly nothing,aftershock frequency fell by the day
+E12,E10,5,d (During),False,the daily count had already dwindled to nearly nothing,any single one could exceed the forecast
+E12,E11,-5,di (Contains),False,the daily count had already dwindled to nearly nothing,the strongest aftershock in fact arrived on the ninth day
+E12,E13,2,m (Meets),False,the daily count had already dwindled to nearly nothing,two cleared buildings had been reoccupied
+E12,E14,1,< (Precedes),False,the daily count had already dwindled to nearly nothing,Both held
+E12,E15,1,< (Precedes),False,the daily count had already dwindled to nearly nothing,The school inspection was the contested one
+E12,E16,1,< (Precedes),False,the daily count had already dwindled to nearly nothing,the rapid pass had cleared it
+E12,E17,1,< (Precedes),False,the daily count had already dwindled to nearly nothing,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E12,E18,1,< (Precedes),False,the daily count had already dwindled to nearly nothing,the term was scheduled to resume
+E12,E19,5,d (During),False,the daily count had already dwindled to nearly nothing,The engineer who refused to sign was older than the building
+E12,E20,-1,> (Preceded By),False,the daily count had already dwindled to nearly nothing,she had inspected it after the previous earthquake
+E12,E21,-1,> (Preceded By),False,the daily count had already dwindled to nearly nothing,a generation ago
+E12,E22,5,d (During),False,the daily count had already dwindled to nearly nothing,remembered a crack pattern that the current drawings did not show
+E12,E23,-1,> (Preceded By),False,the daily count had already dwindled to nearly nothing,the repair had been recorded but not the damage
+E12,E24,1,< (Precedes),False,the daily count had already dwindled to nearly nothing,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E12,E25,1,< (Precedes),False,the daily count had already dwindled to nearly nothing,The school reopened a month late
+E12,E26,1,< (Precedes),False,the daily count had already dwindled to nearly nothing,which was recorded as a delay
+E12,E27,1,< (Precedes),False,the daily count had already dwindled to nearly nothing,the engineer kept her own ledger
+E12,E28,1,< (Precedes),False,the daily count had already dwindled to nearly nothing,in which it was recorded as the month that didn't bury anyone
+E13,E1,-1,> (Preceded By),False,two cleared buildings had been reoccupied,The main shock lasted forty seconds
+E13,E2,5,d (During),False,two cleared buildings had been reoccupied,the city would spend years recovering from it
+E13,E3,5,d (During),False,two cleared buildings had been reoccupied,the dangerous season was the middle one
+E13,E4,5,d (During),False,two cleared buildings had been reoccupied,the weeks of aftershocks
+E13,E5,5,d (During),False,two cleared buildings had been reoccupied,buildings weakened by the first event waited for the follow-up blows
+E13,E6,5,d (During),False,two cleared buildings had been reoccupied,The inspection teams worked a triage
+E13,E7,5,d (During),False,two cleared buildings had been reoccupied,thirty minutes per building for the rapid pass
+E13,E8,5,d (During),False,two cleared buildings had been reoccupied,racing a decay curve
+E13,E9,5,d (During),False,two cleared buildings had been reoccupied,aftershock frequency fell by the day
+E13,E10,5,d (During),False,two cleared buildings had been reoccupied,any single one could exceed the forecast
+E13,E11,-1,> (Preceded By),False,two cleared buildings had been reoccupied,the strongest aftershock in fact arrived on the ninth day
+E13,E12,-2,mi (Met By),False,two cleared buildings had been reoccupied,the daily count had already dwindled to nearly nothing
+E13,E14,1,< (Precedes),False,two cleared buildings had been reoccupied,Both held
+E13,E15,1,< (Precedes),False,two cleared buildings had been reoccupied,The school inspection was the contested one
+E13,E16,1,< (Precedes),False,two cleared buildings had been reoccupied,the rapid pass had cleared it
+E13,E17,1,< (Precedes),False,two cleared buildings had been reoccupied,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E13,E18,1,< (Precedes),False,two cleared buildings had been reoccupied,the term was scheduled to resume
+E13,E19,5,d (During),False,two cleared buildings had been reoccupied,The engineer who refused to sign was older than the building
+E13,E20,-1,> (Preceded By),False,two cleared buildings had been reoccupied,she had inspected it after the previous earthquake
+E13,E21,-1,> (Preceded By),False,two cleared buildings had been reoccupied,a generation ago
+E13,E22,5,d (During),False,two cleared buildings had been reoccupied,remembered a crack pattern that the current drawings did not show
+E13,E23,-1,> (Preceded By),False,two cleared buildings had been reoccupied,the repair had been recorded but not the damage
+E13,E24,1,< (Precedes),False,two cleared buildings had been reoccupied,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E13,E25,1,< (Precedes),False,two cleared buildings had been reoccupied,The school reopened a month late
+E13,E26,1,< (Precedes),False,two cleared buildings had been reoccupied,which was recorded as a delay
+E13,E27,1,< (Precedes),False,two cleared buildings had been reoccupied,the engineer kept her own ledger
+E13,E28,1,< (Precedes),False,two cleared buildings had been reoccupied,in which it was recorded as the month that didn't bury anyone
+E14,E1,-1,> (Preceded By),False,Both held,The main shock lasted forty seconds
+E14,E2,5,d (During),False,Both held,the city would spend years recovering from it
+E14,E3,5,d (During),False,Both held,the dangerous season was the middle one
+E14,E4,5,d (During),False,Both held,the weeks of aftershocks
+E14,E5,5,d (During),False,Both held,buildings weakened by the first event waited for the follow-up blows
+E14,E6,5,d (During),False,Both held,The inspection teams worked a triage
+E14,E7,5,d (During),False,Both held,thirty minutes per building for the rapid pass
+E14,E8,5,d (During),False,Both held,racing a decay curve
+E14,E9,5,d (During),False,Both held,aftershock frequency fell by the day
+E14,E10,5,d (During),False,Both held,any single one could exceed the forecast
+E14,E11,-1,> (Preceded By),False,Both held,the strongest aftershock in fact arrived on the ninth day
+E14,E12,-1,> (Preceded By),False,Both held,the daily count had already dwindled to nearly nothing
+E14,E13,-1,> (Preceded By),False,Both held,two cleared buildings had been reoccupied
+E14,E15,1,< (Precedes),False,Both held,The school inspection was the contested one
+E14,E16,1,< (Precedes),False,Both held,the rapid pass had cleared it
+E14,E17,1,< (Precedes),False,Both held,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E14,E18,1,< (Precedes),False,Both held,the term was scheduled to resume
+E14,E19,5,d (During),False,Both held,The engineer who refused to sign was older than the building
+E14,E20,-1,> (Preceded By),False,Both held,she had inspected it after the previous earthquake
+E14,E21,-1,> (Preceded By),False,Both held,a generation ago
+E14,E22,5,d (During),False,Both held,remembered a crack pattern that the current drawings did not show
+E14,E23,-1,> (Preceded By),False,Both held,the repair had been recorded but not the damage
+E14,E24,1,< (Precedes),False,Both held,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E14,E25,1,< (Precedes),False,Both held,The school reopened a month late
+E14,E26,1,< (Precedes),False,Both held,which was recorded as a delay
+E14,E27,1,< (Precedes),False,Both held,the engineer kept her own ledger
+E14,E28,1,< (Precedes),False,Both held,in which it was recorded as the month that didn't bury anyone
+E15,E1,-1,> (Preceded By),False,The school inspection was the contested one,The main shock lasted forty seconds
+E15,E2,5,d (During),False,The school inspection was the contested one,the city would spend years recovering from it
+E15,E3,5,d (During),False,The school inspection was the contested one,the dangerous season was the middle one
+E15,E4,5,d (During),False,The school inspection was the contested one,the weeks of aftershocks
+E15,E5,5,d (During),False,The school inspection was the contested one,buildings weakened by the first event waited for the follow-up blows
+E15,E6,-2,mi (Met By),False,The school inspection was the contested one,The inspection teams worked a triage
+E15,E7,-2,mi (Met By),False,The school inspection was the contested one,thirty minutes per building for the rapid pass
+E15,E8,-2,mi (Met By),False,The school inspection was the contested one,racing a decay curve
+E15,E9,5,d (During),False,The school inspection was the contested one,aftershock frequency fell by the day
+E15,E10,5,d (During),False,The school inspection was the contested one,any single one could exceed the forecast
+E15,E11,-1,> (Preceded By),False,The school inspection was the contested one,the strongest aftershock in fact arrived on the ninth day
+E15,E12,-1,> (Preceded By),False,The school inspection was the contested one,the daily count had already dwindled to nearly nothing
+E15,E13,-1,> (Preceded By),False,The school inspection was the contested one,two cleared buildings had been reoccupied
+E15,E14,-1,> (Preceded By),False,The school inspection was the contested one,Both held
+E15,E16,-1,> (Preceded By),False,The school inspection was the contested one,the rapid pass had cleared it
+E15,E17,2,m (Meets),False,The school inspection was the contested one,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E15,E18,1,< (Precedes),False,The school inspection was the contested one,the term was scheduled to resume
+E15,E19,5,d (During),False,The school inspection was the contested one,The engineer who refused to sign was older than the building
+E15,E20,-1,> (Preceded By),False,The school inspection was the contested one,she had inspected it after the previous earthquake
+E15,E21,-1,> (Preceded By),False,The school inspection was the contested one,a generation ago
+E15,E22,5,d (During),False,The school inspection was the contested one,remembered a crack pattern that the current drawings did not show
+E15,E23,-1,> (Preceded By),False,The school inspection was the contested one,the repair had been recorded but not the damage
+E15,E24,1,< (Precedes),False,The school inspection was the contested one,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E15,E25,1,< (Precedes),False,The school inspection was the contested one,The school reopened a month late
+E15,E26,1,< (Precedes),False,The school inspection was the contested one,which was recorded as a delay
+E15,E27,1,< (Precedes),False,The school inspection was the contested one,the engineer kept her own ledger
+E15,E28,1,< (Precedes),False,The school inspection was the contested one,in which it was recorded as the month that didn't bury anyone
+E16,E1,-1,> (Preceded By),False,the rapid pass had cleared it,The main shock lasted forty seconds
+E16,E2,5,d (During),False,the rapid pass had cleared it,the city would spend years recovering from it
+E16,E3,5,d (During),False,the rapid pass had cleared it,the dangerous season was the middle one
+E16,E4,5,d (During),False,the rapid pass had cleared it,the weeks of aftershocks
+E16,E5,5,d (During),False,the rapid pass had cleared it,buildings weakened by the first event waited for the follow-up blows
+E16,E6,5,d (During),False,the rapid pass had cleared it,The inspection teams worked a triage
+E16,E7,5,d (During),False,the rapid pass had cleared it,thirty minutes per building for the rapid pass
+E16,E8,5,d (During),False,the rapid pass had cleared it,racing a decay curve
+E16,E9,5,d (During),False,the rapid pass had cleared it,aftershock frequency fell by the day
+E16,E10,5,d (During),False,the rapid pass had cleared it,any single one could exceed the forecast
+E16,E11,-1,> (Preceded By),False,the rapid pass had cleared it,the strongest aftershock in fact arrived on the ninth day
+E16,E12,-1,> (Preceded By),False,the rapid pass had cleared it,the daily count had already dwindled to nearly nothing
+E16,E13,-1,> (Preceded By),False,the rapid pass had cleared it,two cleared buildings had been reoccupied
+E16,E14,-1,> (Preceded By),False,the rapid pass had cleared it,Both held
+E16,E15,1,< (Precedes),False,the rapid pass had cleared it,The school inspection was the contested one
+E16,E17,1,< (Precedes),False,the rapid pass had cleared it,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E16,E18,1,< (Precedes),False,the rapid pass had cleared it,the term was scheduled to resume
+E16,E19,5,d (During),False,the rapid pass had cleared it,The engineer who refused to sign was older than the building
+E16,E20,-1,> (Preceded By),False,the rapid pass had cleared it,she had inspected it after the previous earthquake
+E16,E21,-1,> (Preceded By),False,the rapid pass had cleared it,a generation ago
+E16,E22,5,d (During),False,the rapid pass had cleared it,remembered a crack pattern that the current drawings did not show
+E16,E23,-1,> (Preceded By),False,the rapid pass had cleared it,the repair had been recorded but not the damage
+E16,E24,1,< (Precedes),False,the rapid pass had cleared it,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E16,E25,1,< (Precedes),False,the rapid pass had cleared it,The school reopened a month late
+E16,E26,1,< (Precedes),False,the rapid pass had cleared it,which was recorded as a delay
+E16,E27,1,< (Precedes),False,the rapid pass had cleared it,the engineer kept her own ledger
+E16,E28,1,< (Precedes),False,the rapid pass had cleared it,in which it was recorded as the month that didn't bury anyone
+E17,E1,-1,> (Preceded By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,The main shock lasted forty seconds
+E17,E2,5,d (During),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,the city would spend years recovering from it
+E17,E3,6,f (Finishes),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,the dangerous season was the middle one
+E17,E4,6,f (Finishes),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,the weeks of aftershocks
+E17,E5,6,f (Finishes),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,buildings weakened by the first event waited for the follow-up blows
+E17,E6,-2,mi (Met By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,The inspection teams worked a triage
+E17,E7,-2,mi (Met By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,thirty minutes per building for the rapid pass
+E17,E8,-2,mi (Met By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,racing a decay curve
+E17,E9,6,f (Finishes),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,aftershock frequency fell by the day
+E17,E10,6,f (Finishes),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,any single one could exceed the forecast
+E17,E11,-1,> (Preceded By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,the strongest aftershock in fact arrived on the ninth day
+E17,E12,-1,> (Preceded By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,the daily count had already dwindled to nearly nothing
+E17,E13,-1,> (Preceded By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,two cleared buildings had been reoccupied
+E17,E14,-1,> (Preceded By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,Both held
+E17,E15,-2,mi (Met By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,The school inspection was the contested one
+E17,E16,-1,> (Preceded By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,the rapid pass had cleared it
+E17,E18,2,m (Meets),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,the term was scheduled to resume
+E17,E19,5,d (During),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,The engineer who refused to sign was older than the building
+E17,E20,-1,> (Preceded By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,she had inspected it after the previous earthquake
+E17,E21,-1,> (Preceded By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,a generation ago
+E17,E22,5,d (During),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,remembered a crack pattern that the current drawings did not show
+E17,E23,-1,> (Preceded By),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,the repair had been recorded but not the damage
+E17,E24,2,m (Meets),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E17,E25,1,< (Precedes),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,The school reopened a month late
+E17,E26,1,< (Precedes),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,which was recorded as a delay
+E17,E27,1,< (Precedes),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,the engineer kept her own ledger
+E17,E28,1,< (Precedes),False,the detailed assessment — a three-day process with a five-week backlog — had not yet begun,in which it was recorded as the month that didn't bury anyone
+E18,E1,-1,> (Preceded By),False,the term was scheduled to resume,The main shock lasted forty seconds
+E18,E2,5,d (During),False,the term was scheduled to resume,the city would spend years recovering from it
+E18,E3,-2,mi (Met By),False,the term was scheduled to resume,the dangerous season was the middle one
+E18,E4,-2,mi (Met By),False,the term was scheduled to resume,the weeks of aftershocks
+E18,E5,-2,mi (Met By),False,the term was scheduled to resume,buildings weakened by the first event waited for the follow-up blows
+E18,E6,-1,> (Preceded By),False,the term was scheduled to resume,The inspection teams worked a triage
+E18,E7,-1,> (Preceded By),False,the term was scheduled to resume,thirty minutes per building for the rapid pass
+E18,E8,-1,> (Preceded By),False,the term was scheduled to resume,racing a decay curve
+E18,E9,-2,mi (Met By),False,the term was scheduled to resume,aftershock frequency fell by the day
+E18,E10,-2,mi (Met By),False,the term was scheduled to resume,any single one could exceed the forecast
+E18,E11,-1,> (Preceded By),False,the term was scheduled to resume,the strongest aftershock in fact arrived on the ninth day
+E18,E12,-1,> (Preceded By),False,the term was scheduled to resume,the daily count had already dwindled to nearly nothing
+E18,E13,-1,> (Preceded By),False,the term was scheduled to resume,two cleared buildings had been reoccupied
+E18,E14,-1,> (Preceded By),False,the term was scheduled to resume,Both held
+E18,E15,-1,> (Preceded By),False,the term was scheduled to resume,The school inspection was the contested one
+E18,E16,-1,> (Preceded By),False,the term was scheduled to resume,the rapid pass had cleared it
+E18,E17,-2,mi (Met By),False,the term was scheduled to resume,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E18,E19,5,d (During),False,the term was scheduled to resume,The engineer who refused to sign was older than the building
+E18,E20,-1,> (Preceded By),False,the term was scheduled to resume,she had inspected it after the previous earthquake
+E18,E21,-1,> (Preceded By),False,the term was scheduled to resume,a generation ago
+E18,E22,5,d (During),False,the term was scheduled to resume,remembered a crack pattern that the current drawings did not show
+E18,E23,-1,> (Preceded By),False,the term was scheduled to resume,the repair had been recorded but not the damage
+E18,E24,2,m (Meets),False,the term was scheduled to resume,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E18,E25,1,< (Precedes),False,the term was scheduled to resume,The school reopened a month late
+E18,E26,1,< (Precedes),False,the term was scheduled to resume,which was recorded as a delay
+E18,E27,1,< (Precedes),False,the term was scheduled to resume,the engineer kept her own ledger
+E18,E28,1,< (Precedes),False,the term was scheduled to resume,in which it was recorded as the month that didn't bury anyone
+E19,E1,-4,si (Started By),False,The engineer who refused to sign was older than the building,The main shock lasted forty seconds
+E19,E2,-6,fi (Finished By),False,The engineer who refused to sign was older than the building,the city would spend years recovering from it
+E19,E3,-5,di (Contains),False,The engineer who refused to sign was older than the building,the dangerous season was the middle one
+E19,E4,-5,di (Contains),False,The engineer who refused to sign was older than the building,the weeks of aftershocks
+E19,E5,-5,di (Contains),False,The engineer who refused to sign was older than the building,buildings weakened by the first event waited for the follow-up blows
+E19,E6,-5,di (Contains),False,The engineer who refused to sign was older than the building,The inspection teams worked a triage
+E19,E7,-5,di (Contains),False,The engineer who refused to sign was older than the building,thirty minutes per building for the rapid pass
+E19,E8,-5,di (Contains),False,The engineer who refused to sign was older than the building,racing a decay curve
+E19,E9,-5,di (Contains),False,The engineer who refused to sign was older than the building,aftershock frequency fell by the day
+E19,E10,-5,di (Contains),False,The engineer who refused to sign was older than the building,any single one could exceed the forecast
+E19,E11,-5,di (Contains),False,The engineer who refused to sign was older than the building,the strongest aftershock in fact arrived on the ninth day
+E19,E12,-5,di (Contains),False,The engineer who refused to sign was older than the building,the daily count had already dwindled to nearly nothing
+E19,E13,-5,di (Contains),False,The engineer who refused to sign was older than the building,two cleared buildings had been reoccupied
+E19,E14,-5,di (Contains),False,The engineer who refused to sign was older than the building,Both held
+E19,E15,-5,di (Contains),False,The engineer who refused to sign was older than the building,The school inspection was the contested one
+E19,E16,-5,di (Contains),False,The engineer who refused to sign was older than the building,the rapid pass had cleared it
+E19,E17,-5,di (Contains),False,The engineer who refused to sign was older than the building,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E19,E18,-5,di (Contains),False,The engineer who refused to sign was older than the building,the term was scheduled to resume
+E19,E20,-5,di (Contains),False,The engineer who refused to sign was older than the building,she had inspected it after the previous earthquake
+E19,E21,-5,di (Contains),False,The engineer who refused to sign was older than the building,a generation ago
+E19,E22,-6,fi (Finished By),False,The engineer who refused to sign was older than the building,remembered a crack pattern that the current drawings did not show
+E19,E23,-5,di (Contains),False,The engineer who refused to sign was older than the building,the repair had been recorded but not the damage
+E19,E24,-5,di (Contains),False,The engineer who refused to sign was older than the building,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E19,E25,-5,di (Contains),False,The engineer who refused to sign was older than the building,The school reopened a month late
+E19,E26,-5,di (Contains),False,The engineer who refused to sign was older than the building,which was recorded as a delay
+E19,E27,-6,fi (Finished By),False,The engineer who refused to sign was older than the building,the engineer kept her own ledger
+E19,E28,-5,di (Contains),False,The engineer who refused to sign was older than the building,in which it was recorded as the month that didn't bury anyone
+E20,E1,5,d (During),False,she had inspected it after the previous earthquake,The main shock lasted forty seconds
+E20,E2,1,< (Precedes),False,she had inspected it after the previous earthquake,the city would spend years recovering from it
+E20,E3,1,< (Precedes),False,she had inspected it after the previous earthquake,the dangerous season was the middle one
+E20,E4,1,< (Precedes),False,she had inspected it after the previous earthquake,the weeks of aftershocks
+E20,E5,1,< (Precedes),False,she had inspected it after the previous earthquake,buildings weakened by the first event waited for the follow-up blows
+E20,E6,1,< (Precedes),False,she had inspected it after the previous earthquake,The inspection teams worked a triage
+E20,E7,1,< (Precedes),False,she had inspected it after the previous earthquake,thirty minutes per building for the rapid pass
+E20,E8,1,< (Precedes),False,she had inspected it after the previous earthquake,racing a decay curve
+E20,E9,1,< (Precedes),False,she had inspected it after the previous earthquake,aftershock frequency fell by the day
+E20,E10,1,< (Precedes),False,she had inspected it after the previous earthquake,any single one could exceed the forecast
+E20,E11,1,< (Precedes),False,she had inspected it after the previous earthquake,the strongest aftershock in fact arrived on the ninth day
+E20,E12,1,< (Precedes),False,she had inspected it after the previous earthquake,the daily count had already dwindled to nearly nothing
+E20,E13,1,< (Precedes),False,she had inspected it after the previous earthquake,two cleared buildings had been reoccupied
+E20,E14,1,< (Precedes),False,she had inspected it after the previous earthquake,Both held
+E20,E15,1,< (Precedes),False,she had inspected it after the previous earthquake,The school inspection was the contested one
+E20,E16,1,< (Precedes),False,she had inspected it after the previous earthquake,the rapid pass had cleared it
+E20,E17,1,< (Precedes),False,she had inspected it after the previous earthquake,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E20,E18,1,< (Precedes),False,she had inspected it after the previous earthquake,the term was scheduled to resume
+E20,E19,5,d (During),False,she had inspected it after the previous earthquake,The engineer who refused to sign was older than the building
+E20,E21,-1,> (Preceded By),False,she had inspected it after the previous earthquake,a generation ago
+E20,E22,1,< (Precedes),False,she had inspected it after the previous earthquake,remembered a crack pattern that the current drawings did not show
+E20,E23,1,< (Precedes),False,she had inspected it after the previous earthquake,the repair had been recorded but not the damage
+E20,E24,1,< (Precedes),False,she had inspected it after the previous earthquake,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E20,E25,1,< (Precedes),False,she had inspected it after the previous earthquake,The school reopened a month late
+E20,E26,1,< (Precedes),False,she had inspected it after the previous earthquake,which was recorded as a delay
+E20,E27,1,< (Precedes),False,she had inspected it after the previous earthquake,the engineer kept her own ledger
+E20,E28,1,< (Precedes),False,she had inspected it after the previous earthquake,in which it was recorded as the month that didn't bury anyone
+E21,E1,5,d (During),False,a generation ago,The main shock lasted forty seconds
+E21,E2,1,< (Precedes),False,a generation ago,the city would spend years recovering from it
+E21,E3,1,< (Precedes),False,a generation ago,the dangerous season was the middle one
+E21,E4,1,< (Precedes),False,a generation ago,the weeks of aftershocks
+E21,E5,1,< (Precedes),False,a generation ago,buildings weakened by the first event waited for the follow-up blows
+E21,E6,1,< (Precedes),False,a generation ago,The inspection teams worked a triage
+E21,E7,1,< (Precedes),False,a generation ago,thirty minutes per building for the rapid pass
+E21,E8,1,< (Precedes),False,a generation ago,racing a decay curve
+E21,E9,1,< (Precedes),False,a generation ago,aftershock frequency fell by the day
+E21,E10,1,< (Precedes),False,a generation ago,any single one could exceed the forecast
+E21,E11,1,< (Precedes),False,a generation ago,the strongest aftershock in fact arrived on the ninth day
+E21,E12,1,< (Precedes),False,a generation ago,the daily count had already dwindled to nearly nothing
+E21,E13,1,< (Precedes),False,a generation ago,two cleared buildings had been reoccupied
+E21,E14,1,< (Precedes),False,a generation ago,Both held
+E21,E15,1,< (Precedes),False,a generation ago,The school inspection was the contested one
+E21,E16,1,< (Precedes),False,a generation ago,the rapid pass had cleared it
+E21,E17,1,< (Precedes),False,a generation ago,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E21,E18,1,< (Precedes),False,a generation ago,the term was scheduled to resume
+E21,E19,5,d (During),False,a generation ago,The engineer who refused to sign was older than the building
+E21,E20,1,< (Precedes),False,a generation ago,she had inspected it after the previous earthquake
+E21,E22,1,< (Precedes),False,a generation ago,remembered a crack pattern that the current drawings did not show
+E21,E23,1,< (Precedes),False,a generation ago,the repair had been recorded but not the damage
+E21,E24,1,< (Precedes),False,a generation ago,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E21,E25,1,< (Precedes),False,a generation ago,The school reopened a month late
+E21,E26,1,< (Precedes),False,a generation ago,which was recorded as a delay
+E21,E27,1,< (Precedes),False,a generation ago,the engineer kept her own ledger
+E21,E28,1,< (Precedes),False,a generation ago,in which it was recorded as the month that didn't bury anyone
+E22,E1,-3,oi (Overlapped By),False,remembered a crack pattern that the current drawings did not show,The main shock lasted forty seconds
+E22,E2,-6,fi (Finished By),False,remembered a crack pattern that the current drawings did not show,the city would spend years recovering from it
+E22,E3,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,the dangerous season was the middle one
+E22,E4,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,the weeks of aftershocks
+E22,E5,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,buildings weakened by the first event waited for the follow-up blows
+E22,E6,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,The inspection teams worked a triage
+E22,E7,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,thirty minutes per building for the rapid pass
+E22,E8,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,racing a decay curve
+E22,E9,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,aftershock frequency fell by the day
+E22,E10,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,any single one could exceed the forecast
+E22,E11,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,the strongest aftershock in fact arrived on the ninth day
+E22,E12,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,the daily count had already dwindled to nearly nothing
+E22,E13,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,two cleared buildings had been reoccupied
+E22,E14,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,Both held
+E22,E15,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,The school inspection was the contested one
+E22,E16,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,the rapid pass had cleared it
+E22,E17,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E22,E18,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,the term was scheduled to resume
+E22,E19,6,f (Finishes),False,remembered a crack pattern that the current drawings did not show,The engineer who refused to sign was older than the building
+E22,E20,-1,> (Preceded By),False,remembered a crack pattern that the current drawings did not show,she had inspected it after the previous earthquake
+E22,E21,-1,> (Preceded By),False,remembered a crack pattern that the current drawings did not show,a generation ago
+E22,E23,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,the repair had been recorded but not the damage
+E22,E24,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E22,E25,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,The school reopened a month late
+E22,E26,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,which was recorded as a delay
+E22,E27,-6,fi (Finished By),False,remembered a crack pattern that the current drawings did not show,the engineer kept her own ledger
+E22,E28,-5,di (Contains),False,remembered a crack pattern that the current drawings did not show,in which it was recorded as the month that didn't bury anyone
+E23,E1,5,d (During),False,the repair had been recorded but not the damage,The main shock lasted forty seconds
+E23,E2,1,< (Precedes),False,the repair had been recorded but not the damage,the city would spend years recovering from it
+E23,E3,1,< (Precedes),False,the repair had been recorded but not the damage,the dangerous season was the middle one
+E23,E4,1,< (Precedes),False,the repair had been recorded but not the damage,the weeks of aftershocks
+E23,E5,1,< (Precedes),False,the repair had been recorded but not the damage,buildings weakened by the first event waited for the follow-up blows
+E23,E6,1,< (Precedes),False,the repair had been recorded but not the damage,The inspection teams worked a triage
+E23,E7,1,< (Precedes),False,the repair had been recorded but not the damage,thirty minutes per building for the rapid pass
+E23,E8,1,< (Precedes),False,the repair had been recorded but not the damage,racing a decay curve
+E23,E9,1,< (Precedes),False,the repair had been recorded but not the damage,aftershock frequency fell by the day
+E23,E10,1,< (Precedes),False,the repair had been recorded but not the damage,any single one could exceed the forecast
+E23,E11,1,< (Precedes),False,the repair had been recorded but not the damage,the strongest aftershock in fact arrived on the ninth day
+E23,E12,1,< (Precedes),False,the repair had been recorded but not the damage,the daily count had already dwindled to nearly nothing
+E23,E13,1,< (Precedes),False,the repair had been recorded but not the damage,two cleared buildings had been reoccupied
+E23,E14,1,< (Precedes),False,the repair had been recorded but not the damage,Both held
+E23,E15,1,< (Precedes),False,the repair had been recorded but not the damage,The school inspection was the contested one
+E23,E16,1,< (Precedes),False,the repair had been recorded but not the damage,the rapid pass had cleared it
+E23,E17,1,< (Precedes),False,the repair had been recorded but not the damage,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E23,E18,1,< (Precedes),False,the repair had been recorded but not the damage,the term was scheduled to resume
+E23,E19,5,d (During),False,the repair had been recorded but not the damage,The engineer who refused to sign was older than the building
+E23,E20,-1,> (Preceded By),False,the repair had been recorded but not the damage,she had inspected it after the previous earthquake
+E23,E21,-1,> (Preceded By),False,the repair had been recorded but not the damage,a generation ago
+E23,E22,5,d (During),False,the repair had been recorded but not the damage,remembered a crack pattern that the current drawings did not show
+E23,E24,1,< (Precedes),False,the repair had been recorded but not the damage,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E23,E25,1,< (Precedes),False,the repair had been recorded but not the damage,The school reopened a month late
+E23,E26,1,< (Precedes),False,the repair had been recorded but not the damage,which was recorded as a delay
+E23,E27,1,< (Precedes),False,the repair had been recorded but not the damage,the engineer kept her own ledger
+E23,E28,1,< (Precedes),False,the repair had been recorded but not the damage,in which it was recorded as the month that didn't bury anyone
+E24,E1,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",The main shock lasted forty seconds
+E24,E2,5,d (During),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",the city would spend years recovering from it
+E24,E3,-2,mi (Met By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",the dangerous season was the middle one
+E24,E4,-2,mi (Met By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",the weeks of aftershocks
+E24,E5,-2,mi (Met By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",buildings weakened by the first event waited for the follow-up blows
+E24,E6,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",The inspection teams worked a triage
+E24,E7,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",thirty minutes per building for the rapid pass
+E24,E8,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",racing a decay curve
+E24,E9,-2,mi (Met By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",aftershock frequency fell by the day
+E24,E10,-2,mi (Met By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",any single one could exceed the forecast
+E24,E11,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",the strongest aftershock in fact arrived on the ninth day
+E24,E12,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",the daily count had already dwindled to nearly nothing
+E24,E13,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",two cleared buildings had been reoccupied
+E24,E14,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",Both held
+E24,E15,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",The school inspection was the contested one
+E24,E16,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",the rapid pass had cleared it
+E24,E17,-2,mi (Met By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E24,E18,-2,mi (Met By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",the term was scheduled to resume
+E24,E19,5,d (During),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",The engineer who refused to sign was older than the building
+E24,E20,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",she had inspected it after the previous earthquake
+E24,E21,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",a generation ago
+E24,E22,5,d (During),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",remembered a crack pattern that the current drawings did not show
+E24,E23,-1,> (Preceded By),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",the repair had been recorded but not the damage
+E24,E25,1,< (Precedes),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",The school reopened a month late
+E24,E26,1,< (Precedes),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",which was recorded as a delay
+E24,E27,1,< (Precedes),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",the engineer kept her own ledger
+E24,E28,1,< (Precedes),False,"The detailed assessment, moved to the front of the queue, vindicated her in two days",in which it was recorded as the month that didn't bury anyone
+E25,E1,-1,> (Preceded By),False,The school reopened a month late,The main shock lasted forty seconds
+E25,E2,5,d (During),False,The school reopened a month late,the city would spend years recovering from it
+E25,E3,-1,> (Preceded By),False,The school reopened a month late,the dangerous season was the middle one
+E25,E4,-1,> (Preceded By),False,The school reopened a month late,the weeks of aftershocks
+E25,E5,-1,> (Preceded By),False,The school reopened a month late,buildings weakened by the first event waited for the follow-up blows
+E25,E6,-1,> (Preceded By),False,The school reopened a month late,The inspection teams worked a triage
+E25,E7,-1,> (Preceded By),False,The school reopened a month late,thirty minutes per building for the rapid pass
+E25,E8,-1,> (Preceded By),False,The school reopened a month late,racing a decay curve
+E25,E9,-1,> (Preceded By),False,The school reopened a month late,aftershock frequency fell by the day
+E25,E10,-1,> (Preceded By),False,The school reopened a month late,any single one could exceed the forecast
+E25,E11,-1,> (Preceded By),False,The school reopened a month late,the strongest aftershock in fact arrived on the ninth day
+E25,E12,-1,> (Preceded By),False,The school reopened a month late,the daily count had already dwindled to nearly nothing
+E25,E13,-1,> (Preceded By),False,The school reopened a month late,two cleared buildings had been reoccupied
+E25,E14,-1,> (Preceded By),False,The school reopened a month late,Both held
+E25,E15,-1,> (Preceded By),False,The school reopened a month late,The school inspection was the contested one
+E25,E16,-1,> (Preceded By),False,The school reopened a month late,the rapid pass had cleared it
+E25,E17,-1,> (Preceded By),False,The school reopened a month late,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E25,E18,-1,> (Preceded By),False,The school reopened a month late,the term was scheduled to resume
+E25,E19,5,d (During),False,The school reopened a month late,The engineer who refused to sign was older than the building
+E25,E20,-1,> (Preceded By),False,The school reopened a month late,she had inspected it after the previous earthquake
+E25,E21,-1,> (Preceded By),False,The school reopened a month late,a generation ago
+E25,E22,5,d (During),False,The school reopened a month late,remembered a crack pattern that the current drawings did not show
+E25,E23,-1,> (Preceded By),False,The school reopened a month late,the repair had been recorded but not the damage
+E25,E24,-1,> (Preceded By),False,The school reopened a month late,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E25,E26,1,< (Precedes),False,The school reopened a month late,which was recorded as a delay
+E25,E27,1,< (Precedes),False,The school reopened a month late,the engineer kept her own ledger
+E25,E28,1,< (Precedes),False,The school reopened a month late,in which it was recorded as the month that didn't bury anyone
+E26,E1,-1,> (Preceded By),False,which was recorded as a delay,The main shock lasted forty seconds
+E26,E2,5,d (During),False,which was recorded as a delay,the city would spend years recovering from it
+E26,E3,-1,> (Preceded By),False,which was recorded as a delay,the dangerous season was the middle one
+E26,E4,-1,> (Preceded By),False,which was recorded as a delay,the weeks of aftershocks
+E26,E5,-1,> (Preceded By),False,which was recorded as a delay,buildings weakened by the first event waited for the follow-up blows
+E26,E6,-1,> (Preceded By),False,which was recorded as a delay,The inspection teams worked a triage
+E26,E7,-1,> (Preceded By),False,which was recorded as a delay,thirty minutes per building for the rapid pass
+E26,E8,-1,> (Preceded By),False,which was recorded as a delay,racing a decay curve
+E26,E9,-1,> (Preceded By),False,which was recorded as a delay,aftershock frequency fell by the day
+E26,E10,-1,> (Preceded By),False,which was recorded as a delay,any single one could exceed the forecast
+E26,E11,-1,> (Preceded By),False,which was recorded as a delay,the strongest aftershock in fact arrived on the ninth day
+E26,E12,-1,> (Preceded By),False,which was recorded as a delay,the daily count had already dwindled to nearly nothing
+E26,E13,-1,> (Preceded By),False,which was recorded as a delay,two cleared buildings had been reoccupied
+E26,E14,-1,> (Preceded By),False,which was recorded as a delay,Both held
+E26,E15,-1,> (Preceded By),False,which was recorded as a delay,The school inspection was the contested one
+E26,E16,-1,> (Preceded By),False,which was recorded as a delay,the rapid pass had cleared it
+E26,E17,-1,> (Preceded By),False,which was recorded as a delay,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E26,E18,-1,> (Preceded By),False,which was recorded as a delay,the term was scheduled to resume
+E26,E19,5,d (During),False,which was recorded as a delay,The engineer who refused to sign was older than the building
+E26,E20,-1,> (Preceded By),False,which was recorded as a delay,she had inspected it after the previous earthquake
+E26,E21,-1,> (Preceded By),False,which was recorded as a delay,a generation ago
+E26,E22,5,d (During),False,which was recorded as a delay,remembered a crack pattern that the current drawings did not show
+E26,E23,-1,> (Preceded By),False,which was recorded as a delay,the repair had been recorded but not the damage
+E26,E24,-1,> (Preceded By),False,which was recorded as a delay,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E26,E25,-1,> (Preceded By),False,which was recorded as a delay,The school reopened a month late
+E26,E27,1,< (Precedes),False,which was recorded as a delay,the engineer kept her own ledger
+E26,E28,1,< (Precedes),False,which was recorded as a delay,in which it was recorded as the month that didn't bury anyone
+E27,E1,-1,> (Preceded By),False,the engineer kept her own ledger,The main shock lasted forty seconds
+E27,E2,6,f (Finishes),False,the engineer kept her own ledger,the city would spend years recovering from it
+E27,E3,-1,> (Preceded By),False,the engineer kept her own ledger,the dangerous season was the middle one
+E27,E4,-1,> (Preceded By),False,the engineer kept her own ledger,the weeks of aftershocks
+E27,E5,-1,> (Preceded By),False,the engineer kept her own ledger,buildings weakened by the first event waited for the follow-up blows
+E27,E6,-1,> (Preceded By),False,the engineer kept her own ledger,The inspection teams worked a triage
+E27,E7,-1,> (Preceded By),False,the engineer kept her own ledger,thirty minutes per building for the rapid pass
+E27,E8,-1,> (Preceded By),False,the engineer kept her own ledger,racing a decay curve
+E27,E9,-1,> (Preceded By),False,the engineer kept her own ledger,aftershock frequency fell by the day
+E27,E10,-1,> (Preceded By),False,the engineer kept her own ledger,any single one could exceed the forecast
+E27,E11,-1,> (Preceded By),False,the engineer kept her own ledger,the strongest aftershock in fact arrived on the ninth day
+E27,E12,-1,> (Preceded By),False,the engineer kept her own ledger,the daily count had already dwindled to nearly nothing
+E27,E13,-1,> (Preceded By),False,the engineer kept her own ledger,two cleared buildings had been reoccupied
+E27,E14,-1,> (Preceded By),False,the engineer kept her own ledger,Both held
+E27,E15,-1,> (Preceded By),False,the engineer kept her own ledger,The school inspection was the contested one
+E27,E16,-1,> (Preceded By),False,the engineer kept her own ledger,the rapid pass had cleared it
+E27,E17,-1,> (Preceded By),False,the engineer kept her own ledger,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E27,E18,-1,> (Preceded By),False,the engineer kept her own ledger,the term was scheduled to resume
+E27,E19,6,f (Finishes),False,the engineer kept her own ledger,The engineer who refused to sign was older than the building
+E27,E20,-1,> (Preceded By),False,the engineer kept her own ledger,she had inspected it after the previous earthquake
+E27,E21,-1,> (Preceded By),False,the engineer kept her own ledger,a generation ago
+E27,E22,6,f (Finishes),False,the engineer kept her own ledger,remembered a crack pattern that the current drawings did not show
+E27,E23,-1,> (Preceded By),False,the engineer kept her own ledger,the repair had been recorded but not the damage
+E27,E24,-1,> (Preceded By),False,the engineer kept her own ledger,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E27,E25,-1,> (Preceded By),False,the engineer kept her own ledger,The school reopened a month late
+E27,E26,-1,> (Preceded By),False,the engineer kept her own ledger,which was recorded as a delay
+E27,E28,-5,di (Contains),False,the engineer kept her own ledger,in which it was recorded as the month that didn't bury anyone
+E28,E1,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,The main shock lasted forty seconds
+E28,E2,5,d (During),False,in which it was recorded as the month that didn't bury anyone,the city would spend years recovering from it
+E28,E3,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,the dangerous season was the middle one
+E28,E4,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,the weeks of aftershocks
+E28,E5,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,buildings weakened by the first event waited for the follow-up blows
+E28,E6,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,The inspection teams worked a triage
+E28,E7,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,thirty minutes per building for the rapid pass
+E28,E8,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,racing a decay curve
+E28,E9,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,aftershock frequency fell by the day
+E28,E10,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,any single one could exceed the forecast
+E28,E11,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,the strongest aftershock in fact arrived on the ninth day
+E28,E12,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,the daily count had already dwindled to nearly nothing
+E28,E13,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,two cleared buildings had been reoccupied
+E28,E14,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,Both held
+E28,E15,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,The school inspection was the contested one
+E28,E16,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,the rapid pass had cleared it
+E28,E17,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,the detailed assessment — a three-day process with a five-week backlog — had not yet begun
+E28,E18,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,the term was scheduled to resume
+E28,E19,5,d (During),False,in which it was recorded as the month that didn't bury anyone,The engineer who refused to sign was older than the building
+E28,E20,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,she had inspected it after the previous earthquake
+E28,E21,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,a generation ago
+E28,E22,5,d (During),False,in which it was recorded as the month that didn't bury anyone,remembered a crack pattern that the current drawings did not show
+E28,E23,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,the repair had been recorded but not the damage
+E28,E24,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,"The detailed assessment, moved to the front of the queue, vindicated her in two days"
+E28,E25,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,The school reopened a month late
+E28,E26,-1,> (Preceded By),False,in which it was recorded as the month that didn't bury anyone,which was recorded as a delay
+E28,E27,5,d (During),False,in which it was recorded as the month that didn't bury anyone,the engineer kept her own ledger

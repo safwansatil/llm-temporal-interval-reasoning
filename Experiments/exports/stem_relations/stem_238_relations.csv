@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-2,mi (Met By),False,the woman died in a road accident,he had been engaged to another woman
+E1,E3,1,< (Precedes),False,the woman died in a road accident,married to her mother for thirty-five years
+E1,E4,1,< (Precedes),False,the woman died in a road accident,his funeral
+E1,E5,1,< (Precedes),False,the woman died in a road accident,Sumaya found the photograph
+E1,E6,1,< (Precedes),False,the woman died in a road accident,Sumaya stared at the photograph
+E1,E7,1,< (Precedes),False,the woman died in a road accident,She asked her mother
+E1,E8,1,< (Precedes),False,the woman died in a road accident,Her mother looked at the photograph
+E1,E9,1,< (Precedes),False,the woman died in a road accident,she told Sumaya a story
+E1,E10,1,< (Precedes),False,the woman died in a road accident,Sumaya returned the photograph to the book
+E1,E11,-1,> (Preceded By),False,the woman died in a road accident,"The photograph showed her father as a young man, perhaps twenty years old"
+E1,E12,1,< (Precedes),False,the woman died in a road accident,"Her father had never spoken of her again,"
+E2,E1,2,m (Meets),False,he had been engaged to another woman,the woman died in a road accident
+E2,E3,1,< (Precedes),False,he had been engaged to another woman,married to her mother for thirty-five years
+E2,E4,1,< (Precedes),False,he had been engaged to another woman,his funeral
+E2,E5,1,< (Precedes),False,he had been engaged to another woman,Sumaya found the photograph
+E2,E6,1,< (Precedes),False,he had been engaged to another woman,Sumaya stared at the photograph
+E2,E7,1,< (Precedes),False,he had been engaged to another woman,She asked her mother
+E2,E8,1,< (Precedes),False,he had been engaged to another woman,Her mother looked at the photograph
+E2,E9,1,< (Precedes),False,he had been engaged to another woman,she told Sumaya a story
+E2,E10,1,< (Precedes),False,he had been engaged to another woman,Sumaya returned the photograph to the book
+E2,E11,-1,> (Preceded By),False,he had been engaged to another woman,"The photograph showed her father as a young man, perhaps twenty years old"
+E2,E12,1,< (Precedes),False,he had been engaged to another woman,"Her father had never spoken of her again,"
+E3,E1,-1,> (Preceded By),False,married to her mother for thirty-five years,the woman died in a road accident
+E3,E2,-1,> (Preceded By),False,married to her mother for thirty-five years,he had been engaged to another woman
+E3,E4,2,m (Meets),False,married to her mother for thirty-five years,his funeral
+E3,E5,1,< (Precedes),False,married to her mother for thirty-five years,Sumaya found the photograph
+E3,E6,1,< (Precedes),False,married to her mother for thirty-five years,Sumaya stared at the photograph
+E3,E7,1,< (Precedes),False,married to her mother for thirty-five years,She asked her mother
+E3,E8,1,< (Precedes),False,married to her mother for thirty-five years,Her mother looked at the photograph
+E3,E9,1,< (Precedes),False,married to her mother for thirty-five years,she told Sumaya a story
+E3,E10,1,< (Precedes),False,married to her mother for thirty-five years,Sumaya returned the photograph to the book
+E3,E11,-1,> (Preceded By),False,married to her mother for thirty-five years,"The photograph showed her father as a young man, perhaps twenty years old"
+E3,E12,0,= (Equal),False,married to her mother for thirty-five years,"Her father had never spoken of her again,"
+E4,E1,-1,> (Preceded By),False,his funeral,the woman died in a road accident
+E4,E2,-1,> (Preceded By),False,his funeral,he had been engaged to another woman
+E4,E3,-2,mi (Met By),False,his funeral,married to her mother for thirty-five years
+E4,E5,1,< (Precedes),False,his funeral,Sumaya found the photograph
+E4,E6,1,< (Precedes),False,his funeral,Sumaya stared at the photograph
+E4,E7,1,< (Precedes),False,his funeral,She asked her mother
+E4,E8,1,< (Precedes),False,his funeral,Her mother looked at the photograph
+E4,E9,1,< (Precedes),False,his funeral,she told Sumaya a story
+E4,E10,1,< (Precedes),False,his funeral,Sumaya returned the photograph to the book
+E4,E11,-1,> (Preceded By),False,his funeral,"The photograph showed her father as a young man, perhaps twenty years old"
+E4,E12,-2,mi (Met By),False,his funeral,"Her father had never spoken of her again,"
+E5,E1,-1,> (Preceded By),False,Sumaya found the photograph,the woman died in a road accident
+E5,E2,-1,> (Preceded By),False,Sumaya found the photograph,he had been engaged to another woman
+E5,E3,-1,> (Preceded By),False,Sumaya found the photograph,married to her mother for thirty-five years
+E5,E4,-1,> (Preceded By),False,Sumaya found the photograph,his funeral
+E5,E6,2,m (Meets),False,Sumaya found the photograph,Sumaya stared at the photograph
+E5,E7,1,< (Precedes),False,Sumaya found the photograph,She asked her mother
+E5,E8,1,< (Precedes),False,Sumaya found the photograph,Her mother looked at the photograph
+E5,E9,1,< (Precedes),False,Sumaya found the photograph,she told Sumaya a story
+E5,E10,1,< (Precedes),False,Sumaya found the photograph,Sumaya returned the photograph to the book
+E5,E11,-1,> (Preceded By),False,Sumaya found the photograph,"The photograph showed her father as a young man, perhaps twenty years old"
+E5,E12,-1,> (Preceded By),False,Sumaya found the photograph,"Her father had never spoken of her again,"
+E6,E1,-1,> (Preceded By),False,Sumaya stared at the photograph,the woman died in a road accident
+E6,E2,-1,> (Preceded By),False,Sumaya stared at the photograph,he had been engaged to another woman
+E6,E3,-1,> (Preceded By),False,Sumaya stared at the photograph,married to her mother for thirty-five years
+E6,E4,-1,> (Preceded By),False,Sumaya stared at the photograph,his funeral
+E6,E5,-2,mi (Met By),False,Sumaya stared at the photograph,Sumaya found the photograph
+E6,E7,1,< (Precedes),False,Sumaya stared at the photograph,She asked her mother
+E6,E8,1,< (Precedes),False,Sumaya stared at the photograph,Her mother looked at the photograph
+E6,E9,1,< (Precedes),False,Sumaya stared at the photograph,she told Sumaya a story
+E6,E10,1,< (Precedes),False,Sumaya stared at the photograph,Sumaya returned the photograph to the book
+E6,E11,-1,> (Preceded By),False,Sumaya stared at the photograph,"The photograph showed her father as a young man, perhaps twenty years old"
+E6,E12,-1,> (Preceded By),False,Sumaya stared at the photograph,"Her father had never spoken of her again,"
+E7,E1,-1,> (Preceded By),False,She asked her mother,the woman died in a road accident
+E7,E2,-1,> (Preceded By),False,She asked her mother,he had been engaged to another woman
+E7,E3,-1,> (Preceded By),False,She asked her mother,married to her mother for thirty-five years
+E7,E4,-1,> (Preceded By),False,She asked her mother,his funeral
+E7,E5,-1,> (Preceded By),False,She asked her mother,Sumaya found the photograph
+E7,E6,-1,> (Preceded By),False,She asked her mother,Sumaya stared at the photograph
+E7,E8,2,m (Meets),False,She asked her mother,Her mother looked at the photograph
+E7,E9,1,< (Precedes),False,She asked her mother,she told Sumaya a story
+E7,E10,1,< (Precedes),False,She asked her mother,Sumaya returned the photograph to the book
+E7,E11,-1,> (Preceded By),False,She asked her mother,"The photograph showed her father as a young man, perhaps twenty years old"
+E7,E12,-1,> (Preceded By),False,She asked her mother,"Her father had never spoken of her again,"
+E8,E1,-1,> (Preceded By),False,Her mother looked at the photograph,the woman died in a road accident
+E8,E2,-1,> (Preceded By),False,Her mother looked at the photograph,he had been engaged to another woman
+E8,E3,-1,> (Preceded By),False,Her mother looked at the photograph,married to her mother for thirty-five years
+E8,E4,-1,> (Preceded By),False,Her mother looked at the photograph,his funeral
+E8,E5,-1,> (Preceded By),False,Her mother looked at the photograph,Sumaya found the photograph
+E8,E6,-1,> (Preceded By),False,Her mother looked at the photograph,Sumaya stared at the photograph
+E8,E7,-2,mi (Met By),False,Her mother looked at the photograph,She asked her mother
+E8,E9,2,m (Meets),False,Her mother looked at the photograph,she told Sumaya a story
+E8,E10,1,< (Precedes),False,Her mother looked at the photograph,Sumaya returned the photograph to the book
+E8,E11,-1,> (Preceded By),False,Her mother looked at the photograph,"The photograph showed her father as a young man, perhaps twenty years old"
+E8,E12,-1,> (Preceded By),False,Her mother looked at the photograph,"Her father had never spoken of her again,"
+E9,E1,-1,> (Preceded By),False,she told Sumaya a story,the woman died in a road accident
+E9,E2,-1,> (Preceded By),False,she told Sumaya a story,he had been engaged to another woman
+E9,E3,-1,> (Preceded By),False,she told Sumaya a story,married to her mother for thirty-five years
+E9,E4,-1,> (Preceded By),False,she told Sumaya a story,his funeral
+E9,E5,-1,> (Preceded By),False,she told Sumaya a story,Sumaya found the photograph
+E9,E6,-1,> (Preceded By),False,she told Sumaya a story,Sumaya stared at the photograph
+E9,E7,-1,> (Preceded By),False,she told Sumaya a story,She asked her mother
+E9,E8,-2,mi (Met By),False,she told Sumaya a story,Her mother looked at the photograph
+E9,E10,1,< (Precedes),False,she told Sumaya a story,Sumaya returned the photograph to the book
+E9,E11,-1,> (Preceded By),False,she told Sumaya a story,"The photograph showed her father as a young man, perhaps twenty years old"
+E9,E12,-1,> (Preceded By),False,she told Sumaya a story,"Her father had never spoken of her again,"
+E10,E1,-1,> (Preceded By),False,Sumaya returned the photograph to the book,the woman died in a road accident
+E10,E2,-1,> (Preceded By),False,Sumaya returned the photograph to the book,he had been engaged to another woman
+E10,E3,-1,> (Preceded By),False,Sumaya returned the photograph to the book,married to her mother for thirty-five years
+E10,E4,-1,> (Preceded By),False,Sumaya returned the photograph to the book,his funeral
+E10,E5,-1,> (Preceded By),False,Sumaya returned the photograph to the book,Sumaya found the photograph
+E10,E6,-1,> (Preceded By),False,Sumaya returned the photograph to the book,Sumaya stared at the photograph
+E10,E7,-1,> (Preceded By),False,Sumaya returned the photograph to the book,She asked her mother
+E10,E8,-1,> (Preceded By),False,Sumaya returned the photograph to the book,Her mother looked at the photograph
+E10,E9,-1,> (Preceded By),False,Sumaya returned the photograph to the book,she told Sumaya a story
+E10,E11,-1,> (Preceded By),False,Sumaya returned the photograph to the book,"The photograph showed her father as a young man, perhaps twenty years old"
+E10,E12,-1,> (Preceded By),False,Sumaya returned the photograph to the book,"Her father had never spoken of her again,"
+E11,E1,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old",the woman died in a road accident
+E11,E2,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old",he had been engaged to another woman
+E11,E3,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old",married to her mother for thirty-five years
+E11,E4,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old",his funeral
+E11,E5,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old",Sumaya found the photograph
+E11,E6,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old",Sumaya stared at the photograph
+E11,E7,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old",She asked her mother
+E11,E8,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old",Her mother looked at the photograph
+E11,E9,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old",she told Sumaya a story
+E11,E10,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old",Sumaya returned the photograph to the book
+E11,E12,1,< (Precedes),False,"The photograph showed her father as a young man, perhaps twenty years old","Her father had never spoken of her again,"
+E12,E1,-1,> (Preceded By),False,"Her father had never spoken of her again,",the woman died in a road accident
+E12,E2,-1,> (Preceded By),False,"Her father had never spoken of her again,",he had been engaged to another woman
+E12,E3,0,= (Equal),False,"Her father had never spoken of her again,",married to her mother for thirty-five years
+E12,E4,2,m (Meets),False,"Her father had never spoken of her again,",his funeral
+E12,E5,1,< (Precedes),False,"Her father had never spoken of her again,",Sumaya found the photograph
+E12,E6,1,< (Precedes),False,"Her father had never spoken of her again,",Sumaya stared at the photograph
+E12,E7,1,< (Precedes),False,"Her father had never spoken of her again,",She asked her mother
+E12,E8,1,< (Precedes),False,"Her father had never spoken of her again,",Her mother looked at the photograph
+E12,E9,1,< (Precedes),False,"Her father had never spoken of her again,",she told Sumaya a story
+E12,E10,1,< (Precedes),False,"Her father had never spoken of her again,",Sumaya returned the photograph to the book
+E12,E11,-1,> (Preceded By),False,"Her father had never spoken of her again,","The photograph showed her father as a young man, perhaps twenty years old"

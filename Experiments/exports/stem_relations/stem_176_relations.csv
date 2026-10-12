@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,Karpov relieved them,it persisted for another hour into his shift
+E1,E3,1,< (Precedes),False,Karpov relieved them,fading
+E1,E4,1,< (Precedes),False,Karpov relieved them,Karpov went off watch
+E1,E5,1,< (Precedes),False,Karpov relieved them,was asleep before the next overlap began
+E1,E6,-1,> (Preceded By),False,Karpov relieved them,and it was during one of these windows that the sonar contact appeared.
+E1,E7,-2,mi (Met By),False,Karpov relieved them,he contact had been tracked by the previous watch for forty minutes
+E1,E8,4,s (Starts),False,Karpov relieved them,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,"
+E1,E9,5,d (During),False,Karpov relieved them,meant there was a two-hour window in every cycle when all three were awake together —
+E1,E10,1,< (Precedes),False,Karpov relieved them,reconstructing the log
+E1,E11,1,< (Precedes),False,Karpov relieved them,they realized the two contacts could not have been the same vessel:
+E2,E1,-4,si (Started By),False,it persisted for another hour into his shift,Karpov relieved them
+E2,E3,2,m (Meets),False,it persisted for another hour into his shift,fading
+E2,E4,1,< (Precedes),False,it persisted for another hour into his shift,Karpov went off watch
+E2,E5,1,< (Precedes),False,it persisted for another hour into his shift,was asleep before the next overlap began
+E2,E6,-1,> (Preceded By),False,it persisted for another hour into his shift,and it was during one of these windows that the sonar contact appeared.
+E2,E7,-2,mi (Met By),False,it persisted for another hour into his shift,he contact had been tracked by the previous watch for forty minutes
+E2,E8,4,s (Starts),False,it persisted for another hour into his shift,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,"
+E2,E9,-3,oi (Overlapped By),False,it persisted for another hour into his shift,meant there was a two-hour window in every cycle when all three were awake together —
+E2,E10,1,< (Precedes),False,it persisted for another hour into his shift,reconstructing the log
+E2,E11,1,< (Precedes),False,it persisted for another hour into his shift,they realized the two contacts could not have been the same vessel:
+E3,E1,-1,> (Preceded By),False,fading,Karpov relieved them
+E3,E2,-2,mi (Met By),False,fading,it persisted for another hour into his shift
+E3,E4,1,< (Precedes),False,fading,Karpov went off watch
+E3,E5,1,< (Precedes),False,fading,was asleep before the next overlap began
+E3,E6,-1,> (Preceded By),False,fading,and it was during one of these windows that the sonar contact appeared.
+E3,E7,-1,> (Preceded By),False,fading,he contact had been tracked by the previous watch for forty minutes
+E3,E8,5,d (During),False,fading,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,"
+E3,E9,-1,> (Preceded By),False,fading,meant there was a two-hour window in every cycle when all three were awake together —
+E3,E10,1,< (Precedes),False,fading,reconstructing the log
+E3,E11,1,< (Precedes),False,fading,they realized the two contacts could not have been the same vessel:
+E4,E1,-1,> (Preceded By),False,Karpov went off watch,Karpov relieved them
+E4,E2,-1,> (Preceded By),False,Karpov went off watch,it persisted for another hour into his shift
+E4,E3,-1,> (Preceded By),False,Karpov went off watch,fading
+E4,E5,1,< (Precedes),False,Karpov went off watch,was asleep before the next overlap began
+E4,E6,-1,> (Preceded By),False,Karpov went off watch,and it was during one of these windows that the sonar contact appeared.
+E4,E7,-1,> (Preceded By),False,Karpov went off watch,he contact had been tracked by the previous watch for forty minutes
+E4,E8,6,f (Finishes),False,Karpov went off watch,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,"
+E4,E9,-1,> (Preceded By),False,Karpov went off watch,meant there was a two-hour window in every cycle when all three were awake together —
+E4,E10,1,< (Precedes),False,Karpov went off watch,reconstructing the log
+E4,E11,1,< (Precedes),False,Karpov went off watch,they realized the two contacts could not have been the same vessel:
+E5,E1,-1,> (Preceded By),False,was asleep before the next overlap began,Karpov relieved them
+E5,E2,-1,> (Preceded By),False,was asleep before the next overlap began,it persisted for another hour into his shift
+E5,E3,-1,> (Preceded By),False,was asleep before the next overlap began,fading
+E5,E4,-1,> (Preceded By),False,was asleep before the next overlap began,Karpov went off watch
+E5,E6,-1,> (Preceded By),False,was asleep before the next overlap began,and it was during one of these windows that the sonar contact appeared.
+E5,E7,-1,> (Preceded By),False,was asleep before the next overlap began,he contact had been tracked by the previous watch for forty minutes
+E5,E8,-1,> (Preceded By),False,was asleep before the next overlap began,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,"
+E5,E9,-1,> (Preceded By),False,was asleep before the next overlap began,meant there was a two-hour window in every cycle when all three were awake together —
+E5,E10,1,< (Precedes),False,was asleep before the next overlap began,reconstructing the log
+E5,E11,1,< (Precedes),False,was asleep before the next overlap began,they realized the two contacts could not have been the same vessel:
+E6,E1,1,< (Precedes),False,and it was during one of these windows that the sonar contact appeared.,Karpov relieved them
+E6,E2,1,< (Precedes),False,and it was during one of these windows that the sonar contact appeared.,it persisted for another hour into his shift
+E6,E3,1,< (Precedes),False,and it was during one of these windows that the sonar contact appeared.,fading
+E6,E4,1,< (Precedes),False,and it was during one of these windows that the sonar contact appeared.,Karpov went off watch
+E6,E5,1,< (Precedes),False,and it was during one of these windows that the sonar contact appeared.,was asleep before the next overlap began
+E6,E7,4,s (Starts),False,and it was during one of these windows that the sonar contact appeared.,he contact had been tracked by the previous watch for forty minutes
+E6,E8,1,< (Precedes),False,and it was during one of these windows that the sonar contact appeared.,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,"
+E6,E9,5,d (During),False,and it was during one of these windows that the sonar contact appeared.,meant there was a two-hour window in every cycle when all three were awake together —
+E6,E10,1,< (Precedes),False,and it was during one of these windows that the sonar contact appeared.,reconstructing the log
+E6,E11,1,< (Precedes),False,and it was during one of these windows that the sonar contact appeared.,they realized the two contacts could not have been the same vessel:
+E7,E1,2,m (Meets),False,he contact had been tracked by the previous watch for forty minutes,Karpov relieved them
+E7,E2,2,m (Meets),False,he contact had been tracked by the previous watch for forty minutes,it persisted for another hour into his shift
+E7,E3,1,< (Precedes),False,he contact had been tracked by the previous watch for forty minutes,fading
+E7,E4,1,< (Precedes),False,he contact had been tracked by the previous watch for forty minutes,Karpov went off watch
+E7,E5,1,< (Precedes),False,he contact had been tracked by the previous watch for forty minutes,was asleep before the next overlap began
+E7,E6,-4,si (Started By),False,he contact had been tracked by the previous watch for forty minutes,and it was during one of these windows that the sonar contact appeared.
+E7,E8,2,m (Meets),False,he contact had been tracked by the previous watch for forty minutes,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,"
+E7,E9,5,d (During),False,he contact had been tracked by the previous watch for forty minutes,meant there was a two-hour window in every cycle when all three were awake together —
+E7,E10,1,< (Precedes),False,he contact had been tracked by the previous watch for forty minutes,reconstructing the log
+E7,E11,1,< (Precedes),False,he contact had been tracked by the previous watch for forty minutes,they realized the two contacts could not have been the same vessel:
+E8,E1,-4,si (Started By),False,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,",Karpov relieved them
+E8,E2,-4,si (Started By),False,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,",it persisted for another hour into his shift
+E8,E3,-5,di (Contains),False,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,",fading
+E8,E4,-6,fi (Finished By),False,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,",Karpov went off watch
+E8,E5,1,< (Precedes),False,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,",was asleep before the next overlap began
+E8,E6,-1,> (Preceded By),False,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,",and it was during one of these windows that the sonar contact appeared.
+E8,E7,-2,mi (Met By),False,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,",he contact had been tracked by the previous watch for forty minutes
+E8,E9,-3,oi (Overlapped By),False,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,",meant there was a two-hour window in every cycle when all three were awake together —
+E8,E10,1,< (Precedes),False,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,",reconstructing the log
+E8,E11,1,< (Precedes),False,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,",they realized the two contacts could not have been the same vessel:
+E9,E1,-5,di (Contains),False,meant there was a two-hour window in every cycle when all three were awake together —,Karpov relieved them
+E9,E2,3,o (Overlaps),False,meant there was a two-hour window in every cycle when all three were awake together —,it persisted for another hour into his shift
+E9,E3,1,< (Precedes),False,meant there was a two-hour window in every cycle when all three were awake together —,fading
+E9,E4,1,< (Precedes),False,meant there was a two-hour window in every cycle when all three were awake together —,Karpov went off watch
+E9,E5,1,< (Precedes),False,meant there was a two-hour window in every cycle when all three were awake together —,was asleep before the next overlap began
+E9,E6,-5,di (Contains),False,meant there was a two-hour window in every cycle when all three were awake together —,and it was during one of these windows that the sonar contact appeared.
+E9,E7,-5,di (Contains),False,meant there was a two-hour window in every cycle when all three were awake together —,he contact had been tracked by the previous watch for forty minutes
+E9,E8,3,o (Overlaps),False,meant there was a two-hour window in every cycle when all three were awake together —,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,"
+E9,E10,1,< (Precedes),False,meant there was a two-hour window in every cycle when all three were awake together —,reconstructing the log
+E9,E11,1,< (Precedes),False,meant there was a two-hour window in every cycle when all three were awake together —,they realized the two contacts could not have been the same vessel:
+E10,E1,-1,> (Preceded By),False,reconstructing the log,Karpov relieved them
+E10,E2,-1,> (Preceded By),False,reconstructing the log,it persisted for another hour into his shift
+E10,E3,-1,> (Preceded By),False,reconstructing the log,fading
+E10,E4,-1,> (Preceded By),False,reconstructing the log,Karpov went off watch
+E10,E5,-1,> (Preceded By),False,reconstructing the log,was asleep before the next overlap began
+E10,E6,-1,> (Preceded By),False,reconstructing the log,and it was during one of these windows that the sonar contact appeared.
+E10,E7,-1,> (Preceded By),False,reconstructing the log,he contact had been tracked by the previous watch for forty minutes
+E10,E8,-1,> (Preceded By),False,reconstructing the log,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,"
+E10,E9,-1,> (Preceded By),False,reconstructing the log,meant there was a two-hour window in every cycle when all three were awake together —
+E10,E11,-5,di (Contains),False,reconstructing the log,they realized the two contacts could not have been the same vessel:
+E11,E1,-1,> (Preceded By),False,they realized the two contacts could not have been the same vessel:,Karpov relieved them
+E11,E2,-1,> (Preceded By),False,they realized the two contacts could not have been the same vessel:,it persisted for another hour into his shift
+E11,E3,-1,> (Preceded By),False,they realized the two contacts could not have been the same vessel:,fading
+E11,E4,-1,> (Preceded By),False,they realized the two contacts could not have been the same vessel:,Karpov went off watch
+E11,E5,-1,> (Preceded By),False,they realized the two contacts could not have been the same vessel:,was asleep before the next overlap began
+E11,E6,-1,> (Preceded By),False,they realized the two contacts could not have been the same vessel:,and it was during one of these windows that the sonar contact appeared.
+E11,E7,-1,> (Preceded By),False,they realized the two contacts could not have been the same vessel:,he contact had been tracked by the previous watch for forty minutes
+E11,E8,-1,> (Preceded By),False,they realized the two contacts could not have been the same vessel:,"His watch overlapped the engineer's by two hours at the start and the navigator's by two hours at the end,"
+E11,E9,-1,> (Preceded By),False,they realized the two contacts could not have been the same vessel:,meant there was a two-hour window in every cycle when all three were awake together —
+E11,E10,5,d (During),False,they realized the two contacts could not have been the same vessel:,reconstructing the log

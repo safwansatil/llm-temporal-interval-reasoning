@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,4,s (Starts),False,tea was harvested,shaded for three weeks
+E1,E3,1,< (Precedes),False,tea was harvested,aged through the summer
+E1,E4,-1,> (Preceded By),False,tea was harvested,apprenticeship had begun
+E1,E5,-1,> (Preceded By),False,tea was harvested,master's death
+E1,E6,-1,> (Preceded By),False,tea was harvested,continued studying the fold for two years after the funeral
+E1,E7,1,< (Precedes),False,tea was harvested,sweets had been made
+E1,E8,1,< (Precedes),False,tea was harvested,The kettle reached its second boil
+E1,E9,1,< (Precedes),False,tea was harvested,The whisking began
+E1,E10,1,< (Precedes),False,tea was harvested,was over
+E1,E11,1,< (Precedes),False,tea was harvested,The ceremony lasted four hours
+E1,E12,5,d (During),False,tea was harvested,Sato had trained for it across four decades
+E1,E13,1,< (Precedes),False,tea was harvested,charcoal had been lit
+E1,E14,1,< (Precedes),False,tea was harvested,the guests arrive
+E1,E15,1,< (Precedes),False,tea was harvested,sent the invitations — which themselves went out a full month before this evening
+E1,E16,1,< (Precedes),False,tea was harvested,When the eldest guest complimented the bow
+E1,E17,1,< (Precedes),False,tea was harvested,Sato mentioned it had been repaired with gold lacque
+E2,E1,-4,si (Started By),False,shaded for three weeks,tea was harvested
+E2,E3,2,m (Meets),False,shaded for three weeks,aged through the summer
+E2,E4,-1,> (Preceded By),False,shaded for three weeks,apprenticeship had begun
+E2,E5,-1,> (Preceded By),False,shaded for three weeks,master's death
+E2,E6,-1,> (Preceded By),False,shaded for three weeks,continued studying the fold for two years after the funeral
+E2,E7,1,< (Precedes),False,shaded for three weeks,sweets had been made
+E2,E8,1,< (Precedes),False,shaded for three weeks,The kettle reached its second boil
+E2,E9,1,< (Precedes),False,shaded for three weeks,The whisking began
+E2,E10,1,< (Precedes),False,shaded for three weeks,was over
+E2,E11,1,< (Precedes),False,shaded for three weeks,The ceremony lasted four hours
+E2,E12,5,d (During),False,shaded for three weeks,Sato had trained for it across four decades
+E2,E13,1,< (Precedes),False,shaded for three weeks,charcoal had been lit
+E2,E14,1,< (Precedes),False,shaded for three weeks,the guests arrive
+E2,E15,1,< (Precedes),False,shaded for three weeks,sent the invitations — which themselves went out a full month before this evening
+E2,E16,1,< (Precedes),False,shaded for three weeks,When the eldest guest complimented the bow
+E2,E17,1,< (Precedes),False,shaded for three weeks,Sato mentioned it had been repaired with gold lacque
+E3,E1,-1,> (Preceded By),False,aged through the summer,tea was harvested
+E3,E2,-2,mi (Met By),False,aged through the summer,shaded for three weeks
+E3,E4,-1,> (Preceded By),False,aged through the summer,apprenticeship had begun
+E3,E5,-1,> (Preceded By),False,aged through the summer,master's death
+E3,E6,-1,> (Preceded By),False,aged through the summer,continued studying the fold for two years after the funeral
+E3,E7,1,< (Precedes),False,aged through the summer,sweets had been made
+E3,E8,1,< (Precedes),False,aged through the summer,The kettle reached its second boil
+E3,E9,1,< (Precedes),False,aged through the summer,The whisking began
+E3,E10,1,< (Precedes),False,aged through the summer,was over
+E3,E11,1,< (Precedes),False,aged through the summer,The ceremony lasted four hours
+E3,E12,5,d (During),False,aged through the summer,Sato had trained for it across four decades
+E3,E13,1,< (Precedes),False,aged through the summer,charcoal had been lit
+E3,E14,1,< (Precedes),False,aged through the summer,the guests arrive
+E3,E15,2,m (Meets),False,aged through the summer,sent the invitations — which themselves went out a full month before this evening
+E3,E16,1,< (Precedes),False,aged through the summer,When the eldest guest complimented the bow
+E3,E17,1,< (Precedes),False,aged through the summer,Sato mentioned it had been repaired with gold lacque
+E4,E1,1,< (Precedes),False,apprenticeship had begun,tea was harvested
+E4,E2,1,< (Precedes),False,apprenticeship had begun,shaded for three weeks
+E4,E3,1,< (Precedes),False,apprenticeship had begun,aged through the summer
+E4,E5,1,< (Precedes),False,apprenticeship had begun,master's death
+E4,E6,1,< (Precedes),False,apprenticeship had begun,continued studying the fold for two years after the funeral
+E4,E7,1,< (Precedes),False,apprenticeship had begun,sweets had been made
+E4,E8,1,< (Precedes),False,apprenticeship had begun,The kettle reached its second boil
+E4,E9,1,< (Precedes),False,apprenticeship had begun,The whisking began
+E4,E10,1,< (Precedes),False,apprenticeship had begun,was over
+E4,E11,1,< (Precedes),False,apprenticeship had begun,The ceremony lasted four hours
+E4,E12,5,d (During),False,apprenticeship had begun,Sato had trained for it across four decades
+E4,E13,1,< (Precedes),False,apprenticeship had begun,charcoal had been lit
+E4,E14,1,< (Precedes),False,apprenticeship had begun,the guests arrive
+E4,E15,1,< (Precedes),False,apprenticeship had begun,sent the invitations — which themselves went out a full month before this evening
+E4,E16,1,< (Precedes),False,apprenticeship had begun,When the eldest guest complimented the bow
+E4,E17,1,< (Precedes),False,apprenticeship had begun,Sato mentioned it had been repaired with gold lacque
+E5,E1,1,< (Precedes),False,master's death,tea was harvested
+E5,E2,1,< (Precedes),False,master's death,shaded for three weeks
+E5,E3,1,< (Precedes),False,master's death,aged through the summer
+E5,E4,-1,> (Preceded By),False,master's death,apprenticeship had begun
+E5,E6,5,d (During),False,master's death,continued studying the fold for two years after the funeral
+E5,E7,1,< (Precedes),False,master's death,sweets had been made
+E5,E8,1,< (Precedes),False,master's death,The kettle reached its second boil
+E5,E9,1,< (Precedes),False,master's death,The whisking began
+E5,E10,1,< (Precedes),False,master's death,was over
+E5,E11,1,< (Precedes),False,master's death,The ceremony lasted four hours
+E5,E12,5,d (During),False,master's death,Sato had trained for it across four decades
+E5,E13,1,< (Precedes),False,master's death,charcoal had been lit
+E5,E14,1,< (Precedes),False,master's death,the guests arrive
+E5,E15,1,< (Precedes),False,master's death,sent the invitations — which themselves went out a full month before this evening
+E5,E16,1,< (Precedes),False,master's death,When the eldest guest complimented the bow
+E5,E17,1,< (Precedes),False,master's death,Sato mentioned it had been repaired with gold lacque
+E6,E1,1,< (Precedes),False,continued studying the fold for two years after the funeral,tea was harvested
+E6,E2,1,< (Precedes),False,continued studying the fold for two years after the funeral,shaded for three weeks
+E6,E3,1,< (Precedes),False,continued studying the fold for two years after the funeral,aged through the summer
+E6,E4,-1,> (Preceded By),False,continued studying the fold for two years after the funeral,apprenticeship had begun
+E6,E5,-5,di (Contains),False,continued studying the fold for two years after the funeral,master's death
+E6,E7,1,< (Precedes),False,continued studying the fold for two years after the funeral,sweets had been made
+E6,E8,1,< (Precedes),False,continued studying the fold for two years after the funeral,The kettle reached its second boil
+E6,E9,1,< (Precedes),False,continued studying the fold for two years after the funeral,The whisking began
+E6,E10,1,< (Precedes),False,continued studying the fold for two years after the funeral,was over
+E6,E11,1,< (Precedes),False,continued studying the fold for two years after the funeral,The ceremony lasted four hours
+E6,E12,5,d (During),False,continued studying the fold for two years after the funeral,Sato had trained for it across four decades
+E6,E13,1,< (Precedes),False,continued studying the fold for two years after the funeral,charcoal had been lit
+E6,E14,1,< (Precedes),False,continued studying the fold for two years after the funeral,the guests arrive
+E6,E15,1,< (Precedes),False,continued studying the fold for two years after the funeral,sent the invitations — which themselves went out a full month before this evening
+E6,E16,1,< (Precedes),False,continued studying the fold for two years after the funeral,When the eldest guest complimented the bow
+E6,E17,1,< (Precedes),False,continued studying the fold for two years after the funeral,Sato mentioned it had been repaired with gold lacque
+E7,E1,-1,> (Preceded By),False,sweets had been made,tea was harvested
+E7,E2,-1,> (Preceded By),False,sweets had been made,shaded for three weeks
+E7,E3,-1,> (Preceded By),False,sweets had been made,aged through the summer
+E7,E4,-1,> (Preceded By),False,sweets had been made,apprenticeship had begun
+E7,E5,-1,> (Preceded By),False,sweets had been made,master's death
+E7,E6,-1,> (Preceded By),False,sweets had been made,continued studying the fold for two years after the funeral
+E7,E8,1,< (Precedes),False,sweets had been made,The kettle reached its second boil
+E7,E9,1,< (Precedes),False,sweets had been made,The whisking began
+E7,E10,1,< (Precedes),False,sweets had been made,was over
+E7,E11,1,< (Precedes),False,sweets had been made,The ceremony lasted four hours
+E7,E12,5,d (During),False,sweets had been made,Sato had trained for it across four decades
+E7,E13,5,d (During),False,sweets had been made,charcoal had been lit
+E7,E14,-1,> (Preceded By),False,sweets had been made,the guests arrive
+E7,E15,-1,> (Preceded By),False,sweets had been made,sent the invitations — which themselves went out a full month before this evening
+E7,E16,-1,> (Preceded By),False,sweets had been made,When the eldest guest complimented the bow
+E7,E17,-1,> (Preceded By),False,sweets had been made,Sato mentioned it had been repaired with gold lacque
+E8,E1,-1,> (Preceded By),False,The kettle reached its second boil,tea was harvested
+E8,E2,-1,> (Preceded By),False,The kettle reached its second boil,shaded for three weeks
+E8,E3,-1,> (Preceded By),False,The kettle reached its second boil,aged through the summer
+E8,E4,-1,> (Preceded By),False,The kettle reached its second boil,apprenticeship had begun
+E8,E5,-1,> (Preceded By),False,The kettle reached its second boil,master's death
+E8,E6,-1,> (Preceded By),False,The kettle reached its second boil,continued studying the fold for two years after the funeral
+E8,E7,-1,> (Preceded By),False,The kettle reached its second boil,sweets had been made
+E8,E9,1,< (Precedes),False,The kettle reached its second boil,The whisking began
+E8,E10,1,< (Precedes),False,The kettle reached its second boil,was over
+E8,E11,5,d (During),False,The kettle reached its second boil,The ceremony lasted four hours
+E8,E12,5,d (During),False,The kettle reached its second boil,Sato had trained for it across four decades
+E8,E13,5,d (During),False,The kettle reached its second boil,charcoal had been lit
+E8,E14,-1,> (Preceded By),False,The kettle reached its second boil,the guests arrive
+E8,E15,-1,> (Preceded By),False,The kettle reached its second boil,sent the invitations — which themselves went out a full month before this evening
+E8,E16,-1,> (Preceded By),False,The kettle reached its second boil,When the eldest guest complimented the bow
+E8,E17,-1,> (Preceded By),False,The kettle reached its second boil,Sato mentioned it had been repaired with gold lacque
+E9,E1,-1,> (Preceded By),False,The whisking began,tea was harvested
+E9,E2,-1,> (Preceded By),False,The whisking began,shaded for three weeks
+E9,E3,-1,> (Preceded By),False,The whisking began,aged through the summer
+E9,E4,-1,> (Preceded By),False,The whisking began,apprenticeship had begun
+E9,E5,-1,> (Preceded By),False,The whisking began,master's death
+E9,E6,-1,> (Preceded By),False,The whisking began,continued studying the fold for two years after the funeral
+E9,E7,-1,> (Preceded By),False,The whisking began,sweets had been made
+E9,E8,-1,> (Preceded By),False,The whisking began,The kettle reached its second boil
+E9,E10,1,< (Precedes),False,The whisking began,was over
+E9,E11,5,d (During),False,The whisking began,The ceremony lasted four hours
+E9,E12,5,d (During),False,The whisking began,Sato had trained for it across four decades
+E9,E13,5,d (During),False,The whisking began,charcoal had been lit
+E9,E14,-1,> (Preceded By),False,The whisking began,the guests arrive
+E9,E15,-1,> (Preceded By),False,The whisking began,sent the invitations — which themselves went out a full month before this evening
+E9,E16,-1,> (Preceded By),False,The whisking began,When the eldest guest complimented the bow
+E9,E17,-1,> (Preceded By),False,The whisking began,Sato mentioned it had been repaired with gold lacque
+E10,E1,-1,> (Preceded By),False,was over,tea was harvested
+E10,E2,-1,> (Preceded By),False,was over,shaded for three weeks
+E10,E3,-1,> (Preceded By),False,was over,aged through the summer
+E10,E4,-1,> (Preceded By),False,was over,apprenticeship had begun
+E10,E5,-1,> (Preceded By),False,was over,master's death
+E10,E6,-1,> (Preceded By),False,was over,continued studying the fold for two years after the funeral
+E10,E7,-1,> (Preceded By),False,was over,sweets had been made
+E10,E8,-1,> (Preceded By),False,was over,The kettle reached its second boil
+E10,E9,-1,> (Preceded By),False,was over,The whisking began
+E10,E11,5,d (During),False,was over,The ceremony lasted four hours
+E10,E12,5,d (During),False,was over,Sato had trained for it across four decades
+E10,E13,5,d (During),False,was over,charcoal had been lit
+E10,E14,-1,> (Preceded By),False,was over,the guests arrive
+E10,E15,-1,> (Preceded By),False,was over,sent the invitations — which themselves went out a full month before this evening
+E10,E16,-1,> (Preceded By),False,was over,When the eldest guest complimented the bow
+E10,E17,-1,> (Preceded By),False,was over,Sato mentioned it had been repaired with gold lacque
+E11,E1,-1,> (Preceded By),False,The ceremony lasted four hours,tea was harvested
+E11,E2,-1,> (Preceded By),False,The ceremony lasted four hours,shaded for three weeks
+E11,E3,-1,> (Preceded By),False,The ceremony lasted four hours,aged through the summer
+E11,E4,-1,> (Preceded By),False,The ceremony lasted four hours,apprenticeship had begun
+E11,E5,-1,> (Preceded By),False,The ceremony lasted four hours,master's death
+E11,E6,-1,> (Preceded By),False,The ceremony lasted four hours,continued studying the fold for two years after the funeral
+E11,E7,-1,> (Preceded By),False,The ceremony lasted four hours,sweets had been made
+E11,E8,-5,di (Contains),False,The ceremony lasted four hours,The kettle reached its second boil
+E11,E9,-5,di (Contains),False,The ceremony lasted four hours,The whisking began
+E11,E10,-5,di (Contains),False,The ceremony lasted four hours,was over
+E11,E12,6,f (Finishes),False,The ceremony lasted four hours,Sato had trained for it across four decades
+E11,E13,6,f (Finishes),False,The ceremony lasted four hours,charcoal had been lit
+E11,E14,-1,> (Preceded By),False,The ceremony lasted four hours,the guests arrive
+E11,E15,-1,> (Preceded By),False,The ceremony lasted four hours,sent the invitations — which themselves went out a full month before this evening
+E11,E16,-1,> (Preceded By),False,The ceremony lasted four hours,When the eldest guest complimented the bow
+E11,E17,-1,> (Preceded By),False,The ceremony lasted four hours,Sato mentioned it had been repaired with gold lacque
+E12,E1,-5,di (Contains),False,Sato had trained for it across four decades,tea was harvested
+E12,E2,-5,di (Contains),False,Sato had trained for it across four decades,shaded for three weeks
+E12,E3,-5,di (Contains),False,Sato had trained for it across four decades,aged through the summer
+E12,E4,-5,di (Contains),False,Sato had trained for it across four decades,apprenticeship had begun
+E12,E5,-5,di (Contains),False,Sato had trained for it across four decades,master's death
+E12,E6,-5,di (Contains),False,Sato had trained for it across four decades,continued studying the fold for two years after the funeral
+E12,E7,-5,di (Contains),False,Sato had trained for it across four decades,sweets had been made
+E12,E8,-5,di (Contains),False,Sato had trained for it across four decades,The kettle reached its second boil
+E12,E9,-5,di (Contains),False,Sato had trained for it across four decades,The whisking began
+E12,E10,-5,di (Contains),False,Sato had trained for it across four decades,was over
+E12,E11,-6,fi (Finished By),False,Sato had trained for it across four decades,The ceremony lasted four hours
+E12,E13,-6,fi (Finished By),False,Sato had trained for it across four decades,charcoal had been lit
+E12,E14,-5,di (Contains),False,Sato had trained for it across four decades,the guests arrive
+E12,E15,-5,di (Contains),False,Sato had trained for it across four decades,sent the invitations — which themselves went out a full month before this evening
+E12,E16,-5,di (Contains),False,Sato had trained for it across four decades,When the eldest guest complimented the bow
+E12,E17,-5,di (Contains),False,Sato had trained for it across four decades,Sato mentioned it had been repaired with gold lacque
+E13,E1,-1,> (Preceded By),False,charcoal had been lit,tea was harvested
+E13,E2,-1,> (Preceded By),False,charcoal had been lit,shaded for three weeks
+E13,E3,-1,> (Preceded By),False,charcoal had been lit,aged through the summer
+E13,E4,-1,> (Preceded By),False,charcoal had been lit,apprenticeship had begun
+E13,E5,-1,> (Preceded By),False,charcoal had been lit,master's death
+E13,E6,-1,> (Preceded By),False,charcoal had been lit,continued studying the fold for two years after the funeral
+E13,E7,-5,di (Contains),False,charcoal had been lit,sweets had been made
+E13,E8,-5,di (Contains),False,charcoal had been lit,The kettle reached its second boil
+E13,E9,-5,di (Contains),False,charcoal had been lit,The whisking began
+E13,E10,-5,di (Contains),False,charcoal had been lit,was over
+E13,E11,-6,fi (Finished By),False,charcoal had been lit,The ceremony lasted four hours
+E13,E12,6,f (Finishes),False,charcoal had been lit,Sato had trained for it across four decades
+E13,E14,-5,di (Contains),False,charcoal had been lit,the guests arrive
+E13,E15,-1,> (Preceded By),False,charcoal had been lit,sent the invitations — which themselves went out a full month before this evening
+E13,E16,-3,oi (Overlapped By),False,charcoal had been lit,When the eldest guest complimented the bow
+E13,E17,-1,> (Preceded By),False,charcoal had been lit,Sato mentioned it had been repaired with gold lacque
+E14,E1,-1,> (Preceded By),False,the guests arrive,tea was harvested
+E14,E2,-1,> (Preceded By),False,the guests arrive,shaded for three weeks
+E14,E3,-1,> (Preceded By),False,the guests arrive,aged through the summer
+E14,E4,-1,> (Preceded By),False,the guests arrive,apprenticeship had begun
+E14,E5,-1,> (Preceded By),False,the guests arrive,master's death
+E14,E6,-1,> (Preceded By),False,the guests arrive,continued studying the fold for two years after the funeral
+E14,E7,1,< (Precedes),False,the guests arrive,sweets had been made
+E14,E8,1,< (Precedes),False,the guests arrive,The kettle reached its second boil
+E14,E9,1,< (Precedes),False,the guests arrive,The whisking began
+E14,E10,1,< (Precedes),False,the guests arrive,was over
+E14,E11,1,< (Precedes),False,the guests arrive,The ceremony lasted four hours
+E14,E12,5,d (During),False,the guests arrive,Sato had trained for it across four decades
+E14,E13,5,d (During),False,the guests arrive,charcoal had been lit
+E14,E15,-1,> (Preceded By),False,the guests arrive,sent the invitations — which themselves went out a full month before this evening
+E14,E16,-2,mi (Met By),False,the guests arrive,When the eldest guest complimented the bow
+E14,E17,-1,> (Preceded By),False,the guests arrive,Sato mentioned it had been repaired with gold lacque
+E15,E1,-1,> (Preceded By),False,sent the invitations — which themselves went out a full month before this evening,tea was harvested
+E15,E2,-1,> (Preceded By),False,sent the invitations — which themselves went out a full month before this evening,shaded for three weeks
+E15,E3,-2,mi (Met By),False,sent the invitations — which themselves went out a full month before this evening,aged through the summer
+E15,E4,-1,> (Preceded By),False,sent the invitations — which themselves went out a full month before this evening,apprenticeship had begun
+E15,E5,-1,> (Preceded By),False,sent the invitations — which themselves went out a full month before this evening,master's death
+E15,E6,-1,> (Preceded By),False,sent the invitations — which themselves went out a full month before this evening,continued studying the fold for two years after the funeral
+E15,E7,1,< (Precedes),False,sent the invitations — which themselves went out a full month before this evening,sweets had been made
+E15,E8,1,< (Precedes),False,sent the invitations — which themselves went out a full month before this evening,The kettle reached its second boil
+E15,E9,1,< (Precedes),False,sent the invitations — which themselves went out a full month before this evening,The whisking began
+E15,E10,1,< (Precedes),False,sent the invitations — which themselves went out a full month before this evening,was over
+E15,E11,1,< (Precedes),False,sent the invitations — which themselves went out a full month before this evening,The ceremony lasted four hours
+E15,E12,5,d (During),False,sent the invitations — which themselves went out a full month before this evening,Sato had trained for it across four decades
+E15,E13,1,< (Precedes),False,sent the invitations — which themselves went out a full month before this evening,charcoal had been lit
+E15,E14,1,< (Precedes),False,sent the invitations — which themselves went out a full month before this evening,the guests arrive
+E15,E16,1,< (Precedes),False,sent the invitations — which themselves went out a full month before this evening,When the eldest guest complimented the bow
+E15,E17,1,< (Precedes),False,sent the invitations — which themselves went out a full month before this evening,Sato mentioned it had been repaired with gold lacque
+E16,E1,-1,> (Preceded By),False,When the eldest guest complimented the bow,tea was harvested
+E16,E2,-1,> (Preceded By),False,When the eldest guest complimented the bow,shaded for three weeks
+E16,E3,-1,> (Preceded By),False,When the eldest guest complimented the bow,aged through the summer
+E16,E4,-1,> (Preceded By),False,When the eldest guest complimented the bow,apprenticeship had begun
+E16,E5,-1,> (Preceded By),False,When the eldest guest complimented the bow,master's death
+E16,E6,-1,> (Preceded By),False,When the eldest guest complimented the bow,continued studying the fold for two years after the funeral
+E16,E7,1,< (Precedes),False,When the eldest guest complimented the bow,sweets had been made
+E16,E8,1,< (Precedes),False,When the eldest guest complimented the bow,The kettle reached its second boil
+E16,E9,1,< (Precedes),False,When the eldest guest complimented the bow,The whisking began
+E16,E10,1,< (Precedes),False,When the eldest guest complimented the bow,was over
+E16,E11,1,< (Precedes),False,When the eldest guest complimented the bow,The ceremony lasted four hours
+E16,E12,5,d (During),False,When the eldest guest complimented the bow,Sato had trained for it across four decades
+E16,E13,3,o (Overlaps),False,When the eldest guest complimented the bow,charcoal had been lit
+E16,E14,2,m (Meets),False,When the eldest guest complimented the bow,the guests arrive
+E16,E15,-1,> (Preceded By),False,When the eldest guest complimented the bow,sent the invitations — which themselves went out a full month before this evening
+E16,E17,-5,di (Contains),False,When the eldest guest complimented the bow,Sato mentioned it had been repaired with gold lacque
+E17,E1,-1,> (Preceded By),False,Sato mentioned it had been repaired with gold lacque,tea was harvested
+E17,E2,-1,> (Preceded By),False,Sato mentioned it had been repaired with gold lacque,shaded for three weeks
+E17,E3,-1,> (Preceded By),False,Sato mentioned it had been repaired with gold lacque,aged through the summer
+E17,E4,-1,> (Preceded By),False,Sato mentioned it had been repaired with gold lacque,apprenticeship had begun
+E17,E5,-1,> (Preceded By),False,Sato mentioned it had been repaired with gold lacque,master's death
+E17,E6,-1,> (Preceded By),False,Sato mentioned it had been repaired with gold lacque,continued studying the fold for two years after the funeral
+E17,E7,1,< (Precedes),False,Sato mentioned it had been repaired with gold lacque,sweets had been made
+E17,E8,1,< (Precedes),False,Sato mentioned it had been repaired with gold lacque,The kettle reached its second boil
+E17,E9,1,< (Precedes),False,Sato mentioned it had been repaired with gold lacque,The whisking began
+E17,E10,1,< (Precedes),False,Sato mentioned it had been repaired with gold lacque,was over
+E17,E11,1,< (Precedes),False,Sato mentioned it had been repaired with gold lacque,The ceremony lasted four hours
+E17,E12,5,d (During),False,Sato mentioned it had been repaired with gold lacque,Sato had trained for it across four decades
+E17,E13,1,< (Precedes),False,Sato mentioned it had been repaired with gold lacque,charcoal had been lit
+E17,E14,1,< (Precedes),False,Sato mentioned it had been repaired with gold lacque,the guests arrive
+E17,E15,-1,> (Preceded By),False,Sato mentioned it had been repaired with gold lacque,sent the invitations — which themselves went out a full month before this evening
+E17,E16,5,d (During),False,Sato mentioned it had been repaired with gold lacque,When the eldest guest complimented the bow

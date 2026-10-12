@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,an entry dated three weeks before the meeting took place,a meeting held in a hall since demolished
+E1,E3,1,< (Precedes),False,an entry dated three weeks before the meeting took place,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month"
+E1,E4,1,< (Precedes),False,an entry dated three weeks before the meeting took place,"Rezaul himself gave, weeping, to the widow the previous evening"
+E1,E5,1,< (Precedes),False,an entry dated three weeks before the meeting took place,the flooding that occurred that same night
+E1,E6,1,< (Precedes),False,an entry dated three weeks before the meeting took place,called from the surface the night before
+E1,E7,1,< (Precedes),False,an entry dated three weeks before the meeting took place,answered fine at yesterday's
+E1,E8,1,< (Precedes),False,an entry dated three weeks before the meeting took place,walked the collapsed tunnel
+E1,E9,1,< (Precedes),False,an entry dated three weeks before the meeting took place,the safety inspection meant to prevent it wasn't filed until that afternoon
+E1,E10,1,< (Precedes),False,an entry dated three weeks before the meeting took place,reinforcement work that hadn't been scheduled until after this inspection
+E1,E11,1,< (Precedes),False,an entry dated three weeks before the meeting took place,three names were missing from tonight's roll call
+E2,E1,-1,> (Preceded By),False,a meeting held in a hall since demolished,an entry dated three weeks before the meeting took place
+E2,E3,1,< (Precedes),False,a meeting held in a hall since demolished,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month"
+E2,E4,1,< (Precedes),False,a meeting held in a hall since demolished,"Rezaul himself gave, weeping, to the widow the previous evening"
+E2,E5,1,< (Precedes),False,a meeting held in a hall since demolished,the flooding that occurred that same night
+E2,E6,1,< (Precedes),False,a meeting held in a hall since demolished,called from the surface the night before
+E2,E7,1,< (Precedes),False,a meeting held in a hall since demolished,answered fine at yesterday's
+E2,E8,1,< (Precedes),False,a meeting held in a hall since demolished,walked the collapsed tunnel
+E2,E9,1,< (Precedes),False,a meeting held in a hall since demolished,the safety inspection meant to prevent it wasn't filed until that afternoon
+E2,E10,1,< (Precedes),False,a meeting held in a hall since demolished,reinforcement work that hadn't been scheduled until after this inspection
+E2,E11,1,< (Precedes),False,a meeting held in a hall since demolished,three names were missing from tonight's roll call
+E3,E1,-1,> (Preceded By),False,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month",an entry dated three weeks before the meeting took place
+E3,E2,-1,> (Preceded By),False,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month",a meeting held in a hall since demolished
+E3,E4,-5,di (Contains),False,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month","Rezaul himself gave, weeping, to the widow the previous evening"
+E3,E5,-5,di (Contains),False,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month",the flooding that occurred that same night
+E3,E6,-5,di (Contains),False,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month",called from the surface the night before
+E3,E7,-5,di (Contains),False,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month",answered fine at yesterday's
+E3,E8,-5,di (Contains),False,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month",walked the collapsed tunnel
+E3,E9,-5,di (Contains),False,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month",the safety inspection meant to prevent it wasn't filed until that afternoon
+E3,E10,2,m (Meets),False,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month",reinforcement work that hadn't been scheduled until after this inspection
+E3,E11,1,< (Precedes),False,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month",three names were missing from tonight's roll call
+E4,E1,-1,> (Preceded By),False,"Rezaul himself gave, weeping, to the widow the previous evening",an entry dated three weeks before the meeting took place
+E4,E2,-1,> (Preceded By),False,"Rezaul himself gave, weeping, to the widow the previous evening",a meeting held in a hall since demolished
+E4,E3,5,d (During),False,"Rezaul himself gave, weeping, to the widow the previous evening","a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month"
+E4,E5,1,< (Precedes),False,"Rezaul himself gave, weeping, to the widow the previous evening",the flooding that occurred that same night
+E4,E6,1,< (Precedes),False,"Rezaul himself gave, weeping, to the widow the previous evening",called from the surface the night before
+E4,E7,1,< (Precedes),False,"Rezaul himself gave, weeping, to the widow the previous evening",answered fine at yesterday's
+E4,E8,1,< (Precedes),False,"Rezaul himself gave, weeping, to the widow the previous evening",walked the collapsed tunnel
+E4,E9,1,< (Precedes),False,"Rezaul himself gave, weeping, to the widow the previous evening",the safety inspection meant to prevent it wasn't filed until that afternoon
+E4,E10,1,< (Precedes),False,"Rezaul himself gave, weeping, to the widow the previous evening",reinforcement work that hadn't been scheduled until after this inspection
+E4,E11,1,< (Precedes),False,"Rezaul himself gave, weeping, to the widow the previous evening",three names were missing from tonight's roll call
+E5,E1,-1,> (Preceded By),False,the flooding that occurred that same night,an entry dated three weeks before the meeting took place
+E5,E2,-1,> (Preceded By),False,the flooding that occurred that same night,a meeting held in a hall since demolished
+E5,E3,5,d (During),False,the flooding that occurred that same night,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month"
+E5,E4,-1,> (Preceded By),False,the flooding that occurred that same night,"Rezaul himself gave, weeping, to the widow the previous evening"
+E5,E6,1,< (Precedes),False,the flooding that occurred that same night,called from the surface the night before
+E5,E7,1,< (Precedes),False,the flooding that occurred that same night,answered fine at yesterday's
+E5,E8,1,< (Precedes),False,the flooding that occurred that same night,walked the collapsed tunnel
+E5,E9,1,< (Precedes),False,the flooding that occurred that same night,the safety inspection meant to prevent it wasn't filed until that afternoon
+E5,E10,1,< (Precedes),False,the flooding that occurred that same night,reinforcement work that hadn't been scheduled until after this inspection
+E5,E11,1,< (Precedes),False,the flooding that occurred that same night,three names were missing from tonight's roll call
+E6,E1,-1,> (Preceded By),False,called from the surface the night before,an entry dated three weeks before the meeting took place
+E6,E2,-1,> (Preceded By),False,called from the surface the night before,a meeting held in a hall since demolished
+E6,E3,5,d (During),False,called from the surface the night before,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month"
+E6,E4,-1,> (Preceded By),False,called from the surface the night before,"Rezaul himself gave, weeping, to the widow the previous evening"
+E6,E5,-1,> (Preceded By),False,called from the surface the night before,the flooding that occurred that same night
+E6,E7,1,< (Precedes),False,called from the surface the night before,answered fine at yesterday's
+E6,E8,1,< (Precedes),False,called from the surface the night before,walked the collapsed tunnel
+E6,E9,1,< (Precedes),False,called from the surface the night before,the safety inspection meant to prevent it wasn't filed until that afternoon
+E6,E10,1,< (Precedes),False,called from the surface the night before,reinforcement work that hadn't been scheduled until after this inspection
+E6,E11,1,< (Precedes),False,called from the surface the night before,three names were missing from tonight's roll call
+E7,E1,-1,> (Preceded By),False,answered fine at yesterday's,an entry dated three weeks before the meeting took place
+E7,E2,-1,> (Preceded By),False,answered fine at yesterday's,a meeting held in a hall since demolished
+E7,E3,5,d (During),False,answered fine at yesterday's,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month"
+E7,E4,-1,> (Preceded By),False,answered fine at yesterday's,"Rezaul himself gave, weeping, to the widow the previous evening"
+E7,E5,-1,> (Preceded By),False,answered fine at yesterday's,the flooding that occurred that same night
+E7,E6,-1,> (Preceded By),False,answered fine at yesterday's,called from the surface the night before
+E7,E8,1,< (Precedes),False,answered fine at yesterday's,walked the collapsed tunnel
+E7,E9,1,< (Precedes),False,answered fine at yesterday's,the safety inspection meant to prevent it wasn't filed until that afternoon
+E7,E10,1,< (Precedes),False,answered fine at yesterday's,reinforcement work that hadn't been scheduled until after this inspection
+E7,E11,1,< (Precedes),False,answered fine at yesterday's,three names were missing from tonight's roll call
+E8,E1,-1,> (Preceded By),False,walked the collapsed tunnel,an entry dated three weeks before the meeting took place
+E8,E2,-1,> (Preceded By),False,walked the collapsed tunnel,a meeting held in a hall since demolished
+E8,E3,5,d (During),False,walked the collapsed tunnel,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month"
+E8,E4,-1,> (Preceded By),False,walked the collapsed tunnel,"Rezaul himself gave, weeping, to the widow the previous evening"
+E8,E5,-1,> (Preceded By),False,walked the collapsed tunnel,the flooding that occurred that same night
+E8,E6,-1,> (Preceded By),False,walked the collapsed tunnel,called from the surface the night before
+E8,E7,-1,> (Preceded By),False,walked the collapsed tunnel,answered fine at yesterday's
+E8,E9,1,< (Precedes),False,walked the collapsed tunnel,the safety inspection meant to prevent it wasn't filed until that afternoon
+E8,E10,1,< (Precedes),False,walked the collapsed tunnel,reinforcement work that hadn't been scheduled until after this inspection
+E8,E11,1,< (Precedes),False,walked the collapsed tunnel,three names were missing from tonight's roll call
+E9,E1,-1,> (Preceded By),False,the safety inspection meant to prevent it wasn't filed until that afternoon,an entry dated three weeks before the meeting took place
+E9,E2,-1,> (Preceded By),False,the safety inspection meant to prevent it wasn't filed until that afternoon,a meeting held in a hall since demolished
+E9,E3,5,d (During),False,the safety inspection meant to prevent it wasn't filed until that afternoon,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month"
+E9,E4,-1,> (Preceded By),False,the safety inspection meant to prevent it wasn't filed until that afternoon,"Rezaul himself gave, weeping, to the widow the previous evening"
+E9,E5,-1,> (Preceded By),False,the safety inspection meant to prevent it wasn't filed until that afternoon,the flooding that occurred that same night
+E9,E6,-1,> (Preceded By),False,the safety inspection meant to prevent it wasn't filed until that afternoon,called from the surface the night before
+E9,E7,-1,> (Preceded By),False,the safety inspection meant to prevent it wasn't filed until that afternoon,answered fine at yesterday's
+E9,E8,-1,> (Preceded By),False,the safety inspection meant to prevent it wasn't filed until that afternoon,walked the collapsed tunnel
+E9,E10,1,< (Precedes),False,the safety inspection meant to prevent it wasn't filed until that afternoon,reinforcement work that hadn't been scheduled until after this inspection
+E9,E11,1,< (Precedes),False,the safety inspection meant to prevent it wasn't filed until that afternoon,three names were missing from tonight's roll call
+E10,E1,-1,> (Preceded By),False,reinforcement work that hadn't been scheduled until after this inspection,an entry dated three weeks before the meeting took place
+E10,E2,-1,> (Preceded By),False,reinforcement work that hadn't been scheduled until after this inspection,a meeting held in a hall since demolished
+E10,E3,-2,mi (Met By),False,reinforcement work that hadn't been scheduled until after this inspection,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month"
+E10,E4,-1,> (Preceded By),False,reinforcement work that hadn't been scheduled until after this inspection,"Rezaul himself gave, weeping, to the widow the previous evening"
+E10,E5,-1,> (Preceded By),False,reinforcement work that hadn't been scheduled until after this inspection,the flooding that occurred that same night
+E10,E6,-1,> (Preceded By),False,reinforcement work that hadn't been scheduled until after this inspection,called from the surface the night before
+E10,E7,-1,> (Preceded By),False,reinforcement work that hadn't been scheduled until after this inspection,answered fine at yesterday's
+E10,E8,-1,> (Preceded By),False,reinforcement work that hadn't been scheduled until after this inspection,walked the collapsed tunnel
+E10,E9,-1,> (Preceded By),False,reinforcement work that hadn't been scheduled until after this inspection,the safety inspection meant to prevent it wasn't filed until that afternoon
+E10,E11,1,< (Precedes),False,reinforcement work that hadn't been scheduled until after this inspection,three names were missing from tonight's roll call
+E11,E1,-1,> (Preceded By),False,three names were missing from tonight's roll call,an entry dated three weeks before the meeting took place
+E11,E2,-1,> (Preceded By),False,three names were missing from tonight's roll call,a meeting held in a hall since demolished
+E11,E3,-1,> (Preceded By),False,three names were missing from tonight's roll call,"a commendation letter already drafted and sitting, sealed, on the owner's desk since the previous month"
+E11,E4,-1,> (Preceded By),False,three names were missing from tonight's roll call,"Rezaul himself gave, weeping, to the widow the previous evening"
+E11,E5,-1,> (Preceded By),False,three names were missing from tonight's roll call,the flooding that occurred that same night
+E11,E6,-1,> (Preceded By),False,three names were missing from tonight's roll call,called from the surface the night before
+E11,E7,-1,> (Preceded By),False,three names were missing from tonight's roll call,answered fine at yesterday's
+E11,E8,-1,> (Preceded By),False,three names were missing from tonight's roll call,walked the collapsed tunnel
+E11,E9,-1,> (Preceded By),False,three names were missing from tonight's roll call,the safety inspection meant to prevent it wasn't filed until that afternoon
+E11,E10,-1,> (Preceded By),False,three names were missing from tonight's roll call,reinforcement work that hadn't been scheduled until after this inspection

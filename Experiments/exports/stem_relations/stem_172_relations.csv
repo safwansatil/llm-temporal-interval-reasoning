@@ -1,0 +1,553 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-2,mi (Met By),False,Tanvir discovered,his identity had been stolen
+E1,E3,-1,> (Preceded By),False,Tanvir discovered,he had applied for a new credit card.
+E1,E4,1,< (Precedes),False,Tanvir discovered,The bank called to verify a transaction he had never made
+E1,E5,-1,> (Preceded By),False,Tanvir discovered,a large purchase at an electronics store that had occurred two days earlier
+E1,E6,1,< (Precedes),False,Tanvir discovered,Tanvir immediately checked his bank statements and found
+E1,E7,6,f (Finishes),False,Tanvir discovered,three unauthorized transactions spanning the previous four days
+E1,E8,1,< (Precedes),False,Tanvir discovered,He called the bank's fraud department within the hour
+E1,E9,1,< (Precedes),False,Tanvir discovered,"They froze his accounts and promised to investigate, b"
+E1,E10,1,< (Precedes),False,Tanvir discovered,they warned him that resolving such cases typically took three to four weeks
+E1,E11,1,< (Precedes),False,Tanvir discovered,anvir felt his stomach drop
+E1,E12,1,< (Precedes),False,Tanvir discovered,"The next morning, he filed a police report"
+E1,E13,1,< (Precedes),False,Tanvir discovered,The officer who took his statement said they would begin investigating within two days.
+E1,E14,1,< (Precedes),False,Tanvir discovered,"hree days later, he received another call from the ban"
+E1,E15,1,< (Precedes),False,Tanvir discovered,They had traced the transactions
+E1,E16,5,d (During),False,Tanvir discovered,ho had been using Tanvir's information for the previous two week
+E1,E17,5,d (During),False,Tanvir discovered,The fraudster had opened two additional accounts in Tanvir's name during that period
+E1,E18,1,< (Precedes),False,Tanvir discovered,The bank promised to reverse all charges within ten business days.
+E1,E19,1,< (Precedes),False,Tanvir discovered,anvir spent the next week securing every aspect of his financial life.
+E1,E20,1,< (Precedes),False,Tanvir discovered,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E1,E21,1,< (Precedes),False,Tanvir discovered,"By the end of that week, he felt a cautious sense of control returning"
+E1,E22,1,< (Precedes),False,Tanvir discovered,The reimbursement arrived nine business days after the bank's promise.
+E1,E23,1,< (Precedes),False,Tanvir discovered,The police arrested the fraudster two weeks later
+E1,E24,1,< (Precedes),False,Tanvir discovered,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E2,E1,2,m (Meets),False,his identity had been stolen,Tanvir discovered
+E2,E3,-5,di (Contains),False,his identity had been stolen,he had applied for a new credit card.
+E2,E4,1,< (Precedes),False,his identity had been stolen,The bank called to verify a transaction he had never made
+E2,E5,-5,di (Contains),False,his identity had been stolen,a large purchase at an electronics store that had occurred two days earlier
+E2,E6,1,< (Precedes),False,his identity had been stolen,Tanvir immediately checked his bank statements and found
+E2,E7,3,o (Overlaps),False,his identity had been stolen,three unauthorized transactions spanning the previous four days
+E2,E8,1,< (Precedes),False,his identity had been stolen,He called the bank's fraud department within the hour
+E2,E9,1,< (Precedes),False,his identity had been stolen,"They froze his accounts and promised to investigate, b"
+E2,E10,1,< (Precedes),False,his identity had been stolen,they warned him that resolving such cases typically took three to four weeks
+E2,E11,1,< (Precedes),False,his identity had been stolen,anvir felt his stomach drop
+E2,E12,1,< (Precedes),False,his identity had been stolen,"The next morning, he filed a police report"
+E2,E13,1,< (Precedes),False,his identity had been stolen,The officer who took his statement said they would begin investigating within two days.
+E2,E14,1,< (Precedes),False,his identity had been stolen,"hree days later, he received another call from the ban"
+E2,E15,1,< (Precedes),False,his identity had been stolen,They had traced the transactions
+E2,E16,4,s (Starts),False,his identity had been stolen,ho had been using Tanvir's information for the previous two week
+E2,E17,4,s (Starts),False,his identity had been stolen,The fraudster had opened two additional accounts in Tanvir's name during that period
+E2,E18,1,< (Precedes),False,his identity had been stolen,The bank promised to reverse all charges within ten business days.
+E2,E19,1,< (Precedes),False,his identity had been stolen,anvir spent the next week securing every aspect of his financial life.
+E2,E20,1,< (Precedes),False,his identity had been stolen,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E2,E21,1,< (Precedes),False,his identity had been stolen,"By the end of that week, he felt a cautious sense of control returning"
+E2,E22,1,< (Precedes),False,his identity had been stolen,The reimbursement arrived nine business days after the bank's promise.
+E2,E23,1,< (Precedes),False,his identity had been stolen,The police arrested the fraudster two weeks later
+E2,E24,1,< (Precedes),False,his identity had been stolen,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E3,E1,1,< (Precedes),False,he had applied for a new credit card.,Tanvir discovered
+E3,E2,5,d (During),False,he had applied for a new credit card.,his identity had been stolen
+E3,E4,1,< (Precedes),False,he had applied for a new credit card.,The bank called to verify a transaction he had never made
+E3,E5,1,< (Precedes),False,he had applied for a new credit card.,a large purchase at an electronics store that had occurred two days earlier
+E3,E6,1,< (Precedes),False,he had applied for a new credit card.,Tanvir immediately checked his bank statements and found
+E3,E7,1,< (Precedes),False,he had applied for a new credit card.,three unauthorized transactions spanning the previous four days
+E3,E8,1,< (Precedes),False,he had applied for a new credit card.,He called the bank's fraud department within the hour
+E3,E9,1,< (Precedes),False,he had applied for a new credit card.,"They froze his accounts and promised to investigate, b"
+E3,E10,1,< (Precedes),False,he had applied for a new credit card.,they warned him that resolving such cases typically took three to four weeks
+E3,E11,1,< (Precedes),False,he had applied for a new credit card.,anvir felt his stomach drop
+E3,E12,1,< (Precedes),False,he had applied for a new credit card.,"The next morning, he filed a police report"
+E3,E13,1,< (Precedes),False,he had applied for a new credit card.,The officer who took his statement said they would begin investigating within two days.
+E3,E14,1,< (Precedes),False,he had applied for a new credit card.,"hree days later, he received another call from the ban"
+E3,E15,1,< (Precedes),False,he had applied for a new credit card.,They had traced the transactions
+E3,E16,5,d (During),False,he had applied for a new credit card.,ho had been using Tanvir's information for the previous two week
+E3,E17,5,d (During),False,he had applied for a new credit card.,The fraudster had opened two additional accounts in Tanvir's name during that period
+E3,E18,1,< (Precedes),False,he had applied for a new credit card.,The bank promised to reverse all charges within ten business days.
+E3,E19,1,< (Precedes),False,he had applied for a new credit card.,anvir spent the next week securing every aspect of his financial life.
+E3,E20,1,< (Precedes),False,he had applied for a new credit card.,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E3,E21,1,< (Precedes),False,he had applied for a new credit card.,"By the end of that week, he felt a cautious sense of control returning"
+E3,E22,1,< (Precedes),False,he had applied for a new credit card.,The reimbursement arrived nine business days after the bank's promise.
+E3,E23,1,< (Precedes),False,he had applied for a new credit card.,The police arrested the fraudster two weeks later
+E3,E24,1,< (Precedes),False,he had applied for a new credit card.,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E4,E1,-1,> (Preceded By),False,The bank called to verify a transaction he had never made,Tanvir discovered
+E4,E2,-1,> (Preceded By),False,The bank called to verify a transaction he had never made,his identity had been stolen
+E4,E3,-1,> (Preceded By),False,The bank called to verify a transaction he had never made,he had applied for a new credit card.
+E4,E5,-1,> (Preceded By),False,The bank called to verify a transaction he had never made,a large purchase at an electronics store that had occurred two days earlier
+E4,E6,1,< (Precedes),False,The bank called to verify a transaction he had never made,Tanvir immediately checked his bank statements and found
+E4,E7,-1,> (Preceded By),False,The bank called to verify a transaction he had never made,three unauthorized transactions spanning the previous four days
+E4,E8,1,< (Precedes),False,The bank called to verify a transaction he had never made,He called the bank's fraud department within the hour
+E4,E9,1,< (Precedes),False,The bank called to verify a transaction he had never made,"They froze his accounts and promised to investigate, b"
+E4,E10,1,< (Precedes),False,The bank called to verify a transaction he had never made,they warned him that resolving such cases typically took three to four weeks
+E4,E11,1,< (Precedes),False,The bank called to verify a transaction he had never made,anvir felt his stomach drop
+E4,E12,1,< (Precedes),False,The bank called to verify a transaction he had never made,"The next morning, he filed a police report"
+E4,E13,1,< (Precedes),False,The bank called to verify a transaction he had never made,The officer who took his statement said they would begin investigating within two days.
+E4,E14,1,< (Precedes),False,The bank called to verify a transaction he had never made,"hree days later, he received another call from the ban"
+E4,E15,1,< (Precedes),False,The bank called to verify a transaction he had never made,They had traced the transactions
+E4,E16,5,d (During),False,The bank called to verify a transaction he had never made,ho had been using Tanvir's information for the previous two week
+E4,E17,5,d (During),False,The bank called to verify a transaction he had never made,The fraudster had opened two additional accounts in Tanvir's name during that period
+E4,E18,1,< (Precedes),False,The bank called to verify a transaction he had never made,The bank promised to reverse all charges within ten business days.
+E4,E19,1,< (Precedes),False,The bank called to verify a transaction he had never made,anvir spent the next week securing every aspect of his financial life.
+E4,E20,1,< (Precedes),False,The bank called to verify a transaction he had never made,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E4,E21,1,< (Precedes),False,The bank called to verify a transaction he had never made,"By the end of that week, he felt a cautious sense of control returning"
+E4,E22,1,< (Precedes),False,The bank called to verify a transaction he had never made,The reimbursement arrived nine business days after the bank's promise.
+E4,E23,1,< (Precedes),False,The bank called to verify a transaction he had never made,The police arrested the fraudster two weeks later
+E4,E24,1,< (Precedes),False,The bank called to verify a transaction he had never made,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E5,E1,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,Tanvir discovered
+E5,E2,5,d (During),False,a large purchase at an electronics store that had occurred two days earlier,his identity had been stolen
+E5,E3,-1,> (Preceded By),False,a large purchase at an electronics store that had occurred two days earlier,he had applied for a new credit card.
+E5,E4,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,The bank called to verify a transaction he had never made
+E5,E6,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,Tanvir immediately checked his bank statements and found
+E5,E7,5,d (During),False,a large purchase at an electronics store that had occurred two days earlier,three unauthorized transactions spanning the previous four days
+E5,E8,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,He called the bank's fraud department within the hour
+E5,E9,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,"They froze his accounts and promised to investigate, b"
+E5,E10,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,they warned him that resolving such cases typically took three to four weeks
+E5,E11,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,anvir felt his stomach drop
+E5,E12,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,"The next morning, he filed a police report"
+E5,E13,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,The officer who took his statement said they would begin investigating within two days.
+E5,E14,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,"hree days later, he received another call from the ban"
+E5,E15,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,They had traced the transactions
+E5,E16,5,d (During),False,a large purchase at an electronics store that had occurred two days earlier,ho had been using Tanvir's information for the previous two week
+E5,E17,5,d (During),False,a large purchase at an electronics store that had occurred two days earlier,The fraudster had opened two additional accounts in Tanvir's name during that period
+E5,E18,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,The bank promised to reverse all charges within ten business days.
+E5,E19,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,anvir spent the next week securing every aspect of his financial life.
+E5,E20,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E5,E21,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,"By the end of that week, he felt a cautious sense of control returning"
+E5,E22,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,The reimbursement arrived nine business days after the bank's promise.
+E5,E23,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,The police arrested the fraudster two weeks later
+E5,E24,1,< (Precedes),False,a large purchase at an electronics store that had occurred two days earlier,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E6,E1,-1,> (Preceded By),False,Tanvir immediately checked his bank statements and found,Tanvir discovered
+E6,E2,-1,> (Preceded By),False,Tanvir immediately checked his bank statements and found,his identity had been stolen
+E6,E3,-1,> (Preceded By),False,Tanvir immediately checked his bank statements and found,he had applied for a new credit card.
+E6,E4,-1,> (Preceded By),False,Tanvir immediately checked his bank statements and found,The bank called to verify a transaction he had never made
+E6,E5,-1,> (Preceded By),False,Tanvir immediately checked his bank statements and found,a large purchase at an electronics store that had occurred two days earlier
+E6,E7,-1,> (Preceded By),False,Tanvir immediately checked his bank statements and found,three unauthorized transactions spanning the previous four days
+E6,E8,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,He called the bank's fraud department within the hour
+E6,E9,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,"They froze his accounts and promised to investigate, b"
+E6,E10,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,they warned him that resolving such cases typically took three to four weeks
+E6,E11,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,anvir felt his stomach drop
+E6,E12,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,"The next morning, he filed a police report"
+E6,E13,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,The officer who took his statement said they would begin investigating within two days.
+E6,E14,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,"hree days later, he received another call from the ban"
+E6,E15,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,They had traced the transactions
+E6,E16,5,d (During),False,Tanvir immediately checked his bank statements and found,ho had been using Tanvir's information for the previous two week
+E6,E17,5,d (During),False,Tanvir immediately checked his bank statements and found,The fraudster had opened two additional accounts in Tanvir's name during that period
+E6,E18,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,The bank promised to reverse all charges within ten business days.
+E6,E19,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,anvir spent the next week securing every aspect of his financial life.
+E6,E20,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E6,E21,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,"By the end of that week, he felt a cautious sense of control returning"
+E6,E22,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,The reimbursement arrived nine business days after the bank's promise.
+E6,E23,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,The police arrested the fraudster two weeks later
+E6,E24,1,< (Precedes),False,Tanvir immediately checked his bank statements and found,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E7,E1,-6,fi (Finished By),False,three unauthorized transactions spanning the previous four days,Tanvir discovered
+E7,E2,-3,oi (Overlapped By),False,three unauthorized transactions spanning the previous four days,his identity had been stolen
+E7,E3,-1,> (Preceded By),False,three unauthorized transactions spanning the previous four days,he had applied for a new credit card.
+E7,E4,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,The bank called to verify a transaction he had never made
+E7,E5,-5,di (Contains),False,three unauthorized transactions spanning the previous four days,a large purchase at an electronics store that had occurred two days earlier
+E7,E6,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,Tanvir immediately checked his bank statements and found
+E7,E8,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,He called the bank's fraud department within the hour
+E7,E9,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,"They froze his accounts and promised to investigate, b"
+E7,E10,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,they warned him that resolving such cases typically took three to four weeks
+E7,E11,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,anvir felt his stomach drop
+E7,E12,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,"The next morning, he filed a police report"
+E7,E13,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,The officer who took his statement said they would begin investigating within two days.
+E7,E14,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,"hree days later, he received another call from the ban"
+E7,E15,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,They had traced the transactions
+E7,E16,5,d (During),False,three unauthorized transactions spanning the previous four days,ho had been using Tanvir's information for the previous two week
+E7,E17,5,d (During),False,three unauthorized transactions spanning the previous four days,The fraudster had opened two additional accounts in Tanvir's name during that period
+E7,E18,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,The bank promised to reverse all charges within ten business days.
+E7,E19,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,anvir spent the next week securing every aspect of his financial life.
+E7,E20,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E7,E21,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,"By the end of that week, he felt a cautious sense of control returning"
+E7,E22,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,The reimbursement arrived nine business days after the bank's promise.
+E7,E23,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,The police arrested the fraudster two weeks later
+E7,E24,1,< (Precedes),False,three unauthorized transactions spanning the previous four days,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E8,E1,-1,> (Preceded By),False,He called the bank's fraud department within the hour,Tanvir discovered
+E8,E2,-1,> (Preceded By),False,He called the bank's fraud department within the hour,his identity had been stolen
+E8,E3,-1,> (Preceded By),False,He called the bank's fraud department within the hour,he had applied for a new credit card.
+E8,E4,-1,> (Preceded By),False,He called the bank's fraud department within the hour,The bank called to verify a transaction he had never made
+E8,E5,-1,> (Preceded By),False,He called the bank's fraud department within the hour,a large purchase at an electronics store that had occurred two days earlier
+E8,E6,-1,> (Preceded By),False,He called the bank's fraud department within the hour,Tanvir immediately checked his bank statements and found
+E8,E7,-1,> (Preceded By),False,He called the bank's fraud department within the hour,three unauthorized transactions spanning the previous four days
+E8,E9,1,< (Precedes),False,He called the bank's fraud department within the hour,"They froze his accounts and promised to investigate, b"
+E8,E10,1,< (Precedes),False,He called the bank's fraud department within the hour,they warned him that resolving such cases typically took three to four weeks
+E8,E11,1,< (Precedes),False,He called the bank's fraud department within the hour,anvir felt his stomach drop
+E8,E12,1,< (Precedes),False,He called the bank's fraud department within the hour,"The next morning, he filed a police report"
+E8,E13,1,< (Precedes),False,He called the bank's fraud department within the hour,The officer who took his statement said they would begin investigating within two days.
+E8,E14,1,< (Precedes),False,He called the bank's fraud department within the hour,"hree days later, he received another call from the ban"
+E8,E15,1,< (Precedes),False,He called the bank's fraud department within the hour,They had traced the transactions
+E8,E16,5,d (During),False,He called the bank's fraud department within the hour,ho had been using Tanvir's information for the previous two week
+E8,E17,5,d (During),False,He called the bank's fraud department within the hour,The fraudster had opened two additional accounts in Tanvir's name during that period
+E8,E18,1,< (Precedes),False,He called the bank's fraud department within the hour,The bank promised to reverse all charges within ten business days.
+E8,E19,1,< (Precedes),False,He called the bank's fraud department within the hour,anvir spent the next week securing every aspect of his financial life.
+E8,E20,1,< (Precedes),False,He called the bank's fraud department within the hour,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E8,E21,1,< (Precedes),False,He called the bank's fraud department within the hour,"By the end of that week, he felt a cautious sense of control returning"
+E8,E22,1,< (Precedes),False,He called the bank's fraud department within the hour,The reimbursement arrived nine business days after the bank's promise.
+E8,E23,1,< (Precedes),False,He called the bank's fraud department within the hour,The police arrested the fraudster two weeks later
+E8,E24,1,< (Precedes),False,He called the bank's fraud department within the hour,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E9,E1,-1,> (Preceded By),False,"They froze his accounts and promised to investigate, b",Tanvir discovered
+E9,E2,-1,> (Preceded By),False,"They froze his accounts and promised to investigate, b",his identity had been stolen
+E9,E3,-1,> (Preceded By),False,"They froze his accounts and promised to investigate, b",he had applied for a new credit card.
+E9,E4,-1,> (Preceded By),False,"They froze his accounts and promised to investigate, b",The bank called to verify a transaction he had never made
+E9,E5,-1,> (Preceded By),False,"They froze his accounts and promised to investigate, b",a large purchase at an electronics store that had occurred two days earlier
+E9,E6,-1,> (Preceded By),False,"They froze his accounts and promised to investigate, b",Tanvir immediately checked his bank statements and found
+E9,E7,-1,> (Preceded By),False,"They froze his accounts and promised to investigate, b",three unauthorized transactions spanning the previous four days
+E9,E8,-1,> (Preceded By),False,"They froze his accounts and promised to investigate, b",He called the bank's fraud department within the hour
+E9,E10,2,m (Meets),False,"They froze his accounts and promised to investigate, b",they warned him that resolving such cases typically took three to four weeks
+E9,E11,1,< (Precedes),False,"They froze his accounts and promised to investigate, b",anvir felt his stomach drop
+E9,E12,1,< (Precedes),False,"They froze his accounts and promised to investigate, b","The next morning, he filed a police report"
+E9,E13,1,< (Precedes),False,"They froze his accounts and promised to investigate, b",The officer who took his statement said they would begin investigating within two days.
+E9,E14,1,< (Precedes),False,"They froze his accounts and promised to investigate, b","hree days later, he received another call from the ban"
+E9,E15,1,< (Precedes),False,"They froze his accounts and promised to investigate, b",They had traced the transactions
+E9,E16,6,f (Finishes),False,"They froze his accounts and promised to investigate, b",ho had been using Tanvir's information for the previous two week
+E9,E17,6,f (Finishes),False,"They froze his accounts and promised to investigate, b",The fraudster had opened two additional accounts in Tanvir's name during that period
+E9,E18,1,< (Precedes),False,"They froze his accounts and promised to investigate, b",The bank promised to reverse all charges within ten business days.
+E9,E19,1,< (Precedes),False,"They froze his accounts and promised to investigate, b",anvir spent the next week securing every aspect of his financial life.
+E9,E20,1,< (Precedes),False,"They froze his accounts and promised to investigate, b","He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E9,E21,1,< (Precedes),False,"They froze his accounts and promised to investigate, b","By the end of that week, he felt a cautious sense of control returning"
+E9,E22,1,< (Precedes),False,"They froze his accounts and promised to investigate, b",The reimbursement arrived nine business days after the bank's promise.
+E9,E23,1,< (Precedes),False,"They froze his accounts and promised to investigate, b",The police arrested the fraudster two weeks later
+E9,E24,1,< (Precedes),False,"They froze his accounts and promised to investigate, b",It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E10,E1,-1,> (Preceded By),False,they warned him that resolving such cases typically took three to four weeks,Tanvir discovered
+E10,E2,-1,> (Preceded By),False,they warned him that resolving such cases typically took three to four weeks,his identity had been stolen
+E10,E3,-1,> (Preceded By),False,they warned him that resolving such cases typically took three to four weeks,he had applied for a new credit card.
+E10,E4,-1,> (Preceded By),False,they warned him that resolving such cases typically took three to four weeks,The bank called to verify a transaction he had never made
+E10,E5,-1,> (Preceded By),False,they warned him that resolving such cases typically took three to four weeks,a large purchase at an electronics store that had occurred two days earlier
+E10,E6,-1,> (Preceded By),False,they warned him that resolving such cases typically took three to four weeks,Tanvir immediately checked his bank statements and found
+E10,E7,-1,> (Preceded By),False,they warned him that resolving such cases typically took three to four weeks,three unauthorized transactions spanning the previous four days
+E10,E8,-1,> (Preceded By),False,they warned him that resolving such cases typically took three to four weeks,He called the bank's fraud department within the hour
+E10,E9,-2,mi (Met By),False,they warned him that resolving such cases typically took three to four weeks,"They froze his accounts and promised to investigate, b"
+E10,E11,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,anvir felt his stomach drop
+E10,E12,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,"The next morning, he filed a police report"
+E10,E13,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,The officer who took his statement said they would begin investigating within two days.
+E10,E14,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,"hree days later, he received another call from the ban"
+E10,E15,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,They had traced the transactions
+E10,E16,-2,mi (Met By),False,they warned him that resolving such cases typically took three to four weeks,ho had been using Tanvir's information for the previous two week
+E10,E17,-2,mi (Met By),False,they warned him that resolving such cases typically took three to four weeks,The fraudster had opened two additional accounts in Tanvir's name during that period
+E10,E18,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,The bank promised to reverse all charges within ten business days.
+E10,E19,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,anvir spent the next week securing every aspect of his financial life.
+E10,E20,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E10,E21,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,"By the end of that week, he felt a cautious sense of control returning"
+E10,E22,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,The reimbursement arrived nine business days after the bank's promise.
+E10,E23,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,The police arrested the fraudster two weeks later
+E10,E24,1,< (Precedes),False,they warned him that resolving such cases typically took three to four weeks,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E11,E1,-1,> (Preceded By),False,anvir felt his stomach drop,Tanvir discovered
+E11,E2,-1,> (Preceded By),False,anvir felt his stomach drop,his identity had been stolen
+E11,E3,-1,> (Preceded By),False,anvir felt his stomach drop,he had applied for a new credit card.
+E11,E4,-1,> (Preceded By),False,anvir felt his stomach drop,The bank called to verify a transaction he had never made
+E11,E5,-1,> (Preceded By),False,anvir felt his stomach drop,a large purchase at an electronics store that had occurred two days earlier
+E11,E6,-1,> (Preceded By),False,anvir felt his stomach drop,Tanvir immediately checked his bank statements and found
+E11,E7,-1,> (Preceded By),False,anvir felt his stomach drop,three unauthorized transactions spanning the previous four days
+E11,E8,-1,> (Preceded By),False,anvir felt his stomach drop,He called the bank's fraud department within the hour
+E11,E9,-1,> (Preceded By),False,anvir felt his stomach drop,"They froze his accounts and promised to investigate, b"
+E11,E10,-1,> (Preceded By),False,anvir felt his stomach drop,they warned him that resolving such cases typically took three to four weeks
+E11,E12,1,< (Precedes),False,anvir felt his stomach drop,"The next morning, he filed a police report"
+E11,E13,1,< (Precedes),False,anvir felt his stomach drop,The officer who took his statement said they would begin investigating within two days.
+E11,E14,1,< (Precedes),False,anvir felt his stomach drop,"hree days later, he received another call from the ban"
+E11,E15,1,< (Precedes),False,anvir felt his stomach drop,They had traced the transactions
+E11,E16,-1,> (Preceded By),False,anvir felt his stomach drop,ho had been using Tanvir's information for the previous two week
+E11,E17,-1,> (Preceded By),False,anvir felt his stomach drop,The fraudster had opened two additional accounts in Tanvir's name during that period
+E11,E18,1,< (Precedes),False,anvir felt his stomach drop,The bank promised to reverse all charges within ten business days.
+E11,E19,1,< (Precedes),False,anvir felt his stomach drop,anvir spent the next week securing every aspect of his financial life.
+E11,E20,1,< (Precedes),False,anvir felt his stomach drop,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E11,E21,1,< (Precedes),False,anvir felt his stomach drop,"By the end of that week, he felt a cautious sense of control returning"
+E11,E22,1,< (Precedes),False,anvir felt his stomach drop,The reimbursement arrived nine business days after the bank's promise.
+E11,E23,1,< (Precedes),False,anvir felt his stomach drop,The police arrested the fraudster two weeks later
+E11,E24,1,< (Precedes),False,anvir felt his stomach drop,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E12,E1,-1,> (Preceded By),False,"The next morning, he filed a police report",Tanvir discovered
+E12,E2,-1,> (Preceded By),False,"The next morning, he filed a police report",his identity had been stolen
+E12,E3,-1,> (Preceded By),False,"The next morning, he filed a police report",he had applied for a new credit card.
+E12,E4,-1,> (Preceded By),False,"The next morning, he filed a police report",The bank called to verify a transaction he had never made
+E12,E5,-1,> (Preceded By),False,"The next morning, he filed a police report",a large purchase at an electronics store that had occurred two days earlier
+E12,E6,-1,> (Preceded By),False,"The next morning, he filed a police report",Tanvir immediately checked his bank statements and found
+E12,E7,-1,> (Preceded By),False,"The next morning, he filed a police report",three unauthorized transactions spanning the previous four days
+E12,E8,-1,> (Preceded By),False,"The next morning, he filed a police report",He called the bank's fraud department within the hour
+E12,E9,-1,> (Preceded By),False,"The next morning, he filed a police report","They froze his accounts and promised to investigate, b"
+E12,E10,-1,> (Preceded By),False,"The next morning, he filed a police report",they warned him that resolving such cases typically took three to four weeks
+E12,E11,-1,> (Preceded By),False,"The next morning, he filed a police report",anvir felt his stomach drop
+E12,E13,1,< (Precedes),False,"The next morning, he filed a police report",The officer who took his statement said they would begin investigating within two days.
+E12,E14,1,< (Precedes),False,"The next morning, he filed a police report","hree days later, he received another call from the ban"
+E12,E15,1,< (Precedes),False,"The next morning, he filed a police report",They had traced the transactions
+E12,E16,-1,> (Preceded By),False,"The next morning, he filed a police report",ho had been using Tanvir's information for the previous two week
+E12,E17,-1,> (Preceded By),False,"The next morning, he filed a police report",The fraudster had opened two additional accounts in Tanvir's name during that period
+E12,E18,1,< (Precedes),False,"The next morning, he filed a police report",The bank promised to reverse all charges within ten business days.
+E12,E19,1,< (Precedes),False,"The next morning, he filed a police report",anvir spent the next week securing every aspect of his financial life.
+E12,E20,1,< (Precedes),False,"The next morning, he filed a police report","He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E12,E21,1,< (Precedes),False,"The next morning, he filed a police report","By the end of that week, he felt a cautious sense of control returning"
+E12,E22,1,< (Precedes),False,"The next morning, he filed a police report",The reimbursement arrived nine business days after the bank's promise.
+E12,E23,1,< (Precedes),False,"The next morning, he filed a police report",The police arrested the fraudster two weeks later
+E12,E24,1,< (Precedes),False,"The next morning, he filed a police report",It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E13,E1,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,Tanvir discovered
+E13,E2,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,his identity had been stolen
+E13,E3,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,he had applied for a new credit card.
+E13,E4,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,The bank called to verify a transaction he had never made
+E13,E5,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,a large purchase at an electronics store that had occurred two days earlier
+E13,E6,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,Tanvir immediately checked his bank statements and found
+E13,E7,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,three unauthorized transactions spanning the previous four days
+E13,E8,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,He called the bank's fraud department within the hour
+E13,E9,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,"They froze his accounts and promised to investigate, b"
+E13,E10,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,they warned him that resolving such cases typically took three to four weeks
+E13,E11,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,anvir felt his stomach drop
+E13,E12,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,"The next morning, he filed a police report"
+E13,E14,1,< (Precedes),False,The officer who took his statement said they would begin investigating within two days.,"hree days later, he received another call from the ban"
+E13,E15,1,< (Precedes),False,The officer who took his statement said they would begin investigating within two days.,They had traced the transactions
+E13,E16,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,ho had been using Tanvir's information for the previous two week
+E13,E17,-1,> (Preceded By),False,The officer who took his statement said they would begin investigating within two days.,The fraudster had opened two additional accounts in Tanvir's name during that period
+E13,E18,1,< (Precedes),False,The officer who took his statement said they would begin investigating within two days.,The bank promised to reverse all charges within ten business days.
+E13,E19,1,< (Precedes),False,The officer who took his statement said they would begin investigating within two days.,anvir spent the next week securing every aspect of his financial life.
+E13,E20,1,< (Precedes),False,The officer who took his statement said they would begin investigating within two days.,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E13,E21,1,< (Precedes),False,The officer who took his statement said they would begin investigating within two days.,"By the end of that week, he felt a cautious sense of control returning"
+E13,E22,1,< (Precedes),False,The officer who took his statement said they would begin investigating within two days.,The reimbursement arrived nine business days after the bank's promise.
+E13,E23,1,< (Precedes),False,The officer who took his statement said they would begin investigating within two days.,The police arrested the fraudster two weeks later
+E13,E24,1,< (Precedes),False,The officer who took his statement said they would begin investigating within two days.,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E14,E1,-1,> (Preceded By),False,"hree days later, he received another call from the ban",Tanvir discovered
+E14,E2,-1,> (Preceded By),False,"hree days later, he received another call from the ban",his identity had been stolen
+E14,E3,-1,> (Preceded By),False,"hree days later, he received another call from the ban",he had applied for a new credit card.
+E14,E4,-1,> (Preceded By),False,"hree days later, he received another call from the ban",The bank called to verify a transaction he had never made
+E14,E5,-1,> (Preceded By),False,"hree days later, he received another call from the ban",a large purchase at an electronics store that had occurred two days earlier
+E14,E6,-1,> (Preceded By),False,"hree days later, he received another call from the ban",Tanvir immediately checked his bank statements and found
+E14,E7,-1,> (Preceded By),False,"hree days later, he received another call from the ban",three unauthorized transactions spanning the previous four days
+E14,E8,-1,> (Preceded By),False,"hree days later, he received another call from the ban",He called the bank's fraud department within the hour
+E14,E9,-1,> (Preceded By),False,"hree days later, he received another call from the ban","They froze his accounts and promised to investigate, b"
+E14,E10,-1,> (Preceded By),False,"hree days later, he received another call from the ban",they warned him that resolving such cases typically took three to four weeks
+E14,E11,-1,> (Preceded By),False,"hree days later, he received another call from the ban",anvir felt his stomach drop
+E14,E12,-1,> (Preceded By),False,"hree days later, he received another call from the ban","The next morning, he filed a police report"
+E14,E13,-1,> (Preceded By),False,"hree days later, he received another call from the ban",The officer who took his statement said they would begin investigating within two days.
+E14,E15,1,< (Precedes),False,"hree days later, he received another call from the ban",They had traced the transactions
+E14,E16,-1,> (Preceded By),False,"hree days later, he received another call from the ban",ho had been using Tanvir's information for the previous two week
+E14,E17,-1,> (Preceded By),False,"hree days later, he received another call from the ban",The fraudster had opened two additional accounts in Tanvir's name during that period
+E14,E18,1,< (Precedes),False,"hree days later, he received another call from the ban",The bank promised to reverse all charges within ten business days.
+E14,E19,1,< (Precedes),False,"hree days later, he received another call from the ban",anvir spent the next week securing every aspect of his financial life.
+E14,E20,1,< (Precedes),False,"hree days later, he received another call from the ban","He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E14,E21,1,< (Precedes),False,"hree days later, he received another call from the ban","By the end of that week, he felt a cautious sense of control returning"
+E14,E22,1,< (Precedes),False,"hree days later, he received another call from the ban",The reimbursement arrived nine business days after the bank's promise.
+E14,E23,1,< (Precedes),False,"hree days later, he received another call from the ban",The police arrested the fraudster two weeks later
+E14,E24,1,< (Precedes),False,"hree days later, he received another call from the ban",It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E15,E1,-1,> (Preceded By),False,They had traced the transactions,Tanvir discovered
+E15,E2,-1,> (Preceded By),False,They had traced the transactions,his identity had been stolen
+E15,E3,-1,> (Preceded By),False,They had traced the transactions,he had applied for a new credit card.
+E15,E4,-1,> (Preceded By),False,They had traced the transactions,The bank called to verify a transaction he had never made
+E15,E5,-1,> (Preceded By),False,They had traced the transactions,a large purchase at an electronics store that had occurred two days earlier
+E15,E6,-1,> (Preceded By),False,They had traced the transactions,Tanvir immediately checked his bank statements and found
+E15,E7,-1,> (Preceded By),False,They had traced the transactions,three unauthorized transactions spanning the previous four days
+E15,E8,-1,> (Preceded By),False,They had traced the transactions,He called the bank's fraud department within the hour
+E15,E9,-1,> (Preceded By),False,They had traced the transactions,"They froze his accounts and promised to investigate, b"
+E15,E10,-1,> (Preceded By),False,They had traced the transactions,they warned him that resolving such cases typically took three to four weeks
+E15,E11,-1,> (Preceded By),False,They had traced the transactions,anvir felt his stomach drop
+E15,E12,-1,> (Preceded By),False,They had traced the transactions,"The next morning, he filed a police report"
+E15,E13,-1,> (Preceded By),False,They had traced the transactions,The officer who took his statement said they would begin investigating within two days.
+E15,E14,-1,> (Preceded By),False,They had traced the transactions,"hree days later, he received another call from the ban"
+E15,E16,-1,> (Preceded By),False,They had traced the transactions,ho had been using Tanvir's information for the previous two week
+E15,E17,-1,> (Preceded By),False,They had traced the transactions,The fraudster had opened two additional accounts in Tanvir's name during that period
+E15,E18,1,< (Precedes),False,They had traced the transactions,The bank promised to reverse all charges within ten business days.
+E15,E19,1,< (Precedes),False,They had traced the transactions,anvir spent the next week securing every aspect of his financial life.
+E15,E20,1,< (Precedes),False,They had traced the transactions,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E15,E21,1,< (Precedes),False,They had traced the transactions,"By the end of that week, he felt a cautious sense of control returning"
+E15,E22,1,< (Precedes),False,They had traced the transactions,The reimbursement arrived nine business days after the bank's promise.
+E15,E23,1,< (Precedes),False,They had traced the transactions,The police arrested the fraudster two weeks later
+E15,E24,1,< (Precedes),False,They had traced the transactions,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E16,E1,-5,di (Contains),False,ho had been using Tanvir's information for the previous two week,Tanvir discovered
+E16,E2,-4,si (Started By),False,ho had been using Tanvir's information for the previous two week,his identity had been stolen
+E16,E3,-5,di (Contains),False,ho had been using Tanvir's information for the previous two week,he had applied for a new credit card.
+E16,E4,-5,di (Contains),False,ho had been using Tanvir's information for the previous two week,The bank called to verify a transaction he had never made
+E16,E5,-5,di (Contains),False,ho had been using Tanvir's information for the previous two week,a large purchase at an electronics store that had occurred two days earlier
+E16,E6,-5,di (Contains),False,ho had been using Tanvir's information for the previous two week,Tanvir immediately checked his bank statements and found
+E16,E7,-5,di (Contains),False,ho had been using Tanvir's information for the previous two week,three unauthorized transactions spanning the previous four days
+E16,E8,-5,di (Contains),False,ho had been using Tanvir's information for the previous two week,He called the bank's fraud department within the hour
+E16,E9,-6,fi (Finished By),False,ho had been using Tanvir's information for the previous two week,"They froze his accounts and promised to investigate, b"
+E16,E10,2,m (Meets),False,ho had been using Tanvir's information for the previous two week,they warned him that resolving such cases typically took three to four weeks
+E16,E11,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,anvir felt his stomach drop
+E16,E12,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,"The next morning, he filed a police report"
+E16,E13,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,The officer who took his statement said they would begin investigating within two days.
+E16,E14,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,"hree days later, he received another call from the ban"
+E16,E15,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,They had traced the transactions
+E16,E17,0,= (Equal),False,ho had been using Tanvir's information for the previous two week,The fraudster had opened two additional accounts in Tanvir's name during that period
+E16,E18,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,The bank promised to reverse all charges within ten business days.
+E16,E19,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,anvir spent the next week securing every aspect of his financial life.
+E16,E20,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E16,E21,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,"By the end of that week, he felt a cautious sense of control returning"
+E16,E22,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,The reimbursement arrived nine business days after the bank's promise.
+E16,E23,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,The police arrested the fraudster two weeks later
+E16,E24,1,< (Precedes),False,ho had been using Tanvir's information for the previous two week,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E17,E1,-5,di (Contains),False,The fraudster had opened two additional accounts in Tanvir's name during that period,Tanvir discovered
+E17,E2,-4,si (Started By),False,The fraudster had opened two additional accounts in Tanvir's name during that period,his identity had been stolen
+E17,E3,-5,di (Contains),False,The fraudster had opened two additional accounts in Tanvir's name during that period,he had applied for a new credit card.
+E17,E4,-5,di (Contains),False,The fraudster had opened two additional accounts in Tanvir's name during that period,The bank called to verify a transaction he had never made
+E17,E5,-5,di (Contains),False,The fraudster had opened two additional accounts in Tanvir's name during that period,a large purchase at an electronics store that had occurred two days earlier
+E17,E6,-5,di (Contains),False,The fraudster had opened two additional accounts in Tanvir's name during that period,Tanvir immediately checked his bank statements and found
+E17,E7,-5,di (Contains),False,The fraudster had opened two additional accounts in Tanvir's name during that period,three unauthorized transactions spanning the previous four days
+E17,E8,-5,di (Contains),False,The fraudster had opened two additional accounts in Tanvir's name during that period,He called the bank's fraud department within the hour
+E17,E9,-6,fi (Finished By),False,The fraudster had opened two additional accounts in Tanvir's name during that period,"They froze his accounts and promised to investigate, b"
+E17,E10,2,m (Meets),False,The fraudster had opened two additional accounts in Tanvir's name during that period,they warned him that resolving such cases typically took three to four weeks
+E17,E11,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,anvir felt his stomach drop
+E17,E12,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,"The next morning, he filed a police report"
+E17,E13,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,The officer who took his statement said they would begin investigating within two days.
+E17,E14,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,"hree days later, he received another call from the ban"
+E17,E15,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,They had traced the transactions
+E17,E16,0,= (Equal),False,The fraudster had opened two additional accounts in Tanvir's name during that period,ho had been using Tanvir's information for the previous two week
+E17,E18,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,The bank promised to reverse all charges within ten business days.
+E17,E19,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,anvir spent the next week securing every aspect of his financial life.
+E17,E20,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E17,E21,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,"By the end of that week, he felt a cautious sense of control returning"
+E17,E22,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,The reimbursement arrived nine business days after the bank's promise.
+E17,E23,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,The police arrested the fraudster two weeks later
+E17,E24,1,< (Precedes),False,The fraudster had opened two additional accounts in Tanvir's name during that period,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E18,E1,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,Tanvir discovered
+E18,E2,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,his identity had been stolen
+E18,E3,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,he had applied for a new credit card.
+E18,E4,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,The bank called to verify a transaction he had never made
+E18,E5,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,a large purchase at an electronics store that had occurred two days earlier
+E18,E6,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,Tanvir immediately checked his bank statements and found
+E18,E7,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,three unauthorized transactions spanning the previous four days
+E18,E8,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,He called the bank's fraud department within the hour
+E18,E9,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,"They froze his accounts and promised to investigate, b"
+E18,E10,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,they warned him that resolving such cases typically took three to four weeks
+E18,E11,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,anvir felt his stomach drop
+E18,E12,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,"The next morning, he filed a police report"
+E18,E13,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,The officer who took his statement said they would begin investigating within two days.
+E18,E14,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,"hree days later, he received another call from the ban"
+E18,E15,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,They had traced the transactions
+E18,E16,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,ho had been using Tanvir's information for the previous two week
+E18,E17,-1,> (Preceded By),False,The bank promised to reverse all charges within ten business days.,The fraudster had opened two additional accounts in Tanvir's name during that period
+E18,E19,1,< (Precedes),False,The bank promised to reverse all charges within ten business days.,anvir spent the next week securing every aspect of his financial life.
+E18,E20,1,< (Precedes),False,The bank promised to reverse all charges within ten business days.,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E18,E21,1,< (Precedes),False,The bank promised to reverse all charges within ten business days.,"By the end of that week, he felt a cautious sense of control returning"
+E18,E22,1,< (Precedes),False,The bank promised to reverse all charges within ten business days.,The reimbursement arrived nine business days after the bank's promise.
+E18,E23,1,< (Precedes),False,The bank promised to reverse all charges within ten business days.,The police arrested the fraudster two weeks later
+E18,E24,1,< (Precedes),False,The bank promised to reverse all charges within ten business days.,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E19,E1,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,Tanvir discovered
+E19,E2,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,his identity had been stolen
+E19,E3,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,he had applied for a new credit card.
+E19,E4,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,The bank called to verify a transaction he had never made
+E19,E5,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,a large purchase at an electronics store that had occurred two days earlier
+E19,E6,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,Tanvir immediately checked his bank statements and found
+E19,E7,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,three unauthorized transactions spanning the previous four days
+E19,E8,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,He called the bank's fraud department within the hour
+E19,E9,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,"They froze his accounts and promised to investigate, b"
+E19,E10,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,they warned him that resolving such cases typically took three to four weeks
+E19,E11,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,anvir felt his stomach drop
+E19,E12,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,"The next morning, he filed a police report"
+E19,E13,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,The officer who took his statement said they would begin investigating within two days.
+E19,E14,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,"hree days later, he received another call from the ban"
+E19,E15,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,They had traced the transactions
+E19,E16,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,ho had been using Tanvir's information for the previous two week
+E19,E17,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,The fraudster had opened two additional accounts in Tanvir's name during that period
+E19,E18,-1,> (Preceded By),False,anvir spent the next week securing every aspect of his financial life.,The bank promised to reverse all charges within ten business days.
+E19,E20,0,= (Equal),False,anvir spent the next week securing every aspect of his financial life.,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E19,E21,2,m (Meets),False,anvir spent the next week securing every aspect of his financial life.,"By the end of that week, he felt a cautious sense of control returning"
+E19,E22,1,< (Precedes),False,anvir spent the next week securing every aspect of his financial life.,The reimbursement arrived nine business days after the bank's promise.
+E19,E23,1,< (Precedes),False,anvir spent the next week securing every aspect of his financial life.,The police arrested the fraudster two weeks later
+E19,E24,1,< (Precedes),False,anvir spent the next week securing every aspect of his financial life.,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E20,E1,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",Tanvir discovered
+E20,E2,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",his identity had been stolen
+E20,E3,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",he had applied for a new credit card.
+E20,E4,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",The bank called to verify a transaction he had never made
+E20,E5,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",a large purchase at an electronics store that had occurred two days earlier
+E20,E6,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",Tanvir immediately checked his bank statements and found
+E20,E7,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",three unauthorized transactions spanning the previous four days
+E20,E8,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",He called the bank's fraud department within the hour
+E20,E9,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts","They froze his accounts and promised to investigate, b"
+E20,E10,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",they warned him that resolving such cases typically took three to four weeks
+E20,E11,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",anvir felt his stomach drop
+E20,E12,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts","The next morning, he filed a police report"
+E20,E13,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",The officer who took his statement said they would begin investigating within two days.
+E20,E14,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts","hree days later, he received another call from the ban"
+E20,E15,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",They had traced the transactions
+E20,E16,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",ho had been using Tanvir's information for the previous two week
+E20,E17,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",The fraudster had opened two additional accounts in Tanvir's name during that period
+E20,E18,-1,> (Preceded By),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",The bank promised to reverse all charges within ten business days.
+E20,E19,0,= (Equal),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",anvir spent the next week securing every aspect of his financial life.
+E20,E21,2,m (Meets),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts","By the end of that week, he felt a cautious sense of control returning"
+E20,E22,1,< (Precedes),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",The reimbursement arrived nine business days after the bank's promise.
+E20,E23,1,< (Precedes),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",The police arrested the fraudster two weeks later
+E20,E24,1,< (Precedes),False,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts",It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E21,E1,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",Tanvir discovered
+E21,E2,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",his identity had been stolen
+E21,E3,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",he had applied for a new credit card.
+E21,E4,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",The bank called to verify a transaction he had never made
+E21,E5,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",a large purchase at an electronics store that had occurred two days earlier
+E21,E6,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",Tanvir immediately checked his bank statements and found
+E21,E7,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",three unauthorized transactions spanning the previous four days
+E21,E8,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",He called the bank's fraud department within the hour
+E21,E9,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning","They froze his accounts and promised to investigate, b"
+E21,E10,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",they warned him that resolving such cases typically took three to four weeks
+E21,E11,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",anvir felt his stomach drop
+E21,E12,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning","The next morning, he filed a police report"
+E21,E13,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",The officer who took his statement said they would begin investigating within two days.
+E21,E14,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning","hree days later, he received another call from the ban"
+E21,E15,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",They had traced the transactions
+E21,E16,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",ho had been using Tanvir's information for the previous two week
+E21,E17,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",The fraudster had opened two additional accounts in Tanvir's name during that period
+E21,E18,-1,> (Preceded By),False,"By the end of that week, he felt a cautious sense of control returning",The bank promised to reverse all charges within ten business days.
+E21,E19,-2,mi (Met By),False,"By the end of that week, he felt a cautious sense of control returning",anvir spent the next week securing every aspect of his financial life.
+E21,E20,-2,mi (Met By),False,"By the end of that week, he felt a cautious sense of control returning","He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E21,E22,1,< (Precedes),False,"By the end of that week, he felt a cautious sense of control returning",The reimbursement arrived nine business days after the bank's promise.
+E21,E23,1,< (Precedes),False,"By the end of that week, he felt a cautious sense of control returning",The police arrested the fraudster two weeks later
+E21,E24,1,< (Precedes),False,"By the end of that week, he felt a cautious sense of control returning",It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E22,E1,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,Tanvir discovered
+E22,E2,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,his identity had been stolen
+E22,E3,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,he had applied for a new credit card.
+E22,E4,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,The bank called to verify a transaction he had never made
+E22,E5,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,a large purchase at an electronics store that had occurred two days earlier
+E22,E6,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,Tanvir immediately checked his bank statements and found
+E22,E7,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,three unauthorized transactions spanning the previous four days
+E22,E8,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,He called the bank's fraud department within the hour
+E22,E9,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,"They froze his accounts and promised to investigate, b"
+E22,E10,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,they warned him that resolving such cases typically took three to four weeks
+E22,E11,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,anvir felt his stomach drop
+E22,E12,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,"The next morning, he filed a police report"
+E22,E13,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,The officer who took his statement said they would begin investigating within two days.
+E22,E14,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,"hree days later, he received another call from the ban"
+E22,E15,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,They had traced the transactions
+E22,E16,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,ho had been using Tanvir's information for the previous two week
+E22,E17,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,The fraudster had opened two additional accounts in Tanvir's name during that period
+E22,E18,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,The bank promised to reverse all charges within ten business days.
+E22,E19,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,anvir spent the next week securing every aspect of his financial life.
+E22,E20,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E22,E21,-1,> (Preceded By),False,The reimbursement arrived nine business days after the bank's promise.,"By the end of that week, he felt a cautious sense of control returning"
+E22,E23,1,< (Precedes),False,The reimbursement arrived nine business days after the bank's promise.,The police arrested the fraudster two weeks later
+E22,E24,1,< (Precedes),False,The reimbursement arrived nine business days after the bank's promise.,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E23,E1,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,Tanvir discovered
+E23,E2,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,his identity had been stolen
+E23,E3,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,he had applied for a new credit card.
+E23,E4,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,The bank called to verify a transaction he had never made
+E23,E5,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,a large purchase at an electronics store that had occurred two days earlier
+E23,E6,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,Tanvir immediately checked his bank statements and found
+E23,E7,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,three unauthorized transactions spanning the previous four days
+E23,E8,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,He called the bank's fraud department within the hour
+E23,E9,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,"They froze his accounts and promised to investigate, b"
+E23,E10,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,they warned him that resolving such cases typically took three to four weeks
+E23,E11,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,anvir felt his stomach drop
+E23,E12,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,"The next morning, he filed a police report"
+E23,E13,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,The officer who took his statement said they would begin investigating within two days.
+E23,E14,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,"hree days later, he received another call from the ban"
+E23,E15,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,They had traced the transactions
+E23,E16,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,ho had been using Tanvir's information for the previous two week
+E23,E17,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,The fraudster had opened two additional accounts in Tanvir's name during that period
+E23,E18,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,The bank promised to reverse all charges within ten business days.
+E23,E19,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,anvir spent the next week securing every aspect of his financial life.
+E23,E20,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E23,E21,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,"By the end of that week, he felt a cautious sense of control returning"
+E23,E22,-1,> (Preceded By),False,The police arrested the fraudster two weeks later,The reimbursement arrived nine business days after the bank's promise.
+E23,E24,4,s (Starts),False,The police arrested the fraudster two weeks later,It took Tanvir another month before he stopped checking his accounts multiple times each day.
+E24,E1,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,Tanvir discovered
+E24,E2,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,his identity had been stolen
+E24,E3,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,he had applied for a new credit card.
+E24,E4,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,The bank called to verify a transaction he had never made
+E24,E5,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,a large purchase at an electronics store that had occurred two days earlier
+E24,E6,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,Tanvir immediately checked his bank statements and found
+E24,E7,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,three unauthorized transactions spanning the previous four days
+E24,E8,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,He called the bank's fraud department within the hour
+E24,E9,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,"They froze his accounts and promised to investigate, b"
+E24,E10,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,they warned him that resolving such cases typically took three to four weeks
+E24,E11,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,anvir felt his stomach drop
+E24,E12,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,"The next morning, he filed a police report"
+E24,E13,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,The officer who took his statement said they would begin investigating within two days.
+E24,E14,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,"hree days later, he received another call from the ban"
+E24,E15,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,They had traced the transactions
+E24,E16,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,ho had been using Tanvir's information for the previous two week
+E24,E17,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,The fraudster had opened two additional accounts in Tanvir's name during that period
+E24,E18,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,The bank promised to reverse all charges within ten business days.
+E24,E19,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,anvir spent the next week securing every aspect of his financial life.
+E24,E20,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,"He changed all his passwords, placed fraud alerts on his credit reports, and visited every bank where he held accounts"
+E24,E21,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,"By the end of that week, he felt a cautious sense of control returning"
+E24,E22,-1,> (Preceded By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,The reimbursement arrived nine business days after the bank's promise.
+E24,E23,-4,si (Started By),False,It took Tanvir another month before he stopped checking his accounts multiple times each day.,The police arrested the fraudster two weeks later

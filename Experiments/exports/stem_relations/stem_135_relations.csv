@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,Femi grips the guardrail,the drilling platform lists
+E1,E3,-1,> (Preceded By),False,Femi grips the guardrail,was cancelled the week before
+E1,E4,-1,> (Preceded By),False,Femi grips the guardrail,arrived three days after
+E1,E5,1,< (Precedes),False,Femi grips the guardrail,He remembers
+E1,E6,1,< (Precedes),False,Femi grips the guardrail,the safety officer's warning
+E1,E7,-1,> (Preceded By),False,Femi grips the guardrail,a sensor fault reported
+E1,E8,-1,> (Preceded By),False,Femi grips the guardrail,transferred off the platform the previous month
+E1,E9,1,< (Precedes),False,Femi grips the guardrail,Femi recalls
+E1,E10,-1,> (Preceded By),False,Femi grips the guardrail,the emergency call from the support vessel
+E1,E11,-1,> (Preceded By),False,Femi grips the guardrail,they'd begun evacuation procedures
+E1,E12,-1,> (Preceded By),False,Femi grips the guardrail,the platform's own alarm sounded
+E1,E13,-1,> (Preceded By),False,Femi grips the guardrail,triggered by a distress signal
+E1,E14,0,= (Equal),False,Femi grips the guardrail,a light blinks on
+E1,E15,1,< (Precedes),False,Femi grips the guardrail,any circuit installed
+E1,E16,1,< (Precedes),False,Femi grips the guardrail,tonight's incident is resolved
+E2,E1,0,= (Equal),False,the drilling platform lists,Femi grips the guardrail
+E2,E3,-1,> (Preceded By),False,the drilling platform lists,was cancelled the week before
+E2,E4,-1,> (Preceded By),False,the drilling platform lists,arrived three days after
+E2,E5,1,< (Precedes),False,the drilling platform lists,He remembers
+E2,E6,1,< (Precedes),False,the drilling platform lists,the safety officer's warning
+E2,E7,-1,> (Preceded By),False,the drilling platform lists,a sensor fault reported
+E2,E8,-1,> (Preceded By),False,the drilling platform lists,transferred off the platform the previous month
+E2,E9,1,< (Precedes),False,the drilling platform lists,Femi recalls
+E2,E10,-1,> (Preceded By),False,the drilling platform lists,the emergency call from the support vessel
+E2,E11,-1,> (Preceded By),False,the drilling platform lists,they'd begun evacuation procedures
+E2,E12,-1,> (Preceded By),False,the drilling platform lists,the platform's own alarm sounded
+E2,E13,-1,> (Preceded By),False,the drilling platform lists,triggered by a distress signal
+E2,E14,0,= (Equal),False,the drilling platform lists,a light blinks on
+E2,E15,1,< (Precedes),False,the drilling platform lists,any circuit installed
+E2,E16,1,< (Precedes),False,the drilling platform lists,tonight's incident is resolved
+E3,E1,1,< (Precedes),False,was cancelled the week before,Femi grips the guardrail
+E3,E2,1,< (Precedes),False,was cancelled the week before,the drilling platform lists
+E3,E4,1,< (Precedes),False,was cancelled the week before,arrived three days after
+E3,E5,1,< (Precedes),False,was cancelled the week before,He remembers
+E3,E6,1,< (Precedes),False,was cancelled the week before,the safety officer's warning
+E3,E7,1,< (Precedes),False,was cancelled the week before,a sensor fault reported
+E3,E8,-1,> (Preceded By),False,was cancelled the week before,transferred off the platform the previous month
+E3,E9,1,< (Precedes),False,was cancelled the week before,Femi recalls
+E3,E10,1,< (Precedes),False,was cancelled the week before,the emergency call from the support vessel
+E3,E11,1,< (Precedes),False,was cancelled the week before,they'd begun evacuation procedures
+E3,E12,1,< (Precedes),False,was cancelled the week before,the platform's own alarm sounded
+E3,E13,1,< (Precedes),False,was cancelled the week before,triggered by a distress signal
+E3,E14,1,< (Precedes),False,was cancelled the week before,a light blinks on
+E3,E15,1,< (Precedes),False,was cancelled the week before,any circuit installed
+E3,E16,1,< (Precedes),False,was cancelled the week before,tonight's incident is resolved
+E4,E1,1,< (Precedes),False,arrived three days after,Femi grips the guardrail
+E4,E2,1,< (Precedes),False,arrived three days after,the drilling platform lists
+E4,E3,-1,> (Preceded By),False,arrived three days after,was cancelled the week before
+E4,E5,1,< (Precedes),False,arrived three days after,He remembers
+E4,E6,1,< (Precedes),False,arrived three days after,the safety officer's warning
+E4,E7,1,< (Precedes),False,arrived three days after,a sensor fault reported
+E4,E8,-1,> (Preceded By),False,arrived three days after,transferred off the platform the previous month
+E4,E9,1,< (Precedes),False,arrived three days after,Femi recalls
+E4,E10,1,< (Precedes),False,arrived three days after,the emergency call from the support vessel
+E4,E11,1,< (Precedes),False,arrived three days after,they'd begun evacuation procedures
+E4,E12,1,< (Precedes),False,arrived three days after,the platform's own alarm sounded
+E4,E13,1,< (Precedes),False,arrived three days after,triggered by a distress signal
+E4,E14,1,< (Precedes),False,arrived three days after,a light blinks on
+E4,E15,1,< (Precedes),False,arrived three days after,any circuit installed
+E4,E16,1,< (Precedes),False,arrived three days after,tonight's incident is resolved
+E5,E1,-1,> (Preceded By),False,He remembers,Femi grips the guardrail
+E5,E2,-1,> (Preceded By),False,He remembers,the drilling platform lists
+E5,E3,-1,> (Preceded By),False,He remembers,was cancelled the week before
+E5,E4,-1,> (Preceded By),False,He remembers,arrived three days after
+E5,E6,1,< (Precedes),False,He remembers,the safety officer's warning
+E5,E7,-1,> (Preceded By),False,He remembers,a sensor fault reported
+E5,E8,-1,> (Preceded By),False,He remembers,transferred off the platform the previous month
+E5,E9,0,= (Equal),False,He remembers,Femi recalls
+E5,E10,-1,> (Preceded By),False,He remembers,the emergency call from the support vessel
+E5,E11,-1,> (Preceded By),False,He remembers,they'd begun evacuation procedures
+E5,E12,-1,> (Preceded By),False,He remembers,the platform's own alarm sounded
+E5,E13,-1,> (Preceded By),False,He remembers,triggered by a distress signal
+E5,E14,-1,> (Preceded By),False,He remembers,a light blinks on
+E5,E15,1,< (Precedes),False,He remembers,any circuit installed
+E5,E16,1,< (Precedes),False,He remembers,tonight's incident is resolved
+E6,E1,-1,> (Preceded By),False,the safety officer's warning,Femi grips the guardrail
+E6,E2,-1,> (Preceded By),False,the safety officer's warning,the drilling platform lists
+E6,E3,-1,> (Preceded By),False,the safety officer's warning,was cancelled the week before
+E6,E4,-1,> (Preceded By),False,the safety officer's warning,arrived three days after
+E6,E5,-1,> (Preceded By),False,the safety officer's warning,He remembers
+E6,E7,-1,> (Preceded By),False,the safety officer's warning,a sensor fault reported
+E6,E8,-1,> (Preceded By),False,the safety officer's warning,transferred off the platform the previous month
+E6,E9,-1,> (Preceded By),False,the safety officer's warning,Femi recalls
+E6,E10,-1,> (Preceded By),False,the safety officer's warning,the emergency call from the support vessel
+E6,E11,-1,> (Preceded By),False,the safety officer's warning,they'd begun evacuation procedures
+E6,E12,-1,> (Preceded By),False,the safety officer's warning,the platform's own alarm sounded
+E6,E13,-1,> (Preceded By),False,the safety officer's warning,triggered by a distress signal
+E6,E14,-1,> (Preceded By),False,the safety officer's warning,a light blinks on
+E6,E15,1,< (Precedes),False,the safety officer's warning,any circuit installed
+E6,E16,1,< (Precedes),False,the safety officer's warning,tonight's incident is resolved
+E7,E1,1,< (Precedes),False,a sensor fault reported,Femi grips the guardrail
+E7,E2,1,< (Precedes),False,a sensor fault reported,the drilling platform lists
+E7,E3,-1,> (Preceded By),False,a sensor fault reported,was cancelled the week before
+E7,E4,-1,> (Preceded By),False,a sensor fault reported,arrived three days after
+E7,E5,1,< (Precedes),False,a sensor fault reported,He remembers
+E7,E6,1,< (Precedes),False,a sensor fault reported,the safety officer's warning
+E7,E8,-1,> (Preceded By),False,a sensor fault reported,transferred off the platform the previous month
+E7,E9,1,< (Precedes),False,a sensor fault reported,Femi recalls
+E7,E10,1,< (Precedes),False,a sensor fault reported,the emergency call from the support vessel
+E7,E11,-1,> (Preceded By),False,a sensor fault reported,they'd begun evacuation procedures
+E7,E12,1,< (Precedes),False,a sensor fault reported,the platform's own alarm sounded
+E7,E13,-1,> (Preceded By),False,a sensor fault reported,triggered by a distress signal
+E7,E14,1,< (Precedes),False,a sensor fault reported,a light blinks on
+E7,E15,1,< (Precedes),False,a sensor fault reported,any circuit installed
+E7,E16,1,< (Precedes),False,a sensor fault reported,tonight's incident is resolved
+E8,E1,1,< (Precedes),False,transferred off the platform the previous month,Femi grips the guardrail
+E8,E2,1,< (Precedes),False,transferred off the platform the previous month,the drilling platform lists
+E8,E3,1,< (Precedes),False,transferred off the platform the previous month,was cancelled the week before
+E8,E4,1,< (Precedes),False,transferred off the platform the previous month,arrived three days after
+E8,E5,1,< (Precedes),False,transferred off the platform the previous month,He remembers
+E8,E6,1,< (Precedes),False,transferred off the platform the previous month,the safety officer's warning
+E8,E7,1,< (Precedes),False,transferred off the platform the previous month,a sensor fault reported
+E8,E9,1,< (Precedes),False,transferred off the platform the previous month,Femi recalls
+E8,E10,1,< (Precedes),False,transferred off the platform the previous month,the emergency call from the support vessel
+E8,E11,1,< (Precedes),False,transferred off the platform the previous month,they'd begun evacuation procedures
+E8,E12,1,< (Precedes),False,transferred off the platform the previous month,the platform's own alarm sounded
+E8,E13,1,< (Precedes),False,transferred off the platform the previous month,triggered by a distress signal
+E8,E14,1,< (Precedes),False,transferred off the platform the previous month,a light blinks on
+E8,E15,1,< (Precedes),False,transferred off the platform the previous month,any circuit installed
+E8,E16,1,< (Precedes),False,transferred off the platform the previous month,tonight's incident is resolved
+E9,E1,-1,> (Preceded By),False,Femi recalls,Femi grips the guardrail
+E9,E2,-1,> (Preceded By),False,Femi recalls,the drilling platform lists
+E9,E3,-1,> (Preceded By),False,Femi recalls,was cancelled the week before
+E9,E4,-1,> (Preceded By),False,Femi recalls,arrived three days after
+E9,E5,0,= (Equal),False,Femi recalls,He remembers
+E9,E6,1,< (Precedes),False,Femi recalls,the safety officer's warning
+E9,E7,-1,> (Preceded By),False,Femi recalls,a sensor fault reported
+E9,E8,-1,> (Preceded By),False,Femi recalls,transferred off the platform the previous month
+E9,E10,-1,> (Preceded By),False,Femi recalls,the emergency call from the support vessel
+E9,E11,-1,> (Preceded By),False,Femi recalls,they'd begun evacuation procedures
+E9,E12,-1,> (Preceded By),False,Femi recalls,the platform's own alarm sounded
+E9,E13,-1,> (Preceded By),False,Femi recalls,triggered by a distress signal
+E9,E14,-1,> (Preceded By),False,Femi recalls,a light blinks on
+E9,E15,1,< (Precedes),False,Femi recalls,any circuit installed
+E9,E16,1,< (Precedes),False,Femi recalls,tonight's incident is resolved
+E10,E1,1,< (Precedes),False,the emergency call from the support vessel,Femi grips the guardrail
+E10,E2,1,< (Precedes),False,the emergency call from the support vessel,the drilling platform lists
+E10,E3,-1,> (Preceded By),False,the emergency call from the support vessel,was cancelled the week before
+E10,E4,-1,> (Preceded By),False,the emergency call from the support vessel,arrived three days after
+E10,E5,1,< (Precedes),False,the emergency call from the support vessel,He remembers
+E10,E6,1,< (Precedes),False,the emergency call from the support vessel,the safety officer's warning
+E10,E7,-1,> (Preceded By),False,the emergency call from the support vessel,a sensor fault reported
+E10,E8,-1,> (Preceded By),False,the emergency call from the support vessel,transferred off the platform the previous month
+E10,E9,1,< (Precedes),False,the emergency call from the support vessel,Femi recalls
+E10,E11,-1,> (Preceded By),False,the emergency call from the support vessel,they'd begun evacuation procedures
+E10,E12,-1,> (Preceded By),False,the emergency call from the support vessel,the platform's own alarm sounded
+E10,E13,-1,> (Preceded By),False,the emergency call from the support vessel,triggered by a distress signal
+E10,E14,1,< (Precedes),False,the emergency call from the support vessel,a light blinks on
+E10,E15,1,< (Precedes),False,the emergency call from the support vessel,any circuit installed
+E10,E16,1,< (Precedes),False,the emergency call from the support vessel,tonight's incident is resolved
+E11,E1,1,< (Precedes),False,they'd begun evacuation procedures,Femi grips the guardrail
+E11,E2,1,< (Precedes),False,they'd begun evacuation procedures,the drilling platform lists
+E11,E3,-1,> (Preceded By),False,they'd begun evacuation procedures,was cancelled the week before
+E11,E4,-1,> (Preceded By),False,they'd begun evacuation procedures,arrived three days after
+E11,E5,1,< (Precedes),False,they'd begun evacuation procedures,He remembers
+E11,E6,1,< (Precedes),False,they'd begun evacuation procedures,the safety officer's warning
+E11,E7,1,< (Precedes),False,they'd begun evacuation procedures,a sensor fault reported
+E11,E8,-1,> (Preceded By),False,they'd begun evacuation procedures,transferred off the platform the previous month
+E11,E9,1,< (Precedes),False,they'd begun evacuation procedures,Femi recalls
+E11,E10,1,< (Precedes),False,they'd begun evacuation procedures,the emergency call from the support vessel
+E11,E12,1,< (Precedes),False,they'd begun evacuation procedures,the platform's own alarm sounded
+E11,E13,-1,> (Preceded By),False,they'd begun evacuation procedures,triggered by a distress signal
+E11,E14,1,< (Precedes),False,they'd begun evacuation procedures,a light blinks on
+E11,E15,1,< (Precedes),False,they'd begun evacuation procedures,any circuit installed
+E11,E16,1,< (Precedes),False,they'd begun evacuation procedures,tonight's incident is resolved
+E12,E1,1,< (Precedes),False,the platform's own alarm sounded,Femi grips the guardrail
+E12,E2,1,< (Precedes),False,the platform's own alarm sounded,the drilling platform lists
+E12,E3,-1,> (Preceded By),False,the platform's own alarm sounded,was cancelled the week before
+E12,E4,-1,> (Preceded By),False,the platform's own alarm sounded,arrived three days after
+E12,E5,1,< (Precedes),False,the platform's own alarm sounded,He remembers
+E12,E6,1,< (Precedes),False,the platform's own alarm sounded,the safety officer's warning
+E12,E7,-1,> (Preceded By),False,the platform's own alarm sounded,a sensor fault reported
+E12,E8,-1,> (Preceded By),False,the platform's own alarm sounded,transferred off the platform the previous month
+E12,E9,1,< (Precedes),False,the platform's own alarm sounded,Femi recalls
+E12,E10,1,< (Precedes),False,the platform's own alarm sounded,the emergency call from the support vessel
+E12,E11,-1,> (Preceded By),False,the platform's own alarm sounded,they'd begun evacuation procedures
+E12,E13,-1,> (Preceded By),False,the platform's own alarm sounded,triggered by a distress signal
+E12,E14,1,< (Precedes),False,the platform's own alarm sounded,a light blinks on
+E12,E15,1,< (Precedes),False,the platform's own alarm sounded,any circuit installed
+E12,E16,1,< (Precedes),False,the platform's own alarm sounded,tonight's incident is resolved
+E13,E1,1,< (Precedes),False,triggered by a distress signal,Femi grips the guardrail
+E13,E2,1,< (Precedes),False,triggered by a distress signal,the drilling platform lists
+E13,E3,-1,> (Preceded By),False,triggered by a distress signal,was cancelled the week before
+E13,E4,-1,> (Preceded By),False,triggered by a distress signal,arrived three days after
+E13,E5,1,< (Precedes),False,triggered by a distress signal,He remembers
+E13,E6,1,< (Precedes),False,triggered by a distress signal,the safety officer's warning
+E13,E7,1,< (Precedes),False,triggered by a distress signal,a sensor fault reported
+E13,E8,-1,> (Preceded By),False,triggered by a distress signal,transferred off the platform the previous month
+E13,E9,1,< (Precedes),False,triggered by a distress signal,Femi recalls
+E13,E10,1,< (Precedes),False,triggered by a distress signal,the emergency call from the support vessel
+E13,E11,1,< (Precedes),False,triggered by a distress signal,they'd begun evacuation procedures
+E13,E12,1,< (Precedes),False,triggered by a distress signal,the platform's own alarm sounded
+E13,E14,1,< (Precedes),False,triggered by a distress signal,a light blinks on
+E13,E15,1,< (Precedes),False,triggered by a distress signal,any circuit installed
+E13,E16,1,< (Precedes),False,triggered by a distress signal,tonight's incident is resolved
+E14,E1,0,= (Equal),False,a light blinks on,Femi grips the guardrail
+E14,E2,0,= (Equal),False,a light blinks on,the drilling platform lists
+E14,E3,-1,> (Preceded By),False,a light blinks on,was cancelled the week before
+E14,E4,-1,> (Preceded By),False,a light blinks on,arrived three days after
+E14,E5,1,< (Precedes),False,a light blinks on,He remembers
+E14,E6,1,< (Precedes),False,a light blinks on,the safety officer's warning
+E14,E7,-1,> (Preceded By),False,a light blinks on,a sensor fault reported
+E14,E8,-1,> (Preceded By),False,a light blinks on,transferred off the platform the previous month
+E14,E9,1,< (Precedes),False,a light blinks on,Femi recalls
+E14,E10,-1,> (Preceded By),False,a light blinks on,the emergency call from the support vessel
+E14,E11,-1,> (Preceded By),False,a light blinks on,they'd begun evacuation procedures
+E14,E12,-1,> (Preceded By),False,a light blinks on,the platform's own alarm sounded
+E14,E13,-1,> (Preceded By),False,a light blinks on,triggered by a distress signal
+E14,E15,1,< (Precedes),False,a light blinks on,any circuit installed
+E14,E16,1,< (Precedes),False,a light blinks on,tonight's incident is resolved
+E15,E1,-1,> (Preceded By),False,any circuit installed,Femi grips the guardrail
+E15,E2,-1,> (Preceded By),False,any circuit installed,the drilling platform lists
+E15,E3,-1,> (Preceded By),False,any circuit installed,was cancelled the week before
+E15,E4,-1,> (Preceded By),False,any circuit installed,arrived three days after
+E15,E5,-1,> (Preceded By),False,any circuit installed,He remembers
+E15,E6,-1,> (Preceded By),False,any circuit installed,the safety officer's warning
+E15,E7,-1,> (Preceded By),False,any circuit installed,a sensor fault reported
+E15,E8,-1,> (Preceded By),False,any circuit installed,transferred off the platform the previous month
+E15,E9,-1,> (Preceded By),False,any circuit installed,Femi recalls
+E15,E10,-1,> (Preceded By),False,any circuit installed,the emergency call from the support vessel
+E15,E11,-1,> (Preceded By),False,any circuit installed,they'd begun evacuation procedures
+E15,E12,-1,> (Preceded By),False,any circuit installed,the platform's own alarm sounded
+E15,E13,-1,> (Preceded By),False,any circuit installed,triggered by a distress signal
+E15,E14,-1,> (Preceded By),False,any circuit installed,a light blinks on
+E15,E16,-1,> (Preceded By),False,any circuit installed,tonight's incident is resolved
+E16,E1,-1,> (Preceded By),False,tonight's incident is resolved,Femi grips the guardrail
+E16,E2,-1,> (Preceded By),False,tonight's incident is resolved,the drilling platform lists
+E16,E3,-1,> (Preceded By),False,tonight's incident is resolved,was cancelled the week before
+E16,E4,-1,> (Preceded By),False,tonight's incident is resolved,arrived three days after
+E16,E5,-1,> (Preceded By),False,tonight's incident is resolved,He remembers
+E16,E6,-1,> (Preceded By),False,tonight's incident is resolved,the safety officer's warning
+E16,E7,-1,> (Preceded By),False,tonight's incident is resolved,a sensor fault reported
+E16,E8,-1,> (Preceded By),False,tonight's incident is resolved,transferred off the platform the previous month
+E16,E9,-1,> (Preceded By),False,tonight's incident is resolved,Femi recalls
+E16,E10,-1,> (Preceded By),False,tonight's incident is resolved,the emergency call from the support vessel
+E16,E11,-1,> (Preceded By),False,tonight's incident is resolved,they'd begun evacuation procedures
+E16,E12,-1,> (Preceded By),False,tonight's incident is resolved,the platform's own alarm sounded
+E16,E13,-1,> (Preceded By),False,tonight's incident is resolved,triggered by a distress signal
+E16,E14,-1,> (Preceded By),False,tonight's incident is resolved,a light blinks on
+E16,E15,1,< (Precedes),False,tonight's incident is resolved,any circuit installed

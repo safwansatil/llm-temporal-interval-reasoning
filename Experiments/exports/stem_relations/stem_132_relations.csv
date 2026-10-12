@@ -1,0 +1,553 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,Aris kills the alarm,being told over the radio
+E1,E3,-1,> (Preceded By),False,Aris kills the alarm,broke out on Berth 12
+E1,E4,-1,> (Preceded By),False,Aris kills the alarm,this drill was scheduled to begin
+E1,E5,-1,> (Preceded By),False,Aris kills the alarm,a scheduling decision made the previous week
+E1,E6,-1,> (Preceded By),False,Aris kills the alarm,the customs inspection that was itself delayed
+E1,E7,-1,> (Preceded By),False,Aris kills the alarm,arrived from Piraeus
+E1,E8,-1,> (Preceded By),False,Aris kills the alarm,a load date
+E1,E9,-1,> (Preceded By),False,Aris kills the alarm,its own departure log
+E1,E10,0,= (Equal),False,Aris kills the alarm,He remembers
+E1,E11,-1,> (Preceded By),False,Aris kills the alarm,flagging that discrepancy in an email
+E1,E12,-1,> (Preceded By),False,Aris kills the alarm,the vessel docked
+E1,E13,-1,> (Preceded By),False,Aris kills the alarm,reached the harbor master
+E1,E14,-1,> (Preceded By),False,Aris kills the alarm,had already closed for the season
+E1,E15,-1,> (Preceded By),False,Aris kills the alarm,an IT migration completed
+E1,E16,-1,> (Preceded By),False,Aris kills the alarm,the previous port strike
+E1,E17,0,= (Equal),False,Aris kills the alarm,the incident report drafting itself on his screen
+E1,E18,0,= (Equal),False,Aris kills the alarm,Aris recalls
+E1,E19,-1,> (Preceded By),False,Aris kills the alarm,standing on Berth 12 himself
+E1,E20,-1,> (Preceded By),False,Aris kills the alarm,a customs officer wave through a shipment
+E1,E21,-1,> (Preceded By),False,Aris kills the alarm,the officer later explained
+E1,E22,-1,> (Preceded By),False,Aris kills the alarm,didn't collect it
+E1,E23,0,= (Equal),False,Aris kills the alarm,The fire suppression system engages
+E1,E24,1,< (Precedes),False,Aris kills the alarm,a report filed the morning after tonight
+E2,E1,0,= (Equal),False,being told over the radio,Aris kills the alarm
+E2,E3,-1,> (Preceded By),False,being told over the radio,broke out on Berth 12
+E2,E4,-1,> (Preceded By),False,being told over the radio,this drill was scheduled to begin
+E2,E5,-1,> (Preceded By),False,being told over the radio,a scheduling decision made the previous week
+E2,E6,-1,> (Preceded By),False,being told over the radio,the customs inspection that was itself delayed
+E2,E7,-1,> (Preceded By),False,being told over the radio,arrived from Piraeus
+E2,E8,-1,> (Preceded By),False,being told over the radio,a load date
+E2,E9,-1,> (Preceded By),False,being told over the radio,its own departure log
+E2,E10,0,= (Equal),False,being told over the radio,He remembers
+E2,E11,-1,> (Preceded By),False,being told over the radio,flagging that discrepancy in an email
+E2,E12,-1,> (Preceded By),False,being told over the radio,the vessel docked
+E2,E13,-1,> (Preceded By),False,being told over the radio,reached the harbor master
+E2,E14,-1,> (Preceded By),False,being told over the radio,had already closed for the season
+E2,E15,-1,> (Preceded By),False,being told over the radio,an IT migration completed
+E2,E16,-1,> (Preceded By),False,being told over the radio,the previous port strike
+E2,E17,0,= (Equal),False,being told over the radio,the incident report drafting itself on his screen
+E2,E18,0,= (Equal),False,being told over the radio,Aris recalls
+E2,E19,-1,> (Preceded By),False,being told over the radio,standing on Berth 12 himself
+E2,E20,-1,> (Preceded By),False,being told over the radio,a customs officer wave through a shipment
+E2,E21,-1,> (Preceded By),False,being told over the radio,the officer later explained
+E2,E22,-1,> (Preceded By),False,being told over the radio,didn't collect it
+E2,E23,0,= (Equal),False,being told over the radio,The fire suppression system engages
+E2,E24,1,< (Precedes),False,being told over the radio,a report filed the morning after tonight
+E3,E1,1,< (Precedes),False,broke out on Berth 12,Aris kills the alarm
+E3,E2,1,< (Precedes),False,broke out on Berth 12,being told over the radio
+E3,E4,1,< (Precedes),False,broke out on Berth 12,this drill was scheduled to begin
+E3,E5,-1,> (Preceded By),False,broke out on Berth 12,a scheduling decision made the previous week
+E3,E6,-1,> (Preceded By),False,broke out on Berth 12,the customs inspection that was itself delayed
+E3,E7,-1,> (Preceded By),False,broke out on Berth 12,arrived from Piraeus
+E3,E8,-1,> (Preceded By),False,broke out on Berth 12,a load date
+E3,E9,-1,> (Preceded By),False,broke out on Berth 12,its own departure log
+E3,E10,1,< (Precedes),False,broke out on Berth 12,He remembers
+E3,E11,-1,> (Preceded By),False,broke out on Berth 12,flagging that discrepancy in an email
+E3,E12,-1,> (Preceded By),False,broke out on Berth 12,the vessel docked
+E3,E13,-1,> (Preceded By),False,broke out on Berth 12,reached the harbor master
+E3,E14,-1,> (Preceded By),False,broke out on Berth 12,had already closed for the season
+E3,E15,-1,> (Preceded By),False,broke out on Berth 12,an IT migration completed
+E3,E16,-1,> (Preceded By),False,broke out on Berth 12,the previous port strike
+E3,E17,1,< (Precedes),False,broke out on Berth 12,the incident report drafting itself on his screen
+E3,E18,1,< (Precedes),False,broke out on Berth 12,Aris recalls
+E3,E19,-1,> (Preceded By),False,broke out on Berth 12,standing on Berth 12 himself
+E3,E20,-1,> (Preceded By),False,broke out on Berth 12,a customs officer wave through a shipment
+E3,E21,-1,> (Preceded By),False,broke out on Berth 12,the officer later explained
+E3,E22,-1,> (Preceded By),False,broke out on Berth 12,didn't collect it
+E3,E23,1,< (Precedes),False,broke out on Berth 12,The fire suppression system engages
+E3,E24,1,< (Precedes),False,broke out on Berth 12,a report filed the morning after tonight
+E4,E1,1,< (Precedes),False,this drill was scheduled to begin,Aris kills the alarm
+E4,E2,1,< (Precedes),False,this drill was scheduled to begin,being told over the radio
+E4,E3,-1,> (Preceded By),False,this drill was scheduled to begin,broke out on Berth 12
+E4,E5,-1,> (Preceded By),False,this drill was scheduled to begin,a scheduling decision made the previous week
+E4,E6,-1,> (Preceded By),False,this drill was scheduled to begin,the customs inspection that was itself delayed
+E4,E7,-1,> (Preceded By),False,this drill was scheduled to begin,arrived from Piraeus
+E4,E8,-1,> (Preceded By),False,this drill was scheduled to begin,a load date
+E4,E9,-1,> (Preceded By),False,this drill was scheduled to begin,its own departure log
+E4,E10,1,< (Precedes),False,this drill was scheduled to begin,He remembers
+E4,E11,-1,> (Preceded By),False,this drill was scheduled to begin,flagging that discrepancy in an email
+E4,E12,-1,> (Preceded By),False,this drill was scheduled to begin,the vessel docked
+E4,E13,-1,> (Preceded By),False,this drill was scheduled to begin,reached the harbor master
+E4,E14,-1,> (Preceded By),False,this drill was scheduled to begin,had already closed for the season
+E4,E15,-1,> (Preceded By),False,this drill was scheduled to begin,an IT migration completed
+E4,E16,-1,> (Preceded By),False,this drill was scheduled to begin,the previous port strike
+E4,E17,1,< (Precedes),False,this drill was scheduled to begin,the incident report drafting itself on his screen
+E4,E18,1,< (Precedes),False,this drill was scheduled to begin,Aris recalls
+E4,E19,-1,> (Preceded By),False,this drill was scheduled to begin,standing on Berth 12 himself
+E4,E20,-1,> (Preceded By),False,this drill was scheduled to begin,a customs officer wave through a shipment
+E4,E21,-1,> (Preceded By),False,this drill was scheduled to begin,the officer later explained
+E4,E22,-1,> (Preceded By),False,this drill was scheduled to begin,didn't collect it
+E4,E23,1,< (Precedes),False,this drill was scheduled to begin,The fire suppression system engages
+E4,E24,1,< (Precedes),False,this drill was scheduled to begin,a report filed the morning after tonight
+E5,E1,1,< (Precedes),False,a scheduling decision made the previous week,Aris kills the alarm
+E5,E2,1,< (Precedes),False,a scheduling decision made the previous week,being told over the radio
+E5,E3,1,< (Precedes),False,a scheduling decision made the previous week,broke out on Berth 12
+E5,E4,1,< (Precedes),False,a scheduling decision made the previous week,this drill was scheduled to begin
+E5,E6,-1,> (Preceded By),False,a scheduling decision made the previous week,the customs inspection that was itself delayed
+E5,E7,-1,> (Preceded By),False,a scheduling decision made the previous week,arrived from Piraeus
+E5,E8,-1,> (Preceded By),False,a scheduling decision made the previous week,a load date
+E5,E9,-1,> (Preceded By),False,a scheduling decision made the previous week,its own departure log
+E5,E10,1,< (Precedes),False,a scheduling decision made the previous week,He remembers
+E5,E11,-1,> (Preceded By),False,a scheduling decision made the previous week,flagging that discrepancy in an email
+E5,E12,-1,> (Preceded By),False,a scheduling decision made the previous week,the vessel docked
+E5,E13,-1,> (Preceded By),False,a scheduling decision made the previous week,reached the harbor master
+E5,E14,-1,> (Preceded By),False,a scheduling decision made the previous week,had already closed for the season
+E5,E15,-1,> (Preceded By),False,a scheduling decision made the previous week,an IT migration completed
+E5,E16,-1,> (Preceded By),False,a scheduling decision made the previous week,the previous port strike
+E5,E17,1,< (Precedes),False,a scheduling decision made the previous week,the incident report drafting itself on his screen
+E5,E18,1,< (Precedes),False,a scheduling decision made the previous week,Aris recalls
+E5,E19,1,< (Precedes),False,a scheduling decision made the previous week,standing on Berth 12 himself
+E5,E20,1,< (Precedes),False,a scheduling decision made the previous week,a customs officer wave through a shipment
+E5,E21,1,< (Precedes),False,a scheduling decision made the previous week,the officer later explained
+E5,E22,-1,> (Preceded By),False,a scheduling decision made the previous week,didn't collect it
+E5,E23,1,< (Precedes),False,a scheduling decision made the previous week,The fire suppression system engages
+E5,E24,1,< (Precedes),False,a scheduling decision made the previous week,a report filed the morning after tonight
+E6,E1,1,< (Precedes),False,the customs inspection that was itself delayed,Aris kills the alarm
+E6,E2,1,< (Precedes),False,the customs inspection that was itself delayed,being told over the radio
+E6,E3,1,< (Precedes),False,the customs inspection that was itself delayed,broke out on Berth 12
+E6,E4,1,< (Precedes),False,the customs inspection that was itself delayed,this drill was scheduled to begin
+E6,E5,1,< (Precedes),False,the customs inspection that was itself delayed,a scheduling decision made the previous week
+E6,E7,-1,> (Preceded By),False,the customs inspection that was itself delayed,arrived from Piraeus
+E6,E8,-1,> (Preceded By),False,the customs inspection that was itself delayed,a load date
+E6,E9,-1,> (Preceded By),False,the customs inspection that was itself delayed,its own departure log
+E6,E10,1,< (Precedes),False,the customs inspection that was itself delayed,He remembers
+E6,E11,-1,> (Preceded By),False,the customs inspection that was itself delayed,flagging that discrepancy in an email
+E6,E12,-1,> (Preceded By),False,the customs inspection that was itself delayed,the vessel docked
+E6,E13,1,< (Precedes),False,the customs inspection that was itself delayed,reached the harbor master
+E6,E14,-1,> (Preceded By),False,the customs inspection that was itself delayed,had already closed for the season
+E6,E15,-1,> (Preceded By),False,the customs inspection that was itself delayed,an IT migration completed
+E6,E16,-1,> (Preceded By),False,the customs inspection that was itself delayed,the previous port strike
+E6,E17,1,< (Precedes),False,the customs inspection that was itself delayed,the incident report drafting itself on his screen
+E6,E18,1,< (Precedes),False,the customs inspection that was itself delayed,Aris recalls
+E6,E19,1,< (Precedes),False,the customs inspection that was itself delayed,standing on Berth 12 himself
+E6,E20,1,< (Precedes),False,the customs inspection that was itself delayed,a customs officer wave through a shipment
+E6,E21,1,< (Precedes),False,the customs inspection that was itself delayed,the officer later explained
+E6,E22,-1,> (Preceded By),False,the customs inspection that was itself delayed,didn't collect it
+E6,E23,1,< (Precedes),False,the customs inspection that was itself delayed,The fire suppression system engages
+E6,E24,1,< (Precedes),False,the customs inspection that was itself delayed,a report filed the morning after tonight
+E7,E1,1,< (Precedes),False,arrived from Piraeus,Aris kills the alarm
+E7,E2,1,< (Precedes),False,arrived from Piraeus,being told over the radio
+E7,E3,1,< (Precedes),False,arrived from Piraeus,broke out on Berth 12
+E7,E4,1,< (Precedes),False,arrived from Piraeus,this drill was scheduled to begin
+E7,E5,1,< (Precedes),False,arrived from Piraeus,a scheduling decision made the previous week
+E7,E6,1,< (Precedes),False,arrived from Piraeus,the customs inspection that was itself delayed
+E7,E8,-1,> (Preceded By),False,arrived from Piraeus,a load date
+E7,E9,-1,> (Preceded By),False,arrived from Piraeus,its own departure log
+E7,E10,1,< (Precedes),False,arrived from Piraeus,He remembers
+E7,E11,-1,> (Preceded By),False,arrived from Piraeus,flagging that discrepancy in an email
+E7,E12,-1,> (Preceded By),False,arrived from Piraeus,the vessel docked
+E7,E13,1,< (Precedes),False,arrived from Piraeus,reached the harbor master
+E7,E14,-1,> (Preceded By),False,arrived from Piraeus,had already closed for the season
+E7,E15,-1,> (Preceded By),False,arrived from Piraeus,an IT migration completed
+E7,E16,-1,> (Preceded By),False,arrived from Piraeus,the previous port strike
+E7,E17,1,< (Precedes),False,arrived from Piraeus,the incident report drafting itself on his screen
+E7,E18,1,< (Precedes),False,arrived from Piraeus,Aris recalls
+E7,E19,1,< (Precedes),False,arrived from Piraeus,standing on Berth 12 himself
+E7,E20,1,< (Precedes),False,arrived from Piraeus,a customs officer wave through a shipment
+E7,E21,1,< (Precedes),False,arrived from Piraeus,the officer later explained
+E7,E22,-1,> (Preceded By),False,arrived from Piraeus,didn't collect it
+E7,E23,1,< (Precedes),False,arrived from Piraeus,The fire suppression system engages
+E7,E24,1,< (Precedes),False,arrived from Piraeus,a report filed the morning after tonight
+E8,E1,1,< (Precedes),False,a load date,Aris kills the alarm
+E8,E2,1,< (Precedes),False,a load date,being told over the radio
+E8,E3,1,< (Precedes),False,a load date,broke out on Berth 12
+E8,E4,1,< (Precedes),False,a load date,this drill was scheduled to begin
+E8,E5,1,< (Precedes),False,a load date,a scheduling decision made the previous week
+E8,E6,1,< (Precedes),False,a load date,the customs inspection that was itself delayed
+E8,E7,1,< (Precedes),False,a load date,arrived from Piraeus
+E8,E9,-1,> (Preceded By),False,a load date,its own departure log
+E8,E10,1,< (Precedes),False,a load date,He remembers
+E8,E11,1,< (Precedes),False,a load date,flagging that discrepancy in an email
+E8,E12,1,< (Precedes),False,a load date,the vessel docked
+E8,E13,1,< (Precedes),False,a load date,reached the harbor master
+E8,E14,-1,> (Preceded By),False,a load date,had already closed for the season
+E8,E15,-1,> (Preceded By),False,a load date,an IT migration completed
+E8,E16,-1,> (Preceded By),False,a load date,the previous port strike
+E8,E17,1,< (Precedes),False,a load date,the incident report drafting itself on his screen
+E8,E18,1,< (Precedes),False,a load date,Aris recalls
+E8,E19,1,< (Precedes),False,a load date,standing on Berth 12 himself
+E8,E20,1,< (Precedes),False,a load date,a customs officer wave through a shipment
+E8,E21,1,< (Precedes),False,a load date,the officer later explained
+E8,E22,1,< (Precedes),False,a load date,didn't collect it
+E8,E23,1,< (Precedes),False,a load date,The fire suppression system engages
+E8,E24,1,< (Precedes),False,a load date,a report filed the morning after tonight
+E9,E1,1,< (Precedes),False,its own departure log,Aris kills the alarm
+E9,E2,1,< (Precedes),False,its own departure log,being told over the radio
+E9,E3,1,< (Precedes),False,its own departure log,broke out on Berth 12
+E9,E4,1,< (Precedes),False,its own departure log,this drill was scheduled to begin
+E9,E5,1,< (Precedes),False,its own departure log,a scheduling decision made the previous week
+E9,E6,1,< (Precedes),False,its own departure log,the customs inspection that was itself delayed
+E9,E7,1,< (Precedes),False,its own departure log,arrived from Piraeus
+E9,E8,1,< (Precedes),False,its own departure log,a load date
+E9,E10,1,< (Precedes),False,its own departure log,He remembers
+E9,E11,1,< (Precedes),False,its own departure log,flagging that discrepancy in an email
+E9,E12,1,< (Precedes),False,its own departure log,the vessel docked
+E9,E13,1,< (Precedes),False,its own departure log,reached the harbor master
+E9,E14,-1,> (Preceded By),False,its own departure log,had already closed for the season
+E9,E15,-1,> (Preceded By),False,its own departure log,an IT migration completed
+E9,E16,-1,> (Preceded By),False,its own departure log,the previous port strike
+E9,E17,1,< (Precedes),False,its own departure log,the incident report drafting itself on his screen
+E9,E18,1,< (Precedes),False,its own departure log,Aris recalls
+E9,E19,1,< (Precedes),False,its own departure log,standing on Berth 12 himself
+E9,E20,1,< (Precedes),False,its own departure log,a customs officer wave through a shipment
+E9,E21,1,< (Precedes),False,its own departure log,the officer later explained
+E9,E22,1,< (Precedes),False,its own departure log,didn't collect it
+E9,E23,1,< (Precedes),False,its own departure log,The fire suppression system engages
+E9,E24,1,< (Precedes),False,its own departure log,a report filed the morning after tonight
+E10,E1,0,= (Equal),False,He remembers,Aris kills the alarm
+E10,E2,0,= (Equal),False,He remembers,being told over the radio
+E10,E3,-1,> (Preceded By),False,He remembers,broke out on Berth 12
+E10,E4,-1,> (Preceded By),False,He remembers,this drill was scheduled to begin
+E10,E5,-1,> (Preceded By),False,He remembers,a scheduling decision made the previous week
+E10,E6,-1,> (Preceded By),False,He remembers,the customs inspection that was itself delayed
+E10,E7,-1,> (Preceded By),False,He remembers,arrived from Piraeus
+E10,E8,-1,> (Preceded By),False,He remembers,a load date
+E10,E9,-1,> (Preceded By),False,He remembers,its own departure log
+E10,E11,-1,> (Preceded By),False,He remembers,flagging that discrepancy in an email
+E10,E12,-1,> (Preceded By),False,He remembers,the vessel docked
+E10,E13,-1,> (Preceded By),False,He remembers,reached the harbor master
+E10,E14,-1,> (Preceded By),False,He remembers,had already closed for the season
+E10,E15,-1,> (Preceded By),False,He remembers,an IT migration completed
+E10,E16,-1,> (Preceded By),False,He remembers,the previous port strike
+E10,E17,0,= (Equal),False,He remembers,the incident report drafting itself on his screen
+E10,E18,0,= (Equal),False,He remembers,Aris recalls
+E10,E19,-1,> (Preceded By),False,He remembers,standing on Berth 12 himself
+E10,E20,-1,> (Preceded By),False,He remembers,a customs officer wave through a shipment
+E10,E21,-1,> (Preceded By),False,He remembers,the officer later explained
+E10,E22,-1,> (Preceded By),False,He remembers,didn't collect it
+E10,E23,0,= (Equal),False,He remembers,The fire suppression system engages
+E10,E24,1,< (Precedes),False,He remembers,a report filed the morning after tonight
+E11,E1,1,< (Precedes),False,flagging that discrepancy in an email,Aris kills the alarm
+E11,E2,1,< (Precedes),False,flagging that discrepancy in an email,being told over the radio
+E11,E3,1,< (Precedes),False,flagging that discrepancy in an email,broke out on Berth 12
+E11,E4,1,< (Precedes),False,flagging that discrepancy in an email,this drill was scheduled to begin
+E11,E5,1,< (Precedes),False,flagging that discrepancy in an email,a scheduling decision made the previous week
+E11,E6,1,< (Precedes),False,flagging that discrepancy in an email,the customs inspection that was itself delayed
+E11,E7,1,< (Precedes),False,flagging that discrepancy in an email,arrived from Piraeus
+E11,E8,-1,> (Preceded By),False,flagging that discrepancy in an email,a load date
+E11,E9,-1,> (Preceded By),False,flagging that discrepancy in an email,its own departure log
+E11,E10,1,< (Precedes),False,flagging that discrepancy in an email,He remembers
+E11,E12,-1,> (Preceded By),False,flagging that discrepancy in an email,the vessel docked
+E11,E13,1,< (Precedes),False,flagging that discrepancy in an email,reached the harbor master
+E11,E14,-1,> (Preceded By),False,flagging that discrepancy in an email,had already closed for the season
+E11,E15,-1,> (Preceded By),False,flagging that discrepancy in an email,an IT migration completed
+E11,E16,-1,> (Preceded By),False,flagging that discrepancy in an email,the previous port strike
+E11,E17,1,< (Precedes),False,flagging that discrepancy in an email,the incident report drafting itself on his screen
+E11,E18,1,< (Precedes),False,flagging that discrepancy in an email,Aris recalls
+E11,E19,1,< (Precedes),False,flagging that discrepancy in an email,standing on Berth 12 himself
+E11,E20,1,< (Precedes),False,flagging that discrepancy in an email,a customs officer wave through a shipment
+E11,E21,1,< (Precedes),False,flagging that discrepancy in an email,the officer later explained
+E11,E22,-1,> (Preceded By),False,flagging that discrepancy in an email,didn't collect it
+E11,E23,1,< (Precedes),False,flagging that discrepancy in an email,The fire suppression system engages
+E11,E24,1,< (Precedes),False,flagging that discrepancy in an email,a report filed the morning after tonight
+E12,E1,1,< (Precedes),False,the vessel docked,Aris kills the alarm
+E12,E2,1,< (Precedes),False,the vessel docked,being told over the radio
+E12,E3,1,< (Precedes),False,the vessel docked,broke out on Berth 12
+E12,E4,1,< (Precedes),False,the vessel docked,this drill was scheduled to begin
+E12,E5,1,< (Precedes),False,the vessel docked,a scheduling decision made the previous week
+E12,E6,1,< (Precedes),False,the vessel docked,the customs inspection that was itself delayed
+E12,E7,1,< (Precedes),False,the vessel docked,arrived from Piraeus
+E12,E8,-1,> (Preceded By),False,the vessel docked,a load date
+E12,E9,-1,> (Preceded By),False,the vessel docked,its own departure log
+E12,E10,1,< (Precedes),False,the vessel docked,He remembers
+E12,E11,1,< (Precedes),False,the vessel docked,flagging that discrepancy in an email
+E12,E13,1,< (Precedes),False,the vessel docked,reached the harbor master
+E12,E14,-1,> (Preceded By),False,the vessel docked,had already closed for the season
+E12,E15,-1,> (Preceded By),False,the vessel docked,an IT migration completed
+E12,E16,-1,> (Preceded By),False,the vessel docked,the previous port strike
+E12,E17,1,< (Precedes),False,the vessel docked,the incident report drafting itself on his screen
+E12,E18,1,< (Precedes),False,the vessel docked,Aris recalls
+E12,E19,1,< (Precedes),False,the vessel docked,standing on Berth 12 himself
+E12,E20,1,< (Precedes),False,the vessel docked,a customs officer wave through a shipment
+E12,E21,1,< (Precedes),False,the vessel docked,the officer later explained
+E12,E22,1,< (Precedes),False,the vessel docked,didn't collect it
+E12,E23,1,< (Precedes),False,the vessel docked,The fire suppression system engages
+E12,E24,1,< (Precedes),False,the vessel docked,a report filed the morning after tonight
+E13,E1,1,< (Precedes),False,reached the harbor master,Aris kills the alarm
+E13,E2,1,< (Precedes),False,reached the harbor master,being told over the radio
+E13,E3,1,< (Precedes),False,reached the harbor master,broke out on Berth 12
+E13,E4,1,< (Precedes),False,reached the harbor master,this drill was scheduled to begin
+E13,E5,1,< (Precedes),False,reached the harbor master,a scheduling decision made the previous week
+E13,E6,-1,> (Preceded By),False,reached the harbor master,the customs inspection that was itself delayed
+E13,E7,-1,> (Preceded By),False,reached the harbor master,arrived from Piraeus
+E13,E8,-1,> (Preceded By),False,reached the harbor master,a load date
+E13,E9,-1,> (Preceded By),False,reached the harbor master,its own departure log
+E13,E10,1,< (Precedes),False,reached the harbor master,He remembers
+E13,E11,-1,> (Preceded By),False,reached the harbor master,flagging that discrepancy in an email
+E13,E12,-1,> (Preceded By),False,reached the harbor master,the vessel docked
+E13,E14,-1,> (Preceded By),False,reached the harbor master,had already closed for the season
+E13,E15,-1,> (Preceded By),False,reached the harbor master,an IT migration completed
+E13,E16,-1,> (Preceded By),False,reached the harbor master,the previous port strike
+E13,E17,1,< (Precedes),False,reached the harbor master,the incident report drafting itself on his screen
+E13,E18,1,< (Precedes),False,reached the harbor master,Aris recalls
+E13,E19,1,< (Precedes),False,reached the harbor master,standing on Berth 12 himself
+E13,E20,1,< (Precedes),False,reached the harbor master,a customs officer wave through a shipment
+E13,E21,1,< (Precedes),False,reached the harbor master,the officer later explained
+E13,E22,-1,> (Preceded By),False,reached the harbor master,didn't collect it
+E13,E23,1,< (Precedes),False,reached the harbor master,The fire suppression system engages
+E13,E24,1,< (Precedes),False,reached the harbor master,a report filed the morning after tonight
+E14,E1,1,< (Precedes),False,had already closed for the season,Aris kills the alarm
+E14,E2,1,< (Precedes),False,had already closed for the season,being told over the radio
+E14,E3,1,< (Precedes),False,had already closed for the season,broke out on Berth 12
+E14,E4,1,< (Precedes),False,had already closed for the season,this drill was scheduled to begin
+E14,E5,1,< (Precedes),False,had already closed for the season,a scheduling decision made the previous week
+E14,E6,1,< (Precedes),False,had already closed for the season,the customs inspection that was itself delayed
+E14,E7,1,< (Precedes),False,had already closed for the season,arrived from Piraeus
+E14,E8,1,< (Precedes),False,had already closed for the season,a load date
+E14,E9,1,< (Precedes),False,had already closed for the season,its own departure log
+E14,E10,1,< (Precedes),False,had already closed for the season,He remembers
+E14,E11,1,< (Precedes),False,had already closed for the season,flagging that discrepancy in an email
+E14,E12,1,< (Precedes),False,had already closed for the season,the vessel docked
+E14,E13,1,< (Precedes),False,had already closed for the season,reached the harbor master
+E14,E15,-1,> (Preceded By),False,had already closed for the season,an IT migration completed
+E14,E16,-1,> (Preceded By),False,had already closed for the season,the previous port strike
+E14,E17,1,< (Precedes),False,had already closed for the season,the incident report drafting itself on his screen
+E14,E18,1,< (Precedes),False,had already closed for the season,Aris recalls
+E14,E19,1,< (Precedes),False,had already closed for the season,standing on Berth 12 himself
+E14,E20,1,< (Precedes),False,had already closed for the season,a customs officer wave through a shipment
+E14,E21,1,< (Precedes),False,had already closed for the season,the officer later explained
+E14,E22,1,< (Precedes),False,had already closed for the season,didn't collect it
+E14,E23,1,< (Precedes),False,had already closed for the season,The fire suppression system engages
+E14,E24,1,< (Precedes),False,had already closed for the season,a report filed the morning after tonight
+E15,E1,1,< (Precedes),False,an IT migration completed,Aris kills the alarm
+E15,E2,1,< (Precedes),False,an IT migration completed,being told over the radio
+E15,E3,1,< (Precedes),False,an IT migration completed,broke out on Berth 12
+E15,E4,1,< (Precedes),False,an IT migration completed,this drill was scheduled to begin
+E15,E5,1,< (Precedes),False,an IT migration completed,a scheduling decision made the previous week
+E15,E6,1,< (Precedes),False,an IT migration completed,the customs inspection that was itself delayed
+E15,E7,1,< (Precedes),False,an IT migration completed,arrived from Piraeus
+E15,E8,1,< (Precedes),False,an IT migration completed,a load date
+E15,E9,1,< (Precedes),False,an IT migration completed,its own departure log
+E15,E10,1,< (Precedes),False,an IT migration completed,He remembers
+E15,E11,1,< (Precedes),False,an IT migration completed,flagging that discrepancy in an email
+E15,E12,1,< (Precedes),False,an IT migration completed,the vessel docked
+E15,E13,1,< (Precedes),False,an IT migration completed,reached the harbor master
+E15,E14,1,< (Precedes),False,an IT migration completed,had already closed for the season
+E15,E16,0,= (Equal),False,an IT migration completed,the previous port strike
+E15,E17,1,< (Precedes),False,an IT migration completed,the incident report drafting itself on his screen
+E15,E18,1,< (Precedes),False,an IT migration completed,Aris recalls
+E15,E19,1,< (Precedes),False,an IT migration completed,standing on Berth 12 himself
+E15,E20,1,< (Precedes),False,an IT migration completed,a customs officer wave through a shipment
+E15,E21,1,< (Precedes),False,an IT migration completed,the officer later explained
+E15,E22,1,< (Precedes),False,an IT migration completed,didn't collect it
+E15,E23,1,< (Precedes),False,an IT migration completed,The fire suppression system engages
+E15,E24,1,< (Precedes),False,an IT migration completed,a report filed the morning after tonight
+E16,E1,1,< (Precedes),False,the previous port strike,Aris kills the alarm
+E16,E2,1,< (Precedes),False,the previous port strike,being told over the radio
+E16,E3,1,< (Precedes),False,the previous port strike,broke out on Berth 12
+E16,E4,1,< (Precedes),False,the previous port strike,this drill was scheduled to begin
+E16,E5,1,< (Precedes),False,the previous port strike,a scheduling decision made the previous week
+E16,E6,1,< (Precedes),False,the previous port strike,the customs inspection that was itself delayed
+E16,E7,1,< (Precedes),False,the previous port strike,arrived from Piraeus
+E16,E8,1,< (Precedes),False,the previous port strike,a load date
+E16,E9,1,< (Precedes),False,the previous port strike,its own departure log
+E16,E10,1,< (Precedes),False,the previous port strike,He remembers
+E16,E11,1,< (Precedes),False,the previous port strike,flagging that discrepancy in an email
+E16,E12,1,< (Precedes),False,the previous port strike,the vessel docked
+E16,E13,1,< (Precedes),False,the previous port strike,reached the harbor master
+E16,E14,1,< (Precedes),False,the previous port strike,had already closed for the season
+E16,E15,0,= (Equal),False,the previous port strike,an IT migration completed
+E16,E17,1,< (Precedes),False,the previous port strike,the incident report drafting itself on his screen
+E16,E18,1,< (Precedes),False,the previous port strike,Aris recalls
+E16,E19,1,< (Precedes),False,the previous port strike,standing on Berth 12 himself
+E16,E20,1,< (Precedes),False,the previous port strike,a customs officer wave through a shipment
+E16,E21,1,< (Precedes),False,the previous port strike,the officer later explained
+E16,E22,1,< (Precedes),False,the previous port strike,didn't collect it
+E16,E23,1,< (Precedes),False,the previous port strike,The fire suppression system engages
+E16,E24,1,< (Precedes),False,the previous port strike,a report filed the morning after tonight
+E17,E1,0,= (Equal),False,the incident report drafting itself on his screen,Aris kills the alarm
+E17,E2,0,= (Equal),False,the incident report drafting itself on his screen,being told over the radio
+E17,E3,-1,> (Preceded By),False,the incident report drafting itself on his screen,broke out on Berth 12
+E17,E4,-1,> (Preceded By),False,the incident report drafting itself on his screen,this drill was scheduled to begin
+E17,E5,-1,> (Preceded By),False,the incident report drafting itself on his screen,a scheduling decision made the previous week
+E17,E6,-1,> (Preceded By),False,the incident report drafting itself on his screen,the customs inspection that was itself delayed
+E17,E7,-1,> (Preceded By),False,the incident report drafting itself on his screen,arrived from Piraeus
+E17,E8,-1,> (Preceded By),False,the incident report drafting itself on his screen,a load date
+E17,E9,-1,> (Preceded By),False,the incident report drafting itself on his screen,its own departure log
+E17,E10,0,= (Equal),False,the incident report drafting itself on his screen,He remembers
+E17,E11,-1,> (Preceded By),False,the incident report drafting itself on his screen,flagging that discrepancy in an email
+E17,E12,-1,> (Preceded By),False,the incident report drafting itself on his screen,the vessel docked
+E17,E13,-1,> (Preceded By),False,the incident report drafting itself on his screen,reached the harbor master
+E17,E14,-1,> (Preceded By),False,the incident report drafting itself on his screen,had already closed for the season
+E17,E15,-1,> (Preceded By),False,the incident report drafting itself on his screen,an IT migration completed
+E17,E16,-1,> (Preceded By),False,the incident report drafting itself on his screen,the previous port strike
+E17,E18,0,= (Equal),False,the incident report drafting itself on his screen,Aris recalls
+E17,E19,-1,> (Preceded By),False,the incident report drafting itself on his screen,standing on Berth 12 himself
+E17,E20,-1,> (Preceded By),False,the incident report drafting itself on his screen,a customs officer wave through a shipment
+E17,E21,-1,> (Preceded By),False,the incident report drafting itself on his screen,the officer later explained
+E17,E22,-1,> (Preceded By),False,the incident report drafting itself on his screen,didn't collect it
+E17,E23,0,= (Equal),False,the incident report drafting itself on his screen,The fire suppression system engages
+E17,E24,1,< (Precedes),False,the incident report drafting itself on his screen,a report filed the morning after tonight
+E18,E1,0,= (Equal),False,Aris recalls,Aris kills the alarm
+E18,E2,0,= (Equal),False,Aris recalls,being told over the radio
+E18,E3,-1,> (Preceded By),False,Aris recalls,broke out on Berth 12
+E18,E4,-1,> (Preceded By),False,Aris recalls,this drill was scheduled to begin
+E18,E5,-1,> (Preceded By),False,Aris recalls,a scheduling decision made the previous week
+E18,E6,-1,> (Preceded By),False,Aris recalls,the customs inspection that was itself delayed
+E18,E7,-1,> (Preceded By),False,Aris recalls,arrived from Piraeus
+E18,E8,-1,> (Preceded By),False,Aris recalls,a load date
+E18,E9,-1,> (Preceded By),False,Aris recalls,its own departure log
+E18,E10,0,= (Equal),False,Aris recalls,He remembers
+E18,E11,-1,> (Preceded By),False,Aris recalls,flagging that discrepancy in an email
+E18,E12,-1,> (Preceded By),False,Aris recalls,the vessel docked
+E18,E13,-1,> (Preceded By),False,Aris recalls,reached the harbor master
+E18,E14,-1,> (Preceded By),False,Aris recalls,had already closed for the season
+E18,E15,-1,> (Preceded By),False,Aris recalls,an IT migration completed
+E18,E16,-1,> (Preceded By),False,Aris recalls,the previous port strike
+E18,E17,0,= (Equal),False,Aris recalls,the incident report drafting itself on his screen
+E18,E19,-1,> (Preceded By),False,Aris recalls,standing on Berth 12 himself
+E18,E20,-1,> (Preceded By),False,Aris recalls,a customs officer wave through a shipment
+E18,E21,-1,> (Preceded By),False,Aris recalls,the officer later explained
+E18,E22,-1,> (Preceded By),False,Aris recalls,didn't collect it
+E18,E23,0,= (Equal),False,Aris recalls,The fire suppression system engages
+E18,E24,1,< (Precedes),False,Aris recalls,a report filed the morning after tonight
+E19,E1,1,< (Precedes),False,standing on Berth 12 himself,Aris kills the alarm
+E19,E2,1,< (Precedes),False,standing on Berth 12 himself,being told over the radio
+E19,E3,1,< (Precedes),False,standing on Berth 12 himself,broke out on Berth 12
+E19,E4,1,< (Precedes),False,standing on Berth 12 himself,this drill was scheduled to begin
+E19,E5,-1,> (Preceded By),False,standing on Berth 12 himself,a scheduling decision made the previous week
+E19,E6,-1,> (Preceded By),False,standing on Berth 12 himself,the customs inspection that was itself delayed
+E19,E7,-1,> (Preceded By),False,standing on Berth 12 himself,arrived from Piraeus
+E19,E8,-1,> (Preceded By),False,standing on Berth 12 himself,a load date
+E19,E9,-1,> (Preceded By),False,standing on Berth 12 himself,its own departure log
+E19,E10,1,< (Precedes),False,standing on Berth 12 himself,He remembers
+E19,E11,-1,> (Preceded By),False,standing on Berth 12 himself,flagging that discrepancy in an email
+E19,E12,-1,> (Preceded By),False,standing on Berth 12 himself,the vessel docked
+E19,E13,-1,> (Preceded By),False,standing on Berth 12 himself,reached the harbor master
+E19,E14,-1,> (Preceded By),False,standing on Berth 12 himself,had already closed for the season
+E19,E15,-1,> (Preceded By),False,standing on Berth 12 himself,an IT migration completed
+E19,E16,-1,> (Preceded By),False,standing on Berth 12 himself,the previous port strike
+E19,E17,1,< (Precedes),False,standing on Berth 12 himself,the incident report drafting itself on his screen
+E19,E18,1,< (Precedes),False,standing on Berth 12 himself,Aris recalls
+E19,E20,0,= (Equal),False,standing on Berth 12 himself,a customs officer wave through a shipment
+E19,E21,1,< (Precedes),False,standing on Berth 12 himself,the officer later explained
+E19,E22,-1,> (Preceded By),False,standing on Berth 12 himself,didn't collect it
+E19,E23,1,< (Precedes),False,standing on Berth 12 himself,The fire suppression system engages
+E19,E24,1,< (Precedes),False,standing on Berth 12 himself,a report filed the morning after tonight
+E20,E1,1,< (Precedes),False,a customs officer wave through a shipment,Aris kills the alarm
+E20,E2,1,< (Precedes),False,a customs officer wave through a shipment,being told over the radio
+E20,E3,1,< (Precedes),False,a customs officer wave through a shipment,broke out on Berth 12
+E20,E4,1,< (Precedes),False,a customs officer wave through a shipment,this drill was scheduled to begin
+E20,E5,-1,> (Preceded By),False,a customs officer wave through a shipment,a scheduling decision made the previous week
+E20,E6,-1,> (Preceded By),False,a customs officer wave through a shipment,the customs inspection that was itself delayed
+E20,E7,-1,> (Preceded By),False,a customs officer wave through a shipment,arrived from Piraeus
+E20,E8,-1,> (Preceded By),False,a customs officer wave through a shipment,a load date
+E20,E9,-1,> (Preceded By),False,a customs officer wave through a shipment,its own departure log
+E20,E10,1,< (Precedes),False,a customs officer wave through a shipment,He remembers
+E20,E11,-1,> (Preceded By),False,a customs officer wave through a shipment,flagging that discrepancy in an email
+E20,E12,-1,> (Preceded By),False,a customs officer wave through a shipment,the vessel docked
+E20,E13,-1,> (Preceded By),False,a customs officer wave through a shipment,reached the harbor master
+E20,E14,-1,> (Preceded By),False,a customs officer wave through a shipment,had already closed for the season
+E20,E15,-1,> (Preceded By),False,a customs officer wave through a shipment,an IT migration completed
+E20,E16,-1,> (Preceded By),False,a customs officer wave through a shipment,the previous port strike
+E20,E17,1,< (Precedes),False,a customs officer wave through a shipment,the incident report drafting itself on his screen
+E20,E18,1,< (Precedes),False,a customs officer wave through a shipment,Aris recalls
+E20,E19,0,= (Equal),False,a customs officer wave through a shipment,standing on Berth 12 himself
+E20,E21,1,< (Precedes),False,a customs officer wave through a shipment,the officer later explained
+E20,E22,-1,> (Preceded By),False,a customs officer wave through a shipment,didn't collect it
+E20,E23,1,< (Precedes),False,a customs officer wave through a shipment,The fire suppression system engages
+E20,E24,1,< (Precedes),False,a customs officer wave through a shipment,a report filed the morning after tonight
+E21,E1,1,< (Precedes),False,the officer later explained,Aris kills the alarm
+E21,E2,1,< (Precedes),False,the officer later explained,being told over the radio
+E21,E3,1,< (Precedes),False,the officer later explained,broke out on Berth 12
+E21,E4,1,< (Precedes),False,the officer later explained,this drill was scheduled to begin
+E21,E5,-1,> (Preceded By),False,the officer later explained,a scheduling decision made the previous week
+E21,E6,-1,> (Preceded By),False,the officer later explained,the customs inspection that was itself delayed
+E21,E7,-1,> (Preceded By),False,the officer later explained,arrived from Piraeus
+E21,E8,-1,> (Preceded By),False,the officer later explained,a load date
+E21,E9,-1,> (Preceded By),False,the officer later explained,its own departure log
+E21,E10,1,< (Precedes),False,the officer later explained,He remembers
+E21,E11,-1,> (Preceded By),False,the officer later explained,flagging that discrepancy in an email
+E21,E12,-1,> (Preceded By),False,the officer later explained,the vessel docked
+E21,E13,-1,> (Preceded By),False,the officer later explained,reached the harbor master
+E21,E14,-1,> (Preceded By),False,the officer later explained,had already closed for the season
+E21,E15,-1,> (Preceded By),False,the officer later explained,an IT migration completed
+E21,E16,-1,> (Preceded By),False,the officer later explained,the previous port strike
+E21,E17,1,< (Precedes),False,the officer later explained,the incident report drafting itself on his screen
+E21,E18,1,< (Precedes),False,the officer later explained,Aris recalls
+E21,E19,-1,> (Preceded By),False,the officer later explained,standing on Berth 12 himself
+E21,E20,-1,> (Preceded By),False,the officer later explained,a customs officer wave through a shipment
+E21,E22,-1,> (Preceded By),False,the officer later explained,didn't collect it
+E21,E23,1,< (Precedes),False,the officer later explained,The fire suppression system engages
+E21,E24,1,< (Precedes),False,the officer later explained,a report filed the morning after tonight
+E22,E1,1,< (Precedes),False,didn't collect it,Aris kills the alarm
+E22,E2,1,< (Precedes),False,didn't collect it,being told over the radio
+E22,E3,1,< (Precedes),False,didn't collect it,broke out on Berth 12
+E22,E4,1,< (Precedes),False,didn't collect it,this drill was scheduled to begin
+E22,E5,1,< (Precedes),False,didn't collect it,a scheduling decision made the previous week
+E22,E6,1,< (Precedes),False,didn't collect it,the customs inspection that was itself delayed
+E22,E7,1,< (Precedes),False,didn't collect it,arrived from Piraeus
+E22,E8,-1,> (Preceded By),False,didn't collect it,a load date
+E22,E9,-1,> (Preceded By),False,didn't collect it,its own departure log
+E22,E10,1,< (Precedes),False,didn't collect it,He remembers
+E22,E11,1,< (Precedes),False,didn't collect it,flagging that discrepancy in an email
+E22,E12,-1,> (Preceded By),False,didn't collect it,the vessel docked
+E22,E13,1,< (Precedes),False,didn't collect it,reached the harbor master
+E22,E14,-1,> (Preceded By),False,didn't collect it,had already closed for the season
+E22,E15,-1,> (Preceded By),False,didn't collect it,an IT migration completed
+E22,E16,-1,> (Preceded By),False,didn't collect it,the previous port strike
+E22,E17,1,< (Precedes),False,didn't collect it,the incident report drafting itself on his screen
+E22,E18,1,< (Precedes),False,didn't collect it,Aris recalls
+E22,E19,1,< (Precedes),False,didn't collect it,standing on Berth 12 himself
+E22,E20,1,< (Precedes),False,didn't collect it,a customs officer wave through a shipment
+E22,E21,1,< (Precedes),False,didn't collect it,the officer later explained
+E22,E23,1,< (Precedes),False,didn't collect it,The fire suppression system engages
+E22,E24,1,< (Precedes),False,didn't collect it,a report filed the morning after tonight
+E23,E1,0,= (Equal),False,The fire suppression system engages,Aris kills the alarm
+E23,E2,0,= (Equal),False,The fire suppression system engages,being told over the radio
+E23,E3,-1,> (Preceded By),False,The fire suppression system engages,broke out on Berth 12
+E23,E4,-1,> (Preceded By),False,The fire suppression system engages,this drill was scheduled to begin
+E23,E5,-1,> (Preceded By),False,The fire suppression system engages,a scheduling decision made the previous week
+E23,E6,-1,> (Preceded By),False,The fire suppression system engages,the customs inspection that was itself delayed
+E23,E7,-1,> (Preceded By),False,The fire suppression system engages,arrived from Piraeus
+E23,E8,-1,> (Preceded By),False,The fire suppression system engages,a load date
+E23,E9,-1,> (Preceded By),False,The fire suppression system engages,its own departure log
+E23,E10,0,= (Equal),False,The fire suppression system engages,He remembers
+E23,E11,-1,> (Preceded By),False,The fire suppression system engages,flagging that discrepancy in an email
+E23,E12,-1,> (Preceded By),False,The fire suppression system engages,the vessel docked
+E23,E13,-1,> (Preceded By),False,The fire suppression system engages,reached the harbor master
+E23,E14,-1,> (Preceded By),False,The fire suppression system engages,had already closed for the season
+E23,E15,-1,> (Preceded By),False,The fire suppression system engages,an IT migration completed
+E23,E16,-1,> (Preceded By),False,The fire suppression system engages,the previous port strike
+E23,E17,0,= (Equal),False,The fire suppression system engages,the incident report drafting itself on his screen
+E23,E18,0,= (Equal),False,The fire suppression system engages,Aris recalls
+E23,E19,-1,> (Preceded By),False,The fire suppression system engages,standing on Berth 12 himself
+E23,E20,-1,> (Preceded By),False,The fire suppression system engages,a customs officer wave through a shipment
+E23,E21,-1,> (Preceded By),False,The fire suppression system engages,the officer later explained
+E23,E22,-1,> (Preceded By),False,The fire suppression system engages,didn't collect it
+E23,E24,1,< (Precedes),False,The fire suppression system engages,a report filed the morning after tonight
+E24,E1,-1,> (Preceded By),False,a report filed the morning after tonight,Aris kills the alarm
+E24,E2,-1,> (Preceded By),False,a report filed the morning after tonight,being told over the radio
+E24,E3,-1,> (Preceded By),False,a report filed the morning after tonight,broke out on Berth 12
+E24,E4,-1,> (Preceded By),False,a report filed the morning after tonight,this drill was scheduled to begin
+E24,E5,-1,> (Preceded By),False,a report filed the morning after tonight,a scheduling decision made the previous week
+E24,E6,-1,> (Preceded By),False,a report filed the morning after tonight,the customs inspection that was itself delayed
+E24,E7,-1,> (Preceded By),False,a report filed the morning after tonight,arrived from Piraeus
+E24,E8,-1,> (Preceded By),False,a report filed the morning after tonight,a load date
+E24,E9,-1,> (Preceded By),False,a report filed the morning after tonight,its own departure log
+E24,E10,-1,> (Preceded By),False,a report filed the morning after tonight,He remembers
+E24,E11,-1,> (Preceded By),False,a report filed the morning after tonight,flagging that discrepancy in an email
+E24,E12,-1,> (Preceded By),False,a report filed the morning after tonight,the vessel docked
+E24,E13,-1,> (Preceded By),False,a report filed the morning after tonight,reached the harbor master
+E24,E14,-1,> (Preceded By),False,a report filed the morning after tonight,had already closed for the season
+E24,E15,-1,> (Preceded By),False,a report filed the morning after tonight,an IT migration completed
+E24,E16,-1,> (Preceded By),False,a report filed the morning after tonight,the previous port strike
+E24,E17,-1,> (Preceded By),False,a report filed the morning after tonight,the incident report drafting itself on his screen
+E24,E18,-1,> (Preceded By),False,a report filed the morning after tonight,Aris recalls
+E24,E19,-1,> (Preceded By),False,a report filed the morning after tonight,standing on Berth 12 himself
+E24,E20,-1,> (Preceded By),False,a report filed the morning after tonight,a customs officer wave through a shipment
+E24,E21,-1,> (Preceded By),False,a report filed the morning after tonight,the officer later explained
+E24,E22,-1,> (Preceded By),False,a report filed the morning after tonight,didn't collect it
+E24,E23,-1,> (Preceded By),False,a report filed the morning after tonight,The fire suppression system engages

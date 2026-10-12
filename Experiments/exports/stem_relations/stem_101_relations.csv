@@ -1,0 +1,307 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-4,si (Started By),False,payment authorization stuck,sponsor meeting
+E1,E3,-1,> (Preceded By),False,payment authorization stuck,news broke of a rival fest's launch
+E1,E4,-5,di (Contains),False,payment authorization stuck,domain renewal nearly lapsed
+E1,E5,-5,di (Contains),False,payment authorization stuck,design lead returned from the printer's shop
+E1,E6,-5,di (Contains),False,payment authorization stuck,banner artwork wasn't approved
+E1,E7,-5,di (Contains),False,payment authorization stuck,server going live
+E1,E8,-6,fi (Finished By),False,payment authorization stuck,stress test his team had run
+E1,E9,-5,di (Contains),False,payment authorization stuck,seen her in the green room
+E1,E10,2,m (Meets),False,payment authorization stuck,Shanto refreshed the fest website's analytics dashboard
+E1,E11,3,o (Overlaps),False,payment authorization stuck,opening ceremony rehearsal happening
+E1,E12,-5,di (Contains),False,payment authorization stuck,a trip made the morning
+E1,E13,2,m (Meets),False,payment authorization stuck,"news that, ironically, wouldn't be public until the following Monday"
+E1,E14,2,m (Meets),False,payment authorization stuck,hadn't landed yet
+E1,E15,-5,di (Contains),False,payment authorization stuck,been written into the live production table
+E1,E16,-6,fi (Finished By),False,payment authorization stuck,already happened in the database days before the first guest walked through
+E1,E17,2,m (Meets),False,payment authorization stuck,hadn't even been unlocked
+E1,E18,-1,> (Preceded By),False,payment authorization stuck,"last year's fest,"
+E2,E1,4,s (Starts),False,sponsor meeting,payment authorization stuck
+E2,E3,-1,> (Preceded By),False,sponsor meeting,news broke of a rival fest's launch
+E2,E4,1,< (Precedes),False,sponsor meeting,domain renewal nearly lapsed
+E2,E5,1,< (Precedes),False,sponsor meeting,design lead returned from the printer's shop
+E2,E6,1,< (Precedes),False,sponsor meeting,banner artwork wasn't approved
+E2,E7,1,< (Precedes),False,sponsor meeting,server going live
+E2,E8,1,< (Precedes),False,sponsor meeting,stress test his team had run
+E2,E9,1,< (Precedes),False,sponsor meeting,seen her in the green room
+E2,E10,1,< (Precedes),False,sponsor meeting,Shanto refreshed the fest website's analytics dashboard
+E2,E11,1,< (Precedes),False,sponsor meeting,opening ceremony rehearsal happening
+E2,E12,1,< (Precedes),False,sponsor meeting,a trip made the morning
+E2,E13,1,< (Precedes),False,sponsor meeting,"news that, ironically, wouldn't be public until the following Monday"
+E2,E14,1,< (Precedes),False,sponsor meeting,hadn't landed yet
+E2,E15,1,< (Precedes),False,sponsor meeting,been written into the live production table
+E2,E16,1,< (Precedes),False,sponsor meeting,already happened in the database days before the first guest walked through
+E2,E17,1,< (Precedes),False,sponsor meeting,hadn't even been unlocked
+E2,E18,-1,> (Preceded By),False,sponsor meeting,"last year's fest,"
+E3,E1,1,< (Precedes),False,news broke of a rival fest's launch,payment authorization stuck
+E3,E2,1,< (Precedes),False,news broke of a rival fest's launch,sponsor meeting
+E3,E4,1,< (Precedes),False,news broke of a rival fest's launch,domain renewal nearly lapsed
+E3,E5,1,< (Precedes),False,news broke of a rival fest's launch,design lead returned from the printer's shop
+E3,E6,1,< (Precedes),False,news broke of a rival fest's launch,banner artwork wasn't approved
+E3,E7,1,< (Precedes),False,news broke of a rival fest's launch,server going live
+E3,E8,1,< (Precedes),False,news broke of a rival fest's launch,stress test his team had run
+E3,E9,1,< (Precedes),False,news broke of a rival fest's launch,seen her in the green room
+E3,E10,1,< (Precedes),False,news broke of a rival fest's launch,Shanto refreshed the fest website's analytics dashboard
+E3,E11,1,< (Precedes),False,news broke of a rival fest's launch,opening ceremony rehearsal happening
+E3,E12,1,< (Precedes),False,news broke of a rival fest's launch,a trip made the morning
+E3,E13,1,< (Precedes),False,news broke of a rival fest's launch,"news that, ironically, wouldn't be public until the following Monday"
+E3,E14,1,< (Precedes),False,news broke of a rival fest's launch,hadn't landed yet
+E3,E15,1,< (Precedes),False,news broke of a rival fest's launch,been written into the live production table
+E3,E16,1,< (Precedes),False,news broke of a rival fest's launch,already happened in the database days before the first guest walked through
+E3,E17,1,< (Precedes),False,news broke of a rival fest's launch,hadn't even been unlocked
+E3,E18,-1,> (Preceded By),False,news broke of a rival fest's launch,"last year's fest,"
+E4,E1,5,d (During),False,domain renewal nearly lapsed,payment authorization stuck
+E4,E2,-1,> (Preceded By),False,domain renewal nearly lapsed,sponsor meeting
+E4,E3,-1,> (Preceded By),False,domain renewal nearly lapsed,news broke of a rival fest's launch
+E4,E5,1,< (Precedes),False,domain renewal nearly lapsed,design lead returned from the printer's shop
+E4,E6,5,d (During),False,domain renewal nearly lapsed,banner artwork wasn't approved
+E4,E7,1,< (Precedes),False,domain renewal nearly lapsed,server going live
+E4,E8,1,< (Precedes),False,domain renewal nearly lapsed,stress test his team had run
+E4,E9,1,< (Precedes),False,domain renewal nearly lapsed,seen her in the green room
+E4,E10,1,< (Precedes),False,domain renewal nearly lapsed,Shanto refreshed the fest website's analytics dashboard
+E4,E11,1,< (Precedes),False,domain renewal nearly lapsed,opening ceremony rehearsal happening
+E4,E12,1,< (Precedes),False,domain renewal nearly lapsed,a trip made the morning
+E4,E13,1,< (Precedes),False,domain renewal nearly lapsed,"news that, ironically, wouldn't be public until the following Monday"
+E4,E14,1,< (Precedes),False,domain renewal nearly lapsed,hadn't landed yet
+E4,E15,1,< (Precedes),False,domain renewal nearly lapsed,been written into the live production table
+E4,E16,1,< (Precedes),False,domain renewal nearly lapsed,already happened in the database days before the first guest walked through
+E4,E17,1,< (Precedes),False,domain renewal nearly lapsed,hadn't even been unlocked
+E4,E18,-1,> (Preceded By),False,domain renewal nearly lapsed,"last year's fest,"
+E5,E1,5,d (During),False,design lead returned from the printer's shop,payment authorization stuck
+E5,E2,-1,> (Preceded By),False,design lead returned from the printer's shop,sponsor meeting
+E5,E3,-1,> (Preceded By),False,design lead returned from the printer's shop,news broke of a rival fest's launch
+E5,E4,-1,> (Preceded By),False,design lead returned from the printer's shop,domain renewal nearly lapsed
+E5,E6,-2,mi (Met By),False,design lead returned from the printer's shop,banner artwork wasn't approved
+E5,E7,1,< (Precedes),False,design lead returned from the printer's shop,server going live
+E5,E8,1,< (Precedes),False,design lead returned from the printer's shop,stress test his team had run
+E5,E9,1,< (Precedes),False,design lead returned from the printer's shop,seen her in the green room
+E5,E10,1,< (Precedes),False,design lead returned from the printer's shop,Shanto refreshed the fest website's analytics dashboard
+E5,E11,1,< (Precedes),False,design lead returned from the printer's shop,opening ceremony rehearsal happening
+E5,E12,0,= (Equal),False,design lead returned from the printer's shop,a trip made the morning
+E5,E13,1,< (Precedes),False,design lead returned from the printer's shop,"news that, ironically, wouldn't be public until the following Monday"
+E5,E14,1,< (Precedes),False,design lead returned from the printer's shop,hadn't landed yet
+E5,E15,1,< (Precedes),False,design lead returned from the printer's shop,been written into the live production table
+E5,E16,1,< (Precedes),False,design lead returned from the printer's shop,already happened in the database days before the first guest walked through
+E5,E17,1,< (Precedes),False,design lead returned from the printer's shop,hadn't even been unlocked
+E5,E18,-1,> (Preceded By),False,design lead returned from the printer's shop,"last year's fest,"
+E6,E1,5,d (During),False,banner artwork wasn't approved,payment authorization stuck
+E6,E2,-1,> (Preceded By),False,banner artwork wasn't approved,sponsor meeting
+E6,E3,-1,> (Preceded By),False,banner artwork wasn't approved,news broke of a rival fest's launch
+E6,E4,-5,di (Contains),False,banner artwork wasn't approved,domain renewal nearly lapsed
+E6,E5,2,m (Meets),False,banner artwork wasn't approved,design lead returned from the printer's shop
+E6,E7,1,< (Precedes),False,banner artwork wasn't approved,server going live
+E6,E8,1,< (Precedes),False,banner artwork wasn't approved,stress test his team had run
+E6,E9,1,< (Precedes),False,banner artwork wasn't approved,seen her in the green room
+E6,E10,1,< (Precedes),False,banner artwork wasn't approved,Shanto refreshed the fest website's analytics dashboard
+E6,E11,1,< (Precedes),False,banner artwork wasn't approved,opening ceremony rehearsal happening
+E6,E12,2,m (Meets),False,banner artwork wasn't approved,a trip made the morning
+E6,E13,1,< (Precedes),False,banner artwork wasn't approved,"news that, ironically, wouldn't be public until the following Monday"
+E6,E14,1,< (Precedes),False,banner artwork wasn't approved,hadn't landed yet
+E6,E15,1,< (Precedes),False,banner artwork wasn't approved,been written into the live production table
+E6,E16,1,< (Precedes),False,banner artwork wasn't approved,already happened in the database days before the first guest walked through
+E6,E17,1,< (Precedes),False,banner artwork wasn't approved,hadn't even been unlocked
+E6,E18,-1,> (Preceded By),False,banner artwork wasn't approved,"last year's fest,"
+E7,E1,5,d (During),False,server going live,payment authorization stuck
+E7,E2,-1,> (Preceded By),False,server going live,sponsor meeting
+E7,E3,-1,> (Preceded By),False,server going live,news broke of a rival fest's launch
+E7,E4,-1,> (Preceded By),False,server going live,domain renewal nearly lapsed
+E7,E5,-1,> (Preceded By),False,server going live,design lead returned from the printer's shop
+E7,E6,-1,> (Preceded By),False,server going live,banner artwork wasn't approved
+E7,E8,5,d (During),False,server going live,stress test his team had run
+E7,E9,1,< (Precedes),False,server going live,seen her in the green room
+E7,E10,1,< (Precedes),False,server going live,Shanto refreshed the fest website's analytics dashboard
+E7,E11,1,< (Precedes),False,server going live,opening ceremony rehearsal happening
+E7,E12,-1,> (Preceded By),False,server going live,a trip made the morning
+E7,E13,1,< (Precedes),False,server going live,"news that, ironically, wouldn't be public until the following Monday"
+E7,E14,1,< (Precedes),False,server going live,hadn't landed yet
+E7,E15,-1,> (Preceded By),False,server going live,been written into the live production table
+E7,E16,5,d (During),False,server going live,already happened in the database days before the first guest walked through
+E7,E17,1,< (Precedes),False,server going live,hadn't even been unlocked
+E7,E18,-1,> (Preceded By),False,server going live,"last year's fest,"
+E8,E1,6,f (Finishes),False,stress test his team had run,payment authorization stuck
+E8,E2,-1,> (Preceded By),False,stress test his team had run,sponsor meeting
+E8,E3,-1,> (Preceded By),False,stress test his team had run,news broke of a rival fest's launch
+E8,E4,-1,> (Preceded By),False,stress test his team had run,domain renewal nearly lapsed
+E8,E5,-1,> (Preceded By),False,stress test his team had run,design lead returned from the printer's shop
+E8,E6,-1,> (Preceded By),False,stress test his team had run,banner artwork wasn't approved
+E8,E7,-5,di (Contains),False,stress test his team had run,server going live
+E8,E9,-5,di (Contains),False,stress test his team had run,seen her in the green room
+E8,E10,2,m (Meets),False,stress test his team had run,Shanto refreshed the fest website's analytics dashboard
+E8,E11,3,o (Overlaps),False,stress test his team had run,opening ceremony rehearsal happening
+E8,E12,-1,> (Preceded By),False,stress test his team had run,a trip made the morning
+E8,E13,2,m (Meets),False,stress test his team had run,"news that, ironically, wouldn't be public until the following Monday"
+E8,E14,2,m (Meets),False,stress test his team had run,hadn't landed yet
+E8,E15,-5,di (Contains),False,stress test his team had run,been written into the live production table
+E8,E16,-6,fi (Finished By),False,stress test his team had run,already happened in the database days before the first guest walked through
+E8,E17,2,m (Meets),False,stress test his team had run,hadn't even been unlocked
+E8,E18,-1,> (Preceded By),False,stress test his team had run,"last year's fest,"
+E9,E1,5,d (During),False,seen her in the green room,payment authorization stuck
+E9,E2,-1,> (Preceded By),False,seen her in the green room,sponsor meeting
+E9,E3,-1,> (Preceded By),False,seen her in the green room,news broke of a rival fest's launch
+E9,E4,-1,> (Preceded By),False,seen her in the green room,domain renewal nearly lapsed
+E9,E5,-1,> (Preceded By),False,seen her in the green room,design lead returned from the printer's shop
+E9,E6,-1,> (Preceded By),False,seen her in the green room,banner artwork wasn't approved
+E9,E7,-1,> (Preceded By),False,seen her in the green room,server going live
+E9,E8,5,d (During),False,seen her in the green room,stress test his team had run
+E9,E10,1,< (Precedes),False,seen her in the green room,Shanto refreshed the fest website's analytics dashboard
+E9,E11,1,< (Precedes),False,seen her in the green room,opening ceremony rehearsal happening
+E9,E12,-1,> (Preceded By),False,seen her in the green room,a trip made the morning
+E9,E13,1,< (Precedes),False,seen her in the green room,"news that, ironically, wouldn't be public until the following Monday"
+E9,E14,1,< (Precedes),False,seen her in the green room,hadn't landed yet
+E9,E15,-1,> (Preceded By),False,seen her in the green room,been written into the live production table
+E9,E16,5,d (During),False,seen her in the green room,already happened in the database days before the first guest walked through
+E9,E17,1,< (Precedes),False,seen her in the green room,hadn't even been unlocked
+E9,E18,-1,> (Preceded By),False,seen her in the green room,"last year's fest,"
+E10,E1,-2,mi (Met By),False,Shanto refreshed the fest website's analytics dashboard,payment authorization stuck
+E10,E2,-1,> (Preceded By),False,Shanto refreshed the fest website's analytics dashboard,sponsor meeting
+E10,E3,-1,> (Preceded By),False,Shanto refreshed the fest website's analytics dashboard,news broke of a rival fest's launch
+E10,E4,-1,> (Preceded By),False,Shanto refreshed the fest website's analytics dashboard,domain renewal nearly lapsed
+E10,E5,-1,> (Preceded By),False,Shanto refreshed the fest website's analytics dashboard,design lead returned from the printer's shop
+E10,E6,-1,> (Preceded By),False,Shanto refreshed the fest website's analytics dashboard,banner artwork wasn't approved
+E10,E7,-1,> (Preceded By),False,Shanto refreshed the fest website's analytics dashboard,server going live
+E10,E8,-2,mi (Met By),False,Shanto refreshed the fest website's analytics dashboard,stress test his team had run
+E10,E9,-1,> (Preceded By),False,Shanto refreshed the fest website's analytics dashboard,seen her in the green room
+E10,E11,5,d (During),False,Shanto refreshed the fest website's analytics dashboard,opening ceremony rehearsal happening
+E10,E12,-1,> (Preceded By),False,Shanto refreshed the fest website's analytics dashboard,a trip made the morning
+E10,E13,4,s (Starts),False,Shanto refreshed the fest website's analytics dashboard,"news that, ironically, wouldn't be public until the following Monday"
+E10,E14,4,s (Starts),False,Shanto refreshed the fest website's analytics dashboard,hadn't landed yet
+E10,E15,-1,> (Preceded By),False,Shanto refreshed the fest website's analytics dashboard,been written into the live production table
+E10,E16,-2,mi (Met By),False,Shanto refreshed the fest website's analytics dashboard,already happened in the database days before the first guest walked through
+E10,E17,4,s (Starts),False,Shanto refreshed the fest website's analytics dashboard,hadn't even been unlocked
+E10,E18,-1,> (Preceded By),False,Shanto refreshed the fest website's analytics dashboard,"last year's fest,"
+E11,E1,-3,oi (Overlapped By),False,opening ceremony rehearsal happening,payment authorization stuck
+E11,E2,-1,> (Preceded By),False,opening ceremony rehearsal happening,sponsor meeting
+E11,E3,-1,> (Preceded By),False,opening ceremony rehearsal happening,news broke of a rival fest's launch
+E11,E4,-1,> (Preceded By),False,opening ceremony rehearsal happening,domain renewal nearly lapsed
+E11,E5,-1,> (Preceded By),False,opening ceremony rehearsal happening,design lead returned from the printer's shop
+E11,E6,-1,> (Preceded By),False,opening ceremony rehearsal happening,banner artwork wasn't approved
+E11,E7,-1,> (Preceded By),False,opening ceremony rehearsal happening,server going live
+E11,E8,-3,oi (Overlapped By),False,opening ceremony rehearsal happening,stress test his team had run
+E11,E9,-1,> (Preceded By),False,opening ceremony rehearsal happening,seen her in the green room
+E11,E10,-5,di (Contains),False,opening ceremony rehearsal happening,Shanto refreshed the fest website's analytics dashboard
+E11,E12,-1,> (Preceded By),False,opening ceremony rehearsal happening,a trip made the morning
+E11,E13,3,o (Overlaps),False,opening ceremony rehearsal happening,"news that, ironically, wouldn't be public until the following Monday"
+E11,E14,3,o (Overlaps),False,opening ceremony rehearsal happening,hadn't landed yet
+E11,E15,-1,> (Preceded By),False,opening ceremony rehearsal happening,been written into the live production table
+E11,E16,-3,oi (Overlapped By),False,opening ceremony rehearsal happening,already happened in the database days before the first guest walked through
+E11,E17,3,o (Overlaps),False,opening ceremony rehearsal happening,hadn't even been unlocked
+E11,E18,-1,> (Preceded By),False,opening ceremony rehearsal happening,"last year's fest,"
+E12,E1,5,d (During),False,a trip made the morning,payment authorization stuck
+E12,E2,-1,> (Preceded By),False,a trip made the morning,sponsor meeting
+E12,E3,-1,> (Preceded By),False,a trip made the morning,news broke of a rival fest's launch
+E12,E4,-1,> (Preceded By),False,a trip made the morning,domain renewal nearly lapsed
+E12,E5,0,= (Equal),False,a trip made the morning,design lead returned from the printer's shop
+E12,E6,-2,mi (Met By),False,a trip made the morning,banner artwork wasn't approved
+E12,E7,1,< (Precedes),False,a trip made the morning,server going live
+E12,E8,1,< (Precedes),False,a trip made the morning,stress test his team had run
+E12,E9,1,< (Precedes),False,a trip made the morning,seen her in the green room
+E12,E10,1,< (Precedes),False,a trip made the morning,Shanto refreshed the fest website's analytics dashboard
+E12,E11,1,< (Precedes),False,a trip made the morning,opening ceremony rehearsal happening
+E12,E13,1,< (Precedes),False,a trip made the morning,"news that, ironically, wouldn't be public until the following Monday"
+E12,E14,1,< (Precedes),False,a trip made the morning,hadn't landed yet
+E12,E15,1,< (Precedes),False,a trip made the morning,been written into the live production table
+E12,E16,1,< (Precedes),False,a trip made the morning,already happened in the database days before the first guest walked through
+E12,E17,1,< (Precedes),False,a trip made the morning,hadn't even been unlocked
+E12,E18,-1,> (Preceded By),False,a trip made the morning,"last year's fest,"
+E13,E1,-2,mi (Met By),False,"news that, ironically, wouldn't be public until the following Monday",payment authorization stuck
+E13,E2,-1,> (Preceded By),False,"news that, ironically, wouldn't be public until the following Monday",sponsor meeting
+E13,E3,-1,> (Preceded By),False,"news that, ironically, wouldn't be public until the following Monday",news broke of a rival fest's launch
+E13,E4,-1,> (Preceded By),False,"news that, ironically, wouldn't be public until the following Monday",domain renewal nearly lapsed
+E13,E5,-1,> (Preceded By),False,"news that, ironically, wouldn't be public until the following Monday",design lead returned from the printer's shop
+E13,E6,-1,> (Preceded By),False,"news that, ironically, wouldn't be public until the following Monday",banner artwork wasn't approved
+E13,E7,-1,> (Preceded By),False,"news that, ironically, wouldn't be public until the following Monday",server going live
+E13,E8,-2,mi (Met By),False,"news that, ironically, wouldn't be public until the following Monday",stress test his team had run
+E13,E9,-1,> (Preceded By),False,"news that, ironically, wouldn't be public until the following Monday",seen her in the green room
+E13,E10,-4,si (Started By),False,"news that, ironically, wouldn't be public until the following Monday",Shanto refreshed the fest website's analytics dashboard
+E13,E11,-3,oi (Overlapped By),False,"news that, ironically, wouldn't be public until the following Monday",opening ceremony rehearsal happening
+E13,E12,-1,> (Preceded By),False,"news that, ironically, wouldn't be public until the following Monday",a trip made the morning
+E13,E14,0,= (Equal),False,"news that, ironically, wouldn't be public until the following Monday",hadn't landed yet
+E13,E15,-1,> (Preceded By),False,"news that, ironically, wouldn't be public until the following Monday",been written into the live production table
+E13,E16,-2,mi (Met By),False,"news that, ironically, wouldn't be public until the following Monday",already happened in the database days before the first guest walked through
+E13,E17,0,= (Equal),False,"news that, ironically, wouldn't be public until the following Monday",hadn't even been unlocked
+E13,E18,-1,> (Preceded By),False,"news that, ironically, wouldn't be public until the following Monday","last year's fest,"
+E14,E1,-2,mi (Met By),False,hadn't landed yet,payment authorization stuck
+E14,E2,-1,> (Preceded By),False,hadn't landed yet,sponsor meeting
+E14,E3,-1,> (Preceded By),False,hadn't landed yet,news broke of a rival fest's launch
+E14,E4,-1,> (Preceded By),False,hadn't landed yet,domain renewal nearly lapsed
+E14,E5,-1,> (Preceded By),False,hadn't landed yet,design lead returned from the printer's shop
+E14,E6,-1,> (Preceded By),False,hadn't landed yet,banner artwork wasn't approved
+E14,E7,-1,> (Preceded By),False,hadn't landed yet,server going live
+E14,E8,-2,mi (Met By),False,hadn't landed yet,stress test his team had run
+E14,E9,-1,> (Preceded By),False,hadn't landed yet,seen her in the green room
+E14,E10,-4,si (Started By),False,hadn't landed yet,Shanto refreshed the fest website's analytics dashboard
+E14,E11,-3,oi (Overlapped By),False,hadn't landed yet,opening ceremony rehearsal happening
+E14,E12,-1,> (Preceded By),False,hadn't landed yet,a trip made the morning
+E14,E13,0,= (Equal),False,hadn't landed yet,"news that, ironically, wouldn't be public until the following Monday"
+E14,E15,-1,> (Preceded By),False,hadn't landed yet,been written into the live production table
+E14,E16,-2,mi (Met By),False,hadn't landed yet,already happened in the database days before the first guest walked through
+E14,E17,0,= (Equal),False,hadn't landed yet,hadn't even been unlocked
+E14,E18,-1,> (Preceded By),False,hadn't landed yet,"last year's fest,"
+E15,E1,5,d (During),False,been written into the live production table,payment authorization stuck
+E15,E2,-1,> (Preceded By),False,been written into the live production table,sponsor meeting
+E15,E3,-1,> (Preceded By),False,been written into the live production table,news broke of a rival fest's launch
+E15,E4,-1,> (Preceded By),False,been written into the live production table,domain renewal nearly lapsed
+E15,E5,-1,> (Preceded By),False,been written into the live production table,design lead returned from the printer's shop
+E15,E6,-1,> (Preceded By),False,been written into the live production table,banner artwork wasn't approved
+E15,E7,1,< (Precedes),False,been written into the live production table,server going live
+E15,E8,5,d (During),False,been written into the live production table,stress test his team had run
+E15,E9,1,< (Precedes),False,been written into the live production table,seen her in the green room
+E15,E10,1,< (Precedes),False,been written into the live production table,Shanto refreshed the fest website's analytics dashboard
+E15,E11,1,< (Precedes),False,been written into the live production table,opening ceremony rehearsal happening
+E15,E12,-1,> (Preceded By),False,been written into the live production table,a trip made the morning
+E15,E13,1,< (Precedes),False,been written into the live production table,"news that, ironically, wouldn't be public until the following Monday"
+E15,E14,1,< (Precedes),False,been written into the live production table,hadn't landed yet
+E15,E16,2,m (Meets),False,been written into the live production table,already happened in the database days before the first guest walked through
+E15,E17,1,< (Precedes),False,been written into the live production table,hadn't even been unlocked
+E15,E18,-1,> (Preceded By),False,been written into the live production table,"last year's fest,"
+E16,E1,6,f (Finishes),False,already happened in the database days before the first guest walked through,payment authorization stuck
+E16,E2,-1,> (Preceded By),False,already happened in the database days before the first guest walked through,sponsor meeting
+E16,E3,-1,> (Preceded By),False,already happened in the database days before the first guest walked through,news broke of a rival fest's launch
+E16,E4,-1,> (Preceded By),False,already happened in the database days before the first guest walked through,domain renewal nearly lapsed
+E16,E5,-1,> (Preceded By),False,already happened in the database days before the first guest walked through,design lead returned from the printer's shop
+E16,E6,-1,> (Preceded By),False,already happened in the database days before the first guest walked through,banner artwork wasn't approved
+E16,E7,-5,di (Contains),False,already happened in the database days before the first guest walked through,server going live
+E16,E8,6,f (Finishes),False,already happened in the database days before the first guest walked through,stress test his team had run
+E16,E9,-5,di (Contains),False,already happened in the database days before the first guest walked through,seen her in the green room
+E16,E10,2,m (Meets),False,already happened in the database days before the first guest walked through,Shanto refreshed the fest website's analytics dashboard
+E16,E11,3,o (Overlaps),False,already happened in the database days before the first guest walked through,opening ceremony rehearsal happening
+E16,E12,-1,> (Preceded By),False,already happened in the database days before the first guest walked through,a trip made the morning
+E16,E13,2,m (Meets),False,already happened in the database days before the first guest walked through,"news that, ironically, wouldn't be public until the following Monday"
+E16,E14,2,m (Meets),False,already happened in the database days before the first guest walked through,hadn't landed yet
+E16,E15,-2,mi (Met By),False,already happened in the database days before the first guest walked through,been written into the live production table
+E16,E17,2,m (Meets),False,already happened in the database days before the first guest walked through,hadn't even been unlocked
+E16,E18,-1,> (Preceded By),False,already happened in the database days before the first guest walked through,"last year's fest,"
+E17,E1,-2,mi (Met By),False,hadn't even been unlocked,payment authorization stuck
+E17,E2,-1,> (Preceded By),False,hadn't even been unlocked,sponsor meeting
+E17,E3,-1,> (Preceded By),False,hadn't even been unlocked,news broke of a rival fest's launch
+E17,E4,-1,> (Preceded By),False,hadn't even been unlocked,domain renewal nearly lapsed
+E17,E5,-1,> (Preceded By),False,hadn't even been unlocked,design lead returned from the printer's shop
+E17,E6,-1,> (Preceded By),False,hadn't even been unlocked,banner artwork wasn't approved
+E17,E7,-1,> (Preceded By),False,hadn't even been unlocked,server going live
+E17,E8,-2,mi (Met By),False,hadn't even been unlocked,stress test his team had run
+E17,E9,-1,> (Preceded By),False,hadn't even been unlocked,seen her in the green room
+E17,E10,-4,si (Started By),False,hadn't even been unlocked,Shanto refreshed the fest website's analytics dashboard
+E17,E11,-3,oi (Overlapped By),False,hadn't even been unlocked,opening ceremony rehearsal happening
+E17,E12,-1,> (Preceded By),False,hadn't even been unlocked,a trip made the morning
+E17,E13,0,= (Equal),False,hadn't even been unlocked,"news that, ironically, wouldn't be public until the following Monday"
+E17,E14,0,= (Equal),False,hadn't even been unlocked,hadn't landed yet
+E17,E15,-1,> (Preceded By),False,hadn't even been unlocked,been written into the live production table
+E17,E16,-2,mi (Met By),False,hadn't even been unlocked,already happened in the database days before the first guest walked through
+E17,E18,-1,> (Preceded By),False,hadn't even been unlocked,"last year's fest,"
+E18,E1,1,< (Precedes),False,"last year's fest,",payment authorization stuck
+E18,E2,1,< (Precedes),False,"last year's fest,",sponsor meeting
+E18,E3,1,< (Precedes),False,"last year's fest,",news broke of a rival fest's launch
+E18,E4,1,< (Precedes),False,"last year's fest,",domain renewal nearly lapsed
+E18,E5,1,< (Precedes),False,"last year's fest,",design lead returned from the printer's shop
+E18,E6,1,< (Precedes),False,"last year's fest,",banner artwork wasn't approved
+E18,E7,1,< (Precedes),False,"last year's fest,",server going live
+E18,E8,1,< (Precedes),False,"last year's fest,",stress test his team had run
+E18,E9,1,< (Precedes),False,"last year's fest,",seen her in the green room
+E18,E10,1,< (Precedes),False,"last year's fest,",Shanto refreshed the fest website's analytics dashboard
+E18,E11,1,< (Precedes),False,"last year's fest,",opening ceremony rehearsal happening
+E18,E12,1,< (Precedes),False,"last year's fest,",a trip made the morning
+E18,E13,1,< (Precedes),False,"last year's fest,","news that, ironically, wouldn't be public until the following Monday"
+E18,E14,1,< (Precedes),False,"last year's fest,",hadn't landed yet
+E18,E15,1,< (Precedes),False,"last year's fest,",been written into the live production table
+E18,E16,1,< (Precedes),False,"last year's fest,",already happened in the database days before the first guest walked through
+E18,E17,1,< (Precedes),False,"last year's fest,",hadn't even been unlocked

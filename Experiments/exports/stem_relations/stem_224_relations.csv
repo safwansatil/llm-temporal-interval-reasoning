@@ -1,0 +1,343 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,The logbook covered three voyages between 1847 and 1853,Saw a right whale
+E1,E3,-5,di (Contains),False,The logbook covered three voyages between 1847 and 1853,Pursued three hours
+E1,E4,-5,di (Contains),False,The logbook covered three voyages between 1847 and 1853,Lost in fog
+E1,E5,-5,di (Contains),False,The logbook covered three voyages between 1847 and 1853,Killed a sperm whale
+E1,E6,-5,di (Contains),False,The logbook covered three voyages between 1847 and 1853,The harpooning at dawn
+E1,E7,-5,di (Contains),False,The logbook covered three voyages between 1847 and 1853,the death at mid morning
+E1,E8,-5,di (Contains),False,The logbook covered three voyages between 1847 and 1853,the flensing over the following two days
+E1,E9,1,< (Precedes),False,The logbook covered three voyages between 1847 and 1853,later became a captain
+E1,E10,1,< (Precedes),False,The logbook covered three voyages between 1847 and 1853,the ship crushed by ice
+E1,E11,1,< (Precedes),False,The logbook covered three voyages between 1847 and 1853,The crew walked seventy miles over six days
+E1,E12,1,< (Precedes),False,The logbook covered three voyages between 1847 and 1853,found in a trunk in 1924
+E1,E13,1,< (Precedes),False,The logbook covered three voyages between 1847 and 1853,sold at auction in 1985
+E1,E14,1,< (Precedes),False,The logbook covered three voyages between 1847 and 1853,digitised in 2019
+E1,E15,1,< (Precedes),False,The logbook covered three voyages between 1847 and 1853,a historian who read it in an afternoon
+E1,E16,1,< (Precedes),False,The logbook covered three voyages between 1847 and 1853,The historian noted
+E1,E17,-6,fi (Finished By),False,The logbook covered three voyages between 1847 and 1853,the mate's handwriting deteriorated
+E1,E18,-5,di (Contains),False,The logbook covered three voyages between 1847 and 1853,The fog that lost the right whale had lasted
+E1,E19,1,< (Precedes),False,The logbook covered three voyages between 1847 and 1853,The historian closed the file
+E2,E1,5,d (During),False,Saw a right whale,The logbook covered three voyages between 1847 and 1853
+E2,E3,2,m (Meets),False,Saw a right whale,Pursued three hours
+E2,E4,1,< (Precedes),False,Saw a right whale,Lost in fog
+E2,E5,1,< (Precedes),False,Saw a right whale,Killed a sperm whale
+E2,E6,1,< (Precedes),False,Saw a right whale,The harpooning at dawn
+E2,E7,1,< (Precedes),False,Saw a right whale,the death at mid morning
+E2,E8,1,< (Precedes),False,Saw a right whale,the flensing over the following two days
+E2,E9,1,< (Precedes),False,Saw a right whale,later became a captain
+E2,E10,1,< (Precedes),False,Saw a right whale,the ship crushed by ice
+E2,E11,1,< (Precedes),False,Saw a right whale,The crew walked seventy miles over six days
+E2,E12,1,< (Precedes),False,Saw a right whale,found in a trunk in 1924
+E2,E13,1,< (Precedes),False,Saw a right whale,sold at auction in 1985
+E2,E14,1,< (Precedes),False,Saw a right whale,digitised in 2019
+E2,E15,1,< (Precedes),False,Saw a right whale,a historian who read it in an afternoon
+E2,E16,1,< (Precedes),False,Saw a right whale,The historian noted
+E2,E17,1,< (Precedes),False,Saw a right whale,the mate's handwriting deteriorated
+E2,E18,4,s (Starts),False,Saw a right whale,The fog that lost the right whale had lasted
+E2,E19,1,< (Precedes),False,Saw a right whale,The historian closed the file
+E3,E1,5,d (During),False,Pursued three hours,The logbook covered three voyages between 1847 and 1853
+E3,E2,-2,mi (Met By),False,Pursued three hours,Saw a right whale
+E3,E4,2,m (Meets),False,Pursued three hours,Lost in fog
+E3,E5,1,< (Precedes),False,Pursued three hours,Killed a sperm whale
+E3,E6,1,< (Precedes),False,Pursued three hours,The harpooning at dawn
+E3,E7,1,< (Precedes),False,Pursued three hours,the death at mid morning
+E3,E8,1,< (Precedes),False,Pursued three hours,the flensing over the following two days
+E3,E9,1,< (Precedes),False,Pursued three hours,later became a captain
+E3,E10,1,< (Precedes),False,Pursued three hours,the ship crushed by ice
+E3,E11,1,< (Precedes),False,Pursued three hours,The crew walked seventy miles over six days
+E3,E12,1,< (Precedes),False,Pursued three hours,found in a trunk in 1924
+E3,E13,1,< (Precedes),False,Pursued three hours,sold at auction in 1985
+E3,E14,1,< (Precedes),False,Pursued three hours,digitised in 2019
+E3,E15,1,< (Precedes),False,Pursued three hours,a historian who read it in an afternoon
+E3,E16,1,< (Precedes),False,Pursued three hours,The historian noted
+E3,E17,1,< (Precedes),False,Pursued three hours,the mate's handwriting deteriorated
+E3,E18,5,d (During),False,Pursued three hours,The fog that lost the right whale had lasted
+E3,E19,1,< (Precedes),False,Pursued three hours,The historian closed the file
+E4,E1,5,d (During),False,Lost in fog,The logbook covered three voyages between 1847 and 1853
+E4,E2,-1,> (Preceded By),False,Lost in fog,Saw a right whale
+E4,E3,-2,mi (Met By),False,Lost in fog,Pursued three hours
+E4,E5,1,< (Precedes),False,Lost in fog,Killed a sperm whale
+E4,E6,1,< (Precedes),False,Lost in fog,The harpooning at dawn
+E4,E7,1,< (Precedes),False,Lost in fog,the death at mid morning
+E4,E8,1,< (Precedes),False,Lost in fog,the flensing over the following two days
+E4,E9,1,< (Precedes),False,Lost in fog,later became a captain
+E4,E10,1,< (Precedes),False,Lost in fog,the ship crushed by ice
+E4,E11,1,< (Precedes),False,Lost in fog,The crew walked seventy miles over six days
+E4,E12,1,< (Precedes),False,Lost in fog,found in a trunk in 1924
+E4,E13,1,< (Precedes),False,Lost in fog,sold at auction in 1985
+E4,E14,1,< (Precedes),False,Lost in fog,digitised in 2019
+E4,E15,1,< (Precedes),False,Lost in fog,a historian who read it in an afternoon
+E4,E16,1,< (Precedes),False,Lost in fog,The historian noted
+E4,E17,1,< (Precedes),False,Lost in fog,the mate's handwriting deteriorated
+E4,E18,6,f (Finishes),False,Lost in fog,The fog that lost the right whale had lasted
+E4,E19,1,< (Precedes),False,Lost in fog,The historian closed the file
+E5,E1,5,d (During),False,Killed a sperm whale,The logbook covered three voyages between 1847 and 1853
+E5,E2,-1,> (Preceded By),False,Killed a sperm whale,Saw a right whale
+E5,E3,-1,> (Preceded By),False,Killed a sperm whale,Pursued three hours
+E5,E4,-1,> (Preceded By),False,Killed a sperm whale,Lost in fog
+E5,E6,-4,si (Started By),False,Killed a sperm whale,The harpooning at dawn
+E5,E7,-6,fi (Finished By),False,Killed a sperm whale,the death at mid morning
+E5,E8,2,m (Meets),False,Killed a sperm whale,the flensing over the following two days
+E5,E9,1,< (Precedes),False,Killed a sperm whale,later became a captain
+E5,E10,1,< (Precedes),False,Killed a sperm whale,the ship crushed by ice
+E5,E11,1,< (Precedes),False,Killed a sperm whale,The crew walked seventy miles over six days
+E5,E12,1,< (Precedes),False,Killed a sperm whale,found in a trunk in 1924
+E5,E13,1,< (Precedes),False,Killed a sperm whale,sold at auction in 1985
+E5,E14,1,< (Precedes),False,Killed a sperm whale,digitised in 2019
+E5,E15,1,< (Precedes),False,Killed a sperm whale,a historian who read it in an afternoon
+E5,E16,1,< (Precedes),False,Killed a sperm whale,The historian noted
+E5,E17,2,m (Meets),False,Killed a sperm whale,the mate's handwriting deteriorated
+E5,E18,-1,> (Preceded By),False,Killed a sperm whale,The fog that lost the right whale had lasted
+E5,E19,1,< (Precedes),False,Killed a sperm whale,The historian closed the file
+E6,E1,5,d (During),False,The harpooning at dawn,The logbook covered three voyages between 1847 and 1853
+E6,E2,-1,> (Preceded By),False,The harpooning at dawn,Saw a right whale
+E6,E3,-1,> (Preceded By),False,The harpooning at dawn,Pursued three hours
+E6,E4,-1,> (Preceded By),False,The harpooning at dawn,Lost in fog
+E6,E5,4,s (Starts),False,The harpooning at dawn,Killed a sperm whale
+E6,E7,2,m (Meets),False,The harpooning at dawn,the death at mid morning
+E6,E8,1,< (Precedes),False,The harpooning at dawn,the flensing over the following two days
+E6,E9,1,< (Precedes),False,The harpooning at dawn,later became a captain
+E6,E10,1,< (Precedes),False,The harpooning at dawn,the ship crushed by ice
+E6,E11,1,< (Precedes),False,The harpooning at dawn,The crew walked seventy miles over six days
+E6,E12,1,< (Precedes),False,The harpooning at dawn,found in a trunk in 1924
+E6,E13,1,< (Precedes),False,The harpooning at dawn,sold at auction in 1985
+E6,E14,1,< (Precedes),False,The harpooning at dawn,digitised in 2019
+E6,E15,1,< (Precedes),False,The harpooning at dawn,a historian who read it in an afternoon
+E6,E16,1,< (Precedes),False,The harpooning at dawn,The historian noted
+E6,E17,1,< (Precedes),False,The harpooning at dawn,the mate's handwriting deteriorated
+E6,E18,-1,> (Preceded By),False,The harpooning at dawn,The fog that lost the right whale had lasted
+E6,E19,1,< (Precedes),False,The harpooning at dawn,The historian closed the file
+E7,E1,5,d (During),False,the death at mid morning,The logbook covered three voyages between 1847 and 1853
+E7,E2,-1,> (Preceded By),False,the death at mid morning,Saw a right whale
+E7,E3,-1,> (Preceded By),False,the death at mid morning,Pursued three hours
+E7,E4,-1,> (Preceded By),False,the death at mid morning,Lost in fog
+E7,E5,6,f (Finishes),False,the death at mid morning,Killed a sperm whale
+E7,E6,-2,mi (Met By),False,the death at mid morning,The harpooning at dawn
+E7,E8,2,m (Meets),False,the death at mid morning,the flensing over the following two days
+E7,E9,1,< (Precedes),False,the death at mid morning,later became a captain
+E7,E10,1,< (Precedes),False,the death at mid morning,the ship crushed by ice
+E7,E11,1,< (Precedes),False,the death at mid morning,The crew walked seventy miles over six days
+E7,E12,1,< (Precedes),False,the death at mid morning,found in a trunk in 1924
+E7,E13,1,< (Precedes),False,the death at mid morning,sold at auction in 1985
+E7,E14,1,< (Precedes),False,the death at mid morning,digitised in 2019
+E7,E15,1,< (Precedes),False,the death at mid morning,a historian who read it in an afternoon
+E7,E16,1,< (Precedes),False,the death at mid morning,The historian noted
+E7,E17,2,m (Meets),False,the death at mid morning,the mate's handwriting deteriorated
+E7,E18,-1,> (Preceded By),False,the death at mid morning,The fog that lost the right whale had lasted
+E7,E19,1,< (Precedes),False,the death at mid morning,The historian closed the file
+E8,E1,5,d (During),False,the flensing over the following two days,The logbook covered three voyages between 1847 and 1853
+E8,E2,-1,> (Preceded By),False,the flensing over the following two days,Saw a right whale
+E8,E3,-1,> (Preceded By),False,the flensing over the following two days,Pursued three hours
+E8,E4,-1,> (Preceded By),False,the flensing over the following two days,Lost in fog
+E8,E5,-2,mi (Met By),False,the flensing over the following two days,Killed a sperm whale
+E8,E6,-1,> (Preceded By),False,the flensing over the following two days,The harpooning at dawn
+E8,E7,-2,mi (Met By),False,the flensing over the following two days,the death at mid morning
+E8,E9,1,< (Precedes),False,the flensing over the following two days,later became a captain
+E8,E10,1,< (Precedes),False,the flensing over the following two days,the ship crushed by ice
+E8,E11,1,< (Precedes),False,the flensing over the following two days,The crew walked seventy miles over six days
+E8,E12,1,< (Precedes),False,the flensing over the following two days,found in a trunk in 1924
+E8,E13,1,< (Precedes),False,the flensing over the following two days,sold at auction in 1985
+E8,E14,1,< (Precedes),False,the flensing over the following two days,digitised in 2019
+E8,E15,1,< (Precedes),False,the flensing over the following two days,a historian who read it in an afternoon
+E8,E16,1,< (Precedes),False,the flensing over the following two days,The historian noted
+E8,E17,4,s (Starts),False,the flensing over the following two days,the mate's handwriting deteriorated
+E8,E18,-1,> (Preceded By),False,the flensing over the following two days,The fog that lost the right whale had lasted
+E8,E19,1,< (Precedes),False,the flensing over the following two days,The historian closed the file
+E9,E1,-1,> (Preceded By),False,later became a captain,The logbook covered three voyages between 1847 and 1853
+E9,E2,-1,> (Preceded By),False,later became a captain,Saw a right whale
+E9,E3,-1,> (Preceded By),False,later became a captain,Pursued three hours
+E9,E4,-1,> (Preceded By),False,later became a captain,Lost in fog
+E9,E5,-1,> (Preceded By),False,later became a captain,Killed a sperm whale
+E9,E6,-1,> (Preceded By),False,later became a captain,The harpooning at dawn
+E9,E7,-1,> (Preceded By),False,later became a captain,the death at mid morning
+E9,E8,-1,> (Preceded By),False,later became a captain,the flensing over the following two days
+E9,E10,1,< (Precedes),False,later became a captain,the ship crushed by ice
+E9,E11,1,< (Precedes),False,later became a captain,The crew walked seventy miles over six days
+E9,E12,1,< (Precedes),False,later became a captain,found in a trunk in 1924
+E9,E13,1,< (Precedes),False,later became a captain,sold at auction in 1985
+E9,E14,1,< (Precedes),False,later became a captain,digitised in 2019
+E9,E15,1,< (Precedes),False,later became a captain,a historian who read it in an afternoon
+E9,E16,1,< (Precedes),False,later became a captain,The historian noted
+E9,E17,-1,> (Preceded By),False,later became a captain,the mate's handwriting deteriorated
+E9,E18,-1,> (Preceded By),False,later became a captain,The fog that lost the right whale had lasted
+E9,E19,1,< (Precedes),False,later became a captain,The historian closed the file
+E10,E1,-1,> (Preceded By),False,the ship crushed by ice,The logbook covered three voyages between 1847 and 1853
+E10,E2,-1,> (Preceded By),False,the ship crushed by ice,Saw a right whale
+E10,E3,-1,> (Preceded By),False,the ship crushed by ice,Pursued three hours
+E10,E4,-1,> (Preceded By),False,the ship crushed by ice,Lost in fog
+E10,E5,-1,> (Preceded By),False,the ship crushed by ice,Killed a sperm whale
+E10,E6,-1,> (Preceded By),False,the ship crushed by ice,The harpooning at dawn
+E10,E7,-1,> (Preceded By),False,the ship crushed by ice,the death at mid morning
+E10,E8,-1,> (Preceded By),False,the ship crushed by ice,the flensing over the following two days
+E10,E9,-1,> (Preceded By),False,the ship crushed by ice,later became a captain
+E10,E11,2,m (Meets),False,the ship crushed by ice,The crew walked seventy miles over six days
+E10,E12,1,< (Precedes),False,the ship crushed by ice,found in a trunk in 1924
+E10,E13,1,< (Precedes),False,the ship crushed by ice,sold at auction in 1985
+E10,E14,1,< (Precedes),False,the ship crushed by ice,digitised in 2019
+E10,E15,1,< (Precedes),False,the ship crushed by ice,a historian who read it in an afternoon
+E10,E16,1,< (Precedes),False,the ship crushed by ice,The historian noted
+E10,E17,-1,> (Preceded By),False,the ship crushed by ice,the mate's handwriting deteriorated
+E10,E18,-1,> (Preceded By),False,the ship crushed by ice,The fog that lost the right whale had lasted
+E10,E19,1,< (Precedes),False,the ship crushed by ice,The historian closed the file
+E11,E1,-1,> (Preceded By),False,The crew walked seventy miles over six days,The logbook covered three voyages between 1847 and 1853
+E11,E2,-1,> (Preceded By),False,The crew walked seventy miles over six days,Saw a right whale
+E11,E3,-1,> (Preceded By),False,The crew walked seventy miles over six days,Pursued three hours
+E11,E4,-1,> (Preceded By),False,The crew walked seventy miles over six days,Lost in fog
+E11,E5,-1,> (Preceded By),False,The crew walked seventy miles over six days,Killed a sperm whale
+E11,E6,-1,> (Preceded By),False,The crew walked seventy miles over six days,The harpooning at dawn
+E11,E7,-1,> (Preceded By),False,The crew walked seventy miles over six days,the death at mid morning
+E11,E8,-1,> (Preceded By),False,The crew walked seventy miles over six days,the flensing over the following two days
+E11,E9,-1,> (Preceded By),False,The crew walked seventy miles over six days,later became a captain
+E11,E10,-2,mi (Met By),False,The crew walked seventy miles over six days,the ship crushed by ice
+E11,E12,1,< (Precedes),False,The crew walked seventy miles over six days,found in a trunk in 1924
+E11,E13,1,< (Precedes),False,The crew walked seventy miles over six days,sold at auction in 1985
+E11,E14,1,< (Precedes),False,The crew walked seventy miles over six days,digitised in 2019
+E11,E15,1,< (Precedes),False,The crew walked seventy miles over six days,a historian who read it in an afternoon
+E11,E16,1,< (Precedes),False,The crew walked seventy miles over six days,The historian noted
+E11,E17,-1,> (Preceded By),False,The crew walked seventy miles over six days,the mate's handwriting deteriorated
+E11,E18,-1,> (Preceded By),False,The crew walked seventy miles over six days,The fog that lost the right whale had lasted
+E11,E19,1,< (Precedes),False,The crew walked seventy miles over six days,The historian closed the file
+E12,E1,-1,> (Preceded By),False,found in a trunk in 1924,The logbook covered three voyages between 1847 and 1853
+E12,E2,-1,> (Preceded By),False,found in a trunk in 1924,Saw a right whale
+E12,E3,-1,> (Preceded By),False,found in a trunk in 1924,Pursued three hours
+E12,E4,-1,> (Preceded By),False,found in a trunk in 1924,Lost in fog
+E12,E5,-1,> (Preceded By),False,found in a trunk in 1924,Killed a sperm whale
+E12,E6,-1,> (Preceded By),False,found in a trunk in 1924,The harpooning at dawn
+E12,E7,-1,> (Preceded By),False,found in a trunk in 1924,the death at mid morning
+E12,E8,-1,> (Preceded By),False,found in a trunk in 1924,the flensing over the following two days
+E12,E9,-1,> (Preceded By),False,found in a trunk in 1924,later became a captain
+E12,E10,-1,> (Preceded By),False,found in a trunk in 1924,the ship crushed by ice
+E12,E11,-1,> (Preceded By),False,found in a trunk in 1924,The crew walked seventy miles over six days
+E12,E13,1,< (Precedes),False,found in a trunk in 1924,sold at auction in 1985
+E12,E14,1,< (Precedes),False,found in a trunk in 1924,digitised in 2019
+E12,E15,1,< (Precedes),False,found in a trunk in 1924,a historian who read it in an afternoon
+E12,E16,1,< (Precedes),False,found in a trunk in 1924,The historian noted
+E12,E17,-1,> (Preceded By),False,found in a trunk in 1924,the mate's handwriting deteriorated
+E12,E18,-1,> (Preceded By),False,found in a trunk in 1924,The fog that lost the right whale had lasted
+E12,E19,1,< (Precedes),False,found in a trunk in 1924,The historian closed the file
+E13,E1,-1,> (Preceded By),False,sold at auction in 1985,The logbook covered three voyages between 1847 and 1853
+E13,E2,-1,> (Preceded By),False,sold at auction in 1985,Saw a right whale
+E13,E3,-1,> (Preceded By),False,sold at auction in 1985,Pursued three hours
+E13,E4,-1,> (Preceded By),False,sold at auction in 1985,Lost in fog
+E13,E5,-1,> (Preceded By),False,sold at auction in 1985,Killed a sperm whale
+E13,E6,-1,> (Preceded By),False,sold at auction in 1985,The harpooning at dawn
+E13,E7,-1,> (Preceded By),False,sold at auction in 1985,the death at mid morning
+E13,E8,-1,> (Preceded By),False,sold at auction in 1985,the flensing over the following two days
+E13,E9,-1,> (Preceded By),False,sold at auction in 1985,later became a captain
+E13,E10,-1,> (Preceded By),False,sold at auction in 1985,the ship crushed by ice
+E13,E11,-1,> (Preceded By),False,sold at auction in 1985,The crew walked seventy miles over six days
+E13,E12,-1,> (Preceded By),False,sold at auction in 1985,found in a trunk in 1924
+E13,E14,1,< (Precedes),False,sold at auction in 1985,digitised in 2019
+E13,E15,1,< (Precedes),False,sold at auction in 1985,a historian who read it in an afternoon
+E13,E16,1,< (Precedes),False,sold at auction in 1985,The historian noted
+E13,E17,-1,> (Preceded By),False,sold at auction in 1985,the mate's handwriting deteriorated
+E13,E18,-1,> (Preceded By),False,sold at auction in 1985,The fog that lost the right whale had lasted
+E13,E19,1,< (Precedes),False,sold at auction in 1985,The historian closed the file
+E14,E1,-1,> (Preceded By),False,digitised in 2019,The logbook covered three voyages between 1847 and 1853
+E14,E2,-1,> (Preceded By),False,digitised in 2019,Saw a right whale
+E14,E3,-1,> (Preceded By),False,digitised in 2019,Pursued three hours
+E14,E4,-1,> (Preceded By),False,digitised in 2019,Lost in fog
+E14,E5,-1,> (Preceded By),False,digitised in 2019,Killed a sperm whale
+E14,E6,-1,> (Preceded By),False,digitised in 2019,The harpooning at dawn
+E14,E7,-1,> (Preceded By),False,digitised in 2019,the death at mid morning
+E14,E8,-1,> (Preceded By),False,digitised in 2019,the flensing over the following two days
+E14,E9,-1,> (Preceded By),False,digitised in 2019,later became a captain
+E14,E10,-1,> (Preceded By),False,digitised in 2019,the ship crushed by ice
+E14,E11,-1,> (Preceded By),False,digitised in 2019,The crew walked seventy miles over six days
+E14,E12,-1,> (Preceded By),False,digitised in 2019,found in a trunk in 1924
+E14,E13,-1,> (Preceded By),False,digitised in 2019,sold at auction in 1985
+E14,E15,1,< (Precedes),False,digitised in 2019,a historian who read it in an afternoon
+E14,E16,1,< (Precedes),False,digitised in 2019,The historian noted
+E14,E17,-1,> (Preceded By),False,digitised in 2019,the mate's handwriting deteriorated
+E14,E18,-1,> (Preceded By),False,digitised in 2019,The fog that lost the right whale had lasted
+E14,E19,1,< (Precedes),False,digitised in 2019,The historian closed the file
+E15,E1,-1,> (Preceded By),False,a historian who read it in an afternoon,The logbook covered three voyages between 1847 and 1853
+E15,E2,-1,> (Preceded By),False,a historian who read it in an afternoon,Saw a right whale
+E15,E3,-1,> (Preceded By),False,a historian who read it in an afternoon,Pursued three hours
+E15,E4,-1,> (Preceded By),False,a historian who read it in an afternoon,Lost in fog
+E15,E5,-1,> (Preceded By),False,a historian who read it in an afternoon,Killed a sperm whale
+E15,E6,-1,> (Preceded By),False,a historian who read it in an afternoon,The harpooning at dawn
+E15,E7,-1,> (Preceded By),False,a historian who read it in an afternoon,the death at mid morning
+E15,E8,-1,> (Preceded By),False,a historian who read it in an afternoon,the flensing over the following two days
+E15,E9,-1,> (Preceded By),False,a historian who read it in an afternoon,later became a captain
+E15,E10,-1,> (Preceded By),False,a historian who read it in an afternoon,the ship crushed by ice
+E15,E11,-1,> (Preceded By),False,a historian who read it in an afternoon,The crew walked seventy miles over six days
+E15,E12,-1,> (Preceded By),False,a historian who read it in an afternoon,found in a trunk in 1924
+E15,E13,-1,> (Preceded By),False,a historian who read it in an afternoon,sold at auction in 1985
+E15,E14,-1,> (Preceded By),False,a historian who read it in an afternoon,digitised in 2019
+E15,E16,0,= (Equal),False,a historian who read it in an afternoon,The historian noted
+E15,E17,-1,> (Preceded By),False,a historian who read it in an afternoon,the mate's handwriting deteriorated
+E15,E18,-1,> (Preceded By),False,a historian who read it in an afternoon,The fog that lost the right whale had lasted
+E15,E19,1,< (Precedes),False,a historian who read it in an afternoon,The historian closed the file
+E16,E1,-1,> (Preceded By),False,The historian noted,The logbook covered three voyages between 1847 and 1853
+E16,E2,-1,> (Preceded By),False,The historian noted,Saw a right whale
+E16,E3,-1,> (Preceded By),False,The historian noted,Pursued three hours
+E16,E4,-1,> (Preceded By),False,The historian noted,Lost in fog
+E16,E5,-1,> (Preceded By),False,The historian noted,Killed a sperm whale
+E16,E6,-1,> (Preceded By),False,The historian noted,The harpooning at dawn
+E16,E7,-1,> (Preceded By),False,The historian noted,the death at mid morning
+E16,E8,-1,> (Preceded By),False,The historian noted,the flensing over the following two days
+E16,E9,-1,> (Preceded By),False,The historian noted,later became a captain
+E16,E10,-1,> (Preceded By),False,The historian noted,the ship crushed by ice
+E16,E11,-1,> (Preceded By),False,The historian noted,The crew walked seventy miles over six days
+E16,E12,-1,> (Preceded By),False,The historian noted,found in a trunk in 1924
+E16,E13,-1,> (Preceded By),False,The historian noted,sold at auction in 1985
+E16,E14,-1,> (Preceded By),False,The historian noted,digitised in 2019
+E16,E15,0,= (Equal),False,The historian noted,a historian who read it in an afternoon
+E16,E17,-1,> (Preceded By),False,The historian noted,the mate's handwriting deteriorated
+E16,E18,-1,> (Preceded By),False,The historian noted,The fog that lost the right whale had lasted
+E16,E19,1,< (Precedes),False,The historian noted,The historian closed the file
+E17,E1,6,f (Finishes),False,the mate's handwriting deteriorated,The logbook covered three voyages between 1847 and 1853
+E17,E2,-1,> (Preceded By),False,the mate's handwriting deteriorated,Saw a right whale
+E17,E3,-1,> (Preceded By),False,the mate's handwriting deteriorated,Pursued three hours
+E17,E4,-1,> (Preceded By),False,the mate's handwriting deteriorated,Lost in fog
+E17,E5,-2,mi (Met By),False,the mate's handwriting deteriorated,Killed a sperm whale
+E17,E6,-1,> (Preceded By),False,the mate's handwriting deteriorated,The harpooning at dawn
+E17,E7,-2,mi (Met By),False,the mate's handwriting deteriorated,the death at mid morning
+E17,E8,-4,si (Started By),False,the mate's handwriting deteriorated,the flensing over the following two days
+E17,E9,1,< (Precedes),False,the mate's handwriting deteriorated,later became a captain
+E17,E10,1,< (Precedes),False,the mate's handwriting deteriorated,the ship crushed by ice
+E17,E11,1,< (Precedes),False,the mate's handwriting deteriorated,The crew walked seventy miles over six days
+E17,E12,1,< (Precedes),False,the mate's handwriting deteriorated,found in a trunk in 1924
+E17,E13,1,< (Precedes),False,the mate's handwriting deteriorated,sold at auction in 1985
+E17,E14,1,< (Precedes),False,the mate's handwriting deteriorated,digitised in 2019
+E17,E15,1,< (Precedes),False,the mate's handwriting deteriorated,a historian who read it in an afternoon
+E17,E16,1,< (Precedes),False,the mate's handwriting deteriorated,The historian noted
+E17,E18,-1,> (Preceded By),False,the mate's handwriting deteriorated,The fog that lost the right whale had lasted
+E17,E19,1,< (Precedes),False,the mate's handwriting deteriorated,The historian closed the file
+E18,E1,5,d (During),False,The fog that lost the right whale had lasted,The logbook covered three voyages between 1847 and 1853
+E18,E2,-4,si (Started By),False,The fog that lost the right whale had lasted,Saw a right whale
+E18,E3,-5,di (Contains),False,The fog that lost the right whale had lasted,Pursued three hours
+E18,E4,-6,fi (Finished By),False,The fog that lost the right whale had lasted,Lost in fog
+E18,E5,1,< (Precedes),False,The fog that lost the right whale had lasted,Killed a sperm whale
+E18,E6,1,< (Precedes),False,The fog that lost the right whale had lasted,The harpooning at dawn
+E18,E7,1,< (Precedes),False,The fog that lost the right whale had lasted,the death at mid morning
+E18,E8,1,< (Precedes),False,The fog that lost the right whale had lasted,the flensing over the following two days
+E18,E9,1,< (Precedes),False,The fog that lost the right whale had lasted,later became a captain
+E18,E10,1,< (Precedes),False,The fog that lost the right whale had lasted,the ship crushed by ice
+E18,E11,1,< (Precedes),False,The fog that lost the right whale had lasted,The crew walked seventy miles over six days
+E18,E12,1,< (Precedes),False,The fog that lost the right whale had lasted,found in a trunk in 1924
+E18,E13,1,< (Precedes),False,The fog that lost the right whale had lasted,sold at auction in 1985
+E18,E14,1,< (Precedes),False,The fog that lost the right whale had lasted,digitised in 2019
+E18,E15,1,< (Precedes),False,The fog that lost the right whale had lasted,a historian who read it in an afternoon
+E18,E16,1,< (Precedes),False,The fog that lost the right whale had lasted,The historian noted
+E18,E17,1,< (Precedes),False,The fog that lost the right whale had lasted,the mate's handwriting deteriorated
+E18,E19,1,< (Precedes),False,The fog that lost the right whale had lasted,The historian closed the file
+E19,E1,-1,> (Preceded By),False,The historian closed the file,The logbook covered three voyages between 1847 and 1853
+E19,E2,-1,> (Preceded By),False,The historian closed the file,Saw a right whale
+E19,E3,-1,> (Preceded By),False,The historian closed the file,Pursued three hours
+E19,E4,-1,> (Preceded By),False,The historian closed the file,Lost in fog
+E19,E5,-1,> (Preceded By),False,The historian closed the file,Killed a sperm whale
+E19,E6,-1,> (Preceded By),False,The historian closed the file,The harpooning at dawn
+E19,E7,-1,> (Preceded By),False,The historian closed the file,the death at mid morning
+E19,E8,-1,> (Preceded By),False,The historian closed the file,the flensing over the following two days
+E19,E9,-1,> (Preceded By),False,The historian closed the file,later became a captain
+E19,E10,-1,> (Preceded By),False,The historian closed the file,the ship crushed by ice
+E19,E11,-1,> (Preceded By),False,The historian closed the file,The crew walked seventy miles over six days
+E19,E12,-1,> (Preceded By),False,The historian closed the file,found in a trunk in 1924
+E19,E13,-1,> (Preceded By),False,The historian closed the file,sold at auction in 1985
+E19,E14,-1,> (Preceded By),False,The historian closed the file,digitised in 2019
+E19,E15,-1,> (Preceded By),False,The historian closed the file,a historian who read it in an afternoon
+E19,E16,-1,> (Preceded By),False,The historian closed the file,The historian noted
+E19,E17,-1,> (Preceded By),False,The historian closed the file,the mate's handwriting deteriorated
+E19,E18,-1,> (Preceded By),False,The historian closed the file,The fog that lost the right whale had lasted

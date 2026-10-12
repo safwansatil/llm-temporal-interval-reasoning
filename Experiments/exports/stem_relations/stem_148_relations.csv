@@ -1,0 +1,813 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,silicon shortage,contract was signed
+E1,E3,1,< (Precedes),False,silicon shortage,guidance algorithm—now suspect—had been approved
+E1,E4,1,< (Precedes),False,silicon shortage,author was presenting an earlier version at a conference in Munich
+E1,E5,1,< (Precedes),False,silicon shortage,subcommittee chair had a conflict with the hearing
+E1,E6,1,< (Precedes),False,silicon shortage,fuel truck had blown a gasket
+E1,E7,1,< (Precedes),False,silicon shortage,"evacuation routes, routes that had been activated"
+E1,E8,1,< (Precedes),False,silicon shortage,inspector who was supposed to certify the fuel truck's gasket replacement
+E1,E9,1,< (Precedes),False,silicon shortage,replacement that had been ordered
+E1,E10,1,< (Precedes),False,silicon shortage,logistics coordinator had already rerouted the backup truck
+E1,E11,1,< (Precedes),False,silicon shortage,hurricane warning was issued
+E1,E12,1,< (Precedes),False,silicon shortage,range safety officer to advance the launch window by six hours
+E1,E13,1,< (Precedes),False,silicon shortage,wet dress rehearsal
+E1,E14,1,< (Precedes),False,silicon shortage,subroutine written
+E1,E15,1,< (Precedes),False,silicon shortage,probe installed
+E1,E16,1,< (Precedes),False,silicon shortage,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E1,E17,1,< (Precedes),False,silicon shortage,presentation that had been recorded
+E1,E18,1,< (Precedes),False,silicon shortage,cryo-cooler had been switched to backup mode
+E1,E19,1,< (Precedes),False,silicon shortage,pressure spike in the oxidizer line that had appeared
+E1,E20,1,< (Precedes),False,silicon shortage,night shift lead had stayed late to review the anomaly data
+E1,E21,1,< (Precedes),False,silicon shortage,handover between the night shift and the day shift
+E1,E22,1,< (Precedes),False,silicon shortage,mission director—who'd been in Munich for the conference and had landed at Dulles
+E1,E23,1,< (Precedes),False,silicon shortage,briefing that had been rescheduled
+E1,E24,1,< (Precedes),False,silicon shortage,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E1,E25,1,< (Precedes),False,silicon shortage,final integration test
+E1,E26,1,< (Precedes),False,silicon shortage,avionics team to skip the secondary checksum verification
+E1,E27,1,< (Precedes),False,silicon shortage,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E1,E28,1,< (Precedes),False,silicon shortage,Commander Voss confirmed the hold-down release at T-minus-four
+E1,E29,1,< (Precedes),False,silicon shortage,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E2,E1,-2,mi (Met By),False,contract was signed,silicon shortage
+E2,E3,2,m (Meets),False,contract was signed,guidance algorithm—now suspect—had been approved
+E2,E4,1,< (Precedes),False,contract was signed,author was presenting an earlier version at a conference in Munich
+E2,E5,1,< (Precedes),False,contract was signed,subcommittee chair had a conflict with the hearing
+E2,E6,1,< (Precedes),False,contract was signed,fuel truck had blown a gasket
+E2,E7,1,< (Precedes),False,contract was signed,"evacuation routes, routes that had been activated"
+E2,E8,1,< (Precedes),False,contract was signed,inspector who was supposed to certify the fuel truck's gasket replacement
+E2,E9,1,< (Precedes),False,contract was signed,replacement that had been ordered
+E2,E10,1,< (Precedes),False,contract was signed,logistics coordinator had already rerouted the backup truck
+E2,E11,1,< (Precedes),False,contract was signed,hurricane warning was issued
+E2,E12,1,< (Precedes),False,contract was signed,range safety officer to advance the launch window by six hours
+E2,E13,1,< (Precedes),False,contract was signed,wet dress rehearsal
+E2,E14,1,< (Precedes),False,contract was signed,subroutine written
+E2,E15,1,< (Precedes),False,contract was signed,probe installed
+E2,E16,1,< (Precedes),False,contract was signed,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E2,E17,1,< (Precedes),False,contract was signed,presentation that had been recorded
+E2,E18,1,< (Precedes),False,contract was signed,cryo-cooler had been switched to backup mode
+E2,E19,1,< (Precedes),False,contract was signed,pressure spike in the oxidizer line that had appeared
+E2,E20,1,< (Precedes),False,contract was signed,night shift lead had stayed late to review the anomaly data
+E2,E21,1,< (Precedes),False,contract was signed,handover between the night shift and the day shift
+E2,E22,1,< (Precedes),False,contract was signed,mission director—who'd been in Munich for the conference and had landed at Dulles
+E2,E23,1,< (Precedes),False,contract was signed,briefing that had been rescheduled
+E2,E24,1,< (Precedes),False,contract was signed,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E2,E25,1,< (Precedes),False,contract was signed,final integration test
+E2,E26,1,< (Precedes),False,contract was signed,avionics team to skip the secondary checksum verification
+E2,E27,1,< (Precedes),False,contract was signed,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E2,E28,1,< (Precedes),False,contract was signed,Commander Voss confirmed the hold-down release at T-minus-four
+E2,E29,1,< (Precedes),False,contract was signed,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E3,E1,-1,> (Preceded By),False,guidance algorithm—now suspect—had been approved,silicon shortage
+E3,E2,-2,mi (Met By),False,guidance algorithm—now suspect—had been approved,contract was signed
+E3,E4,2,m (Meets),False,guidance algorithm—now suspect—had been approved,author was presenting an earlier version at a conference in Munich
+E3,E5,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,subcommittee chair had a conflict with the hearing
+E3,E6,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,fuel truck had blown a gasket
+E3,E7,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,"evacuation routes, routes that had been activated"
+E3,E8,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,inspector who was supposed to certify the fuel truck's gasket replacement
+E3,E9,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,replacement that had been ordered
+E3,E10,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,logistics coordinator had already rerouted the backup truck
+E3,E11,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,hurricane warning was issued
+E3,E12,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,range safety officer to advance the launch window by six hours
+E3,E13,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,wet dress rehearsal
+E3,E14,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,subroutine written
+E3,E15,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,probe installed
+E3,E16,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E3,E17,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,presentation that had been recorded
+E3,E18,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,cryo-cooler had been switched to backup mode
+E3,E19,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,pressure spike in the oxidizer line that had appeared
+E3,E20,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,night shift lead had stayed late to review the anomaly data
+E3,E21,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,handover between the night shift and the day shift
+E3,E22,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,mission director—who'd been in Munich for the conference and had landed at Dulles
+E3,E23,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,briefing that had been rescheduled
+E3,E24,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E3,E25,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,final integration test
+E3,E26,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,avionics team to skip the secondary checksum verification
+E3,E27,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E3,E28,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,Commander Voss confirmed the hold-down release at T-minus-four
+E3,E29,1,< (Precedes),False,guidance algorithm—now suspect—had been approved,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E4,E1,-1,> (Preceded By),False,author was presenting an earlier version at a conference in Munich,silicon shortage
+E4,E2,-1,> (Preceded By),False,author was presenting an earlier version at a conference in Munich,contract was signed
+E4,E3,-2,mi (Met By),False,author was presenting an earlier version at a conference in Munich,guidance algorithm—now suspect—had been approved
+E4,E5,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,subcommittee chair had a conflict with the hearing
+E4,E6,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,fuel truck had blown a gasket
+E4,E7,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,"evacuation routes, routes that had been activated"
+E4,E8,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,inspector who was supposed to certify the fuel truck's gasket replacement
+E4,E9,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,replacement that had been ordered
+E4,E10,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,logistics coordinator had already rerouted the backup truck
+E4,E11,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,hurricane warning was issued
+E4,E12,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,range safety officer to advance the launch window by six hours
+E4,E13,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,wet dress rehearsal
+E4,E14,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,subroutine written
+E4,E15,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,probe installed
+E4,E16,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E4,E17,2,m (Meets),False,author was presenting an earlier version at a conference in Munich,presentation that had been recorded
+E4,E18,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,cryo-cooler had been switched to backup mode
+E4,E19,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,pressure spike in the oxidizer line that had appeared
+E4,E20,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,night shift lead had stayed late to review the anomaly data
+E4,E21,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,handover between the night shift and the day shift
+E4,E22,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,mission director—who'd been in Munich for the conference and had landed at Dulles
+E4,E23,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,briefing that had been rescheduled
+E4,E24,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E4,E25,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,final integration test
+E4,E26,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,avionics team to skip the secondary checksum verification
+E4,E27,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E4,E28,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,Commander Voss confirmed the hold-down release at T-minus-four
+E4,E29,1,< (Precedes),False,author was presenting an earlier version at a conference in Munich,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E5,E1,-1,> (Preceded By),False,subcommittee chair had a conflict with the hearing,silicon shortage
+E5,E2,-1,> (Preceded By),False,subcommittee chair had a conflict with the hearing,contract was signed
+E5,E3,-1,> (Preceded By),False,subcommittee chair had a conflict with the hearing,guidance algorithm—now suspect—had been approved
+E5,E4,-1,> (Preceded By),False,subcommittee chair had a conflict with the hearing,author was presenting an earlier version at a conference in Munich
+E5,E6,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,fuel truck had blown a gasket
+E5,E7,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,"evacuation routes, routes that had been activated"
+E5,E8,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,inspector who was supposed to certify the fuel truck's gasket replacement
+E5,E9,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,replacement that had been ordered
+E5,E10,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,logistics coordinator had already rerouted the backup truck
+E5,E11,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,hurricane warning was issued
+E5,E12,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,range safety officer to advance the launch window by six hours
+E5,E13,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,wet dress rehearsal
+E5,E14,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,subroutine written
+E5,E15,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,probe installed
+E5,E16,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E5,E17,-1,> (Preceded By),False,subcommittee chair had a conflict with the hearing,presentation that had been recorded
+E5,E18,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,cryo-cooler had been switched to backup mode
+E5,E19,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,pressure spike in the oxidizer line that had appeared
+E5,E20,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,night shift lead had stayed late to review the anomaly data
+E5,E21,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,handover between the night shift and the day shift
+E5,E22,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,mission director—who'd been in Munich for the conference and had landed at Dulles
+E5,E23,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,briefing that had been rescheduled
+E5,E24,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E5,E25,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,final integration test
+E5,E26,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,avionics team to skip the secondary checksum verification
+E5,E27,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E5,E28,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,Commander Voss confirmed the hold-down release at T-minus-four
+E5,E29,1,< (Precedes),False,subcommittee chair had a conflict with the hearing,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E6,E1,-1,> (Preceded By),False,fuel truck had blown a gasket,silicon shortage
+E6,E2,-1,> (Preceded By),False,fuel truck had blown a gasket,contract was signed
+E6,E3,-1,> (Preceded By),False,fuel truck had blown a gasket,guidance algorithm—now suspect—had been approved
+E6,E4,-1,> (Preceded By),False,fuel truck had blown a gasket,author was presenting an earlier version at a conference in Munich
+E6,E5,-1,> (Preceded By),False,fuel truck had blown a gasket,subcommittee chair had a conflict with the hearing
+E6,E7,2,m (Meets),False,fuel truck had blown a gasket,"evacuation routes, routes that had been activated"
+E6,E8,1,< (Precedes),False,fuel truck had blown a gasket,inspector who was supposed to certify the fuel truck's gasket replacement
+E6,E9,1,< (Precedes),False,fuel truck had blown a gasket,replacement that had been ordered
+E6,E10,1,< (Precedes),False,fuel truck had blown a gasket,logistics coordinator had already rerouted the backup truck
+E6,E11,2,m (Meets),False,fuel truck had blown a gasket,hurricane warning was issued
+E6,E12,1,< (Precedes),False,fuel truck had blown a gasket,range safety officer to advance the launch window by six hours
+E6,E13,1,< (Precedes),False,fuel truck had blown a gasket,wet dress rehearsal
+E6,E14,1,< (Precedes),False,fuel truck had blown a gasket,subroutine written
+E6,E15,1,< (Precedes),False,fuel truck had blown a gasket,probe installed
+E6,E16,1,< (Precedes),False,fuel truck had blown a gasket,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E6,E17,-1,> (Preceded By),False,fuel truck had blown a gasket,presentation that had been recorded
+E6,E18,1,< (Precedes),False,fuel truck had blown a gasket,cryo-cooler had been switched to backup mode
+E6,E19,1,< (Precedes),False,fuel truck had blown a gasket,pressure spike in the oxidizer line that had appeared
+E6,E20,1,< (Precedes),False,fuel truck had blown a gasket,night shift lead had stayed late to review the anomaly data
+E6,E21,1,< (Precedes),False,fuel truck had blown a gasket,handover between the night shift and the day shift
+E6,E22,1,< (Precedes),False,fuel truck had blown a gasket,mission director—who'd been in Munich for the conference and had landed at Dulles
+E6,E23,1,< (Precedes),False,fuel truck had blown a gasket,briefing that had been rescheduled
+E6,E24,1,< (Precedes),False,fuel truck had blown a gasket,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E6,E25,1,< (Precedes),False,fuel truck had blown a gasket,final integration test
+E6,E26,1,< (Precedes),False,fuel truck had blown a gasket,avionics team to skip the secondary checksum verification
+E6,E27,1,< (Precedes),False,fuel truck had blown a gasket,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E6,E28,1,< (Precedes),False,fuel truck had blown a gasket,Commander Voss confirmed the hold-down release at T-minus-four
+E6,E29,1,< (Precedes),False,fuel truck had blown a gasket,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E7,E1,-1,> (Preceded By),False,"evacuation routes, routes that had been activated",silicon shortage
+E7,E2,-1,> (Preceded By),False,"evacuation routes, routes that had been activated",contract was signed
+E7,E3,-1,> (Preceded By),False,"evacuation routes, routes that had been activated",guidance algorithm—now suspect—had been approved
+E7,E4,-1,> (Preceded By),False,"evacuation routes, routes that had been activated",author was presenting an earlier version at a conference in Munich
+E7,E5,-1,> (Preceded By),False,"evacuation routes, routes that had been activated",subcommittee chair had a conflict with the hearing
+E7,E6,-2,mi (Met By),False,"evacuation routes, routes that had been activated",fuel truck had blown a gasket
+E7,E8,2,m (Meets),False,"evacuation routes, routes that had been activated",inspector who was supposed to certify the fuel truck's gasket replacement
+E7,E9,1,< (Precedes),False,"evacuation routes, routes that had been activated",replacement that had been ordered
+E7,E10,2,m (Meets),False,"evacuation routes, routes that had been activated",logistics coordinator had already rerouted the backup truck
+E7,E11,0,= (Equal),False,"evacuation routes, routes that had been activated",hurricane warning was issued
+E7,E12,2,m (Meets),False,"evacuation routes, routes that had been activated",range safety officer to advance the launch window by six hours
+E7,E13,1,< (Precedes),False,"evacuation routes, routes that had been activated",wet dress rehearsal
+E7,E14,1,< (Precedes),False,"evacuation routes, routes that had been activated",subroutine written
+E7,E15,1,< (Precedes),False,"evacuation routes, routes that had been activated",probe installed
+E7,E16,1,< (Precedes),False,"evacuation routes, routes that had been activated",telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E7,E17,-1,> (Preceded By),False,"evacuation routes, routes that had been activated",presentation that had been recorded
+E7,E18,1,< (Precedes),False,"evacuation routes, routes that had been activated",cryo-cooler had been switched to backup mode
+E7,E19,1,< (Precedes),False,"evacuation routes, routes that had been activated",pressure spike in the oxidizer line that had appeared
+E7,E20,1,< (Precedes),False,"evacuation routes, routes that had been activated",night shift lead had stayed late to review the anomaly data
+E7,E21,1,< (Precedes),False,"evacuation routes, routes that had been activated",handover between the night shift and the day shift
+E7,E22,1,< (Precedes),False,"evacuation routes, routes that had been activated",mission director—who'd been in Munich for the conference and had landed at Dulles
+E7,E23,1,< (Precedes),False,"evacuation routes, routes that had been activated",briefing that had been rescheduled
+E7,E24,1,< (Precedes),False,"evacuation routes, routes that had been activated","network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E7,E25,1,< (Precedes),False,"evacuation routes, routes that had been activated",final integration test
+E7,E26,1,< (Precedes),False,"evacuation routes, routes that had been activated",avionics team to skip the secondary checksum verification
+E7,E27,1,< (Precedes),False,"evacuation routes, routes that had been activated",software patch that would prevent the guidance anomaly had been uploaded to the range server
+E7,E28,1,< (Precedes),False,"evacuation routes, routes that had been activated",Commander Voss confirmed the hold-down release at T-minus-four
+E7,E29,1,< (Precedes),False,"evacuation routes, routes that had been activated","anomaly, now patched, had already fired the thrusters three milliseconds early"
+E8,E1,-1,> (Preceded By),False,inspector who was supposed to certify the fuel truck's gasket replacement,silicon shortage
+E8,E2,-1,> (Preceded By),False,inspector who was supposed to certify the fuel truck's gasket replacement,contract was signed
+E8,E3,-1,> (Preceded By),False,inspector who was supposed to certify the fuel truck's gasket replacement,guidance algorithm—now suspect—had been approved
+E8,E4,-1,> (Preceded By),False,inspector who was supposed to certify the fuel truck's gasket replacement,author was presenting an earlier version at a conference in Munich
+E8,E5,-1,> (Preceded By),False,inspector who was supposed to certify the fuel truck's gasket replacement,subcommittee chair had a conflict with the hearing
+E8,E6,-1,> (Preceded By),False,inspector who was supposed to certify the fuel truck's gasket replacement,fuel truck had blown a gasket
+E8,E7,-2,mi (Met By),False,inspector who was supposed to certify the fuel truck's gasket replacement,"evacuation routes, routes that had been activated"
+E8,E9,-5,di (Contains),False,inspector who was supposed to certify the fuel truck's gasket replacement,replacement that had been ordered
+E8,E10,-4,si (Started By),False,inspector who was supposed to certify the fuel truck's gasket replacement,logistics coordinator had already rerouted the backup truck
+E8,E11,-2,mi (Met By),False,inspector who was supposed to certify the fuel truck's gasket replacement,hurricane warning was issued
+E8,E12,-4,si (Started By),False,inspector who was supposed to certify the fuel truck's gasket replacement,range safety officer to advance the launch window by six hours
+E8,E13,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,wet dress rehearsal
+E8,E14,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,subroutine written
+E8,E15,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,probe installed
+E8,E16,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E8,E17,-1,> (Preceded By),False,inspector who was supposed to certify the fuel truck's gasket replacement,presentation that had been recorded
+E8,E18,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,cryo-cooler had been switched to backup mode
+E8,E19,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,pressure spike in the oxidizer line that had appeared
+E8,E20,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,night shift lead had stayed late to review the anomaly data
+E8,E21,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,handover between the night shift and the day shift
+E8,E22,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,mission director—who'd been in Munich for the conference and had landed at Dulles
+E8,E23,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,briefing that had been rescheduled
+E8,E24,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E8,E25,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,final integration test
+E8,E26,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,avionics team to skip the secondary checksum verification
+E8,E27,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E8,E28,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,Commander Voss confirmed the hold-down release at T-minus-four
+E8,E29,1,< (Precedes),False,inspector who was supposed to certify the fuel truck's gasket replacement,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E9,E1,-1,> (Preceded By),False,replacement that had been ordered,silicon shortage
+E9,E2,-1,> (Preceded By),False,replacement that had been ordered,contract was signed
+E9,E3,-1,> (Preceded By),False,replacement that had been ordered,guidance algorithm—now suspect—had been approved
+E9,E4,-1,> (Preceded By),False,replacement that had been ordered,author was presenting an earlier version at a conference in Munich
+E9,E5,-1,> (Preceded By),False,replacement that had been ordered,subcommittee chair had a conflict with the hearing
+E9,E6,-1,> (Preceded By),False,replacement that had been ordered,fuel truck had blown a gasket
+E9,E7,-1,> (Preceded By),False,replacement that had been ordered,"evacuation routes, routes that had been activated"
+E9,E8,5,d (During),False,replacement that had been ordered,inspector who was supposed to certify the fuel truck's gasket replacement
+E9,E10,-2,mi (Met By),False,replacement that had been ordered,logistics coordinator had already rerouted the backup truck
+E9,E11,-1,> (Preceded By),False,replacement that had been ordered,hurricane warning was issued
+E9,E12,-2,mi (Met By),False,replacement that had been ordered,range safety officer to advance the launch window by six hours
+E9,E13,1,< (Precedes),False,replacement that had been ordered,wet dress rehearsal
+E9,E14,1,< (Precedes),False,replacement that had been ordered,subroutine written
+E9,E15,1,< (Precedes),False,replacement that had been ordered,probe installed
+E9,E16,1,< (Precedes),False,replacement that had been ordered,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E9,E17,-1,> (Preceded By),False,replacement that had been ordered,presentation that had been recorded
+E9,E18,1,< (Precedes),False,replacement that had been ordered,cryo-cooler had been switched to backup mode
+E9,E19,1,< (Precedes),False,replacement that had been ordered,pressure spike in the oxidizer line that had appeared
+E9,E20,1,< (Precedes),False,replacement that had been ordered,night shift lead had stayed late to review the anomaly data
+E9,E21,1,< (Precedes),False,replacement that had been ordered,handover between the night shift and the day shift
+E9,E22,1,< (Precedes),False,replacement that had been ordered,mission director—who'd been in Munich for the conference and had landed at Dulles
+E9,E23,1,< (Precedes),False,replacement that had been ordered,briefing that had been rescheduled
+E9,E24,1,< (Precedes),False,replacement that had been ordered,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E9,E25,1,< (Precedes),False,replacement that had been ordered,final integration test
+E9,E26,1,< (Precedes),False,replacement that had been ordered,avionics team to skip the secondary checksum verification
+E9,E27,1,< (Precedes),False,replacement that had been ordered,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E9,E28,1,< (Precedes),False,replacement that had been ordered,Commander Voss confirmed the hold-down release at T-minus-four
+E9,E29,1,< (Precedes),False,replacement that had been ordered,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E10,E1,-1,> (Preceded By),False,logistics coordinator had already rerouted the backup truck,silicon shortage
+E10,E2,-1,> (Preceded By),False,logistics coordinator had already rerouted the backup truck,contract was signed
+E10,E3,-1,> (Preceded By),False,logistics coordinator had already rerouted the backup truck,guidance algorithm—now suspect—had been approved
+E10,E4,-1,> (Preceded By),False,logistics coordinator had already rerouted the backup truck,author was presenting an earlier version at a conference in Munich
+E10,E5,-1,> (Preceded By),False,logistics coordinator had already rerouted the backup truck,subcommittee chair had a conflict with the hearing
+E10,E6,-1,> (Preceded By),False,logistics coordinator had already rerouted the backup truck,fuel truck had blown a gasket
+E10,E7,-2,mi (Met By),False,logistics coordinator had already rerouted the backup truck,"evacuation routes, routes that had been activated"
+E10,E8,4,s (Starts),False,logistics coordinator had already rerouted the backup truck,inspector who was supposed to certify the fuel truck's gasket replacement
+E10,E9,2,m (Meets),False,logistics coordinator had already rerouted the backup truck,replacement that had been ordered
+E10,E11,-2,mi (Met By),False,logistics coordinator had already rerouted the backup truck,hurricane warning was issued
+E10,E12,0,= (Equal),False,logistics coordinator had already rerouted the backup truck,range safety officer to advance the launch window by six hours
+E10,E13,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,wet dress rehearsal
+E10,E14,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,subroutine written
+E10,E15,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,probe installed
+E10,E16,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E10,E17,-1,> (Preceded By),False,logistics coordinator had already rerouted the backup truck,presentation that had been recorded
+E10,E18,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,cryo-cooler had been switched to backup mode
+E10,E19,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,pressure spike in the oxidizer line that had appeared
+E10,E20,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,night shift lead had stayed late to review the anomaly data
+E10,E21,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,handover between the night shift and the day shift
+E10,E22,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,mission director—who'd been in Munich for the conference and had landed at Dulles
+E10,E23,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,briefing that had been rescheduled
+E10,E24,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E10,E25,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,final integration test
+E10,E26,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,avionics team to skip the secondary checksum verification
+E10,E27,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E10,E28,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,Commander Voss confirmed the hold-down release at T-minus-four
+E10,E29,1,< (Precedes),False,logistics coordinator had already rerouted the backup truck,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E11,E1,-1,> (Preceded By),False,hurricane warning was issued,silicon shortage
+E11,E2,-1,> (Preceded By),False,hurricane warning was issued,contract was signed
+E11,E3,-1,> (Preceded By),False,hurricane warning was issued,guidance algorithm—now suspect—had been approved
+E11,E4,-1,> (Preceded By),False,hurricane warning was issued,author was presenting an earlier version at a conference in Munich
+E11,E5,-1,> (Preceded By),False,hurricane warning was issued,subcommittee chair had a conflict with the hearing
+E11,E6,-2,mi (Met By),False,hurricane warning was issued,fuel truck had blown a gasket
+E11,E7,0,= (Equal),False,hurricane warning was issued,"evacuation routes, routes that had been activated"
+E11,E8,2,m (Meets),False,hurricane warning was issued,inspector who was supposed to certify the fuel truck's gasket replacement
+E11,E9,1,< (Precedes),False,hurricane warning was issued,replacement that had been ordered
+E11,E10,2,m (Meets),False,hurricane warning was issued,logistics coordinator had already rerouted the backup truck
+E11,E12,2,m (Meets),False,hurricane warning was issued,range safety officer to advance the launch window by six hours
+E11,E13,1,< (Precedes),False,hurricane warning was issued,wet dress rehearsal
+E11,E14,1,< (Precedes),False,hurricane warning was issued,subroutine written
+E11,E15,1,< (Precedes),False,hurricane warning was issued,probe installed
+E11,E16,1,< (Precedes),False,hurricane warning was issued,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E11,E17,-1,> (Preceded By),False,hurricane warning was issued,presentation that had been recorded
+E11,E18,1,< (Precedes),False,hurricane warning was issued,cryo-cooler had been switched to backup mode
+E11,E19,1,< (Precedes),False,hurricane warning was issued,pressure spike in the oxidizer line that had appeared
+E11,E20,1,< (Precedes),False,hurricane warning was issued,night shift lead had stayed late to review the anomaly data
+E11,E21,1,< (Precedes),False,hurricane warning was issued,handover between the night shift and the day shift
+E11,E22,1,< (Precedes),False,hurricane warning was issued,mission director—who'd been in Munich for the conference and had landed at Dulles
+E11,E23,1,< (Precedes),False,hurricane warning was issued,briefing that had been rescheduled
+E11,E24,1,< (Precedes),False,hurricane warning was issued,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E11,E25,1,< (Precedes),False,hurricane warning was issued,final integration test
+E11,E26,1,< (Precedes),False,hurricane warning was issued,avionics team to skip the secondary checksum verification
+E11,E27,1,< (Precedes),False,hurricane warning was issued,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E11,E28,1,< (Precedes),False,hurricane warning was issued,Commander Voss confirmed the hold-down release at T-minus-four
+E11,E29,1,< (Precedes),False,hurricane warning was issued,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E12,E1,-1,> (Preceded By),False,range safety officer to advance the launch window by six hours,silicon shortage
+E12,E2,-1,> (Preceded By),False,range safety officer to advance the launch window by six hours,contract was signed
+E12,E3,-1,> (Preceded By),False,range safety officer to advance the launch window by six hours,guidance algorithm—now suspect—had been approved
+E12,E4,-1,> (Preceded By),False,range safety officer to advance the launch window by six hours,author was presenting an earlier version at a conference in Munich
+E12,E5,-1,> (Preceded By),False,range safety officer to advance the launch window by six hours,subcommittee chair had a conflict with the hearing
+E12,E6,-1,> (Preceded By),False,range safety officer to advance the launch window by six hours,fuel truck had blown a gasket
+E12,E7,-2,mi (Met By),False,range safety officer to advance the launch window by six hours,"evacuation routes, routes that had been activated"
+E12,E8,4,s (Starts),False,range safety officer to advance the launch window by six hours,inspector who was supposed to certify the fuel truck's gasket replacement
+E12,E9,2,m (Meets),False,range safety officer to advance the launch window by six hours,replacement that had been ordered
+E12,E10,0,= (Equal),False,range safety officer to advance the launch window by six hours,logistics coordinator had already rerouted the backup truck
+E12,E11,-2,mi (Met By),False,range safety officer to advance the launch window by six hours,hurricane warning was issued
+E12,E13,1,< (Precedes),False,range safety officer to advance the launch window by six hours,wet dress rehearsal
+E12,E14,1,< (Precedes),False,range safety officer to advance the launch window by six hours,subroutine written
+E12,E15,1,< (Precedes),False,range safety officer to advance the launch window by six hours,probe installed
+E12,E16,1,< (Precedes),False,range safety officer to advance the launch window by six hours,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E12,E17,-1,> (Preceded By),False,range safety officer to advance the launch window by six hours,presentation that had been recorded
+E12,E18,1,< (Precedes),False,range safety officer to advance the launch window by six hours,cryo-cooler had been switched to backup mode
+E12,E19,1,< (Precedes),False,range safety officer to advance the launch window by six hours,pressure spike in the oxidizer line that had appeared
+E12,E20,1,< (Precedes),False,range safety officer to advance the launch window by six hours,night shift lead had stayed late to review the anomaly data
+E12,E21,1,< (Precedes),False,range safety officer to advance the launch window by six hours,handover between the night shift and the day shift
+E12,E22,1,< (Precedes),False,range safety officer to advance the launch window by six hours,mission director—who'd been in Munich for the conference and had landed at Dulles
+E12,E23,1,< (Precedes),False,range safety officer to advance the launch window by six hours,briefing that had been rescheduled
+E12,E24,1,< (Precedes),False,range safety officer to advance the launch window by six hours,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E12,E25,1,< (Precedes),False,range safety officer to advance the launch window by six hours,final integration test
+E12,E26,1,< (Precedes),False,range safety officer to advance the launch window by six hours,avionics team to skip the secondary checksum verification
+E12,E27,1,< (Precedes),False,range safety officer to advance the launch window by six hours,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E12,E28,1,< (Precedes),False,range safety officer to advance the launch window by six hours,Commander Voss confirmed the hold-down release at T-minus-four
+E12,E29,1,< (Precedes),False,range safety officer to advance the launch window by six hours,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E13,E1,-1,> (Preceded By),False,wet dress rehearsal,silicon shortage
+E13,E2,-1,> (Preceded By),False,wet dress rehearsal,contract was signed
+E13,E3,-1,> (Preceded By),False,wet dress rehearsal,guidance algorithm—now suspect—had been approved
+E13,E4,-1,> (Preceded By),False,wet dress rehearsal,author was presenting an earlier version at a conference in Munich
+E13,E5,-1,> (Preceded By),False,wet dress rehearsal,subcommittee chair had a conflict with the hearing
+E13,E6,-1,> (Preceded By),False,wet dress rehearsal,fuel truck had blown a gasket
+E13,E7,-1,> (Preceded By),False,wet dress rehearsal,"evacuation routes, routes that had been activated"
+E13,E8,-1,> (Preceded By),False,wet dress rehearsal,inspector who was supposed to certify the fuel truck's gasket replacement
+E13,E9,-1,> (Preceded By),False,wet dress rehearsal,replacement that had been ordered
+E13,E10,-1,> (Preceded By),False,wet dress rehearsal,logistics coordinator had already rerouted the backup truck
+E13,E11,-1,> (Preceded By),False,wet dress rehearsal,hurricane warning was issued
+E13,E12,-1,> (Preceded By),False,wet dress rehearsal,range safety officer to advance the launch window by six hours
+E13,E14,-5,di (Contains),False,wet dress rehearsal,subroutine written
+E13,E15,-5,di (Contains),False,wet dress rehearsal,probe installed
+E13,E16,1,< (Precedes),False,wet dress rehearsal,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E13,E17,-1,> (Preceded By),False,wet dress rehearsal,presentation that had been recorded
+E13,E18,1,< (Precedes),False,wet dress rehearsal,cryo-cooler had been switched to backup mode
+E13,E19,1,< (Precedes),False,wet dress rehearsal,pressure spike in the oxidizer line that had appeared
+E13,E20,1,< (Precedes),False,wet dress rehearsal,night shift lead had stayed late to review the anomaly data
+E13,E21,1,< (Precedes),False,wet dress rehearsal,handover between the night shift and the day shift
+E13,E22,1,< (Precedes),False,wet dress rehearsal,mission director—who'd been in Munich for the conference and had landed at Dulles
+E13,E23,1,< (Precedes),False,wet dress rehearsal,briefing that had been rescheduled
+E13,E24,1,< (Precedes),False,wet dress rehearsal,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E13,E25,1,< (Precedes),False,wet dress rehearsal,final integration test
+E13,E26,1,< (Precedes),False,wet dress rehearsal,avionics team to skip the secondary checksum verification
+E13,E27,1,< (Precedes),False,wet dress rehearsal,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E13,E28,1,< (Precedes),False,wet dress rehearsal,Commander Voss confirmed the hold-down release at T-minus-four
+E13,E29,1,< (Precedes),False,wet dress rehearsal,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E14,E1,-1,> (Preceded By),False,subroutine written,silicon shortage
+E14,E2,-1,> (Preceded By),False,subroutine written,contract was signed
+E14,E3,-1,> (Preceded By),False,subroutine written,guidance algorithm—now suspect—had been approved
+E14,E4,-1,> (Preceded By),False,subroutine written,author was presenting an earlier version at a conference in Munich
+E14,E5,-1,> (Preceded By),False,subroutine written,subcommittee chair had a conflict with the hearing
+E14,E6,-1,> (Preceded By),False,subroutine written,fuel truck had blown a gasket
+E14,E7,-1,> (Preceded By),False,subroutine written,"evacuation routes, routes that had been activated"
+E14,E8,-1,> (Preceded By),False,subroutine written,inspector who was supposed to certify the fuel truck's gasket replacement
+E14,E9,-1,> (Preceded By),False,subroutine written,replacement that had been ordered
+E14,E10,-1,> (Preceded By),False,subroutine written,logistics coordinator had already rerouted the backup truck
+E14,E11,-1,> (Preceded By),False,subroutine written,hurricane warning was issued
+E14,E12,-1,> (Preceded By),False,subroutine written,range safety officer to advance the launch window by six hours
+E14,E13,5,d (During),False,subroutine written,wet dress rehearsal
+E14,E15,2,m (Meets),False,subroutine written,probe installed
+E14,E16,1,< (Precedes),False,subroutine written,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E14,E17,-1,> (Preceded By),False,subroutine written,presentation that had been recorded
+E14,E18,1,< (Precedes),False,subroutine written,cryo-cooler had been switched to backup mode
+E14,E19,1,< (Precedes),False,subroutine written,pressure spike in the oxidizer line that had appeared
+E14,E20,1,< (Precedes),False,subroutine written,night shift lead had stayed late to review the anomaly data
+E14,E21,1,< (Precedes),False,subroutine written,handover between the night shift and the day shift
+E14,E22,1,< (Precedes),False,subroutine written,mission director—who'd been in Munich for the conference and had landed at Dulles
+E14,E23,1,< (Precedes),False,subroutine written,briefing that had been rescheduled
+E14,E24,1,< (Precedes),False,subroutine written,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E14,E25,1,< (Precedes),False,subroutine written,final integration test
+E14,E26,1,< (Precedes),False,subroutine written,avionics team to skip the secondary checksum verification
+E14,E27,1,< (Precedes),False,subroutine written,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E14,E28,1,< (Precedes),False,subroutine written,Commander Voss confirmed the hold-down release at T-minus-four
+E14,E29,1,< (Precedes),False,subroutine written,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E15,E1,-1,> (Preceded By),False,probe installed,silicon shortage
+E15,E2,-1,> (Preceded By),False,probe installed,contract was signed
+E15,E3,-1,> (Preceded By),False,probe installed,guidance algorithm—now suspect—had been approved
+E15,E4,-1,> (Preceded By),False,probe installed,author was presenting an earlier version at a conference in Munich
+E15,E5,-1,> (Preceded By),False,probe installed,subcommittee chair had a conflict with the hearing
+E15,E6,-1,> (Preceded By),False,probe installed,fuel truck had blown a gasket
+E15,E7,-1,> (Preceded By),False,probe installed,"evacuation routes, routes that had been activated"
+E15,E8,-1,> (Preceded By),False,probe installed,inspector who was supposed to certify the fuel truck's gasket replacement
+E15,E9,-1,> (Preceded By),False,probe installed,replacement that had been ordered
+E15,E10,-1,> (Preceded By),False,probe installed,logistics coordinator had already rerouted the backup truck
+E15,E11,-1,> (Preceded By),False,probe installed,hurricane warning was issued
+E15,E12,-1,> (Preceded By),False,probe installed,range safety officer to advance the launch window by six hours
+E15,E13,5,d (During),False,probe installed,wet dress rehearsal
+E15,E14,-2,mi (Met By),False,probe installed,subroutine written
+E15,E16,1,< (Precedes),False,probe installed,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E15,E17,-1,> (Preceded By),False,probe installed,presentation that had been recorded
+E15,E18,1,< (Precedes),False,probe installed,cryo-cooler had been switched to backup mode
+E15,E19,1,< (Precedes),False,probe installed,pressure spike in the oxidizer line that had appeared
+E15,E20,1,< (Precedes),False,probe installed,night shift lead had stayed late to review the anomaly data
+E15,E21,1,< (Precedes),False,probe installed,handover between the night shift and the day shift
+E15,E22,1,< (Precedes),False,probe installed,mission director—who'd been in Munich for the conference and had landed at Dulles
+E15,E23,1,< (Precedes),False,probe installed,briefing that had been rescheduled
+E15,E24,1,< (Precedes),False,probe installed,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E15,E25,1,< (Precedes),False,probe installed,final integration test
+E15,E26,1,< (Precedes),False,probe installed,avionics team to skip the secondary checksum verification
+E15,E27,1,< (Precedes),False,probe installed,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E15,E28,1,< (Precedes),False,probe installed,Commander Voss confirmed the hold-down release at T-minus-four
+E15,E29,1,< (Precedes),False,probe installed,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E16,E1,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,silicon shortage
+E16,E2,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,contract was signed
+E16,E3,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,guidance algorithm—now suspect—had been approved
+E16,E4,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,author was presenting an earlier version at a conference in Munich
+E16,E5,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,subcommittee chair had a conflict with the hearing
+E16,E6,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,fuel truck had blown a gasket
+E16,E7,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,"evacuation routes, routes that had been activated"
+E16,E8,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,inspector who was supposed to certify the fuel truck's gasket replacement
+E16,E9,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,replacement that had been ordered
+E16,E10,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,logistics coordinator had already rerouted the backup truck
+E16,E11,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,hurricane warning was issued
+E16,E12,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,range safety officer to advance the launch window by six hours
+E16,E13,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,wet dress rehearsal
+E16,E14,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,subroutine written
+E16,E15,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,probe installed
+E16,E17,-1,> (Preceded By),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,presentation that had been recorded
+E16,E18,-5,di (Contains),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,cryo-cooler had been switched to backup mode
+E16,E19,3,o (Overlaps),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,pressure spike in the oxidizer line that had appeared
+E16,E20,-5,di (Contains),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,night shift lead had stayed late to review the anomaly data
+E16,E21,-5,di (Contains),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,handover between the night shift and the day shift
+E16,E22,1,< (Precedes),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,mission director—who'd been in Munich for the conference and had landed at Dulles
+E16,E23,1,< (Precedes),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,briefing that had been rescheduled
+E16,E24,1,< (Precedes),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E16,E25,1,< (Precedes),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,final integration test
+E16,E26,1,< (Precedes),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,avionics team to skip the secondary checksum verification
+E16,E27,1,< (Precedes),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E16,E28,1,< (Precedes),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,Commander Voss confirmed the hold-down release at T-minus-four
+E16,E29,1,< (Precedes),False,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E17,E1,-1,> (Preceded By),False,presentation that had been recorded,silicon shortage
+E17,E2,-1,> (Preceded By),False,presentation that had been recorded,contract was signed
+E17,E3,-1,> (Preceded By),False,presentation that had been recorded,guidance algorithm—now suspect—had been approved
+E17,E4,-2,mi (Met By),False,presentation that had been recorded,author was presenting an earlier version at a conference in Munich
+E17,E5,1,< (Precedes),False,presentation that had been recorded,subcommittee chair had a conflict with the hearing
+E17,E6,1,< (Precedes),False,presentation that had been recorded,fuel truck had blown a gasket
+E17,E7,1,< (Precedes),False,presentation that had been recorded,"evacuation routes, routes that had been activated"
+E17,E8,1,< (Precedes),False,presentation that had been recorded,inspector who was supposed to certify the fuel truck's gasket replacement
+E17,E9,1,< (Precedes),False,presentation that had been recorded,replacement that had been ordered
+E17,E10,1,< (Precedes),False,presentation that had been recorded,logistics coordinator had already rerouted the backup truck
+E17,E11,1,< (Precedes),False,presentation that had been recorded,hurricane warning was issued
+E17,E12,1,< (Precedes),False,presentation that had been recorded,range safety officer to advance the launch window by six hours
+E17,E13,1,< (Precedes),False,presentation that had been recorded,wet dress rehearsal
+E17,E14,1,< (Precedes),False,presentation that had been recorded,subroutine written
+E17,E15,1,< (Precedes),False,presentation that had been recorded,probe installed
+E17,E16,1,< (Precedes),False,presentation that had been recorded,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E17,E18,1,< (Precedes),False,presentation that had been recorded,cryo-cooler had been switched to backup mode
+E17,E19,1,< (Precedes),False,presentation that had been recorded,pressure spike in the oxidizer line that had appeared
+E17,E20,1,< (Precedes),False,presentation that had been recorded,night shift lead had stayed late to review the anomaly data
+E17,E21,1,< (Precedes),False,presentation that had been recorded,handover between the night shift and the day shift
+E17,E22,1,< (Precedes),False,presentation that had been recorded,mission director—who'd been in Munich for the conference and had landed at Dulles
+E17,E23,1,< (Precedes),False,presentation that had been recorded,briefing that had been rescheduled
+E17,E24,1,< (Precedes),False,presentation that had been recorded,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E17,E25,1,< (Precedes),False,presentation that had been recorded,final integration test
+E17,E26,1,< (Precedes),False,presentation that had been recorded,avionics team to skip the secondary checksum verification
+E17,E27,1,< (Precedes),False,presentation that had been recorded,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E17,E28,1,< (Precedes),False,presentation that had been recorded,Commander Voss confirmed the hold-down release at T-minus-four
+E17,E29,1,< (Precedes),False,presentation that had been recorded,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E18,E1,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,silicon shortage
+E18,E2,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,contract was signed
+E18,E3,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,guidance algorithm—now suspect—had been approved
+E18,E4,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,author was presenting an earlier version at a conference in Munich
+E18,E5,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,subcommittee chair had a conflict with the hearing
+E18,E6,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,fuel truck had blown a gasket
+E18,E7,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,"evacuation routes, routes that had been activated"
+E18,E8,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,inspector who was supposed to certify the fuel truck's gasket replacement
+E18,E9,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,replacement that had been ordered
+E18,E10,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,logistics coordinator had already rerouted the backup truck
+E18,E11,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,hurricane warning was issued
+E18,E12,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,range safety officer to advance the launch window by six hours
+E18,E13,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,wet dress rehearsal
+E18,E14,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,subroutine written
+E18,E15,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,probe installed
+E18,E16,5,d (During),False,cryo-cooler had been switched to backup mode,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E18,E17,-1,> (Preceded By),False,cryo-cooler had been switched to backup mode,presentation that had been recorded
+E18,E19,2,m (Meets),False,cryo-cooler had been switched to backup mode,pressure spike in the oxidizer line that had appeared
+E18,E20,1,< (Precedes),False,cryo-cooler had been switched to backup mode,night shift lead had stayed late to review the anomaly data
+E18,E21,1,< (Precedes),False,cryo-cooler had been switched to backup mode,handover between the night shift and the day shift
+E18,E22,1,< (Precedes),False,cryo-cooler had been switched to backup mode,mission director—who'd been in Munich for the conference and had landed at Dulles
+E18,E23,1,< (Precedes),False,cryo-cooler had been switched to backup mode,briefing that had been rescheduled
+E18,E24,1,< (Precedes),False,cryo-cooler had been switched to backup mode,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E18,E25,1,< (Precedes),False,cryo-cooler had been switched to backup mode,final integration test
+E18,E26,1,< (Precedes),False,cryo-cooler had been switched to backup mode,avionics team to skip the secondary checksum verification
+E18,E27,1,< (Precedes),False,cryo-cooler had been switched to backup mode,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E18,E28,1,< (Precedes),False,cryo-cooler had been switched to backup mode,Commander Voss confirmed the hold-down release at T-minus-four
+E18,E29,1,< (Precedes),False,cryo-cooler had been switched to backup mode,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E19,E1,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,silicon shortage
+E19,E2,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,contract was signed
+E19,E3,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,guidance algorithm—now suspect—had been approved
+E19,E4,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,author was presenting an earlier version at a conference in Munich
+E19,E5,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,subcommittee chair had a conflict with the hearing
+E19,E6,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,fuel truck had blown a gasket
+E19,E7,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,"evacuation routes, routes that had been activated"
+E19,E8,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,inspector who was supposed to certify the fuel truck's gasket replacement
+E19,E9,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,replacement that had been ordered
+E19,E10,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,logistics coordinator had already rerouted the backup truck
+E19,E11,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,hurricane warning was issued
+E19,E12,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,range safety officer to advance the launch window by six hours
+E19,E13,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,wet dress rehearsal
+E19,E14,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,subroutine written
+E19,E15,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,probe installed
+E19,E16,-3,oi (Overlapped By),False,pressure spike in the oxidizer line that had appeared,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E19,E17,-1,> (Preceded By),False,pressure spike in the oxidizer line that had appeared,presentation that had been recorded
+E19,E18,-2,mi (Met By),False,pressure spike in the oxidizer line that had appeared,cryo-cooler had been switched to backup mode
+E19,E20,-5,di (Contains),False,pressure spike in the oxidizer line that had appeared,night shift lead had stayed late to review the anomaly data
+E19,E21,-5,di (Contains),False,pressure spike in the oxidizer line that had appeared,handover between the night shift and the day shift
+E19,E22,1,< (Precedes),False,pressure spike in the oxidizer line that had appeared,mission director—who'd been in Munich for the conference and had landed at Dulles
+E19,E23,1,< (Precedes),False,pressure spike in the oxidizer line that had appeared,briefing that had been rescheduled
+E19,E24,1,< (Precedes),False,pressure spike in the oxidizer line that had appeared,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E19,E25,1,< (Precedes),False,pressure spike in the oxidizer line that had appeared,final integration test
+E19,E26,1,< (Precedes),False,pressure spike in the oxidizer line that had appeared,avionics team to skip the secondary checksum verification
+E19,E27,1,< (Precedes),False,pressure spike in the oxidizer line that had appeared,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E19,E28,1,< (Precedes),False,pressure spike in the oxidizer line that had appeared,Commander Voss confirmed the hold-down release at T-minus-four
+E19,E29,1,< (Precedes),False,pressure spike in the oxidizer line that had appeared,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E20,E1,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,silicon shortage
+E20,E2,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,contract was signed
+E20,E3,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,guidance algorithm—now suspect—had been approved
+E20,E4,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,author was presenting an earlier version at a conference in Munich
+E20,E5,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,subcommittee chair had a conflict with the hearing
+E20,E6,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,fuel truck had blown a gasket
+E20,E7,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,"evacuation routes, routes that had been activated"
+E20,E8,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,inspector who was supposed to certify the fuel truck's gasket replacement
+E20,E9,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,replacement that had been ordered
+E20,E10,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,logistics coordinator had already rerouted the backup truck
+E20,E11,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,hurricane warning was issued
+E20,E12,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,range safety officer to advance the launch window by six hours
+E20,E13,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,wet dress rehearsal
+E20,E14,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,subroutine written
+E20,E15,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,probe installed
+E20,E16,5,d (During),False,night shift lead had stayed late to review the anomaly data,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E20,E17,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,presentation that had been recorded
+E20,E18,-1,> (Preceded By),False,night shift lead had stayed late to review the anomaly data,cryo-cooler had been switched to backup mode
+E20,E19,5,d (During),False,night shift lead had stayed late to review the anomaly data,pressure spike in the oxidizer line that had appeared
+E20,E21,2,m (Meets),False,night shift lead had stayed late to review the anomaly data,handover between the night shift and the day shift
+E20,E22,1,< (Precedes),False,night shift lead had stayed late to review the anomaly data,mission director—who'd been in Munich for the conference and had landed at Dulles
+E20,E23,1,< (Precedes),False,night shift lead had stayed late to review the anomaly data,briefing that had been rescheduled
+E20,E24,1,< (Precedes),False,night shift lead had stayed late to review the anomaly data,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E20,E25,1,< (Precedes),False,night shift lead had stayed late to review the anomaly data,final integration test
+E20,E26,1,< (Precedes),False,night shift lead had stayed late to review the anomaly data,avionics team to skip the secondary checksum verification
+E20,E27,1,< (Precedes),False,night shift lead had stayed late to review the anomaly data,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E20,E28,1,< (Precedes),False,night shift lead had stayed late to review the anomaly data,Commander Voss confirmed the hold-down release at T-minus-four
+E20,E29,1,< (Precedes),False,night shift lead had stayed late to review the anomaly data,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E21,E1,-1,> (Preceded By),False,handover between the night shift and the day shift,silicon shortage
+E21,E2,-1,> (Preceded By),False,handover between the night shift and the day shift,contract was signed
+E21,E3,-1,> (Preceded By),False,handover between the night shift and the day shift,guidance algorithm—now suspect—had been approved
+E21,E4,-1,> (Preceded By),False,handover between the night shift and the day shift,author was presenting an earlier version at a conference in Munich
+E21,E5,-1,> (Preceded By),False,handover between the night shift and the day shift,subcommittee chair had a conflict with the hearing
+E21,E6,-1,> (Preceded By),False,handover between the night shift and the day shift,fuel truck had blown a gasket
+E21,E7,-1,> (Preceded By),False,handover between the night shift and the day shift,"evacuation routes, routes that had been activated"
+E21,E8,-1,> (Preceded By),False,handover between the night shift and the day shift,inspector who was supposed to certify the fuel truck's gasket replacement
+E21,E9,-1,> (Preceded By),False,handover between the night shift and the day shift,replacement that had been ordered
+E21,E10,-1,> (Preceded By),False,handover between the night shift and the day shift,logistics coordinator had already rerouted the backup truck
+E21,E11,-1,> (Preceded By),False,handover between the night shift and the day shift,hurricane warning was issued
+E21,E12,-1,> (Preceded By),False,handover between the night shift and the day shift,range safety officer to advance the launch window by six hours
+E21,E13,-1,> (Preceded By),False,handover between the night shift and the day shift,wet dress rehearsal
+E21,E14,-1,> (Preceded By),False,handover between the night shift and the day shift,subroutine written
+E21,E15,-1,> (Preceded By),False,handover between the night shift and the day shift,probe installed
+E21,E16,5,d (During),False,handover between the night shift and the day shift,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E21,E17,-1,> (Preceded By),False,handover between the night shift and the day shift,presentation that had been recorded
+E21,E18,-1,> (Preceded By),False,handover between the night shift and the day shift,cryo-cooler had been switched to backup mode
+E21,E19,5,d (During),False,handover between the night shift and the day shift,pressure spike in the oxidizer line that had appeared
+E21,E20,-2,mi (Met By),False,handover between the night shift and the day shift,night shift lead had stayed late to review the anomaly data
+E21,E22,1,< (Precedes),False,handover between the night shift and the day shift,mission director—who'd been in Munich for the conference and had landed at Dulles
+E21,E23,1,< (Precedes),False,handover between the night shift and the day shift,briefing that had been rescheduled
+E21,E24,1,< (Precedes),False,handover between the night shift and the day shift,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E21,E25,1,< (Precedes),False,handover between the night shift and the day shift,final integration test
+E21,E26,1,< (Precedes),False,handover between the night shift and the day shift,avionics team to skip the secondary checksum verification
+E21,E27,1,< (Precedes),False,handover between the night shift and the day shift,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E21,E28,1,< (Precedes),False,handover between the night shift and the day shift,Commander Voss confirmed the hold-down release at T-minus-four
+E21,E29,1,< (Precedes),False,handover between the night shift and the day shift,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E22,E1,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,silicon shortage
+E22,E2,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,contract was signed
+E22,E3,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,guidance algorithm—now suspect—had been approved
+E22,E4,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,author was presenting an earlier version at a conference in Munich
+E22,E5,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,subcommittee chair had a conflict with the hearing
+E22,E6,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,fuel truck had blown a gasket
+E22,E7,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,"evacuation routes, routes that had been activated"
+E22,E8,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,inspector who was supposed to certify the fuel truck's gasket replacement
+E22,E9,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,replacement that had been ordered
+E22,E10,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,logistics coordinator had already rerouted the backup truck
+E22,E11,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,hurricane warning was issued
+E22,E12,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,range safety officer to advance the launch window by six hours
+E22,E13,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,wet dress rehearsal
+E22,E14,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,subroutine written
+E22,E15,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,probe installed
+E22,E16,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E22,E17,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,presentation that had been recorded
+E22,E18,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,cryo-cooler had been switched to backup mode
+E22,E19,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,pressure spike in the oxidizer line that had appeared
+E22,E20,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,night shift lead had stayed late to review the anomaly data
+E22,E21,-1,> (Preceded By),False,mission director—who'd been in Munich for the conference and had landed at Dulles,handover between the night shift and the day shift
+E22,E23,1,< (Precedes),False,mission director—who'd been in Munich for the conference and had landed at Dulles,briefing that had been rescheduled
+E22,E24,1,< (Precedes),False,mission director—who'd been in Munich for the conference and had landed at Dulles,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E22,E25,1,< (Precedes),False,mission director—who'd been in Munich for the conference and had landed at Dulles,final integration test
+E22,E26,1,< (Precedes),False,mission director—who'd been in Munich for the conference and had landed at Dulles,avionics team to skip the secondary checksum verification
+E22,E27,1,< (Precedes),False,mission director—who'd been in Munich for the conference and had landed at Dulles,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E22,E28,1,< (Precedes),False,mission director—who'd been in Munich for the conference and had landed at Dulles,Commander Voss confirmed the hold-down release at T-minus-four
+E22,E29,1,< (Precedes),False,mission director—who'd been in Munich for the conference and had landed at Dulles,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E23,E1,-1,> (Preceded By),False,briefing that had been rescheduled,silicon shortage
+E23,E2,-1,> (Preceded By),False,briefing that had been rescheduled,contract was signed
+E23,E3,-1,> (Preceded By),False,briefing that had been rescheduled,guidance algorithm—now suspect—had been approved
+E23,E4,-1,> (Preceded By),False,briefing that had been rescheduled,author was presenting an earlier version at a conference in Munich
+E23,E5,-1,> (Preceded By),False,briefing that had been rescheduled,subcommittee chair had a conflict with the hearing
+E23,E6,-1,> (Preceded By),False,briefing that had been rescheduled,fuel truck had blown a gasket
+E23,E7,-1,> (Preceded By),False,briefing that had been rescheduled,"evacuation routes, routes that had been activated"
+E23,E8,-1,> (Preceded By),False,briefing that had been rescheduled,inspector who was supposed to certify the fuel truck's gasket replacement
+E23,E9,-1,> (Preceded By),False,briefing that had been rescheduled,replacement that had been ordered
+E23,E10,-1,> (Preceded By),False,briefing that had been rescheduled,logistics coordinator had already rerouted the backup truck
+E23,E11,-1,> (Preceded By),False,briefing that had been rescheduled,hurricane warning was issued
+E23,E12,-1,> (Preceded By),False,briefing that had been rescheduled,range safety officer to advance the launch window by six hours
+E23,E13,-1,> (Preceded By),False,briefing that had been rescheduled,wet dress rehearsal
+E23,E14,-1,> (Preceded By),False,briefing that had been rescheduled,subroutine written
+E23,E15,-1,> (Preceded By),False,briefing that had been rescheduled,probe installed
+E23,E16,-1,> (Preceded By),False,briefing that had been rescheduled,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E23,E17,-1,> (Preceded By),False,briefing that had been rescheduled,presentation that had been recorded
+E23,E18,-1,> (Preceded By),False,briefing that had been rescheduled,cryo-cooler had been switched to backup mode
+E23,E19,-1,> (Preceded By),False,briefing that had been rescheduled,pressure spike in the oxidizer line that had appeared
+E23,E20,-1,> (Preceded By),False,briefing that had been rescheduled,night shift lead had stayed late to review the anomaly data
+E23,E21,-1,> (Preceded By),False,briefing that had been rescheduled,handover between the night shift and the day shift
+E23,E22,-1,> (Preceded By),False,briefing that had been rescheduled,mission director—who'd been in Munich for the conference and had landed at Dulles
+E23,E24,1,< (Precedes),False,briefing that had been rescheduled,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E23,E25,1,< (Precedes),False,briefing that had been rescheduled,final integration test
+E23,E26,1,< (Precedes),False,briefing that had been rescheduled,avionics team to skip the secondary checksum verification
+E23,E27,1,< (Precedes),False,briefing that had been rescheduled,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E23,E28,1,< (Precedes),False,briefing that had been rescheduled,Commander Voss confirmed the hold-down release at T-minus-four
+E23,E29,1,< (Precedes),False,briefing that had been rescheduled,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E24,E1,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",silicon shortage
+E24,E2,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",contract was signed
+E24,E3,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",guidance algorithm—now suspect—had been approved
+E24,E4,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",author was presenting an earlier version at a conference in Munich
+E24,E5,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",subcommittee chair had a conflict with the hearing
+E24,E6,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",fuel truck had blown a gasket
+E24,E7,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown","evacuation routes, routes that had been activated"
+E24,E8,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",inspector who was supposed to certify the fuel truck's gasket replacement
+E24,E9,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",replacement that had been ordered
+E24,E10,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",logistics coordinator had already rerouted the backup truck
+E24,E11,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",hurricane warning was issued
+E24,E12,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",range safety officer to advance the launch window by six hours
+E24,E13,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",wet dress rehearsal
+E24,E14,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",subroutine written
+E24,E15,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",probe installed
+E24,E16,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E24,E17,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",presentation that had been recorded
+E24,E18,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",cryo-cooler had been switched to backup mode
+E24,E19,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",pressure spike in the oxidizer line that had appeared
+E24,E20,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",night shift lead had stayed late to review the anomaly data
+E24,E21,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",handover between the night shift and the day shift
+E24,E22,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",mission director—who'd been in Munich for the conference and had landed at Dulles
+E24,E23,-1,> (Preceded By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",briefing that had been rescheduled
+E24,E25,-6,fi (Finished By),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",final integration test
+E24,E26,-5,di (Contains),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",avionics team to skip the secondary checksum verification
+E24,E27,1,< (Precedes),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",software patch that would prevent the guidance anomaly had been uploaded to the range server
+E24,E28,1,< (Precedes),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown",Commander Voss confirmed the hold-down release at T-minus-four
+E24,E29,1,< (Precedes),False,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown","anomaly, now patched, had already fired the thrusters three milliseconds early"
+E25,E1,-1,> (Preceded By),False,final integration test,silicon shortage
+E25,E2,-1,> (Preceded By),False,final integration test,contract was signed
+E25,E3,-1,> (Preceded By),False,final integration test,guidance algorithm—now suspect—had been approved
+E25,E4,-1,> (Preceded By),False,final integration test,author was presenting an earlier version at a conference in Munich
+E25,E5,-1,> (Preceded By),False,final integration test,subcommittee chair had a conflict with the hearing
+E25,E6,-1,> (Preceded By),False,final integration test,fuel truck had blown a gasket
+E25,E7,-1,> (Preceded By),False,final integration test,"evacuation routes, routes that had been activated"
+E25,E8,-1,> (Preceded By),False,final integration test,inspector who was supposed to certify the fuel truck's gasket replacement
+E25,E9,-1,> (Preceded By),False,final integration test,replacement that had been ordered
+E25,E10,-1,> (Preceded By),False,final integration test,logistics coordinator had already rerouted the backup truck
+E25,E11,-1,> (Preceded By),False,final integration test,hurricane warning was issued
+E25,E12,-1,> (Preceded By),False,final integration test,range safety officer to advance the launch window by six hours
+E25,E13,-1,> (Preceded By),False,final integration test,wet dress rehearsal
+E25,E14,-1,> (Preceded By),False,final integration test,subroutine written
+E25,E15,-1,> (Preceded By),False,final integration test,probe installed
+E25,E16,-1,> (Preceded By),False,final integration test,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E25,E17,-1,> (Preceded By),False,final integration test,presentation that had been recorded
+E25,E18,-1,> (Preceded By),False,final integration test,cryo-cooler had been switched to backup mode
+E25,E19,-1,> (Preceded By),False,final integration test,pressure spike in the oxidizer line that had appeared
+E25,E20,-1,> (Preceded By),False,final integration test,night shift lead had stayed late to review the anomaly data
+E25,E21,-1,> (Preceded By),False,final integration test,handover between the night shift and the day shift
+E25,E22,-1,> (Preceded By),False,final integration test,mission director—who'd been in Munich for the conference and had landed at Dulles
+E25,E23,-1,> (Preceded By),False,final integration test,briefing that had been rescheduled
+E25,E24,6,f (Finishes),False,final integration test,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E25,E26,-5,di (Contains),False,final integration test,avionics team to skip the secondary checksum verification
+E25,E27,1,< (Precedes),False,final integration test,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E25,E28,1,< (Precedes),False,final integration test,Commander Voss confirmed the hold-down release at T-minus-four
+E25,E29,1,< (Precedes),False,final integration test,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E26,E1,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,silicon shortage
+E26,E2,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,contract was signed
+E26,E3,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,guidance algorithm—now suspect—had been approved
+E26,E4,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,author was presenting an earlier version at a conference in Munich
+E26,E5,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,subcommittee chair had a conflict with the hearing
+E26,E6,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,fuel truck had blown a gasket
+E26,E7,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,"evacuation routes, routes that had been activated"
+E26,E8,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,inspector who was supposed to certify the fuel truck's gasket replacement
+E26,E9,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,replacement that had been ordered
+E26,E10,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,logistics coordinator had already rerouted the backup truck
+E26,E11,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,hurricane warning was issued
+E26,E12,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,range safety officer to advance the launch window by six hours
+E26,E13,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,wet dress rehearsal
+E26,E14,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,subroutine written
+E26,E15,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,probe installed
+E26,E16,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E26,E17,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,presentation that had been recorded
+E26,E18,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,cryo-cooler had been switched to backup mode
+E26,E19,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,pressure spike in the oxidizer line that had appeared
+E26,E20,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,night shift lead had stayed late to review the anomaly data
+E26,E21,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,handover between the night shift and the day shift
+E26,E22,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,mission director—who'd been in Munich for the conference and had landed at Dulles
+E26,E23,-1,> (Preceded By),False,avionics team to skip the secondary checksum verification,briefing that had been rescheduled
+E26,E24,5,d (During),False,avionics team to skip the secondary checksum verification,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E26,E25,5,d (During),False,avionics team to skip the secondary checksum verification,final integration test
+E26,E27,1,< (Precedes),False,avionics team to skip the secondary checksum verification,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E26,E28,1,< (Precedes),False,avionics team to skip the secondary checksum verification,Commander Voss confirmed the hold-down release at T-minus-four
+E26,E29,1,< (Precedes),False,avionics team to skip the secondary checksum verification,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E27,E1,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,silicon shortage
+E27,E2,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,contract was signed
+E27,E3,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,guidance algorithm—now suspect—had been approved
+E27,E4,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,author was presenting an earlier version at a conference in Munich
+E27,E5,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,subcommittee chair had a conflict with the hearing
+E27,E6,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,fuel truck had blown a gasket
+E27,E7,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,"evacuation routes, routes that had been activated"
+E27,E8,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,inspector who was supposed to certify the fuel truck's gasket replacement
+E27,E9,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,replacement that had been ordered
+E27,E10,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,logistics coordinator had already rerouted the backup truck
+E27,E11,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,hurricane warning was issued
+E27,E12,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,range safety officer to advance the launch window by six hours
+E27,E13,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,wet dress rehearsal
+E27,E14,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,subroutine written
+E27,E15,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,probe installed
+E27,E16,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E27,E17,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,presentation that had been recorded
+E27,E18,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,cryo-cooler had been switched to backup mode
+E27,E19,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,pressure spike in the oxidizer line that had appeared
+E27,E20,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,night shift lead had stayed late to review the anomaly data
+E27,E21,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,handover between the night shift and the day shift
+E27,E22,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,mission director—who'd been in Munich for the conference and had landed at Dulles
+E27,E23,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,briefing that had been rescheduled
+E27,E24,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E27,E25,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,final integration test
+E27,E26,-1,> (Preceded By),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,avionics team to skip the secondary checksum verification
+E27,E28,1,< (Precedes),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,Commander Voss confirmed the hold-down release at T-minus-four
+E27,E29,1,< (Precedes),False,software patch that would prevent the guidance anomaly had been uploaded to the range server,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E28,E1,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,silicon shortage
+E28,E2,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,contract was signed
+E28,E3,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,guidance algorithm—now suspect—had been approved
+E28,E4,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,author was presenting an earlier version at a conference in Munich
+E28,E5,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,subcommittee chair had a conflict with the hearing
+E28,E6,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,fuel truck had blown a gasket
+E28,E7,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,"evacuation routes, routes that had been activated"
+E28,E8,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,inspector who was supposed to certify the fuel truck's gasket replacement
+E28,E9,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,replacement that had been ordered
+E28,E10,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,logistics coordinator had already rerouted the backup truck
+E28,E11,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,hurricane warning was issued
+E28,E12,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,range safety officer to advance the launch window by six hours
+E28,E13,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,wet dress rehearsal
+E28,E14,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,subroutine written
+E28,E15,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,probe installed
+E28,E16,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E28,E17,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,presentation that had been recorded
+E28,E18,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,cryo-cooler had been switched to backup mode
+E28,E19,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,pressure spike in the oxidizer line that had appeared
+E28,E20,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,night shift lead had stayed late to review the anomaly data
+E28,E21,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,handover between the night shift and the day shift
+E28,E22,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,mission director—who'd been in Munich for the conference and had landed at Dulles
+E28,E23,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,briefing that had been rescheduled
+E28,E24,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,"network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E28,E25,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,final integration test
+E28,E26,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,avionics team to skip the secondary checksum verification
+E28,E27,-1,> (Preceded By),False,Commander Voss confirmed the hold-down release at T-minus-four,software patch that would prevent the guidance anomaly had been uploaded to the range server
+E28,E29,1,< (Precedes),False,Commander Voss confirmed the hold-down release at T-minus-four,"anomaly, now patched, had already fired the thrusters three milliseconds early"
+E29,E1,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",silicon shortage
+E29,E2,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",contract was signed
+E29,E3,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",guidance algorithm—now suspect—had been approved
+E29,E4,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",author was presenting an earlier version at a conference in Munich
+E29,E5,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",subcommittee chair had a conflict with the hearing
+E29,E6,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",fuel truck had blown a gasket
+E29,E7,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early","evacuation routes, routes that had been activated"
+E29,E8,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",inspector who was supposed to certify the fuel truck's gasket replacement
+E29,E9,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",replacement that had been ordered
+E29,E10,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",logistics coordinator had already rerouted the backup truck
+E29,E11,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",hurricane warning was issued
+E29,E12,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",range safety officer to advance the launch window by six hours
+E29,E13,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",wet dress rehearsal
+E29,E14,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",subroutine written
+E29,E15,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",probe installed
+E29,E16,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",telemetry engineer—who'd been debugging the anomaly since the Tuesday prior
+E29,E17,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",presentation that had been recorded
+E29,E18,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",cryo-cooler had been switched to backup mode
+E29,E19,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",pressure spike in the oxidizer line that had appeared
+E29,E20,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",night shift lead had stayed late to review the anomaly data
+E29,E21,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",handover between the night shift and the day shift
+E29,E22,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",mission director—who'd been in Munich for the conference and had landed at Dulles
+E29,E23,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",briefing that had been rescheduled
+E29,E24,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early","network technician, troubleshooting the pressure spike alert, had accidentally bridged two VLANs and triggered a security lockdown"
+E29,E25,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",final integration test
+E29,E26,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",avionics team to skip the secondary checksum verification
+E29,E27,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",software patch that would prevent the guidance anomaly had been uploaded to the range server
+E29,E28,-1,> (Preceded By),False,"anomaly, now patched, had already fired the thrusters three milliseconds early",Commander Voss confirmed the hold-down release at T-minus-four

@@ -1,0 +1,463 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,The well had been dug by hand,took two weeks to complete
+E1,E3,1,< (Precedes),False,The well had been dug by hand,It went dry in the second year
+E1,E4,1,< (Precedes),False,The well had been dug by hand,a drought that lasted seven months
+E1,E5,1,< (Precedes),False,The well had been dug by hand,It was deepened twice since then
+E1,E6,1,< (Precedes),False,The well had been dug by hand,Each deepening consumed a month
+E1,E7,1,< (Precedes),False,The well had been dug by hand,bought a decade of water
+E1,E8,1,< (Precedes),False,The well had been dug by hand,running two hours per day
+E1,E9,1,< (Precedes),False,The well had been dug by hand,filling a tank
+E1,E10,1,< (Precedes),False,The well had been dug by hand,served the village for the remaining twenty two hours
+E1,E11,1,< (Precedes),False,The well had been dug by hand,The tank's last litre was always drawn just before the next pumping
+E1,E12,1,< (Precedes),False,The well had been dug by hand,A visiting hydrologist measured the water table
+E1,E13,1,< (Precedes),False,The well had been dug by hand,It had dropped four centimetres per year for thirty years
+E1,E14,1,< (Precedes),False,The well had been dug by hand,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E1,E15,1,< (Precedes),False,The well had been dug by hand,The generator failed one afternoon
+E1,E16,1,< (Precedes),False,The well had been dug by hand,The repair took three days
+E1,E17,1,< (Precedes),False,The well had been dug by hand,the village carried water from a spring two kilometres away
+E1,E18,0,= (Equal),False,The well had been dug by hand,That spring had been abandoned when the well was first dug
+E1,E19,0,= (Equal),False,The well had been dug by hand,the walk was longer than the digging
+E1,E20,1,< (Precedes),False,The well had been dug by hand,The old women who had made that walk as girls now made it again as grandmothers
+E1,E21,1,< (Precedes),False,The well had been dug by hand,They said the well was a young man's solution
+E1,E22,2,m (Meets),False,The well had been dug by hand,The spring was older than anyone
+E2,E1,-2,mi (Met By),False,took two weeks to complete,The well had been dug by hand
+E2,E3,1,< (Precedes),False,took two weeks to complete,It went dry in the second year
+E2,E4,1,< (Precedes),False,took two weeks to complete,a drought that lasted seven months
+E2,E5,1,< (Precedes),False,took two weeks to complete,It was deepened twice since then
+E2,E6,1,< (Precedes),False,took two weeks to complete,Each deepening consumed a month
+E2,E7,1,< (Precedes),False,took two weeks to complete,bought a decade of water
+E2,E8,1,< (Precedes),False,took two weeks to complete,running two hours per day
+E2,E9,1,< (Precedes),False,took two weeks to complete,filling a tank
+E2,E10,1,< (Precedes),False,took two weeks to complete,served the village for the remaining twenty two hours
+E2,E11,1,< (Precedes),False,took two weeks to complete,The tank's last litre was always drawn just before the next pumping
+E2,E12,1,< (Precedes),False,took two weeks to complete,A visiting hydrologist measured the water table
+E2,E13,1,< (Precedes),False,took two weeks to complete,It had dropped four centimetres per year for thirty years
+E2,E14,1,< (Precedes),False,took two weeks to complete,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E2,E15,1,< (Precedes),False,took two weeks to complete,The generator failed one afternoon
+E2,E16,1,< (Precedes),False,took two weeks to complete,The repair took three days
+E2,E17,1,< (Precedes),False,took two weeks to complete,the village carried water from a spring two kilometres away
+E2,E18,-2,mi (Met By),False,took two weeks to complete,That spring had been abandoned when the well was first dug
+E2,E19,-2,mi (Met By),False,took two weeks to complete,the walk was longer than the digging
+E2,E20,1,< (Precedes),False,took two weeks to complete,The old women who had made that walk as girls now made it again as grandmothers
+E2,E21,1,< (Precedes),False,took two weeks to complete,They said the well was a young man's solution
+E2,E22,4,s (Starts),False,took two weeks to complete,The spring was older than anyone
+E3,E1,-1,> (Preceded By),False,It went dry in the second year,The well had been dug by hand
+E3,E2,-1,> (Preceded By),False,It went dry in the second year,took two weeks to complete
+E3,E4,2,m (Meets),False,It went dry in the second year,a drought that lasted seven months
+E3,E5,1,< (Precedes),False,It went dry in the second year,It was deepened twice since then
+E3,E6,1,< (Precedes),False,It went dry in the second year,Each deepening consumed a month
+E3,E7,1,< (Precedes),False,It went dry in the second year,bought a decade of water
+E3,E8,1,< (Precedes),False,It went dry in the second year,running two hours per day
+E3,E9,1,< (Precedes),False,It went dry in the second year,filling a tank
+E3,E10,1,< (Precedes),False,It went dry in the second year,served the village for the remaining twenty two hours
+E3,E11,1,< (Precedes),False,It went dry in the second year,The tank's last litre was always drawn just before the next pumping
+E3,E12,1,< (Precedes),False,It went dry in the second year,A visiting hydrologist measured the water table
+E3,E13,1,< (Precedes),False,It went dry in the second year,It had dropped four centimetres per year for thirty years
+E3,E14,1,< (Precedes),False,It went dry in the second year,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E3,E15,1,< (Precedes),False,It went dry in the second year,The generator failed one afternoon
+E3,E16,1,< (Precedes),False,It went dry in the second year,The repair took three days
+E3,E17,1,< (Precedes),False,It went dry in the second year,the village carried water from a spring two kilometres away
+E3,E18,-1,> (Preceded By),False,It went dry in the second year,That spring had been abandoned when the well was first dug
+E3,E19,-1,> (Preceded By),False,It went dry in the second year,the walk was longer than the digging
+E3,E20,1,< (Precedes),False,It went dry in the second year,The old women who had made that walk as girls now made it again as grandmothers
+E3,E21,1,< (Precedes),False,It went dry in the second year,They said the well was a young man's solution
+E3,E22,5,d (During),False,It went dry in the second year,The spring was older than anyone
+E4,E1,-1,> (Preceded By),False,a drought that lasted seven months,The well had been dug by hand
+E4,E2,-1,> (Preceded By),False,a drought that lasted seven months,took two weeks to complete
+E4,E3,-2,mi (Met By),False,a drought that lasted seven months,It went dry in the second year
+E4,E5,1,< (Precedes),False,a drought that lasted seven months,It was deepened twice since then
+E4,E6,1,< (Precedes),False,a drought that lasted seven months,Each deepening consumed a month
+E4,E7,1,< (Precedes),False,a drought that lasted seven months,bought a decade of water
+E4,E8,1,< (Precedes),False,a drought that lasted seven months,running two hours per day
+E4,E9,1,< (Precedes),False,a drought that lasted seven months,filling a tank
+E4,E10,1,< (Precedes),False,a drought that lasted seven months,served the village for the remaining twenty two hours
+E4,E11,1,< (Precedes),False,a drought that lasted seven months,The tank's last litre was always drawn just before the next pumping
+E4,E12,1,< (Precedes),False,a drought that lasted seven months,A visiting hydrologist measured the water table
+E4,E13,1,< (Precedes),False,a drought that lasted seven months,It had dropped four centimetres per year for thirty years
+E4,E14,1,< (Precedes),False,a drought that lasted seven months,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E4,E15,1,< (Precedes),False,a drought that lasted seven months,The generator failed one afternoon
+E4,E16,1,< (Precedes),False,a drought that lasted seven months,The repair took three days
+E4,E17,1,< (Precedes),False,a drought that lasted seven months,the village carried water from a spring two kilometres away
+E4,E18,-1,> (Preceded By),False,a drought that lasted seven months,That spring had been abandoned when the well was first dug
+E4,E19,-1,> (Preceded By),False,a drought that lasted seven months,the walk was longer than the digging
+E4,E20,1,< (Precedes),False,a drought that lasted seven months,The old women who had made that walk as girls now made it again as grandmothers
+E4,E21,1,< (Precedes),False,a drought that lasted seven months,They said the well was a young man's solution
+E4,E22,5,d (During),False,a drought that lasted seven months,The spring was older than anyone
+E5,E1,-1,> (Preceded By),False,It was deepened twice since then,The well had been dug by hand
+E5,E2,-1,> (Preceded By),False,It was deepened twice since then,took two weeks to complete
+E5,E3,-1,> (Preceded By),False,It was deepened twice since then,It went dry in the second year
+E5,E4,-1,> (Preceded By),False,It was deepened twice since then,a drought that lasted seven months
+E5,E6,0,= (Equal),False,It was deepened twice since then,Each deepening consumed a month
+E5,E7,2,m (Meets),False,It was deepened twice since then,bought a decade of water
+E5,E8,1,< (Precedes),False,It was deepened twice since then,running two hours per day
+E5,E9,1,< (Precedes),False,It was deepened twice since then,filling a tank
+E5,E10,1,< (Precedes),False,It was deepened twice since then,served the village for the remaining twenty two hours
+E5,E11,1,< (Precedes),False,It was deepened twice since then,The tank's last litre was always drawn just before the next pumping
+E5,E12,1,< (Precedes),False,It was deepened twice since then,A visiting hydrologist measured the water table
+E5,E13,1,< (Precedes),False,It was deepened twice since then,It had dropped four centimetres per year for thirty years
+E5,E14,1,< (Precedes),False,It was deepened twice since then,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E5,E15,1,< (Precedes),False,It was deepened twice since then,The generator failed one afternoon
+E5,E16,1,< (Precedes),False,It was deepened twice since then,The repair took three days
+E5,E17,1,< (Precedes),False,It was deepened twice since then,the village carried water from a spring two kilometres away
+E5,E18,-1,> (Preceded By),False,It was deepened twice since then,That spring had been abandoned when the well was first dug
+E5,E19,-1,> (Preceded By),False,It was deepened twice since then,the walk was longer than the digging
+E5,E20,1,< (Precedes),False,It was deepened twice since then,The old women who had made that walk as girls now made it again as grandmothers
+E5,E21,1,< (Precedes),False,It was deepened twice since then,They said the well was a young man's solution
+E5,E22,5,d (During),False,It was deepened twice since then,The spring was older than anyone
+E6,E1,-1,> (Preceded By),False,Each deepening consumed a month,The well had been dug by hand
+E6,E2,-1,> (Preceded By),False,Each deepening consumed a month,took two weeks to complete
+E6,E3,-1,> (Preceded By),False,Each deepening consumed a month,It went dry in the second year
+E6,E4,-1,> (Preceded By),False,Each deepening consumed a month,a drought that lasted seven months
+E6,E5,0,= (Equal),False,Each deepening consumed a month,It was deepened twice since then
+E6,E7,2,m (Meets),False,Each deepening consumed a month,bought a decade of water
+E6,E8,1,< (Precedes),False,Each deepening consumed a month,running two hours per day
+E6,E9,1,< (Precedes),False,Each deepening consumed a month,filling a tank
+E6,E10,1,< (Precedes),False,Each deepening consumed a month,served the village for the remaining twenty two hours
+E6,E11,1,< (Precedes),False,Each deepening consumed a month,The tank's last litre was always drawn just before the next pumping
+E6,E12,1,< (Precedes),False,Each deepening consumed a month,A visiting hydrologist measured the water table
+E6,E13,1,< (Precedes),False,Each deepening consumed a month,It had dropped four centimetres per year for thirty years
+E6,E14,1,< (Precedes),False,Each deepening consumed a month,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E6,E15,1,< (Precedes),False,Each deepening consumed a month,The generator failed one afternoon
+E6,E16,1,< (Precedes),False,Each deepening consumed a month,The repair took three days
+E6,E17,1,< (Precedes),False,Each deepening consumed a month,the village carried water from a spring two kilometres away
+E6,E18,-1,> (Preceded By),False,Each deepening consumed a month,That spring had been abandoned when the well was first dug
+E6,E19,-1,> (Preceded By),False,Each deepening consumed a month,the walk was longer than the digging
+E6,E20,1,< (Precedes),False,Each deepening consumed a month,The old women who had made that walk as girls now made it again as grandmothers
+E6,E21,1,< (Precedes),False,Each deepening consumed a month,They said the well was a young man's solution
+E6,E22,5,d (During),False,Each deepening consumed a month,The spring was older than anyone
+E7,E1,-1,> (Preceded By),False,bought a decade of water,The well had been dug by hand
+E7,E2,-1,> (Preceded By),False,bought a decade of water,took two weeks to complete
+E7,E3,-1,> (Preceded By),False,bought a decade of water,It went dry in the second year
+E7,E4,-1,> (Preceded By),False,bought a decade of water,a drought that lasted seven months
+E7,E5,-2,mi (Met By),False,bought a decade of water,It was deepened twice since then
+E7,E6,-2,mi (Met By),False,bought a decade of water,Each deepening consumed a month
+E7,E8,2,m (Meets),False,bought a decade of water,running two hours per day
+E7,E9,2,m (Meets),False,bought a decade of water,filling a tank
+E7,E10,1,< (Precedes),False,bought a decade of water,served the village for the remaining twenty two hours
+E7,E11,1,< (Precedes),False,bought a decade of water,The tank's last litre was always drawn just before the next pumping
+E7,E12,1,< (Precedes),False,bought a decade of water,A visiting hydrologist measured the water table
+E7,E13,3,o (Overlaps),False,bought a decade of water,It had dropped four centimetres per year for thirty years
+E7,E14,1,< (Precedes),False,bought a decade of water,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E7,E15,1,< (Precedes),False,bought a decade of water,The generator failed one afternoon
+E7,E16,1,< (Precedes),False,bought a decade of water,The repair took three days
+E7,E17,1,< (Precedes),False,bought a decade of water,the village carried water from a spring two kilometres away
+E7,E18,-1,> (Preceded By),False,bought a decade of water,That spring had been abandoned when the well was first dug
+E7,E19,-1,> (Preceded By),False,bought a decade of water,the walk was longer than the digging
+E7,E20,1,< (Precedes),False,bought a decade of water,The old women who had made that walk as girls now made it again as grandmothers
+E7,E21,1,< (Precedes),False,bought a decade of water,They said the well was a young man's solution
+E7,E22,5,d (During),False,bought a decade of water,The spring was older than anyone
+E8,E1,-1,> (Preceded By),False,running two hours per day,The well had been dug by hand
+E8,E2,-1,> (Preceded By),False,running two hours per day,took two weeks to complete
+E8,E3,-1,> (Preceded By),False,running two hours per day,It went dry in the second year
+E8,E4,-1,> (Preceded By),False,running two hours per day,a drought that lasted seven months
+E8,E5,-1,> (Preceded By),False,running two hours per day,It was deepened twice since then
+E8,E6,-1,> (Preceded By),False,running two hours per day,Each deepening consumed a month
+E8,E7,-2,mi (Met By),False,running two hours per day,bought a decade of water
+E8,E9,0,= (Equal),False,running two hours per day,filling a tank
+E8,E10,2,m (Meets),False,running two hours per day,served the village for the remaining twenty two hours
+E8,E11,1,< (Precedes),False,running two hours per day,The tank's last litre was always drawn just before the next pumping
+E8,E12,1,< (Precedes),False,running two hours per day,A visiting hydrologist measured the water table
+E8,E13,5,d (During),False,running two hours per day,It had dropped four centimetres per year for thirty years
+E8,E14,1,< (Precedes),False,running two hours per day,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E8,E15,1,< (Precedes),False,running two hours per day,The generator failed one afternoon
+E8,E16,1,< (Precedes),False,running two hours per day,The repair took three days
+E8,E17,1,< (Precedes),False,running two hours per day,the village carried water from a spring two kilometres away
+E8,E18,-1,> (Preceded By),False,running two hours per day,That spring had been abandoned when the well was first dug
+E8,E19,-1,> (Preceded By),False,running two hours per day,the walk was longer than the digging
+E8,E20,1,< (Precedes),False,running two hours per day,The old women who had made that walk as girls now made it again as grandmothers
+E8,E21,1,< (Precedes),False,running two hours per day,They said the well was a young man's solution
+E8,E22,5,d (During),False,running two hours per day,The spring was older than anyone
+E9,E1,-1,> (Preceded By),False,filling a tank,The well had been dug by hand
+E9,E2,-1,> (Preceded By),False,filling a tank,took two weeks to complete
+E9,E3,-1,> (Preceded By),False,filling a tank,It went dry in the second year
+E9,E4,-1,> (Preceded By),False,filling a tank,a drought that lasted seven months
+E9,E5,-1,> (Preceded By),False,filling a tank,It was deepened twice since then
+E9,E6,-1,> (Preceded By),False,filling a tank,Each deepening consumed a month
+E9,E7,-2,mi (Met By),False,filling a tank,bought a decade of water
+E9,E8,0,= (Equal),False,filling a tank,running two hours per day
+E9,E10,2,m (Meets),False,filling a tank,served the village for the remaining twenty two hours
+E9,E11,1,< (Precedes),False,filling a tank,The tank's last litre was always drawn just before the next pumping
+E9,E12,1,< (Precedes),False,filling a tank,A visiting hydrologist measured the water table
+E9,E13,5,d (During),False,filling a tank,It had dropped four centimetres per year for thirty years
+E9,E14,1,< (Precedes),False,filling a tank,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E9,E15,1,< (Precedes),False,filling a tank,The generator failed one afternoon
+E9,E16,1,< (Precedes),False,filling a tank,The repair took three days
+E9,E17,1,< (Precedes),False,filling a tank,the village carried water from a spring two kilometres away
+E9,E18,-1,> (Preceded By),False,filling a tank,That spring had been abandoned when the well was first dug
+E9,E19,-1,> (Preceded By),False,filling a tank,the walk was longer than the digging
+E9,E20,1,< (Precedes),False,filling a tank,The old women who had made that walk as girls now made it again as grandmothers
+E9,E21,1,< (Precedes),False,filling a tank,They said the well was a young man's solution
+E9,E22,5,d (During),False,filling a tank,The spring was older than anyone
+E10,E1,-1,> (Preceded By),False,served the village for the remaining twenty two hours,The well had been dug by hand
+E10,E2,-1,> (Preceded By),False,served the village for the remaining twenty two hours,took two weeks to complete
+E10,E3,-1,> (Preceded By),False,served the village for the remaining twenty two hours,It went dry in the second year
+E10,E4,-1,> (Preceded By),False,served the village for the remaining twenty two hours,a drought that lasted seven months
+E10,E5,-1,> (Preceded By),False,served the village for the remaining twenty two hours,It was deepened twice since then
+E10,E6,-1,> (Preceded By),False,served the village for the remaining twenty two hours,Each deepening consumed a month
+E10,E7,-1,> (Preceded By),False,served the village for the remaining twenty two hours,bought a decade of water
+E10,E8,-2,mi (Met By),False,served the village for the remaining twenty two hours,running two hours per day
+E10,E9,-2,mi (Met By),False,served the village for the remaining twenty two hours,filling a tank
+E10,E11,2,m (Meets),False,served the village for the remaining twenty two hours,The tank's last litre was always drawn just before the next pumping
+E10,E12,1,< (Precedes),False,served the village for the remaining twenty two hours,A visiting hydrologist measured the water table
+E10,E13,5,d (During),False,served the village for the remaining twenty two hours,It had dropped four centimetres per year for thirty years
+E10,E14,1,< (Precedes),False,served the village for the remaining twenty two hours,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E10,E15,1,< (Precedes),False,served the village for the remaining twenty two hours,The generator failed one afternoon
+E10,E16,1,< (Precedes),False,served the village for the remaining twenty two hours,The repair took three days
+E10,E17,1,< (Precedes),False,served the village for the remaining twenty two hours,the village carried water from a spring two kilometres away
+E10,E18,-1,> (Preceded By),False,served the village for the remaining twenty two hours,That spring had been abandoned when the well was first dug
+E10,E19,-1,> (Preceded By),False,served the village for the remaining twenty two hours,the walk was longer than the digging
+E10,E20,1,< (Precedes),False,served the village for the remaining twenty two hours,The old women who had made that walk as girls now made it again as grandmothers
+E10,E21,1,< (Precedes),False,served the village for the remaining twenty two hours,They said the well was a young man's solution
+E10,E22,5,d (During),False,served the village for the remaining twenty two hours,The spring was older than anyone
+E11,E1,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,The well had been dug by hand
+E11,E2,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,took two weeks to complete
+E11,E3,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,It went dry in the second year
+E11,E4,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,a drought that lasted seven months
+E11,E5,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,It was deepened twice since then
+E11,E6,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,Each deepening consumed a month
+E11,E7,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,bought a decade of water
+E11,E8,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,running two hours per day
+E11,E9,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,filling a tank
+E11,E10,-2,mi (Met By),False,The tank's last litre was always drawn just before the next pumping,served the village for the remaining twenty two hours
+E11,E12,1,< (Precedes),False,The tank's last litre was always drawn just before the next pumping,A visiting hydrologist measured the water table
+E11,E13,5,d (During),False,The tank's last litre was always drawn just before the next pumping,It had dropped four centimetres per year for thirty years
+E11,E14,1,< (Precedes),False,The tank's last litre was always drawn just before the next pumping,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E11,E15,1,< (Precedes),False,The tank's last litre was always drawn just before the next pumping,The generator failed one afternoon
+E11,E16,1,< (Precedes),False,The tank's last litre was always drawn just before the next pumping,The repair took three days
+E11,E17,1,< (Precedes),False,The tank's last litre was always drawn just before the next pumping,the village carried water from a spring two kilometres away
+E11,E18,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,That spring had been abandoned when the well was first dug
+E11,E19,-1,> (Preceded By),False,The tank's last litre was always drawn just before the next pumping,the walk was longer than the digging
+E11,E20,1,< (Precedes),False,The tank's last litre was always drawn just before the next pumping,The old women who had made that walk as girls now made it again as grandmothers
+E11,E21,1,< (Precedes),False,The tank's last litre was always drawn just before the next pumping,They said the well was a young man's solution
+E11,E22,5,d (During),False,The tank's last litre was always drawn just before the next pumping,The spring was older than anyone
+E12,E1,-1,> (Preceded By),False,A visiting hydrologist measured the water table,The well had been dug by hand
+E12,E2,-1,> (Preceded By),False,A visiting hydrologist measured the water table,took two weeks to complete
+E12,E3,-1,> (Preceded By),False,A visiting hydrologist measured the water table,It went dry in the second year
+E12,E4,-1,> (Preceded By),False,A visiting hydrologist measured the water table,a drought that lasted seven months
+E12,E5,-1,> (Preceded By),False,A visiting hydrologist measured the water table,It was deepened twice since then
+E12,E6,-1,> (Preceded By),False,A visiting hydrologist measured the water table,Each deepening consumed a month
+E12,E7,-1,> (Preceded By),False,A visiting hydrologist measured the water table,bought a decade of water
+E12,E8,-1,> (Preceded By),False,A visiting hydrologist measured the water table,running two hours per day
+E12,E9,-1,> (Preceded By),False,A visiting hydrologist measured the water table,filling a tank
+E12,E10,-1,> (Preceded By),False,A visiting hydrologist measured the water table,served the village for the remaining twenty two hours
+E12,E11,-1,> (Preceded By),False,A visiting hydrologist measured the water table,The tank's last litre was always drawn just before the next pumping
+E12,E13,-2,mi (Met By),False,A visiting hydrologist measured the water table,It had dropped four centimetres per year for thirty years
+E12,E14,1,< (Precedes),False,A visiting hydrologist measured the water table,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E12,E15,1,< (Precedes),False,A visiting hydrologist measured the water table,The generator failed one afternoon
+E12,E16,1,< (Precedes),False,A visiting hydrologist measured the water table,The repair took three days
+E12,E17,1,< (Precedes),False,A visiting hydrologist measured the water table,the village carried water from a spring two kilometres away
+E12,E18,-1,> (Preceded By),False,A visiting hydrologist measured the water table,That spring had been abandoned when the well was first dug
+E12,E19,-1,> (Preceded By),False,A visiting hydrologist measured the water table,the walk was longer than the digging
+E12,E20,1,< (Precedes),False,A visiting hydrologist measured the water table,The old women who had made that walk as girls now made it again as grandmothers
+E12,E21,1,< (Precedes),False,A visiting hydrologist measured the water table,They said the well was a young man's solution
+E12,E22,5,d (During),False,A visiting hydrologist measured the water table,The spring was older than anyone
+E13,E1,-1,> (Preceded By),False,It had dropped four centimetres per year for thirty years,The well had been dug by hand
+E13,E2,-1,> (Preceded By),False,It had dropped four centimetres per year for thirty years,took two weeks to complete
+E13,E3,-1,> (Preceded By),False,It had dropped four centimetres per year for thirty years,It went dry in the second year
+E13,E4,-1,> (Preceded By),False,It had dropped four centimetres per year for thirty years,a drought that lasted seven months
+E13,E5,-1,> (Preceded By),False,It had dropped four centimetres per year for thirty years,It was deepened twice since then
+E13,E6,-1,> (Preceded By),False,It had dropped four centimetres per year for thirty years,Each deepening consumed a month
+E13,E7,-3,oi (Overlapped By),False,It had dropped four centimetres per year for thirty years,bought a decade of water
+E13,E8,-5,di (Contains),False,It had dropped four centimetres per year for thirty years,running two hours per day
+E13,E9,-5,di (Contains),False,It had dropped four centimetres per year for thirty years,filling a tank
+E13,E10,-5,di (Contains),False,It had dropped four centimetres per year for thirty years,served the village for the remaining twenty two hours
+E13,E11,-5,di (Contains),False,It had dropped four centimetres per year for thirty years,The tank's last litre was always drawn just before the next pumping
+E13,E12,2,m (Meets),False,It had dropped four centimetres per year for thirty years,A visiting hydrologist measured the water table
+E13,E14,1,< (Precedes),False,It had dropped four centimetres per year for thirty years,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E13,E15,1,< (Precedes),False,It had dropped four centimetres per year for thirty years,The generator failed one afternoon
+E13,E16,1,< (Precedes),False,It had dropped four centimetres per year for thirty years,The repair took three days
+E13,E17,1,< (Precedes),False,It had dropped four centimetres per year for thirty years,the village carried water from a spring two kilometres away
+E13,E18,-1,> (Preceded By),False,It had dropped four centimetres per year for thirty years,That spring had been abandoned when the well was first dug
+E13,E19,-1,> (Preceded By),False,It had dropped four centimetres per year for thirty years,the walk was longer than the digging
+E13,E20,1,< (Precedes),False,It had dropped four centimetres per year for thirty years,The old women who had made that walk as girls now made it again as grandmothers
+E13,E21,1,< (Precedes),False,It had dropped four centimetres per year for thirty years,They said the well was a young man's solution
+E13,E22,5,d (During),False,It had dropped four centimetres per year for thirty years,The spring was older than anyone
+E14,E1,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,The well had been dug by hand
+E14,E2,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,took two weeks to complete
+E14,E3,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,It went dry in the second year
+E14,E4,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,a drought that lasted seven months
+E14,E5,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,It was deepened twice since then
+E14,E6,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,Each deepening consumed a month
+E14,E7,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,bought a decade of water
+E14,E8,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,running two hours per day
+E14,E9,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,filling a tank
+E14,E10,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,served the village for the remaining twenty two hours
+E14,E11,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,The tank's last litre was always drawn just before the next pumping
+E14,E12,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,A visiting hydrologist measured the water table
+E14,E13,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,It had dropped four centimetres per year for thirty years
+E14,E15,1,< (Precedes),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,The generator failed one afternoon
+E14,E16,1,< (Precedes),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,The repair took three days
+E14,E17,1,< (Precedes),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,the village carried water from a spring two kilometres away
+E14,E18,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,That spring had been abandoned when the well was first dug
+E14,E19,-1,> (Preceded By),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,the walk was longer than the digging
+E14,E20,1,< (Precedes),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,The old women who had made that walk as girls now made it again as grandmothers
+E14,E21,1,< (Precedes),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,They said the well was a young man's solution
+E14,E22,5,d (During),False,the well's useful life remaining was less than the time since the hydrologist's own graduation,The spring was older than anyone
+E15,E1,-1,> (Preceded By),False,The generator failed one afternoon,The well had been dug by hand
+E15,E2,-1,> (Preceded By),False,The generator failed one afternoon,took two weeks to complete
+E15,E3,-1,> (Preceded By),False,The generator failed one afternoon,It went dry in the second year
+E15,E4,-1,> (Preceded By),False,The generator failed one afternoon,a drought that lasted seven months
+E15,E5,-1,> (Preceded By),False,The generator failed one afternoon,It was deepened twice since then
+E15,E6,-1,> (Preceded By),False,The generator failed one afternoon,Each deepening consumed a month
+E15,E7,-1,> (Preceded By),False,The generator failed one afternoon,bought a decade of water
+E15,E8,-1,> (Preceded By),False,The generator failed one afternoon,running two hours per day
+E15,E9,-1,> (Preceded By),False,The generator failed one afternoon,filling a tank
+E15,E10,-1,> (Preceded By),False,The generator failed one afternoon,served the village for the remaining twenty two hours
+E15,E11,-1,> (Preceded By),False,The generator failed one afternoon,The tank's last litre was always drawn just before the next pumping
+E15,E12,-1,> (Preceded By),False,The generator failed one afternoon,A visiting hydrologist measured the water table
+E15,E13,-1,> (Preceded By),False,The generator failed one afternoon,It had dropped four centimetres per year for thirty years
+E15,E14,-1,> (Preceded By),False,The generator failed one afternoon,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E15,E16,2,m (Meets),False,The generator failed one afternoon,The repair took three days
+E15,E17,2,m (Meets),False,The generator failed one afternoon,the village carried water from a spring two kilometres away
+E15,E18,-1,> (Preceded By),False,The generator failed one afternoon,That spring had been abandoned when the well was first dug
+E15,E19,-1,> (Preceded By),False,The generator failed one afternoon,the walk was longer than the digging
+E15,E20,2,m (Meets),False,The generator failed one afternoon,The old women who had made that walk as girls now made it again as grandmothers
+E15,E21,1,< (Precedes),False,The generator failed one afternoon,They said the well was a young man's solution
+E15,E22,5,d (During),False,The generator failed one afternoon,The spring was older than anyone
+E16,E1,-1,> (Preceded By),False,The repair took three days,The well had been dug by hand
+E16,E2,-1,> (Preceded By),False,The repair took three days,took two weeks to complete
+E16,E3,-1,> (Preceded By),False,The repair took three days,It went dry in the second year
+E16,E4,-1,> (Preceded By),False,The repair took three days,a drought that lasted seven months
+E16,E5,-1,> (Preceded By),False,The repair took three days,It was deepened twice since then
+E16,E6,-1,> (Preceded By),False,The repair took three days,Each deepening consumed a month
+E16,E7,-1,> (Preceded By),False,The repair took three days,bought a decade of water
+E16,E8,-1,> (Preceded By),False,The repair took three days,running two hours per day
+E16,E9,-1,> (Preceded By),False,The repair took three days,filling a tank
+E16,E10,-1,> (Preceded By),False,The repair took three days,served the village for the remaining twenty two hours
+E16,E11,-1,> (Preceded By),False,The repair took three days,The tank's last litre was always drawn just before the next pumping
+E16,E12,-1,> (Preceded By),False,The repair took three days,A visiting hydrologist measured the water table
+E16,E13,-1,> (Preceded By),False,The repair took three days,It had dropped four centimetres per year for thirty years
+E16,E14,-1,> (Preceded By),False,The repair took three days,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E16,E15,-2,mi (Met By),False,The repair took three days,The generator failed one afternoon
+E16,E17,0,= (Equal),False,The repair took three days,the village carried water from a spring two kilometres away
+E16,E18,-1,> (Preceded By),False,The repair took three days,That spring had been abandoned when the well was first dug
+E16,E19,-1,> (Preceded By),False,The repair took three days,the walk was longer than the digging
+E16,E20,0,= (Equal),False,The repair took three days,The old women who had made that walk as girls now made it again as grandmothers
+E16,E21,1,< (Precedes),False,The repair took three days,They said the well was a young man's solution
+E16,E22,5,d (During),False,The repair took three days,The spring was older than anyone
+E17,E1,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,The well had been dug by hand
+E17,E2,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,took two weeks to complete
+E17,E3,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,It went dry in the second year
+E17,E4,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,a drought that lasted seven months
+E17,E5,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,It was deepened twice since then
+E17,E6,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,Each deepening consumed a month
+E17,E7,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,bought a decade of water
+E17,E8,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,running two hours per day
+E17,E9,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,filling a tank
+E17,E10,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,served the village for the remaining twenty two hours
+E17,E11,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,The tank's last litre was always drawn just before the next pumping
+E17,E12,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,A visiting hydrologist measured the water table
+E17,E13,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,It had dropped four centimetres per year for thirty years
+E17,E14,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E17,E15,-2,mi (Met By),False,the village carried water from a spring two kilometres away,The generator failed one afternoon
+E17,E16,0,= (Equal),False,the village carried water from a spring two kilometres away,The repair took three days
+E17,E18,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,That spring had been abandoned when the well was first dug
+E17,E19,-1,> (Preceded By),False,the village carried water from a spring two kilometres away,the walk was longer than the digging
+E17,E20,0,= (Equal),False,the village carried water from a spring two kilometres away,The old women who had made that walk as girls now made it again as grandmothers
+E17,E21,1,< (Precedes),False,the village carried water from a spring two kilometres away,They said the well was a young man's solution
+E17,E22,5,d (During),False,the village carried water from a spring two kilometres away,The spring was older than anyone
+E18,E1,0,= (Equal),False,That spring had been abandoned when the well was first dug,The well had been dug by hand
+E18,E2,2,m (Meets),False,That spring had been abandoned when the well was first dug,took two weeks to complete
+E18,E3,1,< (Precedes),False,That spring had been abandoned when the well was first dug,It went dry in the second year
+E18,E4,1,< (Precedes),False,That spring had been abandoned when the well was first dug,a drought that lasted seven months
+E18,E5,1,< (Precedes),False,That spring had been abandoned when the well was first dug,It was deepened twice since then
+E18,E6,1,< (Precedes),False,That spring had been abandoned when the well was first dug,Each deepening consumed a month
+E18,E7,1,< (Precedes),False,That spring had been abandoned when the well was first dug,bought a decade of water
+E18,E8,1,< (Precedes),False,That spring had been abandoned when the well was first dug,running two hours per day
+E18,E9,1,< (Precedes),False,That spring had been abandoned when the well was first dug,filling a tank
+E18,E10,1,< (Precedes),False,That spring had been abandoned when the well was first dug,served the village for the remaining twenty two hours
+E18,E11,1,< (Precedes),False,That spring had been abandoned when the well was first dug,The tank's last litre was always drawn just before the next pumping
+E18,E12,1,< (Precedes),False,That spring had been abandoned when the well was first dug,A visiting hydrologist measured the water table
+E18,E13,1,< (Precedes),False,That spring had been abandoned when the well was first dug,It had dropped four centimetres per year for thirty years
+E18,E14,1,< (Precedes),False,That spring had been abandoned when the well was first dug,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E18,E15,1,< (Precedes),False,That spring had been abandoned when the well was first dug,The generator failed one afternoon
+E18,E16,1,< (Precedes),False,That spring had been abandoned when the well was first dug,The repair took three days
+E18,E17,1,< (Precedes),False,That spring had been abandoned when the well was first dug,the village carried water from a spring two kilometres away
+E18,E19,0,= (Equal),False,That spring had been abandoned when the well was first dug,the walk was longer than the digging
+E18,E20,1,< (Precedes),False,That spring had been abandoned when the well was first dug,The old women who had made that walk as girls now made it again as grandmothers
+E18,E21,1,< (Precedes),False,That spring had been abandoned when the well was first dug,They said the well was a young man's solution
+E18,E22,2,m (Meets),False,That spring had been abandoned when the well was first dug,The spring was older than anyone
+E19,E1,0,= (Equal),False,the walk was longer than the digging,The well had been dug by hand
+E19,E2,2,m (Meets),False,the walk was longer than the digging,took two weeks to complete
+E19,E3,1,< (Precedes),False,the walk was longer than the digging,It went dry in the second year
+E19,E4,1,< (Precedes),False,the walk was longer than the digging,a drought that lasted seven months
+E19,E5,1,< (Precedes),False,the walk was longer than the digging,It was deepened twice since then
+E19,E6,1,< (Precedes),False,the walk was longer than the digging,Each deepening consumed a month
+E19,E7,1,< (Precedes),False,the walk was longer than the digging,bought a decade of water
+E19,E8,1,< (Precedes),False,the walk was longer than the digging,running two hours per day
+E19,E9,1,< (Precedes),False,the walk was longer than the digging,filling a tank
+E19,E10,1,< (Precedes),False,the walk was longer than the digging,served the village for the remaining twenty two hours
+E19,E11,1,< (Precedes),False,the walk was longer than the digging,The tank's last litre was always drawn just before the next pumping
+E19,E12,1,< (Precedes),False,the walk was longer than the digging,A visiting hydrologist measured the water table
+E19,E13,1,< (Precedes),False,the walk was longer than the digging,It had dropped four centimetres per year for thirty years
+E19,E14,1,< (Precedes),False,the walk was longer than the digging,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E19,E15,1,< (Precedes),False,the walk was longer than the digging,The generator failed one afternoon
+E19,E16,1,< (Precedes),False,the walk was longer than the digging,The repair took three days
+E19,E17,1,< (Precedes),False,the walk was longer than the digging,the village carried water from a spring two kilometres away
+E19,E18,0,= (Equal),False,the walk was longer than the digging,That spring had been abandoned when the well was first dug
+E19,E20,1,< (Precedes),False,the walk was longer than the digging,The old women who had made that walk as girls now made it again as grandmothers
+E19,E21,1,< (Precedes),False,the walk was longer than the digging,They said the well was a young man's solution
+E19,E22,2,m (Meets),False,the walk was longer than the digging,The spring was older than anyone
+E20,E1,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,The well had been dug by hand
+E20,E2,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,took two weeks to complete
+E20,E3,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,It went dry in the second year
+E20,E4,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,a drought that lasted seven months
+E20,E5,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,It was deepened twice since then
+E20,E6,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,Each deepening consumed a month
+E20,E7,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,bought a decade of water
+E20,E8,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,running two hours per day
+E20,E9,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,filling a tank
+E20,E10,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,served the village for the remaining twenty two hours
+E20,E11,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,The tank's last litre was always drawn just before the next pumping
+E20,E12,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,A visiting hydrologist measured the water table
+E20,E13,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,It had dropped four centimetres per year for thirty years
+E20,E14,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E20,E15,-2,mi (Met By),False,The old women who had made that walk as girls now made it again as grandmothers,The generator failed one afternoon
+E20,E16,0,= (Equal),False,The old women who had made that walk as girls now made it again as grandmothers,The repair took three days
+E20,E17,0,= (Equal),False,The old women who had made that walk as girls now made it again as grandmothers,the village carried water from a spring two kilometres away
+E20,E18,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,That spring had been abandoned when the well was first dug
+E20,E19,-1,> (Preceded By),False,The old women who had made that walk as girls now made it again as grandmothers,the walk was longer than the digging
+E20,E21,1,< (Precedes),False,The old women who had made that walk as girls now made it again as grandmothers,They said the well was a young man's solution
+E20,E22,5,d (During),False,The old women who had made that walk as girls now made it again as grandmothers,The spring was older than anyone
+E21,E1,-1,> (Preceded By),False,They said the well was a young man's solution,The well had been dug by hand
+E21,E2,-1,> (Preceded By),False,They said the well was a young man's solution,took two weeks to complete
+E21,E3,-1,> (Preceded By),False,They said the well was a young man's solution,It went dry in the second year
+E21,E4,-1,> (Preceded By),False,They said the well was a young man's solution,a drought that lasted seven months
+E21,E5,-1,> (Preceded By),False,They said the well was a young man's solution,It was deepened twice since then
+E21,E6,-1,> (Preceded By),False,They said the well was a young man's solution,Each deepening consumed a month
+E21,E7,-1,> (Preceded By),False,They said the well was a young man's solution,bought a decade of water
+E21,E8,-1,> (Preceded By),False,They said the well was a young man's solution,running two hours per day
+E21,E9,-1,> (Preceded By),False,They said the well was a young man's solution,filling a tank
+E21,E10,-1,> (Preceded By),False,They said the well was a young man's solution,served the village for the remaining twenty two hours
+E21,E11,-1,> (Preceded By),False,They said the well was a young man's solution,The tank's last litre was always drawn just before the next pumping
+E21,E12,-1,> (Preceded By),False,They said the well was a young man's solution,A visiting hydrologist measured the water table
+E21,E13,-1,> (Preceded By),False,They said the well was a young man's solution,It had dropped four centimetres per year for thirty years
+E21,E14,-1,> (Preceded By),False,They said the well was a young man's solution,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E21,E15,-1,> (Preceded By),False,They said the well was a young man's solution,The generator failed one afternoon
+E21,E16,-1,> (Preceded By),False,They said the well was a young man's solution,The repair took three days
+E21,E17,-1,> (Preceded By),False,They said the well was a young man's solution,the village carried water from a spring two kilometres away
+E21,E18,-1,> (Preceded By),False,They said the well was a young man's solution,That spring had been abandoned when the well was first dug
+E21,E19,-1,> (Preceded By),False,They said the well was a young man's solution,the walk was longer than the digging
+E21,E20,-1,> (Preceded By),False,They said the well was a young man's solution,The old women who had made that walk as girls now made it again as grandmothers
+E21,E22,5,d (During),False,They said the well was a young man's solution,The spring was older than anyone
+E22,E1,-2,mi (Met By),False,The spring was older than anyone,The well had been dug by hand
+E22,E2,-4,si (Started By),False,The spring was older than anyone,took two weeks to complete
+E22,E3,-5,di (Contains),False,The spring was older than anyone,It went dry in the second year
+E22,E4,-5,di (Contains),False,The spring was older than anyone,a drought that lasted seven months
+E22,E5,-5,di (Contains),False,The spring was older than anyone,It was deepened twice since then
+E22,E6,-5,di (Contains),False,The spring was older than anyone,Each deepening consumed a month
+E22,E7,-5,di (Contains),False,The spring was older than anyone,bought a decade of water
+E22,E8,-5,di (Contains),False,The spring was older than anyone,running two hours per day
+E22,E9,-5,di (Contains),False,The spring was older than anyone,filling a tank
+E22,E10,-5,di (Contains),False,The spring was older than anyone,served the village for the remaining twenty two hours
+E22,E11,-5,di (Contains),False,The spring was older than anyone,The tank's last litre was always drawn just before the next pumping
+E22,E12,-5,di (Contains),False,The spring was older than anyone,A visiting hydrologist measured the water table
+E22,E13,-5,di (Contains),False,The spring was older than anyone,It had dropped four centimetres per year for thirty years
+E22,E14,-5,di (Contains),False,The spring was older than anyone,the well's useful life remaining was less than the time since the hydrologist's own graduation
+E22,E15,-5,di (Contains),False,The spring was older than anyone,The generator failed one afternoon
+E22,E16,-5,di (Contains),False,The spring was older than anyone,The repair took three days
+E22,E17,-5,di (Contains),False,The spring was older than anyone,the village carried water from a spring two kilometres away
+E22,E18,-2,mi (Met By),False,The spring was older than anyone,That spring had been abandoned when the well was first dug
+E22,E19,-2,mi (Met By),False,The spring was older than anyone,the walk was longer than the digging
+E22,E20,-5,di (Contains),False,The spring was older than anyone,The old women who had made that walk as girls now made it again as grandmothers
+E22,E21,-5,di (Contains),False,The spring was older than anyone,They said the well was a young man's solution

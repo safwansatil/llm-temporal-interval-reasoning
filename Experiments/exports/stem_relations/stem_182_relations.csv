@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,5,d (During),False,mixing was in its fifth week of a planned three,"The sleeves, printed in another country, had been ready for a month"
+E1,E3,-5,di (Contains),False,mixing was in its fifth week of a planned three,The release date had been announced
+E1,E4,1,< (Precedes),False,mixing was in its fifth week of a planned three,Mastering took two weeks
+E1,E5,2,m (Meets),False,mixing was in its fifth week of a planned three,mixing was cut short
+E1,E6,1,< (Precedes),False,mixing was in its fifth week of a planned three,The test pressing came back with a flaw on side B
+E1,E7,1,< (Precedes),False,mixing was in its fifth week of a planned three,the recut consumed nine days
+E1,E8,1,< (Precedes),False,mixing was in its fifth week of a planned three,The trucks left the plant
+E1,E9,1,< (Precedes),False,mixing was in its fifth week of a planned three,"eastern shops, two time zones ahead, had opened"
+E1,E10,1,< (Precedes),False,mixing was in its fifth week of a planned three,copies reached the western shops
+E1,E11,1,< (Precedes),False,mixing was in its fifth week of a planned three,The band played the release show
+E1,E12,5,d (During),False,mixing was in its fifth week of a planned three,sat in a warehouse during the whole pressing crisis
+E1,E13,5,d (During),False,mixing was in its fifth week of a planned three,inished packaging waiting for an unfinished record
+E1,E14,1,< (Precedes),False,mixing was in its fifth week of a planned three,"the trucks arrived,"
+E1,E15,1,< (Precedes),False,mixing was in its fifth week of a planned three,imultaneously released
+E1,E16,1,< (Precedes),False,mixing was in its fifth week of a planned three,unavailable.
+E2,E1,-5,di (Contains),False,"The sleeves, printed in another country, had been ready for a month",mixing was in its fifth week of a planned three
+E2,E3,-5,di (Contains),False,"The sleeves, printed in another country, had been ready for a month",The release date had been announced
+E2,E4,3,o (Overlaps),False,"The sleeves, printed in another country, had been ready for a month",Mastering took two weeks
+E2,E5,-5,di (Contains),False,"The sleeves, printed in another country, had been ready for a month",mixing was cut short
+E2,E6,1,< (Precedes),False,"The sleeves, printed in another country, had been ready for a month",The test pressing came back with a flaw on side B
+E2,E7,1,< (Precedes),False,"The sleeves, printed in another country, had been ready for a month",the recut consumed nine days
+E2,E8,1,< (Precedes),False,"The sleeves, printed in another country, had been ready for a month",The trucks left the plant
+E2,E9,1,< (Precedes),False,"The sleeves, printed in another country, had been ready for a month","eastern shops, two time zones ahead, had opened"
+E2,E10,1,< (Precedes),False,"The sleeves, printed in another country, had been ready for a month",copies reached the western shops
+E2,E11,1,< (Precedes),False,"The sleeves, printed in another country, had been ready for a month",The band played the release show
+E2,E12,4,s (Starts),False,"The sleeves, printed in another country, had been ready for a month",sat in a warehouse during the whole pressing crisis
+E2,E13,4,s (Starts),False,"The sleeves, printed in another country, had been ready for a month",inished packaging waiting for an unfinished record
+E2,E14,1,< (Precedes),False,"The sleeves, printed in another country, had been ready for a month","the trucks arrived,"
+E2,E15,1,< (Precedes),False,"The sleeves, printed in another country, had been ready for a month",imultaneously released
+E2,E16,1,< (Precedes),False,"The sleeves, printed in another country, had been ready for a month",unavailable.
+E3,E1,5,d (During),False,The release date had been announced,mixing was in its fifth week of a planned three
+E3,E2,5,d (During),False,The release date had been announced,"The sleeves, printed in another country, had been ready for a month"
+E3,E4,1,< (Precedes),False,The release date had been announced,Mastering took two weeks
+E3,E5,1,< (Precedes),False,The release date had been announced,mixing was cut short
+E3,E6,1,< (Precedes),False,The release date had been announced,The test pressing came back with a flaw on side B
+E3,E7,1,< (Precedes),False,The release date had been announced,the recut consumed nine days
+E3,E8,1,< (Precedes),False,The release date had been announced,The trucks left the plant
+E3,E9,1,< (Precedes),False,The release date had been announced,"eastern shops, two time zones ahead, had opened"
+E3,E10,1,< (Precedes),False,The release date had been announced,copies reached the western shops
+E3,E11,1,< (Precedes),False,The release date had been announced,The band played the release show
+E3,E12,5,d (During),False,The release date had been announced,sat in a warehouse during the whole pressing crisis
+E3,E13,5,d (During),False,The release date had been announced,inished packaging waiting for an unfinished record
+E3,E14,1,< (Precedes),False,The release date had been announced,"the trucks arrived,"
+E3,E15,1,< (Precedes),False,The release date had been announced,imultaneously released
+E3,E16,1,< (Precedes),False,The release date had been announced,unavailable.
+E4,E1,-1,> (Preceded By),False,Mastering took two weeks,mixing was in its fifth week of a planned three
+E4,E2,-3,oi (Overlapped By),False,Mastering took two weeks,"The sleeves, printed in another country, had been ready for a month"
+E4,E3,-1,> (Preceded By),False,Mastering took two weeks,The release date had been announced
+E4,E5,-2,mi (Met By),False,Mastering took two weeks,mixing was cut short
+E4,E6,1,< (Precedes),False,Mastering took two weeks,The test pressing came back with a flaw on side B
+E4,E7,1,< (Precedes),False,Mastering took two weeks,the recut consumed nine days
+E4,E8,1,< (Precedes),False,Mastering took two weeks,The trucks left the plant
+E4,E9,1,< (Precedes),False,Mastering took two weeks,"eastern shops, two time zones ahead, had opened"
+E4,E10,1,< (Precedes),False,Mastering took two weeks,copies reached the western shops
+E4,E11,1,< (Precedes),False,Mastering took two weeks,The band played the release show
+E4,E12,5,d (During),False,Mastering took two weeks,sat in a warehouse during the whole pressing crisis
+E4,E13,5,d (During),False,Mastering took two weeks,inished packaging waiting for an unfinished record
+E4,E14,1,< (Precedes),False,Mastering took two weeks,"the trucks arrived,"
+E4,E15,1,< (Precedes),False,Mastering took two weeks,imultaneously released
+E4,E16,1,< (Precedes),False,Mastering took two weeks,unavailable.
+E5,E1,-2,mi (Met By),False,mixing was cut short,mixing was in its fifth week of a planned three
+E5,E2,5,d (During),False,mixing was cut short,"The sleeves, printed in another country, had been ready for a month"
+E5,E3,-1,> (Preceded By),False,mixing was cut short,The release date had been announced
+E5,E4,2,m (Meets),False,mixing was cut short,Mastering took two weeks
+E5,E6,1,< (Precedes),False,mixing was cut short,The test pressing came back with a flaw on side B
+E5,E7,1,< (Precedes),False,mixing was cut short,the recut consumed nine days
+E5,E8,1,< (Precedes),False,mixing was cut short,The trucks left the plant
+E5,E9,1,< (Precedes),False,mixing was cut short,"eastern shops, two time zones ahead, had opened"
+E5,E10,1,< (Precedes),False,mixing was cut short,copies reached the western shops
+E5,E11,1,< (Precedes),False,mixing was cut short,The band played the release show
+E5,E12,5,d (During),False,mixing was cut short,sat in a warehouse during the whole pressing crisis
+E5,E13,5,d (During),False,mixing was cut short,inished packaging waiting for an unfinished record
+E5,E14,1,< (Precedes),False,mixing was cut short,"the trucks arrived,"
+E5,E15,1,< (Precedes),False,mixing was cut short,imultaneously released
+E5,E16,1,< (Precedes),False,mixing was cut short,unavailable.
+E6,E1,-1,> (Preceded By),False,The test pressing came back with a flaw on side B,mixing was in its fifth week of a planned three
+E6,E2,-1,> (Preceded By),False,The test pressing came back with a flaw on side B,"The sleeves, printed in another country, had been ready for a month"
+E6,E3,-1,> (Preceded By),False,The test pressing came back with a flaw on side B,The release date had been announced
+E6,E4,-1,> (Preceded By),False,The test pressing came back with a flaw on side B,Mastering took two weeks
+E6,E5,-1,> (Preceded By),False,The test pressing came back with a flaw on side B,mixing was cut short
+E6,E7,2,m (Meets),False,The test pressing came back with a flaw on side B,the recut consumed nine days
+E6,E8,1,< (Precedes),False,The test pressing came back with a flaw on side B,The trucks left the plant
+E6,E9,1,< (Precedes),False,The test pressing came back with a flaw on side B,"eastern shops, two time zones ahead, had opened"
+E6,E10,1,< (Precedes),False,The test pressing came back with a flaw on side B,copies reached the western shops
+E6,E11,1,< (Precedes),False,The test pressing came back with a flaw on side B,The band played the release show
+E6,E12,5,d (During),False,The test pressing came back with a flaw on side B,sat in a warehouse during the whole pressing crisis
+E6,E13,5,d (During),False,The test pressing came back with a flaw on side B,inished packaging waiting for an unfinished record
+E6,E14,1,< (Precedes),False,The test pressing came back with a flaw on side B,"the trucks arrived,"
+E6,E15,1,< (Precedes),False,The test pressing came back with a flaw on side B,imultaneously released
+E6,E16,1,< (Precedes),False,The test pressing came back with a flaw on side B,unavailable.
+E7,E1,-1,> (Preceded By),False,the recut consumed nine days,mixing was in its fifth week of a planned three
+E7,E2,-1,> (Preceded By),False,the recut consumed nine days,"The sleeves, printed in another country, had been ready for a month"
+E7,E3,-1,> (Preceded By),False,the recut consumed nine days,The release date had been announced
+E7,E4,-1,> (Preceded By),False,the recut consumed nine days,Mastering took two weeks
+E7,E5,-1,> (Preceded By),False,the recut consumed nine days,mixing was cut short
+E7,E6,-2,mi (Met By),False,the recut consumed nine days,The test pressing came back with a flaw on side B
+E7,E8,1,< (Precedes),False,the recut consumed nine days,The trucks left the plant
+E7,E9,1,< (Precedes),False,the recut consumed nine days,"eastern shops, two time zones ahead, had opened"
+E7,E10,1,< (Precedes),False,the recut consumed nine days,copies reached the western shops
+E7,E11,1,< (Precedes),False,the recut consumed nine days,The band played the release show
+E7,E12,5,d (During),False,the recut consumed nine days,sat in a warehouse during the whole pressing crisis
+E7,E13,5,d (During),False,the recut consumed nine days,inished packaging waiting for an unfinished record
+E7,E14,1,< (Precedes),False,the recut consumed nine days,"the trucks arrived,"
+E7,E15,1,< (Precedes),False,the recut consumed nine days,imultaneously released
+E7,E16,1,< (Precedes),False,the recut consumed nine days,unavailable.
+E8,E1,-1,> (Preceded By),False,The trucks left the plant,mixing was in its fifth week of a planned three
+E8,E2,-1,> (Preceded By),False,The trucks left the plant,"The sleeves, printed in another country, had been ready for a month"
+E8,E3,-1,> (Preceded By),False,The trucks left the plant,The release date had been announced
+E8,E4,-1,> (Preceded By),False,The trucks left the plant,Mastering took two weeks
+E8,E5,-1,> (Preceded By),False,The trucks left the plant,mixing was cut short
+E8,E6,-1,> (Preceded By),False,The trucks left the plant,The test pressing came back with a flaw on side B
+E8,E7,-1,> (Preceded By),False,The trucks left the plant,the recut consumed nine days
+E8,E9,1,< (Precedes),False,The trucks left the plant,"eastern shops, two time zones ahead, had opened"
+E8,E10,1,< (Precedes),False,The trucks left the plant,copies reached the western shops
+E8,E11,1,< (Precedes),False,The trucks left the plant,The band played the release show
+E8,E12,-2,mi (Met By),False,The trucks left the plant,sat in a warehouse during the whole pressing crisis
+E8,E13,-2,mi (Met By),False,The trucks left the plant,inished packaging waiting for an unfinished record
+E8,E14,1,< (Precedes),False,The trucks left the plant,"the trucks arrived,"
+E8,E15,1,< (Precedes),False,The trucks left the plant,imultaneously released
+E8,E16,1,< (Precedes),False,The trucks left the plant,unavailable.
+E9,E1,-1,> (Preceded By),False,"eastern shops, two time zones ahead, had opened",mixing was in its fifth week of a planned three
+E9,E2,-1,> (Preceded By),False,"eastern shops, two time zones ahead, had opened","The sleeves, printed in another country, had been ready for a month"
+E9,E3,-1,> (Preceded By),False,"eastern shops, two time zones ahead, had opened",The release date had been announced
+E9,E4,-1,> (Preceded By),False,"eastern shops, two time zones ahead, had opened",Mastering took two weeks
+E9,E5,-1,> (Preceded By),False,"eastern shops, two time zones ahead, had opened",mixing was cut short
+E9,E6,-1,> (Preceded By),False,"eastern shops, two time zones ahead, had opened",The test pressing came back with a flaw on side B
+E9,E7,-1,> (Preceded By),False,"eastern shops, two time zones ahead, had opened",the recut consumed nine days
+E9,E8,-1,> (Preceded By),False,"eastern shops, two time zones ahead, had opened",The trucks left the plant
+E9,E10,-5,di (Contains),False,"eastern shops, two time zones ahead, had opened",copies reached the western shops
+E9,E11,1,< (Precedes),False,"eastern shops, two time zones ahead, had opened",The band played the release show
+E9,E12,-1,> (Preceded By),False,"eastern shops, two time zones ahead, had opened",sat in a warehouse during the whole pressing crisis
+E9,E13,-1,> (Preceded By),False,"eastern shops, two time zones ahead, had opened",inished packaging waiting for an unfinished record
+E9,E14,-5,di (Contains),False,"eastern shops, two time zones ahead, had opened","the trucks arrived,"
+E9,E15,-4,si (Started By),False,"eastern shops, two time zones ahead, had opened",imultaneously released
+E9,E16,-4,si (Started By),False,"eastern shops, two time zones ahead, had opened",unavailable.
+E10,E1,-1,> (Preceded By),False,copies reached the western shops,mixing was in its fifth week of a planned three
+E10,E2,-1,> (Preceded By),False,copies reached the western shops,"The sleeves, printed in another country, had been ready for a month"
+E10,E3,-1,> (Preceded By),False,copies reached the western shops,The release date had been announced
+E10,E4,-1,> (Preceded By),False,copies reached the western shops,Mastering took two weeks
+E10,E5,-1,> (Preceded By),False,copies reached the western shops,mixing was cut short
+E10,E6,-1,> (Preceded By),False,copies reached the western shops,The test pressing came back with a flaw on side B
+E10,E7,-1,> (Preceded By),False,copies reached the western shops,the recut consumed nine days
+E10,E8,-1,> (Preceded By),False,copies reached the western shops,The trucks left the plant
+E10,E9,5,d (During),False,copies reached the western shops,"eastern shops, two time zones ahead, had opened"
+E10,E11,1,< (Precedes),False,copies reached the western shops,The band played the release show
+E10,E12,-1,> (Preceded By),False,copies reached the western shops,sat in a warehouse during the whole pressing crisis
+E10,E13,-1,> (Preceded By),False,copies reached the western shops,inished packaging waiting for an unfinished record
+E10,E14,0,= (Equal),False,copies reached the western shops,"the trucks arrived,"
+E10,E15,-2,mi (Met By),False,copies reached the western shops,imultaneously released
+E10,E16,-2,mi (Met By),False,copies reached the western shops,unavailable.
+E11,E1,-1,> (Preceded By),False,The band played the release show,mixing was in its fifth week of a planned three
+E11,E2,-1,> (Preceded By),False,The band played the release show,"The sleeves, printed in another country, had been ready for a month"
+E11,E3,-1,> (Preceded By),False,The band played the release show,The release date had been announced
+E11,E4,-1,> (Preceded By),False,The band played the release show,Mastering took two weeks
+E11,E5,-1,> (Preceded By),False,The band played the release show,mixing was cut short
+E11,E6,-1,> (Preceded By),False,The band played the release show,The test pressing came back with a flaw on side B
+E11,E7,-1,> (Preceded By),False,The band played the release show,the recut consumed nine days
+E11,E8,-1,> (Preceded By),False,The band played the release show,The trucks left the plant
+E11,E9,-1,> (Preceded By),False,The band played the release show,"eastern shops, two time zones ahead, had opened"
+E11,E10,-1,> (Preceded By),False,The band played the release show,copies reached the western shops
+E11,E12,-1,> (Preceded By),False,The band played the release show,sat in a warehouse during the whole pressing crisis
+E11,E13,-1,> (Preceded By),False,The band played the release show,inished packaging waiting for an unfinished record
+E11,E14,-1,> (Preceded By),False,The band played the release show,"the trucks arrived,"
+E11,E15,-1,> (Preceded By),False,The band played the release show,imultaneously released
+E11,E16,-1,> (Preceded By),False,The band played the release show,unavailable.
+E12,E1,-5,di (Contains),False,sat in a warehouse during the whole pressing crisis,mixing was in its fifth week of a planned three
+E12,E2,-4,si (Started By),False,sat in a warehouse during the whole pressing crisis,"The sleeves, printed in another country, had been ready for a month"
+E12,E3,-5,di (Contains),False,sat in a warehouse during the whole pressing crisis,The release date had been announced
+E12,E4,-5,di (Contains),False,sat in a warehouse during the whole pressing crisis,Mastering took two weeks
+E12,E5,-5,di (Contains),False,sat in a warehouse during the whole pressing crisis,mixing was cut short
+E12,E6,-5,di (Contains),False,sat in a warehouse during the whole pressing crisis,The test pressing came back with a flaw on side B
+E12,E7,-5,di (Contains),False,sat in a warehouse during the whole pressing crisis,the recut consumed nine days
+E12,E8,2,m (Meets),False,sat in a warehouse during the whole pressing crisis,The trucks left the plant
+E12,E9,1,< (Precedes),False,sat in a warehouse during the whole pressing crisis,"eastern shops, two time zones ahead, had opened"
+E12,E10,1,< (Precedes),False,sat in a warehouse during the whole pressing crisis,copies reached the western shops
+E12,E11,1,< (Precedes),False,sat in a warehouse during the whole pressing crisis,The band played the release show
+E12,E13,0,= (Equal),False,sat in a warehouse during the whole pressing crisis,inished packaging waiting for an unfinished record
+E12,E14,1,< (Precedes),False,sat in a warehouse during the whole pressing crisis,"the trucks arrived,"
+E12,E15,1,< (Precedes),False,sat in a warehouse during the whole pressing crisis,imultaneously released
+E12,E16,1,< (Precedes),False,sat in a warehouse during the whole pressing crisis,unavailable.
+E13,E1,-5,di (Contains),False,inished packaging waiting for an unfinished record,mixing was in its fifth week of a planned three
+E13,E2,-4,si (Started By),False,inished packaging waiting for an unfinished record,"The sleeves, printed in another country, had been ready for a month"
+E13,E3,-5,di (Contains),False,inished packaging waiting for an unfinished record,The release date had been announced
+E13,E4,-5,di (Contains),False,inished packaging waiting for an unfinished record,Mastering took two weeks
+E13,E5,-5,di (Contains),False,inished packaging waiting for an unfinished record,mixing was cut short
+E13,E6,-5,di (Contains),False,inished packaging waiting for an unfinished record,The test pressing came back with a flaw on side B
+E13,E7,-5,di (Contains),False,inished packaging waiting for an unfinished record,the recut consumed nine days
+E13,E8,2,m (Meets),False,inished packaging waiting for an unfinished record,The trucks left the plant
+E13,E9,1,< (Precedes),False,inished packaging waiting for an unfinished record,"eastern shops, two time zones ahead, had opened"
+E13,E10,1,< (Precedes),False,inished packaging waiting for an unfinished record,copies reached the western shops
+E13,E11,1,< (Precedes),False,inished packaging waiting for an unfinished record,The band played the release show
+E13,E12,0,= (Equal),False,inished packaging waiting for an unfinished record,sat in a warehouse during the whole pressing crisis
+E13,E14,1,< (Precedes),False,inished packaging waiting for an unfinished record,"the trucks arrived,"
+E13,E15,1,< (Precedes),False,inished packaging waiting for an unfinished record,imultaneously released
+E13,E16,1,< (Precedes),False,inished packaging waiting for an unfinished record,unavailable.
+E14,E1,-1,> (Preceded By),False,"the trucks arrived,",mixing was in its fifth week of a planned three
+E14,E2,-1,> (Preceded By),False,"the trucks arrived,","The sleeves, printed in another country, had been ready for a month"
+E14,E3,-1,> (Preceded By),False,"the trucks arrived,",The release date had been announced
+E14,E4,-1,> (Preceded By),False,"the trucks arrived,",Mastering took two weeks
+E14,E5,-1,> (Preceded By),False,"the trucks arrived,",mixing was cut short
+E14,E6,-1,> (Preceded By),False,"the trucks arrived,",The test pressing came back with a flaw on side B
+E14,E7,-1,> (Preceded By),False,"the trucks arrived,",the recut consumed nine days
+E14,E8,-1,> (Preceded By),False,"the trucks arrived,",The trucks left the plant
+E14,E9,5,d (During),False,"the trucks arrived,","eastern shops, two time zones ahead, had opened"
+E14,E10,0,= (Equal),False,"the trucks arrived,",copies reached the western shops
+E14,E11,1,< (Precedes),False,"the trucks arrived,",The band played the release show
+E14,E12,-1,> (Preceded By),False,"the trucks arrived,",sat in a warehouse during the whole pressing crisis
+E14,E13,-1,> (Preceded By),False,"the trucks arrived,",inished packaging waiting for an unfinished record
+E14,E15,-2,mi (Met By),False,"the trucks arrived,",imultaneously released
+E14,E16,-2,mi (Met By),False,"the trucks arrived,",unavailable.
+E15,E1,-1,> (Preceded By),False,imultaneously released,mixing was in its fifth week of a planned three
+E15,E2,-1,> (Preceded By),False,imultaneously released,"The sleeves, printed in another country, had been ready for a month"
+E15,E3,-1,> (Preceded By),False,imultaneously released,The release date had been announced
+E15,E4,-1,> (Preceded By),False,imultaneously released,Mastering took two weeks
+E15,E5,-1,> (Preceded By),False,imultaneously released,mixing was cut short
+E15,E6,-1,> (Preceded By),False,imultaneously released,The test pressing came back with a flaw on side B
+E15,E7,-1,> (Preceded By),False,imultaneously released,the recut consumed nine days
+E15,E8,-1,> (Preceded By),False,imultaneously released,The trucks left the plant
+E15,E9,4,s (Starts),False,imultaneously released,"eastern shops, two time zones ahead, had opened"
+E15,E10,2,m (Meets),False,imultaneously released,copies reached the western shops
+E15,E11,1,< (Precedes),False,imultaneously released,The band played the release show
+E15,E12,-1,> (Preceded By),False,imultaneously released,sat in a warehouse during the whole pressing crisis
+E15,E13,-1,> (Preceded By),False,imultaneously released,inished packaging waiting for an unfinished record
+E15,E14,2,m (Meets),False,imultaneously released,"the trucks arrived,"
+E15,E16,0,= (Equal),False,imultaneously released,unavailable.
+E16,E1,-1,> (Preceded By),False,unavailable.,mixing was in its fifth week of a planned three
+E16,E2,-1,> (Preceded By),False,unavailable.,"The sleeves, printed in another country, had been ready for a month"
+E16,E3,-1,> (Preceded By),False,unavailable.,The release date had been announced
+E16,E4,-1,> (Preceded By),False,unavailable.,Mastering took two weeks
+E16,E5,-1,> (Preceded By),False,unavailable.,mixing was cut short
+E16,E6,-1,> (Preceded By),False,unavailable.,The test pressing came back with a flaw on side B
+E16,E7,-1,> (Preceded By),False,unavailable.,the recut consumed nine days
+E16,E8,-1,> (Preceded By),False,unavailable.,The trucks left the plant
+E16,E9,4,s (Starts),False,unavailable.,"eastern shops, two time zones ahead, had opened"
+E16,E10,2,m (Meets),False,unavailable.,copies reached the western shops
+E16,E11,1,< (Precedes),False,unavailable.,The band played the release show
+E16,E12,-1,> (Preceded By),False,unavailable.,sat in a warehouse during the whole pressing crisis
+E16,E13,-1,> (Preceded By),False,unavailable.,inished packaging waiting for an unfinished record
+E16,E14,2,m (Meets),False,unavailable.,"the trucks arrived,"
+E16,E15,0,= (Equal),False,unavailable.,imultaneously released

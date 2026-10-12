@@ -1,0 +1,241 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,the protocol was finalized,a fire that had started in the loading dock
+E1,E3,1,< (Precedes),False,the protocol was finalized,the trial's third patient was randomized
+E1,E4,1,< (Precedes),False,the protocol was finalized,layoffs announced
+E1,E5,1,< (Precedes),False,the protocol was finalized,a strike that had been called
+E1,E6,1,< (Precedes),False,the protocol was finalized,the monitor's flight from Brussels had been diverted to Frankfurt
+E1,E7,1,< (Precedes),False,the protocol was finalized,the site visit
+E1,E8,1,< (Precedes),False,the protocol was finalized,"his colleague, who'd called in sick"
+E1,E9,1,< (Precedes),False,the protocol was finalized,the labeling machine had jammed
+E1,E10,1,< (Precedes),False,the protocol was finalized,the infusion that was supposed to have started at 14:00
+E1,E11,1,< (Precedes),False,the protocol was finalized,the code blue
+E1,E12,1,< (Precedes),False,the protocol was finalized,Chen's pager had gone off
+E1,E13,1,< (Precedes),False,the protocol was finalized,the resident who'd taken over the shift
+E1,E14,1,< (Precedes),False,the protocol was finalized,discharged
+E1,E15,1,< (Precedes),False,the protocol was finalized,Dr. Chen saved the file
+E1,E16,1,< (Precedes),False,the protocol was finalized,an email sent at 23:52
+E2,E1,0,= (Equal),False,a fire that had started in the loading dock,the protocol was finalized
+E2,E3,1,< (Precedes),False,a fire that had started in the loading dock,the trial's third patient was randomized
+E2,E4,1,< (Precedes),False,a fire that had started in the loading dock,layoffs announced
+E2,E5,1,< (Precedes),False,a fire that had started in the loading dock,a strike that had been called
+E2,E6,1,< (Precedes),False,a fire that had started in the loading dock,the monitor's flight from Brussels had been diverted to Frankfurt
+E2,E7,1,< (Precedes),False,a fire that had started in the loading dock,the site visit
+E2,E8,1,< (Precedes),False,a fire that had started in the loading dock,"his colleague, who'd called in sick"
+E2,E9,1,< (Precedes),False,a fire that had started in the loading dock,the labeling machine had jammed
+E2,E10,1,< (Precedes),False,a fire that had started in the loading dock,the infusion that was supposed to have started at 14:00
+E2,E11,1,< (Precedes),False,a fire that had started in the loading dock,the code blue
+E2,E12,1,< (Precedes),False,a fire that had started in the loading dock,Chen's pager had gone off
+E2,E13,1,< (Precedes),False,a fire that had started in the loading dock,the resident who'd taken over the shift
+E2,E14,1,< (Precedes),False,a fire that had started in the loading dock,discharged
+E2,E15,1,< (Precedes),False,a fire that had started in the loading dock,Dr. Chen saved the file
+E2,E16,1,< (Precedes),False,a fire that had started in the loading dock,an email sent at 23:52
+E3,E1,-1,> (Preceded By),False,the trial's third patient was randomized,the protocol was finalized
+E3,E2,-1,> (Preceded By),False,the trial's third patient was randomized,a fire that had started in the loading dock
+E3,E4,0,= (Equal),False,the trial's third patient was randomized,layoffs announced
+E3,E5,2,m (Meets),False,the trial's third patient was randomized,a strike that had been called
+E3,E6,1,< (Precedes),False,the trial's third patient was randomized,the monitor's flight from Brussels had been diverted to Frankfurt
+E3,E7,1,< (Precedes),False,the trial's third patient was randomized,the site visit
+E3,E8,1,< (Precedes),False,the trial's third patient was randomized,"his colleague, who'd called in sick"
+E3,E9,1,< (Precedes),False,the trial's third patient was randomized,the labeling machine had jammed
+E3,E10,1,< (Precedes),False,the trial's third patient was randomized,the infusion that was supposed to have started at 14:00
+E3,E11,1,< (Precedes),False,the trial's third patient was randomized,the code blue
+E3,E12,1,< (Precedes),False,the trial's third patient was randomized,Chen's pager had gone off
+E3,E13,1,< (Precedes),False,the trial's third patient was randomized,the resident who'd taken over the shift
+E3,E14,1,< (Precedes),False,the trial's third patient was randomized,discharged
+E3,E15,1,< (Precedes),False,the trial's third patient was randomized,Dr. Chen saved the file
+E3,E16,1,< (Precedes),False,the trial's third patient was randomized,an email sent at 23:52
+E4,E1,-1,> (Preceded By),False,layoffs announced,the protocol was finalized
+E4,E2,-1,> (Preceded By),False,layoffs announced,a fire that had started in the loading dock
+E4,E3,0,= (Equal),False,layoffs announced,the trial's third patient was randomized
+E4,E5,2,m (Meets),False,layoffs announced,a strike that had been called
+E4,E6,1,< (Precedes),False,layoffs announced,the monitor's flight from Brussels had been diverted to Frankfurt
+E4,E7,1,< (Precedes),False,layoffs announced,the site visit
+E4,E8,1,< (Precedes),False,layoffs announced,"his colleague, who'd called in sick"
+E4,E9,1,< (Precedes),False,layoffs announced,the labeling machine had jammed
+E4,E10,1,< (Precedes),False,layoffs announced,the infusion that was supposed to have started at 14:00
+E4,E11,1,< (Precedes),False,layoffs announced,the code blue
+E4,E12,1,< (Precedes),False,layoffs announced,Chen's pager had gone off
+E4,E13,1,< (Precedes),False,layoffs announced,the resident who'd taken over the shift
+E4,E14,1,< (Precedes),False,layoffs announced,discharged
+E4,E15,1,< (Precedes),False,layoffs announced,Dr. Chen saved the file
+E4,E16,1,< (Precedes),False,layoffs announced,an email sent at 23:52
+E5,E1,-1,> (Preceded By),False,a strike that had been called,the protocol was finalized
+E5,E2,-1,> (Preceded By),False,a strike that had been called,a fire that had started in the loading dock
+E5,E3,-2,mi (Met By),False,a strike that had been called,the trial's third patient was randomized
+E5,E4,-2,mi (Met By),False,a strike that had been called,layoffs announced
+E5,E6,2,m (Meets),False,a strike that had been called,the monitor's flight from Brussels had been diverted to Frankfurt
+E5,E7,1,< (Precedes),False,a strike that had been called,the site visit
+E5,E8,1,< (Precedes),False,a strike that had been called,"his colleague, who'd called in sick"
+E5,E9,1,< (Precedes),False,a strike that had been called,the labeling machine had jammed
+E5,E10,1,< (Precedes),False,a strike that had been called,the infusion that was supposed to have started at 14:00
+E5,E11,1,< (Precedes),False,a strike that had been called,the code blue
+E5,E12,1,< (Precedes),False,a strike that had been called,Chen's pager had gone off
+E5,E13,1,< (Precedes),False,a strike that had been called,the resident who'd taken over the shift
+E5,E14,1,< (Precedes),False,a strike that had been called,discharged
+E5,E15,1,< (Precedes),False,a strike that had been called,Dr. Chen saved the file
+E5,E16,1,< (Precedes),False,a strike that had been called,an email sent at 23:52
+E6,E1,-1,> (Preceded By),False,the monitor's flight from Brussels had been diverted to Frankfurt,the protocol was finalized
+E6,E2,-1,> (Preceded By),False,the monitor's flight from Brussels had been diverted to Frankfurt,a fire that had started in the loading dock
+E6,E3,-1,> (Preceded By),False,the monitor's flight from Brussels had been diverted to Frankfurt,the trial's third patient was randomized
+E6,E4,-1,> (Preceded By),False,the monitor's flight from Brussels had been diverted to Frankfurt,layoffs announced
+E6,E5,-2,mi (Met By),False,the monitor's flight from Brussels had been diverted to Frankfurt,a strike that had been called
+E6,E7,2,m (Meets),False,the monitor's flight from Brussels had been diverted to Frankfurt,the site visit
+E6,E8,1,< (Precedes),False,the monitor's flight from Brussels had been diverted to Frankfurt,"his colleague, who'd called in sick"
+E6,E9,1,< (Precedes),False,the monitor's flight from Brussels had been diverted to Frankfurt,the labeling machine had jammed
+E6,E10,1,< (Precedes),False,the monitor's flight from Brussels had been diverted to Frankfurt,the infusion that was supposed to have started at 14:00
+E6,E11,1,< (Precedes),False,the monitor's flight from Brussels had been diverted to Frankfurt,the code blue
+E6,E12,1,< (Precedes),False,the monitor's flight from Brussels had been diverted to Frankfurt,Chen's pager had gone off
+E6,E13,1,< (Precedes),False,the monitor's flight from Brussels had been diverted to Frankfurt,the resident who'd taken over the shift
+E6,E14,1,< (Precedes),False,the monitor's flight from Brussels had been diverted to Frankfurt,discharged
+E6,E15,1,< (Precedes),False,the monitor's flight from Brussels had been diverted to Frankfurt,Dr. Chen saved the file
+E6,E16,1,< (Precedes),False,the monitor's flight from Brussels had been diverted to Frankfurt,an email sent at 23:52
+E7,E1,-1,> (Preceded By),False,the site visit,the protocol was finalized
+E7,E2,-1,> (Preceded By),False,the site visit,a fire that had started in the loading dock
+E7,E3,-1,> (Preceded By),False,the site visit,the trial's third patient was randomized
+E7,E4,-1,> (Preceded By),False,the site visit,layoffs announced
+E7,E5,-1,> (Preceded By),False,the site visit,a strike that had been called
+E7,E6,-2,mi (Met By),False,the site visit,the monitor's flight from Brussels had been diverted to Frankfurt
+E7,E8,2,m (Meets),False,the site visit,"his colleague, who'd called in sick"
+E7,E9,1,< (Precedes),False,the site visit,the labeling machine had jammed
+E7,E10,1,< (Precedes),False,the site visit,the infusion that was supposed to have started at 14:00
+E7,E11,1,< (Precedes),False,the site visit,the code blue
+E7,E12,1,< (Precedes),False,the site visit,Chen's pager had gone off
+E7,E13,1,< (Precedes),False,the site visit,the resident who'd taken over the shift
+E7,E14,1,< (Precedes),False,the site visit,discharged
+E7,E15,1,< (Precedes),False,the site visit,Dr. Chen saved the file
+E7,E16,1,< (Precedes),False,the site visit,an email sent at 23:52
+E8,E1,-1,> (Preceded By),False,"his colleague, who'd called in sick",the protocol was finalized
+E8,E2,-1,> (Preceded By),False,"his colleague, who'd called in sick",a fire that had started in the loading dock
+E8,E3,-1,> (Preceded By),False,"his colleague, who'd called in sick",the trial's third patient was randomized
+E8,E4,-1,> (Preceded By),False,"his colleague, who'd called in sick",layoffs announced
+E8,E5,-1,> (Preceded By),False,"his colleague, who'd called in sick",a strike that had been called
+E8,E6,-1,> (Preceded By),False,"his colleague, who'd called in sick",the monitor's flight from Brussels had been diverted to Frankfurt
+E8,E7,-2,mi (Met By),False,"his colleague, who'd called in sick",the site visit
+E8,E9,2,m (Meets),False,"his colleague, who'd called in sick",the labeling machine had jammed
+E8,E10,1,< (Precedes),False,"his colleague, who'd called in sick",the infusion that was supposed to have started at 14:00
+E8,E11,1,< (Precedes),False,"his colleague, who'd called in sick",the code blue
+E8,E12,1,< (Precedes),False,"his colleague, who'd called in sick",Chen's pager had gone off
+E8,E13,1,< (Precedes),False,"his colleague, who'd called in sick",the resident who'd taken over the shift
+E8,E14,1,< (Precedes),False,"his colleague, who'd called in sick",discharged
+E8,E15,1,< (Precedes),False,"his colleague, who'd called in sick",Dr. Chen saved the file
+E8,E16,1,< (Precedes),False,"his colleague, who'd called in sick",an email sent at 23:52
+E9,E1,-1,> (Preceded By),False,the labeling machine had jammed,the protocol was finalized
+E9,E2,-1,> (Preceded By),False,the labeling machine had jammed,a fire that had started in the loading dock
+E9,E3,-1,> (Preceded By),False,the labeling machine had jammed,the trial's third patient was randomized
+E9,E4,-1,> (Preceded By),False,the labeling machine had jammed,layoffs announced
+E9,E5,-1,> (Preceded By),False,the labeling machine had jammed,a strike that had been called
+E9,E6,-1,> (Preceded By),False,the labeling machine had jammed,the monitor's flight from Brussels had been diverted to Frankfurt
+E9,E7,-1,> (Preceded By),False,the labeling machine had jammed,the site visit
+E9,E8,-2,mi (Met By),False,the labeling machine had jammed,"his colleague, who'd called in sick"
+E9,E10,1,< (Precedes),False,the labeling machine had jammed,the infusion that was supposed to have started at 14:00
+E9,E11,1,< (Precedes),False,the labeling machine had jammed,the code blue
+E9,E12,1,< (Precedes),False,the labeling machine had jammed,Chen's pager had gone off
+E9,E13,1,< (Precedes),False,the labeling machine had jammed,the resident who'd taken over the shift
+E9,E14,1,< (Precedes),False,the labeling machine had jammed,discharged
+E9,E15,1,< (Precedes),False,the labeling machine had jammed,Dr. Chen saved the file
+E9,E16,1,< (Precedes),False,the labeling machine had jammed,an email sent at 23:52
+E10,E1,-1,> (Preceded By),False,the infusion that was supposed to have started at 14:00,the protocol was finalized
+E10,E2,-1,> (Preceded By),False,the infusion that was supposed to have started at 14:00,a fire that had started in the loading dock
+E10,E3,-1,> (Preceded By),False,the infusion that was supposed to have started at 14:00,the trial's third patient was randomized
+E10,E4,-1,> (Preceded By),False,the infusion that was supposed to have started at 14:00,layoffs announced
+E10,E5,-1,> (Preceded By),False,the infusion that was supposed to have started at 14:00,a strike that had been called
+E10,E6,-1,> (Preceded By),False,the infusion that was supposed to have started at 14:00,the monitor's flight from Brussels had been diverted to Frankfurt
+E10,E7,-1,> (Preceded By),False,the infusion that was supposed to have started at 14:00,the site visit
+E10,E8,-1,> (Preceded By),False,the infusion that was supposed to have started at 14:00,"his colleague, who'd called in sick"
+E10,E9,-1,> (Preceded By),False,the infusion that was supposed to have started at 14:00,the labeling machine had jammed
+E10,E11,2,m (Meets),False,the infusion that was supposed to have started at 14:00,the code blue
+E10,E12,2,m (Meets),False,the infusion that was supposed to have started at 14:00,Chen's pager had gone off
+E10,E13,1,< (Precedes),False,the infusion that was supposed to have started at 14:00,the resident who'd taken over the shift
+E10,E14,1,< (Precedes),False,the infusion that was supposed to have started at 14:00,discharged
+E10,E15,1,< (Precedes),False,the infusion that was supposed to have started at 14:00,Dr. Chen saved the file
+E10,E16,1,< (Precedes),False,the infusion that was supposed to have started at 14:00,an email sent at 23:52
+E11,E1,-1,> (Preceded By),False,the code blue,the protocol was finalized
+E11,E2,-1,> (Preceded By),False,the code blue,a fire that had started in the loading dock
+E11,E3,-1,> (Preceded By),False,the code blue,the trial's third patient was randomized
+E11,E4,-1,> (Preceded By),False,the code blue,layoffs announced
+E11,E5,-1,> (Preceded By),False,the code blue,a strike that had been called
+E11,E6,-1,> (Preceded By),False,the code blue,the monitor's flight from Brussels had been diverted to Frankfurt
+E11,E7,-1,> (Preceded By),False,the code blue,the site visit
+E11,E8,-1,> (Preceded By),False,the code blue,"his colleague, who'd called in sick"
+E11,E9,-1,> (Preceded By),False,the code blue,the labeling machine had jammed
+E11,E10,-2,mi (Met By),False,the code blue,the infusion that was supposed to have started at 14:00
+E11,E12,0,= (Equal),False,the code blue,Chen's pager had gone off
+E11,E13,2,m (Meets),False,the code blue,the resident who'd taken over the shift
+E11,E14,1,< (Precedes),False,the code blue,discharged
+E11,E15,1,< (Precedes),False,the code blue,Dr. Chen saved the file
+E11,E16,1,< (Precedes),False,the code blue,an email sent at 23:52
+E12,E1,-1,> (Preceded By),False,Chen's pager had gone off,the protocol was finalized
+E12,E2,-1,> (Preceded By),False,Chen's pager had gone off,a fire that had started in the loading dock
+E12,E3,-1,> (Preceded By),False,Chen's pager had gone off,the trial's third patient was randomized
+E12,E4,-1,> (Preceded By),False,Chen's pager had gone off,layoffs announced
+E12,E5,-1,> (Preceded By),False,Chen's pager had gone off,a strike that had been called
+E12,E6,-1,> (Preceded By),False,Chen's pager had gone off,the monitor's flight from Brussels had been diverted to Frankfurt
+E12,E7,-1,> (Preceded By),False,Chen's pager had gone off,the site visit
+E12,E8,-1,> (Preceded By),False,Chen's pager had gone off,"his colleague, who'd called in sick"
+E12,E9,-1,> (Preceded By),False,Chen's pager had gone off,the labeling machine had jammed
+E12,E10,-2,mi (Met By),False,Chen's pager had gone off,the infusion that was supposed to have started at 14:00
+E12,E11,0,= (Equal),False,Chen's pager had gone off,the code blue
+E12,E13,2,m (Meets),False,Chen's pager had gone off,the resident who'd taken over the shift
+E12,E14,1,< (Precedes),False,Chen's pager had gone off,discharged
+E12,E15,1,< (Precedes),False,Chen's pager had gone off,Dr. Chen saved the file
+E12,E16,1,< (Precedes),False,Chen's pager had gone off,an email sent at 23:52
+E13,E1,-1,> (Preceded By),False,the resident who'd taken over the shift,the protocol was finalized
+E13,E2,-1,> (Preceded By),False,the resident who'd taken over the shift,a fire that had started in the loading dock
+E13,E3,-1,> (Preceded By),False,the resident who'd taken over the shift,the trial's third patient was randomized
+E13,E4,-1,> (Preceded By),False,the resident who'd taken over the shift,layoffs announced
+E13,E5,-1,> (Preceded By),False,the resident who'd taken over the shift,a strike that had been called
+E13,E6,-1,> (Preceded By),False,the resident who'd taken over the shift,the monitor's flight from Brussels had been diverted to Frankfurt
+E13,E7,-1,> (Preceded By),False,the resident who'd taken over the shift,the site visit
+E13,E8,-1,> (Preceded By),False,the resident who'd taken over the shift,"his colleague, who'd called in sick"
+E13,E9,-1,> (Preceded By),False,the resident who'd taken over the shift,the labeling machine had jammed
+E13,E10,-1,> (Preceded By),False,the resident who'd taken over the shift,the infusion that was supposed to have started at 14:00
+E13,E11,-2,mi (Met By),False,the resident who'd taken over the shift,the code blue
+E13,E12,-2,mi (Met By),False,the resident who'd taken over the shift,Chen's pager had gone off
+E13,E14,1,< (Precedes),False,the resident who'd taken over the shift,discharged
+E13,E15,1,< (Precedes),False,the resident who'd taken over the shift,Dr. Chen saved the file
+E13,E16,1,< (Precedes),False,the resident who'd taken over the shift,an email sent at 23:52
+E14,E1,-1,> (Preceded By),False,discharged,the protocol was finalized
+E14,E2,-1,> (Preceded By),False,discharged,a fire that had started in the loading dock
+E14,E3,-1,> (Preceded By),False,discharged,the trial's third patient was randomized
+E14,E4,-1,> (Preceded By),False,discharged,layoffs announced
+E14,E5,-1,> (Preceded By),False,discharged,a strike that had been called
+E14,E6,-1,> (Preceded By),False,discharged,the monitor's flight from Brussels had been diverted to Frankfurt
+E14,E7,-1,> (Preceded By),False,discharged,the site visit
+E14,E8,-1,> (Preceded By),False,discharged,"his colleague, who'd called in sick"
+E14,E9,-1,> (Preceded By),False,discharged,the labeling machine had jammed
+E14,E10,-1,> (Preceded By),False,discharged,the infusion that was supposed to have started at 14:00
+E14,E11,-1,> (Preceded By),False,discharged,the code blue
+E14,E12,-1,> (Preceded By),False,discharged,Chen's pager had gone off
+E14,E13,-1,> (Preceded By),False,discharged,the resident who'd taken over the shift
+E14,E15,1,< (Precedes),False,discharged,Dr. Chen saved the file
+E14,E16,1,< (Precedes),False,discharged,an email sent at 23:52
+E15,E1,-1,> (Preceded By),False,Dr. Chen saved the file,the protocol was finalized
+E15,E2,-1,> (Preceded By),False,Dr. Chen saved the file,a fire that had started in the loading dock
+E15,E3,-1,> (Preceded By),False,Dr. Chen saved the file,the trial's third patient was randomized
+E15,E4,-1,> (Preceded By),False,Dr. Chen saved the file,layoffs announced
+E15,E5,-1,> (Preceded By),False,Dr. Chen saved the file,a strike that had been called
+E15,E6,-1,> (Preceded By),False,Dr. Chen saved the file,the monitor's flight from Brussels had been diverted to Frankfurt
+E15,E7,-1,> (Preceded By),False,Dr. Chen saved the file,the site visit
+E15,E8,-1,> (Preceded By),False,Dr. Chen saved the file,"his colleague, who'd called in sick"
+E15,E9,-1,> (Preceded By),False,Dr. Chen saved the file,the labeling machine had jammed
+E15,E10,-1,> (Preceded By),False,Dr. Chen saved the file,the infusion that was supposed to have started at 14:00
+E15,E11,-1,> (Preceded By),False,Dr. Chen saved the file,the code blue
+E15,E12,-1,> (Preceded By),False,Dr. Chen saved the file,Chen's pager had gone off
+E15,E13,-1,> (Preceded By),False,Dr. Chen saved the file,the resident who'd taken over the shift
+E15,E14,-1,> (Preceded By),False,Dr. Chen saved the file,discharged
+E15,E16,2,m (Meets),False,Dr. Chen saved the file,an email sent at 23:52
+E16,E1,-1,> (Preceded By),False,an email sent at 23:52,the protocol was finalized
+E16,E2,-1,> (Preceded By),False,an email sent at 23:52,a fire that had started in the loading dock
+E16,E3,-1,> (Preceded By),False,an email sent at 23:52,the trial's third patient was randomized
+E16,E4,-1,> (Preceded By),False,an email sent at 23:52,layoffs announced
+E16,E5,-1,> (Preceded By),False,an email sent at 23:52,a strike that had been called
+E16,E6,-1,> (Preceded By),False,an email sent at 23:52,the monitor's flight from Brussels had been diverted to Frankfurt
+E16,E7,-1,> (Preceded By),False,an email sent at 23:52,the site visit
+E16,E8,-1,> (Preceded By),False,an email sent at 23:52,"his colleague, who'd called in sick"
+E16,E9,-1,> (Preceded By),False,an email sent at 23:52,the labeling machine had jammed
+E16,E10,-1,> (Preceded By),False,an email sent at 23:52,the infusion that was supposed to have started at 14:00
+E16,E11,-1,> (Preceded By),False,an email sent at 23:52,the code blue
+E16,E12,-1,> (Preceded By),False,an email sent at 23:52,Chen's pager had gone off
+E16,E13,-1,> (Preceded By),False,an email sent at 23:52,the resident who'd taken over the shift
+E16,E14,-1,> (Preceded By),False,an email sent at 23:52,discharged
+E16,E15,-2,mi (Met By),False,an email sent at 23:52,Dr. Chen saved the file

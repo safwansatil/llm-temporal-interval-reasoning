@@ -1,0 +1,381 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-1,> (Preceded By),False,The reactor hums beneath Site Nine,he'd been sent to observe a shutdown procedure
+E1,E3,-1,> (Preceded By),False,The reactor hums beneath Site Nine,it was decommissioned
+E1,E4,6,f (Finishes),False,The reactor hums beneath Site Nine,three hours into containing
+E1,E5,1,< (Precedes),False,The reactor hums beneath Site Nine,the morning shift won't be briefed
+E1,E6,0,= (Equal),False,The reactor hums beneath Site Nine,the press conference
+E1,E7,-1,> (Preceded By),False,The reactor hums beneath Site Nine,the spokesperson recorded her statement the previous evening
+E1,E8,0,= (Equal),False,The reactor hums beneath Site Nine,the alarm Devrim is currently silencing
+E1,E9,0,= (Equal),False,The reactor hums beneath Site Nine,He remembers the alarm from Almaty
+E1,E10,-1,> (Preceded By),False,The reactor hums beneath Site Nine,that alarm was disabled a full year before
+E1,E11,-1,> (Preceded By),False,The reactor hums beneath Site Nine,Devrim ever transferred
+E1,E12,-1,> (Preceded By),False,The reactor hums beneath Site Nine,the twin facility's coolant system failed
+E1,E13,-1,> (Preceded By),False,The reactor hums beneath Site Nine,the storm
+E1,E14,-1,> (Preceded By),False,The reactor hums beneath Site Nine,delayed the shipment of parts
+E1,E15,-1,> (Preceded By),False,The reactor hums beneath Site Nine,parts requisitioned
+E1,E16,-1,> (Preceded By),False,The reactor hums beneath Site Nine,tonight's failure
+E1,E17,-1,> (Preceded By),False,The reactor hums beneath Site Nine,a manufacture date that predates the failure by six months
+E1,E18,0,= (Equal),False,The reactor hums beneath Site Nine,reached by radio
+E1,E19,-1,> (Preceded By),False,The reactor hums beneath Site Nine,the evacuation was completed twenty minutes ago
+E1,E20,0,= (Equal),False,The reactor hums beneath Site Nine,he can still hear boots on the stairwell
+E2,E1,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,The reactor hums beneath Site Nine
+E2,E3,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,it was decommissioned
+E2,E4,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,three hours into containing
+E2,E5,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,the morning shift won't be briefed
+E2,E6,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,the press conference
+E2,E7,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,the spokesperson recorded her statement the previous evening
+E2,E8,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,the alarm Devrim is currently silencing
+E2,E9,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,He remembers the alarm from Almaty
+E2,E10,-1,> (Preceded By),False,he'd been sent to observe a shutdown procedure,that alarm was disabled a full year before
+E2,E11,-1,> (Preceded By),False,he'd been sent to observe a shutdown procedure,Devrim ever transferred
+E2,E12,-1,> (Preceded By),False,he'd been sent to observe a shutdown procedure,the twin facility's coolant system failed
+E2,E13,-1,> (Preceded By),False,he'd been sent to observe a shutdown procedure,the storm
+E2,E14,-1,> (Preceded By),False,he'd been sent to observe a shutdown procedure,delayed the shipment of parts
+E2,E15,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,parts requisitioned
+E2,E16,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,tonight's failure
+E2,E17,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,a manufacture date that predates the failure by six months
+E2,E18,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,reached by radio
+E2,E19,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,the evacuation was completed twenty minutes ago
+E2,E20,1,< (Precedes),False,he'd been sent to observe a shutdown procedure,he can still hear boots on the stairwell
+E3,E1,1,< (Precedes),False,it was decommissioned,The reactor hums beneath Site Nine
+E3,E2,-1,> (Preceded By),False,it was decommissioned,he'd been sent to observe a shutdown procedure
+E3,E4,1,< (Precedes),False,it was decommissioned,three hours into containing
+E3,E5,1,< (Precedes),False,it was decommissioned,the morning shift won't be briefed
+E3,E6,1,< (Precedes),False,it was decommissioned,the press conference
+E3,E7,1,< (Precedes),False,it was decommissioned,the spokesperson recorded her statement the previous evening
+E3,E8,1,< (Precedes),False,it was decommissioned,the alarm Devrim is currently silencing
+E3,E9,1,< (Precedes),False,it was decommissioned,He remembers the alarm from Almaty
+E3,E10,-1,> (Preceded By),False,it was decommissioned,that alarm was disabled a full year before
+E3,E11,-1,> (Preceded By),False,it was decommissioned,Devrim ever transferred
+E3,E12,-1,> (Preceded By),False,it was decommissioned,the twin facility's coolant system failed
+E3,E13,-1,> (Preceded By),False,it was decommissioned,the storm
+E3,E14,-1,> (Preceded By),False,it was decommissioned,delayed the shipment of parts
+E3,E15,1,< (Precedes),False,it was decommissioned,parts requisitioned
+E3,E16,1,< (Precedes),False,it was decommissioned,tonight's failure
+E3,E17,1,< (Precedes),False,it was decommissioned,a manufacture date that predates the failure by six months
+E3,E18,1,< (Precedes),False,it was decommissioned,reached by radio
+E3,E19,1,< (Precedes),False,it was decommissioned,the evacuation was completed twenty minutes ago
+E3,E20,1,< (Precedes),False,it was decommissioned,he can still hear boots on the stairwell
+E4,E1,-6,fi (Finished By),False,three hours into containing,The reactor hums beneath Site Nine
+E4,E2,-1,> (Preceded By),False,three hours into containing,he'd been sent to observe a shutdown procedure
+E4,E3,-1,> (Preceded By),False,three hours into containing,it was decommissioned
+E4,E5,1,< (Precedes),False,three hours into containing,the morning shift won't be briefed
+E4,E6,-6,fi (Finished By),False,three hours into containing,the press conference
+E4,E7,-1,> (Preceded By),False,three hours into containing,the spokesperson recorded her statement the previous evening
+E4,E8,-6,fi (Finished By),False,three hours into containing,the alarm Devrim is currently silencing
+E4,E9,-6,fi (Finished By),False,three hours into containing,He remembers the alarm from Almaty
+E4,E10,-1,> (Preceded By),False,three hours into containing,that alarm was disabled a full year before
+E4,E11,-1,> (Preceded By),False,three hours into containing,Devrim ever transferred
+E4,E12,-1,> (Preceded By),False,three hours into containing,the twin facility's coolant system failed
+E4,E13,-1,> (Preceded By),False,three hours into containing,the storm
+E4,E14,-1,> (Preceded By),False,three hours into containing,delayed the shipment of parts
+E4,E15,-5,di (Contains),False,three hours into containing,parts requisitioned
+E4,E16,-4,si (Started By),False,three hours into containing,tonight's failure
+E4,E17,-1,> (Preceded By),False,three hours into containing,a manufacture date that predates the failure by six months
+E4,E18,-6,fi (Finished By),False,three hours into containing,reached by radio
+E4,E19,-5,di (Contains),False,three hours into containing,the evacuation was completed twenty minutes ago
+E4,E20,-6,fi (Finished By),False,three hours into containing,he can still hear boots on the stairwell
+E5,E1,-1,> (Preceded By),False,the morning shift won't be briefed,The reactor hums beneath Site Nine
+E5,E2,-1,> (Preceded By),False,the morning shift won't be briefed,he'd been sent to observe a shutdown procedure
+E5,E3,-1,> (Preceded By),False,the morning shift won't be briefed,it was decommissioned
+E5,E4,-1,> (Preceded By),False,the morning shift won't be briefed,three hours into containing
+E5,E6,-1,> (Preceded By),False,the morning shift won't be briefed,the press conference
+E5,E7,-1,> (Preceded By),False,the morning shift won't be briefed,the spokesperson recorded her statement the previous evening
+E5,E8,-1,> (Preceded By),False,the morning shift won't be briefed,the alarm Devrim is currently silencing
+E5,E9,-1,> (Preceded By),False,the morning shift won't be briefed,He remembers the alarm from Almaty
+E5,E10,-1,> (Preceded By),False,the morning shift won't be briefed,that alarm was disabled a full year before
+E5,E11,-1,> (Preceded By),False,the morning shift won't be briefed,Devrim ever transferred
+E5,E12,-1,> (Preceded By),False,the morning shift won't be briefed,the twin facility's coolant system failed
+E5,E13,-1,> (Preceded By),False,the morning shift won't be briefed,the storm
+E5,E14,-1,> (Preceded By),False,the morning shift won't be briefed,delayed the shipment of parts
+E5,E15,-1,> (Preceded By),False,the morning shift won't be briefed,parts requisitioned
+E5,E16,-1,> (Preceded By),False,the morning shift won't be briefed,tonight's failure
+E5,E17,-1,> (Preceded By),False,the morning shift won't be briefed,a manufacture date that predates the failure by six months
+E5,E18,-1,> (Preceded By),False,the morning shift won't be briefed,reached by radio
+E5,E19,-1,> (Preceded By),False,the morning shift won't be briefed,the evacuation was completed twenty minutes ago
+E5,E20,-1,> (Preceded By),False,the morning shift won't be briefed,he can still hear boots on the stairwell
+E6,E1,0,= (Equal),False,the press conference,The reactor hums beneath Site Nine
+E6,E2,-1,> (Preceded By),False,the press conference,he'd been sent to observe a shutdown procedure
+E6,E3,-1,> (Preceded By),False,the press conference,it was decommissioned
+E6,E4,6,f (Finishes),False,the press conference,three hours into containing
+E6,E5,1,< (Precedes),False,the press conference,the morning shift won't be briefed
+E6,E7,-1,> (Preceded By),False,the press conference,the spokesperson recorded her statement the previous evening
+E6,E8,0,= (Equal),False,the press conference,the alarm Devrim is currently silencing
+E6,E9,0,= (Equal),False,the press conference,He remembers the alarm from Almaty
+E6,E10,-1,> (Preceded By),False,the press conference,that alarm was disabled a full year before
+E6,E11,-1,> (Preceded By),False,the press conference,Devrim ever transferred
+E6,E12,-1,> (Preceded By),False,the press conference,the twin facility's coolant system failed
+E6,E13,-1,> (Preceded By),False,the press conference,the storm
+E6,E14,-1,> (Preceded By),False,the press conference,delayed the shipment of parts
+E6,E15,-1,> (Preceded By),False,the press conference,parts requisitioned
+E6,E16,-1,> (Preceded By),False,the press conference,tonight's failure
+E6,E17,-1,> (Preceded By),False,the press conference,a manufacture date that predates the failure by six months
+E6,E18,0,= (Equal),False,the press conference,reached by radio
+E6,E19,-1,> (Preceded By),False,the press conference,the evacuation was completed twenty minutes ago
+E6,E20,0,= (Equal),False,the press conference,he can still hear boots on the stairwell
+E7,E1,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,The reactor hums beneath Site Nine
+E7,E2,-1,> (Preceded By),False,the spokesperson recorded her statement the previous evening,he'd been sent to observe a shutdown procedure
+E7,E3,-1,> (Preceded By),False,the spokesperson recorded her statement the previous evening,it was decommissioned
+E7,E4,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,three hours into containing
+E7,E5,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,the morning shift won't be briefed
+E7,E6,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,the press conference
+E7,E8,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,the alarm Devrim is currently silencing
+E7,E9,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,He remembers the alarm from Almaty
+E7,E10,-1,> (Preceded By),False,the spokesperson recorded her statement the previous evening,that alarm was disabled a full year before
+E7,E11,-1,> (Preceded By),False,the spokesperson recorded her statement the previous evening,Devrim ever transferred
+E7,E12,-1,> (Preceded By),False,the spokesperson recorded her statement the previous evening,the twin facility's coolant system failed
+E7,E13,-1,> (Preceded By),False,the spokesperson recorded her statement the previous evening,the storm
+E7,E14,-1,> (Preceded By),False,the spokesperson recorded her statement the previous evening,delayed the shipment of parts
+E7,E15,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,parts requisitioned
+E7,E16,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,tonight's failure
+E7,E17,-1,> (Preceded By),False,the spokesperson recorded her statement the previous evening,a manufacture date that predates the failure by six months
+E7,E18,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,reached by radio
+E7,E19,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,the evacuation was completed twenty minutes ago
+E7,E20,1,< (Precedes),False,the spokesperson recorded her statement the previous evening,he can still hear boots on the stairwell
+E8,E1,0,= (Equal),False,the alarm Devrim is currently silencing,The reactor hums beneath Site Nine
+E8,E2,-1,> (Preceded By),False,the alarm Devrim is currently silencing,he'd been sent to observe a shutdown procedure
+E8,E3,-1,> (Preceded By),False,the alarm Devrim is currently silencing,it was decommissioned
+E8,E4,6,f (Finishes),False,the alarm Devrim is currently silencing,three hours into containing
+E8,E5,1,< (Precedes),False,the alarm Devrim is currently silencing,the morning shift won't be briefed
+E8,E6,0,= (Equal),False,the alarm Devrim is currently silencing,the press conference
+E8,E7,-1,> (Preceded By),False,the alarm Devrim is currently silencing,the spokesperson recorded her statement the previous evening
+E8,E9,0,= (Equal),False,the alarm Devrim is currently silencing,He remembers the alarm from Almaty
+E8,E10,-1,> (Preceded By),False,the alarm Devrim is currently silencing,that alarm was disabled a full year before
+E8,E11,-1,> (Preceded By),False,the alarm Devrim is currently silencing,Devrim ever transferred
+E8,E12,-1,> (Preceded By),False,the alarm Devrim is currently silencing,the twin facility's coolant system failed
+E8,E13,-1,> (Preceded By),False,the alarm Devrim is currently silencing,the storm
+E8,E14,-1,> (Preceded By),False,the alarm Devrim is currently silencing,delayed the shipment of parts
+E8,E15,-1,> (Preceded By),False,the alarm Devrim is currently silencing,parts requisitioned
+E8,E16,-1,> (Preceded By),False,the alarm Devrim is currently silencing,tonight's failure
+E8,E17,-1,> (Preceded By),False,the alarm Devrim is currently silencing,a manufacture date that predates the failure by six months
+E8,E18,0,= (Equal),False,the alarm Devrim is currently silencing,reached by radio
+E8,E19,-1,> (Preceded By),False,the alarm Devrim is currently silencing,the evacuation was completed twenty minutes ago
+E8,E20,0,= (Equal),False,the alarm Devrim is currently silencing,he can still hear boots on the stairwell
+E9,E1,0,= (Equal),False,He remembers the alarm from Almaty,The reactor hums beneath Site Nine
+E9,E2,-1,> (Preceded By),False,He remembers the alarm from Almaty,he'd been sent to observe a shutdown procedure
+E9,E3,-1,> (Preceded By),False,He remembers the alarm from Almaty,it was decommissioned
+E9,E4,6,f (Finishes),False,He remembers the alarm from Almaty,three hours into containing
+E9,E5,1,< (Precedes),False,He remembers the alarm from Almaty,the morning shift won't be briefed
+E9,E6,0,= (Equal),False,He remembers the alarm from Almaty,the press conference
+E9,E7,-1,> (Preceded By),False,He remembers the alarm from Almaty,the spokesperson recorded her statement the previous evening
+E9,E8,0,= (Equal),False,He remembers the alarm from Almaty,the alarm Devrim is currently silencing
+E9,E10,-1,> (Preceded By),False,He remembers the alarm from Almaty,that alarm was disabled a full year before
+E9,E11,-1,> (Preceded By),False,He remembers the alarm from Almaty,Devrim ever transferred
+E9,E12,-1,> (Preceded By),False,He remembers the alarm from Almaty,the twin facility's coolant system failed
+E9,E13,-1,> (Preceded By),False,He remembers the alarm from Almaty,the storm
+E9,E14,-1,> (Preceded By),False,He remembers the alarm from Almaty,delayed the shipment of parts
+E9,E15,-1,> (Preceded By),False,He remembers the alarm from Almaty,parts requisitioned
+E9,E16,-1,> (Preceded By),False,He remembers the alarm from Almaty,tonight's failure
+E9,E17,-1,> (Preceded By),False,He remembers the alarm from Almaty,a manufacture date that predates the failure by six months
+E9,E18,0,= (Equal),False,He remembers the alarm from Almaty,reached by radio
+E9,E19,-1,> (Preceded By),False,He remembers the alarm from Almaty,the evacuation was completed twenty minutes ago
+E9,E20,0,= (Equal),False,He remembers the alarm from Almaty,he can still hear boots on the stairwell
+E10,E1,1,< (Precedes),False,that alarm was disabled a full year before,The reactor hums beneath Site Nine
+E10,E2,1,< (Precedes),False,that alarm was disabled a full year before,he'd been sent to observe a shutdown procedure
+E10,E3,1,< (Precedes),False,that alarm was disabled a full year before,it was decommissioned
+E10,E4,1,< (Precedes),False,that alarm was disabled a full year before,three hours into containing
+E10,E5,1,< (Precedes),False,that alarm was disabled a full year before,the morning shift won't be briefed
+E10,E6,1,< (Precedes),False,that alarm was disabled a full year before,the press conference
+E10,E7,1,< (Precedes),False,that alarm was disabled a full year before,the spokesperson recorded her statement the previous evening
+E10,E8,1,< (Precedes),False,that alarm was disabled a full year before,the alarm Devrim is currently silencing
+E10,E9,1,< (Precedes),False,that alarm was disabled a full year before,He remembers the alarm from Almaty
+E10,E11,1,< (Precedes),False,that alarm was disabled a full year before,Devrim ever transferred
+E10,E12,0,= (Equal),False,that alarm was disabled a full year before,the twin facility's coolant system failed
+E10,E13,0,= (Equal),False,that alarm was disabled a full year before,the storm
+E10,E14,0,= (Equal),False,that alarm was disabled a full year before,delayed the shipment of parts
+E10,E15,1,< (Precedes),False,that alarm was disabled a full year before,parts requisitioned
+E10,E16,1,< (Precedes),False,that alarm was disabled a full year before,tonight's failure
+E10,E17,1,< (Precedes),False,that alarm was disabled a full year before,a manufacture date that predates the failure by six months
+E10,E18,1,< (Precedes),False,that alarm was disabled a full year before,reached by radio
+E10,E19,1,< (Precedes),False,that alarm was disabled a full year before,the evacuation was completed twenty minutes ago
+E10,E20,1,< (Precedes),False,that alarm was disabled a full year before,he can still hear boots on the stairwell
+E11,E1,1,< (Precedes),False,Devrim ever transferred,The reactor hums beneath Site Nine
+E11,E2,1,< (Precedes),False,Devrim ever transferred,he'd been sent to observe a shutdown procedure
+E11,E3,1,< (Precedes),False,Devrim ever transferred,it was decommissioned
+E11,E4,1,< (Precedes),False,Devrim ever transferred,three hours into containing
+E11,E5,1,< (Precedes),False,Devrim ever transferred,the morning shift won't be briefed
+E11,E6,1,< (Precedes),False,Devrim ever transferred,the press conference
+E11,E7,1,< (Precedes),False,Devrim ever transferred,the spokesperson recorded her statement the previous evening
+E11,E8,1,< (Precedes),False,Devrim ever transferred,the alarm Devrim is currently silencing
+E11,E9,1,< (Precedes),False,Devrim ever transferred,He remembers the alarm from Almaty
+E11,E10,-1,> (Preceded By),False,Devrim ever transferred,that alarm was disabled a full year before
+E11,E12,-1,> (Preceded By),False,Devrim ever transferred,the twin facility's coolant system failed
+E11,E13,-1,> (Preceded By),False,Devrim ever transferred,the storm
+E11,E14,-1,> (Preceded By),False,Devrim ever transferred,delayed the shipment of parts
+E11,E15,1,< (Precedes),False,Devrim ever transferred,parts requisitioned
+E11,E16,1,< (Precedes),False,Devrim ever transferred,tonight's failure
+E11,E17,1,< (Precedes),False,Devrim ever transferred,a manufacture date that predates the failure by six months
+E11,E18,1,< (Precedes),False,Devrim ever transferred,reached by radio
+E11,E19,1,< (Precedes),False,Devrim ever transferred,the evacuation was completed twenty minutes ago
+E11,E20,1,< (Precedes),False,Devrim ever transferred,he can still hear boots on the stairwell
+E12,E1,1,< (Precedes),False,the twin facility's coolant system failed,The reactor hums beneath Site Nine
+E12,E2,1,< (Precedes),False,the twin facility's coolant system failed,he'd been sent to observe a shutdown procedure
+E12,E3,1,< (Precedes),False,the twin facility's coolant system failed,it was decommissioned
+E12,E4,1,< (Precedes),False,the twin facility's coolant system failed,three hours into containing
+E12,E5,1,< (Precedes),False,the twin facility's coolant system failed,the morning shift won't be briefed
+E12,E6,1,< (Precedes),False,the twin facility's coolant system failed,the press conference
+E12,E7,1,< (Precedes),False,the twin facility's coolant system failed,the spokesperson recorded her statement the previous evening
+E12,E8,1,< (Precedes),False,the twin facility's coolant system failed,the alarm Devrim is currently silencing
+E12,E9,1,< (Precedes),False,the twin facility's coolant system failed,He remembers the alarm from Almaty
+E12,E10,0,= (Equal),False,the twin facility's coolant system failed,that alarm was disabled a full year before
+E12,E11,1,< (Precedes),False,the twin facility's coolant system failed,Devrim ever transferred
+E12,E13,0,= (Equal),False,the twin facility's coolant system failed,the storm
+E12,E14,0,= (Equal),False,the twin facility's coolant system failed,delayed the shipment of parts
+E12,E15,1,< (Precedes),False,the twin facility's coolant system failed,parts requisitioned
+E12,E16,1,< (Precedes),False,the twin facility's coolant system failed,tonight's failure
+E12,E17,1,< (Precedes),False,the twin facility's coolant system failed,a manufacture date that predates the failure by six months
+E12,E18,1,< (Precedes),False,the twin facility's coolant system failed,reached by radio
+E12,E19,1,< (Precedes),False,the twin facility's coolant system failed,the evacuation was completed twenty minutes ago
+E12,E20,1,< (Precedes),False,the twin facility's coolant system failed,he can still hear boots on the stairwell
+E13,E1,1,< (Precedes),False,the storm,The reactor hums beneath Site Nine
+E13,E2,1,< (Precedes),False,the storm,he'd been sent to observe a shutdown procedure
+E13,E3,1,< (Precedes),False,the storm,it was decommissioned
+E13,E4,1,< (Precedes),False,the storm,three hours into containing
+E13,E5,1,< (Precedes),False,the storm,the morning shift won't be briefed
+E13,E6,1,< (Precedes),False,the storm,the press conference
+E13,E7,1,< (Precedes),False,the storm,the spokesperson recorded her statement the previous evening
+E13,E8,1,< (Precedes),False,the storm,the alarm Devrim is currently silencing
+E13,E9,1,< (Precedes),False,the storm,He remembers the alarm from Almaty
+E13,E10,0,= (Equal),False,the storm,that alarm was disabled a full year before
+E13,E11,1,< (Precedes),False,the storm,Devrim ever transferred
+E13,E12,0,= (Equal),False,the storm,the twin facility's coolant system failed
+E13,E14,0,= (Equal),False,the storm,delayed the shipment of parts
+E13,E15,1,< (Precedes),False,the storm,parts requisitioned
+E13,E16,1,< (Precedes),False,the storm,tonight's failure
+E13,E17,1,< (Precedes),False,the storm,a manufacture date that predates the failure by six months
+E13,E18,1,< (Precedes),False,the storm,reached by radio
+E13,E19,1,< (Precedes),False,the storm,the evacuation was completed twenty minutes ago
+E13,E20,1,< (Precedes),False,the storm,he can still hear boots on the stairwell
+E14,E1,1,< (Precedes),False,delayed the shipment of parts,The reactor hums beneath Site Nine
+E14,E2,1,< (Precedes),False,delayed the shipment of parts,he'd been sent to observe a shutdown procedure
+E14,E3,1,< (Precedes),False,delayed the shipment of parts,it was decommissioned
+E14,E4,1,< (Precedes),False,delayed the shipment of parts,three hours into containing
+E14,E5,1,< (Precedes),False,delayed the shipment of parts,the morning shift won't be briefed
+E14,E6,1,< (Precedes),False,delayed the shipment of parts,the press conference
+E14,E7,1,< (Precedes),False,delayed the shipment of parts,the spokesperson recorded her statement the previous evening
+E14,E8,1,< (Precedes),False,delayed the shipment of parts,the alarm Devrim is currently silencing
+E14,E9,1,< (Precedes),False,delayed the shipment of parts,He remembers the alarm from Almaty
+E14,E10,0,= (Equal),False,delayed the shipment of parts,that alarm was disabled a full year before
+E14,E11,1,< (Precedes),False,delayed the shipment of parts,Devrim ever transferred
+E14,E12,0,= (Equal),False,delayed the shipment of parts,the twin facility's coolant system failed
+E14,E13,0,= (Equal),False,delayed the shipment of parts,the storm
+E14,E15,1,< (Precedes),False,delayed the shipment of parts,parts requisitioned
+E14,E16,1,< (Precedes),False,delayed the shipment of parts,tonight's failure
+E14,E17,1,< (Precedes),False,delayed the shipment of parts,a manufacture date that predates the failure by six months
+E14,E18,1,< (Precedes),False,delayed the shipment of parts,reached by radio
+E14,E19,1,< (Precedes),False,delayed the shipment of parts,the evacuation was completed twenty minutes ago
+E14,E20,1,< (Precedes),False,delayed the shipment of parts,he can still hear boots on the stairwell
+E15,E1,1,< (Precedes),False,parts requisitioned,The reactor hums beneath Site Nine
+E15,E2,-1,> (Preceded By),False,parts requisitioned,he'd been sent to observe a shutdown procedure
+E15,E3,-1,> (Preceded By),False,parts requisitioned,it was decommissioned
+E15,E4,5,d (During),False,parts requisitioned,three hours into containing
+E15,E5,1,< (Precedes),False,parts requisitioned,the morning shift won't be briefed
+E15,E6,1,< (Precedes),False,parts requisitioned,the press conference
+E15,E7,-1,> (Preceded By),False,parts requisitioned,the spokesperson recorded her statement the previous evening
+E15,E8,1,< (Precedes),False,parts requisitioned,the alarm Devrim is currently silencing
+E15,E9,1,< (Precedes),False,parts requisitioned,He remembers the alarm from Almaty
+E15,E10,-1,> (Preceded By),False,parts requisitioned,that alarm was disabled a full year before
+E15,E11,-1,> (Preceded By),False,parts requisitioned,Devrim ever transferred
+E15,E12,-1,> (Preceded By),False,parts requisitioned,the twin facility's coolant system failed
+E15,E13,-1,> (Preceded By),False,parts requisitioned,the storm
+E15,E14,-1,> (Preceded By),False,parts requisitioned,delayed the shipment of parts
+E15,E16,-1,> (Preceded By),False,parts requisitioned,tonight's failure
+E15,E17,-1,> (Preceded By),False,parts requisitioned,a manufacture date that predates the failure by six months
+E15,E18,1,< (Precedes),False,parts requisitioned,reached by radio
+E15,E19,1,< (Precedes),False,parts requisitioned,the evacuation was completed twenty minutes ago
+E15,E20,1,< (Precedes),False,parts requisitioned,he can still hear boots on the stairwell
+E16,E1,1,< (Precedes),False,tonight's failure,The reactor hums beneath Site Nine
+E16,E2,-1,> (Preceded By),False,tonight's failure,he'd been sent to observe a shutdown procedure
+E16,E3,-1,> (Preceded By),False,tonight's failure,it was decommissioned
+E16,E4,4,s (Starts),False,tonight's failure,three hours into containing
+E16,E5,1,< (Precedes),False,tonight's failure,the morning shift won't be briefed
+E16,E6,1,< (Precedes),False,tonight's failure,the press conference
+E16,E7,-1,> (Preceded By),False,tonight's failure,the spokesperson recorded her statement the previous evening
+E16,E8,1,< (Precedes),False,tonight's failure,the alarm Devrim is currently silencing
+E16,E9,1,< (Precedes),False,tonight's failure,He remembers the alarm from Almaty
+E16,E10,-1,> (Preceded By),False,tonight's failure,that alarm was disabled a full year before
+E16,E11,-1,> (Preceded By),False,tonight's failure,Devrim ever transferred
+E16,E12,-1,> (Preceded By),False,tonight's failure,the twin facility's coolant system failed
+E16,E13,-1,> (Preceded By),False,tonight's failure,the storm
+E16,E14,-1,> (Preceded By),False,tonight's failure,delayed the shipment of parts
+E16,E15,1,< (Precedes),False,tonight's failure,parts requisitioned
+E16,E17,-1,> (Preceded By),False,tonight's failure,a manufacture date that predates the failure by six months
+E16,E18,1,< (Precedes),False,tonight's failure,reached by radio
+E16,E19,1,< (Precedes),False,tonight's failure,the evacuation was completed twenty minutes ago
+E16,E20,1,< (Precedes),False,tonight's failure,he can still hear boots on the stairwell
+E17,E1,1,< (Precedes),False,a manufacture date that predates the failure by six months,The reactor hums beneath Site Nine
+E17,E2,-1,> (Preceded By),False,a manufacture date that predates the failure by six months,he'd been sent to observe a shutdown procedure
+E17,E3,-1,> (Preceded By),False,a manufacture date that predates the failure by six months,it was decommissioned
+E17,E4,1,< (Precedes),False,a manufacture date that predates the failure by six months,three hours into containing
+E17,E5,1,< (Precedes),False,a manufacture date that predates the failure by six months,the morning shift won't be briefed
+E17,E6,1,< (Precedes),False,a manufacture date that predates the failure by six months,the press conference
+E17,E7,1,< (Precedes),False,a manufacture date that predates the failure by six months,the spokesperson recorded her statement the previous evening
+E17,E8,1,< (Precedes),False,a manufacture date that predates the failure by six months,the alarm Devrim is currently silencing
+E17,E9,1,< (Precedes),False,a manufacture date that predates the failure by six months,He remembers the alarm from Almaty
+E17,E10,-1,> (Preceded By),False,a manufacture date that predates the failure by six months,that alarm was disabled a full year before
+E17,E11,-1,> (Preceded By),False,a manufacture date that predates the failure by six months,Devrim ever transferred
+E17,E12,-1,> (Preceded By),False,a manufacture date that predates the failure by six months,the twin facility's coolant system failed
+E17,E13,-1,> (Preceded By),False,a manufacture date that predates the failure by six months,the storm
+E17,E14,-1,> (Preceded By),False,a manufacture date that predates the failure by six months,delayed the shipment of parts
+E17,E15,1,< (Precedes),False,a manufacture date that predates the failure by six months,parts requisitioned
+E17,E16,1,< (Precedes),False,a manufacture date that predates the failure by six months,tonight's failure
+E17,E18,1,< (Precedes),False,a manufacture date that predates the failure by six months,reached by radio
+E17,E19,1,< (Precedes),False,a manufacture date that predates the failure by six months,the evacuation was completed twenty minutes ago
+E17,E20,1,< (Precedes),False,a manufacture date that predates the failure by six months,he can still hear boots on the stairwell
+E18,E1,0,= (Equal),False,reached by radio,The reactor hums beneath Site Nine
+E18,E2,-1,> (Preceded By),False,reached by radio,he'd been sent to observe a shutdown procedure
+E18,E3,-1,> (Preceded By),False,reached by radio,it was decommissioned
+E18,E4,6,f (Finishes),False,reached by radio,three hours into containing
+E18,E5,1,< (Precedes),False,reached by radio,the morning shift won't be briefed
+E18,E6,0,= (Equal),False,reached by radio,the press conference
+E18,E7,-1,> (Preceded By),False,reached by radio,the spokesperson recorded her statement the previous evening
+E18,E8,0,= (Equal),False,reached by radio,the alarm Devrim is currently silencing
+E18,E9,0,= (Equal),False,reached by radio,He remembers the alarm from Almaty
+E18,E10,-1,> (Preceded By),False,reached by radio,that alarm was disabled a full year before
+E18,E11,-1,> (Preceded By),False,reached by radio,Devrim ever transferred
+E18,E12,-1,> (Preceded By),False,reached by radio,the twin facility's coolant system failed
+E18,E13,-1,> (Preceded By),False,reached by radio,the storm
+E18,E14,-1,> (Preceded By),False,reached by radio,delayed the shipment of parts
+E18,E15,-1,> (Preceded By),False,reached by radio,parts requisitioned
+E18,E16,-1,> (Preceded By),False,reached by radio,tonight's failure
+E18,E17,-1,> (Preceded By),False,reached by radio,a manufacture date that predates the failure by six months
+E18,E19,-1,> (Preceded By),False,reached by radio,the evacuation was completed twenty minutes ago
+E18,E20,0,= (Equal),False,reached by radio,he can still hear boots on the stairwell
+E19,E1,1,< (Precedes),False,the evacuation was completed twenty minutes ago,The reactor hums beneath Site Nine
+E19,E2,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,he'd been sent to observe a shutdown procedure
+E19,E3,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,it was decommissioned
+E19,E4,5,d (During),False,the evacuation was completed twenty minutes ago,three hours into containing
+E19,E5,1,< (Precedes),False,the evacuation was completed twenty minutes ago,the morning shift won't be briefed
+E19,E6,1,< (Precedes),False,the evacuation was completed twenty minutes ago,the press conference
+E19,E7,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,the spokesperson recorded her statement the previous evening
+E19,E8,1,< (Precedes),False,the evacuation was completed twenty minutes ago,the alarm Devrim is currently silencing
+E19,E9,1,< (Precedes),False,the evacuation was completed twenty minutes ago,He remembers the alarm from Almaty
+E19,E10,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,that alarm was disabled a full year before
+E19,E11,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,Devrim ever transferred
+E19,E12,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,the twin facility's coolant system failed
+E19,E13,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,the storm
+E19,E14,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,delayed the shipment of parts
+E19,E15,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,parts requisitioned
+E19,E16,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,tonight's failure
+E19,E17,-1,> (Preceded By),False,the evacuation was completed twenty minutes ago,a manufacture date that predates the failure by six months
+E19,E18,1,< (Precedes),False,the evacuation was completed twenty minutes ago,reached by radio
+E19,E20,1,< (Precedes),False,the evacuation was completed twenty minutes ago,he can still hear boots on the stairwell
+E20,E1,0,= (Equal),False,he can still hear boots on the stairwell,The reactor hums beneath Site Nine
+E20,E2,-1,> (Preceded By),False,he can still hear boots on the stairwell,he'd been sent to observe a shutdown procedure
+E20,E3,-1,> (Preceded By),False,he can still hear boots on the stairwell,it was decommissioned
+E20,E4,6,f (Finishes),False,he can still hear boots on the stairwell,three hours into containing
+E20,E5,1,< (Precedes),False,he can still hear boots on the stairwell,the morning shift won't be briefed
+E20,E6,0,= (Equal),False,he can still hear boots on the stairwell,the press conference
+E20,E7,-1,> (Preceded By),False,he can still hear boots on the stairwell,the spokesperson recorded her statement the previous evening
+E20,E8,0,= (Equal),False,he can still hear boots on the stairwell,the alarm Devrim is currently silencing
+E20,E9,0,= (Equal),False,he can still hear boots on the stairwell,He remembers the alarm from Almaty
+E20,E10,-1,> (Preceded By),False,he can still hear boots on the stairwell,that alarm was disabled a full year before
+E20,E11,-1,> (Preceded By),False,he can still hear boots on the stairwell,Devrim ever transferred
+E20,E12,-1,> (Preceded By),False,he can still hear boots on the stairwell,the twin facility's coolant system failed
+E20,E13,-1,> (Preceded By),False,he can still hear boots on the stairwell,the storm
+E20,E14,-1,> (Preceded By),False,he can still hear boots on the stairwell,delayed the shipment of parts
+E20,E15,-1,> (Preceded By),False,he can still hear boots on the stairwell,parts requisitioned
+E20,E16,-1,> (Preceded By),False,he can still hear boots on the stairwell,tonight's failure
+E20,E17,-1,> (Preceded By),False,he can still hear boots on the stairwell,a manufacture date that predates the failure by six months
+E20,E18,0,= (Equal),False,he can still hear boots on the stairwell,reached by radio
+E20,E19,-1,> (Preceded By),False,he can still hear boots on the stairwell,the evacuation was completed twenty minutes ago

@@ -1,0 +1,157 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,2,m (Meets),False,had worked on the proof for seven years,The decisive step came during a sleepless night
+E1,E3,1,< (Precedes),False,had worked on the proof for seven years,The remaining derivation took two weeks
+E1,E4,1,< (Precedes),False,had worked on the proof for seven years,He submitted to a journal
+E1,E5,1,< (Precedes),False,had worked on the proof for seven years,The peer review took eighteen months
+E1,E6,1,< (Precedes),False,had worked on the proof for seven years,The proof was accepted
+E1,E7,1,< (Precedes),False,had worked on the proof for seven years,published
+E1,E8,1,< (Precedes),False,had worked on the proof for seven years,read by perhaps thirty people
+E1,E9,1,< (Precedes),False,had worked on the proof for seven years,found a gap on page 247
+E1,E10,2,m (Meets),False,had worked on the proof for seven years,The gap had existed since the sleepless night
+E1,E11,1,< (Precedes),False,had worked on the proof for seven years,The mathematician fixed it in four hours
+E1,E12,1,< (Precedes),False,had worked on the proof for seven years,An addendum was published one year later
+E1,E13,1,< (Precedes),False,had worked on the proof for seven years,asked if the gap bothered him
+E2,E1,-2,mi (Met By),False,The decisive step came during a sleepless night,had worked on the proof for seven years
+E2,E3,2,m (Meets),False,The decisive step came during a sleepless night,The remaining derivation took two weeks
+E2,E4,1,< (Precedes),False,The decisive step came during a sleepless night,He submitted to a journal
+E2,E5,1,< (Precedes),False,The decisive step came during a sleepless night,The peer review took eighteen months
+E2,E6,1,< (Precedes),False,The decisive step came during a sleepless night,The proof was accepted
+E2,E7,1,< (Precedes),False,The decisive step came during a sleepless night,published
+E2,E8,1,< (Precedes),False,The decisive step came during a sleepless night,read by perhaps thirty people
+E2,E9,1,< (Precedes),False,The decisive step came during a sleepless night,found a gap on page 247
+E2,E10,4,s (Starts),False,The decisive step came during a sleepless night,The gap had existed since the sleepless night
+E2,E11,1,< (Precedes),False,The decisive step came during a sleepless night,The mathematician fixed it in four hours
+E2,E12,1,< (Precedes),False,The decisive step came during a sleepless night,An addendum was published one year later
+E2,E13,1,< (Precedes),False,The decisive step came during a sleepless night,asked if the gap bothered him
+E3,E1,-1,> (Preceded By),False,The remaining derivation took two weeks,had worked on the proof for seven years
+E3,E2,-2,mi (Met By),False,The remaining derivation took two weeks,The decisive step came during a sleepless night
+E3,E4,1,< (Precedes),False,The remaining derivation took two weeks,He submitted to a journal
+E3,E5,1,< (Precedes),False,The remaining derivation took two weeks,The peer review took eighteen months
+E3,E6,1,< (Precedes),False,The remaining derivation took two weeks,The proof was accepted
+E3,E7,1,< (Precedes),False,The remaining derivation took two weeks,published
+E3,E8,1,< (Precedes),False,The remaining derivation took two weeks,read by perhaps thirty people
+E3,E9,1,< (Precedes),False,The remaining derivation took two weeks,found a gap on page 247
+E3,E10,5,d (During),False,The remaining derivation took two weeks,The gap had existed since the sleepless night
+E3,E11,1,< (Precedes),False,The remaining derivation took two weeks,The mathematician fixed it in four hours
+E3,E12,1,< (Precedes),False,The remaining derivation took two weeks,An addendum was published one year later
+E3,E13,1,< (Precedes),False,The remaining derivation took two weeks,asked if the gap bothered him
+E4,E1,-1,> (Preceded By),False,He submitted to a journal,had worked on the proof for seven years
+E4,E2,-1,> (Preceded By),False,He submitted to a journal,The decisive step came during a sleepless night
+E4,E3,-1,> (Preceded By),False,He submitted to a journal,The remaining derivation took two weeks
+E4,E5,2,m (Meets),False,He submitted to a journal,The peer review took eighteen months
+E4,E6,1,< (Precedes),False,He submitted to a journal,The proof was accepted
+E4,E7,1,< (Precedes),False,He submitted to a journal,published
+E4,E8,1,< (Precedes),False,He submitted to a journal,read by perhaps thirty people
+E4,E9,1,< (Precedes),False,He submitted to a journal,found a gap on page 247
+E4,E10,5,d (During),False,He submitted to a journal,The gap had existed since the sleepless night
+E4,E11,1,< (Precedes),False,He submitted to a journal,The mathematician fixed it in four hours
+E4,E12,1,< (Precedes),False,He submitted to a journal,An addendum was published one year later
+E4,E13,1,< (Precedes),False,He submitted to a journal,asked if the gap bothered him
+E5,E1,-1,> (Preceded By),False,The peer review took eighteen months,had worked on the proof for seven years
+E5,E2,-1,> (Preceded By),False,The peer review took eighteen months,The decisive step came during a sleepless night
+E5,E3,-1,> (Preceded By),False,The peer review took eighteen months,The remaining derivation took two weeks
+E5,E4,-2,mi (Met By),False,The peer review took eighteen months,He submitted to a journal
+E5,E6,1,< (Precedes),False,The peer review took eighteen months,The proof was accepted
+E5,E7,1,< (Precedes),False,The peer review took eighteen months,published
+E5,E8,1,< (Precedes),False,The peer review took eighteen months,read by perhaps thirty people
+E5,E9,1,< (Precedes),False,The peer review took eighteen months,found a gap on page 247
+E5,E10,5,d (During),False,The peer review took eighteen months,The gap had existed since the sleepless night
+E5,E11,1,< (Precedes),False,The peer review took eighteen months,The mathematician fixed it in four hours
+E5,E12,1,< (Precedes),False,The peer review took eighteen months,An addendum was published one year later
+E5,E13,1,< (Precedes),False,The peer review took eighteen months,asked if the gap bothered him
+E6,E1,-1,> (Preceded By),False,The proof was accepted,had worked on the proof for seven years
+E6,E2,-1,> (Preceded By),False,The proof was accepted,The decisive step came during a sleepless night
+E6,E3,-1,> (Preceded By),False,The proof was accepted,The remaining derivation took two weeks
+E6,E4,-1,> (Preceded By),False,The proof was accepted,He submitted to a journal
+E6,E5,-1,> (Preceded By),False,The proof was accepted,The peer review took eighteen months
+E6,E7,1,< (Precedes),False,The proof was accepted,published
+E6,E8,1,< (Precedes),False,The proof was accepted,read by perhaps thirty people
+E6,E9,1,< (Precedes),False,The proof was accepted,found a gap on page 247
+E6,E10,5,d (During),False,The proof was accepted,The gap had existed since the sleepless night
+E6,E11,1,< (Precedes),False,The proof was accepted,The mathematician fixed it in four hours
+E6,E12,1,< (Precedes),False,The proof was accepted,An addendum was published one year later
+E6,E13,1,< (Precedes),False,The proof was accepted,asked if the gap bothered him
+E7,E1,-1,> (Preceded By),False,published,had worked on the proof for seven years
+E7,E2,-1,> (Preceded By),False,published,The decisive step came during a sleepless night
+E7,E3,-1,> (Preceded By),False,published,The remaining derivation took two weeks
+E7,E4,-1,> (Preceded By),False,published,He submitted to a journal
+E7,E5,-1,> (Preceded By),False,published,The peer review took eighteen months
+E7,E6,-1,> (Preceded By),False,published,The proof was accepted
+E7,E8,1,< (Precedes),False,published,read by perhaps thirty people
+E7,E9,1,< (Precedes),False,published,found a gap on page 247
+E7,E10,5,d (During),False,published,The gap had existed since the sleepless night
+E7,E11,1,< (Precedes),False,published,The mathematician fixed it in four hours
+E7,E12,1,< (Precedes),False,published,An addendum was published one year later
+E7,E13,1,< (Precedes),False,published,asked if the gap bothered him
+E8,E1,-1,> (Preceded By),False,read by perhaps thirty people,had worked on the proof for seven years
+E8,E2,-1,> (Preceded By),False,read by perhaps thirty people,The decisive step came during a sleepless night
+E8,E3,-1,> (Preceded By),False,read by perhaps thirty people,The remaining derivation took two weeks
+E8,E4,-1,> (Preceded By),False,read by perhaps thirty people,He submitted to a journal
+E8,E5,-1,> (Preceded By),False,read by perhaps thirty people,The peer review took eighteen months
+E8,E6,-1,> (Preceded By),False,read by perhaps thirty people,The proof was accepted
+E8,E7,-1,> (Preceded By),False,read by perhaps thirty people,published
+E8,E9,1,< (Precedes),False,read by perhaps thirty people,found a gap on page 247
+E8,E10,5,d (During),False,read by perhaps thirty people,The gap had existed since the sleepless night
+E8,E11,1,< (Precedes),False,read by perhaps thirty people,The mathematician fixed it in four hours
+E8,E12,1,< (Precedes),False,read by perhaps thirty people,An addendum was published one year later
+E8,E13,1,< (Precedes),False,read by perhaps thirty people,asked if the gap bothered him
+E9,E1,-1,> (Preceded By),False,found a gap on page 247,had worked on the proof for seven years
+E9,E2,-1,> (Preceded By),False,found a gap on page 247,The decisive step came during a sleepless night
+E9,E3,-1,> (Preceded By),False,found a gap on page 247,The remaining derivation took two weeks
+E9,E4,-1,> (Preceded By),False,found a gap on page 247,He submitted to a journal
+E9,E5,-1,> (Preceded By),False,found a gap on page 247,The peer review took eighteen months
+E9,E6,-1,> (Preceded By),False,found a gap on page 247,The proof was accepted
+E9,E7,-1,> (Preceded By),False,found a gap on page 247,published
+E9,E8,-1,> (Preceded By),False,found a gap on page 247,read by perhaps thirty people
+E9,E10,6,f (Finishes),False,found a gap on page 247,The gap had existed since the sleepless night
+E9,E11,1,< (Precedes),False,found a gap on page 247,The mathematician fixed it in four hours
+E9,E12,1,< (Precedes),False,found a gap on page 247,An addendum was published one year later
+E9,E13,1,< (Precedes),False,found a gap on page 247,asked if the gap bothered him
+E10,E1,-2,mi (Met By),False,The gap had existed since the sleepless night,had worked on the proof for seven years
+E10,E2,-4,si (Started By),False,The gap had existed since the sleepless night,The decisive step came during a sleepless night
+E10,E3,-5,di (Contains),False,The gap had existed since the sleepless night,The remaining derivation took two weeks
+E10,E4,-5,di (Contains),False,The gap had existed since the sleepless night,He submitted to a journal
+E10,E5,-5,di (Contains),False,The gap had existed since the sleepless night,The peer review took eighteen months
+E10,E6,-5,di (Contains),False,The gap had existed since the sleepless night,The proof was accepted
+E10,E7,-5,di (Contains),False,The gap had existed since the sleepless night,published
+E10,E8,-5,di (Contains),False,The gap had existed since the sleepless night,read by perhaps thirty people
+E10,E9,-6,fi (Finished By),False,The gap had existed since the sleepless night,found a gap on page 247
+E10,E11,1,< (Precedes),False,The gap had existed since the sleepless night,The mathematician fixed it in four hours
+E10,E12,1,< (Precedes),False,The gap had existed since the sleepless night,An addendum was published one year later
+E10,E13,1,< (Precedes),False,The gap had existed since the sleepless night,asked if the gap bothered him
+E11,E1,-1,> (Preceded By),False,The mathematician fixed it in four hours,had worked on the proof for seven years
+E11,E2,-1,> (Preceded By),False,The mathematician fixed it in four hours,The decisive step came during a sleepless night
+E11,E3,-1,> (Preceded By),False,The mathematician fixed it in four hours,The remaining derivation took two weeks
+E11,E4,-1,> (Preceded By),False,The mathematician fixed it in four hours,He submitted to a journal
+E11,E5,-1,> (Preceded By),False,The mathematician fixed it in four hours,The peer review took eighteen months
+E11,E6,-1,> (Preceded By),False,The mathematician fixed it in four hours,The proof was accepted
+E11,E7,-1,> (Preceded By),False,The mathematician fixed it in four hours,published
+E11,E8,-1,> (Preceded By),False,The mathematician fixed it in four hours,read by perhaps thirty people
+E11,E9,-1,> (Preceded By),False,The mathematician fixed it in four hours,found a gap on page 247
+E11,E10,-1,> (Preceded By),False,The mathematician fixed it in four hours,The gap had existed since the sleepless night
+E11,E12,1,< (Precedes),False,The mathematician fixed it in four hours,An addendum was published one year later
+E11,E13,1,< (Precedes),False,The mathematician fixed it in four hours,asked if the gap bothered him
+E12,E1,-1,> (Preceded By),False,An addendum was published one year later,had worked on the proof for seven years
+E12,E2,-1,> (Preceded By),False,An addendum was published one year later,The decisive step came during a sleepless night
+E12,E3,-1,> (Preceded By),False,An addendum was published one year later,The remaining derivation took two weeks
+E12,E4,-1,> (Preceded By),False,An addendum was published one year later,He submitted to a journal
+E12,E5,-1,> (Preceded By),False,An addendum was published one year later,The peer review took eighteen months
+E12,E6,-1,> (Preceded By),False,An addendum was published one year later,The proof was accepted
+E12,E7,-1,> (Preceded By),False,An addendum was published one year later,published
+E12,E8,-1,> (Preceded By),False,An addendum was published one year later,read by perhaps thirty people
+E12,E9,-1,> (Preceded By),False,An addendum was published one year later,found a gap on page 247
+E12,E10,-1,> (Preceded By),False,An addendum was published one year later,The gap had existed since the sleepless night
+E12,E11,-1,> (Preceded By),False,An addendum was published one year later,The mathematician fixed it in four hours
+E12,E13,1,< (Precedes),False,An addendum was published one year later,asked if the gap bothered him
+E13,E1,-1,> (Preceded By),False,asked if the gap bothered him,had worked on the proof for seven years
+E13,E2,-1,> (Preceded By),False,asked if the gap bothered him,The decisive step came during a sleepless night
+E13,E3,-1,> (Preceded By),False,asked if the gap bothered him,The remaining derivation took two weeks
+E13,E4,-1,> (Preceded By),False,asked if the gap bothered him,He submitted to a journal
+E13,E5,-1,> (Preceded By),False,asked if the gap bothered him,The peer review took eighteen months
+E13,E6,-1,> (Preceded By),False,asked if the gap bothered him,The proof was accepted
+E13,E7,-1,> (Preceded By),False,asked if the gap bothered him,published
+E13,E8,-1,> (Preceded By),False,asked if the gap bothered him,read by perhaps thirty people
+E13,E9,-1,> (Preceded By),False,asked if the gap bothered him,found a gap on page 247
+E13,E10,-1,> (Preceded By),False,asked if the gap bothered him,The gap had existed since the sleepless night
+E13,E11,-1,> (Preceded By),False,asked if the gap bothered him,The mathematician fixed it in four hours
+E13,E12,-1,> (Preceded By),False,asked if the gap bothered him,An addendum was published one year later

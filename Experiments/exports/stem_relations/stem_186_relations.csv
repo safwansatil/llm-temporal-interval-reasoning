@@ -1,0 +1,157 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,The vaccine had taken eleven years to develop,the depot's generator had failed
+E1,E3,1,< (Precedes),False,The vaccine had taken eleven years to develop,the planners moved the campaign earlier
+E1,E4,1,< (Precedes),False,The vaccine had taken eleven years to develop,a box thawed early
+E1,E5,1,< (Precedes),False,The vaccine had taken eleven years to develop,The team walked through the night
+E1,E6,1,< (Precedes),False,The vaccine had taken eleven years to develop,held the session at dawn
+E1,E7,1,< (Precedes),False,The vaccine had taken eleven years to develop,the last dose went into the last child
+E1,E8,1,< (Precedes),False,The vaccine had taken eleven years to develop,depot stood empty
+E1,E9,1,< (Precedes),False,The vaccine had taken eleven years to develop,the second failure
+E1,E10,1,< (Precedes),False,The vaccine had taken eleven years to develop,The monsoon advanced the schedule by three weeks
+E1,E11,1,< (Precedes),False,The vaccine had taken eleven years to develop,no household would come
+E1,E12,1,< (Precedes),False,The vaccine had taken eleven years to develop,"collided with the festival,"
+E1,E13,1,< (Precedes),False,The vaccine had taken eleven years to develop,", the porter said,"
+E2,E1,-1,> (Preceded By),False,the depot's generator had failed,The vaccine had taken eleven years to develop
+E2,E3,1,< (Precedes),False,the depot's generator had failed,the planners moved the campaign earlier
+E2,E4,1,< (Precedes),False,the depot's generator had failed,a box thawed early
+E2,E5,1,< (Precedes),False,the depot's generator had failed,The team walked through the night
+E2,E6,1,< (Precedes),False,the depot's generator had failed,held the session at dawn
+E2,E7,1,< (Precedes),False,the depot's generator had failed,the last dose went into the last child
+E2,E8,-5,di (Contains),False,the depot's generator had failed,depot stood empty
+E2,E9,-5,di (Contains),False,the depot's generator had failed,the second failure
+E2,E10,1,< (Precedes),False,the depot's generator had failed,The monsoon advanced the schedule by three weeks
+E2,E11,1,< (Precedes),False,the depot's generator had failed,no household would come
+E2,E12,1,< (Precedes),False,the depot's generator had failed,"collided with the festival,"
+E2,E13,1,< (Precedes),False,the depot's generator had failed,", the porter said,"
+E3,E1,-1,> (Preceded By),False,the planners moved the campaign earlier,The vaccine had taken eleven years to develop
+E3,E2,-1,> (Preceded By),False,the planners moved the campaign earlier,the depot's generator had failed
+E3,E4,1,< (Precedes),False,the planners moved the campaign earlier,a box thawed early
+E3,E5,1,< (Precedes),False,the planners moved the campaign earlier,The team walked through the night
+E3,E6,1,< (Precedes),False,the planners moved the campaign earlier,held the session at dawn
+E3,E7,1,< (Precedes),False,the planners moved the campaign earlier,the last dose went into the last child
+E3,E8,-1,> (Preceded By),False,the planners moved the campaign earlier,depot stood empty
+E3,E9,-1,> (Preceded By),False,the planners moved the campaign earlier,the second failure
+E3,E10,-1,> (Preceded By),False,the planners moved the campaign earlier,The monsoon advanced the schedule by three weeks
+E3,E11,1,< (Precedes),False,the planners moved the campaign earlier,no household would come
+E3,E12,1,< (Precedes),False,the planners moved the campaign earlier,"collided with the festival,"
+E3,E13,1,< (Precedes),False,the planners moved the campaign earlier,", the porter said,"
+E4,E1,-1,> (Preceded By),False,a box thawed early,The vaccine had taken eleven years to develop
+E4,E2,-1,> (Preceded By),False,a box thawed early,the depot's generator had failed
+E4,E3,-1,> (Preceded By),False,a box thawed early,the planners moved the campaign earlier
+E4,E5,1,< (Precedes),False,a box thawed early,The team walked through the night
+E4,E6,1,< (Precedes),False,a box thawed early,held the session at dawn
+E4,E7,1,< (Precedes),False,a box thawed early,the last dose went into the last child
+E4,E8,-1,> (Preceded By),False,a box thawed early,depot stood empty
+E4,E9,-1,> (Preceded By),False,a box thawed early,the second failure
+E4,E10,-1,> (Preceded By),False,a box thawed early,The monsoon advanced the schedule by three weeks
+E4,E11,-1,> (Preceded By),False,a box thawed early,no household would come
+E4,E12,-1,> (Preceded By),False,a box thawed early,"collided with the festival,"
+E4,E13,1,< (Precedes),False,a box thawed early,", the porter said,"
+E5,E1,-1,> (Preceded By),False,The team walked through the night,The vaccine had taken eleven years to develop
+E5,E2,-1,> (Preceded By),False,The team walked through the night,the depot's generator had failed
+E5,E3,-1,> (Preceded By),False,The team walked through the night,the planners moved the campaign earlier
+E5,E4,-1,> (Preceded By),False,The team walked through the night,a box thawed early
+E5,E6,2,m (Meets),False,The team walked through the night,held the session at dawn
+E5,E7,1,< (Precedes),False,The team walked through the night,the last dose went into the last child
+E5,E8,-1,> (Preceded By),False,The team walked through the night,depot stood empty
+E5,E9,-1,> (Preceded By),False,The team walked through the night,the second failure
+E5,E10,-1,> (Preceded By),False,The team walked through the night,The monsoon advanced the schedule by three weeks
+E5,E11,-1,> (Preceded By),False,The team walked through the night,no household would come
+E5,E12,-1,> (Preceded By),False,The team walked through the night,"collided with the festival,"
+E5,E13,1,< (Precedes),False,The team walked through the night,", the porter said,"
+E6,E1,-1,> (Preceded By),False,held the session at dawn,The vaccine had taken eleven years to develop
+E6,E2,-1,> (Preceded By),False,held the session at dawn,the depot's generator had failed
+E6,E3,-1,> (Preceded By),False,held the session at dawn,the planners moved the campaign earlier
+E6,E4,-1,> (Preceded By),False,held the session at dawn,a box thawed early
+E6,E5,-2,mi (Met By),False,held the session at dawn,The team walked through the night
+E6,E7,2,m (Meets),False,held the session at dawn,the last dose went into the last child
+E6,E8,-1,> (Preceded By),False,held the session at dawn,depot stood empty
+E6,E9,-1,> (Preceded By),False,held the session at dawn,the second failure
+E6,E10,-1,> (Preceded By),False,held the session at dawn,The monsoon advanced the schedule by three weeks
+E6,E11,-1,> (Preceded By),False,held the session at dawn,no household would come
+E6,E12,-1,> (Preceded By),False,held the session at dawn,"collided with the festival,"
+E6,E13,1,< (Precedes),False,held the session at dawn,", the porter said,"
+E7,E1,-1,> (Preceded By),False,the last dose went into the last child,The vaccine had taken eleven years to develop
+E7,E2,-1,> (Preceded By),False,the last dose went into the last child,the depot's generator had failed
+E7,E3,-1,> (Preceded By),False,the last dose went into the last child,the planners moved the campaign earlier
+E7,E4,-1,> (Preceded By),False,the last dose went into the last child,a box thawed early
+E7,E5,-1,> (Preceded By),False,the last dose went into the last child,The team walked through the night
+E7,E6,-2,mi (Met By),False,the last dose went into the last child,held the session at dawn
+E7,E8,-1,> (Preceded By),False,the last dose went into the last child,depot stood empty
+E7,E9,-1,> (Preceded By),False,the last dose went into the last child,the second failure
+E7,E10,-1,> (Preceded By),False,the last dose went into the last child,The monsoon advanced the schedule by three weeks
+E7,E11,-1,> (Preceded By),False,the last dose went into the last child,no household would come
+E7,E12,-1,> (Preceded By),False,the last dose went into the last child,"collided with the festival,"
+E7,E13,1,< (Precedes),False,the last dose went into the last child,", the porter said,"
+E8,E1,-1,> (Preceded By),False,depot stood empty,The vaccine had taken eleven years to develop
+E8,E2,5,d (During),False,depot stood empty,the depot's generator had failed
+E8,E3,1,< (Precedes),False,depot stood empty,the planners moved the campaign earlier
+E8,E4,1,< (Precedes),False,depot stood empty,a box thawed early
+E8,E5,1,< (Precedes),False,depot stood empty,The team walked through the night
+E8,E6,1,< (Precedes),False,depot stood empty,held the session at dawn
+E8,E7,1,< (Precedes),False,depot stood empty,the last dose went into the last child
+E8,E9,-5,di (Contains),False,depot stood empty,the second failure
+E8,E10,1,< (Precedes),False,depot stood empty,The monsoon advanced the schedule by three weeks
+E8,E11,1,< (Precedes),False,depot stood empty,no household would come
+E8,E12,1,< (Precedes),False,depot stood empty,"collided with the festival,"
+E8,E13,1,< (Precedes),False,depot stood empty,", the porter said,"
+E9,E1,-1,> (Preceded By),False,the second failure,The vaccine had taken eleven years to develop
+E9,E2,5,d (During),False,the second failure,the depot's generator had failed
+E9,E3,1,< (Precedes),False,the second failure,the planners moved the campaign earlier
+E9,E4,1,< (Precedes),False,the second failure,a box thawed early
+E9,E5,1,< (Precedes),False,the second failure,The team walked through the night
+E9,E6,1,< (Precedes),False,the second failure,held the session at dawn
+E9,E7,1,< (Precedes),False,the second failure,the last dose went into the last child
+E9,E8,5,d (During),False,the second failure,depot stood empty
+E9,E10,1,< (Precedes),False,the second failure,The monsoon advanced the schedule by three weeks
+E9,E11,1,< (Precedes),False,the second failure,no household would come
+E9,E12,1,< (Precedes),False,the second failure,"collided with the festival,"
+E9,E13,1,< (Precedes),False,the second failure,", the porter said,"
+E10,E1,-1,> (Preceded By),False,The monsoon advanced the schedule by three weeks,The vaccine had taken eleven years to develop
+E10,E2,-1,> (Preceded By),False,The monsoon advanced the schedule by three weeks,the depot's generator had failed
+E10,E3,1,< (Precedes),False,The monsoon advanced the schedule by three weeks,the planners moved the campaign earlier
+E10,E4,1,< (Precedes),False,The monsoon advanced the schedule by three weeks,a box thawed early
+E10,E5,1,< (Precedes),False,The monsoon advanced the schedule by three weeks,The team walked through the night
+E10,E6,1,< (Precedes),False,The monsoon advanced the schedule by three weeks,held the session at dawn
+E10,E7,1,< (Precedes),False,The monsoon advanced the schedule by three weeks,the last dose went into the last child
+E10,E8,-1,> (Preceded By),False,The monsoon advanced the schedule by three weeks,depot stood empty
+E10,E9,-1,> (Preceded By),False,The monsoon advanced the schedule by three weeks,the second failure
+E10,E11,1,< (Precedes),False,The monsoon advanced the schedule by three weeks,no household would come
+E10,E12,1,< (Precedes),False,The monsoon advanced the schedule by three weeks,"collided with the festival,"
+E10,E13,1,< (Precedes),False,The monsoon advanced the schedule by three weeks,", the porter said,"
+E11,E1,-1,> (Preceded By),False,no household would come,The vaccine had taken eleven years to develop
+E11,E2,-1,> (Preceded By),False,no household would come,the depot's generator had failed
+E11,E3,-1,> (Preceded By),False,no household would come,the planners moved the campaign earlier
+E11,E4,1,< (Precedes),False,no household would come,a box thawed early
+E11,E5,1,< (Precedes),False,no household would come,The team walked through the night
+E11,E6,1,< (Precedes),False,no household would come,held the session at dawn
+E11,E7,1,< (Precedes),False,no household would come,the last dose went into the last child
+E11,E8,-1,> (Preceded By),False,no household would come,depot stood empty
+E11,E9,-1,> (Preceded By),False,no household would come,the second failure
+E11,E10,-1,> (Preceded By),False,no household would come,The monsoon advanced the schedule by three weeks
+E11,E12,0,= (Equal),False,no household would come,"collided with the festival,"
+E11,E13,1,< (Precedes),False,no household would come,", the porter said,"
+E12,E1,-1,> (Preceded By),False,"collided with the festival,",The vaccine had taken eleven years to develop
+E12,E2,-1,> (Preceded By),False,"collided with the festival,",the depot's generator had failed
+E12,E3,-1,> (Preceded By),False,"collided with the festival,",the planners moved the campaign earlier
+E12,E4,1,< (Precedes),False,"collided with the festival,",a box thawed early
+E12,E5,1,< (Precedes),False,"collided with the festival,",The team walked through the night
+E12,E6,1,< (Precedes),False,"collided with the festival,",held the session at dawn
+E12,E7,1,< (Precedes),False,"collided with the festival,",the last dose went into the last child
+E12,E8,-1,> (Preceded By),False,"collided with the festival,",depot stood empty
+E12,E9,-1,> (Preceded By),False,"collided with the festival,",the second failure
+E12,E10,-1,> (Preceded By),False,"collided with the festival,",The monsoon advanced the schedule by three weeks
+E12,E11,0,= (Equal),False,"collided with the festival,",no household would come
+E12,E13,1,< (Precedes),False,"collided with the festival,",", the porter said,"
+E13,E1,-1,> (Preceded By),False,", the porter said,",The vaccine had taken eleven years to develop
+E13,E2,-1,> (Preceded By),False,", the porter said,",the depot's generator had failed
+E13,E3,-1,> (Preceded By),False,", the porter said,",the planners moved the campaign earlier
+E13,E4,-1,> (Preceded By),False,", the porter said,",a box thawed early
+E13,E5,-1,> (Preceded By),False,", the porter said,",The team walked through the night
+E13,E6,-1,> (Preceded By),False,", the porter said,",held the session at dawn
+E13,E7,-1,> (Preceded By),False,", the porter said,",the last dose went into the last child
+E13,E8,-1,> (Preceded By),False,", the porter said,",depot stood empty
+E13,E9,-1,> (Preceded By),False,", the porter said,",the second failure
+E13,E10,-1,> (Preceded By),False,", the porter said,",The monsoon advanced the schedule by three weeks
+E13,E11,-1,> (Preceded By),False,", the porter said,",no household would come
+E13,E12,-1,> (Preceded By),False,", the porter said,","collided with the festival,"

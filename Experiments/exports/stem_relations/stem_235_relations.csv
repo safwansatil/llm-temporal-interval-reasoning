@@ -1,0 +1,111 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,3,o (Overlaps),False,Rashed had been collecting books,Rashed had been a schoolteacher
+E1,E3,1,< (Precedes),False,Rashed had been collecting books,He cleared out the unused storage room
+E1,E4,2,m (Meets),False,Rashed had been collecting books,The library opened
+E1,E5,1,< (Precedes),False,Rashed had been collecting books,no one came
+E1,E6,1,< (Precedes),False,Rashed had been collecting books,She picked up a picture book and sat
+E1,E7,1,< (Precedes),False,Rashed had been collecting books,the library had twenty regular readers
+E1,E8,1,< (Precedes),False,Rashed had been collecting books,Rashed had to expand the operating hours
+E1,E9,1,< (Precedes),False,Rashed had been collecting books,district education officer visited
+E1,E10,1,< (Precedes),False,Rashed had been collecting books,spent his days managing the library
+E1,E11,2,m (Meets),False,Rashed had been collecting books,a group of fifteen volunteers had formed.
+E2,E1,-3,oi (Overlapped By),False,Rashed had been a schoolteacher,Rashed had been collecting books
+E2,E3,-5,di (Contains),False,Rashed had been a schoolteacher,He cleared out the unused storage room
+E2,E4,-5,di (Contains),False,Rashed had been a schoolteacher,The library opened
+E2,E5,-5,di (Contains),False,Rashed had been a schoolteacher,no one came
+E2,E6,-5,di (Contains),False,Rashed had been a schoolteacher,She picked up a picture book and sat
+E2,E7,-5,di (Contains),False,Rashed had been a schoolteacher,the library had twenty regular readers
+E2,E8,-5,di (Contains),False,Rashed had been a schoolteacher,Rashed had to expand the operating hours
+E2,E9,-6,fi (Finished By),False,Rashed had been a schoolteacher,district education officer visited
+E2,E10,2,m (Meets),False,Rashed had been a schoolteacher,spent his days managing the library
+E2,E11,-5,di (Contains),False,Rashed had been a schoolteacher,a group of fifteen volunteers had formed.
+E3,E1,-1,> (Preceded By),False,He cleared out the unused storage room,Rashed had been collecting books
+E3,E2,5,d (During),False,He cleared out the unused storage room,Rashed had been a schoolteacher
+E3,E4,5,d (During),False,He cleared out the unused storage room,The library opened
+E3,E5,1,< (Precedes),False,He cleared out the unused storage room,no one came
+E3,E6,1,< (Precedes),False,He cleared out the unused storage room,She picked up a picture book and sat
+E3,E7,1,< (Precedes),False,He cleared out the unused storage room,the library had twenty regular readers
+E3,E8,1,< (Precedes),False,He cleared out the unused storage room,Rashed had to expand the operating hours
+E3,E9,1,< (Precedes),False,He cleared out the unused storage room,district education officer visited
+E3,E10,1,< (Precedes),False,He cleared out the unused storage room,spent his days managing the library
+E3,E11,-2,mi (Met By),False,He cleared out the unused storage room,a group of fifteen volunteers had formed.
+E4,E1,-2,mi (Met By),False,The library opened,Rashed had been collecting books
+E4,E2,5,d (During),False,The library opened,Rashed had been a schoolteacher
+E4,E3,-5,di (Contains),False,The library opened,He cleared out the unused storage room
+E4,E5,2,m (Meets),False,The library opened,no one came
+E4,E6,1,< (Precedes),False,The library opened,She picked up a picture book and sat
+E4,E7,2,m (Meets),False,The library opened,the library had twenty regular readers
+E4,E8,2,m (Meets),False,The library opened,Rashed had to expand the operating hours
+E4,E9,2,m (Meets),False,The library opened,district education officer visited
+E4,E10,1,< (Precedes),False,The library opened,spent his days managing the library
+E4,E11,-4,si (Started By),False,The library opened,a group of fifteen volunteers had formed.
+E5,E1,-1,> (Preceded By),False,no one came,Rashed had been collecting books
+E5,E2,5,d (During),False,no one came,Rashed had been a schoolteacher
+E5,E3,-1,> (Preceded By),False,no one came,He cleared out the unused storage room
+E5,E4,-2,mi (Met By),False,no one came,The library opened
+E5,E6,2,m (Meets),False,no one came,She picked up a picture book and sat
+E5,E7,4,s (Starts),False,no one came,the library had twenty regular readers
+E5,E8,4,s (Starts),False,no one came,Rashed had to expand the operating hours
+E5,E9,4,s (Starts),False,no one came,district education officer visited
+E5,E10,1,< (Precedes),False,no one came,spent his days managing the library
+E5,E11,-1,> (Preceded By),False,no one came,a group of fifteen volunteers had formed.
+E6,E1,-1,> (Preceded By),False,She picked up a picture book and sat,Rashed had been collecting books
+E6,E2,5,d (During),False,She picked up a picture book and sat,Rashed had been a schoolteacher
+E6,E3,-1,> (Preceded By),False,She picked up a picture book and sat,He cleared out the unused storage room
+E6,E4,-1,> (Preceded By),False,She picked up a picture book and sat,The library opened
+E6,E5,-2,mi (Met By),False,She picked up a picture book and sat,no one came
+E6,E7,5,d (During),False,She picked up a picture book and sat,the library had twenty regular readers
+E6,E8,5,d (During),False,She picked up a picture book and sat,Rashed had to expand the operating hours
+E6,E9,5,d (During),False,She picked up a picture book and sat,district education officer visited
+E6,E10,1,< (Precedes),False,She picked up a picture book and sat,spent his days managing the library
+E6,E11,-1,> (Preceded By),False,She picked up a picture book and sat,a group of fifteen volunteers had formed.
+E7,E1,-1,> (Preceded By),False,the library had twenty regular readers,Rashed had been collecting books
+E7,E2,5,d (During),False,the library had twenty regular readers,Rashed had been a schoolteacher
+E7,E3,-1,> (Preceded By),False,the library had twenty regular readers,He cleared out the unused storage room
+E7,E4,-2,mi (Met By),False,the library had twenty regular readers,The library opened
+E7,E5,-4,si (Started By),False,the library had twenty regular readers,no one came
+E7,E6,-5,di (Contains),False,the library had twenty regular readers,She picked up a picture book and sat
+E7,E8,4,s (Starts),False,the library had twenty regular readers,Rashed had to expand the operating hours
+E7,E9,4,s (Starts),False,the library had twenty regular readers,district education officer visited
+E7,E10,1,< (Precedes),False,the library had twenty regular readers,spent his days managing the library
+E7,E11,-1,> (Preceded By),False,the library had twenty regular readers,a group of fifteen volunteers had formed.
+E8,E1,-1,> (Preceded By),False,Rashed had to expand the operating hours,Rashed had been collecting books
+E8,E2,5,d (During),False,Rashed had to expand the operating hours,Rashed had been a schoolteacher
+E8,E3,-1,> (Preceded By),False,Rashed had to expand the operating hours,He cleared out the unused storage room
+E8,E4,-2,mi (Met By),False,Rashed had to expand the operating hours,The library opened
+E8,E5,-4,si (Started By),False,Rashed had to expand the operating hours,no one came
+E8,E6,-5,di (Contains),False,Rashed had to expand the operating hours,She picked up a picture book and sat
+E8,E7,-4,si (Started By),False,Rashed had to expand the operating hours,the library had twenty regular readers
+E8,E9,4,s (Starts),False,Rashed had to expand the operating hours,district education officer visited
+E8,E10,1,< (Precedes),False,Rashed had to expand the operating hours,spent his days managing the library
+E8,E11,-1,> (Preceded By),False,Rashed had to expand the operating hours,a group of fifteen volunteers had formed.
+E9,E1,-1,> (Preceded By),False,district education officer visited,Rashed had been collecting books
+E9,E2,6,f (Finishes),False,district education officer visited,Rashed had been a schoolteacher
+E9,E3,-1,> (Preceded By),False,district education officer visited,He cleared out the unused storage room
+E9,E4,-2,mi (Met By),False,district education officer visited,The library opened
+E9,E5,-4,si (Started By),False,district education officer visited,no one came
+E9,E6,-5,di (Contains),False,district education officer visited,She picked up a picture book and sat
+E9,E7,-4,si (Started By),False,district education officer visited,the library had twenty regular readers
+E9,E8,-4,si (Started By),False,district education officer visited,Rashed had to expand the operating hours
+E9,E10,2,m (Meets),False,district education officer visited,spent his days managing the library
+E9,E11,-1,> (Preceded By),False,district education officer visited,a group of fifteen volunteers had formed.
+E10,E1,-1,> (Preceded By),False,spent his days managing the library,Rashed had been collecting books
+E10,E2,-2,mi (Met By),False,spent his days managing the library,Rashed had been a schoolteacher
+E10,E3,-1,> (Preceded By),False,spent his days managing the library,He cleared out the unused storage room
+E10,E4,-1,> (Preceded By),False,spent his days managing the library,The library opened
+E10,E5,-1,> (Preceded By),False,spent his days managing the library,no one came
+E10,E6,-1,> (Preceded By),False,spent his days managing the library,She picked up a picture book and sat
+E10,E7,-1,> (Preceded By),False,spent his days managing the library,the library had twenty regular readers
+E10,E8,-1,> (Preceded By),False,spent his days managing the library,Rashed had to expand the operating hours
+E10,E9,-2,mi (Met By),False,spent his days managing the library,district education officer visited
+E10,E11,-1,> (Preceded By),False,spent his days managing the library,a group of fifteen volunteers had formed.
+E11,E1,-2,mi (Met By),False,a group of fifteen volunteers had formed.,Rashed had been collecting books
+E11,E2,5,d (During),False,a group of fifteen volunteers had formed.,Rashed had been a schoolteacher
+E11,E3,2,m (Meets),False,a group of fifteen volunteers had formed.,He cleared out the unused storage room
+E11,E4,4,s (Starts),False,a group of fifteen volunteers had formed.,The library opened
+E11,E5,1,< (Precedes),False,a group of fifteen volunteers had formed.,no one came
+E11,E6,1,< (Precedes),False,a group of fifteen volunteers had formed.,She picked up a picture book and sat
+E11,E7,1,< (Precedes),False,a group of fifteen volunteers had formed.,the library had twenty regular readers
+E11,E8,1,< (Precedes),False,a group of fifteen volunteers had formed.,Rashed had to expand the operating hours
+E11,E9,1,< (Precedes),False,a group of fifteen volunteers had formed.,district education officer visited
+E11,E10,1,< (Precedes),False,a group of fifteen volunteers had formed.,spent his days managing the library

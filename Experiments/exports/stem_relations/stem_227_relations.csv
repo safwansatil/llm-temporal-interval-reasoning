@@ -1,0 +1,133 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-1,> (Preceded By),False,The manuscript had been copied by hand in 1273,The vellum prepared over one winter
+E1,E3,-5,di (Contains),False,The manuscript had been copied by hand in 1273,The copying was interrupted by a fire
+E1,E4,-5,di (Contains),False,The manuscript had been copied by hand in 1273,The repair took four months
+E1,E5,-5,di (Contains),False,The manuscript had been copied by hand in 1273,the monk worked in a lean to
+E1,E6,2,m (Meets),False,The manuscript had been copied by hand in 1273,The finished book was chained to a lectern for four hundred years
+E1,E7,1,< (Precedes),False,The manuscript had been copied by hand in 1273,In 1672 a scholar borrowed it
+E1,E8,1,< (Precedes),False,The manuscript had been copied by hand in 1273,returned it eleven years later
+E1,E9,1,< (Precedes),False,The manuscript had been copied by hand in 1273,The scholar had copied it himself by hand
+E1,E10,1,< (Precedes),False,The manuscript had been copied by hand in 1273,That copy was lost in a shipwreck in 1703
+E1,E11,1,< (Precedes),False,The manuscript had been copied by hand in 1273,It was digitised in 2015
+E1,E12,1,< (Precedes),False,The manuscript had been copied by hand in 1273,"The digital file was downloaded 11,000 times in its first year"
+E2,E1,1,< (Precedes),False,The vellum prepared over one winter,The manuscript had been copied by hand in 1273
+E2,E3,1,< (Precedes),False,The vellum prepared over one winter,The copying was interrupted by a fire
+E2,E4,1,< (Precedes),False,The vellum prepared over one winter,The repair took four months
+E2,E5,1,< (Precedes),False,The vellum prepared over one winter,the monk worked in a lean to
+E2,E6,1,< (Precedes),False,The vellum prepared over one winter,The finished book was chained to a lectern for four hundred years
+E2,E7,1,< (Precedes),False,The vellum prepared over one winter,In 1672 a scholar borrowed it
+E2,E8,1,< (Precedes),False,The vellum prepared over one winter,returned it eleven years later
+E2,E9,1,< (Precedes),False,The vellum prepared over one winter,The scholar had copied it himself by hand
+E2,E10,1,< (Precedes),False,The vellum prepared over one winter,That copy was lost in a shipwreck in 1703
+E2,E11,1,< (Precedes),False,The vellum prepared over one winter,It was digitised in 2015
+E2,E12,1,< (Precedes),False,The vellum prepared over one winter,"The digital file was downloaded 11,000 times in its first year"
+E3,E1,5,d (During),False,The copying was interrupted by a fire,The manuscript had been copied by hand in 1273
+E3,E2,-1,> (Preceded By),False,The copying was interrupted by a fire,The vellum prepared over one winter
+E3,E4,2,m (Meets),False,The copying was interrupted by a fire,The repair took four months
+E3,E5,2,m (Meets),False,The copying was interrupted by a fire,the monk worked in a lean to
+E3,E6,1,< (Precedes),False,The copying was interrupted by a fire,The finished book was chained to a lectern for four hundred years
+E3,E7,1,< (Precedes),False,The copying was interrupted by a fire,In 1672 a scholar borrowed it
+E3,E8,1,< (Precedes),False,The copying was interrupted by a fire,returned it eleven years later
+E3,E9,1,< (Precedes),False,The copying was interrupted by a fire,The scholar had copied it himself by hand
+E3,E10,1,< (Precedes),False,The copying was interrupted by a fire,That copy was lost in a shipwreck in 1703
+E3,E11,1,< (Precedes),False,The copying was interrupted by a fire,It was digitised in 2015
+E3,E12,1,< (Precedes),False,The copying was interrupted by a fire,"The digital file was downloaded 11,000 times in its first year"
+E4,E1,5,d (During),False,The repair took four months,The manuscript had been copied by hand in 1273
+E4,E2,-1,> (Preceded By),False,The repair took four months,The vellum prepared over one winter
+E4,E3,-2,mi (Met By),False,The repair took four months,The copying was interrupted by a fire
+E4,E5,0,= (Equal),False,The repair took four months,the monk worked in a lean to
+E4,E6,1,< (Precedes),False,The repair took four months,The finished book was chained to a lectern for four hundred years
+E4,E7,1,< (Precedes),False,The repair took four months,In 1672 a scholar borrowed it
+E4,E8,1,< (Precedes),False,The repair took four months,returned it eleven years later
+E4,E9,1,< (Precedes),False,The repair took four months,The scholar had copied it himself by hand
+E4,E10,1,< (Precedes),False,The repair took four months,That copy was lost in a shipwreck in 1703
+E4,E11,1,< (Precedes),False,The repair took four months,It was digitised in 2015
+E4,E12,1,< (Precedes),False,The repair took four months,"The digital file was downloaded 11,000 times in its first year"
+E5,E1,5,d (During),False,the monk worked in a lean to,The manuscript had been copied by hand in 1273
+E5,E2,-1,> (Preceded By),False,the monk worked in a lean to,The vellum prepared over one winter
+E5,E3,-2,mi (Met By),False,the monk worked in a lean to,The copying was interrupted by a fire
+E5,E4,0,= (Equal),False,the monk worked in a lean to,The repair took four months
+E5,E6,1,< (Precedes),False,the monk worked in a lean to,The finished book was chained to a lectern for four hundred years
+E5,E7,1,< (Precedes),False,the monk worked in a lean to,In 1672 a scholar borrowed it
+E5,E8,1,< (Precedes),False,the monk worked in a lean to,returned it eleven years later
+E5,E9,1,< (Precedes),False,the monk worked in a lean to,The scholar had copied it himself by hand
+E5,E10,1,< (Precedes),False,the monk worked in a lean to,That copy was lost in a shipwreck in 1703
+E5,E11,1,< (Precedes),False,the monk worked in a lean to,It was digitised in 2015
+E5,E12,1,< (Precedes),False,the monk worked in a lean to,"The digital file was downloaded 11,000 times in its first year"
+E6,E1,-2,mi (Met By),False,The finished book was chained to a lectern for four hundred years,The manuscript had been copied by hand in 1273
+E6,E2,-1,> (Preceded By),False,The finished book was chained to a lectern for four hundred years,The vellum prepared over one winter
+E6,E3,-1,> (Preceded By),False,The finished book was chained to a lectern for four hundred years,The copying was interrupted by a fire
+E6,E4,-1,> (Preceded By),False,The finished book was chained to a lectern for four hundred years,The repair took four months
+E6,E5,-1,> (Preceded By),False,The finished book was chained to a lectern for four hundred years,the monk worked in a lean to
+E6,E7,2,m (Meets),False,The finished book was chained to a lectern for four hundred years,In 1672 a scholar borrowed it
+E6,E8,1,< (Precedes),False,The finished book was chained to a lectern for four hundred years,returned it eleven years later
+E6,E9,1,< (Precedes),False,The finished book was chained to a lectern for four hundred years,The scholar had copied it himself by hand
+E6,E10,1,< (Precedes),False,The finished book was chained to a lectern for four hundred years,That copy was lost in a shipwreck in 1703
+E6,E11,1,< (Precedes),False,The finished book was chained to a lectern for four hundred years,It was digitised in 2015
+E6,E12,1,< (Precedes),False,The finished book was chained to a lectern for four hundred years,"The digital file was downloaded 11,000 times in its first year"
+E7,E1,-1,> (Preceded By),False,In 1672 a scholar borrowed it,The manuscript had been copied by hand in 1273
+E7,E2,-1,> (Preceded By),False,In 1672 a scholar borrowed it,The vellum prepared over one winter
+E7,E3,-1,> (Preceded By),False,In 1672 a scholar borrowed it,The copying was interrupted by a fire
+E7,E4,-1,> (Preceded By),False,In 1672 a scholar borrowed it,The repair took four months
+E7,E5,-1,> (Preceded By),False,In 1672 a scholar borrowed it,the monk worked in a lean to
+E7,E6,-2,mi (Met By),False,In 1672 a scholar borrowed it,The finished book was chained to a lectern for four hundred years
+E7,E8,1,< (Precedes),False,In 1672 a scholar borrowed it,returned it eleven years later
+E7,E9,2,m (Meets),False,In 1672 a scholar borrowed it,The scholar had copied it himself by hand
+E7,E10,1,< (Precedes),False,In 1672 a scholar borrowed it,That copy was lost in a shipwreck in 1703
+E7,E11,1,< (Precedes),False,In 1672 a scholar borrowed it,It was digitised in 2015
+E7,E12,1,< (Precedes),False,In 1672 a scholar borrowed it,"The digital file was downloaded 11,000 times in its first year"
+E8,E1,-1,> (Preceded By),False,returned it eleven years later,The manuscript had been copied by hand in 1273
+E8,E2,-1,> (Preceded By),False,returned it eleven years later,The vellum prepared over one winter
+E8,E3,-1,> (Preceded By),False,returned it eleven years later,The copying was interrupted by a fire
+E8,E4,-1,> (Preceded By),False,returned it eleven years later,The repair took four months
+E8,E5,-1,> (Preceded By),False,returned it eleven years later,the monk worked in a lean to
+E8,E6,-1,> (Preceded By),False,returned it eleven years later,The finished book was chained to a lectern for four hundred years
+E8,E7,-1,> (Preceded By),False,returned it eleven years later,In 1672 a scholar borrowed it
+E8,E9,-1,> (Preceded By),False,returned it eleven years later,The scholar had copied it himself by hand
+E8,E10,1,< (Precedes),False,returned it eleven years later,That copy was lost in a shipwreck in 1703
+E8,E11,1,< (Precedes),False,returned it eleven years later,It was digitised in 2015
+E8,E12,1,< (Precedes),False,returned it eleven years later,"The digital file was downloaded 11,000 times in its first year"
+E9,E1,-1,> (Preceded By),False,The scholar had copied it himself by hand,The manuscript had been copied by hand in 1273
+E9,E2,-1,> (Preceded By),False,The scholar had copied it himself by hand,The vellum prepared over one winter
+E9,E3,-1,> (Preceded By),False,The scholar had copied it himself by hand,The copying was interrupted by a fire
+E9,E4,-1,> (Preceded By),False,The scholar had copied it himself by hand,The repair took four months
+E9,E5,-1,> (Preceded By),False,The scholar had copied it himself by hand,the monk worked in a lean to
+E9,E6,-1,> (Preceded By),False,The scholar had copied it himself by hand,The finished book was chained to a lectern for four hundred years
+E9,E7,-2,mi (Met By),False,The scholar had copied it himself by hand,In 1672 a scholar borrowed it
+E9,E8,1,< (Precedes),False,The scholar had copied it himself by hand,returned it eleven years later
+E9,E10,1,< (Precedes),False,The scholar had copied it himself by hand,That copy was lost in a shipwreck in 1703
+E9,E11,1,< (Precedes),False,The scholar had copied it himself by hand,It was digitised in 2015
+E9,E12,1,< (Precedes),False,The scholar had copied it himself by hand,"The digital file was downloaded 11,000 times in its first year"
+E10,E1,-1,> (Preceded By),False,That copy was lost in a shipwreck in 1703,The manuscript had been copied by hand in 1273
+E10,E2,-1,> (Preceded By),False,That copy was lost in a shipwreck in 1703,The vellum prepared over one winter
+E10,E3,-1,> (Preceded By),False,That copy was lost in a shipwreck in 1703,The copying was interrupted by a fire
+E10,E4,-1,> (Preceded By),False,That copy was lost in a shipwreck in 1703,The repair took four months
+E10,E5,-1,> (Preceded By),False,That copy was lost in a shipwreck in 1703,the monk worked in a lean to
+E10,E6,-1,> (Preceded By),False,That copy was lost in a shipwreck in 1703,The finished book was chained to a lectern for four hundred years
+E10,E7,-1,> (Preceded By),False,That copy was lost in a shipwreck in 1703,In 1672 a scholar borrowed it
+E10,E8,-1,> (Preceded By),False,That copy was lost in a shipwreck in 1703,returned it eleven years later
+E10,E9,-1,> (Preceded By),False,That copy was lost in a shipwreck in 1703,The scholar had copied it himself by hand
+E10,E11,1,< (Precedes),False,That copy was lost in a shipwreck in 1703,It was digitised in 2015
+E10,E12,1,< (Precedes),False,That copy was lost in a shipwreck in 1703,"The digital file was downloaded 11,000 times in its first year"
+E11,E1,-1,> (Preceded By),False,It was digitised in 2015,The manuscript had been copied by hand in 1273
+E11,E2,-1,> (Preceded By),False,It was digitised in 2015,The vellum prepared over one winter
+E11,E3,-1,> (Preceded By),False,It was digitised in 2015,The copying was interrupted by a fire
+E11,E4,-1,> (Preceded By),False,It was digitised in 2015,The repair took four months
+E11,E5,-1,> (Preceded By),False,It was digitised in 2015,the monk worked in a lean to
+E11,E6,-1,> (Preceded By),False,It was digitised in 2015,The finished book was chained to a lectern for four hundred years
+E11,E7,-1,> (Preceded By),False,It was digitised in 2015,In 1672 a scholar borrowed it
+E11,E8,-1,> (Preceded By),False,It was digitised in 2015,returned it eleven years later
+E11,E9,-1,> (Preceded By),False,It was digitised in 2015,The scholar had copied it himself by hand
+E11,E10,-1,> (Preceded By),False,It was digitised in 2015,That copy was lost in a shipwreck in 1703
+E11,E12,2,m (Meets),False,It was digitised in 2015,"The digital file was downloaded 11,000 times in its first year"
+E12,E1,-1,> (Preceded By),False,"The digital file was downloaded 11,000 times in its first year",The manuscript had been copied by hand in 1273
+E12,E2,-1,> (Preceded By),False,"The digital file was downloaded 11,000 times in its first year",The vellum prepared over one winter
+E12,E3,-1,> (Preceded By),False,"The digital file was downloaded 11,000 times in its first year",The copying was interrupted by a fire
+E12,E4,-1,> (Preceded By),False,"The digital file was downloaded 11,000 times in its first year",The repair took four months
+E12,E5,-1,> (Preceded By),False,"The digital file was downloaded 11,000 times in its first year",the monk worked in a lean to
+E12,E6,-1,> (Preceded By),False,"The digital file was downloaded 11,000 times in its first year",The finished book was chained to a lectern for four hundred years
+E12,E7,-1,> (Preceded By),False,"The digital file was downloaded 11,000 times in its first year",In 1672 a scholar borrowed it
+E12,E8,-1,> (Preceded By),False,"The digital file was downloaded 11,000 times in its first year",returned it eleven years later
+E12,E9,-1,> (Preceded By),False,"The digital file was downloaded 11,000 times in its first year",The scholar had copied it himself by hand
+E12,E10,-1,> (Preceded By),False,"The digital file was downloaded 11,000 times in its first year",That copy was lost in a shipwreck in 1703
+E12,E11,-2,mi (Met By),False,"The digital file was downloaded 11,000 times in its first year",It was digitised in 2015

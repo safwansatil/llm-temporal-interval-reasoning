@@ -1,0 +1,57 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-6,fi (Finished By),False,She had not spoken to her son,a small amount he had been accumulating
+E1,E3,-5,di (Contains),False,She had not spoken to her son,He had been playing cricket
+E1,E4,-5,di (Contains),False,She had not spoken to her son,said nothing for a long moment
+E1,E5,-5,di (Contains),False,She had not spoken to her son,Kamal spent the next two hours in a state of panic
+E1,E6,-5,di (Contains),False,She had not spoken to her son,he confessed
+E1,E7,2,m (Meets),False,She had not spoken to her son,She served him tea and biscuits
+E1,E8,1,< (Precedes),False,She had not spoken to her son,Their unlikely friendship lasted for the remaining years
+E2,E1,6,f (Finishes),False,a small amount he had been accumulating,She had not spoken to her son
+E2,E3,-5,di (Contains),False,a small amount he had been accumulating,He had been playing cricket
+E2,E4,-5,di (Contains),False,a small amount he had been accumulating,said nothing for a long moment
+E2,E5,-5,di (Contains),False,a small amount he had been accumulating,Kamal spent the next two hours in a state of panic
+E2,E6,-5,di (Contains),False,a small amount he had been accumulating,he confessed
+E2,E7,2,m (Meets),False,a small amount he had been accumulating,She served him tea and biscuits
+E2,E8,1,< (Precedes),False,a small amount he had been accumulating,Their unlikely friendship lasted for the remaining years
+E3,E1,5,d (During),False,He had been playing cricket,She had not spoken to her son
+E3,E2,5,d (During),False,He had been playing cricket,a small amount he had been accumulating
+E3,E4,2,m (Meets),False,He had been playing cricket,said nothing for a long moment
+E3,E5,1,< (Precedes),False,He had been playing cricket,Kamal spent the next two hours in a state of panic
+E3,E6,1,< (Precedes),False,He had been playing cricket,he confessed
+E3,E7,1,< (Precedes),False,He had been playing cricket,She served him tea and biscuits
+E3,E8,1,< (Precedes),False,He had been playing cricket,Their unlikely friendship lasted for the remaining years
+E4,E1,5,d (During),False,said nothing for a long moment,She had not spoken to her son
+E4,E2,5,d (During),False,said nothing for a long moment,a small amount he had been accumulating
+E4,E3,-2,mi (Met By),False,said nothing for a long moment,He had been playing cricket
+E4,E5,2,m (Meets),False,said nothing for a long moment,Kamal spent the next two hours in a state of panic
+E4,E6,1,< (Precedes),False,said nothing for a long moment,he confessed
+E4,E7,1,< (Precedes),False,said nothing for a long moment,She served him tea and biscuits
+E4,E8,1,< (Precedes),False,said nothing for a long moment,Their unlikely friendship lasted for the remaining years
+E5,E1,5,d (During),False,Kamal spent the next two hours in a state of panic,She had not spoken to her son
+E5,E2,5,d (During),False,Kamal spent the next two hours in a state of panic,a small amount he had been accumulating
+E5,E3,-1,> (Preceded By),False,Kamal spent the next two hours in a state of panic,He had been playing cricket
+E5,E4,-2,mi (Met By),False,Kamal spent the next two hours in a state of panic,said nothing for a long moment
+E5,E6,-6,fi (Finished By),False,Kamal spent the next two hours in a state of panic,he confessed
+E5,E7,1,< (Precedes),False,Kamal spent the next two hours in a state of panic,She served him tea and biscuits
+E5,E8,1,< (Precedes),False,Kamal spent the next two hours in a state of panic,Their unlikely friendship lasted for the remaining years
+E6,E1,5,d (During),False,he confessed,She had not spoken to her son
+E6,E2,5,d (During),False,he confessed,a small amount he had been accumulating
+E6,E3,-1,> (Preceded By),False,he confessed,He had been playing cricket
+E6,E4,-1,> (Preceded By),False,he confessed,said nothing for a long moment
+E6,E5,6,f (Finishes),False,he confessed,Kamal spent the next two hours in a state of panic
+E6,E7,1,< (Precedes),False,he confessed,She served him tea and biscuits
+E6,E8,1,< (Precedes),False,he confessed,Their unlikely friendship lasted for the remaining years
+E7,E1,-2,mi (Met By),False,She served him tea and biscuits,She had not spoken to her son
+E7,E2,-2,mi (Met By),False,She served him tea and biscuits,a small amount he had been accumulating
+E7,E3,-1,> (Preceded By),False,She served him tea and biscuits,He had been playing cricket
+E7,E4,-1,> (Preceded By),False,She served him tea and biscuits,said nothing for a long moment
+E7,E5,-1,> (Preceded By),False,She served him tea and biscuits,Kamal spent the next two hours in a state of panic
+E7,E6,-1,> (Preceded By),False,She served him tea and biscuits,he confessed
+E7,E8,2,m (Meets),False,She served him tea and biscuits,Their unlikely friendship lasted for the remaining years
+E8,E1,-1,> (Preceded By),False,Their unlikely friendship lasted for the remaining years,She had not spoken to her son
+E8,E2,-1,> (Preceded By),False,Their unlikely friendship lasted for the remaining years,a small amount he had been accumulating
+E8,E3,-1,> (Preceded By),False,Their unlikely friendship lasted for the remaining years,He had been playing cricket
+E8,E4,-1,> (Preceded By),False,Their unlikely friendship lasted for the remaining years,said nothing for a long moment
+E8,E5,-1,> (Preceded By),False,Their unlikely friendship lasted for the remaining years,Kamal spent the next two hours in a state of panic
+E8,E6,-1,> (Preceded By),False,Their unlikely friendship lasted for the remaining years,he confessed
+E8,E7,-2,mi (Met By),False,Their unlikely friendship lasted for the remaining years,She served him tea and biscuits

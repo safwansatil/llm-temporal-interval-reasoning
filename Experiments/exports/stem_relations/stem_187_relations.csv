@@ -1,0 +1,463 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,The stenographer wrote at the speed of speech,the court moved at the speed of adjournment
+E1,E3,-4,si (Started By),False,The stenographer wrote at the speed of speech,The case had been filed
+E1,E4,0,= (Equal),False,The stenographer wrote at the speed of speech,"would, everyone privately agreed, outlast it"
+E1,E5,0,= (Equal),False,The stenographer wrote at the speed of speech,Hearings came months apart
+E1,E6,0,= (Equal),False,The stenographer wrote at the speed of speech,lasted minutes
+E1,E7,-5,di (Contains),False,The stenographer wrote at the speed of speech,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E1,E8,-5,di (Contains),False,The stenographer wrote at the speed of speech,The key witness had been deposed
+E1,E9,-5,di (Contains),False,The stenographer wrote at the speed of speech,died during the long middle
+E1,E10,-5,di (Contains),False,The stenographer wrote at the speed of speech,"at the final arguments, both sides quoted her transcript of his words"
+E1,E11,-6,fi (Finished By),False,The stenographer wrote at the speed of speech,"the man existing now only at the speed of speech, preserved"
+E1,E12,-6,fi (Finished By),False,The stenographer wrote at the speed of speech,the proceeding that consumed him crawled on
+E1,E13,-6,fi (Finished By),False,The stenographer wrote at the speed of speech,The judge who heard the verdict
+E1,E14,-5,di (Contains),False,The stenographer wrote at the speed of speech,the first had been elevated
+E1,E15,-5,di (Contains),False,The stenographer wrote at the speed of speech,the second transferred
+E1,E16,-5,di (Contains),False,The stenographer wrote at the speed of speech,the third had retired during an adjournment
+E1,E17,-5,di (Contains),False,The stenographer wrote at the speed of speech,his entire tenure on the case fell between two hearings
+E1,E18,-5,di (Contains),False,The stenographer wrote at the speed of speech,he never heard a word of it
+E1,E19,-6,fi (Finished By),False,The stenographer wrote at the speed of speech,the verdict came
+E1,E20,-6,fi (Finished By),False,The stenographer wrote at the speed of speech,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E1,E21,-6,fi (Finished By),False,The stenographer wrote at the speed of speech,The appeal was filed
+E1,E22,-6,fi (Finished By),False,The stenographer wrote at the speed of speech,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E2,E1,0,= (Equal),False,the court moved at the speed of adjournment,The stenographer wrote at the speed of speech
+E2,E3,-4,si (Started By),False,the court moved at the speed of adjournment,The case had been filed
+E2,E4,0,= (Equal),False,the court moved at the speed of adjournment,"would, everyone privately agreed, outlast it"
+E2,E5,0,= (Equal),False,the court moved at the speed of adjournment,Hearings came months apart
+E2,E6,0,= (Equal),False,the court moved at the speed of adjournment,lasted minutes
+E2,E7,-5,di (Contains),False,the court moved at the speed of adjournment,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E2,E8,-5,di (Contains),False,the court moved at the speed of adjournment,The key witness had been deposed
+E2,E9,-5,di (Contains),False,the court moved at the speed of adjournment,died during the long middle
+E2,E10,-5,di (Contains),False,the court moved at the speed of adjournment,"at the final arguments, both sides quoted her transcript of his words"
+E2,E11,-6,fi (Finished By),False,the court moved at the speed of adjournment,"the man existing now only at the speed of speech, preserved"
+E2,E12,-6,fi (Finished By),False,the court moved at the speed of adjournment,the proceeding that consumed him crawled on
+E2,E13,-6,fi (Finished By),False,the court moved at the speed of adjournment,The judge who heard the verdict
+E2,E14,-5,di (Contains),False,the court moved at the speed of adjournment,the first had been elevated
+E2,E15,-5,di (Contains),False,the court moved at the speed of adjournment,the second transferred
+E2,E16,-5,di (Contains),False,the court moved at the speed of adjournment,the third had retired during an adjournment
+E2,E17,-5,di (Contains),False,the court moved at the speed of adjournment,his entire tenure on the case fell between two hearings
+E2,E18,-5,di (Contains),False,the court moved at the speed of adjournment,he never heard a word of it
+E2,E19,-6,fi (Finished By),False,the court moved at the speed of adjournment,the verdict came
+E2,E20,-6,fi (Finished By),False,the court moved at the speed of adjournment,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E2,E21,-6,fi (Finished By),False,the court moved at the speed of adjournment,The appeal was filed
+E2,E22,-6,fi (Finished By),False,the court moved at the speed of adjournment,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E3,E1,4,s (Starts),False,The case had been filed,The stenographer wrote at the speed of speech
+E3,E2,4,s (Starts),False,The case had been filed,the court moved at the speed of adjournment
+E3,E4,4,s (Starts),False,The case had been filed,"would, everyone privately agreed, outlast it"
+E3,E5,4,s (Starts),False,The case had been filed,Hearings came months apart
+E3,E6,4,s (Starts),False,The case had been filed,lasted minutes
+E3,E7,1,< (Precedes),False,The case had been filed,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E3,E8,1,< (Precedes),False,The case had been filed,The key witness had been deposed
+E3,E9,1,< (Precedes),False,The case had been filed,died during the long middle
+E3,E10,1,< (Precedes),False,The case had been filed,"at the final arguments, both sides quoted her transcript of his words"
+E3,E11,1,< (Precedes),False,The case had been filed,"the man existing now only at the speed of speech, preserved"
+E3,E12,1,< (Precedes),False,The case had been filed,the proceeding that consumed him crawled on
+E3,E13,1,< (Precedes),False,The case had been filed,The judge who heard the verdict
+E3,E14,1,< (Precedes),False,The case had been filed,the first had been elevated
+E3,E15,1,< (Precedes),False,The case had been filed,the second transferred
+E3,E16,1,< (Precedes),False,The case had been filed,the third had retired during an adjournment
+E3,E17,1,< (Precedes),False,The case had been filed,his entire tenure on the case fell between two hearings
+E3,E18,1,< (Precedes),False,The case had been filed,he never heard a word of it
+E3,E19,1,< (Precedes),False,The case had been filed,the verdict came
+E3,E20,1,< (Precedes),False,The case had been filed,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E3,E21,1,< (Precedes),False,The case had been filed,The appeal was filed
+E3,E22,1,< (Precedes),False,The case had been filed,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E4,E1,0,= (Equal),False,"would, everyone privately agreed, outlast it",The stenographer wrote at the speed of speech
+E4,E2,0,= (Equal),False,"would, everyone privately agreed, outlast it",the court moved at the speed of adjournment
+E4,E3,-4,si (Started By),False,"would, everyone privately agreed, outlast it",The case had been filed
+E4,E5,0,= (Equal),False,"would, everyone privately agreed, outlast it",Hearings came months apart
+E4,E6,0,= (Equal),False,"would, everyone privately agreed, outlast it",lasted minutes
+E4,E7,-5,di (Contains),False,"would, everyone privately agreed, outlast it",her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E4,E8,-5,di (Contains),False,"would, everyone privately agreed, outlast it",The key witness had been deposed
+E4,E9,-5,di (Contains),False,"would, everyone privately agreed, outlast it",died during the long middle
+E4,E10,-5,di (Contains),False,"would, everyone privately agreed, outlast it","at the final arguments, both sides quoted her transcript of his words"
+E4,E11,-6,fi (Finished By),False,"would, everyone privately agreed, outlast it","the man existing now only at the speed of speech, preserved"
+E4,E12,-6,fi (Finished By),False,"would, everyone privately agreed, outlast it",the proceeding that consumed him crawled on
+E4,E13,-6,fi (Finished By),False,"would, everyone privately agreed, outlast it",The judge who heard the verdict
+E4,E14,-5,di (Contains),False,"would, everyone privately agreed, outlast it",the first had been elevated
+E4,E15,-5,di (Contains),False,"would, everyone privately agreed, outlast it",the second transferred
+E4,E16,-5,di (Contains),False,"would, everyone privately agreed, outlast it",the third had retired during an adjournment
+E4,E17,-5,di (Contains),False,"would, everyone privately agreed, outlast it",his entire tenure on the case fell between two hearings
+E4,E18,-5,di (Contains),False,"would, everyone privately agreed, outlast it",he never heard a word of it
+E4,E19,-6,fi (Finished By),False,"would, everyone privately agreed, outlast it",the verdict came
+E4,E20,-6,fi (Finished By),False,"would, everyone privately agreed, outlast it","the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E4,E21,-6,fi (Finished By),False,"would, everyone privately agreed, outlast it",The appeal was filed
+E4,E22,-6,fi (Finished By),False,"would, everyone privately agreed, outlast it","within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E5,E1,0,= (Equal),False,Hearings came months apart,The stenographer wrote at the speed of speech
+E5,E2,0,= (Equal),False,Hearings came months apart,the court moved at the speed of adjournment
+E5,E3,-4,si (Started By),False,Hearings came months apart,The case had been filed
+E5,E4,0,= (Equal),False,Hearings came months apart,"would, everyone privately agreed, outlast it"
+E5,E6,0,= (Equal),False,Hearings came months apart,lasted minutes
+E5,E7,-5,di (Contains),False,Hearings came months apart,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E5,E8,-5,di (Contains),False,Hearings came months apart,The key witness had been deposed
+E5,E9,-5,di (Contains),False,Hearings came months apart,died during the long middle
+E5,E10,-5,di (Contains),False,Hearings came months apart,"at the final arguments, both sides quoted her transcript of his words"
+E5,E11,-6,fi (Finished By),False,Hearings came months apart,"the man existing now only at the speed of speech, preserved"
+E5,E12,-6,fi (Finished By),False,Hearings came months apart,the proceeding that consumed him crawled on
+E5,E13,-6,fi (Finished By),False,Hearings came months apart,The judge who heard the verdict
+E5,E14,-5,di (Contains),False,Hearings came months apart,the first had been elevated
+E5,E15,-5,di (Contains),False,Hearings came months apart,the second transferred
+E5,E16,-5,di (Contains),False,Hearings came months apart,the third had retired during an adjournment
+E5,E17,-5,di (Contains),False,Hearings came months apart,his entire tenure on the case fell between two hearings
+E5,E18,-5,di (Contains),False,Hearings came months apart,he never heard a word of it
+E5,E19,-6,fi (Finished By),False,Hearings came months apart,the verdict came
+E5,E20,-6,fi (Finished By),False,Hearings came months apart,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E5,E21,-6,fi (Finished By),False,Hearings came months apart,The appeal was filed
+E5,E22,-6,fi (Finished By),False,Hearings came months apart,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E6,E1,0,= (Equal),False,lasted minutes,The stenographer wrote at the speed of speech
+E6,E2,0,= (Equal),False,lasted minutes,the court moved at the speed of adjournment
+E6,E3,-4,si (Started By),False,lasted minutes,The case had been filed
+E6,E4,0,= (Equal),False,lasted minutes,"would, everyone privately agreed, outlast it"
+E6,E5,0,= (Equal),False,lasted minutes,Hearings came months apart
+E6,E7,-5,di (Contains),False,lasted minutes,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E6,E8,-5,di (Contains),False,lasted minutes,The key witness had been deposed
+E6,E9,-5,di (Contains),False,lasted minutes,died during the long middle
+E6,E10,-5,di (Contains),False,lasted minutes,"at the final arguments, both sides quoted her transcript of his words"
+E6,E11,-6,fi (Finished By),False,lasted minutes,"the man existing now only at the speed of speech, preserved"
+E6,E12,-6,fi (Finished By),False,lasted minutes,the proceeding that consumed him crawled on
+E6,E13,-6,fi (Finished By),False,lasted minutes,The judge who heard the verdict
+E6,E14,-5,di (Contains),False,lasted minutes,the first had been elevated
+E6,E15,-5,di (Contains),False,lasted minutes,the second transferred
+E6,E16,-5,di (Contains),False,lasted minutes,the third had retired during an adjournment
+E6,E17,-5,di (Contains),False,lasted minutes,his entire tenure on the case fell between two hearings
+E6,E18,-5,di (Contains),False,lasted minutes,he never heard a word of it
+E6,E19,-6,fi (Finished By),False,lasted minutes,the verdict came
+E6,E20,-6,fi (Finished By),False,lasted minutes,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E6,E21,-6,fi (Finished By),False,lasted minutes,The appeal was filed
+E6,E22,-6,fi (Finished By),False,lasted minutes,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E7,E1,5,d (During),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,The stenographer wrote at the speed of speech
+E7,E2,5,d (During),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,the court moved at the speed of adjournment
+E7,E3,-1,> (Preceded By),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,The case had been filed
+E7,E4,5,d (During),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,"would, everyone privately agreed, outlast it"
+E7,E5,5,d (During),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,Hearings came months apart
+E7,E6,5,d (During),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,lasted minutes
+E7,E8,-1,> (Preceded By),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,The key witness had been deposed
+E7,E9,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,died during the long middle
+E7,E10,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,"at the final arguments, both sides quoted her transcript of his words"
+E7,E11,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,"the man existing now only at the speed of speech, preserved"
+E7,E12,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,the proceeding that consumed him crawled on
+E7,E13,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,The judge who heard the verdict
+E7,E14,-1,> (Preceded By),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,the first had been elevated
+E7,E15,3,o (Overlaps),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,the second transferred
+E7,E16,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,the third had retired during an adjournment
+E7,E17,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,his entire tenure on the case fell between two hearings
+E7,E18,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,he never heard a word of it
+E7,E19,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,the verdict came
+E7,E20,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E7,E21,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,The appeal was filed
+E7,E22,1,< (Precedes),False,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E8,E1,5,d (During),False,The key witness had been deposed,The stenographer wrote at the speed of speech
+E8,E2,5,d (During),False,The key witness had been deposed,the court moved at the speed of adjournment
+E8,E3,-1,> (Preceded By),False,The key witness had been deposed,The case had been filed
+E8,E4,5,d (During),False,The key witness had been deposed,"would, everyone privately agreed, outlast it"
+E8,E5,5,d (During),False,The key witness had been deposed,Hearings came months apart
+E8,E6,5,d (During),False,The key witness had been deposed,lasted minutes
+E8,E7,1,< (Precedes),False,The key witness had been deposed,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E8,E9,1,< (Precedes),False,The key witness had been deposed,died during the long middle
+E8,E10,1,< (Precedes),False,The key witness had been deposed,"at the final arguments, both sides quoted her transcript of his words"
+E8,E11,1,< (Precedes),False,The key witness had been deposed,"the man existing now only at the speed of speech, preserved"
+E8,E12,1,< (Precedes),False,The key witness had been deposed,the proceeding that consumed him crawled on
+E8,E13,1,< (Precedes),False,The key witness had been deposed,The judge who heard the verdict
+E8,E14,0,= (Equal),False,The key witness had been deposed,the first had been elevated
+E8,E15,1,< (Precedes),False,The key witness had been deposed,the second transferred
+E8,E16,1,< (Precedes),False,The key witness had been deposed,the third had retired during an adjournment
+E8,E17,1,< (Precedes),False,The key witness had been deposed,his entire tenure on the case fell between two hearings
+E8,E18,1,< (Precedes),False,The key witness had been deposed,he never heard a word of it
+E8,E19,1,< (Precedes),False,The key witness had been deposed,the verdict came
+E8,E20,1,< (Precedes),False,The key witness had been deposed,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E8,E21,1,< (Precedes),False,The key witness had been deposed,The appeal was filed
+E8,E22,1,< (Precedes),False,The key witness had been deposed,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E9,E1,5,d (During),False,died during the long middle,The stenographer wrote at the speed of speech
+E9,E2,5,d (During),False,died during the long middle,the court moved at the speed of adjournment
+E9,E3,-1,> (Preceded By),False,died during the long middle,The case had been filed
+E9,E4,5,d (During),False,died during the long middle,"would, everyone privately agreed, outlast it"
+E9,E5,5,d (During),False,died during the long middle,Hearings came months apart
+E9,E6,5,d (During),False,died during the long middle,lasted minutes
+E9,E7,-1,> (Preceded By),False,died during the long middle,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E9,E8,-1,> (Preceded By),False,died during the long middle,The key witness had been deposed
+E9,E10,1,< (Precedes),False,died during the long middle,"at the final arguments, both sides quoted her transcript of his words"
+E9,E11,3,o (Overlaps),False,died during the long middle,"the man existing now only at the speed of speech, preserved"
+E9,E12,3,o (Overlaps),False,died during the long middle,the proceeding that consumed him crawled on
+E9,E13,1,< (Precedes),False,died during the long middle,The judge who heard the verdict
+E9,E14,-1,> (Preceded By),False,died during the long middle,the first had been elevated
+E9,E15,-1,> (Preceded By),False,died during the long middle,the second transferred
+E9,E16,1,< (Precedes),False,died during the long middle,the third had retired during an adjournment
+E9,E17,1,< (Precedes),False,died during the long middle,his entire tenure on the case fell between two hearings
+E9,E18,1,< (Precedes),False,died during the long middle,he never heard a word of it
+E9,E19,1,< (Precedes),False,died during the long middle,the verdict came
+E9,E20,1,< (Precedes),False,died during the long middle,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E9,E21,1,< (Precedes),False,died during the long middle,The appeal was filed
+E9,E22,1,< (Precedes),False,died during the long middle,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E10,E1,5,d (During),False,"at the final arguments, both sides quoted her transcript of his words",The stenographer wrote at the speed of speech
+E10,E2,5,d (During),False,"at the final arguments, both sides quoted her transcript of his words",the court moved at the speed of adjournment
+E10,E3,-1,> (Preceded By),False,"at the final arguments, both sides quoted her transcript of his words",The case had been filed
+E10,E4,5,d (During),False,"at the final arguments, both sides quoted her transcript of his words","would, everyone privately agreed, outlast it"
+E10,E5,5,d (During),False,"at the final arguments, both sides quoted her transcript of his words",Hearings came months apart
+E10,E6,5,d (During),False,"at the final arguments, both sides quoted her transcript of his words",lasted minutes
+E10,E7,-1,> (Preceded By),False,"at the final arguments, both sides quoted her transcript of his words",her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E10,E8,-1,> (Preceded By),False,"at the final arguments, both sides quoted her transcript of his words",The key witness had been deposed
+E10,E9,-1,> (Preceded By),False,"at the final arguments, both sides quoted her transcript of his words",died during the long middle
+E10,E11,5,d (During),False,"at the final arguments, both sides quoted her transcript of his words","the man existing now only at the speed of speech, preserved"
+E10,E12,5,d (During),False,"at the final arguments, both sides quoted her transcript of his words",the proceeding that consumed him crawled on
+E10,E13,1,< (Precedes),False,"at the final arguments, both sides quoted her transcript of his words",The judge who heard the verdict
+E10,E14,-1,> (Preceded By),False,"at the final arguments, both sides quoted her transcript of his words",the first had been elevated
+E10,E15,-1,> (Preceded By),False,"at the final arguments, both sides quoted her transcript of his words",the second transferred
+E10,E16,-1,> (Preceded By),False,"at the final arguments, both sides quoted her transcript of his words",the third had retired during an adjournment
+E10,E17,-1,> (Preceded By),False,"at the final arguments, both sides quoted her transcript of his words",his entire tenure on the case fell between two hearings
+E10,E18,-1,> (Preceded By),False,"at the final arguments, both sides quoted her transcript of his words",he never heard a word of it
+E10,E19,1,< (Precedes),False,"at the final arguments, both sides quoted her transcript of his words",the verdict came
+E10,E20,1,< (Precedes),False,"at the final arguments, both sides quoted her transcript of his words","the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E10,E21,1,< (Precedes),False,"at the final arguments, both sides quoted her transcript of his words",The appeal was filed
+E10,E22,1,< (Precedes),False,"at the final arguments, both sides quoted her transcript of his words","within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E11,E1,6,f (Finishes),False,"the man existing now only at the speed of speech, preserved",The stenographer wrote at the speed of speech
+E11,E2,6,f (Finishes),False,"the man existing now only at the speed of speech, preserved",the court moved at the speed of adjournment
+E11,E3,-1,> (Preceded By),False,"the man existing now only at the speed of speech, preserved",The case had been filed
+E11,E4,6,f (Finishes),False,"the man existing now only at the speed of speech, preserved","would, everyone privately agreed, outlast it"
+E11,E5,6,f (Finishes),False,"the man existing now only at the speed of speech, preserved",Hearings came months apart
+E11,E6,6,f (Finishes),False,"the man existing now only at the speed of speech, preserved",lasted minutes
+E11,E7,-1,> (Preceded By),False,"the man existing now only at the speed of speech, preserved",her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E11,E8,-1,> (Preceded By),False,"the man existing now only at the speed of speech, preserved",The key witness had been deposed
+E11,E9,-3,oi (Overlapped By),False,"the man existing now only at the speed of speech, preserved",died during the long middle
+E11,E10,-5,di (Contains),False,"the man existing now only at the speed of speech, preserved","at the final arguments, both sides quoted her transcript of his words"
+E11,E12,0,= (Equal),False,"the man existing now only at the speed of speech, preserved",the proceeding that consumed him crawled on
+E11,E13,-6,fi (Finished By),False,"the man existing now only at the speed of speech, preserved",The judge who heard the verdict
+E11,E14,-1,> (Preceded By),False,"the man existing now only at the speed of speech, preserved",the first had been elevated
+E11,E15,-1,> (Preceded By),False,"the man existing now only at the speed of speech, preserved",the second transferred
+E11,E16,-5,di (Contains),False,"the man existing now only at the speed of speech, preserved",the third had retired during an adjournment
+E11,E17,-5,di (Contains),False,"the man existing now only at the speed of speech, preserved",his entire tenure on the case fell between two hearings
+E11,E18,-5,di (Contains),False,"the man existing now only at the speed of speech, preserved",he never heard a word of it
+E11,E19,-6,fi (Finished By),False,"the man existing now only at the speed of speech, preserved",the verdict came
+E11,E20,-6,fi (Finished By),False,"the man existing now only at the speed of speech, preserved","the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E11,E21,-6,fi (Finished By),False,"the man existing now only at the speed of speech, preserved",The appeal was filed
+E11,E22,-6,fi (Finished By),False,"the man existing now only at the speed of speech, preserved","within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E12,E1,6,f (Finishes),False,the proceeding that consumed him crawled on,The stenographer wrote at the speed of speech
+E12,E2,6,f (Finishes),False,the proceeding that consumed him crawled on,the court moved at the speed of adjournment
+E12,E3,-1,> (Preceded By),False,the proceeding that consumed him crawled on,The case had been filed
+E12,E4,6,f (Finishes),False,the proceeding that consumed him crawled on,"would, everyone privately agreed, outlast it"
+E12,E5,6,f (Finishes),False,the proceeding that consumed him crawled on,Hearings came months apart
+E12,E6,6,f (Finishes),False,the proceeding that consumed him crawled on,lasted minutes
+E12,E7,-1,> (Preceded By),False,the proceeding that consumed him crawled on,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E12,E8,-1,> (Preceded By),False,the proceeding that consumed him crawled on,The key witness had been deposed
+E12,E9,-3,oi (Overlapped By),False,the proceeding that consumed him crawled on,died during the long middle
+E12,E10,-5,di (Contains),False,the proceeding that consumed him crawled on,"at the final arguments, both sides quoted her transcript of his words"
+E12,E11,0,= (Equal),False,the proceeding that consumed him crawled on,"the man existing now only at the speed of speech, preserved"
+E12,E13,-6,fi (Finished By),False,the proceeding that consumed him crawled on,The judge who heard the verdict
+E12,E14,-1,> (Preceded By),False,the proceeding that consumed him crawled on,the first had been elevated
+E12,E15,-1,> (Preceded By),False,the proceeding that consumed him crawled on,the second transferred
+E12,E16,-5,di (Contains),False,the proceeding that consumed him crawled on,the third had retired during an adjournment
+E12,E17,-5,di (Contains),False,the proceeding that consumed him crawled on,his entire tenure on the case fell between two hearings
+E12,E18,-5,di (Contains),False,the proceeding that consumed him crawled on,he never heard a word of it
+E12,E19,-6,fi (Finished By),False,the proceeding that consumed him crawled on,the verdict came
+E12,E20,-6,fi (Finished By),False,the proceeding that consumed him crawled on,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E12,E21,-6,fi (Finished By),False,the proceeding that consumed him crawled on,The appeal was filed
+E12,E22,-6,fi (Finished By),False,the proceeding that consumed him crawled on,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E13,E1,6,f (Finishes),False,The judge who heard the verdict,The stenographer wrote at the speed of speech
+E13,E2,6,f (Finishes),False,The judge who heard the verdict,the court moved at the speed of adjournment
+E13,E3,-1,> (Preceded By),False,The judge who heard the verdict,The case had been filed
+E13,E4,6,f (Finishes),False,The judge who heard the verdict,"would, everyone privately agreed, outlast it"
+E13,E5,6,f (Finishes),False,The judge who heard the verdict,Hearings came months apart
+E13,E6,6,f (Finishes),False,The judge who heard the verdict,lasted minutes
+E13,E7,-1,> (Preceded By),False,The judge who heard the verdict,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E13,E8,-1,> (Preceded By),False,The judge who heard the verdict,The key witness had been deposed
+E13,E9,-1,> (Preceded By),False,The judge who heard the verdict,died during the long middle
+E13,E10,-1,> (Preceded By),False,The judge who heard the verdict,"at the final arguments, both sides quoted her transcript of his words"
+E13,E11,6,f (Finishes),False,The judge who heard the verdict,"the man existing now only at the speed of speech, preserved"
+E13,E12,6,f (Finishes),False,The judge who heard the verdict,the proceeding that consumed him crawled on
+E13,E14,-1,> (Preceded By),False,The judge who heard the verdict,the first had been elevated
+E13,E15,-1,> (Preceded By),False,The judge who heard the verdict,the second transferred
+E13,E16,-1,> (Preceded By),False,The judge who heard the verdict,the third had retired during an adjournment
+E13,E17,-1,> (Preceded By),False,The judge who heard the verdict,his entire tenure on the case fell between two hearings
+E13,E18,-1,> (Preceded By),False,The judge who heard the verdict,he never heard a word of it
+E13,E19,0,= (Equal),False,The judge who heard the verdict,the verdict came
+E13,E20,0,= (Equal),False,The judge who heard the verdict,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E13,E21,0,= (Equal),False,The judge who heard the verdict,The appeal was filed
+E13,E22,0,= (Equal),False,The judge who heard the verdict,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E14,E1,5,d (During),False,the first had been elevated,The stenographer wrote at the speed of speech
+E14,E2,5,d (During),False,the first had been elevated,the court moved at the speed of adjournment
+E14,E3,-1,> (Preceded By),False,the first had been elevated,The case had been filed
+E14,E4,5,d (During),False,the first had been elevated,"would, everyone privately agreed, outlast it"
+E14,E5,5,d (During),False,the first had been elevated,Hearings came months apart
+E14,E6,5,d (During),False,the first had been elevated,lasted minutes
+E14,E7,1,< (Precedes),False,the first had been elevated,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E14,E8,0,= (Equal),False,the first had been elevated,The key witness had been deposed
+E14,E9,1,< (Precedes),False,the first had been elevated,died during the long middle
+E14,E10,1,< (Precedes),False,the first had been elevated,"at the final arguments, both sides quoted her transcript of his words"
+E14,E11,1,< (Precedes),False,the first had been elevated,"the man existing now only at the speed of speech, preserved"
+E14,E12,1,< (Precedes),False,the first had been elevated,the proceeding that consumed him crawled on
+E14,E13,1,< (Precedes),False,the first had been elevated,The judge who heard the verdict
+E14,E15,1,< (Precedes),False,the first had been elevated,the second transferred
+E14,E16,1,< (Precedes),False,the first had been elevated,the third had retired during an adjournment
+E14,E17,1,< (Precedes),False,the first had been elevated,his entire tenure on the case fell between two hearings
+E14,E18,1,< (Precedes),False,the first had been elevated,he never heard a word of it
+E14,E19,1,< (Precedes),False,the first had been elevated,the verdict came
+E14,E20,1,< (Precedes),False,the first had been elevated,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E14,E21,1,< (Precedes),False,the first had been elevated,The appeal was filed
+E14,E22,1,< (Precedes),False,the first had been elevated,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E15,E1,5,d (During),False,the second transferred,The stenographer wrote at the speed of speech
+E15,E2,5,d (During),False,the second transferred,the court moved at the speed of adjournment
+E15,E3,-1,> (Preceded By),False,the second transferred,The case had been filed
+E15,E4,5,d (During),False,the second transferred,"would, everyone privately agreed, outlast it"
+E15,E5,5,d (During),False,the second transferred,Hearings came months apart
+E15,E6,5,d (During),False,the second transferred,lasted minutes
+E15,E7,-3,oi (Overlapped By),False,the second transferred,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E15,E8,-1,> (Preceded By),False,the second transferred,The key witness had been deposed
+E15,E9,1,< (Precedes),False,the second transferred,died during the long middle
+E15,E10,1,< (Precedes),False,the second transferred,"at the final arguments, both sides quoted her transcript of his words"
+E15,E11,1,< (Precedes),False,the second transferred,"the man existing now only at the speed of speech, preserved"
+E15,E12,1,< (Precedes),False,the second transferred,the proceeding that consumed him crawled on
+E15,E13,1,< (Precedes),False,the second transferred,The judge who heard the verdict
+E15,E14,-1,> (Preceded By),False,the second transferred,the first had been elevated
+E15,E16,1,< (Precedes),False,the second transferred,the third had retired during an adjournment
+E15,E17,1,< (Precedes),False,the second transferred,his entire tenure on the case fell between two hearings
+E15,E18,1,< (Precedes),False,the second transferred,he never heard a word of it
+E15,E19,1,< (Precedes),False,the second transferred,the verdict came
+E15,E20,1,< (Precedes),False,the second transferred,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E15,E21,1,< (Precedes),False,the second transferred,The appeal was filed
+E15,E22,1,< (Precedes),False,the second transferred,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E16,E1,5,d (During),False,the third had retired during an adjournment,The stenographer wrote at the speed of speech
+E16,E2,5,d (During),False,the third had retired during an adjournment,the court moved at the speed of adjournment
+E16,E3,-1,> (Preceded By),False,the third had retired during an adjournment,The case had been filed
+E16,E4,5,d (During),False,the third had retired during an adjournment,"would, everyone privately agreed, outlast it"
+E16,E5,5,d (During),False,the third had retired during an adjournment,Hearings came months apart
+E16,E6,5,d (During),False,the third had retired during an adjournment,lasted minutes
+E16,E7,-1,> (Preceded By),False,the third had retired during an adjournment,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E16,E8,-1,> (Preceded By),False,the third had retired during an adjournment,The key witness had been deposed
+E16,E9,-1,> (Preceded By),False,the third had retired during an adjournment,died during the long middle
+E16,E10,1,< (Precedes),False,the third had retired during an adjournment,"at the final arguments, both sides quoted her transcript of his words"
+E16,E11,5,d (During),False,the third had retired during an adjournment,"the man existing now only at the speed of speech, preserved"
+E16,E12,5,d (During),False,the third had retired during an adjournment,the proceeding that consumed him crawled on
+E16,E13,1,< (Precedes),False,the third had retired during an adjournment,The judge who heard the verdict
+E16,E14,-1,> (Preceded By),False,the third had retired during an adjournment,the first had been elevated
+E16,E15,-1,> (Preceded By),False,the third had retired during an adjournment,the second transferred
+E16,E17,3,o (Overlaps),False,the third had retired during an adjournment,his entire tenure on the case fell between two hearings
+E16,E18,3,o (Overlaps),False,the third had retired during an adjournment,he never heard a word of it
+E16,E19,1,< (Precedes),False,the third had retired during an adjournment,the verdict came
+E16,E20,1,< (Precedes),False,the third had retired during an adjournment,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E16,E21,1,< (Precedes),False,the third had retired during an adjournment,The appeal was filed
+E16,E22,1,< (Precedes),False,the third had retired during an adjournment,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E17,E1,5,d (During),False,his entire tenure on the case fell between two hearings,The stenographer wrote at the speed of speech
+E17,E2,5,d (During),False,his entire tenure on the case fell between two hearings,the court moved at the speed of adjournment
+E17,E3,-1,> (Preceded By),False,his entire tenure on the case fell between two hearings,The case had been filed
+E17,E4,5,d (During),False,his entire tenure on the case fell between two hearings,"would, everyone privately agreed, outlast it"
+E17,E5,5,d (During),False,his entire tenure on the case fell between two hearings,Hearings came months apart
+E17,E6,5,d (During),False,his entire tenure on the case fell between two hearings,lasted minutes
+E17,E7,-1,> (Preceded By),False,his entire tenure on the case fell between two hearings,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E17,E8,-1,> (Preceded By),False,his entire tenure on the case fell between two hearings,The key witness had been deposed
+E17,E9,-1,> (Preceded By),False,his entire tenure on the case fell between two hearings,died during the long middle
+E17,E10,1,< (Precedes),False,his entire tenure on the case fell between two hearings,"at the final arguments, both sides quoted her transcript of his words"
+E17,E11,5,d (During),False,his entire tenure on the case fell between two hearings,"the man existing now only at the speed of speech, preserved"
+E17,E12,5,d (During),False,his entire tenure on the case fell between two hearings,the proceeding that consumed him crawled on
+E17,E13,1,< (Precedes),False,his entire tenure on the case fell between two hearings,The judge who heard the verdict
+E17,E14,-1,> (Preceded By),False,his entire tenure on the case fell between two hearings,the first had been elevated
+E17,E15,-1,> (Preceded By),False,his entire tenure on the case fell between two hearings,the second transferred
+E17,E16,-3,oi (Overlapped By),False,his entire tenure on the case fell between two hearings,the third had retired during an adjournment
+E17,E18,0,= (Equal),False,his entire tenure on the case fell between two hearings,he never heard a word of it
+E17,E19,1,< (Precedes),False,his entire tenure on the case fell between two hearings,the verdict came
+E17,E20,1,< (Precedes),False,his entire tenure on the case fell between two hearings,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E17,E21,1,< (Precedes),False,his entire tenure on the case fell between two hearings,The appeal was filed
+E17,E22,1,< (Precedes),False,his entire tenure on the case fell between two hearings,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E18,E1,5,d (During),False,he never heard a word of it,The stenographer wrote at the speed of speech
+E18,E2,5,d (During),False,he never heard a word of it,the court moved at the speed of adjournment
+E18,E3,-1,> (Preceded By),False,he never heard a word of it,The case had been filed
+E18,E4,5,d (During),False,he never heard a word of it,"would, everyone privately agreed, outlast it"
+E18,E5,5,d (During),False,he never heard a word of it,Hearings came months apart
+E18,E6,5,d (During),False,he never heard a word of it,lasted minutes
+E18,E7,-1,> (Preceded By),False,he never heard a word of it,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E18,E8,-1,> (Preceded By),False,he never heard a word of it,The key witness had been deposed
+E18,E9,-1,> (Preceded By),False,he never heard a word of it,died during the long middle
+E18,E10,1,< (Precedes),False,he never heard a word of it,"at the final arguments, both sides quoted her transcript of his words"
+E18,E11,5,d (During),False,he never heard a word of it,"the man existing now only at the speed of speech, preserved"
+E18,E12,5,d (During),False,he never heard a word of it,the proceeding that consumed him crawled on
+E18,E13,1,< (Precedes),False,he never heard a word of it,The judge who heard the verdict
+E18,E14,-1,> (Preceded By),False,he never heard a word of it,the first had been elevated
+E18,E15,-1,> (Preceded By),False,he never heard a word of it,the second transferred
+E18,E16,-3,oi (Overlapped By),False,he never heard a word of it,the third had retired during an adjournment
+E18,E17,0,= (Equal),False,he never heard a word of it,his entire tenure on the case fell between two hearings
+E18,E19,1,< (Precedes),False,he never heard a word of it,the verdict came
+E18,E20,1,< (Precedes),False,he never heard a word of it,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E18,E21,1,< (Precedes),False,he never heard a word of it,The appeal was filed
+E18,E22,1,< (Precedes),False,he never heard a word of it,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E19,E1,6,f (Finishes),False,the verdict came,The stenographer wrote at the speed of speech
+E19,E2,6,f (Finishes),False,the verdict came,the court moved at the speed of adjournment
+E19,E3,-1,> (Preceded By),False,the verdict came,The case had been filed
+E19,E4,6,f (Finishes),False,the verdict came,"would, everyone privately agreed, outlast it"
+E19,E5,6,f (Finishes),False,the verdict came,Hearings came months apart
+E19,E6,6,f (Finishes),False,the verdict came,lasted minutes
+E19,E7,-1,> (Preceded By),False,the verdict came,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E19,E8,-1,> (Preceded By),False,the verdict came,The key witness had been deposed
+E19,E9,-1,> (Preceded By),False,the verdict came,died during the long middle
+E19,E10,-1,> (Preceded By),False,the verdict came,"at the final arguments, both sides quoted her transcript of his words"
+E19,E11,6,f (Finishes),False,the verdict came,"the man existing now only at the speed of speech, preserved"
+E19,E12,6,f (Finishes),False,the verdict came,the proceeding that consumed him crawled on
+E19,E13,0,= (Equal),False,the verdict came,The judge who heard the verdict
+E19,E14,-1,> (Preceded By),False,the verdict came,the first had been elevated
+E19,E15,-1,> (Preceded By),False,the verdict came,the second transferred
+E19,E16,-1,> (Preceded By),False,the verdict came,the third had retired during an adjournment
+E19,E17,-1,> (Preceded By),False,the verdict came,his entire tenure on the case fell between two hearings
+E19,E18,-1,> (Preceded By),False,the verdict came,he never heard a word of it
+E19,E20,0,= (Equal),False,the verdict came,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E19,E21,0,= (Equal),False,the verdict came,The appeal was filed
+E19,E22,0,= (Equal),False,the verdict came,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E20,E1,6,f (Finishes),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",The stenographer wrote at the speed of speech
+E20,E2,6,f (Finishes),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",the court moved at the speed of adjournment
+E20,E3,-1,> (Preceded By),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",The case had been filed
+E20,E4,6,f (Finishes),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years","would, everyone privately agreed, outlast it"
+E20,E5,6,f (Finishes),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",Hearings came months apart
+E20,E6,6,f (Finishes),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",lasted minutes
+E20,E7,-1,> (Preceded By),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E20,E8,-1,> (Preceded By),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",The key witness had been deposed
+E20,E9,-1,> (Preceded By),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",died during the long middle
+E20,E10,-1,> (Preceded By),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years","at the final arguments, both sides quoted her transcript of his words"
+E20,E11,6,f (Finishes),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years","the man existing now only at the speed of speech, preserved"
+E20,E12,6,f (Finishes),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",the proceeding that consumed him crawled on
+E20,E13,0,= (Equal),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",The judge who heard the verdict
+E20,E14,-1,> (Preceded By),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",the first had been elevated
+E20,E15,-1,> (Preceded By),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",the second transferred
+E20,E16,-1,> (Preceded By),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",the third had retired during an adjournment
+E20,E17,-1,> (Preceded By),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",his entire tenure on the case fell between two hearings
+E20,E18,-1,> (Preceded By),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",he never heard a word of it
+E20,E19,0,= (Equal),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",the verdict came
+E20,E21,0,= (Equal),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years",The appeal was filed
+E20,E22,0,= (Equal),False,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years","within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E21,E1,6,f (Finishes),False,The appeal was filed,The stenographer wrote at the speed of speech
+E21,E2,6,f (Finishes),False,The appeal was filed,the court moved at the speed of adjournment
+E21,E3,-1,> (Preceded By),False,The appeal was filed,The case had been filed
+E21,E4,6,f (Finishes),False,The appeal was filed,"would, everyone privately agreed, outlast it"
+E21,E5,6,f (Finishes),False,The appeal was filed,Hearings came months apart
+E21,E6,6,f (Finishes),False,The appeal was filed,lasted minutes
+E21,E7,-1,> (Preceded By),False,The appeal was filed,her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E21,E8,-1,> (Preceded By),False,The appeal was filed,The key witness had been deposed
+E21,E9,-1,> (Preceded By),False,The appeal was filed,died during the long middle
+E21,E10,-1,> (Preceded By),False,The appeal was filed,"at the final arguments, both sides quoted her transcript of his words"
+E21,E11,6,f (Finishes),False,The appeal was filed,"the man existing now only at the speed of speech, preserved"
+E21,E12,6,f (Finishes),False,The appeal was filed,the proceeding that consumed him crawled on
+E21,E13,0,= (Equal),False,The appeal was filed,The judge who heard the verdict
+E21,E14,-1,> (Preceded By),False,The appeal was filed,the first had been elevated
+E21,E15,-1,> (Preceded By),False,The appeal was filed,the second transferred
+E21,E16,-1,> (Preceded By),False,The appeal was filed,the third had retired during an adjournment
+E21,E17,-1,> (Preceded By),False,The appeal was filed,his entire tenure on the case fell between two hearings
+E21,E18,-1,> (Preceded By),False,The appeal was filed,he never heard a word of it
+E21,E19,0,= (Equal),False,The appeal was filed,the verdict came
+E21,E20,0,= (Equal),False,The appeal was filed,"the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E21,E22,0,= (Equal),False,The appeal was filed,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet"
+E22,E1,6,f (Finishes),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",The stenographer wrote at the speed of speech
+E22,E2,6,f (Finishes),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",the court moved at the speed of adjournment
+E22,E3,-1,> (Preceded By),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",The case had been filed
+E22,E4,6,f (Finishes),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet","would, everyone privately agreed, outlast it"
+E22,E5,6,f (Finishes),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",Hearings came months apart
+E22,E6,6,f (Finishes),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",lasted minutes
+E22,E7,-1,> (Preceded By),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",her transcript of the entire third year ran shorter than her transcript of a single morning in the trial's productive early phase
+E22,E8,-1,> (Preceded By),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",The key witness had been deposed
+E22,E9,-1,> (Preceded By),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",died during the long middle
+E22,E10,-1,> (Preceded By),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet","at the final arguments, both sides quoted her transcript of his words"
+E22,E11,6,f (Finishes),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet","the man existing now only at the speed of speech, preserved"
+E22,E12,6,f (Finishes),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",the proceeding that consumed him crawled on
+E22,E13,0,= (Equal),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",The judge who heard the verdict
+E22,E14,-1,> (Preceded By),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",the first had been elevated
+E22,E15,-1,> (Preceded By),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",the second transferred
+E22,E16,-1,> (Preceded By),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",the third had retired during an adjournment
+E22,E17,-1,> (Preceded By),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",his entire tenure on the case fell between two hearings
+E22,E18,-1,> (Preceded By),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",he never heard a word of it
+E22,E19,0,= (Equal),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",the verdict came
+E22,E20,0,= (Equal),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet","the stenographer computed, idly, that her fingers had been in motion for a total of nineteen hours across eleven years"
+E22,E21,0,= (Equal),False,"within the limitation period — thirty days, the only deadline in the whole affair that anyone had ever hurried to meet",The appeal was filed

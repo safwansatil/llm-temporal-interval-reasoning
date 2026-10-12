@@ -1,0 +1,273 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,was contained ninety three hours later
+E1,E3,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,continued to smoulder underground for three more months
+E1,E4,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,The evacuation order came at 6:45 p.m.
+E1,E5,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,One woman refused
+E1,E6,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,"She stayed in her house, wetting the roof with a garden hose"
+E1,E7,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,the fire front passed in eleven minutes
+E1,E8,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,The regrowth began the following spring
+E1,E9,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,First grasses after six weeks
+E1,E10,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,then shrubs after two years
+E1,E11,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,then saplings after a decade
+E1,E12,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,who had been evacuated as a teenager
+E1,E13,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,returned twenty years later
+E1,E14,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,had been half burned
+E1,E15,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,The living half had added two rings per year
+E1,E16,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,The daughter put her hand on the scar
+E1,E17,1,< (Precedes),False,The fire started from a lightning strike at 2:17 p.m.,She guessed correctly
+E2,E1,-1,> (Preceded By),False,was contained ninety three hours later,The fire started from a lightning strike at 2:17 p.m.
+E2,E3,2,m (Meets),False,was contained ninety three hours later,continued to smoulder underground for three more months
+E2,E4,-1,> (Preceded By),False,was contained ninety three hours later,The evacuation order came at 6:45 p.m.
+E2,E5,-1,> (Preceded By),False,was contained ninety three hours later,One woman refused
+E2,E6,-1,> (Preceded By),False,was contained ninety three hours later,"She stayed in her house, wetting the roof with a garden hose"
+E2,E7,-1,> (Preceded By),False,was contained ninety three hours later,the fire front passed in eleven minutes
+E2,E8,1,< (Precedes),False,was contained ninety three hours later,The regrowth began the following spring
+E2,E9,1,< (Precedes),False,was contained ninety three hours later,First grasses after six weeks
+E2,E10,1,< (Precedes),False,was contained ninety three hours later,then shrubs after two years
+E2,E11,1,< (Precedes),False,was contained ninety three hours later,then saplings after a decade
+E2,E12,-1,> (Preceded By),False,was contained ninety three hours later,who had been evacuated as a teenager
+E2,E13,1,< (Precedes),False,was contained ninety three hours later,returned twenty years later
+E2,E14,-1,> (Preceded By),False,was contained ninety three hours later,had been half burned
+E2,E15,1,< (Precedes),False,was contained ninety three hours later,The living half had added two rings per year
+E2,E16,1,< (Precedes),False,was contained ninety three hours later,The daughter put her hand on the scar
+E2,E17,1,< (Precedes),False,was contained ninety three hours later,She guessed correctly
+E3,E1,-1,> (Preceded By),False,continued to smoulder underground for three more months,The fire started from a lightning strike at 2:17 p.m.
+E3,E2,-2,mi (Met By),False,continued to smoulder underground for three more months,was contained ninety three hours later
+E3,E4,-1,> (Preceded By),False,continued to smoulder underground for three more months,The evacuation order came at 6:45 p.m.
+E3,E5,-1,> (Preceded By),False,continued to smoulder underground for three more months,One woman refused
+E3,E6,-1,> (Preceded By),False,continued to smoulder underground for three more months,"She stayed in her house, wetting the roof with a garden hose"
+E3,E7,-1,> (Preceded By),False,continued to smoulder underground for three more months,the fire front passed in eleven minutes
+E3,E8,1,< (Precedes),False,continued to smoulder underground for three more months,The regrowth began the following spring
+E3,E9,1,< (Precedes),False,continued to smoulder underground for three more months,First grasses after six weeks
+E3,E10,1,< (Precedes),False,continued to smoulder underground for three more months,then shrubs after two years
+E3,E11,1,< (Precedes),False,continued to smoulder underground for three more months,then saplings after a decade
+E3,E12,-1,> (Preceded By),False,continued to smoulder underground for three more months,who had been evacuated as a teenager
+E3,E13,1,< (Precedes),False,continued to smoulder underground for three more months,returned twenty years later
+E3,E14,-1,> (Preceded By),False,continued to smoulder underground for three more months,had been half burned
+E3,E15,1,< (Precedes),False,continued to smoulder underground for three more months,The living half had added two rings per year
+E3,E16,1,< (Precedes),False,continued to smoulder underground for three more months,The daughter put her hand on the scar
+E3,E17,1,< (Precedes),False,continued to smoulder underground for three more months,She guessed correctly
+E4,E1,-1,> (Preceded By),False,The evacuation order came at 6:45 p.m.,The fire started from a lightning strike at 2:17 p.m.
+E4,E2,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,was contained ninety three hours later
+E4,E3,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,continued to smoulder underground for three more months
+E4,E5,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,One woman refused
+E4,E6,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,"She stayed in her house, wetting the roof with a garden hose"
+E4,E7,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,the fire front passed in eleven minutes
+E4,E8,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,The regrowth began the following spring
+E4,E9,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,First grasses after six weeks
+E4,E10,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,then shrubs after two years
+E4,E11,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,then saplings after a decade
+E4,E12,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,who had been evacuated as a teenager
+E4,E13,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,returned twenty years later
+E4,E14,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,had been half burned
+E4,E15,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,The living half had added two rings per year
+E4,E16,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,The daughter put her hand on the scar
+E4,E17,1,< (Precedes),False,The evacuation order came at 6:45 p.m.,She guessed correctly
+E5,E1,-1,> (Preceded By),False,One woman refused,The fire started from a lightning strike at 2:17 p.m.
+E5,E2,1,< (Precedes),False,One woman refused,was contained ninety three hours later
+E5,E3,1,< (Precedes),False,One woman refused,continued to smoulder underground for three more months
+E5,E4,-1,> (Preceded By),False,One woman refused,The evacuation order came at 6:45 p.m.
+E5,E6,4,s (Starts),False,One woman refused,"She stayed in her house, wetting the roof with a garden hose"
+E5,E7,1,< (Precedes),False,One woman refused,the fire front passed in eleven minutes
+E5,E8,1,< (Precedes),False,One woman refused,The regrowth began the following spring
+E5,E9,1,< (Precedes),False,One woman refused,First grasses after six weeks
+E5,E10,1,< (Precedes),False,One woman refused,then shrubs after two years
+E5,E11,1,< (Precedes),False,One woman refused,then saplings after a decade
+E5,E12,0,= (Equal),False,One woman refused,who had been evacuated as a teenager
+E5,E13,1,< (Precedes),False,One woman refused,returned twenty years later
+E5,E14,1,< (Precedes),False,One woman refused,had been half burned
+E5,E15,1,< (Precedes),False,One woman refused,The living half had added two rings per year
+E5,E16,1,< (Precedes),False,One woman refused,The daughter put her hand on the scar
+E5,E17,1,< (Precedes),False,One woman refused,She guessed correctly
+E6,E1,-1,> (Preceded By),False,"She stayed in her house, wetting the roof with a garden hose",The fire started from a lightning strike at 2:17 p.m.
+E6,E2,1,< (Precedes),False,"She stayed in her house, wetting the roof with a garden hose",was contained ninety three hours later
+E6,E3,1,< (Precedes),False,"She stayed in her house, wetting the roof with a garden hose",continued to smoulder underground for three more months
+E6,E4,-1,> (Preceded By),False,"She stayed in her house, wetting the roof with a garden hose",The evacuation order came at 6:45 p.m.
+E6,E5,-4,si (Started By),False,"She stayed in her house, wetting the roof with a garden hose",One woman refused
+E6,E7,-6,fi (Finished By),False,"She stayed in her house, wetting the roof with a garden hose",the fire front passed in eleven minutes
+E6,E8,1,< (Precedes),False,"She stayed in her house, wetting the roof with a garden hose",The regrowth began the following spring
+E6,E9,1,< (Precedes),False,"She stayed in her house, wetting the roof with a garden hose",First grasses after six weeks
+E6,E10,1,< (Precedes),False,"She stayed in her house, wetting the roof with a garden hose",then shrubs after two years
+E6,E11,1,< (Precedes),False,"She stayed in her house, wetting the roof with a garden hose",then saplings after a decade
+E6,E12,-4,si (Started By),False,"She stayed in her house, wetting the roof with a garden hose",who had been evacuated as a teenager
+E6,E13,1,< (Precedes),False,"She stayed in her house, wetting the roof with a garden hose",returned twenty years later
+E6,E14,-6,fi (Finished By),False,"She stayed in her house, wetting the roof with a garden hose",had been half burned
+E6,E15,1,< (Precedes),False,"She stayed in her house, wetting the roof with a garden hose",The living half had added two rings per year
+E6,E16,1,< (Precedes),False,"She stayed in her house, wetting the roof with a garden hose",The daughter put her hand on the scar
+E6,E17,1,< (Precedes),False,"She stayed in her house, wetting the roof with a garden hose",She guessed correctly
+E7,E1,-1,> (Preceded By),False,the fire front passed in eleven minutes,The fire started from a lightning strike at 2:17 p.m.
+E7,E2,1,< (Precedes),False,the fire front passed in eleven minutes,was contained ninety three hours later
+E7,E3,1,< (Precedes),False,the fire front passed in eleven minutes,continued to smoulder underground for three more months
+E7,E4,-1,> (Preceded By),False,the fire front passed in eleven minutes,The evacuation order came at 6:45 p.m.
+E7,E5,-1,> (Preceded By),False,the fire front passed in eleven minutes,One woman refused
+E7,E6,6,f (Finishes),False,the fire front passed in eleven minutes,"She stayed in her house, wetting the roof with a garden hose"
+E7,E8,1,< (Precedes),False,the fire front passed in eleven minutes,The regrowth began the following spring
+E7,E9,1,< (Precedes),False,the fire front passed in eleven minutes,First grasses after six weeks
+E7,E10,1,< (Precedes),False,the fire front passed in eleven minutes,then shrubs after two years
+E7,E11,1,< (Precedes),False,the fire front passed in eleven minutes,then saplings after a decade
+E7,E12,-1,> (Preceded By),False,the fire front passed in eleven minutes,who had been evacuated as a teenager
+E7,E13,1,< (Precedes),False,the fire front passed in eleven minutes,returned twenty years later
+E7,E14,0,= (Equal),False,the fire front passed in eleven minutes,had been half burned
+E7,E15,1,< (Precedes),False,the fire front passed in eleven minutes,The living half had added two rings per year
+E7,E16,1,< (Precedes),False,the fire front passed in eleven minutes,The daughter put her hand on the scar
+E7,E17,1,< (Precedes),False,the fire front passed in eleven minutes,She guessed correctly
+E8,E1,-1,> (Preceded By),False,The regrowth began the following spring,The fire started from a lightning strike at 2:17 p.m.
+E8,E2,-1,> (Preceded By),False,The regrowth began the following spring,was contained ninety three hours later
+E8,E3,-1,> (Preceded By),False,The regrowth began the following spring,continued to smoulder underground for three more months
+E8,E4,-1,> (Preceded By),False,The regrowth began the following spring,The evacuation order came at 6:45 p.m.
+E8,E5,-1,> (Preceded By),False,The regrowth began the following spring,One woman refused
+E8,E6,-1,> (Preceded By),False,The regrowth began the following spring,"She stayed in her house, wetting the roof with a garden hose"
+E8,E7,-1,> (Preceded By),False,The regrowth began the following spring,the fire front passed in eleven minutes
+E8,E9,1,< (Precedes),False,The regrowth began the following spring,First grasses after six weeks
+E8,E10,1,< (Precedes),False,The regrowth began the following spring,then shrubs after two years
+E8,E11,1,< (Precedes),False,The regrowth began the following spring,then saplings after a decade
+E8,E12,-1,> (Preceded By),False,The regrowth began the following spring,who had been evacuated as a teenager
+E8,E13,1,< (Precedes),False,The regrowth began the following spring,returned twenty years later
+E8,E14,-1,> (Preceded By),False,The regrowth began the following spring,had been half burned
+E8,E15,4,s (Starts),False,The regrowth began the following spring,The living half had added two rings per year
+E8,E16,1,< (Precedes),False,The regrowth began the following spring,The daughter put her hand on the scar
+E8,E17,1,< (Precedes),False,The regrowth began the following spring,She guessed correctly
+E9,E1,-1,> (Preceded By),False,First grasses after six weeks,The fire started from a lightning strike at 2:17 p.m.
+E9,E2,-1,> (Preceded By),False,First grasses after six weeks,was contained ninety three hours later
+E9,E3,-1,> (Preceded By),False,First grasses after six weeks,continued to smoulder underground for three more months
+E9,E4,-1,> (Preceded By),False,First grasses after six weeks,The evacuation order came at 6:45 p.m.
+E9,E5,-1,> (Preceded By),False,First grasses after six weeks,One woman refused
+E9,E6,-1,> (Preceded By),False,First grasses after six weeks,"She stayed in her house, wetting the roof with a garden hose"
+E9,E7,-1,> (Preceded By),False,First grasses after six weeks,the fire front passed in eleven minutes
+E9,E8,-1,> (Preceded By),False,First grasses after six weeks,The regrowth began the following spring
+E9,E10,1,< (Precedes),False,First grasses after six weeks,then shrubs after two years
+E9,E11,1,< (Precedes),False,First grasses after six weeks,then saplings after a decade
+E9,E12,-1,> (Preceded By),False,First grasses after six weeks,who had been evacuated as a teenager
+E9,E13,1,< (Precedes),False,First grasses after six weeks,returned twenty years later
+E9,E14,-1,> (Preceded By),False,First grasses after six weeks,had been half burned
+E9,E15,5,d (During),False,First grasses after six weeks,The living half had added two rings per year
+E9,E16,1,< (Precedes),False,First grasses after six weeks,The daughter put her hand on the scar
+E9,E17,1,< (Precedes),False,First grasses after six weeks,She guessed correctly
+E10,E1,-1,> (Preceded By),False,then shrubs after two years,The fire started from a lightning strike at 2:17 p.m.
+E10,E2,-1,> (Preceded By),False,then shrubs after two years,was contained ninety three hours later
+E10,E3,-1,> (Preceded By),False,then shrubs after two years,continued to smoulder underground for three more months
+E10,E4,-1,> (Preceded By),False,then shrubs after two years,The evacuation order came at 6:45 p.m.
+E10,E5,-1,> (Preceded By),False,then shrubs after two years,One woman refused
+E10,E6,-1,> (Preceded By),False,then shrubs after two years,"She stayed in her house, wetting the roof with a garden hose"
+E10,E7,-1,> (Preceded By),False,then shrubs after two years,the fire front passed in eleven minutes
+E10,E8,-1,> (Preceded By),False,then shrubs after two years,The regrowth began the following spring
+E10,E9,-1,> (Preceded By),False,then shrubs after two years,First grasses after six weeks
+E10,E11,1,< (Precedes),False,then shrubs after two years,then saplings after a decade
+E10,E12,-1,> (Preceded By),False,then shrubs after two years,who had been evacuated as a teenager
+E10,E13,1,< (Precedes),False,then shrubs after two years,returned twenty years later
+E10,E14,-1,> (Preceded By),False,then shrubs after two years,had been half burned
+E10,E15,5,d (During),False,then shrubs after two years,The living half had added two rings per year
+E10,E16,1,< (Precedes),False,then shrubs after two years,The daughter put her hand on the scar
+E10,E17,1,< (Precedes),False,then shrubs after two years,She guessed correctly
+E11,E1,-1,> (Preceded By),False,then saplings after a decade,The fire started from a lightning strike at 2:17 p.m.
+E11,E2,-1,> (Preceded By),False,then saplings after a decade,was contained ninety three hours later
+E11,E3,-1,> (Preceded By),False,then saplings after a decade,continued to smoulder underground for three more months
+E11,E4,-1,> (Preceded By),False,then saplings after a decade,The evacuation order came at 6:45 p.m.
+E11,E5,-1,> (Preceded By),False,then saplings after a decade,One woman refused
+E11,E6,-1,> (Preceded By),False,then saplings after a decade,"She stayed in her house, wetting the roof with a garden hose"
+E11,E7,-1,> (Preceded By),False,then saplings after a decade,the fire front passed in eleven minutes
+E11,E8,-1,> (Preceded By),False,then saplings after a decade,The regrowth began the following spring
+E11,E9,-1,> (Preceded By),False,then saplings after a decade,First grasses after six weeks
+E11,E10,-1,> (Preceded By),False,then saplings after a decade,then shrubs after two years
+E11,E12,-1,> (Preceded By),False,then saplings after a decade,who had been evacuated as a teenager
+E11,E13,1,< (Precedes),False,then saplings after a decade,returned twenty years later
+E11,E14,-1,> (Preceded By),False,then saplings after a decade,had been half burned
+E11,E15,5,d (During),False,then saplings after a decade,The living half had added two rings per year
+E11,E16,1,< (Precedes),False,then saplings after a decade,The daughter put her hand on the scar
+E11,E17,1,< (Precedes),False,then saplings after a decade,She guessed correctly
+E12,E1,-1,> (Preceded By),False,who had been evacuated as a teenager,The fire started from a lightning strike at 2:17 p.m.
+E12,E2,1,< (Precedes),False,who had been evacuated as a teenager,was contained ninety three hours later
+E12,E3,1,< (Precedes),False,who had been evacuated as a teenager,continued to smoulder underground for three more months
+E12,E4,-1,> (Preceded By),False,who had been evacuated as a teenager,The evacuation order came at 6:45 p.m.
+E12,E5,0,= (Equal),False,who had been evacuated as a teenager,One woman refused
+E12,E6,4,s (Starts),False,who had been evacuated as a teenager,"She stayed in her house, wetting the roof with a garden hose"
+E12,E7,1,< (Precedes),False,who had been evacuated as a teenager,the fire front passed in eleven minutes
+E12,E8,1,< (Precedes),False,who had been evacuated as a teenager,The regrowth began the following spring
+E12,E9,1,< (Precedes),False,who had been evacuated as a teenager,First grasses after six weeks
+E12,E10,1,< (Precedes),False,who had been evacuated as a teenager,then shrubs after two years
+E12,E11,1,< (Precedes),False,who had been evacuated as a teenager,then saplings after a decade
+E12,E13,1,< (Precedes),False,who had been evacuated as a teenager,returned twenty years later
+E12,E14,1,< (Precedes),False,who had been evacuated as a teenager,had been half burned
+E12,E15,1,< (Precedes),False,who had been evacuated as a teenager,The living half had added two rings per year
+E12,E16,1,< (Precedes),False,who had been evacuated as a teenager,The daughter put her hand on the scar
+E12,E17,1,< (Precedes),False,who had been evacuated as a teenager,She guessed correctly
+E13,E1,-1,> (Preceded By),False,returned twenty years later,The fire started from a lightning strike at 2:17 p.m.
+E13,E2,-1,> (Preceded By),False,returned twenty years later,was contained ninety three hours later
+E13,E3,-1,> (Preceded By),False,returned twenty years later,continued to smoulder underground for three more months
+E13,E4,-1,> (Preceded By),False,returned twenty years later,The evacuation order came at 6:45 p.m.
+E13,E5,-1,> (Preceded By),False,returned twenty years later,One woman refused
+E13,E6,-1,> (Preceded By),False,returned twenty years later,"She stayed in her house, wetting the roof with a garden hose"
+E13,E7,-1,> (Preceded By),False,returned twenty years later,the fire front passed in eleven minutes
+E13,E8,-1,> (Preceded By),False,returned twenty years later,The regrowth began the following spring
+E13,E9,-1,> (Preceded By),False,returned twenty years later,First grasses after six weeks
+E13,E10,-1,> (Preceded By),False,returned twenty years later,then shrubs after two years
+E13,E11,-1,> (Preceded By),False,returned twenty years later,then saplings after a decade
+E13,E12,-1,> (Preceded By),False,returned twenty years later,who had been evacuated as a teenager
+E13,E14,-1,> (Preceded By),False,returned twenty years later,had been half burned
+E13,E15,-2,mi (Met By),False,returned twenty years later,The living half had added two rings per year
+E13,E16,1,< (Precedes),False,returned twenty years later,The daughter put her hand on the scar
+E13,E17,1,< (Precedes),False,returned twenty years later,She guessed correctly
+E14,E1,-1,> (Preceded By),False,had been half burned,The fire started from a lightning strike at 2:17 p.m.
+E14,E2,1,< (Precedes),False,had been half burned,was contained ninety three hours later
+E14,E3,1,< (Precedes),False,had been half burned,continued to smoulder underground for three more months
+E14,E4,-1,> (Preceded By),False,had been half burned,The evacuation order came at 6:45 p.m.
+E14,E5,-1,> (Preceded By),False,had been half burned,One woman refused
+E14,E6,6,f (Finishes),False,had been half burned,"She stayed in her house, wetting the roof with a garden hose"
+E14,E7,0,= (Equal),False,had been half burned,the fire front passed in eleven minutes
+E14,E8,1,< (Precedes),False,had been half burned,The regrowth began the following spring
+E14,E9,1,< (Precedes),False,had been half burned,First grasses after six weeks
+E14,E10,1,< (Precedes),False,had been half burned,then shrubs after two years
+E14,E11,1,< (Precedes),False,had been half burned,then saplings after a decade
+E14,E12,-1,> (Preceded By),False,had been half burned,who had been evacuated as a teenager
+E14,E13,1,< (Precedes),False,had been half burned,returned twenty years later
+E14,E15,1,< (Precedes),False,had been half burned,The living half had added two rings per year
+E14,E16,1,< (Precedes),False,had been half burned,The daughter put her hand on the scar
+E14,E17,1,< (Precedes),False,had been half burned,She guessed correctly
+E15,E1,-1,> (Preceded By),False,The living half had added two rings per year,The fire started from a lightning strike at 2:17 p.m.
+E15,E2,-1,> (Preceded By),False,The living half had added two rings per year,was contained ninety three hours later
+E15,E3,-1,> (Preceded By),False,The living half had added two rings per year,continued to smoulder underground for three more months
+E15,E4,-1,> (Preceded By),False,The living half had added two rings per year,The evacuation order came at 6:45 p.m.
+E15,E5,-1,> (Preceded By),False,The living half had added two rings per year,One woman refused
+E15,E6,-1,> (Preceded By),False,The living half had added two rings per year,"She stayed in her house, wetting the roof with a garden hose"
+E15,E7,-1,> (Preceded By),False,The living half had added two rings per year,the fire front passed in eleven minutes
+E15,E8,-4,si (Started By),False,The living half had added two rings per year,The regrowth began the following spring
+E15,E9,-5,di (Contains),False,The living half had added two rings per year,First grasses after six weeks
+E15,E10,-5,di (Contains),False,The living half had added two rings per year,then shrubs after two years
+E15,E11,-5,di (Contains),False,The living half had added two rings per year,then saplings after a decade
+E15,E12,-1,> (Preceded By),False,The living half had added two rings per year,who had been evacuated as a teenager
+E15,E13,2,m (Meets),False,The living half had added two rings per year,returned twenty years later
+E15,E14,-1,> (Preceded By),False,The living half had added two rings per year,had been half burned
+E15,E16,1,< (Precedes),False,The living half had added two rings per year,The daughter put her hand on the scar
+E15,E17,1,< (Precedes),False,The living half had added two rings per year,She guessed correctly
+E16,E1,-1,> (Preceded By),False,The daughter put her hand on the scar,The fire started from a lightning strike at 2:17 p.m.
+E16,E2,-1,> (Preceded By),False,The daughter put her hand on the scar,was contained ninety three hours later
+E16,E3,-1,> (Preceded By),False,The daughter put her hand on the scar,continued to smoulder underground for three more months
+E16,E4,-1,> (Preceded By),False,The daughter put her hand on the scar,The evacuation order came at 6:45 p.m.
+E16,E5,-1,> (Preceded By),False,The daughter put her hand on the scar,One woman refused
+E16,E6,-1,> (Preceded By),False,The daughter put her hand on the scar,"She stayed in her house, wetting the roof with a garden hose"
+E16,E7,-1,> (Preceded By),False,The daughter put her hand on the scar,the fire front passed in eleven minutes
+E16,E8,-1,> (Preceded By),False,The daughter put her hand on the scar,The regrowth began the following spring
+E16,E9,-1,> (Preceded By),False,The daughter put her hand on the scar,First grasses after six weeks
+E16,E10,-1,> (Preceded By),False,The daughter put her hand on the scar,then shrubs after two years
+E16,E11,-1,> (Preceded By),False,The daughter put her hand on the scar,then saplings after a decade
+E16,E12,-1,> (Preceded By),False,The daughter put her hand on the scar,who had been evacuated as a teenager
+E16,E13,-1,> (Preceded By),False,The daughter put her hand on the scar,returned twenty years later
+E16,E14,-1,> (Preceded By),False,The daughter put her hand on the scar,had been half burned
+E16,E15,-1,> (Preceded By),False,The daughter put her hand on the scar,The living half had added two rings per year
+E16,E17,1,< (Precedes),False,The daughter put her hand on the scar,She guessed correctly
+E17,E1,-1,> (Preceded By),False,She guessed correctly,The fire started from a lightning strike at 2:17 p.m.
+E17,E2,-1,> (Preceded By),False,She guessed correctly,was contained ninety three hours later
+E17,E3,-1,> (Preceded By),False,She guessed correctly,continued to smoulder underground for three more months
+E17,E4,-1,> (Preceded By),False,She guessed correctly,The evacuation order came at 6:45 p.m.
+E17,E5,-1,> (Preceded By),False,She guessed correctly,One woman refused
+E17,E6,-1,> (Preceded By),False,She guessed correctly,"She stayed in her house, wetting the roof with a garden hose"
+E17,E7,-1,> (Preceded By),False,She guessed correctly,the fire front passed in eleven minutes
+E17,E8,-1,> (Preceded By),False,She guessed correctly,The regrowth began the following spring
+E17,E9,-1,> (Preceded By),False,She guessed correctly,First grasses after six weeks
+E17,E10,-1,> (Preceded By),False,She guessed correctly,then shrubs after two years
+E17,E11,-1,> (Preceded By),False,She guessed correctly,then saplings after a decade
+E17,E12,-1,> (Preceded By),False,She guessed correctly,who had been evacuated as a teenager
+E17,E13,-1,> (Preceded By),False,She guessed correctly,returned twenty years later
+E17,E14,-1,> (Preceded By),False,She guessed correctly,had been half burned
+E17,E15,-1,> (Preceded By),False,She guessed correctly,The living half had added two rings per year
+E17,E16,-1,> (Preceded By),False,She guessed correctly,The daughter put her hand on the scar

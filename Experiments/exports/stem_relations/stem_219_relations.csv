@@ -1,0 +1,381 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,rain came on the third afternoon,soaking the half baled windrows
+E1,E3,2,m (Meets),False,rain came on the third afternoon,The farmer waited two more days
+E1,E4,1,< (Precedes),False,rain came on the third afternoon,then restarted
+E1,E5,1,< (Precedes),False,rain came on the third afternoon,losing the first cut
+E1,E6,5,d (During),False,rain came on the third afternoon,The total harvest took nine days
+E1,E7,-1,> (Preceded By),False,rain came on the third afternoon,His father had done the same field with a scythe
+E1,E8,1,< (Precedes),False,rain came on the third afternoon,The farmer's baler broke on the fifth day
+E1,E9,1,< (Precedes),False,rain came on the third afternoon,The repair took four hours
+E1,E10,1,< (Precedes),False,rain came on the third afternoon,he walked the field and found a stone
+E1,E11,5,d (During),False,rain came on the third afternoon,had been there since his childhood
+E1,E12,1,< (Precedes),False,rain came on the third afternoon,He picked it up
+E1,E13,1,< (Precedes),False,rain came on the third afternoon,finished the baling by dusk
+E1,E14,1,< (Precedes),False,rain came on the third afternoon,The barn filled
+E1,E15,1,< (Precedes),False,rain came on the third afternoon,"returned the following week, lasting five days"
+E1,E16,1,< (Precedes),False,rain came on the third afternoon,The stone stayed in his pocket until winter
+E1,E17,1,< (Precedes),False,rain came on the third afternoon,he gave it to his son
+E1,E18,1,< (Precedes),False,rain came on the third afternoon,dropped it into a snowbank
+E1,E19,1,< (Precedes),False,rain came on the third afternoon,They found it in the spring melt
+E1,E20,1,< (Precedes),False,rain came on the third afternoon,the first cut of the new season
+E2,E1,0,= (Equal),False,soaking the half baled windrows,rain came on the third afternoon
+E2,E3,2,m (Meets),False,soaking the half baled windrows,The farmer waited two more days
+E2,E4,1,< (Precedes),False,soaking the half baled windrows,then restarted
+E2,E5,1,< (Precedes),False,soaking the half baled windrows,losing the first cut
+E2,E6,5,d (During),False,soaking the half baled windrows,The total harvest took nine days
+E2,E7,-1,> (Preceded By),False,soaking the half baled windrows,His father had done the same field with a scythe
+E2,E8,1,< (Precedes),False,soaking the half baled windrows,The farmer's baler broke on the fifth day
+E2,E9,1,< (Precedes),False,soaking the half baled windrows,The repair took four hours
+E2,E10,1,< (Precedes),False,soaking the half baled windrows,he walked the field and found a stone
+E2,E11,5,d (During),False,soaking the half baled windrows,had been there since his childhood
+E2,E12,1,< (Precedes),False,soaking the half baled windrows,He picked it up
+E2,E13,1,< (Precedes),False,soaking the half baled windrows,finished the baling by dusk
+E2,E14,1,< (Precedes),False,soaking the half baled windrows,The barn filled
+E2,E15,1,< (Precedes),False,soaking the half baled windrows,"returned the following week, lasting five days"
+E2,E16,1,< (Precedes),False,soaking the half baled windrows,The stone stayed in his pocket until winter
+E2,E17,1,< (Precedes),False,soaking the half baled windrows,he gave it to his son
+E2,E18,1,< (Precedes),False,soaking the half baled windrows,dropped it into a snowbank
+E2,E19,1,< (Precedes),False,soaking the half baled windrows,They found it in the spring melt
+E2,E20,1,< (Precedes),False,soaking the half baled windrows,the first cut of the new season
+E3,E1,-2,mi (Met By),False,The farmer waited two more days,rain came on the third afternoon
+E3,E2,-2,mi (Met By),False,The farmer waited two more days,soaking the half baled windrows
+E3,E4,2,m (Meets),False,The farmer waited two more days,then restarted
+E3,E5,-5,di (Contains),False,The farmer waited two more days,losing the first cut
+E3,E6,5,d (During),False,The farmer waited two more days,The total harvest took nine days
+E3,E7,-1,> (Preceded By),False,The farmer waited two more days,His father had done the same field with a scythe
+E3,E8,1,< (Precedes),False,The farmer waited two more days,The farmer's baler broke on the fifth day
+E3,E9,1,< (Precedes),False,The farmer waited two more days,The repair took four hours
+E3,E10,1,< (Precedes),False,The farmer waited two more days,he walked the field and found a stone
+E3,E11,5,d (During),False,The farmer waited two more days,had been there since his childhood
+E3,E12,1,< (Precedes),False,The farmer waited two more days,He picked it up
+E3,E13,1,< (Precedes),False,The farmer waited two more days,finished the baling by dusk
+E3,E14,1,< (Precedes),False,The farmer waited two more days,The barn filled
+E3,E15,1,< (Precedes),False,The farmer waited two more days,"returned the following week, lasting five days"
+E3,E16,1,< (Precedes),False,The farmer waited two more days,The stone stayed in his pocket until winter
+E3,E17,1,< (Precedes),False,The farmer waited two more days,he gave it to his son
+E3,E18,1,< (Precedes),False,The farmer waited two more days,dropped it into a snowbank
+E3,E19,1,< (Precedes),False,The farmer waited two more days,They found it in the spring melt
+E3,E20,1,< (Precedes),False,The farmer waited two more days,the first cut of the new season
+E4,E1,-1,> (Preceded By),False,then restarted,rain came on the third afternoon
+E4,E2,-1,> (Preceded By),False,then restarted,soaking the half baled windrows
+E4,E3,-2,mi (Met By),False,then restarted,The farmer waited two more days
+E4,E5,-1,> (Preceded By),False,then restarted,losing the first cut
+E4,E6,5,d (During),False,then restarted,The total harvest took nine days
+E4,E7,-1,> (Preceded By),False,then restarted,His father had done the same field with a scythe
+E4,E8,2,m (Meets),False,then restarted,The farmer's baler broke on the fifth day
+E4,E9,1,< (Precedes),False,then restarted,The repair took four hours
+E4,E10,1,< (Precedes),False,then restarted,he walked the field and found a stone
+E4,E11,5,d (During),False,then restarted,had been there since his childhood
+E4,E12,1,< (Precedes),False,then restarted,He picked it up
+E4,E13,1,< (Precedes),False,then restarted,finished the baling by dusk
+E4,E14,1,< (Precedes),False,then restarted,The barn filled
+E4,E15,1,< (Precedes),False,then restarted,"returned the following week, lasting five days"
+E4,E16,1,< (Precedes),False,then restarted,The stone stayed in his pocket until winter
+E4,E17,1,< (Precedes),False,then restarted,he gave it to his son
+E4,E18,1,< (Precedes),False,then restarted,dropped it into a snowbank
+E4,E19,1,< (Precedes),False,then restarted,They found it in the spring melt
+E4,E20,1,< (Precedes),False,then restarted,the first cut of the new season
+E5,E1,-1,> (Preceded By),False,losing the first cut,rain came on the third afternoon
+E5,E2,-1,> (Preceded By),False,losing the first cut,soaking the half baled windrows
+E5,E3,5,d (During),False,losing the first cut,The farmer waited two more days
+E5,E4,1,< (Precedes),False,losing the first cut,then restarted
+E5,E6,5,d (During),False,losing the first cut,The total harvest took nine days
+E5,E7,-1,> (Preceded By),False,losing the first cut,His father had done the same field with a scythe
+E5,E8,1,< (Precedes),False,losing the first cut,The farmer's baler broke on the fifth day
+E5,E9,1,< (Precedes),False,losing the first cut,The repair took four hours
+E5,E10,1,< (Precedes),False,losing the first cut,he walked the field and found a stone
+E5,E11,5,d (During),False,losing the first cut,had been there since his childhood
+E5,E12,1,< (Precedes),False,losing the first cut,He picked it up
+E5,E13,1,< (Precedes),False,losing the first cut,finished the baling by dusk
+E5,E14,1,< (Precedes),False,losing the first cut,The barn filled
+E5,E15,1,< (Precedes),False,losing the first cut,"returned the following week, lasting five days"
+E5,E16,1,< (Precedes),False,losing the first cut,The stone stayed in his pocket until winter
+E5,E17,1,< (Precedes),False,losing the first cut,he gave it to his son
+E5,E18,1,< (Precedes),False,losing the first cut,dropped it into a snowbank
+E5,E19,1,< (Precedes),False,losing the first cut,They found it in the spring melt
+E5,E20,1,< (Precedes),False,losing the first cut,the first cut of the new season
+E6,E1,-5,di (Contains),False,The total harvest took nine days,rain came on the third afternoon
+E6,E2,-5,di (Contains),False,The total harvest took nine days,soaking the half baled windrows
+E6,E3,-5,di (Contains),False,The total harvest took nine days,The farmer waited two more days
+E6,E4,-5,di (Contains),False,The total harvest took nine days,then restarted
+E6,E5,-5,di (Contains),False,The total harvest took nine days,losing the first cut
+E6,E7,-1,> (Preceded By),False,The total harvest took nine days,His father had done the same field with a scythe
+E6,E8,-5,di (Contains),False,The total harvest took nine days,The farmer's baler broke on the fifth day
+E6,E9,-5,di (Contains),False,The total harvest took nine days,The repair took four hours
+E6,E10,-5,di (Contains),False,The total harvest took nine days,he walked the field and found a stone
+E6,E11,-3,oi (Overlapped By),False,The total harvest took nine days,had been there since his childhood
+E6,E12,-5,di (Contains),False,The total harvest took nine days,He picked it up
+E6,E13,-5,di (Contains),False,The total harvest took nine days,finished the baling by dusk
+E6,E14,-6,fi (Finished By),False,The total harvest took nine days,The barn filled
+E6,E15,1,< (Precedes),False,The total harvest took nine days,"returned the following week, lasting five days"
+E6,E16,3,o (Overlaps),False,The total harvest took nine days,The stone stayed in his pocket until winter
+E6,E17,1,< (Precedes),False,The total harvest took nine days,he gave it to his son
+E6,E18,1,< (Precedes),False,The total harvest took nine days,dropped it into a snowbank
+E6,E19,1,< (Precedes),False,The total harvest took nine days,They found it in the spring melt
+E6,E20,1,< (Precedes),False,The total harvest took nine days,the first cut of the new season
+E7,E1,1,< (Precedes),False,His father had done the same field with a scythe,rain came on the third afternoon
+E7,E2,1,< (Precedes),False,His father had done the same field with a scythe,soaking the half baled windrows
+E7,E3,1,< (Precedes),False,His father had done the same field with a scythe,The farmer waited two more days
+E7,E4,1,< (Precedes),False,His father had done the same field with a scythe,then restarted
+E7,E5,1,< (Precedes),False,His father had done the same field with a scythe,losing the first cut
+E7,E6,1,< (Precedes),False,His father had done the same field with a scythe,The total harvest took nine days
+E7,E8,1,< (Precedes),False,His father had done the same field with a scythe,The farmer's baler broke on the fifth day
+E7,E9,1,< (Precedes),False,His father had done the same field with a scythe,The repair took four hours
+E7,E10,1,< (Precedes),False,His father had done the same field with a scythe,he walked the field and found a stone
+E7,E11,1,< (Precedes),False,His father had done the same field with a scythe,had been there since his childhood
+E7,E12,1,< (Precedes),False,His father had done the same field with a scythe,He picked it up
+E7,E13,1,< (Precedes),False,His father had done the same field with a scythe,finished the baling by dusk
+E7,E14,1,< (Precedes),False,His father had done the same field with a scythe,The barn filled
+E7,E15,1,< (Precedes),False,His father had done the same field with a scythe,"returned the following week, lasting five days"
+E7,E16,1,< (Precedes),False,His father had done the same field with a scythe,The stone stayed in his pocket until winter
+E7,E17,1,< (Precedes),False,His father had done the same field with a scythe,he gave it to his son
+E7,E18,1,< (Precedes),False,His father had done the same field with a scythe,dropped it into a snowbank
+E7,E19,1,< (Precedes),False,His father had done the same field with a scythe,They found it in the spring melt
+E7,E20,1,< (Precedes),False,His father had done the same field with a scythe,the first cut of the new season
+E8,E1,-1,> (Preceded By),False,The farmer's baler broke on the fifth day,rain came on the third afternoon
+E8,E2,-1,> (Preceded By),False,The farmer's baler broke on the fifth day,soaking the half baled windrows
+E8,E3,-1,> (Preceded By),False,The farmer's baler broke on the fifth day,The farmer waited two more days
+E8,E4,-2,mi (Met By),False,The farmer's baler broke on the fifth day,then restarted
+E8,E5,-1,> (Preceded By),False,The farmer's baler broke on the fifth day,losing the first cut
+E8,E6,5,d (During),False,The farmer's baler broke on the fifth day,The total harvest took nine days
+E8,E7,-1,> (Preceded By),False,The farmer's baler broke on the fifth day,His father had done the same field with a scythe
+E8,E9,2,m (Meets),False,The farmer's baler broke on the fifth day,The repair took four hours
+E8,E10,2,m (Meets),False,The farmer's baler broke on the fifth day,he walked the field and found a stone
+E8,E11,5,d (During),False,The farmer's baler broke on the fifth day,had been there since his childhood
+E8,E12,1,< (Precedes),False,The farmer's baler broke on the fifth day,He picked it up
+E8,E13,1,< (Precedes),False,The farmer's baler broke on the fifth day,finished the baling by dusk
+E8,E14,1,< (Precedes),False,The farmer's baler broke on the fifth day,The barn filled
+E8,E15,1,< (Precedes),False,The farmer's baler broke on the fifth day,"returned the following week, lasting five days"
+E8,E16,1,< (Precedes),False,The farmer's baler broke on the fifth day,The stone stayed in his pocket until winter
+E8,E17,1,< (Precedes),False,The farmer's baler broke on the fifth day,he gave it to his son
+E8,E18,1,< (Precedes),False,The farmer's baler broke on the fifth day,dropped it into a snowbank
+E8,E19,1,< (Precedes),False,The farmer's baler broke on the fifth day,They found it in the spring melt
+E8,E20,1,< (Precedes),False,The farmer's baler broke on the fifth day,the first cut of the new season
+E9,E1,-1,> (Preceded By),False,The repair took four hours,rain came on the third afternoon
+E9,E2,-1,> (Preceded By),False,The repair took four hours,soaking the half baled windrows
+E9,E3,-1,> (Preceded By),False,The repair took four hours,The farmer waited two more days
+E9,E4,-1,> (Preceded By),False,The repair took four hours,then restarted
+E9,E5,-1,> (Preceded By),False,The repair took four hours,losing the first cut
+E9,E6,5,d (During),False,The repair took four hours,The total harvest took nine days
+E9,E7,-1,> (Preceded By),False,The repair took four hours,His father had done the same field with a scythe
+E9,E8,-2,mi (Met By),False,The repair took four hours,The farmer's baler broke on the fifth day
+E9,E10,0,= (Equal),False,The repair took four hours,he walked the field and found a stone
+E9,E11,6,f (Finishes),False,The repair took four hours,had been there since his childhood
+E9,E12,1,< (Precedes),False,The repair took four hours,He picked it up
+E9,E13,1,< (Precedes),False,The repair took four hours,finished the baling by dusk
+E9,E14,1,< (Precedes),False,The repair took four hours,The barn filled
+E9,E15,1,< (Precedes),False,The repair took four hours,"returned the following week, lasting five days"
+E9,E16,1,< (Precedes),False,The repair took four hours,The stone stayed in his pocket until winter
+E9,E17,1,< (Precedes),False,The repair took four hours,he gave it to his son
+E9,E18,1,< (Precedes),False,The repair took four hours,dropped it into a snowbank
+E9,E19,1,< (Precedes),False,The repair took four hours,They found it in the spring melt
+E9,E20,1,< (Precedes),False,The repair took four hours,the first cut of the new season
+E10,E1,-1,> (Preceded By),False,he walked the field and found a stone,rain came on the third afternoon
+E10,E2,-1,> (Preceded By),False,he walked the field and found a stone,soaking the half baled windrows
+E10,E3,-1,> (Preceded By),False,he walked the field and found a stone,The farmer waited two more days
+E10,E4,-1,> (Preceded By),False,he walked the field and found a stone,then restarted
+E10,E5,-1,> (Preceded By),False,he walked the field and found a stone,losing the first cut
+E10,E6,5,d (During),False,he walked the field and found a stone,The total harvest took nine days
+E10,E7,-1,> (Preceded By),False,he walked the field and found a stone,His father had done the same field with a scythe
+E10,E8,-2,mi (Met By),False,he walked the field and found a stone,The farmer's baler broke on the fifth day
+E10,E9,0,= (Equal),False,he walked the field and found a stone,The repair took four hours
+E10,E11,6,f (Finishes),False,he walked the field and found a stone,had been there since his childhood
+E10,E12,1,< (Precedes),False,he walked the field and found a stone,He picked it up
+E10,E13,1,< (Precedes),False,he walked the field and found a stone,finished the baling by dusk
+E10,E14,1,< (Precedes),False,he walked the field and found a stone,The barn filled
+E10,E15,1,< (Precedes),False,he walked the field and found a stone,"returned the following week, lasting five days"
+E10,E16,1,< (Precedes),False,he walked the field and found a stone,The stone stayed in his pocket until winter
+E10,E17,1,< (Precedes),False,he walked the field and found a stone,he gave it to his son
+E10,E18,1,< (Precedes),False,he walked the field and found a stone,dropped it into a snowbank
+E10,E19,1,< (Precedes),False,he walked the field and found a stone,They found it in the spring melt
+E10,E20,1,< (Precedes),False,he walked the field and found a stone,the first cut of the new season
+E11,E1,-5,di (Contains),False,had been there since his childhood,rain came on the third afternoon
+E11,E2,-5,di (Contains),False,had been there since his childhood,soaking the half baled windrows
+E11,E3,-5,di (Contains),False,had been there since his childhood,The farmer waited two more days
+E11,E4,-5,di (Contains),False,had been there since his childhood,then restarted
+E11,E5,-5,di (Contains),False,had been there since his childhood,losing the first cut
+E11,E6,3,o (Overlaps),False,had been there since his childhood,The total harvest took nine days
+E11,E7,-1,> (Preceded By),False,had been there since his childhood,His father had done the same field with a scythe
+E11,E8,-5,di (Contains),False,had been there since his childhood,The farmer's baler broke on the fifth day
+E11,E9,-6,fi (Finished By),False,had been there since his childhood,The repair took four hours
+E11,E10,-6,fi (Finished By),False,had been there since his childhood,he walked the field and found a stone
+E11,E12,1,< (Precedes),False,had been there since his childhood,He picked it up
+E11,E13,1,< (Precedes),False,had been there since his childhood,finished the baling by dusk
+E11,E14,1,< (Precedes),False,had been there since his childhood,The barn filled
+E11,E15,1,< (Precedes),False,had been there since his childhood,"returned the following week, lasting five days"
+E11,E16,1,< (Precedes),False,had been there since his childhood,The stone stayed in his pocket until winter
+E11,E17,1,< (Precedes),False,had been there since his childhood,he gave it to his son
+E11,E18,1,< (Precedes),False,had been there since his childhood,dropped it into a snowbank
+E11,E19,1,< (Precedes),False,had been there since his childhood,They found it in the spring melt
+E11,E20,1,< (Precedes),False,had been there since his childhood,the first cut of the new season
+E12,E1,-1,> (Preceded By),False,He picked it up,rain came on the third afternoon
+E12,E2,-1,> (Preceded By),False,He picked it up,soaking the half baled windrows
+E12,E3,-1,> (Preceded By),False,He picked it up,The farmer waited two more days
+E12,E4,-1,> (Preceded By),False,He picked it up,then restarted
+E12,E5,-1,> (Preceded By),False,He picked it up,losing the first cut
+E12,E6,5,d (During),False,He picked it up,The total harvest took nine days
+E12,E7,-1,> (Preceded By),False,He picked it up,His father had done the same field with a scythe
+E12,E8,-1,> (Preceded By),False,He picked it up,The farmer's baler broke on the fifth day
+E12,E9,-1,> (Preceded By),False,He picked it up,The repair took four hours
+E12,E10,-1,> (Preceded By),False,He picked it up,he walked the field and found a stone
+E12,E11,-1,> (Preceded By),False,He picked it up,had been there since his childhood
+E12,E13,1,< (Precedes),False,He picked it up,finished the baling by dusk
+E12,E14,1,< (Precedes),False,He picked it up,The barn filled
+E12,E15,1,< (Precedes),False,He picked it up,"returned the following week, lasting five days"
+E12,E16,4,s (Starts),False,He picked it up,The stone stayed in his pocket until winter
+E12,E17,1,< (Precedes),False,He picked it up,he gave it to his son
+E12,E18,1,< (Precedes),False,He picked it up,dropped it into a snowbank
+E12,E19,1,< (Precedes),False,He picked it up,They found it in the spring melt
+E12,E20,1,< (Precedes),False,He picked it up,the first cut of the new season
+E13,E1,-1,> (Preceded By),False,finished the baling by dusk,rain came on the third afternoon
+E13,E2,-1,> (Preceded By),False,finished the baling by dusk,soaking the half baled windrows
+E13,E3,-1,> (Preceded By),False,finished the baling by dusk,The farmer waited two more days
+E13,E4,-1,> (Preceded By),False,finished the baling by dusk,then restarted
+E13,E5,-1,> (Preceded By),False,finished the baling by dusk,losing the first cut
+E13,E6,5,d (During),False,finished the baling by dusk,The total harvest took nine days
+E13,E7,-1,> (Preceded By),False,finished the baling by dusk,His father had done the same field with a scythe
+E13,E8,-1,> (Preceded By),False,finished the baling by dusk,The farmer's baler broke on the fifth day
+E13,E9,-1,> (Preceded By),False,finished the baling by dusk,The repair took four hours
+E13,E10,-1,> (Preceded By),False,finished the baling by dusk,he walked the field and found a stone
+E13,E11,-1,> (Preceded By),False,finished the baling by dusk,had been there since his childhood
+E13,E12,-1,> (Preceded By),False,finished the baling by dusk,He picked it up
+E13,E14,1,< (Precedes),False,finished the baling by dusk,The barn filled
+E13,E15,1,< (Precedes),False,finished the baling by dusk,"returned the following week, lasting five days"
+E13,E16,5,d (During),False,finished the baling by dusk,The stone stayed in his pocket until winter
+E13,E17,1,< (Precedes),False,finished the baling by dusk,he gave it to his son
+E13,E18,1,< (Precedes),False,finished the baling by dusk,dropped it into a snowbank
+E13,E19,1,< (Precedes),False,finished the baling by dusk,They found it in the spring melt
+E13,E20,1,< (Precedes),False,finished the baling by dusk,the first cut of the new season
+E14,E1,-1,> (Preceded By),False,The barn filled,rain came on the third afternoon
+E14,E2,-1,> (Preceded By),False,The barn filled,soaking the half baled windrows
+E14,E3,-1,> (Preceded By),False,The barn filled,The farmer waited two more days
+E14,E4,-1,> (Preceded By),False,The barn filled,then restarted
+E14,E5,-1,> (Preceded By),False,The barn filled,losing the first cut
+E14,E6,6,f (Finishes),False,The barn filled,The total harvest took nine days
+E14,E7,-1,> (Preceded By),False,The barn filled,His father had done the same field with a scythe
+E14,E8,-1,> (Preceded By),False,The barn filled,The farmer's baler broke on the fifth day
+E14,E9,-1,> (Preceded By),False,The barn filled,The repair took four hours
+E14,E10,-1,> (Preceded By),False,The barn filled,he walked the field and found a stone
+E14,E11,-1,> (Preceded By),False,The barn filled,had been there since his childhood
+E14,E12,-1,> (Preceded By),False,The barn filled,He picked it up
+E14,E13,-1,> (Preceded By),False,The barn filled,finished the baling by dusk
+E14,E15,1,< (Precedes),False,The barn filled,"returned the following week, lasting five days"
+E14,E16,5,d (During),False,The barn filled,The stone stayed in his pocket until winter
+E14,E17,1,< (Precedes),False,The barn filled,he gave it to his son
+E14,E18,1,< (Precedes),False,The barn filled,dropped it into a snowbank
+E14,E19,1,< (Precedes),False,The barn filled,They found it in the spring melt
+E14,E20,1,< (Precedes),False,The barn filled,the first cut of the new season
+E15,E1,-1,> (Preceded By),False,"returned the following week, lasting five days",rain came on the third afternoon
+E15,E2,-1,> (Preceded By),False,"returned the following week, lasting five days",soaking the half baled windrows
+E15,E3,-1,> (Preceded By),False,"returned the following week, lasting five days",The farmer waited two more days
+E15,E4,-1,> (Preceded By),False,"returned the following week, lasting five days",then restarted
+E15,E5,-1,> (Preceded By),False,"returned the following week, lasting five days",losing the first cut
+E15,E6,-1,> (Preceded By),False,"returned the following week, lasting five days",The total harvest took nine days
+E15,E7,-1,> (Preceded By),False,"returned the following week, lasting five days",His father had done the same field with a scythe
+E15,E8,-1,> (Preceded By),False,"returned the following week, lasting five days",The farmer's baler broke on the fifth day
+E15,E9,-1,> (Preceded By),False,"returned the following week, lasting five days",The repair took four hours
+E15,E10,-1,> (Preceded By),False,"returned the following week, lasting five days",he walked the field and found a stone
+E15,E11,-1,> (Preceded By),False,"returned the following week, lasting five days",had been there since his childhood
+E15,E12,-1,> (Preceded By),False,"returned the following week, lasting five days",He picked it up
+E15,E13,-1,> (Preceded By),False,"returned the following week, lasting five days",finished the baling by dusk
+E15,E14,-1,> (Preceded By),False,"returned the following week, lasting five days",The barn filled
+E15,E16,5,d (During),False,"returned the following week, lasting five days",The stone stayed in his pocket until winter
+E15,E17,1,< (Precedes),False,"returned the following week, lasting five days",he gave it to his son
+E15,E18,1,< (Precedes),False,"returned the following week, lasting five days",dropped it into a snowbank
+E15,E19,1,< (Precedes),False,"returned the following week, lasting five days",They found it in the spring melt
+E15,E20,1,< (Precedes),False,"returned the following week, lasting five days",the first cut of the new season
+E16,E1,-1,> (Preceded By),False,The stone stayed in his pocket until winter,rain came on the third afternoon
+E16,E2,-1,> (Preceded By),False,The stone stayed in his pocket until winter,soaking the half baled windrows
+E16,E3,-1,> (Preceded By),False,The stone stayed in his pocket until winter,The farmer waited two more days
+E16,E4,-1,> (Preceded By),False,The stone stayed in his pocket until winter,then restarted
+E16,E5,-1,> (Preceded By),False,The stone stayed in his pocket until winter,losing the first cut
+E16,E6,-3,oi (Overlapped By),False,The stone stayed in his pocket until winter,The total harvest took nine days
+E16,E7,-1,> (Preceded By),False,The stone stayed in his pocket until winter,His father had done the same field with a scythe
+E16,E8,-1,> (Preceded By),False,The stone stayed in his pocket until winter,The farmer's baler broke on the fifth day
+E16,E9,-1,> (Preceded By),False,The stone stayed in his pocket until winter,The repair took four hours
+E16,E10,-1,> (Preceded By),False,The stone stayed in his pocket until winter,he walked the field and found a stone
+E16,E11,-1,> (Preceded By),False,The stone stayed in his pocket until winter,had been there since his childhood
+E16,E12,-4,si (Started By),False,The stone stayed in his pocket until winter,He picked it up
+E16,E13,-5,di (Contains),False,The stone stayed in his pocket until winter,finished the baling by dusk
+E16,E14,-5,di (Contains),False,The stone stayed in his pocket until winter,The barn filled
+E16,E15,-5,di (Contains),False,The stone stayed in his pocket until winter,"returned the following week, lasting five days"
+E16,E17,2,m (Meets),False,The stone stayed in his pocket until winter,he gave it to his son
+E16,E18,1,< (Precedes),False,The stone stayed in his pocket until winter,dropped it into a snowbank
+E16,E19,1,< (Precedes),False,The stone stayed in his pocket until winter,They found it in the spring melt
+E16,E20,1,< (Precedes),False,The stone stayed in his pocket until winter,the first cut of the new season
+E17,E1,-1,> (Preceded By),False,he gave it to his son,rain came on the third afternoon
+E17,E2,-1,> (Preceded By),False,he gave it to his son,soaking the half baled windrows
+E17,E3,-1,> (Preceded By),False,he gave it to his son,The farmer waited two more days
+E17,E4,-1,> (Preceded By),False,he gave it to his son,then restarted
+E17,E5,-1,> (Preceded By),False,he gave it to his son,losing the first cut
+E17,E6,-1,> (Preceded By),False,he gave it to his son,The total harvest took nine days
+E17,E7,-1,> (Preceded By),False,he gave it to his son,His father had done the same field with a scythe
+E17,E8,-1,> (Preceded By),False,he gave it to his son,The farmer's baler broke on the fifth day
+E17,E9,-1,> (Preceded By),False,he gave it to his son,The repair took four hours
+E17,E10,-1,> (Preceded By),False,he gave it to his son,he walked the field and found a stone
+E17,E11,-1,> (Preceded By),False,he gave it to his son,had been there since his childhood
+E17,E12,-1,> (Preceded By),False,he gave it to his son,He picked it up
+E17,E13,-1,> (Preceded By),False,he gave it to his son,finished the baling by dusk
+E17,E14,-1,> (Preceded By),False,he gave it to his son,The barn filled
+E17,E15,-1,> (Preceded By),False,he gave it to his son,"returned the following week, lasting five days"
+E17,E16,-2,mi (Met By),False,he gave it to his son,The stone stayed in his pocket until winter
+E17,E18,1,< (Precedes),False,he gave it to his son,dropped it into a snowbank
+E17,E19,1,< (Precedes),False,he gave it to his son,They found it in the spring melt
+E17,E20,1,< (Precedes),False,he gave it to his son,the first cut of the new season
+E18,E1,-1,> (Preceded By),False,dropped it into a snowbank,rain came on the third afternoon
+E18,E2,-1,> (Preceded By),False,dropped it into a snowbank,soaking the half baled windrows
+E18,E3,-1,> (Preceded By),False,dropped it into a snowbank,The farmer waited two more days
+E18,E4,-1,> (Preceded By),False,dropped it into a snowbank,then restarted
+E18,E5,-1,> (Preceded By),False,dropped it into a snowbank,losing the first cut
+E18,E6,-1,> (Preceded By),False,dropped it into a snowbank,The total harvest took nine days
+E18,E7,-1,> (Preceded By),False,dropped it into a snowbank,His father had done the same field with a scythe
+E18,E8,-1,> (Preceded By),False,dropped it into a snowbank,The farmer's baler broke on the fifth day
+E18,E9,-1,> (Preceded By),False,dropped it into a snowbank,The repair took four hours
+E18,E10,-1,> (Preceded By),False,dropped it into a snowbank,he walked the field and found a stone
+E18,E11,-1,> (Preceded By),False,dropped it into a snowbank,had been there since his childhood
+E18,E12,-1,> (Preceded By),False,dropped it into a snowbank,He picked it up
+E18,E13,-1,> (Preceded By),False,dropped it into a snowbank,finished the baling by dusk
+E18,E14,-1,> (Preceded By),False,dropped it into a snowbank,The barn filled
+E18,E15,-1,> (Preceded By),False,dropped it into a snowbank,"returned the following week, lasting five days"
+E18,E16,-1,> (Preceded By),False,dropped it into a snowbank,The stone stayed in his pocket until winter
+E18,E17,-1,> (Preceded By),False,dropped it into a snowbank,he gave it to his son
+E18,E19,1,< (Precedes),False,dropped it into a snowbank,They found it in the spring melt
+E18,E20,1,< (Precedes),False,dropped it into a snowbank,the first cut of the new season
+E19,E1,-1,> (Preceded By),False,They found it in the spring melt,rain came on the third afternoon
+E19,E2,-1,> (Preceded By),False,They found it in the spring melt,soaking the half baled windrows
+E19,E3,-1,> (Preceded By),False,They found it in the spring melt,The farmer waited two more days
+E19,E4,-1,> (Preceded By),False,They found it in the spring melt,then restarted
+E19,E5,-1,> (Preceded By),False,They found it in the spring melt,losing the first cut
+E19,E6,-1,> (Preceded By),False,They found it in the spring melt,The total harvest took nine days
+E19,E7,-1,> (Preceded By),False,They found it in the spring melt,His father had done the same field with a scythe
+E19,E8,-1,> (Preceded By),False,They found it in the spring melt,The farmer's baler broke on the fifth day
+E19,E9,-1,> (Preceded By),False,They found it in the spring melt,The repair took four hours
+E19,E10,-1,> (Preceded By),False,They found it in the spring melt,he walked the field and found a stone
+E19,E11,-1,> (Preceded By),False,They found it in the spring melt,had been there since his childhood
+E19,E12,-1,> (Preceded By),False,They found it in the spring melt,He picked it up
+E19,E13,-1,> (Preceded By),False,They found it in the spring melt,finished the baling by dusk
+E19,E14,-1,> (Preceded By),False,They found it in the spring melt,The barn filled
+E19,E15,-1,> (Preceded By),False,They found it in the spring melt,"returned the following week, lasting five days"
+E19,E16,-1,> (Preceded By),False,They found it in the spring melt,The stone stayed in his pocket until winter
+E19,E17,-1,> (Preceded By),False,They found it in the spring melt,he gave it to his son
+E19,E18,-1,> (Preceded By),False,They found it in the spring melt,dropped it into a snowbank
+E19,E20,1,< (Precedes),False,They found it in the spring melt,the first cut of the new season
+E20,E1,-1,> (Preceded By),False,the first cut of the new season,rain came on the third afternoon
+E20,E2,-1,> (Preceded By),False,the first cut of the new season,soaking the half baled windrows
+E20,E3,-1,> (Preceded By),False,the first cut of the new season,The farmer waited two more days
+E20,E4,-1,> (Preceded By),False,the first cut of the new season,then restarted
+E20,E5,-1,> (Preceded By),False,the first cut of the new season,losing the first cut
+E20,E6,-1,> (Preceded By),False,the first cut of the new season,The total harvest took nine days
+E20,E7,-1,> (Preceded By),False,the first cut of the new season,His father had done the same field with a scythe
+E20,E8,-1,> (Preceded By),False,the first cut of the new season,The farmer's baler broke on the fifth day
+E20,E9,-1,> (Preceded By),False,the first cut of the new season,The repair took four hours
+E20,E10,-1,> (Preceded By),False,the first cut of the new season,he walked the field and found a stone
+E20,E11,-1,> (Preceded By),False,the first cut of the new season,had been there since his childhood
+E20,E12,-1,> (Preceded By),False,the first cut of the new season,He picked it up
+E20,E13,-1,> (Preceded By),False,the first cut of the new season,finished the baling by dusk
+E20,E14,-1,> (Preceded By),False,the first cut of the new season,The barn filled
+E20,E15,-1,> (Preceded By),False,the first cut of the new season,"returned the following week, lasting five days"
+E20,E16,-1,> (Preceded By),False,the first cut of the new season,The stone stayed in his pocket until winter
+E20,E17,-1,> (Preceded By),False,the first cut of the new season,he gave it to his son
+E20,E18,-1,> (Preceded By),False,the first cut of the new season,dropped it into a snowbank
+E20,E19,-1,> (Preceded By),False,the first cut of the new season,They found it in the spring melt

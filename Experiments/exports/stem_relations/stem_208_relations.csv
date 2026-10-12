@@ -1,0 +1,553 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,0,= (Equal),False,The fracture happened in the last minute of a school football match,"A fall, a crack, a whistle"
+E1,E3,2,m (Meets),False,The fracture happened in the last minute of a school football match,The ambulance took nineteen minutes to arrive
+E1,E4,1,< (Precedes),False,The fracture happened in the last minute of a school football match,the boy's mother was called
+E1,E5,1,< (Precedes),False,The fracture happened in the last minute of a school football match,a two minute call
+E1,E6,1,< (Precedes),False,The fracture happened in the last minute of a school football match,Her drive to the school took fourteen minutes
+E1,E7,1,< (Precedes),False,The fracture happened in the last minute of a school football match,She arrived three minutes before the ambulance
+E1,E8,1,< (Precedes),False,The fracture happened in the last minute of a school football match,The hospital wait was three hours
+E1,E9,1,< (Precedes),False,The fracture happened in the last minute of a school football match,The x ray took ninety seconds
+E1,E10,1,< (Precedes),False,The fracture happened in the last minute of a school football match,The cast application took twelve minutes
+E1,E11,1,< (Precedes),False,The fracture happened in the last minute of a school football match,The healing took six weeks
+E1,E12,1,< (Precedes),False,The fracture happened in the last minute of a school football match,with a check up at three weeks
+E1,E13,1,< (Precedes),False,The fracture happened in the last minute of a school football match,that showed the bone had already knitted
+E1,E14,1,< (Precedes),False,The fracture happened in the last minute of a school football match,the arm had been stronger than the cast for the second half of the recovery
+E1,E15,1,< (Precedes),False,The fracture happened in the last minute of a school football match,The boy missed four football matches
+E1,E16,1,< (Precedes),False,The fracture happened in the last minute of a school football match,He returned for the fifth
+E1,E17,1,< (Precedes),False,The fracture happened in the last minute of a school football match,scored twice
+E1,E18,1,< (Precedes),False,The fracture happened in the last minute of a school football match,broke the same arm again in the final minute of that match
+E1,E19,1,< (Precedes),False,The fracture happened in the last minute of a school football match,"The second break occurred exactly seven weeks after the first, to the hour"
+E1,E20,1,< (Precedes),False,The fracture happened in the last minute of a school football match,The surgeon reviewing the x rays noted that the second break was in a different place
+E1,E21,1,< (Precedes),False,The fracture happened in the last minute of a school football match,The bone had healed so well that the new fracture was unrelated
+E1,E22,1,< (Precedes),False,The fracture happened in the last minute of a school football match,The boy's mother said that was not the point
+E1,E23,1,< (Precedes),False,The fracture happened in the last minute of a school football match,The point was the phone call
+E1,E24,1,< (Precedes),False,The fracture happened in the last minute of a school football match,The call came at 4:47 both times
+E2,E1,0,= (Equal),False,"A fall, a crack, a whistle",The fracture happened in the last minute of a school football match
+E2,E3,2,m (Meets),False,"A fall, a crack, a whistle",The ambulance took nineteen minutes to arrive
+E2,E4,1,< (Precedes),False,"A fall, a crack, a whistle",the boy's mother was called
+E2,E5,1,< (Precedes),False,"A fall, a crack, a whistle",a two minute call
+E2,E6,1,< (Precedes),False,"A fall, a crack, a whistle",Her drive to the school took fourteen minutes
+E2,E7,1,< (Precedes),False,"A fall, a crack, a whistle",She arrived three minutes before the ambulance
+E2,E8,1,< (Precedes),False,"A fall, a crack, a whistle",The hospital wait was three hours
+E2,E9,1,< (Precedes),False,"A fall, a crack, a whistle",The x ray took ninety seconds
+E2,E10,1,< (Precedes),False,"A fall, a crack, a whistle",The cast application took twelve minutes
+E2,E11,1,< (Precedes),False,"A fall, a crack, a whistle",The healing took six weeks
+E2,E12,1,< (Precedes),False,"A fall, a crack, a whistle",with a check up at three weeks
+E2,E13,1,< (Precedes),False,"A fall, a crack, a whistle",that showed the bone had already knitted
+E2,E14,1,< (Precedes),False,"A fall, a crack, a whistle",the arm had been stronger than the cast for the second half of the recovery
+E2,E15,1,< (Precedes),False,"A fall, a crack, a whistle",The boy missed four football matches
+E2,E16,1,< (Precedes),False,"A fall, a crack, a whistle",He returned for the fifth
+E2,E17,1,< (Precedes),False,"A fall, a crack, a whistle",scored twice
+E2,E18,1,< (Precedes),False,"A fall, a crack, a whistle",broke the same arm again in the final minute of that match
+E2,E19,1,< (Precedes),False,"A fall, a crack, a whistle","The second break occurred exactly seven weeks after the first, to the hour"
+E2,E20,1,< (Precedes),False,"A fall, a crack, a whistle",The surgeon reviewing the x rays noted that the second break was in a different place
+E2,E21,1,< (Precedes),False,"A fall, a crack, a whistle",The bone had healed so well that the new fracture was unrelated
+E2,E22,1,< (Precedes),False,"A fall, a crack, a whistle",The boy's mother said that was not the point
+E2,E23,1,< (Precedes),False,"A fall, a crack, a whistle",The point was the phone call
+E2,E24,1,< (Precedes),False,"A fall, a crack, a whistle",The call came at 4:47 both times
+E3,E1,-2,mi (Met By),False,The ambulance took nineteen minutes to arrive,The fracture happened in the last minute of a school football match
+E3,E2,-2,mi (Met By),False,The ambulance took nineteen minutes to arrive,"A fall, a crack, a whistle"
+E3,E4,-5,di (Contains),False,The ambulance took nineteen minutes to arrive,the boy's mother was called
+E3,E5,-5,di (Contains),False,The ambulance took nineteen minutes to arrive,a two minute call
+E3,E6,3,o (Overlaps),False,The ambulance took nineteen minutes to arrive,Her drive to the school took fourteen minutes
+E3,E7,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,She arrived three minutes before the ambulance
+E3,E8,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,The hospital wait was three hours
+E3,E9,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,The x ray took ninety seconds
+E3,E10,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,The cast application took twelve minutes
+E3,E11,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,The healing took six weeks
+E3,E12,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,with a check up at three weeks
+E3,E13,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,that showed the bone had already knitted
+E3,E14,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,the arm had been stronger than the cast for the second half of the recovery
+E3,E15,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,The boy missed four football matches
+E3,E16,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,He returned for the fifth
+E3,E17,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,scored twice
+E3,E18,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,broke the same arm again in the final minute of that match
+E3,E19,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,"The second break occurred exactly seven weeks after the first, to the hour"
+E3,E20,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,The surgeon reviewing the x rays noted that the second break was in a different place
+E3,E21,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,The bone had healed so well that the new fracture was unrelated
+E3,E22,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,The boy's mother said that was not the point
+E3,E23,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,The point was the phone call
+E3,E24,1,< (Precedes),False,The ambulance took nineteen minutes to arrive,The call came at 4:47 both times
+E4,E1,-1,> (Preceded By),False,the boy's mother was called,The fracture happened in the last minute of a school football match
+E4,E2,-1,> (Preceded By),False,the boy's mother was called,"A fall, a crack, a whistle"
+E4,E3,5,d (During),False,the boy's mother was called,The ambulance took nineteen minutes to arrive
+E4,E5,2,m (Meets),False,the boy's mother was called,a two minute call
+E4,E6,1,< (Precedes),False,the boy's mother was called,Her drive to the school took fourteen minutes
+E4,E7,1,< (Precedes),False,the boy's mother was called,She arrived three minutes before the ambulance
+E4,E8,1,< (Precedes),False,the boy's mother was called,The hospital wait was three hours
+E4,E9,1,< (Precedes),False,the boy's mother was called,The x ray took ninety seconds
+E4,E10,1,< (Precedes),False,the boy's mother was called,The cast application took twelve minutes
+E4,E11,1,< (Precedes),False,the boy's mother was called,The healing took six weeks
+E4,E12,1,< (Precedes),False,the boy's mother was called,with a check up at three weeks
+E4,E13,1,< (Precedes),False,the boy's mother was called,that showed the bone had already knitted
+E4,E14,1,< (Precedes),False,the boy's mother was called,the arm had been stronger than the cast for the second half of the recovery
+E4,E15,1,< (Precedes),False,the boy's mother was called,The boy missed four football matches
+E4,E16,1,< (Precedes),False,the boy's mother was called,He returned for the fifth
+E4,E17,1,< (Precedes),False,the boy's mother was called,scored twice
+E4,E18,1,< (Precedes),False,the boy's mother was called,broke the same arm again in the final minute of that match
+E4,E19,1,< (Precedes),False,the boy's mother was called,"The second break occurred exactly seven weeks after the first, to the hour"
+E4,E20,1,< (Precedes),False,the boy's mother was called,The surgeon reviewing the x rays noted that the second break was in a different place
+E4,E21,1,< (Precedes),False,the boy's mother was called,The bone had healed so well that the new fracture was unrelated
+E4,E22,1,< (Precedes),False,the boy's mother was called,The boy's mother said that was not the point
+E4,E23,1,< (Precedes),False,the boy's mother was called,The point was the phone call
+E4,E24,1,< (Precedes),False,the boy's mother was called,The call came at 4:47 both times
+E5,E1,-1,> (Preceded By),False,a two minute call,The fracture happened in the last minute of a school football match
+E5,E2,-1,> (Preceded By),False,a two minute call,"A fall, a crack, a whistle"
+E5,E3,5,d (During),False,a two minute call,The ambulance took nineteen minutes to arrive
+E5,E4,-2,mi (Met By),False,a two minute call,the boy's mother was called
+E5,E6,2,m (Meets),False,a two minute call,Her drive to the school took fourteen minutes
+E5,E7,1,< (Precedes),False,a two minute call,She arrived three minutes before the ambulance
+E5,E8,1,< (Precedes),False,a two minute call,The hospital wait was three hours
+E5,E9,1,< (Precedes),False,a two minute call,The x ray took ninety seconds
+E5,E10,1,< (Precedes),False,a two minute call,The cast application took twelve minutes
+E5,E11,1,< (Precedes),False,a two minute call,The healing took six weeks
+E5,E12,1,< (Precedes),False,a two minute call,with a check up at three weeks
+E5,E13,1,< (Precedes),False,a two minute call,that showed the bone had already knitted
+E5,E14,1,< (Precedes),False,a two minute call,the arm had been stronger than the cast for the second half of the recovery
+E5,E15,1,< (Precedes),False,a two minute call,The boy missed four football matches
+E5,E16,1,< (Precedes),False,a two minute call,He returned for the fifth
+E5,E17,1,< (Precedes),False,a two minute call,scored twice
+E5,E18,1,< (Precedes),False,a two minute call,broke the same arm again in the final minute of that match
+E5,E19,1,< (Precedes),False,a two minute call,"The second break occurred exactly seven weeks after the first, to the hour"
+E5,E20,1,< (Precedes),False,a two minute call,The surgeon reviewing the x rays noted that the second break was in a different place
+E5,E21,1,< (Precedes),False,a two minute call,The bone had healed so well that the new fracture was unrelated
+E5,E22,1,< (Precedes),False,a two minute call,The boy's mother said that was not the point
+E5,E23,1,< (Precedes),False,a two minute call,The point was the phone call
+E5,E24,1,< (Precedes),False,a two minute call,The call came at 4:47 both times
+E6,E1,-1,> (Preceded By),False,Her drive to the school took fourteen minutes,The fracture happened in the last minute of a school football match
+E6,E2,-1,> (Preceded By),False,Her drive to the school took fourteen minutes,"A fall, a crack, a whistle"
+E6,E3,-3,oi (Overlapped By),False,Her drive to the school took fourteen minutes,The ambulance took nineteen minutes to arrive
+E6,E4,-1,> (Preceded By),False,Her drive to the school took fourteen minutes,the boy's mother was called
+E6,E5,-2,mi (Met By),False,Her drive to the school took fourteen minutes,a two minute call
+E6,E7,2,m (Meets),False,Her drive to the school took fourteen minutes,She arrived three minutes before the ambulance
+E6,E8,1,< (Precedes),False,Her drive to the school took fourteen minutes,The hospital wait was three hours
+E6,E9,1,< (Precedes),False,Her drive to the school took fourteen minutes,The x ray took ninety seconds
+E6,E10,1,< (Precedes),False,Her drive to the school took fourteen minutes,The cast application took twelve minutes
+E6,E11,1,< (Precedes),False,Her drive to the school took fourteen minutes,The healing took six weeks
+E6,E12,1,< (Precedes),False,Her drive to the school took fourteen minutes,with a check up at three weeks
+E6,E13,1,< (Precedes),False,Her drive to the school took fourteen minutes,that showed the bone had already knitted
+E6,E14,1,< (Precedes),False,Her drive to the school took fourteen minutes,the arm had been stronger than the cast for the second half of the recovery
+E6,E15,1,< (Precedes),False,Her drive to the school took fourteen minutes,The boy missed four football matches
+E6,E16,1,< (Precedes),False,Her drive to the school took fourteen minutes,He returned for the fifth
+E6,E17,1,< (Precedes),False,Her drive to the school took fourteen minutes,scored twice
+E6,E18,1,< (Precedes),False,Her drive to the school took fourteen minutes,broke the same arm again in the final minute of that match
+E6,E19,1,< (Precedes),False,Her drive to the school took fourteen minutes,"The second break occurred exactly seven weeks after the first, to the hour"
+E6,E20,1,< (Precedes),False,Her drive to the school took fourteen minutes,The surgeon reviewing the x rays noted that the second break was in a different place
+E6,E21,1,< (Precedes),False,Her drive to the school took fourteen minutes,The bone had healed so well that the new fracture was unrelated
+E6,E22,1,< (Precedes),False,Her drive to the school took fourteen minutes,The boy's mother said that was not the point
+E6,E23,1,< (Precedes),False,Her drive to the school took fourteen minutes,The point was the phone call
+E6,E24,1,< (Precedes),False,Her drive to the school took fourteen minutes,The call came at 4:47 both times
+E7,E1,-1,> (Preceded By),False,She arrived three minutes before the ambulance,The fracture happened in the last minute of a school football match
+E7,E2,-1,> (Preceded By),False,She arrived three minutes before the ambulance,"A fall, a crack, a whistle"
+E7,E3,-1,> (Preceded By),False,She arrived three minutes before the ambulance,The ambulance took nineteen minutes to arrive
+E7,E4,-1,> (Preceded By),False,She arrived three minutes before the ambulance,the boy's mother was called
+E7,E5,-1,> (Preceded By),False,She arrived three minutes before the ambulance,a two minute call
+E7,E6,-2,mi (Met By),False,She arrived three minutes before the ambulance,Her drive to the school took fourteen minutes
+E7,E8,1,< (Precedes),False,She arrived three minutes before the ambulance,The hospital wait was three hours
+E7,E9,1,< (Precedes),False,She arrived three minutes before the ambulance,The x ray took ninety seconds
+E7,E10,1,< (Precedes),False,She arrived three minutes before the ambulance,The cast application took twelve minutes
+E7,E11,1,< (Precedes),False,She arrived three minutes before the ambulance,The healing took six weeks
+E7,E12,1,< (Precedes),False,She arrived three minutes before the ambulance,with a check up at three weeks
+E7,E13,1,< (Precedes),False,She arrived three minutes before the ambulance,that showed the bone had already knitted
+E7,E14,1,< (Precedes),False,She arrived three minutes before the ambulance,the arm had been stronger than the cast for the second half of the recovery
+E7,E15,1,< (Precedes),False,She arrived three minutes before the ambulance,The boy missed four football matches
+E7,E16,1,< (Precedes),False,She arrived three minutes before the ambulance,He returned for the fifth
+E7,E17,1,< (Precedes),False,She arrived three minutes before the ambulance,scored twice
+E7,E18,1,< (Precedes),False,She arrived three minutes before the ambulance,broke the same arm again in the final minute of that match
+E7,E19,1,< (Precedes),False,She arrived three minutes before the ambulance,"The second break occurred exactly seven weeks after the first, to the hour"
+E7,E20,1,< (Precedes),False,She arrived three minutes before the ambulance,The surgeon reviewing the x rays noted that the second break was in a different place
+E7,E21,1,< (Precedes),False,She arrived three minutes before the ambulance,The bone had healed so well that the new fracture was unrelated
+E7,E22,1,< (Precedes),False,She arrived three minutes before the ambulance,The boy's mother said that was not the point
+E7,E23,1,< (Precedes),False,She arrived three minutes before the ambulance,The point was the phone call
+E7,E24,1,< (Precedes),False,She arrived three minutes before the ambulance,The call came at 4:47 both times
+E8,E1,-1,> (Preceded By),False,The hospital wait was three hours,The fracture happened in the last minute of a school football match
+E8,E2,-1,> (Preceded By),False,The hospital wait was three hours,"A fall, a crack, a whistle"
+E8,E3,-1,> (Preceded By),False,The hospital wait was three hours,The ambulance took nineteen minutes to arrive
+E8,E4,-1,> (Preceded By),False,The hospital wait was three hours,the boy's mother was called
+E8,E5,-1,> (Preceded By),False,The hospital wait was three hours,a two minute call
+E8,E6,-1,> (Preceded By),False,The hospital wait was three hours,Her drive to the school took fourteen minutes
+E8,E7,-1,> (Preceded By),False,The hospital wait was three hours,She arrived three minutes before the ambulance
+E8,E9,2,m (Meets),False,The hospital wait was three hours,The x ray took ninety seconds
+E8,E10,1,< (Precedes),False,The hospital wait was three hours,The cast application took twelve minutes
+E8,E11,1,< (Precedes),False,The hospital wait was three hours,The healing took six weeks
+E8,E12,1,< (Precedes),False,The hospital wait was three hours,with a check up at three weeks
+E8,E13,1,< (Precedes),False,The hospital wait was three hours,that showed the bone had already knitted
+E8,E14,1,< (Precedes),False,The hospital wait was three hours,the arm had been stronger than the cast for the second half of the recovery
+E8,E15,1,< (Precedes),False,The hospital wait was three hours,The boy missed four football matches
+E8,E16,1,< (Precedes),False,The hospital wait was three hours,He returned for the fifth
+E8,E17,1,< (Precedes),False,The hospital wait was three hours,scored twice
+E8,E18,1,< (Precedes),False,The hospital wait was three hours,broke the same arm again in the final minute of that match
+E8,E19,1,< (Precedes),False,The hospital wait was three hours,"The second break occurred exactly seven weeks after the first, to the hour"
+E8,E20,1,< (Precedes),False,The hospital wait was three hours,The surgeon reviewing the x rays noted that the second break was in a different place
+E8,E21,1,< (Precedes),False,The hospital wait was three hours,The bone had healed so well that the new fracture was unrelated
+E8,E22,1,< (Precedes),False,The hospital wait was three hours,The boy's mother said that was not the point
+E8,E23,1,< (Precedes),False,The hospital wait was three hours,The point was the phone call
+E8,E24,1,< (Precedes),False,The hospital wait was three hours,The call came at 4:47 both times
+E9,E1,-1,> (Preceded By),False,The x ray took ninety seconds,The fracture happened in the last minute of a school football match
+E9,E2,-1,> (Preceded By),False,The x ray took ninety seconds,"A fall, a crack, a whistle"
+E9,E3,-1,> (Preceded By),False,The x ray took ninety seconds,The ambulance took nineteen minutes to arrive
+E9,E4,-1,> (Preceded By),False,The x ray took ninety seconds,the boy's mother was called
+E9,E5,-1,> (Preceded By),False,The x ray took ninety seconds,a two minute call
+E9,E6,-1,> (Preceded By),False,The x ray took ninety seconds,Her drive to the school took fourteen minutes
+E9,E7,-1,> (Preceded By),False,The x ray took ninety seconds,She arrived three minutes before the ambulance
+E9,E8,-2,mi (Met By),False,The x ray took ninety seconds,The hospital wait was three hours
+E9,E10,2,m (Meets),False,The x ray took ninety seconds,The cast application took twelve minutes
+E9,E11,1,< (Precedes),False,The x ray took ninety seconds,The healing took six weeks
+E9,E12,1,< (Precedes),False,The x ray took ninety seconds,with a check up at three weeks
+E9,E13,1,< (Precedes),False,The x ray took ninety seconds,that showed the bone had already knitted
+E9,E14,1,< (Precedes),False,The x ray took ninety seconds,the arm had been stronger than the cast for the second half of the recovery
+E9,E15,1,< (Precedes),False,The x ray took ninety seconds,The boy missed four football matches
+E9,E16,1,< (Precedes),False,The x ray took ninety seconds,He returned for the fifth
+E9,E17,1,< (Precedes),False,The x ray took ninety seconds,scored twice
+E9,E18,1,< (Precedes),False,The x ray took ninety seconds,broke the same arm again in the final minute of that match
+E9,E19,1,< (Precedes),False,The x ray took ninety seconds,"The second break occurred exactly seven weeks after the first, to the hour"
+E9,E20,1,< (Precedes),False,The x ray took ninety seconds,The surgeon reviewing the x rays noted that the second break was in a different place
+E9,E21,1,< (Precedes),False,The x ray took ninety seconds,The bone had healed so well that the new fracture was unrelated
+E9,E22,1,< (Precedes),False,The x ray took ninety seconds,The boy's mother said that was not the point
+E9,E23,1,< (Precedes),False,The x ray took ninety seconds,The point was the phone call
+E9,E24,1,< (Precedes),False,The x ray took ninety seconds,The call came at 4:47 both times
+E10,E1,-1,> (Preceded By),False,The cast application took twelve minutes,The fracture happened in the last minute of a school football match
+E10,E2,-1,> (Preceded By),False,The cast application took twelve minutes,"A fall, a crack, a whistle"
+E10,E3,-1,> (Preceded By),False,The cast application took twelve minutes,The ambulance took nineteen minutes to arrive
+E10,E4,-1,> (Preceded By),False,The cast application took twelve minutes,the boy's mother was called
+E10,E5,-1,> (Preceded By),False,The cast application took twelve minutes,a two minute call
+E10,E6,-1,> (Preceded By),False,The cast application took twelve minutes,Her drive to the school took fourteen minutes
+E10,E7,-1,> (Preceded By),False,The cast application took twelve minutes,She arrived three minutes before the ambulance
+E10,E8,-1,> (Preceded By),False,The cast application took twelve minutes,The hospital wait was three hours
+E10,E9,-2,mi (Met By),False,The cast application took twelve minutes,The x ray took ninety seconds
+E10,E11,2,m (Meets),False,The cast application took twelve minutes,The healing took six weeks
+E10,E12,1,< (Precedes),False,The cast application took twelve minutes,with a check up at three weeks
+E10,E13,1,< (Precedes),False,The cast application took twelve minutes,that showed the bone had already knitted
+E10,E14,1,< (Precedes),False,The cast application took twelve minutes,the arm had been stronger than the cast for the second half of the recovery
+E10,E15,2,m (Meets),False,The cast application took twelve minutes,The boy missed four football matches
+E10,E16,1,< (Precedes),False,The cast application took twelve minutes,He returned for the fifth
+E10,E17,1,< (Precedes),False,The cast application took twelve minutes,scored twice
+E10,E18,1,< (Precedes),False,The cast application took twelve minutes,broke the same arm again in the final minute of that match
+E10,E19,1,< (Precedes),False,The cast application took twelve minutes,"The second break occurred exactly seven weeks after the first, to the hour"
+E10,E20,1,< (Precedes),False,The cast application took twelve minutes,The surgeon reviewing the x rays noted that the second break was in a different place
+E10,E21,1,< (Precedes),False,The cast application took twelve minutes,The bone had healed so well that the new fracture was unrelated
+E10,E22,1,< (Precedes),False,The cast application took twelve minutes,The boy's mother said that was not the point
+E10,E23,1,< (Precedes),False,The cast application took twelve minutes,The point was the phone call
+E10,E24,1,< (Precedes),False,The cast application took twelve minutes,The call came at 4:47 both times
+E11,E1,-1,> (Preceded By),False,The healing took six weeks,The fracture happened in the last minute of a school football match
+E11,E2,-1,> (Preceded By),False,The healing took six weeks,"A fall, a crack, a whistle"
+E11,E3,-1,> (Preceded By),False,The healing took six weeks,The ambulance took nineteen minutes to arrive
+E11,E4,-1,> (Preceded By),False,The healing took six weeks,the boy's mother was called
+E11,E5,-1,> (Preceded By),False,The healing took six weeks,a two minute call
+E11,E6,-1,> (Preceded By),False,The healing took six weeks,Her drive to the school took fourteen minutes
+E11,E7,-1,> (Preceded By),False,The healing took six weeks,She arrived three minutes before the ambulance
+E11,E8,-1,> (Preceded By),False,The healing took six weeks,The hospital wait was three hours
+E11,E9,-1,> (Preceded By),False,The healing took six weeks,The x ray took ninety seconds
+E11,E10,-2,mi (Met By),False,The healing took six weeks,The cast application took twelve minutes
+E11,E12,-5,di (Contains),False,The healing took six weeks,with a check up at three weeks
+E11,E13,-5,di (Contains),False,The healing took six weeks,that showed the bone had already knitted
+E11,E14,-6,fi (Finished By),False,The healing took six weeks,the arm had been stronger than the cast for the second half of the recovery
+E11,E15,0,= (Equal),False,The healing took six weeks,The boy missed four football matches
+E11,E16,2,m (Meets),False,The healing took six weeks,He returned for the fifth
+E11,E17,2,m (Meets),False,The healing took six weeks,scored twice
+E11,E18,2,m (Meets),False,The healing took six weeks,broke the same arm again in the final minute of that match
+E11,E19,2,m (Meets),False,The healing took six weeks,"The second break occurred exactly seven weeks after the first, to the hour"
+E11,E20,1,< (Precedes),False,The healing took six weeks,The surgeon reviewing the x rays noted that the second break was in a different place
+E11,E21,1,< (Precedes),False,The healing took six weeks,The bone had healed so well that the new fracture was unrelated
+E11,E22,1,< (Precedes),False,The healing took six weeks,The boy's mother said that was not the point
+E11,E23,1,< (Precedes),False,The healing took six weeks,The point was the phone call
+E11,E24,1,< (Precedes),False,The healing took six weeks,The call came at 4:47 both times
+E12,E1,-1,> (Preceded By),False,with a check up at three weeks,The fracture happened in the last minute of a school football match
+E12,E2,-1,> (Preceded By),False,with a check up at three weeks,"A fall, a crack, a whistle"
+E12,E3,-1,> (Preceded By),False,with a check up at three weeks,The ambulance took nineteen minutes to arrive
+E12,E4,-1,> (Preceded By),False,with a check up at three weeks,the boy's mother was called
+E12,E5,-1,> (Preceded By),False,with a check up at three weeks,a two minute call
+E12,E6,-1,> (Preceded By),False,with a check up at three weeks,Her drive to the school took fourteen minutes
+E12,E7,-1,> (Preceded By),False,with a check up at three weeks,She arrived three minutes before the ambulance
+E12,E8,-1,> (Preceded By),False,with a check up at three weeks,The hospital wait was three hours
+E12,E9,-1,> (Preceded By),False,with a check up at three weeks,The x ray took ninety seconds
+E12,E10,-1,> (Preceded By),False,with a check up at three weeks,The cast application took twelve minutes
+E12,E11,5,d (During),False,with a check up at three weeks,The healing took six weeks
+E12,E13,0,= (Equal),False,with a check up at three weeks,that showed the bone had already knitted
+E12,E14,2,m (Meets),False,with a check up at three weeks,the arm had been stronger than the cast for the second half of the recovery
+E12,E15,5,d (During),False,with a check up at three weeks,The boy missed four football matches
+E12,E16,1,< (Precedes),False,with a check up at three weeks,He returned for the fifth
+E12,E17,1,< (Precedes),False,with a check up at three weeks,scored twice
+E12,E18,1,< (Precedes),False,with a check up at three weeks,broke the same arm again in the final minute of that match
+E12,E19,1,< (Precedes),False,with a check up at three weeks,"The second break occurred exactly seven weeks after the first, to the hour"
+E12,E20,1,< (Precedes),False,with a check up at three weeks,The surgeon reviewing the x rays noted that the second break was in a different place
+E12,E21,1,< (Precedes),False,with a check up at three weeks,The bone had healed so well that the new fracture was unrelated
+E12,E22,1,< (Precedes),False,with a check up at three weeks,The boy's mother said that was not the point
+E12,E23,1,< (Precedes),False,with a check up at three weeks,The point was the phone call
+E12,E24,1,< (Precedes),False,with a check up at three weeks,The call came at 4:47 both times
+E13,E1,-1,> (Preceded By),False,that showed the bone had already knitted,The fracture happened in the last minute of a school football match
+E13,E2,-1,> (Preceded By),False,that showed the bone had already knitted,"A fall, a crack, a whistle"
+E13,E3,-1,> (Preceded By),False,that showed the bone had already knitted,The ambulance took nineteen minutes to arrive
+E13,E4,-1,> (Preceded By),False,that showed the bone had already knitted,the boy's mother was called
+E13,E5,-1,> (Preceded By),False,that showed the bone had already knitted,a two minute call
+E13,E6,-1,> (Preceded By),False,that showed the bone had already knitted,Her drive to the school took fourteen minutes
+E13,E7,-1,> (Preceded By),False,that showed the bone had already knitted,She arrived three minutes before the ambulance
+E13,E8,-1,> (Preceded By),False,that showed the bone had already knitted,The hospital wait was three hours
+E13,E9,-1,> (Preceded By),False,that showed the bone had already knitted,The x ray took ninety seconds
+E13,E10,-1,> (Preceded By),False,that showed the bone had already knitted,The cast application took twelve minutes
+E13,E11,5,d (During),False,that showed the bone had already knitted,The healing took six weeks
+E13,E12,0,= (Equal),False,that showed the bone had already knitted,with a check up at three weeks
+E13,E14,2,m (Meets),False,that showed the bone had already knitted,the arm had been stronger than the cast for the second half of the recovery
+E13,E15,5,d (During),False,that showed the bone had already knitted,The boy missed four football matches
+E13,E16,1,< (Precedes),False,that showed the bone had already knitted,He returned for the fifth
+E13,E17,1,< (Precedes),False,that showed the bone had already knitted,scored twice
+E13,E18,1,< (Precedes),False,that showed the bone had already knitted,broke the same arm again in the final minute of that match
+E13,E19,1,< (Precedes),False,that showed the bone had already knitted,"The second break occurred exactly seven weeks after the first, to the hour"
+E13,E20,1,< (Precedes),False,that showed the bone had already knitted,The surgeon reviewing the x rays noted that the second break was in a different place
+E13,E21,1,< (Precedes),False,that showed the bone had already knitted,The bone had healed so well that the new fracture was unrelated
+E13,E22,1,< (Precedes),False,that showed the bone had already knitted,The boy's mother said that was not the point
+E13,E23,1,< (Precedes),False,that showed the bone had already knitted,The point was the phone call
+E13,E24,1,< (Precedes),False,that showed the bone had already knitted,The call came at 4:47 both times
+E14,E1,-1,> (Preceded By),False,the arm had been stronger than the cast for the second half of the recovery,The fracture happened in the last minute of a school football match
+E14,E2,-1,> (Preceded By),False,the arm had been stronger than the cast for the second half of the recovery,"A fall, a crack, a whistle"
+E14,E3,-1,> (Preceded By),False,the arm had been stronger than the cast for the second half of the recovery,The ambulance took nineteen minutes to arrive
+E14,E4,-1,> (Preceded By),False,the arm had been stronger than the cast for the second half of the recovery,the boy's mother was called
+E14,E5,-1,> (Preceded By),False,the arm had been stronger than the cast for the second half of the recovery,a two minute call
+E14,E6,-1,> (Preceded By),False,the arm had been stronger than the cast for the second half of the recovery,Her drive to the school took fourteen minutes
+E14,E7,-1,> (Preceded By),False,the arm had been stronger than the cast for the second half of the recovery,She arrived three minutes before the ambulance
+E14,E8,-1,> (Preceded By),False,the arm had been stronger than the cast for the second half of the recovery,The hospital wait was three hours
+E14,E9,-1,> (Preceded By),False,the arm had been stronger than the cast for the second half of the recovery,The x ray took ninety seconds
+E14,E10,-1,> (Preceded By),False,the arm had been stronger than the cast for the second half of the recovery,The cast application took twelve minutes
+E14,E11,6,f (Finishes),False,the arm had been stronger than the cast for the second half of the recovery,The healing took six weeks
+E14,E12,-2,mi (Met By),False,the arm had been stronger than the cast for the second half of the recovery,with a check up at three weeks
+E14,E13,-2,mi (Met By),False,the arm had been stronger than the cast for the second half of the recovery,that showed the bone had already knitted
+E14,E15,6,f (Finishes),False,the arm had been stronger than the cast for the second half of the recovery,The boy missed four football matches
+E14,E16,2,m (Meets),False,the arm had been stronger than the cast for the second half of the recovery,He returned for the fifth
+E14,E17,2,m (Meets),False,the arm had been stronger than the cast for the second half of the recovery,scored twice
+E14,E18,2,m (Meets),False,the arm had been stronger than the cast for the second half of the recovery,broke the same arm again in the final minute of that match
+E14,E19,2,m (Meets),False,the arm had been stronger than the cast for the second half of the recovery,"The second break occurred exactly seven weeks after the first, to the hour"
+E14,E20,1,< (Precedes),False,the arm had been stronger than the cast for the second half of the recovery,The surgeon reviewing the x rays noted that the second break was in a different place
+E14,E21,1,< (Precedes),False,the arm had been stronger than the cast for the second half of the recovery,The bone had healed so well that the new fracture was unrelated
+E14,E22,1,< (Precedes),False,the arm had been stronger than the cast for the second half of the recovery,The boy's mother said that was not the point
+E14,E23,1,< (Precedes),False,the arm had been stronger than the cast for the second half of the recovery,The point was the phone call
+E14,E24,1,< (Precedes),False,the arm had been stronger than the cast for the second half of the recovery,The call came at 4:47 both times
+E15,E1,-1,> (Preceded By),False,The boy missed four football matches,The fracture happened in the last minute of a school football match
+E15,E2,-1,> (Preceded By),False,The boy missed four football matches,"A fall, a crack, a whistle"
+E15,E3,-1,> (Preceded By),False,The boy missed four football matches,The ambulance took nineteen minutes to arrive
+E15,E4,-1,> (Preceded By),False,The boy missed four football matches,the boy's mother was called
+E15,E5,-1,> (Preceded By),False,The boy missed four football matches,a two minute call
+E15,E6,-1,> (Preceded By),False,The boy missed four football matches,Her drive to the school took fourteen minutes
+E15,E7,-1,> (Preceded By),False,The boy missed four football matches,She arrived three minutes before the ambulance
+E15,E8,-1,> (Preceded By),False,The boy missed four football matches,The hospital wait was three hours
+E15,E9,-1,> (Preceded By),False,The boy missed four football matches,The x ray took ninety seconds
+E15,E10,-2,mi (Met By),False,The boy missed four football matches,The cast application took twelve minutes
+E15,E11,0,= (Equal),False,The boy missed four football matches,The healing took six weeks
+E15,E12,-5,di (Contains),False,The boy missed four football matches,with a check up at three weeks
+E15,E13,-5,di (Contains),False,The boy missed four football matches,that showed the bone had already knitted
+E15,E14,-6,fi (Finished By),False,The boy missed four football matches,the arm had been stronger than the cast for the second half of the recovery
+E15,E16,2,m (Meets),False,The boy missed four football matches,He returned for the fifth
+E15,E17,2,m (Meets),False,The boy missed four football matches,scored twice
+E15,E18,2,m (Meets),False,The boy missed four football matches,broke the same arm again in the final minute of that match
+E15,E19,2,m (Meets),False,The boy missed four football matches,"The second break occurred exactly seven weeks after the first, to the hour"
+E15,E20,1,< (Precedes),False,The boy missed four football matches,The surgeon reviewing the x rays noted that the second break was in a different place
+E15,E21,1,< (Precedes),False,The boy missed four football matches,The bone had healed so well that the new fracture was unrelated
+E15,E22,1,< (Precedes),False,The boy missed four football matches,The boy's mother said that was not the point
+E15,E23,1,< (Precedes),False,The boy missed four football matches,The point was the phone call
+E15,E24,1,< (Precedes),False,The boy missed four football matches,The call came at 4:47 both times
+E16,E1,-1,> (Preceded By),False,He returned for the fifth,The fracture happened in the last minute of a school football match
+E16,E2,-1,> (Preceded By),False,He returned for the fifth,"A fall, a crack, a whistle"
+E16,E3,-1,> (Preceded By),False,He returned for the fifth,The ambulance took nineteen minutes to arrive
+E16,E4,-1,> (Preceded By),False,He returned for the fifth,the boy's mother was called
+E16,E5,-1,> (Preceded By),False,He returned for the fifth,a two minute call
+E16,E6,-1,> (Preceded By),False,He returned for the fifth,Her drive to the school took fourteen minutes
+E16,E7,-1,> (Preceded By),False,He returned for the fifth,She arrived three minutes before the ambulance
+E16,E8,-1,> (Preceded By),False,He returned for the fifth,The hospital wait was three hours
+E16,E9,-1,> (Preceded By),False,He returned for the fifth,The x ray took ninety seconds
+E16,E10,-1,> (Preceded By),False,He returned for the fifth,The cast application took twelve minutes
+E16,E11,-2,mi (Met By),False,He returned for the fifth,The healing took six weeks
+E16,E12,-1,> (Preceded By),False,He returned for the fifth,with a check up at three weeks
+E16,E13,-1,> (Preceded By),False,He returned for the fifth,that showed the bone had already knitted
+E16,E14,-2,mi (Met By),False,He returned for the fifth,the arm had been stronger than the cast for the second half of the recovery
+E16,E15,-2,mi (Met By),False,He returned for the fifth,The boy missed four football matches
+E16,E17,0,= (Equal),False,He returned for the fifth,scored twice
+E16,E18,0,= (Equal),False,He returned for the fifth,broke the same arm again in the final minute of that match
+E16,E19,0,= (Equal),False,He returned for the fifth,"The second break occurred exactly seven weeks after the first, to the hour"
+E16,E20,1,< (Precedes),False,He returned for the fifth,The surgeon reviewing the x rays noted that the second break was in a different place
+E16,E21,1,< (Precedes),False,He returned for the fifth,The bone had healed so well that the new fracture was unrelated
+E16,E22,1,< (Precedes),False,He returned for the fifth,The boy's mother said that was not the point
+E16,E23,1,< (Precedes),False,He returned for the fifth,The point was the phone call
+E16,E24,1,< (Precedes),False,He returned for the fifth,The call came at 4:47 both times
+E17,E1,-1,> (Preceded By),False,scored twice,The fracture happened in the last minute of a school football match
+E17,E2,-1,> (Preceded By),False,scored twice,"A fall, a crack, a whistle"
+E17,E3,-1,> (Preceded By),False,scored twice,The ambulance took nineteen minutes to arrive
+E17,E4,-1,> (Preceded By),False,scored twice,the boy's mother was called
+E17,E5,-1,> (Preceded By),False,scored twice,a two minute call
+E17,E6,-1,> (Preceded By),False,scored twice,Her drive to the school took fourteen minutes
+E17,E7,-1,> (Preceded By),False,scored twice,She arrived three minutes before the ambulance
+E17,E8,-1,> (Preceded By),False,scored twice,The hospital wait was three hours
+E17,E9,-1,> (Preceded By),False,scored twice,The x ray took ninety seconds
+E17,E10,-1,> (Preceded By),False,scored twice,The cast application took twelve minutes
+E17,E11,-2,mi (Met By),False,scored twice,The healing took six weeks
+E17,E12,-1,> (Preceded By),False,scored twice,with a check up at three weeks
+E17,E13,-1,> (Preceded By),False,scored twice,that showed the bone had already knitted
+E17,E14,-2,mi (Met By),False,scored twice,the arm had been stronger than the cast for the second half of the recovery
+E17,E15,-2,mi (Met By),False,scored twice,The boy missed four football matches
+E17,E16,0,= (Equal),False,scored twice,He returned for the fifth
+E17,E18,0,= (Equal),False,scored twice,broke the same arm again in the final minute of that match
+E17,E19,0,= (Equal),False,scored twice,"The second break occurred exactly seven weeks after the first, to the hour"
+E17,E20,1,< (Precedes),False,scored twice,The surgeon reviewing the x rays noted that the second break was in a different place
+E17,E21,1,< (Precedes),False,scored twice,The bone had healed so well that the new fracture was unrelated
+E17,E22,1,< (Precedes),False,scored twice,The boy's mother said that was not the point
+E17,E23,1,< (Precedes),False,scored twice,The point was the phone call
+E17,E24,1,< (Precedes),False,scored twice,The call came at 4:47 both times
+E18,E1,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,The fracture happened in the last minute of a school football match
+E18,E2,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,"A fall, a crack, a whistle"
+E18,E3,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,The ambulance took nineteen minutes to arrive
+E18,E4,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,the boy's mother was called
+E18,E5,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,a two minute call
+E18,E6,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,Her drive to the school took fourteen minutes
+E18,E7,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,She arrived three minutes before the ambulance
+E18,E8,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,The hospital wait was three hours
+E18,E9,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,The x ray took ninety seconds
+E18,E10,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,The cast application took twelve minutes
+E18,E11,-2,mi (Met By),False,broke the same arm again in the final minute of that match,The healing took six weeks
+E18,E12,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,with a check up at three weeks
+E18,E13,-1,> (Preceded By),False,broke the same arm again in the final minute of that match,that showed the bone had already knitted
+E18,E14,-2,mi (Met By),False,broke the same arm again in the final minute of that match,the arm had been stronger than the cast for the second half of the recovery
+E18,E15,-2,mi (Met By),False,broke the same arm again in the final minute of that match,The boy missed four football matches
+E18,E16,0,= (Equal),False,broke the same arm again in the final minute of that match,He returned for the fifth
+E18,E17,0,= (Equal),False,broke the same arm again in the final minute of that match,scored twice
+E18,E19,0,= (Equal),False,broke the same arm again in the final minute of that match,"The second break occurred exactly seven weeks after the first, to the hour"
+E18,E20,1,< (Precedes),False,broke the same arm again in the final minute of that match,The surgeon reviewing the x rays noted that the second break was in a different place
+E18,E21,1,< (Precedes),False,broke the same arm again in the final minute of that match,The bone had healed so well that the new fracture was unrelated
+E18,E22,1,< (Precedes),False,broke the same arm again in the final minute of that match,The boy's mother said that was not the point
+E18,E23,1,< (Precedes),False,broke the same arm again in the final minute of that match,The point was the phone call
+E18,E24,1,< (Precedes),False,broke the same arm again in the final minute of that match,The call came at 4:47 both times
+E19,E1,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",The fracture happened in the last minute of a school football match
+E19,E2,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour","A fall, a crack, a whistle"
+E19,E3,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",The ambulance took nineteen minutes to arrive
+E19,E4,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",the boy's mother was called
+E19,E5,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",a two minute call
+E19,E6,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",Her drive to the school took fourteen minutes
+E19,E7,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",She arrived three minutes before the ambulance
+E19,E8,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",The hospital wait was three hours
+E19,E9,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",The x ray took ninety seconds
+E19,E10,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",The cast application took twelve minutes
+E19,E11,-2,mi (Met By),False,"The second break occurred exactly seven weeks after the first, to the hour",The healing took six weeks
+E19,E12,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",with a check up at three weeks
+E19,E13,-1,> (Preceded By),False,"The second break occurred exactly seven weeks after the first, to the hour",that showed the bone had already knitted
+E19,E14,-2,mi (Met By),False,"The second break occurred exactly seven weeks after the first, to the hour",the arm had been stronger than the cast for the second half of the recovery
+E19,E15,-2,mi (Met By),False,"The second break occurred exactly seven weeks after the first, to the hour",The boy missed four football matches
+E19,E16,0,= (Equal),False,"The second break occurred exactly seven weeks after the first, to the hour",He returned for the fifth
+E19,E17,0,= (Equal),False,"The second break occurred exactly seven weeks after the first, to the hour",scored twice
+E19,E18,0,= (Equal),False,"The second break occurred exactly seven weeks after the first, to the hour",broke the same arm again in the final minute of that match
+E19,E20,1,< (Precedes),False,"The second break occurred exactly seven weeks after the first, to the hour",The surgeon reviewing the x rays noted that the second break was in a different place
+E19,E21,1,< (Precedes),False,"The second break occurred exactly seven weeks after the first, to the hour",The bone had healed so well that the new fracture was unrelated
+E19,E22,1,< (Precedes),False,"The second break occurred exactly seven weeks after the first, to the hour",The boy's mother said that was not the point
+E19,E23,1,< (Precedes),False,"The second break occurred exactly seven weeks after the first, to the hour",The point was the phone call
+E19,E24,1,< (Precedes),False,"The second break occurred exactly seven weeks after the first, to the hour",The call came at 4:47 both times
+E20,E1,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,The fracture happened in the last minute of a school football match
+E20,E2,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,"A fall, a crack, a whistle"
+E20,E3,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,The ambulance took nineteen minutes to arrive
+E20,E4,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,the boy's mother was called
+E20,E5,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,a two minute call
+E20,E6,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,Her drive to the school took fourteen minutes
+E20,E7,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,She arrived three minutes before the ambulance
+E20,E8,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,The hospital wait was three hours
+E20,E9,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,The x ray took ninety seconds
+E20,E10,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,The cast application took twelve minutes
+E20,E11,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,The healing took six weeks
+E20,E12,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,with a check up at three weeks
+E20,E13,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,that showed the bone had already knitted
+E20,E14,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,the arm had been stronger than the cast for the second half of the recovery
+E20,E15,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,The boy missed four football matches
+E20,E16,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,He returned for the fifth
+E20,E17,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,scored twice
+E20,E18,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,broke the same arm again in the final minute of that match
+E20,E19,-1,> (Preceded By),False,The surgeon reviewing the x rays noted that the second break was in a different place,"The second break occurred exactly seven weeks after the first, to the hour"
+E20,E21,0,= (Equal),False,The surgeon reviewing the x rays noted that the second break was in a different place,The bone had healed so well that the new fracture was unrelated
+E20,E22,1,< (Precedes),False,The surgeon reviewing the x rays noted that the second break was in a different place,The boy's mother said that was not the point
+E20,E23,1,< (Precedes),False,The surgeon reviewing the x rays noted that the second break was in a different place,The point was the phone call
+E20,E24,1,< (Precedes),False,The surgeon reviewing the x rays noted that the second break was in a different place,The call came at 4:47 both times
+E21,E1,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,The fracture happened in the last minute of a school football match
+E21,E2,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,"A fall, a crack, a whistle"
+E21,E3,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,The ambulance took nineteen minutes to arrive
+E21,E4,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,the boy's mother was called
+E21,E5,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,a two minute call
+E21,E6,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,Her drive to the school took fourteen minutes
+E21,E7,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,She arrived three minutes before the ambulance
+E21,E8,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,The hospital wait was three hours
+E21,E9,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,The x ray took ninety seconds
+E21,E10,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,The cast application took twelve minutes
+E21,E11,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,The healing took six weeks
+E21,E12,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,with a check up at three weeks
+E21,E13,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,that showed the bone had already knitted
+E21,E14,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,the arm had been stronger than the cast for the second half of the recovery
+E21,E15,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,The boy missed four football matches
+E21,E16,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,He returned for the fifth
+E21,E17,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,scored twice
+E21,E18,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,broke the same arm again in the final minute of that match
+E21,E19,-1,> (Preceded By),False,The bone had healed so well that the new fracture was unrelated,"The second break occurred exactly seven weeks after the first, to the hour"
+E21,E20,0,= (Equal),False,The bone had healed so well that the new fracture was unrelated,The surgeon reviewing the x rays noted that the second break was in a different place
+E21,E22,1,< (Precedes),False,The bone had healed so well that the new fracture was unrelated,The boy's mother said that was not the point
+E21,E23,1,< (Precedes),False,The bone had healed so well that the new fracture was unrelated,The point was the phone call
+E21,E24,1,< (Precedes),False,The bone had healed so well that the new fracture was unrelated,The call came at 4:47 both times
+E22,E1,-1,> (Preceded By),False,The boy's mother said that was not the point,The fracture happened in the last minute of a school football match
+E22,E2,-1,> (Preceded By),False,The boy's mother said that was not the point,"A fall, a crack, a whistle"
+E22,E3,-1,> (Preceded By),False,The boy's mother said that was not the point,The ambulance took nineteen minutes to arrive
+E22,E4,-1,> (Preceded By),False,The boy's mother said that was not the point,the boy's mother was called
+E22,E5,-1,> (Preceded By),False,The boy's mother said that was not the point,a two minute call
+E22,E6,-1,> (Preceded By),False,The boy's mother said that was not the point,Her drive to the school took fourteen minutes
+E22,E7,-1,> (Preceded By),False,The boy's mother said that was not the point,She arrived three minutes before the ambulance
+E22,E8,-1,> (Preceded By),False,The boy's mother said that was not the point,The hospital wait was three hours
+E22,E9,-1,> (Preceded By),False,The boy's mother said that was not the point,The x ray took ninety seconds
+E22,E10,-1,> (Preceded By),False,The boy's mother said that was not the point,The cast application took twelve minutes
+E22,E11,-1,> (Preceded By),False,The boy's mother said that was not the point,The healing took six weeks
+E22,E12,-1,> (Preceded By),False,The boy's mother said that was not the point,with a check up at three weeks
+E22,E13,-1,> (Preceded By),False,The boy's mother said that was not the point,that showed the bone had already knitted
+E22,E14,-1,> (Preceded By),False,The boy's mother said that was not the point,the arm had been stronger than the cast for the second half of the recovery
+E22,E15,-1,> (Preceded By),False,The boy's mother said that was not the point,The boy missed four football matches
+E22,E16,-1,> (Preceded By),False,The boy's mother said that was not the point,He returned for the fifth
+E22,E17,-1,> (Preceded By),False,The boy's mother said that was not the point,scored twice
+E22,E18,-1,> (Preceded By),False,The boy's mother said that was not the point,broke the same arm again in the final minute of that match
+E22,E19,-1,> (Preceded By),False,The boy's mother said that was not the point,"The second break occurred exactly seven weeks after the first, to the hour"
+E22,E20,-1,> (Preceded By),False,The boy's mother said that was not the point,The surgeon reviewing the x rays noted that the second break was in a different place
+E22,E21,-1,> (Preceded By),False,The boy's mother said that was not the point,The bone had healed so well that the new fracture was unrelated
+E22,E23,0,= (Equal),False,The boy's mother said that was not the point,The point was the phone call
+E22,E24,0,= (Equal),False,The boy's mother said that was not the point,The call came at 4:47 both times
+E23,E1,-1,> (Preceded By),False,The point was the phone call,The fracture happened in the last minute of a school football match
+E23,E2,-1,> (Preceded By),False,The point was the phone call,"A fall, a crack, a whistle"
+E23,E3,-1,> (Preceded By),False,The point was the phone call,The ambulance took nineteen minutes to arrive
+E23,E4,-1,> (Preceded By),False,The point was the phone call,the boy's mother was called
+E23,E5,-1,> (Preceded By),False,The point was the phone call,a two minute call
+E23,E6,-1,> (Preceded By),False,The point was the phone call,Her drive to the school took fourteen minutes
+E23,E7,-1,> (Preceded By),False,The point was the phone call,She arrived three minutes before the ambulance
+E23,E8,-1,> (Preceded By),False,The point was the phone call,The hospital wait was three hours
+E23,E9,-1,> (Preceded By),False,The point was the phone call,The x ray took ninety seconds
+E23,E10,-1,> (Preceded By),False,The point was the phone call,The cast application took twelve minutes
+E23,E11,-1,> (Preceded By),False,The point was the phone call,The healing took six weeks
+E23,E12,-1,> (Preceded By),False,The point was the phone call,with a check up at three weeks
+E23,E13,-1,> (Preceded By),False,The point was the phone call,that showed the bone had already knitted
+E23,E14,-1,> (Preceded By),False,The point was the phone call,the arm had been stronger than the cast for the second half of the recovery
+E23,E15,-1,> (Preceded By),False,The point was the phone call,The boy missed four football matches
+E23,E16,-1,> (Preceded By),False,The point was the phone call,He returned for the fifth
+E23,E17,-1,> (Preceded By),False,The point was the phone call,scored twice
+E23,E18,-1,> (Preceded By),False,The point was the phone call,broke the same arm again in the final minute of that match
+E23,E19,-1,> (Preceded By),False,The point was the phone call,"The second break occurred exactly seven weeks after the first, to the hour"
+E23,E20,-1,> (Preceded By),False,The point was the phone call,The surgeon reviewing the x rays noted that the second break was in a different place
+E23,E21,-1,> (Preceded By),False,The point was the phone call,The bone had healed so well that the new fracture was unrelated
+E23,E22,0,= (Equal),False,The point was the phone call,The boy's mother said that was not the point
+E23,E24,0,= (Equal),False,The point was the phone call,The call came at 4:47 both times
+E24,E1,-1,> (Preceded By),False,The call came at 4:47 both times,The fracture happened in the last minute of a school football match
+E24,E2,-1,> (Preceded By),False,The call came at 4:47 both times,"A fall, a crack, a whistle"
+E24,E3,-1,> (Preceded By),False,The call came at 4:47 both times,The ambulance took nineteen minutes to arrive
+E24,E4,-1,> (Preceded By),False,The call came at 4:47 both times,the boy's mother was called
+E24,E5,-1,> (Preceded By),False,The call came at 4:47 both times,a two minute call
+E24,E6,-1,> (Preceded By),False,The call came at 4:47 both times,Her drive to the school took fourteen minutes
+E24,E7,-1,> (Preceded By),False,The call came at 4:47 both times,She arrived three minutes before the ambulance
+E24,E8,-1,> (Preceded By),False,The call came at 4:47 both times,The hospital wait was three hours
+E24,E9,-1,> (Preceded By),False,The call came at 4:47 both times,The x ray took ninety seconds
+E24,E10,-1,> (Preceded By),False,The call came at 4:47 both times,The cast application took twelve minutes
+E24,E11,-1,> (Preceded By),False,The call came at 4:47 both times,The healing took six weeks
+E24,E12,-1,> (Preceded By),False,The call came at 4:47 both times,with a check up at three weeks
+E24,E13,-1,> (Preceded By),False,The call came at 4:47 both times,that showed the bone had already knitted
+E24,E14,-1,> (Preceded By),False,The call came at 4:47 both times,the arm had been stronger than the cast for the second half of the recovery
+E24,E15,-1,> (Preceded By),False,The call came at 4:47 both times,The boy missed four football matches
+E24,E16,-1,> (Preceded By),False,The call came at 4:47 both times,He returned for the fifth
+E24,E17,-1,> (Preceded By),False,The call came at 4:47 both times,scored twice
+E24,E18,-1,> (Preceded By),False,The call came at 4:47 both times,broke the same arm again in the final minute of that match
+E24,E19,-1,> (Preceded By),False,The call came at 4:47 both times,"The second break occurred exactly seven weeks after the first, to the hour"
+E24,E20,-1,> (Preceded By),False,The call came at 4:47 both times,The surgeon reviewing the x rays noted that the second break was in a different place
+E24,E21,-1,> (Preceded By),False,The call came at 4:47 both times,The bone had healed so well that the new fracture was unrelated
+E24,E22,0,= (Equal),False,The call came at 4:47 both times,The boy's mother said that was not the point
+E24,E23,0,= (Equal),False,The call came at 4:47 both times,The point was the phone call

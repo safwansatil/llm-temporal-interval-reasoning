@@ -1,0 +1,183 @@
+from_event,to_event,relation_code,relation_name,is_override,text_i,text_j
+E1,E2,-5,di (Contains),False,The duel was scheduled for dawn,a shoulder wound
+E1,E3,-1,> (Preceded By),False,The duel was scheduled for dawn,The disagreement that caused it had simmered for eleven months
+E1,E4,-1,> (Preceded By),False,The duel was scheduled for dawn,The seconds spent the night before trying to negotiate a settlement
+E1,E5,-5,di (Contains),False,The duel was scheduled for dawn,The shot that struck
+E1,E6,-4,si (Started By),False,The duel was scheduled for dawn,The first had missed
+E1,E7,1,< (Precedes),False,The duel was scheduled for dawn,the survivor wrote in his journal
+E1,E8,3,o (Overlaps),False,The duel was scheduled for dawn,The wound healed badly
+E1,E9,3,o (Overlaps),False,The duel was scheduled for dawn,He lived another forty years
+E1,E10,1,< (Precedes),False,The duel was scheduled for dawn,paid the debt the following week
+E1,E11,1,< (Precedes),False,The duel was scheduled for dawn,The creditor's son used the money to buy a farm
+E1,E12,1,< (Precedes),False,The duel was scheduled for dawn,The farm was sold a hundred years later to a developer
+E1,E13,1,< (Precedes),False,The duel was scheduled for dawn,The developer's bulldozer uncovered a pistol ball
+E1,E14,1,< (Precedes),False,The duel was scheduled for dawn,The developer put it in his pocket
+E2,E1,5,d (During),False,a shoulder wound,The duel was scheduled for dawn
+E2,E3,-1,> (Preceded By),False,a shoulder wound,The disagreement that caused it had simmered for eleven months
+E2,E4,-1,> (Preceded By),False,a shoulder wound,The seconds spent the night before trying to negotiate a settlement
+E2,E5,0,= (Equal),False,a shoulder wound,The shot that struck
+E2,E6,-1,> (Preceded By),False,a shoulder wound,The first had missed
+E2,E7,1,< (Precedes),False,a shoulder wound,the survivor wrote in his journal
+E2,E8,2,m (Meets),False,a shoulder wound,The wound healed badly
+E2,E9,2,m (Meets),False,a shoulder wound,He lived another forty years
+E2,E10,1,< (Precedes),False,a shoulder wound,paid the debt the following week
+E2,E11,1,< (Precedes),False,a shoulder wound,The creditor's son used the money to buy a farm
+E2,E12,1,< (Precedes),False,a shoulder wound,The farm was sold a hundred years later to a developer
+E2,E13,1,< (Precedes),False,a shoulder wound,The developer's bulldozer uncovered a pistol ball
+E2,E14,1,< (Precedes),False,a shoulder wound,The developer put it in his pocket
+E3,E1,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,The duel was scheduled for dawn
+E3,E2,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,a shoulder wound
+E3,E4,2,m (Meets),False,The disagreement that caused it had simmered for eleven months,The seconds spent the night before trying to negotiate a settlement
+E3,E5,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,The shot that struck
+E3,E6,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,The first had missed
+E3,E7,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,the survivor wrote in his journal
+E3,E8,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,The wound healed badly
+E3,E9,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,He lived another forty years
+E3,E10,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,paid the debt the following week
+E3,E11,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,The creditor's son used the money to buy a farm
+E3,E12,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,The farm was sold a hundred years later to a developer
+E3,E13,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,The developer's bulldozer uncovered a pistol ball
+E3,E14,1,< (Precedes),False,The disagreement that caused it had simmered for eleven months,The developer put it in his pocket
+E4,E1,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,The duel was scheduled for dawn
+E4,E2,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,a shoulder wound
+E4,E3,-2,mi (Met By),False,The seconds spent the night before trying to negotiate a settlement,The disagreement that caused it had simmered for eleven months
+E4,E5,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,The shot that struck
+E4,E6,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,The first had missed
+E4,E7,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,the survivor wrote in his journal
+E4,E8,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,The wound healed badly
+E4,E9,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,He lived another forty years
+E4,E10,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,paid the debt the following week
+E4,E11,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,The creditor's son used the money to buy a farm
+E4,E12,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,The farm was sold a hundred years later to a developer
+E4,E13,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,The developer's bulldozer uncovered a pistol ball
+E4,E14,1,< (Precedes),False,The seconds spent the night before trying to negotiate a settlement,The developer put it in his pocket
+E5,E1,5,d (During),False,The shot that struck,The duel was scheduled for dawn
+E5,E2,0,= (Equal),False,The shot that struck,a shoulder wound
+E5,E3,-1,> (Preceded By),False,The shot that struck,The disagreement that caused it had simmered for eleven months
+E5,E4,-1,> (Preceded By),False,The shot that struck,The seconds spent the night before trying to negotiate a settlement
+E5,E6,-1,> (Preceded By),False,The shot that struck,The first had missed
+E5,E7,1,< (Precedes),False,The shot that struck,the survivor wrote in his journal
+E5,E8,2,m (Meets),False,The shot that struck,The wound healed badly
+E5,E9,2,m (Meets),False,The shot that struck,He lived another forty years
+E5,E10,1,< (Precedes),False,The shot that struck,paid the debt the following week
+E5,E11,1,< (Precedes),False,The shot that struck,The creditor's son used the money to buy a farm
+E5,E12,1,< (Precedes),False,The shot that struck,The farm was sold a hundred years later to a developer
+E5,E13,1,< (Precedes),False,The shot that struck,The developer's bulldozer uncovered a pistol ball
+E5,E14,1,< (Precedes),False,The shot that struck,The developer put it in his pocket
+E6,E1,4,s (Starts),False,The first had missed,The duel was scheduled for dawn
+E6,E2,1,< (Precedes),False,The first had missed,a shoulder wound
+E6,E3,-1,> (Preceded By),False,The first had missed,The disagreement that caused it had simmered for eleven months
+E6,E4,-1,> (Preceded By),False,The first had missed,The seconds spent the night before trying to negotiate a settlement
+E6,E5,1,< (Precedes),False,The first had missed,The shot that struck
+E6,E7,1,< (Precedes),False,The first had missed,the survivor wrote in his journal
+E6,E8,1,< (Precedes),False,The first had missed,The wound healed badly
+E6,E9,1,< (Precedes),False,The first had missed,He lived another forty years
+E6,E10,1,< (Precedes),False,The first had missed,paid the debt the following week
+E6,E11,1,< (Precedes),False,The first had missed,The creditor's son used the money to buy a farm
+E6,E12,1,< (Precedes),False,The first had missed,The farm was sold a hundred years later to a developer
+E6,E13,1,< (Precedes),False,The first had missed,The developer's bulldozer uncovered a pistol ball
+E6,E14,1,< (Precedes),False,The first had missed,The developer put it in his pocket
+E7,E1,-1,> (Preceded By),False,the survivor wrote in his journal,The duel was scheduled for dawn
+E7,E2,-1,> (Preceded By),False,the survivor wrote in his journal,a shoulder wound
+E7,E3,-1,> (Preceded By),False,the survivor wrote in his journal,The disagreement that caused it had simmered for eleven months
+E7,E4,-1,> (Preceded By),False,the survivor wrote in his journal,The seconds spent the night before trying to negotiate a settlement
+E7,E5,-1,> (Preceded By),False,the survivor wrote in his journal,The shot that struck
+E7,E6,-1,> (Preceded By),False,the survivor wrote in his journal,The first had missed
+E7,E8,-1,> (Preceded By),False,the survivor wrote in his journal,The wound healed badly
+E7,E9,5,d (During),False,the survivor wrote in his journal,He lived another forty years
+E7,E10,-1,> (Preceded By),False,the survivor wrote in his journal,paid the debt the following week
+E7,E11,1,< (Precedes),False,the survivor wrote in his journal,The creditor's son used the money to buy a farm
+E7,E12,1,< (Precedes),False,the survivor wrote in his journal,The farm was sold a hundred years later to a developer
+E7,E13,1,< (Precedes),False,the survivor wrote in his journal,The developer's bulldozer uncovered a pistol ball
+E7,E14,1,< (Precedes),False,the survivor wrote in his journal,The developer put it in his pocket
+E8,E1,-3,oi (Overlapped By),False,The wound healed badly,The duel was scheduled for dawn
+E8,E2,-2,mi (Met By),False,The wound healed badly,a shoulder wound
+E8,E3,-1,> (Preceded By),False,The wound healed badly,The disagreement that caused it had simmered for eleven months
+E8,E4,-1,> (Preceded By),False,The wound healed badly,The seconds spent the night before trying to negotiate a settlement
+E8,E5,-2,mi (Met By),False,The wound healed badly,The shot that struck
+E8,E6,-1,> (Preceded By),False,The wound healed badly,The first had missed
+E8,E7,1,< (Precedes),False,The wound healed badly,the survivor wrote in his journal
+E8,E9,4,s (Starts),False,The wound healed badly,He lived another forty years
+E8,E10,-5,di (Contains),False,The wound healed badly,paid the debt the following week
+E8,E11,1,< (Precedes),False,The wound healed badly,The creditor's son used the money to buy a farm
+E8,E12,1,< (Precedes),False,The wound healed badly,The farm was sold a hundred years later to a developer
+E8,E13,1,< (Precedes),False,The wound healed badly,The developer's bulldozer uncovered a pistol ball
+E8,E14,1,< (Precedes),False,The wound healed badly,The developer put it in his pocket
+E9,E1,-3,oi (Overlapped By),False,He lived another forty years,The duel was scheduled for dawn
+E9,E2,-2,mi (Met By),False,He lived another forty years,a shoulder wound
+E9,E3,-1,> (Preceded By),False,He lived another forty years,The disagreement that caused it had simmered for eleven months
+E9,E4,-1,> (Preceded By),False,He lived another forty years,The seconds spent the night before trying to negotiate a settlement
+E9,E5,-2,mi (Met By),False,He lived another forty years,The shot that struck
+E9,E6,-1,> (Preceded By),False,He lived another forty years,The first had missed
+E9,E7,-5,di (Contains),False,He lived another forty years,the survivor wrote in his journal
+E9,E8,-4,si (Started By),False,He lived another forty years,The wound healed badly
+E9,E10,-5,di (Contains),False,He lived another forty years,paid the debt the following week
+E9,E11,-5,di (Contains),False,He lived another forty years,The creditor's son used the money to buy a farm
+E9,E12,1,< (Precedes),False,He lived another forty years,The farm was sold a hundred years later to a developer
+E9,E13,1,< (Precedes),False,He lived another forty years,The developer's bulldozer uncovered a pistol ball
+E9,E14,1,< (Precedes),False,He lived another forty years,The developer put it in his pocket
+E10,E1,-1,> (Preceded By),False,paid the debt the following week,The duel was scheduled for dawn
+E10,E2,-1,> (Preceded By),False,paid the debt the following week,a shoulder wound
+E10,E3,-1,> (Preceded By),False,paid the debt the following week,The disagreement that caused it had simmered for eleven months
+E10,E4,-1,> (Preceded By),False,paid the debt the following week,The seconds spent the night before trying to negotiate a settlement
+E10,E5,-1,> (Preceded By),False,paid the debt the following week,The shot that struck
+E10,E6,-1,> (Preceded By),False,paid the debt the following week,The first had missed
+E10,E7,1,< (Precedes),False,paid the debt the following week,the survivor wrote in his journal
+E10,E8,5,d (During),False,paid the debt the following week,The wound healed badly
+E10,E9,5,d (During),False,paid the debt the following week,He lived another forty years
+E10,E11,1,< (Precedes),False,paid the debt the following week,The creditor's son used the money to buy a farm
+E10,E12,1,< (Precedes),False,paid the debt the following week,The farm was sold a hundred years later to a developer
+E10,E13,1,< (Precedes),False,paid the debt the following week,The developer's bulldozer uncovered a pistol ball
+E10,E14,1,< (Precedes),False,paid the debt the following week,The developer put it in his pocket
+E11,E1,-1,> (Preceded By),False,The creditor's son used the money to buy a farm,The duel was scheduled for dawn
+E11,E2,-1,> (Preceded By),False,The creditor's son used the money to buy a farm,a shoulder wound
+E11,E3,-1,> (Preceded By),False,The creditor's son used the money to buy a farm,The disagreement that caused it had simmered for eleven months
+E11,E4,-1,> (Preceded By),False,The creditor's son used the money to buy a farm,The seconds spent the night before trying to negotiate a settlement
+E11,E5,-1,> (Preceded By),False,The creditor's son used the money to buy a farm,The shot that struck
+E11,E6,-1,> (Preceded By),False,The creditor's son used the money to buy a farm,The first had missed
+E11,E7,-1,> (Preceded By),False,The creditor's son used the money to buy a farm,the survivor wrote in his journal
+E11,E8,-1,> (Preceded By),False,The creditor's son used the money to buy a farm,The wound healed badly
+E11,E9,5,d (During),False,The creditor's son used the money to buy a farm,He lived another forty years
+E11,E10,-1,> (Preceded By),False,The creditor's son used the money to buy a farm,paid the debt the following week
+E11,E12,1,< (Precedes),False,The creditor's son used the money to buy a farm,The farm was sold a hundred years later to a developer
+E11,E13,1,< (Precedes),False,The creditor's son used the money to buy a farm,The developer's bulldozer uncovered a pistol ball
+E11,E14,1,< (Precedes),False,The creditor's son used the money to buy a farm,The developer put it in his pocket
+E12,E1,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,The duel was scheduled for dawn
+E12,E2,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,a shoulder wound
+E12,E3,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,The disagreement that caused it had simmered for eleven months
+E12,E4,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,The seconds spent the night before trying to negotiate a settlement
+E12,E5,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,The shot that struck
+E12,E6,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,The first had missed
+E12,E7,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,the survivor wrote in his journal
+E12,E8,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,The wound healed badly
+E12,E9,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,He lived another forty years
+E12,E10,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,paid the debt the following week
+E12,E11,-1,> (Preceded By),False,The farm was sold a hundred years later to a developer,The creditor's son used the money to buy a farm
+E12,E13,1,< (Precedes),False,The farm was sold a hundred years later to a developer,The developer's bulldozer uncovered a pistol ball
+E12,E14,1,< (Precedes),False,The farm was sold a hundred years later to a developer,The developer put it in his pocket
+E13,E1,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,The duel was scheduled for dawn
+E13,E2,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,a shoulder wound
+E13,E3,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,The disagreement that caused it had simmered for eleven months
+E13,E4,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,The seconds spent the night before trying to negotiate a settlement
+E13,E5,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,The shot that struck
+E13,E6,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,The first had missed
+E13,E7,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,the survivor wrote in his journal
+E13,E8,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,The wound healed badly
+E13,E9,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,He lived another forty years
+E13,E10,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,paid the debt the following week
+E13,E11,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,The creditor's son used the money to buy a farm
+E13,E12,-1,> (Preceded By),False,The developer's bulldozer uncovered a pistol ball,The farm was sold a hundred years later to a developer
+E13,E14,1,< (Precedes),False,The developer's bulldozer uncovered a pistol ball,The developer put it in his pocket
+E14,E1,-1,> (Preceded By),False,The developer put it in his pocket,The duel was scheduled for dawn
+E14,E2,-1,> (Preceded By),False,The developer put it in his pocket,a shoulder wound
+E14,E3,-1,> (Preceded By),False,The developer put it in his pocket,The disagreement that caused it had simmered for eleven months
+E14,E4,-1,> (Preceded By),False,The developer put it in his pocket,The seconds spent the night before trying to negotiate a settlement
+E14,E5,-1,> (Preceded By),False,The developer put it in his pocket,The shot that struck
+E14,E6,-1,> (Preceded By),False,The developer put it in his pocket,The first had missed
+E14,E7,-1,> (Preceded By),False,The developer put it in his pocket,the survivor wrote in his journal
+E14,E8,-1,> (Preceded By),False,The developer put it in his pocket,The wound healed badly
+E14,E9,-1,> (Preceded By),False,The developer put it in his pocket,He lived another forty years
+E14,E10,-1,> (Preceded By),False,The developer put it in his pocket,paid the debt the following week
+E14,E11,-1,> (Preceded By),False,The developer put it in his pocket,The creditor's son used the money to buy a farm
+E14,E12,-1,> (Preceded By),False,The developer put it in his pocket,The farm was sold a hundred years later to a developer
+E14,E13,-1,> (Preceded By),False,The developer put it in his pocket,The developer's bulldozer uncovered a pistol ball
