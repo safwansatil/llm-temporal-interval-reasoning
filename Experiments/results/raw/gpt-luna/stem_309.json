@@ -1,0 +1,140 @@
+{
+  "final": true,
+  "model_id": "gpt-luna",
+  "model_key": "openai/gpt-6-luna",
+  "item_id": "stem_309",
+  "stem_id": 309,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "E20",
+    "E21",
+    "E22",
+    "E23",
+    "E24",
+    "E25",
+    "E26",
+    "E27",
+    "E28",
+    "E29",
+    "E30",
+    "E31",
+    "E32",
+    "E33",
+    "E34",
+    "E35",
+    "E36",
+    "E37",
+    "E38",
+    "E39",
+    "E40",
+    "E41",
+    "E42",
+    "E43",
+    "E44",
+    "E45",
+    "E46",
+    "E47",
+    "E48",
+    "E49",
+    "E50",
+    "E51",
+    "E52",
+    "E53",
+    "E54",
+    "E55",
+    "E56",
+    "E57"
+  ],
+  "prompt_sha256": "c8de857c42bbd26df15bb879518aeb704b284532342c22c0dad251e2c1f1e795",
+  "prompt_file": "prompts/stem_309.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:32:49Z",
+  "finished_at": "2026-10-06T18:33:18Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "usage": {
+      "prompt_tokens": 1892,
+      "completion_tokens": 4075,
+      "total_tokens": 5967,
+      "cost": 0.00225118575,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1889,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002273925,
+        "upstream_inference_prompt_cost": 0.000236425,
+        "upstream_inference_completions_cost": 0.0020375
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1034,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "OpenAI",
+    "generation_id": "gen-1791311570-fzMOSaQfGvSonETtIl6v",
+    "model_served": "openai/gpt-6-luna",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE2: > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE3: > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE4: > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE5: > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE6: > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE7: > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE8: > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE9: > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE10: > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE11: > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE12: > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE13: > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE14: > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE15: > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE16: > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE17: > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE18: > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE19: > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE20: > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE21: > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE22: > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE23: > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < < <\nE24: > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < < <\nE25: > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < < <\nE26: > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < < <\nE27: > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < < < <\nE28: > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < < < <\nE29: > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < < < <\nE30: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < < < <\nE31: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < < < <\nE32: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < < < <\nE33: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < < < <\nE34: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < < <\nE35: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < < <\nE36: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < < <\nE37: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < < <\nE38: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < < <\nE39: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < < <\nE40: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < < <\nE41: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - < <\nE42: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > - <\nE43: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE44: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE45: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE46: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE47: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE48: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE49: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE50: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE51: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE52: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE53: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE54: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE55: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE56: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\nE57: > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > -\n</matrix>",
+    "reasoning": "**Exploring row patterns**\n\nI'm considering how to structure this, maybe not using just `=`. I’m thinking of proceeding in rows and organizing using grouped blocks. For each row, I can prefix with count symbols and suffix with the corresponding numbers. This seems manageable if I can generate a consistent layout, perhaps using arrays. I need 57 rows, which feels huge, but I think I can leverage patterns effectively. I’ll keep working on defining these blocks!",
+    "reasoning_details": [
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT7aMn1wgXB5x68dAShHuOqojeGv3kglj1apmxRfl4KMlHty79TcduAozOrdm1WfB6qVhJsuZJSTc-cn4cF36ASd2xdXyRSPsRGPurvfwpFhiWrwoecW0wZJaCMnK4MQx4LbxL7rKvYWG5IPZ-SVGd9joNcCs6GgrXmVNHjtNaBl-DoSJq3vJxOIHFxWyR0Z8gzUikripphYJka0zGfSc0mBpDeyEHXFTCyXF0RxGvUZkhZwSRA1LYv-gcMQNokYcPKxS0Nx1uy6PZ767ygLeyax61Fhmz9_IvVsNAEIQbVtUF86Db8T78ZuFaTpCSgF5YytX1YSEGqVfxecoeEH3MWuzT9sUK7Ld-Z636NgOTENeI1CNLwIy9M4xyZsWTFNBD5HpifAPfRscWkksd6zSPmRxr_TrPT7gKvoukY99SDR1ovWr4kr01qw4sCEKZxZ3wuUO92902pe1wC3ciVdmUicot8j3oXbofOtJyAoaZg5EQ23r-rUVqNKzTVUVmi2gQ3bjlK122ZurS9BB2pIlQsYpGUs50RnJOgTq6lgaT5fNBmlT3y2HG7fMJQhcpmB8DF3Ur-Vmy4_tLPBYYQTZMBh0exQzZmXp3lhN3Q95q6nQ4IliOhudmS0ymoOkUQy0AfwSXkdSVclQxD6mYT8NCWj_50Oj-oktfRAzzCIBbKrN0rT_ZXs1szav3-OgqxlJX-2h6cuHLIzGLIrA7cs2u5T6bd5_caDaAk_DLIX-kiUBg43WJ1S_9FSAAOScmcHjACEZ64fqXdo70YRojuBhgEsD-n8oCZ_9YipNoYNj1DbGZMFnsrDJTjlmsUXHOMgkRzyS1vWyw5yyjN-DdcvaxRN_ZVqhi61oh0zxYtknhKX2bkuFjp_b6WMnIOJv2WNMK-JKSEy7OgrPH0g3p2_9CKO0wkmZUIyVhrSgNTAmh4xWLuQr-UZUhlCdS9vp4Bc_nux4fuVAsNrD1QpsR9tnAJh4L05BYQMMy0fn1AbwWzLU-BZLLVYJKQzSFMTKU3myn2mmydP6HR5HYUHz_2GKeHrep43dgm4ITo0rxmhoKgE73pzN54BMlSHq-0nB4NlE02dq0qGuJszsLM9f6QQqS6FUObORLw27yNX41I5v4IRFt9eqnGlNf21DKhznrrRo75goUFCiZaJyxhQaLecn2wV_1uUg0O2poQBeFr4y05Pn-kbjVXjKaBeX3BCCCWv2Mw4QyRofa2cXSo9DWK-Gnb0BzLl8xleIz5-28XbbY1O6CkyzsaPhAObVTDFIIvb2jOiCvUCmuh5DOUot15WMQviqtilN64X1XTNPaZzG6Jz0M8IJNMcW9uScISTN3vS30HApOYlDcWxPhMwKdK4QS2RPSHwte2mM4QYhyUhGE6cmux5CAVcpfTDm0EvBDFEL4osLGN-mrQVIhgZTin9stAdQWl3TBHGUxcITJ6v4-yD2LCSkFJLb8yWz9NG0uPK-d2xNvZ83p7sA1pgxB-W9jD3UIMG323M6lrPmyURLav5Y4uJz92oZJdbqvseFeP26Ohjyh_WjB1H7cUudlXmQC_VJ6JdbtTcBlWWxnDN3pWV5uxNp4rnH02ofYdFGzxUiU1kyv8_NyVZFRVob6mmlZ7vcqczfA3WBAHsjzoF0XDPtfnsLCdbyFWhh6A74NTfbcvTDhy6OoZpcXldf16lZSp6_stDzhoq9vpBctG3sp-gdTI3nUIyml4JbEGemK2r2Ps4qVfLSiO_7Dm6GYeGLK-W3vlq9wBccgqRhc3axSDD110Cdk-IN7nw5mStoVLbUCWP7eNe7yD22h-bsQS6lAZZtjGEs-1n-TlQuC7Zl_azcRJrP_vEb2_yynW8gFbSUNInwjbIK87Pmy4pSWLv4IbaKFZGsp9p2fCcF77ROkR37K48n4alnCxU4E-TLEi5zaJGm6iKo8UWrrYePM6xPtVCuvajHLrKDZjFgAEdGxGWoqH-Pfl1JRk_c7dqEKOAeHwM1O4Zw6QobHjMQC7S9p24-9O_YqpRyAIs1FcqolC0xr6V8_4_Dec8hg5osHxiwTeXicqmpkwlrgiLobWTX1TxsyuC5Ft9Yr87DcVQqV5Q2XulVjxCKx_1uduW2aaZhsx2VAbi20WEkB9qgd5cTybg9GvH43mRy3OXCS8F1Y5NIs1eS-qitLU0miVf613LbkvMH21wPrIYYKobLHQm1wVjNs1VL-Wjnno87ZLyihLZUCshGW_2QqCT3cbvVjXBfY-Ax0_amt_wn4MX6iZauK_83_ZOP6JyvUOYhOdrfQWvfF9HyQ-u7azldCDZdVD_6LPhG48mWUVOzVlxV3RYSs6io9HLemOrf9FCYepSRrAQw4_Psfync_A99BaSnulzmlN1O32FcfpG4xQ5IxOYN0qxkDLBLQN0qkksaJzcxtRCfcJ0Z9mPVYgi15LIVMLoP59BteIPKm03ky74X7UvJxfmMJN50GX2JZFdD1B3CQSJ0z0AgeAksgntX1vz4LJiWqGLC7aMu-jP9ufYJ0l8Ifa7WkbklcWHWao5NDGy0I-PRC_KymA1a8M5zGN7TJqfB223gLTXXYvdoK7xDHyku3nByNirKbjyG8vczNI20d3I_fYFOSbbR1roV4C5Ds-Fh438tEjB7MPkln9Ge7yyClLjygVwHc8yDPsZEZUBK9OHh33cEWIjX2MqiLEwbez-j5PQZIeWSwbEiUwbcqvpXALgGM_YEQuUHxgT3attXB9ublQRlnYA2z1GDa-0u3Vvo_OZNi1CjxFAiryL_BgHUDAd3-20TcsTOHMmySU5ljU7gH6L_kXeL5VFg_qKIUfNaukgGLulZ3JLaqplTF-ikP_-SzZqXZChGWwTkOFudBLEV69nLTx3jEZuyEqGvzQpRulwDxzeL2jEjMSTSEiG4fnOEVQhgvfiT06JtgjTEdDdqmpM2sS0QTHShzG4ILn8W1H7lxXuhtgTWWDceY9m492NvWhj0cXacOO3SPTmKvQ8nKfhD2aftvuTgRvW7qjxqkxczsl_gAiJpkMUXbUuR4bE0X4bEBMOsSQFKomsKWVnf0QpUxWxu5oi0KXCVgLhgONbi4rWrXmHgrGSlUI3jeVo4_6d_rCUuV4qqEvMs-MJ1pF9UU8bnLWiIuCEoUPtyqx4fV4kUSUX6u7mDNJHERKIf85nBlLVoKEQOZNHJ_eUtmOvwWofm3Pdyd218LFYrf0s5KHcXzDcFYVziN5a1vOwMqkW__uXLWsm_IZ5rFdUpoHTzh8zoEEaL_T-8c6ITDhO3IalMQEP3nWL_-qNjQXZWQEcsc4uTjcULR1iH-mBVnRnNvcsiKQNAfTFWguY4ao3rx1fvZqLHMLcfeqU_ReriTm0suTS_NNah7fD3HAS502EpRqF1O0odCF5xurcHbZv2te4fuKKwIpmupmwDGlRyHugJkGX83e6ySDYKYHJFqqD1C6vMpRmW0rdM6mKjdZsPfdacB3sD7F144jQJDDFGXKhCX6vbEqefnlmqzsYnrZnMXWp1Ocgz9S5YYG-49sTNBuct5W_PDZxi1YJhZyAe59pzJqjcHCWvbfOOovZIjGb99uSf-rLsQ2hclsN6zmjdnVgp8s0Ahep_v7lTuHvgADH44mphSgAlvlMEqEVXbwpgk6R5SJOm1Z8x-J2ma_sqawA9yPH1uqvLMNond64xnREfwzsbA51R2xxGWBnHJKGRq-jSEJZqDF6Waeuvn-uCtenPsn8bhrNZwrSOyUboHaIeUS2Hjag4LqgqubWg8jJfq6Scjh5nQnZYVgC6IkgEzVipxC8NeEjpx8qI8nLHmGxHhhkiQ4PAuf-sNrw3-Y0ccPJo5hqPjA7RONHyArYCHWbjll1OCDmtrANErMK_qPVS6WlsmpFloSzpv-_pQLsUzahKs4SjWm65EBoZqIAhngnVqyMgSwrhM36_tHGkDUX9m8n9v-yZTRSdBOkXzpSb2D8iyOz7tG2NihA8UTpummRD2AGWMPNTO_Dd9yLt1-zyuCa5B_8ziwJ3hVdrVWB9cQVsTVkwZ5F82PNMx1q9pqvIeNOYvde6G-Uv4lfUs4yLCQro0sLySmEntGhyVzXH8sA1rt5vmpHmSiWejnlkkbwSPttLWQvTYJE_oaynCvSh3PS6hXAwn_ww_PUb7IVUpDWtuRfyOjY9PQ1n43yfksTzfDy9yrSmmLv3kHh5BAeoX7bwKd4mPdoFUkLn_WN0FIwlJmkzQIH8OfIb1VEdm1oI6p9GAeqHdsKhlUNgP_G7jYHDfuP4WB_92w3pgv7VJBJIobPgZ2XjRHi4l0xnfZqeXq-j4UCFtPwpU7IME3zrd15y0dywE2-djZT7klOsyEGVDASo_16mhMUV8yPdFP1BEsTDauWiIiXUn_QTGwnU9ybUXO0feiy_M9tgpbquhWgjpzJa_O_OG0eTmu922pN61uqjw3AgImUFjABESLh_zC59Wrn7swKp2wBnqT07hbnbqVodoi43o6rPIHCUpKG3Q5qwNWKdc5vW7IUm7c-D1l4zSioN09wV1zyO-UaZVaas4B8EUmwKHh-i9p3sVlMI6sa_jzq48l401WOfivVZ0PNnl4MtFKwPszl_fQqA1du-GjOUnaHYGJYZFiLCZQPRK9_w_IfUVzgWbEATGrgb5ZYqoUvg6s1TyZQXk0GIj2nxkIo9pn5WTqZZ8tdtENlHc9ibcnd1jIs32GnuY8YXWtyJT0vqEhwZKncF97f3gXAfdB4Xd5Pz0jWb-OjZrK3bltTvGfNvBL_yDWnfIqC4SqxVmurblZooAwDO0PGXWx9lGRgdMW6FZ1naM7URorK7FBDBb_Ot9A5CWtI0ln9vGoM0Oe6U8yMpHL2IBdR5IcmjWZsiTCNpyy9meAVL4RPFTke_wA8wT1OcoS8pl5v1nKa03r3yHsPBqucW6a8J8mWl4hXt2HodsEFKH1Fc0BYPzzLMV1ALDL6CrTLo2jhhx0NEszTpfUhEaN7pvk=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0cca368d2077d205016ac53ed3d22c87d1a3137ba96e773b52",
+        "index": 0
+      },
+      {
+        "type": "reasoning.summary",
+        "summary": "**Exploring row patterns**\n\nI'm considering how to structure this, maybe not using just `=`. I’m thinking of proceeding in rows and organizing using grouped blocks. For each row, I can prefix with count symbols and suffix with the corresponding numbers. This seems manageable if I can generate a consistent layout, perhaps using arrays. I need 57 rows, which feels huge, but I think I can leverage patterns effectively. I’ll keep working on defining these blocks!",
+        "format": "openai-responses-v1",
+        "index": 1
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT7gT43ADghKt24rAh1su8dXXrinljt4q10DHqt930IfzsKayWQpAw4taTsb_H-4eiRUn9twISlKhdMCqp_OxDhk5BD2E0Gt2w4qM3nWqVAZv5MFZWxBhHKStcwwJhWL54ndKYwn1ZYYccPUgxcmnhbKBvqY7j8s0x0fngqfBrmtQ5h1H4tFrswDj_v0xZ7rdl88-d0_cjGmHqfijGbZzoAWq0WT-dkXfYyGMhVPcVFrNzeKTRbQKBDA4bEzAoCgWpBsXa5bZMHzLcmI-UneGQKJOmE2jVygizR3hGtkTgya5lCcfqVWxosKfDNebPpKuulxu2iF_WHuPo7LdktWNTdx3qSHk9-Mt2arrKlG5JEuxoMYGSGRLgIVFUz_C9isGlEhIAT_7jMezRAHTdG0BFbU2coywjvweV2LshdkioyoNF_xf1pGPyQmMXnOnNbXTJ-e_OMS5q059rZB8rxL2s_ODoSNO38vs_JjKblxP6_abvNkigzk0tu3GZrsE7PoIYnbDg_hjSf60vMoUw0ZhJIflWXM9qHDXiYR2x9xzr4flS-kuL8cu9ep9fBrcNuMpFkgWvazP-U1HGuTSZ77C4AW--jAw6aMx0swp3uTdiXtAe1lQf-pmAdkvqzI25cU5Z4cbbqMWf6x9DvvuBSmtOXZEHA1EHjcjngIHzaPrT3lj-yiQfX3ePvUIz2LXCHOIC3LnDWZiiwRT_phZ6Pg7L_jxZ4-IlMvWwHh9ubw1Fn2pdE007xi1gINDD0lUsou8AG979QzSiPM8A1zch3YlBUvMnfh4_wegtjT93w9Sb-MdejzK3q_uzBaRC1smt_K6A7GpJZXvch6ofB-RxH3KqbLflRFuS74Fl2rEU_rJ7Kv0aTMalnEqtqGDb_qnNm2PtD56CFJulQM02UjMJuI3f62x7SV24YKMqAYndkkWRpMVzSgF20J96Z9ErHGIWxmikKGJEi8tWqpN49L2AS86P4txZ0seSsR3TT8AQql8qh9MOnnAu96DrmFvK1zACdUAphjopQzzVoDpr9gfvCu0i8FV_70KVGIJXkI4NAMfcRKxiT6ko7IGyVsHh3CKXftyQ6SL99Ef6cJ0CuccTVQOyK8c76mPh6l9vdOMp9x6ahUpxT35IGNGcMUr4ZUclfFiBYkjAiUvxO0XY6jlK32pibNgMd_bWSFrzKQXDZgPmihszbbwPRlzALHRASIVRLeAGS5eECs-N9JA8cFqDKavvEUFq8Ga0JfKMKJJKCq3xMo_DSqKgJj6G1WyabM4xHyVLWUcqbkThUNQ93AX4cLXK52faBdvxX2gRHcxeFuDKwjnFpl6gE5ZVdz3EFPw3VY5qk48wKLLl1oXUh5KSS4h4x3eP06fi-bVsfGymPPDFuubHaytMdj4Ic01LcZcguwZuvrJy2qssNqzQ9cHQ2L7c5WqAWJvmGFx6BNFNBtCr7Qfmv_ElxyKfyLp74RC95349qH38n7kuCAJoOXPFe9dvhwyDTMZqX-FDygmvA2VN6qEJdfV1bTCoSIn9yyWUlXJNOal-7FfQzXFXRY8oo1FNKqzsRRDnjBKKFrKoJB5NGMqsnuebnwu_PtGD-_n7cciDzcgsXea1UOHtmNCXOa2-dxa1leP7uABzH_9cV1zfLBvfzBn2HwMYCo7d5XNlnGszXbzVnLuU_t4QEILtRPtKM2juAcIU38GiFa5AzGBWDDIlMshqXu2y3w5E6gVl06EDEnVfLie9UaqTeJ-7oM5eOEfZI5yS1u0_heIauquUsv1VGE4m2CMVkp6735dT0Ko_nsl7-IY3iV_7aTklWrFHXFO3ygmTuP8L1h4BtcX-0qWNqzZDUf7TRXefUX10NIOPKclo7W74YZgcrcjiyYdUL_fFbvKRrVDbaBunq-Ne08ItPa9y7CD8Y2tONn5rmAOq-R-4HJNfogqF-KA163D5U4sRyNpedqniRkDKB8LuuPVvRnzuesm-1cH1T8jEWucUGxpdAWGwsXFcD7rYSQBOFs9FVTktImhlCw7mxuCx41-W8RIB2qyY98kHF93gpzxNY6F9x8I3RbBIRESR2rHqzRlRzZjjZPvDASYbpsna4JkY_BW8KpgT1-QITX7BE8W-0frbl1DW2ndQm2DAoy7cZV9IRzRGrAFRWpRbAP36FP3j3n6ZN0gmOqavzCiei4psVKdAof3V8TPgv1DBJN1dyHrxqbTfSw299aQTU8w8JkMDaU_18YEgksEATqb1TLAxSji-qbQrGnc-WiGzyegjmBwIACr1H5a4BV-TkyTOQYB1AAlrHjHQmz1kOB1K59RrH8RUSaVIqZr1KD0PvcEj0PsnfXpencmz1kFPeii5S6O04GYTbuVucbdw761ohZ_4uKL361XOCNROqZtVFbv9Y9OpY9uuPG2pWwtI8Hid0qL9hCGhF4cpRuRhIV1LLY9O6Uqc5iu837c50Af1AB7xFFI9ypWj_b2ushW7SjldyaOWCDIm9q73DPSo_ZqeBQA2loEcflvPDuDIKziyhptJIkRYwSVoGUqKDtWvIcEn2khoQv2DDmcfWkIVeNw-r5uvOVO8Y33cFmbsEj-JrYbgzsarICmWw96qS8nn2HHEvsT9fiij83faG-Utr0shClRq0g4mfZ4H6s3SNa8vYMWtGbIC91DKCZBW2U9iFBbelxelM_Zp7HEk7JTkQOk1vRo0Fej6HB0N0gDtpstPtfCfZvxRg05hHUZL3tWEAwt1BhUY5-VQ7m9if03QJeIxN1My-hxCG3QRf8m9f9E9m8waS1CmZAUGj46-mPUwhMOAIbRzpRqamnx6BuLkO_pKSRWVM3cvMeXNGVel89ogOQrdLSYnir8MxY_LHmUlPsmCYQg3543IPn6ASaauIGFJquNYwxcSZ2nuD6ifx93ZE7hkwn2xAoU8-qkZpFOi8vbuAI6i0mY8DiMDUtU7vHA3lZJ2TGpZell4tRagGyG9hp35JpaCNV99WdiCnwxQvGGXL0RsQKqDw3oJB3FQfAEdKhPwtUMZMwH1hLw7M25YGBl12oCIqU9jWrVCIBo6kZcBaH--qg61lpZcncSovc9A0af6-9qWuS_-aKqWaeDOn_ObabFrq6T8SM9iYw_tXNGdaVb3K39VFY8kX3OIXIQgym9dGYWUQw6uSO6a9r52xwq9itwLCgVOHjSO4tC2sYkAgjmoxrBYZ6RuwpXbgwUCMDN0pvSNGLNeAyC6XJ_A_ywzo7Ov4hJswhXj9D7Bl3GDqT5CGFbKJ4iNVMz8tXu0q4q9Egn1VSCe5HTqALi8a8S7wQ8MLxK5fX-BVT1xxlYXOj0VoDNS6REU5IDe4RMoDFuQb3HJNFjepNdwgWZe59atl8pl1ofFAqrNqDbTAxwmOO6LP6EWLi1gxvGGbsiQJ7o3N3wQJX0SnM3KTEvfveOBWqLl8q8v3mNjWJcQrsBfOzWoIrrIqv0L1yEBEcG_YOgOFFV-KHIVf5C0zV5C1o3Kh7PA0qgSKd_YGxZH_0FuOnseg8WRE6DbEqbXB_Xoez8sga-keQHgBoctf1N_UWpUzHNFNHn0k4Sa--WV4JvzWivvAsY_bZb0dH_ZERS6d9co4BvMP6wYvY-93B0zpoTufrwfedpDJNwS2xsMv0mE3jcwT8YpM9WGVRQOyPHyWMsTvaQcBw7dPgLXN6Hdt1ru4RTzXN9oJKKt2qNf2b-Me0fc7ZMgb7Ys9WlTVGSoPBLw2EcmNC0wvk4oFusogTD-_Bo6jWqa2jg0GYtXZsnOrZ7QUD0NUges9XOtlb5xhR_BxCejvJ_Mp8UA8_n1SoQPQ7JWv3ATW39RXbHJRNIWmUA5v7siXKrJYbHjCKu2MgOMuhxN9ZugWdoEj__Aun76xmL8CCas3IQtv6WqW9pq050B8K44SWDKWAhukL1COFBIw3E8VCFVsJP4TKhVt9rRA3eOiq-JIxrRdgE8J845jBjuN2WumIGd3e1IRUe8j3d-qWN3NJcP8zNu5eSjBFQYEEPG6JDPyfv1-jFcL0ZUtyVbDPVhTVFpA_ZPdiJY26xWl7oL0JQ1weFyvtv_lDZo2D4bJ80tSN-Fxc3U72OPJ-fodH3f3l0zmyL7WKvz0WLVMqBpdM4znHR-PfBlN_OvFf4qGt5wH_exApTrPYiOCSbssyJ1BZKB4Z22-kveLpuNwuqzl0wN_dtw4vpNl0J1FZFPBsyKQxpIVggrSjxZhgMDYuHSe5Qp3CjCIiSScY6odMuHokxxGUPSU6MiQAXcO14CUdYA6UY0I6gss6duxdk1IYgXcuiAL_ISMHiJaKVu6NtqKye31GoGpZQK8Ztv3MYyhVMQ-dYVH3Ee-YU8clmct7KHjBr10Zq02GfT9lj8-J4t6UzNrXK1wMc5xMibMskkzN-v6I4k_lHpehxsmHWggJN-Mz6HPqNSecsxlmOy9agqfYjKzJNcTMN0TzvfISHU6CdSoAI62ZR04mPjgUS_pNla38ixthoHRKg_cxAWsRL5vBIwPLvcSqNAY4B8zMR0O-cwoEtrt3JuyCMSLDDcVz6jpU0P0gGaXUaUVOx9fWDY6hX4OEDl7COYy-Xp6EfQ==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0cca368d2077d205016ac53eda0bdc87d19bc8f3d989d1b67b",
+        "index": 2
+      }
+    ],
+    "latency_s": 29.328
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "final": true,
+  "model_id": "gpt-luna",
+  "model_key": "openai/gpt-6-luna",
+  "item_id": "stem_480",
+  "stem_id": 480,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9"
+  ],
+  "prompt_sha256": "fd6da74c20ed3a7801b2adf0e463236f9c0274b90571cfd8279dade547610381",
+  "prompt_file": "prompts/stem_480.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:24:52Z",
+  "finished_at": "2026-10-06T18:25:07Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "usage": {
+      "prompt_tokens": 901,
+      "completion_tokens": 1564,
+      "total_tokens": 2465,
+      "cost": 0.000863379,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0008721,
+        "upstream_inference_prompt_cost": 9.01e-05,
+        "upstream_inference_completions_cost": 0.000782
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1443,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "OpenAI",
+    "generation_id": "gen-1791311093-ocA0r3wIB3Pg9HkyPw6I",
+    "model_served": "openai/gpt-6-luna",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < <\nE2: > - m < < < < < <\nE3: > mi - o < < < < <\nE4: > > oi - < < < < <\nE5: > > > > - < < < <\nE6: > > > > > - m < <\nE7: > > > > > mi - < <\nE8: > > > > > > > - m\nE9: > > > > > > > mi -\n</matrix>",
+    "reasoning": "**Analyzing survey intervals**\n\nI need to infer intervals for the survey events. It seems that E1 initiated an underwater sonar survey, suggesting a broad event and possibly covering a survey interval for mapping. \n\nE2 indicates rigging happens three hours before mapping, while E3 involves mapping for six hours. E4 involves uploading and processing data that lags sonar sweeps by 30 minutes, finishing 45 minutes after the boat docks. \n\nIt appears that E4 starts 30 minutes after E3 and overlaps with it, leading to some discoveries once processing is completed.**Exploring discovery timelines**\n\nI'm looking into the discovery time anchor. E6 mobilized four hours after data was published, likely connected to when E5 processing ends. I see that E6 comes after E5, while E7 notes a 12-hour interval post-mobilization. \n\nThen, there's the E8 sweep, which is two hours after placement and stabilization confirmed sixteen hours after discovery. This leads to E9, where stabilization is confirmed—likely aligning with the sweep timing. It seems like E1 initiates the survey before rigging occurs, expanding into E2. I wonder if E1 covers the whole survey!**Clarifying event sequences**\n\nI see that the term \"initiated\" suggests a specific point in time, likely before E2. E2 comes before E3, meaning rigging is completed before mapping starts, and there's no stated gap, so it's probably continuous. \n\nE2 takes three hours for rigging, and mapping follows soon after that. I'm assuming it fits together smoothly. E1 seems to happen before E2, so it could be that E1 initiates before rigging begins, making for a non-zero gap.**Evaluating survey events**\n\nI'm considering that E1 is for when the flood-initiated sonar survey begins. It makes sense that E2, which involves rigging, could be tied to the initiation interval that starts before the survey and extends after. Event E1 is instant, while E2 follows afterward. This feels like a good logical progression, right? It seems like everything aligns well. I just want to make sure I'm capturing the sequence accurately!",
+    "reasoning_details": [
+      {
+        "type": "reasoning.summary",
+        "summary": "**Analyzing survey intervals**\n\nI need to infer intervals for the survey events. It seems that E1 initiated an underwater sonar survey, suggesting a broad event and possibly covering a survey interval for mapping. \n\nE2 indicates rigging happens three hours before mapping, while E3 involves mapping for six hours. E4 involves uploading and processing data that lags sonar sweeps by 30 minutes, finishing 45 minutes after the boat docks. \n\nIt appears that E4 starts 30 minutes after E3 and overlaps with it, leading to some discoveries once processing is completed.**Exploring discovery timelines**\n\nI'm looking into the discovery time anchor. E6 mobilized four hours after data was published, likely connected to when E5 processing ends. I see that E6 comes after E5, while E7 notes a 12-hour interval post-mobilization. \n\nThen, there's the E8 sweep, which is two hours after placement and stabilization confirmed sixteen hours after discovery. This leads to E9, where stabilization is confirmed—likely aligning with the sweep timing. It seems like E1 initiates the survey before rigging occurs, expanding into E2. I wonder if E1 covers the whole survey!**Clarifying event sequences**\n\nI see that the term \"initiated\" suggests a specific point in time, likely before E2. E2 comes before E3, meaning rigging is completed before mapping starts, and there's no stated gap, so it's probably continuous. \n\nE2 takes three hours for rigging, and mapping follows soon after that. I'm assuming it fits together smoothly. E1 seems to happen before E2, so it could be that E1 initiates before rigging begins, making for a non-zero gap.",
+        "format": "openai-responses-v1",
+        "index": 0
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxTz9AKGRA5vFo8N0usXO4jwkjahSDzoPEaK1W6xPF98_3sQZ9rWOCZiAZSxu68HTx5tKxco9J-aB6h2O5i30wkAA72XP1p3n9OcRuHv2az18sznSH1j9EH3VhNypO0PpG3ZLcZwcPPcEg6gngGS9Cm7eC4Z4Pr2S-If7EW5HNiG4GVd1iqaXj_kIOK5wEj3YA8NQioSgIyHQCDc-oRI-ThEw9fYhkdgcwojWnftzQTJj4oTSZKL-utWn3OfUyqgHwuk0Qr7N11eweDpdz51It8NFjiOydlJEAUYh4fUeQVmpiLhcfmNpW2aAl2i-Ttj-fwwDw-Tf7JhR1dMq805KtDsxoB281hvdi7LpJMBE-uegWh7zCwFBPi05LqePBMhLGfYrA5UEv1dhI_4-WLXt7shILI-1VNEQZiGaRsVhXoaO9E42vN7LjmOjPI1cDiCZC4S7tiVKBXtmuReMbb_LSWH88x5NWJQbZVdgqO1hoJRLf7nnm8pduhzhw-oVRi2YwGOlppXofQCH9zfTcOu1Rnmam4hiPXUD44k90QkMTGswy5aAD8wjHSh11jXRDTgXM9GsQmVE4L-6IU4Be1erGWQJCslZyubtnQVMVVU11LenmQRxODy6N1fK-Qmd1EsyYnh3h-xLdgXCAfvT59OorA4GlUuB-q9_p9TRfKbEnfHnbc6KRH6sMB201CmS-GlOeCZrc4sdXoSQAWWKo8G6uNgyimpypJdg-ZnjQjcsRIgdM6rEumCtPkrsTNK5sUmWLcx-n-P0D1oywVBS164zgGBuyij4gCgE6Mpdm9ut07z_fTP2GQntzvdPJL30UsqFRLy0emVDFT4uCTZak-HVjiOx5m2OMlNxO0rQ1baMWJSyJRaNxsW0T_4s1OqY5ON2dcNlYjyXk68pXoRh7oK9zcvGFXU2Bm7f_BZAvRQkQbhPc6mJxrWYZf3PvCykjJ1YQF7E2mR6oL718PVFUYsSarlihhH0p-gJcPA0DuUvgSKLDqWj2PQDzBmWy97QTpyb9cg3enazrOO1zO2YICfaVsyii9ZdvI91_K-_hkLrZ2GA7axwYFChztaT-udLZaDY20XKDZDHiVkZFousnvok2aNzWutnCrJUOLhc5Xrj8myE_T_4Tt2IWfCYS_5niv11ly_Z5ScWHdpp5uTj-sOsAJWX3eDMO97QKqalCgErkPIgTv_W7_6H27n--4x65FYta5D1FDW34qoYyewJaIs1zDrkj7DRjHihL_YpV1McXBobQJN1I5oxGjox9rYZ0sKmwX9qQ2PwEfFK44OxLhr4dHUpVhXjNMGu6GVw4R4ksWHIzOnzbNzKkXLD7gDpn1hwBBYiDmyoJYdmuW1_iZAfrTRY3e42dj7g0uZ1ogrSrZpwpoPCaUSLdajFl62N-lj32y76Rr_c0-0N9ddPb2jy5Bc--EnB8gGg-xvTlSqPZ7eMZ8TUBhnzOxceypQJdOYMWeKvgB8ZjYL_iD28JC9fpl9q3i_i07bCdo9Y5PtZ2gkOah5bD58tdQfNcJMvGtJcKREqernRQ5CgLgmdSTfnB31vcnM7LU3faloCudhXte3SZLS5JApQo3kK_tSXF-5zvji0mjf39NJ5wXnB7y5LUqygGceV5Kptr9do8ap_t2T7Tc5MoxdtXy6uHK4zsB1l2E8gRkU0pEmdBi6Ne2qinPda3FE1sRsGyUojVjajXOQMKPaHY1AdUemrYJx87LynpD87uBq_q1RPVre6q3N_HjrIijsP-UX96jY2P39fGuxNXcIbe_21a0goiTf8DKJLsR7KKb10qwwt6oW5VLNis-g4cdK3FIfuftbgdqVFsU9yQBiSWcRM0kXefsjclwEANNbgndn91WAryJs1h82afo6zVCBtngVApj0h3cEikV0xw99D5MUowoxXobylT2MjMNCN43Qcc8z5H8nKgEwapN6bb7cXhM1DlTO6KM3KfoCzNWv4fB5qBO6ZCoMdYms_JBqHwRcH-t083iDT6rF-mGuTBqPAMiH5VNxnOn_SFijiFDhHgZd-x_gc5ANvG8nr6marroCE5ghpCot3jS6s5ivSMUU0sg-k2lOwEAZK11zAwuXdBTy81gBW2jSffq40pTwlsYoFS06-dHo5VU7w42JpdCrLpThkWmDnNsKtCUCT27-1lGiCfjuhf5OaICin-hHt9IwW-P29lW-ehlgA7vvtoIpN35eLHyNWcrZvWEzb8k8YDsa9oi6CmYI3IMivU--Y8JDL9zBn_rMi50yhcmZDgM7TyEtO-Kni3Nx7uxqJ9YMTW8yoNiY38q6vg2YJ7ehoJzNBzweefnwcdWBAXM7Z-axf78cCDkdN1m6UF6UADWetCvsBYS8cflWGtniA00W4-nz_EeWKvDwHGdFkVCRTSIacPZK1S0Gb5zYgqCgQ4aPzUQ2v_WcqAYiWAON7Np8Ja-4N5-HxkvR6_rpxX9bJeYweUPhc9L1OynXdq-m0mv5rvs3s50R8XEtIs-jE9W-L-fDvm9DVPfyFK0B-2UE6uookAynvhEGG_I9ynssxV6O6gPGuQV2ci9u7ugMAFqW3AbGu3oS_-DfZ52UKuWUrZllF3WiAufMObRYiD1SZLu_7stC5EbKJCLLvmftQk2K9f1_XC3aJX4NZclaaeBkCKT0d_NSNdQGYqa8BMfGsEXXg3Npw5rFdHmy_yAh5ddaJM_bXfF1IkaHnyG1m5-yXWPfGyIueczHYdzgDKm_QMGD8TvOS6PaOrPGr7MTSQ8vY0rHN2ysNRNa7FEhlHWuqA-DR-nTems0ENf0VcU3FobYFq2RUe45_x6sjeClyi49wnlOf6jSf1ZN0BL4bOS_IrUkPqe7iwl0YzITi7gOQ0D7SPGhzw9cynib99vsAiRAEtjNlpsfO2gDUd4C-PZWKllNYaHK4P2ltMbumsvRPfLRl34i1RCtOxLuHLZUR1DM38yO-6h8MWNuLCcw85aKJz8Xx2m9mVvDbZlT_ck5t9f7sI1nQqE_Pk9NmTQsXHVtDxYbn-v0tU2TudwE7Gl9Eo3_C3Z_HWc7OCPyVKn90QjxN8vUOU2a7rZY4T2WLvod165-jrVfEhEHic_3FLk7i4nwus3j9rcLuRTysutG9mWhVH9WRDF0UwUCQET_IcMfgYuplGJ4O3IfGtQro31jlKaqC3qn7CtxjJuG1xBGLeRrq8Y8DkdhylhA8XCyyreJXwyMZ70MRFnSwzJMZQGhsVYG47YHSDxHGGMAqYFvbNmY9NqN0oocGBiypGLPu9eGPPX0XTErLgTz-sb2uJmYa-0Ca28JmW2l4PvFpKnVzhAd5S469pkSKStvh4rUBSHy7AQ2Wb5mP1C4yClPmPlM1HcpNCw4B7qQJuoAbvyJLQ4vqpXkoBjtPZmG_gRr20i7j5GKJZ3hrQkYomuUUaTX90XHeZBoXWT8n-6YTBxxix0c3RKeciEJ9Jbtu0JYVhdgYUajU9c-43Xp9OMk-Io7Jbmm7JvXM0T-2aWR_r0NiKmkjRs8RKkZWomOR131mj88zOCAaj9EY2dfpP9cP2Ei35EWI_Vt4_vIl3W0aY4i9gr2ccUHXAiey-QzXHzLF8FBkHtoEZGTpLRGxh7DZI_TQprL-8wYmtybFVM3o4drZzsd_KYH2DGSqTz0yMCFrEg6wGSpDyDlJim0HVRro6o9DNeqGXEGJloNqeza-e7_TFLLAWrkWHvOY6A6M0LiPAaYldJOYJiaOdegpsp3_32jiPAGVLizdZP4iKc5G8ImaCG8Ruvz84lXOkOAI7mcsmOwwXFyEtlcAaQTZlv5pOJPVmwH1s3KcNOfbgLwU-asd-Jj-OEhMGdLQ0brh0rcnYfTok83Q10Kk24L_AWvMO2u7_KYJweU7-_R57DBdkjJsBEuLJiZChTwXXgC3lOEQxFbSdHGdBpodZCxhc5Zk7u46OIqYrWdopJOMzdDsdgvE6OmiVRKUlglTm7PzBVtFQmknGPR99bn27RuiSmyt-tuW_fkKBE230USTr6ShH-hchgZR5Ssvc2YB8aiao_iLfianvIvbXHYF1oPt0MjZ2tc55_hlVN4AKrWxo-J2gD_OAZ_4zkVMwNUDLD1KfIt_bJduT236bE7SY4UTGlXn2CgY47JQuscUG2ysP_XCiIS4CylQdv4vOPK3pLRfIh1QFXGW9JGqUkRPd6B6_HbFgRExRDLmIxBIQrAFc6huCGjkYLPmjrQ6TdJ-ZkbNaDi6ITk-FJLxSflTYUsCLAXMcE4BmubV9iUu3RYJTueP70Yb7jlAEQ5crSW49fTSEdJXu7-mIDgr-Dh2XSDS9ON72Vvsb7mI2BuWErLRDSSFnl7_3pRc9KJNaLXdcD3m-VH_Xq0oHdJ1NZSrxS5k7RppMpR_MyaK_Y3fn4kpuhdxni2lxEkryWajL8MVikQW1BysxooyFAGb_E2vXafmXCbyPsRF-2g17T6i2vf9WyvueINyZ5ij_zYjQ-s3Ie_zVq5tB7F-YV8PmNva97cGwwHGFZrpIg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_04cd6ac0f149f38a016ac53cf6a9b887d1869cdadb1d25a725",
+        "index": 1
+      },
+      {
+        "type": "reasoning.summary",
+        "summary": "**Evaluating survey events**\n\nI'm considering that E1 is for when the flood-initiated sonar survey begins. It makes sense that E2, which involves rigging, could be tied to the initiation interval that starts before the survey and extends after. Event E1 is instant, while E2 follows afterward. This feels like a good logical progression, right? It seems like everything aligns well. I just want to make sure I'm capturing the sequence accurately!",
+        "format": "openai-responses-v1",
+        "index": 2
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT0ACkVkx7AQSMg92oYCS0-k1DsvRDlJIVTfFErJyfy9MvqHrtNZaGHRNWIK-64cwRgnntKYJtO1bt9XmnxKgkqojGp95V9Uu0PrjhS1GTD-7ionbJfAOI9sWN6G4xk9pgPU1INeUtyi256LWMiAfW0UsE3xlUhjzWPD98r5Za3CBerIVavovqRbNdXwQScNzG04-zUqRVBRjsCEu8rLl2KgZSlyvgZ8zU7Kf3zz0T2JnKMY_gs4wKl0kVrDwp0zXeocNgK61ju_Ih_OGaHzx2u-EVy91U7C5Awnc-9r7JH9VaUFBIm-Y3zAtQcIY77s4yYM9WHZRDHnaBcfes2YowH1kthyN4yLMWiA8pWvJsKct4__dwBzT2G3xmuiTZVoBQ2FKGNpO1IaXDyBm7S3zCka-YCyyVtgVgd8OEsbkHwpMT9iDADk-3TwmicDbacZKyCi6tb1Or-DSKDzeT0d5dgWshyy7Cqu58I0xoYTJ7e2DOBOoyOEqsD2bwrDC7crWGhjHoq7yUe-v0H_YOGpN_bnpPf16XQ3WI6FjVnusibVIpRMPBWYE0DY632wcoBtOUXWt6OOGobAHnSbQb_YPmA7CK9FNPd9wMf552y8_SC49lDUR_kuIg-dUo3KzVDIIUO2tTvuoJlXMQWw9oiC6it3_Ie76axKiDjVGGZ8Tue1GYYuqbeMXA15Dfs4wxGHJnB4MYvVB86J5HJipDv0Uf1X5oXwhIT2BKFHFI_0ke5ZIMklNjb0EsW2AOF5SIGUpyeXLNTOGdXnvnXTZLGa-P_gcDNIkaUhuIgu1gBnddnT4MqsF_tNeukpbi-wbNp6g3gUrq8ivs7h4UWvYnpqlgWSTbKA7jqdUL8tY-0W3f9wt4jKuBldIkBG8jDX4L1C06ffNpeBdHDWKk4dK5GzQ8IieygQ9I_0h8zGqss0MuUMX5HKojrX--f8DGIUEbfiVDiMT94zx8O_a2R5Ri1oMjM7-_yu65YAnjy97XLftpCdTzCxWus0Avo0IeDDhFxfo4_V4Rl9aUQRCHmsf5SEFNEduxotOFkhGdsrqJRwhjSODvI56hEHb-bIzsB-ZkTiPu9UxCOdN7bt8G1s5Cdfgmz7J55gDyNtzpCNdOuY7gqBt4WCjOBPn-t9zznnzxsOGhHmw2plvmtR32A3kCQjP5rm7QF9Mar6K2f9nb7B1EjtxPM1M7ypx7WmIRJUyaI0UX9X1JGEUfrEu5f42KVec6eD0ipAXbJECpOJD4-tvXoJx20WE95JN4rbhFeddv-wdvLhE9j-JtxdcFUjl7vbYiLrfYe0RTmdPsvqVp7rQY3T2lGrB5TIbSrchh8VW-P4MP5cBh6BR_TFLJ7NYjTMqptGZlTnS9u4D3VF-KQhtQ0aVSpy-Kki4kUtPlnu0dxSrpuldO1rc4_NaxSs0KjyhSYoQHs28eavL6uRoQwsr8vpcaRmJM72_V3bNnktoxXC4RhybEf9X4YPsVoxQFTw6bsGI0YnNzzW0K7QVsTwUv0b2i-1hOlI3xy9dHwBNzFO_Z5febp9BFmFiK15P4LtE2XvHX1nG433GvHIujgwDdtlOlLIV0LQcXGBBMk4M0aQM6FnyY85RObrCGLxzlPWK-F--ryZQM_xfP9uCVrPFcwMLJJ_refpmWQvs64RUYC5wf02gLcAhYmonurWz9bp9skBhHeufkrCkI_gcyhXrT-1RIpl1cKFp2963NNnVuPXPUbtUC7cLcTp9oNw7MFJcVfJL5RtCQuHllkaKj-swY9r85zNnEEUQ8Y03HL78S5ATOuKtdhoQ9c8ngw9recGvfRbx_8Kqr9xQ5F0VzsICBaG4Bs1bTrJ-PwH1DrhR4fxkIII2ASIgJAiS1SvvL7Zlz2aHp-MGGVb20_CLy1NppsXIcIP3SlyPtNNfMHmqV70l8znoAjaoDv2AMqycNsFX_cwBMY_dSgC3r2b9I5ZhvB9P785QoJMT6YUYaHxC9B9mUpRoLE6jsJCbp3Q0_IzvVaX075lwgHRzN12TrbHDLNv582IWJY_FWH_fjAJBNi5i2dbR_wXT-g65_qw2mZw1qiE6VuZwa_q9etIkl2WS3McTn-9dsjiTrGyK2Nx4k8oIH6UkCqeu4rv5fjMiU6cQBX-0mKEgfiCzFK9Hon5rJVVNAMTQQl8xwFHlz0q2lFZqFKzWkHt1HeQzcp1zHBUppJQvDFiQrl4sE81Hd4TOjkmQn1LNU-4jcpoOUvCk1NhqviHM8syFGp2ZZRtEVPjRzjZ_VajkKBUF539Z97q9HVkEKl5LyKuMejL3tYTcjrmMSoqDNMS-uR1qLC27TMdMs9sUGJUHClz_lbWBvVn5zMYlIyL5QOp0OgWDEiPXglDUr2CjMVao6IW_Je6WAvKVJ_QS2qi1qEW0hwyplSU-u2BzzJLqaWXKAAzaosK3sN7Ot_6ZZ6Ns8w1dHhe4-ze_MdchP3KAAaPRAxKaP7gVLoA85x30YjcKCBIU_NhRuXuTzatQGjVdNxrg9ui1jwi31cDe5YkOeViAdvloQtT85suK0FT8UrOFPTRAL0XCmlelN4pLLSJB-_LssBiFOft3FavemQRQx-sMcqzYA0v4P8N2Nw4WwDd0rF4REl2sRF32eZL5NYBuUXig1Q4VyJYEZ15Q5bL8Jpdf65c_rVz549EaULwhOK250i9SGR4LBKoFEh004dguZh42jxYLt5LID5rtQLKjv1kh1SNKvNdy3GQD0b8fGifKZnNW-cauSOtjfFtqAJIqKj9Y7VOQz-59QsRuu_9Skb4WwMIZWb5s80oQTwGIn2xPeSV_PWL_J1M4eF6dt4YrUytOaJVKzhdmwp64jSWnguy5jN2yIkFKJJRX1y1hYDJQF6WGONGgN6oU1NZrGP24QWRyCf8SQ7MIWR02b9Ass-b2nZg3YMMwMRGPL1ZnCMSKODy48nFhdoLqJ-_w7SI0lR64U3f8x_RJQ8E-R0aYEcJrr2rmxAwRd6QzPYK3TveGHb5lVuQ8i9MGRcO_JCIjglGg2JtXUDo9tuV2JKKYbVdi3V8vA-8E-yK0lCniz6BXqpR2h7mqk_1vioW_mIBNtCTJloFFfwoATvXoCvj1MNV_uSHAwJhCEJjZMZ-dMhgkp9LV8cE5hdjCZ9h3E5RhvUxelD0QiPHkqdpyH_c7evb5BUNQnvNI4EciBDUq4A8I84l1i7UBouNzxKKjnoqO4vlf-h0Dfg2Prq6uXspmy0uyn_0aKjZkF_Zs-YC6tSlFSD-ogR86PzB3FLV5iMe6_0jTlf0_MKy89PTHK4FYCxWkabH-Djaxh1fWOMURBlcyJALLAehr0IfpaYB6iC66NSKqrUiTWlMcUl4RbCjvK6iJ6jd1dNiWRyE-AKcck163Qb-RlcJFAgEVeKUoFghKCqFdaFJd7lPBYlwFi7gzPbm0dyusXPvR4Dq4D9qD_DqcgEJcAIg3O_yHFXQOdoQZ2b08fGgpp2a0rMv3uGkQo8y1LY4kJhjEOdDZ9pXcqHL2Vt8kOGYGmBrQSwuXUD9jr7gvi5z7oPirmYnmTnZPmEzeHLj73PgAFA4_IamFBy7-LSKPChY1VqCTPQp76sfWYfgD4k_nXiC82xqI3ZLvvHtCVWlyjlChdYrNm4=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_04cd6ac0f149f38a016ac53cfd97a087d1ac7facaff6cfbf46",
+        "index": 3
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT0DggXt0s3Ikf0aB_L_5-POQ8Q7v5Qwjb2acnZTjNCjaYiKN95asUzT2BgEWa8H0qLwfbRwsBWAqFBxcaW8XRMa3V_tkkxrCftfQoFAtYLBlBgpVnOtPNSsvWUI14f5cH_jSEUtDrNI9H4fjvRhNG_IYx0hLma5FhefZOJBaHevuKlR97Q5zlbmoIiBwImTPRy_lkcdNs5a-CDEcZbwQh6KvayrjfdLJr7vju-Uu7VHd1cP_gd7ffyMlf4BsqPRl7gv2RKvTbXifsgwHXAUmuI-7q1pRjCbTUcFNVIICWdOgHCJe0rZaEwSqTB4pX2uGk5Fw3CrAKnGkJ9U3eFX5JLulXtl5s4Fp8l8dGU4O1uUygI_mb7nKOls1PFwP0oeNN68aAOr7zCy2HgemIjdCH_mCzvergQXi9OUYQLH_uZEgRMl4lupTxHS2604E-IFKziUUY29wDiNcbrUEr9oOi5-DEJHZhtqBpnhE7qhyfnJtiMhwtN-rOCBxz8Xmaxtc0iTMylBTK2jQMCxlXdAYUZxixJNBPaNw-bQjx4vetk8AQ-rVlo1RJISFAHhuI7i2vePswcfvOZd49MpWf221dYnVEKK5VRMmVSmfRpjhpqPVtIpSEEyjowl-eolDXOwFON5CPX9_eMtGq_Od5seqc7wMJgwtq6bZwDsEW_-4XPEl696NtcGT6Cxr8_5waBbrgt1Wnr6UtUP8_v2ehU7yFMEmQB-aLmdnrNdM96EONFlbEPD56u8QNo_xsJQ_cfv7ofY8uVRANaUw198XkLyshFV0xJy1x6L9Fc-96qhQaBAH7DcreXgKlin6emyzP-CRmKqFHC5U47tKDifHJpHRTBETDKkigr5iG2T0JsfEa-1t_B4vhXQf_J-OoHcW4kLsrH8AdQRzg7vrQQHhiu3ghE9kJ8tohXRicFFFxccaWlJ5mSPdwFHV20DHyvoIhJuykelfE4lr2LsEXhDg0ShqFpmACvY1iXfNjHlD6oYa_ibKHhMx9TQO_exS81a3DiZcSdGzxGCIFUsIdYBvWXb7Z1wVV9E92583Dspn_QRLsl1O0K6w6p-_KAMR_yrOc24JmLIOc-bnod7N3ZsDxDmPr1le3gmqk1m2el1Dd9vMcJ0ml787RBEqOddWDZzD0jn1ZZrhgyGr0xTxCYefusehtlxf3heTkrhmIZl3Us8wGN7imNZ-HVUDne214hiBLhNYUlmdrLvN4I2n7hRGwMr04pxbHTsGXoTW7LPF8WVibRy21P0MqDZkV5rPeHKtItsjUpXJaNeFe1ywAaMkG8Zv4XvJ_MB6eSmvS_5dD9phAH78-J25D1Bt3gf1FC9UsmKynfFIoMPcKaIXgtmRACBQGWWkFZ18RwweK80cHp812lntMRWBTdj5CsUId9vCk6CPNSphkWkzjhXUTGwGaOfCgPBU0qGUMYVwhVfkgZBTuNz38INi_Mq7Blf6bWrPPur4y9Px-VNveZ9sZsMurn0sBa8qkrLrcE-4rbthE7sCy0hSnQHBlXJyBijBORtdiJMjFBuMGl4Smfb5-1mQCSL0ue7ZSxqMcb24hgfxRQJYvY8Vo3Vs0fzsRBl4OfvAefXGdiM36kwjQ5CICfVWJ8_xvuQ3HPcsYwJAglwoR5NsvtEkVEmlbhQGV84Ig-WMY44ahmweJBBLAEQ3OBanVSctJgdvbvQ9feH_1hXWMTUSkMfwGm3nWQQwZmXZzwoZqwhCfx4ELsWlLG6PuvWKcPHCn2KdmJjqMGOhCFfPAPQNtZT9U3kPVNoTTAkK44jOS3cX_6hiZBpEgs1slndlAQWlhzFPBUbt8hxm5YQdWzsKnMMbEMIQDP6UhzzY1BgOtG3hIUbGGi7eyw6XbR3WWoSWmgPT-j_n-Gg4fIMaPpXrt9IWx7s1l0ufZKJZa7GElzTH0E9ejSWeovffzdGtivMA1ySCDxXzhCwiA5nbL3ZcoOPCMGaL5BwUgIsDJQlfGO50E4BlHFNg2CqAcCU_fq2C6h9OpFja4hS3syfxbxHeBSYNHHfy5RjhD7tldOB8eJnAVFymt87qv64J9637EB3U1zuBeqGn1UI7pmgDW17wHw1NG4Ht2vlHPHJ6QKHED-yhOgv3ojhOa4YoTI28evex-3CEi470jG6EGtgfZA1cgBuwTAQ71AUhcr75ZELL0YXZpES65kv4ACxsbUZGXQMudiWjfcCMvxdTf__S2jkLH8kPlCcWrVbZruTQmVqhPPnWErwrf_vQgHiqeNX_Y8XIxGl7LcKNFSnTSgJPpFdwCopMG-qmED3ypGPUlIGCCGH1QsWr7XiQw00a_Kni0UrJ_OoDcld-Yu9uoQGkZ2pGaKRM1NempzsFkP449Tul9_j1VY7-HTZ00y783OB2YdhBdJpROSkWr8VYTTD1s1Jy9sMomVgPUrPzO1i0YWA6JN9UEfPCdwEttMFWZC_lLmzKcsW8OpLIsAXkmk5nMQCfLnp1DGZkB6O9_uD4gbqZhwHI93dvA2V1TDlMPS-fyzbWUD3SyeHk7WI98GcpVzn3N7j0su2AfAhxU6UQga2ytgtv7Pt_M4r7K3qwPLR39WfLSpsDOrfKkFlDUyr0SHyLFp6mOHk5LPJ3UYZZ2__0B2_RbX4EBa1EyC3m2lnSFPjyuDA35ENoyu9H_oK_yOCGZRU8aKjoKRZhYGGKupi1d9ibD5JTzONNqYEiXU0ObT5NPXCq43C0mGYvEbXDqJ2-yDcOgCUT-ppZ9rPk3zFy4IerKD8DHzYZMR0ins-rxH8EhrUpW4mFCBJibZtWA8eRrSROasiPXdFAXe8WDaR604WAyEztW4G4FjiN9wqWxtTe6J4NoB0KhqCUnQI-bUzsmxySA-nC-oo3QuNT706cOsM8UclspHdffkB26k_j-eCUsrz5c3Jv4tNiVZZ78ytTU7doCbiNs0BUVVkmH_5-ojU-FtW_9cOPBTKGeALAV2jZ-LfBjKDUipb5r_7SvCow4i6R-63i8fD9FF0nJDBrkxlZpDCezLrE1dszKiow8wCpoqqqZS1F9K2mtogYGJtnP70l1-YSbZKV6H68IgD2d8F_58ny80gwWy2aAFCTI5ytwAjBDn2unuNEwX09iVHVbkaIlfwWAg060Y0pW0L06X7HlAErHNc6edjCuv3wqctDRk0qX6R1RoIaol5RK4E9nayiSaqq6KzeVNu9-rUjNw3LNVP0YlupndvEkaxWSqO7Anve-Q3S8sz1mDhY4U0h3Z4r04J1s3Z1fAAnyNlKSlIzbl60hRVU8HEfIX3tuTu45xZ7WECs7DrCgQ1fP0d55KKMDbaFvN5uP61hA8Mu0ZxUWDDEQfHRidEFRLoLuJYDs8FNkMQdZv6gRtS4Y2DtX7q380sBW9qbiE8T6AKSMVQcHPoBDvsKPAXpF5dsG0XKTwHH3MTR2xS6nNls3iEwi5lqaYZd2gBYLVC83RuCl0d49vEUH6I0HZqIdG8s6vSqD6pgqM8foCbvruRTBr_ML6AIu5eTHooPsf4qnz0gNEWLG0QWnlGO4cL9zuGvq7Zo0eIfUDfeE_SjOwP46MSND0ztMLKcx4VV4M3vAkX9dEXPkqY7dSYTK69Xs-Nv8zmdjoou0E0RYueJbcXX4M5dffLq8eOCkwVcHnIJTctbNUr7IwEv_Fm20EoBxi9x5M42QXlSXXb9R_LUvZcZgmX8McKcYAxzpiZQKSPf16sxSRqKlUbtSFF_Ov2CWXi2z3GG0WJZb0jB93nT0HIby2dArAk0nJkrtpqJT7UMM3VhB_nTBejq6gBpViXBCikLT7fDvTCzASH59vzW176emfcsqWlctk4lc5xBIVTIETScsjs7iM15AXvGaKG-jvoTt-r-L1DQ5IZINHlPLVhVtJSMzhjZwpi-2XqVT7-0MYtc8kwHIWwkoHjh9QcDAv_ubL9WwyP23fkEIQXGEBmON2vRwRM0VzMeCtw0Gdw_Y_KznbpZUQa7eB-N9VeTDvBy2BJsL-wObpUut6-WphZ3todN4R-soD18jTaKNOiCZ45_nLBlWry06fFHG_3XrYmRtjIBqs-WQ==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_04cd6ac0f149f38a016ac53d0048c887d1bcee4558316955d0",
+        "index": 4
+      }
+    ],
+    "latency_s": 14.563
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "final": true,
+  "model_id": "gpt-luna",
+  "model_key": "openai/gpt-6-luna",
+  "item_id": "stem_49",
+  "stem_id": 49,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12"
+  ],
+  "prompt_sha256": "5841546f5b151084221556f2e491d96d247eb8c1c242ae286b10f9dabd20ed05",
+  "prompt_file": "prompts/stem_49.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001443",
+  "started_at": "2026-10-06T18:16:00Z",
+  "finished_at": "2026-10-06T18:16:21Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "usage": {
+      "prompt_tokens": 1008,
+      "completion_tokens": 2091,
+      "total_tokens": 3099,
+      "cost": 0.001134837,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0011463,
+        "upstream_inference_prompt_cost": 0.0001008,
+        "upstream_inference_completions_cost": 0.0010455
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1900,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "OpenAI",
+    "generation_id": "gen-1791310561-kfChSaqFwx2itYFMHzQc",
+    "model_served": "openai/gpt-6-luna",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - fi < < < < < < < < < <\nE2: f - < < < < < < < < < <\nE3: > > - < < < < < < < < <\nE4: > > > - < < < < < < < <\nE5: > > > > - m < < < < < <\nE6: > > > > mi - m < < < <\nE7: > > > > > mi - di < < < <\nE8: > > > > > > d - < < < <\nE9: > > > > > > > > - < < <\nE10: > > > > > > > > > - < <\nE11: > > > > > > > > > > - <\nE12: > > > > > > > > > > > -\n</matrix>",
+    "reasoning": "**Inferring temporal intervals**\n\nI need to figure out the timeline of events. For instance, there's E1, which involves teaching between 1999 to 2001. Then, E2 is a graduation ceremony that happened 23 years ago relative to the present, possibly around 20XX. E3 mentions leaving Comilla for university in the same year as E2. It seems like E1 (teaching) overlaps with E2 (the graduation ceremony). I also have E4, which refers to a death that occurred two weeks ago, adding more context.**Establishing event relationships**\n\nI need to clarify the relationships between various events. E1 covers a teaching duration from 1999 to 2001, while E2 is a graduation ceremony that likely took place around 2001. E3 involves leaving for university, which seems to follow the graduation. I suspect E1 occurred before both E2 and E3, indicating that the teaching period aligns with the graduation. It looks like E1 finishes around 2001, making it sensible to order E1 before E2 while ensuring the timeline fits together.**Clarifying event order**\n\nMr. taught until 2001, which makes me think E1 comes before E2, and E2 occurs before E3, representing the graduation before leaving for university. It seems likely that E1 ends before E3, suggesting there's a gap between teaching and leaving. Also, considering that E4, which is a death, happens before E5, the travel event, helps further establish a timeline for these events as I piece everything together.**Creating timeline intervals**\n\nI'm establishing timeline intervals here. E1 covers 1999 to 2001, while E2 and E3 are both in 2001, with some specific order to consider. E4 marks two weeks before a trip, and E5 is about a Tuesday morning flight. After the flight is E6, followed by walking around before a service in E7, which leads to a discovery. \n\nThere's a flow of events leading to a eulogy at E10. I’m reviewing how these events overlap, especially with teaching timelines and degree completion.",
+    "reasoning_details": [
+      {
+        "type": "reasoning.summary",
+        "summary": "**Inferring temporal intervals**\n\nI need to figure out the timeline of events. For instance, there's E1, which involves teaching between 1999 to 2001. Then, E2 is a graduation ceremony that happened 23 years ago relative to the present, possibly around 20XX. E3 mentions leaving Comilla for university in the same year as E2. It seems like E1 (teaching) overlaps with E2 (the graduation ceremony). I also have E4, which refers to a death that occurred two weeks ago, adding more context.**Establishing event relationships**\n\nI need to clarify the relationships between various events. E1 covers a teaching duration from 1999 to 2001, while E2 is a graduation ceremony that likely took place around 2001. E3 involves leaving for university, which seems to follow the graduation. I suspect E1 occurred before both E2 and E3, indicating that the teaching period aligns with the graduation. It looks like E1 finishes around 2001, making it sensible to order E1 before E2 while ensuring the timeline fits together.**Clarifying event order**\n\nMr. taught until 2001, which makes me think E1 comes before E2, and E2 occurs before E3, representing the graduation before leaving for university. It seems likely that E1 ends before E3, suggesting there's a gap between teaching and leaving. Also, considering that E4, which is a death, happens before E5, the travel event, helps further establish a timeline for these events as I piece everything together.",
+        "format": "openai-responses-v1",
+        "index": 0
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxTrpaCflA9YiGHD-j71jkG3xfVcqBN7wPqhDTKjipSbPzirS8YAet0a4RBiBn7ETH-2rZApI_nSMZU9GeCwFdkd661E25d-adoeaGefeOWasAKuvWw6cVwuzh6mYTfZGXp5KWdq8CfqKObtvWL8SlV8GbULgH7OVvOD-_zPyycHnzrAwF6KTqMMI6y6va68P_pcbF3B6eYtHDB05YkWtaomVrPlQTlyAu7XB_iTkkD9wZGUTt9i8CDMp-CfqHxnQI4gLodhoB1ZgeoA_mRbgv9ikeoufZmKpaY9ZADktjlkO2NaFP1v-gFL3cgvzX81GdQVfnYEGUlsZG70PULcVUjzs1PdWafBJkaE76OFfDVB_ZH2COrzQRsYWZEHEOG6qTTSlceISzBH5boRiWOyZg2vOCjdH0C-hraW66WgaG6SOqk81TcgUEetGDSRpabM60IREeILFzwqxbzSh_498MM3idvamxxhBgUYrFHovNAYpsK3KaBigKR1fdWybGf6VsKR5vWcQKhwSpjyOrbjvsT5SAz1HkPUlGCXowL6aFCh9wZPKtOMhGJJVZvzI-onLowbW8DuXRC9CBIDo77t9vffvgDrEk2k36sEYDtI5UL_YsDXgNi7rqA3BehPtMdw5WVsnFbxi8aJCqA4BzVsPIE8k2JDqwpYKoResC826vaeWazaJrOGODaNQFDZNtpROfIVXPKYH7xo9uDv3PTtAZ0walFnNTkoQEy27RmC87jPsIXMux0WuiZTX_yFmcc4PGPoGJ-ja6cVtqaPVKlWUHvPxyB4yVvXKVf6t6Io5tp0lqhfEjNj8b85mybnPoO2KmzarVVTtwZvCDB7a8VxVN-19XTK5SWdopMtZcCHKzZLMlyH4nkx2ZKU1PQn0U6to9Eu8P48ar0tfDRKVuh1pmtBn_VNwNDO0P8gx2nRyQeIi5dmQpSaL9LMC9qARevxMnzkcXfbGAgBS6QorMGSCnZHq0QpRHii25pI4aZb079T9LSH0368BWviPqOEu4i0B1xa9kf3f9JVU-XJJ9E0_Bz7AmFCywpmzCzdJn_FSCAp1OVjPmZEl8_ntShXeybP2RBpbjomCNCExGMbIv7szxpD6DMjDBejhLpSek9NfDf0kEHn5oXPjXtAJI2Z7KJikGGwSbIRHAiKFYMQYtJT7gYNXVKXDoqJHDSzjd8PAgCi92GaZXEBKV9oOsahKulP-Z51unTPvNRh5D6O9KzYzv82yT_2DHXyxZS9YF3I3cSApMISZbORM3frpq8rTYiPLubdtsFGPzDHeHSFlEw121hXHfH_XQmdeKPb8axgbWxlNXDhB-rdDZDzBf08DX6fPyClRIO7kQFvt7BBFSEd8M5YnK1lMTG9NojNyVrO91WSLW39W2u13lO7huQ-TXwF7j2QRPNIsWIjXn6hmmNTVnId5gr311AyowBBV8buZEPzeaJm22BYGJvZ_eRyCFU_aMFRkBWfEiRaaNSl17hrNm9Ah_upn0SeT5bXWYxCTGcZ-eGEvpnXxsXijXYyXvk89pJcHEn7OXU-OxSLoaql1rOCAwDocbx3fogOcZj3-pyTiDfRRWIPuN3nviSi0jHmrEFRM9K4hpvjwFcie_9JWWoHnms-ukDKte3Y33RFp2xhzxOyGd1Wo44ilq5r47Scf00v_rCDbZ1CS4mLxiKiKyO6Q5Hh9hN-hald4SydFPSP5QoOrri6ixE2H9x4d4FsCPTlKzxlWEgGd10mOkJ12HTIgk5xdO7iLmJ4fr0_TRNf09EQf5JjumkinqVpnoDZcQl5izdvOoE-EgvohRAj8tqfOI7xj1wgns6rDfX18ZEFMx5XFohnpRi8jJ6QPTRhSFfvwanmB2I0fmLiIt8icOqEQ8CZJsPOZMJG8L8rTILeSzUmB7wwUd4KlzpkMrZ-qT8ZVfQqT3_ndEnwbIbWYJJaFHhV4hoWJtDzFPlHabaHwA7jJH7FhMC8XXKKPxFttm-2USD11FY_CTZHmNp5ZZhwXEwxFQTfGkrYLeOdkQyoNNWcKW23c6vfHyXVHa8i22AC8ECoSb7FlprOrHL_RJplJkdv5X06o7JjMMTNwDbB5-5omH-LSsHose-WdwqzsjSz9VlQQ5texwHbsBG11pzrKb2VX4tW5qTKDQC5zDxhsrTyZsnobFVJGyDUbZWZlAbsK-BKkBsF78GOg_ethhGKfVwajU64IPqDWbV7CWAWufZ5Tf5JACWXhVGtOQqi-SsSH_X0cBS3KY7zv8ASihdxEMSIstOsYQ-ErnfAajb6xu9ee6WmJI7vePqmjG5VjTN3fMm6yhl-kN_TrPIOibDde95yhvszcOQqIjvJiN7akpYO0A2vUICXiUIB6m0_9uzMddmdBhb7-p0kmbS5BF1c7vkslJms-3Sg5cbVMZmT3JQ-2SuGFzohR4B5Fi3fpRQwIRnjkSirt_nTth7iOKU6S5uXU6beWihtK8ckSF8vwjkwxO7lWF71z_wQMgrmAw7eq9u6mwHwjqBhu2psWQLAm-rS45xv6mEkAqOTghKVqnT3dud9qa1Xp9ENQbqj2vzV94C073Ea2cOpVqrTq15UGGGxBgHfwCke10be5622GlAtrruxI0NCaxzdTeXTu7urOXCd8bGlyBXd4V8_LAMvE4ZlveVhB52U2oF03zf3CWwgsWAtwyA5sG8MZPfjJNSjhveqaAvjeqyBRj6IGDmW5rFmhrKGvxlcHwRaiHDUPRkfTVOUL0TOj4KJLgfvo8-4Kuj7nQuos093mFA-BJfCiJrtPosO4M7CpwRFnE85VRJFCgFfipdSd42JHbLlnIaWmruzwIwaq6HVrZ3Uxv-DPbXyIZozes_b4O842xnmaot9Imhhsyf62EQOuIX3lhNwNs68bUOpujfyesyFRRnAhpMqs4O_qOvWEwM9hDN42fzspVV4okCWSWbaKcmvY7ZiQxm9Pt6yzZHaPsPhqqhfDM3ySauXOwBidm_Ur5QZDcA7lgL24_QFyzX-IVwwjus-OzX-GEeoI_OWFTUSim8GX7PE0yJ2JcLNyKtZ83kufeNVWTJuQy3b0PGFPtBjQ53GOcfQpcKpHgU1r-paGcfSi8CPqy8eXwxbrZh0tFFkACV2XCMw85XjkNYDOYeC30t0ri_OJcsTcZaqhgTGJRJ49Aiu5okXR6AfAmFZHoEjm0-OHNvk7YH823bhqy8MOLCSzQeVeZ9fdtMGxRuTqKANgo5cp4YteZf-J4km21BN2yPReOa5yhvZNSWyecoMOKUM10X4n7nawKRPsz5RrTPcz0mAiHJYpCQ3qt3n0Cdrw_xV84EOJzFDKZE-WCnoyytETSC-0MHOs_zvoNjHe37EFq5wSYqxNbX0AVBWs4BpaQDSIWVjdRAZ2mjVHB4_OG0c-KHHVEpgNxtQtZM6Ef3-Qz5A1_pA97pW3fQ1lS3VM8Oh6lQhFPfxENR2n3Pacu0-kVG3Hkgx0fD21vHl92xOzbfyqfN1CeLj1ima-6HoN8IlsHLSNFSYu4KmZrrW2_Tz-ro4bUT7V6VYyL8JdBwSeLVrKYCJaFpVoZxEDtvHPYoixyWMYXWClFP_TBmBvE8_7pcWoSgNbF3JdmeaBfbkbBN2eRUsZcm-H8sodseszjh8get7LZHDHFiaRsyklvpevmEqPGG-b7lCDQkTIoDn-VCsQ2x41Zr4HhUnuZ8QI3gU8f8Cgz1NfSA3D5aTM9iI3BqV8m1Rznt27RUwV6ULO7B-qPORljLyjIHh_swg4sfauL0aG--5qi38wghDv09uErOdMlTGFf4917z5gSGGeYYlmYDz_dZKM6ZLvxFXlqqjJauYGLWKr8Ta5ZYQ600FpHOp9zGmf7O_s-1aCIIsp5JGNnD-oWDfvbhPavCs5GL1qbzqGVQZLFyoMbEhjJTKJZNpzvuyU9cIJJyJVLK9KgQWMAN_pgl08FI0r3Bpz_keAfLFJgeIMv_7l7-TnxWptgIhbkS4b96GaBqGCg3qvLMdYZbzCC826BoV2muse9Fp9nejVTrtfvCcajgJnBQFETf7uN-syZUyCsPwdzTV0Rn5phTHEfqfxQEYHzbo2lq4tPHk_-FyEKJBbgwm6NIjuSoSZdpufFOlLfeqPHweQyqH6Z6bq0mPdPZ6vA-ok5SUTiMmxKI9Ko9Ubs8X1fdTZZa1k2DBaz5ZtdOVNrtugjAnMKRiVs2DEE6iiiQwUibLXC8D-3kE7Y4mqdHkiyhuEKD17-uVLrWh5xiAcurS8RA==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0e1bd1c760648a99016ac53ae2d5f487d1b56af7aa0a2e4a4f",
+        "index": 1
+      },
+      {
+        "type": "reasoning.summary",
+        "summary": "**Creating timeline intervals**\n\nI'm establishing timeline intervals here. E1 covers 1999 to 2001, while E2 and E3 are both in 2001, with some specific order to consider. E4 marks two weeks before a trip, and E5 is about a Tuesday morning flight. After the flight is E6, followed by walking around before a service in E7, which leads to a discovery. \n\nThere's a flow of events leading to a eulogy at E10. I’m reviewing how these events overlap, especially with teaching timelines and degree completion.",
+        "format": "openai-responses-v1",
+        "index": 2
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxTrugjOZU1KXSAhYx6jqIYYoLo-d1_eF4UmrsDdBoHfvyblW6U7yuglRvR4DrGLfTEonNq17CB4mR5k5ruy_PKo_0eGOFSygzDwhgJn-D5lHmM4xvAZEqxk8imh_1aaHaDoPAq7z4R5wQSnQWy_eqNtzDSX8y6-9US_DGVCpBucQbWF07EqJ-j1a_p4hzRhG78aCBHfmrnjhfbcfRvXyFHDxbnz0jgKkVGsTkY9daI3ZTyCBWP469J5M8nYG6jNNmbidwD-obO1NwnhTXI5eJNqRAo2QWH-FMQI-tVuqCVX3aDiMCLkXLIhPuYthUXEa0FZpafNsS3ujatXOVhNHpnibxaMyMvFMpPyQrqFL-xWQmPDe5-xr5uFiIIVZiWR4bf3rBAhQdctBo8xI7NLDTO4haBfLd-hZM1ga9fGvSQHOGk-6VSaVAyoeBv7PwH7hbNJfAiy1wqZxB-9ZkiGlfZVwAV1u0m0hhYIX8UwVCEVQTR72fDLTITIwAcusKHRV336ANjaudKc9FBatzdF7RC2NT40eAAfvMXP0RtGl9f0kvkv61SgWzrbqX6ZPn0bmc8Azn-V0CTSpyvHUroKOL9T1rfX2-NtKq23RddDo3nmv-pgHVew9lCruM3eMEYODRqFnluT159fZwBRh6C4plQ1cpofHf1tslq32QW_F1piFoAYpTFuAyQaJBx1go0CFMLx-Wr_olRICQzfrkqER5lWKqNYa2Oq_MZ1WG7x1ZrARYiLwmgoR6MD5W8KzG9mnAYKVJS-lfQV-_mknRJixX6uyDsvG5fiOYNMBBBM_Qw1mxar5haVQXcEPwedARZtQ51QKVDawYE8TVo6SyJ6R8A7qXD2H2amL8oj_DgrOhhzv5xD3aGvskhABs-ABv9N4PZhzlV8YfcIuADKZt5QiK8Px5L-XKOnmtBoO6J2fYyWwtBAdMQmNoRlZm8XUY10Xd0pBODmwc09b4c-AAZ8kIU5XqndTwxRDd148_BklY2e590yxIs0KC8p-Sx6A3yEyFvybnqC4f6MWePsWAf1uzdeDgUzAreWsIbCX-Qvj5Y8UEnqrLscaxeBqb18qff5swOuwWrq8pCmWVZlyWZ5hgfMXRI2FGThAR1YLV_iyUAGloIOUFkOv_wAnyU5Voku5eUA9VEMfbkeBBJgBkwLSmXF-XIQU7o5YPYDJERqvunNevVfdQ9Bzm3rNahqWv-y7MeZj2vO7HJMEXY1Ts1dtsMTU4E9hZ1drj5vy2Phv0OVHYhe1ShfF8DZc3CIpkPY6V2hhAGeauZlt6B6O4ZAZbp1sRihtbDIsbQ9p__-pxJy7umXMs4XLw-hWiJi7h6JSjbR7P8yRStAp7ZCpSqMvHIZlFn2230X3YhVRfoQ-NpvYsL4nIBaDez5ICL8uFdBarOPV3kQbjvgU9p19kNXkIVvgS5DlFO8WPiXk6NXURBTdz1zte6vOTx_B8fqbbi0qhiKFc9aSiM_i450HkkqbDhLuEwMGd7VGMf7hSTXrkT5e8_LH4WF4NPuxh0bxxG3q7MwnOKyKhhjjTo6DrFSawqaKPQVV7xjwIao53dXD9Cu_v1gA6EUaZles-QK2sWll1xH1KHCqy1VeaDg9zGXz5EcvaJ83A-lV5LoXXdMwsrISHrCw-YKdYSypnNDA1Cj7EOB8FixR_MqXffznTLw1jgQzhK5gqy7ZVy2hkAvoIDGPsI8iPsyYfaysxGrd_ET5cfXhpdEhjCMeo8ww2rbj7ohfPlvJ-WdjNS4vEc3vz6tgU9sH3JYpdoI9NGhWNryUA1Wg9SSU-_7DPjlGC4A9G8Qf_stHYAdQUi9Be6TWjkP5kadv1at9yYFDNq8Hd9nypoklyLr408z4Vxl98U5KlYJjgJC-uHbSdZ9zSLDTYN3cfvQ30yaBiPvBM5w9fMIF-YGiLnQGaO88pFK911teiEED4dVIEVGaONkcvVtOMkjjJsSsuG0r_iXmgKRt04A3CiI4tnA59NwhZl1LzskYlaK_S9NtLptdof8klP5eq7--uy5gnSTyT_Tlfs1a4qeJsHJFEpqkqEBSt3YOHkdnqfyj2G3qL1_ufxq66ptNtWDhxJdZ7NrgTRIzKLi_ohu4CvR4lOPYyJK3JStiCOGMBHF_P8DXH3-_K6Q2V-hLngRGhmb9rgzwLIHWczcQakYftKYCZTf6JQQG3tVuNupplHgI2i75IKdN_FNlKAWrSfDFKP5U9atwxLTaLI7RKWk9yb72xqGxA258A5xFPI0BT2q3hN2b7l9uyW8RZGwnDN-jUwVo1QWCb5SZD56j6wg51DIh8Cj1Fq2xRBZzNsh4JmMZtsuhTcR8mjkbmYqJZofFnF-CaWF_EUoyiNq9U5td1o3MOieXD7mpiL-T3TCNfFTaE95CFzhS14LGF-J46M27A57w_Wzm0q1eZJ57oRUqsLUYmdL5-Vw1DDWI0KsxtbqJmqaWq-WrFZKojkWlZ4xqkKSwXtQT51pPO0qt3YZL7JSCdZlO73ciDI0gb43K2DRWSg06_81qM04SWXxFJgBIB0SS_-v16yqgTitcOoakOT1eEj3HCMvESfQGJuv3k-BjhtmA0mVvxRRy8KjMhFlAy3x6WSe_glLTrc-ffMbnNqPDvzw9diiALTRrDk0vzu6cLi7iOQykgQZ8bpO0hOp4rf06_bDTivaKeP4rQiOcq-m7l1YPqHj8Zy5mUVNwr6CxO3ufPvdFXj_feE4K2U0-RGt4FqQWcwQW_5MeGLmDEDGFIoHdNDewLAGTcZs9WdjRr2C5lx-bfEaHRKgmwggcc19mjYjqZXTK547eIR3aTRovvPlQ7cZIGg7p91dMSes0PzV24XmCyN3QikebYCX7sCPrAWNTekFpqig8RMx3G6g0DfD8_4t-w_Tx-bWLaynUEPVJ05SNSmqklmSggoM09f02yEe4oJkKTKEdDDsPGK8hqiitWyLl0-asCSS9nKLL1yg2uxwmUhJWDztdxKZTSzTCOhv4AnXv9_rRQdRc6vRfHNEFJfCzZLetCjlagQq0_rvAOjLBV_E8gW8tgke9ArH6-A2ccRxHSWUqC5qOJnaXKDQkWElPO-c0aRrNwG1r_6VsWybVHO56EDdXHVqK1axlBRIyPwrfV-6_CI7FR9YhsXETCg0enelvvD5nVFs0R0YX9u4rPzuWsXr3C6eyMkFIxrasNe5dkciLuCtIO5JydHrxzoonEjt1dUBFyKoUShzdi8NJDBeMf7vdgDCbqlGe3Sup1it2P44i8KTo_d2BskeiGwCwj2QXoH30A05hTX5EI9rWn5ol2ZT59Quocdrv7ZJuwRJThXosp-835efdgaa0Xg8qxKhCnneZXTZAXXDr10hIBTECS5JV8DenwuC6p0k8PJMzZQr4982qezzrAd06Vcwxpo2JSKx8-5l6Ebq__grAoZ91-5mGta0vjXPCZKfSYlCKug4wEq4sGKoLb8OXkINal0EaWpVewqMFKgtXDKmw6M_Vw_cilGdDLCGhKlAFKx48xnrmcGHZ7W-kCxBVM0hn8zy_J7TOr__Cjy0r_Sq040RNBhAWC9Ll1FHQIoDjETo7Z6JHIRPOw5XHNj3zkyxeHJSl6JBLW2c01Ng8MTBLCxld9TrBluohihEWA4k67rDBMnAXKZp2stgfycYm707PuLLgFciBHY_HBmBbcaQDJo96sfZ4chRHx0M8GzyQ_X7dZQ3JzS2FlcLT-Fvu6tPD6Y9taBMJP0M9BAupHroodE7f2DHbiosHnJT2pybfMjMryuwpkD-mOU5oZUYMpfbWQvoiuaKYPHl5FpwqVcBziSItiUSJY1XoKa3pdmO0SQGJZtJfsejL9BsxGpfYCVHgHK14lXHOyMS1kmEq_sl6qt-Zj0FyT0LVV5ZwUK2BMCDNp2X1Kqxk3GoB1Z77pcS8ZfIFInIH5yl6LbROUBVsAQrsPSvgXQItdvj7ouKvdMctTF5cESjwQSXc63ClOxLJU66q4GOtdPYWXQ==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0e1bd1c760648a99016ac53ae9be8487d1bbc912b9f9054cde",
+        "index": 3
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxTrylsj1IyECWcznmKrRGuhJjVNvdQGU4MPpSH7FKf3P0L4wMUYHCT1l08MArdWHdTkJe3E1Z_Fx2SnIi914QggrpedRtLwEuBKlBu4HvZXvXy8Zo6XASb0IorZsonHg68msX368PyXrA3wPWIfrEnZbIMv-AJa2b-5Xo2rdBxWGQuaWppWP7u6ZdQnHkDBr9lwSKgMGm8Npqa37_aVEIPlPXlsINg751LXum3GjIRvoXH_REX545vXqcDJAiaUx0QJB8z6iMmRq2JjP7hCGIU-qlnsgmZ0A-Kty0YGm2TTVWvkf0NrNoFnsE1UjRwEMFaN_RoMNj5gZ8bGmyTnC1yBkHHsNqk_fL1YJza93gzfHCGN1oNl-wmcn2xhSCQLQJjB9cXGClpCj-qJMFyeXe0TFy-PlNExTdf-jav1Rij1zy1DjfGRa4fAEd4lkrgm-dzU6TaUN2e7aIpKh6JBhx5anHUshEriwnbYgkNaG1Ib1DinijlkcIDy2rLaIwqnbdVzs2NQoQziY6g-xQqFi9GkTkGozpzb5OLe6wpKCEISkMIRAEH1NLjn5OGKVL_8pjPgVHYC4uG7PWPuLyzKecuHYR9ht-kRsuPJwg_ZEu28aIJ5AEreIu4qm-A32E9PqkM17nJJyqvG0kU-Y2LwLXs5TP4T9KgR_xaAeO2dWj6_k_l7_TC7Ii1cVBuh35hVSwk27enx2_Rf5ITPl8_AcA0RQ1Fr8SX6cR_zLnOnFQL27bwOSmapAPlA0LriUHZh2zx0g0PvjLlqYFvLTxiJP_OMNcAmj8FkQynBUGZBIej_h0tWjooaVqvtqAI83dpl9AORK--VsXLB-plEjktAj6f_NwWVdPJ9_dzjus_W0WAgVOoStM0yBk4e3DlzgL5IGVSr6Th4_XKKABKED5FyoZ7aFSoFcBSGcJbySHhJ03NQwGMa3rnKzqGPi_esyLDgT7xiA0xfMtXg78TKmZoGcSa3yFALvyUbhPG91gZEPzFGI7WShjKCciJXcCQTWDJHa18ViAdQC37W1BGXhjGizNWyTj8t9AIVTvGSbLejyVo67HomsYn8X9PH584rDLBD0iiIFf6hqcNYGcH1OVDTFvtTHKjn_J5IdU5TpMljU9yC7JCFeuC39yVfIhm1bGdIWtb_Eg6CQfofe65KsqlCrHOLmsquY483tXwL0g1CV19MXB3JHsB3Mny3hi0NErwQyGfA5OCfa41cIkCLw7TVx35j2j8J0SuxTLj71FxFp-RoTpaceHQBdcXXHAgQ7sAxXc1l9NabGG2SelQVdvEX3-5zv6PfOswu1siWG8S5WDIoIMq8flxdRm2V5WFsog7zSfof-jA56ynvL-lgZNGW-N060P6G3SAKV4FIiyvIh2645UPiaCGqagYXmBe_RsI-Eo1hukm745SBivORGwthBQpvSbOFa1vXctefMOxC_CA21VQcIR7lh-o1q3vbpu1NZb8VWbStGKq2a_qESgacIXGTJM-3TVnbjvfpsWzZCx7WJxs0cH8Onp1zfYUzckHBFoBBAdrVCw6Db3yabni4IQCHTFbomtexxYueGsEYTSCMUBEhTH5DCxVk6Ff_OIZF7cdc124EtuqT088e9lBKFPHZhartTrf3Pla71FoasVqTEouT44B5waOELLCCPkxWTwxglucc679oQWZxR8vvSAneD47Fj61boJrHgw8RxLblVKFlVmtvq3e_JD_XzAJol4CCBj5153WUDRAPLgBKjRAaWEJUKU0WVSjqJ49r3S3sovlcXn1ONDAQncPJQyFkEECpHCtlIZbvr9yxy6ljGzd_YwyF6ALT6DDz698DUiM483uikbfiIec3Tn_d2xhXTYftGMbN1GaIB-Rqbtb2kwkzVYoH-om-skANnR3X641WiDRwXs0f4b5wFVRmcfCP9d-vw5NPid1pGwJ5FS-wj-U_1U2zd_KH3DONBO_2LVxGj_FkLXHVP06gqznA5lvkkcy8UiAIy3X_FHx4oaE6FFxB5JaNkKydwKgy6k85IrbkiMLLIjonaggJ9mUnaLqxbc5m2XFpSTavc1RY9JKk54QadcPK0hUa8B85aCwxM6QJRVCPG3_RCZdQKFCBVTmiihmtSx9IOplumt2hg7OKAmzyD9KRAYBTOVzFCdDu81JRyqIGqLWh1q9aED5hoCTsRQrssClC4liwK8kGeKSoW2FBdslbwdj18tyWXaBA71RuceFDSXupvql-IAGfpWjWVKn92f7C7MRiQ17xXXxJnLaER44Sf3ghhA3OpvcdRytWiSPGxif5zRDJVAuZOByHIKAu89FrAnCGPB836h59ZDQTE05vn7LrADt2kpJ1qPAPoIP9TDSWzoGIeN_xXmkjUMVuGaNBzwqY1r8RWkcpkNJBi_2AdFTUVkxAH6-mDu86bO84l49lBGtYqJg2UDbJG9lJE3P7aOFX9YjLdx-4KHWM8L_EA7RxobeF2E68uXNz2WinipDfEkEzdQguOVaXK3g_eRh5-3D5-osST3RYFtLGOXLBt1-V-D_gaXOxnKu7EHmK0o5WhoPnIfzV8bmubFTgM6mk5vlNMkugEZ4o-cGNpHy13H7awUtGOdPOOuCmfIElksYzhd2Yo6HYBFNhTvYh8a7YJ6YBv-S-HIrPuPr-yCCt-_Ky5qtl3l0i5pXClctBBPJKaoLpGBlWUcsVXSyUxOIZdQcRAMepW_wNZfVjoTMgiVlfc9i3l619NDCD8-ydYUzrRisCFqzj7UX2Z6PKaMAgMYKVuXEEQ6BlroV-sl_0eKWANs8IvsCxiBZJ8iUNaze6EMMNQvC21jxh1co3WEgn4AVJhfpDoislcMpmLKJ47roEACPtARQyrJs5JEuqRPOC4WK7ALbdkgm6Fe1wFluuBpINKlCFSGM_kISXK2RILYM7qP8db89KrBOhG7CH8koh7L-lUKENOSUoKUiXg8Vcc0IqY-Qqjn6qK9OHsSQASlhXVAgdgoQCH_t9HiuZKatjbQv0rK0UVDtwlk0Pseu4ySv9kdQoslgk3qKwzFBpJCkNF_R8ZrTUUIcZJjVQ8vAVuj0cdRjCeSQYUFclPLVf2hYOFKzI-gEBbgfknOiL8mNwjAL9-vvkezifFn6K_6TPYE0KsMW6UD_q6YTUKypYXzcg9c_4Dkh1IdBKwWBN6oBGDl7w3nFnoUjoxzj75TsDFyvJ09dIQY94Y2cevM_w873SxpLY3mEiEePtMTxbag4BmQlDpfHu3EHnvWEZYFWL518J6EenVX84Uh_uoN00xhvXN1EZTAgn-cEa0vqVyjZ1iWuall5Rs36VvT2mmyl6WNA7l2XDCjdQUQU5wejl_cB1DgFvk5i2hhjOvXy--A-9uthD2xXlFHN5gjUKmIofIU4on-P8GyNZgKaohtegEd15GwANbYK62CykxHDvaiHxeYIfvywCh0pacZBa49KCZdUbe9h2Iz3-fhvI0YpsujuRZIdUmI_2oBo37PbnqoLX10go3m_IKgEncmiWPNYBp_0Ux8WGdx_8zcq6rXVL2GzKIsRjGKYihQSEKyA==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0e1bd1c760648a99016ac53aeec47087d18869025983478195",
+        "index": 4
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxTr1QTLw_rLButp5uBW54xXnm7dvj9yLMmseLurpgEeCbJWOyIamW6ECZD5iRvNDIn5BhV1UTY0VqTqpJdp2l_r3lomenh98zNty_Ppfr6g30mcCx7Xuddn_C0jFk26hL-I_I-u9iSbVERQnVcTzu5uUU7ViQmnPxhTko5KqjGkDLmTu9dGVDGAnsjq4vRVADzakPFZBDRB8TRLAOk401O4mQLs4oHmlJZB1H-qqVVSCcoUuPAbnqryrI8U8c-fT5FO-Bz8ehzeh_88fwuQA4yAH_cPOnYKHqY4gbhCSHOWIx3x4JqKUpGU71sT7TaCZ4z0qmHPjEvZQoTXMa1OaxmInm9Upe9wHND74JTN_p9ecb4pO8OD2VfNw5g7qDEB_e0gSocw_JF8-yTFoednofgLeD0T6ulMtc3J4jusZgAIvubNmaRxP3fdZrIwP2IiwAmfgg6r_es9cihMgVNw2YQEgeTpgZTwrysNnSrwldgIauiJaqitDr8MXpM9Xy_3-WL_-X5HAuSh-jdeEoc_purVQvhtcbqkQ8FWMKFArDb3F9UorO-RouGwIH2J8HLUIJH6tCoJH8XgUSyGWHUwCAgYgjBLbOw6ODzMNvcIWlPuJLuObj2DX6Vg5FXgNdsy3HNXCQr0p4wHuHi2OfCJX3BfW0ponSjgl9mVvHWv1NJGkPnUZb2qiXv5clFHnAwfPIzC07fOajXao5B5l61SGiXJQlG0JsF9L1ocCce0KwzYnQjeYJwWLYMMAR5sHPTctaI0QiDhOHnaaWuRtH0cfmNSKMSWzloCf1lNBbzqQfloTIc39r-oW1v_U5u1UGw0GPcQfNwgYQEcQAF8hla4qQbyQ8Mtipl85zFKxfA-55W9R8Gl1gQLxEol0RnJROdRZbmXegY79iNrYwcz6t-fgqDGgWeQZ0dgSDrx0p8vqDlA8g304MTfRe-WN6YyTZum-HMP1jNA2euJLkCGfyhhyjPupY-1yHLYv9eVSAWN72TrYP63jMUgNJEtMQq4TJhbZ0wSxZ4z03H0o5CLha9vodmUUoTDxBh0FZPcqRfRtO9sJdPPOo7Nhi1aMW6glpDsQtv6AS4fDaNLZLbb8kRQ21vzJIe3OmmVD6e27lErskVFQxB3SUrUQD60fRW3zmjFvlwq51J7olb59tAzfyUpYq3GSzE-zaGuEaI1PEK722Pe6vh3JYZrq4Mr8dxfSUdOBVwNWP8vrxDU7BAXvHRYM5FQDdwhOEodhEOZzVHXkPzvNZUwv7pYZLSMcKshXl20jaOLvy4DOUQD-zVJY3R0k7ayuq6Bz-F5CthhdGSt9NU1jNNul-aZGMG-ZBsgNaqpQWIwxAyGLUS3DKHmJjOp8DHtF6r7H0Bfnk07XsY6ZJU5I-6QYFlVQSbx554BCie2JIplCLnWom2XRCQYuqE9KnQSMiWipK4GFtEOE_DyWml0jyeyEMPmZ1CfMJ1et2X53D9vJRlS3ixfAwR0TH9TWQAXvXng4OndY2UhlqRI0PTZg7_bDMrgbyoUD57CU6Ng1LMqemjBMXTXLFG85eY8KH5iD8O27ChtTqfmVqWYO9MfHYckNoqTE3LILcYzjBac7Ves_wVtNCmo6wyreKyki6ttljb1ilf0LvvvYURG6DtKS_S-XpV4tjdRu_dg7X2yge48BetAZBxy3OiBeIaSvfBxj8F_SCGNt7QFyPdAlQUZJtONthgkbAWBgGHrAq5fxzJs6VBSQenhU1G5V1jr0ADo-WcoxYEVe0UPfjqzHQJWhirRZEr_kWPI97zQPnhbpimOh_fz_sm0SVtn6RNnaWvu_WAPb4gDUhP5YLGrI7GRhF4Ji521LkJPK-rWj4TKy_AI0blWnJ3Nk18XKW-LWQLzvPEpJ9sMHsV7vHNKKC6dfQ8eNViByKIGZfMZTY7wmrEJgCB6YRL7jjIo09TeHJWmPuXnRpZjuk85YjZG10VHyMM3RsA47RC2TaeA0qFYHvEqdrMCg2baJbFyf9FNnuy7oxdYEcqXYdvOn33e3GLqfzTpFX5IzDcfSyTJyZy6MjjhKfDdFH1msj9THPOTCDR3UbDIiwNuHoP3Anz6uGF9PQi5Pyc4qfkaF-YeY3Z_BXmFpX508JnGAGtpQpYCHw_LcFhw7dbScSZ6Dz1Yo7dcaSSa508Dx9QGpb5A_uDkP_YSTtl4658wHAn7OL4pyh0NFUeI_krxokASzotT6WqyRR7wg85T5Kqtxr-aJhPOjIEft6OklqFuqJjWDo9UqV-uGBeOMvPyzSznd3h5IBpInRty_2uvefBQdPwH9DdvwvKkL82hxsLy3u45JTY3OfbLZaKDzL7J7cXZGnFlElOkmiAOD91XZphkNnr848HIB0FgEiWfnED1XmWYqorv17Z1zNEl79ztmGm5hfQWyKVR7JKT4xqbASsBkj60DK90i4HW5bAEGlwV13w2NiepsXP1FBjwOZP118fnzNhV1Bl3fpvj54Vl7knTADRwH0xhXJHv5o4PAFmzLzFH1U35T_XBJw5fsZeUXJ5rrzutoXN2kPoJuYqf1T_UCEId3aXPxXAxWTinoMlKIAdLRqx32oIjbrGs3RGp7MUP8NaJ0Vc_VEUJr_9GahFHz_8HGyOTJ1KHuc-JB15bUO4eEIh_MwvRNFRUOQ0QzX2cA-tH39PKDl8DmRhuDyDSQ4UCS297bSzXV6rqO1oqt6EbBHc-aiGq7oqnUXoDfdeH0F_L98grUyqSGosnihBVuXOOdE0lXXnt-.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0e1bd1c760648a99016ac53af269b087d1bc8ddc8e432a8279",
+        "index": 5
+      }
+    ],
+    "latency_s": 21.375
+  }
+}

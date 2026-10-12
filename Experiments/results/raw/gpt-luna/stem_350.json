@@ -1,0 +1,110 @@
+{
+  "final": true,
+  "model_id": "gpt-luna",
+  "model_key": "openai/gpt-6-luna",
+  "item_id": "stem_350",
+  "stem_id": 350,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14"
+  ],
+  "prompt_sha256": "f55791baab8d5c3acb562636329b891dcaf1f7968de5f610ff37286a8d1e0931",
+  "prompt_file": "prompts/stem_350.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:26:27Z",
+  "finished_at": "2026-10-06T18:26:44Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "usage": {
+      "prompt_tokens": 984,
+      "completion_tokens": 1670,
+      "total_tokens": 2654,
+      "cost": 0.000924066,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0009334,
+        "upstream_inference_prompt_cost": 9.84e-05,
+        "upstream_inference_completions_cost": 0.000835
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1420,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "OpenAI",
+    "generation_id": "gen-1791311189-oNNydEv8PY49onfrvCkD",
+    "model_served": "openai/gpt-6-luna",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < < < < < < <\nE2: > - < < < < < < < < < < < <\nE3: > > - < < < < < < < < < < <\nE4: > > > - < < < < < < < < s <\nE5: > > > > - < < < < < < < d <\nE6: > > > > > - < < < < < < d <\nE7: > > > > > > - < < < < < d <\nE8: > > > > > > > - < < < < d <\nE9: > > > > > > > > - < < < d <\nE10: > > > > > > > > > - < < d <\nE11: > > > > > > > > > > - < d <\nE12: > > > > > > > > > > > - d <\nE13: > > > si di di di di di di di di - <\nE14: > > > > > > > > > > > > > -\n</matrix>",
+    "reasoning": "**Analyzing event relationships**\n\nI need to build relations between events and ensure plausible durations. For instance, E1 mentions an event since last September, which might have occurred before. E2 is about a planned dinner in March, which is later than the previous mention. E3 raises questions on when arrangements were made in relation to the blackout. E4 indicates the blackout begins an hour before the reservation and lasts until the next morning, so I need to clarify the intervals for E4 and E13 to understand their timing better.**Mapping event sequences**\n\nI'm analyzing the events from E9 dinner through E12, where activities are impacted by the blackout in E13, which lasts until the next morning. I need to establish a clear timeline for all 14 events, ensuring they are logically sequenced. For instance, E1 occurs before E2, and the plan in E2 comes before the arrangements in E3. I must clarify the relationships, like whether E4's outage is instantaneous compared to when E5 is called. The blackout impacts the sequence of events, and I need to ensure everything fits together coherently.**Clarifying event sequences**\n\nI’m examining the sequence of events, starting from E6 to E12. I wonder if E6, E7, and E8 can happen sequentially without overlap. For example, E6 might take time as it involves lighting candles while ordering. Then, E9 occurs after those preparations, followed by E10 when they arrive, and E11 after they've eaten. Since E13 lasts until the next morning, the conversations from dinner presumably happen during the blackout in E12. I need to clarify how the planning in E2 stacks against the arrangements in E3.**Considering dinner and conversation sequencing**\n\nI had dinner and then talked for hours. I wonder if dinner could overlap with talking? The phrasing \"They ate dinner by candlelight, talked for hours...\" suggests a sequence where dinner happens first. However, E11 could naturally start during the meal. I should think about how to convey this in a way that feels plausible, using \"<\" to indicate the sequence. It's an interesting detail to work through!",
+    "reasoning_details": [
+      {
+        "type": "reasoning.summary",
+        "summary": "**Analyzing event relationships**\n\nI need to build relations between events and ensure plausible durations. For instance, E1 mentions an event since last September, which might have occurred before. E2 is about a planned dinner in March, which is later than the previous mention. E3 raises questions on when arrangements were made in relation to the blackout. E4 indicates the blackout begins an hour before the reservation and lasts until the next morning, so I need to clarify the intervals for E4 and E13 to understand their timing better.**Mapping event sequences**\n\nI'm analyzing the events from E9 dinner through E12, where activities are impacted by the blackout in E13, which lasts until the next morning. I need to establish a clear timeline for all 14 events, ensuring they are logically sequenced. For instance, E1 occurs before E2, and the plan in E2 comes before the arrangements in E3. I must clarify the relationships, like whether E4's outage is instantaneous compared to when E5 is called. The blackout impacts the sequence of events, and I need to ensure everything fits together coherently.**Clarifying event sequences**\n\nI’m examining the sequence of events, starting from E6 to E12. I wonder if E6, E7, and E8 can happen sequentially without overlap. For example, E6 might take time as it involves lighting candles while ordering. Then, E9 occurs after those preparations, followed by E10 when they arrive, and E11 after they've eaten. Since E13 lasts until the next morning, the conversations from dinner presumably happen during the blackout in E12. I need to clarify how the planning in E2 stacks against the arrangements in E3.",
+        "format": "openai-responses-v1",
+        "index": 0
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT1e6CEZLAKI9mklHZCVZ4SVC0DjoUz4NkGC0PTYoZ7LUv87MdB0Hj95HQLczd-j-pX0vlACjHv7AWxsFDEqHanoB5Cjd5LAM4BCUSOpPAa2XWvVfXL89HBTCdIAn4O_S83xozYj2hMTXIRjRxX_B3Huz_BaYJDCe1rAqSNcvG7fuF9J7oOSfLxn2DcebaroR4KCoglf8rU_GYJB2nxxz4EUJyoN0jvKmWg4y7t8RUGt45wdvR8RYH6CDKgDu7btcE4lgcnSFFGVKwHnmk3od2unFRwcVn9cn7CC_kwSN4U41zBB0sY_IPowe2XA8O9HqGFUvtZ9OARqlDK6Wv1Olyg47zX0NrtjhaAuTDabYmvAar-wnLO8-XYySr1x17xw0FBzF1BsnsqU-OIzjLpqHV53Ycn8OOvN1vzWCDdGzDT4-FFOMr_7lWBxyhkFRcG5AAszqryXThyC_0rdP6JHnmz_WiPk6WwD8t0CyYl4nKMbLhw59-Y0vWeA8hX3KG0Xa1ykCBALwJ0OHAzEAF1UVGx8EBGJtEU13-f7sWOFKi-uPkHiw-KgzVCBs6FbNJRNGY95-vJscMgLPVEWhLPqHay9OPQwIaLQYzppRmc4DlPbmBxJdgCkSvcoROvafIcAr3K5XR-tlvWZRxhwDzk40tSg8XCC8rFVCCJqwp-3467zZ-i25HaZ2qDCh_i3r55EVszjzJzpqoTBMSaXli-8OCEKZ072ZU02HXn2rFoy216yf1ZT_yKaqimRroz5ehicqLmmrsOwuiMM8HqYk9arspf2Yus3kFmms2lzOgt3WiMTwVSncpPOVUIaRsorVjWpLUU1sYTZpvvE9xbHWzIi38yTDKb6SCWyzYdglgGn42DoLqg3Go-G6B-maSKPLJIrHWCHCGSOLja0X0SxSpyxR8k47q5KZGFRyH72y3Ooswas1FGO02XhreRb2QBGdz08_sw4cHhCDyhMdYp1lDfp01e0yECGZkelnfogurWgJ_EKIub_p-SoeDupAufr_RMXdGo7NBQMvmXYBJtjkOFEcJsM-q5qQgfWBrT-tk-cTReH98U8UZ3KYqSQyouOpjI-l-wAY849KUGV7qgdgZ-DkKX-VJ-DF-d-7Vm5oJTiCULdg75B2YwHc-0cgWB5OIb7ctAgt-yurUhFNvJTSwpXhrYHqxvbIkzB3KrOHyKQKSwZtUQyMX2g0VTOtCvUMPATZzLbPhrgTQ3gTMrcTj0TkyyzJ1vbj-Nll19HGM55uD4-0yivHHyyZnOuHoE71jJShM1aXGBZtdRa1M2f3giR2lS2l187drOGPIb6POdXSj7Inu7-E4_0WXuqRcHBJRxCnBPrBgVnUAbPx4niVY_j3TS2edm32ISZr7B7j3alnwK35xmy1xWkqDTQynDMf4iRa1_rtLVYWPMMatQwWlhb5K6eHVxBYAWT-6gBJVh91UVFcKKx5P3qVjZklkOgAJuPRvK8SOYrxlIB2-NZRPWT7WbmI7f_kTx4xafEebv5u3jAbcSWYGGeO-Oily-GdI6JKlsUTd7otXECMihD_yEMjvjg2pwQV64ND_1QLcnB1cbRJgVQeO4yTviXll-uzLGfXYdU2Sucy9KegurwNhz9cXsuJaI5aLva4yWunguPDhjG1gOHTI8AICyPu1ucx-zkApiYAgFGsnk09_mhyKN2P06MJOAjM8SOIoskxFWQqYEPdgoH_HLDsU2TLUERGowyUqbUWA9LWr1f2nOcc74CZcl8MTETm_Q51jDzRIPVU0RPnTOzB09smvjwpjyHw7K2ONu7QfNRHzdO3Cse7HoTZwhysRJw7GR9IRQmjIXOp5H_Tots7YYcr8HP5u1rCY08UscDBwN0I7p6Ar0vfPLwpw5-9FlJwfTafjMJCjglZq8SscQYhuVYM6n1p7iv3_QUb07forztLnza2J3hNLTnWk5ItIcVHqXyHVJw-oxPHmGm6t4pZx_Z_VvRZkkzV6Mymg5gCLf-cRSZg8F9JZgZFXbAAoxTKT1BS2a5Q5c2c-OwWDn9JRVtRRgvGcgw3M_J5uoItvsJbcOeBoc9n-9Kb4qEtFVLBeBCRA0387WMidYCGh1dLmJeeYP9EUKt7bE-rZxN9Ik8KeGPV76aFQ7ioavmQG_WbDLbkKOYaxa79DWJNWN9kwPTcuHDrAvCMFdPPXvwnE0RjWhzHBny5nhc3u7afjZ1rYgy_Y_RGwu571dM_CSWboEQRD6HsMqqpqAV2wh-_JjGQi2sK-4Gtt0ctoQAn_SX54lcaOz7SwVlAmWBtjXX1fMt4M6xonKcaBxJwkcY61XGWA447II4K5F9ZdI31VjTb-spXRYC0f5W8JvO4At8IvKQg-ZvBm44NGJEPYresXJLHLuAO0usk3oiSsnag_31BZkAbPlcImsyapxWGxGRy83wQgNrsDGr5M0iAX9LK41_zzG7YbPraGjL6-y2ChZffOfPvDr1Va-7VG-rqTh_nd6WqdrbiSuiHaYD1XKitmxz59L2nSUWmtf65U9Qonf2sZATJLjM3M3JOWEU5FzIPmxyTLI5AulP8sYp1DvQCMAszevktFmBLUIQ36boJshhEwR1076Z1tfCSTueuNo8HtVwuq4gfjxlmJLEyV4kP8Qyg63Ln4VHqLdSKaBhTuV8X7zw2YsafZxtAhmjiwPV0UijavB-VUFQhbLdvjIP7R0c-hgIR8t_LZZC1HsRY7WKVR8hSftT9VhYpIHPmRjrYKSu8CaVg1-ozYpCp7IzA_JXkBbf_-xUkELKx8E8G_OyuQjWqLx2BBhDFP4ZLEuJBjKHhltfo__JTcnab1N00MIV2ViXCWtW5jGrkBHu9TqiDctnqPaUExRyIluVom81qj4N_98P5myYXYw0x1Cco29aSg7qbaIPKIxxMt_4JahvCmNYVVDU2u2RyafoxTGFgUv5SELRhObrb4jp8T6dUU7XsWhyeVmQ0iZ8aRMLtPJ_FL6JAN1SGUgeTPXX4bneet2DepgiAKs06X9g9tDLilguKZRGF6Eq16I_RAstLzk2ijydLKYyW9aBNIAhrJQw9Ko6CF0es6eGi7LbYWoMF3AiKCdbmJbxw0HqUkutFx-pGedLXE-SYK3ZNOgDSU0Wr5JxO0rRmEF0_gR8apvrRYr3I2Y9vj3zbQ3799PkMODyZ6V1cTZyEHxORVRX9ZFz-vbfyZJD5eCPDXqI_hnPFnwHnuXvRWtB6_zl2_5iY39Tk1k__4iapM5behW5WEb9Jk7YF-ST0_EhHwK2TZWEOpMR0JLsHPRFEQyhevyLaz5Lwef7GhDQzlIHkFNwEspRZirbP5tbCnBX36xeXLSjtNm1I1TrxHCRu7aakIxWf616w1OQt0Ni376dxTFxCJFj9MAsyLVYpxCTrGiKiQHl0S3HK4n75xNuwwsCjyvQesjkZtieZJi0uLXiR2I5qUOf4wccGBX4FekiU-ilxwjRcbz3vgeCk8FDlV1tt-OsiW0q5uhJBbv0N91OBP5H0z_b_0LeDb4PoQmwkYfzoPciAYVtnPZGszu80vWDQqdm2upo0l-qXmDw1C1JzOLDA_8OX0KuqoholKiSroGR710qiz5i7I_OJ_c1XXWZMsKQKysSb6aikYoOJo73s3_C30CPTBBX3RwX7Yc9SEUS6bqr_fzDY-IvFB21Js2AH55yu5rPGLWtOJYkzHKI2DDn0COXYaMG_gFZteJdm49SCxgPdY2MDiWITQYcVhJ9SxMtIlookQ23wc4eDv3cYU_TbJRCecZgm1m5uAK9Z5ycSHi_uimTmwAKfX41q0ammb-eRX4UV23OSv67Sn0L90RgtvpcHDiR99X5G5bmpYmjqhZGbmSNzAIhpWJEBpSYHE_1w4tHINHu44s3N-XE5VXAzmJuJ42ndyfEwUfW66hb2AAcnm9xlbOa7nPAVUeEGbcDUzsZ8BOhcNoRIBGTMeLgzXur8cxdFfMZgcac89y29J3zY9kYg_vnl2EzQlsvjc1xnS9n4GsoKTadNzqZIj6wPxDKFnuBwqGcKZ4fM7t9M6-MQn9ya8WxqdjOsXFyF6ApB0GnCFZL9dMZ6-2U5Mx4WZD92NUTsohSg1i_88_W_VNMVmkuv3GBLKaRxwe5AEHz9H-2uwp3cP9i81jFna0YZNxHATFA8tGes86BQchYU6fzP2lEoPWB69i3Td208_tPU-9DuybTjTYasDPnYgprE0cEauSq2tFTHFi1_HldJA4qAaGNRtD3nMvNMJBmDLd1Mts3G3vgzcDEOZZbH3wVD8X8OYMJ_VLqhLkaB0fIdcMQonQGv6Qtl9Y3jyMQzuwfKW-FsCbKoCl7CzcePrlpQHAa8rDF4lTKJRAizbJmxuJqT25wV8IUZ5hqKn8OxDuUJvYUoHNtVWmh5JUeAobj3mM=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0d38287def9d9f43016ac53d56202487d1a4104228517a3eca",
+        "index": 1
+      },
+      {
+        "type": "reasoning.summary",
+        "summary": "**Considering dinner and conversation sequencing**\n\nI had dinner and then talked for hours. I wonder if dinner could overlap with talking? The phrasing \"They ate dinner by candlelight, talked for hours...\" suggests a sequence where dinner happens first. However, E11 could naturally start during the meal. I should think about how to convey this in a way that feels plausible, using \"<\" to indicate the sequence. It's an interesting detail to work through!",
+        "format": "openai-responses-v1",
+        "index": 2
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT1h-tkAzLO2E9C1p2ELprUE2yGJYF1QKTXagchHZd53_avOJESmFfshyzc0x6mvlMl3ZAOUn4a9_s1XZStsOR664b9PerpHJtSSl568GwDbVIP_RPO7thFItS9eKtdzi3SE1nKYlHbplg4M82ys1spY5WBrF_g66_sAa94xZgAhAz5O0jF5LGh51tJ54BIUWlQiFdC0BZ9FXNxtmJr35Opp0Ng2u912Hp_4egoBrtTwq2q5T3zTNu706NnxyFbJcAsCy9_DZpflB4ng4C4Sw3q6Fpc4kLPAybK_ckerWhTdPgXdUS7GUL6_rY8RNMy6f1sg7_v83W4R3B3FQdcFl3TD_tODqBRC2QEGybZ80e24XocoiXr62oMAtQ0nT6owguysQARGl_WoQwsK7-JV2lJAveV8c2YYcovacmFeoKQIBdyn-Xf57r7kBuoaTdtWK_YXYXDUUrpS6SUbNPgRYfOIsHd32oJDbu6eyWxaZe8ALaog2_2XN_ZB5H4sjFnMCt_Y9P5mQXvLw24AstXRau0WfExmqYgmbfPyqPiRx7bygAzLKp2q2r8D4f85ogI0EQ9ZgAsrCJuTodEqoQf3_W1AL2uOn3k30c_LAghlzJWewdZwKW_n_r5pPL6kTNHal1EwXB5nt-ZPr31d5pRevGzt5IJjcCMX6ZpihMsBslXoD6RUdk7QcNOsYLwDw2DHvbuEs7jl4IRlKJOUcd3UNBQcL9d4xGf2fJl6_6bGkL57C4-8M41gajRxfRKVcVN9G2k1F9kdZMYNn5QxNiGIelwVmULA6akHTSxWyzKTsDHX4FjreuxwlogrC4Q7NU0qUX0G-Dc_3rvINlpYM0qLjA6DaigSVXaev29tbPSSQTe-CEUVwenZaoYw51_vnQXHHZo2Bb-7_WIJ8IQFxxCHFAu4ZwGWrWDkPgMcXw0FIQ1kP5D2qB1OUKi2BJQOLl3sGP6ufdrdb0MjhJKpTBCkDQUlu9GEbFu7aSIRoTL2SpfdhvLwqb2AMZkZYCrsesttMNCIhgpMScMXzK6TkNCg9sahtniTyg47SnoaQUh6bbVB36XSeEF4u8_UlgXWIN8yztJks1J1LaWM5IPl7yzp56fSvXusmwWqqJyXiGNRHyGvyKJlBOA_9g7l2lY1WJ5TU13nHGTU6coppbNDhPHyTNfy8sqK4ogx-5VZIKfNNrsN1Y5hMrnCUmzf0R_ne4D1oeJHquxvKX6GW3GctD_2-6OT9tydaY9OYI90wtW8rZOcsSEy-NQg3tny0-4FVVoNWqVOxIn2Ep7sFIknZUIum3hFFa88NTG8OPWHYUYndRYOLJi6abV9QK2j5UYanZ5C-P6VsbOQHLqhSeywD1Bk5PaLgcwOR03EPOGfZWkxFk1kIMwB1y7QRJzYYE_jYmg-Xip47GbWSzjjj1e-awYQiwNQxPTUYobwSlGXRCil1h3XWsz1koHfYLXL1d43qfAEvtjCRrGijSupp0pYZ2AbnyzAv-2SOA4Wu9glkPTNx54-4c44gIviTaxuSLc2CE258GPq-JV7NfVeUCrmdoxZ0kC61iohJPNb4vqWg3sagxjKskoqV8kI5vupE9-SeT3kdG47S1ZKxMWDNMjjgAM1wZzCd8yKJ57ppPNnacB-jWUX6_ltNVqBeFK1CfQY-XfKfGJ76jB0D9F8jHKlVTNFoMEql-MHWTE9cdPKttwq_gNbuM_vjvoNsxj0OHyeh7tQxLsrU4WZwOyYujB5tSfKX2nQHP9ASGcevWq5u-bmTYNmhGMCPi4hB_q75Can7YiU48e0avmZqyhKsFE4tqvabTKZHTW5r552gStVkuazXUlhQfL1efE2tYWC1hALG6RW1_jz8SO_A4pA-95lVQW4NSDhCoJm_HfMWqo4eW1BvHS1Z7Xlr0gaeSSEk_PrUsvCoVy1x90JhC23S2g9yHsUQ0p6aiOuqSh8ZABVeww1BItxnWur6r_yPlEtQD420RyXFxT1KLkVjK1lZgws4lqcCr633VIMTEnT_O_RtaBPNCb7F9inPMBTTl1eMxmuSv6_OqsAndGMIR5cDes4oyNWHnuwrs6edK6fnZ1aIf50q12d0IM_RhNwog4RIiIJf3JXChAyfWFiGeGxgMvlbs4g48B5YZUjSPvJd2AwzMO2yYVMwSxcaMf1V35qkEHqXPx3P1uQ8w-Wr6x_WEA-xfHnC-vL3QkuXYW9cjnyJ_BGO5DvFmysw2XK5sLygyAuGoAbrCYVxagPifXjFxyNwyPq5LMvOUz5R8tbMJ-kQL697JRYGBsQjVGEhTgAE6cRcHaXG0Ne5nnT-Ehv-6Y2Eq_-YJORP-bCrwY5l-gQQwFL-xTFaBcLFKgeVPELdAaiEjcKX9BkroSxnpv2XPof_mVEP7NTMFqRAVj3jqT0jNtYIbm2aBYlLVlIsTFYCButq3OiNtF0dSGjtqpnuygXkA556B-U03G3mH61fzlvURtPWk4nQuCNkSwvMPK7YI97yYaPChFY_Nm-zVZTqvh91i8miwoewoFcRIgDyNniQRnuoaWNYNjTSQSD3F38DY3Kx2taeS7tK1vO7PesGW-iJy2ZLUl1wpDdjtbI60omNW26UIGJFNBCmt_b9VqVQ7amaPbOW1YhSdI86HP_TQBICyziclCvwaIqrs4fbUB4T8jXHM06X5X6ze9LbQpqAiKfvDT94DKvXf1UKORKXBxLAvq_cCvXkemF0QOzN9KmtftG8lzZCmFCXNb86_VXv6sV6hARWGOWKx6VwBOOVpBg0f7WVMDF-ffx6ITXa0Tvvd--LYqpuYrsk6Vc30tMCPpYE58ofYYKFvUlfviKP-Hx0CQNXwtZq55cnVBWSxYahHSEVYYrxqJFMFwtGfo-JCp0D2G-sZJqJGTyhygdj8UZazDLIL6-XoEbHR7TEcpTwTu40T4oBvqP_asyGQ2Dja_sDFVt1FxlSwyw4EPAzUkcteSdCqR5j5gvxMIND2vAGpnYGF_fjgTrqXTGiF-Wpp801f-4EA37K1qwmbVo942Qy70G3pbI9nOgwblyTwAGsnW3gEAk9q243NclLo5fZqPN59et3Mv1y4Gn3KhLaUnNEfUDgd7B3T_LZ4t2sjVQRzxqnnRLZnVsR18H1qvv8KmgKwL8MpsMlVlW38WddL_0TLEQF_ya9B-mAI-3RBMf5WIuclmmvFd61tvCkc4bCfaQ8YCNN98J_lM-Cb7O0PLAsjfuAjUxjI0q2YbIm9C6X1eXzYBQECT97ou6Y7vfdZt4RCpJvbUkNl65f_vMSVsaW8aIktd9MA-hlrQmQiUi0ahhSOXxXp0r2s4vAj0nKX8k4u_BU3O-6YQFPN10klnxSuKMNqwkeIzFJ6_6H8OQpXMqMGM4JA_g4XFVwJE5a8iodieugorvmQPsfD0RuCIWARlKaP9wgzlXizGCks0WhcV0t5sv3xhRQAhbDB-ErKe42rUelyLXuCo5P9YvxdigtS1PLcZoF5xCVvpdYqn2Ms5W5hH7KKV6q67m1U8OoyMhj8WudQm-486WNzdHfeWAdulgI0s51eM810Sc9iBuMID4LwX3j4aYOi1uAjOwv3Pn9_2x18wXYDzbcGHxUIMl1P9qK2gt97MF7EVI1iSnYYLPCYQgNfX5brqIKke7zCGUL_c2TrZhpKhji-JARJMDzTFhvW-LSsuEVPHiIHzi0eCUKfBXfhG_a7D6Pkj9o46WfYV-okJGPetft_MolKVZwhRrKMV3-g5OJ1bVBUROujTE_DfRyI8-84PV3RZIVsuoop6MLtA-KU10uzFzbh8LpbBpt8y8_vgmKOluwaMeG78Yc2zbuUPEG9jqYE6XW4eRmpojpFG-dNLfz0ZD1xuc9XwVRtoCOXTI6IMsh1N1adpMdlW2nxelmkmJX-zSq_rhDFIKMSGTE6t4vYDVIiSFg_GulDhptayTcXtCRrZRQW2RT2rj-9E=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0d38287def9d9f43016ac53d5e063487d1a407acd7571813ee",
+        "index": 3
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT1jd8jswaJrKpDwCgfDgjeMjfvbyWiefEDoglm_WnINE1q5xziQ3z4oA8Nka2ir6ZtgGRlrisgFPc4sH92IzT-JaoQSw6a9FXWJMM-URR04fryfQIGk1f3dG--KLmodvhYJ4VXdFN_esA578UA3l5UXz7JpmxPgfOw2-2ulAKHM8ueq1G96RexKc2TnJ5qe0DewaCQ3FH97SE_y0oYM8TUBzydGjvC_WcUuMd7yxZrxlzZlqxK90zCavEvaLBxlhCWxsr23TEvV6ST2Ilj7D6rObpUfjQrkXtW1ekHDJoZDOKq_kO-lMKzas1dyJttE86Lmvf8fRUVvLORcRKImkVfIGuEJmPTHrLDXSKTcdG4F22WZQ3FLzpEGSWFOnbuGO8eK3aAVkTu30G1-eGMbAWePDCXUO8ifux7iieNIUqtFQUxbtPqV7SKjoSU-MNpvVVAjulOh_bCap3nkArKBtKidege00IjMZI6MMC7XEb7hI2AM2m1ke6Unvb0G8kJJmge36HQ3gg9EreafDUT2XVndcPqdjZbJhuv7HkmQZTEvhTLeCV2dKghRlq_RNnyTLB8y-9V_oYHgqd-JfJE4zhp0ndueZWz8tmCF_NJvtw6ZXeSalj6DG9XxT0CCZndXGOv4tmYAuPTFGne5VrVlyeICFlztr21rdTLzzKuFi9lWlSxLihtJlE-oHmMbe69pXkOCjQKhEdDCOv7Qtfsv0J9ugFIkl2XtWoUk6_W-fR42PskOZ5G9b3n4K0iJsllEYHytjpwzDnuahH3C45exn2gtpbSGP6Gt41XXlWXp3BTpYmO2PRO17_W7fqmeKoYcCB_pxsx48ihQloMy9H9bNSjKbRJSQ3Q5ffG0zVQpogZpdQCCPgtOvwxFnhV4rY6sM5ZeOAi62w_UyZvcWtBSN7CQHhqziRxEKUAbBM0koZl3mKCQQwp8ZbSMmCeuV47loEco4zOp_dvZ-PzDB6PXQOeuOc0wRwlKqpuzHyIrE-MrLXVi2kkuJPAYGDWN-4hVWMpO_RorHSbp774lpN8pAuBbvsrcxEPfROraxWxmOku0kEoi8pS8kgP7RzQiE6wWWOkrTrn25uiieIsL9gbIrNMtxsRNIaB5QRnsFhpPtNStYrRYqG2lCNXhhCQEkRLEn-UNIAVrnW2GDAiYPlv_SdGzaYKTk6DlcJ_Pfuqf3_u40j5oEXJDq0-gHclSQB6D4d59gLOb9j469FZl5vxrS_9SzSHA8XIGgmQ3kujvubpDt2E_-KPkulmmIY7dqZukRP8AvkJSiOtayTMLLmQ-JGeZZmhFvahKYYfktsl7XkUia1L_EW3GgCZQab0JA_dUuy62C_KEdmdoC398eXQALbW8B_B67YQ_wIeQMhZu8mNyixBjah300noY2O7w-v_9Q00IhE3b-HlIZsvMtSfXW6pxBn7uU4pcKReqp0F3yTXM5EgzHS-7XYWbTDHbF51-OjMGNi5xB7BnmfhjT_AjbfAu-koBgploL_JeL01chFxSnN-xOh6aWov6Gxirnr_tYGay81zdJYQtbaLqWKfjlYUMrry2yw__PzAomH7rNF8SkEeZYXOabv6dKszACW4VaUnRIp8pzIuYjMS9IAStyWpQsyXL3ULLC7IQiI1yUwKdn30aA1XXajAEXpeOY-yB4SFWSgiGHN4YIQ6PFcN1EaAN4KfM8FMSOzUBnTPcoTRJJ3A8AKW24dn9N-sUK7AcAhoS0iH2_UTqg_OBeq2yJ8iSNQV98qBJXCtOF7zgdeFmJ0H7XYyXhO5yiD9edkOBE-zYEX2l2IrOFDwVm5W4FuoQr56yxk2eXffwkDUv22wAQjTVAnWlqH0qvIUd3FcEHIkkBw_epVRFAFndhK6sMmBVu0OB31s60SxTJyMHUiKAw8QitgXLf1k0mXR4F5PWOi_r7VD6jq1ML4hCPpWjiyozzkdv05RESaw6hvcSBk1rNGs6d_suEeWY01wgNrJG_rh1NooE-rt8USqrrdVe8hrxKMl4aNEqjbC6Gt165Pgn6o63QtkNhHTDWJpB-HZGFLPpo4sAMGn6ZN4q0Kmm-U4-8GmZImoeJSGhhhynPdFZvSkDNaX7N-SxElvIefBdUywhS8c6wjswbUnMHdet9wrwx_uQYZ1ti95OTIzSDO9htS03Yy2K0PAPq2e0FTUAKUewG1aqbK6IxZh5Rqfshg5JUhrWGrTbNqnomwGPLGOeY6_T-bznDKjW5KS6CINr-S4FjlKu9A0EdeqWQK9vchobl25q8dPtnwL8-jiwzeiuPdU5IQtShYlSxW1sdmCqSQ8DOLoTDs7xq70AxYpjVSZAysJ3_-2qOKY81v-IaRiPpkWaTLGe1ldziIxbDn4RICig1ixvUQ0rvHNM2I6cWRGk_tBtLasC-NFcjq4Hldc77nP0ZP8fqLqvZN8dVcbUWysILiZSo2VUrsYNHWHGF09HkUt5J4vHSs0dK0-0CxlSM-BJTbmYMm_DJrRU_U6rhrQoSR_F6UEuE5G1CcTChmD8I-2IMEEyrtqHyNzfLhhMbFrDTVT4TpCAmzGA5sHSJgU4.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_0d38287def9d9f43016ac53d615fa487d1870e84b2a9630dd2",
+        "index": 4
+      }
+    ],
+    "latency_s": 16.954
+  }
+}

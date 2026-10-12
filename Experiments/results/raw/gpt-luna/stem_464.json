@@ -1,0 +1,113 @@
+{
+  "final": true,
+  "model_id": "gpt-luna",
+  "model_key": "openai/gpt-6-luna",
+  "item_id": "stem_464",
+  "stem_id": 464,
+  "is_primary": true,
+  "event_ids": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10"
+  ],
+  "prompt_sha256": "f25ddb3abf60e40c1eda3388a24730d07824aa033b1d85444bdccc6f04d2a2ce",
+  "prompt_file": "prompts/stem_464.txt",
+  "request_params": {
+    "stream": true,
+    "max_tokens": 65536,
+    "reasoning": {
+      "effort": "medium"
+    },
+    "seed": 20261006
+  },
+  "session": "20261007_001955",
+  "started_at": "2026-10-06T18:34:57Z",
+  "finished_at": "2026-10-06T18:35:16Z",
+  "attempt_in_session": 1,
+  "attempts_total": 1,
+  "response": {
+    "finish_reason": "stop",
+    "native_finish_reason": "completed",
+    "usage": {
+      "prompt_tokens": 884,
+      "completion_tokens": 1838,
+      "total_tokens": 2722,
+      "cost": 0.000997326,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0010074,
+        "upstream_inference_prompt_cost": 8.84e-05,
+        "upstream_inference_completions_cost": 0.000919
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1696,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "provider": "OpenAI",
+    "generation_id": "gen-1791311699-Tni6uEXdDQgvOhNcDW61",
+    "model_served": "openai/gpt-6-luna",
+    "error": null,
+    "done_marker": true,
+    "bad_json_lines": 0,
+    "content": "<matrix>\nE1: - < < < < < < < < <\nE2: > - m < < < < < < <\nE3: > mi - m < < < < < <\nE4: > > mi - m < < < < <\nE5: > > > mi - < < < < <\nE6: > > > > > - d < < <\nE7: > > > > > di - di < <\nE8: > > > > > > d - < <\nE9: > > > > > > > > - <\nE10: > > > > > > > > > -\n</matrix>",
+    "reasoning": "**Mapping event intervals**\n\nI need to figure out the intervals related to a timeline. Access to E1 is granted seven days before the opening, but the intervals aren’t clear. Access seems to start right away, but how long does that last? Likely before all activities begin. So, E1's access is at day -7, but what about E2? It’s presumably built in the first 48 hours after access. E3 happens on the third day, and E4 involves drying after painting on day 4. Let's keep clarifying this!**Organizing event timelines**\n\nE8 finishes when the last book is placed, while E9 starts five hours later. E7 occurs throughout days six and seven and likely ends before the opening ceremony, which happens after day seven, with access granted seven days earlier. The schedule outlines E1 at day -7 and the opening at day 0. E9 happens three hours before the gates open, indicating E8 ends five hours before E9. With E8 likely starting around noon and lasting ten hours, I need to clarify these overlaps!**Clarifying inspection timing**\n\nE7 lasts through day seven, and it looks like the inspection might happen before the opening. So, E7 probably ends at the very end of day seven, with the inspection scheduled three hours before the opening. This suggests the opening ceremony likely takes place after day seven. I need to ensure that these timings align correctly and clarify the sequence of events leading up to the opening!**Analyzing event timings**\n\nI'm considering the timing of events E9 and E10. E9 happened three hours before the gates opened, which might suggest a link to inspection intervals. There’s a gap of five hours between E8 and E9, and E7 could end on the seventh day. If E7 ends before E10, it could mean the inspection takes place close to the opening. I’m piecing together how all these event timings relate, focusing on their order and gaps.",
+    "reasoning_details": [
+      {
+        "type": "reasoning.summary",
+        "summary": "**Mapping event intervals**\n\nI need to figure out the intervals related to a timeline. Access to E1 is granted seven days before the opening, but the intervals aren’t clear. Access seems to start right away, but how long does that last? Likely before all activities begin. So, E1's access is at day -7, but what about E2? It’s presumably built in the first 48 hours after access. E3 happens on the third day, and E4 involves drying after painting on day 4. Let's keep clarifying this!**Organizing event timelines**\n\nE8 finishes when the last book is placed, while E9 starts five hours later. E7 occurs throughout days six and seven and likely ends before the opening ceremony, which happens after day seven, with access granted seven days earlier. The schedule outlines E1 at day -7 and the opening at day 0. E9 happens three hours before the gates open, indicating E8 ends five hours before E9. With E8 likely starting around noon and lasting ten hours, I need to clarify these overlaps!**Clarifying inspection timing**\n\nE7 lasts through day seven, and it looks like the inspection might happen before the opening. So, E7 probably ends at the very end of day seven, with the inspection scheduled three hours before the opening. This suggests the opening ceremony likely takes place after day seven. I need to ensure that these timings align correctly and clarify the sequence of events leading up to the opening!",
+        "format": "openai-responses-v1",
+        "index": 0
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT9b2cgZfzgbY4HXPQUu8IW4ZluBmrOfIBs_qx7uudoFFAg2xvpxD_C2Kau8LzKgREwLW0TIq98MlaAT3pOLQxqiRaNGACuIJnWI8z1dHI7s8E6tJ7iWjr26imoOA1EusuXobNp_IDO-TNSFXnMlzuOxsNL16RxuArOpFHCdzcGwo6ezCsGxLiOHrFdCkTUsFtgaG8mJa2if2_7jcna32NSa_nrgvU8n4ZAvGDMJ3lKE-4RRLejdPDEXmBX5iQKxndRM2CbysVwJrXknoUjxjvSHk4IuMO5zjpDwKYtvJJVhfd4wKGx0qhH6u7D9p2ANYaw349ui14TwKwWGv25Ts9OgXHpyBNoVXvEuJ-APq62PINV1UGsUaR30-l7wO-O73EaZYoj7I6DYyCeCnu4lt_zbiZMWj97HBrymMrQxDrI4hb97-Dz9p5BLkMO2sfAb5-HspSkiDjpjHwW4oqBj6f75avYUwpWlnrdszPBzq8bzviJdXHLeHWza0U663thofVqEc3IlGpP3CzJWUAMPrrk2dEbm7om4ptgNcACC0N68nY1XDqAeqK5CBYATofEtNawp2kfVdqMpVpQncVZ6OyBetuDegDcqFauQMuJhDrAkkf1Xx4AS9FCnm2t_hSqHdDRoH85kwX6RvifbdU6Wnm98HK3kl2J3Mb0mDHmVjm7jGaA5eBqUQgFDMSuszNzyFjesDN6Gkb39la9wFxM-gvJbxtfzgvNtoyG3jBoun3T-7dqbfMt780GOTjMi_13EEl74bm1ovAI__AJyOUZqCeP6-GNl8rw9EfU3XOV7IhfXJS0iSuwo3jK5iE7cAhO-yrCGjsAiINm04lktqHbSTqULyG03ISCVdPIBiXoaNOQkgE3VOA_WFDTDKB2kz5RdXezPTtTKsLC_PHiMnGjb9ki-iEHnRJ8mpQ9JwEc3vfH6Uc6-zIK7x27s-N72dVbOAQaM5QGzMOuDs4dvPzF3_SK11srnr2Uf-9QvMG9ZwEEGLWdw1bGtKbdUAkQTOiZdBsw2IWAvXxcfgkmQAiBV-xBan_rMX8I5ZkylM4rTrB3grhz2O0KL41noXO7XWKCGJ0Nru4PG9bFmkIr1y2t39wAi4DMoK6QmO2Ph_Y5a-tLnm0rCItblEC2ze-1lAai5LNDTdui79YQfQBqPfp563C9ZYqX3Lc6LLFho4g5UFK-CoF7RfRyiNJ3gnz1u6GMNRqRTI34Z8uvapIlAkd0WM-Y5JhfbwDEzUF6q8ITIAr8sWVjjYQB4aMp-jTlnZ5HRcAdAJnWNsbuW524NeD8zEra_AI4ly5_2Vjkq5eoikFqLhrRxyWiTZbhZk46zSpAvZc3MQzIpDs4pgvqSF0AiB5oZwxq76rWBnlBebZ43xyB936vTrHuH5-xoFsyXvsjuSa8M0sR7c4iobOfN6XZUgdEejS1zex-BdG7GzJXt30POpekRVRDbSJ6A7gWFvR7gX9OiAdI_bmqUpR9KNNrdVB6pii3p010tOuXhd5-I0X3zIRrmwqV_UVydh92GdJAJzgncxH1QyxWLM6TDP_gJpyWTNCYCcqeNg7xYWzSo_u1QW_otSfTjtoKMKrvUOr6Gs2wCy6lVvqNOJtZR2b9ZZTpydMrJkE725Eakg8cdH0T3FJcOWRVsm_eWJalIaNjvraTVv7PwbBRj6ombkuDQ2m2kn643WEe9w8srp6mSFFS6YX-iU4LJv1B9-vThyD905dKVy5PUQrPtZnlFYErmiv2O8tPelkQZ7EtDSQKxB2IMOe49c-KUVQlqMXxQxmqNY0po41WHJ9pkQQ-IfRdj0TdYCb1Qz_fPTwx040IEp3m7xtL8zU1JdukuCl7grCwtOTDK3im8rDFkcyHFL3EriyuyiLkm0Dx5auCgklE2BY8Jq2V_SnkdnjTQV9g8dDlVkx1HOS3XqurqnQBIvxkslKLA2-eC9hivmrO5apg1igP16t-PnbAe3wm9tREpx7wJXs6_jCr9__5lX0WQqWKH_wAC_f4HNkHizIq0EV7_cqpl8iJAnjNbfu5DDIt7QrqckTcnDb5hfVdKA7jErtekBg5CLV4FAm2E5T2wINZgoasdrIIxgNu3cxE0RuuQ3JYrNOZx4hSZVxGysFP2tG_IJb8X_MOOYk0SuufBtjV4oxHP0WtK1joE6Q2jl3xPpGciqXkL5xzabakVu2V10AEcW2zrlr7LCcP0h0E_eLmSvqZwEmU5IRJ-eexeG3OE5xq00cumpWY2eznOxx8UPUNu0kecEtw2DgAJD_qMgS_pS_vTsa32pvEEqPtIL3fF6gngMSNuQrviIAGbdDHLWHuOpXgnQkx5KSP5wWjxpm7znmMSVHK_klYFZIZJnHzWl0zlKsRotNPLmCfcSH9li_mCcY0uhAZyTxGihHNIKnho8-eQVJCR-X5LqdarxyuX2wQDGcWeSIr3zQeLisMR-ZCA50D7II3Sh-m_WGBovp7aPzj8jFbZtaXE0XAyx6fsB8Jpkq-mWpB8Jh2c1sXCVVCcR_UuXD2_uM93DznYwhgRwUDnPUuvM8mPd-kPvbqOK5DZIt-BOBiDnq28nXrVnY2LZa5flhgmYnswEFzEBz0LYcL4PPO9NquRoUjV5Ax9VZpje1r5Ji-UxuI6kb3ZjtZfLtf5pCz20AwGRWzyPZx2_D0g_vh9OR-ZMzsAFC5EsO_JhVzDARb2El_FtEDna4Bs1CJTwuPAmRthN6Wfn0XETA9QdMN70HjsvxmuBsz6T-bJ0RprLuKWIEQ3EX6zljslwNsUFU1pZZAYOaWlwXiNBxWpV5G5aWG_3v_UlV5GLRXhMxj6Wvgb9VVFM3q_0u9QWRV42SgEGeHBhjqwv2iRIuY6pl8Ax4vghw5sG03JeXwIwESkiwjJ4HWwD-C8G4PkRNNjC_6AAl5ylMD2eByyjmwbBmUZXEMb4thRime6CnljBvCmLIB7qvH4k3Gr5p_O-hS0xzufTEFsRnUY2B4Y8Jm2aCPisRJ1qMur5mhjBDdS4QIuup5uRduusT0DkcjGBBpSCpGi1fPVpt4_i0iENFGPNaAetWJ9cEqQkwa6-3bqoIO8JOPxEJDoO-G6VCLcHJYAkiono5FUTVXDRoAe1Q7EJGD2hUC0eNRlR8jU_VvvUekpHnbCtD28lFANyS1RtMB7HlJJcNbQwWW-ifgLgXeLFVRk6o-ZLkpTs_2hhu_0xWYiKhivTzkLBv9kjJ3k4PjAWVdCh2AYkA4B0BjvhEstgd6uRmOO2-uuyyb_m1m32nXwQzI9qAnAbWPQ2Ft77DiaP6ei2bRf9ivh_x5XOUK3rlu3ggp4Knv-RrJXWoQxJyqewrnUr0udwIdJ6YhAxJnXxGxCmBV0EpHOX5ew9_fZxZq_2qbBp-6RexEMZ-lawBu6KtL7jt00OaTGot5Ed3IK1BzhWGpk5KW7TZl7UiSJ7byfzlzF_GXjDu9zuBKW0DXeG0HZAgWMpaeL_1wTE0_fY_vVsSTWdG0aI3gPa964TJaWl5UUIzIRxXuuV-knLaO893MtIruO177NnnfAQbSS9uUY3GYeSFmj_ocqS_tDvqiHJuFe-0A-AloPYw3-YH7uIZaWRiqj6i24LL0PVuiaytYBAk6ugWpEY3G_hxP7B3hUYkLnB2gN_5wqFgewdDFTq0FGpq0INP9TUjL16Yn-wp6dtw4MFiRVUM28_uM15rOSSIZZKwrn2yc9U6ECn8Sv3dE9Wr_RoiGlPJTDoNT1KuyRET5q1qZ2nPgAGPNSwTBrpqLQ4fSgHKuYvyZpPkHAVZEWJUaL437-8FGYwMl1Ux4wdEma-y1J91ao0hrESDauljMI11QiLs8ga03itbJY0IiP65zqxEq0v35wKUjiuCPblI7Cpvr1nOUSkwp0fv_6BBTCNSlXAzlXNla0yImhRSKOsMUi7D92C2NNluNWejUpHPw63yymOEJABIT9vZ1LA8pVsTWNu5oHI7W1_X8XxVZ7kvePEI7m-8XjeLOpRRZpV43ytMR_ZC_Q75OmpWVt06DxxekVcVVWOBcOic-sSK1VRQFzetWbbHCb8cG0WaRM2gOf6VL3I7mGx1EhGh-yY_86Te9AZKynHBiDqkg0q1j_VNHHoAgkw5bAIsyD9exIayxmLyHoW7q9A4Do-MgbqJjqIVWLBsCr1VC3E7LET_FJIUgFPF5j-7qLRQXcKqHA0vYyhY2HB-58x2HeGWY31OPmbScD-qUCICFxzxOrtRLzeW8cBcmo4fussPYrVQ==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_096954eab2f8c3ba016ac53f54db3c87d1a86399f9ec637bd0",
+        "index": 1
+      },
+      {
+        "type": "reasoning.summary",
+        "summary": "**Analyzing event timings**\n\nI'm considering the timing of events E9 and E10. E9 happened three hours before the gates opened, which might suggest a link to inspection intervals. There’s a gap of five hours between E8 and E9, and E7 could end on the seventh day. If E7 ends before E10, it could mean the inspection takes place close to the opening. I’m piecing together how all these event timings relate, focusing on their order and gaps.",
+        "format": "openai-responses-v1",
+        "index": 2
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT9fUv6T_uDvDJ9V2EsID99jSZLJ9lG9zYTnei2HPlCcBNET8ZCLcrjWc1oAGtxHa_WD0_-SNt66hNYUeUAm0tAJeSL_AT3KYa7pONwPw-jgArsE3rT7NrhbojteaJzTKG6eBIeSOflbpx7Z5gaVy-QvjwoK4PhbOUmr0yGRZqR9q6PvnUUE_A8qgtEBvAhiyrEU1mFCYQKLRyl5nDnV8ToKttGZkMqPlX202-CBgAL5ZGNvNwyMiaPOqiIwmVkTb0vCPSmTTFrTI2fsIMpRpStmZRQZJbI_xo2Y8DSJ3sn0lNCcE3e7PXYUd8XOV31IOuaBMcSPSgHRDzLKj_t0X4GLIGNS9OiBHqOvUjeIyqMOo81lox4XCGpVZrsMcf4TiYP04zEbSeqXVg-CsF81ZEwScRW6t7J6auXYO55ZbjVJoigrZvxEc-Gw71x-v9H3PHkHFLc0rYf_Lu6gTttvFtnVyojy059FI3w5IZrryaJSeeOd0uwcA7C79gt_yJB1SMwymLMItEB96q7puZCJJkFagJ0kmJZcjkmkOomKAqkV622v8JCKe4BQAylSzRcM50FNetvmhXdd_8Pm3N9XW9etaOLoOZAUtmO9TRgUfmcmBBq5P_g4XCaXR_856s5OpwfthGS9CPjv1x0YKhV5cBXnZwT92deiCOeUaRTNO5TJA47Ye7UeYzn7TRHiiPEu-jcgavFlZrqHrwkkW8dOQ2gozMj94fdnq1czUIyCXGI-3oVV_6vNpvh04JrYtWqIPSKigNtz-8b04HwytvJ2ICXDq3lt1S2SRlc6ESol7-2BYtunM-jO-rF1Dl5_3FcPUZYfHSUnkAVZc7WDZmwoQFN5hCqujYNo0f_j4f-bLB9Q0Cdy1N89C8U_Y_ABKsGwINTkHabOoGrfSl_dUA29jC5FEa39MyAoaAWEPm7FeZW0h6k0cpHylwW7CSn-4ybQWFsiRvm2XDSjY5jpPR6A3ml8UlYb7hftywtoMU_axdPn_vra9KaCRfPWsBpRzUwaXCL6l4ZLe3PGKsfdnZMIdpl5vegEtMA2EkdHdPStgkY1mwTwrdRmBd0gQolPbTWu9nRlOtNsj6Utm52gBLhofLGo8djuK_ke5TyMjFoC-mf9Q4Hg8S462ryUuyHkagUlo6lIWA-pgiKdv3dN1B0hRXqN-W-GZ_ndFRCSYu7STKIjbf2VaFEHyW6-TypbP2F-hvkOu_muMJq_GnpAJGkVukwlnnqlWtn0DmC3x8X4ijbqkxUMcSzT8ZRoceOwXrh0GpQsEY2S8aVhVbt8Chp9aszz-DN9KROKxcyySg-KxU6oQfx_-sAn5YViKl8zXP-dHNyIzv1j9-27i7qR6MoqoA94CPm3GssGnk_xbaVcJIJiNw-PvuTeOAGTOE9R2UX5YvL6ACILnF1PB-QFJz_pDwDDYuRO4-xbxoNszk9MY2Mcwk4Uk4rXjKFB7GoJhQUA781537wMF54FSjsjPWxasm7Ps7sFFbiCr45ZHocL3Qbs9j5nRdOhf3ehL3qPad2cPU3DJFjx8UZdHVgl5wwpggAsuD8kU__xy-r8OOaf1b06pc0_M3yKSL6nDG_k5KV9Tg-B-JVSEcgTG6d30sdIR5JUco_94EQ8MB4GSqe84RNxM69tILp5ZcnpbX6h4VQ4kWJoyBemCL_qzNJFLV84OACppIgKBON6_Hpr6PzmLNfkL7EGzs3G-ZCRTpikVc9ITJxbsYbL3tRjNhPtr7qi61y_6chMqV_pmnuiYHnzhW311LgSLGKav9Vlu4tfA4A0ZU7FqowbqPCH-lcFQBgdK_KQytNzuma4QsTfEr41IzwHME9kdytQzcEwY3EpPiRZUj3LyzwuUPWD6Xxn_a6RebgYDPgfwzl643WFo9HGhlSrqLi4-Nms2zAH9i-ki8F_F1qI-ntv3OWbT28SorzIIxHKTIhjaxZxYAVWlM-2WB-FQL3-t0w3bjDMzPNBrvn21AFFKeqVWlvdV0ByP71SXM2KkoyRsDB_9HIVxNkU8pH3NVAeoM6bwZRaI8zkiUz3P7DLgQ37TzdR-Xjf253HX_d1GSDU9VDpg04UUJ9J1kpEFgML_V-U2iSP-o54EPglukwVCqHNjm0e_FH6t5H0H0zBRSOYDJjrHhMDAoL-alSRd1yvWH1-lITEP_yPmhpaaxJleeU4RUPp1mkycPzwEXXPy0z9PxudB5pOtGcvq2zAp8Z9jPpf1goJSYw865b91LBpzX3cs8h90hnspMkxlYh_l2KraS1DjRuKJ6xoO8uC9FsgEGvX28PIB_JZec6S-ZvoTQKVQ7piBxncjZrxJ-z0v_xq0jrl5nztdugMz8MLMHpc4_N7ws5vfMGwU0x89Oo7-8GJYucpo0mjczkigOwL7EzA4uLn31suRfDQTVZOgN-pxhsSYLOYR7-wWb8LIlmvbmFPKR1mUzEM99GSPiK26trdqgmOA8urG6hwtFjWak4pWmMQHE1sHzYI4JBCpPQzbxEuWK8BbUmB-cBy92V3Z1wqOVo14mlkd6Owp-luZxJ4fCtzIVVmwDBEMHH0XIbZongwS_y-TLsDqW7PaT21DJZ_wDvPBOiiI0Vd9zn0oSBatuJ3bTU3lNTA2HHIdxBQTajCrUlpDUA7JWY7MkGVeJQu2RmZB5__y3ubB7_DNO8kuP_JPTV8cUWajTeGtZqNEe9DdaFgd7OATlgRlXrijCsQlqkL5C8xac38-3SG45CuGV9LXb9eVyNzwBdbrYSu-YJWCBN3uYD-OJsUmIhsWCr64rhs-uzHMTHAQDgVtn0aEJXjJOfqjf12EDnYCYY7kIduWHleZcDehWfuuVXnLT8aCP4f8MjlgfRXrZPz29_PTVbwaReBjj5wQfqGWOcJKHefuTVHkWJnNhi7QOy1l5Wzw-TL5Nq_p90lUags6rr-jEG0r2cBr7Yrn-2SXP86kESNGGNcUTuqDeYagupeHp7DnimXuTuXOl7kLjHJ-rpqGrGP8qWlVA43nTwFPHbzklVzRjzS2JXPdSOG05zo5FpkHM20T7rpGg1Ncfhh_lv4gc-U3rvqVb_So2sQYNdZPnupcFzrogKfvVMh6kSNLUIEQT5ARyLvgo2_iePiwrMgHT3fUAYSnjpCMeyfkBILUcGNVXMY1QK7cUHN4800By1hwvnIoBwRXdY9u2S_ksl5T4u9FZWm4F1ozNcPLhN0RiBRNP1iyPJimKgrbRQVa6zXZ035kljcXrQVA01HAzp7pvP2p7CY-P3io4es7MQN-O7kE5IA-ActCzpmk6zjer7BvQrulww0sOhoeHu87Nblpza85afmw4mcWLLFtwuBz7TJpyIPww6_-luxVxKgqexvDi7qx9bSkxaM-kXXVHdII-fIRnQnm_LjKWqpTp0IqRg7dFQFzhkFzZcQ7bpLml__Tz2ofegALsxbYt0i8fgsdgJWe-tqT3iXEtWeFMqOp6GCnvPdSkfHKziYM6R11c0vZYmT8fyWvDsvqfZPLbFpuCXxbqBPHgmfkIiOs9iNi6PfYaStomGLPxc-1BW0CMnpTdFbXAOT0-f07-nVBqK77_msGbeopyS5En8wDkylLxm8nTWWwkimkvkV_P-sOQaWdHNNIjfUy85rm5WdZ04gOaQxSE3RgcNldpN1CoUK45hozrtkz_lbmjcKkKADGeiuV32Mz5ILJrCyvq69LLs3IofX2uEAXRE_O6kmUl9OI0A04rZhwPWNSAyJKNewAjDVwXff3XjutCOlS2nMxEUoqZ6v3gnfaVwnY5Qvbb8iJ_Px-DIf6lV_y9LqBqnHxQ6uiBzMeSyuXyr0Dz5KuwP1Re16scUriY8WPd4eU3NZg8mP4fqkUmyRD87yuoiBPeb6-IdBIS8LQY8j5Wy5aHOGZceOwWNdWtspx1O9pm-VnBV8gKpzhyBpHIYYSO8WsAiloBrP_KlxpmGvKpg5OvW5_Zmkb8NZqoSq98LZ4N4W.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_096954eab2f8c3ba016ac53f5b1a7487d1a27ac96f4d72272d",
+        "index": 3
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT9imOKNjpgVqlrPFKzeqF-rQOUO3rHlwHEdM9L-TmsTuaU0oGPWhlz6bYGANTXliW1qNtrMeuatWnjCZj5XQOpa0Tpdmd9W_Z1yOvi0kmuGTkMaPkHUt-1za5A8MxwckLF3XzXMy-mQ8J9BkDOiiAdRK0EcHEKHjSdK-aKahioejIJI9AJCYonJ7pPCYO0xL4vqNwfT3dVXOA45desTmrhzWX6dnzgUQPJOWExqMlMQ8ZLPu9RQuwV0U6fp96CT1QNX75tmhXcFIvZS9kN0cgmwbfRqGXyOxXAF27Bn-vImce3gxf78SELOv51OTn69MRYxexLqPrTuT6dkNr1U3P2fxIdSnyUwkeDq3QsV5YAzGsQHWwyQ1DS-9I_3tfSahYWuaMZI9fXkXWRhf_YpJErawkd9BQbZUJnuOUYdPVU9BsRMnwA6FYMS9-FEXUkY3e7A10obaRmTVsF7RLgYyCikeQWE2aqOEFYosxf8ZS4O2UVy4xfbXAR98LVQMxACYJS-v8zx966bzo5mZSgEt7z14stX-w-tE66X6b9aVUAtBfyGB3FgxPQaXySmPkJYvuTyy8Ob86t0zf-ZHziDJVipAH6ssAyd4J-8ibVFBjbFL2qI2H-yF4SaueWCj5wHD1IZY7YhAIX_Rw4vl_ZF4H2f3LXd69q-tjhY_qCPVm-hzkz2gfk9iWks4b_ptGpfqyGXNs2Y8mzqilA4KpwnrhyfrMfY4pz3Po-gdjfobm_h5w_TUXLJSgUfeKFlDK7VDb4Cd6cLKEVLkeM97F_SwhYqDvh9G9tgP_2JtLlWSsP8zKduG673qAjmFr2WsQU3Lq0GHABGvdt2-VOk_5bnFcDy8kj-VDa2-mfUSy4RGKIai0oXu1JJ1fQx48ZdWXtkm4-VHcObevnucREug75sLMh0kl882-Jiy87jLJFGYz1mrWtAy96oCxKv4dRbRI5MyL7qyJWl3ZbSk62srBfzs6006G9bf5YRCwaBZ699e9J3N2awOh4xmvpwAq-lQANvYc44uLJsi2RrNzYkyiQPDAizeGxK-UGg7luHyxHXADwBRQnvKN13oeXU1jgMM5BiyNByf5mZIlwgsq01uCEYUZHD-06WTdEWzt4yj12QB5sh7gd9SDVnjM4GrbFKrrX5NpwUH9oVzMc8k-ua6rcXyb6UWlVVyprjacEOQ89X3RKOF8zp-3DzcUbHO-WORdPwOeTq-SnY41cZB9TQ9rhy4RA0FHcJWUPm6eaHrNNx4YSbmaegDNKfq7gA4kYGrL9NlR7tql3AThaH15-qSMcQBKvejjhiQNCHIS_qpBdPxWWT_ES7MxS2QaAXbnZ0B-0RWnhOed-KETfaxwVtKyIP_5Mj-698vQbq6ojcpZvZTzcYHMYaE-laUVjl5miqUL1WRqcx1drjR3ireCAeHyaIIfKfHwwx19sgXmrB4-n7oRz-zpXnFGQLZJBz62orn3wAOlXQM1kX1f2nxmg_KBW_2h8omgBNi-gl5zkloUtGbOrhSK3x8wCXKhIsfICF2O_OXqV9A38hddHlSBrNk-lh51CNZIc7LG08Rzia1UWEUwTDBJ1AIgtfQB8pje4s6rNfUEwK4NKegRh5m6DkmBin2TkvSU74FaB2veQu1DKvUvtCe1FhoG6JGlZN4jE6MYphZ7U9rT_u6VxSIU4zoMDdYbwmcYoAgIx7d581BY5iJS_J3byPEG00xJRz8SW34OIDnkPWRnCtbzFZuXkW3g7Fy-hXXybs3tzRYuXTeY2OBJEdVqrDUAvEnt0ydkrF1ZWMSMybc0aHk-N2aaQikW2Kr8Zfnmgf-nc0JmIzu34m6wVoCjGVPGF5Nd54aNTOgycxJJh3Lpa33ysIz_MCNJvTRX-nFFm2fHcX-L76fjwdlIKFteurK-2VWJrdSvAnII_07N9Lpzaj5MQcUawcKAv-NQqPYPfiT8oqNaoSkf9BxVmn43roFqCeTcPGX0fLZTIO6HtzrW7BH3WE7ouxBsfoYcG0N-oQBnP-7N8O7Q4glHiTZ3StSRquEJaU0qeQHV6JGZQGN4xUHyeORLS4q21n4MxafKp0vtc_hMYnBgmHsqY_Lkm9LMSPqEKI3fghjOsF_U1kpJcWhyfkCU7hUQwAbgWTPcdsCuDC0CqArHb9TzkvH0Ru1GW3W0tgh5Z3NbGxH99AOSID685-1XWuH6dju9tDaXwJ_j_j3SgtX3E7eI--hX1PFWZ0YhZF1m9oIhbMWsF3GHURX-NcymtwLaNEi6V6smr6mn1lU1SPMWcIO9YHOQjSLV4z1DQoLxljVEUXinhzr3wHgUPGRn4XNvXy72RpxzG8I2e5XCIWeRmnfIqLgNo_nK4WpttZUl6yhA-UpdpdgbgnddWURz7Py17LMLmG8tg8zfNAFIokOg1zAY2IomETHY0PL0k-r2zymjTe1ql1OcxiuCHUjrfQxIqHX_1nJW4HWL5qJgVs0-4eZv2p9Osy4nldCEcIzPI1_rH4ifcPpZLmanwwx0H38HBvSjtBnywbHkRq5tNlfzgbeumYEcMqAB2MnX4xeu0Np1UgW9nF5ixPdphVL9X-hyo7YPg4v90HbuDO4eBTBJDX40_Q8WjyOv2xdhIK0L4QCKWJIJ8-5Rk-8Dgm38JTDPo_MtTYAmTbpSl9u8XriCQ8ubzL3EMfkMWXXwHqQds-gq8JzmBxtXjULBMMNJLN_v25BeJNmcYQQelssMRJjecnZ1dm2fMrJI1hB6XWIh2ERIUM6hNoxOLbg82CoBCPApL0XPCA8AFWXahIYHwXBA5LPBr8u8RWp8Gof3bNRv_sxYJ0kQkR_MrzJU7RTrLsMXK7FYtrnH8hA_Lw6P_YrdgJTEGzcWEF9zmpsNn5jP4m2gbjlcMqjKVAEII9naEIdLYLThnWWw-hpksiTbiQunKNHZaMbR0XpFpyYV_OuULOdeD16I_um4_tM6uxAreNW8jOduBn9XvFYKkuBFev4DdEpPVd1gj2ZUurDenqqlM8JLA8HlinQG3nlZgOTPZVHiFaztZHO1de6KxYt5tSqcKeBDe_wXQYHsXqxd5nB6zQdzrdpdrrUHViKE-iH6HvgkySDz2dEC0j2MqRdQYsfmLHQvgsQyfLhBErIVoj8eXNShGiA5gyaQXoTXmEPSkIL-ofF-vaFN4EQko2U_0dgUufbY7WxRQ=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_096954eab2f8c3ba016ac53f5f6de487d19b8809d8b4d6e3e5",
+        "index": 4
+      },
+      {
+        "type": "reasoning.encrypted",
+        "data": "gAAAAABqxT9klG_YmAmz7yGsTbzP9ZC97a9pFV2LwPcQzqTLWVeKFwwYvggE25QFWnXkc4WKLXbT6c8mqc7ZSF4zfoPezYy-EXDMca4jL0JjZmxYCDcUCc0QBDDQVYzQ20yFUfmMd-3j6TSxH_X6Nb5ZeFR26Z1rOHQaSZ1RkmYLpZkBGyQPlM3_kGAYCeqXN1kvAvlhvUgXiLtYysIePBvq6-l7v2Aw7eauT4ldnP2bk8_RDTjG2uvci7iVUv8my7rGyTFsn_bAVCDnC8Ag-tuAUK_66D8qwRBQbrtpKIFc6bDp5Z5sYJuaH3NmOs_4ysA53qvN3G4EcWdWdT8vZJNc26wigAOttQBQxwqzFSZmulw3cKMig9UKEyglF93NjFm8Rm7Px1gY2uRhe0zz7ABxM-sZEilWt2_IPquyQeVneqRV9TPzML7dhymETuqeH4js0AxW5Sna2dh-b049RCFWKkBfHF9GSzV-mAJK60mljwJeb1q6EMPyzpbONLiDC8NU4VgEZqXq3fu8peYn5IYumCpaRc7FByYgRdOsC8qL0MB-PQ39yH5zUvF8GBdyDihlHdVZoYAjubCf7FHL8Ov2gjuJfvNnuKzgfKke4hjqA9_kbJQRgzgyI71sYPWoZDIqEyKl33x_SyDO57nJj3QoAnDzLzQo47_MkQMZPjefoQmU-m1WP_O_76d1uP_142xA443GOlhhCE-akwim-NLRRF6j6PHzMzFtpWNQhyI3-q9qvGpz0bexE_G7Pq16SERqc7PH-PFhHfLORGitLRNI2JXes3BY3rjM_bswR0uZbESCaOda-SFPPkq93P3pS1kAU3ly4yLqHjPucpjdnrudFeognnu1gL8Z4A_To2wpQSJnkeNN_n2Ks6DbNGdN1ZG7m1xK4rqzHs3GviHxuAnyNj6NgdN6FhQYe8aPPbPv_Qa9h1E1yzsL8KdRegzZ3mtM80u7lZf24EOs06Vy9nJayQke1po79GY_JwfV840ruy0L-BwdVllLPZ47oVt47gsxyCfnbNeRoXlntufdqCdeUG0ENaoxMXdoxqO6mkxdmkqkzSkcFE9VRhaGMrT0NxpBbbaRS_1cbBzcO1K_k5_ZLor91QB4-wXoEVzN4A_imenZ8xFwgpJpHZaiweh6HPW_tXPHjfc_CGwaYARYsj3X1eGQ-frN8JZ2fa9e3lGvNIcpho6mZRCVAWgTbaNyNY0mnoNx0_TdiWDk-OFH6qFBov5-0amXLAq-qX-S8oiTEAeEPdn5T02iCIYGGegOnmFPqAK9QxtYvwpvHO06XxZBOrV-yrnamYd5NgV4lCxKsAw6eWm1ZG7ts64Dalat7Kk2QkxhtRG04U-ybgwOyK1GDmZYPy7OWBsEgIUNggqvK_I_MDoelfgjIwlCiU0FIpCcj02KKnqR8dUsZA2IjwLDJRl2P5189JrWk48EdZluiywgZzvpRnYe0dVYGSdZes89Tp72_opVB0sYMmPtrq6Kc7OOHwGkAYBzRPQ_70t7vkFmaYs20u_9Ltd8wkUX8Y10oT-HzckQ9UjeCp_OhLHlXruQhyIoawkY7n3K9QeiVjrD8K6uBWCF3X5QcW_Cht74RiRX5CuhcAntRMR-OxJHBXiukR1ba3QiGHxtGHgpgWx97ige5f_gbBdhvfXERdAEKEsh34Idmd6cI3ecZ_LE1ud9TelW2GR1Yd_DfztVm_bO_B-ImmTFsm7yzzUDk2iUNB6GJg-aRVSVCmOyv2LXrGZ-J1gEWWluSFkErQgcOIXZ1F8LMqrkujhbddTFTjgJ1YljkUc6G-kThLgPYT62-JbRevYMm998ZveNY7ISsA6qWOcVjgEmoWnSI0l8qT9_tBs_ZJwFj2hrU7bEAOdoHCmOrsEHz70PFg50zLAsXENptghNSItyUQQ8nOI2HKvWJkMXIfKJhtrW9zq-N_JRzljOFb15xdUVRets9c91LaYTLI-cQwhDLuVunn8g-JnkB7wmDtrMBk22t_A_0XoZP7ZTC6D_wwQWCeuTsXJ2_Y_1UAR8RjXhzvWRyXTCzYC4Qbel3cu9wpHNCVYecypdcZMuSrl0LQ==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LWx1bmEtMjAyNjA5MjJ8b3BlbmFpIn0",
+        "format": "openai-responses-v1",
+        "id": "rs_096954eab2f8c3ba016ac53f62842487d1a733749c16f2acde",
+        "index": 5
+      }
+    ],
+    "latency_s": 18.703
+  }
+}
